@@ -108,35 +108,82 @@ const QUIZ_MODES: QuizModeInfo[] = [
   },
 ];
 
-// Alternative catechism answers for MCQ distractors
-// These are real answers from Catholic, Lutheran, and other catechisms
-const ALTERNATIVE_CATECHISM_ANSWERS: { answer: string; source: string }[] = [
-  // Catholic Catechism alternatives
-  { answer: "Man's chief end is to know, love, and serve God in this life, and to be happy with Him forever in the next.", source: "Baltimore Catechism" },
-  { answer: "God is the Supreme Being, infinitely perfect, who made all things and keeps them in existence.", source: "Baltimore Catechism" },
-  { answer: "There are three Divine Persons in one God: the Father, the Son, and the Holy Ghost.", source: "Baltimore Catechism" },
-  { answer: "Original sin is the sin we inherit from Adam, which deprived us of sanctifying grace and the right to heaven.", source: "Baltimore Catechism" },
-  { answer: "The sacraments are outward signs instituted by Christ to give grace.", source: "Baltimore Catechism" },
-  { answer: "We are saved by faith and works, through the grace of God and the merits of Jesus Christ.", source: "Catholic Teaching" },
-  { answer: "The Church is the congregation of all baptized persons united in the same true faith, the same sacrifice, and the same sacraments.", source: "Baltimore Catechism" },
-  { answer: "Prayer is the raising of the mind and heart to God to adore Him, to thank Him, to ask His forgiveness, and to beg of Him all the graces we need.", source: "Baltimore Catechism" },
-  // Lutheran alternatives
-  { answer: "I believe that I cannot by my own reason or strength believe in Jesus Christ, my Lord, or come to Him.", source: "Luther's Small Catechism" },
-  { answer: "Baptism works forgiveness of sins, delivers from death and the devil, and gives eternal salvation to all who believe.", source: "Luther's Small Catechism" },
-  { answer: "The Law shows us our sin; the Gospel shows us our Savior.", source: "Lutheran Teaching" },
-  { answer: "In the Lord's Supper we receive the true body and blood of Christ under the bread and wine for the forgiveness of sins.", source: "Luther's Small Catechism" },
-  // Eastern Orthodox alternatives
-  { answer: "Salvation is the process of theosis, by which we become partakers of the divine nature.", source: "Orthodox Teaching" },
-  { answer: "The Church is the mystical Body of Christ, the pillar and ground of truth, preserving apostolic tradition.", source: "Orthodox Teaching" },
-  // Arminian/Wesleyan alternatives
-  { answer: "God's grace enables all people to respond to the Gospel, but this grace can be resisted.", source: "Arminian Teaching" },
-  { answer: "Believers may fall from grace and lose their salvation if they turn away from Christ.", source: "Wesleyan Teaching" },
-  { answer: "Christ died for all people, making salvation possible for everyone who believes.", source: "Arminian Teaching" },
-  // Generic theological alternatives
-  { answer: "Man is basically good but corrupted by society and environment.", source: "Liberal Theology" },
-  { answer: "Sin is primarily a failure to reach one's potential rather than rebellion against God.", source: "Modern Teaching" },
-  { answer: "The Bible contains the word of God but must be interpreted through human reason and experience.", source: "Liberal Theology" },
-];
+// Alternative catechism answers organized by WSC category for relevant MCQ distractors
+// These are real answers from Catholic, Lutheran, Orthodox, and other catechisms
+const ALTERNATIVE_CATECHISM_BY_CATEGORY: Record<CatechismCategory, { answer: string; source: string }[]> = {
+  god_scripture: [
+    // Q1-3: Purpose of man, Scripture
+    { answer: "Man's chief end is to know, love, and serve God in this life, and to be happy with Him forever in the next.", source: "Baltimore Catechism" },
+    { answer: "The Bible contains the word of God but must be interpreted through human reason and experience.", source: "Liberal Theology" },
+    { answer: "Scripture and Sacred Tradition together form the one sacred deposit of the Word of God.", source: "Catholic Teaching" },
+    { answer: "The purpose of life is to achieve enlightenment and escape the cycle of rebirth.", source: "Eastern Philosophy" },
+    { answer: "Man's chief purpose is self-actualization and the pursuit of happiness in this life.", source: "Secular Humanism" },
+  ],
+  god_nature: [
+    // Q4-6: Nature of God, Trinity
+    { answer: "God is the Supreme Being, infinitely perfect, who made all things and keeps them in existence.", source: "Baltimore Catechism" },
+    { answer: "There are three Divine Persons in one God: the Father, the Son, and the Holy Ghost.", source: "Baltimore Catechism" },
+    { answer: "God is the unknowable essence beyond all human categories and descriptions.", source: "Orthodox Apophatic Theology" },
+    { answer: "The Father alone is the one true God; the Son is a created being.", source: "Arian Teaching" },
+    { answer: "God is the ground of all being, the ultimate concern of human existence.", source: "Liberal Theology" },
+  ],
+  decrees: [
+    // Q7-12: Decrees, predestination
+    { answer: "God's grace enables all people to respond to the Gospel, but this grace can be resisted.", source: "Arminian Teaching" },
+    { answer: "God foreknew who would believe and elected them based on that foreseen faith.", source: "Arminian Teaching" },
+    { answer: "God desires all to be saved and provides sufficient grace to everyone.", source: "Catholic Teaching" },
+    { answer: "Predestination is based on God's foreknowledge of human choices.", source: "Wesleyan Teaching" },
+    { answer: "There is no predestination; each person freely determines their own eternal destiny.", source: "Pelagian Teaching" },
+  ],
+  creation_providence: [
+    // Q13-20: Creation, providence, covenant
+    { answer: "God created the world through emanation from the divine essence.", source: "Gnostic Teaching" },
+    { answer: "Angels are mediators between God and man, and we should pray to them for protection.", source: "Catholic Teaching" },
+    { answer: "Providence works through natural laws that God established at creation.", source: "Deist Teaching" },
+    { answer: "God created all things but does not actively intervene in worldly affairs.", source: "Deism" },
+    { answer: "The covenant of works remains partially in effect alongside the covenant of grace.", source: "Neonomian Teaching" },
+  ],
+  fall_sin: [
+    // Q21-28: Fall, original sin
+    { answer: "Original sin is the sin we inherit from Adam, which deprived us of sanctifying grace and the right to heaven.", source: "Baltimore Catechism" },
+    { answer: "Man is basically good but corrupted by society and environment.", source: "Liberal Theology" },
+    { answer: "Sin is primarily a failure to reach one's potential rather than rebellion against God.", source: "Modern Teaching" },
+    { answer: "Original sin only weakened man's nature; it did not totally corrupt it.", source: "Semi-Pelagian Teaching" },
+    { answer: "We are born morally neutral and become sinners only by our own choices.", source: "Pelagian Teaching" },
+  ],
+  christ_redemption: [
+    // Q29-38: Christ, offices, atonement
+    { answer: "Christ's death was an example of love, not a substitutionary sacrifice for sin.", source: "Moral Influence Theory" },
+    { answer: "Christ paid a ransom to Satan to free humanity from bondage.", source: "Ransom Theory" },
+    { answer: "Christ's death was primarily a victory over the powers of evil.", source: "Christus Victor Theory" },
+    { answer: "Jesus was adopted as God's Son at his baptism due to his perfect obedience.", source: "Adoptionist Teaching" },
+    { answer: "Christ's human and divine natures are mixed into one new nature.", source: "Eutychian Teaching" },
+  ],
+  application: [
+    // Q39-44: Justification, sanctification, adoption
+    { answer: "We are saved by faith and works, through the grace of God and the merits of Jesus Christ.", source: "Catholic Teaching" },
+    { answer: "Justification is a process of becoming righteous, not a one-time declaration.", source: "Catholic Teaching" },
+    { answer: "I believe that I cannot by my own reason or strength believe in Jesus Christ, my Lord, or come to Him.", source: "Luther's Small Catechism" },
+    { answer: "Believers may fall from grace and lose their salvation if they turn away from Christ.", source: "Wesleyan Teaching" },
+    { answer: "Salvation is the process of theosis, by which we become partakers of the divine nature.", source: "Orthodox Teaching" },
+  ],
+  ten_commandments: [
+    // Q45-81: Moral law, commandments
+    { answer: "The Sabbath was changed to Sunday by apostolic authority and Church tradition.", source: "Catholic Teaching" },
+    { answer: "Images of Christ and saints may be venerated as aids to devotion.", source: "Catholic Teaching" },
+    { answer: "The moral law was fulfilled in Christ and is no longer binding on believers.", source: "Antinomian Teaching" },
+    { answer: "The law serves only to show us our sin; it has no positive use for the believer.", source: "Lutheran Teaching" },
+    { answer: "The ceremonial and civil laws of Moses remain binding on Christians today.", source: "Theonomic Teaching" },
+  ],
+  means_of_grace: [
+    // Q82-107: Word, sacraments, prayer
+    { answer: "The sacraments are outward signs instituted by Christ to give grace.", source: "Baltimore Catechism" },
+    { answer: "Baptism works forgiveness of sins, delivers from death and the devil, and gives eternal salvation to all who believe.", source: "Luther's Small Catechism" },
+    { answer: "In the Lord's Supper we receive the true body and blood of Christ under the bread and wine for the forgiveness of sins.", source: "Luther's Small Catechism" },
+    { answer: "The bread and wine become the actual body and blood of Christ through transubstantiation.", source: "Catholic Teaching" },
+    { answer: "Prayer is the raising of the mind and heart to God to adore Him, to thank Him, and to beg of Him all the graces we need.", source: "Baltimore Catechism" },
+  ],
+};
 
 const QUIZ_MODE_COLORS: Record<'easy' | 'medium' | 'hard', string> = {
   easy: 'border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/20',
@@ -342,14 +389,22 @@ function TheologyPracticeContent() {
   }, []);
 
   const initializeMcq = useCallback((question: CatechismQuestion) => {
-    // Get 3 distractors from alternative catechisms (Catholic, Lutheran, etc.)
-    // This tests whether the user can identify the Reformed answer
-    const shuffledAlternatives = shuffleArray(ALTERNATIVE_CATECHISM_ANSWERS);
-    const distractors = shuffledAlternatives.slice(0, 3).map(alt => ({
-      answer: alt.answer,
-      source: alt.source,
-      isCorrect: false,
-    }));
+    // Get distractors from the SAME CATEGORY as the question
+    // This makes MCQ tricky since all options are theologically related
+    const categoryDistractors = ALTERNATIVE_CATECHISM_BY_CATEGORY[question.category] || [];
+    const shuffledCategoryDistractors = shuffleArray(categoryDistractors);
+
+    // Start with distractors from matching category
+    let distractors = shuffledCategoryDistractors.slice(0, 3);
+
+    // If not enough in category, fall back to other categories
+    if (distractors.length < 3) {
+      const otherCategories = (Object.keys(ALTERNATIVE_CATECHISM_BY_CATEGORY) as CatechismCategory[])
+        .filter(cat => cat !== question.category);
+      const fallbackPool = otherCategories.flatMap(cat => ALTERNATIVE_CATECHISM_BY_CATEGORY[cat]);
+      const shuffledFallback = shuffleArray(fallbackPool);
+      distractors = [...distractors, ...shuffledFallback.slice(0, 3 - distractors.length)];
+    }
 
     // Create the correct answer option
     const correctOption = {
@@ -359,7 +414,10 @@ function TheologyPracticeContent() {
     };
 
     // Shuffle all options together
-    const options = shuffleArray([correctOption, ...distractors]);
+    const options = shuffleArray([
+      correctOption,
+      ...distractors.map(d => ({ answer: d.answer, source: d.source, isCorrect: false }))
+    ]);
     setMcqOptions(options);
     setMcqSelected(null);
   }, []);
