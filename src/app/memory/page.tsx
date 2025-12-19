@@ -107,7 +107,7 @@ export default function MemoryPage() {
                     className="cursor-pointer transition-all hover:shadow-lg hover:-translate-y-1 h-full"
                   >
                     <CardHeader className="text-center">
-                      <div className="mx-auto w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-violet-600 flex items-center justify-center mb-4">
+                      <div className="mx-auto w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center mb-4">
                         <BookOpen className="h-8 w-8 text-white" />
                       </div>
                       <CardTitle>Solo Practice</CardTitle>
