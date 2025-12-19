@@ -65,7 +65,7 @@ export default function MemoryPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-center mb-6">How do you want to play?</h2>
 
-              <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+              <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 {/* Create Room */}
                 <Card
                   variant="memory"
@@ -99,18 +99,25 @@ export default function MemoryPage() {
                     </CardDescription>
                   </CardHeader>
                 </Card>
-              </div>
-            </section>
 
-            {/* Solo Practice */}
-            <section className="text-center">
-              <p className="text-muted-foreground mb-4">Or practice on your own</p>
-              <Link href="/memory/practice">
-                <Button variant="outline">
-                  <BookOpen className="h-4 w-4 mr-2" />
-                  Solo Practice
-                </Button>
-              </Link>
+                {/* Solo Practice */}
+                <Link href="/memory/practice">
+                  <Card
+                    variant="memory"
+                    className="cursor-pointer transition-all hover:shadow-lg hover:-translate-y-1 h-full"
+                  >
+                    <CardHeader className="text-center">
+                      <div className="mx-auto w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-violet-600 flex items-center justify-center mb-4">
+                        <BookOpen className="h-8 w-8 text-white" />
+                      </div>
+                      <CardTitle>Solo Practice</CardTitle>
+                      <CardDescription>
+                        Practice memorizing verses on your own
+                      </CardDescription>
+                    </CardHeader>
+                  </Card>
+                </Link>
+              </div>
             </section>
           </>
         )}
