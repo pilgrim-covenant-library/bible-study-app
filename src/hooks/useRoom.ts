@@ -3,25 +3,40 @@
 import { useState, useEffect, useCallback } from 'react';
 import { realtimeDb, isRealtimeDbAvailable } from '@/lib/firebase';
 import { ref, set, get, update, onValue, onDisconnect, serverTimestamp, remove } from 'firebase/database';
+import { getRandomVerse, MemoryVerse, VerseTranslations } from '@/data/memory-verses';
 
 export interface Player {
   id: string;
   name: string;
   isReady: boolean;
   score: number;
-  progress: number;
+  bestTranslation?: string;
+  answer?: string;
+  finishedAt?: number;
   joinedAt: number;
+}
+
+export interface GameVerse {
+  id: string;
+  reference: string;
+  translations: VerseTranslations;
+  context: {
+    before?: {
+      reference: string;
+      text: string;
+    };
+    after?: {
+      reference: string;
+      text: string;
+    };
+  };
 }
 
 export interface RoomState {
   code: string;
   status: 'waiting' | 'countdown' | 'playing' | 'results';
   players: Record<string, Player>;
-  verse?: {
-    reference: string;
-    fullText: string;
-    translation: string;
-  };
+  verse?: GameVerse;
   gameStartedAt?: number;
   createdAt: number;
   hostId: string;
@@ -36,7 +51,7 @@ interface UseRoomReturn {
   joinRoom: (roomCode: string, playerName: string) => Promise<boolean>;
   createRoom: (roomCode: string, playerName: string) => Promise<boolean>;
   setReady: (ready: boolean) => Promise<void>;
-  updateScore: (score: number, progress: number) => Promise<void>;
+  submitAnswer: (answer: string, score: number, bestTranslation: string) => Promise<void>;
   startGame: () => Promise<void>;
   endGame: () => Promise<void>;
   leaveRoom: () => Promise<void>;
@@ -47,34 +62,6 @@ function generatePlayerId(): string {
   return `player_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 }
 
-// Sample verses for the game
-const VERSES = [
-  {
-    reference: 'John 3:16',
-    fullText: 'For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.',
-    translation: 'ESV',
-  },
-  {
-    reference: 'Philippians 4:13',
-    fullText: 'I can do all things through him who strengthens me.',
-    translation: 'ESV',
-  },
-  {
-    reference: 'Romans 8:28',
-    fullText: 'And we know that for those who love God all things work together for good, for those who are called according to his purpose.',
-    translation: 'ESV',
-  },
-  {
-    reference: 'Jeremiah 29:11',
-    fullText: 'For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope.',
-    translation: 'ESV',
-  },
-  {
-    reference: 'Psalm 23:1',
-    fullText: 'The Lord is my shepherd; I shall not want.',
-    translation: 'ESV',
-  },
-];
 
 export function useRoom(): UseRoomReturn {
   const [room, setRoom] = useState<RoomState | null>(null);
@@ -151,7 +138,6 @@ export function useRoom(): UseRoomReturn {
             name: playerName,
             isReady: false,
             score: 0,
-            progress: 0,
             joinedAt: Date.now(),
           },
         },
@@ -212,7 +198,6 @@ export function useRoom(): UseRoomReturn {
         name: playerName,
         isReady: false,
         score: 0,
-        progress: 0,
         joinedAt: Date.now(),
       });
 
@@ -239,14 +224,19 @@ export function useRoom(): UseRoomReturn {
     }
   }, [currentRoomCode, playerId]);
 
-  const updateScore = useCallback(async (score: number, progress: number): Promise<void> => {
+  const submitAnswer = useCallback(async (answer: string, score: number, bestTranslation: string): Promise<void> => {
     if (!currentRoomCode || !playerId || !realtimeDb) return;
 
     try {
       const playerRef = ref(realtimeDb, `rooms/${currentRoomCode}/players/${playerId}`);
-      await update(playerRef, { score, progress });
+      await update(playerRef, {
+        answer,
+        score,
+        bestTranslation,
+        finishedAt: Date.now(),
+      });
     } catch (err) {
-      console.error('Failed to update score:', err);
+      console.error('Failed to submit answer:', err);
     }
   }, [currentRoomCode, playerId]);
 
@@ -254,8 +244,16 @@ export function useRoom(): UseRoomReturn {
     if (!currentRoomCode || !realtimeDb || !isHost) return;
 
     try {
-      // Pick a random verse
-      const verse = VERSES[Math.floor(Math.random() * VERSES.length)];
+      // Pick a random verse from our database
+      const memoryVerse = getRandomVerse();
+
+      // Convert to GameVerse format for Firebase
+      const verse: GameVerse = {
+        id: memoryVerse.id,
+        reference: memoryVerse.reference,
+        translations: memoryVerse.translations,
+        context: memoryVerse.context,
+      };
 
       const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
       await update(roomRef, {
@@ -314,7 +312,7 @@ export function useRoom(): UseRoomReturn {
     joinRoom,
     createRoom,
     setReady,
-    updateScore,
+    submitAnswer,
     startGame,
     endGame,
     leaveRoom,

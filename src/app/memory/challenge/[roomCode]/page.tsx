@@ -1,49 +1,15 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff } from 'lucide-react';
+import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff, Send, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
-import { useRoom } from '@/hooks/useRoom';
+import { useRoom, GameVerse } from '@/hooks/useRoom';
 import { isRealtimeDbAvailable } from '@/lib/firebase';
-
-// Create blanks from verse
-function createBlanks(text: string, difficulty: 'easy' | 'medium' | 'hard') {
-  const words = text.split(' ');
-  const percentages = { easy: 0.2, medium: 0.4, hard: 0.6 };
-  const numBlanks = Math.max(2, Math.floor(words.length * percentages[difficulty]));
-
-  // Use seeded random for consistent blanks across players
-  const seed = text.length;
-  const seededRandom = (i: number) => {
-    const x = Math.sin(seed + i) * 10000;
-    return x - Math.floor(x);
-  };
-
-  // Pick indices for blanks deterministically
-  const indices = new Set<number>();
-  let attempts = 0;
-  while (indices.size < numBlanks && attempts < 100) {
-    const idx = Math.floor(seededRandom(attempts) * words.length);
-    // Skip short words
-    if (words[idx].replace(/[.,!?;:'"]/g, '').length >= 3) {
-      indices.add(idx);
-    }
-    attempts++;
-  }
-
-  const blanks = Array.from(indices).sort((a, b) => a - b).map((idx, i) => ({
-    index: i,
-    wordIndex: idx,
-    answer: words[idx].replace(/[.,!?;:'"]/g, ''),
-    punctuation: words[idx].replace(/[^.,!?;:'"]/g, ''),
-  }));
-
-  return { blanks, words };
-}
+import { calculateSimilarity, SimilarityResult, TranslationKey } from '@/lib/similarity';
 
 export default function ChallengePage() {
   const params = useParams();
@@ -59,7 +25,7 @@ export default function ChallengePage() {
     joinRoom,
     createRoom,
     setReady,
-    updateScore,
+    submitAnswer,
     startGame,
     endGame,
     leaveRoom,
@@ -69,16 +35,13 @@ export default function ChallengePage() {
   const [playerName, setPlayerName] = useState('');
   const [showNameInput, setShowNameInput] = useState(false);
   const [countdown, setCountdown] = useState(3);
-  const [timeLeft, setTimeLeft] = useState(60);
-  const [answers, setAnswers] = useState<Record<number, string>>({});
-  const [localScore, setLocalScore] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(90); // 90 seconds for full verse recall
+  const [userAnswer, setUserAnswer] = useState('');
+  const [hasSubmitted, setHasSubmitted] = useState(false);
+  const [localResult, setLocalResult] = useState<SimilarityResult | null>(null);
 
-  // Get verse and blanks
-  const verse = room?.verse;
-  const { blanks, words } = useMemo(() => {
-    if (!verse) return { blanks: [], words: [] };
-    return createBlanks(verse.fullText, 'medium');
-  }, [verse]);
+  // Get verse from room
+  const verse = room?.verse as GameVerse | undefined;
 
   // Get players list
   const players = useMemo(() => {
@@ -135,35 +98,40 @@ export default function ChallengePage() {
   useEffect(() => {
     if (room?.status === 'countdown') {
       setCountdown(3);
+      setUserAnswer('');
+      setHasSubmitted(false);
+      setLocalResult(null);
     }
   }, [room?.status]);
 
   // Game timer
   useEffect(() => {
-    if (room?.status === 'playing' && timeLeft > 0) {
+    if (room?.status === 'playing' && timeLeft > 0 && !hasSubmitted) {
       const timer = setTimeout(() => setTimeLeft(t => t - 1), 1000);
       return () => clearTimeout(timer);
-    } else if (room?.status === 'playing' && timeLeft === 0) {
+    } else if (room?.status === 'playing' && timeLeft === 0 && !hasSubmitted) {
+      // Auto-submit when time runs out
+      handleSubmit();
+    }
+  }, [room?.status, timeLeft, hasSubmitted]);
+
+  // Reset timer when game starts
+  useEffect(() => {
+    if (room?.status === 'playing') {
+      setTimeLeft(90);
+    }
+  }, [room?.status]);
+
+  // Check if both players have submitted
+  useEffect(() => {
+    if (room?.status !== 'playing') return;
+
+    const allPlayers = Object.values(room.players || {});
+    if (allPlayers.length >= 2 && allPlayers.every(p => p.finishedAt)) {
+      // Both players have submitted, end the game
       endGame();
     }
-  }, [room?.status, timeLeft, endGame]);
-
-  // Calculate and sync score when answers change
-  useEffect(() => {
-    if (!blanks.length) return;
-
-    let correct = 0;
-    blanks.forEach((blank) => {
-      if (answers[blank.index]?.toLowerCase().trim() === blank.answer.toLowerCase()) {
-        correct++;
-      }
-    });
-    const newScore = correct * 100;
-    const progress = Math.round((correct / blanks.length) * 100);
-
-    setLocalScore(newScore);
-    updateScore(newScore, progress);
-  }, [answers, blanks, updateScore]);
+  }, [room, endGame]);
 
   // Check if all players are ready to start
   useEffect(() => {
@@ -175,22 +143,22 @@ export default function ChallengePage() {
     }
   }, [room, isHost, startGame]);
 
-  // Check if all correct - end game early
-  useEffect(() => {
-    if (room?.status !== 'playing' || !blanks.length) return;
+  const handleSubmit = useCallback(async () => {
+    if (!verse || hasSubmitted) return;
 
-    const allCorrect = blanks.every(
-      blank => answers[blank.index]?.toLowerCase().trim() === blank.answer.toLowerCase()
-    );
+    // Calculate score against all translations
+    const result = calculateSimilarity(userAnswer, verse.translations);
+    setLocalResult(result);
+    setHasSubmitted(true);
 
-    if (allCorrect) {
+    // Submit to Firebase
+    await submitAnswer(userAnswer, result.bestScore, result.bestTranslation);
+
+    // If both players have submitted, end the game
+    if (opponent?.finishedAt) {
       endGame();
     }
-  }, [room?.status, blanks, answers, endGame]);
-
-  const handleAnswerChange = (index: number, value: string) => {
-    setAnswers(prev => ({ ...prev, [index]: value }));
-  };
+  }, [verse, userAnswer, hasSubmitted, submitAnswer, opponent, endGame]);
 
   const handleReadyClick = async () => {
     await setReady(true);
@@ -318,7 +286,7 @@ export default function ChallengePage() {
             {room?.status === 'playing' && (
               <div className="flex items-center gap-2 text-lg font-mono">
                 <Clock className="h-5 w-5 text-muted-foreground" />
-                <span className={timeLeft <= 10 ? 'text-destructive' : ''}>
+                <span className={timeLeft <= 15 ? 'text-destructive' : ''}>
                   {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}
                 </span>
               </div>
@@ -391,7 +359,9 @@ export default function ChallengePage() {
               <div className="text-9xl font-bold text-memory animate-pulse">
                 {countdown || 'GO!'}
               </div>
-              <p className="text-xl text-muted-foreground mt-4">Get ready to fill in the blanks!</p>
+              <p className="text-xl text-muted-foreground mt-4">
+                Read the context, then type the target verse from memory!
+              </p>
             </div>
           </section>
         )}
@@ -399,116 +369,209 @@ export default function ChallengePage() {
         {/* Playing State */}
         {room?.status === 'playing' && verse && (
           <section>
-            {/* Scores */}
-            <div className="flex justify-between mb-6">
-              <div className="text-center">
-                <div className="text-sm text-muted-foreground">
-                  {currentPlayer?.name || 'You'}
+            {/* Opponent Status */}
+            {opponent && (
+              <div className="mb-6 text-center">
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted rounded-full">
+                  <span className="text-sm text-muted-foreground">{opponent.name}:</span>
+                  {opponent.finishedAt ? (
+                    <span className="text-sm font-medium text-success">Submitted!</span>
+                  ) : (
+                    <span className="text-sm text-muted-foreground">Still typing...</span>
+                  )}
                 </div>
-                <div className="text-2xl font-bold text-memory">{localScore}</div>
-                <div className="text-xs text-muted-foreground">{currentPlayer?.progress || 0}%</div>
               </div>
-              <div className="text-center">
-                <div className="text-sm text-muted-foreground">
-                  {opponent?.name || 'Opponent'}
-                </div>
-                <div className="text-2xl font-bold text-muted-foreground">{opponent?.score || 0}</div>
-                <div className="text-xs text-muted-foreground">{opponent?.progress || 0}%</div>
-              </div>
-            </div>
+            )}
 
             {/* Verse Reference */}
             <div className="text-center mb-6">
-              <span className="text-lg font-semibold text-primary">{verse.reference}</span>
-              <span className="text-muted-foreground ml-2">({verse.translation})</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-memory/10 rounded-full">
+                <BookOpen className="h-5 w-5 text-memory" />
+                <span className="text-xl font-bold text-memory">{verse.reference}</span>
+              </div>
+              <p className="text-sm text-muted-foreground mt-2">
+                Type this verse from memory (scored against ESV, NIV, KJV, NASB)
+              </p>
             </div>
 
-            {/* Verse with Blanks */}
-            <Card>
+            {/* Context Verses */}
+            <Card className="mb-6">
               <CardContent className="p-6">
-                <p className="verse-text leading-loose">
-                  {words.map((word, idx) => {
-                    const blank = blanks.find(b => b.wordIndex === idx);
-                    if (blank) {
-                      const isCorrect = answers[blank.index]?.toLowerCase().trim() === blank.answer.toLowerCase();
-                      return (
-                        <span key={idx}>
-                          <Input
-                            className={`inline-block w-24 h-8 text-center mx-1 ${
-                              isCorrect ? 'border-success text-success' : ''
-                            }`}
-                            value={answers[blank.index] || ''}
-                            onChange={(e) => handleAnswerChange(blank.index, e.target.value)}
-                            placeholder="___"
-                          />
-                          {blank.punctuation}
-                          {' '}
-                        </span>
-                      );
-                    }
-                    return <span key={idx}>{word} </span>;
-                  })}
-                </p>
+                {/* Before Context */}
+                {verse.context.before && (
+                  <div className="mb-4 pb-4 border-b border-dashed">
+                    <div className="text-xs font-medium text-muted-foreground mb-1">
+                      {verse.context.before.reference}
+                    </div>
+                    <p className="text-muted-foreground italic">
+                      {verse.context.before.text}
+                    </p>
+                  </div>
+                )}
+
+                {/* Target Verse Input Area */}
+                <div className="relative">
+                  <div className="text-xs font-medium text-memory mb-2">
+                    {verse.reference} - TYPE THIS VERSE:
+                  </div>
+                  {!hasSubmitted ? (
+                    <textarea
+                      className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg focus:ring-2 focus:ring-memory focus:border-memory resize-none bg-background"
+                      placeholder="Type the verse from memory..."
+                      value={userAnswer}
+                      onChange={(e) => setUserAnswer(e.target.value)}
+                      autoFocus
+                    />
+                  ) : (
+                    <div className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg bg-muted/50">
+                      {userAnswer || <span className="text-muted-foreground">(No answer submitted)</span>}
+                    </div>
+                  )}
+                </div>
+
+                {/* After Context */}
+                {verse.context.after && (
+                  <div className="mt-4 pt-4 border-t border-dashed">
+                    <div className="text-xs font-medium text-muted-foreground mb-1">
+                      {verse.context.after.reference}
+                    </div>
+                    <p className="text-muted-foreground italic">
+                      {verse.context.after.text}
+                    </p>
+                  </div>
+                )}
               </CardContent>
             </Card>
 
-            {/* Progress */}
-            <div className="mt-6">
-              <div className="flex justify-between text-sm mb-2">
-                <span>Progress</span>
-                <span>{Object.keys(answers).length} / {blanks.length} blanks filled</span>
-              </div>
-              <div className="h-2 bg-muted rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-memory transition-all"
-                  style={{ width: `${(Object.keys(answers).length / blanks.length) * 100}%` }}
-                />
-              </div>
-            </div>
+            {/* Submit Button or Result */}
+            {!hasSubmitted ? (
+              <Button
+                variant="memory"
+                className="w-full"
+                size="lg"
+                onClick={handleSubmit}
+                disabled={!userAnswer.trim()}
+              >
+                <Send className="h-5 w-5 mr-2" />
+                Submit Answer
+              </Button>
+            ) : localResult && (
+              <Card className="bg-memory/5 border-memory/20">
+                <CardContent className="p-6">
+                  <div className="text-center mb-4">
+                    <div className="text-4xl font-bold text-memory">{localResult.bestScore}%</div>
+                    <div className="text-sm text-muted-foreground">
+                      Best match: {localResult.bestTranslation}
+                    </div>
+                    <div className="text-lg font-medium mt-2">{localResult.feedback}</div>
+                  </div>
+
+                  <div className="grid grid-cols-4 gap-2 text-center">
+                    {localResult.scores.map((s) => (
+                      <div
+                        key={s.translation}
+                        className={`p-2 rounded ${
+                          s.translation === localResult.bestTranslation
+                            ? 'bg-memory/20 ring-2 ring-memory'
+                            : 'bg-muted'
+                        }`}
+                      >
+                        <div className="text-xs font-medium">{s.translation}</div>
+                        <div className="text-lg font-bold">{s.score}%</div>
+                      </div>
+                    ))}
+                  </div>
+
+                  {opponent && !opponent.finishedAt && (
+                    <p className="text-center text-sm text-muted-foreground mt-4">
+                      Waiting for {opponent.name} to finish...
+                    </p>
+                  )}
+                </CardContent>
+              </Card>
+            )}
           </section>
         )}
 
         {/* Results */}
-        {room?.status === 'results' && (
-          <section className="max-w-md mx-auto text-center">
+        {room?.status === 'results' && verse && (
+          <section className="max-w-2xl mx-auto">
             <Card variant="memory">
-              <CardHeader>
+              <CardHeader className="text-center">
                 <div className="mx-auto w-20 h-20 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-500 flex items-center justify-center mb-4">
                   <Trophy className="h-10 w-10 text-white" />
                 </div>
                 <CardTitle className="text-2xl">
-                  {localScore >= (opponent?.score || 0) ? 'You Win!' : 'Nice Try!'}
+                  {(currentPlayer?.score || 0) > (opponent?.score || 0)
+                    ? 'You Win!'
+                    : (currentPlayer?.score || 0) < (opponent?.score || 0)
+                    ? `${opponent?.name} Wins!`
+                    : "It's a Tie!"}
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-4">
+                <div className="space-y-6">
                   {/* Final Scores */}
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-muted rounded-xl p-4">
-                      <div className="text-2xl font-bold text-memory">{localScore}</div>
-                      <div className="text-sm text-muted-foreground">{currentPlayer?.name || 'You'}</div>
+                    <div className={`rounded-xl p-4 ${
+                      (currentPlayer?.score || 0) >= (opponent?.score || 0)
+                        ? 'bg-memory/10 ring-2 ring-memory'
+                        : 'bg-muted'
+                    }`}>
+                      <div className="text-3xl font-bold text-memory">
+                        {currentPlayer?.score || 0}%
+                      </div>
+                      <div className="text-sm font-medium">{currentPlayer?.name || 'You'}</div>
+                      {currentPlayer?.bestTranslation && (
+                        <div className="text-xs text-muted-foreground">
+                          Best: {currentPlayer.bestTranslation}
+                        </div>
+                      )}
                     </div>
-                    <div className="bg-muted rounded-xl p-4">
-                      <div className="text-2xl font-bold text-muted-foreground">{opponent?.score || 0}</div>
-                      <div className="text-sm text-muted-foreground">{opponent?.name || 'Opponent'}</div>
+                    <div className={`rounded-xl p-4 ${
+                      (opponent?.score || 0) > (currentPlayer?.score || 0)
+                        ? 'bg-memory/10 ring-2 ring-memory'
+                        : 'bg-muted'
+                    }`}>
+                      <div className="text-3xl font-bold text-muted-foreground">
+                        {opponent?.score || 0}%
+                      </div>
+                      <div className="text-sm font-medium">{opponent?.name || 'Opponent'}</div>
+                      {opponent?.bestTranslation && (
+                        <div className="text-xs text-muted-foreground">
+                          Best: {opponent.bestTranslation}
+                        </div>
+                      )}
                     </div>
                   </div>
 
-                  <div className="text-left space-y-2">
-                    <p className="font-medium">Correct Answers:</p>
-                    {blanks.map((blank) => (
-                      <div key={blank.index} className="flex justify-between text-sm">
-                        <span>{blank.answer}</span>
-                        <span className={
-                          answers[blank.index]?.toLowerCase().trim() === blank.answer.toLowerCase()
-                            ? 'text-success'
-                            : 'text-destructive'
-                        }>
-                          {answers[blank.index] || '(empty)'}
-                        </span>
-                      </div>
-                    ))}
+                  {/* Correct Answer */}
+                  <div className="bg-muted rounded-xl p-4">
+                    <div className="text-sm font-medium mb-2">
+                      {verse.reference} (ESV):
+                    </div>
+                    <p className="text-sm leading-relaxed">
+                      {verse.translations.ESV}
+                    </p>
                   </div>
+
+                  {/* Your Answer */}
+                  <div className="bg-muted/50 rounded-xl p-4">
+                    <div className="text-sm font-medium mb-2">Your answer:</div>
+                    <p className="text-sm leading-relaxed">
+                      {currentPlayer?.answer || userAnswer || '(No answer)'}
+                    </p>
+                  </div>
+
+                  {/* Opponent's Answer */}
+                  {opponent?.answer && (
+                    <div className="bg-muted/50 rounded-xl p-4">
+                      <div className="text-sm font-medium mb-2">{opponent.name}'s answer:</div>
+                      <p className="text-sm leading-relaxed">
+                        {opponent.answer}
+                      </p>
+                    </div>
+                  )}
 
                   <div className="flex gap-4 pt-4">
                     <Link href="/memory" className="flex-1" onClick={() => leaveRoom()}>
