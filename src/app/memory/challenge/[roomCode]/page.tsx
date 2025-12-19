@@ -1,19 +1,20 @@
 'use client';
 
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff, Send, BookOpen } from 'lucide-react';
+import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff, Send, BookOpen, ArrowRight, Crown } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
 import { useRoom, GameVerse } from '@/hooks/useRoom';
 import { isRealtimeDbAvailable } from '@/lib/firebase';
-import { calculateSimilarity, SimilarityResult, TranslationKey } from '@/lib/similarity';
+import { calculateSimilarity, SimilarityResult } from '@/lib/similarity';
+
+const NUM_ROUNDS = 3;
 
 export default function ChallengePage() {
   const params = useParams();
-  const router = useRouter();
   const roomCode = params.roomCode as string;
 
   const {
@@ -27,6 +28,7 @@ export default function ChallengePage() {
     setReady,
     submitAnswer,
     startGame,
+    nextRound,
     endGame,
     leaveRoom,
   } = useRoom();
@@ -35,13 +37,13 @@ export default function ChallengePage() {
   const [playerName, setPlayerName] = useState('');
   const [showNameInput, setShowNameInput] = useState(false);
   const [countdown, setCountdown] = useState(3);
-  const [timeLeft, setTimeLeft] = useState(90); // 90 seconds for full verse recall
+  const [timeLeft, setTimeLeft] = useState(90);
   const [userAnswer, setUserAnswer] = useState('');
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [localResult, setLocalResult] = useState<SimilarityResult | null>(null);
 
   // Get verse from room
-  const verse = room?.verse as GameVerse | undefined;
+  const verse = room?.currentVerse as GameVerse | undefined;
 
   // Get players list
   const players = useMemo(() => {
@@ -62,7 +64,6 @@ export default function ChallengePage() {
       return;
     }
 
-    // Check for stored player name
     const storedName = localStorage.getItem('playerName');
     if (storedName) {
       setPlayerName(storedName);
@@ -77,7 +78,6 @@ export default function ChallengePage() {
     setIsJoining(true);
     localStorage.setItem('playerName', name);
 
-    // Try to join first, if fails then create
     const joined = await joinRoom(roomCode, name);
     if (!joined) {
       await createRoom(roomCode, name);
@@ -94,15 +94,16 @@ export default function ChallengePage() {
     }
   }, [room?.status, countdown]);
 
-  // Reset countdown when game starts
+  // Reset state when entering countdown (new round)
   useEffect(() => {
     if (room?.status === 'countdown') {
       setCountdown(3);
       setUserAnswer('');
       setHasSubmitted(false);
       setLocalResult(null);
+      setTimeLeft(90);
     }
-  }, [room?.status]);
+  }, [room?.status, room?.currentRound]);
 
   // Game timer
   useEffect(() => {
@@ -110,25 +111,16 @@ export default function ChallengePage() {
       const timer = setTimeout(() => setTimeLeft(t => t - 1), 1000);
       return () => clearTimeout(timer);
     } else if (room?.status === 'playing' && timeLeft === 0 && !hasSubmitted) {
-      // Auto-submit when time runs out
       handleSubmit();
     }
   }, [room?.status, timeLeft, hasSubmitted]);
 
-  // Reset timer when game starts
-  useEffect(() => {
-    if (room?.status === 'playing') {
-      setTimeLeft(90);
-    }
-  }, [room?.status]);
-
-  // Check if both players have submitted
+  // Check if both players have submitted - end round
   useEffect(() => {
     if (room?.status !== 'playing') return;
 
     const allPlayers = Object.values(room.players || {});
-    if (allPlayers.length >= 2 && allPlayers.every(p => p.finishedAt)) {
-      // Both players have submitted, end the game
+    if (allPlayers.length >= 2 && allPlayers.every(p => p.currentRoundFinishedAt)) {
       endGame();
     }
   }, [room, endGame]);
@@ -139,29 +131,33 @@ export default function ChallengePage() {
 
     const allPlayers = Object.values(room.players || {});
     if (allPlayers.length >= 2 && allPlayers.every(p => p.isReady)) {
-      startGame();
+      startGame(NUM_ROUNDS);
     }
   }, [room, isHost, startGame]);
 
   const handleSubmit = useCallback(async () => {
     if (!verse || hasSubmitted) return;
 
-    // Calculate score against all translations
     const result = calculateSimilarity(userAnswer, verse.translations);
     setLocalResult(result);
     setHasSubmitted(true);
 
-    // Submit to Firebase
     await submitAnswer(userAnswer, result.bestScore, result.bestTranslation);
 
-    // If both players have submitted, end the game
-    if (opponent?.finishedAt) {
+    // If opponent has already submitted, end the round
+    if (opponent?.currentRoundFinishedAt) {
       endGame();
     }
   }, [verse, userAnswer, hasSubmitted, submitAnswer, opponent, endGame]);
 
   const handleReadyClick = async () => {
     await setReady(true);
+  };
+
+  const handleNextRound = async () => {
+    if (isHost) {
+      await nextRound();
+    }
   };
 
   // Show name input if needed
@@ -271,7 +267,11 @@ export default function ChallengePage() {
               </div>
               <div>
                 <h1 className="font-semibold">Room: {roomCode}</h1>
-                <p className="text-sm text-muted-foreground">Scripture Memory Challenge</p>
+                <p className="text-sm text-muted-foreground">
+                  {room?.currentRound && room?.totalRounds
+                    ? `Round ${room.currentRound} of ${room.totalRounds}`
+                    : 'Scripture Memory Challenge'}
+                </p>
               </div>
             </div>
           </div>
@@ -305,6 +305,9 @@ export default function ChallengePage() {
                   <Users className="h-8 w-8 text-white" />
                 </div>
                 <CardTitle>Waiting for Players</CardTitle>
+                <p className="text-sm text-muted-foreground mt-2">
+                  {NUM_ROUNDS} rounds of scripture memory
+                </p>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
@@ -356,11 +359,14 @@ export default function ChallengePage() {
         {room?.status === 'countdown' && (
           <section className="flex items-center justify-center min-h-[60vh]">
             <div className="text-center">
+              <p className="text-lg text-muted-foreground mb-4">
+                Round {room.currentRound} of {room.totalRounds}
+              </p>
               <div className="text-9xl font-bold text-memory animate-pulse">
                 {countdown || 'GO!'}
               </div>
               <p className="text-xl text-muted-foreground mt-4">
-                Read the context, then type the target verse from memory!
+                Type the verse from memory!
               </p>
             </div>
           </section>
@@ -369,17 +375,30 @@ export default function ChallengePage() {
         {/* Playing State */}
         {room?.status === 'playing' && verse && (
           <section>
+            {/* Score Bar */}
+            <div className="flex justify-between items-center mb-6 p-4 bg-muted rounded-xl">
+              <div className="text-center flex-1">
+                <div className="text-sm text-muted-foreground">{currentPlayer?.name || 'You'}</div>
+                <div className="text-2xl font-bold text-memory">{currentPlayer?.totalScore || 0}</div>
+              </div>
+              <div className="text-center px-4">
+                <div className="text-xs text-muted-foreground">Round</div>
+                <div className="text-lg font-bold">{room.currentRound}/{room.totalRounds}</div>
+              </div>
+              <div className="text-center flex-1">
+                <div className="text-sm text-muted-foreground">{opponent?.name || 'Opponent'}</div>
+                <div className="text-2xl font-bold">{opponent?.totalScore || 0}</div>
+              </div>
+            </div>
+
             {/* Opponent Status */}
             {opponent && (
-              <div className="mb-6 text-center">
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted rounded-full">
-                  <span className="text-sm text-muted-foreground">{opponent.name}:</span>
-                  {opponent.finishedAt ? (
-                    <span className="text-sm font-medium text-success">Submitted!</span>
-                  ) : (
-                    <span className="text-sm text-muted-foreground">Still typing...</span>
-                  )}
-                </div>
+              <div className="mb-4 text-center">
+                <span className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm ${
+                  opponent.currentRoundFinishedAt ? 'bg-success/10 text-success' : 'bg-muted'
+                }`}>
+                  {opponent.name}: {opponent.currentRoundFinishedAt ? 'Submitted!' : 'Typing...'}
+                </span>
               </div>
             )}
 
@@ -390,14 +409,13 @@ export default function ChallengePage() {
                 <span className="text-xl font-bold text-memory">{verse.reference}</span>
               </div>
               <p className="text-sm text-muted-foreground mt-2">
-                Type this verse from memory (scored against ESV, NIV, KJV, NASB)
+                Type this verse from memory
               </p>
             </div>
 
             {/* Context Verses */}
             <Card className="mb-6">
               <CardContent className="p-6">
-                {/* Before Context */}
                 {verse.context.before && (
                   <div className="mb-4 pb-4 border-b border-dashed">
                     <div className="text-xs font-medium text-muted-foreground mb-1">
@@ -409,7 +427,6 @@ export default function ChallengePage() {
                   </div>
                 )}
 
-                {/* Target Verse Input Area */}
                 <div className="relative">
                   <div className="text-xs font-medium text-memory mb-2">
                     {verse.reference} - TYPE THIS VERSE:
@@ -429,7 +446,6 @@ export default function ChallengePage() {
                   )}
                 </div>
 
-                {/* After Context */}
                 {verse.context.after && (
                   <div className="mt-4 pt-4 border-t border-dashed">
                     <div className="text-xs font-medium text-muted-foreground mb-1">
@@ -482,7 +498,7 @@ export default function ChallengePage() {
                     ))}
                   </div>
 
-                  {opponent && !opponent.finishedAt && (
+                  {opponent && !opponent.currentRoundFinishedAt && (
                     <p className="text-center text-sm text-muted-foreground mt-4">
                       Waiting for {opponent.name} to finish...
                     </p>
@@ -493,55 +509,55 @@ export default function ChallengePage() {
           </section>
         )}
 
-        {/* Results */}
-        {room?.status === 'results' && verse && (
+        {/* Round Results */}
+        {room?.status === 'round_results' && verse && (
           <section className="max-w-2xl mx-auto">
             <Card variant="memory">
               <CardHeader className="text-center">
-                <div className="mx-auto w-20 h-20 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-500 flex items-center justify-center mb-4">
-                  <Trophy className="h-10 w-10 text-white" />
-                </div>
-                <CardTitle className="text-2xl">
-                  {(currentPlayer?.score || 0) > (opponent?.score || 0)
-                    ? 'You Win!'
-                    : (currentPlayer?.score || 0) < (opponent?.score || 0)
-                    ? `${opponent?.name} Wins!`
-                    : "It's a Tie!"}
-                </CardTitle>
+                <p className="text-sm text-muted-foreground mb-2">
+                  Round {room.currentRound} of {room.totalRounds}
+                </p>
+                <CardTitle className="text-2xl">Round Results</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-6">
-                  {/* Final Scores */}
+                  {/* Round Scores */}
                   <div className="grid grid-cols-2 gap-4">
                     <div className={`rounded-xl p-4 ${
-                      (currentPlayer?.score || 0) >= (opponent?.score || 0)
+                      (currentPlayer?.currentRoundScore || 0) >= (opponent?.currentRoundScore || 0)
                         ? 'bg-memory/10 ring-2 ring-memory'
                         : 'bg-muted'
                     }`}>
                       <div className="text-3xl font-bold text-memory">
-                        {currentPlayer?.score || 0}%
+                        {currentPlayer?.currentRoundScore || 0}%
                       </div>
                       <div className="text-sm font-medium">{currentPlayer?.name || 'You'}</div>
-                      {currentPlayer?.bestTranslation && (
+                      {currentPlayer?.currentRoundTranslation && (
                         <div className="text-xs text-muted-foreground">
-                          Best: {currentPlayer.bestTranslation}
+                          Best: {currentPlayer.currentRoundTranslation}
                         </div>
                       )}
+                      <div className="text-xs text-muted-foreground mt-1">
+                        Total: {currentPlayer?.totalScore || 0} + {currentPlayer?.currentRoundScore || 0}
+                      </div>
                     </div>
                     <div className={`rounded-xl p-4 ${
-                      (opponent?.score || 0) > (currentPlayer?.score || 0)
+                      (opponent?.currentRoundScore || 0) > (currentPlayer?.currentRoundScore || 0)
                         ? 'bg-memory/10 ring-2 ring-memory'
                         : 'bg-muted'
                     }`}>
-                      <div className="text-3xl font-bold text-muted-foreground">
-                        {opponent?.score || 0}%
+                      <div className="text-3xl font-bold">
+                        {opponent?.currentRoundScore || 0}%
                       </div>
                       <div className="text-sm font-medium">{opponent?.name || 'Opponent'}</div>
-                      {opponent?.bestTranslation && (
+                      {opponent?.currentRoundTranslation && (
                         <div className="text-xs text-muted-foreground">
-                          Best: {opponent.bestTranslation}
+                          Best: {opponent.currentRoundTranslation}
                         </div>
                       )}
+                      <div className="text-xs text-muted-foreground mt-1">
+                        Total: {opponent?.totalScore || 0} + {opponent?.currentRoundScore || 0}
+                      </div>
                     </div>
                   </div>
 
@@ -559,27 +575,134 @@ export default function ChallengePage() {
                   <div className="bg-muted/50 rounded-xl p-4">
                     <div className="text-sm font-medium mb-2">Your answer:</div>
                     <p className="text-sm leading-relaxed">
-                      {currentPlayer?.answer || userAnswer || '(No answer)'}
+                      {currentPlayer?.currentRoundAnswer || userAnswer || '(No answer)'}
                     </p>
                   </div>
 
                   {/* Opponent's Answer */}
-                  {opponent?.answer && (
+                  {opponent?.currentRoundAnswer && (
                     <div className="bg-muted/50 rounded-xl p-4">
                       <div className="text-sm font-medium mb-2">{opponent.name}'s answer:</div>
                       <p className="text-sm leading-relaxed">
-                        {opponent.answer}
+                        {opponent.currentRoundAnswer}
                       </p>
                     </div>
                   )}
 
-                  <div className="flex gap-4 pt-4">
-                    <Link href="/memory" className="flex-1" onClick={() => leaveRoom()}>
-                      <Button variant="outline" className="w-full">
-                        Back to Menu
-                      </Button>
-                    </Link>
+                  {/* Next Round / Final Results Button */}
+                  {isHost ? (
+                    <Button
+                      variant="memory"
+                      className="w-full"
+                      size="lg"
+                      onClick={handleNextRound}
+                    >
+                      {room.currentRound < room.totalRounds ? (
+                        <>
+                          Next Round
+                          <ArrowRight className="h-5 w-5 ml-2" />
+                        </>
+                      ) : (
+                        <>
+                          See Final Results
+                          <Trophy className="h-5 w-5 ml-2" />
+                        </>
+                      )}
+                    </Button>
+                  ) : (
+                    <p className="text-center text-muted-foreground">
+                      Waiting for host to continue...
+                    </p>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
+          </section>
+        )}
+
+        {/* Final Results */}
+        {room?.status === 'final_results' && (
+          <section className="max-w-2xl mx-auto">
+            <Card variant="memory">
+              <CardHeader className="text-center">
+                <div className="mx-auto w-20 h-20 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-500 flex items-center justify-center mb-4">
+                  <Trophy className="h-10 w-10 text-white" />
+                </div>
+                <CardTitle className="text-2xl">
+                  {(currentPlayer?.totalScore || 0) > (opponent?.totalScore || 0)
+                    ? 'You Win!'
+                    : (currentPlayer?.totalScore || 0) < (opponent?.totalScore || 0)
+                    ? `${opponent?.name} Wins!`
+                    : "It's a Tie!"}
+                </CardTitle>
+                <p className="text-muted-foreground">
+                  After {room.totalRounds} rounds
+                </p>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-6">
+                  {/* Final Scores */}
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className={`rounded-xl p-6 text-center ${
+                      (currentPlayer?.totalScore || 0) >= (opponent?.totalScore || 0)
+                        ? 'bg-memory/10 ring-2 ring-memory'
+                        : 'bg-muted'
+                    }`}>
+                      {(currentPlayer?.totalScore || 0) >= (opponent?.totalScore || 0) && (
+                        <Crown className="h-6 w-6 text-yellow-500 mx-auto mb-2" />
+                      )}
+                      <div className="text-4xl font-bold text-memory">
+                        {currentPlayer?.totalScore || 0}
+                      </div>
+                      <div className="text-sm font-medium mt-1">{currentPlayer?.name || 'You'}</div>
+                      <div className="text-xs text-muted-foreground mt-2">
+                        Rounds: {(currentPlayer?.roundScores || []).join(' + ')}
+                      </div>
+                    </div>
+                    <div className={`rounded-xl p-6 text-center ${
+                      (opponent?.totalScore || 0) > (currentPlayer?.totalScore || 0)
+                        ? 'bg-memory/10 ring-2 ring-memory'
+                        : 'bg-muted'
+                    }`}>
+                      {(opponent?.totalScore || 0) > (currentPlayer?.totalScore || 0) && (
+                        <Crown className="h-6 w-6 text-yellow-500 mx-auto mb-2" />
+                      )}
+                      <div className="text-4xl font-bold">
+                        {opponent?.totalScore || 0}
+                      </div>
+                      <div className="text-sm font-medium mt-1">{opponent?.name || 'Opponent'}</div>
+                      <div className="text-xs text-muted-foreground mt-2">
+                        Rounds: {(opponent?.roundScores || []).join(' + ')}
+                      </div>
+                    </div>
                   </div>
+
+                  {/* Round Summary */}
+                  <div className="space-y-2">
+                    <h4 className="text-sm font-medium">Round Summary</h4>
+                    {room.roundResults && Object.entries(room.roundResults).map(([roundNum, result]) => (
+                      <div key={roundNum} className="flex justify-between items-center p-3 bg-muted rounded-lg">
+                        <span className="text-sm">
+                          Round {roundNum}: {result.visibleVerse}
+                        </span>
+                        <div className="flex gap-4 text-sm">
+                          <span className="text-memory font-medium">
+                            {result.players[playerId || '']?.score || 0}%
+                          </span>
+                          <span className="text-muted-foreground">vs</span>
+                          <span className="font-medium">
+                            {result.players[opponent?.id || '']?.score || 0}%
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  <Link href="/memory" className="block" onClick={() => leaveRoom()}>
+                    <Button variant="outline" className="w-full">
+                      Back to Menu
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>

@@ -2,17 +2,19 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { realtimeDb, isRealtimeDbAvailable } from '@/lib/firebase';
-import { ref, set, get, update, onValue, onDisconnect, serverTimestamp, remove } from 'firebase/database';
-import { getRandomVerse, MemoryVerse, VerseTranslations } from '@/data/memory-verses';
+import { ref, set, get, update, onValue, onDisconnect, remove } from 'firebase/database';
+import { getRandomVerse, MemoryVerse, VerseTranslations, MEMORY_VERSES } from '@/data/memory-verses';
 
 export interface Player {
   id: string;
   name: string;
   isReady: boolean;
-  score: number;
-  bestTranslation?: string;
-  answer?: string;
-  finishedAt?: number;
+  totalScore: number;
+  currentRoundScore?: number;
+  currentRoundAnswer?: string;
+  currentRoundTranslation?: string;
+  currentRoundFinishedAt?: number;
+  roundScores?: number[];
   joinedAt: number;
 }
 
@@ -32,11 +34,24 @@ export interface GameVerse {
   };
 }
 
+export interface RoundResult {
+  visibleVerse: string;
+  players: Record<string, {
+    answer: string;
+    score: number;
+    translation: string;
+  }>;
+}
+
 export interface RoomState {
   code: string;
-  status: 'waiting' | 'countdown' | 'playing' | 'results';
+  status: 'waiting' | 'countdown' | 'playing' | 'round_results' | 'final_results';
   players: Record<string, Player>;
-  verse?: GameVerse;
+  currentRound: number;
+  totalRounds: number;
+  verses?: GameVerse[];
+  currentVerse?: GameVerse;
+  roundResults?: Record<number, RoundResult>;
   gameStartedAt?: number;
   createdAt: number;
   hostId: string;
@@ -52,7 +67,8 @@ interface UseRoomReturn {
   createRoom: (roomCode: string, playerName: string) => Promise<boolean>;
   setReady: (ready: boolean) => Promise<void>;
   submitAnswer: (answer: string, score: number, bestTranslation: string) => Promise<void>;
-  startGame: () => Promise<void>;
+  startGame: (numRounds?: number) => Promise<void>;
+  nextRound: () => Promise<void>;
   endGame: () => Promise<void>;
   leaveRoom: () => Promise<void>;
 }
@@ -62,6 +78,11 @@ function generatePlayerId(): string {
   return `player_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 }
 
+// Get N unique random verses
+function getRandomVerses(count: number): MemoryVerse[] {
+  const shuffled = [...MEMORY_VERSES].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
 
 export function useRoom(): UseRoomReturn {
   const [room, setRoom] = useState<RoomState | null>(null);
@@ -137,10 +158,13 @@ export function useRoom(): UseRoomReturn {
             id: newPlayerId,
             name: playerName,
             isReady: false,
-            score: 0,
+            totalScore: 0,
+            roundScores: [],
             joinedAt: Date.now(),
           },
         },
+        currentRound: 0,
+        totalRounds: 3, // Default to 3 rounds
         createdAt: Date.now(),
         hostId: newPlayerId,
       };
@@ -197,7 +221,8 @@ export function useRoom(): UseRoomReturn {
         id: newPlayerId,
         name: playerName,
         isReady: false,
-        score: 0,
+        totalScore: 0,
+        roundScores: [],
         joinedAt: Date.now(),
       });
 
@@ -230,37 +255,52 @@ export function useRoom(): UseRoomReturn {
     try {
       const playerRef = ref(realtimeDb, `rooms/${currentRoomCode}/players/${playerId}`);
       await update(playerRef, {
-        answer,
-        score,
-        bestTranslation,
-        finishedAt: Date.now(),
+        currentRoundScore: score,
+        currentRoundAnswer: answer,
+        currentRoundTranslation: bestTranslation,
+        currentRoundFinishedAt: Date.now(),
       });
     } catch (err) {
       console.error('Failed to submit answer:', err);
     }
   }, [currentRoomCode, playerId]);
 
-  const startGame = useCallback(async (): Promise<void> => {
+  const startGame = useCallback(async (numRounds: number = 3): Promise<void> => {
     if (!currentRoomCode || !realtimeDb || !isHost) return;
 
     try {
-      // Pick a random verse from our database
-      const memoryVerse = getRandomVerse();
-
-      // Convert to GameVerse format for Firebase
-      const verse: GameVerse = {
-        id: memoryVerse.id,
-        reference: memoryVerse.reference,
-        translations: memoryVerse.translations,
-        context: memoryVerse.context,
-      };
+      // Pick random verses for all rounds
+      const memoryVerses = getRandomVerses(numRounds);
+      const verses: GameVerse[] = memoryVerses.map(v => ({
+        id: v.id,
+        reference: v.reference,
+        translations: v.translations,
+        context: v.context,
+      }));
 
       const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
       await update(roomRef, {
         status: 'countdown',
-        verse,
+        currentRound: 1,
+        totalRounds: numRounds,
+        verses,
+        currentVerse: verses[0],
+        roundResults: {},
         gameStartedAt: Date.now(),
       });
+
+      // Reset player round data
+      if (room?.players) {
+        for (const pid of Object.keys(room.players)) {
+          const playerRef = ref(realtimeDb, `rooms/${currentRoomCode}/players/${pid}`);
+          await update(playerRef, {
+            currentRoundScore: null,
+            currentRoundAnswer: null,
+            currentRoundTranslation: null,
+            currentRoundFinishedAt: null,
+          });
+        }
+      }
 
       // Transition to playing after countdown
       setTimeout(async () => {
@@ -269,18 +309,103 @@ export function useRoom(): UseRoomReturn {
     } catch (err) {
       console.error('Failed to start game:', err);
     }
-  }, [currentRoomCode, isHost]);
+  }, [currentRoomCode, isHost, room?.players]);
 
-  const endGame = useCallback(async (): Promise<void> => {
-    if (!currentRoomCode || !realtimeDb) return;
+  const nextRound = useCallback(async (): Promise<void> => {
+    if (!currentRoomCode || !realtimeDb || !isHost || !room) return;
 
     try {
       const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
-      await update(roomRef, { status: 'results' });
+      const currentRound = room.currentRound;
+      const nextRoundNum = currentRound + 1;
+
+      // Save current round results
+      const roundResult: RoundResult = {
+        visibleVerse: room.currentVerse?.reference || '',
+        players: {},
+      };
+
+      // Update each player's total score and save round result
+      for (const [pid, player] of Object.entries(room.players)) {
+        const playerRef = ref(realtimeDb, `rooms/${currentRoomCode}/players/${pid}`);
+        const roundScore = player.currentRoundScore || 0;
+        const newTotalScore = (player.totalScore || 0) + roundScore;
+        const newRoundScores = [...(player.roundScores || []), roundScore];
+
+        roundResult.players[pid] = {
+          answer: player.currentRoundAnswer || '',
+          score: roundScore,
+          translation: player.currentRoundTranslation || '',
+        };
+
+        await update(playerRef, {
+          totalScore: newTotalScore,
+          roundScores: newRoundScores,
+          currentRoundScore: null,
+          currentRoundAnswer: null,
+          currentRoundTranslation: null,
+          currentRoundFinishedAt: null,
+        });
+      }
+
+      // Save round results
+      const roundResultsRef = ref(realtimeDb, `rooms/${currentRoomCode}/roundResults/${currentRound}`);
+      await set(roundResultsRef, roundResult);
+
+      // Check if this was the last round
+      if (nextRoundNum > room.totalRounds) {
+        await update(roomRef, { status: 'final_results' });
+        return;
+      }
+
+      // Move to next round
+      const nextVerse = room.verses?.[nextRoundNum - 1];
+      await update(roomRef, {
+        status: 'countdown',
+        currentRound: nextRoundNum,
+        currentVerse: nextVerse,
+      });
+
+      // Transition to playing after countdown
+      setTimeout(async () => {
+        await update(roomRef, { status: 'playing' });
+      }, 3000);
     } catch (err) {
-      console.error('Failed to end game:', err);
+      console.error('Failed to advance to next round:', err);
     }
-  }, [currentRoomCode]);
+  }, [currentRoomCode, isHost, room]);
+
+  const endGame = useCallback(async (): Promise<void> => {
+    if (!currentRoomCode || !realtimeDb || !room) return;
+
+    try {
+      const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
+
+      // Save current round results before showing them
+      const currentRound = room.currentRound;
+      const roundResult: RoundResult = {
+        visibleVerse: room.currentVerse?.reference || '',
+        players: {},
+      };
+
+      // Collect round results from all players
+      for (const [pid, player] of Object.entries(room.players)) {
+        roundResult.players[pid] = {
+          answer: player.currentRoundAnswer || '',
+          score: player.currentRoundScore || 0,
+          translation: player.currentRoundTranslation || '',
+        };
+      }
+
+      // Save round results
+      const roundResultsRef = ref(realtimeDb, `rooms/${currentRoomCode}/roundResults/${currentRound}`);
+      await set(roundResultsRef, roundResult);
+
+      await update(roomRef, { status: 'round_results' });
+    } catch (err) {
+      console.error('Failed to end round:', err);
+    }
+  }, [currentRoomCode, room]);
 
   const leaveRoom = useCallback(async (): Promise<void> => {
     if (!currentRoomCode || !playerId || !realtimeDb) return;
@@ -314,6 +439,7 @@ export function useRoom(): UseRoomReturn {
     setReady,
     submitAnswer,
     startGame,
+    nextRound,
     endGame,
     leaveRoom,
   };
