@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import {
   ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff,
-  Grid3X3, ArrowUpDown, Layers, GraduationCap, Clock, TrendingUp
+  Grid3X3, ArrowUpDown, Layers, GraduationCap, Clock, TrendingUp,
+  CheckSquare, MessageSquare, Link2
 } from 'lucide-react';
 import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
 import {
@@ -32,7 +33,10 @@ type QuizMode =
   | 'word_bank'       // Fill blanks from word bank
   | 'reorder'         // Drag phrases to correct order
   | 'progressive'     // Progressive blanks (easy -> hard)
-  | 'type_out';       // Full typing
+  | 'type_out'        // Full typing
+  | 'mcq'             // Multiple choice (pick correct answer)
+  | 'short_answer'    // Type key phrase only
+  | 'scripture_match'; // Match answer to Scripture proof
 
 interface QuizModeInfo {
   id: QuizMode;
@@ -76,6 +80,27 @@ const QUIZ_MODES: QuizModeInfo[] = [
     label: 'Type Out',
     description: 'Type the entire answer',
     icon: <Send className="h-5 w-5" />,
+    difficulty: 'hard',
+  },
+  {
+    id: 'mcq',
+    label: 'Multiple Choice',
+    description: 'Pick the correct answer',
+    icon: <CheckSquare className="h-5 w-5" />,
+    difficulty: 'easy',
+  },
+  {
+    id: 'short_answer',
+    label: 'Short Answer',
+    description: 'Type the key phrase only',
+    icon: <MessageSquare className="h-5 w-5" />,
+    difficulty: 'medium',
+  },
+  {
+    id: 'scripture_match',
+    label: 'Scripture Match',
+    description: 'Match answer to Scripture proof',
+    icon: <Link2 className="h-5 w-5" />,
     difficulty: 'hard',
   },
 ];
@@ -204,6 +229,17 @@ function TheologyPracticeContent() {
   const [progressiveBlanks, setProgressiveBlanks] = useState<number[]>([]);
   const [progressiveAnswers, setProgressiveAnswers] = useState<string[]>([]);
 
+  // MCQ Mode
+  const [mcqOptions, setMcqOptions] = useState<CatechismQuestion[]>([]);
+  const [mcqSelected, setMcqSelected] = useState<string | null>(null);
+
+  // Short Answer Mode
+  const [shortAnswerInput, setShortAnswerInput] = useState('');
+
+  // Scripture Match Mode
+  const [scriptureOptions, setScriptureOptions] = useState<string[]>([]);
+  const [scriptureSelected, setScriptureSelected] = useState<string | null>(null);
+
   // Spaced Repetition
   const { recordReview, getDueVerses, getVerseProgress, verses } = useSpacedRepetitionStore();
   const dueQuestions = useMemo(() =>
@@ -272,6 +308,67 @@ function TheologyPracticeContent() {
     setProgressiveAnswers(new Array(blanks.length).fill(''));
   }, []);
 
+  const initializeMcq = useCallback((question: CatechismQuestion) => {
+    // Get 3 distractors, preferring same category for harder challenge
+    const sameCategoryQuestions = WESTMINSTER_CATECHISM.filter(
+      q => q.id !== question.id && q.category === question.category
+    );
+    const otherQuestions = WESTMINSTER_CATECHISM.filter(
+      q => q.id !== question.id && q.category !== question.category
+    );
+
+    // Try to get 3 from same category, fill rest from others
+    const distractors: CatechismQuestion[] = [];
+    const shuffledSameCategory = shuffleArray(sameCategoryQuestions);
+    const shuffledOther = shuffleArray(otherQuestions);
+
+    for (const q of shuffledSameCategory) {
+      if (distractors.length >= 3) break;
+      distractors.push(q);
+    }
+    for (const q of shuffledOther) {
+      if (distractors.length >= 3) break;
+      distractors.push(q);
+    }
+
+    // Shuffle the options (correct + distractors)
+    const options = shuffleArray([question, ...distractors]);
+    setMcqOptions(options);
+    setMcqSelected(null);
+  }, []);
+
+  const initializeScriptureMatch = useCallback((question: CatechismQuestion) => {
+    if (question.scriptureProofs.length === 0) {
+      // Fallback if no scripture proofs - use random scriptures
+      setScriptureOptions(['Genesis 1:1', 'John 3:16', 'Romans 8:28', 'Psalm 23:1']);
+      setScriptureSelected(null);
+      return;
+    }
+
+    // Get the correct scripture (first one from the proofs)
+    const correctScripture = question.scriptureProofs[0];
+
+    // Get distractors from other questions' scripture proofs
+    const allScriptures = WESTMINSTER_CATECHISM
+      .filter(q => q.id !== question.id)
+      .flatMap(q => q.scriptureProofs)
+      .filter(s => s !== correctScripture);
+
+    const distractors = shuffleArray(allScriptures).slice(0, 3);
+
+    // If not enough distractors, add some common ones
+    const fallbackScriptures = ['Genesis 1:1', 'John 3:16', 'Romans 8:28', 'Psalm 23:1', 'Isaiah 53:5'];
+    while (distractors.length < 3) {
+      const fallback = fallbackScriptures.find(s => s !== correctScripture && !distractors.includes(s));
+      if (fallback) distractors.push(fallback);
+      else break;
+    }
+
+    const options = shuffleArray([correctScripture, ...distractors]);
+    setScriptureOptions(options);
+    setScriptureSelected(null);
+  }, []);
+
   // ============================================================================
   // START PRACTICE
   // ============================================================================
@@ -308,10 +405,19 @@ function TheologyPracticeContent() {
       case 'type_out':
         setUserAnswer('');
         break;
+      case 'mcq':
+        initializeMcq(question);
+        break;
+      case 'short_answer':
+        setShortAnswerInput('');
+        break;
+      case 'scripture_match':
+        initializeScriptureMatch(question);
+        break;
     }
 
     setState('practice');
-  }, [availableQuestions, quizMode, initializeWordBank, initializeReorder, initializeProgressive]);
+  }, [availableQuestions, quizMode, initializeWordBank, initializeReorder, initializeProgressive, initializeMcq, initializeScriptureMatch]);
 
   // ============================================================================
   // SUBMIT HANDLERS
@@ -370,6 +476,28 @@ function TheologyPracticeContent() {
         finalScore = Math.round((correct / progressiveBlanks.length) * 100);
         break;
       }
+
+      case 'mcq': {
+        if (!mcqSelected) return;
+        finalScore = mcqSelected === currentQuestion.id ? 100 : 0;
+        break;
+      }
+
+      case 'short_answer': {
+        if (!shortAnswerInput.trim()) return;
+        // Use shortAnswer field if available, otherwise first few words of answer
+        const expectedPhrase = currentQuestion.shortAnswer ||
+          getWords(currentQuestion.answer).slice(0, 5).join(' ');
+        finalScore = calculateScore(shortAnswerInput, expectedPhrase);
+        break;
+      }
+
+      case 'scripture_match': {
+        if (!scriptureSelected) return;
+        const correctScripture = currentQuestion.scriptureProofs[0];
+        finalScore = scriptureSelected === correctScripture ? 100 : 0;
+        break;
+      }
     }
 
     setScore(finalScore);
@@ -384,7 +512,7 @@ function TheologyPracticeContent() {
     recordReview(currentQuestion.id, `WSC Q${currentQuestion.number}`, finalScore, quizMode);
 
     setState('result');
-  }, [currentQuestion, quizMode, userAnswer, answerWords, wordBankBlanks, wordBankSelected, wordBankOptions, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview]);
+  }, [currentQuestion, quizMode, userAnswer, answerWords, wordBankBlanks, wordBankSelected, wordBankOptions, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview, mcqSelected, shortAnswerInput, scriptureSelected]);
 
   // ============================================================================
   // MODE-SPECIFIC HANDLERS
@@ -474,10 +602,19 @@ function TheologyPracticeContent() {
       case 'type_out':
         setUserAnswer('');
         break;
+      case 'mcq':
+        initializeMcq(currentQuestion);
+        break;
+      case 'short_answer':
+        setShortAnswerInput('');
+        break;
+      case 'scripture_match':
+        initializeScriptureMatch(currentQuestion);
+        break;
     }
 
     setState('practice');
-  }, [currentQuestion, quizMode, initializeWordBank, initializeReorder, initializeProgressive]);
+  }, [currentQuestion, quizMode, initializeWordBank, initializeReorder, initializeProgressive, initializeMcq, initializeScriptureMatch]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -913,11 +1050,116 @@ function TheologyPracticeContent() {
             )}
 
             {/* ============================================================ */}
+            {/* MCQ MODE */}
+            {/* ============================================================ */}
+            {quizMode === 'mcq' && (
+              <Card className="mb-6">
+                <CardContent className="p-6">
+                  <div className="text-xs font-medium text-theology mb-4">
+                    Select the correct answer:
+                  </div>
+                  <div className="space-y-3">
+                    {mcqOptions.map((option, i) => (
+                      <button
+                        key={option.id}
+                        className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+                          mcqSelected === option.id
+                            ? 'border-theology bg-theology/10 ring-2 ring-theology/20'
+                            : 'border-border bg-card hover:border-theology/50 hover:bg-muted/50'
+                        }`}
+                        onClick={() => setMcqSelected(option.id)}
+                      >
+                        <div className="flex items-start gap-3">
+                          <span className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-sm font-medium ${
+                            mcqSelected === option.id
+                              ? 'bg-theology text-white'
+                              : 'bg-muted text-muted-foreground'
+                          }`}>
+                            {String.fromCharCode(65 + i)}
+                          </span>
+                          <span className="text-sm leading-relaxed">{option.answer}</span>
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* ============================================================ */}
+            {/* SHORT ANSWER MODE */}
+            {/* ============================================================ */}
+            {quizMode === 'short_answer' && (
+              <Card className="mb-6">
+                <CardContent className="p-6">
+                  <div className="text-xs font-medium text-theology mb-2">
+                    Type the key phrase (not the full answer):
+                  </div>
+                  {currentQuestion?.shortAnswer && (
+                    <div className="text-xs text-muted-foreground mb-4">
+                      Hint: {getWords(currentQuestion.shortAnswer).length} words
+                    </div>
+                  )}
+                  <input
+                    type="text"
+                    className="w-full p-4 text-lg border rounded-lg focus:ring-2 focus:ring-theology focus:border-theology bg-background"
+                    placeholder="Type the key phrase..."
+                    value={shortAnswerInput}
+                    onChange={(e) => setShortAnswerInput(e.target.value)}
+                    autoFocus
+                  />
+                  <div className="text-xs text-muted-foreground mt-2">
+                    Focus on the essential theological concept in the answer
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* ============================================================ */}
+            {/* SCRIPTURE MATCH MODE */}
+            {/* ============================================================ */}
+            {quizMode === 'scripture_match' && (
+              <div className="mb-6 space-y-4">
+                {/* Show the answer */}
+                <Card className="bg-muted/50">
+                  <CardContent className="p-4">
+                    <div className="text-xs font-medium text-muted-foreground mb-2">Answer:</div>
+                    <p className="text-sm leading-relaxed">{currentQuestion?.answer}</p>
+                  </CardContent>
+                </Card>
+
+                {/* Scripture options */}
+                <Card>
+                  <CardContent className="p-6">
+                    <div className="text-xs font-medium text-theology mb-4">
+                      Which Scripture proves this answer?
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      {scriptureOptions.map((scripture, i) => (
+                        <button
+                          key={scripture}
+                          className={`p-4 rounded-lg border-2 transition-all text-center ${
+                            scriptureSelected === scripture
+                              ? 'border-theology bg-theology/10 ring-2 ring-theology/20'
+                              : 'border-border bg-card hover:border-theology/50 hover:bg-muted/50'
+                          }`}
+                          onClick={() => setScriptureSelected(scripture)}
+                        >
+                          <span className="text-sm font-medium">{scripture}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            )}
+
+            {/* ============================================================ */}
             {/* COMMON CONTROLS */}
             {/* ============================================================ */}
 
             {/* Peek at Answer */}
-            {['type_out', 'progressive'].includes(quizMode) && (
+            {['type_out', 'progressive', 'short_answer'].includes(quizMode) && (
               <div className="flex gap-4 mb-4">
                 <Button
                   variant="outline"
@@ -956,7 +1198,10 @@ function TheologyPracticeContent() {
               onClick={handleSubmit}
               disabled={
                 (quizMode === 'type_out' && !userAnswer.trim()) ||
-                (quizMode === 'flashcard' && !selfRating)
+                (quizMode === 'flashcard' && !selfRating) ||
+                (quizMode === 'mcq' && !mcqSelected) ||
+                (quizMode === 'short_answer' && !shortAnswerInput.trim()) ||
+                (quizMode === 'scripture_match' && !scriptureSelected)
               }
             >
               <Send className="h-5 w-5 mr-2" />
