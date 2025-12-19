@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff, Send, BookOpen, ArrowRight, Crown } from 'lucide-react';
+import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff, Send, BookOpen, ArrowRight, Crown, GraduationCap } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { Input } from '@/components/ui/Input';
@@ -11,7 +11,7 @@ import { useRoom, GameVerse } from '@/hooks/useRoom';
 import { isRealtimeDbAvailable } from '@/lib/firebase';
 import { calculateSimilarity, SimilarityResult } from '@/lib/similarity';
 
-const NUM_ROUNDS = 3;
+const NUM_ROUNDS = 6;
 
 export default function ChallengePage() {
   const params = useParams();
@@ -51,8 +51,15 @@ export default function ChallengePage() {
   // Ref to prevent double endGame() calls (race condition fix)
   const isEndingGameRef = useRef(false);
 
+  // Progressive blanks state
+  const [progressiveAnswers, setProgressiveAnswers] = useState<string[]>([]);
+
   // Get verse from room
   const verse = room?.currentVerse as GameVerse | undefined;
+
+  // Determine if current round is progressive
+  const currentRoundMode = room?.roundModes?.[room.currentRound - 1] || 'typing';
+  const isProgressiveRound = currentRoundMode === 'progressive';
 
   // Get players list
   const players = useMemo(() => {
@@ -122,12 +129,15 @@ export default function ChallengePage() {
       setUserAnswer('');
       setHasSubmitted(false);
       setLocalResult(null);
-      setTimeLeft(90);
+      // Progressive rounds get less time (60s vs 90s)
+      const roundMode = room.roundModes?.[room.currentRound - 1] || 'typing';
+      setTimeLeft(roundMode === 'progressive' ? 60 : 90);
       setIsSubmitting(false);
       setIsNextRoundLoading(false);
+      setProgressiveAnswers([]); // Reset progressive answers
       isEndingGameRef.current = false; // Reset for new round
     }
-  }, [room?.status, room?.currentRound]);
+  }, [room?.status, room?.currentRound, room?.roundModes]);
 
   // Game timer
   useEffect(() => {
@@ -163,11 +173,53 @@ export default function ChallengePage() {
     if (!verse || hasSubmitted || isSubmitting) return;
 
     setIsSubmitting(true);
-    const result = calculateSimilarity(userAnswer, verse.translations);
+
+    let result: SimilarityResult;
+    let answerText: string;
+    let progressiveAnswersToSubmit: string[] | undefined;
+
+    if (isProgressiveRound && room?.progressiveData) {
+      // Progressive mode: score based on correct blanks
+      const correctAnswers = room.progressiveData.correctAnswers;
+      let correctCount = 0;
+
+      // Normalize words for comparison
+      const normalizeWord = (word: string) =>
+        word.toLowerCase().replace(/[.,!?;:'"\-—()]/g, '').trim();
+
+      progressiveAnswers.forEach((answer, i) => {
+        const normalized = normalizeWord(answer || '');
+        const expected = normalizeWord(correctAnswers[i] || '');
+        if (normalized === expected) correctCount++;
+      });
+
+      const score = correctAnswers.length > 0
+        ? Math.round((correctCount / correctAnswers.length) * 100)
+        : 0;
+
+      answerText = progressiveAnswers.join(', ');
+      progressiveAnswersToSubmit = progressiveAnswers;
+
+      result = {
+        bestScore: score,
+        bestTranslation: 'ESV',
+        scores: [{ translation: 'ESV', score, wordAccuracy: score, sequenceAccuracy: score }],
+        feedback: score >= 95 ? 'Perfect!' :
+          score >= 85 ? 'Excellent!' :
+          score >= 70 ? 'Good job!' :
+          score >= 50 ? 'Nice effort!' : 'Keep practicing!',
+      };
+
+      await submitAnswer(answerText, score, 'ESV', progressiveAnswersToSubmit);
+    } else {
+      // Typing mode: existing similarity scoring
+      result = calculateSimilarity(userAnswer, verse.translations);
+      answerText = userAnswer;
+      await submitAnswer(answerText, result.bestScore, result.bestTranslation);
+    }
+
     setLocalResult(result);
     setHasSubmitted(true);
-
-    await submitAnswer(userAnswer, result.bestScore, result.bestTranslation);
 
     // If opponent has already submitted, end the round (with race condition protection)
     if (opponent?.currentRoundFinishedAt && !isEndingGameRef.current) {
@@ -175,7 +227,7 @@ export default function ChallengePage() {
       endGame();
     }
     setIsSubmitting(false);
-  }, [verse, userAnswer, hasSubmitted, isSubmitting, submitAnswer, opponent, endGame]);
+  }, [verse, userAnswer, hasSubmitted, isSubmitting, submitAnswer, opponent, endGame, isProgressiveRound, room?.progressiveData, progressiveAnswers]);
 
   // Auto-submit when time runs out
   useEffect(() => {
@@ -377,29 +429,32 @@ export default function ChallengePage() {
                     </div>
                   )}
 
+                  {/* Solo player waiting notice */}
+                  {players.length < 2 && (
+                    <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
+                      <p className="text-amber-700 dark:text-amber-300 text-sm text-center">
+                        Need 2 players to start. Share room code <strong className="font-mono">{roomCode}</strong> with a friend!
+                      </p>
+                    </div>
+                  )}
+
                   <Button
                     variant="memory"
                     className="w-full"
                     onClick={handleReadyClick}
-                    disabled={currentPlayer?.isReady || isReadyLoading}
+                    disabled={currentPlayer?.isReady || isReadyLoading || players.length < 2}
                   >
                     {isReadyLoading ? (
                       <>
                         <Loader2 className="h-5 w-5 mr-2 animate-spin" />
                         Setting ready...
                       </>
-                    ) : currentPlayer?.isReady ? 'Ready!' : "I'm Ready"}
+                    ) : players.length < 2 ? 'Waiting for opponent...' : currentPlayer?.isReady ? 'Ready!' : "I'm Ready"}
                   </Button>
 
                   {players.length >= 2 && !players.every(p => p.isReady) && (
                     <p className="text-sm text-muted-foreground">
                       Waiting for all players to be ready...
-                    </p>
-                  )}
-
-                  {players.length < 2 && (
-                    <p className="text-sm text-muted-foreground">
-                      Share room code <strong>{roomCode}</strong> with a friend to play!
                     </p>
                   )}
                 </div>
@@ -455,6 +510,25 @@ export default function ChallengePage() {
               </div>
             )}
 
+            {/* Round Mode Indicator */}
+            <div className="text-center mb-4">
+              <span className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm ${
+                isProgressiveRound ? 'bg-memory/10 text-memory' : 'bg-muted'
+              }`}>
+                {isProgressiveRound ? (
+                  <>
+                    <GraduationCap className="h-4 w-4" />
+                    Progressive Blanks ({room?.progressiveData?.blankPercentage || 30}% blanked)
+                  </>
+                ) : (
+                  <>
+                    <Send className="h-4 w-4" />
+                    Type Full Verse
+                  </>
+                )}
+              </span>
+            </div>
+
             {/* Verse Reference */}
             <div className="text-center mb-6">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-memory/10 rounded-full">
@@ -462,7 +536,7 @@ export default function ChallengePage() {
                 <span className="text-xl font-bold text-memory">{verse.reference}</span>
               </div>
               <p className="text-sm text-muted-foreground mt-2">
-                Type this verse from memory
+                {isProgressiveRound ? 'Fill in the missing words' : 'Type this verse from memory'}
               </p>
             </div>
 
@@ -482,20 +556,63 @@ export default function ChallengePage() {
 
                 <div className="relative">
                   <div className="text-xs font-medium text-memory mb-2">
-                    {verse.reference} - TYPE THIS VERSE:
+                    {verse.reference} - {isProgressiveRound ? 'FILL IN THE BLANKS:' : 'TYPE THIS VERSE:'}
                   </div>
-                  {!hasSubmitted ? (
-                    <textarea
-                      className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg focus:ring-2 focus:ring-memory focus:border-memory resize-none bg-background"
-                      placeholder="Type the verse from memory..."
-                      value={userAnswer}
-                      onChange={(e) => setUserAnswer(e.target.value)}
-                      autoFocus
-                    />
+
+                  {isProgressiveRound && room?.progressiveData ? (
+                    // Progressive blanks mode
+                    !hasSubmitted ? (
+                      <div className="flex flex-wrap gap-2 text-lg leading-relaxed p-4 border rounded-lg bg-background min-h-[150px]">
+                        {(() => {
+                          const words = verse.translations.ESV.split(/\s+/).filter(w => w.length > 0);
+                          const blankIndices = room.progressiveData?.blankIndices || [];
+
+                          return words.map((word, i) => {
+                            const blankIdx = blankIndices.indexOf(i);
+                            if (blankIdx !== -1) {
+                              return (
+                                <input
+                                  key={i}
+                                  type="text"
+                                  className="border-b-2 border-memory bg-transparent text-center min-w-[60px] max-w-[120px] focus:outline-none focus:border-memory/70"
+                                  placeholder="..."
+                                  value={progressiveAnswers[blankIdx] || ''}
+                                  onChange={(e) => {
+                                    const newAnswers = [...progressiveAnswers];
+                                    newAnswers[blankIdx] = e.target.value;
+                                    setProgressiveAnswers(newAnswers);
+                                  }}
+                                  autoFocus={blankIdx === 0}
+                                />
+                              );
+                            }
+                            return <span key={i}>{word}</span>;
+                          });
+                        })()}
+                      </div>
+                    ) : (
+                      <div className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg bg-muted/50">
+                        {progressiveAnswers.length > 0
+                          ? `Your answers: ${progressiveAnswers.join(', ')}`
+                          : <span className="text-muted-foreground">(No answer submitted)</span>
+                        }
+                      </div>
+                    )
                   ) : (
-                    <div className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg bg-muted/50">
-                      {userAnswer || <span className="text-muted-foreground">(No answer submitted)</span>}
-                    </div>
+                    // Typing mode
+                    !hasSubmitted ? (
+                      <textarea
+                        className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg focus:ring-2 focus:ring-memory focus:border-memory resize-none bg-background"
+                        placeholder="Type the verse from memory..."
+                        value={userAnswer}
+                        onChange={(e) => setUserAnswer(e.target.value)}
+                        autoFocus
+                      />
+                    ) : (
+                      <div className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg bg-muted/50">
+                        {userAnswer || <span className="text-muted-foreground">(No answer submitted)</span>}
+                      </div>
+                    )
                   )}
                 </div>
 
@@ -519,7 +636,12 @@ export default function ChallengePage() {
                 className="w-full"
                 size="lg"
                 onClick={handleSubmit}
-                disabled={!userAnswer.trim() || isSubmitting}
+                disabled={
+                  isSubmitting ||
+                  (isProgressiveRound
+                    ? progressiveAnswers.filter(a => a?.trim()).length === 0
+                    : !userAnswer.trim())
+                }
               >
                 {isSubmitting ? (
                   <>

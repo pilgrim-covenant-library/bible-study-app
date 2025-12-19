@@ -71,6 +71,32 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ DEUTERONOMY ============
+  {
+    id: 'deuteronomy-6-5',
+    reference: 'Deuteronomy 6:5',
+    book: 'Deuteronomy',
+    chapter: 6,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'You shall love the LORD your God with all your heart and with all your soul and with all your might.',
+      NIV: 'Love the LORD your God with all your heart and with all your soul and with all your strength.',
+      KJV: 'And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.',
+      NASB: 'You shall love the LORD your God with all your heart and with all your soul and with all your might.',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 6:4',
+        text: 'Hear, O Israel: The LORD our God, the LORD is one.',
+      },
+      after: {
+        reference: 'Deuteronomy 6:6',
+        text: 'And these words that I command you today shall be on your heart.',
+      },
+    },
+  },
+
   // ============ JOSHUA ============
   {
     id: 'joshua-1-9',
@@ -98,6 +124,94 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ PSALMS ============
+  {
+    id: 'psalm-27-1',
+    reference: 'Psalm 27:1',
+    book: 'Psalms',
+    chapter: 27,
+    verse: 1,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The LORD is my light and my salvation; whom shall I fear? The LORD is the stronghold of my life; of whom shall I be afraid?',
+      NIV: 'The LORD is my light and my salvation—whom shall I fear? The LORD is the stronghold of my life—of whom shall I be afraid?',
+      KJV: 'The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?',
+      NASB: 'The LORD is my light and my salvation; whom shall I fear? The LORD is the defense of my life; whom shall I dread?',
+    },
+    context: {
+      after: {
+        reference: 'Psalm 27:2',
+        text: 'When evildoers assail me to eat up my flesh, my adversaries and foes, it is they who stumble and fall.',
+      },
+    },
+  },
+  {
+    id: 'psalm-37-4',
+    reference: 'Psalm 37:4',
+    book: 'Psalms',
+    chapter: 37,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Delight yourself in the LORD, and he will give you the desires of your heart.',
+      NIV: 'Take delight in the LORD, and he will give you the desires of your heart.',
+      KJV: 'Delight thyself also in the LORD: and he shall give thee the desires of thine heart.',
+      NASB: 'Delight yourself in the LORD; and He will give you the desires of your heart.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 37:3',
+        text: 'Trust in the LORD, and do good; dwell in the land and befriend faithfulness.',
+      },
+      after: {
+        reference: 'Psalm 37:5',
+        text: 'Commit your way to the LORD; trust in him, and he will act.',
+      },
+    },
+  },
+  {
+    id: 'psalm-91-1',
+    reference: 'Psalm 91:1',
+    book: 'Psalms',
+    chapter: 91,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.',
+      NIV: 'Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty.',
+      KJV: 'He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.',
+      NASB: 'He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.',
+    },
+    context: {
+      after: {
+        reference: 'Psalm 91:2',
+        text: 'I will say to the LORD, "My refuge and my fortress, my God, in whom I trust."',
+      },
+    },
+  },
+  {
+    id: 'psalm-100-4',
+    reference: 'Psalm 100:4',
+    book: 'Psalms',
+    chapter: 100,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Enter his gates with thanksgiving, and his courts with praise! Give thanks to him; bless his name!',
+      NIV: 'Enter his gates with thanksgiving and his courts with praise; give thanks to him and praise his name.',
+      KJV: 'Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name.',
+      NASB: 'Enter His gates with thanksgiving and His courts with praise. Give thanks to Him, bless His name.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 100:3',
+        text: 'Know that the LORD, he is God! It is he who made us, and we are his; we are his people, and the sheep of his pasture.',
+      },
+      after: {
+        reference: 'Psalm 100:5',
+        text: 'For the LORD is good; his steadfast love endures forever, and his faithfulness to all generations.',
+      },
+    },
+  },
   {
     id: 'psalm-23-1',
     reference: 'Psalm 23:1',
@@ -435,6 +549,32 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ MICAH ============
+  {
+    id: 'micah-6-8',
+    reference: 'Micah 6:8',
+    book: 'Micah',
+    chapter: 6,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?',
+      NIV: 'He has shown you, O mortal, what is good. And what does the LORD require of you? To act justly and to love mercy and to walk humbly with your God.',
+      KJV: 'He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?',
+      NASB: 'He has told you, O man, what is good; and what does the LORD require of you but to do justice, to love kindness, and to walk humbly with your God?',
+    },
+    context: {
+      before: {
+        reference: 'Micah 6:7',
+        text: 'Will the LORD be pleased with thousands of rams, with ten thousands of rivers of oil?',
+      },
+      after: {
+        reference: 'Micah 6:9',
+        text: 'The voice of the LORD cries to the city—and it is sound wisdom to fear your name.',
+      },
+    },
+  },
+
   // ============ MATTHEW ============
   {
     id: 'matthew-5-16',
@@ -457,6 +597,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Matthew 5:17',
         text: 'Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them.',
+      },
+    },
+  },
+  {
+    id: 'matthew-7-7',
+    reference: 'Matthew 7:7',
+    book: 'Matthew',
+    chapter: 7,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.',
+      NIV: 'Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.',
+      KJV: 'Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:',
+      NASB: 'Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.',
+    },
+    context: {
+      before: {
+        reference: 'Matthew 7:6',
+        text: 'Do not give dogs what is holy, and do not throw your pearls before pigs, lest they trample them underfoot and turn to attack you.',
+      },
+      after: {
+        reference: 'Matthew 7:8',
+        text: 'For everyone who asks receives, and the one who seeks finds, and to the one who knocks it will be opened.',
       },
     },
   },
@@ -599,6 +763,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
+    id: 'john-8-32',
+    reference: 'John 8:32',
+    book: 'John',
+    chapter: 8,
+    verse: 32,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'and you will know the truth, and the truth will set you free.',
+      NIV: 'Then you will know the truth, and the truth will set you free.',
+      KJV: 'And ye shall know the truth, and the truth shall make you free.',
+      NASB: 'and you will know the truth, and the truth will make you free.',
+    },
+    context: {
+      before: {
+        reference: 'John 8:31',
+        text: 'So Jesus said to the Jews who had believed him, "If you abide in my word, you are truly my disciples,',
+      },
+      after: {
+        reference: 'John 8:33',
+        text: 'They answered him, "We are offspring of Abraham and have never been enslaved to anyone. How is it that you say, \'You will become free\'?"',
+      },
+    },
+  },
+  {
+    id: 'john-10-10',
+    reference: 'John 10:10',
+    book: 'John',
+    chapter: 10,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The thief comes only to steal and kill and destroy. I came that they may have life and have it abundantly.',
+      NIV: 'The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full.',
+      KJV: 'The thief cometh not, but for to steal, and to kill, and to destroy: I am come that they might have life, and that they might have it more abundantly.',
+      NASB: 'The thief comes only to steal and kill and destroy; I came that they may have life, and have it abundantly.',
+    },
+    context: {
+      before: {
+        reference: 'John 10:9',
+        text: 'I am the door. If anyone enters by me, he will be saved and will go in and out and find pasture.',
+      },
+      after: {
+        reference: 'John 10:11',
+        text: 'I am the good shepherd. The good shepherd lays down his life for the sheep.',
+      },
+    },
+  },
+  {
+    id: 'john-11-25',
+    reference: 'John 11:25',
+    book: 'John',
+    chapter: 11,
+    verse: 25,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Jesus said to her, "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live,',
+      NIV: 'Jesus said to her, "I am the resurrection and the life. The one who believes in me will live, even though they die;',
+      KJV: 'Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:',
+      NASB: 'Jesus said to her, "I am the resurrection and the life; he who believes in Me will live even if he dies,',
+    },
+    context: {
+      before: {
+        reference: 'John 11:24',
+        text: 'Martha said to him, "I know that he will rise again in the resurrection on the last day."',
+      },
+      after: {
+        reference: 'John 11:26',
+        text: 'and everyone who lives and believes in me shall never die. Do you believe this?"',
+      },
+    },
+  },
+  {
     id: 'john-14-6',
     reference: 'John 14:6',
     book: 'John',
@@ -643,6 +879,56 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'John 14:28',
         text: 'You heard me say to you, "I am going away, and I will come to you."',
+      },
+    },
+  },
+  {
+    id: 'john-15-5',
+    reference: 'John 15:5',
+    book: 'John',
+    chapter: 15,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.',
+      NIV: 'I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing.',
+      KJV: 'I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.',
+      NASB: 'I am the vine, you are the branches; he who abides in Me and I in him, he bears much fruit, for apart from Me you can do nothing.',
+    },
+    context: {
+      before: {
+        reference: 'John 15:4',
+        text: 'Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me.',
+      },
+      after: {
+        reference: 'John 15:6',
+        text: 'If anyone does not abide in me he is thrown away like a branch and withers; and the branches are gathered, thrown into the fire, and burned.',
+      },
+    },
+  },
+
+  // ============ ACTS ============
+  {
+    id: 'acts-1-8',
+    reference: 'Acts 1:8',
+    book: 'Acts',
+    chapter: 1,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.',
+      NIV: 'But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.',
+      KJV: 'But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.',
+      NASB: 'but you will receive power when the Holy Spirit has come upon you; and you shall be My witnesses both in Jerusalem, and in all Judea and Samaria, and even to the remotest part of the earth.',
+    },
+    context: {
+      before: {
+        reference: 'Acts 1:7',
+        text: 'He said to them, "It is not for you to know times or seasons that the Father has fixed by his own authority.',
+      },
+      after: {
+        reference: 'Acts 1:9',
+        text: 'And when he had said these things, as they were looking on, he was lifted up, and a cloud took him out of their sight.',
       },
     },
   },
@@ -793,6 +1079,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
+    id: 'romans-12-1',
+    reference: 'Romans 12:1',
+    book: 'Romans',
+    chapter: 12,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship.',
+      NIV: 'Therefore, I urge you, brothers and sisters, in view of God\'s mercy, to offer your bodies as a living sacrifice, holy and pleasing to God—this is your true and proper worship.',
+      KJV: 'I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.',
+      NASB: 'Therefore I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship.',
+    },
+    context: {
+      before: {
+        reference: 'Romans 11:36',
+        text: 'For from him and through him and to him are all things. To him be glory forever. Amen.',
+      },
+      after: {
+        reference: 'Romans 12:2',
+        text: 'Do not be conformed to this world, but be transformed by the renewal of your mind.',
+      },
+    },
+  },
+  {
     id: 'romans-12-2',
     reference: 'Romans 12:2',
     book: 'Romans',
@@ -813,6 +1123,56 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Romans 12:3',
         text: 'For by the grace given to me I say to everyone among you not to think of himself more highly than he ought to think,',
+      },
+    },
+  },
+
+  // ============ 1 CORINTHIANS ============
+  {
+    id: '1-corinthians-10-13',
+    reference: '1 Corinthians 10:13',
+    book: '1 Corinthians',
+    chapter: 10,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'No temptation has overtaken you that is not common to man. God is faithful, and he will not let you be tempted beyond your ability, but with the temptation he will also provide the way of escape, that you may be able to endure it.',
+      NIV: 'No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it.',
+      KJV: 'There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.',
+      NASB: 'No temptation has overtaken you but such as is common to man; and God is faithful, who will not allow you to be tempted beyond what you are able, but with the temptation will provide the way of escape also, so that you will be able to endure it.',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 10:12',
+        text: 'Therefore let anyone who thinks that he stands take heed lest he fall.',
+      },
+      after: {
+        reference: '1 Corinthians 10:14',
+        text: 'Therefore, my beloved, flee from idolatry.',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-13-4',
+    reference: '1 Corinthians 13:4',
+    book: '1 Corinthians',
+    chapter: 13,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Love is patient and kind; love does not envy or boast; it is not arrogant',
+      NIV: 'Love is patient, love is kind. It does not envy, it does not boast, it is not proud.',
+      KJV: 'Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up,',
+      NASB: 'Love is patient, love is kind and is not jealous; love does not brag and is not arrogant,',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 13:3',
+        text: 'If I give away all I have, and if I deliver up my body to be burned, but have not love, I gain nothing.',
+      },
+      after: {
+        reference: '1 Corinthians 13:5',
+        text: 'or rude. It does not insist on its own way; it is not irritable or resentful;',
       },
     },
   },

@@ -3,7 +3,17 @@
 import { useState, useEffect, useCallback } from 'react';
 import { realtimeDb, isRealtimeDbAvailable } from '@/lib/firebase';
 import { ref, set, get, update, onValue, onDisconnect, remove } from 'firebase/database';
-import { getRandomVerse, MemoryVerse, VerseTranslations, MEMORY_VERSES } from '@/data/memory-verses';
+import { getRandomVerse, MemoryVerse, VerseTranslations, MEMORY_VERSES, getVersesByDifficulty } from '@/data/memory-verses';
+
+// Round mode: typing (full verse) or progressive (fill blanks)
+export type RoundMode = 'typing' | 'progressive';
+
+// Data for progressive blanks mode
+export interface ProgressiveRoundData {
+  blankIndices: number[];        // Which word indices are blanked
+  blankPercentage: number;       // 30%, 50%, or 70%
+  correctAnswers: string[];      // The correct words for each blank
+}
 
 export interface Player {
   id: string;
@@ -16,6 +26,7 @@ export interface Player {
   currentRoundFinishedAt?: number;
   roundScores?: number[];
   joinedAt: number;
+  progressiveAnswers?: string[];  // Answers for progressive blanks mode
 }
 
 export interface GameVerse {
@@ -55,6 +66,8 @@ export interface RoomState {
   gameStartedAt?: number;
   createdAt: number;
   hostId: string;
+  roundModes?: RoundMode[];             // Which mode for each round
+  progressiveData?: ProgressiveRoundData; // Current round's progressive blanks data
 }
 
 interface UseRoomReturn {
@@ -66,7 +79,7 @@ interface UseRoomReturn {
   joinRoom: (roomCode: string, playerName: string) => Promise<boolean>;
   createRoom: (roomCode: string, playerName: string) => Promise<boolean>;
   setReady: (ready: boolean) => Promise<void>;
-  submitAnswer: (answer: string, score: number, bestTranslation: string) => Promise<void>;
+  submitAnswer: (answer: string, score: number, bestTranslation: string, progressiveAnswers?: string[]) => Promise<void>;
   startGame: (numRounds?: number) => Promise<void>;
   nextRound: () => Promise<void>;
   endGame: () => Promise<void>;
@@ -82,6 +95,60 @@ function generatePlayerId(): string {
 function getRandomVerses(count: number): MemoryVerse[] {
   const shuffled = [...MEMORY_VERSES].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+// Get 3 verses sorted by difficulty for progressive rounds (easy, medium, hard)
+function getProgressiveVerses(): MemoryVerse[] {
+  const easy = getVersesByDifficulty('easy');
+  const medium = getVersesByDifficulty('medium');
+  const hard = getVersesByDifficulty('hard');
+
+  // Shuffle within each difficulty and pick one
+  const shuffledEasy = [...easy].sort(() => Math.random() - 0.5);
+  const shuffledMedium = [...medium].sort(() => Math.random() - 0.5);
+  const shuffledHard = [...hard].sort(() => Math.random() - 0.5);
+
+  // Robust fallback: use any verse if a difficulty category is empty
+  const fallbackVerse = shuffledEasy[0] || shuffledMedium[0] || shuffledHard[0] || MEMORY_VERSES[0];
+
+  return [
+    shuffledEasy[0] || fallbackVerse,   // Round 4: Easy (fallback if empty)
+    shuffledMedium[0] || fallbackVerse, // Round 5: Medium (fallback if empty)
+    shuffledHard[0] || fallbackVerse,   // Round 6: Hard (fallback if empty)
+  ];
+}
+
+// Shuffle array helper
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+// Generate blank indices for progressive round
+function generateProgressiveBlanks(verse: GameVerse, roundNumber: number): ProgressiveRoundData {
+  const text = verse.translations.ESV;
+  const words = text.split(/\s+/).filter(w => w.length > 0);
+
+  // Round 4: 30%, Round 5: 50%, Round 6: 70%
+  const blankPercentages: Record<number, number> = { 4: 0.3, 5: 0.5, 6: 0.7 };
+  const blankPercent = blankPercentages[roundNumber] || 0.3;
+
+  const blankCount = Math.max(1, Math.floor(words.length * blankPercent));
+  const indices = Array.from({ length: words.length }, (_, i) => i);
+  const shuffledIndices = shuffleArray(indices);
+  const blankIndices = shuffledIndices.slice(0, blankCount).sort((a, b) => a - b);
+
+  const correctAnswers = blankIndices.map(i => words[i]);
+
+  return {
+    blankIndices,
+    blankPercentage: Math.round(blankPercent * 100),
+    correctAnswers,
+  };
 }
 
 export function useRoom(): UseRoomReturn {
@@ -249,7 +316,12 @@ export function useRoom(): UseRoomReturn {
     }
   }, [currentRoomCode, playerId]);
 
-  const submitAnswer = useCallback(async (answer: string, score: number, bestTranslation: string): Promise<void> => {
+  const submitAnswer = useCallback(async (
+    answer: string,
+    score: number,
+    bestTranslation: string,
+    progressiveAnswers?: string[]  // Optional: for progressive mode
+  ): Promise<void> => {
     if (!currentRoomCode || !playerId || !realtimeDb) return;
 
     try {
@@ -259,34 +331,49 @@ export function useRoom(): UseRoomReturn {
         currentRoundAnswer: answer,
         currentRoundTranslation: bestTranslation,
         currentRoundFinishedAt: Date.now(),
+        progressiveAnswers: progressiveAnswers || null,
       });
     } catch (err) {
       console.error('Failed to submit answer:', err);
     }
   }, [currentRoomCode, playerId]);
 
-  const startGame = useCallback(async (numRounds: number = 3): Promise<void> => {
+  const startGame = useCallback(async (numRounds: number = 6): Promise<void> => {
     if (!currentRoomCode || !realtimeDb || !isHost) return;
 
     try {
-      // Pick random verses for all rounds
-      const memoryVerses = getRandomVerses(numRounds);
-      const verses: GameVerse[] = memoryVerses.map(v => ({
+      // Pick 3 random verses for typing rounds
+      const typingVerses = getRandomVerses(3);
+
+      // Pick 3 difficulty-sorted verses for progressive rounds (easy, medium, hard)
+      const progressiveMemoryVerses = getProgressiveVerses();
+
+      // Combine all verses: 3 typing + 3 progressive
+      const allMemoryVerses = [...typingVerses, ...progressiveMemoryVerses];
+      const verses: GameVerse[] = allMemoryVerses.map(v => ({
         id: v.id,
         reference: v.reference,
         translations: v.translations,
         context: v.context,
       }));
 
+      // Define round modes: typing for 1-3, progressive for 4-6
+      const roundModes: RoundMode[] = [
+        'typing', 'typing', 'typing',
+        'progressive', 'progressive', 'progressive'
+      ];
+
       const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
       await update(roomRef, {
         status: 'countdown',
         currentRound: 1,
-        totalRounds: numRounds,
+        totalRounds: 6,
         verses,
         currentVerse: verses[0],
         roundResults: {},
         gameStartedAt: Date.now(),
+        roundModes,
+        progressiveData: null, // No progressive data for typing rounds
       });
 
       // Reset player round data
@@ -298,6 +385,7 @@ export function useRoom(): UseRoomReturn {
             currentRoundAnswer: null,
             currentRoundTranslation: null,
             currentRoundFinishedAt: null,
+            progressiveAnswers: null,
           });
         }
       }
@@ -345,6 +433,7 @@ export function useRoom(): UseRoomReturn {
           currentRoundAnswer: null,
           currentRoundTranslation: null,
           currentRoundFinishedAt: null,
+          progressiveAnswers: null, // Reset progressive answers
         });
       }
 
@@ -360,10 +449,19 @@ export function useRoom(): UseRoomReturn {
 
       // Move to next round
       const nextVerse = room.verses?.[nextRoundNum - 1];
+      const nextRoundMode = room.roundModes?.[nextRoundNum - 1] || 'typing';
+
+      // Generate progressive data if this is a progressive round
+      let progressiveData: ProgressiveRoundData | null = null;
+      if (nextRoundMode === 'progressive' && nextVerse) {
+        progressiveData = generateProgressiveBlanks(nextVerse, nextRoundNum);
+      }
+
       await update(roomRef, {
         status: 'countdown',
         currentRound: nextRoundNum,
         currentVerse: nextVerse,
+        progressiveData,
       });
 
       // Transition to playing after countdown

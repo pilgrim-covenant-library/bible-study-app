@@ -6,7 +6,7 @@ import { useSearchParams } from 'next/navigation';
 import {
   ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff,
   Grid3X3, ArrowUpDown, Layers, GraduationCap, Clock, TrendingUp,
-  CheckSquare, MessageSquare, Link2
+  CheckSquare, MessageSquare, Link2, Star
 } from 'lucide-react';
 import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
 import {
@@ -19,6 +19,12 @@ import {
   type CatechismCategory,
   type Difficulty,
 } from '@/data/westminster-catechism';
+import {
+  getDistractorsForQuestion,
+  WSC_DISTRACTORS,
+  CATEGORY_FALLBACK_DISTRACTORS,
+  type Distractor,
+} from '@/data/wsc-distractors';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 
@@ -44,6 +50,7 @@ interface QuizModeInfo {
   description: string;
   icon: React.ReactNode;
   difficulty: 'easy' | 'medium' | 'hard';
+  recommended?: boolean;
 }
 
 const QUIZ_MODES: QuizModeInfo[] = [
@@ -90,6 +97,7 @@ const QUIZ_MODES: QuizModeInfo[] = [
     description: 'Spot the Reformed answer',
     icon: <CheckSquare className="h-5 w-5" />,
     difficulty: 'medium',
+    recommended: true,
   },
   // === HARD ===
   {
@@ -309,8 +317,8 @@ function TheologyPracticeContent() {
   const [progressiveBlanks, setProgressiveBlanks] = useState<number[]>([]);
   const [progressiveAnswers, setProgressiveAnswers] = useState<string[]>([]);
 
-  // MCQ Mode - now includes alternative catechism answers as distractors
-  const [mcqOptions, setMcqOptions] = useState<{ answer: string; source: string; isCorrect: boolean }[]>([]);
+  // MCQ Mode - now includes intelligent distractors with explanations
+  const [mcqOptions, setMcqOptions] = useState<{ answer: string; source: string; isCorrect: boolean; explanation?: string }[]>([]);
   const [mcqSelected, setMcqSelected] = useState<number | null>(null);
 
   // Short Answer Mode
@@ -389,21 +397,40 @@ function TheologyPracticeContent() {
   }, []);
 
   const initializeMcq = useCallback((question: CatechismQuestion) => {
-    // Get distractors from the SAME CATEGORY as the question
-    // This makes MCQ tricky since all options are theologically related
-    const categoryDistractors = ALTERNATIVE_CATECHISM_BY_CATEGORY[question.category] || [];
-    const shuffledCategoryDistractors = shuffleArray(categoryDistractors);
+    // Try to get intelligent distractors first (question-specific or category fallback)
+    const intelligentDistractors = getDistractorsForQuestion(question.id, question.category);
 
-    // Start with distractors from matching category
-    let distractors = shuffledCategoryDistractors.slice(0, 3);
+    let distractorOptions: { answer: string; source: string; isCorrect: boolean; explanation?: string }[] = [];
 
-    // If not enough in category, fall back to other categories
-    if (distractors.length < 3) {
-      const otherCategories = (Object.keys(ALTERNATIVE_CATECHISM_BY_CATEGORY) as CatechismCategory[])
-        .filter(cat => cat !== question.category);
-      const fallbackPool = otherCategories.flatMap(cat => ALTERNATIVE_CATECHISM_BY_CATEGORY[cat]);
-      const shuffledFallback = shuffleArray(fallbackPool);
-      distractors = [...distractors, ...shuffledFallback.slice(0, 3 - distractors.length)];
+    if (intelligentDistractors.length >= 3) {
+      // Use intelligent distractors - these are plausible-but-wrong with explanations
+      const shuffledDistractors = shuffleArray(intelligentDistractors).slice(0, 3);
+      distractorOptions = shuffledDistractors.map(d => ({
+        answer: d.text,
+        source: 'Carefully study the answer!', // Hide the type/source during quiz
+        isCorrect: false,
+        explanation: d.explanation,
+      }));
+    } else {
+      // Fall back to alternative catechism distractors
+      const categoryDistractors = ALTERNATIVE_CATECHISM_BY_CATEGORY[question.category] || [];
+      const shuffledCategoryDistractors = shuffleArray(categoryDistractors);
+      let distractors = shuffledCategoryDistractors.slice(0, 3);
+
+      // If not enough in category, fall back to other categories
+      if (distractors.length < 3) {
+        const otherCategories = (Object.keys(ALTERNATIVE_CATECHISM_BY_CATEGORY) as CatechismCategory[])
+          .filter(cat => cat !== question.category);
+        const fallbackPool = otherCategories.flatMap(cat => ALTERNATIVE_CATECHISM_BY_CATEGORY[cat]);
+        const shuffledFallback = shuffleArray(fallbackPool);
+        distractors = [...distractors, ...shuffledFallback.slice(0, 3 - distractors.length)];
+      }
+
+      distractorOptions = distractors.map(d => ({
+        answer: d.answer,
+        source: d.source,
+        isCorrect: false,
+      }));
     }
 
     // Create the correct answer option
@@ -411,13 +438,11 @@ function TheologyPracticeContent() {
       answer: question.answer,
       source: 'Westminster Shorter Catechism',
       isCorrect: true,
+      explanation: 'This is the correct Reformed answer from the Westminster Shorter Catechism.',
     };
 
     // Shuffle all options together
-    const options = shuffleArray([
-      correctOption,
-      ...distractors.map(d => ({ answer: d.answer, source: d.source, isCorrect: false }))
-    ]);
+    const options = shuffleArray([correctOption, ...distractorOptions]);
     setMcqOptions(options);
     setMcqSelected(null);
   }, []);
@@ -765,15 +790,22 @@ function TheologyPracticeContent() {
                       <div className={`${quizMode === mode.id ? 'text-theology' : 'text-muted-foreground'}`}>
                         {mode.icon}
                       </div>
-                      <span className={`text-[10px] px-1.5 py-0.5 rounded font-medium uppercase ${
-                        mode.difficulty === 'easy'
-                          ? 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400'
-                          : mode.difficulty === 'medium'
-                            ? 'bg-yellow-100 dark:bg-yellow-900/40 text-yellow-700 dark:text-yellow-400'
-                            : 'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-400'
-                      }`}>
-                        {mode.difficulty}
-                      </span>
+                      <div className="flex items-center gap-1">
+                        {mode.recommended && (
+                          <span className="flex items-center gap-0.5 text-[10px] px-1.5 py-0.5 rounded font-medium bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-400">
+                            <Star className="h-3 w-3" />
+                          </span>
+                        )}
+                        <span className={`text-[10px] px-1.5 py-0.5 rounded font-medium uppercase ${
+                          mode.difficulty === 'easy'
+                            ? 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400'
+                            : mode.difficulty === 'medium'
+                              ? 'bg-yellow-100 dark:bg-yellow-900/40 text-yellow-700 dark:text-yellow-400'
+                              : 'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-400'
+                        }`}>
+                          {mode.difficulty}
+                        </span>
+                      </div>
                     </div>
                     <div className="font-medium text-sm">{mode.label}</div>
                     <div className="text-xs text-muted-foreground mt-1">{mode.description}</div>
@@ -1351,11 +1383,11 @@ function TheologyPracticeContent() {
                     </div>
                   )}
 
-                  {/* MCQ Explanation - show all options with sources */}
+                  {/* MCQ Explanation - show all options with explanations */}
                   {quizMode === 'mcq' && mcqOptions.length > 0 && (
                     <div className="border rounded-xl overflow-hidden">
                       <div className="bg-muted px-4 py-2 text-xs font-medium">
-                        Answer Sources Explained:
+                        Why Each Answer is Right or Wrong:
                       </div>
                       <div className="divide-y">
                         {mcqOptions.map((option, i) => (
@@ -1381,13 +1413,24 @@ function TheologyPracticeContent() {
                               </span>
                               <div className="flex-1">
                                 <p className="text-sm leading-relaxed">{option.answer}</p>
-                                <p className={`text-xs mt-1 ${
-                                  option.isCorrect
-                                    ? 'text-green-600 dark:text-green-400 font-medium'
-                                    : 'text-muted-foreground'
-                                }`}>
-                                  {option.isCorrect ? '✓ ' : ''}{option.source}
-                                </p>
+                                {option.explanation && (
+                                  <p className={`text-xs mt-2 p-2 rounded ${
+                                    option.isCorrect
+                                      ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300'
+                                      : 'bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-300'
+                                  }`}>
+                                    {option.isCorrect ? '✓ ' : '✗ '}{option.explanation}
+                                  </p>
+                                )}
+                                {!option.explanation && option.source && (
+                                  <p className={`text-xs mt-1 ${
+                                    option.isCorrect
+                                      ? 'text-green-600 dark:text-green-400 font-medium'
+                                      : 'text-muted-foreground'
+                                  }`}>
+                                    Source: {option.source}
+                                  </p>
+                                )}
                               </div>
                             </div>
                           </div>
