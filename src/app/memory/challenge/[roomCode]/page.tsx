@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff, Send, BookOpen, ArrowRight, Crown } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
@@ -15,6 +15,7 @@ const NUM_ROUNDS = 3;
 
 export default function ChallengePage() {
   const params = useParams();
+  const router = useRouter();
   const roomCode = params.roomCode as string;
 
   const {
@@ -177,6 +178,12 @@ export default function ChallengePage() {
     }
   };
 
+  // Properly await leaveRoom before navigating to prevent race condition
+  const handleLeaveRoom = useCallback(async () => {
+    await leaveRoom();
+    router.push('/memory');
+  }, [leaveRoom, router]);
+
   // Show name input if needed
   if (showNameInput) {
     return (
@@ -273,11 +280,9 @@ export default function ChallengePage() {
       <header className="border-b bg-card">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href="/memory" onClick={() => leaveRoom()}>
-              <Button variant="ghost" size="icon">
-                <ArrowLeft className="h-5 w-5" />
-              </Button>
-            </Link>
+            <Button variant="ghost" size="icon" onClick={handleLeaveRoom}>
+              <ArrowLeft className="h-5 w-5" />
+            </Button>
             <div className="flex items-center gap-3">
               <div className="p-2 rounded-lg bg-memory/10">
                 <Zap className="h-5 w-5 text-memory" />
@@ -715,11 +720,9 @@ export default function ChallengePage() {
                     ))}
                   </div>
 
-                  <Link href="/memory" className="block" onClick={() => leaveRoom()}>
-                    <Button variant="outline" className="w-full">
-                      Back to Menu
-                    </Button>
-                  </Link>
+                  <Button variant="outline" className="w-full" onClick={handleLeaveRoom}>
+                    Back to Menu
+                  </Button>
                 </div>
               </CardContent>
             </Card>

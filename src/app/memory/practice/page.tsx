@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useCallback, useEffect, useMemo, useRef } from 'react';
+import { useState, useCallback, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff,
-  Type, Grid3X3, MousePointer, ArrowUpDown, Layers, Volume2, GraduationCap,
+  Grid3X3, ArrowUpDown, Layers, GraduationCap,
   Clock, Flame, Trophy, TrendingUp, Calendar, Target
 } from 'lucide-react';
 import { useSpacedRepetitionStore, VerseProgress } from '@/stores/spacedRepetitionStore';
@@ -29,15 +29,12 @@ import { calculateSimilarity, SimilarityResult } from '@/lib/similarity';
 type PracticeState = 'select' | 'practice' | 'result';
 type FilterMode = 'difficulty' | 'book' | 'review';
 
-// All quiz modes based on research from scripture memory apps
+// Quiz modes for solo practice
 type QuizMode =
   | 'type_out'        // Full typing (current mode)
-  | 'first_letter'    // Type first letter of each word (Scripture Typer)
   | 'word_bank'       // Fill blanks from word bank
-  | 'tap_reveal'      // Tap to reveal phrase by phrase
   | 'reorder'         // Drag phrases to correct order
   | 'flashcard'       // Flip card reference <-> verse
-  | 'listen'          // Audio playback with recitation
   | 'progressive';    // Progressive blanks (easy -> hard)
 
 interface QuizModeInfo {
@@ -50,13 +47,6 @@ interface QuizModeInfo {
 
 const QUIZ_MODES: QuizModeInfo[] = [
   {
-    id: 'tap_reveal',
-    label: 'Tap to Reveal',
-    description: 'Reveal verse phrase by phrase',
-    icon: <MousePointer className="h-5 w-5" />,
-    difficulty: 'beginner',
-  },
-  {
     id: 'flashcard',
     label: 'Flashcard',
     description: 'Flip between reference and verse',
@@ -64,24 +54,10 @@ const QUIZ_MODES: QuizModeInfo[] = [
     difficulty: 'beginner',
   },
   {
-    id: 'listen',
-    label: 'Listen & Recite',
-    description: 'Hear the verse, then recite',
-    icon: <Volume2 className="h-5 w-5" />,
-    difficulty: 'beginner',
-  },
-  {
     id: 'word_bank',
     label: 'Word Bank',
     description: 'Fill blanks from word options',
     icon: <Grid3X3 className="h-5 w-5" />,
-    difficulty: 'intermediate',
-  },
-  {
-    id: 'first_letter',
-    label: 'First Letter',
-    description: 'Type first letter of each word',
-    icon: <Type className="h-5 w-5" />,
     difficulty: 'intermediate',
   },
   {
@@ -108,15 +84,15 @@ const QUIZ_MODES: QuizModeInfo[] = [
 ];
 
 const DIFFICULTY_LABELS: Record<Difficulty, { label: string; description: string; color: string }> = {
-  easy: { label: 'Easy', description: 'Common, well-known verses', color: 'text-green-600 bg-green-100' },
-  medium: { label: 'Medium', description: 'Popular verses', color: 'text-yellow-600 bg-yellow-100' },
-  hard: { label: 'Hard', description: 'Less common verses', color: 'text-red-600 bg-red-100' },
+  easy: { label: 'Easy', description: 'Common, well-known verses', color: 'text-green-600 dark:text-green-400 bg-green-100 dark:bg-green-900/30' },
+  medium: { label: 'Medium', description: 'Popular verses', color: 'text-yellow-600 dark:text-yellow-400 bg-yellow-100 dark:bg-yellow-900/30' },
+  hard: { label: 'Hard', description: 'Less common verses', color: 'text-red-600 dark:text-red-400 bg-red-100 dark:bg-red-900/30' },
 };
 
 const DIFFICULTY_COLORS: Record<'beginner' | 'intermediate' | 'advanced', string> = {
-  beginner: 'border-green-200 bg-green-50',
-  intermediate: 'border-yellow-200 bg-yellow-50',
-  advanced: 'border-red-200 bg-red-50',
+  beginner: 'border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/20',
+  intermediate: 'border-yellow-200 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-900/20',
+  advanced: 'border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/20',
 };
 
 // ============================================================================
@@ -181,7 +157,7 @@ export default function PracticePage() {
   // Core state
   const [state, setState] = useState<PracticeState>('select');
   const [currentVerse, setCurrentVerse] = useState<MemoryVerse | null>(null);
-  const [quizMode, setQuizMode] = useState<QuizMode>('first_letter');
+  const [quizMode, setQuizMode] = useState<QuizMode>('word_bank');
   const [result, setResult] = useState<SimilarityResult | null>(null);
 
   // Filter state
@@ -201,19 +177,10 @@ export default function PracticePage() {
   const [userAnswer, setUserAnswer] = useState('');
   const [showAnswer, setShowAnswer] = useState(false);
 
-  // First Letter mode state
-  const [firstLetterInputs, setFirstLetterInputs] = useState<string[]>([]);
-  const [firstLetterCorrect, setFirstLetterCorrect] = useState<boolean[]>([]);
-  const firstLetterRefs = useRef<(HTMLInputElement | null)[]>([]);
-
   // Word Bank mode state
   const [wordBankSelected, setWordBankSelected] = useState<number[]>([]);
   const [wordBankOptions, setWordBankOptions] = useState<string[]>([]);
   const [wordBankBlanks, setWordBankBlanks] = useState<number[]>([]);
-
-  // Tap to Reveal mode state
-  const [revealedPhrases, setRevealedPhrases] = useState<number>(0);
-  const [phrases, setPhrases] = useState<string[]>([]);
 
   // Flashcard mode state
   const [isFlipped, setIsFlipped] = useState(false);
@@ -223,10 +190,6 @@ export default function PracticePage() {
   const [reorderPhrases, setReorderPhrases] = useState<string[]>([]);
   const [correctOrder, setCorrectOrder] = useState<string[]>([]);
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
-
-  // Listen mode state
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [hasListened, setHasListened] = useState(false);
 
   // Progressive mode state
   const [progressiveLevel, setProgressiveLevel] = useState(1);
@@ -250,12 +213,6 @@ export default function PracticePage() {
   // INITIALIZATION FUNCTIONS
   // ============================================================================
 
-  const initializeFirstLetter = useCallback((words: string[]) => {
-    setFirstLetterInputs(new Array(words.length).fill(''));
-    setFirstLetterCorrect(new Array(words.length).fill(false));
-    firstLetterRefs.current = new Array(words.length).fill(null);
-  }, []);
-
   const initializeWordBank = useCallback((words: string[]) => {
     // Blank out ~40% of words
     const blankCount = Math.max(2, Math.floor(words.length * 0.4));
@@ -272,12 +229,6 @@ export default function PracticePage() {
     setWordBankBlanks(blanks);
     setWordBankOptions(options);
     setWordBankSelected([]);
-  }, []);
-
-  const initializeTapReveal = useCallback((text: string) => {
-    const versePhrase = splitIntoPhrases(text);
-    setPhrases(versePhrase);
-    setRevealedPhrases(0);
   }, []);
 
   const initializeReorder = useCallback((text: string) => {
@@ -340,14 +291,8 @@ export default function PracticePage() {
     const words = getWords(verse.translations.ESV);
 
     switch (quizMode) {
-      case 'first_letter':
-        initializeFirstLetter(words);
-        break;
       case 'word_bank':
         initializeWordBank(words);
-        break;
-      case 'tap_reveal':
-        initializeTapReveal(verse.translations.ESV);
         break;
       case 'flashcard':
         setIsFlipped(false);
@@ -355,11 +300,6 @@ export default function PracticePage() {
         break;
       case 'reorder':
         initializeReorder(verse.translations.ESV);
-        break;
-      case 'listen':
-        setIsPlaying(false);
-        setHasListened(false);
-        setUserAnswer('');
         break;
       case 'progressive':
         setProgressiveLevel(1);
@@ -371,7 +311,7 @@ export default function PracticePage() {
     }
 
     setState('practice');
-  }, [filterMode, selectedDifficulty, selectedBook, quizMode, dueVerses, initializeFirstLetter, initializeWordBank, initializeTapReveal, initializeReorder, initializeProgressive]);
+  }, [filterMode, selectedDifficulty, selectedBook, quizMode, dueVerses, initializeWordBank, initializeReorder, initializeProgressive]);
 
   // ============================================================================
   // SUBMIT HANDLERS
@@ -389,13 +329,6 @@ export default function PracticePage() {
         userText = userAnswer;
         break;
 
-      case 'first_letter': {
-        const correctCount = firstLetterCorrect.filter(Boolean).length;
-        score = Math.round((correctCount / verseWords.length) * 100);
-        userText = firstLetterInputs.join(' ');
-        break;
-      }
-
       case 'word_bank': {
         const words = verseWords;
         const userWords = words.map((w, i) => {
@@ -408,12 +341,6 @@ export default function PracticePage() {
           return w;
         });
         userText = userWords.join(' ');
-        break;
-      }
-
-      case 'tap_reveal': {
-        score = revealedPhrases === phrases.length ? 100 : Math.round((revealedPhrases / phrases.length) * 100);
-        userText = phrases.slice(0, revealedPhrases).join(' ');
         break;
       }
 
@@ -434,11 +361,6 @@ export default function PracticePage() {
         break;
       }
 
-      case 'listen':
-        if (!userAnswer.trim()) return;
-        userText = userAnswer;
-        break;
-
       case 'progressive': {
         const words = verseWords;
         let correct = 0;
@@ -454,12 +376,12 @@ export default function PracticePage() {
     }
 
     // Calculate similarity for modes that use text input
-    if (['type_out', 'listen', 'word_bank'].includes(quizMode) && userText) {
+    if (['type_out', 'word_bank'].includes(quizMode) && userText) {
       const similarityResult = calculateSimilarity(userText, currentVerse.translations);
       setResult(similarityResult);
       score = similarityResult.bestScore;
-    } else if (['first_letter', 'progressive'].includes(quizMode)) {
-      // For these modes, we create a simple result
+    } else if (quizMode === 'progressive') {
+      // For progressive mode, we create a simple result
       setResult({
         bestScore: score,
         bestTranslation: 'ESV',
@@ -470,7 +392,7 @@ export default function PracticePage() {
           score >= 50 ? 'Nice effort!' : 'Keep practicing!',
       });
     } else {
-      // For tap_reveal, flashcard, reorder
+      // For flashcard, reorder
       setResult({
         bestScore: score,
         bestTranslation: 'ESV',
@@ -491,35 +413,11 @@ export default function PracticePage() {
     recordReview(currentVerse.id, currentVerse.reference, score, quizMode);
 
     setState('result');
-  }, [currentVerse, quizMode, userAnswer, firstLetterCorrect, firstLetterInputs, verseWords, wordBankBlanks, wordBankSelected, wordBankOptions, revealedPhrases, phrases, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview]);
+  }, [currentVerse, quizMode, userAnswer, verseWords, wordBankBlanks, wordBankSelected, wordBankOptions, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview]);
 
   // ============================================================================
   // MODE-SPECIFIC HANDLERS
   // ============================================================================
-
-  // First Letter handlers
-  const handleFirstLetterInput = useCallback((index: number, value: string) => {
-    const char = value.slice(-1).toLowerCase();
-    if (!char) return;
-
-    const newInputs = [...firstLetterInputs];
-    newInputs[index] = char;
-    setFirstLetterInputs(newInputs);
-
-    const expectedFirst = normalizeWord(verseWords[index])[0];
-    const isCorrect = char === expectedFirst;
-
-    const newCorrect = [...firstLetterCorrect];
-    newCorrect[index] = isCorrect;
-    setFirstLetterCorrect(newCorrect);
-
-    // Auto-advance to next input
-    if (isCorrect && index < verseWords.length - 1) {
-      setTimeout(() => {
-        firstLetterRefs.current[index + 1]?.focus();
-      }, 100);
-    }
-  }, [firstLetterInputs, firstLetterCorrect, verseWords]);
 
   // Word Bank handlers
   const handleWordBankSelect = useCallback((optionIndex: number) => {
@@ -533,13 +431,6 @@ export default function PracticePage() {
     if (wordBankSelected.length === 0) return;
     setWordBankSelected(wordBankSelected.slice(0, -1));
   }, [wordBankSelected]);
-
-  // Tap to Reveal handler
-  const handleRevealNext = useCallback(() => {
-    if (revealedPhrases < phrases.length) {
-      setRevealedPhrases(revealedPhrases + 1);
-    }
-  }, [revealedPhrases, phrases.length]);
 
   // Reorder handlers
   const handleDragStart = useCallback((index: number) => {
@@ -560,21 +451,6 @@ export default function PracticePage() {
   const handleDragEnd = useCallback(() => {
     setDraggedIndex(null);
   }, []);
-
-  // Listen mode handler
-  const handlePlayAudio = useCallback(() => {
-    if (!currentVerse || isPlaying) return;
-
-    const utterance = new SpeechSynthesisUtterance(currentVerse.translations.ESV);
-    utterance.rate = 0.9;
-    utterance.onstart = () => setIsPlaying(true);
-    utterance.onend = () => {
-      setIsPlaying(false);
-      setHasListened(true);
-    };
-
-    window.speechSynthesis.speak(utterance);
-  }, [currentVerse, isPlaying]);
 
   // Progressive mode - next level
   const handleProgressiveNext = useCallback(() => {
@@ -613,14 +489,8 @@ export default function PracticePage() {
     const words = getWords(currentVerse.translations.ESV);
 
     switch (quizMode) {
-      case 'first_letter':
-        initializeFirstLetter(words);
-        break;
       case 'word_bank':
         initializeWordBank(words);
-        break;
-      case 'tap_reveal':
-        initializeTapReveal(currentVerse.translations.ESV);
         break;
       case 'flashcard':
         setIsFlipped(false);
@@ -629,18 +499,17 @@ export default function PracticePage() {
       case 'reorder':
         initializeReorder(currentVerse.translations.ESV);
         break;
-      case 'listen':
-        setHasListened(false);
-        setUserAnswer('');
-        break;
       case 'progressive':
         setProgressiveLevel(1);
         initializeProgressive(words, 1);
         break;
+      case 'type_out':
+        setUserAnswer('');
+        break;
     }
 
     setState('practice');
-  }, [currentVerse, quizMode, initializeFirstLetter, initializeWordBank, initializeTapReveal, initializeReorder, initializeProgressive]);
+  }, [currentVerse, quizMode, initializeWordBank, initializeReorder, initializeProgressive]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -819,9 +688,9 @@ export default function PracticePage() {
                           <div className="flex justify-between items-start mb-1">
                             <span className="font-medium">{progress.reference}</span>
                             <span className={`text-xs px-2 py-0.5 rounded ${
-                              progress.easeFactor >= 2.5 ? 'bg-green-100 text-green-700' :
-                              progress.easeFactor >= 2.0 ? 'bg-yellow-100 text-yellow-700' :
-                              'bg-red-100 text-red-700'
+                              progress.easeFactor >= 2.5 ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400' :
+                              progress.easeFactor >= 2.0 ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400' :
+                              'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400'
                             }`}>
                               {progress.easeFactor >= 2.5 ? 'Strong' :
                                progress.easeFactor >= 2.0 ? 'Learning' : 'Needs Work'}
@@ -967,7 +836,7 @@ export default function PracticePage() {
             </div>
 
             {/* Context Verses (for some modes) */}
-            {['type_out', 'listen', 'first_letter', 'progressive'].includes(quizMode) && (
+            {['type_out', 'progressive'].includes(quizMode) && (
               <Card className="mb-6">
                 <CardContent className="p-4">
                   {currentVerse.context.before && (
@@ -1018,45 +887,6 @@ export default function PracticePage() {
             )}
 
             {/* ============================================================ */}
-            {/* FIRST LETTER MODE */}
-            {/* ============================================================ */}
-            {quizMode === 'first_letter' && (
-              <Card className="mb-6">
-                <CardContent className="p-6">
-                  <div className="text-xs font-medium text-memory mb-4">
-                    Type the first letter of each word:
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    {verseWords.map((word, i) => (
-                      <div key={i} className="flex items-center gap-1">
-                        <input
-                          ref={(el) => { firstLetterRefs.current[i] = el; }}
-                          type="text"
-                          className={`w-8 h-8 text-center text-lg font-mono border-2 rounded ${
-                            firstLetterCorrect[i]
-                              ? 'border-green-500 bg-green-50 text-green-700'
-                              : firstLetterInputs[i]
-                                ? 'border-red-500 bg-red-50 text-red-700'
-                                : 'border-gray-300 focus:border-memory'
-                          }`}
-                          value={firstLetterInputs[i] || ''}
-                          onChange={(e) => handleFirstLetterInput(i, e.target.value)}
-                          maxLength={1}
-                        />
-                        <span className="text-muted-foreground text-sm">
-                          {word.slice(1)}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="mt-4 text-sm text-muted-foreground">
-                    Progress: {firstLetterCorrect.filter(Boolean).length} / {verseWords.length} correct
-                  </div>
-                </CardContent>
-              </Card>
-            )}
-
-            {/* ============================================================ */}
             {/* WORD BANK MODE */}
             {/* ============================================================ */}
             {quizMode === 'word_bank' && (
@@ -1077,7 +907,7 @@ export default function PracticePage() {
                           <span
                             key={i}
                             className={`px-2 py-1 rounded border-2 border-dashed min-w-[60px] text-center ${
-                              selectedWord ? 'border-memory bg-memory/10' : 'border-gray-300 bg-gray-50'
+                              selectedWord ? 'border-memory bg-memory/10 text-foreground' : 'border-border bg-muted/50 text-muted-foreground'
                             }`}
                           >
                             {selectedWord || '______'}
@@ -1098,8 +928,8 @@ export default function PracticePage() {
                             key={i}
                             className={`px-3 py-1.5 rounded-lg border text-sm font-medium transition-all ${
                               isUsed
-                                ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed'
-                                : 'bg-white hover:bg-memory/10 hover:border-memory border-gray-300'
+                                ? 'bg-muted text-muted-foreground border-muted cursor-not-allowed opacity-50'
+                                : 'bg-background text-foreground hover:bg-memory/10 hover:text-memory hover:border-memory border-border'
                             }`}
                             onClick={() => handleWordBankSelect(i)}
                             disabled={isUsed}
@@ -1120,46 +950,6 @@ export default function PracticePage() {
                         Undo Last
                       </Button>
                     )}
-                  </div>
-                </CardContent>
-              </Card>
-            )}
-
-            {/* ============================================================ */}
-            {/* TAP TO REVEAL MODE */}
-            {/* ============================================================ */}
-            {quizMode === 'tap_reveal' && (
-              <Card className="mb-6">
-                <CardContent className="p-6">
-                  <div className="text-xs font-medium text-memory mb-4">
-                    Tap to reveal the verse phrase by phrase:
-                  </div>
-                  <div className="space-y-3 min-h-[150px]">
-                    {phrases.map((phrase, i) => (
-                      <div
-                        key={i}
-                        className={`p-3 rounded-lg transition-all ${
-                          i < revealedPhrases
-                            ? 'bg-memory/10 border border-memory/20'
-                            : 'bg-gray-100 text-gray-400'
-                        }`}
-                      >
-                        {i < revealedPhrases ? phrase : '• • •'}
-                      </div>
-                    ))}
-                  </div>
-                  <div className="mt-4 flex items-center justify-between">
-                    <span className="text-sm text-muted-foreground">
-                      {revealedPhrases} / {phrases.length} revealed
-                    </span>
-                    <Button
-                      variant="memory"
-                      onClick={handleRevealNext}
-                      disabled={revealedPhrases >= phrases.length}
-                    >
-                      <MousePointer className="h-4 w-4 mr-2" />
-                      Reveal Next
-                    </Button>
                   </div>
                 </CardContent>
               </Card>
@@ -1221,21 +1011,21 @@ export default function PracticePage() {
                     <div className="flex justify-center gap-3">
                       <Button
                         variant="outline"
-                        className="border-red-200 hover:bg-red-50"
+                        className="border-red-200 dark:border-red-800 hover:bg-red-50 dark:hover:bg-red-900/20"
                         onClick={() => setSelfRating('hard')}
                       >
                         Didn't Know
                       </Button>
                       <Button
                         variant="outline"
-                        className="border-yellow-200 hover:bg-yellow-50"
+                        className="border-yellow-200 dark:border-yellow-800 hover:bg-yellow-50 dark:hover:bg-yellow-900/20"
                         onClick={() => setSelfRating('medium')}
                       >
                         Partially
                       </Button>
                       <Button
                         variant="outline"
-                        className="border-green-200 hover:bg-green-50"
+                        className="border-green-200 dark:border-green-800 hover:bg-green-50 dark:hover:bg-green-900/20"
                         onClick={() => setSelfRating('easy')}
                       >
                         Knew It
@@ -1266,7 +1056,7 @@ export default function PracticePage() {
                         className={`p-3 rounded-lg border-2 cursor-move transition-all ${
                           draggedIndex === i
                             ? 'border-memory bg-memory/10 shadow-lg'
-                            : 'border-gray-200 bg-white hover:border-gray-300'
+                            : 'border-gray-200 dark:border-gray-700 bg-card hover:border-gray-300 dark:hover:border-gray-600'
                         }`}
                       >
                         <div className="flex items-center gap-3">
@@ -1278,48 +1068,6 @@ export default function PracticePage() {
                       </div>
                     ))}
                   </div>
-                </CardContent>
-              </Card>
-            )}
-
-            {/* ============================================================ */}
-            {/* LISTEN MODE */}
-            {/* ============================================================ */}
-            {quizMode === 'listen' && (
-              <Card className="mb-6">
-                <CardContent className="p-6">
-                  <div className="text-center mb-6">
-                    <Button
-                      variant={hasListened ? 'outline' : 'memory'}
-                      size="lg"
-                      onClick={handlePlayAudio}
-                      disabled={isPlaying}
-                      className="mb-4"
-                    >
-                      <Volume2 className={`h-5 w-5 mr-2 ${isPlaying ? 'animate-pulse' : ''}`} />
-                      {isPlaying ? 'Playing...' : hasListened ? 'Listen Again' : 'Listen to Verse'}
-                    </Button>
-                    {hasListened && (
-                      <p className="text-sm text-muted-foreground">
-                        Now type what you heard:
-                      </p>
-                    )}
-                  </div>
-
-                  {hasListened && (
-                    <>
-                      <textarea
-                        className="w-full min-h-[120px] p-4 text-lg leading-relaxed border rounded-lg focus:ring-2 focus:ring-memory focus:border-memory resize-none bg-background"
-                        placeholder="Type the verse you heard..."
-                        value={userAnswer}
-                        onChange={(e) => setUserAnswer(e.target.value)}
-                        autoFocus
-                      />
-                      <div className="text-xs text-muted-foreground mt-1">
-                        Press Ctrl+Enter to submit
-                      </div>
-                    </>
-                  )}
                 </CardContent>
               </Card>
             )}
@@ -1385,7 +1133,7 @@ export default function PracticePage() {
             {/* ============================================================ */}
 
             {/* Peek at Answer */}
-            {['type_out', 'first_letter', 'progressive', 'listen'].includes(quizMode) && (
+            {['type_out', 'progressive'].includes(quizMode) && (
               <div className="flex gap-4 mb-4">
                 <Button
                   variant="outline"
@@ -1424,7 +1172,6 @@ export default function PracticePage() {
               onClick={handleSubmit}
               disabled={
                 (quizMode === 'type_out' && !userAnswer.trim()) ||
-                (quizMode === 'listen' && !userAnswer.trim()) ||
                 (quizMode === 'flashcard' && !selfRating)
               }
             >
