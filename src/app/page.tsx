@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Book, Users, Zap, HelpCircle, Sun, Moon } from 'lucide-react';
+import { Book, Users, Zap, HelpCircle, Sun, Moon, BookOpen } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
@@ -31,6 +31,14 @@ const features = [
     href: '/trivia',
     color: 'trivia',
     gradient: 'from-amber-500 to-yellow-500',
+  },
+  {
+    title: 'Systematic Theology',
+    description: 'Master the Westminster Shorter Catechism with 107 foundational questions on Reformed doctrine.',
+    icon: BookOpen,
+    href: '/theology',
+    color: 'theology',
+    gradient: 'from-blue-500 to-indigo-600',
   },
 ];
 
@@ -98,11 +106,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl font-bold text-center mb-12">Choose Your Study Mode</h2>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map((feature) => (
               <Link key={feature.title} href={feature.href} className="group">
                 <Card
-                  variant={feature.color as 'one2one' | 'memory' | 'trivia'}
+                  variant={feature.color as 'one2one' | 'memory' | 'trivia' | 'theology'}
                   className="h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
                 >
                   <CardHeader>
@@ -131,9 +139,9 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted/50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-8">How It Works</h2>
-          <div className="grid sm:grid-cols-3 gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">7</div>
+              <div className="text-4xl font-bold text-one2one mb-2">7</div>
               <div className="text-muted-foreground">Questions in One2One method</div>
             </div>
             <div>
@@ -143,6 +151,10 @@ export default function Home() {
             <div>
               <div className="text-4xl font-bold text-trivia mb-2">500+</div>
               <div className="text-muted-foreground">Trivia questions</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-theology mb-2">107</div>
+              <div className="text-muted-foreground">Catechism questions</div>
             </div>
           </div>
         </div>

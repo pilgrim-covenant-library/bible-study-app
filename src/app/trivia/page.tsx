@@ -120,11 +120,21 @@ const CATEGORIES: { value: TriviaCategory | 'all'; label: string; color: string 
   { value: 'characters', label: 'Characters', color: 'bg-purple-600' },
 ];
 
+type Difficulty = 'easy' | 'medium' | 'hard';
+
+const DIFFICULTIES: { value: Difficulty | 'all'; label: string; color: string; bgColor: string }[] = [
+  { value: 'all', label: 'All', color: 'bg-trivia', bgColor: 'bg-trivia/20 text-trivia' },
+  { value: 'easy', label: 'Easy', color: 'bg-green-600', bgColor: 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-400' },
+  { value: 'medium', label: 'Medium', color: 'bg-yellow-600', bgColor: 'bg-yellow-100 dark:bg-yellow-900/40 text-yellow-700 dark:text-yellow-400' },
+  { value: 'hard', label: 'Hard', color: 'bg-red-600', bgColor: 'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-400' },
+];
+
 type GameState = 'menu' | 'playing' | 'results';
 
 export default function TriviaPage() {
   const [gameState, setGameState] = useState<GameState>('menu');
   const [selectedCategory, setSelectedCategory] = useState<TriviaCategory | 'all'>('all');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | 'all'>('all');
   const [questions, setQuestions] = useState<TriviaQuestion[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
@@ -148,6 +158,9 @@ export default function TriviaPage() {
     let filtered = SAMPLE_QUESTIONS;
     if (selectedCategory !== 'all') {
       filtered = filtered.filter(q => q.category === selectedCategory);
+    }
+    if (selectedDifficulty !== 'all') {
+      filtered = filtered.filter(q => q.difficulty === selectedDifficulty);
     }
     const shuffled = shuffleArray(filtered).slice(0, 10);
     setQuestions(shuffled);
@@ -248,6 +261,23 @@ export default function TriviaPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div>
+                    <label className="block text-sm font-medium mb-2">Difficulty</label>
+                    <div className="grid grid-cols-4 gap-2">
+                      {DIFFICULTIES.map((diff) => (
+                        <Button
+                          key={diff.value}
+                          variant={selectedDifficulty === diff.value ? 'default' : 'outline'}
+                          size="sm"
+                          className={selectedDifficulty === diff.value ? diff.color : ''}
+                          onClick={() => setSelectedDifficulty(diff.value)}
+                        >
+                          {diff.label}
+                        </Button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
                     <label className="block text-sm font-medium mb-2">Category</label>
                     <div className="grid grid-cols-2 gap-2">
                       {CATEGORIES.map((cat) => (
@@ -298,9 +328,14 @@ export default function TriviaPage() {
             {/* Question Card */}
             <Card>
               <CardContent className="p-6">
-                <div className="text-center mb-6">
+                <div className="flex items-center justify-center gap-2 mb-6">
                   <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
-                    {question.category.replace('_', ' ')} • {question.difficulty}
+                    {question.category.replace('_', ' ')}
+                  </span>
+                  <span className={`text-xs font-semibold px-2 py-0.5 rounded-full uppercase ${
+                    DIFFICULTIES.find(d => d.value === question.difficulty)?.bgColor || ''
+                  }`}>
+                    {question.difficulty}
                   </span>
                 </div>
 

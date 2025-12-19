@@ -4,7 +4,7 @@ import { forwardRef, type HTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
-  variant?: 'default' | 'one2one' | 'memory' | 'trivia';
+  variant?: 'default' | 'one2one' | 'memory' | 'trivia' | 'theology';
 }
 
 const Card = forwardRef<HTMLDivElement, CardProps>(
@@ -14,6 +14,7 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
       one2one: 'bg-card text-card-foreground border-one2one/20 hover:border-one2one/40',
       memory: 'bg-card text-card-foreground border-memory/20 hover:border-memory/40',
       trivia: 'bg-card text-card-foreground border-trivia/20 hover:border-trivia/40',
+      theology: 'bg-card text-card-foreground border-theology/20 hover:border-theology/40',
     };
 
     return (

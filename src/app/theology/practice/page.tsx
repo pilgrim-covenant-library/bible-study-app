@@ -1,41 +1,38 @@
 'use client';
 
-import { useState, useCallback, useEffect, useMemo } from 'react';
+import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import {
   ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff,
-  Grid3X3, ArrowUpDown, Layers, GraduationCap,
-  Clock, Flame, Trophy, TrendingUp, Calendar, Target
+  Grid3X3, ArrowUpDown, Layers, GraduationCap, Clock, TrendingUp
 } from 'lucide-react';
-import { useSpacedRepetitionStore, VerseProgress } from '@/stores/spacedRepetitionStore';
-import { MEMORY_VERSES } from '@/data/memory-verses';
+import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
+import {
+  WESTMINSTER_CATECHISM,
+  CATECHISM_CATEGORIES,
+  getCatechismByCategory,
+  getCatechismByDifficulty,
+  getRandomCatechism,
+  type CatechismQuestion,
+  type CatechismCategory,
+  type Difficulty,
+} from '@/data/westminster-catechism';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
-import {
-  getRandomVerse,
-  getRandomVerseByDifficulty,
-  getVersesByBook,
-  getAllBooks,
-  getDifficultyCounts,
-  MemoryVerse,
-  Difficulty,
-} from '@/data/memory-verses';
-import { calculateSimilarity, SimilarityResult } from '@/lib/similarity';
 
 // ============================================================================
 // TYPES & CONSTANTS
 // ============================================================================
 
 type PracticeState = 'select' | 'practice' | 'result';
-type FilterMode = 'difficulty' | 'book' | 'review';
 
-// Quiz modes for solo practice
 type QuizMode =
-  | 'type_out'        // Full typing (current mode)
+  | 'flashcard'       // Flip card question <-> answer
   | 'word_bank'       // Fill blanks from word bank
   | 'reorder'         // Drag phrases to correct order
-  | 'flashcard'       // Flip card reference <-> verse
-  | 'progressive';    // Progressive blanks (easy -> hard)
+  | 'progressive'     // Progressive blanks (easy -> hard)
+  | 'type_out';       // Full typing
 
 interface QuizModeInfo {
   id: QuizMode;
@@ -49,7 +46,7 @@ const QUIZ_MODES: QuizModeInfo[] = [
   {
     id: 'flashcard',
     label: 'Flashcard',
-    description: 'Flip between reference and verse',
+    description: 'Flip between question and answer',
     icon: <Layers className="h-5 w-5" />,
     difficulty: 'easy',
   },
@@ -63,36 +60,36 @@ const QUIZ_MODES: QuizModeInfo[] = [
   {
     id: 'reorder',
     label: 'Phrase Reorder',
-    description: 'Arrange phrases in order',
+    description: 'Arrange answer phrases in order',
     icon: <ArrowUpDown className="h-5 w-5" />,
     difficulty: 'medium',
   },
   {
     id: 'progressive',
     label: 'Progressive Blanks',
-    description: 'Blanks increase each round',
+    description: 'Blanks increase each level',
     icon: <GraduationCap className="h-5 w-5" />,
     difficulty: 'hard',
   },
   {
     id: 'type_out',
     label: 'Type Out',
-    description: 'Type the entire verse',
+    description: 'Type the entire answer',
     icon: <Send className="h-5 w-5" />,
     difficulty: 'hard',
   },
 ];
 
-const DIFFICULTY_LABELS: Record<Difficulty, { label: string; description: string; color: string }> = {
-  easy: { label: 'Easy', description: 'Common, well-known verses', color: 'text-green-600 dark:text-green-400 bg-green-100 dark:bg-green-900/30' },
-  medium: { label: 'Medium', description: 'Popular verses', color: 'text-yellow-600 dark:text-yellow-400 bg-yellow-100 dark:bg-yellow-900/30' },
-  hard: { label: 'Hard', description: 'Less common verses', color: 'text-red-600 dark:text-red-400 bg-red-100 dark:bg-red-900/30' },
-};
-
 const QUIZ_MODE_COLORS: Record<'easy' | 'medium' | 'hard', string> = {
   easy: 'border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/20',
   medium: 'border-yellow-200 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-900/20',
   hard: 'border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/20',
+};
+
+const DIFFICULTY_LABELS: Record<Difficulty, { label: string; color: string }> = {
+  easy: { label: 'Easy', color: 'text-green-600 dark:text-green-400 bg-green-100 dark:bg-green-900/30' },
+  medium: { label: 'Medium', color: 'text-yellow-600 dark:text-yellow-400 bg-yellow-100 dark:bg-yellow-900/30' },
+  hard: { label: 'Hard', color: 'text-red-600 dark:text-red-400 bg-red-100 dark:bg-red-900/30' },
 };
 
 // ============================================================================
@@ -117,7 +114,6 @@ function shuffleArray<T>(array: T[]): T[] {
 }
 
 function splitIntoPhrases(text: string, minPhraseLength: number = 3): string[] {
-  // Split by punctuation first, then by length
   const parts = text.split(/([,;:.!?]+\s*)/);
   const phrases: string[] = [];
   let current = '';
@@ -135,7 +131,6 @@ function splitIntoPhrases(text: string, minPhraseLength: number = 3): string[] {
     phrases.push(current.trim());
   }
 
-  // If we got very few phrases, split more aggressively
   if (phrases.length < 3) {
     const words = getWords(text);
     const chunkSize = Math.ceil(words.length / 4);
@@ -149,78 +144,108 @@ function splitIntoPhrases(text: string, minPhraseLength: number = 3): string[] {
   return phrases;
 }
 
+function calculateScore(userText: string, correctText: string): number {
+  const userWords = getWords(userText).map(normalizeWord);
+  const correctWords = getWords(correctText).map(normalizeWord);
+
+  if (correctWords.length === 0) return 0;
+
+  let matches = 0;
+  for (let i = 0; i < Math.max(userWords.length, correctWords.length); i++) {
+    if (userWords[i] === correctWords[i]) matches++;
+  }
+
+  return Math.round((matches / correctWords.length) * 100);
+}
+
 // ============================================================================
 // MAIN COMPONENT
 // ============================================================================
 
-export default function PracticePage() {
+function TheologyPracticeContent() {
+  const searchParams = useSearchParams();
+
   // Core state
   const [state, setState] = useState<PracticeState>('select');
-  const [currentVerse, setCurrentVerse] = useState<MemoryVerse | null>(null);
-  const [quizMode, setQuizMode] = useState<QuizMode>('word_bank');
-  const [result, setResult] = useState<SimilarityResult | null>(null);
+  const [currentQuestion, setCurrentQuestion] = useState<CatechismQuestion | null>(null);
+  const [quizMode, setQuizMode] = useState<QuizMode>('flashcard');
+  const [score, setScore] = useState<number>(0);
+  const [feedback, setFeedback] = useState<string>('');
 
-  // Filter state
-  const [filterMode, setFilterMode] = useState<FilterMode>('difficulty');
-  const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | 'all'>('all');
-  const [selectedBook, setSelectedBook] = useState<string>('all');
+  // Filter state from URL params
+  const categoryParam = searchParams.get('category') as CatechismCategory | null;
+  const difficultyParam = searchParams.get('difficulty') as Difficulty | null;
+  const dueParam = searchParams.get('due') === 'true';
+  const newParam = searchParams.get('new') === 'true';
 
-  // Practice history
-  const [practiceHistory, setPracticeHistory] = useState<{
-    verse: string;
-    score: number;
-    difficulty: Difficulty;
-    mode: QuizMode;
-  }[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<CatechismCategory | 'all'>(categoryParam || 'all');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | 'all'>(difficultyParam || 'all');
 
   // Mode-specific state
   const [userAnswer, setUserAnswer] = useState('');
   const [showAnswer, setShowAnswer] = useState(false);
 
-  // Word Bank mode state
+  // Word Bank
   const [wordBankSelected, setWordBankSelected] = useState<number[]>([]);
   const [wordBankOptions, setWordBankOptions] = useState<string[]>([]);
   const [wordBankBlanks, setWordBankBlanks] = useState<number[]>([]);
 
-  // Flashcard mode state
+  // Flashcard
   const [isFlipped, setIsFlipped] = useState(false);
   const [selfRating, setSelfRating] = useState<'easy' | 'medium' | 'hard' | null>(null);
 
-  // Reorder mode state
+  // Reorder
   const [reorderPhrases, setReorderPhrases] = useState<string[]>([]);
   const [correctOrder, setCorrectOrder] = useState<string[]>([]);
   const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
 
-  // Progressive mode state
+  // Progressive
   const [progressiveLevel, setProgressiveLevel] = useState(1);
   const [progressiveBlanks, setProgressiveBlanks] = useState<number[]>([]);
   const [progressiveAnswers, setProgressiveAnswers] = useState<string[]>([]);
 
-  const books = getAllBooks();
-  const difficultyCounts = getDifficultyCounts();
-
   // Spaced Repetition
-  const { recordReview, getDueVerses, getVerseProgress, getStats } = useSpacedRepetitionStore();
-  const dueVerses = useMemo(() => getDueVerses(), [getDueVerses]);
-  const srStats = useMemo(() => getStats(), [getStats]);
-  const allVerseIds = useMemo(() => MEMORY_VERSES.map(v => v.id), []);
+  const { recordReview, getDueVerses, getVerseProgress, verses } = useSpacedRepetitionStore();
+  const dueQuestions = useMemo(() =>
+    getDueVerses().filter(v => v.verseId.startsWith('wsc-')),
+    [getDueVerses]
+  );
 
-  // Get the verse text (ESV as default)
-  const verseText = currentVerse?.translations.ESV || '';
-  const verseWords = useMemo(() => getWords(verseText), [verseText]);
+  // Get answer text
+  const answerText = currentQuestion?.answer || '';
+  const answerWords = useMemo(() => getWords(answerText), [answerText]);
+
+  // Get available questions based on filters
+  const availableQuestions = useMemo(() => {
+    let questions = [...WESTMINSTER_CATECHISM];
+
+    if (dueParam && dueQuestions.length > 0) {
+      const dueIds = new Set(dueQuestions.map(d => d.verseId));
+      questions = questions.filter(q => dueIds.has(q.id));
+    } else if (newParam) {
+      questions = questions.filter(q => !verses[q.id]);
+    } else {
+      if (selectedCategory !== 'all') {
+        questions = questions.filter(q => q.category === selectedCategory);
+      }
+      if (selectedDifficulty !== 'all') {
+        questions = questions.filter(q => q.difficulty === selectedDifficulty);
+      }
+    }
+
+    return questions;
+  }, [selectedCategory, selectedDifficulty, dueParam, newParam, dueQuestions, verses]);
 
   // ============================================================================
   // INITIALIZATION FUNCTIONS
   // ============================================================================
 
   const initializeWordBank = useCallback((words: string[]) => {
-    // Blank out ~40% of words
     const blankCount = Math.max(2, Math.floor(words.length * 0.4));
     const indices = Array.from({ length: words.length }, (_, i) => i);
     const shuffledIndices = shuffleArray(indices);
     const blanks = shuffledIndices.slice(0, blankCount).sort((a, b) => a - b);
 
-    // Create word options (correct words + some distractors)
     const correctWords = blanks.map(i => words[i]);
     const distractors = ['the', 'and', 'to', 'of', 'a', 'in', 'that', 'is', 'was', 'for', 'it', 'with', 'as', 'his', 'on', 'be'];
     const extraWords = shuffleArray(distractors).slice(0, Math.min(4, blankCount));
@@ -232,13 +257,12 @@ export default function PracticePage() {
   }, []);
 
   const initializeReorder = useCallback((text: string) => {
-    const versePhrase = splitIntoPhrases(text);
-    setCorrectOrder(versePhrase);
-    setReorderPhrases(shuffleArray(versePhrase));
+    const phrases = splitIntoPhrases(text);
+    setCorrectOrder(phrases);
+    setReorderPhrases(shuffleArray(phrases));
   }, []);
 
   const initializeProgressive = useCallback((words: string[], level: number) => {
-    // Level 1: 20% blanks, Level 2: 40%, Level 3: 60%, Level 4: 80%
     const blankPercent = Math.min(0.8, 0.2 * level);
     const blankCount = Math.max(1, Math.floor(words.length * blankPercent));
     const indices = Array.from({ length: words.length }, (_, i) => i);
@@ -252,43 +276,19 @@ export default function PracticePage() {
   // START PRACTICE
   // ============================================================================
 
-  const startPractice = useCallback((specificVerseId?: string) => {
-    let verse: MemoryVerse;
+  const startPractice = useCallback(() => {
+    if (availableQuestions.length === 0) return;
 
-    if (specificVerseId) {
-      // Start with a specific verse (from due review)
-      verse = MEMORY_VERSES.find(v => v.id === specificVerseId) || getRandomVerse();
-    } else if (filterMode === 'review') {
-      // Pick from due verses
-      if (dueVerses.length > 0) {
-        const dueVerse = dueVerses[0];
-        verse = MEMORY_VERSES.find(v => v.id === dueVerse.verseId) || getRandomVerse();
-      } else {
-        // No due verses, pick random
-        verse = getRandomVerse();
-      }
-    } else if (filterMode === 'difficulty') {
-      if (selectedDifficulty === 'all') {
-        verse = getRandomVerse();
-      } else {
-        verse = getRandomVerseByDifficulty(selectedDifficulty);
-      }
-    } else {
-      if (selectedBook === 'all') {
-        verse = getRandomVerse();
-      } else {
-        const bookVerses = getVersesByBook(selectedBook);
-        verse = bookVerses[Math.floor(Math.random() * bookVerses.length)];
-      }
-    }
+    const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+    const question = availableQuestions[randomIndex];
 
-    setCurrentVerse(verse);
-    setResult(null);
+    setCurrentQuestion(question);
+    setScore(0);
+    setFeedback('');
     setShowAnswer(false);
     setUserAnswer('');
 
-    // Initialize mode-specific state
-    const words = getWords(verse.translations.ESV);
+    const words = getWords(question.answer);
 
     switch (quizMode) {
       case 'word_bank':
@@ -299,7 +299,7 @@ export default function PracticePage() {
         setSelfRating(null);
         break;
       case 'reorder':
-        initializeReorder(verse.translations.ESV);
+        initializeReorder(question.answer);
         break;
       case 'progressive':
         setProgressiveLevel(1);
@@ -311,26 +311,27 @@ export default function PracticePage() {
     }
 
     setState('practice');
-  }, [filterMode, selectedDifficulty, selectedBook, quizMode, dueVerses, initializeWordBank, initializeReorder, initializeProgressive]);
+  }, [availableQuestions, quizMode, initializeWordBank, initializeReorder, initializeProgressive]);
 
   // ============================================================================
   // SUBMIT HANDLERS
   // ============================================================================
 
   const handleSubmit = useCallback(() => {
-    if (!currentVerse) return;
+    if (!currentQuestion) return;
 
-    let score = 0;
+    let finalScore = 0;
     let userText = '';
 
     switch (quizMode) {
       case 'type_out':
         if (!userAnswer.trim()) return;
         userText = userAnswer;
+        finalScore = calculateScore(userText, currentQuestion.answer);
         break;
 
       case 'word_bank': {
-        const words = verseWords;
+        const words = answerWords;
         const userWords = words.map((w, i) => {
           if (wordBankBlanks.includes(i)) {
             const blankIdx = wordBankBlanks.indexOf(i);
@@ -341,89 +342,57 @@ export default function PracticePage() {
           return w;
         });
         userText = userWords.join(' ');
+        finalScore = calculateScore(userText, currentQuestion.answer);
         break;
       }
 
-      case 'flashcard': {
-        // Self-rated
-        score = selfRating === 'easy' ? 100 : selfRating === 'medium' ? 70 : 40;
-        userText = '(self-rated)';
+      case 'flashcard':
+        finalScore = selfRating === 'easy' ? 100 : selfRating === 'medium' ? 70 : 40;
         break;
-      }
 
       case 'reorder': {
         let correct = 0;
         for (let i = 0; i < reorderPhrases.length; i++) {
           if (reorderPhrases[i] === correctOrder[i]) correct++;
         }
-        score = Math.round((correct / correctOrder.length) * 100);
-        userText = reorderPhrases.join(' ');
+        finalScore = Math.round((correct / correctOrder.length) * 100);
         break;
       }
 
       case 'progressive': {
-        const words = verseWords;
+        const words = answerWords;
         let correct = 0;
         progressiveBlanks.forEach((blankIdx, i) => {
           const expected = normalizeWord(words[blankIdx]);
           const actual = normalizeWord(progressiveAnswers[i] || '');
           if (expected === actual) correct++;
         });
-        score = Math.round((correct / progressiveBlanks.length) * 100);
-        userText = progressiveAnswers.join(' ');
+        finalScore = Math.round((correct / progressiveBlanks.length) * 100);
         break;
       }
     }
 
-    // Calculate similarity for modes that use text input
-    if (['type_out', 'word_bank'].includes(quizMode) && userText) {
-      const similarityResult = calculateSimilarity(userText, currentVerse.translations);
-      setResult(similarityResult);
-      score = similarityResult.bestScore;
-    } else if (quizMode === 'progressive') {
-      // For progressive mode, we create a simple result
-      setResult({
-        bestScore: score,
-        bestTranslation: 'ESV',
-        scores: [{ translation: 'ESV', score, wordAccuracy: score, sequenceAccuracy: score }],
-        feedback: score >= 95 ? 'Perfect!' :
-          score >= 85 ? 'Excellent!' :
-          score >= 70 ? 'Good job!' :
-          score >= 50 ? 'Nice effort!' : 'Keep practicing!',
-      });
-    } else {
-      // For flashcard, reorder
-      setResult({
-        bestScore: score,
-        bestTranslation: 'ESV',
-        scores: [{ translation: 'ESV', score, wordAccuracy: score, sequenceAccuracy: score }],
-        feedback: score >= 95 ? 'Perfect!' :
-          score >= 85 ? 'Excellent!' :
-          score >= 70 ? 'Good job!' :
-          score >= 50 ? 'Nice effort!' : 'Keep practicing!',
-      });
-    }
+    setScore(finalScore);
+    setFeedback(
+      finalScore >= 95 ? 'Perfect!' :
+      finalScore >= 85 ? 'Excellent!' :
+      finalScore >= 70 ? 'Good job!' :
+      finalScore >= 50 ? 'Nice effort!' : 'Keep practicing!'
+    );
 
-    setPracticeHistory(prev => [
-      { verse: currentVerse.reference, score, difficulty: currentVerse.difficulty, mode: quizMode },
-      ...prev.slice(0, 9),
-    ]);
-
-    // Record to spaced repetition system
-    recordReview(currentVerse.id, currentVerse.reference, score, quizMode);
+    // Record to spaced repetition
+    recordReview(currentQuestion.id, `WSC Q${currentQuestion.number}`, finalScore, quizMode);
 
     setState('result');
-  }, [currentVerse, quizMode, userAnswer, verseWords, wordBankBlanks, wordBankSelected, wordBankOptions, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview]);
+  }, [currentQuestion, quizMode, userAnswer, answerWords, wordBankBlanks, wordBankSelected, wordBankOptions, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview]);
 
   // ============================================================================
   // MODE-SPECIFIC HANDLERS
   // ============================================================================
 
-  // Word Bank handlers
   const handleWordBankSelect = useCallback((optionIndex: number) => {
     const nextBlankIdx = wordBankSelected.length;
     if (nextBlankIdx >= wordBankBlanks.length) return;
-
     setWordBankSelected([...wordBankSelected, optionIndex]);
   }, [wordBankSelected, wordBankBlanks.length]);
 
@@ -432,7 +401,6 @@ export default function PracticePage() {
     setWordBankSelected(wordBankSelected.slice(0, -1));
   }, [wordBankSelected]);
 
-  // Reorder handlers
   const handleDragStart = useCallback((index: number) => {
     setDraggedIndex(index);
   }, []);
@@ -452,11 +420,10 @@ export default function PracticePage() {
     setDraggedIndex(null);
   }, []);
 
-  // Progressive mode - next level
   const handleProgressiveNext = useCallback(() => {
-    if (!currentVerse) return;
+    if (!currentQuestion) return;
 
-    const words = getWords(currentVerse.translations.ESV);
+    const words = getWords(currentQuestion.answer);
     let correct = 0;
     progressiveBlanks.forEach((blankIdx, i) => {
       const expected = normalizeWord(words[blankIdx]);
@@ -473,20 +440,21 @@ export default function PracticePage() {
         initializeProgressive(words, nextLevel);
       }
     }
-  }, [currentVerse, progressiveBlanks, progressiveAnswers, progressiveLevel, handleSubmit, initializeProgressive]);
+  }, [currentQuestion, progressiveBlanks, progressiveAnswers, progressiveLevel, handleSubmit, initializeProgressive]);
 
   // ============================================================================
-  // RESET & NAVIGATION
+  // RESET
   // ============================================================================
 
   const handleTryAgain = useCallback(() => {
-    if (!currentVerse) return;
+    if (!currentQuestion) return;
 
-    setResult(null);
+    setScore(0);
+    setFeedback('');
     setShowAnswer(false);
     setUserAnswer('');
 
-    const words = getWords(currentVerse.translations.ESV);
+    const words = getWords(currentQuestion.answer);
 
     switch (quizMode) {
       case 'word_bank':
@@ -497,7 +465,7 @@ export default function PracticePage() {
         setSelfRating(null);
         break;
       case 'reorder':
-        initializeReorder(currentVerse.translations.ESV);
+        initializeReorder(currentQuestion.answer);
         break;
       case 'progressive':
         setProgressiveLevel(1);
@@ -509,7 +477,7 @@ export default function PracticePage() {
     }
 
     setState('practice');
-  }, [currentVerse, quizMode, initializeWordBank, initializeReorder, initializeProgressive]);
+  }, [currentQuestion, quizMode, initializeWordBank, initializeReorder, initializeProgressive]);
 
   // Keyboard shortcuts
   useEffect(() => {
@@ -531,17 +499,17 @@ export default function PracticePage() {
       {/* Header */}
       <header className="border-b bg-card">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center gap-4">
-          <Link href="/memory">
+          <Link href="/theology">
             <Button variant="ghost" size="icon">
               <ArrowLeft className="h-5 w-5" />
             </Button>
           </Link>
           <div className="flex items-center gap-3">
-            <div className="p-2 rounded-lg bg-memory/10">
-              <BookOpen className="h-5 w-5 text-memory" />
+            <div className="p-2 rounded-lg bg-theology/10">
+              <BookOpen className="h-5 w-5 text-theology" />
             </div>
             <div>
-              <h1 className="font-semibold">Solo Practice</h1>
+              <h1 className="font-semibold">Catechism Practice</h1>
               <p className="text-sm text-muted-foreground">
                 {state === 'select' ? 'Choose your mode' : QUIZ_MODES.find(m => m.id === quizMode)?.label}
               </p>
@@ -565,13 +533,13 @@ export default function PracticePage() {
                     key={mode.id}
                     className={`p-4 rounded-xl border-2 text-left transition-all hover:scale-[1.02] ${
                       quizMode === mode.id
-                        ? 'border-memory bg-memory/10 ring-2 ring-memory/20'
+                        ? 'border-theology bg-theology/10 ring-2 ring-theology/20'
                         : QUIZ_MODE_COLORS[mode.difficulty]
                     }`}
                     onClick={() => setQuizMode(mode.id)}
                   >
                     <div className="flex items-center justify-between mb-2">
-                      <div className={`${quizMode === mode.id ? 'text-memory' : 'text-muted-foreground'}`}>
+                      <div className={`${quizMode === mode.id ? 'text-theology' : 'text-muted-foreground'}`}>
                         {mode.icon}
                       </div>
                       <span className={`text-[10px] px-1.5 py-0.5 rounded font-medium uppercase ${
@@ -591,288 +559,109 @@ export default function PracticePage() {
               </div>
             </div>
 
-            {/* SR Stats Bar */}
-            {srStats.totalVersesLearned > 0 && (
-              <div className="mb-6 p-4 bg-gradient-to-r from-memory/5 to-memory/10 rounded-xl border border-memory/20">
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
-                  <div>
-                    <div className="flex items-center justify-center gap-1 text-memory mb-1">
-                      <Target className="h-4 w-4" />
-                      <span className="text-2xl font-bold">{srStats.dueToday}</span>
-                    </div>
-                    <div className="text-xs text-muted-foreground">Due Today</div>
-                  </div>
-                  <div>
-                    <div className="flex items-center justify-center gap-1 text-memory mb-1">
-                      <BookOpen className="h-4 w-4" />
-                      <span className="text-2xl font-bold">{srStats.totalVersesLearned}</span>
-                    </div>
-                    <div className="text-xs text-muted-foreground">Verses Learned</div>
-                  </div>
-                  <div>
-                    <div className="flex items-center justify-center gap-1 text-orange-500 mb-1">
-                      <Flame className="h-4 w-4" />
-                      <span className="text-2xl font-bold">{srStats.currentStreak}</span>
-                    </div>
-                    <div className="text-xs text-muted-foreground">Day Streak</div>
-                  </div>
-                  <div>
-                    <div className="flex items-center justify-center gap-1 text-green-500 mb-1">
-                      <TrendingUp className="h-4 w-4" />
-                      <span className="text-2xl font-bold">{srStats.totalReviews}</span>
-                    </div>
-                    <div className="text-xs text-muted-foreground">Total Reviews</div>
+            {/* Filters (only show if not coming from URL params) */}
+            {!dueParam && !newParam && (
+              <div className="mb-8 space-y-4">
+                {/* Difficulty */}
+                <div>
+                  <label className="block text-sm font-medium mb-2">Difficulty</label>
+                  <div className="grid grid-cols-4 gap-2">
+                    {(['all', 'easy', 'medium', 'hard'] as const).map((diff) => (
+                      <Button
+                        key={diff}
+                        variant={selectedDifficulty === diff ? 'default' : 'outline'}
+                        size="sm"
+                        className={selectedDifficulty === diff && diff !== 'all' ?
+                          diff === 'easy' ? 'bg-green-600' :
+                          diff === 'medium' ? 'bg-yellow-600' : 'bg-red-600'
+                          : selectedDifficulty === diff ? 'bg-theology' : ''
+                        }
+                        onClick={() => setSelectedDifficulty(diff)}
+                      >
+                        {diff === 'all' ? 'All' : diff.charAt(0).toUpperCase() + diff.slice(1)}
+                      </Button>
+                    ))}
                   </div>
                 </div>
-              </div>
-            )}
 
-            {/* Filter Mode Toggle */}
-            <div className="flex justify-center mb-6">
-              <div className="inline-flex rounded-lg border p-1">
-                <button
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1.5 ${
-                    filterMode === 'review' ? 'bg-memory text-white' : 'hover:bg-muted'
-                  }`}
-                  onClick={() => setFilterMode('review')}
-                >
-                  <Clock className="h-4 w-4" />
-                  Review
-                  {dueVerses.length > 0 && (
-                    <span className={`px-1.5 py-0.5 rounded-full text-xs ${
-                      filterMode === 'review' ? 'bg-white/20' : 'bg-memory text-white'
-                    }`}>
-                      {dueVerses.length}
-                    </span>
-                  )}
-                </button>
-                <button
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                    filterMode === 'difficulty' ? 'bg-memory text-white' : 'hover:bg-muted'
-                  }`}
-                  onClick={() => setFilterMode('difficulty')}
-                >
-                  By Difficulty
-                </button>
-                <button
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                    filterMode === 'book' ? 'bg-memory text-white' : 'hover:bg-muted'
-                  }`}
-                  onClick={() => setFilterMode('book')}
-                >
-                  By Book
-                </button>
-              </div>
-            </div>
-
-            {/* Due for Review */}
-            {filterMode === 'review' && (
-              <div className="mb-8">
-                {dueVerses.length === 0 ? (
-                  <div className="text-center py-8">
-                    <Trophy className="h-12 w-12 mx-auto text-memory/30 mb-4" />
-                    <h3 className="font-medium text-lg mb-2">All caught up!</h3>
-                    <p className="text-muted-foreground text-sm mb-4">
-                      No verses due for review. Practice new verses to build your memory bank.
-                    </p>
-                    <Button variant="outline" onClick={() => setFilterMode('difficulty')}>
-                      Practice New Verses
+                {/* Category */}
+                <div>
+                  <label className="block text-sm font-medium mb-2">Category</label>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                    <Button
+                      variant={selectedCategory === 'all' ? 'default' : 'outline'}
+                      size="sm"
+                      className={selectedCategory === 'all' ? 'bg-theology' : ''}
+                      onClick={() => setSelectedCategory('all')}
+                    >
+                      All ({WESTMINSTER_CATECHISM.length})
                     </Button>
-                  </div>
-                ) : (
-                  <div className="space-y-2 max-h-[350px] overflow-y-auto">
-                    <div className="text-sm text-muted-foreground mb-3">
-                      {dueVerses.length} verse{dueVerses.length !== 1 ? 's' : ''} due for review
-                    </div>
-                    {dueVerses.map((progress) => {
-                      const verse = MEMORY_VERSES.find(v => v.id === progress.verseId);
-                      if (!verse) return null;
-                      const daysSinceLast = progress.lastReviewDate
-                        ? Math.floor((Date.now() - new Date(progress.lastReviewDate).getTime()) / (1000 * 60 * 60 * 24))
-                        : 0;
+                    {CATECHISM_CATEGORIES.map((cat) => {
+                      const count = WESTMINSTER_CATECHISM.filter(q => q.category === cat.value).length;
                       return (
-                        <button
-                          key={progress.verseId}
-                          className="w-full p-3 rounded-lg border bg-card hover:border-memory/50 hover:bg-memory/5 transition-all text-left"
-                          onClick={() => startPractice(progress.verseId)}
+                        <Button
+                          key={cat.value}
+                          variant={selectedCategory === cat.value ? 'default' : 'outline'}
+                          size="sm"
+                          className={selectedCategory === cat.value ? 'bg-theology' : ''}
+                          onClick={() => setSelectedCategory(cat.value)}
                         >
-                          <div className="flex justify-between items-start mb-1">
-                            <span className="font-medium">{progress.reference}</span>
-                            <span className={`text-xs px-2 py-0.5 rounded ${
-                              progress.easeFactor >= 2.5 ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400' :
-                              progress.easeFactor >= 2.0 ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400' :
-                              'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400'
-                            }`}>
-                              {progress.easeFactor >= 2.5 ? 'Strong' :
-                               progress.easeFactor >= 2.0 ? 'Learning' : 'Needs Work'}
-                            </span>
-                          </div>
-                          <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                            <span className="flex items-center gap-1">
-                              <TrendingUp className="h-3 w-3" />
-                              {Math.round(progress.averageScore)}% avg
-                            </span>
-                            <span className="flex items-center gap-1">
-                              <Calendar className="h-3 w-3" />
-                              {daysSinceLast === 0 ? 'Today' : `${daysSinceLast}d ago`}
-                            </span>
-                            <span className="flex items-center gap-1">
-                              <RotateCcw className="h-3 w-3" />
-                              {progress.totalReviews} reviews
-                            </span>
-                          </div>
-                        </button>
+                          {cat.label} ({count})
+                        </Button>
                       );
                     })}
                   </div>
-                )}
-              </div>
-            )}
-
-            {/* Difficulty Selection */}
-            {filterMode === 'difficulty' && (
-              <div className="space-y-3 mb-8">
-                <Button
-                  variant={selectedDifficulty === 'all' ? 'memory' : 'outline'}
-                  className="w-full justify-between h-auto py-3"
-                  onClick={() => setSelectedDifficulty('all')}
-                >
-                  <span>All Difficulties</span>
-                  <span className="text-sm opacity-70">
-                    {difficultyCounts.easy + difficultyCounts.medium + difficultyCounts.hard} verses
-                  </span>
-                </Button>
-                {(['easy', 'medium', 'hard'] as Difficulty[]).map((diff) => (
-                  <Button
-                    key={diff}
-                    variant={selectedDifficulty === diff ? 'memory' : 'outline'}
-                    className="w-full justify-between h-auto py-3"
-                    onClick={() => setSelectedDifficulty(diff)}
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className={`px-2 py-0.5 rounded text-xs font-medium ${DIFFICULTY_LABELS[diff].color}`}>
-                        {DIFFICULTY_LABELS[diff].label}
-                      </span>
-                      <span className="text-sm text-muted-foreground">
-                        {DIFFICULTY_LABELS[diff].description}
-                      </span>
-                    </div>
-                    <span className="text-sm opacity-70">{difficultyCounts[diff]} verses</span>
-                  </Button>
-                ))}
-              </div>
-            )}
-
-            {/* Book Selection */}
-            {filterMode === 'book' && (
-              <div className="space-y-2 mb-8 max-h-[300px] overflow-y-auto">
-                <Button
-                  variant={selectedBook === 'all' ? 'memory' : 'outline'}
-                  className="w-full justify-between h-auto py-2"
-                  onClick={() => setSelectedBook('all')}
-                >
-                  <span>All Books</span>
-                </Button>
-                {books.map((book) => {
-                  const count = getVersesByBook(book).length;
-                  return (
-                    <Button
-                      key={book}
-                      variant={selectedBook === book ? 'memory' : 'outline'}
-                      className="w-full justify-between h-auto py-2"
-                      onClick={() => setSelectedBook(book)}
-                    >
-                      <span>{book}</span>
-                      <span className="text-sm opacity-70">{count} verse{count !== 1 ? 's' : ''}</span>
-                    </Button>
-                  );
-                })}
-              </div>
-            )}
-
-            <Button variant="memory" size="lg" className="w-full" onClick={() => startPractice()}>
-              <Shuffle className="h-5 w-5 mr-2" />
-              Start Practice
-            </Button>
-
-            {/* Practice History */}
-            {practiceHistory.length > 0 && (
-              <div className="mt-8">
-                <h3 className="text-sm font-medium text-muted-foreground mb-3">Recent Practice</h3>
-                <div className="space-y-2">
-                  {practiceHistory.map((item, i) => (
-                    <div key={i} className="flex justify-between items-center p-2 bg-muted rounded-lg text-sm">
-                      <div className="flex items-center gap-2">
-                        <span className={`px-1.5 py-0.5 rounded text-xs ${DIFFICULTY_LABELS[item.difficulty].color}`}>
-                          {item.difficulty[0].toUpperCase()}
-                        </span>
-                        <span>{item.verse}</span>
-                        <span className="text-xs text-muted-foreground">
-                          ({QUIZ_MODES.find(m => m.id === item.mode)?.label})
-                        </span>
-                      </div>
-                      <span className={`font-medium ${
-                        item.score >= 85 ? 'text-green-600' :
-                        item.score >= 70 ? 'text-yellow-600' : 'text-muted-foreground'
-                      }`}>
-                        {item.score}%
-                      </span>
-                    </div>
-                  ))}
                 </div>
               </div>
             )}
+
+            {/* Info about current filter */}
+            <div className="mb-4 text-center text-sm text-muted-foreground">
+              {dueParam && `${dueQuestions.length} questions due for review`}
+              {newParam && `${availableQuestions.length} new questions to learn`}
+              {!dueParam && !newParam && `${availableQuestions.length} questions available`}
+            </div>
+
+            <Button
+              variant="theology"
+              size="lg"
+              className="w-full"
+              onClick={startPractice}
+              disabled={availableQuestions.length === 0}
+            >
+              <Shuffle className="h-5 w-5 mr-2" />
+              Start Practice
+            </Button>
           </section>
         )}
 
         {/* ================================================================== */}
         {/* PRACTICE MODE */}
         {/* ================================================================== */}
-        {state === 'practice' && currentVerse && (
+        {state === 'practice' && currentQuestion && (
           <section className="max-w-2xl mx-auto">
-            {/* Verse Reference & Mode Badge */}
+            {/* Question Header */}
             <div className="text-center mb-6">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-memory/10 rounded-full mb-2">
-                <BookOpen className="h-5 w-5 text-memory" />
-                <span className="text-xl font-bold text-memory">{currentVerse.reference}</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-theology/10 rounded-full mb-2">
+                <BookOpen className="h-5 w-5 text-theology" />
+                <span className="text-xl font-bold text-theology">Q{currentQuestion.number}</span>
               </div>
               <div className="flex items-center justify-center gap-2">
-                <span className={`px-2 py-0.5 rounded text-xs font-medium ${DIFFICULTY_LABELS[currentVerse.difficulty].color}`}>
-                  {DIFFICULTY_LABELS[currentVerse.difficulty].label}
+                <span className={`px-2 py-0.5 rounded text-xs font-medium ${DIFFICULTY_LABELS[currentQuestion.difficulty].color}`}>
+                  {DIFFICULTY_LABELS[currentQuestion.difficulty].label}
                 </span>
                 <span className="text-sm text-muted-foreground">
-                  {QUIZ_MODES.find(m => m.id === quizMode)?.label}
+                  {CATECHISM_CATEGORIES.find(c => c.value === currentQuestion.category)?.label}
                 </span>
               </div>
             </div>
 
-            {/* Context Verses (for some modes) */}
-            {['type_out', 'progressive'].includes(quizMode) && (
-              <Card className="mb-6">
-                <CardContent className="p-4">
-                  {currentVerse.context.before && (
-                    <div className="mb-3 pb-3 border-b border-dashed">
-                      <div className="text-xs font-medium text-muted-foreground mb-1">
-                        {currentVerse.context.before.reference}
-                      </div>
-                      <p className="text-sm text-muted-foreground italic">
-                        {currentVerse.context.before.text}
-                      </p>
-                    </div>
-                  )}
-                  {currentVerse.context.after && (
-                    <div className="mt-3 pt-3 border-t border-dashed">
-                      <div className="text-xs font-medium text-muted-foreground mb-1">
-                        {currentVerse.context.after.reference}
-                      </div>
-                      <p className="text-sm text-muted-foreground italic">
-                        {currentVerse.context.after.text}
-                      </p>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            )}
+            {/* Question */}
+            <Card className="mb-6">
+              <CardContent className="p-6 text-center">
+                <p className="text-lg font-medium">{currentQuestion.question}</p>
+              </CardContent>
+            </Card>
 
             {/* ============================================================ */}
             {/* TYPE OUT MODE */}
@@ -880,12 +669,12 @@ export default function PracticePage() {
             {quizMode === 'type_out' && (
               <Card className="mb-6">
                 <CardContent className="p-6">
-                  <div className="text-xs font-medium text-memory mb-2">
-                    Type the verse from memory:
+                  <div className="text-xs font-medium text-theology mb-2">
+                    Type the answer from memory:
                   </div>
                   <textarea
-                    className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg focus:ring-2 focus:ring-memory focus:border-memory resize-none bg-background"
-                    placeholder="Type the verse..."
+                    className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg focus:ring-2 focus:ring-theology focus:border-theology resize-none bg-background"
+                    placeholder="Type the answer..."
                     value={userAnswer}
                     onChange={(e) => setUserAnswer(e.target.value)}
                     autoFocus
@@ -903,11 +692,11 @@ export default function PracticePage() {
             {quizMode === 'word_bank' && (
               <Card className="mb-6">
                 <CardContent className="p-6">
-                  <div className="text-xs font-medium text-memory mb-4">
+                  <div className="text-xs font-medium text-theology mb-4">
                     Fill in the blanks using the word bank:
                   </div>
                   <div className="flex flex-wrap gap-1 mb-6 text-lg leading-relaxed">
-                    {verseWords.map((word, i) => {
+                    {answerWords.map((word, i) => {
                       if (wordBankBlanks.includes(i)) {
                         const blankIdx = wordBankBlanks.indexOf(i);
                         const selectedOptionIdx = wordBankSelected[blankIdx];
@@ -918,7 +707,7 @@ export default function PracticePage() {
                           <span
                             key={i}
                             className={`px-2 py-1 rounded border-2 border-dashed min-w-[60px] text-center ${
-                              selectedWord ? 'border-memory bg-memory/10 text-foreground' : 'border-border bg-muted/50 text-muted-foreground'
+                              selectedWord ? 'border-theology bg-theology/10 text-foreground' : 'border-border bg-muted/50 text-muted-foreground'
                             }`}
                           >
                             {selectedWord || '______'}
@@ -940,7 +729,7 @@ export default function PracticePage() {
                             className={`px-3 py-1.5 rounded-lg border text-sm font-medium transition-all ${
                               isUsed
                                 ? 'bg-muted text-muted-foreground border-muted cursor-not-allowed opacity-50'
-                                : 'bg-background text-foreground hover:bg-memory/10 hover:text-memory hover:border-memory border-border'
+                                : 'bg-background text-foreground hover:bg-theology/10 hover:text-theology hover:border-theology border-border'
                             }`}
                             onClick={() => handleWordBankSelect(i)}
                             disabled={isUsed}
@@ -972,48 +761,32 @@ export default function PracticePage() {
             {quizMode === 'flashcard' && (
               <div className="mb-6">
                 <div
-                  className="relative h-[300px] cursor-pointer perspective-1000"
+                  className="relative h-[250px] cursor-pointer"
                   onClick={() => !selfRating && setIsFlipped(!isFlipped)}
                 >
-                  <div
-                    className={`absolute inset-0 transition-transform duration-500 transform-style-3d ${
-                      isFlipped ? 'rotate-y-180' : ''
-                    }`}
-                    style={{ transformStyle: 'preserve-3d' }}
-                  >
-                    {/* Front - Reference */}
-                    <Card
-                      className="absolute inset-0 flex items-center justify-center backface-hidden"
-                      style={{ backfaceVisibility: 'hidden' }}
-                    >
-                      <CardContent className="text-center p-8">
-                        <div className="text-3xl font-bold text-memory mb-4">
-                          {currentVerse.reference}
-                        </div>
-                        <p className="text-muted-foreground">
-                          Tap to flip and see the verse
-                        </p>
-                      </CardContent>
-                    </Card>
+                  <Card className={`absolute inset-0 transition-all duration-500 flex items-center justify-center ${
+                    isFlipped ? 'opacity-0 pointer-events-none' : 'opacity-100'
+                  }`}>
+                    <CardContent className="text-center p-8">
+                      <p className="text-muted-foreground mb-4">Think about the answer, then tap to reveal</p>
+                      <p className="text-lg font-medium">{currentQuestion.question}</p>
+                    </CardContent>
+                  </Card>
 
-                    {/* Back - Verse */}
-                    <Card
-                      className="absolute inset-0 flex items-center justify-center backface-hidden"
-                      style={{
-                        backfaceVisibility: 'hidden',
-                        transform: 'rotateY(180deg)'
-                      }}
-                    >
-                      <CardContent className="text-center p-8">
-                        <p className="text-lg leading-relaxed mb-4">
-                          "{currentVerse.translations.ESV}"
+                  <Card className={`absolute inset-0 transition-all duration-500 flex items-center justify-center ${
+                    isFlipped ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                  }`}>
+                    <CardContent className="text-center p-8">
+                      <p className="text-lg leading-relaxed">
+                        "{currentQuestion.answer}"
+                      </p>
+                      {currentQuestion.shortAnswer && (
+                        <p className="text-sm text-theology mt-3">
+                          Key: {currentQuestion.shortAnswer}
                         </p>
-                        <div className="text-sm text-muted-foreground">
-                          — {currentVerse.reference} (ESV)
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </div>
+                      )}
+                    </CardContent>
+                  </Card>
                 </div>
 
                 {isFlipped && !selfRating && (
@@ -1053,7 +826,7 @@ export default function PracticePage() {
             {quizMode === 'reorder' && (
               <Card className="mb-6">
                 <CardContent className="p-6">
-                  <div className="text-xs font-medium text-memory mb-4">
+                  <div className="text-xs font-medium text-theology mb-4">
                     Drag phrases to arrange in correct order:
                   </div>
                   <div className="space-y-2">
@@ -1066,7 +839,7 @@ export default function PracticePage() {
                         onDragEnd={handleDragEnd}
                         className={`p-3 rounded-lg border-2 cursor-move transition-all ${
                           draggedIndex === i
-                            ? 'border-memory bg-memory/10 shadow-lg'
+                            ? 'border-theology bg-theology/10 shadow-lg'
                             : 'border-gray-200 dark:border-gray-700 bg-card hover:border-gray-300 dark:hover:border-gray-600'
                         }`}
                       >
@@ -1090,7 +863,7 @@ export default function PracticePage() {
               <Card className="mb-6">
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between mb-4">
-                    <div className="text-xs font-medium text-memory">
+                    <div className="text-xs font-medium text-theology">
                       Level {progressiveLevel} - Fill in {Math.round(progressiveLevel * 20)}% of words:
                     </div>
                     <div className="flex gap-1">
@@ -1098,7 +871,7 @@ export default function PracticePage() {
                         <div
                           key={level}
                           className={`w-3 h-3 rounded-full ${
-                            level <= progressiveLevel ? 'bg-memory' : 'bg-gray-200'
+                            level <= progressiveLevel ? 'bg-theology' : 'bg-gray-200 dark:bg-gray-700'
                           }`}
                         />
                       ))}
@@ -1106,14 +879,14 @@ export default function PracticePage() {
                   </div>
 
                   <div className="flex flex-wrap gap-2 text-lg leading-relaxed">
-                    {verseWords.map((word, i) => {
+                    {answerWords.map((word, i) => {
                       const blankIdx = progressiveBlanks.indexOf(i);
                       if (blankIdx !== -1) {
                         return (
                           <input
                             key={i}
                             type="text"
-                            className="border-b-2 border-memory bg-transparent text-center min-w-[60px] max-w-[120px] focus:outline-none focus:border-memory/70"
+                            className="border-b-2 border-theology bg-transparent text-center min-w-[60px] max-w-[120px] focus:outline-none focus:border-theology/70"
                             placeholder="..."
                             value={progressiveAnswers[blankIdx] || ''}
                             onChange={(e) => {
@@ -1169,15 +942,15 @@ export default function PracticePage() {
             {showAnswer && (
               <Card className="mb-4 bg-muted/50">
                 <CardContent className="p-4">
-                  <div className="text-xs font-medium text-muted-foreground mb-1">ESV:</div>
-                  <p className="text-sm">{currentVerse.translations.ESV}</p>
+                  <div className="text-xs font-medium text-muted-foreground mb-1">Answer:</div>
+                  <p className="text-sm">{currentQuestion.answer}</p>
                 </CardContent>
               </Card>
             )}
 
             {/* Submit Button */}
             <Button
-              variant="memory"
+              variant="theology"
               className="w-full"
               size="lg"
               onClick={handleSubmit}
@@ -1195,67 +968,86 @@ export default function PracticePage() {
         {/* ================================================================== */}
         {/* RESULTS */}
         {/* ================================================================== */}
-        {state === 'result' && currentVerse && result && (
+        {state === 'result' && currentQuestion && (
           <section className="max-w-2xl mx-auto">
-            <Card variant="memory">
+            <Card variant="theology">
               <CardHeader className="text-center">
                 <div className={`mx-auto w-20 h-20 rounded-2xl flex items-center justify-center mb-4 ${
-                  result.bestScore >= 85 ? 'bg-gradient-to-br from-green-400 to-emerald-500' :
-                  result.bestScore >= 70 ? 'bg-gradient-to-br from-yellow-400 to-amber-500' :
+                  score >= 85 ? 'bg-gradient-to-br from-green-400 to-emerald-500' :
+                  score >= 70 ? 'bg-gradient-to-br from-yellow-400 to-amber-500' :
                   'bg-gradient-to-br from-gray-400 to-gray-500'
                 }`}>
-                  <span className="text-3xl font-bold text-white">{result.bestScore}%</span>
+                  <span className="text-3xl font-bold text-white">{score}%</span>
                 </div>
-                <CardTitle className="text-xl">{result.feedback}</CardTitle>
+                <CardTitle className="text-xl">{feedback}</CardTitle>
                 <p className="text-muted-foreground">
                   Mode: {QUIZ_MODES.find(m => m.id === quizMode)?.label}
                 </p>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  {/* Correct Answer */}
+                  {/* Question & Answer */}
                   <div className="bg-muted rounded-xl p-4">
                     <div className="text-sm font-medium mb-2">
-                      {currentVerse.reference} (ESV):
+                      Q{currentQuestion.number}: {currentQuestion.question}
                     </div>
                     <p className="text-sm leading-relaxed">
-                      {currentVerse.translations.ESV}
+                      <strong>A:</strong> {currentQuestion.answer}
                     </p>
+                    {currentQuestion.shortAnswer && (
+                      <p className="text-xs text-theology mt-2">
+                        Key phrase: {currentQuestion.shortAnswer}
+                      </p>
+                    )}
                   </div>
 
-                  {/* Spaced Repetition Status */}
+                  {/* Scripture Proofs */}
+                  {currentQuestion.scriptureProofs.length > 0 && (
+                    <div className="text-sm">
+                      <div className="text-xs font-medium text-muted-foreground mb-1">
+                        Scripture Proofs:
+                      </div>
+                      <div className="flex flex-wrap gap-2">
+                        {currentQuestion.scriptureProofs.map((proof, i) => (
+                          <span key={i} className="px-2 py-1 bg-muted rounded text-xs">
+                            {proof}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* SR Status */}
                   {(() => {
-                    const verseProgress = getVerseProgress(currentVerse.id);
-                    if (!verseProgress) return null;
+                    const progress = getVerseProgress(currentQuestion.id);
+                    if (!progress) return null;
                     const nextReviewDays = Math.ceil(
-                      (new Date(verseProgress.nextReviewDate).getTime() - Date.now()) / (1000 * 60 * 60 * 24)
+                      (new Date(progress.nextReviewDate).getTime() - Date.now()) / (1000 * 60 * 60 * 24)
                     );
                     return (
-                      <div className="bg-memory/10 rounded-xl p-4 border border-memory/20">
+                      <div className="bg-theology/10 rounded-xl p-4 border border-theology/20">
                         <div className="flex items-center gap-2 mb-3">
-                          <Clock className="h-4 w-4 text-memory" />
+                          <Clock className="h-4 w-4 text-theology" />
                           <span className="text-sm font-medium">Spaced Repetition</span>
                         </div>
                         <div className="grid grid-cols-3 gap-3 text-center text-sm">
                           <div>
-                            <div className="text-lg font-bold text-memory">
+                            <div className="text-lg font-bold text-theology">
                               {nextReviewDays <= 0 ? 'Now' : `${nextReviewDays}d`}
                             </div>
                             <div className="text-xs text-muted-foreground">Next Review</div>
                           </div>
                           <div>
-                            <div className="text-lg font-bold">
-                              {verseProgress.repetitions}
-                            </div>
+                            <div className="text-lg font-bold">{progress.repetitions}</div>
                             <div className="text-xs text-muted-foreground">Streak</div>
                           </div>
                           <div>
                             <div className={`text-lg font-bold ${
-                              verseProgress.easeFactor >= 2.5 ? 'text-green-600' :
-                              verseProgress.easeFactor >= 2.0 ? 'text-yellow-600' : 'text-red-600'
+                              progress.easeFactor >= 2.5 ? 'text-green-600' :
+                              progress.easeFactor >= 2.0 ? 'text-yellow-600' : 'text-red-600'
                             }`}>
-                              {verseProgress.easeFactor >= 2.5 ? 'Strong' :
-                               verseProgress.easeFactor >= 2.0 ? 'Learning' : 'Weak'}
+                              {progress.easeFactor >= 2.5 ? 'Strong' :
+                               progress.easeFactor >= 2.0 ? 'Learning' : 'Weak'}
                             </div>
                             <div className="text-xs text-muted-foreground">Memory</div>
                           </div>
@@ -1264,43 +1056,19 @@ export default function PracticePage() {
                     );
                   })()}
 
-                  {/* Show all translations */}
-                  <details className="group">
-                    <summary className="flex items-center gap-2 cursor-pointer text-sm text-muted-foreground hover:text-foreground">
-                      <ChevronDown className="h-4 w-4 group-open:rotate-180 transition-transform" />
-                      Show all translations
-                    </summary>
-                    <div className="mt-3 space-y-3">
-                      {(['ESV', 'NIV', 'KJV', 'NASB'] as const).map((trans) => (
-                        <div key={trans} className="bg-muted/30 rounded-lg p-3">
-                          <div className="text-xs font-medium text-muted-foreground mb-1">{trans}:</div>
-                          <p className="text-sm">{currentVerse.translations[trans]}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </details>
-
                   {/* Action Buttons */}
                   <div className="flex gap-4 pt-4">
-                    <Button
-                      variant="outline"
-                      className="flex-1"
-                      onClick={handleTryAgain}
-                    >
+                    <Button variant="outline" className="flex-1" onClick={handleTryAgain}>
                       <RotateCcw className="h-4 w-4 mr-2" />
                       Try Again
                     </Button>
-                    <Button
-                      variant="memory"
-                      className="flex-1"
-                      onClick={() => startPractice()}
-                    >
+                    <Button variant="theology" className="flex-1" onClick={startPractice}>
                       <Shuffle className="h-4 w-4 mr-2" />
-                      New Verse
+                      New Question
                     </Button>
                   </div>
 
-                  <Link href="/memory" className="block">
+                  <Link href="/theology" className="block">
                     <Button variant="ghost" className="w-full">
                       Back to Menu
                     </Button>
@@ -1312,5 +1080,17 @@ export default function PracticePage() {
         )}
       </main>
     </div>
+  );
+}
+
+export default function TheologyPracticePage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="animate-pulse text-muted-foreground">Loading...</div>
+      </div>
+    }>
+      <TheologyPracticeContent />
+    </Suspense>
   );
 }

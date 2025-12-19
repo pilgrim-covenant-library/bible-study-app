@@ -27,6 +27,7 @@
   --one2one: 142 76% 36%;
   --memory: 271 91% 65%;
   --trivia: 43 96% 56%;
+  --theology: 226 76% 56%;
 
   /* Score/success colors */
   --success: 142 76% 36%;
@@ -79,6 +80,7 @@
   --color-one2one: hsl(var(--one2one));
   --color-memory: hsl(var(--memory));
   --color-trivia: hsl(var(--trivia));
+  --color-theology: hsl(var(--theology));
   --color-success: hsl(var(--success));
   --color-warning: hsl(var(--warning));
   --color-streak: hsl(var(--streak));

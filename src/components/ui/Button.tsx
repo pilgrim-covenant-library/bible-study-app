@@ -4,7 +4,7 @@ import { forwardRef, type ButtonHTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'default' | 'secondary' | 'outline' | 'ghost' | 'destructive' | 'one2one' | 'memory' | 'trivia';
+  variant?: 'default' | 'secondary' | 'outline' | 'ghost' | 'destructive' | 'one2one' | 'memory' | 'trivia' | 'theology';
   size?: 'sm' | 'md' | 'lg' | 'icon';
   loading?: boolean;
 }
@@ -22,6 +22,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       one2one: 'bg-one2one text-white hover:bg-one2one/90',
       memory: 'bg-memory text-white hover:bg-memory/90',
       trivia: 'bg-trivia text-trivia-foreground hover:bg-trivia/90',
+      theology: 'bg-theology text-white hover:bg-theology/90',
     };
 
     const sizes = {
