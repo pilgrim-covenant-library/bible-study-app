@@ -64,15 +64,27 @@ export default function ChallengePage() {
       return;
     }
 
+    const attemptJoin = async (name: string) => {
+      setIsJoining(true);
+      localStorage.setItem('playerName', name);
+
+      const joined = await joinRoom(roomCode, name);
+      if (!joined) {
+        await createRoom(roomCode, name);
+      }
+      setIsJoining(false);
+      setShowNameInput(false);
+    };
+
     const storedName = localStorage.getItem('playerName');
     if (storedName) {
       setPlayerName(storedName);
-      handleJoinOrCreate(storedName);
+      attemptJoin(storedName);
     } else {
       setShowNameInput(true);
       setIsJoining(false);
     }
-  }, [roomCode, rtdbAvailable]);
+  }, [roomCode, rtdbAvailable, joinRoom, createRoom]);
 
   const handleJoinOrCreate = async (name: string) => {
     setIsJoining(true);
@@ -110,8 +122,6 @@ export default function ChallengePage() {
     if (room?.status === 'playing' && timeLeft > 0 && !hasSubmitted) {
       const timer = setTimeout(() => setTimeLeft(t => t - 1), 1000);
       return () => clearTimeout(timer);
-    } else if (room?.status === 'playing' && timeLeft === 0 && !hasSubmitted) {
-      handleSubmit();
     }
   }, [room?.status, timeLeft, hasSubmitted]);
 
@@ -149,6 +159,13 @@ export default function ChallengePage() {
       endGame();
     }
   }, [verse, userAnswer, hasSubmitted, submitAnswer, opponent, endGame]);
+
+  // Auto-submit when time runs out
+  useEffect(() => {
+    if (room?.status === 'playing' && timeLeft === 0 && !hasSubmitted) {
+      handleSubmit();
+    }
+  }, [room?.status, timeLeft, hasSubmitted, handleSubmit]);
 
   const handleReadyClick = async () => {
     await setReady(true);
@@ -538,7 +555,7 @@ export default function ChallengePage() {
                         </div>
                       )}
                       <div className="text-xs text-muted-foreground mt-1">
-                        Total: {currentPlayer?.totalScore || 0} + {currentPlayer?.currentRoundScore || 0}
+                        Running total: {(currentPlayer?.totalScore || 0) + (currentPlayer?.currentRoundScore || 0)}
                       </div>
                     </div>
                     <div className={`rounded-xl p-4 ${
@@ -556,7 +573,7 @@ export default function ChallengePage() {
                         </div>
                       )}
                       <div className="text-xs text-muted-foreground mt-1">
-                        Total: {opponent?.totalScore || 0} + {opponent?.currentRoundScore || 0}
+                        Running total: {(opponent?.totalScore || 0) + (opponent?.currentRoundScore || 0)}
                       </div>
                     </div>
                   </div>

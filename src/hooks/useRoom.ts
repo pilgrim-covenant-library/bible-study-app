@@ -378,6 +378,12 @@ export function useRoom(): UseRoomReturn {
   const endGame = useCallback(async (): Promise<void> => {
     if (!currentRoomCode || !realtimeDb || !room) return;
 
+    // Only host should end the game to prevent race conditions
+    if (!isHost) return;
+
+    // Prevent double-calling if already transitioning
+    if (room.status !== 'playing') return;
+
     try {
       const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
 
@@ -405,19 +411,37 @@ export function useRoom(): UseRoomReturn {
     } catch (err) {
       console.error('Failed to end round:', err);
     }
-  }, [currentRoomCode, room]);
+  }, [currentRoomCode, room, isHost]);
 
   const leaveRoom = useCallback(async (): Promise<void> => {
     if (!currentRoomCode || !playerId || !realtimeDb) return;
 
     try {
+      const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
       const playerRef = ref(realtimeDb, `rooms/${currentRoomCode}/players/${playerId}`);
-      await remove(playerRef);
 
-      // If host leaves, delete the room
-      if (isHost) {
-        const roomRef = ref(realtimeDb, `rooms/${currentRoomCode}`);
+      // Get current room state
+      const snapshot = await get(roomRef);
+      if (!snapshot.exists()) {
+        setRoom(null);
+        setPlayerId(null);
+        setCurrentRoomCode(null);
+        return;
+      }
+
+      const roomData = snapshot.val() as RoomState;
+      const remainingPlayers = Object.keys(roomData.players || {}).filter(pid => pid !== playerId);
+
+      if (remainingPlayers.length === 0) {
+        // Last player leaving - delete room
         await remove(roomRef);
+      } else if (isHost) {
+        // Host leaving - transfer host to remaining player
+        await update(roomRef, { hostId: remainingPlayers[0] });
+        await remove(playerRef);
+      } else {
+        // Non-host leaving
+        await remove(playerRef);
       }
 
       setRoom(null);
