@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, Zap, Users, Clock, Trophy, Loader2, Wifi, WifiOff, Send, BookOpen, ArrowRight, Crown } from 'lucide-react';
@@ -42,6 +42,14 @@ export default function ChallengePage() {
   const [userAnswer, setUserAnswer] = useState('');
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [localResult, setLocalResult] = useState<SimilarityResult | null>(null);
+
+  // Loading states for buttons to prevent double-clicks
+  const [isReadyLoading, setIsReadyLoading] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isNextRoundLoading, setIsNextRoundLoading] = useState(false);
+
+  // Ref to prevent double endGame() calls (race condition fix)
+  const isEndingGameRef = useRef(false);
 
   // Get verse from room
   const verse = room?.currentVerse as GameVerse | undefined;
@@ -115,6 +123,9 @@ export default function ChallengePage() {
       setHasSubmitted(false);
       setLocalResult(null);
       setTimeLeft(90);
+      setIsSubmitting(false);
+      setIsNextRoundLoading(false);
+      isEndingGameRef.current = false; // Reset for new round
     }
   }, [room?.status, room?.currentRound]);
 
@@ -129,9 +140,11 @@ export default function ChallengePage() {
   // Check if both players have submitted - end round
   useEffect(() => {
     if (room?.status !== 'playing') return;
+    if (isEndingGameRef.current) return; // Prevent double calls
 
     const allPlayers = Object.values(room.players || {});
     if (allPlayers.length >= 2 && allPlayers.every(p => p.currentRoundFinishedAt)) {
+      isEndingGameRef.current = true;
       endGame();
     }
   }, [room, endGame]);
@@ -147,19 +160,22 @@ export default function ChallengePage() {
   }, [room, isHost, startGame]);
 
   const handleSubmit = useCallback(async () => {
-    if (!verse || hasSubmitted) return;
+    if (!verse || hasSubmitted || isSubmitting) return;
 
+    setIsSubmitting(true);
     const result = calculateSimilarity(userAnswer, verse.translations);
     setLocalResult(result);
     setHasSubmitted(true);
 
     await submitAnswer(userAnswer, result.bestScore, result.bestTranslation);
 
-    // If opponent has already submitted, end the round
-    if (opponent?.currentRoundFinishedAt) {
+    // If opponent has already submitted, end the round (with race condition protection)
+    if (opponent?.currentRoundFinishedAt && !isEndingGameRef.current) {
+      isEndingGameRef.current = true;
       endGame();
     }
-  }, [verse, userAnswer, hasSubmitted, submitAnswer, opponent, endGame]);
+    setIsSubmitting(false);
+  }, [verse, userAnswer, hasSubmitted, isSubmitting, submitAnswer, opponent, endGame]);
 
   // Auto-submit when time runs out
   useEffect(() => {
@@ -169,12 +185,22 @@ export default function ChallengePage() {
   }, [room?.status, timeLeft, hasSubmitted, handleSubmit]);
 
   const handleReadyClick = async () => {
-    await setReady(true);
+    if (isReadyLoading) return;
+    setIsReadyLoading(true);
+    try {
+      await setReady(true);
+    } finally {
+      setIsReadyLoading(false);
+    }
   };
 
   const handleNextRound = async () => {
-    if (isHost) {
+    if (!isHost || isNextRoundLoading) return;
+    setIsNextRoundLoading(true);
+    try {
       await nextRound();
+    } finally {
+      setIsNextRoundLoading(false);
     }
   };
 
@@ -355,9 +381,14 @@ export default function ChallengePage() {
                     variant="memory"
                     className="w-full"
                     onClick={handleReadyClick}
-                    disabled={currentPlayer?.isReady}
+                    disabled={currentPlayer?.isReady || isReadyLoading}
                   >
-                    {currentPlayer?.isReady ? 'Ready!' : "I'm Ready"}
+                    {isReadyLoading ? (
+                      <>
+                        <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+                        Setting ready...
+                      </>
+                    ) : currentPlayer?.isReady ? 'Ready!' : "I'm Ready"}
                   </Button>
 
                   {players.length >= 2 && !players.every(p => p.isReady) && (
@@ -488,10 +519,19 @@ export default function ChallengePage() {
                 className="w-full"
                 size="lg"
                 onClick={handleSubmit}
-                disabled={!userAnswer.trim()}
+                disabled={!userAnswer.trim() || isSubmitting}
               >
-                <Send className="h-5 w-5 mr-2" />
-                Submit Answer
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+                    Submitting...
+                  </>
+                ) : (
+                  <>
+                    <Send className="h-5 w-5 mr-2" />
+                    Submit Answer
+                  </>
+                )}
               </Button>
             ) : localResult && (
               <Card className="bg-memory/5 border-memory/20">
@@ -618,8 +658,14 @@ export default function ChallengePage() {
                       className="w-full"
                       size="lg"
                       onClick={handleNextRound}
+                      disabled={isNextRoundLoading}
                     >
-                      {room.currentRound < room.totalRounds ? (
+                      {isNextRoundLoading ? (
+                        <>
+                          <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+                          Loading...
+                        </>
+                      ) : room.currentRound < room.totalRounds ? (
                         <>
                           Next Round
                           <ArrowRight className="h-5 w-5 ml-2" />

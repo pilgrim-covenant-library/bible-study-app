@@ -162,6 +162,13 @@ export default function TriviaPage() {
     if (selectedDifficulty !== 'all') {
       filtered = filtered.filter(q => q.difficulty === selectedDifficulty);
     }
+
+    // Check if we have questions to play with
+    if (filtered.length === 0) {
+      alert('No questions match your selected filters. Try different options.');
+      return;
+    }
+
     const shuffled = shuffleArray(filtered).slice(0, 10);
     setQuestions(shuffled);
     setCurrentQuestion(0);

@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/Providers";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
+import { RefreshButton } from "@/components/RefreshButton";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -42,15 +44,18 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} antialiased min-h-screen bg-background`}>
         <Providers>
-          <a
-            href="#main-content"
-            className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:p-4 focus:bg-primary focus:text-primary-foreground"
-          >
-            Skip to main content
-          </a>
-          <main id="main-content" className="min-h-screen">
-            {children}
-          </main>
+          <ErrorBoundary>
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:p-4 focus:bg-primary focus:text-primary-foreground"
+            >
+              Skip to main content
+            </a>
+            <main id="main-content" className="min-h-screen">
+              {children}
+            </main>
+            <RefreshButton />
+          </ErrorBoundary>
         </Providers>
       </body>
     </html>
