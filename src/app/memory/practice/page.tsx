@@ -2,39 +2,68 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Zap, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff } from 'lucide-react';
+import { ArrowLeft, Zap, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff, Star } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
-import { getRandomVerse, getVersesByCategory, getAllCategories, MemoryVerse } from '@/data/memory-verses';
+import {
+  getRandomVerse,
+  getRandomVerseByDifficulty,
+  getVersesByBook,
+  getVersesByDifficulty,
+  getAllBooks,
+  getDifficultyCounts,
+  MemoryVerse,
+  Difficulty,
+} from '@/data/memory-verses';
 import { calculateSimilarity, SimilarityResult } from '@/lib/similarity';
 
 type PracticeState = 'select' | 'practice' | 'result';
+type FilterMode = 'difficulty' | 'book';
+
+const DIFFICULTY_LABELS: Record<Difficulty, { label: string; description: string; color: string }> = {
+  easy: { label: 'Easy', description: 'Common, well-known verses', color: 'text-green-600 bg-green-100' },
+  medium: { label: 'Medium', description: 'Popular verses', color: 'text-yellow-600 bg-yellow-100' },
+  hard: { label: 'Hard', description: 'Less common verses', color: 'text-red-600 bg-red-100' },
+};
 
 export default function PracticePage() {
   const [state, setState] = useState<PracticeState>('select');
   const [currentVerse, setCurrentVerse] = useState<MemoryVerse | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
   const [result, setResult] = useState<SimilarityResult | null>(null);
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [filterMode, setFilterMode] = useState<FilterMode>('difficulty');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | 'all'>('all');
+  const [selectedBook, setSelectedBook] = useState<string>('all');
   const [showAnswer, setShowAnswer] = useState(false);
-  const [practiceHistory, setPracticeHistory] = useState<{verse: string; score: number}[]>([]);
+  const [practiceHistory, setPracticeHistory] = useState<{verse: string; score: number; difficulty: Difficulty}[]>([]);
 
-  const categories = getAllCategories();
+  const books = getAllBooks();
+  const difficultyCounts = getDifficultyCounts();
 
-  const startPractice = useCallback((category?: string) => {
+  const startPractice = useCallback(() => {
     let verse: MemoryVerse;
-    if (category && category !== 'all') {
-      const categoryVerses = getVersesByCategory(category);
-      verse = categoryVerses[Math.floor(Math.random() * categoryVerses.length)];
+
+    if (filterMode === 'difficulty') {
+      if (selectedDifficulty === 'all') {
+        verse = getRandomVerse();
+      } else {
+        verse = getRandomVerseByDifficulty(selectedDifficulty);
+      }
     } else {
-      verse = getRandomVerse();
+      if (selectedBook === 'all') {
+        verse = getRandomVerse();
+      } else {
+        const bookVerses = getVersesByBook(selectedBook);
+        verse = bookVerses[Math.floor(Math.random() * bookVerses.length)];
+      }
     }
+
     setCurrentVerse(verse);
     setUserAnswer('');
     setResult(null);
     setShowAnswer(false);
     setState('practice');
-  }, []);
+  }, [filterMode, selectedDifficulty, selectedBook]);
 
   const handleSubmit = useCallback(() => {
     if (!currentVerse || !userAnswer.trim()) return;
@@ -42,8 +71,8 @@ export default function PracticePage() {
     const similarityResult = calculateSimilarity(userAnswer, currentVerse.translations);
     setResult(similarityResult);
     setPracticeHistory(prev => [
-      { verse: currentVerse.reference, score: similarityResult.bestScore },
-      ...prev.slice(0, 9), // Keep last 10
+      { verse: currentVerse.reference, score: similarityResult.bestScore, difficulty: currentVerse.difficulty },
+      ...prev.slice(0, 9),
     ]);
     setState('result');
   }, [currentVerse, userAnswer]);
@@ -56,8 +85,8 @@ export default function PracticePage() {
   }, []);
 
   const handleNewVerse = useCallback(() => {
-    startPractice(selectedCategory);
-  }, [startPractice, selectedCategory]);
+    startPractice();
+  }, [startPractice]);
 
   // Keyboard shortcut: Enter to submit (with Ctrl/Cmd)
   useEffect(() => {
@@ -93,39 +122,102 @@ export default function PracticePage() {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
-        {/* Category Selection */}
+        {/* Selection Screen */}
         {state === 'select' && (
           <section className="max-w-2xl mx-auto">
             <div className="text-center mb-8">
-              <h2 className="text-2xl font-bold mb-2">Choose a Category</h2>
-              <p className="text-muted-foreground">Select a category to practice verses from</p>
+              <h2 className="text-2xl font-bold mb-2">Practice Settings</h2>
+              <p className="text-muted-foreground">Choose how you want to practice</p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-8">
-              <Button
-                variant={selectedCategory === 'all' ? 'memory' : 'outline'}
-                className="h-auto py-3"
-                onClick={() => setSelectedCategory('all')}
-              >
-                All Verses
-              </Button>
-              {categories.map((cat) => (
-                <Button
-                  key={cat}
-                  variant={selectedCategory === cat ? 'memory' : 'outline'}
-                  className="h-auto py-3 capitalize"
-                  onClick={() => setSelectedCategory(cat)}
+            {/* Filter Mode Toggle */}
+            <div className="flex justify-center mb-6">
+              <div className="inline-flex rounded-lg border p-1">
+                <button
+                  className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                    filterMode === 'difficulty' ? 'bg-memory text-white' : 'hover:bg-muted'
+                  }`}
+                  onClick={() => setFilterMode('difficulty')}
                 >
-                  {cat}
-                </Button>
-              ))}
+                  By Difficulty
+                </button>
+                <button
+                  className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                    filterMode === 'book' ? 'bg-memory text-white' : 'hover:bg-muted'
+                  }`}
+                  onClick={() => setFilterMode('book')}
+                >
+                  By Book
+                </button>
+              </div>
             </div>
+
+            {/* Difficulty Selection */}
+            {filterMode === 'difficulty' && (
+              <div className="space-y-3 mb-8">
+                <Button
+                  variant={selectedDifficulty === 'all' ? 'memory' : 'outline'}
+                  className="w-full justify-between h-auto py-3"
+                  onClick={() => setSelectedDifficulty('all')}
+                >
+                  <span>All Difficulties</span>
+                  <span className="text-sm opacity-70">
+                    {difficultyCounts.easy + difficultyCounts.medium + difficultyCounts.hard} verses
+                  </span>
+                </Button>
+                {(['easy', 'medium', 'hard'] as Difficulty[]).map((diff) => (
+                  <Button
+                    key={diff}
+                    variant={selectedDifficulty === diff ? 'memory' : 'outline'}
+                    className="w-full justify-between h-auto py-3"
+                    onClick={() => setSelectedDifficulty(diff)}
+                  >
+                    <div className="flex items-center gap-3">
+                      <span className={`px-2 py-0.5 rounded text-xs font-medium ${DIFFICULTY_LABELS[diff].color}`}>
+                        {DIFFICULTY_LABELS[diff].label}
+                      </span>
+                      <span className="text-sm text-muted-foreground">
+                        {DIFFICULTY_LABELS[diff].description}
+                      </span>
+                    </div>
+                    <span className="text-sm opacity-70">{difficultyCounts[diff]} verses</span>
+                  </Button>
+                ))}
+              </div>
+            )}
+
+            {/* Book Selection */}
+            {filterMode === 'book' && (
+              <div className="space-y-2 mb-8 max-h-[400px] overflow-y-auto">
+                <Button
+                  variant={selectedBook === 'all' ? 'memory' : 'outline'}
+                  className="w-full justify-between h-auto py-2"
+                  onClick={() => setSelectedBook('all')}
+                >
+                  <span>All Books</span>
+                </Button>
+                {books.map((book) => {
+                  const count = getVersesByBook(book).length;
+                  return (
+                    <Button
+                      key={book}
+                      variant={selectedBook === book ? 'memory' : 'outline'}
+                      className="w-full justify-between h-auto py-2"
+                      onClick={() => setSelectedBook(book)}
+                    >
+                      <span>{book}</span>
+                      <span className="text-sm opacity-70">{count} verse{count !== 1 ? 's' : ''}</span>
+                    </Button>
+                  );
+                })}
+              </div>
+            )}
 
             <Button
               variant="memory"
               size="lg"
               className="w-full"
-              onClick={() => startPractice(selectedCategory)}
+              onClick={startPractice}
             >
               <Shuffle className="h-5 w-5 mr-2" />
               Start Practice
@@ -138,10 +230,15 @@ export default function PracticePage() {
                 <div className="space-y-2">
                   {practiceHistory.map((item, i) => (
                     <div key={i} className="flex justify-between items-center p-2 bg-muted rounded-lg">
-                      <span className="text-sm">{item.verse}</span>
+                      <div className="flex items-center gap-2">
+                        <span className={`px-1.5 py-0.5 rounded text-xs ${DIFFICULTY_LABELS[item.difficulty].color}`}>
+                          {item.difficulty[0].toUpperCase()}
+                        </span>
+                        <span className="text-sm">{item.verse}</span>
+                      </div>
                       <span className={`text-sm font-medium ${
-                        item.score >= 85 ? 'text-success' :
-                        item.score >= 70 ? 'text-warning' : 'text-muted-foreground'
+                        item.score >= 85 ? 'text-green-600' :
+                        item.score >= 70 ? 'text-yellow-600' : 'text-muted-foreground'
                       }`}>
                         {item.score}%
                       </span>
@@ -156,21 +253,25 @@ export default function PracticePage() {
         {/* Practice Mode */}
         {state === 'practice' && currentVerse && (
           <section className="max-w-2xl mx-auto">
-            {/* Verse Reference */}
+            {/* Verse Reference & Difficulty */}
             <div className="text-center mb-6">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-memory/10 rounded-full">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-memory/10 rounded-full mb-2">
                 <BookOpen className="h-5 w-5 text-memory" />
                 <span className="text-xl font-bold text-memory">{currentVerse.reference}</span>
               </div>
-              <p className="text-sm text-muted-foreground mt-2">
-                Type this verse from memory
-              </p>
+              <div className="flex items-center justify-center gap-2">
+                <span className={`px-2 py-0.5 rounded text-xs font-medium ${DIFFICULTY_LABELS[currentVerse.difficulty].color}`}>
+                  {DIFFICULTY_LABELS[currentVerse.difficulty].label}
+                </span>
+                <span className="text-sm text-muted-foreground">
+                  Type this verse from memory
+                </span>
+              </div>
             </div>
 
             {/* Context Verses */}
             <Card className="mb-6">
               <CardContent className="p-6">
-                {/* Before Context */}
                 {currentVerse.context.before && (
                   <div className="mb-4 pb-4 border-b border-dashed">
                     <div className="text-xs font-medium text-muted-foreground mb-1">
@@ -182,7 +283,6 @@ export default function PracticePage() {
                   </div>
                 )}
 
-                {/* Target Verse Input Area */}
                 <div className="relative">
                   <div className="text-xs font-medium text-memory mb-2">
                     {currentVerse.reference} - TYPE THIS VERSE:
@@ -199,7 +299,6 @@ export default function PracticePage() {
                   </div>
                 </div>
 
-                {/* After Context */}
                 {currentVerse.context.after && (
                   <div className="mt-4 pt-4 border-t border-dashed">
                     <div className="text-xs font-medium text-muted-foreground mb-1">
