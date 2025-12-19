@@ -47,6 +47,7 @@ interface QuizModeInfo {
 }
 
 const QUIZ_MODES: QuizModeInfo[] = [
+  // === EASY ===
   {
     id: 'flashcard',
     label: 'Flashcard',
@@ -59,20 +60,43 @@ const QUIZ_MODES: QuizModeInfo[] = [
     label: 'Word Bank',
     description: 'Fill blanks from word options',
     icon: <Grid3X3 className="h-5 w-5" />,
-    difficulty: 'medium',
+    difficulty: 'easy',
   },
   {
     id: 'reorder',
     label: 'Phrase Reorder',
     description: 'Arrange answer phrases in order',
     icon: <ArrowUpDown className="h-5 w-5" />,
-    difficulty: 'medium',
+    difficulty: 'easy',
   },
+  // === MEDIUM ===
   {
     id: 'progressive',
     label: 'Progressive Blanks',
     description: 'Blanks increase each level',
     icon: <GraduationCap className="h-5 w-5" />,
+    difficulty: 'medium',
+  },
+  {
+    id: 'scripture_match',
+    label: 'Scripture Match',
+    description: 'Match answer to Scripture proof',
+    icon: <Link2 className="h-5 w-5" />,
+    difficulty: 'medium',
+  },
+  {
+    id: 'mcq',
+    label: 'Multiple Choice',
+    description: 'Spot the Reformed answer',
+    icon: <CheckSquare className="h-5 w-5" />,
+    difficulty: 'medium',
+  },
+  // === HARD ===
+  {
+    id: 'short_answer',
+    label: 'Short Answer',
+    description: 'Type the key phrase only',
+    icon: <MessageSquare className="h-5 w-5" />,
     difficulty: 'hard',
   },
   {
@@ -82,27 +106,36 @@ const QUIZ_MODES: QuizModeInfo[] = [
     icon: <Send className="h-5 w-5" />,
     difficulty: 'hard',
   },
-  {
-    id: 'mcq',
-    label: 'Multiple Choice',
-    description: 'Pick the correct answer',
-    icon: <CheckSquare className="h-5 w-5" />,
-    difficulty: 'easy',
-  },
-  {
-    id: 'short_answer',
-    label: 'Short Answer',
-    description: 'Type the key phrase only',
-    icon: <MessageSquare className="h-5 w-5" />,
-    difficulty: 'medium',
-  },
-  {
-    id: 'scripture_match',
-    label: 'Scripture Match',
-    description: 'Match answer to Scripture proof',
-    icon: <Link2 className="h-5 w-5" />,
-    difficulty: 'hard',
-  },
+];
+
+// Alternative catechism answers for MCQ distractors
+// These are real answers from Catholic, Lutheran, and other catechisms
+const ALTERNATIVE_CATECHISM_ANSWERS: { answer: string; source: string }[] = [
+  // Catholic Catechism alternatives
+  { answer: "Man's chief end is to know, love, and serve God in this life, and to be happy with Him forever in the next.", source: "Baltimore Catechism" },
+  { answer: "God is the Supreme Being, infinitely perfect, who made all things and keeps them in existence.", source: "Baltimore Catechism" },
+  { answer: "There are three Divine Persons in one God: the Father, the Son, and the Holy Ghost.", source: "Baltimore Catechism" },
+  { answer: "Original sin is the sin we inherit from Adam, which deprived us of sanctifying grace and the right to heaven.", source: "Baltimore Catechism" },
+  { answer: "The sacraments are outward signs instituted by Christ to give grace.", source: "Baltimore Catechism" },
+  { answer: "We are saved by faith and works, through the grace of God and the merits of Jesus Christ.", source: "Catholic Teaching" },
+  { answer: "The Church is the congregation of all baptized persons united in the same true faith, the same sacrifice, and the same sacraments.", source: "Baltimore Catechism" },
+  { answer: "Prayer is the raising of the mind and heart to God to adore Him, to thank Him, to ask His forgiveness, and to beg of Him all the graces we need.", source: "Baltimore Catechism" },
+  // Lutheran alternatives
+  { answer: "I believe that I cannot by my own reason or strength believe in Jesus Christ, my Lord, or come to Him.", source: "Luther's Small Catechism" },
+  { answer: "Baptism works forgiveness of sins, delivers from death and the devil, and gives eternal salvation to all who believe.", source: "Luther's Small Catechism" },
+  { answer: "The Law shows us our sin; the Gospel shows us our Savior.", source: "Lutheran Teaching" },
+  { answer: "In the Lord's Supper we receive the true body and blood of Christ under the bread and wine for the forgiveness of sins.", source: "Luther's Small Catechism" },
+  // Eastern Orthodox alternatives
+  { answer: "Salvation is the process of theosis, by which we become partakers of the divine nature.", source: "Orthodox Teaching" },
+  { answer: "The Church is the mystical Body of Christ, the pillar and ground of truth, preserving apostolic tradition.", source: "Orthodox Teaching" },
+  // Arminian/Wesleyan alternatives
+  { answer: "God's grace enables all people to respond to the Gospel, but this grace can be resisted.", source: "Arminian Teaching" },
+  { answer: "Believers may fall from grace and lose their salvation if they turn away from Christ.", source: "Wesleyan Teaching" },
+  { answer: "Christ died for all people, making salvation possible for everyone who believes.", source: "Arminian Teaching" },
+  // Generic theological alternatives
+  { answer: "Man is basically good but corrupted by society and environment.", source: "Liberal Theology" },
+  { answer: "Sin is primarily a failure to reach one's potential rather than rebellion against God.", source: "Modern Teaching" },
+  { answer: "The Bible contains the word of God but must be interpreted through human reason and experience.", source: "Liberal Theology" },
 ];
 
 const QUIZ_MODE_COLORS: Record<'easy' | 'medium' | 'hard', string> = {
@@ -229,9 +262,9 @@ function TheologyPracticeContent() {
   const [progressiveBlanks, setProgressiveBlanks] = useState<number[]>([]);
   const [progressiveAnswers, setProgressiveAnswers] = useState<string[]>([]);
 
-  // MCQ Mode
-  const [mcqOptions, setMcqOptions] = useState<CatechismQuestion[]>([]);
-  const [mcqSelected, setMcqSelected] = useState<string | null>(null);
+  // MCQ Mode - now includes alternative catechism answers as distractors
+  const [mcqOptions, setMcqOptions] = useState<{ answer: string; source: string; isCorrect: boolean }[]>([]);
+  const [mcqSelected, setMcqSelected] = useState<number | null>(null);
 
   // Short Answer Mode
   const [shortAnswerInput, setShortAnswerInput] = useState('');
@@ -309,30 +342,24 @@ function TheologyPracticeContent() {
   }, []);
 
   const initializeMcq = useCallback((question: CatechismQuestion) => {
-    // Get 3 distractors, preferring same category for harder challenge
-    const sameCategoryQuestions = WESTMINSTER_CATECHISM.filter(
-      q => q.id !== question.id && q.category === question.category
-    );
-    const otherQuestions = WESTMINSTER_CATECHISM.filter(
-      q => q.id !== question.id && q.category !== question.category
-    );
+    // Get 3 distractors from alternative catechisms (Catholic, Lutheran, etc.)
+    // This tests whether the user can identify the Reformed answer
+    const shuffledAlternatives = shuffleArray(ALTERNATIVE_CATECHISM_ANSWERS);
+    const distractors = shuffledAlternatives.slice(0, 3).map(alt => ({
+      answer: alt.answer,
+      source: alt.source,
+      isCorrect: false,
+    }));
 
-    // Try to get 3 from same category, fill rest from others
-    const distractors: CatechismQuestion[] = [];
-    const shuffledSameCategory = shuffleArray(sameCategoryQuestions);
-    const shuffledOther = shuffleArray(otherQuestions);
+    // Create the correct answer option
+    const correctOption = {
+      answer: question.answer,
+      source: 'Westminster Shorter Catechism',
+      isCorrect: true,
+    };
 
-    for (const q of shuffledSameCategory) {
-      if (distractors.length >= 3) break;
-      distractors.push(q);
-    }
-    for (const q of shuffledOther) {
-      if (distractors.length >= 3) break;
-      distractors.push(q);
-    }
-
-    // Shuffle the options (correct + distractors)
-    const options = shuffleArray([question, ...distractors]);
+    // Shuffle all options together
+    const options = shuffleArray([correctOption, ...distractors]);
     setMcqOptions(options);
     setMcqSelected(null);
   }, []);
@@ -478,8 +505,9 @@ function TheologyPracticeContent() {
       }
 
       case 'mcq': {
-        if (!mcqSelected) return;
-        finalScore = mcqSelected === currentQuestion.id ? 100 : 0;
+        if (mcqSelected === null) return;
+        const selectedOption = mcqOptions[mcqSelected];
+        finalScore = selectedOption?.isCorrect ? 100 : 0;
         break;
       }
 
@@ -1055,23 +1083,26 @@ function TheologyPracticeContent() {
             {quizMode === 'mcq' && (
               <Card className="mb-6">
                 <CardContent className="p-6">
-                  <div className="text-xs font-medium text-theology mb-4">
-                    Select the correct answer:
+                  <div className="text-xs font-medium text-theology mb-2">
+                    Which is the Reformed (Westminster) answer?
+                  </div>
+                  <div className="text-xs text-muted-foreground mb-4">
+                    Some options are from other catechisms - spot the difference!
                   </div>
                   <div className="space-y-3">
                     {mcqOptions.map((option, i) => (
                       <button
-                        key={option.id}
+                        key={i}
                         className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
-                          mcqSelected === option.id
+                          mcqSelected === i
                             ? 'border-theology bg-theology/10 ring-2 ring-theology/20'
                             : 'border-border bg-card hover:border-theology/50 hover:bg-muted/50'
                         }`}
-                        onClick={() => setMcqSelected(option.id)}
+                        onClick={() => setMcqSelected(i)}
                       >
                         <div className="flex items-start gap-3">
                           <span className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-sm font-medium ${
-                            mcqSelected === option.id
+                            mcqSelected === i
                               ? 'bg-theology text-white'
                               : 'bg-muted text-muted-foreground'
                           }`}>
@@ -1199,7 +1230,7 @@ function TheologyPracticeContent() {
               disabled={
                 (quizMode === 'type_out' && !userAnswer.trim()) ||
                 (quizMode === 'flashcard' && !selfRating) ||
-                (quizMode === 'mcq' && !mcqSelected) ||
+                (quizMode === 'mcq' && mcqSelected === null) ||
                 (quizMode === 'short_answer' && !shortAnswerInput.trim()) ||
                 (quizMode === 'scripture_match' && !scriptureSelected)
               }
@@ -1257,6 +1288,51 @@ function TheologyPracticeContent() {
                           <span key={i} className="px-2 py-1 bg-muted rounded text-xs">
                             {proof}
                           </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* MCQ Explanation - show all options with sources */}
+                  {quizMode === 'mcq' && mcqOptions.length > 0 && (
+                    <div className="border rounded-xl overflow-hidden">
+                      <div className="bg-muted px-4 py-2 text-xs font-medium">
+                        Answer Sources Explained:
+                      </div>
+                      <div className="divide-y">
+                        {mcqOptions.map((option, i) => (
+                          <div
+                            key={i}
+                            className={`p-3 text-sm ${
+                              option.isCorrect
+                                ? 'bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500'
+                                : mcqSelected === i
+                                  ? 'bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500'
+                                  : ''
+                            }`}
+                          >
+                            <div className="flex items-start gap-2">
+                              <span className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium ${
+                                option.isCorrect
+                                  ? 'bg-green-500 text-white'
+                                  : mcqSelected === i
+                                    ? 'bg-red-500 text-white'
+                                    : 'bg-muted text-muted-foreground'
+                              }`}>
+                                {String.fromCharCode(65 + i)}
+                              </span>
+                              <div className="flex-1">
+                                <p className="text-sm leading-relaxed">{option.answer}</p>
+                                <p className={`text-xs mt-1 ${
+                                  option.isCorrect
+                                    ? 'text-green-600 dark:text-green-400 font-medium'
+                                    : 'text-muted-foreground'
+                                }`}>
+                                  {option.isCorrect ? '✓ ' : ''}{option.source}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
                         ))}
                       </div>
                     </div>
