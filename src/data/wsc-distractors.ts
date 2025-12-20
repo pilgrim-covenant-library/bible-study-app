@@ -82,19 +82,19 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
   // Correct: "The decrees of God are his eternal purpose, according to the counsel of his will, whereby, for his own glory, he hath foreordained whatsoever comes to pass."
   'wsc-7': [
     {
-      text: "The decrees of God are his eternal purpose, according to the counsel of his will, whereby, for his own glory, he hath predestined whatsoever comes to pass.",
-      type: 'word_swap',
-      explanation: "The catechism says 'foreordained' not 'predestined.' While related, the WSC uses 'foreordained' which emphasizes God's ordering of all events."
+      text: "The decrees of God are his eternal purpose, according to his counsel, whereby, for his own glory, he hath foreordained whatsoever comes to pass.",
+      type: 'omission',
+      explanation: "'Of his will' is missing. God's decrees flow from the COUNSEL OF HIS WILL—deliberate, wise decision from his own nature. Losing 'of his will' makes it sound like external counsel rather than God's internal decision."
     },
     {
       text: "The decrees of God are his eternal purpose, according to the counsel of his will, whereby, for our salvation, he hath foreordained whatsoever comes to pass.",
       type: 'word_swap',
-      explanation: "The catechism says 'for his own glory' not 'for our salvation.' God's ultimate purpose is his glory, not our salvation (which serves his glory)."
+      explanation: "The catechism says 'for his own glory' not 'for our salvation.' God's ultimate purpose is his glory, not our salvation (which serves his glory). Romans 11:36 - 'For from him and through him and to him are all things. To him be glory forever.'"
     },
     {
       text: "The decrees of God are his eternal purpose, according to his sovereign will, whereby, for his own glory, he hath foreordained whatsoever comes to pass.",
       type: 'word_swap',
-      explanation: "'The counsel of his will' emphasizes God's wisdom and deliberation, not just 'sovereign will.' God decrees wisely, not arbitrarily."
+      explanation: "'The counsel of his will' emphasizes God's wisdom and deliberation, not just 'sovereign will.' God doesn't decree arbitrarily—his decrees flow from wise counsel. Sovereignty without wisdom would be tyranny."
     },
   ],
 
@@ -142,19 +142,19 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
   // Correct: "Effectual calling is the work of God's Spirit, whereby, convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, he doth persuade and enable us to embrace Jesus Christ, freely offered to us in the gospel."
   'wsc-31': [
     {
-      text: "Effectual calling is the work of God's Spirit, whereby, convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, he doth persuade us to embrace Jesus Christ, freely offered to us in the gospel.",
-      type: 'omission',
-      explanation: "'Enable' is missing. The Spirit doesn't just persuade - he ENABLES us. Without enablement, we cannot respond (John 6:44)."
+      text: "Effectual calling is the work of God's Spirit, whereby, convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, he doth persuade and encourage us to embrace Jesus Christ, freely offered to us in the gospel.",
+      type: 'word_swap',
+      explanation: "'Persuade and enable' not 'persuade and encourage.' The Spirit doesn't just encourage us—he ENABLES us (gives us the power/ability). This is monergism (God alone works) vs. synergism (God helps, we respond). John 6:44 - 'No one can come to me unless the Father draws him.'"
     },
     {
       text: "Effectual calling is the work of God's Spirit, whereby, enlightening our minds in the knowledge of Christ, convincing us of our sin and misery, and renewing our wills, he doth persuade and enable us to embrace Jesus Christ, freely offered to us in the gospel.",
       type: 'wrong_order',
-      explanation: "Conviction of sin comes FIRST, then enlightenment. We must know our need before we can appreciate the remedy."
+      explanation: "Conviction of sin comes FIRST, then enlightenment. We must know our need (sin and misery) before we can appreciate the remedy (Christ). Order matters in the ordo salutis."
     },
     {
       text: "Effectual calling is the work of God's Spirit, whereby, convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, he doth persuade and enable us to accept Jesus Christ, freely offered to us in the gospel.",
       type: 'word_swap',
-      explanation: "The catechism says 'embrace' not 'accept.' Embrace implies warmth and affection, not mere intellectual assent."
+      explanation: "The catechism says 'embrace' not 'accept.' Embrace implies warmth, affection, and wholehearted reception—not mere intellectual assent or cold acceptance."
     },
   ],
 
@@ -202,19 +202,19 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
   // Correct: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, with all our strength, and with all our mind; and our neighbor as ourselves."
   'wsc-42': [
     {
-      text: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our mind, with all our soul, and with all our strength; and our neighbor as ourselves.",
-      type: 'wrong_order',
-      explanation: "The order is 'heart, soul, strength, mind' - following the Great Commandment in Luke 10:27. Each faculty is listed deliberately."
+      text: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, and with all our strength; and our neighbor as ourselves.",
+      type: 'omission',
+      explanation: "'With all our mind' is missing. We must love God intellectually as well as emotionally (heart), spiritually (soul), and physically (strength). The mind matters! God wants our reason and understanding, not just our feelings."
     },
     {
-      text: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, and with all our mind; and our neighbor as ourselves.",
+      text: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, with all our mind; and our neighbor as ourselves.",
       type: 'omission',
-      explanation: "'Strength' is missing. We are to love God with our strength too - our physical energy and effort, not just internal faculties."
+      explanation: "'With all our strength' is missing. We are to love God with our physical energy and bodily effort, not just internal faculties. Love for God involves our actions and physical service."
     },
     {
       text: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, with all our strength, and with all our mind; and our neighbor more than ourselves.",
       type: 'word_swap',
-      explanation: "'As ourselves' not 'more than ourselves.' The command assumes proper self-love as the standard for loving others."
+      explanation: "'As ourselves' not 'more than ourselves.' The command assumes proper self-love as the standard for loving others. Self-denial isn't self-hatred—biblical love includes appropriate self-care."
     },
   ],
 
@@ -244,17 +244,17 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
     {
       text: "A sacrament is a holy ordinance instituted by Christ; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented and sealed to believers.",
       type: 'omission',
-      explanation: "'Applied' is missing. Sacraments don't just represent and seal - they APPLY covenant benefits to believers through the Spirit."
+      explanation: "'Applied' is missing. Sacraments don't just represent (picture) and seal (confirm)—they APPLY covenant benefits to believers through the Spirit's work. They are means of grace, not mere symbols."
     },
     {
       text: "A sacrament is a holy ordinance instituted by the church; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers.",
       type: 'word_swap',
-      explanation: "Instituted by 'Christ' not 'the church.' Only Christ has authority to institute sacraments - the church merely administers them."
+      explanation: "Instituted by 'Christ' not 'the church.' Only Christ has authority to institute sacraments - the church merely administers what Christ established. The church cannot invent new sacraments."
     },
     {
-      text: "A sacrament is a holy ordinance instituted by Christ; wherein, by visible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers.",
-      type: 'word_swap',
-      explanation: "'Sensible' not 'visible.' Sacraments engage multiple senses - we see, touch, taste (bread/wine) - not just sight."
+      text: "A sacrament is a holy ordinance instituted by Christ; wherein, by signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers.",
+      type: 'omission',
+      explanation: "'Sensible' is missing before 'signs.' Sacraments use SENSIBLE (perceptible to the senses) signs—actual physical things we can see, touch, taste, and feel. They're not abstract or invisible, but tangible means of grace."
     },
   ],
 
@@ -284,17 +284,17 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
     {
       text: "The Lord's Supper is a sacrament, wherein, by giving and receiving bread and wine, according to Christ's appointment, his death is showed forth; and the worthy receivers are, after a corporal and carnal manner, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace.",
       type: 'omission',
-      explanation: "'NOT after a corporal and carnal manner' - the 'not' is crucial! We don't eat Christ's physical flesh (transubstantiation). We partake BY FAITH."
+      explanation: "'NOT after a corporal and carnal manner' - the 'NOT' is crucial! We don't eat Christ's physical flesh (rejecting transubstantiation and consubstantiation). We partake spiritually BY FAITH, not physically."
     },
     {
-      text: "The Lord's Supper is a sacrament, wherein, by giving and receiving bread and wine, according to Christ's appointment, his death is showed forth; and the receivers are, not after a corporal and carnal manner, but by faith, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace.",
-      type: 'omission',
-      explanation: "'Worthy' is missing before 'receivers.' Not everyone who takes communion benefits - only those who receive worthily by faith."
+      text: "The Lord's Supper is a sacrament, wherein, by giving and receiving bread and wine, according to Christ's appointment, his death is showed forth; and the believers are, not after a corporal and carnal manner, but by faith, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace.",
+      type: 'word_swap',
+      explanation: "'The worthy receivers' not just 'the believers.' Not everyone who partakes benefits from communion—only those who receive WORTHILY by faith (1 Cor 11:27-29). Unbelievers or those in unrepentant sin eat and drink judgment on themselves."
     },
     {
       text: "The Lord's Supper is a sacrament, wherein, by giving and receiving bread and wine, according to the church's appointment, his death is showed forth; and the worthy receivers are, not after a corporal and carnal manner, but by faith, made partakers of his body and blood, with all his benefits, to their spiritual nourishment, and growth in grace.",
       type: 'word_swap',
-      explanation: "'Christ's appointment' not 'the church's appointment.' The Lord's Supper was instituted by Christ himself, not invented by the church."
+      explanation: "'Christ's appointment' not 'the church's appointment.' The Lord's Supper was instituted by Christ himself at the Last Supper (Luke 22:19-20), not invented by the church."
     },
   ],
 
