@@ -329,11 +329,11 @@ export const CATEGORY_FALLBACK_DISTRACTORS: Record<string, Distractor[]> = {
   ],
   'god_nature': [
     { text: "God is love, infinite, eternal, and unchangeable in all his attributes.", type: 'word_swap', explanation: "God is 'a Spirit' first - his spirituality grounds all other attributes." },
-    { text: "The three persons of the Trinity are similar in substance.", type: 'word_swap', explanation: "The persons are 'the SAME in substance' not merely 'similar' - this is the homoousios controversy." },
+    { text: "The three persons of the Trinity are three separate beings united in purpose.", type: 'near_miss', explanation: "The persons are 'the same in substance, equal in power and glory' - three persons, ONE being (not three beings). This rejects tritheism." },
     { text: "God is infinite and eternal in his being and power.", type: 'omission', explanation: "God is infinite/eternal in SEVEN attributes: being, wisdom, power, holiness, justice, goodness, truth." },
   ],
   'decrees': [
-    { text: "God's decrees are his responses to human choices throughout history.", type: 'near_miss', explanation: "God's decrees are ETERNAL, not responses - he foreordained from eternity, not in reaction to us." },
+    { text: "God's decrees are his responses to human choices throughout history.", type: 'near_miss', explanation: "God's decrees are ETERNAL - established before time began, not reactive responses to human choices. He foreordained all things from eternity, not in reaction to us." },
     { text: "Providence means God watches over creation without intervening.", type: 'near_miss', explanation: "Providence is active GOVERNING, not passive watching - God sustains and directs all things." },
     { text: "The covenant of life required partial obedience from Adam.", type: 'word_swap', explanation: "The covenant required PERFECT obedience - any sin meant death." },
   ],
@@ -345,7 +345,7 @@ export const CATEGORY_FALLBACK_DISTRACTORS: Record<string, Distractor[]> = {
   'fall_sin': [
     { text: "Christ is the Redeemer who became man for a time to save us.", type: 'omission', explanation: "Christ CONTINUES to be God and man forever - the incarnation is permanent." },
     { text: "Christ executes the offices of prophet, priest, and teacher.", type: 'word_swap', explanation: "The three offices are prophet, priest, and KING - not teacher." },
-    { text: "Christ's humiliation ended when he died on the cross.", type: 'near_miss', explanation: "Humiliation included burial and continuing under death's power for a time - not just death." },
+    { text: "Christ's humiliation ended at his resurrection.", type: 'near_miss', explanation: "Christ's humiliation included his resurrection - it ended at his ASCENSION when he entered glory. The humiliation state includes conception, birth, life, death, burial, and remaining under death's power until resurrection." },
   ],
   'christ_redemption': [
     { text: "We are made partakers of redemption by accepting Christ.", type: 'word_swap', explanation: "We are made partakers by the Spirit's EFFECTUAL APPLICATION, not just our acceptance." },
@@ -355,7 +355,7 @@ export const CATEGORY_FALLBACK_DISTRACTORS: Record<string, Distractor[]> = {
   'application': [
     { text: "The duty God requires is to follow our conscience.", type: 'near_miss', explanation: "God requires obedience to his REVEALED WILL (Scripture), not our conscience." },
     { text: "The moral law is summarized in the two great commandments.", type: 'word_swap', explanation: "The moral law is summarily comprehended in the TEN COMMANDMENTS, which are then summarized in two." },
-    { text: "The sum of the commandments is to love God and love others.", type: 'omission', explanation: "Love neighbor 'as ourselves' - proper self-love is included as the standard." },
+    { text: "The commandments show us how to earn God's favor through obedience.", type: 'near_miss', explanation: "The law reveals sin and shows God's will, but we cannot EARN favor by obedience (works-righteousness). We're saved by grace through faith, not by law-keeping." },
   ],
   'ten_commandments': [
     { text: "The commandments forbid outward acts of sin only.", type: 'near_miss', explanation: "Commandments govern thoughts, words, AND actions - the heart, not just behavior." },
