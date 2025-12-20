@@ -202,9 +202,9 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
   // Correct: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, with all our strength, and with all our mind; and our neighbor as ourselves."
   'wsc-42': [
     {
-      text: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, and with all our strength; and our neighbor as ourselves.",
-      type: 'omission',
-      explanation: "'With all our mind' is missing. We must love God intellectually as well as emotionally (heart), spiritually (soul), and physically (strength). The mind matters! God wants our reason and understanding, not just our feelings."
+      text: "The sum of the ten commandments is to love God with all our heart, with all our soul, with all our strength, and with all our mind; and our neighbor as ourselves.",
+      type: 'word_swap',
+      explanation: "'The Lord our God' not just 'God.' The full title emphasizes the covenant relationship—he is not merely a deity, but OUR God who has entered into covenant with his people. This reflects the Shema (Deut 6:4) and the first commandment."
     },
     {
       text: "The sum of the ten commandments is to love the Lord our God with all our heart, with all our soul, with all our mind; and our neighbor as ourselves.",
@@ -242,9 +242,9 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
   // Correct: "A sacrament is a holy ordinance instituted by Christ; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers."
   'wsc-92': [
     {
-      text: "A sacrament is a holy ordinance instituted by Christ; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented and sealed to believers.",
-      type: 'omission',
-      explanation: "'Applied' is missing. Sacraments don't just represent (picture) and seal (confirm)—they APPLY covenant benefits to believers through the Spirit's work. They are means of grace, not mere symbols."
+      text: "A sacrament is a holy ordinance instituted by Christ; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to all who participate.",
+      type: 'word_swap',
+      explanation: "To 'believers' not 'all who participate.' Sacraments only benefit those who receive them in faith. Mere physical participation without faith doesn't convey grace—this is why baptized infants who later reject Christ were never truly saved by their baptism."
     },
     {
       text: "A sacrament is a holy ordinance instituted by the church; wherein, by sensible signs, Christ, and the benefits of the new covenant, are represented, sealed, and applied to believers.",
