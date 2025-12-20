@@ -42,19 +42,19 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
   // Correct: "God is a Spirit, infinite, eternal, and unchangeable, in his being, wisdom, power, holiness, justice, goodness, and truth."
   'wsc-4': [
     {
-      text: "God is a Spirit, eternal, infinite, and unchangeable, in his being, wisdom, power, holiness, justice, goodness, and truth.",
-      type: 'wrong_order',
-      explanation: "The order is 'infinite, eternal' not 'eternal, infinite.' Infinity (without limits) comes before eternality (without time)."
+      text: "God is a Spirit, infinite, eternal, and unchangeable in his being, wisdom, and power.",
+      type: 'omission',
+      explanation: "This omits four crucial attributes: holiness, justice, goodness, and truth. God is unchangeable in ALL his attributes - moral perfections matter just as much as his power and wisdom."
     },
     {
       text: "God is a Spirit, infinite, eternal, and unchangeable, in his being, wisdom, power, love, justice, goodness, and truth.",
       type: 'word_swap',
-      explanation: "The catechism says 'holiness' not 'love.' While God is love, holiness is the attribute that governs all others."
+      explanation: "The catechism says 'holiness' not 'love.' While God is love (1 John 4:8), holiness is the attribute that governs all others - even God's love is holy love."
     },
     {
       text: "God is a Spirit, infinite, eternal, in his being, wisdom, power, holiness, justice, goodness, and truth.",
       type: 'omission',
-      explanation: "'Unchangeable' is missing. God's immutability is crucial - he doesn't change in his attributes (James 1:17)."
+      explanation: "'Unchangeable' is missing. God's immutability is crucial - he doesn't change in his attributes (James 1:17). What he was, he is; what he is, he ever will be."
     },
   ],
 
@@ -62,19 +62,19 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
   // Correct: "There are three persons in the Godhead: the Father, the Son, and the Holy Ghost; and these three are one God, the same in substance, equal in power and glory."
   'wsc-6': [
     {
-      text: "There are three persons in the Godhead: the Father, the Son, and the Holy Ghost; and these three are one God, the same in essence, equal in power and glory.",
-      type: 'word_swap',
-      explanation: "The catechism says 'substance' not 'essence.' While both are used in theology, the WSC specifically uses 'substance' (Latin: substantia)."
+      text: "There is one person in the Godhead manifesting in three modes: Father, Son, and Holy Ghost.",
+      type: 'near_miss',
+      explanation: "This is modalism (a heresy) - it confuses persons with modes of manifestation. The Trinity has three distinct PERSONS, not one person appearing in three ways. Modalism denies the eternal distinctions within the Godhead."
     },
     {
-      text: "There are three persons in the Godhead: the Father, the Son, and the Holy Spirit; and these three are one God, the same in substance, equal in power and glory.",
-      type: 'word_swap',
-      explanation: "The catechism uses 'Holy Ghost' not 'Holy Spirit.' While both terms are correct, the WSC uses the older English 'Ghost.'"
+      text: "There are three gods in the Godhead: the Father, the Son, and the Holy Ghost; and these three are equal in power and glory.",
+      type: 'near_miss',
+      explanation: "This is tritheism (a heresy) - teaching three separate gods. Scripture affirms ONE God eternally existing in three persons, not three gods. 'Hear, O Israel: The LORD our God, the LORD is one' (Deut 6:4)."
     },
     {
       text: "There are three persons in the Godhead: the Father, the Son, and the Holy Ghost; and these three are one God, equal in substance, power and glory.",
       type: 'omission',
-      explanation: "'The same in' is missing before 'substance.' The three persons share the SAME substance (homoousios), not just equal substance."
+      explanation: "'The same in' is missing before 'substance.' The three persons share the SAME substance (homoousios), not just equal substance. This distinction was crucial at Nicaea to affirm full deity of the Son."
     },
   ],
 
@@ -309,12 +309,12 @@ export const WSC_DISTRACTORS: Record<string, Distractor[]> = {
     {
       text: "Prayer is an offering up of our desires unto God, for things agreeable to our will, in the name of Christ, with confession of our sins, and thankful acknowledgment of his mercies.",
       type: 'word_swap',
-      explanation: "'His will' not 'our will.' We pray for things agreeable to GOD'S will, not our own desires (1 John 5:14)."
+      explanation: "'His will' not 'our will.' We pray for things agreeable to GOD'S will, not our own desires (1 John 5:14). Prayer aligns our will with God's, not the reverse."
     },
     {
-      text: "Prayer is an offering up of our desires unto God, for things agreeable to his will, in the name of Jesus, with confession of our sins, and thankful acknowledgment of his mercies.",
+      text: "Prayer is commanding God to grant our desires, for things agreeable to his will, in the name of Christ, with confession of our sins, and thankful acknowledgment of his mercies.",
       type: 'word_swap',
-      explanation: "The catechism says 'Christ' not 'Jesus.' While both refer to the same person, the WSC consistently uses 'Christ' (his title as Messiah)."
+      explanation: "Prayer is 'offering up' (humbly presenting), not 'commanding' (demanding). We petition God as subjects, not order him as equals. Prayer is request, not command."
     },
   ],
 };
