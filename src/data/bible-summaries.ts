@@ -4795,10 +4795,1621 @@ Chapters 9-11 address Israel's unbelief and God's faithfulness, affirming that G
       'How does the indicative (what God has done) lead to the imperative (how we should live) in Romans?'
     ]
   },
+  {
+    id: '1-corinthians',
+    name: '1 Corinthians',
+    abbreviation: '1 Cor',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 46,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 55',
+    originalAudience: 'The church at Corinth',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
 
-  // Add placeholder entries for remaining books
-  // These would need full content in production
+    overview: `First Corinthians is Paul's response to a church in crisis. The Corinthian believers were divided into factions, tolerating gross immorality, taking each other to court, misusing spiritual gifts, and denying the resurrection. Paul addresses each issue with the gospel, showing how the cross transforms every area of life.
 
+The letter covers an astonishing range of topics: church unity, church discipline, marriage and singleness, food offered to idols, the Lord's Supper, spiritual gifts, love, and the resurrection. Through it all, Paul calls the church to be what it already is in Christ—sanctified, holy, and united.
+
+First Corinthians demonstrates how theology shapes practice. The indicative of grace leads to the imperative of godliness. The resurrection of Christ guarantees our resurrection. Love is the greatest gift because it reflects the character of God Himself.`,
+
+    purpose: `Paul wrote to correct divisions, address moral failures, answer questions about Christian living, and reassert apostolic authority. He wanted to restore the church to health and unity centered on the gospel.`,
+
+    outline: [
+      { section: 'Introduction', chapters: '1:1-9', summary: 'Greeting and thanksgiving for God\'s grace.' },
+      { section: 'Divisions in the Church', chapters: '1:10-4:21', summary: 'Unity in the cross; wisdom of God vs. wisdom of the world.' },
+      { section: 'Moral Disorders', chapters: '5-6', summary: 'Church discipline; sexual immorality; lawsuits.' },
+      { section: 'Answers to Questions', chapters: '7-14', summary: 'Marriage, idols, worship, spiritual gifts.' },
+      { section: 'The Resurrection', chapters: '15', summary: 'Christ\'s resurrection and our future resurrection.' },
+      { section: 'Conclusion', chapters: '16', summary: 'Collection, travel plans, final exhortations.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'The Message of the Cross',
+        description: 'The cross is foolishness to the world but the power and wisdom of God. It demolishes human pride and unites believers.',
+        keyPassages: ['1:18-25', '2:1-5']
+      },
+      {
+        theme: 'Church Unity',
+        description: 'The church is one body with many members. Division dishonors Christ, who cannot be divided.',
+        keyPassages: ['1:10-17', '3:1-9', '12:12-27']
+      },
+      {
+        theme: 'The Supremacy of Love',
+        description: 'Spiritual gifts without love are worthless. Love is patient, kind, and never fails—it is the greatest virtue.',
+        keyPassages: ['13:1-13']
+      },
+      {
+        theme: 'Resurrection Hope',
+        description: 'Christ\'s resurrection guarantees believers\' future resurrection. This hope transforms how we live now.',
+        keyPassages: ['15:1-11', '15:35-58']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Christ crucified is the center of Paul\'s preaching', passages: ['1:23', '2:2'] },
+      { type: 'direct', description: 'Christ is risen as the firstfruits of resurrection', passages: ['15:20-23'] },
+      { type: 'theme', description: 'Christ is our Passover lamb', passages: ['5:7'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:18', text: 'For the word of the cross is folly to those who are perishing, but to us who are being saved it is the power of God.', significance: 'The centrality of the cross.' },
+      { reference: '6:19-20', text: 'Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own, for you were bought with a price.', significance: 'The call to bodily holiness.' },
+      { reference: '10:31', text: 'So, whether you eat or drink, or whatever you do, do all to the glory of God.', significance: 'The comprehensive scope of Christian living.' },
+      { reference: '13:13', text: 'So now faith, hope, and love abide, these three; but the greatest of these is love.', significance: 'The supremacy of love.' },
+      { reference: '15:58', text: 'Therefore, my beloved brothers, be steadfast, immovable, always abounding in the work of the Lord, knowing that in the Lord your labor is not in vain.', significance: 'Resurrection motivation for present labor.' }
+    ],
+
+    practicalApplications: [
+      'Pursue unity in the church, avoiding factions and personality cults.',
+      'Honor God with your body as a temple of the Holy Spirit.',
+      'Exercise spiritual gifts in love for the building up of the church.',
+      'Let the resurrection shape how you face suffering and labor.',
+      'Do everything for the glory of God.'
+    ],
+
+    studyQuestions: [
+      'How does the message of the cross address the Corinthians\' divisions?',
+      'What principles does Paul give for making decisions in "gray areas"?',
+      'How should spiritual gifts function in corporate worship?',
+      'Why is the bodily resurrection of Christ essential to the gospel?',
+      'What makes love "the greatest" virtue (chapter 13)?'
+    ]
+  },
+  {
+    id: '2-corinthians',
+    name: '2 Corinthians',
+    abbreviation: '2 Cor',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 47,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 55-56',
+    originalAudience: 'The church at Corinth',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
+
+    overview: `Second Corinthians is Paul's most personal and emotional letter. He defends his apostolic ministry against opponents who questioned his authority, writes about reconciliation after a painful visit, and explains the nature of Christian ministry. The letter reveals Paul's heart like no other.
+
+The first section (1-7) addresses the nature of apostolic ministry—marked by suffering, weakness, and the treasure of the gospel in "jars of clay." Paul rejoices that the Corinthians responded to his severe letter with repentance. The middle section (8-9) urges generosity in the collection for Jerusalem believers. The final section (10-13) vigorously defends Paul's apostleship against false apostles.
+
+Second Corinthians teaches that authentic ministry is marked by weakness through which God's power is displayed. The "super-apostles" boasted in their credentials; Paul boasted in his weaknesses. This counter-cultural message challenges how we understand leadership and success.`,
+
+    purpose: `Paul wrote to express joy at the Corinthians' repentance, to defend his apostolic authority against opponents, to encourage generosity, and to warn against false teachers who were undermining his ministry.`,
+
+    outline: [
+      { section: 'Comfort in Affliction', chapters: '1:1-2:13', summary: 'God comforts us to comfort others; Paul\'s travel plans.' },
+      { section: 'Ministry of the New Covenant', chapters: '2:14-7:4', summary: 'Treasure in jars of clay; ministry of reconciliation.' },
+      { section: 'Joy at Reconciliation', chapters: '7:5-16', summary: 'Titus brings good news of the Corinthians\' repentance.' },
+      { section: 'The Collection', chapters: '8-9', summary: 'Generosity for the saints in Jerusalem.' },
+      { section: 'Defense of Apostleship', chapters: '10-13', summary: 'Boasting in weakness; Paul\'s credentials; final warnings.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Power in Weakness',
+        description: 'God\'s power is perfected in weakness. Paul boasts in his weaknesses so that Christ\'s power may rest on him.',
+        keyPassages: ['4:7-12', '11:30', '12:9-10']
+      },
+      {
+        theme: 'Ministry of Reconciliation',
+        description: 'God reconciled us to Himself through Christ and gave us the ministry of reconciliation. We are ambassadors for Christ.',
+        keyPassages: ['5:17-21']
+      },
+      {
+        theme: 'New Covenant Glory',
+        description: 'The new covenant ministry surpasses the old in glory. The Spirit brings freedom and transforms believers into Christ\'s image.',
+        keyPassages: ['3:7-18']
+      },
+      {
+        theme: 'Generous Giving',
+        description: 'Christian generosity flows from grace. Christ became poor so we might become rich. Generosity glorifies God.',
+        keyPassages: ['8:1-9', '9:6-15']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Christ is the image of God who has shone in our hearts', passages: ['4:4-6'] },
+      { type: 'direct', description: 'Christ became poor for our sake', passages: ['8:9'] },
+      { type: 'theme', description: 'God reconciles us through Christ', passages: ['5:18-21'] }
+    ],
+
+    keyVerses: [
+      { reference: '4:7', text: 'But we have this treasure in jars of clay, to show that the surpassing power belongs to God and not to us.', significance: 'The nature of gospel ministry.' },
+      { reference: '5:17', text: 'Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.', significance: 'The transforming power of union with Christ.' },
+      { reference: '5:21', text: 'For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.', significance: 'The great exchange—imputation.' },
+      { reference: '12:9', text: 'My grace is sufficient for you, for my power is made perfect in weakness.', significance: 'The paradox of Christian strength.' }
+    ],
+
+    practicalApplications: [
+      'Embrace weakness as the context for God\'s power.',
+      'Be an ambassador for Christ, pleading with others to be reconciled to God.',
+      'Give generously, trusting that God loves a cheerful giver.',
+      'Comfort others with the comfort you have received from God.',
+      'Examine yourself to see whether you are in the faith.'
+    ],
+
+    studyQuestions: [
+      'How does Paul\'s suffering qualify rather than disqualify his ministry?',
+      'What is the "ministry of reconciliation" and how do we practice it?',
+      'How does Paul\'s collection for Jerusalem model Christian generosity?',
+      'Why does Paul "boast in his weaknesses"?',
+      'How do chapters 10-13 help us identify false teachers?'
+    ]
+  },
+  {
+    id: 'galatians',
+    name: 'Galatians',
+    abbreviation: 'Gal',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 48,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 48-55',
+    originalAudience: 'Churches in the region of Galatia',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
+
+    overview: `Galatians is Paul's passionate defense of the gospel of grace against those who would add works of the law to faith in Christ. False teachers were troubling the Galatian churches, insisting that Gentile believers must be circumcised and keep the Mosaic law. Paul responds with a forceful letter that has been called the "Magna Carta of Christian liberty."
+
+The first two chapters establish Paul's apostolic authority and the divine origin of his gospel—he received it by revelation, not from men. Chapters 3-4 make the theological case: Abraham was justified by faith, the law cannot save, and believers are children of promise. The final section (5-6) shows how freedom in Christ leads not to license but to Spirit-empowered love.
+
+Galatians shaped the Reformation's rediscovery of justification by faith alone. Luther called it his "Katie von Bora"—his wife, his favorite. The letter remains essential for understanding the relationship between law and gospel, faith and works.`,
+
+    purpose: `Paul wrote to defend the true gospel against Judaizers who were adding circumcision and law-keeping to faith, to establish his apostolic authority, and to show that freedom in Christ produces genuine godliness through the Spirit.`,
+
+    outline: [
+      { section: 'Introduction', chapters: '1:1-10', summary: 'No other gospel; astonishment at defection.' },
+      { section: 'Paul\'s Authority', chapters: '1:11-2:21', summary: 'Paul\'s calling and gospel received by revelation.' },
+      { section: 'Faith vs. Works', chapters: '3:1-4:31', summary: 'Abraham\'s faith; the law\'s purpose; heirs of promise.' },
+      { section: 'Life in Freedom', chapters: '5:1-6:10', summary: 'Stand firm; walk by the Spirit; fruit of the Spirit.' },
+      { section: 'Conclusion', chapters: '6:11-18', summary: 'Final warning; boasting in the cross.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Justification by Faith Alone',
+        description: 'A person is justified not by works of the law but through faith in Jesus Christ. Adding works to faith perverts the gospel.',
+        keyPassages: ['2:15-16', '3:6-14', '3:24-26']
+      },
+      {
+        theme: 'Freedom in Christ',
+        description: 'Christ set us free from slavery to the law. This freedom is not license for sin but liberty to love.',
+        keyPassages: ['5:1', '5:13-14']
+      },
+      {
+        theme: 'Walking by the Spirit',
+        description: 'Those who belong to Christ live by the Spirit, producing the fruit of the Spirit rather than the works of the flesh.',
+        keyPassages: ['5:16-26']
+      },
+      {
+        theme: 'The Cross as Our Boast',
+        description: 'Paul boasts only in the cross, by which the world is crucified to him and he to the world.',
+        keyPassages: ['6:14']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Christ redeemed us from the curse of the law', passages: ['3:13-14'] },
+      { type: 'direct', description: 'Paul is crucified with Christ; Christ lives in him', passages: ['2:20'] },
+      { type: 'theme', description: 'Christ sets us free for freedom', passages: ['5:1'] }
+    ],
+
+    keyVerses: [
+      { reference: '2:16', text: 'We know that a person is not justified by works of the law but through faith in Jesus Christ.', significance: 'The heart of the Reformation.' },
+      { reference: '2:20', text: 'I have been crucified with Christ. It is no longer I who live, but Christ who lives in me.', significance: 'Union with Christ in His death and life.' },
+      { reference: '3:28', text: 'There is neither Jew nor Greek, there is neither slave nor free, there is no male and female, for you are all one in Christ Jesus.', significance: 'Unity in Christ transcending social divisions.' },
+      { reference: '5:22-23', text: 'But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control.', significance: 'The character produced by the Spirit.' }
+    ],
+
+    practicalApplications: [
+      'Rest in justification by faith, not adding works to grace.',
+      'Stand firm in freedom; do not submit again to a yoke of slavery.',
+      'Walk by the Spirit, putting to death the works of the flesh.',
+      'Bear one another\'s burdens, fulfilling the law of Christ.',
+      'Boast only in the cross of Christ.'
+    ],
+
+    studyQuestions: [
+      'Why was Paul so astonished and harsh in his opening (1:6-9)?',
+      'How does Paul use Abraham to prove justification by faith?',
+      'What was the purpose of the law if it cannot justify?',
+      'How does freedom in Christ differ from license to sin?',
+      'What is the relationship between the Spirit and the fruit of the Spirit?'
+    ]
+  },
+  {
+    id: 'ephesians',
+    name: 'Ephesians',
+    abbreviation: 'Eph',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 49,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 60-62',
+    originalAudience: 'The church at Ephesus (possibly a circular letter)',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
+
+    overview: `Ephesians presents the most exalted vision of the church in the New Testament. Paul writes from prison about God's eternal purpose to unite all things in Christ—Jews and Gentiles, heaven and earth. The letter moves from the heights of theology to the depths of practical application.
+
+The first three chapters unfold God's plan of salvation: election, redemption, resurrection with Christ, and the creation of one new humanity from Jew and Gentile. Paul prays that believers would grasp the vastness of Christ's love. The final three chapters show how this theology transforms relationships—in the church, in marriage, in family, at work, and in spiritual warfare.
+
+Ephesians has been called the "Alps of the New Testament" for its lofty themes. Union with Christ, adoption as God's children, the mystery of the church, the household code, and the armor of God—each theme has shaped Christian theology and devotion for centuries.`,
+
+    purpose: `Paul wrote to explain God's eternal purpose in Christ, to show how the gospel creates one new humanity, and to instruct believers in living out their identity in Christ in every relationship.`,
+
+    outline: [
+      { section: 'Spiritual Blessings', chapters: '1:1-14', summary: 'Praise for election, redemption, and sealing.' },
+      { section: 'Prayer for Revelation', chapters: '1:15-23', summary: 'Paul prays for wisdom and knowledge of God.' },
+      { section: 'Grace and Unity', chapters: '2:1-22', summary: 'Dead in sin, alive in Christ; one new humanity.' },
+      { section: 'The Mystery Revealed', chapters: '3:1-21', summary: 'Gentiles are fellow heirs; prayer for love and fullness.' },
+      { section: 'Walk Worthy', chapters: '4:1-6:9', summary: 'Unity, new self, household relationships.' },
+      { section: 'Spiritual Warfare', chapters: '6:10-24', summary: 'The armor of God; final greetings.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Union with Christ',
+        description: 'Believers are "in Christ"—chosen, redeemed, sealed, raised, and seated with Him. Every spiritual blessing flows from this union.',
+        keyPassages: ['1:3-14', '2:4-7']
+      },
+      {
+        theme: 'The Church as Christ\'s Body',
+        description: 'The church is Christ\'s body, the fullness of Him who fills all in all. Jews and Gentiles form one new humanity.',
+        keyPassages: ['1:22-23', '2:14-16', '4:4-6']
+      },
+      {
+        theme: 'Grace and Works',
+        description: 'Salvation is by grace through faith, not works—yet believers are created for good works prepared beforehand.',
+        keyPassages: ['2:8-10']
+      },
+      {
+        theme: 'The New Self',
+        description: 'Believers have put off the old self and put on the new self, created after God\'s likeness in true righteousness and holiness.',
+        keyPassages: ['4:17-24']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'All spiritual blessings are in Christ', passages: ['1:3-14'] },
+      { type: 'direct', description: 'Christ is head over all things for the church', passages: ['1:22-23'] },
+      { type: 'theme', description: 'Christ\'s love for the church as model for marriage', passages: ['5:25-27'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:3', text: 'Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places.', significance: 'The source of all blessing.' },
+      { reference: '2:8-9', text: 'For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.', significance: 'The classic statement of salvation by grace.' },
+      { reference: '4:4-6', text: 'There is one body and one Spirit... one Lord, one faith, one baptism, one God and Father of all.', significance: 'The sevenfold unity of the church.' },
+      { reference: '6:12', text: 'For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness.', significance: 'The reality of spiritual warfare.' }
+    ],
+
+    practicalApplications: [
+      'Live in the reality of your identity in Christ.',
+      'Maintain the unity of the Spirit in the bond of peace.',
+      'Put off the old self and put on the new self daily.',
+      'Submit to one another out of reverence for Christ.',
+      'Put on the whole armor of God for spiritual battle.'
+    ],
+
+    studyQuestions: [
+      'What does it mean to be "in Christ" and how does this shape identity?',
+      'How does Ephesians 2:11-22 describe the unity of Jew and Gentile?',
+      'What is the relationship between indicative (who we are) and imperative (how we should live)?',
+      'How does the household code (5:21-6:9) reflect gospel realities?',
+      'What is the armor of God and how do we "put it on"?'
+    ]
+  },
+  {
+    id: 'philippians',
+    name: 'Philippians',
+    abbreviation: 'Phil',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 50,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 60-62',
+    originalAudience: 'The church at Philippi',
+    literaryGenre: ['epistle'],
+    difficulty: 'easy',
+
+    overview: `Philippians is Paul's letter of joy from prison. Written to his beloved friends at Philippi—the first church planted in Europe—the letter overflows with thanksgiving, affection, and encouragement. Despite his chains, Paul rejoices in Christ and calls the Philippians to do the same.
+
+The letter's structure follows Paul's relationship with this church: thanksgiving for their partnership in the gospel, news about his circumstances, exhortation to unity and humility (with the magnificent Christ hymn in chapter 2), and gratitude for their financial gift. Throughout, joy and rejoicing appear repeatedly.
+
+The Christ hymn of 2:5-11 is one of the most important Christological passages in Scripture, describing Christ's preexistent glory, humble incarnation, obedient death, and exaltation as Lord. This pattern of humiliation and exaltation becomes the model for Christian living.`,
+
+    purpose: `Paul wrote to thank the Philippians for their gift, to update them on his situation, to encourage unity and humility, and to urge them to rejoice in the Lord regardless of circumstances.`,
+
+    outline: [
+      { section: 'Thanksgiving and Prayer', chapters: '1:1-11', summary: 'Paul\'s gratitude and prayer for the Philippians.' },
+      { section: 'Paul\'s Circumstances', chapters: '1:12-26', summary: 'Imprisonment advances the gospel; to live is Christ.' },
+      { section: 'Exhortations to Unity', chapters: '1:27-2:18', summary: 'Stand firm; have the mind of Christ.' },
+      { section: 'Timothy and Epaphroditus', chapters: '2:19-30', summary: 'Commendation of faithful servants.' },
+      { section: 'Righteousness in Christ', chapters: '3:1-21', summary: 'Paul\'s testimony; pressing toward the goal.' },
+      { section: 'Joy and Peace', chapters: '4:1-23', summary: 'Rejoice always; anxiety and contentment; thanksgiving.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Joy in Christ',
+        description: 'Joy is possible regardless of circumstances because it is rooted in Christ, not in conditions. "Rejoice in the Lord always."',
+        keyPassages: ['1:4', '2:17-18', '3:1', '4:4']
+      },
+      {
+        theme: 'The Mind of Christ',
+        description: 'Christ humbled Himself, taking the form of a servant and dying on the cross. Believers are to have this same humble mindset.',
+        keyPassages: ['2:3-11']
+      },
+      {
+        theme: 'Gospel Partnership',
+        description: 'The Philippians partnered with Paul in the gospel from the beginning. Ministry is a team effort, sharing in giving and receiving.',
+        keyPassages: ['1:5', '4:14-18']
+      },
+      {
+        theme: 'Contentment',
+        description: 'Paul has learned to be content in all circumstances. He can do all things through Christ who strengthens him.',
+        keyPassages: ['4:11-13']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'The Christ hymn describes His incarnation, death, and exaltation', passages: ['2:5-11'] },
+      { type: 'direct', description: 'To live is Christ and to die is gain', passages: ['1:21'] },
+      { type: 'theme', description: 'Knowing Christ surpasses all things', passages: ['3:7-11'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:21', text: 'For to me to live is Christ, and to die is gain.', significance: 'Paul\'s life purpose and hope.' },
+      { reference: '2:5-8', text: 'Have this mind among yourselves, which is yours in Christ Jesus, who... emptied himself, by taking the form of a servant.', significance: 'The example of Christ\'s humility.' },
+      { reference: '3:8', text: 'Indeed, I count everything as loss because of the surpassing worth of knowing Christ Jesus my Lord.', significance: 'The supreme value of knowing Christ.' },
+      { reference: '4:6-7', text: 'Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God.', significance: 'The antidote to anxiety.' },
+      { reference: '4:13', text: 'I can do all things through him who strengthens me.', significance: 'Christ-empowered contentment.' }
+    ],
+
+    practicalApplications: [
+      'Rejoice in the Lord always, regardless of circumstances.',
+      'Have the humble, self-giving mind of Christ.',
+      'Count knowing Christ as surpassing all other gains.',
+      'Replace anxiety with prayer and thanksgiving.',
+      'Learn contentment through Christ\'s strength.'
+    ],
+
+    studyQuestions: [
+      'How can Paul rejoice while in prison?',
+      'What does the Christ hymn (2:5-11) teach about Jesus\' identity and work?',
+      'What had Paul lost and what had he gained (chapter 3)?',
+      'What is the relationship between prayer and peace in 4:6-7?',
+      'What does "I can do all things" mean in context?'
+    ]
+  },
+  {
+    id: 'colossians',
+    name: 'Colossians',
+    abbreviation: 'Col',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 51,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 60-62',
+    originalAudience: 'The church at Colossae',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
+
+    overview: `Colossians presents Christ as supreme over all creation and sufficient for all of life. Paul writes to combat false teaching that was diminishing Christ's uniqueness and adding human requirements to the gospel. His response is a glorious declaration of who Christ is and what He has accomplished.
+
+The first two chapters establish Christ's supremacy: He is the image of God, firstborn over creation, head of the church, and the fullness of deity in bodily form. In Him all things hold together, and in Him believers have been made complete. The final two chapters apply this theology to practical living—putting off the old self, putting on the new, and living transformed lives.
+
+The "Colossian heresy" combined Jewish legalism, philosophical speculation, and mystical practices. Paul's antidote is not a competing philosophy but the all-sufficient Christ. When we have Christ, we have everything.`,
+
+    purpose: `Paul wrote to refute false teaching that added to Christ, to proclaim Christ's absolute supremacy and sufficiency, and to show how this theology transforms daily living in relationships and community.`,
+
+    outline: [
+      { section: 'Thanksgiving and Prayer', chapters: '1:1-14', summary: 'Gratitude for faith; prayer for knowledge and fruitfulness.' },
+      { section: 'The Supremacy of Christ', chapters: '1:15-23', summary: 'Christ as Creator, Sustainer, and Reconciler.' },
+      { section: 'Paul\'s Ministry', chapters: '1:24-2:5', summary: 'Suffering for the church; the mystery of Christ.' },
+      { section: 'Fullness in Christ', chapters: '2:6-23', summary: 'Complete in Christ; freedom from human regulations.' },
+      { section: 'The New Life', chapters: '3:1-4:6', summary: 'Raised with Christ; put off/put on; household code.' },
+      { section: 'Conclusion', chapters: '4:7-18', summary: 'Commendations and greetings.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'The Supremacy of Christ',
+        description: 'Christ is the image of God, creator and sustainer of all, head of the church. In Him the fullness of deity dwells bodily.',
+        keyPassages: ['1:15-20', '2:9-10']
+      },
+      {
+        theme: 'Sufficiency of Christ',
+        description: 'Believers are complete in Christ. No philosophy, ritual, or experience can add to what we have in Him.',
+        keyPassages: ['2:8-10', '2:16-23']
+      },
+      {
+        theme: 'The New Self',
+        description: 'Raised with Christ, believers are to put off the old self and put on the new self, renewed in knowledge after God\'s image.',
+        keyPassages: ['3:1-11']
+      },
+      {
+        theme: 'Christ in You',
+        description: 'The mystery hidden for ages is "Christ in you, the hope of glory." This indwelling Christ is the source of transformation.',
+        keyPassages: ['1:27']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Christ is the image of God, firstborn of all creation', passages: ['1:15-17'] },
+      { type: 'direct', description: 'In Christ all the fullness of deity dwells bodily', passages: ['2:9'] },
+      { type: 'theme', description: 'Christ is our life', passages: ['3:3-4'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:15-17', text: 'He is the image of the invisible God, the firstborn of all creation. For by him all things were created... He is before all things, and in him all things hold together.', significance: 'The magnificent Christology.' },
+      { reference: '1:27', text: 'To them God chose to make known how great among the Gentiles are the riches of the glory of this mystery, which is Christ in you, the hope of glory.', significance: 'The heart of the mystery.' },
+      { reference: '2:9-10', text: 'For in him the whole fullness of deity dwells bodily, and you have been filled in him.', significance: 'Christ\'s deity and our completeness in Him.' },
+      { reference: '3:1-2', text: 'If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God.', significance: 'The foundation for Christian living.' }
+    ],
+
+    practicalApplications: [
+      'Treasure Christ as supremely sufficient—don\'t add to Him.',
+      'Set your mind on things above, not on earthly things.',
+      'Put off the old self with its practices; put on the new self.',
+      'Let the word of Christ dwell in you richly.',
+      'Do everything in the name of the Lord Jesus, with thanksgiving.'
+    ],
+
+    studyQuestions: [
+      'What does Colossians 1:15-20 teach about Christ\'s person and work?',
+      'What was the "Colossian heresy" and how does Paul refute it?',
+      'What does it mean to be "complete" or "filled" in Christ?',
+      'How does our union with Christ in death and resurrection shape daily living?',
+      'What is the relationship between doctrine (chs. 1-2) and ethics (chs. 3-4)?'
+    ]
+  },
+  {
+    id: '1-thessalonians',
+    name: '1 Thessalonians',
+    abbreviation: '1 Thess',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 52,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 50-51',
+    originalAudience: 'The church at Thessalonica',
+    literaryGenre: ['epistle'],
+    difficulty: 'easy',
+
+    overview: `First Thessalonians is likely Paul's earliest letter, written to a young church facing persecution. Paul had been forced to leave Thessalonica suddenly, and he writes to encourage the believers, to defend his ministry, and to answer questions about the Lord's return.
+
+The first three chapters reflect on Paul's relationship with the Thessalonians—his ministry among them, his concern for them, and his joy at Timothy's report of their faith. The final two chapters address practical matters: sexual purity, brotherly love, work, and especially the coming of the Lord. Paul comforts those grieving for believers who have died.
+
+The letter emphasizes the second coming of Christ, which appears in every chapter. This hope is not meant for speculation but for comfort and motivation to holy living. The Thessalonians are to live in light of Christ's return.`,
+
+    purpose: `Paul wrote to encourage persecuted believers, to defend his ministry and motives, to urge holy living, and to comfort those who were concerned about believers who had died before Christ's return.`,
+
+    outline: [
+      { section: 'Thanksgiving', chapters: '1:1-10', summary: 'Gratitude for the Thessalonians\' faith, love, and hope.' },
+      { section: 'Paul\'s Ministry Defended', chapters: '2:1-16', summary: 'Paul\'s pure motives and conduct.' },
+      { section: 'Paul\'s Concern', chapters: '2:17-3:13', summary: 'Timothy sent; joy at their faith; prayer.' },
+      { section: 'Holy Living', chapters: '4:1-12', summary: 'Sexual purity; brotherly love; work.' },
+      { section: 'The Coming of the Lord', chapters: '4:13-5:11', summary: 'The dead in Christ; the Day of the Lord.' },
+      { section: 'Final Instructions', chapters: '5:12-28', summary: 'Church life; closing prayer.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'The Second Coming',
+        description: 'Christ will return, the dead in Christ will rise, and believers will be with the Lord forever. This hope comforts and motivates.',
+        keyPassages: ['1:10', '4:13-18', '5:1-11']
+      },
+      {
+        theme: 'Faith, Love, Hope',
+        description: 'The triad appears repeatedly: work of faith, labor of love, steadfastness of hope. These mark authentic Christian life.',
+        keyPassages: ['1:3', '5:8']
+      },
+      {
+        theme: 'Sanctification',
+        description: 'God\'s will is your sanctification—particularly in the area of sexual purity. Believers are called to be holy.',
+        keyPassages: ['4:3-8']
+      },
+      {
+        theme: 'Authentic Ministry',
+        description: 'Paul\'s ministry was marked by pure motives, gentleness, hard work, and love—a model for gospel ministry.',
+        keyPassages: ['2:1-12']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Jesus rescues us from the coming wrath', passages: ['1:10'] },
+      { type: 'direct', description: 'The Lord Himself will descend from heaven', passages: ['4:16-17'] },
+      { type: 'theme', description: 'God has destined us for salvation through our Lord Jesus Christ', passages: ['5:9-10'] }
+    ],
+
+    keyVerses: [
+      { reference: '4:3', text: 'For this is the will of God, your sanctification.', significance: 'God\'s central will for believers.' },
+      { reference: '4:16-17', text: 'For the Lord himself will descend from heaven with a cry of command... and the dead in Christ will rise first. Then we who are alive... will be caught up together with them.', significance: 'The hope of the rapture.' },
+      { reference: '5:16-18', text: 'Rejoice always, pray without ceasing, give thanks in all circumstances; for this is the will of God in Christ Jesus for you.', significance: 'The pattern of Christian living.' }
+    ],
+
+    practicalApplications: [
+      'Live in light of Christ\'s return—it could be any day.',
+      'Pursue sanctification, especially in sexual purity.',
+      'Comfort those who grieve with the hope of resurrection.',
+      'Rejoice, pray, and give thanks continually.',
+      'Work with your hands and mind your own affairs.'
+    ],
+
+    studyQuestions: [
+      'What characterized the Thessalonians\' conversion (1:9-10)?',
+      'How does Paul describe authentic gospel ministry (chapter 2)?',
+      'What comfort does Paul give about believers who have died?',
+      'What does Paul teach about the timing of the Lord\'s return?',
+      'How should the hope of Christ\'s return affect daily living?'
+    ]
+  },
+  {
+    id: '2-thessalonians',
+    name: '2 Thessalonians',
+    abbreviation: '2 Thess',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 53,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 51-52',
+    originalAudience: 'The church at Thessalonica',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
+
+    overview: `Second Thessalonians continues Paul's instruction about the Lord's return. Some Thessalonians had become confused, believing the Day of the Lord had already come. Others had stopped working, perhaps in misguided expectation of the imminent return. Paul writes to correct both errors.
+
+The letter opens with thanksgiving for their faith and assurance that God will repay their persecutors. Chapter 2 corrects the misunderstanding about the Day of the Lord—it cannot come until the "man of lawlessness" is revealed. Chapter 3 addresses the idle, commanding them to work and warning against those who disobey.
+
+Second Thessalonians balances eschatological expectation with present responsibility. Believers are to stand firm in the traditions received from the apostles and to work diligently, neither obsessing over timing nor growing lazy in waiting.`,
+
+    purpose: `Paul wrote to correct confusion about the Day of the Lord, to assure believers that their persecutors would face judgment, and to command the idle to return to work.`,
+
+    outline: [
+      { section: 'Thanksgiving and Judgment', chapters: '1:1-12', summary: 'Gratitude for their faith; assurance of divine justice.' },
+      { section: 'The Day of the Lord', chapters: '2:1-12', summary: 'The man of lawlessness must come first.' },
+      { section: 'Stand Firm', chapters: '2:13-17', summary: 'Chosen for salvation; hold to the traditions.' },
+      { section: 'Request for Prayer', chapters: '3:1-5', summary: 'Pray for the word to spread.' },
+      { section: 'Warning Against Idleness', chapters: '3:6-15', summary: 'Work or don\'t eat; avoid the idle.' },
+      { section: 'Conclusion', chapters: '3:16-18', summary: 'Benediction in Paul\'s own hand.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'The Day of the Lord',
+        description: 'The Day has not yet come. Certain events must precede it, including the revelation of the man of lawlessness.',
+        keyPassages: ['2:1-12']
+      },
+      {
+        theme: 'Divine Justice',
+        description: 'God will repay affliction to those who persecute believers. Present suffering will give way to future glory.',
+        keyPassages: ['1:5-10']
+      },
+      {
+        theme: 'Apostolic Tradition',
+        description: 'Believers are to stand firm and hold to the traditions taught by the apostles, whether by word or letter.',
+        keyPassages: ['2:15', '3:6']
+      },
+      {
+        theme: 'The Dignity of Work',
+        description: 'Those who refuse to work should not eat. Idleness is not spiritual but disobedient.',
+        keyPassages: ['3:6-12']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Jesus will be revealed from heaven in flaming fire', passages: ['1:7-10'] },
+      { type: 'direct', description: 'The Lord Jesus will destroy the lawless one', passages: ['2:8'] },
+      { type: 'theme', description: 'God loved us and gave eternal comfort through grace', passages: ['2:16'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:7-8', text: 'When the Lord Jesus is revealed from heaven with his mighty angels in flaming fire, inflicting vengeance on those who do not know God.', significance: 'The certainty of divine judgment.' },
+      { reference: '2:3', text: 'Let no one deceive you in any way. For that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed.', significance: 'Events preceding the Day.' },
+      { reference: '3:10', text: 'If anyone is not willing to work, let him not eat.', significance: 'The command against idleness.' }
+    ],
+
+    practicalApplications: [
+      'Trust that God will bring justice; vengeance belongs to Him.',
+      'Don\'t be unsettled by claims that the Day has already come.',
+      'Stand firm in the apostolic teaching.',
+      'Work diligently; don\'t be idle.',
+      'Do not grow weary in doing good.'
+    ],
+
+    studyQuestions: [
+      'How does Paul encourage persecuted believers in chapter 1?',
+      'Who is the "man of lawlessness" and what is his role?',
+      'What does it mean to "hold to the traditions" (2:15)?',
+      'Why were some Thessalonians refusing to work?',
+      'How should believers balance readiness for Christ\'s return with faithful work?'
+    ]
+  },
+  {
+    id: '1-timothy',
+    name: '1 Timothy',
+    abbreviation: '1 Tim',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 54,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 62-66',
+    originalAudience: 'Timothy, Paul\'s delegate in Ephesus',
+    literaryGenre: ['epistle', 'pastoral letter'],
+    difficulty: 'easy',
+
+    overview: `First Timothy is one of the Pastoral Epistles, letters from Paul to his trusted delegates about church leadership and doctrine. Timothy is in Ephesus facing false teachers and a church needing order. Paul writes to instruct him in how to lead and organize the congregation.
+
+The letter addresses qualifications for elders and deacons, the conduct of men and women in worship, care for widows, and handling of wealth. Woven throughout is the concern for "sound doctrine" versus the speculative teaching of opponents. Paul charges Timothy to guard the gospel and to be an example to the believers.
+
+First Timothy remains essential for understanding biblical church polity and pastoral ministry. The qualifications for leaders, the structure of church life, and the relationship between doctrine and practice all find clear expression here.`,
+
+    purpose: `Paul wrote to instruct Timothy in combating false teaching, to provide guidelines for church order and leadership, and to encourage Timothy in his pastoral ministry.`,
+
+    outline: [
+      { section: 'Introduction', chapters: '1:1-20', summary: 'Greeting; warning against false teachers; Paul\'s testimony.' },
+      { section: 'Worship Instructions', chapters: '2:1-15', summary: 'Prayer for all; men and women in worship.' },
+      { section: 'Leadership Qualifications', chapters: '3:1-16', summary: 'Overseers and deacons; the mystery of godliness.' },
+      { section: 'False Teaching', chapters: '4:1-16', summary: 'Deceivers in later times; Timothy\'s example.' },
+      { section: 'Various Groups', chapters: '5:1-6:2', summary: 'Elders, widows, slaves.' },
+      { section: 'Final Charges', chapters: '6:3-21', summary: 'Contentment; the good fight; guarding the deposit.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Sound Doctrine',
+        description: 'The faith once delivered must be guarded and taught accurately. False teaching leads to ungodliness; sound teaching leads to godly living.',
+        keyPassages: ['1:3-11', '4:6-7', '6:3-5']
+      },
+      {
+        theme: 'Church Order',
+        description: 'The church is the household of God and must be ordered properly. Qualifications for leaders ensure godly oversight.',
+        keyPassages: ['3:1-13', '3:15']
+      },
+      {
+        theme: 'Godliness',
+        description: 'Godliness with contentment is great gain. The gospel produces godly character; false teaching produces disputes.',
+        keyPassages: ['4:7-8', '6:6-10']
+      },
+      {
+        theme: 'Example in Ministry',
+        description: 'Timothy is to be an example in speech, conduct, love, faith, and purity. Leaders lead by example.',
+        keyPassages: ['4:12-16']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Christ Jesus came into the world to save sinners', passages: ['1:15'] },
+      { type: 'direct', description: 'The mystery of godliness: He was manifested in the flesh', passages: ['3:16'] },
+      { type: 'theme', description: 'One mediator between God and men, the man Christ Jesus', passages: ['2:5-6'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:15', text: 'Christ Jesus came into the world to save sinners, of whom I am the foremost.', significance: 'The core gospel message.' },
+      { reference: '2:5', text: 'For there is one God, and there is one mediator between God and men, the man Christ Jesus.', significance: 'Christ\'s unique mediatorial role.' },
+      { reference: '3:15', text: 'The church of the living God, a pillar and buttress of the truth.', significance: 'The church\'s role in guarding truth.' },
+      { reference: '4:12', text: 'Let no one despise you for your youth, but set the believers an example in speech, in conduct, in love, in faith, in purity.', significance: 'The call to exemplary leadership.' },
+      { reference: '6:12', text: 'Fight the good fight of the faith.', significance: 'The active nature of Christian living.' }
+    ],
+
+    practicalApplications: [
+      'Guard sound doctrine and reject speculative teaching.',
+      'Pray for all people, including those in authority.',
+      'Pursue godliness with contentment.',
+      'Be an example to others in speech and conduct.',
+      'Fight the good fight of faith; guard what has been entrusted.'
+    ],
+
+    studyQuestions: [
+      'What false teaching was Timothy facing, and how should he respond?',
+      'What are the qualifications for overseers and deacons?',
+      'What does Paul mean by "the household of God" (3:15)?',
+      'How is Timothy to be an "example" (4:12)?',
+      'What is Paul\'s teaching on wealth and contentment (6:6-19)?'
+    ]
+  },
+  {
+    id: '2-timothy',
+    name: '2 Timothy',
+    abbreviation: '2 Tim',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 55,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 66-67',
+    originalAudience: 'Timothy',
+    literaryGenre: ['epistle', 'pastoral letter'],
+    difficulty: 'easy',
+
+    overview: `Second Timothy is Paul's final letter, written as he faces execution in Rome. It is deeply personal and poignant—Paul's last words to his beloved son in the faith. He urges Timothy to endure suffering, to guard the gospel, and to preach the word.
+
+The letter is marked by warmth and urgency. Paul reflects on his own faithfulness despite being abandoned by many. He charges Timothy to be strong, to endure as a good soldier, and to handle the word of truth correctly. The famous passage on Scripture's inspiration (3:16-17) comes in this context of passing on the faith.
+
+Second Timothy is a testament to faithful ministry. Paul has finished the race and kept the faith; now Timothy must carry on. The gospel must be entrusted to faithful men who will teach others also.`,
+
+    purpose: `Paul wrote to summon Timothy to Rome, to encourage him to persevere in the face of opposition, to urge faithfulness to the gospel, and to pass on final charges before his death.`,
+
+    outline: [
+      { section: 'Greeting and Thanksgiving', chapters: '1:1-7', summary: 'Paul\'s love for Timothy; the gift within him.' },
+      { section: 'Suffering for the Gospel', chapters: '1:8-18', summary: 'Don\'t be ashamed; guard the deposit.' },
+      { section: 'Endurance in Ministry', chapters: '2:1-26', summary: 'Soldier, athlete, farmer; rightly handling the word.' },
+      { section: 'Last Days', chapters: '3:1-17', summary: 'Difficult times; continue in Scripture.' },
+      { section: 'Charge to Timothy', chapters: '4:1-8', summary: 'Preach the word; Paul\'s testimony.' },
+      { section: 'Final Words', chapters: '4:9-22', summary: 'Personal requests; greetings; benediction.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Endurance',
+        description: 'Timothy must share in suffering as a good soldier. Endurance in hardship is essential to faithful ministry.',
+        keyPassages: ['1:8', '2:3-6', '4:5']
+      },
+      {
+        theme: 'Guarding the Gospel',
+        description: 'The pattern of sound words must be guarded and passed on to faithful men. The deposit is precious.',
+        keyPassages: ['1:13-14', '2:2']
+      },
+      {
+        theme: 'Scripture',
+        description: 'All Scripture is breathed out by God and profitable. It makes one wise for salvation and complete for every good work.',
+        keyPassages: ['3:14-17']
+      },
+      {
+        theme: 'Finishing Well',
+        description: 'Paul has fought the good fight and kept the faith. A crown awaits. This is the model for all believers.',
+        keyPassages: ['4:6-8']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Remember Jesus Christ, risen from the dead', passages: ['2:8'] },
+      { type: 'direct', description: 'Christ Jesus abolished death and brought life through the gospel', passages: ['1:10'] },
+      { type: 'theme', description: 'The Lord will rescue me for His heavenly kingdom', passages: ['4:18'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:7', text: 'God gave us a spirit not of fear but of power and love and self-control.', significance: 'The spirit God gives His servants.' },
+      { reference: '2:15', text: 'Do your best to present yourself to God as one approved, a worker who has no need to be ashamed, rightly handling the word of truth.', significance: 'The standard for Bible handling.' },
+      { reference: '3:16-17', text: 'All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness.', significance: 'The inspiration and sufficiency of Scripture.' },
+      { reference: '4:7-8', text: 'I have fought the good fight, I have finished the race, I have kept the faith. Henceforth there is laid up for me the crown of righteousness.', significance: 'Paul\'s finishing testimony.' }
+    ],
+
+    practicalApplications: [
+      'Do not be ashamed of the gospel; suffer for it if necessary.',
+      'Entrust what you have learned to faithful people.',
+      'Study Scripture diligently as a skilled workman.',
+      'Preach the word in season and out of season.',
+      'Finish the race and keep the faith.'
+    ],
+
+    studyQuestions: [
+      'What does Paul mean by "guard the good deposit" (1:14)?',
+      'What illustrations does Paul use for ministry in chapter 2?',
+      'What does 2 Timothy 3:16-17 teach about Scripture?',
+      'What is Paul\'s charge to Timothy in 4:1-5?',
+      'How does Paul face his impending death (4:6-8)?'
+    ]
+  },
+  {
+    id: 'titus',
+    name: 'Titus',
+    abbreviation: 'Titus',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 56,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 62-66',
+    originalAudience: 'Titus, Paul\'s delegate in Crete',
+    literaryGenre: ['epistle', 'pastoral letter'],
+    difficulty: 'easy',
+
+    overview: `Titus is the third Pastoral Epistle, written to Paul's Gentile co-worker left on the island of Crete to set things in order. Like 1 Timothy, it addresses church organization and the relationship between sound doctrine and godly living.
+
+The letter is remarkably structured around three theological "faithful sayings" that ground practical instruction. Titus is to appoint elders who hold firm to sound doctrine, rebuke false teachers, and teach different groups how to live. The theological centerpiece (2:11-14; 3:4-7) shows how grace teaches godliness.
+
+Titus emphasizes that the gospel transforms behavior. False teaching produces ungodliness; sound doctrine produces good works. Grace is not permissive but transformative, training us to renounce ungodliness and live self-controlled, upright, godly lives.`,
+
+    purpose: `Paul wrote to instruct Titus in appointing qualified elders, refuting false teachers, and teaching believers to live godly lives that adorn the doctrine of God our Savior.`,
+
+    outline: [
+      { section: 'Greeting', chapters: '1:1-4', summary: 'Paul to Titus: faith, truth, godliness.' },
+      { section: 'Elders in Crete', chapters: '1:5-16', summary: 'Qualifications; rebuking false teachers.' },
+      { section: 'Teaching Various Groups', chapters: '2:1-10', summary: 'Older men, women, young men, slaves.' },
+      { section: 'The Grace That Trains', chapters: '2:11-15', summary: 'Grace teaches godliness; awaiting Christ.' },
+      { section: 'Good Works', chapters: '3:1-11', summary: 'Submit to authorities; the washing of regeneration; avoid quarrels.' },
+      { section: 'Conclusion', chapters: '3:12-15', summary: 'Travel plans; greetings.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Sound Doctrine and Godly Living',
+        description: 'What one believes affects how one lives. Sound teaching produces godliness; false teaching produces ungodliness.',
+        keyPassages: ['1:1', '1:9-16', '2:1']
+      },
+      {
+        theme: 'The Grace That Trains',
+        description: 'God\'s grace appeared to save and to train us to live godly lives in the present age, awaiting Christ\'s return.',
+        keyPassages: ['2:11-14']
+      },
+      {
+        theme: 'Good Works',
+        description: 'Believers are to be devoted to good works. This is beautiful and profitable. Our lives should adorn the gospel.',
+        keyPassages: ['2:7', '2:14', '3:1', '3:8', '3:14']
+      },
+      {
+        theme: 'Regeneration',
+        description: 'Salvation is not by works but by God\'s mercy through the washing of regeneration and renewal by the Spirit.',
+        keyPassages: ['3:4-7']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Christ gave Himself to redeem and purify a people for His own possession', passages: ['2:14'] },
+      { type: 'direct', description: 'We await the appearing of the glory of our great God and Savior Jesus Christ', passages: ['2:13'] },
+      { type: 'theme', description: 'God our Savior saved us through Jesus Christ our Savior', passages: ['3:4-6'] }
+    ],
+
+    keyVerses: [
+      { reference: '2:11-12', text: 'For the grace of God has appeared, bringing salvation for all people, training us to renounce ungodliness and worldly passions.', significance: 'Grace as teacher.' },
+      { reference: '2:13', text: 'Waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ.', significance: 'The hope of Christ\'s return.' },
+      { reference: '3:5', text: 'He saved us, not because of works done by us in righteousness, but according to his own mercy, by the washing of regeneration and renewal of the Holy Spirit.', significance: 'Salvation by grace alone.' }
+    ],
+
+    practicalApplications: [
+      'Let your life adorn the doctrine of God our Savior.',
+      'Let grace train you to renounce ungodliness.',
+      'Be devoted to good works.',
+      'Avoid foolish controversies and divisive people.',
+      'Wait eagerly for Christ\'s appearing.'
+    ],
+
+    studyQuestions: [
+      'Why are elder qualifications so important for churches?',
+      'What does Paul mean that grace "trains" us (2:11-12)?',
+      'How does the gospel motivate good works (2:14; 3:8)?',
+      'What does Titus 3:5 teach about regeneration?',
+      'Why does Paul emphasize "good works" so often in this short letter?'
+    ]
+  },
+  {
+    id: 'philemon',
+    name: 'Philemon',
+    abbreviation: 'Phlm',
+    testament: 'new',
+    canonicalGroup: 'pauline',
+    order: 57,
+    author: 'Paul the Apostle',
+    dateWritten: 'c. AD 60-62',
+    originalAudience: 'Philemon, a believer in Colossae',
+    literaryGenre: ['epistle', 'personal letter'],
+    difficulty: 'easy',
+
+    overview: `Philemon is Paul's shortest letter—a personal appeal on behalf of Onesimus, a runaway slave who had become a Christian through Paul's ministry in prison. Paul sends him back to his master Philemon, asking that he be received not as a slave but as a beloved brother.
+
+The letter is a masterpiece of Christian persuasion. Paul does not command but appeals on the basis of love, the gospel, and Christian fellowship. He reminds Philemon that he owes Paul his very self. He offers to pay any debt Onesimus owes. And he expresses confidence that Philemon will do even more than asked.
+
+Philemon demonstrates the gospel's power to transform social relationships. In Christ there is neither slave nor free. This does not mean Paul immediately abolishes slavery, but he plants the seeds of its destruction by calling master and slave brothers.`,
+
+    purpose: `Paul wrote to persuade Philemon to receive Onesimus back—not just as a forgiven runaway slave but as a beloved brother in Christ—and to prepare for his own possible visit.`,
+
+    outline: [
+      { section: 'Greeting', chapters: '1-3', summary: 'Paul and Timothy to Philemon, Apphia, Archippus, and the church.' },
+      { section: 'Thanksgiving', chapters: '4-7', summary: 'Philemon\'s love and faith.' },
+      { section: 'Appeal for Onesimus', chapters: '8-21', summary: 'Receive him as a brother; Paul will repay.' },
+      { section: 'Conclusion', chapters: '22-25', summary: 'Request for lodging; greetings; benediction.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Reconciliation',
+        description: 'Onesimus and Philemon are to be reconciled as brothers. The gospel brings former enemies together.',
+        keyPassages: ['15-16']
+      },
+      {
+        theme: 'Brotherhood in Christ',
+        description: 'In Christ, social distinctions are transcended. A slave becomes a beloved brother, both to Paul and to his master.',
+        keyPassages: ['16']
+      },
+      {
+        theme: 'Christian Appeal',
+        description: 'Paul models gracious persuasion. He appeals on the basis of love rather than commanding by authority.',
+        keyPassages: ['8-10', '14']
+      },
+      {
+        theme: 'Usefulness',
+        description: 'Onesimus\'s name means "useful." Once useless, he is now useful—the gospel transforms people for service.',
+        keyPassages: ['11']
+      }
+    ],
+
+    christConnection: [
+      { type: 'theme', description: 'Paul\'s offer to pay Onesimus\'s debt mirrors Christ\'s imputation', passages: ['18-19'] },
+      { type: 'theme', description: 'Reconciliation between slave and master reflects the gospel\'s reconciling power', passages: ['15-16'] }
+    ],
+
+    keyVerses: [
+      { reference: '15-16', text: 'Perhaps this is why he was parted from you for a while, that you might have him back forever, no longer as a bondservant but more than a bondservant, as a beloved brother.', significance: 'The transformation of a relationship.' },
+      { reference: '18', text: 'If he has wronged you at all, or owes you anything, charge that to my account.', significance: 'Paul\'s offer of substitution.' }
+    ],
+
+    keyCharacters: [
+      { name: 'Paul', role: 'The apostle writing from prison' },
+      { name: 'Philemon', role: 'The slave owner; host of a church in Colossae' },
+      { name: 'Onesimus', role: 'Runaway slave converted through Paul' },
+      { name: 'Apphia', role: 'Possibly Philemon\'s wife' },
+      { name: 'Archippus', role: 'Possibly Philemon\'s son or a fellow minister' }
+    ],
+
+    practicalApplications: [
+      'Receive fellow believers as brothers and sisters regardless of background.',
+      'Let the gospel transform how you view social relationships.',
+      'Use gracious persuasion rather than heavy-handed authority.',
+      'Be willing to pay the cost of reconciliation.',
+      'See God\'s providence even in difficult circumstances.'
+    ],
+
+    studyQuestions: [
+      'Why does Paul appeal rather than command?',
+      'What does Paul mean by receiving Onesimus as "a beloved brother"?',
+      'How does Paul\'s offer to pay Onesimus\'s debt reflect the gospel?',
+      'What implications does this letter have for understanding slavery?',
+      'How does the gospel transform social relationships?'
+    ]
+  },
+
+  // ========================================
+  // GENERAL EPISTLES
+  // ========================================
+  {
+    id: 'hebrews',
+    name: 'Hebrews',
+    abbreviation: 'Heb',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 58,
+    author: 'Unknown',
+    authorNotes: 'Candidates include Paul, Barnabas, Apollos, or others; authorship debated since antiquity',
+    dateWritten: 'c. AD 60-69',
+    originalAudience: 'Jewish Christians tempted to return to Judaism',
+    literaryGenre: ['epistle', 'sermon', 'theological treatise'],
+    difficulty: 'hard',
+
+    overview: `Hebrews is a masterful exposition of Christ's supremacy and the superiority of the new covenant. Written to Jewish Christians facing persecution and tempted to return to Judaism, the letter demonstrates that Jesus is better than angels, Moses, Joshua, the Levitical priesthood, and the old covenant itself.
+
+The theological argument proceeds in stages. Christ is superior to angels (1-2) and to Moses and Joshua (3-4). He is a priest forever after the order of Melchizedek (5-7). His sacrifice establishes a better covenant based on better promises (8-10). The letter weaves exhortation with exposition, warning against falling away and urging faith and perseverance.
+
+Chapter 11 presents the famous "hall of faith," celebrating Old Testament believers who lived by faith. The book concludes with a call to endure, looking to Jesus, the founder and perfecter of our faith.`,
+
+    purpose: `The author wrote to prevent apostasy by demonstrating Christ's absolute supremacy, to explain how the old covenant finds its fulfillment in Christ, and to encourage perseverance in faith.`,
+
+    outline: [
+      { section: 'Christ Superior to Angels', chapters: '1:1-2:18', summary: 'The Son is greater than angels; the danger of neglecting salvation.' },
+      { section: 'Christ Superior to Moses and Joshua', chapters: '3:1-4:13', summary: 'Faithful over God\'s house; entering God\'s rest.' },
+      { section: 'Christ Our High Priest', chapters: '4:14-7:28', summary: 'Melchizedek priesthood; superior to Levitical.' },
+      { section: 'The New Covenant', chapters: '8:1-10:18', summary: 'Better covenant; once-for-all sacrifice.' },
+      { section: 'Faith and Endurance', chapters: '10:19-12:29', summary: 'Draw near; the hall of faith; run the race.' },
+      { section: 'Final Exhortations', chapters: '13:1-25', summary: 'Practical instructions; benediction.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Christ\'s Supremacy',
+        description: 'Jesus is superior to angels, prophets, Moses, Joshua, Aaron, and the entire old covenant system. He is the final revelation of God.',
+        keyPassages: ['1:1-4', '3:1-6', '7:22-28']
+      },
+      {
+        theme: 'Christ\'s Priesthood',
+        description: 'Jesus is our eternal high priest after the order of Melchizedek, offering Himself once for all as the perfect sacrifice.',
+        keyPassages: ['4:14-16', '7:23-28', '9:11-14']
+      },
+      {
+        theme: 'The New Covenant',
+        description: 'Christ mediates a new and better covenant, established on better promises, making the old obsolete.',
+        keyPassages: ['8:6-13', '9:15', '10:11-18']
+      },
+      {
+        theme: 'Faith and Perseverance',
+        description: 'Faith is assurance of things hoped for. The heroes of faith endured, looking forward; we must run with endurance.',
+        keyPassages: ['11:1-40', '12:1-3']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Christ is the radiance of God\'s glory and exact imprint of His nature', passages: ['1:1-4'] },
+      { type: 'direct', description: 'Christ is the founder and perfecter of our faith', passages: ['12:1-2'] },
+      { type: 'prophecy', description: 'Christ fulfills Melchizedek and the Levitical priesthood', passages: ['7:1-28'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:1-3', text: 'Long ago, at many times and in many ways, God spoke to our fathers by the prophets, but in these last days he has spoken to us by his Son.', significance: 'The climax of revelation in Christ.' },
+      { reference: '4:15-16', text: 'For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sin. Let us then with confidence draw near to the throne of grace.', significance: 'Christ as sympathetic high priest.' },
+      { reference: '11:1', text: 'Now faith is the assurance of things hoped for, the conviction of things not seen.', significance: 'The definition of faith.' },
+      { reference: '12:1-2', text: 'Let us run with endurance the race that is set before us, looking to Jesus, the founder and perfecter of our faith.', significance: 'The call to perseverance.' }
+    ],
+
+    practicalApplications: [
+      'Draw near to God with confidence through Christ.',
+      'Do not drift away from the truth you have heard.',
+      'Hold fast your confession without wavering.',
+      'Consider how to stir up one another to love and good works.',
+      'Run with endurance, looking to Jesus.'
+    ],
+
+    studyQuestions: [
+      'How does Hebrews demonstrate Christ\'s superiority to angels?',
+      'What is the significance of Christ\'s Melchizedek priesthood?',
+      'How is the new covenant "better" than the old?',
+      'What is the warning of Hebrews 6:4-6, and how should we understand it?',
+      'How does Hebrews 11 define and illustrate faith?'
+    ]
+  },
+  {
+    id: 'james',
+    name: 'James',
+    abbreviation: 'Jas',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 59,
+    author: 'James, the brother of Jesus',
+    dateWritten: 'c. AD 45-49',
+    originalAudience: 'Jewish Christians scattered abroad',
+    literaryGenre: ['epistle', 'wisdom literature'],
+    difficulty: 'medium',
+
+    overview: `James is the New Testament's wisdom book, packed with practical instruction for living out the faith. Written by Jesus' half-brother who became a leader of the Jerusalem church, the letter addresses trials, temptation, the tongue, worldliness, and the relationship between faith and works.
+
+The letter is written to "the twelve tribes in the Dispersion," Jewish Christians facing various trials. James exhorts them to consider trials as joy, to ask God for wisdom, to be doers of the word, to control their tongues, and to show their faith by their works. The style is direct, punchy, and reminiscent of Old Testament wisdom and Jesus' Sermon on the Mount.
+
+James insists that authentic faith produces visible fruit. "Faith without works is dead" does not contradict Paul's teaching on justification by faith alone but emphasizes that genuine faith inevitably issues in obedience. Luther's initial discomfort with the letter has given way to appreciation for its practical wisdom.`,
+
+    purpose: `James wrote to encourage believers facing trials, to expose false faith that produces no fruit, and to provide practical wisdom for living the Christian life in community.`,
+
+    outline: [
+      { section: 'Trials and Temptation', chapters: '1:1-18', summary: 'Joy in trials; asking for wisdom; the source of temptation.' },
+      { section: 'Hearing and Doing', chapters: '1:19-27', summary: 'Be doers of the word; pure religion.' },
+      { section: 'Favoritism', chapters: '2:1-13', summary: 'No partiality; the royal law.' },
+      { section: 'Faith and Works', chapters: '2:14-26', summary: 'Faith without works is dead.' },
+      { section: 'The Tongue', chapters: '3:1-12', summary: 'The tongue\'s power and danger.' },
+      { section: 'Two Kinds of Wisdom', chapters: '3:13-18', summary: 'Earthly vs. heavenly wisdom.' },
+      { section: 'Worldliness and Pride', chapters: '4:1-17', summary: 'Friendship with the world; boasting about tomorrow.' },
+      { section: 'Final Exhortations', chapters: '5:1-20', summary: 'Warning to the rich; patience; prayer; restoration.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Faith and Works',
+        description: 'Genuine faith produces good works. Faith without works is dead, not because works save but because they demonstrate living faith.',
+        keyPassages: ['2:14-26']
+      },
+      {
+        theme: 'Trials and Wisdom',
+        description: 'Trials produce steadfastness. Believers should ask God for wisdom, and He gives generously.',
+        keyPassages: ['1:2-8', '1:12']
+      },
+      {
+        theme: 'Taming the Tongue',
+        description: 'The tongue is a small member but capable of great evil. Controlling the tongue is essential to true religion.',
+        keyPassages: ['1:26', '3:1-12']
+      },
+      {
+        theme: 'Pure Religion',
+        description: 'True religion cares for orphans and widows and keeps oneself unstained from the world.',
+        keyPassages: ['1:27', '2:1-9']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Faith in our Lord Jesus Christ the Lord of glory', passages: ['2:1'] },
+      { type: 'theme', description: 'James reflects Jesus\' teaching in the Sermon on the Mount', passages: ['1:2-4', '5:12'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:2-4', text: 'Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness.', significance: 'The purpose of trials.' },
+      { reference: '1:22', text: 'But be doers of the word, and not hearers only, deceiving yourselves.', significance: 'The demand for obedience.' },
+      { reference: '2:17', text: 'So also faith by itself, if it does not have works, is dead.', significance: 'The test of genuine faith.' },
+      { reference: '4:7', text: 'Submit yourselves therefore to God. Resist the devil, and he will flee from you.', significance: 'The path to victory over evil.' }
+    ],
+
+    practicalApplications: [
+      'Ask God for wisdom when facing trials.',
+      'Be quick to listen, slow to speak, slow to become angry.',
+      'Be doers of the word, not hearers only.',
+      'Control your tongue—it can do great damage.',
+      'Show your faith by your works.'
+    ],
+
+    studyQuestions: [
+      'How can trials be considered "joy"?',
+      'What does James mean by "faith without works is dead"?',
+      'How does James\' teaching relate to Paul\'s teaching on justification?',
+      'Why is the tongue so dangerous (chapter 3)?',
+      'What is the difference between earthly and heavenly wisdom?'
+    ]
+  },
+  {
+    id: '1-peter',
+    name: '1 Peter',
+    abbreviation: '1 Pet',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 60,
+    author: 'Peter the Apostle',
+    dateWritten: 'c. AD 62-64',
+    originalAudience: 'Christians scattered throughout Asia Minor',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
+
+    overview: `First Peter is a letter of hope for suffering Christians. Written to believers scattered across Asia Minor and facing increasing persecution, Peter encourages them with the reality of their living hope through Christ's resurrection and the coming glory.
+
+The letter emphasizes the believers' identity as elect exiles—chosen by God but strangers in this world. Peter calls them to holy living, submission to authorities, good conduct that silences critics, patient endurance of unjust suffering (following Christ's example), and humble service in the church.
+
+First Peter is rich in gospel indicatives that ground ethical imperatives. Because you have been ransomed by Christ's blood, live in holiness. Because you are living stones in God's temple, offer spiritual sacrifices. Suffering is temporary; glory is coming.`,
+
+    purpose: `Peter wrote to encourage believers facing suffering, to remind them of their identity and hope in Christ, and to instruct them in holy living that adorns the gospel before a watching world.`,
+
+    outline: [
+      { section: 'Greeting and Praise', chapters: '1:1-12', summary: 'Elect exiles; living hope; tested faith.' },
+      { section: 'Call to Holiness', chapters: '1:13-2:10', summary: 'Be holy; living stones; royal priesthood.' },
+      { section: 'Conduct in the World', chapters: '2:11-3:12', summary: 'Submission; suffering like Christ; harmony.' },
+      { section: 'Suffering for Righteousness', chapters: '3:13-4:19', summary: 'Suffer for doing good; sharing Christ\'s sufferings.' },
+      { section: 'Elder and Final Exhortations', chapters: '5:1-14', summary: 'Shepherd the flock; resist the devil; grace and peace.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Living Hope',
+        description: 'Through Christ\'s resurrection, believers have a living hope—an inheritance imperishable and kept in heaven.',
+        keyPassages: ['1:3-9']
+      },
+      {
+        theme: 'Elect Exiles',
+        description: 'Believers are chosen by God but aliens in this world. This identity shapes how we live and suffer.',
+        keyPassages: ['1:1-2', '2:9-12']
+      },
+      {
+        theme: 'Suffering Well',
+        description: 'Suffering for righteousness is blessed. Christ suffered unjustly and left us an example to follow.',
+        keyPassages: ['2:18-25', '3:13-17', '4:12-19']
+      },
+      {
+        theme: 'Holy Living',
+        description: 'As obedient children, believers are called to be holy in all conduct, as God who called them is holy.',
+        keyPassages: ['1:13-21', '2:11-12']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'We are ransomed by the precious blood of Christ', passages: ['1:18-21'] },
+      { type: 'direct', description: 'Christ suffered for us, leaving us an example', passages: ['2:21-25'] },
+      { type: 'theme', description: 'Christ is the living stone, cornerstone of God\'s temple', passages: ['2:4-8'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:3', text: 'Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead.', significance: 'The source of our hope.' },
+      { reference: '2:9', text: 'But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession.', significance: 'The identity of God\'s people.' },
+      { reference: '2:24', text: 'He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness.', significance: 'The atonement.' },
+      { reference: '5:7', text: 'Casting all your anxieties on him, because he cares for you.', significance: 'God\'s care for His people.' }
+    ],
+
+    practicalApplications: [
+      'Set your hope fully on the grace coming at Christ\'s revelation.',
+      'Be holy in all your conduct.',
+      'Honor everyone; love the brotherhood; fear God; honor the emperor.',
+      'When suffering for righteousness, entrust yourself to the faithful Creator.',
+      'Shepherd those in your care willingly and as examples.'
+    ],
+
+    studyQuestions: [
+      'What does it mean to be "elect exiles"?',
+      'How does Christ\'s example shape our response to unjust suffering?',
+      'What is the "royal priesthood" and what sacrifices do we offer?',
+      'How should believers relate to governing authorities?',
+      'What is the role of elders according to 1 Peter 5?'
+    ]
+  },
+  {
+    id: '2-peter',
+    name: '2 Peter',
+    abbreviation: '2 Pet',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 61,
+    author: 'Peter the Apostle',
+    dateWritten: 'c. AD 64-68',
+    originalAudience: 'Christians in Asia Minor',
+    literaryGenre: ['epistle', 'testament'],
+    difficulty: 'medium',
+
+    overview: `Second Peter is Peter's final letter, written as he faces imminent death. He writes to warn against false teachers and to remind believers of the certainty of Christ's return. The letter emphasizes growing in the knowledge of Christ and holding fast to apostolic teaching.
+
+The first chapter establishes the foundation: God has given everything needed for life and godliness. Peter confirms the reliability of the apostolic message as eyewitness testimony confirmed by prophetic Scripture. Chapter 2 warns vividly against false teachers. Chapter 3 addresses mockers who deny Christ's return, affirming the Day of the Lord and calling for holy living.
+
+Second Peter shares substantial material with Jude and addresses similar false teaching. The letter's emphasis on knowledge, growth, and stability in truth remains relevant wherever false teaching threatens.`,
+
+    purpose: `Peter wrote to warn against false teachers, to reaffirm the certainty of Christ's return, and to urge believers to grow in the knowledge of Christ and remain stable in the truth.`,
+
+    outline: [
+      { section: 'Greeting', chapters: '1:1-2', summary: 'Grace and peace through knowledge.' },
+      { section: 'Growing in Godliness', chapters: '1:3-11', summary: 'Divine power; add to faith; confirm calling.' },
+      { section: 'Eyewitness Testimony', chapters: '1:12-21', summary: 'Peter\'s reminder; the Transfiguration; Scripture\'s origin.' },
+      { section: 'False Teachers', chapters: '2:1-22', summary: 'Their character, judgment, and influence.' },
+      { section: 'The Day of the Lord', chapters: '3:1-18', summary: 'Mockers denied; the Day is coming; be ready.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Knowledge of Christ',
+        description: 'True knowledge of God and Christ is foundational for life and godliness. Growth in knowledge protects against deception.',
+        keyPassages: ['1:2-3', '1:8', '3:18']
+      },
+      {
+        theme: 'False Teachers',
+        description: 'False teachers deny the Master, exploit believers, and will be judged. Believers must be warned and protected.',
+        keyPassages: ['2:1-22']
+      },
+      {
+        theme: 'The Day of the Lord',
+        description: 'Christ will return, though scoffers deny it. God is patient, not slow. The heavens and earth will be dissolved; new creation awaits.',
+        keyPassages: ['3:3-13']
+      },
+      {
+        theme: 'Scripture\'s Reliability',
+        description: 'Prophecy did not come from human initiative. Men spoke from God as they were carried along by the Holy Spirit.',
+        keyPassages: ['1:19-21']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Peter was eyewitness of Christ\'s majesty at the Transfiguration', passages: ['1:16-18'] },
+      { type: 'direct', description: 'Christ will return; the Day of the Lord is coming', passages: ['3:10-13'] },
+      { type: 'theme', description: 'Grow in the grace and knowledge of our Lord Jesus Christ', passages: ['3:18'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:3', text: 'His divine power has granted to us all things that pertain to life and godliness, through the knowledge of him who called us to his own glory and excellence.', significance: 'God\'s sufficient provision.' },
+      { reference: '1:20-21', text: 'No prophecy of Scripture comes from someone\'s own interpretation. For no prophecy was ever produced by the will of man, but men spoke from God as they were carried along by the Holy Spirit.', significance: 'The divine origin of Scripture.' },
+      { reference: '3:9', text: 'The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance.', significance: 'God\'s patience in delaying judgment.' },
+      { reference: '3:18', text: 'But grow in the grace and knowledge of our Lord and Savior Jesus Christ.', significance: 'The path forward.' }
+    ],
+
+    practicalApplications: [
+      'Make every effort to add to your faith virtue, knowledge, self-control, etc.',
+      'Pay attention to the prophetic word until Christ returns.',
+      'Be on guard against false teachers.',
+      'Since the Day is coming, live in holiness and godliness.',
+      'Grow in the grace and knowledge of Christ.'
+    ],
+
+    studyQuestions: [
+      'What qualities should believers add to their faith (1:5-7)?',
+      'How does Peter authenticate his message (1:16-21)?',
+      'What characterizes the false teachers in chapter 2?',
+      'How does Peter answer the mockers who deny Christ\'s return?',
+      'How should the coming Day of the Lord affect our living?'
+    ]
+  },
+  {
+    id: '1-john',
+    name: '1 John',
+    abbreviation: '1 John',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 62,
+    author: 'John the Apostle',
+    dateWritten: 'c. AD 85-95',
+    originalAudience: 'Churches in Asia Minor',
+    literaryGenre: ['epistle', 'homily'],
+    difficulty: 'medium',
+
+    overview: `First John is a pastoral letter addressing false teaching that had split the church. Some had departed, denying that Jesus Christ had come in the flesh. John writes to reassure true believers and to provide tests by which they can know they have eternal life.
+
+The letter moves in cycles through three main themes: walking in the light (moral test), believing in Jesus Christ (doctrinal test), and loving one another (social test). These three tests are repeated and intertwined throughout. John writes with stark contrasts: light and darkness, truth and lies, love and hate, children of God and children of the devil.
+
+First John is warm and pastoral yet uncompromising on truth. John wants his "little children" to have assurance of salvation and to avoid the deceptions of those who have left. God is light, God is love, and those who know God will walk in light and love.`,
+
+    purpose: `John wrote so believers may know they have eternal life, to warn against false teachers who denied Christ's true humanity, and to encourage believers in faith, love, and obedience.`,
+
+    outline: [
+      { section: 'Prologue', chapters: '1:1-4', summary: 'The Word of life—eyewitness testimony.' },
+      { section: 'Walking in Light', chapters: '1:5-2:17', summary: 'God is light; confession; obedience; love.' },
+      { section: 'Warning Against Antichrists', chapters: '2:18-27', summary: 'They went out from us; abide in Christ.' },
+      { section: 'Children of God', chapters: '2:28-3:24', summary: 'Righteousness, love, and assurance.' },
+      { section: 'Testing the Spirits', chapters: '4:1-6', summary: 'Every spirit that confesses Jesus is from God.' },
+      { section: 'God Is Love', chapters: '4:7-21', summary: 'Love one another; perfect love casts out fear.' },
+      { section: 'Victory and Assurance', chapters: '5:1-21', summary: 'Overcoming the world; the testimony; eternal life.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Fellowship with God',
+        description: 'True fellowship with God requires walking in the light, confessing sin, and being cleansed by Christ\'s blood.',
+        keyPassages: ['1:3-10', '2:1-2']
+      },
+      {
+        theme: 'Tests of Authentic Faith',
+        description: 'Genuine faith is tested by righteousness (obedience), love (for fellow believers), and doctrine (confessing Christ).',
+        keyPassages: ['2:3-6', '2:29', '3:14', '4:2-3']
+      },
+      {
+        theme: 'God Is Love',
+        description: 'Love originates in God. He loved us first by sending His Son. Those born of God love one another.',
+        keyPassages: ['4:7-21']
+      },
+      {
+        theme: 'Assurance',
+        description: 'John writes so that believers may know they have eternal life. Assurance comes through believing, obeying, and loving.',
+        keyPassages: ['5:13']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Jesus Christ is the atoning sacrifice for sins', passages: ['2:1-2', '4:10'] },
+      { type: 'direct', description: 'God sent His Son to be the Savior of the world', passages: ['4:14'] },
+      { type: 'theme', description: 'Eternal life is in the Son', passages: ['5:11-12'] }
+    ],
+
+    keyVerses: [
+      { reference: '1:9', text: 'If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.', significance: 'The promise of forgiveness.' },
+      { reference: '3:1', text: 'See what kind of love the Father has given to us, that we should be called children of God; and so we are.', significance: 'Our identity as God\'s children.' },
+      { reference: '4:8', text: 'Anyone who does not love does not know God, because God is love.', significance: 'Love as essential to knowing God.' },
+      { reference: '4:19', text: 'We love because he first loved us.', significance: 'The source of our love.' },
+      { reference: '5:13', text: 'I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life.', significance: 'The purpose of the letter.' }
+    ],
+
+    practicalApplications: [
+      'Walk in the light, confessing sin and trusting Christ\'s cleansing.',
+      'Keep Christ\'s commands as evidence of knowing Him.',
+      'Love fellow believers in deed and truth.',
+      'Test teaching by whether it confesses Jesus as Christ come in the flesh.',
+      'Rest in the assurance that you have eternal life in the Son.'
+    ],
+
+    studyQuestions: [
+      'What are the "tests" of genuine faith in 1 John?',
+      'What does it mean to "walk in the light"?',
+      'Who are the "antichrists" John mentions?',
+      'How does John describe God\'s love (chapter 4)?',
+      'What assurance does John provide for believers (5:13)?'
+    ]
+  },
+  {
+    id: '2-john',
+    name: '2 John',
+    abbreviation: '2 John',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 63,
+    author: 'John the Apostle',
+    dateWritten: 'c. AD 85-95',
+    originalAudience: '"The elect lady and her children" (a church)',
+    literaryGenre: ['epistle'],
+    difficulty: 'easy',
+
+    overview: `Second John is a brief letter from "the elder" to "the elect lady and her children"—most likely a church and its members. John writes to encourage walking in truth and love while warning against deceivers who deny Christ's coming in the flesh.
+
+The letter echoes themes from 1 John in miniature: the command to love one another, the danger of those who deny the incarnation, and the importance of abiding in Christ's teaching. John instructs the church not to receive false teachers into their homes or even to greet them.
+
+Second John demonstrates that love must be exercised in truth. Hospitality to false teachers would mean participating in their evil. True love guards the truth and protects the church from deception.`,
+
+    purpose: `John wrote to encourage the church in truth and love and to warn against showing hospitality to false teachers who deny Christ's incarnation.`,
+
+    outline: [
+      { section: 'Greeting', chapters: '1-3', summary: 'The elder to the elect lady; grace, mercy, peace.' },
+      { section: 'Walking in Truth and Love', chapters: '4-6', summary: 'Joy at finding children walking in truth; the command to love.' },
+      { section: 'Warning Against Deceivers', chapters: '7-11', summary: 'Deceivers deny Christ; do not receive them.' },
+      { section: 'Closing', chapters: '12-13', summary: 'Hope to visit; greetings.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Truth and Love',
+        description: 'Truth and love are inseparable. Love one another, but love does not welcome those who deny the truth.',
+        keyPassages: ['1-6']
+      },
+      {
+        theme: 'Guarding Doctrine',
+        description: 'Those who do not abide in Christ\'s teaching do not have God. Doctrine matters for fellowship.',
+        keyPassages: ['7-11']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'Jesus Christ has come in the flesh', passages: ['7'] },
+      { type: 'theme', description: 'Abiding in the teaching of Christ', passages: ['9'] }
+    ],
+
+    keyVerses: [
+      { reference: '6', text: 'And this is love, that we walk according to his commandments.', significance: 'Love defined by obedience.' },
+      { reference: '9', text: 'Everyone who goes on ahead and does not abide in the teaching of Christ, does not have God.', significance: 'The importance of sound doctrine.' }
+    ],
+
+    practicalApplications: [
+      'Walk in truth and love together.',
+      'Test teaching against the apostolic standard.',
+      'Do not extend fellowship to those who deny essential truths.',
+      'Guard the church from false teaching.'
+    ],
+
+    studyQuestions: [
+      'Who is "the elect lady"?',
+      'How do truth and love relate in this letter?',
+      'Why is refusing hospitality to false teachers appropriate?',
+      'What does it mean to "abide in the teaching of Christ"?'
+    ]
+  },
+  {
+    id: '3-john',
+    name: '3 John',
+    abbreviation: '3 John',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 64,
+    author: 'John the Apostle',
+    dateWritten: 'c. AD 85-95',
+    originalAudience: 'Gaius, a beloved believer',
+    literaryGenre: ['epistle'],
+    difficulty: 'easy',
+
+    overview: `Third John is a personal letter from the elder John to Gaius, a beloved brother. John commends Gaius for his hospitality to traveling teachers, condemns Diotrephes for his arrogance and refusal to receive John's messengers, and commends Demetrius as a man of good reputation.
+
+The letter offers a window into first-century church life. Traveling missionaries depended on the hospitality of believers. Gaius represents faithful support of such workers. Diotrephes represents the opposite—love of preeminence that excludes others. The contrast is stark.
+
+Third John is about supporting truth-workers. Those who show hospitality to gospel messengers become "fellow workers for the truth." The letter calls for faithful partnership in spreading the gospel.`,
+
+    purpose: `John wrote to commend Gaius for his hospitality, to warn about Diotrephes' opposition, and to recommend Demetrius as trustworthy.`,
+
+    outline: [
+      { section: 'Greeting', chapters: '1-4', summary: 'The elder to Gaius; joy at his walking in truth.' },
+      { section: 'Commendation of Hospitality', chapters: '5-8', summary: 'Faithful service to traveling brothers.' },
+      { section: 'Condemnation of Diotrephes', chapters: '9-10', summary: 'His arrogance and evil behavior.' },
+      { section: 'Commendation of Demetrius', chapters: '11-12', summary: 'Good testimony from all.' },
+      { section: 'Closing', chapters: '13-15', summary: 'Hope to visit; peace and greetings.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Hospitality',
+        description: 'Supporting traveling missionaries makes one a fellow worker for the truth. Hospitality advances the gospel.',
+        keyPassages: ['5-8']
+      },
+      {
+        theme: 'Warning Against Pride',
+        description: 'Diotrephes loves preeminence and rejects others. Such pride damages the church.',
+        keyPassages: ['9-10']
+      }
+    ],
+
+    christConnection: [
+      { type: 'theme', description: 'Supporting gospel workers is serving for the sake of "the Name"', passages: ['7'] }
+    ],
+
+    keyVerses: [
+      { reference: '4', text: 'I have no greater joy than to hear that my children are walking in the truth.', significance: 'The joy of faithful disciples.' },
+      { reference: '8', text: 'We ought to support people like these, that we may be fellow workers for the truth.', significance: 'Partnership in gospel work.' }
+    ],
+
+    keyCharacters: [
+      { name: 'Gaius', role: 'Faithful believer who showed hospitality' },
+      { name: 'Diotrephes', role: 'Arrogant church leader who rejected John\'s authority' },
+      { name: 'Demetrius', role: 'Man of good reputation commended by John' }
+    ],
+
+    practicalApplications: [
+      'Show hospitality to gospel workers.',
+      'Avoid the love of preeminence that Diotrephes displayed.',
+      'Imitate what is good, not what is evil.',
+      'Support missionaries as fellow workers for the truth.'
+    ],
+
+    studyQuestions: [
+      'What characterized Gaius\' hospitality?',
+      'What was wrong with Diotrephes?',
+      'What does it mean to be "fellow workers for the truth"?',
+      'How can churches today support traveling gospel workers?'
+    ]
+  },
+  {
+    id: 'jude',
+    name: 'Jude',
+    abbreviation: 'Jude',
+    testament: 'new',
+    canonicalGroup: 'general',
+    order: 65,
+    author: 'Jude, brother of James and half-brother of Jesus',
+    dateWritten: 'c. AD 65-80',
+    originalAudience: 'Jewish Christians',
+    literaryGenre: ['epistle'],
+    difficulty: 'medium',
+
+    overview: `Jude is a brief, urgent letter warning against false teachers who had crept into the church. Jude had intended to write about salvation but felt compelled to write a call to contend for the faith once delivered to the saints.
+
+The letter describes the false teachers in vivid terms: they pervert grace into sensuality, deny Jesus Christ, and follow the way of Cain, Balaam, and Korah. Jude draws on Old Testament examples and Jewish apocalyptic literature (Enoch) to illustrate coming judgment. He also shares significant material with 2 Peter 2.
+
+Jude closes with one of Scripture's most beloved benedictions: "To him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy..."`,
+
+    purpose: `Jude wrote to warn against false teachers who had infiltrated the church and to urge believers to contend earnestly for the faith.`,
+
+    outline: [
+      { section: 'Greeting', chapters: '1-2', summary: 'Jude to those called, beloved, and kept.' },
+      { section: 'Purpose', chapters: '3-4', summary: 'Contend for the faith; false teachers have crept in.' },
+      { section: 'Examples of Judgment', chapters: '5-7', summary: 'Israel, angels, Sodom and Gomorrah.' },
+      { section: 'Description of False Teachers', chapters: '8-16', summary: 'Their character and doom.' },
+      { section: 'Exhortation to Believers', chapters: '17-23', summary: 'Remember apostolic teaching; build up; have mercy; save others.' },
+      { section: 'Doxology', chapters: '24-25', summary: 'To Him who is able to keep you.' }
+    ],
+
+    keyThemes: [
+      {
+        theme: 'Contending for the Faith',
+        description: 'The faith was once for all delivered. When it is attacked, believers must contend earnestly for it.',
+        keyPassages: ['3']
+      },
+      {
+        theme: 'Judgment on False Teachers',
+        description: 'God judges those who corrupt His people. Historical examples warn of coming doom.',
+        keyPassages: ['5-7', '14-15']
+      },
+      {
+        theme: 'Perseverance',
+        description: 'God keeps His people. They are to build themselves up and keep themselves in God\'s love.',
+        keyPassages: ['1', '20-21', '24']
+      }
+    ],
+
+    christConnection: [
+      { type: 'direct', description: 'False teachers deny our only Master and Lord, Jesus Christ', passages: ['4'] },
+      { type: 'theme', description: 'Christ will present us blameless before His glory', passages: ['24'] }
+    ],
+
+    keyVerses: [
+      { reference: '3', text: 'I found it necessary to write appealing to you to contend for the faith that was once for all delivered to the saints.', significance: 'The call to defend the faith.' },
+      { reference: '24-25', text: 'Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy, to the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time and now and forever. Amen.', significance: 'The great doxology.' }
+    ],
+
+    practicalApplications: [
+      'Contend earnestly for the faith against false teaching.',
+      'Recognize the marks of false teachers.',
+      'Build yourself up in the most holy faith.',
+      'Keep yourself in the love of God.',
+      'Show mercy to doubters; save others from the fire.'
+    ],
+
+    studyQuestions: [
+      'What does it mean to "contend for the faith"?',
+      'What Old Testament examples does Jude use to warn of judgment?',
+      'How does Jude describe false teachers?',
+      'What should believers do in response to false teaching (17-23)?',
+      'What comfort does the doxology provide?'
+    ]
+  },
+
+  // ========================================
+  // APOCALYPTIC LITERATURE
+  // ========================================
   {
     id: 'revelation',
     name: 'Revelation',
