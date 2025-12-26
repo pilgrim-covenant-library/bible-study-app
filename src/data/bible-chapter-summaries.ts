@@ -3933,6 +3933,338 @@ export const JOB_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// PSALMS CHAPTERS - Book 1 (1-41)
+export const PSALMS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'psalms',
+    chapter: 1,
+    title: 'Two Ways: The Blessed and the Wicked',
+    summary: 'The Psalter opens with wisdom teaching, setting forth two contrasting paths: the righteous who delight in God\'s law and prosper like trees by streams, versus the wicked who are like chaff blown away. The blessed person avoids the counsel of the ungodly, the way of sinners, and the seat of scoffers. Instead, they meditate on God\'s Word day and night. This psalm establishes the fundamental worldview of the entire collection.',
+    keyThemes: ['Two ways of life', 'Delight in God\'s law', 'Prosperity of the righteous', 'Judgment of the wicked'],
+    christConnection: 'Christ is the truly blessed man who perfectly delighted in the Father\'s will. He is the tree of life planted by living waters, and all who are in Him share His blessedness.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 2,
+    title: 'The Lord\'s Anointed King',
+    summary: 'Nations rage against the Lord and His Anointed (Messiah), but God laughs at their futile rebellion. He has installed His King on Zion. The decree is proclaimed: "You are my Son; today I have begotten you." The nations are given to the Son as His inheritance. Kings are warned to serve the Lord with fear and kiss the Son, lest they perish. Blessed are all who take refuge in Him.',
+    keyThemes: ['Messianic kingship', 'Divine sonship', 'Nations as inheritance', 'Warning to rulers'],
+    christConnection: 'This is the preeminent messianic psalm, quoted repeatedly in the NT. Christ is God\'s begotten Son, enthroned at the right hand, to whom all authority in heaven and earth is given.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 3,
+    title: 'Morning Prayer of Trust Amid Enemies',
+    summary: 'Written when David fled from Absalom, this psalm expresses confidence in God despite overwhelming opposition. Many say there is no salvation for him, but the Lord is his shield, glory, and lifter of his head. David cried to God and was answered. He slept and woke because the Lord sustained him. He fears not ten thousands arrayed against him. Salvation belongs to the Lord.',
+    keyThemes: ['Trust amid betrayal', 'God as shield', 'Sustained through crisis', 'Salvation from the Lord'],
+    christConnection: 'David\'s betrayal by his son Absalom pictures Christ\'s betrayal. Yet Christ, like David, entrusted Himself to the Father and was raised from the sleep of death to victory.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 4,
+    title: 'Evening Prayer of Peace',
+    summary: 'An evening psalm complementing Psalm 3. David calls on the God of his righteousness who gives relief in distress. He addresses those who love worthless things and seek lies, reminding them that the Lord has set apart the godly. Let them offer right sacrifices and trust in the Lord. Many ask who will show them good, but David finds more gladness from God than from abundant harvest. He lies down in peace because the Lord keeps him safe.',
+    keyThemes: ['Evening peace', 'Trust over anxiety', 'Joy from God', 'Secure rest'],
+    christConnection: 'Christ gives peace that the world cannot give. He is our righteousness, and in Him we find rest that surpasses what any earthly abundance provides.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 5,
+    title: 'Morning Prayer for Protection',
+    summary: 'David presents his morning prayer before the Lord, watching expectantly for God\'s answer. God takes no pleasure in wickedness; evil cannot dwell with Him. The boastful, liars, and bloodthirsty are abhorred. But by God\'s abundant mercy, David enters His house and worships in holy fear. He asks God to lead him in righteousness because of his enemies. The wicked speak flattery but plot destruction. Let God judge them. Meanwhile, let all who take refuge in God rejoice.',
+    keyThemes: ['Morning devotion', 'Divine holiness', 'Prayer for guidance', 'Joy in God\'s protection'],
+    christConnection: 'Christ is our way into God\'s presence; through Him we enter the holy place by abundant mercy. He leads us in the path of righteousness for His name\'s sake.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 6,
+    title: 'Prayer in Distress: First Penitential Psalm',
+    summary: 'The first of seven penitential psalms, David pleads for mercy, asking God not to rebuke him in anger. His bones are troubled; his soul is deeply distressed. How long? He asks to be delivered for the sake of God\'s steadfast love. In death there is no remembrance of God. He is weary with groaning, flooding his bed with tears. Yet the psalm turns: the Lord has heard his weeping and accepted his prayer. His enemies will be put to shame.',
+    keyThemes: ['Plea for mercy', 'Physical and spiritual distress', 'Prayer heard', 'Enemies ashamed'],
+    christConnection: 'Christ in Gethsemane experienced such distress that His sweat became like drops of blood. He who knew no sin became sin for us, bearing the weight that made David groan.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 7,
+    title: 'Appeal to the Righteous Judge',
+    summary: 'David takes refuge in God from his pursuers, asking to be delivered from those who would tear his soul like lions. He invites God to examine him—if there is wrong in his hands, let the enemy prevail. He calls on God to arise in anger against his foes. The Lord judges the peoples; David asks to be vindicated according to his righteousness and integrity. God is a righteous judge who will repay the wicked with their own devices.',
+    keyThemes: ['Taking refuge', 'Appeal for vindication', 'Righteous judgment', 'Wicked reaping consequences'],
+    christConnection: 'Christ, the truly innocent one, entrusted Himself to the righteous judge. He is now the appointed judge of the living and the dead who will render to each according to their deeds.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 8,
+    title: 'Human Dignity and Divine Glory',
+    summary: 'Beholding creation\'s vastness, David marvels that God pays attention to mere humans. Yet God has crowned humanity with glory and honor, giving them dominion over all creation—animals, birds, fish. Framing this meditation is the refrain: "O Lord, our Lord, how majestic is your name in all the earth!" Even infants and nursing babies proclaim God\'s strength. Creation reveals the Creator\'s glory.',
+    keyThemes: ['Human dignity', 'Divine majesty', 'Dominion over creation', 'Creation\'s testimony'],
+    christConnection: 'Hebrews applies this psalm to Christ, the true Man who received the dominion Adam forfeited. In Him, human destiny is fulfilled—crowned with glory at God\'s right hand.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 9,
+    title: 'Thanksgiving for Justice',
+    summary: 'David gives wholehearted thanks for God\'s wonderful deeds. When enemies turned back, they perished before God\'s presence. God sits enthroned forever, judging the world in righteousness. He is a stronghold for the oppressed, never forsaking those who seek Him. The psalmist calls for praise and recounts how the wicked are caught in their own schemes while the needy are not forgotten. Let the nations know they are merely human.',
+    keyThemes: ['Thanksgiving for deliverance', 'Divine justice', 'Refuge for the oppressed', 'Nations judged'],
+    christConnection: 'Christ executes perfect justice from His throne at the Father\'s right hand. The oppressed who cry to Him will never be forgotten; He remembers the afflicted.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 10,
+    title: 'Why Do the Wicked Prosper?',
+    summary: 'The psalmist asks why God stands far off in times of trouble while the wicked arrogantly pursue the poor. The wicked boast, curse, and say in their hearts that God has forgotten or hidden His face. They lurk in ambush for the innocent. Yet God does see trouble and grief. He will break the arm of the wicked and call them to account. The Lord is king forever; the nations perish from His land. He hears the humble and executes justice for the orphan and oppressed.',
+    keyThemes: ['Wicked prosperity questioned', 'Divine apparent absence', 'God sees all', 'Justice for the vulnerable'],
+    christConnection: 'Christ, who seemed absent on the cross, has been exalted as King. He will judge the wicked and vindicate the oppressed when He returns in glory.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 11,
+    title: 'Trust When Foundations Shake',
+    summary: 'Some counsel David to flee like a bird to the mountains because the wicked are attacking the upright. "If the foundations are destroyed, what can the righteous do?" But David\'s answer is: "In the Lord I take refuge." God is in His holy temple; His throne is in heaven. He observes and tests all people. He hates the wicked and will rain fire on them. The Lord is righteous and loves righteousness; the upright will see His face.',
+    keyThemes: ['Refuge in God', 'Foundations shaking', 'Divine testing', 'Seeing God\'s face'],
+    christConnection: 'When all earthly foundations fail, Christ remains the solid rock. Those who trust Him will see God\'s face, for in Christ the blessed vision is promised to the pure in heart.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 12,
+    title: 'Plea Against Deception',
+    summary: 'David calls for God\'s help because the faithful have vanished and truth has disappeared. People speak falsehood and flattery with double hearts. They boast of their tongues\' power. But the Lord will arise to protect the poor and needy who groan. God\'s words are pure, like silver refined seven times. He will guard and preserve His people from this wicked generation, even though the vilest are exalted.',
+    keyThemes: ['Vanishing faithfulness', 'Deceitful speech', 'Pure divine words', 'Protection promised'],
+    christConnection: 'Christ is the faithful witness whose words are pure truth. In a world of deception, He speaks the Father\'s words with perfect clarity and authority.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 13,
+    title: 'How Long, O Lord?',
+    summary: 'Four times David asks "How long?"—will God forget him forever, hide His face, leave him in sorrow, let enemies triumph? He pleads for God to look and answer, to light up his eyes lest he sleep in death and enemies rejoice. Yet the psalm turns to trust: "I have trusted in your steadfast love." His heart will rejoice in God\'s salvation. He will sing to the Lord who has dealt bountifully with him.',
+    keyThemes: ['Lament\'s persistence', 'Feeling forgotten', 'Turn to trust', 'Anticipating praise'],
+    christConnection: 'Christ on the cross felt forsaken yet continued to trust. The movement from lament to praise models faith\'s perseverance through darkness to dawn.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 14,
+    title: 'The Fool\'s Denial of God',
+    summary: 'The fool says in his heart there is no God. Such people are corrupt and do abominable deeds; none does good. God looks down from heaven to see if any understand and seek Him—but all have turned aside; no one does good, not even one. These evildoers devour God\'s people like bread and do not call on the Lord. But they will be in great terror, for God is with the righteous generation. Oh, that salvation would come from Zion!',
+    keyThemes: ['Practical atheism', 'Universal corruption', 'God with the righteous', 'Longing for salvation'],
+    christConnection: 'Paul quotes this psalm in Romans 3 to establish universal sinfulness and the need for Christ\'s righteousness. Salvation has indeed come from Zion through the Son of David.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 15,
+    title: 'Who May Dwell with God?',
+    summary: 'David asks who may sojourn in God\'s tent and dwell on His holy hill. The answer: one who walks blamelessly, does what is right, speaks truth from the heart, doesn\'t slander, does no evil to neighbors, honors those who fear the Lord, keeps oaths even when it hurts, lends without interest, and takes no bribes. Such a person will never be moved.',
+    keyThemes: ['Requirements for God\'s presence', 'Ethical integrity', 'Truthful speech', 'Unmoved stability'],
+    christConnection: 'Only Christ perfectly meets these requirements. Through Him, those who trust in His righteousness are welcomed into God\'s presence—not by their own merit but by His.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 16,
+    title: 'The Path of Life',
+    summary: 'David takes refuge in God, acknowledging Him as Lord and the source of all good. He delights in the saints of the land. Those who run after other gods multiply their sorrows. The Lord is David\'s chosen portion and cup; his lot is secure, his inheritance pleasant. He blesses the Lord who counsels him. With God at his right hand, he will not be shaken. Therefore his heart is glad and his flesh dwells secure, for God will not abandon him to Sheol or let His holy one see corruption. God shows the path of life; in His presence is fullness of joy.',
+    keyThemes: ['God as portion', 'Pleasant inheritance', 'Unshaken confidence', 'Path of life'],
+    christConnection: 'Peter at Pentecost and Paul at Pisidian Antioch apply this psalm to Christ\'s resurrection—God did not let His Holy One see corruption. Christ is the path to life and eternal joy.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 17,
+    title: 'Prayer of the Innocent',
+    summary: 'David asks God to hear his righteous cause and vindicate him. He has tested his heart, found no transgression, and kept from paths of the violent. He calls on God who saves those who take refuge in Him. May God hide him in the shadow of His wings from deadly enemies. These foes are enclosed in their own fat, speaking arrogantly, surrounding David like a lion. Let God rise and confront them! David will be satisfied when he awakes with God\'s likeness.',
+    keyThemes: ['Plea for vindication', 'Tested heart', 'Shadow of God\'s wings', 'Satisfaction in God\'s likeness'],
+    christConnection: 'The hope of awaking in God\'s likeness points to resurrection. Christ, perfectly innocent, was vindicated by resurrection and transforms believers into His image.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 18,
+    title: 'Royal Thanksgiving for Deliverance',
+    summary: 'David\'s great victory song celebrates God as his rock, fortress, deliverer, shield, horn of salvation, and stronghold. From distress he called to God, who came down with cosmic power—earth trembled, skies darkened, God rode on a cherub, shot arrows of lightning, and delivered David from the mighty waters. God rescued him because He delighted in him. God equipped David for battle and made him head of nations. The psalm concludes praising God who gives great salvation to His anointed.',
+    keyThemes: ['Comprehensive deliverance', 'Theophany imagery', 'Divine delight in His servant', 'Victory over enemies'],
+    christConnection: 'This royal psalm finds its fullest meaning in Christ, the ultimate Anointed One. God\'s cosmic intervention to deliver His King pictures Christ\'s resurrection victory over all enemies.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 19,
+    title: 'God\'s Two Books: Creation and Scripture',
+    summary: 'The heavens declare God\'s glory; the skies proclaim His handiwork. Day after day, night after night, they pour forth speech—no words, yet their voice goes through all the earth. The sun emerges like a bridegroom and runs its course with joy. Then the psalm turns to God\'s law: perfect, sure, right, pure, clean, true. More desirable than gold, sweeter than honey. The law warns and rewards the keeper. David prays to be cleansed from hidden faults and kept from presumptuous sins. May his words and thoughts be acceptable to God, his Rock and Redeemer.',
+    keyThemes: ['Creation\'s testimony', 'Law\'s perfection', 'Desire for purity', 'God as Redeemer'],
+    christConnection: 'Christ is the ultimate revelation—the Word through whom creation was made and who fulfills all Scripture. He is the Bridegroom who runs His course, our Rock and Redeemer.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 20,
+    title: 'Prayer for the King Before Battle',
+    summary: 'The people pray for their king before battle: may God answer him in distress, send help from the sanctuary, remember his offerings, and fulfill his plans. They will shout for joy in his victory. Some trust in chariots, others in horses, but God\'s people trust in the name of the Lord their God. Those who trust in other powers will collapse, but God\'s people rise and stand upright. Save the king and answer when we call!',
+    keyThemes: ['Intercession for the king', 'Trust in God\'s name', 'Confidence before battle', 'Victory anticipated'],
+    christConnection: 'Christ is the King for whom we pray and who goes before us in every battle. Trust in Him, not in human power, brings ultimate victory.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 21,
+    title: 'Thanksgiving for the King\'s Victory',
+    summary: 'The companion to Psalm 20, this psalm thanks God for the king\'s victory. The king rejoices in God\'s strength and salvation. God granted his heart\'s desire, crowned him with gold, gave him life forever. Great is his glory because of God\'s salvation. God makes him blessed forever and glad with His presence. The king trusts in the Lord, who will defeat all enemies. God\'s hand will find those who hate Him. Exalt yourself, O Lord, in your strength!',
+    keyThemes: ['Royal thanksgiving', 'Eternal life granted', 'Enemies defeated', 'Trust in the Lord'],
+    christConnection: 'The promise of life forever to the king finds fulfillment in Christ\'s resurrection. He has received the crown of glory and will defeat all His enemies.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 22,
+    title: 'From Forsakenness to Praise',
+    summary: 'This psalm of profound suffering begins with the cry: "My God, my God, why have you forsaken me?" The sufferer describes physical torment—bones out of joint, heart melted, strength dried up, hands and feet pierced, garments divided. Yet memory of God\'s faithfulness to the fathers sustains hope. The psalm turns dramatically: God has answered! The afflicted will praise Him in the great congregation. All ends of the earth will turn to the Lord. Future generations will proclaim His righteousness.',
+    keyThemes: ['Forsakenness expressed', 'Physical suffering detailed', 'Dramatic turn to praise', 'Universal worship anticipated'],
+    christConnection: 'Jesus quoted this psalm from the cross. Its details—pierced hands, divided garments, mocking crowds—were literally fulfilled in His passion. His resurrection brought the turn to praise.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 23,
+    title: 'The Lord Is My Shepherd',
+    summary: 'The most beloved psalm presents God as shepherd who provides everything needed. He makes His sheep lie down in green pastures, leads beside still waters, restores the soul, guides in right paths. Even through death\'s valley, there is no fear because the Shepherd\'s rod and staff comfort. God prepares a feast before enemies, anoints with oil, fills the cup to overflowing. Goodness and mercy follow the believer all their days, and they will dwell in God\'s house forever.',
+    keyThemes: ['Divine shepherd', 'Complete provision', 'Fearless in danger', 'Eternal dwelling'],
+    christConnection: 'Christ declared Himself the Good Shepherd who lays down His life for the sheep. He leads through death to life, preparing an eternal home in the Father\'s house.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 24,
+    title: 'The King of Glory Enters',
+    summary: 'The earth belongs to the Lord who founded it on the seas. Who may ascend His holy hill? Those with clean hands, pure hearts, who don\'t lift their souls to idols. They receive blessing and righteousness from God. Then a dramatic dialogue: "Lift up your heads, O gates! That the King of glory may come in!" Who is this King of glory? The Lord, strong and mighty in battle. Lift up, ancient doors! The Lord of hosts is the King of glory.',
+    keyThemes: ['Earth belongs to God', 'Requirements for worship', 'King of glory\'s entrance', 'Lord of hosts'],
+    christConnection: 'Christ ascending to heaven after resurrection fulfills this psalm. The victorious King enters the heavenly sanctuary, taking His throne at the Father\'s right hand.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 25,
+    title: 'Prayer for Guidance and Forgiveness',
+    summary: 'David lifts his soul to God, trusting He will not let him be put to shame. He asks for guidance in God\'s truth and teaching, remembering God\'s compassion from of old. He pleads that God not remember his youthful sins but according to His love remember him. The Lord instructs sinners in the way and leads the humble in justice. All God\'s paths are love and faithfulness for those who keep His covenant. For His name\'s sake, may God pardon David\'s great guilt. Guard his soul, deliver him, and redeem Israel.',
+    keyThemes: ['Trust in God', 'Prayer for guidance', 'Confession of sin', 'Divine instruction'],
+    christConnection: 'Christ is the way, truth, and life who guides those who trust in Him. Through His pardon, our great guilt is forgiven for God\'s name\'s sake.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 26,
+    title: 'Plea of Integrity',
+    summary: 'David asks God to vindicate him because he has walked in integrity and trusted without wavering. He invites God to test and try his heart. He has not sat with the deceitful or gathered with hypocrites. He washes his hands in innocence and loves God\'s house where His glory dwells. He asks not to be swept away with sinners but to continue walking in integrity. He stands on level ground and blesses the Lord in the congregation.',
+    keyThemes: ['Integrity affirmed', 'Avoiding the wicked', 'Love for God\'s house', 'Public worship'],
+    christConnection: 'Christ alone had perfect integrity before God. Through union with Him, believers are vindicated—not by their own righteousness but by His.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 27,
+    title: 'Light, Salvation, Stronghold',
+    summary: 'The Lord is David\'s light, salvation, and stronghold—whom shall he fear? Though armies encamp against him, his heart will not fear. One thing David seeks: to dwell in God\'s house, beholding His beauty. In trouble, God will hide him in His shelter and lift him above enemies. David calls on God, seeks His face, and asks not to be forsaken. Even if father and mother forsake him, the Lord will take him in. Teach me your way, O Lord. Wait for the Lord; be strong and take heart.',
+    keyThemes: ['God as light and salvation', 'Fearlessness', 'One desire: God\'s presence', 'Waiting on the Lord'],
+    christConnection: 'Christ is the light of the world and our salvation. In Him we see the beauty of God. He was forsaken that we might never be, and He teaches us to wait with hope.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 28,
+    title: 'Answered Prayer',
+    summary: 'David calls to God, his rock, pleading not to be silent lest David become like those descending to the pit. Hear his pleas as he lifts hands toward the sanctuary. Don\'t drag him away with the wicked who speak peace while planning evil. Give them what they deserve! The psalm turns: the Lord has heard! He is David\'s strength and shield. His heart trusts and is helped; he leaps for joy and sings thanks. The Lord is His people\'s strength and saving refuge. Shepherd them forever!',
+    keyThemes: ['Cry for hearing', 'Trust in God', 'Answered prayer', 'God as shepherd'],
+    christConnection: 'Christ is our rock and our shepherd who hears every cry. Through Him, our prayers ascend to the Father\'s throne and receive answer.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 29,
+    title: 'The Voice of the Lord',
+    summary: 'Heavenly beings are called to ascribe glory and strength to the Lord. The voice of the Lord thunders over the waters with power and majesty, breaking cedars, shaking the wilderness, stripping forests, making deer give birth. Seven times "the voice of the Lord" resounds. In His temple all cry "Glory!" The Lord sat enthroned at the Flood; He sits enthroned as King forever. May the Lord give strength to His people and bless them with peace.',
+    keyThemes: ['Divine voice in storm', 'Creation responds', 'Eternal kingship', 'Blessing of peace'],
+    christConnection: 'Christ spoke with authority that made creation obey—calming storms, raising the dead. He is the voice of the Lord, the eternal King who gives peace.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 30,
+    title: 'Mourning Turned to Dancing',
+    summary: 'A psalm of thanksgiving for healing. David exalts God who drew him up, healed him, and kept him from the pit. He calls the saints to praise and give thanks. God\'s anger lasts a moment; His favor a lifetime. Weeping may tarry for the night, but joy comes in the morning. In prosperity David felt secure, but when God hid His face, he was dismayed. He cried for mercy—what profit is there in death? God turned his mourning into dancing, removed sackcloth, clothed him with gladness. He will give thanks forever.',
+    keyThemes: ['Healing thanksgiving', 'Momentary anger, lasting favor', 'Joy in the morning', 'Mourning to dancing'],
+    christConnection: 'Christ\'s resurrection is the ultimate morning after the night of crucifixion. Through Him, our mourning is turned to joy that no one can take away.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 31,
+    title: 'Into Your Hands',
+    summary: 'David takes refuge in God, asking never to be put to shame. God is his rock, fortress, and guide. "Into your hand I commit my spirit; you have redeemed me, O Lord, faithful God." David hates idol-worshippers but trusts in the Lord. He calls for mercy because of his distress—eye, soul, and body wasted by grief. He is scorned, forgotten, discarded. But he trusts God, whose times are in His hands. Let God\'s face shine on His servant. Love the Lord, all His saints! Be strong and take heart, you who hope in the Lord.',
+    keyThemes: ['Spirit committed to God', 'Distress and trust', 'Divine faithfulness', 'Hope in the Lord'],
+    christConnection: 'Jesus quoted this psalm from the cross: "Into your hands I commit my spirit." His trust in death models ours. He was delivered through resurrection.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 32,
+    title: 'Blessed Forgiveness',
+    summary: 'Blessed is the one whose transgression is forgiven, whose sin is covered, against whom the Lord counts no iniquity. When David kept silent about his sin, his bones wasted away. But when he acknowledged his sin, God forgave. Let the godly pray in times of distress; God will preserve them from trouble. The Lord promises to instruct and teach the way to go. Don\'t be like a horse needing bit and bridle. The wicked have many sorrows, but steadfast love surrounds those who trust in the Lord. Rejoice and shout for joy!',
+    keyThemes: ['Blessedness of forgiveness', 'Confession brings relief', 'Divine instruction', 'Joy in the Lord'],
+    christConnection: 'Paul quotes this psalm in Romans 4 regarding justification. Through Christ, transgression is forgiven, sin covered, and no iniquity counted—this is the gospel.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 33,
+    title: 'Praise to the Creator and Ruler',
+    summary: 'Praise befits the upright. Sing a new song with skillful music! God\'s word is upright; He loves righteousness and justice. By His word the heavens were made; He gathered the seas. Let all earth fear the Lord! He frustrates the plans of nations but His counsel stands forever. Blessed is the nation whose God is the Lord. From heaven God observes all humanity. No king is saved by great armies; strength doesn\'t ensure deliverance. But God watches those who fear Him. Our soul waits for the Lord—our help and shield. May your steadfast love be upon us as we hope in you.',
+    keyThemes: ['New song of praise', 'Creation by God\'s word', 'Nations under God', 'Hope in God\'s love'],
+    christConnection: 'Through Christ, the Word by whom all was made, we are the blessed people who belong to God. Our hope is in Him, our help and shield.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 34,
+    title: 'Taste and See That the Lord Is Good',
+    summary: 'An acrostic psalm of thanksgiving. David will bless the Lord at all times; his soul boasts in the Lord. Magnify the Lord together! David sought the Lord and was delivered from all his fears. Those who look to Him are radiant and not ashamed. The angel of the Lord encamps around those who fear Him. "Taste and see that the Lord is good!" The lions may lack, but those who seek the Lord lack no good thing. The Lord is near to the brokenhearted. Many are the afflictions of the righteous, but the Lord delivers from them all.',
+    keyThemes: ['Continual blessing', 'Tasting God\'s goodness', 'Angel\'s protection', 'Deliverance from affliction'],
+    christConnection: 'Christ invites us to taste and see. He is the good God who became man. Though afflicted in many ways, He was delivered through resurrection.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 35,
+    title: 'Plea for Justice Against Enemies',
+    summary: 'David calls on God to contend against those who contend against him, to fight those who fight him. Let those who seek his life be put to shame. David clothed himself in sackcloth when they were sick, but they repaid him evil for good, rejoicing at his stumbling. How long will God look on? Rescue David\'s soul! He will thank God in the great congregation. Don\'t let malicious enemies rejoice or wink their eyes in triumph. Let those who delight in David\'s righteousness shout for joy. Great is the Lord who delights in His servant\'s welfare.',
+    keyThemes: ['Call for divine intervention', 'Evil repaid for good', 'Vindication sought', 'God delights in servant\'s welfare'],
+    christConnection: 'Christ, who repaid good for evil, was yet treated with malice. He entrusted Himself to the righteous Judge and was ultimately vindicated through resurrection.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 36,
+    title: 'Wickedness and God\'s Steadfast Love',
+    summary: 'Transgression speaks to the wicked deep in their hearts; there is no fear of God before their eyes. They flatter themselves, speak mischief and deceit, plan evil on their beds. But God\'s steadfast love extends to the heavens, His faithfulness to the clouds. His righteousness is like mighty mountains, His judgments like the great deep. He saves man and beast. How precious is His steadfast love! Under His wings people take refuge. They feast on the abundance of His house and drink from the river of His delights. In His light we see light. Continue your love to those who know you!',
+    keyThemes: ['Wicked described', 'Steadfast love praised', 'Feasting at God\'s house', 'Light in God\'s light'],
+    christConnection: 'Christ is the light in whom we see light. Through Him, we feast at the Father\'s table and drink from the river of eternal delights.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 37,
+    title: 'Trust and Do Good',
+    summary: 'An acrostic wisdom psalm. Don\'t fret over evildoers who flourish like grass—they will wither. Trust in the Lord and do good. Delight in the Lord, and He will give your heart\'s desires. Commit your way to Him; He will act. Be still before the Lord and wait patiently. The meek will inherit the land. The wicked borrow and don\'t repay, but the righteous are generous. God\'s steps guide the person whose way He delights in. David has been young and old but never seen the righteous forsaken. Depart from evil, do good, and dwell forever.',
+    keyThemes: ['Don\'t fret', 'Trust and delight', 'Meek inherit land', 'Righteous never forsaken'],
+    christConnection: 'Christ quoted this psalm: "The meek shall inherit the earth." He is the ultimate righteous one in whom we trust, and through Him we inherit eternal blessing.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 38,
+    title: 'Prayer in Severe Suffering',
+    summary: 'The third penitential psalm. David asks God not to rebuke him in anger. God\'s arrows have sunk into him; divine hand presses down. No soundness in his flesh because of God\'s indignation; no health in his bones because of sin. His iniquities overwhelm him. His wounds fester from foolishness. He is bowed down, mourning, loins filled with burning. Friends and companions stand far off. Yet David waits for the Lord. Don\'t forsake me! Make haste to help me, O Lord, my salvation.',
+    keyThemes: ['Sin\'s consequences felt', 'Physical suffering', 'Abandonment by friends', 'Waiting for the Lord'],
+    christConnection: 'Christ bore the arrows of divine wrath against sin, though He had none of His own. His friends forsook Him, yet He committed Himself to the Father.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 39,
+    title: 'The Brevity of Life',
+    summary: 'David resolved to guard his mouth, but his heart grew hot within him, and finally he spoke: "Lord, let me know my end and the measure of my days." Life is but a breath, a few handbreadths. Man is a mere phantom; he heaps up wealth not knowing who will gather it. David\'s hope is in the Lord. Deliver him from transgressions; don\'t make him the scorn of fools. He is silent, for God has done it. Remove Your plague from me; I am spent by Your hostility. Hear my prayer before I depart and am no more.',
+    keyThemes: ['Guarding speech', 'Life\'s brevity', 'Hope in the Lord', 'Prayer before death'],
+    christConnection: 'Christ, who lived a brief earthly life, redeems our fleeting days. In Him, our hope extends beyond death to eternal life.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 40,
+    title: 'Waiting, Deliverance, Obedience',
+    summary: 'David waited patiently for the Lord, who drew him from the pit and set his feet on a rock. God put a new song in his mouth. Blessed are those who trust in the Lord, not turning to false gods. God\'s wonders are too many to declare. Sacrifice and offering God didn\'t desire, but He opened David\'s ears. "Behold, I have come to do your will, O God; your law is within my heart." David proclaims good news in the congregation. Let those who seek God rejoice. He is poor and needy, but the Lord thinks of him. Make haste to help!',
+    keyThemes: ['Patient waiting rewarded', 'New song given', 'Obedience over sacrifice', 'Proclaiming good news'],
+    christConnection: 'Hebrews applies this psalm to Christ who came to do God\'s will, offering Himself in obedience. His body was prepared for sacrifice that ends all sacrifices.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 41,
+    title: 'Blessed Care for the Weak',
+    summary: 'Blessed is the one who considers the poor; the Lord delivers him in trouble, protects and preserves him. Enemies speak maliciously about David, hoping he dies. Even his close friend who shared his bread has turned against him. But God is gracious and raises David up. By this he knows God delights in him: his enemy doesn\'t triumph. God upholds David in integrity and sets him in His presence forever. Blessed be the Lord, the God of Israel, from everlasting to everlasting. Amen and Amen.',
+    keyThemes: ['Care for the poor', 'Betrayal by friend', 'God\'s delight in His servant', 'Eternal blessing'],
+    christConnection: 'Jesus quoted this psalm regarding Judas\'s betrayal: "He who ate my bread has lifted his heel against me." Christ was betrayed but raised to glory at God\'s right hand.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -3972,6 +4304,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return ESTHER_CHAPTERS;
     case 'job':
       return JOB_CHAPTERS;
+    case 'psalms':
+      return PSALMS_CHAPTERS;
     // More books will be added
     default:
       return [];
@@ -3998,4 +4332,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'nehemiah', bookName: 'Nehemiah', chapters: NEHEMIAH_CHAPTERS },
   { bookId: 'esther', bookName: 'Esther', chapters: ESTHER_CHAPTERS },
   { bookId: 'job', bookName: 'Job', chapters: JOB_CHAPTERS },
+  { bookId: 'psalms', bookName: 'Psalms', chapters: PSALMS_CHAPTERS },
 ];
