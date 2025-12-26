@@ -4262,6 +4262,392 @@ export const PSALMS_CHAPTERS: ChapterSummary[] = [
     summary: 'Blessed is the one who considers the poor; the Lord delivers him in trouble, protects and preserves him. Enemies speak maliciously about David, hoping he dies. Even his close friend who shared his bread has turned against him. But God is gracious and raises David up. By this he knows God delights in him: his enemy doesn\'t triumph. God upholds David in integrity and sets him in His presence forever. Blessed be the Lord, the God of Israel, from everlasting to everlasting. Amen and Amen.',
     keyThemes: ['Care for the poor', 'Betrayal by friend', 'God\'s delight in His servant', 'Eternal blessing'],
     christConnection: 'Jesus quoted this psalm regarding Judas\'s betrayal: "He who ate my bread has lifted his heel against me." Christ was betrayed but raised to glory at God\'s right hand.'
+  },
+  // BOOK 2 (Psalms 42-72) - The Elohistic Psalter
+  {
+    bookId: 'psalms',
+    chapter: 42,
+    title: 'Longing for God Like a Deer',
+    summary: 'A Korahite psalm of deep spiritual longing. As a deer pants for flowing streams, so the psalmist\'s soul pants for God. Tears have been his food while enemies taunt "Where is your God?" He remembers leading processions to God\'s house. Why are you cast down, O my soul? Hope in God; I shall again praise Him. Deep calls to deep at the roar of God\'s waterfalls. By day the Lord commands His steadfast love; by night His song is with me.',
+    keyThemes: ['Spiritual thirst', 'Depression and hope', 'Remembering past worship', 'God\'s steadfast love'],
+    christConnection: 'Christ thirsted on the cross that we might drink living water. In our spiritual dryness, He remains the source of living water springing up to eternal life.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 43,
+    title: 'Send Your Light and Truth',
+    summary: 'This psalm continues Psalm 42\'s themes, likely originally one composition. The psalmist asks God to vindicate him against an ungodly nation and deceitful enemies. "Send out your light and your truth; let them lead me; let them bring me to your holy hill and to your dwelling!" Then he will go to God\'s altar with joy and praise. Again the refrain: Why are you cast down? Hope in God!',
+    keyThemes: ['Divine vindication', 'Light and truth as guides', 'Access to God\'s presence', 'Hope conquering despair'],
+    christConnection: 'Christ is the light and truth sent from the Father. He is the way to the holy mountain, our great high priest who brings us with joy into God\'s presence.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 44,
+    title: 'When God Seems Absent',
+    summary: 'A national lament recalling God\'s mighty deeds for the fathers—driving out nations by His power, not their sword. But now God has rejected and disgraced Israel, making them a byword among nations. Yet they haven\'t forgotten God\'s covenant or turned to other gods. "For your sake we are killed all day long; regarded as sheep to be slaughtered." Awake, O Lord! Why do you hide your face? Rise up; redeem us for your steadfast love!',
+    keyThemes: ['Corporate lament', 'Innocent suffering', 'Appeal to God\'s past faithfulness', 'Covenantal faithfulness'],
+    christConnection: 'Paul quotes this psalm in Romans 8: "For your sake we are killed all day long." Yet in all these things we are more than conquerors through Christ who loved us.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 45,
+    title: 'The Royal Wedding Song',
+    summary: 'A wedding psalm for the king, overflowing with praise. The king is fairer than the sons of men, grace pours from his lips. Gird your sword, mighty one; ride out victoriously for truth and meekness. Your throne, O God, is forever; you love righteousness and hate wickedness. The queen stands in gold of Ophir. Forget your people and father\'s house; the king desires your beauty. Nations will seek your favor. Your sons will be princes throughout the earth.',
+    keyThemes: ['Messianic kingship', 'Royal beauty and might', 'The bride\'s devotion', 'Eternal dynasty'],
+    christConnection: 'Hebrews 1 applies "Your throne, O God, is forever" directly to Christ. The Church is His bride, adorned in glory, called to forsake the world and belong wholly to her King.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 46,
+    title: 'God Is Our Refuge and Strength',
+    summary: 'God is our refuge and strength, a very present help in trouble. Therefore we will not fear, though the earth gives way, mountains fall into the sea, waters roar and foam. There is a river whose streams make glad the city of God. God is in her midst; she shall not be moved. Nations rage, kingdoms totter; He utters His voice, the earth melts. The Lord of hosts is with us; the God of Jacob is our fortress. Be still and know that I am God; I will be exalted among the nations.',
+    keyThemes: ['God as refuge', 'Fearlessness in chaos', 'The city of God', 'Being still before God'],
+    christConnection: 'Christ calmed the storm and stilled chaos. In Him the Church is the city of God, unshakable because God dwells in her midst through His Spirit.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 47,
+    title: 'God Is King of All the Earth',
+    summary: 'Clap your hands, all peoples! Shout to God with loud songs of joy! The Lord Most High is a great King over all the earth. He subdued peoples under Israel and chose their heritage. God has gone up with a shout, the Lord with the sound of a trumpet. Sing praises to our King! God reigns over the nations; God sits on His holy throne. The princes of the peoples gather as the people of the God of Abraham.',
+    keyThemes: ['Universal kingship', 'Joyful praise', 'God\'s ascension', 'Nations gathered'],
+    christConnection: 'This psalm prophesies Christ\'s ascension to reign over all nations. The gathering of princes as Abraham\'s people pictures Gentiles brought in through faith.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 48,
+    title: 'The City of the Great King',
+    summary: 'Great is the Lord and greatly to be praised in the city of our God, His holy mountain. Beautiful in elevation, the joy of all the earth, is Mount Zion. God has made Himself known as a fortress. Kings assembled against her but fled in terror. Let Mount Zion be glad; let the daughters of Judah rejoice because of God\'s judgments. Walk about Zion, count her towers, consider her ramparts—that you may tell the next generation that this God is our God forever.',
+    keyThemes: ['Zion\'s beauty', 'God\'s protective presence', 'Enemies routed', 'Generational testimony'],
+    christConnection: 'The heavenly Jerusalem is the city of the living God. Christ is the cornerstone of this eternal city; in Him believers are built together as God\'s dwelling place.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 49,
+    title: 'The Folly of Trusting in Wealth',
+    summary: 'Hear this, all peoples—both low and high, rich and poor! Why should I fear in times of trouble when the iniquity of those who trust their wealth surrounds me? No man can ransom another\'s life; the price is too costly. The wise die like the foolish, leaving their wealth to others. Man in his pomp will not remain; he is like the beasts that perish. But God will ransom my soul from Sheol; He will receive me. Fear not when a man becomes rich; he will take nothing when he dies.',
+    keyThemes: ['Vanity of wealth', 'Death the great equalizer', 'Redemption from Sheol', 'True security'],
+    christConnection: 'No man can ransom another—but Christ, the God-man, paid the infinite price. He ransomed souls from Sheol and receives believers into glory.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 50,
+    title: 'God\'s Lawsuit Against His People',
+    summary: 'The Mighty One, God the Lord, summons the earth. Out of Zion He shines forth. God comes to judge—not for lack of sacrifices, for He owns all cattle. He doesn\'t eat bull\'s flesh or drink goat\'s blood. Instead: offer thanksgiving and fulfill your vows; call on Me in trouble, and I will deliver. To the wicked God says: You recite my statutes but hate discipline, keep company with thieves and adulterers. Consider this, you who forget God, lest I tear you apart. True sacrifice is thanksgiving; to the one who orders his way rightly God shows salvation.',
+    keyThemes: ['True worship versus ritual', 'God as judge', 'Thanksgiving over sacrifice', 'Moral integrity required'],
+    christConnection: 'God desires mercy, not sacrifice. Christ fulfilled all righteousness and offers Himself as the one true sacrifice, calling us to lives of thankful obedience.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 51,
+    title: 'Create in Me a Clean Heart',
+    summary: 'David\'s confession after his sin with Bathsheba. Have mercy according to your steadfast love; blot out my transgressions. Wash me thoroughly; cleanse me from my sin. Against you, you only, have I sinned. Behold, I was brought forth in iniquity. You desire truth in the inward being. Purge me with hyssop; wash me whiter than snow. Hide your face from my sins. Create in me a clean heart, O God; renew a right spirit. Cast me not away; take not your Holy Spirit from me. Restore the joy of salvation. The sacrifices of God are a broken spirit.',
+    keyThemes: ['Deep repentance', 'Inner transformation', 'Joy of salvation', 'Broken and contrite heart'],
+    christConnection: 'Only through Christ\'s blood are we washed whiter than snow. He gives the new heart promised by the prophets and restores the joy of salvation to the penitent.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 52,
+    title: 'The Downfall of the Deceitful',
+    summary: 'Written when Doeg the Edomite betrayed David to Saul. Why do you boast in evil, O mighty man? Your tongue plots destruction like a sharp razor. You love evil more than good, lying more than truth. God will break you down forever, uproot you from the land of the living. The righteous will see and fear, and laugh at him: "See the man who would not make God his refuge, but trusted in his riches." But I am like a green olive tree in God\'s house. I trust in God\'s steadfast love forever.',
+    keyThemes: ['Dangerous tongue', 'False security in riches', 'Divine judgment', 'Flourishing in God\'s house'],
+    christConnection: 'Christ endured betrayal with trust in the Father. Those who trust in riches perish, but those rooted in Christ flourish like olive trees in God\'s presence.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 53,
+    title: 'The Fool Says There Is No God (Variant)',
+    summary: 'Nearly identical to Psalm 14, this psalm repeats the declaration that the fool says in his heart "There is no God." All have turned aside; none does good. Evildoers devour God\'s people like bread. But there they are in great terror where there is no terror, for God scatters the bones of those who encamp against you. Oh, that salvation for Israel would come out of Zion! When God restores the fortunes of His people, Jacob shall rejoice.',
+    keyThemes: ['Practical atheism', 'Universal corruption', 'Terror of the godless', 'Hope for restoration'],
+    christConnection: 'Paul uses these words in Romans 3 to establish universal sinfulness. Salvation has come from Zion in Christ, who restores the fortunes of His people.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 54,
+    title: 'God Is My Helper',
+    summary: 'A psalm when the Ziphites betrayed David\'s location to Saul. Save me, O God, by your name; vindicate me by your might. Hear my prayer. Strangers and ruthless men seek my life; they do not set God before themselves. Behold, God is my helper; the Lord is the upholder of my life. He will return evil to my enemies; in your faithfulness put an end to them. With a freewill offering I will sacrifice; I will give thanks to your name, for it is good. He has delivered me from every trouble.',
+    keyThemes: ['Betrayal by neighbors', 'God as helper', 'Deliverance promised', 'Thankful sacrifice'],
+    christConnection: 'Christ was betrayed by those close to Him but trusted in the Father. God upholds those who belong to Christ and delivers them from all their enemies.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 55,
+    title: 'Betrayed by a Close Friend',
+    summary: 'Give ear to my prayer; hide not from my plea. I am restless and distraught by the enemy\'s oppression. My heart is in anguish; terrors of death have fallen on me. "Oh, that I had wings like a dove! I would fly away and be at rest." Violence and strife fill the city. But it is not an enemy who reproaches me—it is you, my equal, my companion, my familiar friend. We walked in the house of God together. Cast your burden on the Lord; He will sustain you. But God will bring the treacherous down to the pit.',
+    keyThemes: ['Intimate betrayal', 'Longing to escape', 'City corruption', 'Casting burdens on God'],
+    christConnection: 'Christ experienced this betrayal in Gethsemane with Judas\'s kiss. He invites us to cast our burdens on Him, for He cares for us and sustains the weary.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 56,
+    title: 'In God I Trust; I Shall Not Fear',
+    summary: 'When the Philistines seized David in Gath. Be gracious to me, for man tramples on me. All day long attackers oppress me. When I am afraid, I put my trust in you. In God, whose word I praise, I trust and am not afraid. What can flesh do to me? My enemies stir up strife; they lurk and watch. Record my tossings; put my tears in your bottle. When I call, my enemies turn back—this I know, that God is for me. I will render thank offerings, for you have delivered my soul from death, my feet from falling.',
+    keyThemes: ['Fear turned to trust', 'God\'s word praised', 'Tears recorded', 'Deliverance from death'],
+    christConnection: 'Christ faced human opposition without fear because He trusted the Father. "If God is for us, who can be against us?" (Romans 8). Our tears are precious to God.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 57,
+    title: 'Be Exalted, O God',
+    summary: 'When David fled from Saul into the cave. Be merciful to me, for in you my soul takes refuge; in the shadow of your wings I take refuge till the storms pass. I cry out to God Most High, who fulfills His purpose for me. My soul is in the midst of lions; they set a net for my steps. My heart is steadfast, O God. Awake, my glory! Awake, O harp and lyre! I will awake the dawn. I will give thanks among the peoples. Your steadfast love reaches to the heavens. Be exalted, O God, above the heavens! Let your glory be over all the earth.',
+    keyThemes: ['Refuge under God\'s wings', 'Steadfast heart', 'Praise amid peril', 'God\'s universal glory'],
+    christConnection: 'Christ gathers His people under His wings like a hen gathers her chicks. From darkness and danger, He arose to eternal morning and invites us to share His exaltation.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 58,
+    title: 'Surely There Is a God Who Judges',
+    summary: 'Do you rulers decree what is right? Do you judge uprightly? No, you devise wrongs; your hands deal out violence. The wicked go astray from birth; they have venom like a serpent, like the deaf cobra that stops its ears. O God, break their teeth in their mouths! Let them vanish like water that runs away. Let them be like the snail that dissolves, the stillborn child that never sees the sun. Mankind will say, "Surely there is a reward for the righteous; surely there is a God who judges on earth."',
+    keyThemes: ['Unjust rulers', 'Serpent-like wickedness', 'Divine judgment', 'God as earthly judge'],
+    christConnection: 'Christ is the righteous judge who will judge the living and the dead. He breaks the power of the ancient serpent and vindicates the righteous in the last day.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 59,
+    title: 'My God Will Meet Me',
+    summary: 'When Saul sent men to watch David\'s house to kill him. Deliver me from my enemies, O God. Look, they lie in wait for my life; fierce men stir up strife against me—not for my transgression or sin. Awake to help me; see! Each evening they return, howling like dogs, prowling the city. But you, O Lord, laugh at them. My strength, I will watch for you. My God in His steadfast love will meet me. Scatter them by your power. For the sin of their mouths, let them be trapped. I will sing aloud of your steadfast love in the morning.',
+    keyThemes: ['Surrounded by enemies', 'God laughs at plotters', 'Morning deliverance', 'Singing of steadfast love'],
+    christConnection: 'Christ was watched and hunted by those who sought His life, yet He trusted in the Father\'s deliverance. Resurrection morning vindicated His trust.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 60,
+    title: 'With God We Shall Do Valiantly',
+    summary: 'After David\'s battles in the northeast. O God, you have rejected us, broken our defenses, been angry—restore us! You have made the land quake; heal its breaches. You have made your people see hard things. But you have set up a banner for those who fear you. That your beloved ones may be delivered, save with your right hand! God has spoken in His sanctuary: "I will divide Shechem, allot the Valley of Succoth. Gilead is mine, Manasseh mine..." Give us help against the foe. With God we shall do valiantly; He will tread down our foes.',
+    keyThemes: ['National setback', 'God\'s sovereignty over nations', 'Prayer for restoration', 'Victory through God'],
+    christConnection: 'All nations are Christ\'s inheritance. He has won the victory and leads His people in triumph. Our valor comes not from ourselves but from Him who has overcome the world.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 61,
+    title: 'Lead Me to the Rock Higher Than I',
+    summary: 'Hear my cry, O God, listen to my prayer. From the end of the earth I call when my heart is faint. Lead me to the rock that is higher than I, for you have been my refuge, a strong tower against the enemy. Let me dwell in your tent forever; let me take refuge under the shelter of your wings. For you, O God, have heard my vows; you have given me the heritage of those who fear your name. Prolong the king\'s life; let him sit enthroned forever before God.',
+    keyThemes: ['Calling from afar', 'Rock of refuge', 'Dwelling in God\'s tent', 'Prayer for the king'],
+    christConnection: 'Christ is the Rock higher than all our circumstances. He is our eternal dwelling place and shelter. His kingdom endures forever before God.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 62,
+    title: 'For God Alone My Soul Waits',
+    summary: 'For God alone my soul waits in silence; from Him comes my salvation. He alone is my rock and salvation, my fortress; I shall not be greatly shaken. How long will you attack a man to batter him? You are like a leaning wall, a tottering fence. They only plan to bring him down; they take pleasure in lies. For God alone, O my soul, wait in silence. Trust in Him at all times, O people; pour out your heart before Him. Put no trust in extortion or robbery; if riches increase, set not your heart on them. Once God has spoken; twice have I heard this: that power belongs to God, and that to you, O Lord, belongs steadfast love.',
+    keyThemes: ['Silent waiting on God', 'Rock of salvation', 'Not trusting riches', 'Power and love belong to God'],
+    christConnection: 'Christ waited in perfect trust on the Father, even unto death. All power and steadfast love are revealed in Him, our rock and salvation.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 63,
+    title: 'My Soul Thirsts for You',
+    summary: 'A psalm of David in the wilderness of Judah. O God, you are my God; earnestly I seek you. My soul thirsts for you; my flesh faints for you, as in a dry and weary land where there is no water. So I have looked upon you in the sanctuary, seeing your power and glory. Because your steadfast love is better than life, my lips will praise you. I will bless you as long as I live. My soul is satisfied as with fat and rich food. I remember you on my bed and meditate on you in the night watches. For you have been my help, and in the shadow of your wings I sing for joy. My soul clings to you; your right hand upholds me.',
+    keyThemes: ['Earnest seeking of God', 'Thirsting for God', 'Satisfaction in God', 'Clinging to God'],
+    christConnection: 'Christ seeks us and we seek Him. His love is better than life itself. In Him our deepest thirsts are satisfied, and His right hand upholds us forever.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 64,
+    title: 'Hide Me from the Wicked',
+    summary: 'Hear my voice, O God, in my complaint; preserve my life from dread of the enemy. Hide me from the secret plots of the wicked, from the throng of evildoers who whet their tongues like swords, aiming bitter words like arrows, shooting suddenly at the blameless without fear. They hold fast to their evil purpose; they talk of laying snares. "Who can see them?" they say. But God shoots His arrow at them suddenly, and they are brought down by their own tongues. All mankind fears; they tell what God has brought about. The righteous rejoice in the Lord and take refuge in Him.',
+    keyThemes: ['Protection from plots', 'Sword-like tongues', 'Divine counterattack', 'Righteous rejoicing'],
+    christConnection: 'Christ endured the bitter arrows of accusation and conspiracy. God vindicated Him and will vindicate all who take refuge in the Righteous One.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 65,
+    title: 'God Crowns the Year with Bounty',
+    summary: 'Praise is due to you, O God, in Zion. O you who hear prayer, to you shall all flesh come. When iniquities prevail against me, you atone for our transgressions. Blessed is the one you choose and bring near to dwell in your courts! We shall be satisfied with the goodness of your house. By awesome deeds you answer us, O God of our salvation, the hope of all the ends of the earth. You establish the mountains by your strength. You still the roaring seas and the tumult of the peoples. You visit the earth and water it; you crown the year with your bounty.',
+    keyThemes: ['Prayer answered', 'Atonement for sin', 'Creation\'s praise', 'Abundant harvest'],
+    christConnection: 'Christ atones for transgressions and brings us near to dwell in God\'s presence. He stills the storms of nature and nations. Through Him, every spiritual blessing is ours.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 66,
+    title: 'Come and See What God Has Done',
+    summary: 'Shout for joy to God, all the earth! Sing the glory of His name. Say to God, "How awesome are your deeds!" Come and see what God has done: He turned the sea into dry land; they passed through the river on foot. He rules by His might forever. Bless our God, O peoples; He has kept our soul among the living. You tested us, O God; we went through fire and water, yet you brought us to a place of abundance. I will come with burnt offerings to fulfill my vows. Come and hear, all who fear God, and I will tell what He has done for my soul. Blessed be God, who has not rejected my prayer.',
+    keyThemes: ['Universal call to praise', 'Remembering the Exodus', 'Tested through fire', 'Personal testimony'],
+    christConnection: 'The greater Exodus from sin is through Christ\'s blood. He leads us through fire and water into the abundance of eternal life. In Him our prayers are not rejected.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 67,
+    title: 'Let the Nations Be Glad',
+    summary: 'May God be gracious to us and bless us and make His face to shine upon us, that your way may be known on earth, your saving power among all nations. Let the peoples praise you, O God; let all the peoples praise you! Let the nations be glad and sing for joy, for you judge the peoples with equity and guide the nations upon earth. Let the peoples praise you, O God; let all the peoples praise you! The earth has yielded its increase; God, our God, shall bless us. God shall bless us; let all the ends of the earth fear Him!',
+    keyThemes: ['Aaronic blessing extended', 'Missionary vision', 'Nations praising God', 'Earth\'s harvest'],
+    christConnection: 'The blessing of Israel extends to all nations through Christ. He is the way known on earth, the saving power among all peoples, the judge who guides with equity.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 68,
+    title: 'God Scatters His Enemies',
+    summary: 'God shall arise, His enemies be scattered! As smoke is driven away, so drive them away. But the righteous shall be glad. Sing to God! Father of the fatherless, defender of widows. God gives the desolate a home; He leads out prisoners to prosperity. O God, when you went out before your people through the wilderness, the earth quaked. You ascended on high, leading a host of captives, receiving gifts among men. Blessed be the Lord, who daily bears us up. Our God is a God of salvation. The Lord gives the word; great is the company who proclaim it. Sing to God, O kingdoms of the earth!',
+    keyThemes: ['God arising in triumph', 'Defender of the vulnerable', 'Ascension with captives', 'Universal proclamation'],
+    christConnection: 'Paul applies the ascension passage to Christ in Ephesians 4: He ascended on high, led captives free, and gave gifts to men. Christ is the warrior-king who triumphs over all enemies.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 69,
+    title: 'Save Me, for the Waters Have Come Up to My Neck',
+    summary: 'Save me, O God! The waters have come up to my neck. I sink in deep mire. I am weary with crying; my throat is parched. Those who hate me without cause outnumber the hairs of my head. Zeal for your house has consumed me, and the reproaches of those who reproach you have fallen on me. They gave me poison for food, and for my thirst they gave me sour wine. Let their table become a snare. Pour out your indignation on them. I am afflicted and in pain; let your salvation set me on high. I will praise God with song; I will magnify Him with thanksgiving.',
+    keyThemes: ['Overwhelming affliction', 'Zeal for God\'s house', 'Persecution for righteousness', 'Vindication promised'],
+    christConnection: 'This psalm is quoted more in the NT than any except Psalm 22. "Zeal for your house" (John 2), the sour wine on the cross—Christ fulfilled this suffering servant psalm completely.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 70,
+    title: 'Hasten to Help Me, O Lord',
+    summary: 'Make haste, O God, to deliver me! O Lord, make haste to help me! Let those who seek my life be put to shame. Let those who say "Aha, Aha!" be turned back in shame. But may all who seek you rejoice and be glad in you! May those who love your salvation say evermore, "God is great!" But I am poor and needy; hasten to me, O God! You are my help and my deliverer; O Lord, do not delay!',
+    keyThemes: ['Urgent prayer', 'Shame on mockers', 'Joy for seekers', 'God as deliverer'],
+    christConnection: 'Though Christ prayed this urgency, He submitted to the Father\'s timing. Yet His deliverance came—resurrection vindicated Him. We too wait for His perfect timing.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 71,
+    title: 'Do Not Cast Me Off in Old Age',
+    summary: 'In you, O Lord, I take refuge. Be a rock of refuge for me. Rescue me from the hand of the wicked. You are my hope, O Lord, my trust from my youth. Upon you I have leaned from birth. Do not cast me off in old age; forsake me not when my strength is spent. My enemies speak against me; they say God has forsaken him. O God, be not far from me! My mouth will tell of your righteous acts all day long. You who have made me see many troubles will revive me again. My lips will shout for joy when I sing praises to you, my soul also, which you have redeemed.',
+    keyThemes: ['Lifelong trust', 'Fear of abandonment in age', 'Testimony across generations', 'Revival and redemption'],
+    christConnection: 'Christ trusted the Father from youth to death. He was not forsaken but raised to eternal life. He revives all who trust in Him, from youth to old age.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 72,
+    title: 'The Reign of the Righteous King',
+    summary: 'A psalm of Solomon, closing Book 2. Give the king your justice, O God! May he judge your people with righteousness. May he defend the cause of the poor and crush the oppressor. May he live while the sun endures! May he be like rain on mown grass. In his days may the righteous flourish! May he have dominion from sea to sea, to the ends of the earth. May all kings fall down before him, all nations serve him. For he delivers the needy, the poor, the one who has no helper. May his name endure forever; may all nations be blessed in him! Blessed be the Lord, the God of Israel, who alone does wondrous things.',
+    keyThemes: ['Royal justice', 'Care for the poor', 'Universal dominion', 'Blessing to all nations'],
+    christConnection: 'This messianic psalm describes Christ\'s eternal kingdom. He judges righteously, defends the oppressed, reigns from sea to sea, and in Him all nations are blessed—fulfilling the Abrahamic promise.'
+  },
+  // BOOK 3 (Psalms 73-89) - The Asaphite Collection
+  {
+    bookId: 'psalms',
+    chapter: 73,
+    title: 'The Prosperity of the Wicked',
+    summary: 'Truly God is good to Israel, to those pure in heart. But as for me, my feet had almost stumbled when I saw the prosperity of the wicked. They have no pangs; their bodies are fat. They mock and speak with malice; they set their mouths against the heavens. They say, "How can God know?" All in vain have I kept my heart clean? I was brutish until I went into the sanctuary of God; then I discerned their end. Truly you set them in slippery places. Whom have I in heaven but you? My flesh and heart may fail, but God is the strength of my heart and my portion forever.',
+    keyThemes: ['Theodicy and envy', 'Sanctuary revelation', 'Final judgment', 'God as eternal portion'],
+    christConnection: 'Christ entered the true sanctuary and revealed the final destiny of all. In Him we have an inheritance that never perishes. He is our portion forever.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 74,
+    title: 'Why Does God Reject Forever?',
+    summary: 'O God, why do you cast off forever? Remember your congregation, which you have purchased of old. Direct your steps to the perpetual ruins—the enemy has destroyed everything in the sanctuary! They set up their own signs for signs. They hacked all the carved wood with axes. They set your sanctuary on fire, profaned your name\'s dwelling place. We do not see our signs; there is no longer any prophet. How long, O God? Remember, you crushed Leviathan. Yours is the day, yours the night. Do not forget the life of your poor forever. Have regard for the covenant!',
+    keyThemes: ['Temple destruction', 'No prophetic voice', 'Appeal to covenant', 'Creator\'s power'],
+    christConnection: 'Christ\'s body, the true temple, was destroyed and raised in three days. He crushed the dragon and established a new covenant that can never be profaned.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 75,
+    title: 'God Is the Judge',
+    summary: 'We give thanks to you, O God. Your wondrous deeds declare that your name is near. "At the set time that I appoint I will judge with equity. When the earth totters with its inhabitants, it is I who keep steady its pillars." I say to the boastful, "Do not boast," and to the wicked, "Do not lift up your horn." For not from the east or west or wilderness comes lifting up, but God is the judge: He puts down one and lifts up another. In the Lord\'s hand is a cup with foaming wine; all the wicked shall drain it to the dregs. But I will declare forever; I will sing praises to the God of Jacob.',
+    keyThemes: ['God\'s appointed time', 'Judgment belongs to God', 'Cup of wrath', 'Humbling the proud'],
+    christConnection: 'Christ drank the cup of God\'s wrath that we deserved. He is the appointed judge who will put down the proud and lift up the humble at His set time.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 76,
+    title: 'God Is Glorious in Victory',
+    summary: 'In Judah God is known; His name is great in Israel. His abode has been established in Salem, His dwelling place in Zion. There He broke the flashing arrows, the shield, sword, and weapons of war. Glorious are you, more majestic than the mountains. The stouthearted were stripped of spoil; they sank into sleep. At your rebuke, O God of Jacob, both rider and horse lay stunned. But you, you are to be feared! Who can stand before you when once your anger is roused? From the heavens you uttered judgment; the earth feared and was still when God arose to save all the humble of the earth.',
+    keyThemes: ['God known in Zion', 'Weapons destroyed', 'Divine terror', 'Saving the humble'],
+    christConnection: 'Christ disarmed principalities and powers at the cross. At His return, every enemy will be stunned, and He will save all the humble who trusted in Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 77,
+    title: 'Remembering God\'s Works of Old',
+    summary: 'I cry aloud to God. In the day of my trouble I seek the Lord; my soul refuses to be comforted. Has God forgotten to be gracious? Has He in anger shut up His compassion? Then I said, "I will appeal to the years of the right hand of the Most High. I will remember the deeds of the Lord; I will remember your wonders of old." What god is great like our God? You are the God who works wonders. You with your arm redeemed your people, the children of Jacob and Joseph. The waters saw you and writhed; the deep trembled. Your way was through the sea, your path through mighty waters, yet your footprints were unseen. You led your people like a flock by the hand of Moses and Aaron.',
+    keyThemes: ['Spiritual desolation', 'Remembering God\'s deeds', 'The Exodus recalled', 'Led like a flock'],
+    christConnection: 'When darkness overwhelms, we remember Christ\'s mighty works—above all, His death and resurrection. He is our Good Shepherd who leads us through the waters to safety.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 78,
+    title: 'Learning from Israel\'s History',
+    summary: 'Give ear, O my people, to my teaching. I will utter dark sayings from of old—things our fathers told us. We will tell the coming generation the glorious deeds of the Lord. He commanded the clouds above and opened the doors of heaven; He rained manna. Yet they sinned still more; they did not believe in His wondrous works. When He killed them, they sought Him. But they flattered Him with their mouths; their hearts were not steadfast. He remembered they were but flesh, a wind that passes. They tested God in the wilderness. He turned their rivers to blood, sent plagues. Yet He led out His people like sheep. He chose David to shepherd Jacob.',
+    keyThemes: ['Historical instruction', 'Repeated rebellion', 'Divine patience', 'David chosen as shepherd'],
+    christConnection: 'Christ is the greater David, the true Shepherd chosen to lead God\'s flock. He gives bread from heaven—His own body—and His grace exceeds all Israel\'s failures.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 79,
+    title: 'How Long, O Lord?',
+    summary: 'O God, the nations have invaded your inheritance; they have defiled your holy temple. They have given the bodies of your servants to the birds of the heavens. Blood has been poured out like water around Jerusalem. We have become a taunt to our neighbors. How long, O Lord? Will you be angry forever? Pour out your anger on the nations that do not know you. Do not remember against us our former iniquities. Help us, O God of our salvation, for the glory of your name. Let the groaning of the prisoner come before you. Repay our neighbors sevenfold. Then we, the sheep of your pasture, will give thanks to you forever.',
+    keyThemes: ['National devastation', 'Appeal to God\'s glory', 'Prayer for vengeance', 'God\'s flock'],
+    christConnection: 'Christ entered into the groaning of prisoners and captives. He endured the wrath we deserved, and through Him we become the flock who give thanks forever.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 80,
+    title: 'Restore Us, O God',
+    summary: 'Give ear, O Shepherd of Israel, you who lead Joseph like a flock. Stir up your might; come to save us! Restore us, O God; let your face shine, that we may be saved. O Lord God of hosts, how long will you be angry with your people\'s prayers? You brought a vine out of Egypt; you planted it, and it took deep root. Why have you broken down its walls? The boar from the forest ravages it. Turn again, O God of hosts! Have regard for this vine. But let your hand be on the man of your right hand, the son of man whom you have made strong for yourself. We will not turn back from you.',
+    keyThemes: ['Shepherd of Israel', 'Vine from Egypt', 'National suffering', 'Son of Man'],
+    christConnection: 'Christ is the true vine and the man at God\'s right hand. He is the Son of Man made strong for salvation. Through Him the face of God shines on us.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 81,
+    title: 'If My People Would Listen',
+    summary: 'Sing aloud to God our strength! Raise a song; sound the tambourine. Blow the trumpet at the new moon, at the full moon, on our feast day. For it is a statute for Israel, a rule of the God of Jacob. I hear a language I had not known: "I relieved your shoulder of the burden. You called in distress and I rescued you. Hear, O my people, while I admonish you! There shall be no strange god among you. But my people did not listen to my voice. So I gave them over to their stubborn hearts. Oh, that my people would listen to me! I would soon subdue their enemies. I would feed them with the finest wheat; with honey from the rock I would satisfy them."',
+    keyThemes: ['Festival celebration', 'Divine admonition', 'Israel\'s stubbornness', 'God\'s longing'],
+    christConnection: 'Christ is the honey from the rock, the finest wheat. He longs for His people to listen. Those who come to Him will never hunger, and He satisfies with living bread.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 82,
+    title: 'God Judges the Judges',
+    summary: 'God has taken His place in the divine council; in the midst of the gods He holds judgment. "How long will you judge unjustly and show partiality to the wicked? Give justice to the weak and the fatherless; maintain the right of the afflicted. Rescue the weak and needy; deliver them from the hand of the wicked." They have neither knowledge nor understanding; they walk about in darkness; all the foundations of the earth are shaken. I said, "You are gods, sons of the Most High, all of you; nevertheless, like men you shall die, and fall like any prince." Arise, O God, judge the earth; for you shall inherit all the nations!',
+    keyThemes: ['Divine council', 'Unjust rulers judged', 'Care for the vulnerable', 'God inheriting nations'],
+    christConnection: 'Jesus quoted this psalm to defend His deity. The unjust "gods" of this world will fall, but Christ, the true Son of the Most High, judges righteously and inherits all nations.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 83,
+    title: 'Against the Conspiracy of Nations',
+    summary: 'O God, do not keep silence! Your enemies make an uproar; those who hate you have raised their heads. They lay crafty plans against your people and conspire against your treasured ones. They say, "Come, let us wipe them out as a nation; let the name of Israel be remembered no more." Edom, Ishmaelites, Moab, Philistia, Assyria—they are all allied together. Do to them as you did to Midian, as to Sisera at the river Kishon. Let them be put to shame and dismayed forever; let them perish in disgrace, that they may know that you alone, whose name is the Lord, are the Most High over all the earth.',
+    keyThemes: ['Coalition against God\'s people', 'Prayer for divine intervention', 'Historical precedents recalled', 'Universal acknowledgment of God'],
+    christConnection: 'Nations conspire against the Lord and His Anointed (Psalm 2), but Christ is victorious over every enemy. All will acknowledge Him as Most High over all the earth.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 84,
+    title: 'How Lovely Is Your Dwelling Place',
+    summary: 'How lovely is your dwelling place, O Lord of hosts! My soul longs, yes, faints for the courts of the Lord. Even the sparrow finds a home, and the swallow a nest beside your altars. Blessed are those who dwell in your house, ever singing your praise. Blessed are those whose strength is in you, in whose heart are the highways to Zion. As they go through the Valley of Baca, they make it a place of springs. They go from strength to strength; each one appears before God in Zion. A day in your courts is better than a thousand elsewhere. I would rather be a doorkeeper in the house of my God than dwell in the tents of wickedness.',
+    keyThemes: ['Longing for God\'s house', 'Pilgrimage', 'Valley transformed', 'One day in God\'s courts'],
+    christConnection: 'Christ is the way to the Father\'s house. He transforms our valleys of weeping into springs of life. In Him we go from strength to strength until we see God face to face.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 85,
+    title: 'Revive Us Again',
+    summary: 'Lord, you were favorable to your land; you restored the fortunes of Jacob. You forgave the iniquity of your people; you covered all their sin. You withdrew all your wrath. Restore us again, O God of our salvation! Will you be angry with us forever? Will you not revive us again, that your people may rejoice in you? Show us your steadfast love, O Lord, and grant us your salvation. Let me hear what God the Lord will speak, for He will speak peace to His people. Steadfast love and faithfulness meet; righteousness and peace kiss each other. Faithfulness springs up from the ground, and righteousness looks down from the sky.',
+    keyThemes: ['Past restoration recalled', 'Prayer for revival', 'Love and faithfulness meet', 'Righteousness and peace'],
+    christConnection: 'In Christ, steadfast love and faithfulness meet; righteousness and peace kiss. He is the ground from which faithfulness springs and the heaven from which righteousness comes down.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 86,
+    title: 'Teach Me Your Way, O Lord',
+    summary: 'Incline your ear, O Lord, and answer me, for I am poor and needy. Preserve my life, for I am godly. You, O Lord, are a God merciful and gracious, slow to anger, abounding in steadfast love. Gladden the soul of your servant, for to you, O Lord, I lift up my soul. There is none like you among the gods, O Lord, nor are there any works like yours. All nations will come and worship before you, for you alone are God. Teach me your way, O Lord, that I may walk in your truth; unite my heart to fear your name. You have delivered my soul from the depths of Sheol.',
+    keyThemes: ['Prayer of the needy', 'God\'s mercy and grace', 'Nations worshiping', 'United heart'],
+    christConnection: 'Christ teaches us the Father\'s way. He unites our divided hearts by His Spirit. Through Him all nations will come and worship before the Lord.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 87,
+    title: 'Glorious Things of Zion',
+    summary: 'On the holy mount stands the city He founded; the Lord loves the gates of Zion more than all the dwellings of Jacob. Glorious things of you are spoken, O city of God. Among those who know me I mention Rahab and Babylon; behold, Philistia and Tyre, with Cush—"This one was born there," they say. And of Zion it shall be said, "This one and that one were born in her"; for the Most High Himself will establish her. The Lord records as He registers the peoples, "This one was born there." Singers and dancers alike say, "All my springs are in you."',
+    keyThemes: ['Zion beloved by God', 'Nations registered as citizens', 'Universal birthplace', 'Springs of life'],
+    christConnection: 'The heavenly Jerusalem welcomes people from every nation, registered as citizens through the new birth in Christ. All our springs of life are found in Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 88,
+    title: 'The Darkest Psalm',
+    summary: 'O Lord, God of my salvation, I cry out day and night before you. My soul is full of troubles; my life draws near to Sheol. I am counted among those who go down to the pit. You have put me in the depths of the pit, in darkness, in the deep. Your wrath lies heavy on me. You have caused my companions to shun me. I am shut in so I cannot escape. My eye grows dim through sorrow. I call to you, O Lord; every day I stretch out my hands to you. Do you work wonders for the dead? Are your steadfast love and faithfulness declared in the grave? I cry to you in the morning; why do you cast off my soul? Darkness is my only companion.',
+    keyThemes: ['Unrelieved suffering', 'Divine wrath felt', 'Abandonment', 'No resolution'],
+    christConnection: 'This psalm of absolute darkness finds fulfillment in Christ\'s cry of dereliction: "My God, why have you forsaken me?" He descended into our deepest darkness so that we never face it alone.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 89,
+    title: 'The Davidic Covenant Questioned',
+    summary: 'I will sing of the steadfast love of the Lord forever. You said, "I have made a covenant with my chosen one, sworn to David my servant: I will establish your offspring forever, build your throne for all generations." Who is like the Lord? You rule the raging sea; you crushed Rahab. The heavens and earth are yours. You have a mighty arm. Righteousness and justice are the foundation of your throne. You said, "I have found David my servant; with my holy oil I have anointed him. My steadfast love I will keep for him forever; my covenant will stand firm." But now you have cast off and rejected your anointed. How long, O Lord? Where is your steadfast love of old?',
+    keyThemes: ['Davidic covenant', 'God\'s cosmic power', 'Anointed king', 'Apparent covenant failure'],
+    christConnection: 'The apparent failure of David\'s line is resolved in Christ, the anointed Son of David whose throne is truly eternal. What seemed broken is perfectly fulfilled in Him.'
   }
 ];
 
