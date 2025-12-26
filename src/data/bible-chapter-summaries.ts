@@ -4648,6 +4648,496 @@ export const PSALMS_CHAPTERS: ChapterSummary[] = [
     summary: 'I will sing of the steadfast love of the Lord forever. You said, "I have made a covenant with my chosen one, sworn to David my servant: I will establish your offspring forever, build your throne for all generations." Who is like the Lord? You rule the raging sea; you crushed Rahab. The heavens and earth are yours. You have a mighty arm. Righteousness and justice are the foundation of your throne. You said, "I have found David my servant; with my holy oil I have anointed him. My steadfast love I will keep for him forever; my covenant will stand firm." But now you have cast off and rejected your anointed. How long, O Lord? Where is your steadfast love of old?',
     keyThemes: ['Davidic covenant', 'God\'s cosmic power', 'Anointed king', 'Apparent covenant failure'],
     christConnection: 'The apparent failure of David\'s line is resolved in Christ, the anointed Son of David whose throne is truly eternal. What seemed broken is perfectly fulfilled in Him.'
+  },
+  // BOOK 4 (Psalms 90-106) - God's Reign
+  {
+    bookId: 'psalms',
+    chapter: 90,
+    title: 'A Prayer of Moses',
+    summary: 'Lord, you have been our dwelling place in all generations. Before the mountains were born, from everlasting to everlasting you are God. You turn man to dust; you sweep them away like a dream. A thousand years in your sight are but as yesterday. We are consumed by your anger; our secret sins are before your face. Our years come to an end like a sigh—seventy or eighty if we have strength. Teach us to number our days that we may get a heart of wisdom. Satisfy us in the morning with your steadfast love. Establish the work of our hands.',
+    keyThemes: ['God\'s eternity', 'Human frailty', 'Numbering our days', 'Wisdom for life'],
+    christConnection: 'Christ, the eternal Word, became flesh subject to our fleeting days. Through Him we gain eternal life and our works endure beyond the grave.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 91,
+    title: 'Under the Shadow of the Almighty',
+    summary: 'He who dwells in the shelter of the Most High will abide in the shadow of the Almighty. I will say to the Lord, "My refuge and my fortress, my God, in whom I trust." He will deliver you from the snare, cover you with His pinions. You will not fear the terror of the night nor the pestilence that stalks in darkness. A thousand may fall at your side, but it will not come near you. Because he holds fast to me in love, I will deliver him. "He will call upon me, and I will answer him; I will be with him in trouble. With long life I will satisfy him and show him my salvation."',
+    keyThemes: ['Divine protection', 'Fearlessness', 'Angelic guardianship', 'God\'s presence in trouble'],
+    christConnection: 'Satan quoted this psalm to tempt Jesus; Christ trusted the Father without testing Him. Believers are protected in Christ—not from all harm, but through all harm to eternal life.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 92,
+    title: 'A Song for the Sabbath',
+    summary: 'It is good to give thanks to the Lord, to sing praises to your name, O Most High; to declare your steadfast love in the morning and your faithfulness by night. For you, O Lord, have made me glad by your work. How great are your works! Your thoughts are very deep. The stupid man cannot know them. Though the wicked sprout like grass, they will be destroyed forever. But the righteous flourish like the palm tree; they grow like a cedar in Lebanon. They still bear fruit in old age; they are ever full of sap and green, to declare that the Lord is upright.',
+    keyThemes: ['Sabbath praise', 'God\'s works and thoughts', 'Wicked versus righteous', 'Flourishing in old age'],
+    christConnection: 'Christ is our Sabbath rest. In Him we flourish eternally, bearing fruit even in old age. His works give us cause for everlasting praise.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 93,
+    title: 'The Lord Reigns',
+    summary: 'The Lord reigns; He is robed in majesty. The Lord is robed; He has put on strength as His belt. Yes, the world is established; it shall never be moved. Your throne is established from of old; you are from everlasting. The floods have lifted up their voice; the floods lift up their roaring. Mightier than the thunders of many waters, mightier than the waves of the sea, the Lord on high is mighty! Your decrees are very trustworthy; holiness befits your house, O Lord, forevermore.',
+    keyThemes: ['Divine kingship', 'Creation established', 'Mightier than chaos', 'Holy decrees'],
+    christConnection: 'Christ is the King who reigns over all chaotic forces. He calmed the sea, demonstrating power greater than nature itself. His word is the trustworthy decree.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 94,
+    title: 'The God of Vengeance',
+    summary: 'O Lord, God of vengeance, shine forth! Rise up, O judge of the earth; repay to the proud what they deserve! How long shall the wicked exult? They kill the widow, the sojourner, the fatherless. They say, "The Lord does not see." Understand, O dullest of people! He who planted the ear, does He not hear? The Lord knows the thoughts of man, that they are but a breath. Blessed is the man whom you discipline. For the Lord will not forsake His people. When I thought "My foot slips," your steadfast love held me up. When anxious thoughts multiply within me, your consolations cheer my soul.',
+    keyThemes: ['Divine vengeance', 'Oppression of the vulnerable', 'God sees and hears', 'Consolation in anxiety'],
+    christConnection: 'Vengeance belongs to the Lord. Christ the judge sees all injustice and will repay. Meanwhile, His consolations cheer our souls through every trial.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 95,
+    title: 'Today, If You Hear His Voice',
+    summary: 'Oh come, let us sing to the Lord; let us make a joyful noise to the rock of our salvation! Let us come before His presence with thanksgiving. For the Lord is a great God, a great King above all gods. In His hand are the depths of the earth; the heights of the mountains are His also. The sea is His, for He made it. Oh come, let us worship and bow down; let us kneel before the Lord our Maker! For He is our God, and we are the people of His pasture. Today, if you hear His voice, do not harden your hearts as at Meribah, in the wilderness.',
+    keyThemes: ['Joyful worship', 'Creator and King', 'Shepherd and flock', 'Warning against hardness'],
+    christConnection: 'Hebrews extensively quotes this psalm: Today hear His voice. Christ offers rest that Israel never entered. We must not harden our hearts against the gospel.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 96,
+    title: 'Sing a New Song',
+    summary: 'Oh sing to the Lord a new song; sing to the Lord, all the earth! Sing to the Lord, bless His name; tell of His salvation from day to day. Declare His glory among the nations, His marvelous works among all peoples! For great is the Lord, and greatly to be praised; He is to be feared above all gods. All the gods of the peoples are worthless idols, but the Lord made the heavens. Splendor and majesty are before Him; strength and beauty are in His sanctuary. Ascribe to the Lord glory and strength. Worship in holy attire. Say among the nations, "The Lord reigns!" Let the heavens be glad and the earth rejoice; let the sea roar and all that fills it. For He comes, He comes to judge the earth with righteousness.',
+    keyThemes: ['New song', 'Global proclamation', 'Idols versus the Creator', 'Coming judgment'],
+    christConnection: 'The new song is sung because of Christ\'s salvation. He is coming to judge the earth with righteousness. All creation awaits and celebrates His return.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 97,
+    title: 'The Lord Reigns in Righteousness',
+    summary: 'The Lord reigns, let the earth rejoice! Let the many coastlands be glad! Clouds and thick darkness are all around Him; righteousness and justice are the foundation of His throne. Fire goes before Him and burns up His adversaries. His lightnings light up the world; the earth sees and trembles. The mountains melt like wax before the Lord. The heavens proclaim His righteousness; all peoples see His glory. All worshipers of images are put to shame. Zion hears and is glad. For you, O Lord, are most high over all the earth. Light is sown for the righteous, and joy for the upright in heart.',
+    keyThemes: ['God reigns', 'Theophany imagery', 'Idolatry shamed', 'Joy for the righteous'],
+    christConnection: 'Christ\'s reign brings judgment and joy. Before Him all idols fail. Light is sown for those in Christ—the light of the world who scatters darkness.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 98,
+    title: 'The Lord Has Made Known His Salvation',
+    summary: 'Oh sing to the Lord a new song, for He has done marvelous things! His right hand and His holy arm have worked salvation for Him. The Lord has made known His salvation; He has revealed His righteousness in the sight of the nations. He has remembered His steadfast love to the house of Israel. All the ends of the earth have seen the salvation of our God. Make a joyful noise to the Lord, all the earth; break forth into joyous song! Sing praises with the lyre! Let the sea roar, and all that fills it. Let the rivers clap their hands; let the hills sing for joy together before the Lord, for He comes to judge the earth.',
+    keyThemes: ['New song of salvation', 'God\'s arm brings victory', 'All nations see', 'Creation celebrates'],
+    christConnection: 'The salvation made known is fulfilled in Christ. God\'s right hand and holy arm—Christ Himself—worked redemption. All creation celebrates this cosmic victory.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 99,
+    title: 'Holy Is the Lord',
+    summary: 'The Lord reigns; let the peoples tremble! He sits enthroned upon the cherubim; let the earth quake! The Lord is great in Zion; He is exalted over all the peoples. Let them praise your great and awesome name! Holy is He! The King in His might loves justice. You have established equity; you have executed justice and righteousness in Jacob. Exalt the Lord our God; worship at His footstool! Holy is He! Moses and Aaron were among His priests; Samuel among those who called on His name. They called to the Lord, and He answered them. You were a forgiving God to them, but an avenger of their wrongdoings. Exalt the Lord our God; worship at His holy mountain, for the Lord our God is holy!',
+    keyThemes: ['Holy, holy, holy', 'Enthroned on cherubim', 'Justice and mercy', 'Worship at His footstool'],
+    christConnection: 'The thrice-holy God is fully revealed in Christ. He loves justice and forgives sin. We worship at His footstool and will one day see Him on His holy mountain.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 100,
+    title: 'Enter His Gates with Thanksgiving',
+    summary: 'Make a joyful noise to the Lord, all the earth! Serve the Lord with gladness! Come into His presence with singing! Know that the Lord, He is God! It is He who made us, and we are His; we are His people, and the sheep of His pasture. Enter His gates with thanksgiving, and His courts with praise! Give thanks to Him; bless His name! For the Lord is good; His steadfast love endures forever, and His faithfulness to all generations.',
+    keyThemes: ['Universal praise', 'Joyful service', 'Creator and Shepherd', 'Eternal faithfulness'],
+    christConnection: 'Christ is the gate through which we enter God\'s presence. We are His sheep; He is our Good Shepherd. His steadfast love and faithfulness last forever.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 101,
+    title: 'The King\'s Commitment',
+    summary: 'I will sing of steadfast love and justice; to you, O Lord, I will make music. I will ponder the way that is blameless—oh when will you come to me? I will walk with integrity of heart within my house. I will not set before my eyes anything that is worthless. I hate the work of those who fall away. A perverse heart shall be far from me. Whoever slanders his neighbor secretly I will destroy. Whoever has a haughty look I will not endure. I will look with favor on the faithful in the land. He who walks in the way that is blameless shall minister to me.',
+    keyThemes: ['Royal integrity', 'Household purity', 'Hatred of evil', 'Choosing faithful servants'],
+    christConnection: 'Christ is the king who perfectly embodies this commitment. He walked blamelessly, destroyed slander with truth, and calls faithful servants to minister with Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 102,
+    title: 'The Prayer of the Afflicted',
+    summary: 'Hear my prayer, O Lord; let my cry come to you! Do not hide your face from me in the day of my distress. My days pass away like smoke; my bones burn like a furnace. I am like a desert owl; I lie awake like a lonely sparrow on the housetop. My enemies taunt me all day long. But you, O Lord, are enthroned forever. You will arise and have pity on Zion. The nations will fear the name of the Lord. He looked down from His holy height; He heard the groans of prisoners. This is written for a future generation, that a people yet to be created may praise the Lord. Of old you laid the foundation of the earth; the heavens are the work of your hands. They will perish, but you remain.',
+    keyThemes: ['Afflicted prayer', 'Zion\'s restoration', 'Prisoners freed', 'God\'s eternal nature'],
+    christConnection: 'Hebrews applies "You remain the same" to Christ. He is the eternal Creator before whom heavens perish. He hears the groans of prisoners and will restore Zion.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 103,
+    title: 'Bless the Lord, O My Soul',
+    summary: 'Bless the Lord, O my soul, and all that is within me, bless His holy name! Bless the Lord, O my soul, and forget not all His benefits—who forgives all your iniquity, who heals all your diseases, who redeems your life from the pit, who crowns you with steadfast love and mercy. The Lord is merciful and gracious, slow to anger and abounding in steadfast love. He does not deal with us according to our sins. As far as the east is from the west, so far does He remove our transgressions. As a father shows compassion to his children, so the Lord shows compassion. For He knows our frame; He remembers that we are dust. The grass withers, the flower fades, but the steadfast love of the Lord is from everlasting to everlasting.',
+    keyThemes: ['Soul blessing God', 'Total forgiveness', 'Fatherly compassion', 'Everlasting love'],
+    christConnection: 'All these benefits are ours in Christ: forgiveness, healing, redemption, and crowning love. Through Him transgressions are removed as far as east from west.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 104,
+    title: 'God the Creator',
+    summary: 'Bless the Lord, O my soul! O Lord my God, you are very great! You are clothed with splendor and majesty, covering yourself with light as with a garment. You set the earth on its foundations. You covered it with the deep as with a garment. You make springs gush forth in valleys; they give drink to every beast. You cause grass to grow for the livestock and plants for man to cultivate. You made the moon to mark seasons; the sun knows its time for setting. When you send forth your Spirit, they are created, and you renew the face of the ground. May the glory of the Lord endure forever! I will sing to the Lord as long as I live.',
+    keyThemes: ['Creation hymn', 'Divine providence', 'Spirit gives life', 'Praising the Creator'],
+    christConnection: 'Through Christ all things were made and in Him all things hold together. The Spirit who renews creation is the Spirit of Christ, bringing new creation.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 105,
+    title: 'Remember His Wonders',
+    summary: 'Oh give thanks to the Lord; call upon His name; make known His deeds among the peoples! Sing to Him; tell of all His wondrous works! Remember the wondrous works He has done, His miracles and judgments. He is the Lord our God. He remembers His covenant forever—the covenant with Abraham, to Isaac, to Jacob. "To you I will give the land of Canaan." When they were few in number, He allowed no one to oppress them. He sent a man ahead of them—Joseph, sold as a slave. The king sent and released him. He sent Moses and Aaron. He brought Israel out with silver and gold. He spread a cloud for covering, and fire to give light by night. He brought them into the land, that they might keep His statutes.',
+    keyThemes: ['Recounting redemption history', 'Covenant faithfulness', 'Joseph and Moses', 'Purpose of deliverance'],
+    christConnection: 'Christ is the greater Joseph sent ahead to save. He is the true Moses who brings God\'s people out of slavery. God\'s covenant finds its Yes and Amen in Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 106,
+    title: 'Israel\'s Unfaithfulness',
+    summary: 'Praise the Lord! Oh give thanks to the Lord, for He is good; His steadfast love endures forever! Who can utter the mighty deeds of the Lord? Both we and our fathers have sinned. Our fathers in Egypt did not consider your wondrous works. They soon forgot His works; they did not wait for His counsel. They made a calf in Horeb and worshiped a metal image. They forgot God, their Savior, who had done great things in Egypt. Therefore He said He would destroy them—had not Moses stood in the breach. They despised the pleasant land; they did not believe His promise. They yoked themselves to Baal of Peor. Yet He saved them for His name\'s sake. Save us, O Lord our God, and gather us from among the nations!',
+    keyThemes: ['National confession', 'Repeated rebellion', 'Intercessors', 'Salvation for God\'s name'],
+    christConnection: 'Christ is the ultimate intercessor who stood in the breach. Despite all Israel\'s failures, God saves for His name\'s sake—that name now revealed in Christ.'
+  },
+  // BOOK 5 (Psalms 107-150) - Praise and Hallel
+  {
+    bookId: 'psalms',
+    chapter: 107,
+    title: 'Give Thanks for His Steadfast Love',
+    summary: 'Oh give thanks to the Lord, for He is good, for His steadfast love endures forever! Let the redeemed of the Lord say so. Some wandered in desert wastes, hungry and thirsty; they cried to the Lord, and He delivered them. Some sat in darkness and gloom, prisoners; they cried to the Lord, and He saved them. Some were sick through their sinful ways; they drew near the gates of death, but He sent out His word and healed them. Some went down to the sea in ships; they saw the deeds of the Lord in the deep. He made the storm be still. Whoever is wise, let him attend to these things and consider the steadfast love of the Lord.',
+    keyThemes: ['Fourfold deliverance', 'Crying to God', 'Steadfast love', 'Wisdom in reflection'],
+    christConnection: 'Christ delivers from every wandering, every prison, every sickness, every storm. He is the Word sent forth to heal. In Him we understand God\'s steadfast love.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 108,
+    title: 'With God We Shall Do Valiantly',
+    summary: 'My heart is steadfast, O God! I will sing and make melody with all my being! Awake, O harp and lyre! I will awake the dawn. I will give thanks to you, O Lord, among the peoples; for your steadfast love is great above the heavens. Be exalted, O God, above the heavens! Let your glory be over all the earth! That your beloved ones may be delivered, save with your right hand and answer me! God has promised in His holiness: "I will divide Shechem, allot the Valley of Succoth." Oh grant us help against the foe, for vain is the salvation of man! With God we shall do valiantly; it is He who will tread down our foes.',
+    keyThemes: ['Steadfast heart', 'Waking the dawn', 'Divine promises', 'Victory through God'],
+    christConnection: 'Our hearts are steadfast in Christ. Vain is human salvation—only through Him do we prevail. He awakens the dawn of new creation and tramples every foe.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 109,
+    title: 'A Prayer Against the Accuser',
+    summary: 'Be not silent, O God of my praise! For wicked and deceitful mouths are opened against me. They attack me with words of hate; they encircle me without cause. In return for my love they accuse me, but I give myself to prayer. Let an accuser stand at his right hand. When he is tried, let him be found guilty. Let his days be few; let another take his office. Let there be none to pity his fatherless children. But you, O Lord, deal on my behalf for your name\'s sake. For I am poor and needy, and my heart is stricken. Help me, O Lord my God! Save me according to your steadfast love.',
+    keyThemes: ['False accusation', 'Imprecatory prayer', 'Judgment on betrayers', 'Appeal to God\'s name'],
+    christConnection: 'Peter applied "let another take his office" to Judas. Christ, falsely accused, committed Himself to the true Judge. The accuser Satan is judged; Christ is vindicated.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 110,
+    title: 'The Lord Said to My Lord',
+    summary: 'The Lord says to my Lord: "Sit at my right hand, until I make your enemies your footstool." The Lord sends forth from Zion your mighty scepter. Rule in the midst of your enemies! Your people will offer themselves freely on the day of your power, in holy garments; from the womb of the morning, the dew of your youth will be yours. The Lord has sworn and will not change His mind: "You are a priest forever after the order of Melchizedek." The Lord is at your right hand; He will shatter kings on the day of His wrath. He will execute judgment among the nations.',
+    keyThemes: ['Messiah at God\'s right hand', 'Priestly king', 'Melchizedekian order', 'Final victory'],
+    christConnection: 'The most quoted psalm in the NT. Christ is David\'s Lord seated at God\'s right hand—both King and Priest forever in the order of Melchizedek.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 111,
+    title: 'The Works of the Lord Are Great',
+    summary: 'Praise the Lord! I will give thanks to the Lord with my whole heart. Great are the works of the Lord, studied by all who delight in them. Full of splendor and majesty is His work; His righteousness endures forever. He has caused His wondrous works to be remembered. The Lord is gracious and merciful. He provides food for those who fear Him; He remembers His covenant forever. He has shown His people the power of His works. The works of His hands are faithful and just; all His precepts are trustworthy. He sent redemption to His people; He has commanded His covenant forever. Holy and awesome is His name! The fear of the Lord is the beginning of wisdom.',
+    keyThemes: ['Acrostic praise', 'Great works', 'Covenant faithfulness', 'Fear and wisdom'],
+    christConnection: 'Christ is the redemption God sent. His work on the cross is the greatest of all God\'s wondrous works. In Him the covenant is commanded forever.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 112,
+    title: 'The Righteous Person',
+    summary: 'Praise the Lord! Blessed is the man who fears the Lord, who greatly delights in His commandments! His offspring will be mighty in the land. Wealth and riches are in his house, and his righteousness endures forever. Light dawns in the darkness for the upright; he is gracious, merciful, and righteous. It is well with the man who deals generously and lends; he will never be moved. He is not afraid of bad news; his heart is firm, trusting in the Lord. His heart is steady; he will not be afraid. He has distributed freely; he has given to the poor; his righteousness endures forever. The wicked man sees it and is angry; he gnashes his teeth and melts away.',
+    keyThemes: ['Blessings of righteousness', 'Generosity', 'Fearlessness', 'Contrast with the wicked'],
+    christConnection: 'Christ is the truly righteous one whose righteousness endures forever. He distributed freely, giving Himself for the poor. In Him we share His blessedness.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 113,
+    title: 'Who Is Like the Lord Our God?',
+    summary: 'Praise the Lord! Praise, O servants of the Lord, praise the name of the Lord! Blessed be the name of the Lord from this time forth and forevermore! From the rising of the sun to its setting, the name of the Lord is to be praised! The Lord is high above all nations, His glory above the heavens! Who is like the Lord our God, who is seated on high, who looks far down on the heavens and the earth? He raises the poor from the dust and lifts the needy from the ash heap, to make them sit with princes. He gives the barren woman a home, making her the joyous mother of children. Praise the Lord!',
+    keyThemes: ['Universal praise', 'God\'s condescension', 'Exalting the lowly', 'Barren made fruitful'],
+    christConnection: 'Christ, though high above all, looked down and descended to lift the poor from the dust. Mary echoed this psalm: He exalts the humble and fills the hungry.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 114,
+    title: 'The Exodus Remembered',
+    summary: 'When Israel went out from Egypt, the house of Jacob from a people of strange language, Judah became His sanctuary, Israel His dominion. The sea looked and fled; Jordan turned back. The mountains skipped like rams, the hills like lambs. What ails you, O sea, that you flee? O Jordan, that you turn back? O mountains, that you skip like rams? Tremble, O earth, at the presence of the Lord, at the presence of the God of Jacob, who turns the rock into a pool of water, the flint into a spring of water.',
+    keyThemes: ['Exodus celebration', 'Creation responds to God', 'Divine presence', 'Rock giving water'],
+    christConnection: 'Christ is the Rock from which living water flows. At His presence, greater than the Exodus, all creation trembles and is transformed.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 115,
+    title: 'To Your Name Give Glory',
+    summary: 'Not to us, O Lord, not to us, but to your name give glory, for the sake of your steadfast love and faithfulness! Why should the nations say, "Where is their God?" Our God is in the heavens; He does all that He pleases. Their idols are silver and gold, the work of human hands. They have mouths but do not speak; eyes but do not see. Those who make them become like them; so do all who trust in them. O Israel, trust in the Lord! He is their help and shield. The Lord has remembered us; He will bless us. May you be blessed by the Lord, who made heaven and earth! The heavens are the Lord\'s, but the earth He has given to mankind. The dead do not praise the Lord, but we will bless the Lord forevermore!',
+    keyThemes: ['Glory to God alone', 'Idols versus the living God', 'Trust and blessing', 'Praise from the living'],
+    christConnection: 'Christ gives all glory to the Father. Through Him we become image-bearers of the living God, not lifeless like idols. We bless the Lord forevermore in Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 116,
+    title: 'I Love the Lord',
+    summary: 'I love the Lord, because He has heard my voice and my pleas for mercy. Because He inclined His ear to me, therefore I will call on Him as long as I live. The snares of death encompassed me; the pangs of Sheol laid hold on me. Then I called on the name of the Lord: "O Lord, I pray, deliver my soul!" Gracious is the Lord and righteous; our God is merciful. The Lord preserves the simple; when I was brought low, He saved me. Return, O my soul, to your rest; for the Lord has dealt bountifully with you. For you have delivered my soul from death, my eyes from tears, my feet from stumbling. I will walk before the Lord in the land of the living. Precious in the sight of the Lord is the death of His saints. What shall I render to the Lord? I will lift up the cup of salvation.',
+    keyThemes: ['Love for God who hears', 'Delivered from death', 'Rest for the soul', 'Cup of salvation'],
+    christConnection: 'Christ lifted the cup of salvation at the Last Supper. He delivered our souls from death. His saints\' deaths are precious because they lead to resurrection with Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 117,
+    title: 'Praise from All Nations',
+    summary: 'Praise the Lord, all nations! Extol Him, all peoples! For great is His steadfast love toward us, and the faithfulness of the Lord endures forever. Praise the Lord!',
+    keyThemes: ['Universal praise', 'Steadfast love', 'Eternal faithfulness', 'Brief but complete'],
+    christConnection: 'Paul quotes this in Romans to show God\'s plan for Gentiles. Through Christ, all nations praise the Lord. His steadfast love extends to every people.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 118,
+    title: 'The Stone the Builders Rejected',
+    summary: 'Oh give thanks to the Lord, for He is good; for His steadfast love endures forever! Let Israel say, "His steadfast love endures forever." Out of my distress I called on the Lord; the Lord answered me. The Lord is on my side; I will not fear. It is better to take refuge in the Lord than to trust in princes. All nations surrounded me, but in the name of the Lord I cut them off. The Lord is my strength and my song; He has become my salvation. Open to me the gates of righteousness. The stone that the builders rejected has become the cornerstone. This is the Lord\'s doing; it is marvelous in our eyes. This is the day that the Lord has made; let us rejoice. Blessed is He who comes in the name of the Lord!',
+    keyThemes: ['Steadfast love refrain', 'Deliverance from enemies', 'Rejected cornerstone', 'The day the Lord made'],
+    christConnection: 'Jesus applied the rejected stone to Himself. "Blessed is He who comes" was shouted at His triumphal entry. He is the cornerstone of God\'s new temple.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 119,
+    title: 'The Glory of God\'s Word',
+    summary: 'The longest psalm, an acrostic celebrating God\'s Word through 176 verses. Blessed are those whose way is blameless, who walk in the law of the Lord. How can a young man keep his way pure? By guarding it according to your word. I have stored up your word in my heart that I might not sin against you. Open my eyes that I may behold wondrous things out of your law. Your word is a lamp to my feet and a light to my path. The sum of your word is truth, and every one of your righteous rules endures forever. Great peace have those who love your law. I long for your salvation, O Lord, and your law is my delight.',
+    keyThemes: ['Word of God exalted', 'Guidance and purity', 'Light and truth', 'Love for God\'s law'],
+    christConnection: 'Christ is the Word made flesh who perfectly fulfilled the law. He is the lamp and light, the truth that endures forever, the salvation longed for throughout the psalm.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 120,
+    title: 'Longing for Peace Among Warmongers',
+    summary: 'In my distress I called to the Lord, and He answered me. Deliver me, O Lord, from lying lips, from a deceitful tongue. What shall be given to you, and what more shall be done to you, you deceitful tongue? A warrior\'s sharp arrows, with glowing coals of the broom tree! Woe to me, that I sojourn in Meshech, that I dwell among the tents of Kedar! Too long have I had my dwelling among those who hate peace. I am for peace, but when I speak, they are for war!',
+    keyThemes: ['Songs of Ascents begin', 'Lying tongues', 'Dwelling among enemies', 'Peace versus war'],
+    christConnection: 'Christ was surrounded by lying accusations and those who hated peace. Yet He is the Prince of Peace who brings reconciliation to all who trust in Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 121,
+    title: 'My Help Comes from the Lord',
+    summary: 'I lift up my eyes to the hills. From where does my help come? My help comes from the Lord, who made heaven and earth. He will not let your foot be moved; He who keeps you will not slumber. Behold, He who keeps Israel will neither slumber nor sleep. The Lord is your keeper; the Lord is your shade on your right hand. The sun shall not strike you by day, nor the moon by night. The Lord will keep you from all evil; He will keep your life. The Lord will keep your going out and your coming in from this time forth and forevermore.',
+    keyThemes: ['Help from the Creator', 'Unsleeping keeper', 'Protection day and night', 'Kept forevermore'],
+    christConnection: 'Christ is the unsleeping shepherd who keeps His sheep. He is our shade and protection. In Him our going out and coming in are kept for eternity.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 122,
+    title: 'Joy in Going to God\'s House',
+    summary: 'I was glad when they said to me, "Let us go to the house of the Lord!" Our feet have been standing within your gates, O Jerusalem! Jerusalem—built as a city that is bound firmly together, to which the tribes go up, the tribes of the Lord, as was decreed for Israel, to give thanks to the name of the Lord. There thrones for judgment were set, the thrones of the house of David. Pray for the peace of Jerusalem! "May they be secure who love you! Peace be within your walls and security within your towers!" For my brothers and companions\' sake I will say, "Peace be within you!" For the sake of the house of the Lord our God, I will seek your good.',
+    keyThemes: ['Joy in worship', 'Jerusalem\'s unity', 'Prayer for peace', 'David\'s throne'],
+    christConnection: 'Christ wept over Jerusalem and longed for her peace. The heavenly Jerusalem is our mother; we gladly go to the house of the Lord through Christ.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 123,
+    title: 'Looking to God for Mercy',
+    summary: 'To you I lift up my eyes, O you who are enthroned in the heavens! Behold, as the eyes of servants look to the hand of their master, as the eyes of a maidservant to the hand of her mistress, so our eyes look to the Lord our God, till He has mercy upon us. Have mercy upon us, O Lord, have mercy upon us, for we have had more than enough of contempt. Our soul has had more than enough of the scorn of those who are at ease, of the contempt of the proud.',
+    keyThemes: ['Eyes on God', 'Servant posture', 'Plea for mercy', 'Suffering contempt'],
+    christConnection: 'Christ endured the contempt of the proud yet kept His eyes on the Father. He teaches us to look to God until mercy comes, trusting in the Father\'s timing.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 124,
+    title: 'Our Help Is in the Name of the Lord',
+    summary: 'If it had not been the Lord who was on our side—let Israel now say—if it had not been the Lord who was on our side when people rose up against us, then they would have swallowed us up alive. Then the flood would have swept us away, the torrent would have gone over us. Blessed be the Lord, who has not given us as prey to their teeth! We have escaped like a bird from the snare of the fowlers; the snare is broken, and we have escaped! Our help is in the name of the Lord, who made heaven and earth.',
+    keyThemes: ['Divine deliverance', 'Overwhelming enemies', 'Broken snare', 'Help in God\'s name'],
+    christConnection: 'Christ broke the snare of death and sin. The flood of judgment swept over Him that we might escape. Our help is in the name of the Lord revealed in Jesus.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 125,
+    title: 'Those Who Trust Are Secure',
+    summary: 'Those who trust in the Lord are like Mount Zion, which cannot be moved, but abides forever. As the mountains surround Jerusalem, so the Lord surrounds His people, from this time forth and forevermore. For the scepter of wickedness shall not rest on the land allotted to the righteous, lest the righteous stretch out their hands to do wrong. Do good, O Lord, to those who are good, and to those who are upright in their hearts! But those who turn aside to their crooked ways the Lord will lead away with evildoers. Peace be upon Israel!',
+    keyThemes: ['Immovable trust', 'God surrounds His people', 'Wickedness will not prevail', 'Peace on the faithful'],
+    christConnection: 'Christ is the cornerstone of Zion that cannot be moved. He surrounds His church with protection. The scepter of wickedness is broken; peace comes through Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 126,
+    title: 'Sowing in Tears, Reaping with Joy',
+    summary: 'When the Lord restored the fortunes of Zion, we were like those who dream. Then our mouth was filled with laughter, and our tongue with shouts of joy; then they said among the nations, "The Lord has done great things for them." The Lord has done great things for us; we are glad. Restore our fortunes, O Lord, like streams in the Negeb! Those who sow in tears shall reap with shouts of joy! He who goes out weeping, bearing the seed for sowing, shall come home with shouts of joy, bringing his sheaves with him.',
+    keyThemes: ['Restoration like a dream', 'Joy and laughter', 'Sowing and reaping', 'Tears turned to joy'],
+    christConnection: 'Christ wept and sowed the seed of His life in death. His resurrection is the great harvest, the restoration that fills our mouths with laughter and shouts of joy.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 127,
+    title: 'Unless the Lord Builds',
+    summary: 'Unless the Lord builds the house, those who build it labor in vain. Unless the Lord watches over the city, the watchman stays awake in vain. It is in vain that you rise up early and go late to rest, eating the bread of anxious toil; for He gives to His beloved sleep. Behold, children are a heritage from the Lord, the fruit of the womb a reward. Like arrows in the hand of a warrior are the children of one\'s youth. Blessed is the man who fills his quiver with them! He shall not be put to shame when he speaks with his enemies in the gate.',
+    keyThemes: ['God as builder', 'Rest versus anxious toil', 'Children as blessing', 'Family as strength'],
+    christConnection: 'Christ builds His church, and the gates of hell shall not prevail. He gives rest to the weary who labor in vain. His spiritual children are arrows of the kingdom.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 128,
+    title: 'Blessings on the Home',
+    summary: 'Blessed is everyone who fears the Lord, who walks in His ways! You shall eat the fruit of the labor of your hands; you shall be blessed, and it shall be well with you. Your wife will be like a fruitful vine within your house; your children will be like olive shoots around your table. Behold, thus shall the man be blessed who fears the Lord. The Lord bless you from Zion! May you see the prosperity of Jerusalem all the days of your life! May you see your children\'s children! Peace be upon Israel!',
+    keyThemes: ['Blessing through obedience', 'Fruitful family', 'Generational blessing', 'Peace from Zion'],
+    christConnection: 'True blessing comes through fearing Christ the Lord. He blesses from the heavenly Zion. In Him we see the ultimate prosperity and peace for all generations.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 129,
+    title: 'Afflicted but Not Defeated',
+    summary: 'Greatly have they afflicted me from my youth—let Israel now say—greatly have they afflicted me from my youth, yet they have not prevailed against me. The plowers plowed upon my back; they made long their furrows. The Lord is righteous; He has cut the cords of the wicked. May all who hate Zion be put to shame and turned backward! Let them be like the grass on the housetops, which withers before it grows up, with which the reaper does not fill his hand nor the binder of sheaves his arms, nor do those who pass by say, "The blessing of the Lord be upon you!"',
+    keyThemes: ['Long suffering', 'Enemies cannot prevail', 'God cuts cords of bondage', 'Wicked will wither'],
+    christConnection: 'Christ\'s back was plowed with scourges, yet His enemies did not prevail. He cut the cords of sin and death. Those who hate Zion will wither; Christ\'s church endures.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 130,
+    title: 'Out of the Depths',
+    summary: 'Out of the depths I cry to you, O Lord! O Lord, hear my voice! Let your ears be attentive to the voice of my pleas for mercy! If you, O Lord, should mark iniquities, O Lord, who could stand? But with you there is forgiveness, that you may be feared. I wait for the Lord, my soul waits, and in His word I hope; my soul waits for the Lord more than watchmen for the morning, more than watchmen for the morning. O Israel, hope in the Lord! For with the Lord there is steadfast love, and with Him is plentiful redemption. And He will redeem Israel from all his iniquities.',
+    keyThemes: ['Crying from despair', 'Forgiveness with God', 'Patient waiting', 'Plentiful redemption'],
+    christConnection: 'Christ cried from the depths on the cross. With Him there is forgiveness; He is the plentiful redemption. We wait for Him as watchmen wait for the morning.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 131,
+    title: 'A Calmed and Quieted Soul',
+    summary: 'O Lord, my heart is not lifted up; my eyes are not raised too high; I do not occupy myself with things too great and too marvelous for me. But I have calmed and quieted my soul, like a weaned child with its mother; like a weaned child is my soul within me. O Israel, hope in the Lord from this time forth and forevermore.',
+    keyThemes: ['Humble heart', 'Contentment', 'Childlike trust', 'Hope in the Lord'],
+    christConnection: 'Christ was meek and humble in heart. He invites us to come as children, calmed and quieted in His presence, resting in the Father\'s care.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 132,
+    title: 'David and the Ark',
+    summary: 'Remember, O Lord, in David\'s favor, all the hardships he endured, how he swore to the Lord: "I will not enter my house or get into my bed until I find a place for the Lord, a dwelling place for the Mighty One of Jacob." Behold, we heard of it in Ephrathah; we found it in the fields of Jaar. Let us go to His dwelling place; let us worship at His footstool! Arise, O Lord, and go to your resting place. Let your priests be clothed with righteousness. For the Lord has chosen Zion. "This is my resting place forever." The Lord swore to David a sure oath: "One of the sons of your body I will set on your throne. If your sons keep my covenant, their sons also forever shall sit on your throne."',
+    keyThemes: ['David\'s zeal for God\'s house', 'The ark\'s resting place', 'Davidic oath', 'Zion chosen'],
+    christConnection: 'Christ is David\'s son who sits on the eternal throne. He is the true temple, God\'s resting place. His priesthood is clothed with righteousness forever.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 133,
+    title: 'How Good and Pleasant Is Unity',
+    summary: 'Behold, how good and pleasant it is when brothers dwell in unity! It is like the precious oil on the head, running down on the beard, on the beard of Aaron, running down on the collar of his robes! It is like the dew of Hermon, which falls on the mountains of Zion! For there the Lord has commanded the blessing, life forevermore.',
+    keyThemes: ['Brotherly unity', 'Anointing oil imagery', 'Refreshing dew', 'Commanded blessing'],
+    christConnection: 'Christ is the anointed one from whose head blessing flows to His body. Unity in Christ brings the commanded blessing—life forevermore through Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 134,
+    title: 'Bless the Lord, Night Servants',
+    summary: 'Come, bless the Lord, all you servants of the Lord, who stand by night in the house of the Lord! Lift up your hands to the holy place and bless the Lord! May the Lord bless you from Zion, He who made heaven and earth!',
+    keyThemes: ['Night worship', 'Lifting hands in blessing', 'Mutual blessing', 'Creator blesses'],
+    christConnection: 'Christ intercedes day and night for His people. Those who serve Him receive blessing from heavenly Zion, from the Maker of heaven and earth.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 135,
+    title: 'Praise for God\'s Great Deeds',
+    summary: 'Praise the Lord! Praise the name of the Lord, give praise, O servants of the Lord, who stand in the house of the Lord! Praise the Lord, for the Lord is good; sing to His name, for it is pleasant! For the Lord has chosen Jacob for Himself. Whatever the Lord pleases, He does, in heaven and on earth. He it is who makes clouds rise, who sends lightning and wind. He struck down the firstborn of Egypt and sent signs against Pharaoh. He struck down many nations and gave their land as a heritage to Israel. Your name, O Lord, endures forever. The idols of the nations are silver and gold. But the Lord made the heavens. Praise the Lord!',
+    keyThemes: ['Chosen people', 'Sovereign power', 'Exodus recalled', 'Idols versus the Lord'],
+    christConnection: 'God chose us in Christ before the foundation of the world. Christ does whatever pleases the Father. Through Him we inherit the land of eternal promise.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 136,
+    title: 'His Steadfast Love Endures Forever',
+    summary: 'Give thanks to the Lord, for He is good, for His steadfast love endures forever. Give thanks to the God of gods, for His steadfast love endures forever. To Him who alone does great wonders, for His steadfast love endures forever. To Him who made the heavens, the earth, the sun, moon, and stars. To Him who struck down the firstborn of Egypt and brought out Israel. To Him who divided the Red Sea and led Israel through. To Him who struck down great kings and gave their land as a heritage. He remembered us in our low estate, for His steadfast love endures forever. He rescues us from our foes. He gives food to all flesh. Give thanks to the God of heaven, for His steadfast love endures forever!',
+    keyThemes: ['Steadfast love refrain', 'Creation celebrated', 'Redemption history', 'Universal providence'],
+    christConnection: 'Christ is God\'s steadfast love made flesh. The refrain is fulfilled in Him who remembered us in our low estate and rescues us from the enemy of death.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 137,
+    title: 'By the Rivers of Babylon',
+    summary: 'By the waters of Babylon, there we sat down and wept, when we remembered Zion. On the willows there we hung up our lyres. For there our captors required of us songs, and our tormentors, mirth, saying, "Sing us one of the songs of Zion!" How shall we sing the Lord\'s song in a foreign land? If I forget you, O Jerusalem, let my right hand forget its skill! Let my tongue stick to the roof of my mouth, if I do not remember you, if I do not set Jerusalem above my highest joy! Remember, O Lord, against the Edomites the day of Jerusalem. O daughter of Babylon, doomed to be destroyed, blessed shall he be who repays you with what you have done to us!',
+    keyThemes: ['Exile lament', 'Longing for Zion', 'Unable to sing', 'Imprecation against oppressors'],
+    christConnection: 'Christ came to end our exile and bring us home to the heavenly Jerusalem. He absorbed the judgment we deserved so we can sing the Lord\'s song again.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 138,
+    title: 'The Lord Will Fulfill His Purpose',
+    summary: 'I give you thanks, O Lord, with my whole heart; before the gods I sing your praise; I bow down toward your holy temple and give thanks to your name for your steadfast love and faithfulness. You have exalted above all things your name and your word. On the day I called, you answered me; my strength of soul you increased. All the kings of the earth shall give you thanks, O Lord, when they hear the words of your mouth. Though the Lord is high, He regards the lowly, but the haughty He knows from afar. Though I walk in the midst of trouble, you preserve my life. The Lord will fulfill His purpose for me; your steadfast love, O Lord, endures forever. Do not forsake the work of your hands.',
+    keyThemes: ['Wholehearted thanks', 'Word exalted', 'Kings praising God', 'Purpose fulfilled'],
+    christConnection: 'Christ is the Word exalted above all. He increased our strength of soul. The Father will not forsake the work of His hands—especially His Son and those in Him.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 139,
+    title: 'Fearfully and Wonderfully Made',
+    summary: 'O Lord, you have searched me and known me! You know when I sit down and when I rise up; you discern my thoughts from afar. You hem me in, behind and before, and lay your hand upon me. Such knowledge is too wonderful for me. Where shall I go from your Spirit? If I ascend to heaven, you are there! If I make my bed in Sheol, you are there! If I take the wings of the morning, you are there. For you formed my inward parts; you knitted me together in my mother\'s womb. I praise you, for I am fearfully and wonderfully made. Your eyes saw my unformed substance. How precious to me are your thoughts, O God! Search me, O God, and know my heart! Lead me in the way everlasting!',
+    keyThemes: ['God\'s omniscience', 'God\'s omnipresence', 'Wonderfully made', 'Searching and leading'],
+    christConnection: 'Christ, the Word made flesh, was fearfully and wonderfully formed in Mary\'s womb. He knows us completely and leads us in the way everlasting.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 140,
+    title: 'Protect Me from the Violent',
+    summary: 'Deliver me, O Lord, from evil men; preserve me from violent men, who plan evil things in their heart and stir up wars continually. They make their tongue sharp as a serpent\'s; under their lips is the venom of asps. Guard me, O Lord, from the hands of the wicked; preserve me from violent men. The arrogant have hidden a trap for me; they have spread a net; beside the way they have set snares. I say to the Lord, "You are my God." O Lord, cover my head in the day of battle. Grant not, O Lord, the desires of the wicked. Let burning coals fall upon them! I know that the Lord will maintain the cause of the afflicted. The righteous shall give thanks to your name; the upright shall dwell in your presence.',
+    keyThemes: ['Evil men\'s plots', 'Serpent tongue', 'Battle protection', 'Vindication of the afflicted'],
+    christConnection: 'Christ faced the serpent\'s venom and conquered. He covers our heads in battle. The cause of the afflicted is maintained by Him who dwelt among us and brings us to dwell in God\'s presence.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 141,
+    title: 'Set a Guard Over My Mouth',
+    summary: 'O Lord, I call upon you; hasten to me! Give ear to my voice when I call! Let my prayer be counted as incense before you, and the lifting up of my hands as the evening sacrifice! Set a guard, O Lord, over my mouth; keep watch over the door of my lips! Do not let my heart incline to any evil, to busy myself with wicked deeds. Let the oil of the righteous not refuse my head. Let the heads of those who surround me be covered with the mischief of their lips. When their judges are thrown over the cliff, then they shall hear my words. O Lord, my eyes are toward you; in you I seek refuge; leave me not defenseless!',
+    keyThemes: ['Prayer as incense', 'Guard my mouth', 'Resist evil', 'Eyes toward God'],
+    christConnection: 'Christ is our high priest whose prayers rise as incense. He guards our lips by His Spirit. His perfect obedience is the evening sacrifice offered on our behalf.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 142,
+    title: 'No One Cares for My Soul',
+    summary: 'With my voice I cry out to the Lord; with my voice I plead for mercy to the Lord. I pour out my complaint before Him; I tell my trouble before Him. When my spirit faints within me, you know my way! In the path where I walk they have hidden a trap for me. Look to the right and see: there is none who takes notice of me; no refuge remains to me; no one cares for my soul. I cry to you, O Lord; I say, "You are my refuge, my portion in the land of the living." Attend to my cry, for I am brought very low! Deliver me from my persecutors, for they are too strong for me! Bring me out of prison, that I may give thanks to your name! The righteous will surround me, for you will deal bountifully with me.',
+    keyThemes: ['Crying in isolation', 'No human help', 'God as refuge and portion', 'Prison deliverance'],
+    christConnection: 'Christ knew what it was to have no one care for His soul in Gethsemane. Yet God was His refuge. He brings us out of the prison of sin to thanksgiving.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 143,
+    title: 'Teach Me to Do Your Will',
+    summary: 'Hear my prayer, O Lord; give ear to my pleas for mercy! In your faithfulness answer me, in your righteousness! Enter not into judgment with your servant, for no one living is righteous before you. The enemy has crushed my life to the ground. My spirit faints within me; my heart is appalled. I remember the days of old; I meditate on all that you have done. I stretch out my hands to you; my soul thirsts for you like a parched land. Answer me quickly, O Lord! My spirit fails! Hide not your face from me. Let me hear in the morning of your steadfast love. Teach me to do your will, for you are my God! Let your good Spirit lead me on level ground!',
+    keyThemes: ['Plea for mercy', 'No one righteous', 'Spirit thirsting', 'Taught by God\'s Spirit'],
+    christConnection: 'Only in Christ can we stand before God, for no one living is righteous on their own. The good Spirit leads us in Christ\'s footsteps on level ground.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 144,
+    title: 'My Rock and My Fortress',
+    summary: 'Blessed be the Lord, my rock, who trains my hands for war, and my fingers for battle; He is my steadfast love and my fortress, my stronghold and my deliverer, my shield in whom I take refuge. O Lord, what is man that you regard him? Man is like a breath; his days are like a passing shadow. Bow your heavens, O Lord, and come down! Flash forth the lightning and scatter them; send out your arrows! Rescue me from many waters, from the hand of foreigners whose right hand is a right hand of falsehood. I will sing a new song to you, O God. Blessed are the people whose God is the Lord!',
+    keyThemes: ['God trains for battle', 'Human frailty', 'Theophany prayer', 'New song'],
+    christConnection: 'Christ bowed the heavens and came down. He trains us for spiritual warfare. Through Him we sing the new song of redemption. Blessed are those whose God is the Lord revealed in Jesus.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 145,
+    title: 'Great Is the Lord',
+    summary: 'I will extol you, my God and King, and bless your name forever and ever. Great is the Lord, and greatly to be praised, and His greatness is unsearchable. One generation shall commend your works to another. They shall speak of the might of your awesome deeds. The Lord is gracious and merciful, slow to anger and abounding in steadfast love. The Lord is good to all; His compassion is over all He has made. Your kingdom is an everlasting kingdom. The Lord upholds all who are falling and raises up all who are bowed down. The eyes of all look to you, and you give them their food in due season. You open your hand; you satisfy the desire of every living thing. The Lord is near to all who call on Him. He fulfills the desire of those who fear Him.',
+    keyThemes: ['Acrostic praise', 'Unsearchable greatness', 'Generational testimony', 'Kingdom everlasting'],
+    christConnection: 'Christ is the King whose kingdom is everlasting. He is gracious and merciful, upholding the falling, satisfying every need. He is near to all who call on His name.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 146,
+    title: 'Put Not Your Trust in Princes',
+    summary: 'Praise the Lord! Praise the Lord, O my soul! I will praise the Lord as long as I live. Put not your trust in princes, in a son of man, in whom there is no salvation. When his breath departs, he returns to the earth; on that very day his plans perish. Blessed is he whose help is the God of Jacob, whose hope is in the Lord his God, who made heaven and earth, the sea, and all that is in them. The Lord sets the prisoners free; the Lord opens the eyes of the blind. The Lord lifts up those who are bowed down; the Lord loves the righteous. The Lord watches over the sojourners; He upholds the widow and the fatherless. The Lord will reign forever, your God, O Zion, to all generations. Praise the Lord!',
+    keyThemes: ['Not trusting humans', 'God of Jacob our help', 'Setting prisoners free', 'Eternal reign'],
+    christConnection: 'Christ is the Son of Man in whom there IS salvation. He opened blind eyes, freed prisoners, lifted the bowed. His kingdom is forever, to all generations.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 147,
+    title: 'He Heals the Brokenhearted',
+    summary: 'Praise the Lord! For it is good to sing praises to our God. The Lord builds up Jerusalem; He gathers the outcasts of Israel. He heals the brokenhearted and binds up their wounds. He determines the number of the stars; He gives to all of them their names. Great is our Lord; His understanding is beyond measure. The Lord lifts up the humble; He casts the wicked to the ground. He covers the heavens with clouds; He gives snow like wool; He scatters frost. He sends out His word, and the ice melts. He declares His word to Jacob, His statutes to Israel. He has not dealt thus with any other nation. Praise the Lord!',
+    keyThemes: ['Healing the brokenhearted', 'Gathering outcasts', 'Naming stars', 'Word commands nature'],
+    christConnection: 'Christ heals the brokenhearted; He came for the lost sheep of Israel and gathers outcasts from all nations. His word commands nature and melts hearts of ice.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 148,
+    title: 'Let All Creation Praise',
+    summary: 'Praise the Lord! Praise the Lord from the heavens; praise Him in the heights! Praise Him, all His angels; praise Him, all His hosts! Praise Him, sun and moon; praise Him, all you shining stars! Praise Him, you highest heavens, and you waters above the heavens! Let them praise the name of the Lord! For He commanded and they were created. Praise the Lord from the earth, you great sea creatures and all deeps, fire and hail, snow and mist! Mountains and all hills, fruit trees and all cedars! Beasts and all livestock, creeping things and flying birds! Kings of the earth and all peoples! Young men and maidens together, old men and children! Let them praise the name of the Lord, for His name alone is exalted. Praise the Lord!',
+    keyThemes: ['Cosmic praise', 'Heaven and earth', 'All creatures', 'All humanity'],
+    christConnection: 'Through Christ all things were made and for Him all things exist. Every creature in heaven and earth will join in praise of the Lamb who was slain.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 149,
+    title: 'Praise with Dance and Sword',
+    summary: 'Praise the Lord! Sing to the Lord a new song, His praise in the assembly of the godly! Let Israel be glad in his Maker; let the children of Zion rejoice in their King! Let them praise His name with dancing, making melody to Him with tambourine and lyre! For the Lord takes pleasure in His people; He adorns the humble with salvation. Let the godly exult in glory; let them sing for joy on their beds. Let the high praises of God be in their throats and two-edged swords in their hands, to execute vengeance on the nations and punishments on the peoples, to bind their kings with chains. This is honor for all His godly ones. Praise the Lord!',
+    keyThemes: ['New song', 'Dancing praise', 'Pleasure in His people', 'Victory over nations'],
+    christConnection: 'Christ is our King in whom we rejoice. He adorns the humble with salvation. The two-edged sword is His word that judges nations. Final victory belongs to Him and His saints.'
+  },
+  {
+    bookId: 'psalms',
+    chapter: 150,
+    title: 'Let Everything That Has Breath Praise',
+    summary: 'Praise the Lord! Praise God in His sanctuary; praise Him in His mighty heavens! Praise Him for His mighty deeds; praise Him according to His excellent greatness! Praise Him with trumpet sound; praise Him with lute and harp! Praise Him with tambourine and dance; praise Him with strings and pipe! Praise Him with sounding cymbals; praise Him with loud clashing cymbals! Let everything that has breath praise the Lord! Praise the Lord!',
+    keyThemes: ['Final hallelujah', 'Every instrument', 'For His mighty deeds', 'All breath praises'],
+    christConnection: 'The Psalter ends as it should—with universal praise. Christ is the reason for this symphony. Let everything that has breath praise the Lord who breathes new life into all who believe!'
   }
 ];
 
