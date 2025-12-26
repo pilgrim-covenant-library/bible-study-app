@@ -2789,6 +2789,534 @@ export const SECOND_KINGS_CHAPTERS: ChapterSummary[] = [
   },
 ];
 
+// 1 CHRONICLES CHAPTERS
+export const FIRST_CHRONICLES_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '1-chronicles',
+    chapter: 1,
+    title: 'From Adam to Abraham: The Genealogical Foundation',
+    summary: 'First Chronicles opens with an extensive genealogy tracing humanity from Adam through the patriarchs to Abraham. This is no mere list of names but a theological statement about God\'s sovereign ordering of history toward His redemptive purposes. The chronicler, writing to post-exilic Jews who had returned from Babylon, establishes that Israel\'s identity is rooted in God\'s ancient covenant promises. Each name represents God\'s providential preservation of the messianic line through which salvation would come.',
+    keyThemes: ['Divine providence in history', 'Covenant continuity', 'Messianic lineage', 'God\'s faithfulness across generations'],
+    christConnection: 'The genealogy from Adam to Abraham establishes the first link in the chain leading to Christ. Matthew\'s gospel will later trace Jesus\' lineage through this same line, showing that God\'s plan of redemption was unfolding from the very beginning of human history.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 2,
+    title: 'The Sons of Israel and Judah\'s Prominence',
+    summary: 'This chapter records the twelve sons of Israel and then focuses extensively on the tribe of Judah, from which the Davidic dynasty would arise. The detailed treatment of Judah\'s descendants, including the line through Perez to Jesse and David, demonstrates God\'s particular care for the royal and messianic tribe. The chronicler shows that even through complex family situations and various circumstances, God preserved His chosen line.',
+    keyThemes: ['Judah\'s preeminence', 'Davidic lineage', 'Divine election', 'Providential preservation'],
+    christConnection: 'The extensive focus on Judah\'s genealogy anticipates the "Lion of Judah" prophecy and Christ\'s descent from this royal tribe. The line through Perez, Ram, and Jesse to David traces the path to Christ our King.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 3,
+    title: 'David\'s Dynasty: The Royal Line',
+    summary: 'The genealogy of David\'s descendants is presented, listing his sons born in Hebron and Jerusalem, then tracing the royal line through Solomon to the exile and beyond. This chapter affirms God\'s faithfulness to His promise that David\'s throne would be established forever. Even through the trauma of exile, the Davidic line continued, pointing to an ultimate fulfillment in a greater Son of David.',
+    keyThemes: ['Davidic covenant', 'Royal succession', 'Hope beyond exile', 'God\'s faithfulness to promises'],
+    christConnection: 'The continuation of David\'s line through exile and restoration demonstrates God\'s commitment to His covenant. Christ is the ultimate heir to David\'s throne, fulfilling the promise of an eternal kingdom.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 4,
+    title: 'Judah and Simeon: Blessing Amidst Obscurity',
+    summary: 'Further genealogies of Judah and Simeon are recorded, including the remarkable prayer of Jabez who called upon God to bless him and enlarge his territory. God graciously granted his request. The chapter shows that even lesser-known figures in Israel\'s history found favor with God through faith and prayer. Simeon\'s tribe, though absorbed into Judah, maintained its distinct identity.',
+    keyThemes: ['Effective prayer', 'Divine blessing', 'Faith\'s reward', 'God\'s attentiveness to the humble'],
+    christConnection: 'Jabez\'s prayer for blessing and protection anticipates believers\' access to God through Christ. We too can boldly approach God\'s throne of grace, finding mercy and blessing through our greater Intercessor.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 5,
+    title: 'Reuben, Gad, and Half-Manasseh: Transjordan Tribes',
+    summary: 'The genealogies of the tribes east of the Jordan are recorded. Reuben lost his birthright due to sin, a sobering reminder of sin\'s consequences. These tribes prospered when they trusted God, defeating the Hagrites through prayer and faith. However, they ultimately fell into idolatry and were carried away by Assyria. Their story illustrates both the power of faithful dependence on God and the danger of spiritual unfaithfulness.',
+    keyThemes: ['Consequences of sin', 'Victory through prayer', 'Spiritual unfaithfulness', 'Divine judgment'],
+    christConnection: 'The contrast between victory through faith and defeat through unfaithfulness points to Christ as our only hope for consistent faithfulness. He alone never failed, and through Him we receive both forgiveness and power.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 6,
+    title: 'The Tribe of Levi: Priests and Levites',
+    summary: 'Extensive attention is given to the Levites, especially the high priestly line from Aaron through to the exile. The organization of temple musicians under David is detailed, and the Levitical cities throughout Israel are listed. This chapter underscores the centrality of worship and the priesthood in Israel\'s life. The chronicler, writing for the restored community, emphasizes the importance of proper worship led by authorized ministers.',
+    keyThemes: ['Priestly ministry', 'Worship organization', 'Levitical service', 'Temple centrality'],
+    christConnection: 'The elaborate priesthood and worship system points to Christ, our great High Priest who offers perfect worship and intercession. The Levites\' dedication to God\'s service foreshadows Christ\'s complete consecration to the Father\'s will.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 7,
+    title: 'Northern Tribes: Issachar, Benjamin, Naphtali, Manasseh, Ephraim, Asher',
+    summary: 'The genealogies of several northern tribes are recorded more briefly than Judah and Levi, reflecting the chronicler\'s emphasis on the southern kingdom and temple worship. Yet their inclusion shows that all twelve tribes remained part of God\'s covenant people. The varying fortunes of these tribes demonstrate God\'s dealings with His people according to their faithfulness.',
+    keyThemes: ['Tribal unity', 'Covenant people', 'Military strength', 'Divine oversight'],
+    christConnection: 'The preservation of all tribal genealogies, even briefly, shows God\'s faithfulness to all His people. Christ came to gather the scattered children of God from all tribes, making one new people of all who believe.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 8,
+    title: 'Benjamin and Saul\'s Family',
+    summary: 'The tribe of Benjamin receives special attention, culminating in the genealogy of Saul, Israel\'s first king. Though Saul\'s dynasty failed, his lineage is preserved in the sacred record. The Benjamites\' location around Jerusalem and their role in Israel\'s history made them significant despite being the smallest tribe. This chapter provides transition toward the narrative sections focusing on David.',
+    keyThemes: ['Saul\'s lineage', 'Tribal identity', 'Jerusalem\'s importance', 'Historical continuity'],
+    christConnection: 'Though Saul\'s line gave way to David\'s, both find their ultimate fulfillment in Christ. Paul, the apostle to the Gentiles, was of Benjamin, showing God\'s ongoing purpose for this tribe in redemptive history.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 9,
+    title: 'The Returning Exiles: Restoration Begins',
+    summary: 'This pivotal chapter lists those who returned from Babylonian exile to Jerusalem, especially emphasizing the priests, Levites, and temple servants. The genealogies connect post-exilic Israel with pre-exilic Israel, showing continuity of God\'s people. The chapter also describes the duties of various Levitical families in temple service, preparing for the narrative focus on David\'s temple preparations.',
+    keyThemes: ['Restoration from exile', 'Covenant continuity', 'Temple service renewed', 'Divine faithfulness'],
+    christConnection: 'The return from exile and restoration of worship foreshadows the greater restoration Christ brings. He delivers His people from the exile of sin and restores them to fellowship with God in true worship.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 10,
+    title: 'Saul\'s Death: The End of an Era',
+    summary: 'The narrative section begins with Saul\'s death at Mount Gilboa, where the Philistines defeated Israel. The chronicler emphasizes that Saul died because of his unfaithfulness to the Lord, particularly his consulting a medium and not seeking the Lord. This theological interpretation sets the stage for David\'s reign, contrasting Saul\'s unfaithfulness with David\'s heart for God.',
+    keyThemes: ['Consequences of unfaithfulness', 'Divine judgment', 'Seeking false guidance', 'Transition of kingdoms'],
+    christConnection: 'Saul\'s failure through unfaithfulness contrasts with Christ\'s perfect faithfulness. Where Saul failed to seek the Lord, Christ always did the Father\'s will, making Him the faithful King we need.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 11,
+    title: 'David Crowned King: Unity Restored',
+    summary: 'All Israel gathers at Hebron to make David king, recognizing God\'s choice and David\'s proven leadership. David then captures Jerusalem (the stronghold of Zion) and makes it his capital. The chapter lists David\'s mighty men who supported him, emphasizing the unity and strength God provided for His chosen king. These warriors\' exploits demonstrate God\'s power working through faithful servants.',
+    keyThemes: ['National unity under God\'s king', 'Jerusalem as capital', 'Faithful warriors', 'Divine empowerment'],
+    christConnection: 'David\'s coronation over all Israel pictures Christ\'s ultimate reign over all peoples. Jerusalem, captured as David\'s city, becomes the place of Christ\'s death and resurrection, the spiritual center of redemption.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 12,
+    title: 'David\'s Growing Support: Warriors Gather',
+    summary: 'This chapter catalogs the warriors who joined David at various stages of his journey to kingship, from the wilderness period to Hebron. Men from every tribe, including Saul\'s own tribe of Benjamin, recognized David as God\'s chosen king. The growing numbers and skills of these warriors demonstrate God\'s providential building of David\'s kingdom. The chapter concludes with the great assembly that made David king.',
+    keyThemes: ['Divine providence', 'Growing recognition', 'Tribal unity', 'Warrior faithfulness'],
+    christConnection: 'As warriors gathered to David recognizing God\'s anointed, so believers from every tribe and nation gather to Christ, the greater Son of David, in His kingdom that will never end.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 13,
+    title: 'The Ark\'s First Journey: Uzzah\'s Death',
+    summary: 'David\'s first attempt to bring the ark to Jerusalem ends in tragedy when Uzzah touches the ark and is struck dead. Though David\'s intention was good, the method violated God\'s instructions—the ark should have been carried by Levites using poles, not on a cart. This sobering event teaches that God must be worshipped according to His own prescribed way. The ark remains at Obed-edom\'s house.',
+    keyThemes: ['Proper worship', 'Divine holiness', 'Good intentions insufficient', 'Obedience over zeal'],
+    christConnection: 'God\'s holiness, which struck Uzzah dead, is fully satisfied in Christ. Through Him alone we can approach God safely. Christ is our way to the Father, the only proper approach to divine holiness.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 14,
+    title: 'David\'s Kingdom Established',
+    summary: 'God\'s blessing on David becomes evident as Hiram of Tyre sends materials and craftsmen for David\'s palace. David\'s family grows, and he defeats the Philistines twice, each time inquiring of the Lord first. These victories demonstrate that David has learned from the ark incident—he now seeks God\'s guidance in everything. His fame spreads among the nations as God establishes his throne.',
+    keyThemes: ['Seeking God\'s guidance', 'Divine blessing', 'Victory through obedience', 'Kingdom establishment'],
+    christConnection: 'David\'s inquiring of the Lord before each battle models dependence on God that Christ perfectly demonstrated. Jesus always sought the Father\'s will, and through His obedience, God\'s kingdom is eternally established.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 15,
+    title: 'The Ark Properly Transported',
+    summary: 'David prepares properly this time, having the Levites carry the ark as God commanded through Moses. He organizes the Levites and musicians for worship, and the ark is brought to Jerusalem with great celebration. David himself dances before the Lord with all his might. This chapter shows true worship: joyful, reverent, and according to God\'s Word.',
+    keyThemes: ['Proper worship order', 'Joyful celebration', 'Levitical responsibility', 'David\'s worshipful heart'],
+    christConnection: 'The proper ordering of worship according to God\'s Word anticipates Christ, who fulfills all righteousness. David\'s wholehearted joy in God\'s presence pictures the joy set before Christ and the joy believers have in Him.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 16,
+    title: 'David\'s Psalm of Thanksgiving',
+    summary: 'With the ark now in Jerusalem, David appoints Levites for continual ministry before it and leads Israel in a magnificent psalm of thanksgiving. This psalm (also found in Psalms 96, 105, and 106) praises God\'s covenant faithfulness, wonderful deeds, and supreme glory. David establishes regular worship at the tabernacle, with Asaph and others leading praise while priests offer sacrifices.',
+    keyThemes: ['Covenant faithfulness', 'Continual worship', 'God\'s mighty deeds', 'Universal praise'],
+    christConnection: 'David\'s psalm of thanksgiving for God\'s salvation and covenant faithfulness finds its fullest expression in Christ. Through Him, God\'s covenant promises are all "Yes and Amen," and we offer continual praise through our great High Priest.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 17,
+    title: 'The Davidic Covenant: God\'s Promise to David',
+    summary: 'David desires to build God a permanent house, but through Nathan the prophet, God declares that He will build David a house—an eternal dynasty. God promises that David\'s son will build the temple, and that David\'s throne will be established forever. David responds with humble prayer, marveling at God\'s grace in choosing him and making such magnificent promises.',
+    keyThemes: ['Davidic covenant', 'Eternal kingdom promised', 'Humble response to grace', 'God builds His house'],
+    christConnection: 'The Davidic covenant finds its ultimate fulfillment in Christ, David\'s greater Son who reigns forever. He is the temple not made with hands, and His kingdom has no end. David\'s humble response models our wonder at God\'s grace in Christ.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 18,
+    title: 'David\'s Military Victories',
+    summary: 'God gives David victories over the Philistines, Moabites, Zobah, Arameans, and Edomites. David dedicates the spoils to the Lord and administers justice and righteousness throughout Israel. His officials are listed, showing the organized administration of his kingdom. These victories fulfill God\'s promises and establish the peace necessary for the future temple construction.',
+    keyThemes: ['God-given victory', 'Dedicated spoils', 'Just administration', 'Peace through conquest'],
+    christConnection: 'David\'s victories over Israel\'s enemies picture Christ\'s victory over sin, death, and Satan. As David dedicated spoils to God, Christ leads captivity captive, giving gifts to His church from His victorious work.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 19,
+    title: 'Victory Over Ammon and Aram',
+    summary: 'When David\'s ambassadors are shamefully treated by the Ammonites, war ensues. The Ammonites hire Aramean mercenaries, but Joab and the Israelite army defeat them decisively. The Arameans make peace and become subject to David. This account shows God\'s protection of David\'s honor and kingdom, demonstrating that those who oppose God\'s anointed will not prosper.',
+    keyThemes: ['Vindication of honor', 'Decisive victory', 'Enemies subdued', 'God\'s protection'],
+    christConnection: 'The defeat of those who dishonor God\'s anointed king points to Christ\'s triumph over all who reject Him. God vindicates His Son, and every knee will bow to the King whom many despised.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 20,
+    title: 'Final Victories: Ammon and the Giants',
+    summary: 'The war against Ammon concludes with the capture of their capital and great spoil. David\'s warriors also defeat Philistine giants, descendants of Rapha. The chronicler notably omits David\'s sin with Bathsheba (found in 2 Samuel 11-12), focusing instead on God\'s victories through David. These accounts confirm God\'s faithfulness to His promises regarding David\'s kingdom.',
+    keyThemes: ['Complete victory', 'Giants defeated', 'Divine faithfulness', 'Kingdom established'],
+    christConnection: 'David\'s warriors defeating giants pictures Christ\'s victory over every spiritual enemy, no matter how formidable. Through Him, we are more than conquerors over the giants of sin, death, and Satan.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 21,
+    title: 'David\'s Census and Its Consequences',
+    summary: 'Satan incites David to number Israel, and despite Joab\'s objection, David proceeds. This census, motivated by pride rather than trust in God, brings divine judgment—a plague kills 70,000 Israelites. At God\'s command through the prophet Gad, David purchases the threshing floor of Ornan the Jebusite and offers sacrifice there. God stops the plague, and this site becomes the future location of the temple.',
+    keyThemes: ['Pride\'s danger', 'Divine judgment', 'Repentance and mercy', 'Temple site chosen'],
+    christConnection: 'The place of judgment and mercy, purchased by David, becomes the temple site where sacrifices point to Christ. David\'s altar, stopping the plague through sacrifice, foreshadows Christ\'s sacrifice that stops God\'s wrath against sin.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 22,
+    title: 'Preparations for the Temple',
+    summary: 'David recognizes the threshing floor as the place for God\'s house and begins massive preparations. Though he cannot build the temple himself (being a man of war), he prepares abundantly: iron, bronze, cedar, gold, silver, and skilled workers. David charges Solomon to build the temple and to keep God\'s law, promising that God will give him wisdom and success.',
+    keyThemes: ['Generous preparation', 'Solomon\'s charge', 'Obedience required', 'Peace for temple building'],
+    christConnection: 'David\'s generous preparation for what he could not complete pictures God\'s preparation throughout history for Christ\'s work. Solomon, the man of peace who builds God\'s house, points to Christ, our Prince of Peace who builds the true temple.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 23,
+    title: 'Organization of the Levites',
+    summary: 'In his old age, David organizes the Levites for temple service, numbering those thirty years and older at 38,000. He divides them into four groups: those assisting the priests, officers and judges, gatekeepers, and musicians. Their duties include caring for the temple courts, chambers, and all sacred duties except offering sacrifices on the altar.',
+    keyThemes: ['Organized worship', 'Levitical duties', 'Preparation for worship', 'Service to God'],
+    christConnection: 'The Levites\' organized service in the temple foreshadows the ordered body of Christ, where each member serves according to their gifts. Christ organizes His church for effective worship and service.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 24,
+    title: 'Divisions of the Priests',
+    summary: 'The descendants of Aaron are divided into twenty-four courses for temple service, with lots cast to determine their order. This organization ensured regular, systematic worship throughout the year. Each division would serve for specific periods, maintaining continuity of worship before the Lord. The remaining Levites are also organized by lot.',
+    keyThemes: ['Priestly divisions', 'Organized worship rotation', 'Divine ordering by lot', 'Continuous service'],
+    christConnection: 'The twenty-four priestly courses maintaining continuous worship point to Christ\'s perpetual priesthood. He ever lives to make intercession, never needing replacement or rotation, serving eternally as our High Priest.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 25,
+    title: 'Temple Musicians Organized',
+    summary: 'David and the commanders organize the temple musicians under Asaph, Heman, and Jeduthun. These skilled musicians prophesied with lyres, harps, and cymbals. Twenty-four divisions of twelve musicians each were established, providing 288 trained musicians for temple worship. Music was considered prophetic ministry, with God\'s Spirit inspiring praise and instruction.',
+    keyThemes: ['Worship through music', 'Prophetic singing', 'Skilled service', 'Organized praise'],
+    christConnection: 'Music as prophetic ministry points to worship in the Spirit that Christ enables. The organized praise of skilled musicians foreshadows the church\'s worship, where we sing psalms, hymns, and spiritual songs with grace in our hearts.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 26,
+    title: 'Gatekeepers, Treasurers, and Officials',
+    summary: 'The gatekeepers are organized by divisions, assigned to various gates of the temple complex. The treasurers of the dedicated gifts and the officials overseeing external affairs are also organized. This chapter shows the comprehensive organization needed for God\'s house—from the most prominent duties to the seemingly mundane, all were ordered and valued.',
+    keyThemes: ['Faithful stewardship', 'Comprehensive organization', 'Temple security', 'Administrative faithfulness'],
+    christConnection: 'The gatekeepers guarding God\'s house point to Christ who guards His church. The treasurers of sacred things picture those entrusted with the gospel. All service in God\'s house, however humble, has dignity and importance.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 27,
+    title: 'Military and Administrative Organization',
+    summary: 'The military divisions are organized by month, each comprising 24,000 men under appointed commanders. David\'s tribal leaders, overseers of royal property, and personal counselors are also listed. This comprehensive organization demonstrates the stability and order of David\'s kingdom, providing the peaceful context in which Solomon would build the temple.',
+    keyThemes: ['Military organization', 'Administrative structure', 'Kingdom stability', 'Wise counsel'],
+    christConnection: 'The ordered kingdom under David\'s administration pictures Christ\'s kingdom, where all things work together in perfect order under His sovereign rule. His government continually increases, bringing eternal peace and righteousness.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 28,
+    title: 'David\'s Charge to Solomon and Israel',
+    summary: 'David assembles Israel\'s leaders and publicly charges Solomon with the temple project. He reveals that God chose Solomon to build the temple, providing detailed plans received from the Spirit. David encourages Solomon to be strong, for God will not forsake him until the work is done. The temple plans include every detail, all given by divine inspiration.',
+    keyThemes: ['Divine selection', 'Spirit-given plans', 'Public charge', 'Encouragement to faithfulness'],
+    christConnection: 'The Spirit-given temple plans point to Christ, the true temple whose design was in God\'s eternal purpose. As Solomon was chosen to build, so Christ was appointed to build the church, the living temple of God.'
+  },
+  {
+    bookId: '1-chronicles',
+    chapter: 29,
+    title: 'Generous Offerings and David\'s Prayer',
+    summary: 'David leads in generous giving for the temple, and the leaders and people give willingly and joyfully. David offers a magnificent prayer of praise, acknowledging that everything comes from God and we only give back what He has provided. Solomon is crowned king, and David dies in good old age, having prepared everything for his son and for God\'s house.',
+    keyThemes: ['Generous giving', 'Joyful worship', 'All belongs to God', 'Faithful completion'],
+    christConnection: 'David\'s acknowledgment that all wealth comes from God anticipates Christ\'s teaching about stewardship. The generous, joyful giving for God\'s house foreshadows the church\'s giving, motivated by Christ\'s surpassing generosity toward us.'
+  }
+];
+
+// 2 CHRONICLES CHAPTERS
+export const SECOND_CHRONICLES_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '2-chronicles',
+    chapter: 1,
+    title: 'Solomon\'s Wisdom: The Foundation of His Reign',
+    summary: 'Solomon establishes his kingdom and goes to Gibeon, where the tabernacle of meeting stands, to seek the Lord. God appears and offers to give Solomon whatever he asks. Solomon requests wisdom and knowledge to govern God\'s people, and God, pleased with this selfless request, grants him not only wisdom but also unprecedented riches and honor. This wisdom becomes the foundation for everything that follows.',
+    keyThemes: ['Seeking God first', 'Wisdom over wealth', 'Divine generosity', 'Leadership foundations'],
+    christConnection: 'Solomon\'s wisdom, divinely granted for governing God\'s people, points to Christ in whom are hidden all treasures of wisdom and knowledge. Jesus is greater than Solomon, the truly wise King who governs with perfect understanding.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 2,
+    title: 'Preparations for Temple Construction',
+    summary: 'Solomon commissions Hiram of Tyre to assist in building the temple, sending detailed specifications for the materials and craftsmen needed. Solomon acknowledges that no house can contain God but that this temple will be a place where His name dwells and where sacrifice is offered. The massive scale of the project is described, including the conscription of alien workers.',
+    keyThemes: ['International cooperation', 'Divine transcendence', 'Careful preparation', 'Skilled craftsmanship'],
+    christConnection: 'Solomon\'s recognition that heaven cannot contain God, much less a temple, points to the mystery of the incarnation—God dwelling in human flesh in Christ, the true temple not made with hands.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 3,
+    title: 'Temple Construction Begins',
+    summary: 'Solomon begins building the temple on Mount Moriah, where the Lord had appeared to David and where Abraham had offered Isaac. The dimensions and specifications are given: the vestibule, the main hall, the Most Holy Place. Everything is overlaid with gold. Two cherubim of gold stand in the Most Holy Place with their wings spanning the entire width of the room.',
+    keyThemes: ['Sacred location', 'Elaborate beauty', 'Divine specifications', 'Continuity with patriarchs'],
+    christConnection: 'The temple built on Mount Moriah, where Abraham offered Isaac, connects the place of substitutionary sacrifice to the place of God\'s dwelling. Christ, our sacrifice and temple, fulfills both meanings of this sacred site.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 4,
+    title: 'Temple Furnishings Completed',
+    summary: 'The bronze altar, the great cast "sea" for priestly washing, and all the furnishings are described. Ten lavers, ten lampstands, ten tables, and countless implements of gold and bronze are crafted. The care and precision in creating these objects demonstrate the importance of approaching God with the best that human craftsmanship can offer, according to divine pattern.',
+    keyThemes: ['Worship implements', 'Symbolic furnishings', 'Excellence in worship', 'Cleansing provisions'],
+    christConnection: 'The bronze laver for cleansing points to Christ\'s cleansing blood. The golden lampstands picture Christ as the light of the world. Every furnishing finds its reality in the person and work of our Lord.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 5,
+    title: 'The Ark Enters the Temple',
+    summary: 'With all work completed, Solomon assembles Israel to bring the ark of the covenant into the temple. The priests carry the ark into the Most Holy Place, beneath the cherubim. When the priests withdraw, the cloud of God\'s glory fills the temple so intensely that the priests cannot continue ministering. God has taken up residence among His people.',
+    keyThemes: ['Divine presence', 'Glory cloud', 'Covenant fulfillment', 'Worship climax'],
+    christConnection: 'The glory cloud filling the temple points to Christ, the fullness of deity dwelling bodily. As God\'s presence filled Solomon\'s temple, so Christ\'s presence fills His church by the Holy Spirit, the true temple of God.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 6,
+    title: 'Solomon\'s Prayer of Dedication',
+    summary: 'Solomon blesses the assembly, recounting God\'s faithfulness to David. He then kneels before all Israel and prays an extensive prayer of dedication, asking God to hear prayers directed toward this temple—prayers for justice, forgiveness, rain, deliverance from enemies, and restoration from exile. Solomon acknowledges that God cannot be contained in any building but asks Him to attend to prayers made toward this place.',
+    keyThemes: ['Prayer of dedication', 'Covenant faithfulness', 'Seeking forgiveness', 'Divine attentiveness'],
+    christConnection: 'Solomon\'s prayer that God would hear from heaven when people pray toward the temple anticipates our prayers through Christ. Jesus, the true temple, is the one toward whom we direct our prayers, our mediator with the Father.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 7,
+    title: 'God\'s Response: Fire and Glory',
+    summary: 'When Solomon finishes praying, fire comes down from heaven consuming the sacrifices, and the glory of the Lord fills the temple. The people worship, and a great celebration lasting fourteen days ensues. God later appears to Solomon at night, promising to hear prayers made toward this place and giving the famous conditional promise: if His people humble themselves, pray, and turn from wickedness, He will heal their land.',
+    keyThemes: ['Divine acceptance', 'Conditions for blessing', 'Humble prayer', 'Covenant response'],
+    christConnection: 'The conditional promise in verse 14 anticipates the gospel: humility, prayer, seeking God\'s face, and repentance. These find their ultimate expression in coming to Christ, through whom God heals and forgives completely.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 8,
+    title: 'Solomon\'s Achievements',
+    summary: 'Solomon\'s building projects, administrative organization, and faithful adherence to worship regulations are described. He builds cities, establishes a navy, and organizes temple worship according to David\'s instructions. He maintains the festival calendar and priestly divisions. Everything operates according to divine pattern under Solomon\'s wise administration.',
+    keyThemes: ['Organized worship', 'National prosperity', 'Faithful administration', 'Covenant obedience'],
+    christConnection: 'Solomon\'s faithful organization of worship according to divine pattern points to Christ who perfectly fulfills all righteousness and orders His church according to the Father\'s will.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 9,
+    title: 'The Queen of Sheba and Solomon\'s Glory',
+    summary: 'The Queen of Sheba visits, tests Solomon with hard questions, and is overwhelmed by his wisdom and the magnificence of his kingdom. She blesses the Lord who set Solomon on the throne. The chapter describes Solomon\'s vast wealth, his throne of ivory and gold, and his international fame. Solomon\'s forty-year reign ends with his death and Rehoboam\'s succession.',
+    keyThemes: ['Wisdom recognized', 'International renown', 'Unparalleled wealth', 'Kingdom glory'],
+    christConnection: 'Jesus said a greater than Solomon is here. The Queen of Sheba came from afar to hear Solomon\'s wisdom; the nations will stream to Christ, whose wisdom and glory infinitely surpass Solomon\'s.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 10,
+    title: 'The Kingdom Divides: Rehoboam\'s Folly',
+    summary: 'Rehoboam goes to Shechem where all Israel has gathered to make him king. When the people request relief from Solomon\'s heavy burdens, Rehoboam rejects the elders\' wise counsel and follows the harsh advice of his young companions. His oppressive answer causes the northern tribes to revolt. Only Judah and Benjamin remain loyal to David\'s house.',
+    keyThemes: ['Foolish leadership', 'Rejecting wisdom', 'Divine judgment', 'Kingdom division'],
+    christConnection: 'Rehoboam\'s rejection of wise counsel leading to division contrasts with Christ, who always speaks the Father\'s words with perfect wisdom. In Christ, God unites what human folly divides.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 11,
+    title: 'Rehoboam Strengthens Judah',
+    summary: 'God forbids Rehoboam from fighting to recover the northern tribes—the division is from Him. Rehoboam fortifies Judah\'s cities and is strengthened by priests and Levites from the north who flee Jeroboam\'s idolatry. Those from all tribes who seek the Lord come to Jerusalem to worship, strengthening Judah for three years while they walk in David\'s and Solomon\'s ways.',
+    keyThemes: ['Accepting God\'s discipline', 'Remnant faithfulness', 'True worship', 'Divine sovereignty'],
+    christConnection: 'The faithful remnant leaving idolatry to worship at Jerusalem pictures all who leave false religion to find true worship in Christ. God always preserves a remnant who seek Him.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 12,
+    title: 'Shishak\'s Invasion: Humiliation and Mercy',
+    summary: 'When Rehoboam\'s kingdom is established, he forsakes God\'s law, and all Israel with him. Shishak of Egypt invades with a vast army. The prophet Shemaiah declares this is judgment for forsaking God. Rehoboam and the leaders humble themselves, and God grants partial deliverance—they become Shishak\'s servants so they may learn the difference between serving God and serving earthly kingdoms.',
+    keyThemes: ['Apostasy\'s consequences', 'Humility brings mercy', 'Learning through discipline', 'Partial restoration'],
+    christConnection: 'The lesson of learning the difference between serving God and serving other masters points to Christ\'s teaching that we cannot serve two masters. Only in Christ do we find freedom from all other bondages.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 13,
+    title: 'Abijah\'s Victory Over Jeroboam',
+    summary: 'Abijah succeeds Rehoboam and leads Judah against the numerically superior forces of Jeroboam. Before battle, Abijah preaches to Israel, appealing to the Davidic covenant and the true worship at Jerusalem, contrasting it with Jeroboam\'s false worship. Despite being surrounded, Judah cries to the Lord and wins a devastating victory. Jeroboam never recovers his strength.',
+    keyThemes: ['Covenant faithfulness', 'True vs. false worship', 'Crying to God in distress', 'Divine deliverance'],
+    christConnection: 'Abijah\'s appeal to covenant and true worship points to Christ, through whom alone true worship is offered. His cry to God in the midst of battle pictures our dependence on Christ in every spiritual conflict.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 14,
+    title: 'Asa\'s Godly Reign Begins',
+    summary: 'Asa does what is right, removing foreign altars and high places, commanding Judah to seek the Lord. God gives the land rest, and Asa uses this peace to fortify cities and build an army. When an Ethiopian army of a million men invades, Asa calls on the Lord, acknowledging that human strength means nothing against such odds. God defeats the Ethiopians before Judah.',
+    keyThemes: ['Seeking God', 'Peace through faithfulness', 'Dependence in crisis', 'Divine victory'],
+    christConnection: 'Asa\'s confession that it makes no difference whether one is strong or weak—only God gives victory—points to our complete dependence on Christ. In our weakness, His strength is perfected.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 15,
+    title: 'Asa\'s Reforms and Covenant Renewal',
+    summary: 'The prophet Azariah encourages Asa with the message that God is with those who are with Him, but forsakes those who forsake Him. Asa takes courage and removes idols throughout the land. The people assemble to renew covenant, seeking God with their whole heart. Even the queen mother is removed from her position for idolatry. Asa\'s heart is wholly devoted to the Lord.',
+    keyThemes: ['Prophetic encouragement', 'Thorough reform', 'Covenant renewal', 'Wholehearted devotion'],
+    christConnection: 'The covenant renewal ceremony, with the people seeking God wholeheartedly, anticipates the new covenant in Christ. Through Him, God\'s law is written on our hearts, and we seek Him with undivided devotion.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 16,
+    title: 'Asa\'s Failure: Trust in Human Alliance',
+    summary: 'In his later years, Asa faces threat from Israel and, forgetting his earlier faith, makes an alliance with Syria rather than trusting God. The prophet Hanani rebukes him, reminding him of the Ethiopian victory through faith. Rather than repent, Asa angrily imprisons the prophet and oppresses some of the people. When diseased in his feet, he seeks only physicians, not the Lord. Asa dies after forty-one years.',
+    keyThemes: ['Failure after success', 'Trust in human help', 'Rejecting reproof', 'Incomplete repentance'],
+    christConnection: 'Asa\'s tragic failure to maintain trust in God throughout his life warns us of depending on human resources rather than Christ. Only He can keep us faithful to the end.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 17,
+    title: 'Jehoshaphat\'s Godly Reign',
+    summary: 'Jehoshaphat succeeds Asa and seeks the Lord, following David\'s earlier ways rather than Israel\'s idolatry. He removes high places and Asherim from Judah. In his third year, he sends officials and Levites to teach the law throughout Judah—a remarkable program of spiritual education. God establishes his kingdom, and surrounding nations bring tribute or fear to make war.',
+    keyThemes: ['Seeking God early', 'Teaching God\'s law', 'National instruction', 'Divine establishment'],
+    christConnection: 'Jehoshaphat\'s program of teaching God\'s law throughout the land pictures Christ\'s commission to teach all nations. The church continues this ministry of instruction in God\'s Word.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 18,
+    title: 'Alliance with Ahab: Micaiah\'s Warning',
+    summary: 'Jehoshaphat unwisely allies with wicked Ahab of Israel through marriage. When Ahab proposes war against Ramoth-gilead, Jehoshaphat asks to inquire of the Lord. Four hundred prophets promise success, but Jehoshaphat asks for a true prophet. Micaiah reveals that victory has been falsely prophesied; Ahab will die. Despite warnings, they proceed. Ahab is killed, but Jehoshaphat escapes.',
+    keyThemes: ['Unequal alliances', 'True vs. false prophecy', 'God\'s sovereignty over deceit', 'Divine warning ignored'],
+    christConnection: 'Micaiah standing alone speaking God\'s truth against popular false prophecy pictures Christ, the true prophet whom the majority rejected. His word alone is trustworthy.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 19,
+    title: 'Jehoshaphat\'s Judicial Reforms',
+    summary: 'Jehu the seer rebukes Jehoshaphat for helping the wicked Ahab but notes some good in him—he destroyed Asherim and set his heart to seek God. Jehoshaphat responds well to reproof, going throughout Judah to restore the people to the Lord. He appoints judges, charging them to judge for the Lord, not for man, with impartiality and integrity. Priests and Levites judge in Jerusalem.',
+    keyThemes: ['Responding to reproof', 'Justice reform', 'Judicial integrity', 'Fearing God in judgment'],
+    christConnection: 'The charge to judges to judge for the Lord with impartiality points to Christ, the righteous judge who judges not by appearance but with perfect justice. He is our just advocate and judge.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 20,
+    title: 'Jehoshaphat\'s Victory Through Praise',
+    summary: 'A vast army of Moabites and Ammonites threatens Judah. Jehoshaphat sets himself to seek the Lord, calling a national fast. His prayer acknowledges God\'s power and confesses Judah\'s helplessness. The Spirit comes on Jahaziel who declares the battle is God\'s—they need only stand still and see salvation. The next morning, Jehoshaphat appoints singers to go before the army praising God. As they praise, God sets ambushes and the enemies destroy each other.',
+    keyThemes: ['Prayer in crisis', 'Faith over fear', 'Battle belongs to God', 'Power of praise'],
+    christConnection: 'Victory through praise and standing still to see God\'s salvation pictures our warfare in Christ. He has won the battle; our role is to trust, praise, and watch Him work.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 21,
+    title: 'Jehoram\'s Wicked Reign',
+    summary: 'Jehoram becomes king and immediately kills all his brothers to secure his throne. He marries Ahab\'s daughter and leads Judah into idolatry like Israel. Edom and Libnah revolt against Judah\'s oppression. Elijah sends a letter prophesying judgment: a plague on Jehoram\'s house and a disease in his bowels. The prophecy is fulfilled—he dies painfully and unmourned.',
+    keyThemes: ['Wicked influence through marriage', 'Violence and bloodshed', 'Prophetic judgment', 'Unmourned death'],
+    christConnection: 'Jehoram\'s wicked reign following worldly alliance contrasts with Christ\'s perfect righteousness. The letter from Elijah shows God\'s prophetic word reaches even the most corrupt, offering opportunity for repentance.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 22,
+    title: 'Ahaziah and Athaliah: Near Extinction',
+    summary: 'Ahaziah reigns one year, following the wicked counsel of his mother Athaliah (Ahab\'s daughter). He allies with Joram of Israel and is killed by Jehu during his purge of Ahab\'s house. Athaliah then massacres all the royal seed to seize the throne. But one prince, Joash, is hidden by the priest\'s wife in the temple for six years while Athaliah rules. The Davidic line nearly perishes but is preserved by God.',
+    keyThemes: ['Wicked counsel', 'Near extinction of royal line', 'God\'s hidden preservation', 'Seeds of restoration'],
+    christConnection: 'The preservation of Joash from Athaliah\'s massacre pictures God\'s preservation of the messianic line. Despite Satan\'s attempts to destroy Christ\'s lineage, God sovereignly protects His purposes.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 23,
+    title: 'Joash Crowned: Athaliah Overthrown',
+    summary: 'Jehoiada the priest carefully plans a coup, bringing the hidden Joash forth in the seventh year. He makes a covenant with military commanders and Levites, revealing the king\'s son. They crown Joash while guards protect the temple and king. Athaliah is executed outside the temple. Jehoiada makes a covenant between the Lord, the king, and the people. Baal worship is destroyed, and proper temple worship is restored.',
+    keyThemes: ['Covenant restoration', 'Rightful king revealed', 'Idolatry purged', 'Worship renewed'],
+    christConnection: 'The hidden king revealed and crowned points to Christ, hidden for a time but revealed in fullness. The restoration of true worship through the king foreshadows what Christ accomplishes for His people.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 24,
+    title: 'Joash\'s Temple Repair and Tragic End',
+    summary: 'Joash, under Jehoiada\'s guidance, repairs the temple through a collection box that receives the people\'s willing offerings. Worship is restored as long as Jehoiada lives. But after the priest dies, Joash listens to wicked princes, abandons the temple, and returns to idolatry. When Zechariah, Jehoiada\'s son, prophesies against them, Joash has him killed in the temple court. Syria invades, and Joash\'s own servants assassinate him.',
+    keyThemes: ['Good influence\'s power', 'Willing offerings', 'Apostasy after blessing', 'Shedding innocent blood'],
+    christConnection: 'Zechariah\'s murder in the temple court, calling for God to avenge his blood, is referenced by Jesus as one of the crimes that Jerusalem\'s bloodguilt would require. Christ\'s blood speaks a better word than Zechariah\'s.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 25,
+    title: 'Amaziah: Partial Obedience',
+    summary: 'Amaziah does right, but not with a whole heart. He executes his father\'s murderers but spares their children according to the law. He hires Israelite mercenaries for war but dismisses them when a prophet warns him. Though he defeats Edom, he brings back their gods and worships them. When rebuked, he threatens the prophet. He then foolishly challenges Israel and is badly defeated. He dies by assassination.',
+    keyThemes: ['Half-hearted devotion', 'Foolish idolatry', 'Pride before destruction', 'Rejecting prophetic warning'],
+    christConnection: 'Amaziah\'s divided heart and adoption of Edom\'s gods after defeating them shows the danger of partial obedience. Christ calls for wholehearted devotion; He alone deserves our complete loyalty.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 26,
+    title: 'Uzziah\'s Prosperity and Pride',
+    summary: 'Uzziah begins well, seeking God under Zechariah\'s instruction, and God prospers him greatly. He strengthens Jerusalem, builds towers, digs cisterns, and develops a powerful army. But when strong, his heart is lifted up to his destruction. He enters the temple to burn incense—a priestly privilege. When the priests resist, he rages at them and is immediately struck with leprosy, remaining a leper until death.',
+    keyThemes: ['Prosperity\'s danger', 'Pride and presumption', 'Boundaries in worship', 'Divine discipline'],
+    christConnection: 'Uzziah\'s presumption in attempting priestly duties he was not authorized to perform contrasts with Christ who perfectly unites the offices of king and priest according to God\'s order, not human assumption.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 27,
+    title: 'Jotham: Faithful but Limited Reform',
+    summary: 'Jotham does right before the Lord, like his father Uzziah, but learns from Uzziah\'s sin—he does not enter the temple. He builds extensively and defeats the Ammonites. The chronicler notes that he "ordered his ways before the Lord," yet the people continue in corruption. Jotham\'s reign shows that even godly personal example cannot fully reform a corrupt nation without deeper spiritual change.',
+    keyThemes: ['Learning from others\' sins', 'Consistent faithfulness', 'Limited reform', 'Personal righteousness'],
+    christConnection: 'Jotham\'s personal faithfulness amid national corruption points to the need for deeper transformation than example alone can provide—the heart change that only Christ can accomplish through the new covenant.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 28,
+    title: 'Ahaz: Depth of Apostasy',
+    summary: 'Ahaz is utterly wicked, walking in Israel\'s sins, making molten images for Baal, burning his sons as offerings, and sacrificing on every high place. God brings Syria and Israel against him, killing thousands and taking captives. The prophet Oded persuades Israel to return the Judean captives. Ahaz responds to his troubles by increasing his sin, worshipping Syrian gods and closing the temple. His reign represents Judah\'s nadir.',
+    keyThemes: ['Complete apostasy', 'Child sacrifice', 'Closing God\'s house', 'Responding wrongly to discipline'],
+    christConnection: 'Ahaz\'s closing of God\'s temple represents the ultimate rejection of God. Christ comes to open the way to God that sinful humanity has closed, tearing the veil and giving access to the Father.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 29,
+    title: 'Hezekiah\'s Revival: Temple Restored',
+    summary: 'Hezekiah immediately opens and repairs the temple doors his father had closed. He challenges the Levites to consecrate themselves and cleanse the house of the Lord. The purification takes sixteen days. Hezekiah then gathers Jerusalem\'s rulers, offers sacrifice, and restores worship with singing and instruments. The king and people rejoice that God has so quickly prepared the people.',
+    keyThemes: ['Immediate reformation', 'Temple restoration', 'Levitical consecration', 'Joyful worship renewed'],
+    christConnection: 'Hezekiah opening the temple and restoring worship pictures Christ, who opens the way to God. His first priority—restoring true worship—reflects Christ\'s zeal for His Father\'s house.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 30,
+    title: 'Passover Restored: United Worship',
+    summary: 'Hezekiah invites all Israel and Judah—including the northern tribes—to Jerusalem for Passover, even though the normal time has passed. Many in the north mock the couriers, but some humble themselves and come. Though some eat Passover without proper consecration, Hezekiah prays for them and God heals the people. The celebration extends an extra seven days with great joy—such a feast had not been seen since Solomon.',
+    keyThemes: ['United worship', 'Covenant meal', 'Prayer for imperfect worshippers', 'Unprecedented celebration'],
+    christConnection: 'Hezekiah\'s prayer for those who eat Passover though not fully consecrated, and God\'s gracious acceptance, points to Christ\'s intercession for imperfect worshippers who come to Him in sincerity.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 31,
+    title: 'Reformation Completed: Tithes Restored',
+    summary: 'Following Passover, the people go out to destroy idolatrous sites throughout Judah and even into northern Israel. Hezekiah organizes priestly and Levitical divisions and commands the people to bring tithes and offerings. The response is overwhelming—so much is brought that storage rooms overflow. Hezekiah does what is good and right and true before God, seeking Him wholeheartedly and prospering.',
+    keyThemes: ['Idolatry destroyed', 'Generous giving', 'Organized worship', 'Wholehearted seeking'],
+    christConnection: 'The overflowing tithes supporting full-time ministers of worship point to the church\'s generous support of gospel ministry. Those who preach the gospel should live from the gospel.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 32,
+    title: 'Sennacherib\'s Threat and God\'s Deliverance',
+    summary: 'Assyria\'s Sennacherib invades Judah. Hezekiah prepares physically and spiritually, strengthening walls and encouraging the people that "there is One greater with us than with him." Sennacherib\'s messenger blasphemes God, comparing Him to conquered nations\' gods. Hezekiah and Isaiah pray, and the Lord sends an angel who destroys 185,000 Assyrians. Later, Hezekiah becomes ill, is healed, but then his heart is lifted up—though he later humbles himself.',
+    keyThemes: ['Faith vs. superior force', 'Blasphemy answered', 'Angelic deliverance', 'Pride and humility'],
+    christConnection: 'God\'s deliverance from Sennacherib when human resources were inadequate pictures our deliverance through Christ when facing impossible spiritual enemies. Greater is He who is with us than he who is in the world.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 33,
+    title: 'Manasseh\'s Wickedness and Repentance',
+    summary: 'Manasseh surpasses all previous kings in wickedness, rebuilding high places, setting up Asherim, worshipping heavenly hosts, practicing sorcery, and passing his children through fire. God sends prophets, but Manasseh ignores them. Assyria captures him with hooks and chains, taking him to Babylon. In his distress, he humbles himself greatly before God. God hears and restores him to Jerusalem. Manasseh then reforms, but his son Amon returns to evil.',
+    keyThemes: ['Extreme wickedness', 'Discipline and humbling', 'Late repentance', 'Grace for the worst sinners'],
+    christConnection: 'Manasseh\'s repentance after extraordinary wickedness demonstrates that no one is beyond God\'s grace in Christ. If the worst sinner humbles himself, God receives him—this is gospel hope.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 34,
+    title: 'Josiah\'s Early Reforms',
+    summary: 'Josiah becomes king at eight years old and begins seeking God at sixteen. At twenty he begins purging Judah of idolatry, extending even into former northern territories. When the temple is repaired, the book of the Law is discovered. Reading it, Josiah tears his robes in distress. The prophetess Huldah confirms that judgment is coming but that Josiah will be spared because he humbled himself.',
+    keyThemes: ['Youthful seeking', 'Thorough reform', 'Law rediscovered', 'Humble response to Scripture'],
+    christConnection: 'The discovery of God\'s neglected Word bringing conviction and reform pictures the Reformation and every revival when Scripture is recovered. Christ is the living Word whose rediscovery transforms lives.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 35,
+    title: 'Josiah\'s Passover and Death',
+    summary: 'Josiah leads the greatest Passover celebration since Samuel\'s time, carefully following all prescriptions of the Law. The king personally provides animals for the people\'s offerings. But tragically, Josiah later opposes Pharaoh Necho at Megiddo, ignoring even Necho\'s warning (which was from God). Josiah is killed in battle. All Judah mourns their righteous king; Jeremiah composes laments. His death marks the beginning of the end for Judah.',
+    keyThemes: ['Faithful observance', 'Generous provision', 'Fatal presumption', 'Kingdom mourns'],
+    christConnection: 'Josiah\'s Passover, the greatest since Samuel, points forward to Christ who perfectly fulfills the Passover as both the host who provides and the Lamb who is sacrificed.'
+  },
+  {
+    bookId: '2-chronicles',
+    chapter: 36,
+    title: 'The End: Exile to Babylon',
+    summary: 'Judah\'s final kings—Jehoahaz, Jehoiakim, Jehoiachin, and Zedekiah—are summarized rapidly, each doing evil. Despite God sending prophets persistently, they are mocked and despised. When there is no remedy, Babylon destroys Jerusalem and the temple, exiling the people. The land rests seventy years to fulfill Jeremiah\'s prophecy. Yet Chronicles ends with hope: Cyrus\'s decree to rebuild—God\'s purposes continue.',
+    keyThemes: ['Prophets rejected', 'No remedy remaining', 'Exile and desolation', 'Hope of restoration'],
+    christConnection: 'The destruction and exile resulting from rejecting prophets points to Jerusalem\'s later rejection of Christ, the greatest Prophet. Yet as Cyrus brought restoration, Christ brings the greater restoration—return from spiritual exile.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -2816,6 +3344,10 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return FIRST_KINGS_CHAPTERS;
     case '2-kings':
       return SECOND_KINGS_CHAPTERS;
+    case '1-chronicles':
+      return FIRST_CHRONICLES_CHAPTERS;
+    case '2-chronicles':
+      return SECOND_CHRONICLES_CHAPTERS;
     // More books will be added
     default:
       return [];
@@ -2836,4 +3368,6 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: '2-samuel', bookName: '2 Samuel', chapters: SECOND_SAMUEL_CHAPTERS },
   { bookId: '1-kings', bookName: '1 Kings', chapters: FIRST_KINGS_CHAPTERS },
   { bookId: '2-kings', bookName: '2 Kings', chapters: SECOND_KINGS_CHAPTERS },
+  { bookId: '1-chronicles', bookName: '1 Chronicles', chapters: FIRST_CHRONICLES_CHAPTERS },
+  { bookId: '2-chronicles', bookName: '2 Chronicles', chapters: SECOND_CHRONICLES_CHAPTERS },
 ];
