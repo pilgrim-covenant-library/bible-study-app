@@ -5141,6 +5141,426 @@ export const PSALMS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// PROVERBS CHAPTERS
+export const PROVERBS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'proverbs',
+    chapter: 1,
+    title: 'The Purpose of Proverbs',
+    summary: 'The proverbs of Solomon, king of Israel, given for knowing wisdom and instruction, understanding words of insight, receiving instruction in wise dealing, righteousness, justice, and equity. The fear of the Lord is the beginning of knowledge; fools despise wisdom. Solomon urges his son to heed parental instruction, warning against those who entice to sin. Wisdom herself cries out in public places, warning that those who refuse her counsel will reap what they have sown. Security comes to those who listen to Wisdom.',
+    keyThemes: ['Purpose of wisdom', 'Fear of the Lord', 'Parental instruction', 'Wisdom personified'],
+    christConnection: 'Christ is the wisdom of God. Those who find Him find life. He calls out to all, and those who refuse Him face judgment; those who heed Him dwell secure.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 2,
+    title: 'The Value of Wisdom',
+    summary: 'If you receive wisdom\'s words, treasure her commands, incline your ear, apply your heart, call out for insight, seek her as silver, search for her as hidden treasure—then you will understand the fear of the Lord. The Lord gives wisdom; from His mouth come knowledge and understanding. Wisdom will protect you from the way of evil, from those whose speech is perverse. She will save you from the forbidden woman whose house leads to death. So you will walk in the way of the good and keep to the paths of the righteous.',
+    keyThemes: ['Seeking wisdom', 'Protection from evil', 'The forbidden woman', 'Righteous paths'],
+    christConnection: 'Christ is the hidden treasure worth everything. In Him are hidden all treasures of wisdom and knowledge. He protects us from paths leading to death.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 3,
+    title: 'Trust in the Lord',
+    summary: 'Do not forget my teaching; let your heart keep my commandments. Trust in the Lord with all your heart; lean not on your own understanding. In all your ways acknowledge Him, and He will make straight your paths. Do not be wise in your own eyes; fear the Lord and turn away from evil. Honor the Lord with your wealth; your barns will be filled with plenty. Do not despise the Lord\'s discipline. The Lord by wisdom founded the earth. Blessed is the one who finds wisdom—she is more precious than jewels. Do not withhold good from those to whom it is due.',
+    keyThemes: ['Trust not understanding', 'Acknowledge God', 'Honor with wealth', 'Wisdom\'s blessing'],
+    christConnection: 'Through Christ, the wisdom of God, the world was made. He is the straight path. In trusting Him fully rather than our own insight, we find life and favor.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 4,
+    title: 'Get Wisdom',
+    summary: 'Hear, O sons, a father\'s instruction. I was my father\'s son, tender and the only one in my mother\'s sight. He taught me: "Get wisdom; get insight; do not forget. Wisdom is the principal thing—with all your getting, get understanding. Prize her highly, and she will exalt you." I have taught you the way of wisdom; I have led you in the paths of uprightness. Keep your heart with all vigilance, for from it flow the springs of life. Let your eyes look directly forward. Ponder the path of your feet.',
+    keyThemes: ['Generational teaching', 'Wisdom supreme', 'Guard your heart', 'Straight path'],
+    christConnection: 'Christ is the wisdom worth prizing above all. Guarding our hearts means treasuring Him. He is the way—the path of life that leads straight to the Father.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 5,
+    title: 'Warning Against Adultery',
+    summary: 'My son, be attentive to my wisdom. The lips of a forbidden woman drip honey, but in the end she is bitter as wormwood, sharp as a two-edged sword. Her feet go down to death. Keep your way far from her; do not go near the door of her house, lest you give your honor to others. Drink water from your own cistern. Let your fountain be blessed; rejoice in the wife of your youth. Why be intoxicated with a forbidden woman? For a man\'s ways are before the Lord. The wicked will be held fast by their sin.',
+    keyThemes: ['Sexual purity', 'Marriage fidelity', 'Consequences of adultery', 'God sees all'],
+    christConnection: 'Christ calls His bride to faithfulness. Spiritual adultery—chasing other loves—leads to death. Faithfulness to Christ alone brings life and blessing.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 6,
+    title: 'Warnings Against Folly',
+    summary: 'Warnings against rash financial guarantees: free yourself like a gazelle. Go to the ant, O sluggard; consider her ways and be wise—she prepares her food in summer. A little sleep, a little slumber—poverty will come upon you. There are six things the Lord hates, seven that are an abomination: haughty eyes, a lying tongue, hands that shed innocent blood, a heart devising wicked plans, feet running to evil, a false witness, and one who sows discord. Keep your father\'s commandment; when you walk, it will lead you. Can a man carry fire in his lap and not be burned? The one who commits adultery lacks sense.',
+    keyThemes: ['Industry versus laziness', 'Seven abominations', 'Parental guidance', 'Adultery\'s destruction'],
+    christConnection: 'Christ hates what the Father hates—pride, lies, bloodshed, evil schemes. He is the industrious one who worked our salvation. In Him we learn true wisdom and avoid folly.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 7,
+    title: 'The Seductress',
+    summary: 'My son, keep my words; keep my commandments and live. Say to wisdom, "You are my sister." I saw among the simple ones a young man lacking sense, passing near her corner. A woman meets him with the attire of a prostitute, wily of heart. She seizes him and kisses him. "My husband is away; come, let us take our fill of love." With much seductive speech she persuades him. He follows her like an ox to slaughter. Her house is the way to Sheol. Many a victim has she laid low.',
+    keyThemes: ['Naïve youth', 'Seductive speech', 'Path to death', 'Wisdom as protection'],
+    christConnection: 'Christ calls us from spiritual adultery—the seductions of the world that lead to death. Wisdom (Christ) is our sister and friend who guards us from destruction.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 8,
+    title: 'Wisdom\'s Call',
+    summary: 'Does not wisdom call? She takes her stand at the crossroads. "To you, O men, I call. I speak noble things; my mouth utters truth. All my words are righteous. I, wisdom, dwell with prudence. The Lord possessed me at the beginning, before His works of old. When He established the heavens, I was there. I was beside Him as a master workman, rejoicing before Him always. Blessed is the one who listens to me, watching daily at my gates. Whoever finds me finds life. Those who miss me injure themselves; all who hate me love death."',
+    keyThemes: ['Wisdom in creation', 'Pre-existent wisdom', 'Life or death choice', 'Rejoicing before God'],
+    christConnection: 'Christ is the eternal wisdom, present at creation, the master craftsman through whom all things were made. To find Christ is to find life; to reject Him is to choose death.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 9,
+    title: 'Two Invitations',
+    summary: 'Wisdom has built her house; she has hewn her seven pillars. She has slaughtered her beasts, mixed her wine, set her table. She calls, "Come, eat of my bread and drink of my wine. Leave your simple ways and live; walk in the way of insight." The fear of the Lord is the beginning of wisdom. By me your days will be multiplied. Folly is loud and seductive; she sits at the door of her house calling, "Stolen water is sweet." But the dead are there; her guests are in the depths of Sheol.',
+    keyThemes: ['Wisdom\'s feast', 'Folly\'s deception', 'Two invitations', 'Fear of the Lord'],
+    christConnection: 'Christ prepares the feast of salvation, the wedding supper. His table is set. Folly offers stolen pleasures leading to death; Christ offers true bread and wine—His body and blood for life.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 10,
+    title: 'Proverbs of Solomon: Righteousness and Wickedness',
+    summary: 'The proverbs of Solomon. A wise son makes a glad father; a foolish son is a sorrow to his mother. Treasures gained by wickedness do not profit, but righteousness delivers from death. The Lord does not let the righteous go hungry. A slack hand causes poverty; the diligent hand makes rich. Hatred stirs up strife, but love covers all offenses. On the lips of the discerning, wisdom is found. The mouth of the righteous is a fountain of life. The wise of heart will receive commandments.',
+    keyThemes: ['Wise versus foolish sons', 'Diligence versus laziness', 'Speech\'s power', 'Love covers offenses'],
+    christConnection: 'Christ is the righteous one whose words are life. He covers our offenses with His love. His wisdom makes us children who bring joy to the Father.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 11,
+    title: 'Integrity and Generosity',
+    summary: 'A false balance is an abomination to the Lord, but a just weight is His delight. When pride comes, then comes disgrace; with the humble is wisdom. The integrity of the upright guides them; the crookedness of the treacherous destroys them. Riches do not profit in the day of wrath, but righteousness delivers from death. The generous soul will be made rich; one who waters will also be watered. Whoever trusts in his riches will fall, but the righteous will flourish. Whoever troubles his own household will inherit the wind.',
+    keyThemes: ['Honest business', 'Pride brings fall', 'Generosity blessed', 'Righteousness versus riches'],
+    christConnection: 'Christ is the just weight and measure. He is the generous one who gave all and received all. Through His righteousness we are delivered from the day of wrath.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 12,
+    title: 'The Righteous and the Wicked',
+    summary: 'Whoever loves discipline loves knowledge; whoever hates reproof is stupid. The Lord condemns a man of evil devices, but the root of the righteous will never be moved. An excellent wife is the crown of her husband. The thoughts of the righteous are just. A righteous man regards the life of his beast. The way of a fool is right in his own eyes; the wise listens to advice. Lying lips are an abomination to the Lord. The hand of the diligent will rule. Anxiety weighs down the heart, but a good word makes it glad.',
+    keyThemes: ['Love of discipline', 'Excellent wife', 'Care for animals', 'Good words heal'],
+    christConnection: 'Christ is the root that cannot be moved. He speaks good words that heal anxious hearts. His church is the excellent bride, His crown of glory.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 13,
+    title: 'Wisdom and Wealth',
+    summary: 'A wise son hears his father\'s instruction. Hope deferred makes the heart sick, but a desire fulfilled is a tree of life. Those who despise the word bring destruction on themselves; those who respect the commandment will be rewarded. The teaching of the wise is a fountain of life. Good sense wins favor. Wealth gained hastily will dwindle; whoever gathers little by little will increase it. Whoever walks with the wise becomes wise. An inheritance gained hastily will not be blessed in the end. Whoever spares the rod hates his son; whoever loves him disciplines him.',
+    keyThemes: ['Heeding instruction', 'Hope fulfilled', 'Steady wealth-building', 'Loving discipline'],
+    christConnection: 'Christ is the desire fulfilled, the tree of life. Walking with Him—the wisdom of God—makes us wise. His discipline proves His love for His children.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 14,
+    title: 'Wisdom Builds, Folly Tears Down',
+    summary: 'The wisest of women builds her house; folly tears it down with her hands. There is a way that seems right to a man, but its end is death. Even in laughter the heart may ache. The simple believes everything; the prudent gives thought to his steps. A tranquil heart gives life to the flesh; envy rots the bones. Whoever oppresses the poor insults his Maker. In the fear of the Lord one has strong confidence, and his children have a refuge. The fear of the Lord is a fountain of life.',
+    keyThemes: ['Building versus destroying', 'Way of death', 'Tranquil heart', 'Caring for the poor'],
+    christConnection: 'Christ is the wise builder whose house stands. There is a way that seems right—self-righteousness—but Christ alone is the way to life. He is the fountain of living water.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 15,
+    title: 'Gentle Words and Pure Hearts',
+    summary: 'A soft answer turns away wrath; a harsh word stirs up anger. The eyes of the Lord are in every place, keeping watch. A gentle tongue is a tree of life. Better is a little with the fear of the Lord than great treasure with trouble. Better is a dinner of herbs where love is than a fattened ox with hatred. A hot-tempered man stirs up strife; whoever is slow to anger quiets contention. The way of the sluggard is like a hedge of thorns. A glad heart makes a cheerful face. The sacrifice of the wicked is an abomination; the prayer of the upright is His delight.',
+    keyThemes: ['Soft answer', 'God sees all', 'Little with love', 'Prayer\'s delight'],
+    christConnection: 'Christ is the gentle tongue, the tree of life. He gave the soft answer even to His accusers. His prayers are the Father\'s delight; through Him our prayers ascend.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 16,
+    title: 'The Lord Directs Steps',
+    summary: 'The plans of the heart belong to man, but the answer of the tongue is from the Lord. All a person\'s ways seem pure in their own eyes, but the Lord weighs the spirit. Commit your work to the Lord, and your plans will be established. The Lord has made everything for its purpose, even the wicked for the day of trouble. Pride goes before destruction, a haughty spirit before a fall. Better to be lowly than divide spoil with the proud. Whoever gives thought to the word will find good. Gray hair is a crown of glory. The lot is cast, but every decision is from the Lord.',
+    keyThemes: ['God\'s sovereignty', 'Pride before fall', 'Commit to the Lord', 'Divine decision'],
+    christConnection: 'Christ committed His ways to the Father and was exalted. He humbled Himself, avoiding the fall of pride. Every step of His life was directed by the Father\'s will.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 17,
+    title: 'Peace and Friendship',
+    summary: 'Better a dry morsel with quiet than a house full of feasting with strife. A servant who deals wisely will rule over a son who acts shamefully. The crucible is for silver and the furnace for gold, but the Lord tests hearts. A friend loves at all times, and a brother is born for adversity. Whoever covers an offense seeks love; whoever repeats it separates close friends. A rebuke goes deeper into a person of understanding than a hundred blows into a fool. A joyful heart is good medicine; a crushed spirit dries up the bones. Even a fool who keeps silent is considered wise.',
+    keyThemes: ['Peace over feasting', 'Tested hearts', 'True friendship', 'Joyful heart heals'],
+    christConnection: 'Christ is the friend who loves at all times, the brother born for adversity. His heart was crushed for us, and His joy heals our bones. He covers our offenses with His blood.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 18,
+    title: 'The Power of Words',
+    summary: 'Whoever isolates himself seeks his own desire; he breaks out against all sound judgment. A fool takes no pleasure in understanding. The name of the Lord is a strong tower; the righteous run into it and are safe. Before destruction a man\'s heart is haughty; before honor is humility. Death and life are in the power of the tongue. A man who finds a wife finds a good thing and obtains favor from the Lord. A man of many companions may come to ruin, but there is a friend who sticks closer than a brother.',
+    keyThemes: ['Name of the Lord', 'Humility before honor', 'Tongue\'s power', 'Friend closer than brother'],
+    christConnection: 'Jesus is the name that is a strong tower. He is the friend who sticks closer than a brother. In Him is life; His word speaks life into dead souls.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 19,
+    title: 'Wisdom and Patience',
+    summary: 'Better a poor person who walks in integrity than one who is crooked in speech and is a fool. Desire without knowledge is not good. A person\'s wisdom gives them patience. Good sense makes one slow to anger, and it is his glory to overlook an offense. Many seek the favor of the generous man. House and wealth are inherited, but a prudent wife is from the Lord. Whoever is generous to the poor lends to the Lord. Discipline your son, for there is hope. Listen to advice and accept instruction, that you may gain wisdom in the future.',
+    keyThemes: ['Integrity over wealth', 'Patience from wisdom', 'Generous to the poor', 'Prudent wife from God'],
+    christConnection: 'Christ overlooked our offenses and showed infinite patience. He became poor to make us rich. Those who serve the poor serve Him.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 20,
+    title: 'Wisdom in Daily Life',
+    summary: 'Wine is a mocker, strong drink a brawler. It is an honor for a man to keep aloof from strife; every fool will be quarreling. The sluggard does not plow in autumn; he will seek at harvest and have nothing. The purpose in a man\'s heart is like deep water, but a man of understanding will draw it out. Who can say, "I have made my heart pure; I am clean from my sin"? Diverse weights and diverse measures are both alike an abomination to the Lord. The spirit of man is the lamp of the Lord. Do not say, "I will repay evil"; wait for the Lord.',
+    keyThemes: ['Avoid drunkenness', 'Deep purposes drawn out', 'No one pure', 'Wait for the Lord'],
+    christConnection: 'Only Christ can say He is pure. He alone searches hearts with divine light. He repays evil with good and calls us to wait for His vindication, not our revenge.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 21,
+    title: 'The Lord Directs Hearts',
+    summary: 'The king\'s heart is a stream of water in the Lord\'s hand; He turns it wherever He will. Every way of a man is right in his own eyes, but the Lord weighs the heart. To do righteousness and justice is more acceptable to the Lord than sacrifice. Haughty eyes and a proud heart—the lamp of the wicked—are sin. The plans of the diligent lead surely to abundance. The sacrifice of the wicked is an abomination; how much more when brought with evil intent. No wisdom, no understanding, no counsel can avail against the Lord. The horse is made ready for battle, but the victory belongs to the Lord.',
+    keyThemes: ['God directs kings', 'Heart over sacrifice', 'Diligent plans succeed', 'Victory from God'],
+    christConnection: 'Christ did righteousness and justice—more than any sacrifice. He is the king whose heart was perfectly aligned with the Father. In Him is true victory over every foe.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 22,
+    title: 'A Good Name and Training Children',
+    summary: 'A good name is to be chosen rather than great riches, and favor is better than silver or gold. The rich and poor meet together; the Lord is Maker of them all. The prudent sees danger and hides; the simple go on and suffer. Train up a child in the way he should go; even when he is old he will not depart from it. The borrower is the slave of the lender. Whoever has a bountiful eye will be blessed. Do not rob the poor; the Lord will plead their cause. Make no friendship with a man given to anger.',
+    keyThemes: ['Good name valuable', 'Training children', 'Rich and poor equal before God', 'Avoid angry companions'],
+    christConnection: 'Christ has the name above every name. He trained His disciples in the way everlasting. He pleads the cause of the poor and oppressed before the Father.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 23,
+    title: 'Warnings Against Excess',
+    summary: 'When you sit to eat with a ruler, observe carefully what is before you. Do not toil to acquire wealth; be discerning enough to desist. Riches sprout wings and fly away. Do not eat the bread of a man who is stingy. Apply your heart to instruction. Do not withhold discipline from a child. Listen to your father; do not despise your mother when she is old. Buy truth, and do not sell it; get wisdom. Do not look at wine when it is red, when it sparkles in the cup. At the last it bites like a serpent and stings like an adder. Your heart will utter perverse things.',
+    keyThemes: ['Moderation at feasts', 'Wealth flies away', 'Buy truth', 'Wine\'s danger'],
+    christConnection: 'Christ did not toil for earthly wealth but heavenly treasure. He bought us with His blood—truth purchased at the highest price. He is the bread that truly satisfies.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 24,
+    title: 'Wisdom Builds, Laziness Destroys',
+    summary: 'By wisdom a house is built; by understanding it is established; by knowledge its rooms are filled with precious things. A wise man is full of strength. Rescue those being taken away to death. If you say, "We did not know this"—does not He who weighs hearts perceive it? Do not rejoice when your enemy falls. If you faint in the day of adversity, your strength is small. I passed by the field of a sluggard; it was all overgrown. A little sleep—poverty will come. Prepare your work outside; afterward build your house.',
+    keyThemes: ['Wisdom builds homes', 'Rescue the perishing', 'No gloating over enemies', 'Sluggard\'s field'],
+    christConnection: 'Christ builds His house—the church—with wisdom. He rescues those perishing under sin\'s sentence. He did not rejoice over enemies but wept over Jerusalem.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 25,
+    title: 'More Proverbs of Solomon',
+    summary: 'These also are proverbs of Solomon, copied by the men of Hezekiah. It is the glory of God to conceal things; the glory of kings to search them out. Take away the wicked from the king\'s presence, and his throne will be established. Do not put yourself forward before the king. What your eyes have seen, do not bring hastily to court. A word fitly spoken is like apples of gold in a setting of silver. Like cold water to a thirsty soul is good news from a far country. If your enemy is hungry, give him bread; if he is thirsty, give him water.',
+    keyThemes: ['God conceals, kings search', 'Fitting words', 'Good news refreshes', 'Kindness to enemies'],
+    christConnection: 'Christ spoke words like apples of gold. He is the good news from a far country—heaven itself. He commands us to love enemies as He loved us while we were His enemies.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 26,
+    title: 'Fools and Sluggards',
+    summary: 'Like snow in summer or rain in harvest, so honor is not fitting for a fool. Do not answer a fool according to his folly, or you will be like him. Answer a fool according to his folly, lest he be wise in his own eyes. Like a lame man\'s legs that hang useless is a proverb in the mouth of fools. Whoever digs a pit will fall into it. A lying tongue hates its victims. The sluggard is wiser in his own eyes than seven men who answer sensibly.',
+    keyThemes: ['Handling fools', 'Self-deceived sluggard', 'Lying tongue destroys', 'Consequences return'],
+    christConnection: 'Christ answered fools with wisdom, exposing their folly without becoming like them. He fell into no pit but descended willingly to rescue those trapped in sin.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 27,
+    title: 'Friendship and Self-Knowledge',
+    summary: 'Do not boast about tomorrow; you do not know what a day may bring. Let another praise you, not your own mouth. Jealousy is fiercer than anger. Better is open rebuke than hidden love. Faithful are the wounds of a friend; profuse are the kisses of an enemy. The full loath honey, but to the hungry everything bitter is sweet. Iron sharpens iron; so one man sharpens another. Whoever tends a fig tree will eat its fruit. As in water face reflects face, so the heart of man reflects the man. Hell and destruction are never satisfied, and neither are the eyes of man.',
+    keyThemes: ['Uncertainty of tomorrow', 'Faithful wounds', 'Iron sharpens iron', 'Heart reveals man'],
+    christConnection: 'Christ\'s wounds are faithful—the wounds by which we are healed. He sharpens us through fellowship. He knew what was in man\'s heart and offers transformation.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 28,
+    title: 'The Righteous Are Bold',
+    summary: 'The wicked flee when no one pursues, but the righteous are bold as a lion. When a land transgresses, it has many rulers. A ruler who lacks understanding is a cruel oppressor. Whoever walks in integrity will be delivered; whoever is crooked will suddenly fall. Whoever works his land will have plenty of bread. Whoever conceals his transgressions will not prosper, but whoever confesses and forsakes them will obtain mercy. Happy is the one who fears the Lord always. Whoever trusts in his own heart is a fool.',
+    keyThemes: ['Boldness of righteous', 'Confession brings mercy', 'Fear the Lord always', 'Don\'t trust self'],
+    christConnection: 'Christ is the Lion of Judah, bold before all enemies. He confessed nothing because He had no sin, but He bears our confession. Through Him we obtain mercy.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 29,
+    title: 'Discipline and Vision',
+    summary: 'He who is often reproved, yet stiffens his neck, will suddenly be broken beyond healing. When the righteous increase, the people rejoice. A man who loves wisdom makes his father glad. The king establishes the land by justice. A man who flatters his neighbor spreads a net for his feet. Where there is no prophetic vision, the people cast off restraint; blessed is he who keeps the law. Do you see a man who is hasty in his words? There is more hope for a fool. A man\'s pride will bring him low, but the lowly in spirit will obtain honor.',
+    keyThemes: ['Accept reproof', 'Vision needed', 'Pride brings low', 'Humility brings honor'],
+    christConnection: 'Christ is the prophetic vision that restrains sin. He humbled Himself and was exalted. Through Him we see clearly and walk in the Father\'s ways.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 30,
+    title: 'The Words of Agur',
+    summary: 'The words of Agur son of Jakeh. "I am weary, O God; I am weary. Surely I am too stupid. I have not learned wisdom. Who has ascended to heaven and come down? Who has gathered the wind? Who has wrapped up the waters? What is His name, and what is His Son\'s name?" Every word of God proves true. Add nothing to His words. Two things I ask: remove far from me falsehood and lying; give me neither poverty nor riches. There are three things too wonderful for me, four I do not understand: the way of an eagle, a serpent, a ship, and a man with a woman.',
+    keyThemes: ['Human limitation', 'God\'s Son', 'Every word true', 'Neither poverty nor riches'],
+    christConnection: 'Agur asks about God\'s Son—a messianic hint. Christ descended from heaven and ascended. He is the faithful Word of God who proves true. In Him is all wisdom.'
+  },
+  {
+    bookId: 'proverbs',
+    chapter: 31,
+    title: 'The Excellent Wife',
+    summary: 'The words of King Lemuel, an oracle his mother taught him. Give not your strength to women. It is not for kings to drink wine. Speak up for those who cannot speak; defend the rights of the poor. The excellent wife—who can find? She is far more precious than jewels. Her husband trusts her. She works willingly with her hands. She rises while it is still night. She considers a field and buys it. She opens her hand to the poor. Strength and dignity are her clothing. She opens her mouth with wisdom. Her children rise and call her blessed. Charm is deceitful and beauty is vain, but a woman who fears the Lord is to be praised.',
+    keyThemes: ['King\'s conduct', 'Defending the poor', 'Excellent wife', 'Fear of the Lord'],
+    christConnection: 'The excellent wife pictures the church adorned for Christ. She fears the Lord and is clothed in His righteousness. Christ is the husband who trusts His bride completely.'
+  }
+];
+
+// ECCLESIASTES CHAPTERS
+export const ECCLESIASTES_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'ecclesiastes',
+    chapter: 1,
+    title: 'All Is Vanity',
+    summary: 'The words of the Preacher, the son of David, king in Jerusalem. Vanity of vanities! All is vanity. What does man gain by all his toil under the sun? A generation goes, and a generation comes, but the earth remains forever. The sun rises and sets; the wind blows round and round. All streams run to the sea, but the sea is not full. All things are full of weariness. What has been is what will be; there is nothing new under the sun. I applied my heart to seek wisdom concerning all that is done under heaven. I have seen everything done under the sun, and behold, all is vanity and a striving after wind.',
+    keyThemes: ['Vanity of life', 'Endless cycles', 'Nothing new', 'Striving after wind'],
+    christConnection: 'Life "under the sun"—without God—is indeed vanity. But Christ came from above the sun, bringing meaning, purpose, and eternity to break the endless cycle.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 2,
+    title: 'The Vanity of Pleasure and Work',
+    summary: 'I said to myself, "Come now, I will test you with pleasure." But behold, this also was vanity. I said of laughter, "It is mad," and of pleasure, "What use is it?" I searched how to cheer my body with wine. I made great works—houses, vineyards, gardens, pools. I had servants, herds, silver, gold, singers. Whatever my eyes desired I did not keep from them. Then I considered all my hands had done, and behold, all was vanity. Wisdom excels folly as light excels darkness, yet one fate comes to all. I hated life because what is done under the sun was grievous. I hated my toil because I must leave it to one who comes after me.',
+    keyThemes: ['Pleasure tested', 'Great achievements', 'Same fate for all', 'Leaving labor to another'],
+    christConnection: 'All human achievement apart from God is vanity. Christ achieved eternal redemption that cannot be taken away. His work endures forever and He shares it with His heirs.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 3,
+    title: 'A Time for Everything',
+    summary: 'For everything there is a season: a time to be born and a time to die, a time to plant and a time to pluck up, a time to kill and a time to heal, a time to break down and a time to build up, a time to weep and a time to laugh, a time to mourn and a time to dance, a time to keep and a time to cast away, a time for war and a time for peace. God has made everything beautiful in its time. He has put eternity in man\'s heart, yet man cannot find out what God has done from beginning to end. I perceived that there is nothing better than to be joyful and do good. Whatever God does endures forever.',
+    keyThemes: ['Seasons of life', 'Beauty in time', 'Eternity in hearts', 'God\'s work endures'],
+    christConnection: 'Christ came in the fullness of time. He wept and laughed, died and rose. He is the eternal one who places eternity in our hearts and makes all things beautiful.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 4,
+    title: 'Oppression and Companionship',
+    summary: 'I saw all the oppressions done under the sun—the tears of the oppressed with no comforter, power in the hands of their oppressors. I thought the dead more fortunate than the living. I saw that all toil and skill spring from envy. Better is a handful with quiet than two hands full with toil. Two are better than one; they have a good reward for their toil. If one falls, the other will lift him up. Though one may be overpowered, two can withstand; a threefold cord is not quickly broken. Better a poor and wise youth than an old and foolish king who no longer knows how to take advice.',
+    keyThemes: ['Oppression', 'Envy drives work', 'Companionship', 'Threefold cord'],
+    christConnection: 'Christ is the comforter of the oppressed. He joins Himself to us—the threefold cord with Father and Spirit. He lifts us when we fall.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 5,
+    title: 'Fear God',
+    summary: 'Guard your steps when you go to the house of God. Draw near to listen rather than offer the sacrifice of fools. Be not rash with your mouth; let your words be few, for God is in heaven and you are on earth. When you vow a vow to God, do not delay paying it. It is better not to vow than to vow and not pay. Do not let your mouth lead you into sin. In many dreams and words there is vanity—but fear God. If you see oppression of the poor, do not be amazed. He who loves money will not be satisfied with money. Sweet is the sleep of a laborer. Everyone also to whom God has given wealth and possessions and power to enjoy them—this is the gift of God.',
+    keyThemes: ['Guard your worship', 'Keep vows', 'Fear God', 'Enjoyment as gift'],
+    christConnection: 'Christ teaches us to fear God and keep our word. He is the faithful vow-keeper. Through Him, enjoyment of God\'s gifts becomes true worship.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 6,
+    title: 'The Vanity of Wealth Without Enjoyment',
+    summary: 'There is an evil I have seen: a man to whom God gives wealth, possessions, and honor so that he lacks nothing, but God does not give him power to enjoy them, and a stranger enjoys them instead. This is vanity. If a man fathers a hundred children and lives many years, but his soul is not satisfied with good things and he has no burial, I say that a stillborn child is better off. For it comes in vanity and goes in darkness. Even if he should live a thousand years twice over yet see no good—do not all go to one place? All toil is for the mouth, yet the appetite is not satisfied. What advantage has the wise over the fool?',
+    keyThemes: ['Wealth without enjoyment', 'Unsatisfied appetite', 'Same destination', 'Life\'s mystery'],
+    christConnection: 'Only Christ satisfies the soul\'s hunger. He gives not just possessions but the power to enjoy—true life. In Him the appetite for meaning is filled.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 7,
+    title: 'Wisdom\'s Advantage',
+    summary: 'A good name is better than precious ointment, and the day of death than the day of birth. Better to go to the house of mourning than feasting, for this is the end of all mankind. Sorrow is better than laughter, for by sadness the heart is made better. The heart of fools is in the house of mirth. The end of a thing is better than its beginning. Consider the work of God: who can make straight what He has made crooked? In the day of prosperity be joyful, in adversity consider—God has made both. I have seen everything: a righteous man perishing, a wicked man prolonging his life. Be not overly righteous or overly wicked. Fear God.',
+    keyThemes: ['Death over birth', 'Sorrow teaches', 'Accept both prosperity and adversity', 'Fear God'],
+    christConnection: 'Christ embraced the house of mourning and the way of the cross. His death brought eternal good. In Him, both joy and sorrow work for our good.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 8,
+    title: 'Obey the King',
+    summary: 'Who is like the wise? Wisdom makes one\'s face shine. Keep the king\'s command because of your oath to God. He who keeps a command will know no evil thing. For everything there is a time and a way, though man\'s trouble lies heavy on him. No one has power over the spirit to retain it, or power over the day of death. There is no discharge from war. I saw the wicked buried while those who did right went away from the holy place and were forgotten. Because sentence against evil is not executed speedily, the heart of the children of man is fully set to do evil. Yet it will be well with those who fear God.',
+    keyThemes: ['Wisdom gives light', 'Obey authority', 'No escape from death', 'Fear God and prosper'],
+    christConnection: 'Christ is the king we obey. He has power over the day of death, having conquered it. In Him, sentence against evil is finally executed, and those who fear God are vindicated.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 9,
+    title: 'Death Comes to All',
+    summary: 'The righteous and wise and their deeds are in God\'s hand. One fate comes to all—the righteous and wicked, clean and unclean. This is an evil in all that is done under the sun: that the same event happens to all. The living know they will die, but the dead know nothing. Go, eat your bread with joy, drink your wine with a merry heart, for God has already approved what you do. Enjoy life with the wife you love. Whatever your hand finds to do, do it with your might, for there is no work or thought or knowledge in Sheol. The race is not to the swift nor the battle to the strong. Time and chance happen to all.',
+    keyThemes: ['Same fate for all', 'Enjoy life now', 'Work with might', 'Time and chance'],
+    christConnection: 'Christ breaks the curse of the same fate for all. Through Him, death is not the end but a doorway. He gives us work that lasts beyond the grave.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 10,
+    title: 'Wisdom and Folly',
+    summary: 'Dead flies make the perfumer\'s ointment give off a stench; so a little folly outweighs wisdom and honor. A wise man\'s heart inclines to the right; a fool\'s to the left. Even when the fool walks, his sense is lacking. If the serpent bites before it is charmed, there is no advantage to the charmer. Words from a wise man\'s mouth win favor, but a fool\'s lips consume him. Whoever digs a pit may fall into it. If the iron is blunt and one does not sharpen the edge, he must use more strength, but wisdom helps one to succeed. Curse not the king, even in your thought.',
+    keyThemes: ['Small folly ruins', 'Wisdom inclines right', 'Work smarter', 'Guard your tongue'],
+    christConnection: 'Christ is the wisdom that helps us succeed. He sharpens our blunt efforts. In Him, no dead fly of sin contaminates—He purifies completely.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 11,
+    title: 'Cast Your Bread Upon the Waters',
+    summary: 'Cast your bread upon the waters, for you will find it after many days. Give a portion to seven or eight, for you do not know what disaster may happen on earth. If the clouds are full, they empty rain on the earth. He who observes the wind will not sow; he who regards the clouds will not reap. As you do not know the way the spirit comes to the bones in the womb, so you do not know the work of God who makes everything. In the morning sow your seed; in the evening withhold not your hand. Light is sweet; it is pleasant for the eyes to see the sun. Rejoice, O young man, in your youth, but know that God will bring you into judgment.',
+    keyThemes: ['Generous living', 'Don\'t over-calculate', 'God\'s mysterious work', 'Enjoy youth responsibly'],
+    christConnection: 'Christ cast His life upon the waters and found it multiplied in resurrection. He calls us to generous risk-taking, trusting the God who works mysteriously.'
+  },
+  {
+    bookId: 'ecclesiastes',
+    chapter: 12,
+    title: 'Remember Your Creator',
+    summary: 'Remember your Creator in the days of your youth, before the evil days come and the years draw near of which you will say, "I have no pleasure in them"—before the sun and light grow dark, the strong men are bent, the grinders cease, those who look through windows are dimmed, the doors on the street are shut, the almond tree blossoms, the grasshopper drags itself along, and desire fails. Man goes to his eternal home; mourners go about the streets. The silver cord is snapped; the golden bowl is broken. The dust returns to the earth as it was, and the spirit returns to God who gave it. Vanity of vanities, says the Preacher; all is vanity. The end of the matter: Fear God and keep His commandments, for this is the whole duty of man. God will bring every deed into judgment.',
+    keyThemes: ['Remember Creator in youth', 'Aging imagery', 'Spirit returns to God', 'Fear God—whole duty'],
+    christConnection: 'Christ gives meaning to life under the sun. He is the Creator to remember. Through Him, the spirit\'s return to God is joyful. He alone satisfies the whole duty of man—and offers it to us.'
+  }
+];
+
+// SONG OF SOLOMON CHAPTERS
+export const SONG_OF_SOLOMON_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'song-of-solomon',
+    chapter: 1,
+    title: 'The Bride\'s Longing',
+    summary: 'The Song of Songs, which is Solomon\'s. Let him kiss me with the kisses of his mouth! For your love is better than wine. Draw me after you; let us run. The king has brought me into his chambers. The bride says, "I am very dark, but lovely, O daughters of Jerusalem, dark like the tents of Kedar." Do not gaze at me because I am dark; the sun has looked upon me. My brothers made me keeper of vineyards, but my own vineyard I have not kept. Tell me, you whom my soul loves, where you pasture your flock. The beloved responds: Follow the tracks of the flock; pasture your young goats beside the shepherds\' tents. I compare you, my love, to a mare among Pharaoh\'s chariots.',
+    keyThemes: ['Love\'s longing', 'Beloved\'s beauty', 'Dark but lovely', 'Seeking the beloved'],
+    christConnection: 'The church longs for Christ\'s love, which is better than wine. Though we are darkened by sin, He calls us lovely. We seek Him, and He draws us into His chambers.'
+  },
+  {
+    bookId: 'song-of-solomon',
+    chapter: 2,
+    title: 'The Beloved\'s Visit',
+    summary: 'I am a rose of Sharon, a lily of the valleys. As a lily among brambles, so is my love among the young women. As an apple tree among the trees of the forest, so is my beloved among young men. He brought me to the banqueting house, and his banner over me was love. Sustain me with raisins; refresh me with apples, for I am sick with love. His left hand is under my head, and his right hand embraces me. The voice of my beloved! Behold, he comes, leaping over the mountains. He stands behind our wall, gazing through the windows. My beloved speaks: "Arise, my love, my beautiful one, and come away. The winter is past; the rain is gone; the flowers appear."',
+    keyThemes: ['Lily among thorns', 'Banner of love', 'Sick with love', 'Spring invitation'],
+    christConnection: 'Christ is the rose and the lily. His banner over us is love. He leaps mountains to reach us and calls us out of winter into the spring of new life.'
+  },
+  {
+    bookId: 'song-of-solomon',
+    chapter: 3,
+    title: 'Seeking and Finding',
+    summary: 'On my bed by night I sought him whom my soul loves; I sought him but found him not. I will rise now and go about the city, in the streets and squares, seeking him whom my soul loves. The watchmen found me as they went about the city. "Have you seen him whom my soul loves?" Scarcely had I passed them when I found him whom my soul loves. I held him and would not let him go. Behold, it is the litter of Solomon! Sixty mighty men are around it, all holding swords. King Solomon made himself a carriage from the wood of Lebanon. Come out, O daughters of Zion, and look upon King Solomon on the day of his wedding.',
+    keyThemes: ['Night seeking', 'Found and held', 'Solomon\'s glory', 'Wedding day'],
+    christConnection: 'The church seeks Christ and finds Him. His wedding carriage is coming, surrounded by mighty saints. The wedding day of the Lamb draws near.'
+  },
+  {
+    bookId: 'song-of-solomon',
+    chapter: 4,
+    title: 'The Beloved\'s Beauty',
+    summary: 'Behold, you are beautiful, my love, behold, you are beautiful! Your eyes are doves behind your veil. Your hair is like a flock of goats leaping down Gilead. Your teeth are like a flock of shorn ewes. Your lips are like a scarlet thread. Your cheeks are like halves of a pomegranate. Your neck is like the tower of David. Your two breasts are like two fawns. You are altogether beautiful, my love; there is no flaw in you. Come with me from Lebanon, my bride. You have captivated my heart, my sister, my bride. A garden locked is my sister, my bride—a sealed fountain. Awake, O north wind, and come, O south wind! Blow upon my garden that its fragrance may spread.',
+    keyThemes: ['Bride\'s beauty praised', 'No flaw in her', 'Locked garden', 'Winds stir fragrance'],
+    christConnection: 'Christ sees His bride as altogether beautiful—without flaw through His righteousness. The church is His garden; the Spirit\'s wind releases her fragrance to the world.'
+  },
+  {
+    bookId: 'song-of-solomon',
+    chapter: 5,
+    title: 'The Beloved Knocks',
+    summary: 'I came to my garden, my sister, my bride. I gathered my myrrh with my spice. Eat, friends, drink deeply, O lovers! I slept, but my heart was awake. A sound! My beloved is knocking. "Open to me, my sister, my love." I had put off my garment; how could I put it on? My beloved put his hand to the latch, and my heart was thrilled. I rose to open to my beloved; my hands dripped with myrrh. I opened, but my beloved had turned and gone. I sought him but did not find him. I adjure you, O daughters of Jerusalem, if you find my beloved, tell him I am sick with love. What is your beloved more than another? My beloved is radiant and ruddy, distinguished among ten thousand.',
+    keyThemes: ['Beloved knocks', 'Hesitation and regret', 'Seeking the absent beloved', 'Description of beauty'],
+    christConnection: 'Christ knocks at the door (Revelation 3:20). Sometimes we hesitate to open. When we miss Him, we seek Him again. He is distinguished among ten thousand—altogether lovely.'
+  },
+  {
+    bookId: 'song-of-solomon',
+    chapter: 6,
+    title: 'The Bride Found Again',
+    summary: 'Where has your beloved gone, O most beautiful among women? My beloved has gone down to his garden, to the beds of spices, to graze in the gardens and to gather lilies. I am my beloved\'s and my beloved is mine; he grazes among the lilies. You are beautiful as Tirzah, my love, lovely as Jerusalem, awesome as an army with banners. Turn away your eyes from me, for they overwhelm me. There are sixty queens and eighty concubines, but my dove, my perfect one, is the only one. The daughters saw her and called her blessed. Who is this who looks down like the dawn, beautiful as the moon, bright as the sun, awesome as an army with banners?',
+    keyThemes: ['Mutual belonging', 'Unique beauty', 'Awesome as banners', 'Dawn and sun'],
+    christConnection: 'The church belongs to Christ and He to her. She is His only one, chosen above all. She rises like the dawn, reflecting the Sun of Righteousness.'
+  },
+  {
+    bookId: 'song-of-solomon',
+    chapter: 7,
+    title: 'Admiration of the Bride',
+    summary: 'How beautiful are your feet in sandals, O noble daughter! Your rounded thighs are like jewels. Your navel is a rounded bowl; your belly is a heap of wheat. Your two breasts are like two fawns. Your neck is like an ivory tower. Your eyes are pools in Heshbon. Your head crowns you like Carmel. The king is held captive in your tresses. How beautiful and pleasant you are, O loved one! Your stature is like a palm tree. I say I will climb the palm tree. The bride responds: I am my beloved\'s, and his desire is for me. Come, my beloved, let us go out into the fields and lodge in the villages. There I will give you my love.',
+    keyThemes: ['Physical beauty praised', 'Beloved captivated', 'Mutual desire', 'Into the fields together'],
+    christConnection: 'Christ admires His bride and is captivated by her—the wonder of divine love for the church. Together they will work in the fields, the mission of the kingdom.'
+  },
+  {
+    bookId: 'song-of-solomon',
+    chapter: 8,
+    title: 'Love Strong as Death',
+    summary: 'Oh that you were like a brother to me! Then I could kiss you in the streets without being despised. I would lead you into my mother\'s house. Under the apple tree I awakened you. Set me as a seal upon your heart, as a seal upon your arm, for love is strong as death, jealousy is fierce as the grave. Its flashes are flashes of fire, the very flame of the Lord. Many waters cannot quench love, neither can floods drown it. If a man offered all his wealth for love, he would be utterly despised. We have a little sister. What shall we do for her? If she is a wall, we will build on her a battlement of silver. I am a wall; my breasts are like towers. Make haste, my beloved, and be like a gazelle on the mountains of spices.',
+    keyThemes: ['Love as seal', 'Strong as death', 'Unquenchable flame', 'Come quickly'],
+    christConnection: 'Christ\'s love for His church is stronger than death. The flame of the Lord cannot be quenched. He has sealed us as His own. "Come, Lord Jesus" echoes through eternity.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -5182,6 +5602,12 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return JOB_CHAPTERS;
     case 'psalms':
       return PSALMS_CHAPTERS;
+    case 'proverbs':
+      return PROVERBS_CHAPTERS;
+    case 'ecclesiastes':
+      return ECCLESIASTES_CHAPTERS;
+    case 'song-of-solomon':
+      return SONG_OF_SOLOMON_CHAPTERS;
     // More books will be added
     default:
       return [];
@@ -5209,4 +5635,7 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'esther', bookName: 'Esther', chapters: ESTHER_CHAPTERS },
   { bookId: 'job', bookName: 'Job', chapters: JOB_CHAPTERS },
   { bookId: 'psalms', bookName: 'Psalms', chapters: PSALMS_CHAPTERS },
+  { bookId: 'proverbs', bookName: 'Proverbs', chapters: PROVERBS_CHAPTERS },
+  { bookId: 'ecclesiastes', bookName: 'Ecclesiastes', chapters: ECCLESIASTES_CHAPTERS },
+  { bookId: 'song-of-solomon', bookName: 'Song of Solomon', chapters: SONG_OF_SOLOMON_CHAPTERS },
 ];
