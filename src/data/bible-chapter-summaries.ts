@@ -3317,6 +3317,282 @@ export const SECOND_CHRONICLES_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// EZRA CHAPTERS
+export const EZRA_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'ezra',
+    chapter: 1,
+    title: 'Cyrus\'s Decree: Return from Exile',
+    summary: 'The Lord stirs up the spirit of Cyrus, king of Persia, to issue a decree allowing the Jewish exiles to return and rebuild the temple in Jerusalem. This fulfills Jeremiah\'s prophecy of seventy years\' captivity. Cyrus returns the sacred vessels that Nebuchadnezzar had taken, and the heads of Judah and Benjamin, along with priests and Levites, prepare to return. God\'s sovereignty over pagan kings demonstrates His faithfulness to His covenant promises.',
+    keyThemes: ['Divine sovereignty over nations', 'Prophetic fulfillment', 'Restoration begins', 'Sacred vessels returned'],
+    christConnection: 'Cyrus as God\'s instrument to restore Israel pictures Christ, God\'s ultimate instrument of restoration. The return from physical exile points to the spiritual deliverance Christ brings from the exile of sin.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 2,
+    title: 'The Returning Exiles Listed',
+    summary: 'A detailed census records those returning from Babylon to Jerusalem and Judah. The list includes families by ancestral houses, priests, Levites, temple servants, and descendants of Solomon\'s servants. Some cannot prove their genealogy and are excluded from the priesthood until a priest can consult Urim and Thummim. The total is about 42,360, plus servants. The people give freewill offerings for rebuilding.',
+    keyThemes: ['Covenant community preserved', 'Genealogical importance', 'Priestly purity', 'Generous giving'],
+    christConnection: 'The careful recording of names shows God knows His people individually. Those excluded for lacking genealogical proof contrast with believers who have clear standing through Christ, whose genealogy establishes our adoption.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 3,
+    title: 'The Altar and Temple Foundation',
+    summary: 'The returned exiles gather in Jerusalem to rebuild the altar and resume sacrifices, even before the temple is rebuilt—worship cannot wait. They observe the Feast of Tabernacles and establish regular burnt offerings. In the second year, they lay the temple\'s foundation. The people shout with joy, but many older priests and Levites weep, remembering Solomon\'s greater temple. Joy and weeping mingle.',
+    keyThemes: ['Worship priority', 'Sacrifice renewed', 'Foundation laid', 'Mixed emotions'],
+    christConnection: 'The priority of the altar—worship before walls—points to Christ as our first priority. The foundation laid with both joy and tears pictures the cross: sorrow for sin, yet joy in salvation.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 4,
+    title: 'Opposition to Rebuilding',
+    summary: 'The adversaries of Judah (peoples settled in the land during the exile) offer to help build but are refused since they do not share Israel\'s covenant faith. Rebuffed, they hire counselors to frustrate the work throughout Cyrus\'s and subsequent reigns. Letters of accusation are sent to Artaxerxes, describing Jerusalem as rebellious. The king orders the work stopped. The temple work ceases until Darius\'s second year.',
+    keyThemes: ['Opposition to God\'s work', 'False offers of help', 'Political accusation', 'Work halted'],
+    christConnection: 'Opposition to rebuilding God\'s house pictures the world\'s opposition to Christ\'s church. Satan\'s strategy of offering "help" with hidden motives continues. Yet God\'s purposes cannot ultimately be stopped.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 5,
+    title: 'Prophetic Encouragement and Resumed Work',
+    summary: 'The prophets Haggai and Zechariah encourage the people to resume building. Zerubbabel and Jeshua respond in faith and begin again. The Persian governor Tattenai questions their authority but does not stop them while an inquiry is made to King Darius. The Jews testify that they are rebuilding the temple that Cyrus authorized. A search for Cyrus\'s decree is initiated.',
+    keyThemes: ['Prophetic encouragement', 'Faithful obedience', 'Official inquiry', 'Work resumes'],
+    christConnection: 'The prophets stirring the people to build God\'s house picture the Spirit empowering the church for its building work. Zerubbabel and Jeshua (priest and governor) working together foreshadow Christ\'s united offices.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 6,
+    title: 'Temple Completed and Dedicated',
+    summary: 'Cyrus\'s decree is found in the archives. Darius not only confirms it but adds support from the royal treasury and threatens punishment for any who interfere. The elders finish building, encouraged by the prophets. The temple is dedicated with great joy and many sacrifices. They celebrate Passover—the priests and Levites having purified themselves—and the Feast of Unleavened Bread with joy because God had turned the heart of Persia\'s king.',
+    keyThemes: ['Divine vindication', 'Temple completed', 'Joyful dedication', 'Passover restored'],
+    christConnection: 'The temple\'s completion and Passover celebration point to Christ, the true temple and Passover Lamb. God turning the king\'s heart demonstrates His sovereignty over all rulers for His redemptive purposes.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 7,
+    title: 'Ezra\'s Mission: The Scribe Arrives',
+    summary: 'Many years later, Ezra the scribe, descended from Aaron through the high priestly line, comes from Babylon with royal authorization. Artaxerxes gives him a letter granting authority to teach the law, appoint judges, and use temple funds. Ezra is described as skilled in the law of Moses, having "set his heart to study the law of the Lord, and to do it, and to teach statutes and ordinances in Israel."',
+    keyThemes: ['Word of God priority', 'Study-do-teach pattern', 'Royal authorization', 'Scribe\'s mission'],
+    christConnection: 'Ezra\'s pattern—study, do, teach—models the approach Christ fully embodied and calls His followers to embrace. The scribe bringing God\'s Word pictures Christ, the living Word who reveals the Father.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 8,
+    title: 'Ezra\'s Journey to Jerusalem',
+    summary: 'Ezra gathers those who will return with him, including family heads and Levites recruited for temple service. Before departing, Ezra proclaims a fast to seek God\'s protection—he had told the king that God protects those who seek Him and was ashamed to ask for a military escort. God\'s hand protects them on the journey. They arrive safely and deliver the treasures to the temple.',
+    keyThemes: ['Faith over fear', 'Fasting and prayer', 'Divine protection', 'Faithful stewardship'],
+    christConnection: 'Ezra\'s refusal of human protection, trusting God\'s promise, pictures faith that relies wholly on Christ. The dangerous journey safely completed demonstrates God\'s faithfulness to those who seek Him.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 9,
+    title: 'Ezra\'s Prayer of Confession',
+    summary: 'Ezra learns that the people, including priests and Levites, have intermarried with surrounding peoples, mixing the holy seed. He is appalled, tears his garments, and sits stunned until the evening sacrifice. Then he prays a profound confession, acknowledging that even after God\'s grace in restoration, they have again broken His commands. He claims no right to stand before God, only appeals to mercy.',
+    keyThemes: ['Covenant unfaithfulness', 'Intermarriage danger', 'Vicarious confession', 'Grace abused'],
+    christConnection: 'Ezra\'s vicarious confession—praying "we" for sins not his own—pictures Christ who bore our sins though He was sinless. His prostration before God models true repentance and intercession.'
+  },
+  {
+    bookId: 'ezra',
+    chapter: 10,
+    title: 'Covenant Renewal: Putting Away Foreign Wives',
+    summary: 'As Ezra prays, a crowd gathers, weeping. Shecaniah confesses the sin and proposes a covenant to put away foreign wives and their children according to the law. Ezra makes the leaders swear to do this. An assembly is called; all must appear within three days. Despite rain and the complexity of the cases, they establish a court to investigate. The book ends with a list of those who had married foreign women.',
+    keyThemes: ['Public repentance', 'Radical obedience', 'Covenant renewal', 'Community purification'],
+    christConnection: 'The painful separation from foreign wives points to the cost of following God\'s commands. Christ calls His followers to put away whatever competes with wholehearted devotion, however painful.'
+  }
+];
+
+// NEHEMIAH CHAPTERS
+export const NEHEMIAH_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'nehemiah',
+    chapter: 1,
+    title: 'Nehemiah\'s Grief and Prayer',
+    summary: 'Nehemiah, cupbearer to the Persian king, receives devastating news: Jerusalem\'s walls remain broken and its gates burned. He weeps, mourns, fasts, and prays for days. His prayer acknowledges God\'s covenant faithfulness, confesses Israel\'s sins (including his own family\'s), appeals to God\'s promises of restoration for those who return to Him, and asks for success when he approaches the king.',
+    keyThemes: ['Burden for God\'s city', 'Intercessory prayer', 'Covenant confession', 'Seeking favor'],
+    christConnection: 'Nehemiah\'s grief over Jerusalem\'s broken state and his intercession picture Christ, who wept over Jerusalem and continually intercedes for His people. His prayer model informs Christian intercession.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 2,
+    title: 'Nehemiah\'s Mission Authorized',
+    summary: 'When the king notices Nehemiah\'s sad countenance (dangerous in a king\'s presence), Nehemiah prays quickly and asks to go rebuild Jerusalem. The king grants his request and provides letters for safe passage and timber for the gates. In Jerusalem, Nehemiah secretly surveys the ruined walls at night. He then challenges the nobles and officials to rebuild, sharing how God\'s hand has been on him. They respond: "Let us rise up and build!"',
+    keyThemes: ['Divine favor', 'Courage to ask', 'Secret survey', 'Inspiring leadership'],
+    christConnection: 'Nehemiah as cupbearer approaching the king pictures our access to God\'s throne through Christ. His night survey and vision to rebuild picture Christ\'s knowledge of our broken condition and His work of restoration.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 3,
+    title: 'The Wall Builders',
+    summary: 'A detailed record of those who rebuilt the wall, section by section, beginning at the Sheep Gate and circling Jerusalem. Priests, nobles, craftsmen, and ordinary families all contribute. Some rebuild near their own homes; others repair multiple sections. The record notes that nobles of Tekoa "would not stoop to serve"—refusing to work. This chapter demonstrates unified, organized effort in God\'s work.',
+    keyThemes: ['Unified effort', 'Each doing their part', 'Organized labor', 'Noble refusal noted'],
+    christConnection: 'The diverse builders working together picture the body of Christ, each member contributing their part. The nobles\' refusal warns against pride that refuses service. Christ builds His church with willing workers.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 4,
+    title: 'Opposition and Armed Vigilance',
+    summary: 'Sanballat, Tobiah, and others mock and threaten the builders. Nehemiah prays and posts guards. When enemies plan a surprise attack, Nehemiah stations armed families at exposed points. Workers carry loads with one hand and weapons in the other; each builder has a sword at his side. They work from dawn to stars. Nehemiah declares: "Our God will fight for us!"',
+    keyThemes: ['Mockery and threat', 'Prayer and vigilance', 'Working and watching', 'Faith and preparation'],
+    christConnection: 'The combination of prayer and practical defense models spiritual warfare: trusting God while using means. "Our God will fight for us" anticipates the gospel—Christ fights our battles while we faithfully labor.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 5,
+    title: 'Internal Injustice Addressed',
+    summary: 'While facing external threats, internal crisis erupts: wealthy Jews are exploiting poorer brethren through usury and debt slavery. Nehemiah is angry. He rebukes the nobles and officials, demanding they stop charging interest and return fields and vineyards. They agree. Nehemiah himself, though governor, refuses his entitled food allowance, instead feeding 150 at his own table, fearing God and not burdening the people.',
+    keyThemes: ['Economic justice', 'Fear of God over gain', 'Leadership example', 'Caring for the poor'],
+    christConnection: 'Nehemiah\'s rebuke of exploitation and his own sacrificial generosity picture Christ, who condemned religious leaders for exploiting the poor and who gave Himself for us.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 6,
+    title: 'Plots Against Nehemiah',
+    summary: 'Sanballat and Geshem repeatedly invite Nehemiah to meet them—a plot to harm him. He refuses: "I am doing a great work and cannot come down." They send an open letter accusing him of planning rebellion; he denies it and prays for strength. Shemaiah tries to lure him into the temple (where laymen cannot go) claiming his life is in danger—but Nehemiah recognizes this as a trap to discredit him. The wall is completed in 52 days.',
+    keyThemes: ['Focused perseverance', 'Discerning plots', 'Refusing distractions', 'Rapid completion'],
+    christConnection: 'Nehemiah\'s refusal to "come down" from his work pictures Christ\'s refusal of Satan\'s temptations and focus on His mission. The wall completed despite opposition shows God\'s work cannot be stopped.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 7,
+    title: 'Jerusalem Secured and Census Taken',
+    summary: 'With walls complete, Nehemiah appoints gatekeepers, singers, and Levites. He charges his brother Hanani and Hananiah to govern Jerusalem, emphasizing the importance of keeping the gates secure. The city is large but sparsely populated. God prompts Nehemiah to register the people by genealogy. The chapter reproduces the list of those who originally returned (paralleling Ezra 2), establishing community identity.',
+    keyThemes: ['Security measures', 'Faithful leadership', 'Genealogical registry', 'Community identity'],
+    christConnection: 'The careful securing of gates and registering of citizens pictures Christ\'s care for His church—knowing each member by name and protecting them from spiritual enemies.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 8,
+    title: 'The Law Read and Explained',
+    summary: 'All the people gather as Ezra brings the Law. He reads from dawn to midday while Levites help the people understand. When the people weep at hearing God\'s commands (recognizing their failures), Nehemiah and Ezra tell them not to grieve but to celebrate—"the joy of the Lord is your strength." They discover instructions for the Feast of Tabernacles and celebrate it as not done since Joshua\'s days.',
+    keyThemes: ['Public Scripture reading', 'Understanding the Word', 'Joy of the Lord', 'Feast restored'],
+    christConnection: 'The Word read and explained, bringing conviction then joy, pictures gospel ministry. "The joy of the Lord is your strength" anticipates the joy believers have in Christ, our strength in weakness.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 9,
+    title: 'Confession and Covenant',
+    summary: 'After the feast, the people assemble for fasting and confession, wearing sackcloth. Levites lead a lengthy prayer recounting God\'s faithfulness from creation through Abraham, Egypt, Sinai, the wilderness, conquest, judges, kings, and exile—contrasting God\'s mercy with Israel\'s repeated unfaithfulness. Despite everything, God in His mercy never utterly forsook them. They acknowledge their current suffering as deserved.',
+    keyThemes: ['Historical confession', 'God\'s persistent mercy', 'Human unfaithfulness', 'Present accountability'],
+    christConnection: 'The prayer\'s recounting of God\'s mercies despite human failure points to Christ as God\'s ultimate mercy. Each generation\'s failure shows our need for a Savior who will not fail.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 10,
+    title: 'The Written Covenant',
+    summary: 'The leaders, Levites, and priests sign a binding agreement, with the rest of the people joining in a curse and oath to walk in God\'s Law. Specific commitments include: no intermarriage with surrounding peoples, keeping the Sabbath and sabbatical year, paying the temple tax, providing wood for offerings, giving firstfruits, and supporting the Levites with tithes. They resolve: "We will not neglect the house of our God."',
+    keyThemes: ['Covenant commitment', 'Specific obligations', 'Supporting worship', 'Community resolve'],
+    christConnection: 'The covenant promise not to neglect God\'s house anticipates believers\' commitment to Christ\'s church. The specific obligations point to practical faithfulness, empowered by grace in the new covenant.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 11,
+    title: 'Repopulating Jerusalem',
+    summary: 'Since Jerusalem needs more inhabitants, the leaders live there while the rest cast lots to bring one in ten to dwell in the city. Those who volunteer are blessed by the people. The chapter lists those who settled in Jerusalem from Judah and Benjamin, the priests, Levites, and gatekeepers. Other settlements throughout Judah are also recorded. The city is being rebuilt as a functioning community.',
+    keyThemes: ['Voluntary sacrifice', 'Casting lots', 'Jerusalem populated', 'Community establishment'],
+    christConnection: 'Those who volunteered to live in the vulnerable holy city picture believers who sacrifice for Christ\'s kingdom. The city built through willing service foreshadows the church built of living stones.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 12,
+    title: 'Dedication of the Walls',
+    summary: 'A list of priests and Levites from the return to Nehemiah\'s time is given. For the wall dedication, Nehemiah organizes two great choirs walking in opposite directions atop the wall, meeting at the temple. They offer great sacrifices, and the joy of Jerusalem is heard from afar. The singers and gatekeepers are supported by the people according to the commands regarding Levites.',
+    keyThemes: ['Joyful dedication', 'Procession of praise', 'Far-reaching joy', 'Supporting ministers'],
+    christConnection: 'The dedication with great joy and praise heard from afar pictures the church\'s worship ascending to heaven. The two processions meeting at the temple point to all nations gathering to Christ.'
+  },
+  {
+    bookId: 'nehemiah',
+    chapter: 13,
+    title: 'Nehemiah\'s Reforms',
+    summary: 'Nehemiah returns to Persia, then comes back to Jerusalem to find abuses: Tobiah (the enemy) has been given a temple chamber; Levites have been neglected and left their posts; Sabbath is violated by commerce; intermarriage has resumed. Nehemiah acts forcefully—throwing out Tobiah\'s furniture, rebuking officials, restoring Levitical support, shutting gates on Sabbath, and confronting those who married foreign wives. He prays repeatedly: "Remember me, O my God, for good."',
+    keyThemes: ['Backsliding discovered', 'Forceful reform', 'Sabbath restoration', 'Marriage purity'],
+    christConnection: 'Nehemiah\'s zeal for God\'s house and covenant purity pictures Christ\'s zeal in cleansing the temple. His prayer to be remembered anticipates the thief\'s prayer and Christ\'s remembrance of His people.'
+  }
+];
+
+// ESTHER CHAPTERS
+export const ESTHER_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'esther',
+    chapter: 1,
+    title: 'Queen Vashti Deposed',
+    summary: 'King Ahasuerus (Xerxes) of Persia holds a lavish feast displaying his wealth. On the seventh day, drunk with wine, he summons Queen Vashti to display her beauty. She refuses. The king\'s advisors warn that her defiance will embolden all women to despise their husbands. Vashti is banished, and a decree goes out that every man should be master in his own home. A search for a new queen begins.',
+    keyThemes: ['Persian power displayed', 'Pride and excess', 'Royal authority challenged', 'Stage set for Esther'],
+    christConnection: 'Though God is never named in Esther, His providence is evident. Vashti\'s removal opens the way for Esther, just as God providentially arranges circumstances for His people\'s deliverance—ultimately through Christ.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 2,
+    title: 'Esther Becomes Queen',
+    summary: 'A search for beautiful virgins brings Esther (Hadassah), a Jewish orphan raised by her cousin Mordecai, into the king\'s harem. She wins favor with everyone, including the king, who makes her queen—though she has not revealed her Jewish identity. Mordecai, sitting at the king\'s gate, discovers a plot against the king and reports it through Esther. The conspirators are executed, and the event is recorded in the chronicles.',
+    keyThemes: ['Divine positioning', 'Favor gained', 'Hidden identity', 'Loyalty recorded'],
+    christConnection: 'Esther\'s hidden identity until the appointed time parallels Christ\'s veiled glory during His earthly ministry. Mordecai\'s unrewarded loyalty will later be remembered—God forgets nothing.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 3,
+    title: 'Haman\'s Plot Against the Jews',
+    summary: 'Haman the Agagite is elevated above all officials. All bow to him except Mordecai, who refuses (likely because Haman descended from Israel\'s ancient enemy Amalek). Enraged, Haman plots to destroy not just Mordecai but all Jews throughout the empire. He casts lots (pur) to determine the date and convinces the king that the Jews are dangerous separatists. The king issues a decree for their destruction on the appointed day.',
+    keyThemes: ['Pride demands homage', 'Ancient enmity', 'Genocide decreed', 'Providence through lots'],
+    christConnection: 'Haman\'s plot to destroy God\'s people echoes Satan\'s efforts throughout history. The casting of lots (pur) unknowingly gives time for deliverance—God is sovereign even over apparent randomness.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 4,
+    title: 'Mordecai\'s Challenge: "For Such a Time as This"',
+    summary: 'Mordecai mourns publicly in sackcloth when he learns of the decree. He sends word to Esther, urging her to plead with the king. Esther fears death since approaching the king unsummoned is fatal unless he extends his scepter. Mordecai\'s reply is penetrating: if she remains silent, deliverance will come from elsewhere, but she and her family will perish. Perhaps she has come to royal position "for such a time as this."',
+    keyThemes: ['Providence and purpose', 'Courage required', 'Faith over fear', 'Divine timing'],
+    christConnection: '"For such a time as this" reflects God\'s providential timing in all history. Christ came "in the fullness of time." Esther\'s willingness to risk death for her people foreshadows Christ who gave His life for His people.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 5,
+    title: 'Esther\'s First Banquet',
+    summary: 'After three days of fasting, Esther approaches the king and receives his favor. She invites him and Haman to a banquet. When the king asks her request, she invites them to another banquet the next day. Haman leaves joyful but seethes when Mordecai refuses to bow. His wife and friends suggest building a gallows to hang Mordecai before the next banquet. Haman has the gallows built.',
+    keyThemes: ['Courageous approach', 'Favor granted', 'Strategic delay', 'Pride before fall'],
+    christConnection: 'Esther\'s fasting before approaching the king pictures prayerful preparation. Haman building gallows for his enemy unknowingly prepares his own death—evil\'s schemes often become its undoing.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 6,
+    title: 'Mordecai Honored, Haman Humiliated',
+    summary: 'That night, the king cannot sleep and has the chronicles read to him. He learns that Mordecai\'s loyalty in exposing the assassination plot was never rewarded. When Haman arrives (to ask permission to hang Mordecai), the king asks how to honor someone. Haman, thinking it\'s himself, suggests royal robes, a horse, and public proclamation. The king commands Haman to do all this for Mordecai. Haman goes home in shame; his wife predicts his downfall.',
+    keyThemes: ['Divine timing', 'Sleepless night', 'Tables turned', 'Ironic reversal'],
+    christConnection: 'The "coincidences" of this chapter display divine providence. Mordecai honored instead of hanged pictures the reversal Christ brings—the humble exalted, the proud brought low.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 7,
+    title: 'Esther\'s Revelation, Haman\'s Death',
+    summary: 'At the second banquet, the king again asks Esther\'s request. She reveals that she is Jewish and that someone has plotted to destroy her people—herself included. When the king demands who, she names Haman. The king storms out in fury. Haman begs Esther for his life, falling on her couch as the king returns, making it appear worse. A eunuch mentions the gallows Haman built for Mordecai. The king orders Haman hanged on his own gallows.',
+    keyThemes: ['Identity revealed', 'Villain exposed', 'Judgment reversed', 'Hoist on his own petard'],
+    christConnection: 'Haman dying on his own gallows pictures the cross: Satan\'s weapon of death became his defeat. The enemy is destroyed by his own design when Christ conquers through the cross.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 8,
+    title: 'The Decree Reversed',
+    summary: 'Esther receives Haman\'s estate, and Mordecai is elevated to Haman\'s position. But the first decree cannot be revoked under Persian law. So a second decree authorizes the Jews to defend themselves and destroy their enemies on the appointed day. Mordecai goes out in royal robes, and the city of Susa rejoices. Many peoples "became Jews" because fear of them had fallen upon all.',
+    keyThemes: ['Reversal of fortune', 'Right to defend', 'Mordecai exalted', 'Fear turns to favor'],
+    christConnection: 'The new decree giving Jews power over their enemies pictures the gospel: though under sin\'s sentence, believers receive a new decree—authority in Christ over sin and Satan.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 9,
+    title: 'Jewish Victory and Purim Established',
+    summary: 'On the day enemies planned to destroy the Jews, the Jews instead destroy their enemies—75,000 in the provinces and Haman\'s ten sons in Susa. They take no plunder, emphasizing this is justice, not greed. Mordecai and Esther establish the feast of Purim (from "pur," the lot) to commemorate this deliverance, to be observed annually with feasting, joy, and gifts to the poor.',
+    keyThemes: ['Victory over enemies', 'No plunder taken', 'Purim instituted', 'Remembered annually'],
+    christConnection: 'Purim celebrates deliverance from destruction—pointing to the greater deliverance Christ provides from spiritual death. The feast of joy foreshadows the eternal celebration of God\'s redeemed people.'
+  },
+  {
+    bookId: 'esther',
+    chapter: 10,
+    title: 'Mordecai\'s Greatness',
+    summary: 'The book concludes briefly: King Ahasuerus levied tribute on the land and islands, and his acts are recorded in the chronicles of the kings of Media and Persia. Mordecai the Jew was second only to the king, great among the Jews and popular with his many brethren, seeking the welfare of his people and speaking peace to all his offspring.',
+    keyThemes: ['Mordecai\'s elevation', 'Seeking people\'s welfare', 'Speaking peace', 'Providence vindicated'],
+    christConnection: 'Mordecai, once hated and condemned, is now exalted to the king\'s right hand, seeking his people\'s welfare. This pictures Christ, exalted to the Father\'s right hand, interceding for His people.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -3348,6 +3624,12 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return FIRST_CHRONICLES_CHAPTERS;
     case '2-chronicles':
       return SECOND_CHRONICLES_CHAPTERS;
+    case 'ezra':
+      return EZRA_CHAPTERS;
+    case 'nehemiah':
+      return NEHEMIAH_CHAPTERS;
+    case 'esther':
+      return ESTHER_CHAPTERS;
     // More books will be added
     default:
       return [];
@@ -3370,4 +3652,7 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: '2-kings', bookName: '2 Kings', chapters: SECOND_KINGS_CHAPTERS },
   { bookId: '1-chronicles', bookName: '1 Chronicles', chapters: FIRST_CHRONICLES_CHAPTERS },
   { bookId: '2-chronicles', bookName: '2 Chronicles', chapters: SECOND_CHRONICLES_CHAPTERS },
+  { bookId: 'ezra', bookName: 'Ezra', chapters: EZRA_CHAPTERS },
+  { bookId: 'nehemiah', bookName: 'Nehemiah', chapters: NEHEMIAH_CHAPTERS },
+  { bookId: 'esther', bookName: 'Esther', chapters: ESTHER_CHAPTERS },
 ];
