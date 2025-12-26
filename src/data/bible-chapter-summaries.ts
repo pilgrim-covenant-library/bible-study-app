@@ -3593,6 +3593,346 @@ export const ESTHER_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// JOB CHAPTERS
+export const JOB_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'job',
+    chapter: 1,
+    title: 'Job\'s Righteousness and Satan\'s Challenge',
+    summary: 'Job is introduced as blameless and upright, fearing God and turning away from evil. He is extraordinarily blessed with family and wealth. In heaven, Satan appears among the sons of God, and God commends Job\'s faithfulness. Satan challenges: Job serves God only because of blessings; remove them and he will curse God. God permits Satan to test Job, and in one day, Job loses his livestock, servants, and all ten children. Yet Job worships: "The Lord gave, and the Lord has taken away; blessed be the name of the Lord."',
+    keyThemes: ['Divine sovereignty', 'Satan\'s accusation', 'Suffering without cause', 'Faith amidst loss'],
+    christConnection: 'Job\'s undeserved suffering points to Christ, the truly righteous sufferer. Unlike Job, Christ was absolutely sinless yet suffered infinitely more. Job\'s worship in grief models trust in God\'s sovereign purposes.'
+  },
+  {
+    bookId: 'job',
+    chapter: 2,
+    title: 'Satan\'s Second Attack: Bodily Affliction',
+    summary: 'Satan again appears before God, who notes that Job still holds fast his integrity despite losing everything. Satan argues that Job would curse God if his own body were struck. God permits Satan to afflict Job but not kill him. Job is covered with painful sores. His wife urges him to curse God and die, but Job rebukes her: "Shall we receive good from God, and shall we not receive evil?" Job\'s three friends arrive to comfort him and sit silently for seven days, overwhelmed by his suffering.',
+    keyThemes: ['Physical affliction', 'Satan\'s limitations', 'Integrity maintained', 'Friends arrive'],
+    christConnection: 'Job\'s bodily suffering, though permitted by God, was inflicted by Satan—a picture of how Christ\'s suffering, though foreordained, was executed by evil hands. The friends\' initial silent compassion reflects what true comfort requires.'
+  },
+  {
+    bookId: 'job',
+    chapter: 3,
+    title: 'Job\'s Lament: Cursing the Day of Birth',
+    summary: 'After seven days of silence, Job opens his mouth and curses the day of his birth. He wishes he had died at birth or been stillborn. He longs for death as rest from his suffering, asking why life is given to those in misery. This is raw, honest grief—not cursing God, but questioning the purpose of suffering. Job expresses what many sufferers feel: longing for relief and questioning why they were born for such pain.',
+    keyThemes: ['Honest lament', 'Longing for death', 'Questioning purpose', 'Grief expressed'],
+    christConnection: 'Job\'s anguish anticipates Gethsemane, where Christ in agony asked if the cup could pass. Yet Christ embraced the Father\'s will, drinking the cup of suffering for us. Honest lament before God is not sin.'
+  },
+  {
+    bookId: 'job',
+    chapter: 4,
+    title: 'Eliphaz Speaks: First Discourse',
+    summary: 'Eliphaz, the first friend, begins the dialogue. He acknowledges Job has comforted many, but now Job cannot bear his own trial. Eliphaz argues from experience and a night vision: the innocent do not perish; trouble comes to those who sow it. He implies Job must have sinned secretly. He describes a terrifying spiritual encounter confirming that no mortal is righteous before God. His theology contains truth but misapplied—assuming all suffering is punishment for sin.',
+    keyThemes: ['Retribution theology', 'Experience over revelation', 'Subtle accusation', 'Human frailty'],
+    christConnection: 'Eliphaz\'s error—assuming suffering always indicates guilt—is what Christ\'s disciples later showed with the blind man. Christ corrected this: suffering is not always punishment. Some suffering glorifies God.'
+  },
+  {
+    bookId: 'job',
+    chapter: 5,
+    title: 'Eliphaz Continues: Divine Discipline',
+    summary: 'Eliphaz continues, noting that fools are destroyed by their own folly. He urges Job to seek God, describing God\'s wonderful works and His justice—saving the needy and frustrating the crafty. He counsels Job to accept discipline: "Blessed is the one whom God reproves." He promises that if Job submits, he will be restored with blessings—children, prosperity, long life. This sounds pious but assumes Job\'s suffering is corrective discipline for hidden sin.',
+    keyThemes: ['Call to repentance', 'Promise of restoration', 'Misapplied wisdom', 'Assumed guilt'],
+    christConnection: 'While God does discipline His children, Eliphaz wrongly assumes all suffering is discipline. Christ bore suffering not for His sin but for ours. Some suffering is mysterious, serving purposes we cannot yet see.'
+  },
+  {
+    bookId: 'job',
+    chapter: 6,
+    title: 'Job\'s Reply: The Weight of Anguish',
+    summary: 'Job responds that his anguish is heavier than the sand of the sea—his words have been rash because of overwhelming pain. He wishes God would crush him and end his misery. He accuses his friends of being like a wadi that dries up when most needed—worthless in his time of need. He challenges them to show him where he has sinned. He asks for honesty, not empty words. His friends\' comfort has become torment.',
+    keyThemes: ['Weight of suffering', 'Disappointment in friends', 'Desire for death', 'Challenge to accusers'],
+    christConnection: 'Job\'s friends failed him when he needed them most. Christ\'s disciples fled in His hour of need. Yet Christ remains the friend who never fails, the one who sticks closer than a brother even in our darkest hours.'
+  },
+  {
+    bookId: 'job',
+    chapter: 7,
+    title: 'Job\'s Complaint to God',
+    summary: 'Job laments human existence as hard service—like a slave longing for evening\'s rest. His nights are filled with tossing; his days pass without hope. He turns his complaint to God directly: "I will not restrain my mouth." He asks why God pays such close attention to humans, watching constantly, not looking away even for a moment. If he has sinned, what does that do to God? Why not pardon his transgression? He will soon die and be gone.',
+    keyThemes: ['Life\'s brevity', 'Direct complaint to God', 'Divine surveillance', 'Desire for pardon'],
+    christConnection: 'Job\'s bold complaint to God shows that honest prayer is acceptable. Christ taught us to bring all concerns to the Father. Job\'s question about human significance anticipates the answer in Christ: God cares because we matter to Him.'
+  },
+  {
+    bookId: 'job',
+    chapter: 8,
+    title: 'Bildad Speaks: Appeal to Tradition',
+    summary: 'Bildad, the second friend, is more blunt. He asks how long Job will speak such "wind." God does not pervert justice; if Job\'s children sinned, they received what they deserved. If Job is pure, God will restore him. Bildad appeals to the wisdom of past generations: the wicked perish like plants without water, while the blameless are not rejected. He assumes Job must be guilty since God would not afflict the innocent.',
+    keyThemes: ['Appeal to tradition', 'Harsh theology', 'Retributive justice', 'Conditional hope'],
+    christConnection: 'Bildad\'s rigid retribution theology fails before the cross. Christ, the perfectly pure one, was not restored but crucified. The gospel reveals suffering that transcends simple cause and effect—suffering with redemptive purpose.'
+  },
+  {
+    bookId: 'job',
+    chapter: 9,
+    title: 'Job\'s Reply: How Can a Man Be Right with God?',
+    summary: 'Job agrees that no one can be righteous before God—but this is precisely the problem. God is so powerful that no one can contend with Him. Job describes God\'s awesome power in creation—moving mountains, commanding the sun, walking on waves. Yet this power seems overwhelming, not comforting. If Job called and God answered, would God listen? God destroys the blameless and the wicked together. Job wishes for an arbiter between himself and God.',
+    keyThemes: ['Divine power', 'Human helplessness', 'Desire for mediation', 'Justice questioned'],
+    christConnection: 'Job\'s longing for a mediator—someone to stand between him and God—is fulfilled in Christ. "There is one mediator between God and men, the man Christ Jesus." Jesus bridges the infinite gap Job felt.'
+  },
+  {
+    bookId: 'job',
+    chapter: 10,
+    title: 'Job\'s Plea: Why Do You Contend Against Me?',
+    summary: 'Job will give free expression to his complaint. He asks God why He contends against him—does it seem good to God to oppress, to despise His own handiwork, while favoring the wicked? Job recalls that God formed him with care, like clay, granting him life and steadfast love. Yet now God seems to hunt him like a lion, testing him continually. He wishes again he had never been born or had died at birth.',
+    keyThemes: ['Questioning God\'s treatment', 'Creation remembered', 'Present suffering contrasted', 'Death preferred'],
+    christConnection: 'Job\'s sense that God is against him, despite knowing God\'s past care, pictures the believer\'s experience of divine hiddenness. Christ experienced this utterly on the cross: "My God, why have you forsaken me?"'
+  },
+  {
+    bookId: 'job',
+    chapter: 11,
+    title: 'Zophar Speaks: Divine Wisdom Beyond Comprehension',
+    summary: 'Zophar, the third friend, is the harshest. He accuses Job of babbling and mocking, wishing God would speak and reveal Job\'s hidden sins—in fact, God exacts less than Job\'s guilt deserves! Zophar describes God\'s wisdom as beyond searching out—higher than heaven, deeper than Sheol. He demands that Job put away iniquity and turn to God; then he will be secure, forget his misery, and rest safely.',
+    keyThemes: ['Harsh accusation', 'Divine mystery', 'Call to repentance', 'Promised restoration'],
+    christConnection: 'Zophar rightly notes that God\'s wisdom is unsearchable, but wrongly claims to know God\'s specific judgment on Job. True humility acknowledges what we don\'t know. Christ reveals God\'s wisdom in ways we never expected—through a cross.'
+  },
+  {
+    bookId: 'job',
+    chapter: 12,
+    title: 'Job\'s Reply: Wisdom Is Not Your Monopoly',
+    summary: 'Job responds with sarcasm: "No doubt you are the people, and wisdom will die with you!" He insists he is not inferior to them; what they know, he knows too. Yet he, a righteous man, has become a laughingstock while the wicked prosper. Even animals could teach them about God\'s sovereignty! God controls all—He overturns nations, makes counselors foolish, and leads kings away captive. Nothing happens outside His will.',
+    keyThemes: ['Sarcastic rebuke', 'Suffering of the righteous', 'God\'s sovereignty', 'Creatures as teachers'],
+    christConnection: 'Job\'s insistence that God is sovereign over all—both blessing and adversity—points to the mystery of the cross. God\'s wisdom seemed foolishness, His power weakness. Yet through apparent defeat, God achieved ultimate victory.'
+  },
+  {
+    bookId: 'job',
+    chapter: 13,
+    title: 'Job Demands to Speak Directly to God',
+    summary: 'Job declares he wants to argue his case with God, not these "worthless physicians" whose wisdom is "proverbs of ashes." He warns them that they are defending God with lies—will God judge them for their false advocacy? He demands silence to speak his piece, willing to take any risk: "Though he slay me, I will hope in him; yet I will argue my ways to his face." He asks God to withdraw His hand and speak, or let Job speak first.',
+    keyThemes: ['Friends rebuked', 'Courage to face God', 'Bold faith', 'Legal language'],
+    christConnection: '"Though he slay me, I will hope in him"—this faith amidst suffering points to Christ\'s trust in the Father even unto death. Job\'s boldness to approach God anticipates the access believers have through Christ.'
+  },
+  {
+    bookId: 'job',
+    chapter: 14,
+    title: 'Human Mortality and Longing for Hope',
+    summary: 'Job reflects on human mortality: life is brief like a fading flower, fleeting like a shadow. A tree has hope—cut down, it may sprout again—but humans lie down and do not rise until the heavens are no more. Job wishes God would hide him in Sheol until His wrath passes, then remember him. He asks the haunting question: "If a man dies, shall he live again?" He would wait all his days for release, longing for God to call and he to answer.',
+    keyThemes: ['Human frailty', 'Death\'s finality', 'Hope beyond death', 'Longing for resurrection'],
+    christConnection: 'Job\'s question "If a man dies, shall he live again?" is answered in Christ\'s resurrection. The gospel declares: Yes! Death is not final. Christ\'s rising is the firstfruits, and all who trust Him will live again.'
+  },
+  {
+    bookId: 'job',
+    chapter: 15,
+    title: 'Eliphaz\'s Second Speech: Accusing Job\'s Pride',
+    summary: 'Eliphaz begins the second cycle, accusing Job of speaking useless words and undermining piety. He asks if Job thinks he\'s the first man ever born, privy to God\'s council. The friends are gray-haired elders; what does Job know that they don\'t? He again emphasizes that no one is pure before God and describes in lurid detail the fate of the wicked—terror, darkness, sword, fire. The implication is clear: Job is one of them.',
+    keyThemes: ['Pride accused', 'Age over youth', 'Wicked\'s fate described', 'Indirect accusation'],
+    christConnection: 'Eliphaz\'s detailed description of the wicked\'s fate ironically describes what Christ would endure on the cross—darkness, anguish, separation—not for His own sin but for ours.'
+  },
+  {
+    bookId: 'job',
+    chapter: 16,
+    title: 'Job\'s Reply: Miserable Comforters',
+    summary: 'Job calls his friends "miserable comforters" who speak "windy words." If positions were reversed, Job could also heap up words against them—but he would comfort them instead. He describes his suffering in graphic terms: God has torn him, gnashed His teeth at him, delivered him to the ungodly. His face is red with weeping, yet his hands are clean. He appeals to heaven as his witness; God Himself is his advocate even though God seems his adversary.',
+    keyThemes: ['Failed comfort', 'Divine assault described', 'Innocence maintained', 'Heavenly witness'],
+    christConnection: 'Job\'s appeal to a witness in heaven while feeling God as adversary pictures Christ\'s relationship with the Father. On the cross, Christ trusted the Father even while bearing the Father\'s wrath against sin.'
+  },
+  {
+    bookId: 'job',
+    chapter: 17,
+    title: 'Job\'s Despair Deepens',
+    summary: 'Job\'s spirit is broken; his days are over. Mockers surround him. He asks God to provide a pledge—who else would give a guarantee for him? God has made him a byword; people spit in his face. His friends fail him, calling night day and claiming light is near when darkness surrounds him. If Sheol is now his home, where then is his hope? It goes down to the gates of Sheol.',
+    keyThemes: ['Spirit broken', 'Public humiliation', 'Seeking a guarantee', 'Hope fading'],
+    christConnection: 'Job\'s sense of being made a byword, spat upon and mocked, foreshadows Christ\'s passion. Jesus was literally spat upon, mocked, made a spectacle. Yet through such humiliation came our redemption.'
+  },
+  {
+    bookId: 'job',
+    chapter: 18,
+    title: 'Bildad\'s Second Speech: The Fate of the Wicked',
+    summary: 'Bildad takes offense at being treated as stupid cattle. He again describes the terrible fate awaiting the wicked: their light is put out; snares catch them; terrors frighten them; disease consumes their skin; they are torn from their tent and brought before the "king of terrors" (death). Their memory perishes from the earth. Bildad is certain this is the fate of those who do not know God—a not-so-subtle accusation against Job.',
+    keyThemes: ['Offended pride', 'Wicked\'s destruction detailed', 'Death personified', 'Indirect condemnation'],
+    christConnection: 'Bildad describes the "king of terrors"—death itself—as the wicked\'s end. Christ has conquered this king. Death, where is your sting? Through Christ\'s death and resurrection, the terror of death is overcome.'
+  },
+  {
+    bookId: 'job',
+    chapter: 19,
+    title: 'Job\'s Reply: "I Know That My Redeemer Lives"',
+    summary: 'Job protests: how long will they torment him? Even if he has erred, the error is his alone—why must they attack him? He describes how God has stripped him of honor, walled up his way, made him an outcast even to his own family. He pleads for pity, not persecution. Then comes his great confession: "I know that my Redeemer lives, and at the last he will stand upon the earth. And after my skin has been thus destroyed, yet in my flesh I shall see God."',
+    keyThemes: ['Isolation described', 'Plea for pity', 'Redeemer affirmed', 'Hope of resurrection'],
+    christConnection: 'Job\'s confession of a living Redeemer is fulfilled in Christ. The Hebrew word "go\'el" (kinsman-redeemer) points to One who will vindicate and restore. Job glimpses what is fully revealed in Christ—resurrection and vindication.'
+  },
+  {
+    bookId: 'job',
+    chapter: 20,
+    title: 'Zophar\'s Second Speech: The Wicked\'s Brief Triumph',
+    summary: 'Zophar responds with agitation to Job\'s words. He insists that the triumph of the wicked is short-lived; though they rise to the heavens, they perish like their own dung. Their prosperity is brief; what they swallow, they vomit up—God casts it out of their belly. They will know no quiet; their wealth flows away. This is the wicked person\'s portion from God. Again, the implication is that Job is reaping such judgment.',
+    keyThemes: ['Brief triumph', 'Wealth disgorged', 'No lasting peace', 'Divine judgment'],
+    christConnection: 'Zophar\'s theology of the wicked briefly prospering then falling is partially true but incomplete. Christ\'s parable of the rich fool echoes this, but the gospel reveals that transformation, not just destruction, is possible through grace.'
+  },
+  {
+    bookId: 'job',
+    chapter: 21,
+    title: 'Job\'s Reply: The Wicked Often Prosper',
+    summary: 'Job challenges the friends\' neat theology: look at reality! The wicked often prosper, grow old in power, see their offspring established, and die peacefully. Where is their punishment? The friends\' scheme of immediate retribution doesn\'t match observation. One dies in full vigor; another in bitterness—yet both lie in dust. Their claim that the wicked are reserved for the day of calamity is just empty comfort.',
+    keyThemes: ['Wicked prosperity observed', 'Retribution challenged', 'Reality versus theory', 'Comfort exposed as hollow'],
+    christConnection: 'Job correctly notes that justice isn\'t always immediate. This truth points to future judgment. Christ taught that final judgment comes at the end. The wicked may prosper now, but God\'s justice will ultimately prevail.'
+  },
+  {
+    bookId: 'job',
+    chapter: 22,
+    title: 'Eliphaz\'s Third Speech: Specific Accusations',
+    summary: 'Eliphaz begins the third cycle with the harshest accusations yet. He argues that God gains nothing from human righteousness; Job\'s suffering must be due to his own sins. He invents specific charges: Job has taken pledges from his brothers for nothing, stripped the naked, withheld bread from the hungry, sent widows away empty. He urges Job to repent and be restored, to receive instruction and return to the Almighty.',
+    keyThemes: ['Fabricated accusations', 'God needs nothing from man', 'Call to repentance', 'Promised restoration'],
+    christConnection: 'Eliphaz\'s false accusations anticipate the false charges brought against Christ. Jesus was accused of crimes He never committed. The innocent often suffer accusation, but God knows the truth.'
+  },
+  {
+    bookId: 'job',
+    chapter: 23,
+    title: 'Job\'s Reply: Seeking God Who Cannot Be Found',
+    summary: 'Job wishes he could find God to present his case. If he could lay his case before God, he believes God would pay attention and he would be delivered. But God is hidden—Job goes forward, backward, left, right, and cannot find Him. Yet God knows Job\'s way; when tested, Job will come forth as gold. He has kept God\'s commands, treasuring His words more than daily bread. But God is unchangeable; what He determines, He does. This terrifies Job.',
+    keyThemes: ['Longing for God\'s presence', 'Divine hiddenness', 'Tested as gold', 'Sovereign determination'],
+    christConnection: 'Job\'s longing to find God and present his case is answered in Christ, our advocate. We can come boldly to the throne of grace. God is no longer hidden—Christ has revealed Him. Yet Job\'s terror before sovereignty points to holy reverence.'
+  },
+  {
+    bookId: 'job',
+    chapter: 24,
+    title: 'Why Does God Allow Wickedness?',
+    summary: 'Job asks why God doesn\'t set times for judgment. He describes how the wicked move boundary stones, oppress the poor, force the needy to glean, and make the homeless go naked. Orphans and widows suffer while the wicked prosper. Murderers, adulterers, and thieves operate in darkness. The friends claim the wicked are swiftly punished, but Job insists they are exalted and then die like everyone else. Who can prove him wrong?',
+    keyThemes: ['Delayed judgment questioned', 'Oppression described', 'Wicked flourish', 'Challenge to orthodoxy'],
+    christConnection: 'Job\'s question about delayed justice finds its answer in the patience of God, who desires repentance. Peter echoes this: God is patient, not wanting any to perish. Christ\'s return brings final justice.'
+  },
+  {
+    bookId: 'job',
+    chapter: 25,
+    title: 'Bildad\'s Brief Third Speech',
+    summary: 'Bildad gives a short, final speech. He extols God\'s power and dominion—peace-maker in the heights, numberless hosts, light that reaches everywhere. How then can man be right before God? How can one born of woman be pure? Even the moon is not bright and the stars not pure in God\'s sight; how much less man, who is a maggot and worm! This orthodox statement of human unworthiness misses the point of Job\'s suffering.',
+    keyThemes: ['Divine majesty', 'Human insignificance', 'Universal sinfulness', 'Missing the point'],
+    christConnection: 'Bildad\'s question "How can man be righteous before God?" has no human answer—but God provides one. Christ, the righteous one, imputes His righteousness to us. This is the gospel answer to humanity\'s deepest need.'
+  },
+  {
+    bookId: 'job',
+    chapter: 26,
+    title: 'Job\'s Reply: God\'s Majestic Power',
+    summary: 'Job sarcastically asks what help Bildad has been to the powerless. Then Job himself describes God\'s power more magnificently than the friends ever did: Sheol is naked before Him; He stretches out the north over the void, hangs the earth on nothing, binds up waters in clouds, sets the circle of the horizon, makes pillars of heaven tremble, stirs up the sea, and pierces the serpent. And these are but the outer fringe of His works—a whisper. Who can understand His thunder?',
+    keyThemes: ['Superior description of power', 'Creation\'s wonders', 'Divine mystery', 'The whisper of God'],
+    christConnection: 'Job\'s description of God\'s power reminds us that Christ, through whom all things were made, willingly became weak for our salvation. The Creator who hangs the earth on nothing hung on a cross for us.'
+  },
+  {
+    bookId: 'job',
+    chapter: 27,
+    title: 'Job\'s Oath of Integrity',
+    summary: 'Job maintains his integrity with a solemn oath: as long as breath is in him, he will not speak falsehood or concede the friends are right. He will hold fast his righteousness and not let it go; his conscience does not reproach him. He then describes what truly befalls the wicked: their children face the sword; their widows don\'t weep; their wealth goes to the righteous. The wicked are swept away like stubble. Job appropriates the friends\' very language.',
+    keyThemes: ['Oath of integrity', 'Refusal to concede', 'Wicked\'s true fate', 'Conscience clear'],
+    christConnection: 'Job\'s firm maintenance of innocence despite pressure to confess false guilt pictures Christ, who under all pressure remained truthful. "Which of you convicts me of sin?" The truly righteous do not confess sins they haven\'t committed.'
+  },
+  {
+    bookId: 'job',
+    chapter: 28,
+    title: 'The Hymn to Wisdom',
+    summary: 'This magnificent poem asks: where is wisdom found? Humanity mines precious metals from earth\'s depths, reaching places birds and beasts never see. But wisdom cannot be mined or bought; it is hidden from all living. Abaddon and Death say, "We have heard a rumor of it." Only God understands wisdom\'s way; He saw it when He established creation. And to humanity He said: "The fear of the Lord, that is wisdom; to depart from evil is understanding."',
+    keyThemes: ['Wisdom\'s inaccessibility', 'Human ingenuity limited', 'God alone knows wisdom', 'Fear of the Lord'],
+    christConnection: 'The search for wisdom beyond human reach is fulfilled in Christ, "in whom are hidden all the treasures of wisdom and knowledge." The wisdom the world cannot find is revealed in a person—Jesus Christ.'
+  },
+  {
+    bookId: 'job',
+    chapter: 29,
+    title: 'Job\'s Former Blessed State',
+    summary: 'Job remembers his past glory. In those days, God watched over him; by God\'s light Job walked through darkness. He had counsel, family, prosperity, and honor. Young men withdrew in respect; aged men rose to their feet. He rescued the poor and caused the widow\'s heart to sing. He was eyes to the blind and feet to the lame. He expected to die in his nest, his glory fresh. People waited for his words as for rain.',
+    keyThemes: ['Past blessing remembered', 'Respected position', 'Helper of the needy', 'Former honor'],
+    christConnection: 'Job\'s description of his former blessed state—helping the needy, giving justice to the poor—describes what Christ did perfectly. Jesus is the true helper of the helpless, and His glory was greater yet laid aside.'
+  },
+  {
+    bookId: 'job',
+    chapter: 30,
+    title: 'Job\'s Present Misery',
+    summary: 'Now those younger and lower than Job mock him—men whose fathers he wouldn\'t have set with his dogs. They make him their byword, spit in his face, attack him. Terrors pursue him; his prosperity vanishes. Days of affliction have seized him; pain gnaws his bones. His garment is disfigured; he has become like dust and ashes. He cries to God with no answer. He has become a brother to jackals, blackened and burning with fever.',
+    keyThemes: ['Mockery by inferiors', 'Physical torment', 'Divine silence', 'Complete reversal'],
+    christConnection: 'Job\'s humiliation—mocked, spat upon, abandoned—foreshadows Christ\'s passion. Jesus was despised by those He came to save, yet He endured the cross for the joy set before Him.'
+  },
+  {
+    bookId: 'job',
+    chapter: 31,
+    title: 'Job\'s Final Oath of Innocence',
+    summary: 'Job makes his final defense, swearing comprehensive oaths of innocence. He has made a covenant with his eyes not to gaze at a virgin. He has not walked in falsehood, deceived in business, been lured by another\'s wife, treated servants unfairly, neglected the poor, trusted in wealth, worshipped sun or moon, rejoiced at an enemy\'s misfortune, or concealed sin. He signs his case: "Let the Almighty answer me!" Zophar gives no third speech; the friends are silenced.',
+    keyThemes: ['Comprehensive innocence', 'Ethical catalog', 'Challenge to God', 'Friends silenced'],
+    christConnection: 'Job\'s catalog of righteousness, while genuine, cannot ultimately justify before God. Only Christ lived in perfect conformity to every ethical standard. He alone can stand as the truly innocent one.'
+  },
+  {
+    bookId: 'job',
+    chapter: 32,
+    title: 'Elihu Enters: Youth Speaks',
+    summary: 'A new voice enters: Elihu, young and previously silent out of respect. But now anger burns in him—at Job for justifying himself rather than God, and at the friends for failing to answer Job while condemning him. He has waited for wisdom from age, but now realizes that the Spirit, not age alone, gives understanding. He must speak or burst. He will show no partiality but speak what he knows.',
+    keyThemes: ['Youth speaks', 'Anger at both sides', 'Spirit gives wisdom', 'Fresh perspective'],
+    christConnection: 'Elihu\'s claim that the Spirit, not mere age, gives understanding points to the work of God\'s Spirit in revealing truth. The ultimate revelation comes through Christ, on whom the Spirit rested without measure.'
+  },
+  {
+    bookId: 'job',
+    chapter: 33,
+    title: 'Elihu\'s First Speech: God Speaks in Many Ways',
+    summary: 'Elihu addresses Job directly, claiming to speak for God without terror. He challenges Job\'s claim of innocence while complaining of God\'s silence. God does speak—in dreams, visions, and through pain—to turn people from sinful paths. When someone is near death, if a mediator interprets, God may redeem that person and restore them to righteousness. God does this repeatedly to bring people back from the pit to the light of life.',
+    keyThemes: ['Divine communication', 'Dreams and suffering teach', 'Mediator needed', 'Restoration possible'],
+    christConnection: 'Elihu\'s mention of a mediator who can interpret and restore anticipates Christ, the one mediator between God and humanity. Through Him, we are redeemed from the pit and brought into the light of life.'
+  },
+  {
+    bookId: 'job',
+    chapter: 34,
+    title: 'Elihu Defends God\'s Justice',
+    summary: 'Elihu invites the wise to judge between his words and Job\'s. He quotes Job\'s complaint that righteousness profits nothing. But Elihu insists God cannot do wickedness; He repays according to deeds. God governs the earth—will anyone condemn the Righteous One? God is not partial to princes over poor; all are His work. He watches all human ways. No darkness can hide the wicked. God shatters the mighty without investigation. Job has spoken without knowledge.',
+    keyThemes: ['God\'s inherent justice', 'No partiality', 'All-seeing judgment', 'Job\'s ignorance charged'],
+    christConnection: 'Elihu\'s defense of God\'s justice points to Christ, the righteous judge who will judge the living and the dead. His judgment will be perfectly just, without partiality, according to truth.'
+  },
+  {
+    bookId: 'job',
+    chapter: 35,
+    title: 'Elihu: Does God Gain from Your Righteousness?',
+    summary: 'Elihu asks whether Job thinks it profits him more than sin to be righteous. Look at the heavens—your sin or righteousness affects your fellow humans, not God. People cry out under oppression but do not seek God. They lack faith, so God does not answer. Job\'s complaint that God ignores him is empty talk. He should wait, for God will act in His own time.',
+    keyThemes: ['God unaffected by human actions', 'Oppressed cry without faith', 'Wait for God', 'Empty words charged'],
+    christConnection: 'While Elihu correctly notes that God doesn\'t "need" our righteousness, the gospel reveals that God delights in His people—not from need but from love. In Christ, we see that God deeply cares about human faith and responds.'
+  },
+  {
+    bookId: 'job',
+    chapter: 36,
+    title: 'Elihu: God\'s Greatness and Purpose in Suffering',
+    summary: 'Elihu claims more to say on God\'s behalf. God is mighty but does not despise any; He gives justice to the afflicted. When righteous people are bound in affliction, He reveals their sin and commands them to return. If they obey, they prosper; if not, they perish. The godless in heart harbor anger and don\'t cry for help when bound. Elihu warns Job against preferring iniquity to affliction. God\'s power as teacher is unmatched.',
+    keyThemes: ['More on God\'s behalf', 'Affliction reveals sin', 'Choice to return', 'God as teacher'],
+    christConnection: 'Elihu\'s view that suffering teaches is partially correct. Hebrews teaches that discipline produces righteousness. Yet the cross shows suffering can have purposes beyond personal correction—redemptive purposes for others.'
+  },
+  {
+    bookId: 'job',
+    chapter: 37,
+    title: 'Elihu: The Majestic Storm-God',
+    summary: 'Elihu describes God\'s power in the thunderstorm—His voice thunders, sending lightning and snow. Animals hide; humanity stands still. God brings clouds for correction, mercy, or blessing. Elihu asks Job: Can you spread out the skies like a molten mirror? Can you even look at the sun when the wind clears the sky? Out of the north comes golden splendor; God is clothed in awesome majesty. We cannot find Him; He is great in power and justice. Therefore people fear Him.',
+    keyThemes: ['Storm as theophany', 'Human limitation', 'Divine majesty', 'Fear appropriate'],
+    christConnection: 'Elihu\'s description of God in the storm prepares for God\'s own appearance in the whirlwind. Christ, who calmed the storm with a word, reveals that the Storm-God became a servant, making the fearsome approachable.'
+  },
+  {
+    bookId: 'job',
+    chapter: 38,
+    title: 'God Speaks: Creation\'s Wonders',
+    summary: 'Finally, God answers Job from the whirlwind—not to explain suffering but to display His sovereignty. "Who is this that darkens counsel by words without knowledge?" Where was Job when God laid earth\'s foundation, set its measurements, confined the sea, commanded morning, and stored snow and hail? Can Job bind the Pleiades or loose Orion? Does he send lightning and give the hawk its wisdom? Question after question demonstrates Job\'s creaturely limitations.',
+    keyThemes: ['God speaks at last', 'Questions not answers', 'Creation\'s marvels', 'Human smallness'],
+    christConnection: 'God\'s questions reveal that wisdom belongs to the Creator, not creatures. Christ, as the Wisdom of God, is the one through whom all these wonders were made. The Creator who questions Job is the one who became flesh to answer our deepest needs.'
+  },
+  {
+    bookId: 'job',
+    chapter: 39,
+    title: 'God Speaks: The Animal Kingdom',
+    summary: 'God continues His examination through the animal kingdom. Does Job know when mountain goats give birth? Who sets the wild donkey free? Will the wild ox serve Job? The ostrich lacks wisdom yet outpaces the horse. Did Job give the horse its might, make its mane leap, or teach the hawk to soar? These creatures live beyond human control yet under divine care. Job cannot even govern animals—how can he question God\'s governance of all creation?',
+    keyThemes: ['Wild creatures described', 'Divine providence', 'Human limits exposed', 'God\'s care for all'],
+    christConnection: 'God\'s care for creatures Job cannot control shows divine providence over all creation. Christ affirms this: God feeds the birds and clothes the lilies. If God cares for wild animals, how much more for those made in His image?'
+  },
+  {
+    bookId: 'job',
+    chapter: 40,
+    title: 'God Challenges Job; Behemoth Described',
+    summary: 'God pauses: "Shall a faultfinder contend with the Almighty?" Job humbly covers his mouth—once, twice he has spoken but will say no more. God speaks again: Will Job condemn God to justify himself? Can Job thunder like God, abase the proud, and tread down the wicked? Then God describes Behemoth (likely the hippopotamus or a primordial creature)—powerful, peaceful among reeds, bones like iron, made to be tamed only by its Maker.',
+    keyThemes: ['Job silenced', 'Self-justification challenged', 'Behemoth\'s power', 'Only God can tame'],
+    christConnection: 'The power of Behemoth, which only its Maker can approach, pictures forces beyond human control that God alone manages. Christ demonstrates authority over nature, demons, and death—forces we cannot tame but He commands.'
+  },
+  {
+    bookId: 'job',
+    chapter: 41,
+    title: 'Leviathan: Fearsome Beyond Human Control',
+    summary: 'God describes Leviathan (likely the crocodile or a mythical sea monster)—can Job draw it out with a hook, make a pet of it, or pierce its scales? Its sneeze flashes light; its breath kindles coals. Strength is in its neck; terror dances before it. Its heart is hard as stone; when it raises itself, the mighty are afraid. No sword or spear can harm it. It churns the deep like a pot. Nothing on earth is its equal—a creature without fear. God is Lord even of this.',
+    keyThemes: ['Leviathan\'s terror', 'Human powerlessness', 'Chaos creature described', 'God\'s supreme authority'],
+    christConnection: 'Leviathan represents chaos and evil that humanity cannot overcome. In Christ, the ultimate "Leviathan"—Satan himself—is defeated. The cross crushes the serpent\'s head; chaos bows to the Creator\'s redemptive power.'
+  },
+  {
+    bookId: 'job',
+    chapter: 42,
+    title: 'Job\'s Repentance and Restoration',
+    summary: 'Job responds in humble repentance: he had spoken of things too wonderful, things he did not understand. "I had heard of you by the hearing of the ear, but now my eye sees you; therefore I despise myself and repent in dust and ashes." God rebukes the three friends for not speaking rightly as Job did; they must offer sacrifice and have Job pray for them. Then God restores Job\'s fortunes double—twice the livestock, ten more children, 140 more years of life.',
+    keyThemes: ['Humble repentance', 'Seeing God', 'Friends rebuked', 'Double restoration'],
+    christConnection: 'Job\'s encounter with God brought transformation—not answers to every question, but a relationship. Christ offers the same: not always explanations, but Himself. The restoration points to resurrection hope when all losses are more than restored.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -3630,6 +3970,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return NEHEMIAH_CHAPTERS;
     case 'esther':
       return ESTHER_CHAPTERS;
+    case 'job':
+      return JOB_CHAPTERS;
     // More books will be added
     default:
       return [];
@@ -3655,4 +3997,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'ezra', bookName: 'Ezra', chapters: EZRA_CHAPTERS },
   { bookId: 'nehemiah', bookName: 'Nehemiah', chapters: NEHEMIAH_CHAPTERS },
   { bookId: 'esther', bookName: 'Esther', chapters: ESTHER_CHAPTERS },
+  { bookId: 'job', bookName: 'Job', chapters: JOB_CHAPTERS },
 ];
