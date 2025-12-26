@@ -6,9 +6,10 @@ import { useSearchParams } from 'next/navigation';
 import {
   ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff,
   Grid3X3, ArrowUpDown, Layers, GraduationCap, Clock, TrendingUp,
-  CheckSquare, MessageSquare, Link2, Star
+  CheckSquare, MessageSquare, Link2, Star, Trophy, Pause, PlayCircle
 } from 'lucide-react';
 import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
+import { useTest107SessionStore, type Test107Phase } from '@/stores/test107SessionStore';
 import {
   WESTMINSTER_CATECHISM,
   CATECHISM_CATEGORIES,
@@ -21,12 +22,17 @@ import {
 } from '@/data/westminster-catechism';
 import {
   getDistractorsForQuestion,
+  getEnhancedDistractorsForQuestion,
+  selectDiverseDistractors,
   WSC_DISTRACTORS,
   CATEGORY_FALLBACK_DISTRACTORS,
   type Distractor,
 } from '@/data/wsc-distractors';
+import { calculateCatechismSimilarity, type CatechismSimilarityResult } from '@/lib/similarity';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
+import { Test107Progress, Test107Completion } from '@/components/theology/Test107Progress';
+import { Test107ResumeModal } from '@/components/theology/Test107ResumeModal';
 
 // ============================================================================
 // TYPES & CONSTANTS
@@ -42,7 +48,8 @@ type QuizMode =
   | 'type_out'        // Full typing
   | 'mcq'             // Multiple choice (pick correct answer)
   | 'short_answer'    // Type key phrase only
-  | 'scripture_match'; // Match answer to Scripture proof
+  | 'scripture_match' // Match answer to Scripture proof
+  | 'test_all_107';   // Sequential test: all 107 Q's MCQ then Free Response
 
 interface QuizModeInfo {
   id: QuizMode;
@@ -328,6 +335,33 @@ function TheologyPracticeContent() {
   const [scriptureOptions, setScriptureOptions] = useState<string[]>([]);
   const [scriptureSelected, setScriptureSelected] = useState<string | null>(null);
 
+  // Test All 107 Mode
+  const [test107ShowResumeModal, setTest107ShowResumeModal] = useState(false);
+  const [test107ShowCompletion, setTest107ShowCompletion] = useState(false);
+  const [test107SimilarityResult, setTest107SimilarityResult] = useState<CatechismSimilarityResult | null>(null);
+
+  // Test All 107 Store
+  const {
+    currentSession: test107Session,
+    startNewSession: startTest107Session,
+    resumeSession: resumeTest107,
+    recordAnswer: recordTest107Answer,
+    advanceQuestion: advanceTest107Question,
+    advanceToPhase2: advanceToTest107Phase2,
+    loopSession: loopTest107,
+    pauseSession: pauseTest107,
+    abandonSession: abandonTest107,
+    hasActiveSession: hasTest107Session,
+    getSessionProgress: getTest107Progress,
+  } = useTest107SessionStore();
+
+  // Check for active Test All 107 session on mount
+  useEffect(() => {
+    if (hasTest107Session()) {
+      setTest107ShowResumeModal(true);
+    }
+  }, [hasTest107Session]);
+
   // Spaced Repetition
   const { recordReview, getDueVerses, getVerseProgress, verses } = useSpacedRepetitionStore();
   const dueQuestions = useMemo(() =>
@@ -478,6 +512,195 @@ function TheologyPracticeContent() {
     setScriptureOptions(options);
     setScriptureSelected(null);
   }, []);
+
+  // Test All 107 - Initialize MCQ with enhanced cross-tradition distractors
+  const initializeTest107Mcq = useCallback((question: CatechismQuestion) => {
+    // Get enhanced distractors including cross-tradition answers
+    const enhancedDistractors = getEnhancedDistractorsForQuestion(
+      question.id,
+      question.category,
+      true // Include cross-tradition distractors
+    );
+
+    // Select 3 diverse distractors
+    const selectedDistractors = selectDiverseDistractors(enhancedDistractors, 3);
+
+    const distractorOptions = selectedDistractors.map(d => ({
+      answer: d.text,
+      source: 'Study carefully!',
+      isCorrect: false,
+      explanation: d.explanation,
+    }));
+
+    // Create the correct answer option
+    const correctOption = {
+      answer: question.answer,
+      source: 'Westminster Shorter Catechism',
+      isCorrect: true,
+      explanation: 'This is the correct Reformed answer from the Westminster Shorter Catechism.',
+    };
+
+    // Shuffle all options
+    const options = shuffleArray([correctOption, ...distractorOptions]);
+    setMcqOptions(options);
+    setMcqSelected(null);
+  }, []);
+
+  // Test All 107 - Start or resume
+  const startTest107Practice = useCallback(() => {
+    if (hasTest107Session()) {
+      // Resume existing session
+      resumeTest107();
+      const session = useTest107SessionStore.getState().currentSession;
+      if (session) {
+        const question = WESTMINSTER_CATECHISM[session.currentQuestionIndex];
+        setCurrentQuestion(question);
+
+        if (session.currentPhase === 'mcq') {
+          initializeTest107Mcq(question);
+        } else {
+          setUserAnswer('');
+          setTest107SimilarityResult(null);
+        }
+
+        setQuizMode('test_all_107');
+        setState('practice');
+      }
+    } else {
+      // Start new session
+      startTest107Session();
+      const question = WESTMINSTER_CATECHISM[0]; // Start with Q1
+      setCurrentQuestion(question);
+      initializeTest107Mcq(question);
+      setQuizMode('test_all_107');
+      setState('practice');
+    }
+  }, [hasTest107Session, resumeTest107, startTest107Session, initializeTest107Mcq]);
+
+  // Test All 107 - Handle MCQ submit
+  const handleTest107McqSubmit = useCallback(() => {
+    if (!currentQuestion || mcqSelected === null) return;
+
+    const selectedOption = mcqOptions[mcqSelected];
+    const score = selectedOption?.isCorrect ? 100 : 0;
+    const distractorTexts = mcqOptions.filter(o => !o.isCorrect).map(o => o.answer);
+
+    // Record the answer
+    recordTest107Answer(
+      test107Session?.currentQuestionIndex || 0,
+      'mcq',
+      selectedOption?.answer || '',
+      currentQuestion.answer,
+      score,
+      distractorTexts
+    );
+
+    // Move to result state briefly to show feedback
+    setScore(score);
+    setFeedback(score === 100 ? 'Correct!' : 'Incorrect - study the explanation below.');
+    setState('result');
+  }, [currentQuestion, mcqSelected, mcqOptions, recordTest107Answer, test107Session]);
+
+  // Test All 107 - Handle Free Response submit
+  const handleTest107FreeResponseSubmit = useCallback(() => {
+    if (!currentQuestion || !userAnswer.trim()) return;
+
+    // Calculate similarity score
+    const result = calculateCatechismSimilarity(userAnswer, currentQuestion.answer);
+    setTest107SimilarityResult(result);
+
+    // Record the answer
+    recordTest107Answer(
+      test107Session?.currentQuestionIndex || 0,
+      'free_response',
+      userAnswer,
+      currentQuestion.answer,
+      result.score
+    );
+
+    setScore(result.score);
+    setFeedback(result.feedback);
+    setState('result');
+  }, [currentQuestion, userAnswer, recordTest107Answer, test107Session]);
+
+  // Test All 107 - Advance to next question
+  const advanceTest107 = useCallback(() => {
+    const { nextIndex, phaseComplete, sessionComplete } = advanceTest107Question();
+
+    if (sessionComplete) {
+      // Show completion modal
+      setTest107ShowCompletion(true);
+      setState('select');
+      return;
+    }
+
+    if (phaseComplete) {
+      // Move to Phase 2 (Free Response)
+      advanceToTest107Phase2();
+      const question = WESTMINSTER_CATECHISM[0]; // Start Phase 2 at Q1
+      setCurrentQuestion(question);
+      setUserAnswer('');
+      setTest107SimilarityResult(null);
+      setState('practice');
+      return;
+    }
+
+    // Move to next question
+    const question = WESTMINSTER_CATECHISM[nextIndex];
+    setCurrentQuestion(question);
+
+    if (test107Session?.currentPhase === 'mcq') {
+      initializeTest107Mcq(question);
+    } else {
+      setUserAnswer('');
+      setTest107SimilarityResult(null);
+    }
+
+    setState('practice');
+  }, [advanceTest107Question, advanceToTest107Phase2, test107Session, initializeTest107Mcq]);
+
+  // Test All 107 - Pause and exit
+  const handleTest107Pause = useCallback(() => {
+    pauseTest107();
+    setState('select');
+    setQuizMode('flashcard'); // Reset to default mode
+  }, [pauseTest107]);
+
+  // Test All 107 - Handle loop (restart from Q1)
+  const handleTest107Loop = useCallback(() => {
+    loopTest107();
+    setTest107ShowCompletion(false);
+    const question = WESTMINSTER_CATECHISM[0];
+    setCurrentQuestion(question);
+    initializeTest107Mcq(question);
+    setQuizMode('test_all_107');
+    setState('practice');
+  }, [loopTest107, initializeTest107Mcq]);
+
+  // Test All 107 - Handle finish (complete session)
+  const handleTest107Finish = useCallback(() => {
+    setTest107ShowCompletion(false);
+    abandonTest107();
+    setState('select');
+    setQuizMode('flashcard');
+  }, [abandonTest107]);
+
+  // Test All 107 - Resume modal handlers
+  const handleTest107Resume = useCallback(() => {
+    setTest107ShowResumeModal(false);
+    startTest107Practice();
+  }, [startTest107Practice]);
+
+  const handleTest107StartFresh = useCallback(() => {
+    setTest107ShowResumeModal(false);
+    abandonTest107();
+    startTest107Session();
+    const question = WESTMINSTER_CATECHISM[0];
+    setCurrentQuestion(question);
+    initializeTest107Mcq(question);
+    setQuizMode('test_all_107');
+    setState('practice');
+  }, [abandonTest107, startTest107Session, initializeTest107Mcq]);
 
   // ============================================================================
   // START PRACTICE
@@ -812,6 +1035,41 @@ function TheologyPracticeContent() {
                   </button>
                 ))}
               </div>
+
+              {/* Test All 107 - Special Mode Card */}
+              <button
+                className="mt-4 w-full p-5 rounded-xl border-2 border-dashed border-theology/50
+                           bg-gradient-to-r from-theology/5 via-blue-500/5 to-green-500/5
+                           hover:border-theology hover:from-theology/10 hover:via-blue-500/10 hover:to-green-500/10
+                           transition-all text-left"
+                onClick={startTest107Practice}
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-4">
+                    <div className="p-3 rounded-xl bg-gradient-to-br from-theology to-blue-600 text-white">
+                      <Trophy className="h-7 w-7" />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg font-bold">Test All 107</span>
+                        <span className="text-[10px] px-2 py-0.5 rounded font-medium uppercase bg-gradient-to-r from-theology to-blue-600 text-white">
+                          Challenge
+                        </span>
+                      </div>
+                      <p className="text-sm text-muted-foreground mt-0.5">
+                        Sequential MCQ (Q1-107), then Free Response. Progress saved automatically.
+                      </p>
+                    </div>
+                  </div>
+                  <PlayCircle className="h-6 w-6 text-theology" />
+                </div>
+                {hasTest107Session() && (
+                  <div className="mt-3 flex items-center gap-2 text-xs text-amber-600 dark:text-amber-400">
+                    <Clock className="h-3.5 w-3.5" />
+                    <span>You have an active session - click to resume</span>
+                  </div>
+                )}
+              </button>
             </div>
 
             {/* Filters (only show if not coming from URL params) */}
@@ -895,6 +1153,19 @@ function TheologyPracticeContent() {
         {/* ================================================================== */}
         {state === 'practice' && currentQuestion && (
           <section className="max-w-2xl mx-auto">
+            {/* Test All 107 - Progress Component */}
+            {quizMode === 'test_all_107' && test107Session && (
+              <Test107Progress
+                phase={test107Session.currentPhase}
+                currentQuestion={test107Session.currentQuestionIndex + 1}
+                phase1Completed={test107Session.phase1Results.length}
+                phase2Completed={test107Session.phase2Results.length}
+                phase1Score={test107Session.phase1Score}
+                phase2Score={test107Session.phase2Score}
+                loopCount={test107Session.loopCount}
+              />
+            )}
+
             {/* Question Header */}
             <div className="text-center mb-6">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-theology/10 rounded-full mb-2">
@@ -1276,6 +1547,99 @@ function TheologyPracticeContent() {
             )}
 
             {/* ============================================================ */}
+            {/* TEST ALL 107 MODE */}
+            {/* ============================================================ */}
+            {quizMode === 'test_all_107' && test107Session && (
+              <>
+                {/* Phase 1: MCQ */}
+                {test107Session.currentPhase === 'mcq' && (
+                  <Card className="mb-6">
+                    <CardContent className="p-6">
+                      <div className="text-xs font-medium text-theology mb-2">
+                        Phase 1: Multiple Choice - Which is the correct Reformed answer?
+                      </div>
+                      <div className="text-xs text-muted-foreground mb-4">
+                        Options include answers from Catholic, Lutheran, and other traditions.
+                      </div>
+                      <div className="space-y-3">
+                        {mcqOptions.map((option, i) => (
+                          <button
+                            key={i}
+                            className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+                              mcqSelected === i
+                                ? 'border-theology bg-theology/10 ring-2 ring-theology/20'
+                                : 'border-border bg-card hover:border-theology/50 hover:bg-muted/50'
+                            }`}
+                            onClick={() => setMcqSelected(i)}
+                          >
+                            <div className="flex items-start gap-3">
+                              <span className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-sm font-medium ${
+                                mcqSelected === i
+                                  ? 'bg-theology text-white'
+                                  : 'bg-muted text-muted-foreground'
+                              }`}>
+                                {String.fromCharCode(65 + i)}
+                              </span>
+                              <span className="text-sm leading-relaxed">{option.answer}</span>
+                            </div>
+                          </button>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
+
+                {/* Phase 2: Free Response */}
+                {test107Session.currentPhase === 'free_response' && (
+                  <Card className="mb-6">
+                    <CardContent className="p-6">
+                      <div className="text-xs font-medium text-blue-600 dark:text-blue-400 mb-2">
+                        Phase 2: Free Response - Type the answer from memory
+                      </div>
+                      <div className="text-xs text-muted-foreground mb-4">
+                        Your answer will be scored based on accuracy and key theological terms.
+                      </div>
+                      <textarea
+                        className="w-full min-h-[150px] p-4 text-lg leading-relaxed border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none bg-background"
+                        placeholder="Type the catechism answer..."
+                        value={userAnswer}
+                        onChange={(e) => setUserAnswer(e.target.value)}
+                        autoFocus
+                      />
+                      <div className="text-xs text-muted-foreground mt-2">
+                        Press Ctrl+Enter to submit
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
+
+                {/* Test All 107 Controls */}
+                <div className="flex gap-4">
+                  <Button variant="outline" onClick={handleTest107Pause}>
+                    <Pause className="h-4 w-4 mr-2" />
+                    Save & Exit
+                  </Button>
+                  <Button
+                    variant="theology"
+                    className="flex-1"
+                    onClick={
+                      test107Session.currentPhase === 'mcq'
+                        ? handleTest107McqSubmit
+                        : handleTest107FreeResponseSubmit
+                    }
+                    disabled={
+                      (test107Session.currentPhase === 'mcq' && mcqSelected === null) ||
+                      (test107Session.currentPhase === 'free_response' && !userAnswer.trim())
+                    }
+                  >
+                    <Send className="h-5 w-5 mr-2" />
+                    Submit Answer
+                  </Button>
+                </div>
+              </>
+            )}
+
+            {/* ============================================================ */}
             {/* COMMON CONTROLS */}
             {/* ============================================================ */}
 
@@ -1311,23 +1675,25 @@ function TheologyPracticeContent() {
               </Card>
             )}
 
-            {/* Submit Button */}
-            <Button
-              variant="theology"
-              className="w-full"
-              size="lg"
-              onClick={handleSubmit}
-              disabled={
-                (quizMode === 'type_out' && !userAnswer.trim()) ||
-                (quizMode === 'flashcard' && !selfRating) ||
-                (quizMode === 'mcq' && mcqSelected === null) ||
-                (quizMode === 'short_answer' && !shortAnswerInput.trim()) ||
-                (quizMode === 'scripture_match' && !scriptureSelected)
-              }
-            >
-              <Send className="h-5 w-5 mr-2" />
-              {quizMode === 'flashcard' ? 'Finish' : 'Check Answer'}
-            </Button>
+            {/* Submit Button - Not shown for test_all_107 (has its own controls) */}
+            {quizMode !== 'test_all_107' && (
+              <Button
+                variant="theology"
+                className="w-full"
+                size="lg"
+                onClick={handleSubmit}
+                disabled={
+                  (quizMode === 'type_out' && !userAnswer.trim()) ||
+                  (quizMode === 'flashcard' && !selfRating) ||
+                  (quizMode === 'mcq' && mcqSelected === null) ||
+                  (quizMode === 'short_answer' && !shortAnswerInput.trim()) ||
+                  (quizMode === 'scripture_match' && !scriptureSelected)
+                }
+              >
+                <Send className="h-5 w-5 mr-2" />
+                {quizMode === 'flashcard' ? 'Finish' : 'Check Answer'}
+              </Button>
+            )}
           </section>
         )}
 
@@ -1347,7 +1713,9 @@ function TheologyPracticeContent() {
                 </div>
                 <CardTitle className="text-xl">{feedback}</CardTitle>
                 <p className="text-muted-foreground">
-                  Mode: {QUIZ_MODES.find(m => m.id === quizMode)?.label}
+                  Mode: {quizMode === 'test_all_107'
+                    ? `Test All 107 - ${test107Session?.currentPhase === 'mcq' ? 'Phase 1 (MCQ)' : 'Phase 2 (Free Response)'}`
+                    : QUIZ_MODES.find(m => m.id === quizMode)?.label}
                 </p>
               </CardHeader>
               <CardContent>
@@ -1383,8 +1751,58 @@ function TheologyPracticeContent() {
                     </div>
                   )}
 
+                  {/* Test All 107 - Free Response Similarity Breakdown */}
+                  {quizMode === 'test_all_107' && test107Session?.currentPhase === 'free_response' && test107SimilarityResult && (
+                    <div className="border rounded-xl overflow-hidden">
+                      <div className="bg-blue-50 dark:bg-blue-900/20 px-4 py-2 text-xs font-medium text-blue-700 dark:text-blue-300">
+                        Similarity Analysis
+                      </div>
+                      <div className="p-4 space-y-3">
+                        <div className="grid grid-cols-2 gap-3 text-sm">
+                          <div className="bg-muted rounded-lg p-3 text-center">
+                            <div className="text-lg font-bold">{test107SimilarityResult.wordAccuracy}%</div>
+                            <div className="text-xs text-muted-foreground">Word Accuracy</div>
+                          </div>
+                          <div className="bg-muted rounded-lg p-3 text-center">
+                            <div className="text-lg font-bold">{test107SimilarityResult.orderAccuracy}%</div>
+                            <div className="text-xs text-muted-foreground">Word Order</div>
+                          </div>
+                          <div className="bg-muted rounded-lg p-3 text-center">
+                            <div className="text-lg font-bold">{test107SimilarityResult.keyTermAccuracy}%</div>
+                            <div className="text-xs text-muted-foreground">Key Terms</div>
+                          </div>
+                          <div className="bg-muted rounded-lg p-3 text-center">
+                            <div className="text-lg font-bold">{test107SimilarityResult.phraseAccuracy}%</div>
+                            <div className="text-xs text-muted-foreground">Phrase Match</div>
+                          </div>
+                        </div>
+                        {test107SimilarityResult.missingKeyTerms.length > 0 && (
+                          <div className="bg-amber-50 dark:bg-amber-900/20 rounded-lg p-3">
+                            <div className="text-xs font-medium text-amber-700 dark:text-amber-300 mb-1">
+                              Missing Key Terms:
+                            </div>
+                            <div className="flex flex-wrap gap-1">
+                              {test107SimilarityResult.missingKeyTerms.slice(0, 5).map((term, i) => (
+                                <span key={i} className="px-2 py-0.5 bg-amber-100 dark:bg-amber-900/40 rounded text-xs text-amber-700 dark:text-amber-300">
+                                  {term}
+                                </span>
+                              ))}
+                              {test107SimilarityResult.missingKeyTerms.length > 5 && (
+                                <span className="text-xs text-amber-600">+{test107SimilarityResult.missingKeyTerms.length - 5} more</span>
+                              )}
+                            </div>
+                          </div>
+                        )}
+                        <div className="bg-muted/50 rounded-lg p-3">
+                          <div className="text-xs font-medium mb-1">Your Answer:</div>
+                          <p className="text-sm text-muted-foreground">{userAnswer}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
                   {/* MCQ Explanation - show all options with explanations */}
-                  {quizMode === 'mcq' && mcqOptions.length > 0 && (
+                  {(quizMode === 'mcq' || (quizMode === 'test_all_107' && test107Session?.currentPhase === 'mcq')) && mcqOptions.length > 0 && (
                     <div className="border rounded-xl overflow-hidden">
                       <div className="bg-muted px-4 py-2 text-xs font-medium">
                         Why Each Answer is Right or Wrong:
@@ -1439,8 +1857,8 @@ function TheologyPracticeContent() {
                     </div>
                   )}
 
-                  {/* SR Status */}
-                  {(() => {
+                  {/* SR Status - Hide for Test All 107 mode */}
+                  {quizMode !== 'test_all_107' && (() => {
                     const progress = getVerseProgress(currentQuestion.id);
                     if (!progress) return null;
                     const nextReviewDays = Math.ceil(
@@ -1479,26 +1897,75 @@ function TheologyPracticeContent() {
                   })()}
 
                   {/* Action Buttons */}
-                  <div className="flex gap-4 pt-4">
-                    <Button variant="outline" className="flex-1" onClick={handleTryAgain}>
-                      <RotateCcw className="h-4 w-4 mr-2" />
-                      Try Again
-                    </Button>
-                    <Button variant="theology" className="flex-1" onClick={startPractice}>
-                      <Shuffle className="h-4 w-4 mr-2" />
-                      New Question
-                    </Button>
-                  </div>
+                  {quizMode === 'test_all_107' ? (
+                    // Test All 107 - specific action buttons
+                    <div className="space-y-3 pt-4">
+                      <Button
+                        variant="theology"
+                        className="w-full"
+                        onClick={advanceTest107}
+                      >
+                        <PlayCircle className="h-4 w-4 mr-2" />
+                        Next Question (Q{(test107Session?.currentQuestionIndex || 0) + 2} of 107)
+                      </Button>
+                      <Button
+                        variant="outline"
+                        className="w-full"
+                        onClick={handleTest107Pause}
+                      >
+                        <Pause className="h-4 w-4 mr-2" />
+                        Save & Exit
+                      </Button>
+                    </div>
+                  ) : (
+                    // Regular modes - standard action buttons
+                    <>
+                      <div className="flex gap-4 pt-4">
+                        <Button variant="outline" className="flex-1" onClick={handleTryAgain}>
+                          <RotateCcw className="h-4 w-4 mr-2" />
+                          Try Again
+                        </Button>
+                        <Button variant="theology" className="flex-1" onClick={startPractice}>
+                          <Shuffle className="h-4 w-4 mr-2" />
+                          New Question
+                        </Button>
+                      </div>
 
-                  <Link href="/theology" className="block">
-                    <Button variant="ghost" className="w-full">
-                      Back to Menu
-                    </Button>
-                  </Link>
+                      <Link href="/theology" className="block">
+                        <Button variant="ghost" className="w-full">
+                          Back to Menu
+                        </Button>
+                      </Link>
+                    </>
+                  )}
                 </div>
               </CardContent>
             </Card>
           </section>
+        )}
+
+        {/* Test All 107 - Resume Modal */}
+        {test107ShowResumeModal && test107Session && (
+          <Test107ResumeModal
+            isOpen={test107ShowResumeModal}
+            session={test107Session}
+            onResume={handleTest107Resume}
+            onStartFresh={handleTest107StartFresh}
+            onClose={() => setTest107ShowResumeModal(false)}
+          />
+        )}
+
+        {/* Test All 107 - Completion Modal */}
+        {test107ShowCompletion && test107Session && (
+          <Test107Completion
+            phase1Score={test107Session.phase1Score}
+            phase2Score={test107Session.phase2Score}
+            phase1Results={test107Session.phase1Results}
+            phase2Results={test107Session.phase2Results}
+            loopCount={test107Session.loopCount}
+            onLoop={handleTest107Loop}
+            onFinish={handleTest107Finish}
+          />
         )}
       </main>
     </div>

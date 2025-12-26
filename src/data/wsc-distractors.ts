@@ -384,3 +384,88 @@ export function getDistractorsForQuestion(questionId: string, category: string):
   // Return empty array if nothing found
   return [];
 }
+
+// Import cross-tradition distractors dynamically to avoid circular dependencies
+import { getCrossTraditionDistractors, getCrossTraditionDistractorsByCategory, CrossTraditionDistractor } from './other-catechisms';
+import { CatechismCategory } from './westminster-catechism';
+
+// Convert CrossTraditionDistractor to Distractor format
+function convertCrossTradition(ctd: CrossTraditionDistractor): Distractor {
+  return {
+    text: ctd.text,
+    type: ctd.type,
+    explanation: `${ctd.source} Catechism: ${ctd.explanation}`,
+  };
+}
+
+// Enhanced distractor function that combines WSC-specific, category fallback, AND cross-tradition distractors
+// This provides more challenging MCQ options by including answers from Catholic, Lutheran, Anglican traditions
+export function getEnhancedDistractorsForQuestion(
+  questionId: string,
+  category: CatechismCategory,
+  includeCrossTradition: boolean = true
+): Distractor[] {
+  // Collect all available distractors
+  const allDistractors: Distractor[] = [];
+
+  // 1. Add question-specific WSC distractors (highest priority)
+  if (WSC_DISTRACTORS[questionId]) {
+    allDistractors.push(...WSC_DISTRACTORS[questionId]);
+  }
+
+  // 2. Add cross-tradition distractors if enabled
+  if (includeCrossTradition) {
+    // First try question-specific cross-tradition
+    const questionCrossTradition = getCrossTraditionDistractors(questionId);
+    if (questionCrossTradition.length > 0) {
+      allDistractors.push(...questionCrossTradition.map(convertCrossTradition));
+    }
+
+    // Also add category-level cross-tradition for variety
+    const categoryCrossTradition = getCrossTraditionDistractorsByCategory(category);
+    const additionalCrossTradition = categoryCrossTradition
+      .filter(ctd => !ctd.wscQuestionIds.includes(questionId)) // Avoid duplicates
+      .slice(0, 2); // Limit to avoid overwhelming
+    allDistractors.push(...additionalCrossTradition.map(convertCrossTradition));
+  }
+
+  // 3. Add category fallback if we still need more
+  if (allDistractors.length < 3 && CATEGORY_FALLBACK_DISTRACTORS[category]) {
+    const needed = 3 - allDistractors.length;
+    const fallbacks = CATEGORY_FALLBACK_DISTRACTORS[category].slice(0, needed);
+    allDistractors.push(...fallbacks);
+  }
+
+  return allDistractors;
+}
+
+// Select diverse distractors prioritizing variety of types and sources
+export function selectDiverseDistractors(distractors: Distractor[], count: number): Distractor[] {
+  if (distractors.length <= count) {
+    return distractors;
+  }
+
+  const selected: Distractor[] = [];
+  const usedTypes = new Set<DistractorType>();
+  const remaining = [...distractors];
+
+  // First pass: try to get one of each type
+  for (const distractor of remaining) {
+    if (selected.length >= count) break;
+    if (!usedTypes.has(distractor.type)) {
+      selected.push(distractor);
+      usedTypes.add(distractor.type);
+    }
+  }
+
+  // Second pass: fill remaining slots
+  for (const distractor of remaining) {
+    if (selected.length >= count) break;
+    if (!selected.includes(distractor)) {
+      selected.push(distractor);
+    }
+  }
+
+  // Shuffle to randomize order
+  return selected.sort(() => Math.random() - 0.5);
+}

@@ -198,3 +198,200 @@ export function getTranslationName(key: TranslationKey): string {
   };
   return names[key];
 }
+
+// ============================================
+// CATECHISM-SPECIFIC SIMILARITY SCORING
+// For free-response phase of Test All 107
+// ============================================
+
+// Theological key terms that are especially important in Westminster Catechism answers
+const THEOLOGICAL_KEY_TERMS = new Set([
+  // God's attributes
+  'god', 'spirit', 'infinite', 'eternal', 'unchangeable', 'being', 'wisdom', 'power',
+  'holiness', 'justice', 'goodness', 'truth', 'trinity', 'godhead', 'persons',
+  'father', 'son', 'holy', 'ghost', 'substance', 'glory',
+
+  // Redemption terms
+  'christ', 'jesus', 'lord', 'redeemer', 'savior', 'mediator', 'prophet', 'priest', 'king',
+  'redemption', 'salvation', 'atonement', 'sacrifice', 'blood', 'cross', 'death',
+  'resurrection', 'ascension', 'intercession',
+
+  // Application of redemption
+  'grace', 'faith', 'justification', 'sanctification', 'adoption', 'effectual', 'calling',
+  'repentance', 'forgiveness', 'pardon', 'righteousness', 'imputed', 'believers',
+
+  // Sin and fall
+  'sin', 'sinners', 'fall', 'transgression', 'guilt', 'corruption', 'misery',
+  'covenant', 'adam', 'disobedience', 'death',
+
+  // Law and duty
+  'law', 'commandments', 'obedience', 'duty', 'love', 'worship', 'glorify', 'enjoy',
+  'sabbath', 'honor', 'neighbor',
+
+  // Means of grace
+  'word', 'scripture', 'sacrament', 'sacraments', 'baptism', 'supper', 'prayer',
+  'ordinance', 'signs', 'seals', 'benefits',
+
+  // Important qualifiers
+  'only', 'alone', 'freely', 'forever', 'eternal', 'everlasting',
+]);
+
+// Extract theological key terms from text
+function extractKeyTerms(words: string[]): string[] {
+  return words.filter(w => THEOLOGICAL_KEY_TERMS.has(w.toLowerCase()));
+}
+
+// Calculate key term coverage (what percentage of important terms are present)
+function keyTermCoverage(userWords: string[], correctWords: string[]): number {
+  const correctKeyTerms = extractKeyTerms(correctWords);
+  if (correctKeyTerms.length === 0) return 1; // No key terms to check
+
+  const userWordSet = new Set(userWords.map(w => w.toLowerCase()));
+  const foundTerms = correctKeyTerms.filter(t => userWordSet.has(t.toLowerCase()));
+
+  return foundTerms.length / correctKeyTerms.length;
+}
+
+// Calculate phrase-level similarity (for multi-word phrases that should appear together)
+function phraseSimilarity(userText: string, correctText: string): number {
+  // Important Westminster phrases that should appear together
+  const importantPhrases = [
+    'glorify god',
+    'enjoy him forever',
+    'chief end',
+    'covenant of grace',
+    'covenant of life',
+    'effectual calling',
+    'free grace',
+    'faith alone',
+    'imputed to us',
+    'same in substance',
+    'equal in power and glory',
+    'two distinct natures',
+    'one person',
+    'more and more',
+    'die unto sin',
+    'live unto righteousness',
+    'signs and seals',
+    'worthy receivers',
+    'spiritual nourishment',
+  ];
+
+  const normalizedUser = userText.toLowerCase();
+  const normalizedCorrect = correctText.toLowerCase();
+
+  // Count phrases that should be present
+  const requiredPhrases = importantPhrases.filter(p => normalizedCorrect.includes(p));
+  if (requiredPhrases.length === 0) return 1;
+
+  const foundPhrases = requiredPhrases.filter(p => normalizedUser.includes(p));
+  return foundPhrases.length / requiredPhrases.length;
+}
+
+export interface CatechismSimilarityResult {
+  score: number;                    // 0-100 overall score
+  wordAccuracy: number;             // Percentage of correct words present
+  orderAccuracy: number;            // How well words are in correct order
+  keyTermAccuracy: number;          // Percentage of theological key terms present
+  phraseAccuracy: number;           // Important phrases preserved
+  feedback: string;                 // User-friendly feedback
+  missingKeyTerms: string[];        // Key terms that were missed
+}
+
+// Main catechism similarity function for Phase 2 free-response scoring
+export function calculateCatechismSimilarity(
+  userInput: string,
+  correctAnswer: string
+): CatechismSimilarityResult {
+  // Normalize both texts
+  const normalizedUser = normalizeText(userInput);
+  const normalizedCorrect = normalizeText(correctAnswer);
+
+  // Handle empty inputs
+  if (!normalizedUser) {
+    return {
+      score: 0,
+      wordAccuracy: 0,
+      orderAccuracy: 0,
+      keyTermAccuracy: 0,
+      phraseAccuracy: 0,
+      feedback: 'No answer provided.',
+      missingKeyTerms: extractKeyTerms(getWords(correctAnswer)),
+    };
+  }
+
+  // Exact match check
+  if (normalizedUser === normalizedCorrect) {
+    return {
+      score: 100,
+      wordAccuracy: 100,
+      orderAccuracy: 100,
+      keyTermAccuracy: 100,
+      phraseAccuracy: 100,
+      feedback: 'Perfect! Word-perfect answer!',
+      missingKeyTerms: [],
+    };
+  }
+
+  const userWords = getWords(userInput);
+  const correctWords = getWords(correctAnswer);
+
+  // 1. Word overlap (presence of correct words) - 30% weight
+  const wordSim = wordOverlap(userInput, correctAnswer);
+
+  // 2. Word order (LCS) - 25% weight
+  const orderSim = wordOrderSimilarity(userInput, correctAnswer);
+
+  // 3. Key theological terms - 25% weight
+  const keyTermSim = keyTermCoverage(userWords, correctWords);
+
+  // 4. Important phrases preserved - 20% weight
+  const phraseSim = phraseSimilarity(userInput, correctAnswer);
+
+  // Weighted combination
+  const rawScore = (wordSim * 0.30) + (orderSim * 0.25) + (keyTermSim * 0.25) + (phraseSim * 0.20);
+  const score = Math.round(rawScore * 100);
+
+  // Find missing key terms
+  const userWordSet = new Set(userWords.map(w => w.toLowerCase()));
+  const correctKeyTerms = extractKeyTerms(correctWords);
+  const missingKeyTerms = correctKeyTerms.filter(t => !userWordSet.has(t.toLowerCase()));
+
+  // Generate feedback
+  let feedback: string;
+  if (score >= 95) {
+    feedback = 'Excellent! Nearly perfect recall!';
+  } else if (score >= 85) {
+    feedback = 'Great job! You know this well.';
+  } else if (score >= 70) {
+    feedback = 'Good effort! Review the precise wording.';
+  } else if (score >= 50) {
+    feedback = 'On the right track. Focus on key theological terms.';
+  } else if (score >= 30) {
+    feedback = 'Some elements correct. Study this answer more carefully.';
+  } else {
+    feedback = 'Keep memorizing! Pay attention to the key phrases.';
+  }
+
+  // Add specific feedback about missing key terms
+  if (missingKeyTerms.length > 0 && missingKeyTerms.length <= 3) {
+    feedback += ` Missing: "${missingKeyTerms.join('", "')}"`;
+  } else if (missingKeyTerms.length > 3) {
+    feedback += ` Missing ${missingKeyTerms.length} key terms.`;
+  }
+
+  return {
+    score,
+    wordAccuracy: Math.round(wordSim * 100),
+    orderAccuracy: Math.round(orderSim * 100),
+    keyTermAccuracy: Math.round(keyTermSim * 100),
+    phraseAccuracy: Math.round(phraseSim * 100),
+    feedback,
+    missingKeyTerms,
+  };
+}
+
+// Quick catechism score (just returns score number)
+export function quickCatechismScore(userInput: string, correctAnswer: string): number {
+  return calculateCatechismSimilarity(userInput, correctAnswer).score;
+}

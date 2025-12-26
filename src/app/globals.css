@@ -28,6 +28,8 @@
   --memory: 271 91% 65%;
   --trivia: 43 96% 56%;
   --theology: 226 76% 56%;
+  --history: 24 70% 45%;     /* Warm amber/orange for Church History */
+  --bible: 174 72% 40%;      /* Teal/cyan for Bible Study */
 
   /* Score/success colors */
   --success: 142 76% 36%;
@@ -81,6 +83,8 @@
   --color-memory: hsl(var(--memory));
   --color-trivia: hsl(var(--trivia));
   --color-theology: hsl(var(--theology));
+  --color-history: hsl(var(--history));
+  --color-bible: hsl(var(--bible));
   --color-success: hsl(var(--success));
   --color-warning: hsl(var(--warning));
   --color-streak: hsl(var(--streak));
