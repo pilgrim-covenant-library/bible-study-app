@@ -8001,6 +8001,202 @@ const MARK_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// Luke - The Gospel for All People (24 chapters)
+const LUKE_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'luke',
+    chapter: 1,
+    title: 'Annunciations to Zechariah and Mary',
+    summary: 'Inasmuch as many have undertaken to compile a narrative of the things that have been accomplished among us, it seemed good to me also, having followed all things closely for some time past, to write an orderly account for you, most excellent Theophilus. In the days of Herod, king of Judea, there was a priest named Zechariah, of the division of Abijah. And he had a wife from the daughters of Aaron, and her name was Elizabeth. They were both righteous before God. And they had no child. And there appeared to him an angel of the Lord. Your wife Elizabeth will bear you a son, and you shall call his name John. And he will turn many of the children of Israel to the Lord their God. And Zechariah said, How shall I know this? For I am an old man. In the sixth month the angel Gabriel was sent to a virgin betrothed to a man whose name was Joseph. The virgin\'s name was Mary. Greetings, O favored one, the Lord is with you! You will conceive and bear a son, and you shall call his name Jesus. He will be great and will be called the Son of the Most High. My soul magnifies the Lord, and my spirit rejoices in God my Savior.',
+    keyThemes: ['Orderly account', 'John foretold', 'Virgin conception', 'Magnificat'],
+    christConnection: 'Luke carefully records how God prepared for Christ\'s coming. John will prepare the way. Jesus will be conceived by the Spirit—the Son of the Most High. Mary magnifies the Lord.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 2,
+    title: 'The Birth of Jesus',
+    summary: 'In those days a decree went out from Caesar Augustus that all the world should be registered. And Joseph also went up from Galilee, from the town of Nazareth, to Judea, to the city of David, which is called Bethlehem. And while they were there, the time came for her to give birth. And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn. And in the same region there were shepherds out in the field. And an angel of the Lord appeared to them. Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord. Glory to God in the highest, and on earth peace among those with whom he is pleased! And when the time came for their purification, they brought him up to Jerusalem. Now there was a man in Jerusalem, whose name was Simeon. Lord, now you are letting your servant depart in peace. For my eyes have seen your salvation that you have prepared in the presence of all peoples, a light for revelation to the Gentiles, and for glory to your people Israel.',
+    keyThemes: ['Born in Bethlehem', 'Good news of great joy', 'Savior Christ the Lord', 'Light to Gentiles'],
+    christConnection: 'Christ is born in David\'s city as prophesied. Angels announce good news to shepherds. Simeon sees God\'s salvation—a light for Gentiles and glory for Israel. Salvation is for all peoples.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 3,
+    title: 'John the Baptist and Jesus\' Baptism',
+    summary: 'In the fifteenth year of the reign of Tiberius Caesar, the word of God came to John the son of Zechariah in the wilderness. And he went into all the region around the Jordan, proclaiming a baptism of repentance for the forgiveness of sins. As it is written in the book of the words of Isaiah the prophet, The voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight. Every valley shall be filled, and every mountain shall be made low. And all flesh shall see the salvation of God. Bear fruits in keeping with repentance. I baptize you with water, but he who is mightier than I is coming, the strap of whose sandals I am not worthy to untie. He will baptize you with the Holy Spirit and fire. Now when all the people were baptized, and when Jesus also had been baptized and was praying, the heavens were opened, and the Holy Spirit descended on him in bodily form, like a dove; and a voice came from heaven, You are my beloved Son; with you I am well pleased. Jesus, when he began his ministry, was about thirty years of age.',
+    keyThemes: ['Prepare the way', 'All flesh see salvation', 'Baptism of Spirit and fire', 'Beloved Son'],
+    christConnection: 'John prepares the way as Isaiah prophesied. All flesh will see God\'s salvation. At Jesus\' baptism the Trinity is revealed—the Spirit descends, the Father speaks: My beloved Son.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 4,
+    title: 'Temptation and Rejection at Nazareth',
+    summary: 'And Jesus, full of the Holy Spirit, returned from the Jordan and was led by the Spirit in the wilderness for forty days, being tempted by the devil. And he ate nothing during those days. The devil said to him, If you are the Son of God, command this stone to become bread. And Jesus answered him, It is written, Man shall not live by bread alone. And the devil took him up and showed him all the kingdoms of the world. If you, then, will worship me, it will all be yours. And Jesus answered him, It is written, You shall worship the Lord your God, and him only shall you serve. And he came to Nazareth, where he had been brought up. And he stood up to read. The scroll of the prophet Isaiah was given to him. The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor. He has sent me to proclaim liberty to the captives. And he rolled up the scroll and said, Today this Scripture has been fulfilled in your hearing. And all spoke well of him. But he said, No prophet is acceptable in his hometown. And they rose up and drove him out of the town.',
+    keyThemes: ['Led by Spirit', 'Scripture defeats Satan', 'Anointed to preach', 'Rejected at Nazareth'],
+    christConnection: 'Christ is led by the Spirit and defeats Satan with Scripture. He is the Anointed One who fulfills Isaiah\'s prophecy—bringing good news, liberty, and recovery. Even rejected, He continues His mission.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 5,
+    title: 'Calling Disciples and Healing',
+    summary: 'On one occasion, while the crowd was pressing in on him to hear the word of God, he was standing by the lake of Gennesaret. And he saw two boats by the lake. Getting into one of the boats, which was Simon\'s, he asked him to put out a little from the land. And he said to Simon, Put out into the deep and let down your nets for a catch. Simon answered, Master, we toiled all night and took nothing! But at your word I will let down the nets. And when they had done this, they enclosed a large number of fish. And when Simon Peter saw it, he fell down at Jesus\' knees, saying, Depart from me, for I am a sinful man, O Lord. And Jesus said to Simon, Do not be afraid; from now on you will be catching men. And they left everything and followed him. And behold, there came a man full of leprosy. And Jesus stretched out his hand and touched him, saying, I will; be clean. And immediately the leprosy left him. And behold, some men were bringing on a bed a man who was paralyzed. Son, your sins are forgiven you. That you may know that the Son of Man has authority on earth to forgive sins—he said to the man who was paralyzed—Rise, pick up your bed and go home.',
+    keyThemes: ['Miraculous catch', 'Catching men', 'Touching leper', 'Authority to forgive'],
+    christConnection: 'At Christ\'s word, nets fill with fish. Peter sees his sin; Jesus calls him to catch men. Christ touches lepers and forgives sins—authority that belongs to God alone.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 6,
+    title: 'Sermon on the Plain',
+    summary: 'On a Sabbath, while he was going through the grainfields, his disciples plucked and ate some heads of grain. But some of the Pharisees said, Why are you doing what is not lawful to do on the Sabbath? And Jesus answered them, The Son of Man is lord of the Sabbath. And he called to him his disciples and chose from them twelve, whom he named apostles. And he came down with them and stood on a level place, with a great crowd of his disciples. And he lifted up his eyes on his disciples, and said: Blessed are you who are poor, for yours is the kingdom of God. Blessed are you who hunger now, for you shall be satisfied. But woe to you who are rich, for you have received your consolation. But I say to you who hear, Love your enemies, do good to those who hate you, bless those who curse you, pray for those who abuse you. To one who strikes you on the cheek, offer the other also. Be merciful, even as your Father is merciful. Judge not, and you will not be judged. Why do you see the speck that is in your brother\'s eye, but do not notice the log that is in your own eye? A good tree does not bear bad fruit, nor again does a bad tree bear good fruit.',
+    keyThemes: ['Lord of Sabbath', 'Twelve chosen', 'Blessings and woes', 'Love enemies'],
+    christConnection: 'Christ is Lord of the Sabbath. He chooses twelve apostles. He teaches kingdom ethics: blessings on the poor, love for enemies, mercy like the Father\'s. The heart produces fruit.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 7,
+    title: 'Faith of the Centurion and Raising the Widow\'s Son',
+    summary: 'After he had finished all his sayings in the hearing of the people, he entered Capernaum. Now a centurion had a servant who was sick and at the point of death, who was highly valued by him. When the centurion heard about Jesus, he sent to him elders of the Jews, asking him to come and heal his servant. And Jesus went with them. When he was not far from the house, the centurion sent friends, saying, Lord, do not trouble yourself, for I am not worthy to have you come under my roof. But say the word, and let my servant be healed. For I too am a man set under authority. When Jesus heard these things, he marveled at him, and said, I tell you, not even in Israel have I found such faith. Soon afterward he went to a town called Nain, and a man who had died was being carried out, the only son of his mother, and she was a widow. And the Lord had compassion on her and said, Young man, I say to you, arise. And the dead man sat up and began to speak. And he gave him to his mother. Fear seized them all, and they glorified God, saying, A great prophet has arisen among us! And God has visited his people!',
+    keyThemes: ['Centurion\'s faith', 'Say the word', 'Widow\'s son raised', 'God has visited'],
+    christConnection: 'A Gentile centurion has greater faith than Israel. Christ\'s word heals from a distance. He raises the widow\'s son from death—God has visited His people in Jesus.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 8,
+    title: 'Parables and Power Over Nature, Demons, Disease, and Death',
+    summary: 'Soon afterward he went on through cities and villages, proclaiming and bringing the good news of the kingdom of God. And the twelve were with him, and also some women who had been healed of evil spirits and infirmities. And when a great crowd was gathering, he said in a parable: A sower went out to sow his seed. As for the seed, it is the word of God. As for that in the good soil, they are those who, hearing the word, hold it fast in an honest and good heart, and bear fruit with patience. Take care then how you hear. One day he got into a boat with his disciples, and he said, Let us go across to the other side. And a windstorm came down on the lake. And he awoke and rebuked the wind and the raging waves, and they ceased. He said to them, Where is your faith? And they came to the country of the Gerasenes. And there met him a man from the city who had demons. My name is Legion. And Jesus gave them permission to enter the pigs. And there came a man named Jairus, a ruler of the synagogue. And his only daughter was dying. And a woman who had a discharge of blood for twelve years touched the fringe of his garment and was healed. Child, arise. And her spirit returned, and she got up at once.',
+    keyThemes: ['Word is seed', 'Where is your faith', 'Legion cast out', 'Daughter arise'],
+    christConnection: 'Christ sows the word; good hearts bear fruit. He calms storms—even wind and waves obey Him. He casts out Legion, heals the bleeding woman, and raises Jairus\' daughter. Nothing is impossible.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 9,
+    title: 'Sending the Twelve and the Transfiguration',
+    summary: 'And he called the twelve together and gave them power and authority over all demons and to cure diseases, and he sent them out to proclaim the kingdom of God and to heal. Now Herod the tetrarch heard about all that was happening, and he was perplexed. And when the apostles returned, they told him all that they had done. Now about five thousand men were there. And taking the five loaves and the two fish, he looked up to heaven and said a blessing over them. Then he broke the loaves and gave them to the disciples. And they all ate and were satisfied. And Peter answered, The Christ of God. But he strictly charged and commanded them to tell this to no one, saying, The Son of Man must suffer many things and be rejected by the elders and chief priests and scribes, and be killed, and on the third day be raised. If anyone would come after me, let him deny himself and take up his cross daily and follow me. Now about eight days after these sayings he took with him Peter and John and James and went up on the mountain to pray. And as he was praying, the appearance of his face was altered, and his clothing became dazzling white. And behold, two men were talking with him, Moses and Elijah. This is my Son, my Chosen One; listen to him!',
+    keyThemes: ['Twelve sent out', 'Five thousand fed', 'Take up cross daily', 'Transfiguration'],
+    christConnection: 'Christ empowers the twelve, feeds thousands, and is confessed as the Christ. He predicts His death and resurrection. On the mountain His glory shines, and the Father commands: Listen to Him!'
+  },
+  {
+    bookId: 'luke',
+    chapter: 10,
+    title: 'The Seventy-Two and the Good Samaritan',
+    summary: 'After this the Lord appointed seventy-two others and sent them on ahead of him, two by two, into every town and place where he himself was about to go. The harvest is plentiful, but the laborers are few. Therefore pray earnestly to the Lord of the harvest to send out laborers into his harvest. The one who hears you hears me, and the one who rejects you rejects me. The seventy-two returned with joy, saying, Lord, even the demons are subject to us in your name! And he said to them, I saw Satan fall like lightning from heaven. Do not rejoice in this, that the spirits are subject to you, but rejoice that your names are written in heaven. And behold, a lawyer stood up to put him to the test, saying, Teacher, what shall I do to inherit eternal life? And he said, You shall love the Lord your God with all your heart, and with all your soul, and with all your strength, and with all your mind, and your neighbor as yourself. And who is my neighbor? A man was going down from Jerusalem to Jericho, and he fell among robbers. And a Samaritan had compassion. Go, and do likewise. And she had a sister called Mary, who sat at the Lord\'s feet and listened to his teaching. Mary has chosen the good portion.',
+    keyThemes: ['Harvest plentiful', 'Names in heaven', 'Good Samaritan', 'Mary chose good portion'],
+    christConnection: 'Christ sends laborers into the harvest. He reveals that names written in heaven matter most. The Good Samaritan shows mercy; Christ is the true neighbor who shows compassion. Mary chooses what is best—His word.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 11,
+    title: 'Teaching on Prayer and Warnings',
+    summary: 'Now Jesus was praying in a certain place, and when he finished, one of his disciples said to him, Lord, teach us to pray. And he said to them, When you pray, say: Father, hallowed be your name. Your kingdom come. Give us each day our daily bread, and forgive us our sins, for we ourselves forgive everyone who is indebted to us. And lead us not into temptation. And he said to them, Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. If you then, who are evil, know how to give good gifts to your children, how much more will the heavenly Father give the Holy Spirit to those who ask him! Now he was casting out a demon that was mute. And some of them said, He casts out demons by Beelzebul, the prince of demons. Every kingdom divided against itself is laid waste. When a strong man, fully armed, guards his own palace, his goods are safe. But when one stronger than he attacks him, he takes away his armor. The Pharisees began to press him hard. Woe to you Pharisees! For you tithe mint and rue and every herb, and neglect justice and the love of God. Woe to you lawyers! For you have taken away the key of knowledge.',
+    keyThemes: ['Lord\'s Prayer', 'Ask seek knock', 'Stronger than strong man', 'Woes to Pharisees'],
+    christConnection: 'Christ teaches us to pray to the Father. He promises the Spirit to those who ask. He is the One stronger than Satan who plunders his house. He warns against external religion that neglects justice and love.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 12,
+    title: 'Warnings and Encouragements',
+    summary: 'In the meantime, when so many thousands of the people had gathered together that they were trampling one another, he began to say to his disciples first, Beware of the leaven of the Pharisees, which is hypocrisy. Nothing is covered up that will not be revealed. And I tell you, everyone who acknowledges me before men, the Son of Man also will acknowledge before the angels of God. But the one who denies me before men will be denied before the angels of God. When they bring you before the synagogues and the rulers and the authorities, do not be anxious how you should defend yourself. For the Holy Spirit will teach you in that very hour what you ought to say. And he said to them, Take care, and be on your guard against all covetousness, for one\'s life does not consist in the abundance of his possessions. The land of a rich man produced plentifully. Soul, you have ample goods laid up for many years. But God said to him, Fool! This night your soul is required of you. Do not be anxious about your life. Consider the ravens: they neither sow nor reap. Fear not, little flock, for it is your Father\'s good pleasure to give you the kingdom. Stay dressed for action and keep your lamps burning.',
+    keyThemes: ['Beware hypocrisy', 'Acknowledge me', 'Rich fool', 'Fear not little flock'],
+    christConnection: 'Christ warns against hypocrisy and covetousness. He will acknowledge those who acknowledge Him. Life is not in possessions but in God. Fear not—the Father delights to give the kingdom.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 13,
+    title: 'Repentance and the Narrow Door',
+    summary: 'There were some present at that very time who told him about the Galileans whose blood Pilate had mingled with their sacrifices. And he answered them, Do you think that these Galileans were worse sinners than all the other Galileans, because they suffered in this way? No, I tell you; but unless you repent, you will all likewise perish. A man had a fig tree planted in his vineyard, and he came seeking fruit on it and found none. And he said to the vinedresser, Cut it down. Why should it use up the ground? And he answered him, Sir, let it alone this year also, until I dig around it and put on manure. Then if it should bear fruit next year, well and good; but if not, you can cut it down. And he was teaching in one of the synagogues on the Sabbath. And a woman was there who for eighteen years had a spirit that had crippled her. Woman, you are freed from your disability. And someone said to him, Lord, will those who are saved be few? Strive to enter through the narrow door. For many, I tell you, will seek to enter and will not be able. O Jerusalem, Jerusalem, the city that kills the prophets! How often would I have gathered your children together as a hen gathers her brood under her wings, and you were not willing!',
+    keyThemes: ['Unless you repent', 'Barren fig tree', 'Narrow door', 'Lament over Jerusalem'],
+    christConnection: 'Christ calls all to repentance. The barren fig tree pictures Israel given time to bear fruit. He frees the crippled woman on the Sabbath. Salvation is through the narrow door. He longs to gather Jerusalem.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 14,
+    title: 'Parables of the Banquet and Counting the Cost',
+    summary: 'One Sabbath, when he went to dine at the house of a ruler of the Pharisees, they were watching him carefully. And behold, there was a man before him who had dropsy. And Jesus spoke to the lawyers and Pharisees, saying, Is it lawful to heal on the Sabbath, or not? But they remained silent. Then he took him and healed him and sent him away. Now he told a parable to those who were invited, when he noticed how they chose the places of honor. When you are invited, go and sit in the lowest place. For everyone who exalts himself will be humbled, and he who humbles himself will be exalted. When you give a feast, invite the poor, the crippled, the lame, the blind. A man once gave a great banquet and invited many. But they all alike began to make excuses. Go out quickly to the streets and lanes of the city, and bring in the poor and crippled and blind and lame. Go out to the highways and hedges and compel people to come in, that my house may be filled. If anyone comes to me and does not hate his own father and mother and wife and children and brothers and sisters, yes, and even his own life, he cannot be my disciple. Whoever does not bear his own cross and come after me cannot be my disciple.',
+    keyThemes: ['Humble yourself', 'Great banquet', 'Compel them to come', 'Count the cost'],
+    christConnection: 'Christ teaches humility; the humble will be exalted. The great banquet represents God\'s kingdom—those invited make excuses, so the poor and outsiders fill the house. Following Christ costs everything.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 15,
+    title: 'Parables of the Lost',
+    summary: 'Now the tax collectors and sinners were all drawing near to hear him. And the Pharisees and the scribes grumbled, saying, This man receives sinners and eats with them. So he told them this parable: What man of you, having a hundred sheep, if he has lost one of them, does not leave the ninety-nine in the open country, and go after the one that is lost, until he finds it? And when he has found it, he lays it on his shoulders, rejoicing. Just so, I tell you, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance. Or what woman, having ten silver coins, if she loses one coin, does not light a lamp and search carefully until she finds it? And he said, There was a man who had two sons. And the younger of them said to his father, Father, give me the share of property that is coming to me. But when he came to himself, he said, I will arise and go to my father. But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him and kissed him. And the father said to his servants, Bring quickly the best robe, and put it on him. For this my son was dead, and is alive again; he was lost, and is found.',
+    keyThemes: ['Lost sheep', 'Lost coin', 'Prodigal son', 'Joy over one who repents'],
+    christConnection: 'Christ seeks and saves the lost. He is the shepherd who leaves the ninety-nine to find one sheep. The Father runs to embrace the returning prodigal. Heaven rejoices over each repenting sinner.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 16,
+    title: 'The Shrewd Manager and the Rich Man and Lazarus',
+    summary: 'He also said to the disciples, There was a rich man who had a manager, and charges were brought to him that this man was wasting his possessions. And he called him and said, What is this that I hear about you? Turn in the account of your management. And the manager said to himself, What shall I do? I am not strong enough to dig, and I am ashamed to beg. I have decided what to do. So, summoning his master\'s debtors one by one, he said to the first, How much do you owe my master? He said, Take your bill, and sit down quickly and write fifty. The master commended the dishonest manager for his shrewdness. For the sons of this world are more shrewd in dealing with their own generation than the sons of light. One who is faithful in a very little is also faithful in much. No servant can serve two masters. You cannot serve God and money. The Pharisees, who were lovers of money, heard all these things, and they ridiculed him. There was a rich man who was clothed in purple and fine linen. And at his gate was laid a poor man named Lazarus, covered with sores. The poor man died and was carried by the angels to Abraham\'s side. The rich man also died and was buried. And in Hades, being in torment, he lifted up his eyes. They have Moses and the Prophets; let them hear them.',
+    keyThemes: ['Shrewd manager', 'Cannot serve two masters', 'Rich man and Lazarus', 'Moses and Prophets'],
+    christConnection: 'Christ warns about the danger of wealth. We cannot serve God and money. The rich man ignored Lazarus and Scripture. Moses and the Prophets point to Christ—if they won\'t hear them, they won\'t believe.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 17,
+    title: 'Faith, Duty, and the Coming Kingdom',
+    summary: 'And he said to his disciples, Temptations to sin are sure to come, but woe to the one through whom they come! Pay attention to yourselves! If your brother sins, rebuke him, and if he repents, forgive him, and if he sins against you seven times in the day, and turns to you seven times, saying, I repent, you must forgive him. The apostles said to the Lord, Increase our faith! And the Lord said, If you had faith like a grain of mustard seed, you could say to this mulberry tree, Be uprooted and planted in the sea, and it would obey you. Will any one of you who has a servant plowing or keeping sheep say to him when he has come in from the field, Come at once and recline at table? We are unworthy servants; we have only done what was our duty. On the way to Jerusalem he was passing along between Samaria and Galilee. And he entered a village. And as he entered, he was met by ten lepers. And one of them, when he saw that he was healed, turned back, praising God. Were not ten cleansed? Where are the nine? Being asked by the Pharisees when the kingdom of God would come, he answered, The kingdom of God is not coming in ways that can be observed. The kingdom of God is in the midst of you.',
+    keyThemes: ['Forgive repeatedly', 'Mustard seed faith', 'Unworthy servants', 'Kingdom in your midst'],
+    christConnection: 'Christ teaches unlimited forgiveness and mustard-seed faith. We are unworthy servants doing our duty. The grateful Samaritan returns. The kingdom is in the midst of them—Christ Himself brings God\'s reign.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 18,
+    title: 'Persistent Prayer and Childlike Faith',
+    summary: 'And he told them a parable to the effect that they ought always to pray and not lose heart. He said, In a certain city there was a judge who neither feared God nor respected man. And there was a widow in that city who kept coming to him and saying, Give me justice against my adversary. And will not God give justice to his elect, who cry to him day and night? I tell you, he will give justice to them speedily. Two men went up into the temple to pray, one a Pharisee and the other a tax collector. The Pharisee, standing by himself, prayed thus: God, I thank you that I am not like other men. But the tax collector, standing far off, would not even lift up his eyes to heaven, but beat his breast, saying, God, be merciful to me, a sinner! I tell you, this man went down to his house justified. Now they were bringing even infants to him that he might touch them. Let the children come to me, and do not hinder them, for to such belongs the kingdom of God. And a ruler asked him, Good Teacher, what must I do to inherit eternal life? Sell all that you have and distribute to the poor. And he became very sad, for he was extremely rich. Then he said, Behold, we are going up to Jerusalem, and everything that is written about the Son of Man by the prophets will be accomplished.',
+    keyThemes: ['Persistent widow', 'Pharisee and tax collector', 'Like children', 'Rich ruler'],
+    christConnection: 'Christ teaches persistent prayer; God answers His elect. The humble tax collector is justified, not the proud Pharisee. The kingdom belongs to those with childlike faith. Christ goes to fulfill all prophecy.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 19,
+    title: 'Zacchaeus, the Minas, and the Triumphal Entry',
+    summary: 'He entered Jericho and was passing through. And behold, there was a man named Zacchaeus. He was a chief tax collector and was rich. And he was seeking to see who Jesus was. And he ran on ahead and climbed up into a sycamore tree to see him. And when Jesus came to the place, he looked up and said, Zacchaeus, hurry and come down, for I must stay at your house today. And Zacchaeus stood and said to the Lord, Behold, Lord, the half of my goods I give to the poor. And Jesus said to him, Today salvation has come to this house. For the Son of Man came to seek and to save the lost. And he said, A nobleman went into a far country to receive for himself a kingdom and then return. Calling ten of his servants, he gave them ten minas. Well done, good servant! Because you have been faithful in a very little, you shall have authority over ten cities. And when he drew near to Bethphage and Bethany, at the mount called Olivet, he sent two of the disciples. Go into the village. You will find a colt tied. And as he was drawing near, the whole multitude of his disciples began to rejoice. Blessed is the King who comes in the name of the Lord! And when he drew near and saw the city, he wept over it. And he entered the temple and began to drive out those who sold.',
+    keyThemes: ['Seek and save lost', 'Faithful with minas', 'Blessed is the King', 'Wept over Jerusalem'],
+    christConnection: 'Christ seeks and saves the lost like Zacchaeus. He gives minas; faithful servants are rewarded. He enters Jerusalem as King, weeping over the city that will reject Him. He cleanses the temple.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 20,
+    title: 'Authority Challenged and the Wicked Tenants',
+    summary: 'One day, as Jesus was teaching the people in the temple, the chief priests and the scribes with the elders came up and said to him, Tell us by what authority you do these things. He answered them, I also will ask you a question. Now tell me, was the baptism of John from heaven or from man? And they discussed it with one another. If we say, From heaven, he will say, Why did you not believe him? But if we say, From man, all the people will stone us. So they answered that they did not know where it came from. And he told this parable: A man planted a vineyard and let it out to tenants. He sent a servant to the tenants. But the tenants beat him. And he sent another servant. And they beat him also. And the owner of the vineyard said, I will send my beloved son; perhaps they will respect him. But when the tenants saw him, they said, This is the heir. Let us kill him. The stone that the builders rejected has become the cornerstone. Then they asked him, Teacher, is it lawful for us to give tribute to Caesar, or not? Show me a denarius. Render to Caesar the things that are Caesar\'s, and to God the things that are God\'s.',
+    keyThemes: ['By what authority', 'Wicked tenants', 'Rejected cornerstone', 'Render to Caesar'],
+    christConnection: 'Christ has authority from heaven. The tenants kill the beloved son—Christ Himself. Though rejected by the builders, He becomes the cornerstone. All authority belongs to Him.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 21,
+    title: 'Signs of the End',
+    summary: 'Jesus looked up and saw the rich putting their gifts into the offering box, and he saw a poor widow put in two small copper coins. And he said, Truly, I tell you, this poor widow has put in more than all of them. For they all contributed out of their abundance, but she out of her poverty put in all she had to live on. And while some were speaking of the temple, how it was adorned with noble stones and offerings, he said, As for these things that you see, the days will come when there will not be left here one stone upon another. And they asked him, Teacher, when will these things be, and what will be the sign when these things are about to take place? And he said, See that you are not led astray. For many will come in my name. But before all this they will lay their hands on you and persecute you. It will be your opportunity to bear witness. Settle it therefore in your minds not to meditate beforehand how to answer, for I will give you a mouth and wisdom. When you see Jerusalem surrounded by armies, then know that its desolation has come near. And there will be signs in sun and moon and stars. And then they will see the Son of Man coming in a cloud with power and great glory. Heaven and earth will pass away, but my words will not pass away.',
+    keyThemes: ['Widow\'s offering', 'Temple destroyed', 'Persecute and witness', 'My words remain'],
+    christConnection: 'Christ commends the widow\'s total giving. He prophesies Jerusalem\'s destruction and His return in glory. Heaven and earth pass away, but His words endure forever.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 22,
+    title: 'The Last Supper and Gethsemane',
+    summary: 'Now the Feast of Unleavened Bread drew near, which is called the Passover. And the chief priests and the scribes were seeking how to put him to death. Then Satan entered into Judas called Iscariot. And he went away and conferred with the chief priests and officers how he might betray him. And he took bread, and when he had given thanks, he broke it and gave it to them, saying, This is my body, which is given for you. Do this in remembrance of me. And likewise the cup after they had eaten, saying, This cup that is poured out for you is the new covenant in my blood. And a dispute arose among them, as to which of them was to be regarded as the greatest. But I am among you as the one who serves. Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And he came out and went, as was his custom, to the Mount of Olives. And he withdrew from them about a stone\'s throw, and knelt down and prayed, saying, Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done. And there appeared to him an angel from heaven, strengthening him. And being in agony he prayed more earnestly; and his sweat became like great drops of blood falling down to the ground.',
+    keyThemes: ['New covenant in blood', 'One who serves', 'Prayed for your faith', 'Not my will but yours'],
+    christConnection: 'Christ institutes the new covenant in His blood. He is among us as the one who serves. He prays for Peter\'s faith. In Gethsemane, He submits to the Father\'s will, embracing the cross.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 23,
+    title: 'Trial, Crucifixion, and Burial',
+    summary: 'Then the whole company of them arose and brought him before Pilate. And they began to accuse him, saying, We found this man misleading our nation and forbidding us to give tribute to Caesar, and saying that he himself is Christ, a king. And Pilate asked him, Are you the King of the Jews? And he answered him, You have said so. When Pilate heard this, he asked whether the man was a Galilean. And when he learned that he belonged to Herod\'s jurisdiction, he sent him over to Herod. But Pilate said to them, I did not find this man guilty. Neither did Herod. Behold, nothing deserving death has been done by him. But they were urgent, demanding with loud cries that he should be crucified. And their voices prevailed. And as they led him away, they seized one Simon of Cyrene and laid on him the cross. And when they came to the place that is called The Skull, there they crucified him, and the criminals, one on his right and one on his left. And Jesus said, Father, forgive them, for they know not what they do. And one of the criminals said, Jesus, remember me when you come into your kingdom. And he said to him, Truly, I say to you, today you will be with me in paradise. It was now about the sixth hour, and there was darkness over the whole land. And Jesus, calling out with a loud voice, said, Father, into your hands I commit my spirit!',
+    keyThemes: ['Father forgive them', 'Today in paradise', 'Darkness over land', 'Into your hands'],
+    christConnection: 'Christ the King is crucified though innocent. He prays for His enemies\' forgiveness. He promises paradise to the repentant criminal. He commits His spirit to the Father and dies for sinners.'
+  },
+  {
+    bookId: 'luke',
+    chapter: 24,
+    title: 'The Resurrection and Ascension',
+    summary: 'But on the first day of the week, at early dawn, they went to the tomb, taking the spices they had prepared. And they found the stone rolled away from the tomb, but when they went in they did not find the body of the Lord Jesus. While they were perplexed about this, behold, two men stood by them in dazzling apparel. Why do you seek the living among the dead? He is not here, but has risen. Remember how he told you, while he was still in Galilee, that the Son of Man must be delivered into the hands of sinful men and be crucified and on the third day rise. That very day two of them were going to a village named Emmaus. And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the things concerning himself. And their eyes were opened, and they recognized him. And as he blessed them, he parted from them and was carried up into heaven. And they worshiped him and returned to Jerusalem with great joy. And he said to them, Thus it is written, that the Christ should suffer and on the third day rise from the dead, and that repentance for the forgiveness of sins should be proclaimed in his name to all nations, beginning from Jerusalem. You are witnesses of these things. And I am sending the promise of my Father upon you. Stay in the city until you are clothed with power from on high.',
+    keyThemes: ['He is risen', 'All Scriptures concerning himself', 'Repentance to all nations', 'Clothed with power'],
+    christConnection: 'Christ is risen! He opens the Scriptures showing how all points to Him. Repentance and forgiveness are to be proclaimed to all nations. He ascends and sends the Spirit\'s power.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -8086,6 +8282,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return MATTHEW_CHAPTERS;
     case 'mark':
       return MARK_CHAPTERS;
+    case 'luke':
+      return LUKE_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -8136,4 +8334,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   // New Testament
   { bookId: 'matthew', bookName: 'Matthew', chapters: MATTHEW_CHAPTERS },
   { bookId: 'mark', bookName: 'Mark', chapters: MARK_CHAPTERS },
+  { bookId: 'luke', bookName: 'Luke', chapters: LUKE_CHAPTERS },
 ];
