@@ -6517,6 +6517,538 @@ export const JEREMIAH_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// Lamentations - 5 chapters
+export const LAMENTATIONS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'lamentations',
+    chapter: 1,
+    title: 'Jerusalem\'s Desolation',
+    summary: 'How lonely sits the city that was full of people! How like a widow has she become, she who was great among the nations! She who was a princess among the provinces has become a slave. She weeps bitterly in the night, with tears on her cheeks; among all her lovers she has none to comfort her. All her friends have dealt treacherously with her; they have become her enemies. Judah has gone into exile because of affliction and hard servitude. She dwells now among the nations but finds no resting place. All who honored her despise her, for they have seen her nakedness; she herself groans and turns away. Her uncleanness was in her skirts; she took no thought of her future. Jerusalem remembers in the days of her affliction all the precious things that were hers from days of old. Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the LORD inflicted on the day of His fierce anger. The LORD is in the right, for I have rebelled against His word.',
+    keyThemes: ['Lonely city', 'Weeping widow', 'No comforter', 'LORD is righteous'],
+    christConnection: 'Christ experienced the ultimate sorrow—"Is it nothing to you?" He was forsaken that we might never be. He is the true comforter for the afflicted.'
+  },
+  {
+    bookId: 'lamentations',
+    chapter: 2,
+    title: 'The LORD\'s Anger',
+    summary: 'How the Lord in His anger has set the daughter of Zion under a cloud! He has cast down from heaven to earth the splendor of Israel. He has not remembered His footstool in the day of His anger. The Lord has swallowed up without mercy all the habitations of Jacob. In His wrath He has broken down the strongholds of the daughter of Judah. He has brought them down to the ground in dishonor. He has cut down in fierce anger all the might of Israel. He has withdrawn His right hand from before the enemy. He has burned like a flaming fire in Jacob, consuming all around. The Lord has become like an enemy; He has swallowed up Israel. Her gates have sunk into the ground; He has ruined and broken her bars. Her king and princes are among the nations; the law is no more. Her prophets find no vision from the LORD. The elders of the daughter of Zion sit on the ground in silence. My eyes are spent with weeping; my stomach churns. What can I say for you? Who can heal you? Your prophets have seen for you false and deceptive visions.',
+    keyThemes: ['God as enemy', 'No vision from LORD', 'False prophets failed', 'Weeping witness'],
+    christConnection: 'God\'s wrath fell fully on Christ at Calvary. He experienced the hiding of God\'s face so we might see God\'s face in mercy forever.'
+  },
+  {
+    bookId: 'lamentations',
+    chapter: 3,
+    title: 'Hope in the LORD\'s Mercy',
+    summary: 'I am the man who has seen affliction under the rod of His wrath. He has driven and brought me into darkness without any light. He has made my flesh and my skin waste away; He has broken my bones. He has besieged and enveloped me with bitterness and tribulation. He has made me dwell in darkness like the dead of long ago. He has walled me about so that I cannot escape. Though I call and cry for help, He shuts out my prayer. My soul is bereft of peace; I have forgotten what happiness is. But this I call to mind, and therefore I have hope: The steadfast love of the LORD never ceases; His mercies never come to an end; they are new every morning; great is Your faithfulness. The LORD is my portion, says my soul, therefore I will hope in Him. The LORD is good to those who wait for Him, to the soul who seeks Him. It is good that one should wait quietly for the salvation of the LORD. Let us test and examine our ways, and return to the LORD! Let us lift up our hearts and hands to God in heaven.',
+    keyThemes: ['Affliction described', 'Mercies new every morning', 'Great faithfulness', 'Wait for LORD'],
+    christConnection: 'Even in darkest suffering, hope remains because of God\'s steadfast love. Christ endured the rod of wrath so that mercies might be new every morning for us.'
+  },
+  {
+    bookId: 'lamentations',
+    chapter: 4,
+    title: 'The Horrors of the Siege',
+    summary: 'How the gold has grown dim, how the pure gold is changed! The holy stones lie scattered at the head of every street. The precious sons of Zion, worth their weight in fine gold—how they are regarded as earthen pots, the work of a potter\'s hands! Even jackals offer the breast; they nurse their young. But the daughter of my people has become cruel, like the ostriches in the wilderness. The tongue of the nursing infant sticks to the roof of its mouth for thirst; the children beg for food, but no one gives to them. Those who once feasted on delicacies perish in the streets; those who were brought up in purple embrace ash heaps. The punishment of the daughter of my people is greater than the punishment of Sodom, which was overthrown in a moment. Her princes were purer than snow, whiter than milk. Now their face is blacker than soot; they are not recognized in the streets. Happier were the victims of the sword than the victims of hunger. The hands of compassionate women have boiled their own children. The LORD gave full vent to His wrath.',
+    keyThemes: ['Gold grown dim', 'Children starving', 'Worse than Sodom', 'Full wrath'],
+    christConnection: 'The horrors of siege picture sin\'s devastation. Christ entered this broken world and bore its full curse to bring restoration and life.'
+  },
+  {
+    bookId: 'lamentations',
+    chapter: 5,
+    title: 'A Prayer for Restoration',
+    summary: 'Remember, O LORD, what has befallen us; look, and see our disgrace! Our inheritance has been turned over to strangers, our homes to foreigners. We have become orphans, fatherless; our mothers are like widows. We must pay for the water we drink; the wood we get must be bought. Our pursuers are at our necks; we are weary and find no rest. We have given the hand to Egypt, and to Assyria, to get bread enough. Our fathers sinned, and are no more; and we bear their iniquities. Slaves rule over us; there is none to deliver us from their hand. We get our bread at the peril of our lives, because of the sword in the wilderness. Women are raped in Zion, young women in the towns of Judah. Princes are hung up by their hands; no respect is shown to the elders. The joy of our hearts has ceased; our dancing has been turned to mourning. The crown has fallen from our head. Woe to us, for we have sinned! But You, O LORD, reign forever; Your throne endures to all generations. Why do You forget us forever? Restore us to Yourself, O LORD, that we may be restored! Renew our days as of old.',
+    keyThemes: ['Remember our disgrace', 'Bearing fathers\' sins', 'Crown fallen', 'Restore us O LORD'],
+    christConnection: 'The prayer for restoration is answered in Christ. He who reigns forever restores us to Himself. Our dancing is turned from mourning to joy in Him.'
+  }
+];
+
+// Ezekiel - 48 chapters
+export const EZEKIEL_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'ezekiel',
+    chapter: 1,
+    title: 'The Vision of the Living Creatures',
+    summary: 'In the thirtieth year, in the fourth month, on the fifth day, as I was among the exiles by the Chebar canal, the heavens were opened, and I saw visions of God. It was the fifth year of the exile of King Jehoiachin. The word of the LORD came to Ezekiel the priest, and the hand of the LORD was upon him there. As I looked, behold, a stormy wind came out of the north, and a great cloud with brightness around it, and fire flashing forth continually. And from its midst came the likeness of four living creatures. Each had four faces and four wings. Their legs were straight, and the soles of their feet were like the sole of a calf\'s foot. Under their wings on their four sides they had human hands. Their faces were human, lion, ox, and eagle. Their wings touched one another; they went straight forward without turning. In their midst was something like burning coals of fire. The living creatures darted to and fro, like the appearance of a flash of lightning. Beside each living creature was a wheel. The spirit of the living creatures was in the wheels.',
+    keyThemes: ['Heavens opened', 'Four living creatures', 'Wheels within wheels', 'Glory of LORD'],
+    christConnection: 'The four faces—human, lion, ox, eagle—represent aspects of Christ: incarnate humanity, royal power, sacrificial service, and divine transcendence.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 2,
+    title: 'Ezekiel\'s Commission',
+    summary: 'And He said to me: Son of man, stand on your feet, and I will speak with you. And as He spoke to me, the Spirit entered into me and set me on my feet, and I heard Him speaking to me. He said: Son of man, I send you to the people of Israel, to nations of rebels who have rebelled against Me. They and their fathers have transgressed against Me to this very day. The descendants also are impudent and stubborn. I send you to them, and you shall say to them: Thus says the Lord GOD. And whether they hear or refuse to hear—for they are a rebellious house—they will know that a prophet has been among them. And you, son of man, be not afraid of them, nor be afraid of their words, though briers and thorns are with you and you sit on scorpions. Be not afraid of their words, nor be dismayed at their looks. You shall speak My words to them, whether they hear or refuse to hear. But you, son of man, hear what I say to you. Open your mouth and eat what I give you. And when I looked, behold, a hand was stretched out to me, holding a scroll.',
+    keyThemes: ['Son of man', 'Spirit enters', 'Sent to rebels', 'Do not fear'],
+    christConnection: 'Christ is the ultimate "Son of Man" sent to rebellious humanity. He speaks the Father\'s words regardless of reception, and the Spirit empowers His messengers.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 3,
+    title: 'Ezekiel as Watchman',
+    summary: 'He said to me: Son of man, eat what is before you; eat this scroll, then go speak to the house of Israel. So I opened my mouth, and He gave me the scroll to eat. He said: Son of man, feed your belly with this scroll that I give you and fill your stomach with it. Then I ate it, and it was in my mouth as sweet as honey. He said to me: Son of man, go to the house of Israel and speak My words to them. You are not sent to a people of foreign speech and a hard language, but to the house of Israel—not to many peoples of foreign speech whose words you cannot understand. Surely, if I sent you to such, they would listen to you. But the house of Israel will not be willing to listen to you, for they are not willing to listen to Me. All of them are hardhearted and stubborn. I have made your face as hard as their faces, and your forehead as hard as their foreheads. Fear them not. I came to the exiles at Tel-abib. I sat stunned among them seven days. The LORD said: Son of man, I have made you a watchman for the house of Israel. Whenever you hear a word from My mouth, you shall give them warning from Me.',
+    keyThemes: ['Eat the scroll', 'Sweet as honey', 'Hard foreheads', 'Watchman appointed'],
+    christConnection: 'Christ is the faithful Watchman who warns of coming judgment. His words are sweeter than honey to those who receive them in faith.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 4,
+    title: 'The Siege of Jerusalem Portrayed',
+    summary: 'And you, son of man, take a brick and lay it before you, and engrave on it a city, even Jerusalem. Put siegeworks against it, build a siege wall against it, cast up a mound against it, set camps against it, and plant battering rams against it all around. Take an iron griddle and place it as an iron wall between you and the city. Set your face toward it, and let it be in a state of siege. This is a sign for the house of Israel. Then lie on your left side, and place the punishment of the house of Israel upon it. For the number of the days that you lie on it, you shall bear their punishment—390 days for the punishment of the house of Israel. And when you have completed these, you shall lie down a second time, but on your right side, and bear the punishment of the house of Judah: forty days, a day for each year. And you shall set your face toward the siege of Jerusalem, with your arm bared, and you shall prophesy against it. I will place cords upon you, so that you cannot turn until you have completed the days of your siege.',
+    keyThemes: ['Siege portrayed', 'Lying on side', 'Bearing punishment', 'Sign to Israel'],
+    christConnection: 'Ezekiel bears Israel\'s punishment symbolically. Christ bore it actually—the full weight of sin for His people, immobilized on the cross.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 5,
+    title: 'The Razor and the Hair',
+    summary: 'And you, son of man, take a sharp sword. Use it as a barber\'s razor and pass it over your head and your beard. Then take balances for weighing and divide the hair. A third part you shall burn in the fire in the midst of the city, when the days of the siege are completed. A third part you shall take and strike with the sword all around the city. And a third part you shall scatter to the wind, and I will unsheathe the sword after them. And you shall take from these a small number and bind them in the skirts of your robe. Of these again you shall take some and cast them into the fire. Thus says the Lord GOD: This is Jerusalem. I set her in the center of the nations. But she has rebelled against My rules more wickedly than the nations. Therefore thus says the Lord GOD: Because you are more turbulent than the nations, I, even I, am against you. I will execute judgments in your midst in the sight of the nations. A third part of you shall die of pestilence and be consumed with famine, a third shall fall by the sword, and a third I will scatter to all the winds. Yet I will leave some survivors.',
+    keyThemes: ['Hair divided', 'Three judgments', 'Worse than nations', 'Small remnant'],
+    christConnection: 'From the remnant bound in the robe, Christ comes. Though most perish in judgment, God preserves His people through whom Messiah will arise.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 6,
+    title: 'Judgment Against Idolatry',
+    summary: 'The word of the LORD came to me: Son of man, set your face toward the mountains of Israel and prophesy against them. You shall say: O mountains of Israel, hear the word of the Lord GOD! Thus says the Lord GOD to the mountains and the hills, to the ravines and the valleys: Behold, I, even I, will bring a sword upon you, and I will destroy your high places. Your altars shall be laid waste, your incense altars shall be broken, and I will cast down your slain before your idols. I will lay the dead bodies of the people of Israel before their idols, and I will scatter your bones around your altars. Wherever you dwell, the cities shall be waste and the high places ruined. Your altars shall be laid waste and desolate, your idols broken and destroyed. The slain shall fall in your midst, and you shall know that I am the LORD. Yet I will leave some of you alive. When you are scattered among the nations, those who escape will remember Me, how I have been broken over their whoring heart. They will loathe themselves for the evils they have committed.',
+    keyThemes: ['High places destroyed', 'Idols broken', 'Know I am LORD', 'Survivors remember'],
+    christConnection: 'God\'s heart is broken over spiritual adultery. Christ came to turn hearts from idols to the living God, that we might know He is LORD.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 7,
+    title: 'The End Has Come',
+    summary: 'The word of the LORD came to me: And you, son of man, thus says the Lord GOD to the land of Israel: An end! The end has come upon the four corners of the land. Now the end is upon you, and I will send My anger upon you. I will judge you according to your ways, and I will punish you for all your abominations. My eye will not spare you, nor will I have pity. I will repay you for your ways, while your abominations are in your midst. Then you will know that I am the LORD. Thus says the Lord GOD: Disaster after disaster! Behold, it comes. An end has come; the end has come; it has awakened against you. Behold, it comes. Your doom has come to you, O inhabitant of the land. The time has come; the day is near. The buyer shall not rejoice, nor the seller mourn, for wrath is upon all their multitude. For the seller shall not return to what he sold while yet alive. Because of their iniquity, none shall maintain his life. They have blown the trumpet and made all ready, but none goes to battle, for My wrath is upon all their multitude.',
+    keyThemes: ['The end has come', 'No pity', 'Doom awakened', 'Wrath on all'],
+    christConnection: 'The day of doom for Israel foreshadows final judgment. Christ bore this doom for His people, that we might escape the wrath to come.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 8,
+    title: 'Abominations in the Temple',
+    summary: 'In the sixth year, in the sixth month, on the fifth day, as I sat in my house with the elders of Judah sitting before me, the hand of the Lord GOD fell upon me there. I looked, and behold, a form that had the appearance of a man. Below what appeared to be his waist was fire, and above his waist was brightness, like gleaming metal. He put out the form of a hand and took me by a lock of my head. The Spirit lifted me up between earth and heaven and brought me in visions of God to Jerusalem, to the entrance of the gateway of the inner court that faces north, where was the seat of the image of jealousy. And behold, the glory of the God of Israel was there. He said: Son of man, do you see what they are doing, the great abominations that the house of Israel are committing here? Dig in the wall. When I dug, I saw a door. He said: Go in and see the vile abominations they are committing here. There were all kinds of creeping things and loathsome beasts portrayed on the wall, and seventy elders offering incense to idols. At the entrance, women sat weeping for Tammuz. In the inner court, twenty-five men had their backs to the temple and faces toward the east, worshiping the sun.',
+    keyThemes: ['Transported to temple', 'Image of jealousy', 'Secret idolatry', 'Sun worship'],
+    christConnection: 'The temple was defiled with hidden abominations. Christ cleanses God\'s temple—both the physical one and our hearts—from all idolatry.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 9,
+    title: 'The Slaughter of the Idolaters',
+    summary: 'Then He cried in my ears with a loud voice: Bring near the executioners of the city, each with his destroying weapon in his hand. And behold, six men came from the direction of the upper gate, which faces north, each with his weapon for slaughter in his hand. And among them was a man clothed in linen, with a writing case at his waist. They went in and stood beside the bronze altar. Now the glory of the God of Israel had gone up from the cherub on which it rested to the threshold of the house. And He called to the man clothed in linen: Pass through the city, through Jerusalem, and put a mark on the foreheads of the men who sigh and groan over all the abominations that are committed in it. And to the others He said: Pass through the city after him, and strike. Your eye shall not spare. Kill old men, young men, maidens, little children, and women. But touch no one on whom is the mark. Begin at My sanctuary. So they began with the elders who were before the house. Then He said to them: Defile the house, and fill the courts with the slain. Go out. And they went out and struck in the city.',
+    keyThemes: ['Executioners summoned', 'Mark on foreheads', 'Judgment begins at sanctuary', 'Remnant protected'],
+    christConnection: 'Those marked are spared—like the blood on doorposts at Passover. Christ\'s blood marks His people, protecting them from the destroying angel.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 10,
+    title: 'The Glory Departs',
+    summary: 'Then I looked, and behold, on the expanse that was over the heads of the cherubim there appeared above them something like a sapphire, in appearance like a throne. And He said to the man clothed in linen: Go in among the whirling wheels underneath the cherubim. Fill your hands with burning coals from between the cherubim and scatter them over the city. And he went in before my eyes. Now the cherubim were standing on the south side of the house when the man went in, and a cloud filled the inner court. And the glory of the LORD went up from the cherub to the threshold of the house, and the house was filled with the cloud, and the court was filled with the brightness of the glory of the LORD. And the sound of the wings of the cherubim was heard as far as the outer court, like the voice of God Almighty when He speaks. And He commanded the man clothed in linen: Take fire from between the whirling wheels, from between the cherubim. And He went in and stood beside a wheel. Then the glory of the LORD went out from the threshold of the house and stood over the cherubim. The cherubim lifted up their wings and mounted up from the earth before my eyes.',
+    keyThemes: ['Coals scattered', 'Cloud fills court', 'Glory moves to threshold', 'Cherubim and wheels'],
+    christConnection: 'God\'s glory departing foreshadows the temple\'s destruction. Christ is the new temple where God\'s glory dwells—and that glory never departs from His people.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 11,
+    title: 'Judgment on Wicked Leaders',
+    summary: 'The Spirit lifted me up and brought me to the east gate of the house of the LORD. At the entrance of the gateway there were twenty-five men. And I saw among them Jaazaniah the son of Azzur and Pelatiah the son of Benaiah, princes of the people. And He said to me: Son of man, these are the men who devise iniquity and give wicked counsel in this city, who say: The time is not near to build houses. This city is the cauldron, and we are the meat. Therefore prophesy against them. And the Spirit of the LORD fell upon me, and He said: Say, Thus says the LORD: So you think, O house of Israel. I know the things that come into your mind. You have multiplied your slain in this city. Therefore I will bring you out of the midst of it. I will bring upon you the sword. I will bring you out of the midst thereof and give you into the hands of foreigners. As I was prophesying, Pelatiah the son of Benaiah died. I fell on my face and cried out: Ah, Lord GOD! Will You make a full end of the remnant of Israel? And the word of the LORD came to me: I will gather you from the peoples and will give you a new heart and a new spirit.',
+    keyThemes: ['Wicked counselors', 'Cauldron and meat', 'Pelatiah dies', 'New heart promised'],
+    christConnection: 'God promises a new heart and new spirit. This is fulfilled in Christ through the Holy Spirit—transforming stony hearts into hearts of flesh.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 12,
+    title: 'Ezekiel Acts Out the Exile',
+    summary: 'The word of the LORD came to me: Son of man, you dwell in the midst of a rebellious house, who have eyes to see but see not, who have ears to hear but hear not, for they are a rebellious house. As for you, son of man, prepare for yourself an exile\'s baggage, and go into exile by day in their sight. You shall go like an exile from your place to another place in their sight. Perhaps they will understand, though they are a rebellious house. You shall bring out your baggage by day in their sight, as baggage for exile. And you shall go out yourself at evening in their sight, as those who go into exile. In their sight dig through the wall and bring your baggage out through it. In their sight you shall lift the baggage upon your shoulder and carry it out at dusk. You shall cover your face so that you may not see the land. For I have made you a sign for the house of Israel. I did just as I was commanded. In the morning the word of the LORD came to me: Son of man, has not the house of Israel said: What are you doing? Say to them: Thus says the Lord GOD: This oracle concerns the prince in Jerusalem.',
+    keyThemes: ['Exile\'s baggage', 'Eyes but cannot see', 'Sign to Israel', 'Prince in Jerusalem'],
+    christConnection: 'Israel had eyes but could not see. Christ opens blind eyes to see the kingdom of God and understand the ways of the LORD.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 13,
+    title: 'Against False Prophets',
+    summary: 'The word of the LORD came to me: Son of man, prophesy against the prophets of Israel who are prophesying, and say to those who prophesy from their own hearts: Hear the word of the LORD! Thus says the Lord GOD: Woe to the foolish prophets who follow their own spirit and have seen nothing! Your prophets have been like jackals among ruins. You have not gone up into the breaches or built up a wall for the house of Israel, that it might stand in battle in the day of the LORD. They have seen false visions and lying divinations. They say: Declares the LORD, when the LORD has not sent them. And yet they expect Him to fulfill their word. Because you have uttered falsehood and seen lying visions, therefore I am against you. My hand will be against the prophets who see false visions and who give lying divinations. Because they have misled My people, saying: Peace, when there is no peace, and because when the people build a wall, these prophets smear it with whitewash—say to those who smear it with whitewash that it shall fall!',
+    keyThemes: ['Foolish prophets', 'False visions', 'Peace when no peace', 'Whitewashed wall'],
+    christConnection: 'False prophets cry peace when there is none. Christ alone is our peace (Eph 2:14), and He exposes every false teaching that leads people astray.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 14,
+    title: 'Idolatry Condemned',
+    summary: 'Certain of the elders of Israel came to me and sat before me. And the word of the LORD came to me: Son of man, these men have taken their idols into their hearts and set the stumbling block of their iniquity before their faces. Should I indeed let Myself be consulted by them? Therefore speak to them and say to them: Thus says the Lord GOD: Any one of the house of Israel who takes his idols into his heart and sets the stumbling block of his iniquity before his face, and yet comes to the prophet—I the LORD will answer him as he comes with the multitude of his idols, that I may lay hold of the hearts of the house of Israel, who are all estranged from Me through their idols. Say to the house of Israel: Repent and turn away from your idols, and turn away your faces from all your abominations. Even if Noah, Daniel, and Job were in it, as I live, declares the Lord GOD, they would deliver neither son nor daughter. They would deliver only their own lives by their righteousness. How much more when I send My four disastrous acts of judgment—sword, famine, wild beasts, and pestilence—to cut off from it man and beast!',
+    keyThemes: ['Idols in heart', 'Stumbling block', 'Noah, Daniel, Job', 'Four judgments'],
+    christConnection: 'Even the most righteous cannot save others by their righteousness. Only Christ\'s righteousness can deliver—and He delivers all who trust in Him.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 15,
+    title: 'Jerusalem, the Useless Vine',
+    summary: 'And the word of the LORD came to me: Son of man, how does the wood of the vine surpass any wood, the vine branch that is among the trees of the forest? Is wood taken from it to make anything? Do people take a peg from it to hang any vessel on it? Behold, it is given to the fire for fuel. When the fire has consumed both ends of it and the middle of it is charred, is it useful for anything? Behold, when it was whole, it was used for nothing. How much less, when the fire has consumed it and it is charred, can it ever be used for anything! Therefore thus says the Lord GOD: Like the wood of the vine among the trees of the forest, which I have given to the fire for fuel, so have I given up the inhabitants of Jerusalem. And I will set My face against them. Though they escape from the fire, the fire shall yet consume them. And you will know that I am the LORD, when I set My face against them. And I will make the land desolate, because they have acted faithlessly, declares the Lord GOD.',
+    keyThemes: ['Useless vine wood', 'Good only for burning', 'Face set against', 'Desolation coming'],
+    christConnection: 'Israel was a vine that produced no fruit. Christ is the true vine (John 15), and in Him we bear fruit that remains. Apart from Him we can do nothing.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 16,
+    title: 'Jerusalem\'s Unfaithfulness',
+    summary: 'Again the word of the LORD came to me: Son of man, make known to Jerusalem her abominations. Say: Thus says the Lord GOD to Jerusalem: Your origin and birth are of the land of the Canaanites. Your father was an Amorite and your mother a Hittite. On the day you were born your cord was not cut, nor were you washed with water. No eye pitied you. You were cast out in the open field, for you were abhorred on the day you were born. When I passed by you and saw you wallowing in your blood, I said to you: Live! I made you flourish like a plant of the field. When you had grown up, I clothed you with embroidered cloth and gave you fine linen. I adorned you with ornaments and put a crown on your head. Your renown went forth among the nations because of your beauty, which was perfect through the splendor that I had bestowed on you. But you trusted in your beauty and played the whore because of your renown. You made for yourself images of men and played the whore with them. Yet I will remember My covenant with you in the days of your youth, and I will establish with you an everlasting covenant.',
+    keyThemes: ['Foundling rescued', 'Adorned by God', 'Spiritual adultery', 'Everlasting covenant'],
+    christConnection: 'Christ found us in our blood and said "Live!" He adorned His bride the church with His righteousness. Despite our unfaithfulness, He keeps His everlasting covenant.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 17,
+    title: 'The Eagles and the Vine',
+    summary: 'The word of the LORD came to me: Son of man, propound a riddle and speak a parable to the house of Israel. Say: Thus says the Lord GOD: A great eagle with great wings and long pinions, rich in plumage of many colors, came to Lebanon and took the top of the cedar. He cropped off the topmost of its young twigs and carried it to a land of trade and set it in a city of merchants. Then he took of the seed of the land and planted it in fertile soil. It sprouted and became a low spreading vine. Its branches turned toward him, and its roots remained under it. There was another great eagle with great wings and much plumage. And behold, this vine bent its roots toward him and shot forth its branches toward him. Shall it thrive? Will he not pull up its roots and cut off its fruit? Thus says the Lord GOD: As I live, surely in the place where the king dwells who made him king, whose oath he despised, in the midst of Babylon he shall die. Yet I Myself will take a sprig from the lofty top of the cedar and will plant it on a high and lofty mountain.',
+    keyThemes: ['Two eagles', 'Cedar and vine', 'Covenant breaking', 'Sprig planted on mountain'],
+    christConnection: 'The sprig from the cedar planted on a high mountain is Christ—the Davidic king who grows into a mighty tree where all birds find shelter.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 18,
+    title: 'The Soul Who Sins Shall Die',
+    summary: 'The word of the LORD came to me: What do you mean by repeating this proverb concerning the land of Israel: The fathers have eaten sour grapes, and the children\'s teeth are set on edge? As I live, declares the Lord GOD, this proverb shall no more be used in Israel. Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins shall die. If a man is righteous and does what is just and right—if he walks in My statutes and keeps My rules by acting faithfully—he is righteous; he shall surely live. If he fathers a son who is violent, a shedder of blood, who does any of these things—he shall not live. He has done all these abominations; he shall surely die. Now suppose this man fathers a son who sees all the sins that his father has done; he sees, and does not do likewise—he shall surely live. Cast away from you all the transgressions that you have committed, and make yourselves a new heart and a new spirit! Why will you die, O house of Israel? For I have no pleasure in the death of anyone. Repent and live.',
+    keyThemes: ['Soul who sins dies', 'Individual responsibility', 'New heart', 'Repent and live'],
+    christConnection: 'Each soul is accountable to God. Christ calls all to repent and live. He gives the new heart and new spirit that God requires for true obedience.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 19,
+    title: 'Lament for Israel\'s Princes',
+    summary: 'And you, raise a lamentation for the princes of Israel, and say: What was your mother? A lioness! Among lions she crouched; in the midst of young lions she reared her cubs. And she brought up one of her cubs; he became a young lion, and he learned to catch prey; he devoured men. The nations heard about him; he was caught in their pit, and they brought him with hooks to the land of Egypt. When she saw that she waited in vain, that her hope was lost, she took another of her cubs and made him a young lion. He prowled among the lions; he became a young lion, and he learned to catch prey; he devoured men. The nations set against him snares on every side. They put him in a cage with hooks and brought him to the king of Babylon. Your mother was like a vine in a vineyard planted by the water, fruitful and full of branches. But the vine was plucked up in fury, cast down to the ground. Now it is planted in the wilderness, in a dry and thirsty land. Fire has gone out from its stem, and has consumed its fruit. This is a lamentation and has become a lamentation.',
+    keyThemes: ['Lioness and cubs', 'Kings captured', 'Vine plucked up', 'Lamentation'],
+    christConnection: 'Israel\'s kings failed. Christ is the Lion of Judah who was "captured" at the cross but rose victorious—the King who will never be overcome.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 20,
+    title: 'Israel\'s Rebellion Reviewed',
+    summary: 'In the seventh year, in the fifth month, on the tenth day, certain of the elders of Israel came to inquire of the LORD and sat before me. The word of the LORD came to me: Son of man, speak to the elders of Israel and say to them: Will you be inquired of by Me? I will not be inquired of by you. Will you judge them, son of man? Then let them know the abominations of their fathers. Say to them: On the day when I chose Israel, I swore to the offspring of the house of Jacob. I made Myself known to them in the land of Egypt. I said: Cast away the detestable things your eyes feast on, and do not defile yourselves with the idols of Egypt. But they rebelled against Me. In the wilderness the children rebelled. I said I would pour out My wrath upon them. But I acted for the sake of My name. I led them out of the wilderness. When you offer your gifts and offer up your children in fire, you defile yourselves. And shall I be inquired of by you? As I live, I will not be inquired of by you. Yet I will gather you from the peoples with a mighty hand.',
+    keyThemes: ['Rebellion reviewed', 'For My name\'s sake', 'Idolatry persistent', 'Gathering promised'],
+    christConnection: 'God acts for His name\'s sake despite Israel\'s rebellion. Christ glorifies the Father\'s name, and in Him the scattered are gathered from all nations.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 21,
+    title: 'The LORD\'s Sword',
+    summary: 'The word of the LORD came to me: Son of man, set your face toward Jerusalem and preach against the sanctuaries. Prophesy against the land of Israel and say: Thus says the LORD: Behold, I am against you and will draw My sword from its sheath and will cut off from you both righteous and wicked. Because I will cut off from you both righteous and wicked, therefore My sword shall be drawn from its sheath against all flesh from south to north. All flesh shall know that I am the LORD. I have drawn My sword from its sheath; it shall not be sheathed again. As for you, son of man, groan; with breaking heart and bitter grief, groan before their eyes. A sword, a sword is sharpened and also polished, sharpened for slaughter, polished to flash like lightning! The king of Babylon stands at the parting of the way, at the head of two ways, to use divination. He shakes the arrows; he consults the teraphim; he looks at the liver. Into his right hand comes the divination for Jerusalem. Remove the turban, take off the crown. This shall not be as it was. Exalt that which is low, and bring low that which is exalted.',
+    keyThemes: ['Sword drawn', 'Righteous and wicked', 'Babylon at crossroads', 'Crown removed'],
+    christConnection: 'The crown is removed until He comes whose right it is (v. 27). Christ is that One—the rightful king to whom the crown belongs forever.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 22,
+    title: 'Sins of Jerusalem',
+    summary: 'And the word of the LORD came to me, saying: And you, son of man, will you judge, will you judge the bloody city? Then declare to her all her abominations. Say: Thus says the Lord GOD: A city that sheds blood in her midst, so that her time may come, and that makes idols to defile herself! You have become guilty by the blood that you have shed, and defiled by the idols that you have made. Father and mother are treated with contempt in you. The sojourner suffers extortion in your midst. The fatherless and the widow are wronged in you. You have despised My holy things and profaned My Sabbaths. There are men in you who slander to shed blood. In you they uncover their fathers\' nakedness. In you they violate women who are unclean. One commits abomination with his neighbor\'s wife. Your princes in your midst are like wolves tearing the prey. Her prophets have smeared whitewash for them. I sought for a man among them who should build up the wall and stand in the breach before Me for the land, that I should not destroy it, but I found none.',
+    keyThemes: ['Bloody city', 'Comprehensive sins', 'No intercessor found', 'Judgment certain'],
+    christConnection: 'God sought one to stand in the breach but found none—until Christ. He stands in the breach, making intercession for His people before God.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 23,
+    title: 'The Two Sisters',
+    summary: 'The word of the LORD came to me: Son of man, there were two women, the daughters of one mother. They played the whore in Egypt; they played the whore in their youth. Oholah was the name of the elder and Oholibah the name of her sister. They became Mine, and they bore sons and daughters. Oholah is Samaria, and Oholibah is Jerusalem. Oholah played the whore while she was Mine. She lusted after her lovers the Assyrians. She bestowed her whoring upon them—all of them the choicest men of Assyria—and she defiled herself with all their idols. Therefore I delivered her into the hands of her lovers, the Assyrians. Her sister Oholibah saw this, yet she was more corrupt than her sister in her lust and in her whoring. She also lusted after the Assyrians. And she increased her whoring. When she saw men portrayed on the wall, the images of the Chaldeans, she lusted after them. Therefore, O Oholibah, thus says the Lord GOD: I will stir up against you your lovers. They shall deal with you in fury. I will set My jealousy against you. You shall drink your sister\'s cup that is deep and large.',
+    keyThemes: ['Two sisters', 'Samaria and Jerusalem', 'Worse than sister', 'Cup of judgment'],
+    christConnection: 'Both sisters—Israel and Judah—failed through spiritual adultery. Christ is the faithful Husband who redeems an unfaithful bride and makes her pure.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 24,
+    title: 'The Boiling Pot and Ezekiel\'s Wife',
+    summary: 'In the ninth year, in the tenth month, on the tenth day, the word of the LORD came to me: Son of man, write down the name of this day, this very day. The king of Babylon has laid siege to Jerusalem this very day. Utter a parable to the rebellious house and say: Thus says the Lord GOD: Set on the pot, set it on; pour in water also. Put in it the pieces of meat, all the good pieces, the thigh and the shoulder. Fill it with choice bones. Take the choicest one of the flock, pile the logs under it. Boil it well; seethe also its bones in it. Therefore thus says the Lord GOD: Woe to the bloody city, to the pot whose corrosion is in it! Heap on the logs, kindle the fire, boil the meat well, empty out the broth, and let the bones be burned up. Set it empty upon the coals, that its bronze may be heated and its uncleanness be melted in it. Also the word of the LORD came to me: Son of man, behold, I am about to take the delight of your eyes away from you at a stroke. Yet you shall not mourn or weep. So I spoke to the people in the morning, and at evening my wife died. And in the morning I did as I was commanded.',
+    keyThemes: ['Boiling pot', 'Siege begins', 'Wife dies', 'No mourning allowed'],
+    christConnection: 'Ezekiel\'s loss of his beloved wife pictures God\'s grief over Jerusalem. Christ wept over the city, knowing judgment must come, and bore that judgment Himself.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 25,
+    title: 'Oracles Against the Nations',
+    summary: 'The word of the LORD came to me: Son of man, set your face toward the Ammonites and prophesy against them. Say to the Ammonites: Hear the word of the Lord GOD! Thus says the Lord GOD: Because you said "Aha!" over My sanctuary when it was profaned, and over the land of Israel when it was made desolate, and over the house of Judah when they went into exile, therefore behold, I am handing you over to the people of the East for a possession. I will cut you off from the peoples. And you shall know that I am the LORD. Thus says the Lord GOD: Because Moab said: The house of Judah is like all the other nations—therefore I will lay open the flank of Moab. And you shall know that I am the LORD. Thus says the Lord GOD: Because Edom acted revengefully against the house of Judah and has grievously offended in taking vengeance on them, I will stretch out My hand against Edom and cut off from it man and beast. Thus says the Lord GOD: Because the Philistines acted revengefully with malice of soul to destroy in never-ending enmity, I will stretch out My hand against the Philistines.',
+    keyThemes: ['Ammon judged', 'Moab judged', 'Edom judged', 'Philistines judged'],
+    christConnection: 'God judges nations that rejoice over His people\'s suffering. Christ will judge all nations, vindicating His people and bringing justice to the earth.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 26,
+    title: 'Judgment on Tyre',
+    summary: 'In the eleventh year, on the first day of the month, the word of the LORD came to me: Son of man, because Tyre said concerning Jerusalem: Aha, the gate of the peoples is broken; it has swung open to me. I shall be replenished, now that she is laid waste. Therefore thus says the Lord GOD: Behold, I am against you, O Tyre, and will bring up many nations against you, as the sea brings up its waves. They shall destroy the walls of Tyre and break down her towers, and I will scrape her soil from her and make her a bare rock. She shall be in the midst of the sea a place for the spreading of nets. For thus says the Lord GOD: Behold, I will bring against Tyre from the north Nebuchadnezzar king of Babylon, king of kings, with horses and chariots, with horsemen and a host of many soldiers. He will set up a siege wall against you. With the hoofs of his horses he shall trample all your streets. He shall slay your people with the sword. I will put an end to the music of your songs, and the sound of your lyres shall be heard no more. I will make you a bare rock. You shall be a place for the spreading of nets. You shall never be rebuilt.',
+    keyThemes: ['Tyre\'s gloating', 'Many nations', 'Nebuchadnezzar', 'Never rebuilt'],
+    christConnection: 'Tyre\'s pride brought its fall. Christ humbled Himself and was exalted. Those who exalt themselves will be humbled, but the humble will be lifted up.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 27,
+    title: 'Lament for Tyre',
+    summary: 'The word of the LORD came to me: Now you, son of man, raise a lamentation over Tyre. Say to Tyre, who dwells at the entrances to the sea, merchant of the peoples to many coastlands: Thus says the Lord GOD: O Tyre, you have said: I am perfect in beauty. Your borders are in the heart of the seas; your builders made perfect your beauty. They made all your planks of fir trees from Senir; they took a cedar from Lebanon to make a mast for you. Of oaks of Bashan they made your oars. They made your deck of pines from the coasts of Cyprus, inlaid with ivory. Of fine embroidered linen from Egypt was your sail. Blue and purple from the coasts of Elishah was your awning. Tarshish did business with you because of your great wealth of every kind. Javan, Tubal, and Meshech traded with you. The men of Dedan traded with you. All the ships of the sea were in your midst to barter your wares. When your wares came from the seas, you satisfied many peoples. At the sound of the cry of your pilots the countryside shakes. All who handle the oar come down from their ships. They wail aloud over you and cry out bitterly.',
+    keyThemes: ['Perfect beauty', 'World trade', 'Ship of state', 'Total collapse'],
+    christConnection: 'Tyre\'s commercial glory was fleeting. Only Christ builds a city that endures—the New Jerusalem where true treasure is found in God forever.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 28,
+    title: 'Lament for the King of Tyre',
+    summary: 'The word of the LORD came to me: Son of man, say to the prince of Tyre: Thus says the Lord GOD: Because your heart is proud, and you have said "I am a god, I sit in the seat of the gods, in the heart of the seas," yet you are but a man and no god, though you make your heart like the heart of a god—you are indeed wiser than Daniel; no secret is hidden from you. By your wisdom and understanding you have made wealth for yourself. Your heart has become proud in your wealth. Therefore I will bring foreigners upon you, the most ruthless of the nations. They shall draw their swords against the beauty of your wisdom. They shall thrust you down into the pit. Moreover, the word of the LORD came to me: Son of man, raise a lamentation over the king of Tyre: You were the signet of perfection, full of wisdom and perfect in beauty. You were in Eden, the garden of God. Every precious stone was your covering. You were an anointed guardian cherub. I placed you on the holy mountain of God. You were blameless until unrighteousness was found in you. I cast you to the ground.',
+    keyThemes: ['Pride of prince', 'I am a god', 'Guardian cherub fallen', 'Cast from mountain'],
+    christConnection: 'The king of Tyre\'s pride echoes Satan\'s fall. Christ conquered the proud one, casting him down, and exalts the humble who trust in Him.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 29,
+    title: 'Judgment on Egypt',
+    summary: 'In the tenth year, in the tenth month, on the twelfth day, the word of the LORD came to me: Son of man, set your face against Pharaoh king of Egypt and prophesy against him and against all Egypt. Speak and say: Thus says the Lord GOD: Behold, I am against you, Pharaoh king of Egypt, the great dragon that lies in the midst of his streams, that says "My Nile is my own; I made it for myself." I will put hooks in your jaws and make the fish of your streams stick to your scales. And I will draw you up out of the midst of your streams, with all the fish of your streams sticking to your scales. I will cast you out into the wilderness. You shall fall on the open field and not be brought together or gathered. To the beasts of the earth and to the birds of the heavens I have given you as food. Then all the inhabitants of Egypt shall know that I am the LORD. Because you have been a staff of reed to the house of Israel—when they grasped you with the hand, you broke and tore all their shoulders—I am bringing a sword upon you. I will make the land of Egypt an utter waste and desolation. At the end of forty years I will gather the Egyptians.',
+    keyThemes: ['Great dragon', 'My Nile is my own', 'Staff of reed', 'Forty years desolation'],
+    christConnection: 'Egypt was a false staff that broke. Christ is the true support who never fails those who lean on Him.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 30,
+    title: 'Egypt\'s Day of Doom',
+    summary: 'The word of the LORD came to me: Son of man, prophesy and say: Thus says the Lord GOD: Wail! Alas for the day! For the day is near, the day of the LORD is near; it will be a day of clouds, a time of doom for the nations. A sword shall come upon Egypt, and anguish shall be in Cush, when the slain fall in Egypt, and her wealth is carried away, and her foundations are torn down. Cush, Put, and Lud, all Arabia, Libya, and the people of the land that is in league—they shall fall with them by the sword. Thus says the LORD: Those who support Egypt shall fall, and her proud might shall come down. I will strengthen the arms of the king of Babylon and put My sword in his hand. But I will break the arms of Pharaoh, and he will groan before him like a man mortally wounded. I will strengthen the arms of the king of Babylon, but the arms of Pharaoh shall fall. Then they shall know that I am the LORD, when I put My sword into the hand of the king of Babylon and he stretches it out against the land of Egypt.',
+    keyThemes: ['Day of the LORD', 'Day of clouds', 'Arms broken', 'Babylon strengthened'],
+    christConnection: 'The day of the LORD brings judgment on all nations. Christ returns on that final day, when every knee will bow and every tongue confess.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 31,
+    title: 'The Cedar of Lebanon',
+    summary: 'In the eleventh year, in the third month, on the first day, the word of the LORD came to me: Son of man, say to Pharaoh king of Egypt and to his multitude: Whom are you like in your greatness? Behold, Assyria was a cedar in Lebanon, with beautiful branches and forest shade, and of towering height. Its top was among the clouds. The waters nourished it; the deep made it grow tall. So it towered high above all the trees of the field. Its boughs increased; its branches grew long from abundant water. All the birds of the heavens made their nests in its boughs. Under its branches all the beasts of the field gave birth to their young, and under its shadow lived all great nations. It was beautiful in its greatness. The cedars in the garden of God could not rival it; no tree in the garden of God was its equal in beauty. I made it beautiful. Yet because it towered high and set its top among the clouds, and its heart was proud of its height, I will give it into the hand of a mighty one of the nations. I have cast it out for its wickedness. When I cast it down to Sheol, I will make the nations quake at the sound of its fall.',
+    keyThemes: ['Assyria the cedar', 'Towering height', 'Heart proud', 'Cast to Sheol'],
+    christConnection: 'Even the mightiest empires fall when pride fills their heart. Christ\'s kingdom grows from a mustard seed, and the humble are exalted with Him.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 32,
+    title: 'Lament over Pharaoh',
+    summary: 'In the twelfth year, in the twelfth month, on the first day, the word of the LORD came to me: Son of man, raise a lamentation over Pharaoh king of Egypt. Say to him: You consider yourself a lion of the nations, but you are like a dragon in the seas; you burst forth in your rivers, trouble the waters with your feet, and foul their rivers. Thus says the Lord GOD: I will throw My net over you with a host of many peoples, and they will haul you up in My dragnet. I will cast you on the ground; on the open field I will fling you. I will let all the birds of the heavens settle on you, and I will gorge the beasts of the whole earth with you. When I blot you out, I will cover the heavens and make their stars dark. I will cover the sun with a cloud, and the moon shall not give its light. All the bright lights of heaven I will make dark over you. I will trouble the hearts of many peoples. Son of man, wail over the multitude of Egypt, and send them down to the world below, to those who have gone down to the pit. Assyria is there with all its company. Elam is there. Meshech-Tubal is there. Edom is there. All of them uncircumcised, slain by the sword.',
+    keyThemes: ['Dragon in seas', 'Net thrown over', 'Darkness over Egypt', 'Pit with nations'],
+    christConnection: 'Pharaoh joins the nations in the pit. Christ descended to the realm of death and rose victorious, offering life to all who trust Him.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 33,
+    title: 'Ezekiel as Watchman Renewed',
+    summary: 'The word of the LORD came to me: Son of man, speak to your people and say to them: If I bring the sword upon a land, and the people of the land take a man from among them and make him their watchman, and if he sees the sword coming upon the land and blows the trumpet and warns the people, then if anyone who hears the sound of the trumpet does not take warning, and the sword comes and takes him away, his blood shall be upon his own head. He heard the sound of the trumpet and did not take warning; his blood shall be upon himself. But if the watchman sees the sword coming and does not blow the trumpet, so that the people are not warned, and the sword comes and takes any one of them, that person is taken away in his iniquity, but his blood I will require at the watchman\'s hand. So you, son of man, I have made a watchman for the house of Israel. Say to them: As I live, declares the Lord GOD, I have no pleasure in the death of the wicked, but that the wicked turn from his way and live. Turn back, turn back from your evil ways, for why will you die, O house of Israel?',
+    keyThemes: ['Watchman responsibility', 'Warn the wicked', 'No pleasure in death', 'Turn and live'],
+    christConnection: 'God desires that the wicked turn and live. Christ is the faithful Watchman who warns of coming judgment and offers life to all who repent.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 34,
+    title: 'The Good Shepherd',
+    summary: 'The word of the LORD came to me: Son of man, prophesy against the shepherds of Israel. Prophesy and say: Ah, shepherds of Israel who have been feeding yourselves! Should not shepherds feed the sheep? You eat the fat, you clothe yourselves with the wool, you slaughter the fat ones, but you do not feed the sheep. The weak you have not strengthened, the sick you have not healed, the injured you have not bound up, the strayed you have not brought back, the lost you have not sought. So they were scattered because there was no shepherd, and they became food for all the wild beasts. Therefore, thus says the Lord GOD: Behold, I am against the shepherds, and I will require My sheep at their hand. I Myself will search for My sheep and will seek them out. As a shepherd seeks out his flock when he is among his sheep that have been scattered, so will I seek out My sheep. I will set up over them one shepherd, My servant David, and he shall feed them. He shall be their shepherd. And I, the LORD, will be their God, and My servant David shall be prince among them.',
+    keyThemes: ['Bad shepherds condemned', 'God seeks His sheep', 'One shepherd David', 'Covenant of peace'],
+    christConnection: 'Christ is the Good Shepherd of John 10—the promised David who seeks the lost, binds the injured, and lays down His life for the sheep.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 35,
+    title: 'Judgment on Mount Seir',
+    summary: 'The word of the LORD came to me: Son of man, set your face against Mount Seir, and prophesy against it, and say to it: Thus says the Lord GOD: Behold, I am against you, Mount Seir, and I will stretch out My hand against you and make you a desolation and a waste. I will lay your cities waste, and you shall become a desolation, and you shall know that I am the LORD. Because you cherished perpetual enmity and gave over the people of Israel to the power of the sword at the time of their calamity, at the time of their final punishment, therefore, as I live, declares the Lord GOD, I will prepare you for blood, and blood shall pursue you. Because you are guilty of blood, therefore blood shall pursue you. I will make Mount Seir a waste and a desolation, and I will cut off from it all who come and go. I will fill its mountains with the slain. Because you said: These two nations and these two countries shall be mine, and we will take possession of them—although the LORD was there—therefore, as I live, declares the Lord GOD, I will deal with you according to the anger and envy that you showed because of your hatred against them.',
+    keyThemes: ['Perpetual enmity', 'Blood pursues blood', 'Coveted Israel\'s land', 'LORD was there'],
+    christConnection: 'Edom\'s hatred for Israel brought judgment. Christ overcomes all enmity, making peace between enemies through His blood.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 36,
+    title: 'Restoration of Israel',
+    summary: 'And you, son of man, prophesy to the mountains of Israel and say: O mountains of Israel, hear the word of the LORD. Because the enemy said of you: Aha! and: The ancient heights have become our possession, therefore prophesy and say: Thus says the Lord GOD: Because they made you desolate and crushed you from all sides, so that you became the possession of the rest of the nations, and you became the talk and evil gossip of the people—therefore, O mountains of Israel, hear the word of the Lord GOD: I am concerned for My holy name, which the house of Israel has profaned among the nations. Therefore say to the house of Israel: It is not for your sake that I am about to act, but for the sake of My holy name, which you have profaned. I will vindicate the holiness of My great name. I will take you from the nations and gather you from all the countries. I will sprinkle clean water on you, and you shall be clean from all your uncleannesses. I will give you a new heart and put a new spirit within you. I will remove the heart of stone from your flesh and give you a heart of flesh. I will put My Spirit within you.',
+    keyThemes: ['For My name\'s sake', 'Sprinkled clean', 'New heart', 'Spirit within'],
+    christConnection: 'The new heart and new Spirit are given through Christ. He cleanses from all uncleanness and puts His Spirit within us to walk in His ways.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 37,
+    title: 'The Valley of Dry Bones',
+    summary: 'The hand of the LORD was upon me, and He brought me out in the Spirit of the LORD and set me down in the middle of the valley; it was full of bones. And He led me around among them, and behold, there were very many on the surface of the valley, and behold, they were very dry. And He said to me: Son of man, can these bones live? And I answered: O Lord GOD, You know. Then He said to me: Prophesy over these bones, and say to them: O dry bones, hear the word of the LORD. Behold, I will cause breath to enter you, and you shall live. I will lay sinews upon you, and will cause flesh to come upon you, and cover you with skin, and put breath in you, and you shall live, and you shall know that I am the LORD. So I prophesied as I was commanded. And as I prophesied, there was a sound—a rattling—and the bones came together, bone to its bone. And I prophesied as He commanded me, and the breath came into them, and they lived and stood on their feet, an exceedingly great army. He said: These bones are the whole house of Israel. I will put My Spirit within you, and you shall live.',
+    keyThemes: ['Valley of dry bones', 'Can these bones live?', 'Breath enters', 'Nation resurrected'],
+    christConnection: 'Christ is the resurrection and the life. What God did symbolically for Israel, He does spiritually for all who are dead in sin—bringing them to new life.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 38,
+    title: 'The Prophecy Against Gog',
+    summary: 'The word of the LORD came to me: Son of man, set your face toward Gog, of the land of Magog, the chief prince of Meshech and Tubal, and prophesy against him. Say: Thus says the Lord GOD: Behold, I am against you, O Gog, chief prince of Meshech and Tubal. I will turn you about and put hooks into your jaws, and I will bring you out, and all your army, horses and horsemen, all of them clothed in full armor, a great host, all of them with buckler and shield, wielding swords. Persia, Cush, and Put are with them, all of them with shield and helmet. Gomer and all his hordes, Beth-togarmah from the uttermost parts of the north with all his hordes—many peoples are with you. After many days you will be mustered. In the latter years you will go against the land that is restored from war, the land whose people were gathered from many peoples upon the mountains of Israel. You will advance, coming on like a storm. You will be like a cloud covering the land. On that day, when Gog shall come against the land of Israel, My wrath will be roused in My anger.',
+    keyThemes: ['Gog and Magog', 'Hooks in jaws', 'Latter years', 'Cloud covering land'],
+    christConnection: 'The final assault against God\'s people fails utterly. Christ protects His church, and every enemy will be destroyed when He returns in glory.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 39,
+    title: 'The Defeat of Gog',
+    summary: 'And you, son of man, prophesy against Gog and say: Thus says the Lord GOD: Behold, I am against you, O Gog, chief prince of Meshech and Tubal. I will turn you about and drive you forward, and bring you up from the uttermost parts of the north, and lead you against the mountains of Israel. Then I will strike your bow from your left hand and make your arrows drop out of your right hand. You shall fall on the mountains of Israel, you and all your hordes and the peoples who are with you. I will give you to birds of prey of every sort and to the beasts of the field to be devoured. You shall fall in the open field, for I have spoken, declares the Lord GOD. I will send fire on Magog and on those who dwell securely in the coastlands, and they shall know that I am the LORD. My holy name I will make known in the midst of My people Israel, and I will not let My holy name be profaned anymore. The nations shall know that I am the LORD, the Holy One in Israel. For seven months the house of Israel will be burying them. Then they shall know that I am the LORD their God.',
+    keyThemes: ['Gog defeated', 'Birds feast', 'Fire on Magog', 'Seven months burying'],
+    christConnection: 'Revelation 19-20 echoes this battle. Christ returns as conquering King; His enemies are utterly defeated, and His people dwell securely forever.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 40,
+    title: 'The New Temple',
+    summary: 'In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month, in the fourteenth year after the city was struck down, on that very day, the hand of the LORD was upon me, and He brought me to the city. In visions of God He brought me to the land of Israel and set me down on a very high mountain, on which was a structure like a city to the south. When He brought me there, behold, there was a man whose appearance was like bronze, with a linen cord and a measuring reed in his hand. And he was standing in the gateway. The man said to me: Son of man, look with your eyes and hear with your ears and set your heart upon all that I shall show you, for you were brought here in order that I might show it to you. Declare all that you see to the house of Israel. And behold, there was a wall all around the outside of the temple area, and the length of the measuring reed in the man\'s hand was six long cubits, each being a cubit and a handbreadth in length. So he measured the thickness of the wall, one reed; and the height, one reed.',
+    keyThemes: ['Vision of temple', 'Man like bronze', 'Measuring reed', 'Show to Israel'],
+    christConnection: 'The new temple vision points to God dwelling with His people. Christ is the true temple (John 2:21), and His church is built as a holy temple in the Lord.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 41,
+    title: 'The Sanctuary Measured',
+    summary: 'Then he brought me to the nave and measured the jambs. On each side six cubits was the breadth of the jambs. And the breadth of the entrance was ten cubits, and the sidewalls of the entrance were five cubits on either side. He measured the length of the nave, forty cubits, and its breadth, twenty cubits. Then he went into the inner room and measured the jambs of the entrance, two cubits; and the entrance, six cubits; and the sidewalls of the entrance, seven cubits. And he measured the length of the room, twenty cubits, and its breadth, twenty cubits, across the nave. He said to me: This is the Most Holy Place. Then he measured the wall of the temple, six cubits thick, and the breadth of the side chambers, four cubits, all around the temple. The side chambers were in three stories, one over another, thirty in each story. On the wall that was toward the side chambers, on the outside, there was a ledge. It was covered with wood all around—from the floor up to above the door—including the inner room and the outer room.',
+    keyThemes: ['Nave measured', 'Most Holy Place', 'Side chambers', 'Precise dimensions'],
+    christConnection: 'Every detail of the temple shows God\'s order and holiness. Christ fulfills the temple\'s purpose—the place where God meets with humanity.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 42,
+    title: 'The Chambers for Priests',
+    summary: 'Then he led me out into the outer court, toward the north, and he brought me to the chambers that were opposite the separate yard and opposite the building on the north. The length of the building whose door faced north was a hundred cubits, and the breadth fifty cubits. Facing the twenty cubits that belonged to the inner court, and facing the pavement that belonged to the outer court, was gallery against gallery in three stories. And before the chambers was a passage inward, ten cubits wide and a hundred cubits long, and their doors were on the north. Now the upper chambers were narrower, for the galleries took more away from them than from the lower and middle chambers of the building. The chambers on the north and the chambers on the south opposite the yard are the holy chambers, where the priests who approach the LORD shall eat the most holy offerings. There they shall put the most holy offerings—the grain offering, the sin offering, and the guilt offering—for the place is holy. When the priests enter the Holy Place, they shall not go out of it into the outer court without laying there the garments in which they minister, for these are holy.',
+    keyThemes: ['Priest chambers', 'Holy offerings', 'Holy garments', 'Sacred boundaries'],
+    christConnection: 'Christ is our great High Priest who entered the true holy place in heaven, offering Himself once for all. We have access through His blood.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 43,
+    title: 'The Glory Returns',
+    summary: 'Then he led me to the gate, the gate facing east. And behold, the glory of the God of Israel was coming from the east. And the sound of His coming was like the sound of many waters, and the earth shone with His glory. And the vision I saw was just like the vision that I had seen when He came to destroy the city, and just like the vision that I had seen by the Chebar canal. And I fell on my face. As the glory of the LORD entered the temple by the gate facing east, the Spirit lifted me up and brought me into the inner court. And behold, the glory of the LORD filled the temple. While the man was standing beside me, I heard one speaking to me out of the temple. He said to me: Son of man, this is the place of My throne and the place of the soles of My feet, where I will dwell in the midst of the people of Israel forever. The house of Israel shall no more defile My holy name. Now let them put away their whoring and the dead bodies of their kings far from Me, and I will dwell in their midst forever.',
+    keyThemes: ['Glory from east', 'Like many waters', 'Glory fills temple', 'Dwell forever'],
+    christConnection: 'God\'s glory returns to dwell among His people. Christ is the glory of God in human form, and through Him, God dwells among us forever.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 44,
+    title: 'Regulations for Worship',
+    summary: 'Then he brought me back to the outer gate of the sanctuary, which faces east. And it was shut. And the LORD said to me: This gate shall remain shut; it shall not be opened, and no one shall enter by it, for the LORD, the God of Israel, has entered by it. Therefore it shall remain shut. Only the prince—because he is prince—may sit in it to eat bread before the LORD. He shall enter by way of the vestibule of the gate, and shall go out by the same way. Then he brought me by way of the north gate to the front of the temple, and I looked, and behold, the glory of the LORD filled the temple of the LORD. And I fell on my face. And the LORD said to me: Son of man, mark well, see with your eyes, and hear with your ears all that I shall tell you concerning all the statutes of the temple and all its laws. And mark well the entrance to the temple and all the exits from the sanctuary. And say to the rebellious house, to the house of Israel: Thus says the Lord GOD: O house of Israel, enough of all your abominations. The Levites who went far from Me shall bear their punishment. But the Levitical priests, the sons of Zadok, who kept the charge of My sanctuary, shall come near to Me to minister to Me.',
+    keyThemes: ['East gate shut', 'Glory fills temple', 'Levites punished', 'Zadokites serve'],
+    christConnection: 'Only the prince enters by the east gate. Christ is the Prince who enters God\'s presence and opens the way for His people to follow.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 45,
+    title: 'Division of the Land',
+    summary: 'When you allot the land as an inheritance, you shall set apart for the LORD a portion of the land as a holy district, 25,000 cubits long and 20,000 cubits broad. It shall be holy throughout its whole extent. Of this a square plot of 500 by 500 cubits shall be for the sanctuary, with fifty cubits for an open space around it. And in the holy district you shall measure off a section 25,000 cubits long and 10,000 broad, in which shall be the sanctuary, the Most Holy Place. It shall be the holy portion of the land. It shall be for the priests, who minister in the sanctuary. They shall have houses for themselves, and a holy place for the sanctuary. Another section, 25,000 cubits long and 10,000 cubits broad, shall be for the Levites who minister at the temple. Adjoining the holy district you shall assign for the property of the city an area 5,000 cubits broad and 25,000 cubits long. It shall belong to the whole house of Israel. The prince shall have his portion on both sides of the holy district. Thus says the Lord GOD: Enough, O princes of Israel! Put away violence and oppression, and execute justice and righteousness.',
+    keyThemes: ['Holy district', 'Land for priests', 'Prince\'s portion', 'Justice required'],
+    christConnection: 'The holy district centers on God\'s presence. In Christ, we are the living stones of a holy temple, with Him as the cornerstone.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 46,
+    title: 'Offerings and Feasts',
+    summary: 'Thus says the Lord GOD: The gate of the inner court that faces east shall be shut on the six working days, but on the Sabbath day it shall be opened, and on the day of the new moon it shall be opened. The prince shall enter by the vestibule of the gate from outside and shall stand by the post of the gate. The priests shall offer his burnt offering and his peace offerings, and he shall worship at the threshold of the gate. Then he shall go out, but the gate shall not be shut until evening. The people of the land shall worship at the entrance of that gate before the LORD on the Sabbaths and on the new moons. The burnt offering that the prince offers to the LORD on the Sabbath day shall be six lambs without blemish and a ram without blemish. When the prince enters, he shall enter by the vestibule of the gate, and he shall go out by the same way. When the people of the land come before the LORD at the appointed feasts, he who enters by the north gate to worship shall go out by the south gate, and he who enters by the south gate shall go out by the north gate.',
+    keyThemes: ['Sabbath gate open', 'Prince\'s offerings', 'Appointed feasts', 'Orderly worship'],
+    christConnection: 'Christ is both our Prince and our offering. Through Him, we enter God\'s presence in true Sabbath rest and acceptable worship.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 47,
+    title: 'Water from the Temple',
+    summary: 'Then he brought me back to the door of the temple, and behold, water was issuing from below the threshold of the temple toward the east (for the temple faced east). The water was flowing down from below the south end of the threshold of the temple, south of the altar. Then he brought me out by way of the north gate and led me around on the outside to the outer gate that faces toward the east. And behold, the water was trickling out on the south side. Going on eastward with a measuring line in his hand, the man measured a thousand cubits, and then led me through the water, and it was ankle-deep. Again he measured a thousand, and led me through the water, and it was knee-deep. Again he measured a thousand, and led me through the water, and it was waist-deep. Again he measured a thousand, and it was a river that I could not pass through, for the water had risen. It was deep enough to swim in. He said to me: This water flows toward the eastern region and goes down into the Arabah, and enters the sea; when the water flows into the sea, the water will become fresh. And wherever the river goes, every living creature that swarms will live.',
+    keyThemes: ['Water from threshold', 'Deepening river', 'Dead Sea made fresh', 'Life wherever flows'],
+    christConnection: 'Christ is the source of living water (John 7:38). Rivers of living water flow from Him, bringing life wherever the gospel goes.'
+  },
+  {
+    bookId: 'ezekiel',
+    chapter: 48,
+    title: 'The Division of the Land',
+    summary: 'These are the names of the tribes: Beginning at the northern extreme, beside the way of Hethlon to Lebo-hamath, as far as Hazar-enan (which is on the northern border of Damascus over against Hamath), and extending from the east side to the west, Dan, one portion. Adjoining the territory of Dan, from the east side to the west, Asher, one portion. Adjoining Asher, from the east side to the west, Naphtali, one portion. Then Manasseh, Ephraim, Reuben, Judah. Adjoining the territory of Judah, from the east side to the west, shall be the portion that you shall set apart, 25,000 cubits in breadth, and in length equal to one of the tribal portions, from the east side to the west, with the sanctuary in the midst of it. On the south side shall be Benjamin, Simeon, Issachar, Zebulun, Gad. These shall be the exits of the city: On the north side, which is to be 4,500 cubits by measurement, three gates. On the east side 4,500 cubits, three gates. On the south side, three gates. On the west side, three gates. The circumference of the city shall be 18,000 cubits. And the name of the city from that time on shall be: The LORD Is There.',
+    keyThemes: ['Twelve tribal portions', 'Holy district center', 'Twelve gates', 'The LORD Is There'],
+    christConnection: 'The city\'s name is "The LORD Is There" (Yahweh Shammah). In Christ, God is with us forever. The twelve gates echo Revelation 21\'s New Jerusalem.'
+  }
+];
+
+// Daniel - 12 chapters
+export const DANIEL_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'daniel',
+    chapter: 1,
+    title: 'Daniel in Babylon',
+    summary: 'In the third year of the reign of Jehoiakim king of Judah, Nebuchadnezzar king of Babylon came to Jerusalem and besieged it. The Lord gave Jehoiakim into his hand, with some of the vessels of the house of God. He brought them to the land of Shinar, to the house of his god. The king commanded Ashpenaz, his chief eunuch, to bring some of the people of Israel, of the royal family and of the nobility—youths without blemish, of good appearance, skillful in wisdom, endowed with knowledge, competent to stand in the king\'s palace—to teach them the literature and language of the Chaldeans. Among these were Daniel, Hananiah, Mishael, and Azariah of the tribe of Judah. The chief of the eunuchs gave them names: Daniel he called Belteshazzar; Hananiah, Shadrach; Mishael, Meshach; and Azariah, Abednego. But Daniel resolved that he would not defile himself with the king\'s food or with the wine that he drank. God gave Daniel favor and compassion. He tested them for ten days. At the end, they were better in appearance and fatter in flesh than all the youths who ate the king\'s food. God gave these four youths learning and skill; to Daniel He gave understanding in all visions and dreams.',
+    keyThemes: ['Exile begins', 'Resolve not to defile', 'Ten-day test', 'God gives wisdom'],
+    christConnection: 'Daniel\'s resolve to remain pure foreshadows Christ\'s perfect obedience amid temptation. Both received divine wisdom and favor from God.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 2,
+    title: 'Nebuchadnezzar\'s Dream',
+    summary: 'In the second year of Nebuchadnezzar\'s reign, he had dreams; his spirit was troubled and his sleep left him. The king commanded the magicians, enchanters, sorcerers, and Chaldeans to tell him his dreams. But they said: Let the king tell his servants the dream, and we will show the interpretation. The king answered: If you do not make known to me the dream and its interpretation, you shall be torn limb from limb. The Chaldeans said: There is not a man on earth who can meet the king\'s demand. No god can reveal it. Then Daniel went to Arioch and said: Do not destroy the wise men. Bring me before the king, and I will show the interpretation. That night the mystery was revealed to Daniel in a vision. Daniel blessed the God of heaven: He reveals deep and hidden things. Daniel said to the king: There is a God in heaven who reveals mysteries. You saw a great image—head of gold, chest of silver, middle of bronze, legs of iron, feet of iron and clay. A stone cut out by no human hand struck the image and became a great mountain filling the earth. You are the head of gold. After you, another kingdom, then another. In the days of those kings, the God of heaven will set up a kingdom that shall never be destroyed.',
+    keyThemes: ['Dream demanded', 'Mystery revealed', 'Four kingdoms', 'Stone kingdom'],
+    christConnection: 'The stone cut without hands is Christ\'s kingdom. It crushes all earthly powers and fills the earth forever. His kingdom shall never be destroyed.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 3,
+    title: 'The Fiery Furnace',
+    summary: 'King Nebuchadnezzar made an image of gold, whose height was sixty cubits and its breadth six cubits. He set it up on the plain of Dura in the province of Babylon. The herald proclaimed aloud: When you hear the sound of the horn, pipe, lyre, trigon, harp, bagpipe, and every kind of music, you are to fall down and worship the golden image. Whoever does not fall down and worship shall be cast into a burning fiery furnace. Certain Chaldeans came forward and maliciously accused the Jews: There are certain Jews—Shadrach, Meshach, and Abednego—they pay no attention to you, O king. They do not serve your gods or worship the golden image. Nebuchadnezzar in furious rage commanded that they be brought. He said: Is it true? If you do not worship, you shall be cast into the furnace. And who is the god who will deliver you? They answered: Our God whom we serve is able to deliver us. But if not, be it known that we will not serve your gods or worship the golden image. He ordered the furnace heated seven times more than usual. They bound them and cast them in. The fire killed the soldiers. Nebuchadnezzar was astonished: Did we not cast three men bound into the fire? I see four men walking, and the appearance of the fourth is like a son of the gods!',
+    keyThemes: ['Golden image', 'Refuse to bow', 'Fourth man in fire', 'God able to deliver'],
+    christConnection: 'The fourth figure in the fire—like a son of the gods—is a theophany, a pre-incarnate appearance of Christ. He walks with His people through the fire.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 4,
+    title: 'Nebuchadnezzar\'s Humiliation',
+    summary: 'King Nebuchadnezzar to all peoples, nations, and languages: It has seemed good to me to show the signs and wonders that the Most High God has done for me. How great are His signs! His kingdom is an everlasting kingdom. I was at ease in my house and prospering in my palace. I saw a dream that made me afraid. I commanded that all the wise men of Babylon be brought before me. Then Daniel came in, and I told the dream before him: I saw a tree in the midst of the earth, and its height was great. It grew and became strong, reaching to heaven. Behold, a watcher, a holy one, came down from heaven. He cried aloud: Chop down the tree, but leave the stump. Let him be wet with dew and his portion be with the beasts. Let seven periods of time pass over him, till he knows that the Most High rules the kingdom of men. Daniel was dismayed. He said: The tree is you, O king. You shall be driven from among men, and your dwelling shall be with the beasts of the field, till you know that the Most High rules. Twelve months later, as the king was walking on the roof: Is not this great Babylon, which I have built by my mighty power and for the glory of my majesty? While the words were still in his mouth, a voice fell from heaven: The kingdom has departed from you. Immediately it was fulfilled. At the end of the days, I lifted my eyes to heaven, and my reason returned to me. I blessed the Most High.',
+    keyThemes: ['Great tree', 'Watcher from heaven', 'Seven years as beast', 'Most High rules'],
+    christConnection: 'The Most High rules the kingdom of men. Christ is given all authority in heaven and on earth. He humbles the proud and exalts the humble.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 5,
+    title: 'The Handwriting on the Wall',
+    summary: 'King Belshazzar made a great feast for a thousand of his lords and drank wine in front of the thousand. Belshazzar, when he tasted the wine, commanded that the vessels of gold and silver that Nebuchadnezzar his father had taken out of the temple in Jerusalem be brought, that the king and his lords, his wives, and his concubines might drink from them. Then they brought the golden vessels, and the king and his lords, his wives, and his concubines drank from them. They drank wine and praised the gods of gold and silver, bronze, iron, wood, and stone. Immediately the fingers of a human hand appeared and wrote on the plaster of the wall of the king\'s palace. Then the king\'s color changed, and his thoughts alarmed him; his limbs gave way, and his knees knocked together. They brought Daniel before the king. Daniel said: O king, the Most High God gave Nebuchadnezzar your father kingship, but when his heart was lifted up in pride, he was brought low. And you his son, Belshazzar, have not humbled your heart, though you knew all this. You have lifted up yourself against the Lord of heaven. This is the interpretation: MENE—God has numbered your kingdom and finished it. TEKEL—You have been weighed and found wanting. PERES—Your kingdom is divided and given to the Medes and Persians. That very night Belshazzar was killed.',
+    keyThemes: ['Sacred vessels profaned', 'Handwriting on wall', 'MENE TEKEL PERES', 'Kingdom falls'],
+    christConnection: 'Belshazzar was weighed and found wanting. Christ alone is not found wanting—and He weighs all hearts. Those in Him pass the judgment.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 6,
+    title: 'Daniel in the Lions\' Den',
+    summary: 'It pleased Darius to set over the kingdom 120 satraps, and over them three high officials, of whom Daniel was one. Then Daniel became distinguished above all the others because an excellent spirit was in him. The king planned to set him over the whole kingdom. Then the high officials and satraps sought to find a ground for complaint against Daniel concerning the kingdom, but they could find no ground. We shall not find any ground for complaint against this Daniel unless we find it in connection with the law of his God. Then these men came to the king: O King Darius, all the high officials, the prefects and satraps, have agreed that the king should establish an ordinance that whoever makes petition to any god or man for thirty days, except to you, O king, shall be cast into the den of lions. King Darius signed the document. When Daniel knew the document had been signed, he went to his house where he had windows open toward Jerusalem. He got down on his knees three times a day and prayed as he had done previously. Then these men found Daniel making petition to his God. The king was much distressed and labored till the sun went down to rescue him. Daniel was cast into the den. The king said: May your God, whom you serve continually, deliver you! At break of day, the king went in haste to the den and called: Daniel, servant of the living God, has your God been able to deliver you? Daniel said: My God sent His angel and shut the lions\' mouths.',
+    keyThemes: ['Excellent spirit', 'Conspiracy against Daniel', 'Prayer despite decree', 'Lions\' mouths shut'],
+    christConnection: 'Daniel in the sealed den and emerging alive pictures Christ\'s resurrection. The stone is rolled away, and the faithful servant of God emerges victorious.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 7,
+    title: 'The Vision of the Four Beasts',
+    summary: 'In the first year of Belshazzar king of Babylon, Daniel saw a dream and visions of his head as he lay in bed. Then he wrote down the dream. Daniel declared: I saw in my vision by night the four winds of heaven stirring up the great sea. And four great beasts came up out of the sea, different from one another. The first was like a lion with eagles\' wings. I watched till its wings were plucked off. And behold, another beast, a second one, like a bear. It was told: Arise, devour much flesh. And behold, another, like a leopard, with four wings and four heads. And behold, a fourth beast, terrifying and dreadful, with great iron teeth. It devoured and broke in pieces. It had ten horns. I considered the horns, and behold, there came up among them another horn, a little one, before which three horns were plucked up. And behold, in this horn were eyes like the eyes of a man, and a mouth speaking great things. As I looked, thrones were placed, and the Ancient of Days took His seat; His clothing was white as snow, and the hair of His head like pure wool; His throne was fiery flames. Ten thousand times ten thousand stood before Him. The court sat in judgment, and the books were opened. One like a Son of Man came with the clouds of heaven. To Him was given dominion and glory and a kingdom, that all peoples, nations, and languages should serve Him. His dominion is an everlasting dominion.',
+    keyThemes: ['Four beasts', 'Little horn', 'Ancient of Days', 'Son of Man'],
+    christConnection: 'The Son of Man coming on clouds is Christ—Jesus used this title for Himself. He receives the everlasting kingdom from the Ancient of Days.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 8,
+    title: 'The Vision of the Ram and Goat',
+    summary: 'In the third year of King Belshazzar a vision appeared to me, Daniel. I saw in the vision, and I was in Susa the citadel, which is in the province of Elam. I saw a ram standing on the bank of the canal. It had two horns, both high, but one was higher than the other. I saw the ram charging westward and northward and southward. No beast could stand before him, and there was no one who could rescue from his power. As I was considering, behold, a male goat came from the west across the face of the whole earth, without touching the ground. The goat had a conspicuous horn between his eyes. He came to the ram and ran at him in his powerful wrath. He struck the ram and broke his two horns. Then the goat became exceedingly great, but when he was strong, the great horn was broken, and instead of it there came up four conspicuous horns. Out of one of them came a little horn, which grew exceedingly great toward the south, toward the east, and toward the glorious land. It took away the regular burnt offering, and the place of his sanctuary was overthrown. Gabriel said: Understand, O son of man, that the vision is for the time of the end. The ram is the kings of Media and Persia. The goat is the king of Greece. The horn that was broken is the first king, and the four that arose are four kingdoms.',
+    keyThemes: ['Ram and goat', 'Conspicuous horn', 'Sanctuary defiled', 'Time of the end'],
+    christConnection: 'The little horn foreshadows antichrist figures who oppose God\'s sanctuary. Christ, the true temple, cannot be overthrown—His kingdom stands forever.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 9,
+    title: 'Daniel\'s Prayer and the Seventy Weeks',
+    summary: 'In the first year of Darius son of Ahasuerus, by descent a Mede, who was made king over the realm of the Chaldeans—in the first year of his reign, I, Daniel, perceived in the books the number of years that, according to the word of the LORD to Jeremiah the prophet, must pass before the end of the desolations of Jerusalem, namely, seventy years. Then I turned my face to the Lord God, seeking Him by prayer and pleas for mercy with fasting and sackcloth and ashes. I prayed to the LORD my God and made confession: O Lord, the great and awesome God, who keeps covenant and steadfast love with those who love Him and keep His commandments, we have sinned and done wrong. To You, O Lord, belongs righteousness, but to us open shame. O Lord, hear; O Lord, forgive. While I was speaking in prayer, the man Gabriel came to me in swift flight. He said: O Daniel, I have now come out to give you insight and understanding. Seventy weeks are decreed about your people and your holy city, to finish the transgression, to put an end to sin, and to atone for iniquity, to bring in everlasting righteousness, to seal both vision and prophet, and to anoint a most holy place. From the going out of the word to restore Jerusalem to the coming of an anointed one, a prince, shall be seven weeks. Then for sixty-two weeks it shall be built again. After the sixty-two weeks, an anointed one shall be cut off and shall have nothing.',
+    keyThemes: ['Seventy years fulfilled', 'Prayer of confession', 'Seventy weeks decreed', 'Anointed one cut off'],
+    christConnection: 'The anointed one cut off is Christ crucified. The seventy weeks prophecy points to His atoning work that finishes transgression and brings everlasting righteousness.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 10,
+    title: 'Daniel\'s Vision by the Tigris',
+    summary: 'In the third year of Cyrus king of Persia a word was revealed to Daniel, who was called Belteshazzar. And the word was true, and it was a great conflict. And he understood the word and had understanding of the vision. In those days I, Daniel, was mourning for three weeks. I ate no delicacies, no meat or wine entered my mouth, nor did I anoint myself at all. On the twenty-fourth day of the first month, as I was standing on the bank of the great river, the Tigris, I lifted up my eyes and looked, and behold, a man clothed in linen, with a belt of fine gold from Uphaz around his waist. His body was like beryl, his face like the appearance of lightning, his eyes like flaming torches, his arms and legs like the gleam of burnished bronze, and the sound of his words like the sound of a multitude. I, Daniel, alone saw the vision. The men who were with me did not see the vision, but a great trembling fell upon them. So I was left alone and saw this great vision, and no strength was left in me. Then behold, a hand touched me and set me trembling on my hands and knees. He said to me: O Daniel, man greatly loved. Fear not, peace be with you; be strong and of good courage. The prince of the kingdom of Persia withstood me twenty-one days, but Michael, one of the chief princes, came to help me.',
+    keyThemes: ['Three weeks mourning', 'Glorious man', 'Daniel strengthened', 'Spiritual warfare'],
+    christConnection: 'The glorious man resembles Christ in Revelation 1. Behind earthly events stands spiritual warfare. Christ has conquered all principalities and powers.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 11,
+    title: 'The Kings of the South and North',
+    summary: 'And as for me, in the first year of Darius the Mede, I stood up to confirm and strengthen him. And now I will show you the truth. Behold, three more kings shall arise in Persia, and a fourth shall be far richer than all of them. And when he has become strong through his riches, he shall stir up all against the kingdom of Greece. Then a mighty king shall arise, who shall rule with great dominion and do as he wills. And as soon as he has arisen, his kingdom shall be broken and divided toward the four winds of heaven. Then the king of the south shall be strong, but one of his princes shall be stronger than he and shall rule. After some years they shall make an alliance. And the daughter of the king of the south shall come to the king of the north to make an agreement. But she shall not retain the strength of her arm. He shall come into the realm of the king of the south but shall return to his own land. And in those times many shall rise against the king of the south. The violent among your own people shall lift themselves up in order to fulfill the vision, but they shall fail. Forces from him shall appear and profane the temple and fortress, and shall take away the regular burnt offering. And they shall set up the abomination that makes desolate. In the time of the end the king of the south shall attack him, but the king of the north shall rush upon him like a whirlwind.',
+    keyThemes: ['Kings of Persia', 'Mighty king', 'South and North', 'Abomination of desolation'],
+    christConnection: 'The abomination of desolation foreshadows events Christ prophesied (Matt 24:15). But He triumphs over all earthly powers and establishes His eternal kingdom.'
+  },
+  {
+    bookId: 'daniel',
+    chapter: 12,
+    title: 'The Time of the End',
+    summary: 'At that time shall arise Michael, the great prince who has charge of your people. And there shall be a time of trouble, such as never has been since there was a nation till that time. But at that time your people shall be delivered, everyone whose name shall be found written in the book. And many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt. And those who are wise shall shine like the brightness of the sky above, and those who turn many to righteousness, like the stars forever and ever. But you, Daniel, shut up the words and seal the book, until the time of the end. Many shall run to and fro, and knowledge shall increase. Then I, Daniel, looked, and behold, two others stood, one on this bank of the stream and one on that bank. And someone said to the man clothed in linen, who was above the waters of the stream: How long shall it be till the end of these wonders? He raised his right hand and his left hand toward heaven and swore by Him who lives forever that it would be for a time, times, and half a time. As for me, I heard but I did not understand. Then I said: O my lord, what shall be the outcome of these things? He said: Go your way, Daniel. The words are shut up and sealed until the time of the end. Blessed is he who waits and arrives at the 1,335 days. But go your way till the end. And you shall rest and shall stand in your allotted place at the end of the days.',
+    keyThemes: ['Michael arises', 'Time of trouble', 'Resurrection', 'Sealed till the end'],
+    christConnection: 'Christ is the resurrection and the life. Those written in the book awake to everlasting life. Daniel will rest and rise at the end of days—as will all in Christ.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -6568,6 +7100,12 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return ISAIAH_CHAPTERS;
     case 'jeremiah':
       return JEREMIAH_CHAPTERS;
+    case 'lamentations':
+      return LAMENTATIONS_CHAPTERS;
+    case 'ezekiel':
+      return EZEKIEL_CHAPTERS;
+    case 'daniel':
+      return DANIEL_CHAPTERS;
     // More books will be added
     default:
       return [];
@@ -6600,4 +7138,7 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'song-of-solomon', bookName: 'Song of Solomon', chapters: SONG_OF_SOLOMON_CHAPTERS },
   { bookId: 'isaiah', bookName: 'Isaiah', chapters: ISAIAH_CHAPTERS },
   { bookId: 'jeremiah', bookName: 'Jeremiah', chapters: JEREMIAH_CHAPTERS },
+  { bookId: 'lamentations', bookName: 'Lamentations', chapters: LAMENTATIONS_CHAPTERS },
+  { bookId: 'ezekiel', bookName: 'Ezekiel', chapters: EZEKIEL_CHAPTERS },
+  { bookId: 'daniel', bookName: 'Daniel', chapters: DANIEL_CHAPTERS },
 ];
