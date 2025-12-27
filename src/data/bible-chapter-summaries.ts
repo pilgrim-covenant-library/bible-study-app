@@ -7869,6 +7869,138 @@ export const MATTHEW_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// Mark - The Servant Messiah (16 chapters)
+const MARK_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'mark',
+    chapter: 1,
+    title: 'The Beginning of the Gospel',
+    summary: 'The beginning of the gospel of Jesus Christ, the Son of God. As it is written in Isaiah the prophet, Behold, I send my messenger before your face, who will prepare your way—the voice of one crying in the wilderness: Prepare the way of the Lord, make his paths straight. John appeared, baptizing in the wilderness and proclaiming a baptism of repentance for the forgiveness of sins. And all the country of Judea and all Jerusalem were going out to him. And he preached, saying, After me comes he who is mightier than I. I have baptized you with water, but he will baptize you with the Holy Spirit. In those days Jesus came from Nazareth of Galilee and was baptized by John in the Jordan. And the Spirit immediately drove him out into the wilderness, where he was tempted by Satan. Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God: The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel. Jesus called Simon and Andrew, James and John. He taught with authority, cast out demons, healed Peter\'s mother-in-law, and cleansed a leper.',
+    keyThemes: ['Gospel of Jesus Christ', 'Prepare the way', 'Kingdom at hand', 'Repent and believe'],
+    christConnection: 'Mark wastes no time—Jesus is the Son of God whose coming Isaiah foretold. He brings the kingdom, preaches the gospel, heals diseases, and casts out demons with authority.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 2,
+    title: 'Authority to Forgive Sins',
+    summary: 'And when he returned to Capernaum after some days, it was reported that he was at home. And many were gathered together, so that there was no more room, not even at the door. And he was preaching the word to them. And they came, bringing to him a paralytic carried by four men. And when they could not get near him because of the crowd, they removed the roof above him, and when they had made an opening, they let down the bed on which the paralytic lay. And when Jesus saw their faith, he said to the paralytic, Son, your sins are forgiven. Now some of the scribes were sitting there, questioning in their hearts, Why does this man speak like that? He is blaspheming! Who can forgive sins but God alone? And Jesus said, That you may know that the Son of Man has authority on earth to forgive sins—he said to the paralytic—Rise, pick up your bed, and go home. Jesus called Levi the tax collector. And as he reclined at table, many tax collectors and sinners were reclining with Jesus. And he said, Those who are well have no need of a physician, but those who are sick. I came not to call the righteous, but sinners. The Son of Man is lord even of the Sabbath.',
+    keyThemes: ['Authority to forgive', 'Faith of friends', 'Calling sinners', 'Lord of Sabbath'],
+    christConnection: 'Christ demonstrates divine authority by forgiving sins—something only God can do. He comes as the Great Physician to call sinners. He is Lord of the Sabbath.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 3,
+    title: 'Calling the Twelve',
+    summary: 'Again he entered the synagogue, and a man was there with a withered hand. And they watched Jesus, to see whether he would heal him on the Sabbath, so that they might accuse him. And he said to the man with the withered hand, Come here. And he said to them, Is it lawful on the Sabbath to do good or to do harm, to save life or to kill? But they were silent. And he looked around at them with anger, grieved at their hardness of heart, and said to the man, Stretch out your hand. He stretched it out, and his hand was restored. The Pharisees went out and immediately held counsel with the Herodians against him, how to destroy him. And Jesus withdrew with his disciples to the sea, and a great crowd followed. And he went up on the mountain and called to him those whom he desired, and they came to him. And he appointed twelve whom he also named apostles so that they might be with him and he might send them out to preach and have authority to cast out demons. And the scribes who came down from Jerusalem were saying, He is possessed by Beelzebul. And he said, How can Satan cast out Satan? Whoever blasphemes against the Holy Spirit never has forgiveness.',
+    keyThemes: ['Sabbath controversy', 'Appointing twelve', 'Beelzebul accusation', 'Blasphemy against Spirit'],
+    christConnection: 'Christ appoints twelve apostles to be with Him and extend His ministry. He warns against attributing the Spirit\'s work to Satan—an unforgivable rejection of God\'s grace.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 4,
+    title: 'Parables of the Kingdom',
+    summary: 'Again he began to teach beside the sea. And a very large crowd gathered about him. And he was teaching them many things in parables. Listen! Behold, a sower went out to sow. And as he sowed, some seed fell along the path, and the birds came and devoured it. Other seed fell on rocky ground, where it did not have much soil. Other seed fell among thorns. And other seeds fell into good soil and produced grain, growing up and increasing and yielding thirtyfold and sixtyfold and a hundredfold. He who has ears to hear, let him hear. And he said, To you has been given the secret of the kingdom of God, but for those outside everything is in parables. And he said, The kingdom of God is as if a man should scatter seed on the ground. The earth produces by itself, first the blade, then the ear, then the full grain in the ear. It is like a grain of mustard seed. On that day, when evening had come, he said, Let us go across to the other side. And a great windstorm arose. And he awoke and rebuked the wind and said to the sea, Peace! Be still! And they were filled with great fear and said, Who then is this, that even the wind and the sea obey him?',
+    keyThemes: ['Parable of sower', 'Secrets of kingdom', 'Mustard seed', 'Calming the storm'],
+    christConnection: 'Christ teaches in parables to reveal kingdom mysteries. He is the sower whose word produces fruit in good soil. He commands wind and sea—only God controls nature.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 5,
+    title: 'Power Over Demons, Disease, and Death',
+    summary: 'They came to the other side of the sea, to the country of the Gerasenes. And when Jesus had stepped out of the boat, immediately there met him out of the tombs a man with an unclean spirit. He lived among the tombs. No one could bind him anymore. Night and day among the tombs and on the mountains he was always crying out and cutting himself with stones. And when he saw Jesus from afar, he ran and fell down before him. And crying out with a loud voice, he said, What have you to do with me, Jesus, Son of the Most High God? My name is Legion, for we are many. Now a great herd of pigs was feeding there. Send us to the pigs. So he gave them permission. And the unclean spirits came out and entered the pigs, and the herd rushed down the steep bank into the sea. Then came one of the rulers of the synagogue, Jairus by name. My little daughter is at the point of death. And a woman who had had a discharge of blood for twelve years touched his garment. And she was healed. While he was still speaking, they came from the ruler\'s house saying, Your daughter is dead. But Jesus said, Do not fear, only believe. And he said, Talitha cumi—Little girl, I say to you, arise. And immediately the girl got up.',
+    keyThemes: ['Legion cast out', 'Hemorrhaging woman', 'Jairus daughter raised', 'Fear not believe'],
+    christConnection: 'Christ has power over demons, disease, and death itself. Legion bows before the Son of the Most High. Faith touches His garment for healing. His word raises the dead.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 6,
+    title: 'Rejection, Mission, and Feeding the Five Thousand',
+    summary: 'He went away from there and came to his hometown, and his disciples followed him. And on the Sabbath he began to teach in the synagogue, and many who heard him were astonished. Where did this man get these things? Is not this the carpenter, the son of Mary? And they took offense at him. And Jesus said to them, A prophet is not without honor, except in his hometown and among his relatives and in his own household. And he could do no mighty work there because of their unbelief. And he called the twelve and began to send them out two by two, and gave them authority over the unclean spirits. Meanwhile King Herod heard of it, for Jesus\' name had become known. For Herod had sent and seized John and bound him in prison. And the apostles returned and told him all that they had done. And he said, Come away by yourselves to a desolate place and rest a while. And they saw them going and many ran there on foot. Taking the five loaves and the two fish, he looked up to heaven and said a blessing. And they all ate and were satisfied. And they took up twelve baskets full. About the fourth watch of the night he came to them, walking on the sea.',
+    keyThemes: ['Rejected in hometown', 'Apostles sent out', 'John beheaded', 'Five thousand fed'],
+    christConnection: 'Even rejected by His own, Christ sends out apostles with His authority. He is the bread of life who feeds multitudes. He walks on water—God alone treads the waves.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 7,
+    title: 'Traditions of Men and True Cleanliness',
+    summary: 'Now when the Pharisees gathered to him, with some of the scribes who had come from Jerusalem, they saw that some of his disciples ate with hands that were defiled, that is, unwashed. Why do your disciples not walk according to the tradition of the elders? And he said to them, Well did Isaiah prophesy of you hypocrites, as it is written, This people honors me with their lips, but their heart is far from me; in vain do they worship me, teaching as doctrines the commandments of men. You leave the commandment of God and hold to the tradition of men. And he called the people to him again and said, There is nothing outside a person that by going into him can defile him, but the things that come out of a person are what defile him. For from within, out of the heart of man, come evil thoughts, sexual immorality, theft, murder, adultery, coveting, wickedness, deceit, sensuality, envy, slander, pride, foolishness. All these evil things come from within, and they defile a person. And from there he arose and went away to the region of Tyre and Sidon. And a Syrophoenician woman begged him to cast the demon out of her daughter. And he healed the daughter of the Syrophoenician woman and a deaf man in the Decapolis.',
+    keyThemes: ['Tradition vs commandment', 'Heart defilement', 'Syrophoenician woman', 'Deaf man healed'],
+    christConnection: 'Christ exposes human traditions that nullify God\'s Word. True defilement comes from the heart. His grace extends to Gentiles—the Syrophoenician woman\'s faith is honored.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 8,
+    title: 'Feeding Four Thousand and Peter\'s Confession',
+    summary: 'In those days, when again a great crowd had gathered, and they had nothing to eat, he called his disciples and said, I have compassion on the crowd, because they have been with me now three days and have nothing to eat. And his disciples answered him, How can one feed these people with bread here in this desolate place? And he asked them, How many loaves do you have? They said, Seven. And he took the seven loaves, and having given thanks, he broke them. And they ate and were satisfied. And they took up the broken pieces left over, seven baskets full. And there were about four thousand people. And the Pharisees came and began to argue with him, seeking from him a sign from heaven. And he sighed deeply in his spirit and said, Why does this generation seek a sign? And he began to teach them that the Son of Man must suffer many things and be rejected by the elders and the chief priests and the scribes and be killed, and after three days rise again. And Peter took him aside and began to rebuke him. But turning and seeing his disciples, he rebuked Peter and said, Get behind me, Satan! For you are not setting your mind on the things of God, but on the things of man. If anyone would come after me, let him deny himself and take up his cross and follow me.',
+    keyThemes: ['Four thousand fed', 'Peter confesses Christ', 'Son of Man must suffer', 'Take up cross'],
+    christConnection: 'Christ again feeds multitudes with compassion. Peter confesses He is the Christ, yet stumbles at the cross. Following Jesus means denying self and embracing the cross.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 9,
+    title: 'The Transfiguration',
+    summary: 'And after six days Jesus took with him Peter and James and John, and led them up a high mountain by themselves. And he was transfigured before them, and his clothes became radiant, intensely white, as no one on earth could bleach them. And there appeared to them Elijah with Moses, and they were talking with Jesus. And Peter said to Jesus, Rabbi, it is good that we are here. Let us make three tents. For he did not know what to say, for they were terrified. And a cloud overshadowed them, and a voice came out of the cloud, This is my beloved Son; listen to him. And suddenly, looking around, they no longer saw anyone with them but Jesus only. And when they came to the disciples, they saw a great crowd around them. Teacher, I brought my son to you, for he has a spirit that makes him mute. I asked your disciples to cast it out, and they were not able. And he answered them, O faithless generation, how long am I to be with you? Bring him to me. And Jesus rebuked the unclean spirit. The Son of Man is going to be delivered into the hands of men, and they will kill him. And when he is killed, after three days he will rise. Whoever receives one such child in my name receives me.',
+    keyThemes: ['Transfiguration glory', 'Listen to him', 'Faith and prayer', 'Servant of all'],
+    christConnection: 'On the mount, Christ\'s divine glory shines forth. The Father commands: Listen to Him! He predicts His death and resurrection, then teaches that greatness is humble service.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 10,
+    title: 'Teaching on Marriage, Riches, and Servanthood',
+    summary: 'And Pharisees came up and in order to test him asked, Is it lawful for a man to divorce his wife? He answered them, What did Moses command you? They said, Moses allowed a man to write a certificate of divorce and to send her away. And Jesus said, Because of your hardness of heart he wrote you this commandment. But from the beginning of creation, God made them male and female. Therefore a man shall leave his father and mother and hold fast to his wife. What therefore God has joined together, let not man separate. And they were bringing children to him that he might touch them. Let the children come to me; do not hinder them, for to such belongs the kingdom of God. And as he was setting out on his journey, a man ran up and knelt before him. Good Teacher, what must I do to inherit eternal life? Go, sell all that you have and give to the poor, and you will have treasure in heaven; and come, follow me. Disheartened by the saying, he went away sorrowful. It is easier for a camel to go through the eye of a needle than for a rich person to enter the kingdom of God. For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.',
+    keyThemes: ['Marriage covenant', 'Children welcome', 'Rich young ruler', 'Ransom for many'],
+    christConnection: 'Christ upholds marriage as God\'s creation ordinance. He welcomes little children. The rich young ruler stumbles on wealth. Christ came to serve and give His life as ransom.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 11,
+    title: 'The Triumphal Entry and Temple Cleansing',
+    summary: 'Now when they drew near to Jerusalem, to Bethphage and Bethany, at the Mount of Olives, Jesus sent two of his disciples and said to them, Go into the village in front of you, and immediately as you enter it you will find a colt tied, on which no one has ever sat. Untie it and bring it. And they brought the colt to Jesus. And those who went before and those who followed were shouting, Hosanna! Blessed is he who comes in the name of the Lord! Blessed is the coming kingdom of our father David! Hosanna in the highest! And he entered Jerusalem and went into the temple. And when he had looked around at everything, as it was already late, he went out to Bethany. On the following day, when they came from Bethany, he was hungry. And seeing in the distance a fig tree in leaf, he went to see if he could find anything on it. Finding nothing but leaves, he said to it, May no one ever eat fruit from you again. And they came to Jerusalem. And he entered the temple and began to drive out those who sold and those who bought in the temple. Is it not written, My house shall be called a house of prayer for all the nations? But you have made it a den of robbers.',
+    keyThemes: ['Hosanna to Son of David', 'Fig tree cursed', 'Temple cleansed', 'House of prayer'],
+    christConnection: 'Christ enters Jerusalem as the King promised to David. The cursed fig tree pictures Israel\'s spiritual barrenness. He cleanses the temple, asserting His authority over His Father\'s house.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 12,
+    title: 'Parables and Controversies',
+    summary: 'And he began to speak to them in parables. A man planted a vineyard. And he leased it to tenants and went into another country. When the season came, he sent a servant to the tenants to get from them some of the fruit of the vineyard. And they took him and beat him and sent him away empty-handed. They sent to him another servant; that one they struck on the head. And he had still one other, a beloved son. Finally he sent him to them, saying, They will respect my son. But those tenants said, This is the heir. Come, let us kill him. And they took him and killed him. What will the owner of the vineyard do? He will come and destroy the tenants and give the vineyard to others. The stone that the builders rejected has become the cornerstone. And they sent to him some of the Pharisees and some of the Herodians. Is it lawful to pay taxes to Caesar, or not? Render to Caesar the things that are Caesar\'s, and to God the things that are God\'s. The greatest commandment: Love the Lord your God with all your heart. The second is this: Love your neighbor as yourself. And a poor widow came and put in two small copper coins. She out of her poverty has put in everything she had.',
+    keyThemes: ['Wicked tenants', 'Rejected cornerstone', 'Render to Caesar', 'Widow\'s mites'],
+    christConnection: 'Christ is the beloved Son killed by the tenants, yet He becomes the cornerstone. All authority belongs to Him. The widow\'s sacrificial giving pictures total devotion.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 13,
+    title: 'The Olivet Discourse',
+    summary: 'And as he came out of the temple, one of his disciples said to him, Look, Teacher, what wonderful stones and what wonderful buildings! And Jesus said to him, Do you see these great buildings? There will not be left here one stone upon another that will not be thrown down. And as he sat on the Mount of Olives opposite the temple, Peter and James and John and Andrew asked him privately, Tell us, when will these things be, and what will be the sign when all these things are about to be accomplished? And Jesus began to say to them, See that no one leads you astray. Many will come in my name, saying, I am he! And you will hear of wars and rumors of wars. Nation will rise against nation, and kingdom against kingdom. And the gospel must first be proclaimed to all nations. When you see the abomination of desolation standing where he ought not to be, then let those who are in Judea flee to the mountains. And then they will see the Son of Man coming in clouds with great power and glory. But concerning that day or that hour, no one knows, not even the angels in heaven, nor the Son, but only the Father. Be on guard, keep awake. For you do not know when the time will come. What I say to you I say to all: Stay awake.',
+    keyThemes: ['Temple destruction', 'Signs of the end', 'Gospel to all nations', 'Stay awake'],
+    christConnection: 'Christ prophesies Jerusalem\'s destruction and His glorious return. The gospel will reach all nations before the end. We are to watch and stay awake for His coming.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 14,
+    title: 'Anointing, Supper, and Arrest',
+    summary: 'It was now two days before the Passover and the Feast of Unleavened Bread. And the chief priests and the scribes were seeking how to arrest him by stealth. And while he was at Bethany in the house of Simon the leper, as he was reclining at table, a woman came with an alabaster flask of ointment of pure nard, very costly, and she broke the flask and poured it over his head. She has done a beautiful thing to me. She has anointed my body beforehand for burial. And when it was evening, he came with the twelve. And as they were reclining at table and eating, Jesus said, Truly, I say to you, one of you will betray me. And as they were eating, he took bread, and after blessing it broke it and gave it to them, and said, Take; this is my body. And he took a cup, and when he had given thanks he gave it to them, and they all drank of it. And he said, This is my blood of the covenant, which is poured out for many. And they went to a place called Gethsemane. Abba, Father, all things are possible for you. Remove this cup from me. Yet not what I will, but what you will. And immediately, while he was still speaking, Judas came. And they laid hands on him and seized him.',
+    keyThemes: ['Anointed for burial', 'Last Supper', 'Gethsemane agony', 'Betrayed and arrested'],
+    christConnection: 'Christ is anointed for burial. He institutes the Lord\'s Supper—His body broken, His blood poured out. In Gethsemane He submits to the Father\'s will, embracing the cup of wrath.'
+  },
+  {
+    bookId: 'mark',
+    chapter: 15,
+    title: 'Trial, Crucifixion, and Burial',
+    summary: 'And as soon as it was morning, the chief priests held a consultation with the elders and scribes and the whole council. And they bound Jesus and led him away and delivered him over to Pilate. And Pilate asked him, Are you the King of the Jews? And he answered him, You have said so. And Pilate said to them, What shall I do with the man you call the King of the Jews? And they cried out again, Crucify him! And the soldiers led him away inside the palace. And they clothed him in a purple cloak, and twisting together a crown of thorns, they put it on him. And they struck his head with a reed. And when they had mocked him, they stripped him of the purple cloak and put his own clothes on him. And they led him out to crucify him. And they compelled a passerby, Simon of Cyrene, to carry his cross. And they brought him to the place called Golgotha. And they crucified him. And with him they crucified two robbers. And Jesus uttered a loud cry and breathed his last. And the curtain of the temple was torn in two, from top to bottom. And when the centurion saw that in this way he breathed his last, he said, Truly this man was the Son of God! Joseph of Arimathea took courage and went to Pilate and asked for the body of Jesus.',
+    keyThemes: ['Delivered to Pilate', 'Barabbas released', 'Crucified', 'Curtain torn'],
+    christConnection: 'Christ the King is mocked with thorns and purple. He is crucified between criminals. The torn curtain shows access to God is now open. Even the centurion confesses: Son of God!'
+  },
+  {
+    bookId: 'mark',
+    chapter: 16,
+    title: 'The Resurrection',
+    summary: 'When the Sabbath was past, Mary Magdalene, Mary the mother of James, and Salome bought spices, so that they might go and anoint him. And very early on the first day of the week, when the sun had risen, they went to the tomb. And they were saying to one another, Who will roll away the stone for us from the entrance of the tomb? And looking up, they saw that the stone had been rolled back—it was very large. And entering the tomb, they saw a young man sitting on the right side, dressed in a white robe, and they were alarmed. And he said to them, Do not be alarmed. You seek Jesus of Nazareth, who was crucified. He has risen; he is not here. See the place where they laid him. But go, tell his disciples and Peter that he is going before you to Galilee. There you will see him, just as he told you. And they went out and fled from the tomb, for trembling and astonishment had seized them, and they said nothing to anyone, for they were afraid. Now when he rose early on the first day of the week, he appeared first to Mary Magdalene. Afterward he appeared to the eleven themselves as they were reclining at table. And he said to them, Go into all the world and proclaim the gospel to the whole creation.',
+    keyThemes: ['Stone rolled away', 'He has risen', 'Tell disciples and Peter', 'Go into all the world'],
+    christConnection: 'Christ is risen! The tomb is empty. He appears to Mary Magdalene, then to the eleven. He commissions them to proclaim the gospel to all creation. Death is defeated!'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -7952,6 +8084,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return MALACHI_CHAPTERS;
     case 'matthew':
       return MATTHEW_CHAPTERS;
+    case 'mark':
+      return MARK_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -8001,4 +8135,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'malachi', bookName: 'Malachi', chapters: MALACHI_CHAPTERS },
   // New Testament
   { bookId: 'matthew', bookName: 'Matthew', chapters: MATTHEW_CHAPTERS },
+  { bookId: 'mark', bookName: 'Mark', chapters: MARK_CHAPTERS },
 ];
