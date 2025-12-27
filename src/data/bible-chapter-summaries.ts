@@ -8197,6 +8197,122 @@ const LUKE_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// John - The Word Made Flesh (21 chapters)
+const JOHN_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'john',
+    chapter: 1,
+    title: 'The Word Became Flesh',
+    summary: 'In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that was made. In him was life, and the life was the light of men. The light shines in the darkness, and the darkness has not overcome it. There was a man sent from God, whose name was John. He came as a witness, to bear witness about the light. The true light, which gives light to everyone, was coming into the world. And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth. For from his fullness we have all received, grace upon grace. For the law was given through Moses; grace and truth came through Jesus Christ. No one has ever seen God; the only God, who is at the Father\'s side, he has made him known. The next day John saw Jesus coming toward him, and said, Behold, the Lamb of God, who takes away the sin of the world! And I have seen and have borne witness that this is the Son of God. Rabbi, where are you staying? He said, Come and you will see.',
+    keyThemes: ['Word was God', 'Word became flesh', 'Lamb of God', 'Full of grace and truth'],
+    christConnection: 'Christ is the eternal Word who was with God and was God. He created all things. He became flesh, revealing the Father\'s glory. He is the Lamb of God who takes away sin.'
+  },
+  {
+    bookId: 'john',
+    chapter: 2,
+    title: 'Water to Wine and Temple Cleansing',
+    summary: 'On the third day there was a wedding at Cana in Galilee, and the mother of Jesus was there. Jesus also was invited to the wedding with his disciples. When the wine ran out, the mother of Jesus said to him, They have no wine. And Jesus said to her, Woman, what does this have to do with me? My hour has not yet come. His mother said to the servants, Do whatever he tells you. Now there were six stone water jars there for the Jewish rites of purification. Jesus said to them, Fill the jars with water. Now draw some out and take it to the master of the feast. When the master of the feast tasted the water now become wine, and did not know where it came from, he called the bridegroom and said, Everyone serves the good wine first, but you have kept the good wine until now. This, the first of his signs, Jesus did at Cana in Galilee, and manifested his glory. And his disciples believed in him. The Passover of the Jews was at hand, and Jesus went up to Jerusalem. In the temple he found those who were selling oxen and sheep and pigeons. And making a whip of cords, he drove them all out of the temple. Destroy this temple, and in three days I will raise it up. But he was speaking about the temple of his body.',
+    keyThemes: ['Water to wine', 'Manifested his glory', 'Temple cleansing', 'Temple of his body'],
+    christConnection: 'Christ\'s first sign reveals His glory—transforming water to wine. He cleanses the temple and speaks of His body as the true temple that will be raised in three days.'
+  },
+  {
+    bookId: 'john',
+    chapter: 3,
+    title: 'You Must Be Born Again',
+    summary: 'Now there was a man of the Pharisees named Nicodemus, a ruler of the Jews. This man came to Jesus by night and said to him, Rabbi, we know that you are a teacher come from God, for no one can do these signs that you do unless God is with him. Jesus answered him, Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God. Nicodemus said to him, How can a man be born when he is old? Jesus answered, Unless one is born of water and the Spirit, he cannot enter the kingdom of God. That which is born of the flesh is flesh, and that which is born of the Spirit is spirit. Do not marvel that I said to you, You must be born again. The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit. And as Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life. For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life. For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him.',
+    keyThemes: ['Born again', 'Born of Spirit', 'Son lifted up', 'God so loved the world'],
+    christConnection: 'Christ teaches Nicodemus about new birth by the Spirit. As the bronze serpent was lifted up, so must Christ be lifted up on the cross. God gave His Son that believers might have eternal life.'
+  },
+  {
+    bookId: 'john',
+    chapter: 4,
+    title: 'The Woman at the Well',
+    summary: 'Now when Jesus learned that the Pharisees had heard that Jesus was making and baptizing more disciples than John, he left Judea and departed again for Galilee. And he had to pass through Samaria. So he came to a town of Samaria called Sychar. Jacob\'s well was there; so Jesus, wearied as he was from his journey, was sitting beside the well. A woman from Samaria came to draw water. Jesus said to her, Give me a drink. The Samaritan woman said to him, How is it that you, a Jew, ask for a drink from me, a woman of Samaria? Jesus answered her, If you knew the gift of God, and who it is that is saying to you, Give me a drink, you would have asked him, and he would have given you living water. Everyone who drinks of this water will be thirsty again, but whoever drinks of the water that I will give him will never be thirsty again. The water that I will give him will become in him a spring of water welling up to eternal life. The woman said, I know that Messiah is coming. Jesus said to her, I who speak to you am he. The woman went away into town and said, Come, see a man who told me all that I ever did. Can this be the Christ? And many Samaritans from that town believed in him.',
+    keyThemes: ['Living water', 'Worship in spirit and truth', 'I am he', 'Many believed'],
+    christConnection: 'Christ offers living water that eternally satisfies. He reveals Himself to the Samaritan woman as the Messiah. True worship is in spirit and truth. Many Samaritans believe—He is Savior of the world.'
+  },
+  {
+    bookId: 'john',
+    chapter: 5,
+    title: 'Healing at the Pool and the Son\'s Authority',
+    summary: 'After this there was a feast of the Jews, and Jesus went up to Jerusalem. Now there is in Jerusalem by the Sheep Gate a pool, in Aramaic called Bethesda, which has five roofed colonnades. In these lay a multitude of invalids—blind, lame, and paralyzed. One man was there who had been an invalid for thirty-eight years. When Jesus saw him lying there and knew that he had already been there a long time, he said to him, Do you want to be healed? The sick man answered him, Sir, I have no one to put me into the pool when the water is stirred up. Jesus said to him, Get up, take up your bed, and walk. And at once the man was healed, and he took up his bed and walked. Now that day was the Sabbath. So the Jews said to him who had been healed, It is the Sabbath, and it is not lawful for you to take up your bed. And this was why the Jews were persecuting Jesus, because he was doing these things on the Sabbath. But Jesus answered them, My Father is working until now, and I am working. Truly, truly, I say to you, the Son can do nothing of his own accord, but only what he sees the Father doing. For as the Father raises the dead and gives them life, so also the Son gives life to whom he will. The Father judges no one, but has given all judgment to the Son.',
+    keyThemes: ['Thirty-eight years healed', 'Father is working', 'Son gives life', 'All judgment to Son'],
+    christConnection: 'Christ heals a man paralyzed 38 years. He claims equality with the Father—working as the Father works. The Son gives life to whom He wills and has all judgment. He came to do the Father\'s will.'
+  },
+  {
+    bookId: 'john',
+    chapter: 6,
+    title: 'Bread of Life',
+    summary: 'After this Jesus went away to the other side of the Sea of Galilee. And a large crowd was following him. And Jesus went up on the mountain, and there he sat down with his disciples. Now the Passover, the feast of the Jews, was at hand. Lifting up his eyes, and seeing that a large crowd was coming toward him, Jesus said to Philip, Where are we to buy bread, so that these people may eat? There is a boy here who has five barley loaves and two fish, but what are they for so many? Jesus then took the loaves, and when he had given thanks, he distributed them. And also the fish. And they took up twelve baskets full of the broken pieces left over. When the people saw the sign that he had done, they said, This is indeed the Prophet who is to come into the world! Perceiving then that they were about to come and take him by force to make him king, Jesus withdrew again to the mountain. I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst. For this is the will of my Father, that everyone who looks on the Son and believes in him should have eternal life, and I will raise him up on the last day. Do not grumble. No one can come to me unless the Father who sent me draws him, and I will raise him up on the last day. My flesh is true food, and my blood is true drink. Whoever feeds on my flesh and drinks my blood abides in me, and I in him.',
+    keyThemes: ['Five thousand fed', 'I am the bread of life', 'Father draws', 'True food and drink'],
+    christConnection: 'Christ feeds five thousand and walks on water. He is the Bread of Life—whoever believes in Him has eternal life. His flesh is true food, His blood true drink. The Father draws people to the Son.'
+  },
+  {
+    bookId: 'john',
+    chapter: 7,
+    title: 'Rivers of Living Water',
+    summary: 'After this Jesus went about in Galilee. He would not go about in Judea, because the Jews were seeking to kill him. Now the Jews\' Feast of Booths was at hand. So his brothers said to him, Leave here and go to Judea, that your disciples also may see the works you are doing. For no one works in secret if he seeks to be known openly. If you do these things, show yourself to the world. For not even his brothers believed in him. Jesus said to them, My time has not yet come, but your time is always here. The world cannot hate you, but it hates me because I testify about it that its works are evil. About the middle of the feast Jesus went up into the temple and began teaching. The Jews therefore marveled, saying, How is it that this man has learning, when he has never studied? So Jesus answered them, My teaching is not mine, but his who sent me. If anyone\'s will is to do God\'s will, he will know whether the teaching is from God or whether I am speaking on my own authority. On the last day of the feast, the great day, Jesus stood up and cried out, If anyone thirsts, let him come to me and drink. Whoever believes in me, as the Scripture has said, Out of his heart will flow rivers of living water. Now this he said about the Spirit, whom those who believed in him were to receive.',
+    keyThemes: ['My time not yet come', 'Teaching from the Father', 'Come to me and drink', 'Rivers of living water'],
+    christConnection: 'Christ\'s time is sovereignly appointed. His teaching is from the Father. He invites the thirsty to come and drink—believers will have rivers of living water, the Spirit who gives life.'
+  },
+  {
+    bookId: 'john',
+    chapter: 8,
+    title: 'The Light of the World',
+    summary: 'Again Jesus spoke to them, saying, I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life. So the Pharisees said to him, You are bearing witness about yourself; your testimony is not true. Jesus answered, Even if I do bear witness about myself, my testimony is true, for I know where I came from and where I am going. I bear witness about myself, and the Father who sent me bears witness about me. They said to him therefore, Where is your Father? Jesus answered, You know neither me nor my Father. If you knew me, you would know my Father also. So Jesus said to them, When you have lifted up the Son of Man, then you will know that I am he, and that I do nothing on my own authority, but speak just as the Father taught me. So Jesus said to the Jews who had believed him, If you abide in my word, you are truly my disciples, and you will know the truth, and the truth will set you free. They answered him, We are offspring of Abraham. Jesus said to them, If you were Abraham\'s children, you would be doing the works Abraham did. You are of your father the devil. If God were your Father, you would love me. Truly, truly, I say to you, before Abraham was, I am. So they picked up stones to throw at him.',
+    keyThemes: ['Light of the world', 'Truth sets free', 'Father the devil', 'Before Abraham I AM'],
+    christConnection: 'Christ is the Light of the World. Those who follow Him have the light of life. The truth sets free. He claims to be the eternal I AM—before Abraham was, I AM. He is God.'
+  },
+  {
+    bookId: 'john',
+    chapter: 9,
+    title: 'Healing the Man Born Blind',
+    summary: 'As he passed by, he saw a man blind from birth. And his disciples asked him, Rabbi, who sinned, this man or his parents, that he was born blind? Jesus answered, It was not that this man sinned, or his parents, but that the works of God might be displayed in him. We must work the works of him who sent me while it is day; night is coming, when no one can work. As long as I am in the world, I am the light of the world. Having said these things, he spit on the ground and made mud with the saliva. Then he anointed the man\'s eyes with the mud and said to him, Go, wash in the pool of Siloam. So he went and washed and came back seeing. The neighbors said, Is this not the man who used to sit and beg? They brought to the Pharisees the man who had formerly been blind. Now it was a Sabbath day. So the Pharisees also asked him how he had received his sight. They said, This man is not from God, for he does not keep the Sabbath. But others said, How can a man who is a sinner do such signs? And Jesus said, For judgment I came into this world, that those who do not see may see, and those who see may become blind. Some of the Pharisees heard these things, and said to him, Are we also blind? Jesus said to them, If you were blind, you would have no guilt; but now that you say, We see, your guilt remains.',
+    keyThemes: ['Born blind healed', 'Works of God displayed', 'Light of the world', 'Spiritual blindness'],
+    christConnection: 'Christ heals a man born blind so God\'s works may be displayed. He is the Light of the World. The Pharisees, claiming to see, are spiritually blind. True sight comes from following Christ.'
+  },
+  {
+    bookId: 'john',
+    chapter: 10,
+    title: 'The Good Shepherd',
+    summary: 'Truly, truly, I say to you, he who does not enter the sheepfold by the door but climbs in by another way, that man is a thief and a robber. But he who enters by the door is the shepherd of the sheep. To him the gatekeeper opens. The sheep hear his voice, and he calls his own sheep by name and leads them out. And I am the door. If anyone enters by me, he will be saved and will go in and out and find pasture. The thief comes only to steal and kill and destroy. I came that they may have life and have it abundantly. I am the good shepherd. The good shepherd lays down his life for the sheep. I am the good shepherd. I know my own and my own know me, just as the Father knows me and I know the Father; and I lay down my life for the sheep. And I have other sheep that are not of this fold. I must bring them also, and they will listen to my voice. So there will be one flock, one shepherd. For this reason the Father loves me, because I lay down my life that I may take it up again. No one takes it from me, but I lay it down of my own accord. I and the Father are one. The Jews picked up stones again to stone him.',
+    keyThemes: ['I am the door', 'Good shepherd', 'Lay down my life', 'I and the Father are one'],
+    christConnection: 'Christ is the Door—through Him alone we are saved. He is the Good Shepherd who lays down His life for the sheep. He knows His sheep by name. He and the Father are one.'
+  },
+  {
+    bookId: 'john',
+    chapter: 11,
+    title: 'The Resurrection and the Life',
+    summary: 'Now a certain man was ill, Lazarus of Bethany, the village of Mary and her sister Martha. So the sisters sent to him, saying, Lord, he whom you love is ill. But when Jesus heard it he said, This illness does not lead to death. It is for the glory of God, so that the Son of God may be glorified through it. Then after this he said to the disciples, Let us go to Judea again. Our friend Lazarus has fallen asleep, but I go to awaken him. So when Jesus came, he found that Lazarus had already been in the tomb four days. Martha said to Jesus, Lord, if you had been here, my brother would not have died. Jesus said to her, Your brother will rise again. Martha said to him, I know that he will rise again in the resurrection on the last day. Jesus said to her, I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Do you believe this? She said to him, Yes, Lord; I believe that you are the Christ, the Son of God. And Jesus wept. He cried out with a loud voice, Lazarus, come out. The man who had died came out, his hands and feet bound with linen strips.',
+    keyThemes: ['For the glory of God', 'I am the resurrection and the life', 'Jesus wept', 'Lazarus come out'],
+    christConnection: 'Christ is the Resurrection and the Life. Whoever believes in Him, though he dies, will live forever. Jesus weeps at death\'s devastation, then demonstrates His power by raising Lazarus after four days.'
+  },
+  {
+    bookId: 'john',
+    chapter: 12,
+    title: 'The Triumphal Entry and the Hour Has Come',
+    summary: 'Six days before the Passover, Jesus therefore came to Bethany, where Lazarus was, whom Jesus had raised from the dead. So they gave a dinner for him there. Martha served, and Lazarus was one of those reclining with him at table. Mary therefore took a pound of expensive ointment made from pure nard, and anointed the feet of Jesus and wiped his feet with her hair. Judas Iscariot said, Why was this ointment not sold and given to the poor? Leave her alone, so that she may keep it for the day of my burial. The next day the large crowd heard that Jesus was coming to Jerusalem. So they took branches of palm trees and went out to meet him, crying out, Hosanna! Blessed is he who comes in the name of the Lord, even the King of Israel! And Jesus found a young donkey and sat on it, just as it is written. Now among those who went up to worship at the feast were some Greeks. Sir, we wish to see Jesus. And Jesus answered them, The hour has come for the Son of Man to be glorified. Unless a grain of wheat falls into the earth and dies, it remains alone; but if it dies, it bears much fruit. Now is the judgment of this world; now will the ruler of this world be cast out. And I, when I am lifted up from the earth, will draw all people to myself.',
+    keyThemes: ['Anointed for burial', 'Hosanna King of Israel', 'Hour has come', 'Lifted up draw all'],
+    christConnection: 'Christ is anointed for burial. He enters Jerusalem as King, fulfilling Zechariah\'s prophecy. His hour has come—like a grain of wheat, He must die to bear much fruit. Lifted up, He draws all people.'
+  },
+  {
+    bookId: 'john',
+    chapter: 13,
+    title: 'The Foot Washing and New Commandment',
+    summary: 'Now before the Feast of the Passover, when Jesus knew that his hour had come to depart out of this world to the Father, having loved his own who were in the world, he loved them to the end. During supper, Jesus rose from supper. He laid aside his outer garments, and taking a towel, tied it around his waist. Then he poured water into a basin and began to wash the disciples\' feet. He came to Simon Peter, who said to him, Lord, do you wash my feet? Jesus answered him, What I am doing you do not understand now, but afterward you will understand. Peter said to him, You shall never wash my feet. Jesus answered him, If I do not wash you, you have no share with me. If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another\'s feet. For I have given you an example, that you also should do just as I have done to you. Truly, I say to you, one of you will betray me. And it was night. A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another. Simon Peter said, Lord, where are you going? I will lay down my life for you. Jesus answered, Will you lay down your life for me? Truly, truly, I say to you, the rooster will not crow till you have denied me three times.',
+    keyThemes: ['Loved them to the end', 'Washed disciples feet', 'New commandment', 'Peter\'s denial foretold'],
+    christConnection: 'Christ, the Lord and Teacher, washes the disciples\' feet—a model of humble service. He gives the new commandment: love one another as He has loved us. His love goes to the very end.'
+  },
+  {
+    bookId: 'john',
+    chapter: 14,
+    title: 'The Way, the Truth, and the Life',
+    summary: 'Let not your hearts be troubled. Believe in God; believe also in me. In my Father\'s house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? And if I go and prepare a place for you, I will come again and will take you to myself, that where I am you may be also. And you know the way to where I am going. Thomas said to him, Lord, we do not know where you are going. How can we know the way? Jesus said to him, I am the way, and the truth, and the life. No one comes to the Father except through me. If you had known me, you would have known my Father also. From now on you do know him and have seen him. Philip said to him, Lord, show us the Father. Whoever has seen me has seen the Father. Do you not believe that I am in the Father and the Father is in me? If you love me, you will keep my commandments. And I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth. I will not leave you as orphans; I will come to you. Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.',
+    keyThemes: ['I am the way truth life', 'Prepare a place', 'Seen me seen Father', 'Another Helper'],
+    christConnection: 'Christ is the Way, the Truth, and the Life—no one comes to the Father except through Him. He prepares a place for us. He reveals the Father. He will send the Spirit to be with us forever.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -8284,6 +8400,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return MARK_CHAPTERS;
     case 'luke':
       return LUKE_CHAPTERS;
+    case 'john':
+      return JOHN_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -8335,4 +8453,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'matthew', bookName: 'Matthew', chapters: MATTHEW_CHAPTERS },
   { bookId: 'mark', bookName: 'Mark', chapters: MARK_CHAPTERS },
   { bookId: 'luke', bookName: 'Luke', chapters: LUKE_CHAPTERS },
+  { bookId: 'john', bookName: 'John', chapters: JOHN_CHAPTERS },
 ];
