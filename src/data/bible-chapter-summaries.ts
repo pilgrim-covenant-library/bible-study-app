@@ -5561,6 +5561,962 @@ export const SONG_OF_SOLOMON_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ============================================================================
+// MAJOR PROPHETS
+// ============================================================================
+
+// Isaiah - 66 chapters
+export const ISAIAH_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'isaiah',
+    chapter: 1,
+    title: 'A Rebellious Nation',
+    summary: 'The vision of Isaiah son of Amoz concerning Judah and Jerusalem during the reigns of Uzziah, Jotham, Ahaz, and Hezekiah. The LORD calls heaven and earth as witnesses against His rebellious people. Israel has forsaken the LORD, despising the Holy One. The whole nation is sick from head to foot. Your country lies desolate, burned with fire. Except the LORD had left a remnant, they would be as Sodom. God is weary of their meaningless sacrifices and festivals while their hands are full of blood. Wash yourselves, seek justice, defend the oppressed. Though your sins are like scarlet, they shall be white as snow. If willing and obedient, you will eat the good of the land; if you refuse, you will be devoured by the sword.',
+    keyThemes: ['Rebellion against God', 'Worthless worship', 'Call to repentance', 'Scarlet made white'],
+    christConnection: 'Christ alone can make scarlet sins white as snow. He is the obedient Son where Israel failed, and through His blood we are washed clean.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 2,
+    title: 'The Mountain of the LORD',
+    summary: 'In the last days, the mountain of the LORD\'s house shall be established as the highest of mountains. All nations shall flow to it, saying: Come, let us go up to the mountain of the LORD. He will teach us His ways. Out of Zion shall go forth the law, and the word of the LORD from Jerusalem. He shall judge between nations; they shall beat swords into plowshares and spears into pruning hooks. Nation shall not lift up sword against nation. O house of Jacob, come, let us walk in the light of the LORD. But they have forsaken their God, filled with eastern practices, silver and gold, horses and chariots, idols made by hands. Enter into the rock, hide from the terror of the LORD. The lofty looks of man shall be humbled. The LORD alone shall be exalted in that day.',
+    keyThemes: ['Mountain of the LORD', 'Nations streaming', 'Swords to plowshares', 'Day of the LORD'],
+    christConnection: 'Christ establishes the true mountain of God—His kingdom to which all nations flow. He is the Prince of Peace who will end all war.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 3,
+    title: 'Judgment on Judah and Jerusalem',
+    summary: 'The LORD takes away from Jerusalem and Judah every support—bread, water, mighty man, soldier, judge, prophet, elder. Children will be their princes, and infants shall rule over them. The people oppress one another. Youth are insolent to elders. A man will grab his brother: You have a cloak, be our leader! But he will refuse, saying: I have no food or cloak; do not make me ruler. Jerusalem has stumbled because their speech and deeds are against the LORD. The look on their faces testifies against them; they parade their sin like Sodom. Woe to them! The righteous shall be well, but woe to the wicked. My people—children oppress them, women rule over them. The LORD enters into judgment with elders and princes who have devoured the vineyard.',
+    keyThemes: ['Removal of leadership', 'Social breakdown', 'Sin paraded', 'Judgment on leaders'],
+    christConnection: 'Where human leaders fail, Christ the righteous Leader comes. He is the support that never fails, the ruler who governs with perfect justice.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 4,
+    title: 'The Branch of the LORD',
+    summary: 'In that day seven women shall take hold of one man, saying: We will eat our own bread and wear our own clothes; only let us be called by your name to take away our reproach. In that day the Branch of the LORD shall be beautiful and glorious, and the fruit of the land shall be the pride of the survivors of Israel. He who is left in Zion shall be called holy, everyone recorded for life in Jerusalem—when the Lord has washed away the filth of the daughters of Zion and cleansed the bloodstains of Jerusalem by a spirit of judgment and burning. Then the LORD will create over all Mount Zion a cloud by day and fire by night, and over all the glory there will be a canopy and shelter from storm and rain.',
+    keyThemes: ['The Branch of the LORD', 'Holy remnant', 'Washing and cleansing', 'Divine protection'],
+    christConnection: 'The Branch of the LORD is Christ—beautiful, glorious, the fruit of the land. He washes away sin and provides shelter for His people under the glory-cloud of His presence.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 5,
+    title: 'Song of the Vineyard',
+    summary: 'Let me sing for my beloved a love song concerning his vineyard. My beloved had a vineyard on a fertile hill. He dug it, cleared stones, planted choice vines, built a watchtower, hewed a wine vat, and looked for grapes—but it yielded wild grapes. What more could I have done? I will remove its hedge, break down its wall, make it a wasteland. The vineyard of the LORD is the house of Israel. He looked for justice but saw bloodshed, for righteousness but heard cries of distress. Woe to those who join house to house, who rise early for strong drink. Woe to those who call evil good and good evil. Woe to those wise in their own eyes. Therefore the LORD\'s anger burns, His hand is raised, and He has summoned a nation from afar.',
+    keyThemes: ['Vineyard parable', 'Six woes', 'Expected fruit', 'Coming judgment'],
+    christConnection: 'Christ is the true vine who produces the fruit God requires. Where Israel yielded wild grapes, Jesus produces righteousness in His people.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 6,
+    title: 'Isaiah\'s Commission',
+    summary: 'In the year that King Uzziah died, I saw the Lord sitting upon a throne, high and lifted up, and the train of His robe filled the temple. Seraphim stood above Him, each with six wings, calling: Holy, holy, holy is the LORD of hosts; the whole earth is full of His glory! The foundations shook, and the house was filled with smoke. I said: Woe is me! I am lost, for I am a man of unclean lips dwelling among a people of unclean lips, and my eyes have seen the King, the LORD of hosts! Then a seraph flew to me with a burning coal from the altar and touched my lips: Your guilt is taken away, your sin atoned for. I heard the Lord saying: Whom shall I send? I said: Here am I! Send me. Go and tell this people: Keep hearing but do not understand. Make their hearts dull, until cities lie waste.',
+    keyThemes: ['Vision of God\'s glory', 'Holy holy holy', 'Cleansing for service', 'Prophetic commission'],
+    christConnection: 'John says Isaiah saw Christ\'s glory (John 12:41). The burning coal from the altar points to atonement. Christ sends His messengers to proclaim His word.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 7,
+    title: 'The Sign of Immanuel',
+    summary: 'In the days of Ahaz, Rezin king of Syria and Pekah king of Israel came up to wage war against Jerusalem. The house of David was told: Syria has allied with Ephraim. Ahaz\'s heart shook like trees in the wind. The LORD sent Isaiah with his son Shear-jashub to meet Ahaz: Be careful, be quiet, do not fear. These two smoldering stumps of firebrands will not succeed. If you are not firm in faith, you will not be firm at all. Ask a sign from the LORD, as deep as Sheol or high as heaven. But Ahaz refused: I will not test the LORD. Isaiah said: Hear, O house of David! The Lord Himself will give you a sign: Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel—God with us. Before the child knows right from wrong, the two kings you dread will be forsaken.',
+    keyThemes: ['Crisis of faith', 'Immanuel prophecy', 'Virgin birth sign', 'God with us'],
+    christConnection: 'The virgin birth of Immanuel finds ultimate fulfillment in Christ. Jesus is God with us—the eternal sign of divine faithfulness to the house of David.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 8,
+    title: 'Assyria, the LORD\'s Instrument',
+    summary: 'The LORD told me: Take a large tablet and write on it with a common pen: Maher-shalal-hash-baz (swift is the spoil, speedy is the prey). I went to the prophetess; she conceived and bore a son. Before the child can cry "My father," Damascus and Samaria\'s wealth will be carried off. Because this people has refused the waters of Shiloah that flow gently, the Lord will bring upon them the mighty flood of the Euphrates—the king of Assyria. It will sweep into Judah, rise up to the neck. Its outspread wings will fill your land, O Immanuel. Peoples may rage, but they will be shattered. God is with us. Do not fear what they fear. The LORD of hosts—let Him be your fear. He will be a sanctuary, but also a stone of stumbling. Bind up the testimony; seal the teaching among my disciples.',
+    keyThemes: ['Prophetic sign-child', 'Assyrian flood', 'Fear God alone', 'Stone of stumbling'],
+    christConnection: 'Christ is the sanctuary for those who trust Him but a stone of stumbling for those who reject Him (1 Peter 2:8). He is Immanuel whose land this is.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 9,
+    title: 'For Unto Us a Child Is Born',
+    summary: 'There will be no gloom for her who was in anguish. In the former time He brought into contempt Zebulun and Naphtali, but in the latter time He will make glorious the way of the sea, Galilee of the nations. The people walking in darkness have seen a great light; on those dwelling in the land of deep darkness, light has shined. You have multiplied the nation, increased its joy. For the yoke of his burden, the rod of his oppressor, You have broken as on the day of Midian. For to us a child is born, to us a son is given; and the government shall be upon His shoulder, and His name shall be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace. Of the increase of His government and peace there will be no end, on the throne of David. Yet Israel has not returned to the LORD; His anger is not turned away, His hand is stretched out still.',
+    keyThemes: ['Light dawning', 'Child born', 'Divine names', 'Endless kingdom'],
+    christConnection: 'The child born is Christ—Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace. His kingdom on David\'s throne has no end.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 10,
+    title: 'Woe to Assyria',
+    summary: 'Woe to those who decree unrighteous decrees, to deprive the needy of justice, to rob the poor of their right. What will you do in the day of punishment? To whom will you flee? The LORD\'s anger is not turned away. Woe to Assyria, the rod of My anger! I sent him against a godless nation, but he does not so intend. He says: By my own strength I have done it, by my wisdom. Shall the axe boast over him who hews with it? Therefore the Lord will send wasting sickness; His glory will kindle a burning fire. In that day the remnant of Israel will lean on the LORD, the Holy One, in truth. A remnant will return to the Mighty God. Though your people Israel be as the sand of the sea, only a remnant will return. The LORD will wield His whip against Assyria, as when He struck Midian.',
+    keyThemes: ['Injustice condemned', 'Assyria as instrument', 'Human pride', 'Remnant returns'],
+    christConnection: 'Christ is the Mighty God to whom the remnant returns. He is the true King who governs with justice, unlike the oppressors Isaiah condemns.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 11,
+    title: 'The Shoot from Jesse\'s Stump',
+    summary: 'A shoot shall come forth from the stump of Jesse, a branch from his roots shall bear fruit. The Spirit of the LORD shall rest upon Him—the Spirit of wisdom and understanding, counsel and might, knowledge and fear of the LORD. His delight shall be in the fear of the LORD. He shall not judge by what His eyes see or decide disputes by what His ears hear, but with righteousness He shall judge the poor. Righteousness shall be the belt of His waist, faithfulness the belt of His loins. The wolf shall dwell with the lamb, the leopard with the young goat, the calf with the lion—and a little child shall lead them. They shall not hurt or destroy in all My holy mountain, for the earth shall be full of the knowledge of the LORD as waters cover the sea. In that day the root of Jesse shall stand as a signal for the peoples; the nations shall seek Him.',
+    keyThemes: ['Jesse\'s branch', 'Sevenfold Spirit', 'Righteous judgment', 'Peaceable kingdom'],
+    christConnection: 'Christ is the shoot from Jesse\'s stump, anointed with the sevenfold Spirit. He brings the peaceable kingdom where creation is restored and nations seek Him.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 12,
+    title: 'Songs of Salvation',
+    summary: 'In that day you will say: I will give thanks to You, O LORD, for though You were angry with me, Your anger turned away, that You might comfort me. Behold, God is my salvation; I will trust and not be afraid, for the LORD GOD is my strength and my song, and He has become my salvation. With joy you will draw water from the wells of salvation. In that day you will say: Give thanks to the LORD, call upon His name, make known His deeds among the peoples, proclaim that His name is exalted. Sing praises to the LORD, for He has done gloriously; let this be made known in all the earth. Shout and sing for joy, O inhabitant of Zion, for great in your midst is the Holy One of Israel.',
+    keyThemes: ['Thanksgiving for salvation', 'God is my salvation', 'Wells of salvation', 'Holy One in midst'],
+    christConnection: 'Jesus (Yeshua) means "the LORD is salvation." He is the well of living water from which we draw with joy. The Holy One dwells in our midst through Christ.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 13,
+    title: 'Oracle Against Babylon',
+    summary: 'The oracle concerning Babylon which Isaiah son of Amoz saw. On a bare hill raise a signal; wave to them to enter the gates of the nobles. I Myself have commanded My consecrated ones, summoned My mighty men. The sound of a tumult on the mountains! The LORD of hosts is mustering a host for battle. They come from a distant land, from the end of the heavens—the LORD and the weapons of His indignation, to destroy the whole land. Wail, for the day of the LORD is near! It will come as destruction from the Almighty. Every heart will melt, all hands will be feeble. Behold, the day of the LORD comes, cruel, with wrath and fierce anger. The stars will not give their light, the sun will be dark. I will punish the world for its evil. Babylon, the glory of kingdoms, will be like Sodom and Gomorrah.',
+    keyThemes: ['Day of the LORD', 'Cosmic disturbance', 'Babylon\'s fall', 'Divine judgment'],
+    christConnection: 'The day of the LORD points to Christ\'s final judgment. Babylon represents all worldly powers that oppose God—all will fall before the King of kings.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 14,
+    title: 'The Fall of the King of Babylon',
+    summary: 'The LORD will have compassion on Jacob and again choose Israel. Peoples will bring them home. When the LORD gives you rest from pain and turmoil, you will take up this taunt against the king of Babylon: How the oppressor has ceased! The LORD has broken the staff of the wicked. The whole earth is at rest; they break forth into singing. Sheol beneath is stirred up to meet you. How you are fallen from heaven, O Day Star, son of Dawn! You said in your heart: I will ascend to heaven, above the stars; I will sit on the mount of assembly; I will make myself like the Most High. But you are brought down to Sheol, to the far reaches of the pit. Is this the man who made the earth tremble, who shook kingdoms? The LORD of hosts has sworn: As I have planned, so shall it be.',
+    keyThemes: ['Babylon\'s king taunted', 'Pride and fall', 'Day Star fallen', 'God\'s purpose stands'],
+    christConnection: 'The king of Babylon typifies all who exalt themselves against God. Christ, the true Morning Star (Rev 22:16), has conquered every proud enemy through His cross.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 15,
+    title: 'Oracle Against Moab',
+    summary: 'An oracle concerning Moab. Because Ar of Moab is laid waste in a night, Moab is undone. Kir of Moab is destroyed. Dibon has gone up to the temple to weep. Over Nebo and Medeba Moab wails. Every head is shaved, every beard cut off. In the streets they wear sackcloth; on the housetops and in the squares everyone wails. Heshbon and Elealeh cry out; their voice is heard as far as Jahaz. The armed men of Moab cry aloud. My heart cries out for Moab. Her fugitives flee to Zoar. The waters of Nimrim are a desolation; the grass is withered. Therefore the abundance they have gained they carry away over the Brook of the Willows. A cry goes around the border of Moab. The waters of Dimon are full of blood.',
+    keyThemes: ['Moab\'s devastation', 'Universal mourning', 'Refugees fleeing', 'Waters of judgment'],
+    christConnection: 'Even in judgment, God\'s heart grieves. Christ weeps over those who reject Him (Luke 19:41), offering mercy before judgment falls.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 16,
+    title: 'Moab\'s Pride and Refuge',
+    summary: 'Send the lamb to the ruler of the land, from Sela by way of the desert, to the mount of the daughter of Zion. Like fleeing birds, like a scattered nest, so are the daughters of Moab at the fords of the Arnon. Give counsel, grant justice; make your shade like night at noon; shelter the outcasts, do not reveal the fugitive. Let the outcasts of Moab sojourn among you; be a shelter to them from the destroyer. When the oppressor is no more, the throne will be established in steadfast love, and on it will sit in faithfulness, in the tent of David, one who judges and seeks justice and is swift to do righteousness. We have heard of the pride of Moab—how proud he is—his arrogance, his pride, his insolence. Therefore let Moab wail for Moab. My heart moans like a lyre for Moab. Within three years the glory of Moab will be brought into contempt.',
+    keyThemes: ['Plea for refuge', 'Davidic throne promised', 'Pride condemned', 'Lament for Moab'],
+    christConnection: 'From David\'s throne comes One who judges with justice and righteousness—Christ the King. He is the true shelter for refugees from judgment.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 17,
+    title: 'Oracle Against Damascus',
+    summary: 'An oracle concerning Damascus. Behold, Damascus will cease to be a city; it will become a heap of ruins. The cities of Aroer are deserted. The fortress will disappear from Ephraim, and the kingdom from Damascus. The remnant of Syria will be like the glory of the children of Israel, declares the LORD of hosts. In that day the glory of Jacob will be brought low. It shall be as when the reaper gathers grain, as when one gleans in the Valley of Rephaim. Gleanings will be left, like two or three berries in the top of the olive tree. In that day man will look to his Maker, and his eyes will look to the Holy One of Israel. He will not look to the altars, the work of his hands. Because you have forgotten the God of your salvation, you plant pleasant plants and set out foreign slips, but the harvest will flee away in a day of grief.',
+    keyThemes: ['Damascus destroyed', 'Israel diminished', 'Turning to the Maker', 'Forgotten salvation'],
+    christConnection: 'In the day of judgment, people finally look to their Maker. Christ is the Holy One of Israel to whom all must ultimately turn.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 18,
+    title: 'Oracle Against Cush',
+    summary: 'Ah, land of whirring wings beyond the rivers of Cush, which sends ambassadors by the sea in vessels of papyrus on the waters! Go, swift messengers, to a nation tall and smooth, to a people feared near and far, a nation mighty and conquering, whose land the rivers divide. All you inhabitants of the world, when a signal is raised on the mountains, look! When a trumpet is blown, hear! For the LORD said to me: I will quietly look from My dwelling like clear heat in sunshine, like a cloud of dew in the harvest heat. For before the harvest, when the blossom is over and the flower becomes a ripening grape, He cuts off the shoots with pruning hooks. They shall all be left to the birds of prey and to the beasts of the earth. At that time tribute will be brought to the LORD of hosts from a people tall and smooth, to Mount Zion.',
+    keyThemes: ['Cush addressed', 'God watches silently', 'Timing of judgment', 'Tribute to Zion'],
+    christConnection: 'Nations from afar will bring tribute to Mount Zion. The Cushite eunuch in Acts 8 represents the firstfruits of this ingathering to Christ.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 19,
+    title: 'Oracle Against Egypt',
+    summary: 'An oracle concerning Egypt. Behold, the LORD is riding on a swift cloud and comes to Egypt; the idols of Egypt will tremble. I will stir up Egyptians against Egyptians. They will consult idols and sorcerers, but I will give Egypt over to a hard master. The waters of the Nile will be dried up; fishermen will mourn. Those who work in combed flax will be in despair. The princes of Zoan are utterly foolish; the wise counselors of Pharaoh give stupid counsel. The LORD has mingled within her a spirit of confusion. In that day Egypt will be like women, trembling before the hand of the LORD. In that day there will be an altar to the LORD in Egypt. The LORD will strike Egypt, striking and healing, and they will return to the LORD. In that day there will be a highway from Egypt to Assyria. Israel will be a third with Egypt and Assyria, a blessing in the midst of the earth.',
+    keyThemes: ['Egypt humbled', 'Idols tremble', 'Altar in Egypt', 'Egypt-Assyria-Israel blessing'],
+    christConnection: 'Egypt will know the LORD and worship Him. Christ fulfills this—He sojourned in Egypt (Matt 2:15), and His gospel spreads to all nations including former enemies.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 20,
+    title: 'A Sign Against Egypt and Cush',
+    summary: 'In the year that the commander in chief, sent by Sargon king of Assyria, came to Ashdod and captured it, at that time the LORD spoke by Isaiah son of Amoz: Go, loose the sackcloth from your waist and take off your sandals from your feet. And he did so, walking naked and barefoot. The LORD said: As My servant Isaiah has walked naked and barefoot for three years as a sign and portent against Egypt and Cush, so shall the king of Assyria lead away the Egyptian captives and the Cushite exiles, both young and old, naked and barefoot, with buttocks uncovered, to the shame of Egypt. Then they shall be dismayed and ashamed because of Cush their hope and of Egypt their boast. The inhabitants of this coastland will say: Behold, this is what has happened to those in whom we hoped to whom we fled for help. How then can we escape?',
+    keyThemes: ['Prophetic sign-act', 'Three years naked', 'False trust exposed', 'No escape from God'],
+    christConnection: 'Isaiah\'s shame points to Christ\'s shame on the cross—He was stripped naked that we might be clothed in righteousness.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 21,
+    title: 'Fallen, Fallen Is Babylon',
+    summary: 'The oracle concerning the wilderness of the sea. As whirlwinds in the Negeb sweep through, it comes from the wilderness, from a fearful land. A stern vision is told to me: the traitor betrays, the destroyer destroys. Go up, O Elam; lay siege, O Media! I will bring to an end all the sighing she has caused. My heart staggers; horror has appalled me; the twilight I longed for has been turned for me into trembling. A watchman is set: Let him announce what he sees. When he sees riders, horsemen in pairs—a troop of donkeys, a troop of camels—let him listen diligently. He cried out: On a watchtower I stand continually by day, at my post through all the nights. And behold, here come riders! And he answered: Fallen, fallen is Babylon; all the carved images of her gods lie shattered on the ground. O my threshed and winnowed one, what I have heard I announce to you.',
+    keyThemes: ['Babylon\'s fall announced', 'Watchman\'s vision', 'Media and Elam', 'Gods shattered'],
+    christConnection: 'Babylon falls! This cry anticipates Revelation 18:2. Christ conquers all that opposes His kingdom; every idol lies shattered before Him.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 22,
+    title: 'Oracle Concerning the Valley of Vision',
+    summary: 'The oracle concerning the valley of vision. What is the matter with you that you have all gone up to the housetops? Your slain are not slain with the sword or dead in battle. All your leaders have fled together, captured without the bow. I weep bitterly; do not labor to comfort me. For the Lord GOD of hosts has a day of tumult and trampling in the valley of vision. Elam bore the quiver, Kir uncovered the shield. You looked to the weapons of the House of the Forest. You saw that the breaches of the city of David were many. You collected the waters, counted the houses, broke down houses to fortify the wall. But you did not look to Him who did it, nor regard Him who planned it long ago. The Lord GOD of hosts called for weeping, but behold, joy and gladness, eating and drinking. This iniquity will not be atoned for until you die. Shebna the steward is condemned; Eliakim will receive the key of David.',
+    keyThemes: ['Valley of vision', 'Self-reliance condemned', 'No atonement possible', 'Key of David'],
+    christConnection: 'Christ holds the key of David (Rev 3:7). What He opens no one shuts. He is the true steward over God\'s house, replacing all unfaithful servants.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 23,
+    title: 'Oracle Against Tyre',
+    summary: 'The oracle concerning Tyre. Wail, O ships of Tarshish, for Tyre is laid waste, without house or harbor! From the land of Cyprus it is revealed to them. Be still, O inhabitants of the coast; the merchants of Sidon, who cross the sea, have filled you. On great waters came the grain of Shihor, the harvest of the Nile; she was the marketplace of nations. Be ashamed, O Sidon, for the sea has spoken. I have neither labored nor given birth. When the report reaches Egypt, they will be in anguish. Cross over to Tarshish; wail, O inhabitants of the coast! Is this your exultant city whose origin is from days of old? Who has purposed this against Tyre, the bestower of crowns, whose merchants were princes? The LORD of hosts has purposed it, to defile the pompous pride of all glory. At the end of seventy years, Tyre will be remembered, and her merchandise will be dedicated to the LORD.',
+    keyThemes: ['Tyre\'s commerce judged', 'Pride of glory defiled', 'Seventy years', 'Wealth dedicated to LORD'],
+    christConnection: 'Even Tyre\'s wealth will eventually serve the LORD. All the treasures of the nations will be brought into God\'s kingdom through Christ.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 24,
+    title: 'The LORD\'s Devastation of the Earth',
+    summary: 'Behold, the LORD will empty the earth and make it desolate, twist its surface and scatter its inhabitants. It shall be the same for priest and people, master and servant, buyer and seller, lender and borrower. The earth shall be utterly empty and despoiled, for the LORD has spoken. The earth mourns and withers; the world languishes. The earth lies defiled under its inhabitants, for they have transgressed laws, violated statutes, broken the everlasting covenant. Therefore a curse devours the earth, and its inhabitants suffer for their guilt. The mirth of the tambourines is stilled, the noise of the jubilant has ceased. They do not drink wine with singing. The city of chaos is broken down. Desolation is left. From the ends of the earth we hear songs of praise: Glory to the Righteous One! Terror and pit and snare await you, O inhabitant of the earth. The LORD will punish the host of heaven and kings of earth.',
+    keyThemes: ['Global devastation', 'Everlasting covenant broken', 'Curse on earth', 'Glory to the Righteous One'],
+    christConnection: 'Christ is the Righteous One to whom glory is sung even amid judgment. He renews the everlasting covenant and lifts the curse through His blood.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 25,
+    title: 'The LORD\'s Victory Feast',
+    summary: 'O LORD, You are my God; I will exalt You and praise Your name, for You have done wonderful things, plans formed of old, faithful and sure. For You have made the city a heap, the fortified city a ruin, the foreigners\' palace a city no more. Therefore strong peoples will glorify You. For You have been a stronghold to the poor, a stronghold to the needy in his distress, a shelter from the storm, a shade from the heat. On this mountain the LORD of hosts will make for all peoples a feast of rich food, a feast of well-aged wine. He will swallow up on this mountain the covering that is cast over all peoples, the veil spread over all nations. He will swallow up death forever; and the Lord GOD will wipe away tears from all faces. It will be said on that day: This is our God; we have waited for Him. Let us be glad and rejoice in His salvation.',
+    keyThemes: ['Praise for deliverance', 'Feast for all peoples', 'Death swallowed up', 'Tears wiped away'],
+    christConnection: 'Christ brings the victory feast. He swallows up death (1 Cor 15:54) and wipes every tear (Rev 21:4). This is our God—we have waited for Him!'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 26,
+    title: 'A Song of Trust',
+    summary: 'In that day this song will be sung in the land of Judah: We have a strong city; He sets up salvation as walls and bulwarks. Open the gates, that the righteous nation that keeps faith may enter. You keep him in perfect peace whose mind is stayed on You, because he trusts in You. Trust in the LORD forever, for the LORD GOD is an everlasting rock. For He has humbled the inhabitants of the height, the lofty city. He lays it low, to the ground, to the dust. The foot tramples it, the feet of the poor, the steps of the needy. The path of the righteous is level. O LORD, we wait for You. My soul yearns for You in the night. When Your judgments are in the earth, the inhabitants learn righteousness. Your dead shall live; their bodies shall rise. Awake and sing, you who dwell in dust! Come, my people, enter your chambers and hide until the fury has passed.',
+    keyThemes: ['City of salvation', 'Perfect peace', 'Everlasting rock', 'Resurrection hope'],
+    christConnection: 'Christ is the everlasting rock. Through Him, the dead shall live and bodies rise. He hides His people in Himself until judgment passes.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 27,
+    title: 'Deliverance of Israel',
+    summary: 'In that day the LORD with His hard and great and strong sword will punish Leviathan the fleeing serpent, Leviathan the twisting serpent, and He will slay the dragon in the sea. In that day: A pleasant vineyard—sing of it! I, the LORD, am its keeper; every moment I water it. Night and day I keep it, lest anyone punish it. I have no wrath. Would that I had thorns and briers to battle! I would burn them up together. Or let them lay hold of My protection; let them make peace with Me. In days to come Jacob shall take root, Israel shall blossom and put forth shoots and fill the whole world with fruit. Has He struck them as He struck those who struck them? By exile You contended with her; He removed her by His fierce breath. The great trumpet will be blown, and those who were lost will come and worship the LORD on the holy mountain at Jerusalem.',
+    keyThemes: ['Leviathan slain', 'Pleasant vineyard', 'God as keeper', 'Great trumpet gathering'],
+    christConnection: 'Christ slays the dragon—Satan the serpent (Rev 20:2). He tends His vineyard the church, and His trumpet will gather the lost to worship in the New Jerusalem.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 28,
+    title: 'Woe to Ephraim',
+    summary: 'Woe to the proud crown of the drunkards of Ephraim, whose glorious beauty is a fading flower. The proud crown will be trodden underfoot. In that day the LORD of hosts will be a crown of glory and a diadem of beauty to the remnant of His people, a spirit of justice to him who sits in judgment, and strength to those who turn back the battle at the gate. But even these reel with wine and stagger with strong drink; the priest and prophet reel. All tables are full of filthy vomit. To whom will He teach knowledge? To those just weaned? Precept upon precept, line upon line. By people of strange lips the LORD will speak to this people. Therefore hear the word of the LORD, you scoffers. You have made a covenant with death. Behold, I am laying in Zion a stone, a tested stone, a precious cornerstone, a sure foundation. Whoever believes will not be in haste.',
+    keyThemes: ['Drunkards of Ephraim', 'Crown of glory to remnant', 'Precept upon precept', 'Precious cornerstone'],
+    christConnection: 'Christ is the precious cornerstone, the tested stone, the sure foundation in Zion (1 Peter 2:6). Those who believe in Him will never be put to shame.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 29,
+    title: 'Woe to Ariel',
+    summary: 'Ah, Ariel, Ariel, the city where David encamped! Add year to year; let the feasts run their round. Yet I will distress Ariel, and there shall be moaning and lamentation. I will encamp against you all around; I will besiege you. Your voice shall come from the ground like the voice of a ghost. Then suddenly, in an instant, the LORD of hosts will visit you with thunder and earthquake and great noise, with whirlwind and tempest and flame of devouring fire. The multitude of nations that fight against Ariel shall be like a dream. The vision of all this has become like the words of a sealed book. If given to one who can read, he says: I cannot, for it is sealed. And the LORD said: Because this people draw near with their mouth and honor Me with their lips, while their hearts are far from Me, I will again do wonderful things. The wisdom of their wise shall perish.',
+    keyThemes: ['Ariel besieged', 'Enemies vanish like dream', 'Sealed book', 'Lip service condemned'],
+    christConnection: 'Jesus quoted Isaiah 29:13 against the Pharisees (Matt 15:8-9). Christ unseals the book and opens understanding to those whose hearts truly seek Him.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 30,
+    title: 'Woe to the Rebellious Children',
+    summary: 'Woe to the rebellious children, declares the LORD, who carry out a plan, but not Mine; who make an alliance, but not of My Spirit, adding sin to sin; who set out to go down to Egypt without asking for My direction, to take refuge in Pharaoh\'s protection! Therefore Pharaoh\'s protection shall turn to your shame, Egypt\'s shelter to your humiliation. They are a rebellious people, lying children, unwilling to hear the LORD\'s instruction. They say to the prophets: Do not prophesy to us what is right; speak smooth things, prophesy illusions. In returning and rest you shall be saved; in quietness and trust shall be your strength. But you were unwilling. Yet the LORD waits to be gracious to you; blessed are all who wait for Him. He will surely be gracious when you cry; when He hears, He will answer. Though the Lord give you the bread of adversity, your Teacher will not hide Himself anymore.',
+    keyThemes: ['Trust in Egypt condemned', 'Smooth things desired', 'Rest and trust', 'LORD waits to be gracious'],
+    christConnection: 'Christ is our Teacher who no longer hides. In Him alone we find true rest and salvation—not in political alliances or human strength.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 31,
+    title: 'Egypt Is Not God',
+    summary: 'Woe to those who go down to Egypt for help and rely on horses, who trust in chariots because they are many and in horsemen because they are strong, but do not look to the Holy One of Israel or consult the LORD! And yet He is wise and brings disaster; He does not call back His words, but will arise against the house of evildoers and against the helpers of those who work iniquity. The Egyptians are man, and not God, and their horses are flesh, and not spirit. When the LORD stretches out His hand, the helper will stumble, and he who is helped will fall. For thus the LORD said to me: As a lion or a young lion growls over his prey, so the LORD of hosts will come down to fight on Mount Zion. Like birds hovering, so the LORD of hosts will protect Jerusalem; He will protect and deliver it; He will spare and rescue it. Turn to Him from whom people have deeply revolted, O children of Israel.',
+    keyThemes: ['Egypt is flesh not spirit', 'God\'s wisdom', 'Lion and hovering birds', 'Call to return'],
+    christConnection: 'Christ is the lion of Judah who fights for His people and the one who longed to gather Jerusalem like a hen gathers chicks under her wings.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 32,
+    title: 'A King Will Reign in Righteousness',
+    summary: 'Behold, a king will reign in righteousness, and princes will rule in justice. Each will be like a hiding place from the wind, a shelter from the storm, like streams of water in a dry place, like the shade of a great rock in a weary land. Then the eyes of those who see will not be closed, and the ears of those who hear will give attention. The heart of the hasty will understand, and the tongue of the stammerers will speak fluently. The fool will no longer be called noble. Rise up, you women who are at ease; hear my voice. In a little more than a year you will shudder, for the grape harvest will fail. Tremble, you complacent ones; strip yourselves bare and put sackcloth on your waists. Beat your breasts for the pleasant fields. Until the Spirit is poured upon us from on high, and the wilderness becomes a fruitful field. Justice will dwell in the wilderness, righteousness in the fruitful field.',
+    keyThemes: ['Righteous king', 'Shelter and shade', 'Spirit poured out', 'Justice dwelling in land'],
+    christConnection: 'Christ is the king who reigns in righteousness, the shelter from storm, the rock in weary land. His Spirit poured out at Pentecost transforms wilderness to fruitfulness.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 33,
+    title: 'The LORD Is Our Judge',
+    summary: 'Ah, you destroyer, who yourself have not been destroyed! When you have ceased to destroy, you will be destroyed. O LORD, be gracious to us; we wait for You. Be our arm every morning, our salvation in the time of trouble. At the tumultuous noise peoples flee; when You lift Yourself up, nations are scattered. The sinners in Zion are afraid; trembling has seized the godless: Who among us can dwell with the consuming fire? He who walks righteously and speaks uprightly, who despises the gain of oppressions, who stops his ears from hearing of bloodshed and shuts his eyes from looking on evil—he will dwell on the heights. Your eyes will behold the king in his beauty; they will see a land that stretches afar. The LORD is our judge; the LORD is our lawgiver; the LORD is our king; He will save us. No inhabitant will say: I am sick; the people who dwell there will be forgiven their iniquity.',
+    keyThemes: ['Destroyer destroyed', 'Who can dwell with fire?', 'King in beauty', 'LORD our judge, lawgiver, king'],
+    christConnection: 'Christ is our judge, lawgiver, and king. He alone walked righteously. Through Him we dwell with the consuming fire; our iniquity is forgiven.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 34,
+    title: 'Judgment on the Nations',
+    summary: 'Draw near, O nations, to hear; give attention, O peoples! Let the earth hear, and all that fills it. For the LORD is enraged against all the nations; He has devoted them to destruction, given them over for slaughter. Their slain shall be cast out; the stench of their corpses shall rise; the mountains shall flow with their blood. All the host of heaven shall rot away; the skies roll up like a scroll; all their host shall fall. For My sword has drunk its fill in the heavens; behold, it descends for judgment upon Edom. The LORD has a sacrifice in Bozrah, a great slaughter in Edom. The land shall become burning pitch. Night and day it shall not be quenched; its smoke shall go up forever. From generation to generation it shall lie waste. The hawk and porcupine shall possess it. He shall stretch the line of confusion over it, the plumb line of emptiness.',
+    keyThemes: ['Nations summoned', 'Divine wrath', 'Edom judged', 'Eternal desolation'],
+    christConnection: 'Christ returns with garments stained from Bozrah (Isa 63:1). The final judgment on all who oppose God awaits His return.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 35,
+    title: 'The Ransomed Shall Return',
+    summary: 'The wilderness and the dry land shall be glad; the desert shall rejoice and blossom like the crocus. It shall blossom abundantly and rejoice with joy and singing. The glory of Lebanon shall be given to it, the majesty of Carmel and Sharon. They shall see the glory of the LORD, the majesty of our God. Strengthen the weak hands, make firm the feeble knees. Say to those with fearful hearts: Be strong; fear not! Behold, your God will come with vengeance, with divine recompense. He will come and save you. Then the eyes of the blind shall be opened, the ears of the deaf unstopped. Then shall the lame man leap like a deer, and the tongue of the mute sing for joy. For waters shall break forth in the wilderness, streams in the desert. And a highway shall be there, called the Way of Holiness. The ransomed of the LORD shall return and come to Zion with singing; everlasting joy shall be upon their heads.',
+    keyThemes: ['Desert blooming', 'Blind see, deaf hear', 'Way of Holiness', 'Ransomed return to Zion'],
+    christConnection: 'Jesus proved His messiahship by pointing to Isaiah 35: the blind see, lame walk, deaf hear (Matt 11:5). He is the Way of Holiness to Zion.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 36,
+    title: 'Sennacherib Threatens Jerusalem',
+    summary: 'In the fourteenth year of King Hezekiah, Sennacherib king of Assyria came up against all the fortified cities of Judah and captured them. The king of Assyria sent the Rabshakeh from Lachish to Jerusalem with a great army. He stood by the conduit of the upper pool on the highway to the Washer\'s Field. Eliakim, Shebna, and Joah came out to him. The Rabshakeh said: Tell Hezekiah that the great king says: What is this trust you have? Egypt is a broken reed. If you say you trust in the LORD, did not Hezekiah remove His high places? Make peace with my master. Has any god delivered his land from my hand? Where are the gods of Hamath and Arpad? Who among all the gods has delivered their lands? How then can the LORD deliver Jerusalem? They were silent, for the king had commanded: Do not answer him. They reported to Hezekiah with torn clothes.',
+    keyThemes: ['Assyrian invasion', 'Blasphemous challenge', 'Faith tested', 'Silence before mockery'],
+    christConnection: 'Like Christ before His accusers, Hezekiah\'s servants remain silent. God\'s people trust in the LORD who will vindicate Himself against all blasphemy.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 37,
+    title: 'Hezekiah\'s Prayer and Deliverance',
+    summary: 'When Hezekiah heard it, he tore his clothes, covered himself with sackcloth, and went to the house of the LORD. He sent to Isaiah, saying: This day is a day of distress. It may be the LORD will hear the words of the Rabshakeh and rebuke them. Isaiah sent word: Do not be afraid. I will put a spirit in him; he shall hear a rumor and return. Then Sennacherib sent messengers again: Do not let your God deceive you. Has any god delivered his nation from my hand? Hezekiah spread the letter before the LORD and prayed: O LORD of hosts, You alone are God. Incline Your ear and hear; save us that all kingdoms may know You are the LORD alone. Isaiah sent to Hezekiah: The virgin daughter of Zion despises you, Assyria. The zeal of the LORD will do this. That night the angel of the LORD struck down 185,000 in the Assyrian camp. Sennacherib returned to Nineveh and was killed by his sons.',
+    keyThemes: ['Prayer in crisis', 'Letter spread before LORD', 'Virgin Zion triumphant', 'Angel strikes Assyria'],
+    christConnection: 'The LORD alone is God—Hezekiah\'s prayer acknowledges this. Christ demonstrated the same: one angel destroyed 185,000; legions await His command (Matt 26:53).'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 38,
+    title: 'Hezekiah\'s Illness and Recovery',
+    summary: 'In those days Hezekiah became sick and was at the point of death. Isaiah came to him: Set your house in order, for you shall die. Then Hezekiah turned his face to the wall and prayed: O LORD, remember how I have walked before You faithfully. And he wept bitterly. Before Isaiah had gone out of the middle court, the word of the LORD came: I have heard your prayer; I have seen your tears. I will add fifteen years to your life. I will deliver you and this city from Assyria. This is the sign: the shadow on the dial will go back ten steps. Hezekiah wrote a song: I said, In the middle of my days I must depart. I shall not see the LORD in the land of the living. My dwelling is plucked up like a shepherd\'s tent. But You have held back my soul from the pit of destruction. The living, the living, he thanks You, as I do this day. The father makes known to children Your faithfulness. The LORD will save me, and we will play music all our days.',
+    keyThemes: ['Sickness unto death', 'Prayer and tears', 'Fifteen years added', 'Shadow reversed'],
+    christConnection: 'Christ reverses the shadow of death permanently. What Hezekiah received temporarily—life extension—Christ gives eternally to all who believe.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 39,
+    title: 'Envoys from Babylon',
+    summary: 'At that time Merodach-baladan son of Baladan, king of Babylon, sent envoys with letters and a present to Hezekiah, for he heard that he had been sick and had recovered. Hezekiah welcomed them gladly and showed them all his treasure house—the silver, gold, spices, precious oil, his armory, all that was found in his storehouses. There was nothing in his house or in all his realm that Hezekiah did not show them. Then Isaiah came to Hezekiah: What did these men say? Where did they come from? Hezekiah answered: They came from Babylon. What have they seen? Isaiah asked. Hezekiah said: They have seen all that is in my house; there is nothing in my storehouses that I did not show them. Then Isaiah said: Hear the word of the LORD: Days are coming when all that is in your house shall be carried to Babylon. Nothing shall be left. Some of your own sons shall be taken away to serve in the palace of Babylon. Hezekiah said: The word of the LORD is good—for there shall be peace in my days.',
+    keyThemes: ['Babylonian envoys', 'Treasures displayed', 'Exile prophesied', 'Peace in his days'],
+    christConnection: 'Hezekiah\'s pride foreshadows the exile that Christ would endure for His people. Jesus was carried away and stripped of everything, yet He won our eternal peace.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 40,
+    title: 'Comfort, Comfort My People',
+    summary: 'Comfort, comfort My people, says your God. Speak tenderly to Jerusalem and cry to her that her warfare is ended, her iniquity pardoned. She has received from the LORD\'s hand double for all her sins. A voice cries: In the wilderness prepare the way of the LORD; make straight in the desert a highway for our God. Every valley shall be lifted up, every mountain made low; the glory of the LORD shall be revealed. A voice says: Cry! What shall I cry? All flesh is grass; the grass withers, the flower fades, but the word of our God stands forever. Behold, the Lord GOD comes with might; His arm rules for Him. He will tend His flock like a shepherd, gather the lambs, gently lead those with young. Who has measured the waters in the hollow of His hand? The nations are like a drop from a bucket. To whom then will you liken God? Have you not known? The LORD is the everlasting God, the Creator. He gives power to the faint; they who wait on the LORD shall renew their strength, mount up with wings like eagles.',
+    keyThemes: ['Comfort proclaimed', 'Prepare the way', 'Word stands forever', 'Eagles\' wings'],
+    christConnection: 'John the Baptist fulfilled "prepare the way" (Matt 3:3). Christ is the Good Shepherd who gathers lambs. In Him, the weary mount up with wings like eagles.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 41,
+    title: 'Fear Not, I Am With You',
+    summary: 'Listen to Me in silence, O coastlands; let the peoples renew their strength. Who stirred up one from the east, whom victory meets at every step? He gives up nations before him. Who has performed this? I, the LORD, the first and with the last—I am He. The coastlands have seen and are afraid. They help each other, saying: Be strong! But you, Israel, My servant, Jacob whom I have chosen, offspring of Abraham My friend—I took you from the ends of the earth. Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, I will help you, I will uphold you with My righteous right hand. All who are incensed against you shall be ashamed. You shall seek those who contend with you and not find them. For I, the LORD your God, hold your right hand, saying: Fear not, I am the one who helps you. Fear not, you worm Jacob! I am your Redeemer, the Holy One of Israel.',
+    keyThemes: ['One from the east', 'Fear not', 'God holds your hand', 'Israel\'s Redeemer'],
+    christConnection: 'Christ is the first and the last (Rev 1:17). He holds our hand, strengthens, helps, upholds. The Holy One of Israel is our Redeemer.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 42,
+    title: 'The Servant of the LORD',
+    summary: 'Behold My servant, whom I uphold, My chosen, in whom My soul delights. I have put My Spirit upon Him; He will bring forth justice to the nations. He will not cry aloud or lift up His voice in the streets. A bruised reed He will not break, a smoldering wick He will not quench. He will faithfully bring forth justice. He will not grow faint till He has established justice in the earth; the coastlands wait for His law. Thus says God the LORD, who created the heavens: I am the LORD; I have called you in righteousness. I will give you as a covenant for the people, a light for the nations, to open the eyes that are blind, to bring out prisoners from the dungeon. I am the LORD; that is My name; My glory I give to no other. Sing to the LORD a new song! But Israel is blind and deaf. Who gave Jacob up to the looter? Was it not the LORD, against whom we have sinned?',
+    keyThemes: ['Servant introduced', 'Spirit upon Him', 'Gentle justice', 'Light to nations'],
+    christConnection: 'Matthew 12:18-21 applies this to Jesus. Christ is the Servant who brings justice gently, opens blind eyes, and is the light to all nations.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 43,
+    title: 'I Have Redeemed You',
+    summary: 'But now thus says the LORD, He who created you, O Jacob, He who formed you, O Israel: Fear not, for I have redeemed you; I have called you by name, you are Mine. When you pass through the waters, I will be with you; through the rivers, they shall not overwhelm you; when you walk through fire, you shall not be burned. For I am the LORD your God, the Holy One of Israel, your Savior. I give Egypt as your ransom, Cush and Seba in exchange for you. Because you are precious in My eyes, and honored, and I love you. Fear not, for I am with you. I will bring your offspring from the east and gather them from the west. I, I am He who blots out your transgressions for My own sake, and I will not remember your sins. Put Me in remembrance; let us argue together. I am doing a new thing; do you not perceive it? I will make a way in the wilderness, rivers in the desert.',
+    keyThemes: ['Called by name', 'Through waters and fire', 'Precious and loved', 'Sins not remembered'],
+    christConnection: 'Christ redeems us by name. He walked through the waters of judgment, the fire of wrath. Through Him, our sins are remembered no more.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 44,
+    title: 'Israel the Chosen',
+    summary: 'But now hear, O Jacob My servant, Israel whom I have chosen! Thus says the LORD who made you, who formed you from the womb and will help you: Fear not, O Jacob My servant, Jeshurun whom I have chosen. For I will pour water on the thirsty land, streams on the dry ground; I will pour My Spirit upon your offspring, and My blessing on your descendants. One will say: I am the LORD\'s. Another will write on his hand: The LORD\'s. Thus says the LORD, the King of Israel and his Redeemer, the LORD of hosts: I am the first and I am the last; besides Me there is no God. Who is like Me? Let him proclaim it. Is there a God besides Me? There is no Rock; I know not any. All who fashion idols are nothing. The ironsmith shapes an idol and grows hungry. The carpenter fashions wood, roasts meat with half, and makes a god with the rest. They do not know, nor do they discern. Remember these things, O Jacob. I have blotted out your transgressions like a cloud. Return to Me, for I have redeemed you!',
+    keyThemes: ['Spirit poured out', 'I am the first and last', 'Idolatry absurdity', 'Transgressions blotted out'],
+    christConnection: 'Christ is King and Redeemer of Israel, the first and last. He pours out His Spirit and blots out our transgressions like a cloud.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 45,
+    title: 'Cyrus, God\'s Anointed',
+    summary: 'Thus says the LORD to His anointed, to Cyrus, whose right hand I have grasped to subdue nations before him: I will go before you and level the exalted places. I will give you the treasures of darkness that you may know that it is I, the LORD, the God of Israel, who call you by your name. For the sake of My servant Jacob and Israel My chosen, I call you by your name, though you do not know Me. I am the LORD, and there is no other, besides Me there is no God. I form light and create darkness, I make well-being and create calamity. I am the LORD who does all these things. I made the earth and created man on it. I stirred up Cyrus; he shall build My city and set My exiles free, not for price or reward. Turn to Me and be saved, all the ends of the earth! For I am God, and there is no other. To Me every knee shall bow, every tongue shall swear allegiance.',
+    keyThemes: ['Cyrus anointed', 'God alone', 'Light and darkness', 'Every knee shall bow'],
+    christConnection: 'Every knee bowing finds ultimate fulfillment in Christ (Phil 2:10-11). Cyrus foreshadows the greater anointed one who sets captives free.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 46,
+    title: 'The Burden of Babylon\'s Gods',
+    summary: 'Bel bows down; Nebo stoops. Their idols are on beasts and livestock; these things you carry are borne as burdens on weary beasts. They stoop; they bow down together. They cannot save the burden, but themselves go into captivity. Listen to Me, O house of Jacob, all the remnant of the house of Israel, who have been borne by Me from before your birth, carried from the womb. Even to your old age I am He, and to gray hairs I will carry you. I have made, and I will bear; I will carry and will save. To whom will you liken Me? To whom compare Me, that we may be alike? Those who lavish gold from the purse, hire a goldsmith to make a god—then they fall down and worship! They lift it to their shoulders; they carry it, set it in its place, and it stands there. It cannot move from its place. If one cries to it, it does not answer. Remember this and stand firm. Remember the former things of old; I am God, and there is no other.',
+    keyThemes: ['Idols carried as burdens', 'God carries His people', 'From womb to old age', 'I am God alone'],
+    christConnection: 'We don\'t carry God; He carries us. Christ bears us from spiritual birth to eternal glory. He answered when we cried to Him.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 47,
+    title: 'The Fall of Babylon',
+    summary: 'Come down and sit in the dust, O virgin daughter of Babylon; sit on the ground without a throne, O daughter of the Chaldeans! For you shall no more be called tender and delicate. Take the millstones and grind flour; remove your veil, strip off your robe. Your nakedness shall be uncovered, your disgrace shall be seen. I will take vengeance, and I will spare no one. Our Redeemer—the LORD of hosts is His name—is the Holy One of Israel. Sit in silence and go into darkness, O daughter of the Chaldeans; for you shall no more be called the mistress of kingdoms. I was angry with My people; I profaned My heritage. I gave them into your hand; you showed them no mercy. You said: I shall be mistress forever. You did not consider their fate. Now hear this, you lover of pleasures: I am, and there is no one besides me. I shall not sit as a widow or know the loss of children. These two things shall come to you in a moment: loss of children and widowhood. They shall come upon you in full measure.',
+    keyThemes: ['Babylon humiliated', 'Our Redeemer', 'Pride before fall', 'Sudden destruction'],
+    christConnection: 'Revelation echoes this chapter: Babylon fallen! Our Redeemer is the Holy One of Israel—Christ who will finally judge all worldly powers.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 48,
+    title: 'The LORD Refines Israel',
+    summary: 'Hear this, O house of Jacob, who are called by the name of Israel, who swear by the name of the LORD but not in truth. For they call themselves after the holy city and stay themselves on the God of Israel. The former things I declared of old; they went out from My mouth, and I announced them. Then suddenly I did them. Because I knew that you are obstinate, and your neck is an iron sinew and your forehead bronze, I declared them to you from of old. You have heard; now see all this. And will you not declare it? From this time forth I announce to you new things. For My name\'s sake I defer My anger; for My praise I restrain it. Behold, I have refined you, but not as silver; I have tried you in the furnace of affliction. For My own sake, for My own sake, I do it. Go out from Babylon! The LORD has redeemed Jacob. O that you had paid attention to My commandments! Then your peace would have been like a river. There is no peace for the wicked.',
+    keyThemes: ['Stubborn Israel', 'New things announced', 'Refined in affliction', 'No peace for wicked'],
+    christConnection: 'Christ endured the furnace of affliction for us. He is our peace—a river of peace for those who attend to His commands.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 49,
+    title: 'The Servant\'s Mission',
+    summary: 'Listen to Me, O coastlands, pay attention, you peoples from afar. The LORD called Me from the womb; from the body of My mother He named My name. He made My mouth like a sharp sword; in the shadow of His hand He hid Me. He made Me a polished arrow; in His quiver He hid Me. He said to Me: You are My servant, Israel, in whom I will be glorified. But I said: I have labored in vain. Yet My right is with the LORD. And now the LORD says—He who formed Me from the womb to be His servant, to bring Jacob back to Him: It is too light a thing that You should be My servant to raise up the tribes of Jacob. I will make You a light for the nations, that My salvation may reach to the end of the earth. Kings shall see and arise; princes shall prostrate themselves. Can a woman forget her nursing child? Even these may forget, yet I will not forget you. Behold, I have engraved you on the palms of My hands.',
+    keyThemes: ['Servant called from womb', 'Light to nations', 'Salvation to earth\'s end', 'Engraved on palms'],
+    christConnection: 'Christ is the Servant—called from the womb, light to nations, salvation to the ends of the earth. We are engraved on His nail-pierced hands.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 50,
+    title: 'The Obedient Servant',
+    summary: 'Thus says the LORD: Where is your mother\'s certificate of divorce? Or to which of My creditors have I sold you? Behold, for your iniquities you were sold, for your transgressions your mother was sent away. Why, when I came, was there no one? When I called, was there no answer? Is My hand shortened that it cannot redeem? Behold, by My rebuke I dry up the sea. The Lord GOD has given Me the tongue of those who are taught, that I may know how to sustain with a word him who is weary. Morning by morning He awakens My ear to hear as those who are taught. The Lord GOD has opened My ear, and I was not rebellious; I turned not backward. I gave My back to those who strike, My cheeks to those who pull out the beard. I hid not My face from disgrace and spitting. But the Lord GOD helps Me; therefore I have not been disgraced. Who will contend with Me? Let him who walks in darkness and has no light trust in the name of the LORD.',
+    keyThemes: ['God\'s power to redeem', 'Tongue of the taught', 'Back to strikers', 'Not disgraced'],
+    christConnection: 'Christ fulfilled this precisely: back to strikers, beard pulled, spit upon (Matt 26:67). The obedient Servant never turned backward from the Father\'s will.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 51,
+    title: 'Awake, Awake, O Zion',
+    summary: 'Listen to Me, you who pursue righteousness, who seek the LORD: look to the rock from which you were hewn, to the quarry from which you were dug. Look to Abraham your father and to Sarah who bore you; for he was but one when I called him, that I might bless him and multiply him. For the LORD comforts Zion; He makes her wilderness like Eden, her desert like the garden of the LORD. Listen to Me, My people; give ear, My nation. A law will go out from Me, and My justice for a light to the peoples. My salvation has gone out, and My arms will judge the peoples. Lift up your eyes to the heavens; the heavens vanish like smoke, the earth wear out like a garment—but My salvation will be forever. The redeemed of the LORD shall return and come to Zion with singing. I, I am He who comforts you. Who are you to be afraid of man who dies? Awake, awake, put on strength, O arm of the LORD! Awake, as in days of old!',
+    keyThemes: ['Look to Abraham', 'Wilderness like Eden', 'Salvation forever', 'Awake O arm of LORD'],
+    christConnection: 'Christ is the arm of the LORD awakened for salvation. In Him, wilderness becomes Eden; His salvation lasts forever while heavens and earth pass away.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 52,
+    title: 'The Beautiful Feet',
+    summary: 'Awake, awake, put on your strength, O Zion; put on your beautiful garments, O Jerusalem, the holy city. For there shall no more come into you the uncircumcised and the unclean. Shake yourself from the dust and arise. Loose the bonds from your neck, O captive daughter of Zion. For thus says the LORD: You were sold for nothing, and you shall be redeemed without money. How beautiful upon the mountains are the feet of him who brings good news, who publishes peace, who brings good news of happiness, who publishes salvation, who says to Zion: Your God reigns! The voice of your watchmen—they lift up their voice; together they sing for joy, for eye to eye they see the return of the LORD to Zion. Break forth into singing! The LORD has comforted His people. He has redeemed Jerusalem. The LORD has bared His holy arm before the eyes of all the nations. All the ends of the earth shall see the salvation of our God. Behold, My servant shall act wisely; He shall be high and lifted up, exalted. Many were astonished—His appearance was marred beyond human semblance.',
+    keyThemes: ['Awake Zion', 'Beautiful feet', 'Your God reigns', 'Servant exalted yet marred'],
+    christConnection: 'The beautiful feet bring the gospel of Christ (Rom 10:15). The Servant is both highly exalted and marred beyond recognition—the crucified and risen Lord.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 53,
+    title: 'The Suffering Servant',
+    summary: 'Who has believed what he has heard from us? To whom has the arm of the LORD been revealed? He grew up before Him like a young plant, like a root out of dry ground. He had no form or majesty; we esteemed Him not. He was despised and rejected by men, a man of sorrows, acquainted with grief. Surely He has borne our griefs and carried our sorrows; yet we esteemed Him stricken, smitten by God. But He was pierced for our transgressions, crushed for our iniquities. Upon Him was the chastisement that brought us peace; by His wounds we are healed. All we like sheep have gone astray; we have turned every one to his own way, and the LORD has laid on Him the iniquity of us all. He was oppressed, He opened not His mouth; like a lamb led to slaughter. By oppression and judgment He was taken away. He was cut off from the land of the living, stricken for the transgression of My people. They made His grave with the wicked, but with a rich man in His death. Yet it was the will of the LORD to crush Him. When His soul makes an offering for guilt, He shall see His offspring; the will of the LORD shall prosper in His hand.',
+    keyThemes: ['Despised and rejected', 'Pierced for transgressions', 'Lamb to slaughter', 'Guilt offering'],
+    christConnection: 'This is the clearest Old Testament portrait of Christ\'s atonement. Pierced, crushed, silent as a lamb, buried with the rich—every detail fulfilled in Jesus.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 54,
+    title: 'The Everlasting Covenant of Peace',
+    summary: 'Sing, O barren one, who did not bear; break forth into singing! For the children of the desolate one will be more than the children of her who is married, says the LORD. Enlarge the place of your tent; let them stretch out the curtains of your habitations. Do not spare; lengthen your cords and strengthen your stakes. For you will spread abroad to the right and to the left. Fear not, for you will not be ashamed. For your Maker is your husband, the LORD of hosts is His name; the Holy One of Israel is your Redeemer. For the LORD has called you like a wife deserted and grieved in spirit. For a brief moment I deserted you, but with great compassion I will gather you. In overflowing anger I hid My face from you, but with everlasting love I will have compassion on you. This is like the days of Noah to Me: as I swore that the waters of Noah should no more go over the earth, so I have sworn that I will not be angry with you. My steadfast love shall not depart from you, and My covenant of peace shall not be removed.',
+    keyThemes: ['Barren one rejoices', 'God as husband', 'Brief anger, eternal love', 'Covenant of peace'],
+    christConnection: 'Christ is the husband of the church, bringing the everlasting covenant of peace. His brief moment of wrath-bearing at Calvary secures eternal compassion for His bride.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 55,
+    title: 'Come to the Waters',
+    summary: 'Come, everyone who thirsts, come to the waters; and he who has no money, come, buy and eat! Come, buy wine and milk without money and without price. Why do you spend your money for that which is not bread, and your labor for that which does not satisfy? Listen diligently to Me, and eat what is good, and delight yourselves in rich food. Incline your ear, and come to Me; hear, that your soul may live. I will make with you an everlasting covenant, My steadfast, sure love for David. Behold, I made him a witness to the peoples, a leader and commander for the peoples. Behold, you shall call a nation that you do not know. Seek the LORD while He may be found; call upon Him while He is near. Let the wicked forsake his way. Let him return to the LORD, that He may have compassion on him, for He will abundantly pardon. For My thoughts are not your thoughts, neither are your ways My ways. For as the rain comes down from heaven and waters the earth, so shall My word be that goes out from My mouth; it shall accomplish that which I purpose.',
+    keyThemes: ['Come without money', 'Everlasting covenant', 'Seek while He may be found', 'Word accomplishes purpose'],
+    christConnection: 'Jesus echoed this: "If anyone thirsts, let him come to Me" (John 7:37). Christ is the sure love for David, the witness and commander of peoples.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 56,
+    title: 'Salvation for Foreigners',
+    summary: 'Thus says the LORD: Keep justice, and do righteousness, for soon My salvation will come, and My righteousness be revealed. Blessed is the man who does this, who keeps the Sabbath, not profaning it, and keeps his hand from doing any evil. Let not the foreigner who has joined himself to the LORD say: The LORD will surely separate me from His people. And let not the eunuch say: I am a dry tree. For thus says the LORD: To the eunuchs who keep My Sabbaths, who choose things that please Me, I will give in My house and within My walls a monument and a name better than sons and daughters—an everlasting name that shall not be cut off. And the foreigners who join themselves to the LORD, to be His servants—everyone who keeps the Sabbath and holds fast My covenant—these I will bring to My holy mountain and make them joyful in My house of prayer. My house shall be called a house of prayer for all peoples. The Lord GOD who gathers the outcasts of Israel declares: I will gather yet others to him.',
+    keyThemes: ['Foreigners included', 'Eunuchs honored', 'House of prayer for all', 'Outcasts gathered'],
+    christConnection: 'Jesus cleansed the temple quoting Isaiah 56:7. The Ethiopian eunuch in Acts 8 fulfilled this prophecy. Christ gathers outcasts from all nations.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 57,
+    title: 'Peace to the Far and Near',
+    summary: 'The righteous man perishes, and no one takes it to heart. Devout men are taken away, while no one understands that the righteous man is taken away from calamity. He enters into peace; they rest on their beds who walk in their uprightness. But you, draw near, sons of the sorceress, offspring of the adulterer. Whom are you mocking? Against whom do you open your mouth wide? Are you not children of transgression? You who burn with lust among the oaks, under every green tree, who slaughter your children in the valleys. Among the smooth stones of the valley is your portion. For all this, should I relent? You set your bed on a high and lofty mountain. Behind the door you have set up your memorial. You journeyed to the king with oil and sent your envoys far off. I will declare your righteousness and your deeds—but they will not profit you. Let him who takes refuge in Me possess the land. Build up, prepare the way! For thus says the High and Lofty One who inhabits eternity, whose name is Holy: I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit. I will not contend forever; I will heal him. Peace, peace, to the far and to the near.',
+    keyThemes: ['Righteous taken from evil', 'Idolatry condemned', 'High and Lofty One', 'Peace to far and near'],
+    christConnection: 'Christ is our peace—He came and preached peace to those far off (Gentiles) and those near (Jews) (Eph 2:17). The High and Holy One dwells with the humble.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 58,
+    title: 'True Fasting',
+    summary: 'Cry aloud; do not hold back! Declare to My people their transgression. They seek Me daily and delight to know My ways, as if they were a nation that did righteousness. They ask of Me righteous judgments. Why have we fasted, and You see it not? Why have we humbled ourselves, and You take no knowledge of it? Behold, in the day of your fast you seek your own pleasure and oppress your workers. Fasting like yours will not make your voice heard on high. Is such the fast that I choose, a day for a person to humble himself? Is it to bow down his head like a reed, to lie in sackcloth and ashes? Is not this the fast that I choose: to loose the bonds of wickedness, to let the oppressed go free? Is it not to share your bread with the hungry and bring the homeless poor into your house? Then shall your light break forth like the dawn. If you take away the yoke from your midst, the pointing of the finger and speaking wickedness, then you shall call, and the LORD will answer. If you turn back your foot from the Sabbath, then you shall take delight in the LORD.',
+    keyThemes: ['Hypocritical fasting', 'True fasting: justice', 'Light breaking forth', 'Sabbath delight'],
+    christConnection: 'Christ embodies true fasting: He loosed bonds, freed the oppressed, fed the hungry. He is our light breaking forth, our righteousness and healing.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 59,
+    title: 'Sin Separates, but the Redeemer Comes',
+    summary: 'Behold, the LORD\'s hand is not shortened, that it cannot save, or His ear dull, that it cannot hear. But your iniquities have made a separation between you and your God, and your sins have hidden His face from you. For your hands are defiled with blood, your fingers with iniquity; your lips have spoken lies. No one enters suit justly; no one goes to law honestly. They rely on empty pleas; they conceive mischief and give birth to iniquity. Their feet run to evil; they are swift to shed innocent blood. The way of peace they do not know. We hope for light, and behold, darkness, for brightness, but we walk in gloom. We grope for the wall like the blind. We hope for justice, but there is none; for salvation, but it is far from us. For our transgressions are multiplied before You. Justice is turned back, and righteousness stands far away. Truth has stumbled in the public squares. The LORD saw it, and it displeased Him. He saw that there was no man, no one to intercede. Then His own arm brought Him salvation. And a Redeemer will come to Zion.',
+    keyThemes: ['Sin separates', 'Justice lacking', 'No intercessor found', 'God\'s arm saves'],
+    christConnection: 'When no intercessor was found, God\'s own arm brought salvation. Christ is the Redeemer who came to Zion, the intercessor who bridges the separation caused by sin.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 60,
+    title: 'Arise, Shine, for Your Light Has Come',
+    summary: 'Arise, shine, for your light has come, and the glory of the LORD has risen upon you. For behold, darkness shall cover the earth, and thick darkness the peoples; but the LORD will arise upon you, and His glory will be seen upon you. And nations shall come to your light, and kings to the brightness of your rising. Lift up your eyes all around, and see; they all gather together, they come to you. Your sons shall come from afar, and your daughters shall be carried on the hip. Then you shall see and be radiant; your heart shall thrill and exult. The abundance of the sea shall be turned to you, the wealth of the nations shall come to you. A multitude of camels shall cover you; they shall bring gold and frankincense. Your gates shall be open continually; day and night they shall not be shut, that people may bring to you the wealth of the nations. The sun shall no more be your light by day; the LORD will be your everlasting light, and your God will be your glory.',
+    keyThemes: ['Light has come', 'Nations coming', 'Wealth of nations', 'LORD as everlasting light'],
+    christConnection: 'Christ is the light that has come. The magi brought gold and frankincense from the east. In the New Jerusalem, the LORD will be our everlasting light (Rev 21:23).'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 61,
+    title: 'The Year of the LORD\'s Favor',
+    summary: 'The Spirit of the Lord GOD is upon Me, because the LORD has anointed Me to bring good news to the poor; He has sent Me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to those who are bound; to proclaim the year of the LORD\'s favor, and the day of vengeance of our God; to comfort all who mourn; to grant to those who mourn in Zion—to give them a beautiful headdress instead of ashes, the oil of gladness instead of mourning, the garment of praise instead of a faint spirit; that they may be called oaks of righteousness, the planting of the LORD, that He may be glorified. They shall build up the ancient ruins; they shall raise up the former devastations. Instead of your shame there shall be a double portion. For I the LORD love justice; I will faithfully give them their recompense. I will make an everlasting covenant with them. I will greatly rejoice in the LORD; my soul shall exult in my God, for He has clothed me with the garments of salvation.',
+    keyThemes: ['Spirit upon the anointed', 'Year of favor', 'Beauty for ashes', 'Garments of salvation'],
+    christConnection: 'Jesus read this in Nazareth and declared: "Today this Scripture is fulfilled" (Luke 4:18-21). He is the Anointed One who proclaims liberty and favor.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 62,
+    title: 'Zion\'s New Name',
+    summary: 'For Zion\'s sake I will not keep silent, and for Jerusalem\'s sake I will not be quiet, until her righteousness goes forth as brightness, and her salvation as a burning torch. The nations shall see your righteousness, and all the kings your glory, and you shall be called by a new name that the mouth of the LORD will give. You shall be a crown of beauty in the hand of the LORD, a royal diadem in the hand of your God. You shall no more be termed Forsaken, and your land shall no more be termed Desolate, but you shall be called My Delight Is in Her, and your land Married; for the LORD delights in you, and your land shall be married. For as a young man marries a young woman, so shall your sons marry you, and as the bridegroom rejoices over the bride, so shall your God rejoice over you. On your walls, O Jerusalem, I have set watchmen; all the day and all the night they shall never be silent. Go through the gates; prepare the way for the people. Behold, the LORD has proclaimed: Say to the daughter of Zion: Behold, your salvation comes.',
+    keyThemes: ['New name given', 'Crown of beauty', 'No longer Forsaken', 'Bridegroom rejoices'],
+    christConnection: 'Christ is the bridegroom who rejoices over His bride the church. We who were forsaken are now called "My Delight Is in Her" through Him.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 63,
+    title: 'The Day of Vengeance',
+    summary: 'Who is this who comes from Edom, in crimsoned garments from Bozrah, He who is splendid in His apparel, marching in the greatness of His strength? It is I, speaking in righteousness, mighty to save. Why is Your apparel red, and Your garments like his who treads in the winepress? I have trodden the winepress alone, and from the peoples no one was with Me. I trod them in My anger and trampled them in My wrath; their lifeblood spattered on My garments. For the day of vengeance was in My heart, and My year of redemption had come. I looked, but there was no one to help; I was appalled, but there was no one to uphold. So My own arm brought Me salvation. I will recount the steadfast love of the LORD according to all that the LORD has granted us. He became their Savior. In all their affliction He was afflicted, and the angel of His presence saved them. In His love and pity He redeemed them. But they rebelled and grieved His Holy Spirit.',
+    keyThemes: ['Warrior from Edom', 'Winepress alone', 'Day of vengeance', 'Angel of His presence'],
+    christConnection: 'Christ treads the winepress alone (Rev 19:15). He was afflicted in all our afflictions. His garments stained with His own blood became salvation for us.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 64,
+    title: 'A Prayer for Mercy',
+    summary: 'Oh that You would rend the heavens and come down, that the mountains might quake at Your presence—as when fire kindles brushwood and fire causes water to boil—to make Your name known to Your adversaries, that the nations might tremble at Your presence! When You did awesome things that we did not look for, You came down; the mountains quaked at Your presence. From of old no one has heard or perceived by the ear, no eye has seen a God besides You, who acts for those who wait for Him. You meet him who joyfully works righteousness, those who remember You in Your ways. Behold, You were angry, and we sinned; in our sins we have been a long time, and shall we be saved? We have all become like one who is unclean, and all our righteous deeds are like a polluted garment. We all fade like a leaf, and our iniquities carry us away like the wind. There is no one who calls upon Your name. Yet, O LORD, You are our Father; we are the clay, and You are our potter; we are all the work of Your hand. Be not so terribly angry, O LORD.',
+    keyThemes: ['Rend the heavens', 'Eye has not seen', 'Filthy rags', 'Potter and clay'],
+    christConnection: 'At Christ\'s baptism and transfiguration, heaven opened. What eye has not seen, God prepared for those who love Him (1 Cor 2:9). Christ clothes us in His righteousness.'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 65,
+    title: 'New Heavens and New Earth',
+    summary: 'I was ready to be sought by those who did not ask for Me; I was ready to be found by those who did not seek Me. I said: Here I am, here I am, to a nation that was not called by My name. I spread out My hands all the day to a rebellious people, who walk in a way that is not good, following their own devices—a people who provoke Me to My face continually. But I will not keep silent; I will repay. Behold, My servants shall eat, but you shall be hungry; My servants shall drink, but you shall be thirsty; My servants shall rejoice, but you shall be put to shame. My servants shall sing for gladness of heart. You shall leave your name to My chosen for a curse, but My servants He will call by another name. For behold, I create new heavens and a new earth, and the former things shall not be remembered. Be glad and rejoice forever in that which I create. I create Jerusalem to be a joy. No more shall be heard in it the sound of weeping. The wolf and the lamb shall feed together; the lion shall eat straw like the ox. They shall not hurt or destroy in all My holy mountain.',
+    keyThemes: ['Sought by Gentiles', 'Servants blessed', 'New heavens and earth', 'Wolf and lamb together'],
+    christConnection: 'Christ brings the new creation (2 Cor 5:17). Gentiles who did not seek God have found Him through Christ. He makes all things new (Rev 21:5).'
+  },
+  {
+    bookId: 'isaiah',
+    chapter: 66,
+    title: 'The LORD\'s Final Judgment and Glory',
+    summary: 'Thus says the LORD: Heaven is My throne, and the earth is My footstool. What is the house that you would build for Me? All these things My hand has made. But this is the one to whom I will look: he who is humble and contrite in spirit and trembles at My word. He who slaughters an ox is like one who kills a man; he who sacrifices a lamb, like one who breaks a dog\'s neck—these have chosen their own ways, and their soul delights in their abominations. Hear the word of the LORD, you who tremble at His word! Your brothers who hate you have said: Let the LORD be glorified. But it is they who shall be put to shame. Before she was in labor she gave birth; before her pain came upon her she delivered a son. Who has heard such a thing? Shall a land be born in one day? Shall a nation be brought forth in one moment? For as soon as Zion was in labor she brought forth her children. Rejoice with Jerusalem! Behold, I will extend peace to her like a river. As one whom his mother comforts, so I will comfort you. For behold, the LORD will come in fire, and His chariots like the whirlwind. They shall go out and look on the dead bodies of those who have rebelled against Me, for their worm shall not die, their fire shall not be quenched.',
+    keyThemes: ['Heaven is throne', 'Contrite spirit honored', 'Nation born in day', 'Eternal judgment'],
+    christConnection: 'Stephen quoted Isaiah 66:1 (Acts 7:49). Christ marks the division: comfort for those who tremble at His word, eternal fire for rebels. He brings the true Zion to birth.'
+  }
+];
+
+// Jeremiah - 52 chapters
+export const JEREMIAH_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'jeremiah',
+    chapter: 1,
+    title: 'The Call of Jeremiah',
+    summary: 'The words of Jeremiah son of Hilkiah, of the priests in Anathoth in Benjamin, to whom the word of the LORD came in the days of Josiah king of Judah, in the thirteenth year of his reign. It came also in the days of Jehoiakim and until the captivity of Jerusalem. The word of the LORD came to me: Before I formed you in the womb I knew you, and before you were born I consecrated you; I appointed you a prophet to the nations. I said: Ah, Lord GOD! I do not know how to speak, for I am only a youth. But the LORD said: Do not say "I am only a youth," for you shall go wherever I send you. Do not be afraid, for I am with you to deliver you. Then the LORD touched my mouth: Behold, I have put My words in your mouth. See, I have set you this day over nations and kingdoms, to pluck up and to break down, to destroy and to overthrow, to build and to plant. I see a branch of an almond tree and a boiling pot, tilted away from the north. Out of the north disaster shall be let loose. They will fight against you, but they shall not prevail, for I am with you.',
+    keyThemes: ['Divine calling', 'Known before birth', 'Words in mouth', 'Pluck up and plant'],
+    christConnection: 'Christ was consecrated before the foundation of the world. Like Jeremiah, He spoke only what the Father gave Him and faced opposition yet could not be overcome.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 2,
+    title: 'Israel\'s Unfaithfulness',
+    summary: 'Go and proclaim in the hearing of Jerusalem: Thus says the LORD: I remember the devotion of your youth, your love as a bride, how you followed Me in the wilderness. Israel was holy to the LORD, the firstfruits of His harvest. What wrong did your fathers find in Me that they went far from Me, and went after worthlessness and became worthless? They did not say: Where is the LORD? The priests did not know Me; the rulers transgressed against Me; the prophets prophesied by Baal. Has a nation changed its gods, even though they are no gods? But My people have changed their glory for that which does not profit. My people have committed two evils: they have forsaken Me, the fountain of living waters, and hewed out cisterns for themselves, broken cisterns that can hold no water. Is Israel a slave? Why has he become a prey? How can you say, I am not unclean, I have not gone after the Baals? You are a swift she-camel running here and there.',
+    keyThemes: ['Bridal devotion lost', 'Worthless idols', 'Fountain forsaken', 'Broken cisterns'],
+    christConnection: 'Christ is the fountain of living waters (John 7:37-38). Those who forsake Him hew broken cisterns that cannot satisfy the soul\'s thirst.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 3,
+    title: 'Faithless Israel Called to Return',
+    summary: 'If a man divorces his wife and she goes and becomes another man\'s wife, will he return to her? Would not that land be greatly polluted? You have played the whore with many lovers; and would you return to Me? declares the LORD. Lift up your eyes to the bare heights and see! Where have you not been ravished? You have polluted the land with your whoring. Have you seen what faithless Israel has done? She went up on every high hill and played the whore. I thought: After she has done all this she will return to Me, but she did not return, and her treacherous sister Judah saw it. I gave faithless Israel her certificate of divorce, yet her treacherous sister Judah did not fear. Return, faithless Israel; I will not look on you in anger, for I am merciful. Only acknowledge your guilt. Return, O faithless children; I will give you shepherds after My own heart, who will feed you with knowledge and understanding. In those days they shall no more say: The ark of the covenant of the LORD. At that time Jerusalem shall be called the throne of the LORD.',
+    keyThemes: ['Spiritual adultery', 'Israel and Judah compared', 'Call to return', 'Shepherds after God\'s heart'],
+    christConnection: 'Christ is the faithful Shepherd after God\'s own heart. He receives unfaithful sinners who return to Him with genuine repentance.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 4,
+    title: 'Disaster from the North',
+    summary: 'If you return, O Israel, return to Me. If you remove your detestable things from My presence and do not waver, then nations shall bless themselves in you. Break up your fallow ground, and do not sow among thorns. Circumcise yourselves to the LORD; remove the foreskin of your hearts, O men of Judah and inhabitants of Jerusalem. Declare in Judah: Blow the trumpet through the land; cry aloud: Assemble, and let us go into the fortified cities! A lion has gone up from his thicket, a destroyer of nations has set out. Your cities will be ruins without inhabitant. For this put on sackcloth, lament and wail. My anguish, my anguish! I writhe in pain! My heart is beating wildly. I cannot keep silent because I hear the sound of the trumpet, the alarm of war. Disaster follows hard on disaster; the whole land is laid waste. I looked on the earth, and behold, it was without form and void; the heavens had no light. I looked, and behold, the fruitful land was a desert, and all its cities were laid low.',
+    keyThemes: ['Circumcision of heart', 'Lion from thicket', 'Prophet\'s anguish', 'Creation reversed'],
+    christConnection: 'Christ calls for heart circumcision through the Spirit (Rom 2:29). He alone transforms stony hearts into hearts of flesh that truly return to God.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 5,
+    title: 'Not One Righteous',
+    summary: 'Run to and fro through the streets of Jerusalem, look and take note! Search her squares to see if you can find a man, one who does justice and seeks truth, that I may pardon her. Though they say, As the LORD lives, yet they swear falsely. O LORD, do not Your eyes look for truth? You have struck them down, but they felt no anguish. They have made their faces harder than rock; they have refused to repent. Then I said: These are only the poor; they have no sense. But I will go to the great and speak to them. But they all alike had broken the yoke. Therefore a lion from the forest shall strike them down. Shall I not punish them for these things? Shall I not avenge Myself on a nation such as this? An appalling and horrible thing has happened in the land: the prophets prophesy falsely, and the priests rule at their direction. My people love to have it so, but what will you do when the end comes?',
+    keyThemes: ['Search for one righteous', 'Hardened hearts', 'False prophets', 'People love falsehood'],
+    christConnection: 'No righteous one could be found—until Christ. He is the one righteous Man for whose sake God pardons His people.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 6,
+    title: 'Jerusalem Under Siege',
+    summary: 'Flee for safety, O people of Benjamin, from the midst of Jerusalem! Blow the trumpet in Tekoa, set up a signal on Beth-haccherem, for disaster looms out of the north. The lovely daughter of Zion I compare to a lovely pasture. Shepherds with their flocks shall come against her. Prepare war against her; arise, let us attack at noon! Cut down her trees; cast up a siege mound against Jerusalem. Thus says the LORD of hosts: Glean thoroughly as a vine the remnant of Israel. To whom shall I speak and give warning, that they may hear? Behold, their ears are uncircumcised; they cannot listen. Behold, the word of the LORD is to them an object of scorn. From the least to the greatest, every one is greedy for unjust gain. They have healed the wound of My people lightly, saying: Peace, peace, when there is no peace. Were they ashamed when they committed abomination? They were not at all ashamed. Stand by the roads and look, and ask for the ancient paths, where the good way is; and walk in it, and find rest for your souls. But they said: We will not walk in it.',
+    keyThemes: ['Disaster from north', 'Uncircumcised ears', 'False peace', 'Ancient paths rejected'],
+    christConnection: 'Christ invites us to find rest for our souls (Matt 11:29)—the ancient path rejected by Israel but opened through Him.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 7,
+    title: 'The Temple Sermon',
+    summary: 'The word that came to Jeremiah from the LORD: Stand in the gate of the LORD\'s house and proclaim this word. Hear the word of the LORD, all you men of Judah who enter these gates. Thus says the LORD of hosts, the God of Israel: Amend your ways and your deeds, and I will let you dwell in this place. Do not trust in these deceptive words: This is the temple of the LORD, the temple of the LORD. For if you truly amend your ways, if you truly execute justice, if you do not oppress the sojourner, the fatherless, or the widow, and do not go after other gods—then I will let you dwell in this place. Behold, you trust in deceptive words to no avail. Will you steal, murder, commit adultery, swear falsely, burn incense to Baal, and then come and stand before Me in this house? Has this house become a den of robbers in your eyes? Go now to Shiloh, where I made My name dwell at first, and see what I did to it for the wickedness of My people Israel. I will do to the house what I did to Shiloh.',
+    keyThemes: ['Temple trust rebuked', 'Amend your ways', 'Den of robbers', 'Shiloh\'s fate warning'],
+    christConnection: 'Jesus quoted "den of robbers" when He cleansed the temple (Matt 21:13). True worship requires heart transformation, not religious formalism.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 8,
+    title: 'Sin and Treachery',
+    summary: 'At that time, declares the LORD, the bones of the kings of Judah, the bones of its officials, the bones of the priests, the bones of the prophets, and the bones of the inhabitants of Jerusalem shall be brought out of their tombs. And they shall be spread before the sun and the moon and all the host of heaven, which they have loved and served. They shall not be gathered or buried. Death shall be preferred to life by all who remain. Why has this people turned away in perpetual backsliding? They hold fast to deceit; they refuse to return. I have paid attention and listened, but they have not spoken rightly. No man relents of his evil, saying: What have I done? Everyone turns to his own course, like a horse plunging headlong into battle. Even the stork knows her appointed times, but My people know not the rules of the LORD. How can you say: We are wise, and the law of the LORD is with us? The wise men shall be put to shame. They have healed the wound of My people lightly, saying: Peace, peace, when there is no peace. Is there no balm in Gilead? Is there no physician there?',
+    keyThemes: ['Perpetual backsliding', 'Stork knows seasons', 'False peace proclaimed', 'Balm in Gilead'],
+    christConnection: 'Christ is the balm of Gilead, the great Physician. Where Israel\'s wound was healed lightly, He provides true and complete healing through His cross.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 9,
+    title: 'The Prophet\'s Lament',
+    summary: 'Oh that my head were waters, and my eyes a fountain of tears, that I might weep day and night for the slain of the daughter of my people! Oh that I had in the desert a travelers\' lodging place, that I might leave my people and go away from them! For they are all adulterers, a company of treacherous men. They bend their tongue like a bow; falsehood and not truth has grown strong in the land. They proceed from evil to evil. Let everyone beware of his neighbor; trust not any brother, for every brother is a deceiver. Their tongue is a deadly arrow; it speaks deceitfully. Shall I not punish them for these things? I will make Jerusalem a heap of ruins. Who is the man so wise that he understands this? Thus says the LORD: Let not the wise man boast in his wisdom, let not the mighty man boast in his might, let not the rich man boast in his riches, but let him who boasts boast in this, that he understands and knows Me, that I am the LORD who practices steadfast love, justice, and righteousness in the earth.',
+    keyThemes: ['Weeping prophet', 'Tongue deadly arrow', 'Trust no one', 'Boast in knowing God'],
+    christConnection: 'Christ wept over Jerusalem (Luke 19:41). Paul quotes verse 24: let him who boasts, boast in the Lord (1 Cor 1:31). True glory is knowing God through Christ.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 10,
+    title: 'The LORD and Idols',
+    summary: 'Hear the word that the LORD speaks to you, O house of Israel. Thus says the LORD: Learn not the way of the nations, nor be dismayed at the signs of the heavens because the nations are dismayed at them, for the customs of the peoples are vanity. A tree from the forest is cut down and worked with an axe by the hands of a craftsman. They decorate it with silver and gold; they fasten it with hammer and nails so that it cannot move. Their idols are like scarecrows in a cucumber field, and they cannot speak; they have to be carried, for they cannot walk. Do not be afraid of them, for they cannot do evil, neither is it in them to do good. There is none like You, O LORD; You are great, and Your name is great in might. Who would not fear You, O King of the nations? The gods who did not make the heavens and the earth shall perish. But the LORD is the true God; He is the living God and the everlasting King. The portion of Jacob is not like these, for He is the one who formed all things.',
+    keyThemes: ['Idols are vanity', 'Scarecrows cannot speak', 'Living God vs dead idols', 'King of nations'],
+    christConnection: 'Christ is the living God, the everlasting King. Unlike mute idols, He speaks and acts. He formed all things and sustains them by His powerful word.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 11,
+    title: 'The Broken Covenant',
+    summary: 'The word that came to Jeremiah from the LORD: Hear the words of this covenant, and speak to the men of Judah and the inhabitants of Jerusalem. Say to them: Thus says the LORD: Cursed be the man who does not hear the words of this covenant that I commanded your fathers when I brought them out of Egypt, saying: Listen to My voice and do all that I command you. So shall you be My people, and I will be your God. Proclaim all these words in the cities of Judah: Hear the words of this covenant and do them. But they did not obey or incline their ear; every one walked in the stubbornness of his evil heart. Therefore I brought upon them all the words of this covenant. A conspiracy is found among the men of Judah. They have turned back to the iniquities of their forefathers. I have made their supplication to go up, but they have not hearkened. The LORD once called you a green olive tree, beautiful with good fruit. But you have done evil. The men of Anathoth, who seek your life, saying: Do not prophesy in the name of the LORD, or you will die by our hand—I will punish them.',
+    keyThemes: ['Covenant broken', 'Cursed for disobedience', 'Conspiracy against God', 'Plot against Jeremiah'],
+    christConnection: 'Christ fulfilled the covenant that Israel broke. He too faced plots from His own people but was vindicated through resurrection.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 12,
+    title: 'Jeremiah\'s Complaint',
+    summary: 'Righteous are You, O LORD, when I plead with You; yet I would plead my case before You. Why does the way of the wicked prosper? Why do all who are treacherous thrive? You plant them, and they take root; they grow and produce fruit. You are near in their mouth but far from their heart. But You, O LORD, know me; You see me, and test my heart toward You. Pull them out like sheep for the slaughter. How long will the land mourn and the grass of every field wither? For the evil of those who dwell in it the beasts and the birds are swept away. If you have raced with men on foot, and they have wearied you, how will you compete with horses? And if in a safe land you are so trusting, what will you do in the thicket of the Jordan? I have forsaken My house; I have abandoned My heritage. I have given the beloved of My soul into the hands of her enemies. My heritage has become to Me like a lion in the forest; she has lifted up her voice against Me. Return every man to his heritage, and they shall take up the heritage that they have defiled.',
+    keyThemes: ['Why do wicked prosper?', 'Racing with horses', 'Heritage forsaken', 'Promise of restoration'],
+    christConnection: 'Christ answered the problem of the wicked prospering: judgment is coming. He who ran with horses on the cross will return in triumph.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 13,
+    title: 'The Linen Belt',
+    summary: 'Thus said the LORD to me: Go and buy a linen loincloth and put it around your waist, and do not dip it in water. So I bought a loincloth and put it around my waist. And the word of the LORD came to me a second time: Take the loincloth that you have bought and arise, go to the Euphrates and hide it there in a cleft of the rock. After many days the LORD said: Arise, go to the Euphrates, and take the loincloth from the place where I hid it. Then I went and dug, and behold, the loincloth was spoiled; it was good for nothing. Then the word of the LORD came to me: Thus says the LORD: Even so will I spoil the pride of Judah and the great pride of Jerusalem. This evil people, who refuse to hear My words, who stubbornly follow their own heart, shall be like this loincloth, good for nothing. For as the loincloth clings to the waist of a man, so I made the whole house of Israel cling to Me, declares the LORD. Can the Ethiopian change his skin or the leopard his spots? Then also you can do good who are accustomed to do evil.',
+    keyThemes: ['Linen belt parable', 'Pride spoiled', 'Cling to God', 'Leopard\'s spots'],
+    christConnection: 'We cannot change ourselves any more than a leopard can change its spots. Only Christ can give us new hearts that cling to God as we were designed to do.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 14,
+    title: 'Drought and Famine',
+    summary: 'The word of the LORD that came to Jeremiah concerning the drought: Judah mourns, and her gates languish. They have sunk to the ground, and the cry of Jerusalem goes up. Her nobles send their servants for water; they come to the cisterns but find no water. The farmers are ashamed; they cover their heads. Even the doe in the field forsakes her newborn fawn because there is no grass. Though our iniquities testify against us, act, O LORD, for Your name\'s sake. O You hope of Israel, its Savior in time of trouble, why should You be like a stranger in the land? Do not leave us. The LORD said: They have loved to wander; they have not restrained their feet. So the LORD does not accept them; He will remember their iniquity. Do not pray for the welfare of this people. Though they fast, I will not hear their cry. When they offer burnt offering, I will not accept them. The prophets prophesy lies in My name. I did not send them, nor did I command them or speak to them. Ah, Lord GOD, the prophets say to them: You shall not see the sword, nor shall you have famine.',
+    keyThemes: ['Severe drought', 'Prayer refused', 'False prophets', 'False security'],
+    christConnection: 'Christ is the true hope of Israel and Savior in trouble. Unlike false prophets who promised peace, He speaks truth about judgment and salvation.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 15,
+    title: 'The LORD\'s Resolve',
+    summary: 'Then the LORD said to me: Though Moses and Samuel stood before Me, yet My heart would not turn toward this people. Send them out of My sight, and let them go! And when they ask: Where shall we go? you shall say: Thus says the LORD: Those who are for pestilence, to pestilence, and those who are for the sword, to the sword; those who are for famine, to famine, and those who are for captivity, to captivity. I will appoint over them four kinds of destroyers: the sword to kill, the dogs to tear, the birds of the air and the beasts to devour and destroy. I will make them a horror to all the kingdoms of the earth because of what Manasseh did in Jerusalem. Who will have pity on you, O Jerusalem? You have rejected Me, declares the LORD. I am weary of relenting. I have bereaved them; I have destroyed My people. Woe is me, my mother, that you bore me, a man of strife! I have not lent, nor have I borrowed, yet all of them curse me. Your words were found, and I ate them, and Your words became to me a joy and the delight of my heart.',
+    keyThemes: ['Moses and Samuel intercession', 'Judgment irreversible', 'Prophet\'s suffering', 'Word as delight'],
+    christConnection: 'Even Moses and Samuel\'s intercession cannot turn God\'s judgment—but Christ\'s intercession prevails. His words are life and joy to those who receive them.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 16,
+    title: 'Jeremiah\'s Life as a Sign',
+    summary: 'The word of the LORD came to me: You shall not take a wife, nor shall you have sons or daughters in this place. For thus says the LORD concerning the sons and daughters who are born in this place: They shall die of deadly diseases. They shall not be lamented, nor shall they be buried. You shall not go into the house of mourning, or go to lament or grieve for them. You shall not go into the house of feasting to sit with them to eat and drink. For thus says the LORD: I will silence in this place the voice of mirth and the voice of gladness, the voice of the bridegroom and the voice of the bride. And when you tell this people all these words, and they ask: Why has the LORD pronounced all this great evil against us? What is our iniquity?—then you shall say to them: Because your fathers have forsaken Me and gone after other gods and served them. Behold, I am sending for many fishers, and they shall catch them. For My eyes are on all their ways. Behold, I will make them know My power and My might, and they shall know that My name is the LORD.',
+    keyThemes: ['No wife or children', 'No mourning or feasting', 'Fathers\' sins', 'Fishers sent'],
+    christConnection: 'Christ called fishers of men to gather His people. Jeremiah\'s life of sacrifice foreshadows Christ\'s—who had no wife, no home, for the sake of His mission.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 17,
+    title: 'The Heart Is Deceitful',
+    summary: 'The sin of Judah is written with a pen of iron; with a point of diamond it is engraved on the tablet of their heart and on the horns of their altars. While their children remember their altars and their Asherim, beside every green tree and on the high hills. Thus says the LORD: Cursed is the man who trusts in man and makes flesh his strength, whose heart turns away from the LORD. He is like a shrub in the desert. Blessed is the man who trusts in the LORD, whose trust is the LORD. He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes, for its leaves remain green. The heart is deceitful above all things, and desperately sick; who can understand it? I the LORD search the heart and test the mind, to give every man according to his ways. O LORD, the hope of Israel, all who forsake You shall be put to shame. Heal me, O LORD, and I shall be healed; save me, and I shall be saved, for You are my praise.',
+    keyThemes: ['Sin engraved on heart', 'Cursed trust in man', 'Tree by waters', 'Heart deceitful'],
+    christConnection: 'Christ searches the heart and knows all. He is the tree of life planted by living waters, and He alone can heal our desperately sick hearts.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 18,
+    title: 'The Potter and the Clay',
+    summary: 'The word that came to Jeremiah from the LORD: Arise, and go down to the potter\'s house, and there I will let you hear My words. So I went down to the potter\'s house, and there he was working at his wheel. And the vessel he was making of clay was spoiled in the potter\'s hand, and he reworked it into another vessel, as it seemed good to the potter to do. Then the word of the LORD came to me: O house of Israel, can I not do with you as this potter has done? Behold, like the clay in the potter\'s hand, so are you in My hand, O house of Israel. If at any time I declare concerning a nation or kingdom that I will pluck up and break down and destroy it, and if that nation, concerning which I have spoken, turns from its evil, I will relent of the disaster. And if at any time I declare concerning a nation that I will build and plant it, and if it does evil in My sight, I will relent of the good. Come, let us make plots against Jeremiah! Then Jeremiah said: O LORD, give their children over to famine.',
+    keyThemes: ['Potter and clay', 'God\'s sovereignty', 'Conditional prophecy', 'Plots against prophet'],
+    christConnection: 'God is the potter; we are clay in His hands. Paul applies this to election in Romans 9. Christ shapes His people according to His sovereign will.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 19,
+    title: 'The Broken Flask',
+    summary: 'Thus says the LORD: Go, buy a potter\'s earthenware flask, and take some of the elders of the people and some of the elders of the priests, and go out to the Valley of the Son of Hinnom at the entry of the Potsherd Gate, and proclaim there the words that I tell you. You shall say: Hear the word of the LORD, O kings of Judah and inhabitants of Jerusalem. Thus says the LORD of hosts, the God of Israel: Behold, I am bringing such disaster upon this place that the ears of everyone who hears of it will tingle. Because the people have forsaken Me and profaned this place by making offerings in it to other gods, and because they have filled this place with the blood of innocents, and have built the high places of Baal to burn their sons in the fire—I will make void the counsel of Judah and Jerusalem in this place. Then you shall break the flask in the sight of the men who go with you, and shall say to them: Thus says the LORD of hosts: So will I break this people and this city, as one breaks a potter\'s vessel, so that it can never be mended.',
+    keyThemes: ['Potter\'s flask', 'Valley of Hinnom', 'Child sacrifice', 'Irreparable breaking'],
+    christConnection: 'Judas\'s thirty pieces of silver bought the potter\'s field in this same valley (Matt 27:7). What was broken in judgment is restored through Christ\'s redemption.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 20,
+    title: 'Jeremiah\'s Anguish',
+    summary: 'Now Pashhur the priest, the son of Immer, who was chief officer in the house of the LORD, heard Jeremiah prophesying these things. Then Pashhur beat Jeremiah the prophet, and put him in the stocks at the upper Benjamin Gate. The next day, when Pashhur released Jeremiah from the stocks, Jeremiah said to him: The LORD does not call your name Pashhur, but Terror on Every Side. For thus says the LORD: I will make you a terror to yourself and to all your friends. They shall fall by the sword of their enemies. I will give all Judah into the hand of the king of Babylon. O LORD, You have deceived me, and I was deceived. You are stronger than I, and You have prevailed. I have become a laughingstock all the day; everyone mocks me. If I say, I will not mention Him or speak any more in His name, there is in my heart as it were a burning fire shut up in my bones, and I am weary with holding it in, and I cannot. Cursed be the day on which I was born! Why did I come out from the womb to see toil and sorrow?',
+    keyThemes: ['Prophet beaten', 'Terror on every side', 'Fire in bones', 'Cursing birth'],
+    christConnection: 'Like Jeremiah, Christ was beaten by religious leaders. The fire of God\'s word burns within those He sends. Christ experienced the ultimate anguish at Calvary.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 21,
+    title: 'Message to Zedekiah',
+    summary: 'This is the word that came to Jeremiah from the LORD, when King Zedekiah sent to him Pashhur the son of Malchiah and Zephaniah the priest, saying: Inquire of the LORD for us, for Nebuchadnezzar king of Babylon is making war against us. Perhaps the LORD will deal with us according to all His wonderful deeds and make him go away from us. Then Jeremiah said to them: Thus shall you say to Zedekiah: Thus says the LORD, the God of Israel: Behold, I will turn back the weapons of war that are in your hands. I Myself will fight against you with outstretched hand and strong arm, in anger and in fury and in great wrath. I will strike down the inhabitants of this city, both man and beast. Behold, I set before you the way of life and the way of death. He who stays in this city shall die by the sword, by famine, and by pestilence, but he who goes out and surrenders to the Chaldeans shall live. For I have set My face against this city for harm and not for good. It shall be given into the hand of the king of Babylon, and he shall burn it with fire.',
+    keyThemes: ['Inquiry of king', 'God fights against Judah', 'Way of life and death', 'Surrender to live'],
+    christConnection: 'Christ sets before all people the way of life and death. Those who surrender to Him live; those who resist perish. Submission to God\'s will is the only way to life.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 22,
+    title: 'Judgment on Kings',
+    summary: 'Thus says the LORD: Go down to the house of the king of Judah and speak there this word: Hear the word of the LORD, O king of Judah, who sits on the throne of David. Do justice and righteousness, and deliver from the hand of the oppressor him who has been robbed. Do no wrong or violence to the sojourner, the fatherless, or the widow. If you will indeed obey this word, then kings shall enter the gates of this house. But if you will not obey, this house shall become a desolation. Concerning Jehoahaz: He shall not return here. Concerning Jehoiakim: Do not weep for the dead or grieve for him, but weep bitterly for him who goes away. He will not return. They shall not lament for him, saying: Ah, my brother! He shall be buried with the burial of a donkey. Concerning Coniah: Is this man Coniah a despised, broken pot? Why are he and his children cast out? As I live, none of his offspring shall succeed in sitting on the throne of David.',
+    keyThemes: ['Justice demanded', 'Jehoahaz exiled', 'Jehoiakim\'s donkey burial', 'Coniah\'s line cursed'],
+    christConnection: 'The curse on Coniah\'s line meant no physical descendant could reign—yet Christ, legally through Joseph but physically through Mary, fulfilled David\'s throne legally while bypassing the curse.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 23,
+    title: 'The Righteous Branch',
+    summary: 'Woe to the shepherds who destroy and scatter the sheep of My pasture! declares the LORD. You have scattered My flock and have not attended to them. Behold, I will attend to you for your evil deeds. I Myself will gather the remnant of My flock out of all countries where I have driven them, and I will bring them back to their fold. I will set shepherds over them who will care for them. Behold, the days are coming, declares the LORD, when I will raise up for David a righteous Branch, and He shall reign as king and deal wisely, and shall execute justice and righteousness in the land. In His days Judah will be saved, and Israel will dwell securely. And this is the name by which He will be called: The LORD Is Our Righteousness. I did not send the prophets, yet they ran. I did not speak to them, yet they prophesied. I have heard what the prophets have said who prophesy lies in My name, saying: I have dreamed, I have dreamed! How long? Is not My word like fire, declares the LORD, and like a hammer that breaks the rock in pieces?',
+    keyThemes: ['Woe to shepherds', 'Righteous Branch', 'LORD our righteousness', 'False prophets condemned'],
+    christConnection: 'Christ is the Righteous Branch from David—THE LORD OUR RIGHTEOUSNESS. He is the true Shepherd who gathers the scattered flock.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 24,
+    title: 'Two Baskets of Figs',
+    summary: 'After Nebuchadnezzar king of Babylon had taken into exile from Jerusalem Jeconiah the son of Jehoiakim, king of Judah, together with the officials of Judah, the craftsmen, and the metal workers, and had brought them to Babylon, the LORD showed me this vision: behold, two baskets of figs placed before the temple of the LORD. One basket had very good figs, like first-ripe figs, but the other basket had very bad figs, so bad that they could not be eaten. And the LORD said to me: What do you see, Jeremiah? I said: Figs, the good figs very good, and the bad figs very bad, so bad that they cannot be eaten. Then the word of the LORD came to me: Thus says the LORD, the God of Israel: Like these good figs, so I will regard as good the exiles from Judah, whom I have sent away from this place to the land of the Chaldeans. I will set My eyes on them for good, and I will bring them back to this land. I will build them up, and not tear them down. I will give them a heart to know that I am the LORD. But thus says the LORD: Like the bad figs that are so bad they cannot be eaten, so will I treat Zedekiah and his officials.',
+    keyThemes: ['Good and bad figs', 'Exiles favored', 'Heart to know God', 'Those remaining judged'],
+    christConnection: 'God gives a heart to know Him—this is regeneration, fulfilled through Christ. He builds up His people and gives them a new heart to know the LORD.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 25,
+    title: 'Seventy Years of Captivity',
+    summary: 'The word that came to Jeremiah concerning all the people of Judah, in the fourth year of Jehoiakim, which was the first year of Nebuchadnezzar—for twenty-three years the word of the LORD has come to me, and I have spoken to you persistently, but you have not listened. You have neither listened nor inclined your ears to hear. The LORD has persistently sent all His servants the prophets, but you have not listened. Turn now, every one of you, from his evil way. This whole land shall become a ruin and a waste, and these nations shall serve the king of Babylon seventy years. Then after seventy years are completed, I will punish the king of Babylon and that nation for their iniquity. I will bring upon that land all the words that I have spoken against it. For many nations and great kings shall make slaves even of them. Take from My hand this cup of the wine of wrath and make all the nations to whom I send you drink it. They shall drink and stagger and be crazed.',
+    keyThemes: ['Twenty-three years preaching', 'Seventy years captivity', 'Babylon judged afterward', 'Cup of wrath'],
+    christConnection: 'Christ drank the cup of God\'s wrath for us (Matt 26:39). The seventy years point to God\'s sovereign timing in judgment and restoration.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 26,
+    title: 'Jeremiah Threatened with Death',
+    summary: 'In the beginning of the reign of Jehoiakim, this word came from the LORD: Stand in the court of the LORD\'s house, and speak to all the cities of Judah that come to worship all the words that I command you to speak to them; do not hold back a word. It may be they will listen, that I may relent of the disaster. Say to them: If you will not listen to Me, to walk in My law, I will make this house like Shiloh. When Jeremiah had finished speaking all that the LORD had commanded, the priests and prophets and all the people laid hold of him, saying: You shall die! Why have you prophesied in the name of the LORD, saying: This house shall be like Shiloh? All the people were gathered against Jeremiah. Then the officials and all the people said to the priests and prophets: This man does not deserve the sentence of death, for he has spoken to us in the name of the LORD our God. Certain elders arose and said: Micah of Moresheth prophesied the same, and Hezekiah did not put him to death. But Uriah, who prophesied similarly, fled to Egypt, and Jehoiakim had him killed.',
+    keyThemes: ['Death threat', 'Shiloh warning repeated', 'Officials defend Jeremiah', 'Uriah killed'],
+    christConnection: 'Like Jeremiah, Jesus was threatened for speaking truth about the temple (Matt 26:61). The prophets were killed, and Christ would suffer the same fate—but would rise again.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 27,
+    title: 'Submit to Babylon',
+    summary: 'In the beginning of the reign of Zedekiah, this word came to Jeremiah from the LORD: Thus the LORD said to me: Make yourself straps and yoke-bars, and put them on your neck. Send word to the king of Edom, the king of Moab, the king of the sons of Ammon, the king of Tyre, and the king of Sidon by the hand of the envoys who have come to Jerusalem. Give them this charge: Thus says the LORD of hosts, the God of Israel: I have made the earth, the man and the beasts by My great power. Now I have given all these lands into the hand of Nebuchadnezzar, the king of Babylon, My servant. All nations shall serve him and his son and his grandson, until the time of his own land comes. But if any nation will not serve Nebuchadnezzar and will not put its neck under the yoke of the king of Babylon, I will punish that nation with the sword, famine, and pestilence. Do not listen to your prophets who say: You shall not serve the king of Babylon. They are prophesying a lie to you. The nation that will bring its neck under the yoke of the king of Babylon and serve him, I will leave on its own land.',
+    keyThemes: ['Yoke on neck', 'Nebuchadnezzar God\'s servant', 'Submit or die', 'False prophets oppose'],
+    christConnection: 'Christ calls us to take His yoke upon us (Matt 11:29). Submission to God\'s will, even when it seems like defeat, is the path to life and blessing.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 28,
+    title: 'Hananiah the False Prophet',
+    summary: 'In that same year, at the beginning of the reign of Zedekiah, Hananiah the son of Azzur, the prophet from Gibeon, spoke to me in the house of the LORD, in the presence of the priests and all the people, saying: Thus says the LORD of hosts: I have broken the yoke of the king of Babylon. Within two years I will bring back to this place all the vessels of the LORD\'s house, and Jeconiah and all the exiles from Judah who went to Babylon. Then Jeremiah said: Amen! May the LORD do so. But listen to this word that I speak: The prophets who preceded you and me prophesied war, famine, and pestilence. As for the prophet who prophesies peace, when the word of that prophet comes to pass, then it will be known that the LORD has truly sent the prophet. Then Hananiah took the yoke-bars from the neck of Jeremiah and broke them. Hananiah spoke: Thus says the LORD: Even so will I break the yoke of Nebuchadnezzar. Then the LORD said to Jeremiah: Go, tell Hananiah: You have broken wooden bars, but you have made in their place bars of iron. And Jeremiah said: The LORD has not sent you. This very year you shall die. Hananiah died that same year.',
+    keyThemes: ['False prophet Hananiah', 'Wooden yoke broken', 'Iron yoke replaces', 'Death of false prophet'],
+    christConnection: 'Christ distinguished true from false prophets by their fruit (Matt 7:15-20). Hananiah prophesied what people wanted to hear; Jeremiah spoke God\'s difficult truth.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 29,
+    title: 'Letter to the Exiles',
+    summary: 'These are the words of the letter that Jeremiah the prophet sent from Jerusalem to the surviving elders of the exiles, and to the priests, the prophets, and all the people, whom Nebuchadnezzar had taken into exile. Thus says the LORD of hosts, the God of Israel, to all the exiles whom I have sent into exile from Jerusalem to Babylon: Build houses and live in them; plant gardens and eat their produce. Take wives and have sons and daughters. Multiply there, and do not decrease. But seek the welfare of the city where I have sent you into exile, and pray to the LORD on its behalf, for in its welfare you will find your welfare. Do not let your prophets and diviners deceive you. For thus says the LORD: When seventy years are completed for Babylon, I will visit you and fulfill to you My promise and bring you back to this place. For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope. Then you will call upon Me and come and pray to Me, and I will hear you. You will seek Me and find Me, when you seek Me with all your heart.',
+    keyThemes: ['Build and plant in exile', 'Seek city\'s welfare', 'Seventy years', 'Plans for hope'],
+    christConnection: 'God\'s plans for welfare, future, and hope are fulfilled in Christ. He is found by those who seek Him with their whole heart—just as verse 13 promises.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 30,
+    title: 'Restoration Promised',
+    summary: 'The word that came to Jeremiah from the LORD: Thus says the LORD, the God of Israel: Write in a book all the words that I have spoken to you. For behold, days are coming when I will restore the fortunes of My people, Israel and Judah, and I will bring them back to the land that I gave to their fathers. We have heard a cry of panic, of terror, and no peace. Why has every face turned pale? Alas! That day is so great there is none like it; it is a time of distress for Jacob; yet he shall be saved out of it. And it shall come to pass in that day, declares the LORD of hosts, that I will break his yoke from off your neck, and I will burst your bonds. Strangers shall no more make a servant of him. But they shall serve the LORD their God and David their king, whom I will raise up for them. Fear not, O Jacob My servant, declares the LORD. For I will save you from far away, and your offspring from the land of their captivity. Your guilt is great; your sins are flagrant. But because your wound is incurable, I will restore health to you and heal your wounds.',
+    keyThemes: ['Write in book', 'Time of Jacob\'s trouble', 'David their king', 'Incurable wound healed'],
+    christConnection: 'David their king whom God would raise up is Christ, the Son of David. He heals incurable wounds and restores His people from captivity to sin.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 31,
+    title: 'The New Covenant',
+    summary: 'At that time, declares the LORD, I will be the God of all the clans of Israel, and they shall be My people. The people who survived the sword found grace in the wilderness. I have loved you with an everlasting love; therefore I have continued My faithfulness to you. Again I will build you, and you shall be built, O virgin Israel! Is Ephraim My dear son? Is he the child in whom I delight? As often as I speak against him, I remember him still. Therefore My heart yearns for him; I will surely have mercy on him. A voice is heard in Ramah, lamentation and bitter weeping. Rachel is weeping for her children. Keep your voice from weeping, for there is a reward for your work. They shall come back from the land of the enemy. Behold, the days are coming, declares the LORD, when I will make a new covenant with the house of Israel, not like the covenant that I made with their fathers. I will put My law within them, and I will write it on their hearts. I will be their God, and they shall be My people. They shall all know Me. For I will forgive their iniquity, and I will remember their sin no more.',
+    keyThemes: ['Everlasting love', 'Rachel weeping', 'New covenant', 'Law on hearts'],
+    christConnection: 'The new covenant is established through Christ\'s blood (Luke 22:20, Heb 8:8-12). He writes God\'s law on our hearts and remembers our sins no more.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 32,
+    title: 'Jeremiah Buys a Field',
+    summary: 'The word that came to Jeremiah from the LORD in the tenth year of Zedekiah king of Judah, which was the eighteenth year of Nebuchadnezzar. At that time the army of the king of Babylon was besieging Jerusalem, and Jeremiah was shut up in the court of the guard. Jeremiah said: The word of the LORD came to me: Behold, Hanamel will come to you and say: Buy my field that is at Anathoth. Then Hanamel came to me and said: Buy my field. Then I knew that this was the word of the LORD. So I bought the field for seventeen shekels of silver. I signed the deed, sealed it, got witnesses, and weighed the money. I gave the sealed deed to Baruch, saying: Thus says the LORD of hosts: Houses and fields and vineyards shall again be bought in this land. Then I prayed: Ah, Lord GOD! It is You who have made the heavens and the earth by Your great power. Nothing is too hard for You. The LORD said: Behold, I am the LORD, the God of all flesh. Is anything too hard for Me? I will give them one heart and one way, that they may fear Me forever.',
+    keyThemes: ['Field bought during siege', 'Nothing too hard for God', 'Deed of purchase', 'Promise of return'],
+    christConnection: 'Jeremiah\'s purchase during siege demonstrated faith in future restoration. Christ purchased His people while they were still dead in sins—securing their future inheritance.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 33,
+    title: 'The Righteous Branch',
+    summary: 'The word of the LORD came to Jeremiah a second time, while he was still shut up in the court of the guard: Thus says the LORD who made it, the LORD who formed it to establish it—the LORD is His name: Call to Me and I will answer you, and will tell you great and hidden things that you have not known. Concerning the houses of this city and the houses of the kings of Judah: I will cleanse them from all the guilt of their sin against Me. And this city shall be to Me a name of joy, a praise and a glory before all the nations of the earth. Again there shall be heard in this place the voice of mirth and the voice of gladness, the voice of the bridegroom and the voice of the bride. In those days and at that time I will cause a righteous Branch to spring up for David. He shall execute justice and righteousness in the land. In those days Judah will be saved. And this is the name by which it will be called: The LORD is our righteousness. For thus says the LORD: David shall never lack a man to sit on the throne of the house of Israel, and the Levitical priests shall never lack a man in My presence to offer burnt offerings.',
+    keyThemes: ['Call and I will answer', 'Great hidden things', 'Righteous Branch', 'Perpetual Davidic throne'],
+    christConnection: 'The righteous Branch from David is Christ. He is THE LORD OUR RIGHTEOUSNESS, and His throne endures forever. He is our eternal priest and king.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 34,
+    title: 'Broken Covenant of Liberty',
+    summary: 'The word that came to Jeremiah from the LORD, when Nebuchadnezzar king of Babylon and all his army were fighting against Jerusalem: Go and speak to Zedekiah king of Judah and say to him: Thus says the LORD: I am giving this city into the hand of the king of Babylon, and he shall burn it with fire. You shall not escape from his hand but shall surely be captured. Yet hear the word of the LORD: You shall not die by the sword. You shall die in peace. The word that came to Jeremiah after King Zedekiah had made a covenant with all the people in Jerusalem to proclaim liberty to them, that everyone should set free his Hebrew slaves, male and female. And all the officials and all the people obeyed. But afterward they turned around and took back the male and female slaves. You have not obeyed Me by proclaiming liberty, every one to his brother. Behold, I proclaim to you liberty—to the sword, to pestilence, and to famine. I will make you a horror to all the kingdoms of the earth. The men who transgressed My covenant I will make like the calf that they cut in two and passed between its parts.',
+    keyThemes: ['Zedekiah\'s fate', 'Liberty proclaimed then revoked', 'Covenant broken', 'Covenant curse applied'],
+    christConnection: 'Christ proclaims true liberty to captives—liberty that cannot be revoked. Those who reject His freedom face the covenant curses He bore in their place.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 35,
+    title: 'The Faithful Rechabites',
+    summary: 'The word that came to Jeremiah from the LORD in the days of Jehoiakim: Go to the house of the Rechabites and speak with them and bring them to the house of the LORD, into one of the chambers; then offer them wine to drink. So I took Jaazaniah and his brothers and all his sons and the whole house of the Rechabites, and I set before them pitchers full of wine, and cups, and I said to them: Drink wine. But they answered: We will drink no wine, for Jonadab the son of Rechab, our father, commanded us: You shall not drink wine, neither you nor your sons forever. You shall not build a house; you shall not sow seed; you shall not plant or have a vineyard; but you shall live in tents. We have obeyed the voice of Jonadab our father in all that he commanded us. Then the word of the LORD came to Jeremiah: Go and say to the men of Judah: Will you not receive instruction and listen to My words? The command that Jonadab gave to his sons—they have kept. But I have spoken to you persistently, and you have not listened to Me. Jonadab shall never lack a man to stand before Me.',
+    keyThemes: ['Rechabites tested', 'Obedience to ancestors', 'Contrast with Judah', 'Blessed for obedience'],
+    christConnection: 'The Rechabites obeyed their human father\'s commands; how much more should we obey our heavenly Father through Christ, who perfectly obeyed Him for us.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 36,
+    title: 'Jehoiakim Burns the Scroll',
+    summary: 'In the fourth year of Jehoiakim, this word came to Jeremiah from the LORD: Take a scroll and write on it all the words that I have spoken to you against Israel and Judah and all the nations. It may be that the house of Judah will hear all the disaster that I intend to do to them, so that every one may turn from his evil way. Then Jeremiah called Baruch the son of Neriah, and Baruch wrote on a scroll at the dictation of Jeremiah all the words of the LORD. Jeremiah ordered Baruch: Go, and read from the scroll the words of the LORD in the hearing of the people. When Micaiah heard all the words, he went down to the king\'s house. The officials sent Jehudi to bring the scroll. As Jehudi read three or four columns, the king would cut them off with a knife and throw them into the fire until the entire scroll was consumed. Yet neither the king nor any of his servants who heard all these words was afraid, nor did they tear their garments. Then the word of the LORD came to Jeremiah: Take another scroll and write on it all the former words that were in the first scroll. Many similar words were added to them.',
+    keyThemes: ['Scroll written', 'Word read publicly', 'King burns scroll', 'Word rewritten expanded'],
+    christConnection: 'God\'s word cannot be destroyed. Though Jehoiakim burned the scroll, more words were added. Christ is the living Word whom death could not hold.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 37,
+    title: 'Jeremiah Imprisoned',
+    summary: 'Zedekiah the son of Josiah, whom Nebuchadnezzar king of Babylon made king, reigned instead of Coniah. But neither he nor his servants nor the people of the land listened to the words of the LORD that He spoke through Jeremiah the prophet. King Zedekiah sent Jehucal and Zephaniah the priest to Jeremiah the prophet, saying: Please pray for us to the LORD our God. Now Jeremiah was still going in and out among the people, for he had not yet been put in prison. The army of Pharaoh had come out of Egypt, and when the Chaldeans heard news of them, they withdrew from Jerusalem. Then the word of the LORD came to Jeremiah: Say to the king of Judah: Behold, Pharaoh\'s army that came to help you is about to return to Egypt. The Chaldeans shall come back and fight against this city. Even if you should defeat the whole army of Chaldeans, and there remained only wounded men, each in his tent, they would rise up and burn this city with fire. When Jeremiah was about to go to Benjamin, a sentry arrested him, saying: You are deserting to the Chaldeans! The officials beat Jeremiah and imprisoned him.',
+    keyThemes: ['Zedekiah\'s inquiry', 'Egypt no help', 'Jeremiah arrested', 'False accusation'],
+    christConnection: 'Jeremiah was falsely accused, beaten, and imprisoned—foreshadowing Christ who was falsely accused, beaten, and killed for speaking God\'s truth.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 38,
+    title: 'Jeremiah in the Cistern',
+    summary: 'Now Shephatiah, Gedaliah, Jucal, and Pashhur heard the words that Jeremiah was saying to all the people: Thus says the LORD: He who stays in this city shall die by the sword, famine, and pestilence, but he who goes out to the Chaldeans shall live. So the officials said to the king: Let this man be put to death, for he is weakening the hands of the soldiers and all the people. King Zedekiah said: Behold, he is in your hands. So they took Jeremiah and cast him into the cistern of Malchiah, letting Jeremiah down by ropes. And there was no water in the cistern, but only mud, and Jeremiah sank in the mud. When Ebed-melech the Ethiopian, a eunuch in the king\'s house, heard that they had put Jeremiah into the cistern, he spoke to the king: My lord the king, these men have done evil. He will die there of hunger. Then the king commanded Ebed-melech: Take thirty men from here and lift Jeremiah the prophet out of the cistern before he dies. So Ebed-melech lifted him out with ropes and rags, and Jeremiah remained in the court of the guard.',
+    keyThemes: ['Death demanded', 'Cast into cistern', 'Ebed-melech rescues', 'Zedekiah\'s weakness'],
+    christConnection: 'Jeremiah in the miry pit foreshadows Christ in the grave. As Ebed-melech rescued Jeremiah, the Father raised Christ from death\'s pit.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 39,
+    title: 'The Fall of Jerusalem',
+    summary: 'In the ninth year of Zedekiah king of Judah, in the tenth month, Nebuchadnezzar king of Babylon and all his army came against Jerusalem and besieged it. In the eleventh year of Zedekiah, in the fourth month, on the ninth day of the month, a breach was made in the city. When Jerusalem was taken, all the officials of the king of Babylon came and sat in the middle gate. When Zedekiah king of Judah and all the soldiers saw them, they fled, going out of the city at night. But the army of the Chaldeans pursued them and overtook Zedekiah in the plains of Jericho. They brought him up to Nebuchadnezzar king of Babylon at Riblah, and he passed sentence on him. The king of Babylon slaughtered the sons of Zedekiah before his eyes, and slaughtered all the nobles of Judah. He put out the eyes of Zedekiah and bound him in chains to take him to Babylon. Nebuchadnezzar gave command concerning Jeremiah: Take him, look after him well, and do him no harm. The word of the LORD came to Jeremiah concerning Ebed-melech: I will surely save you. You shall have your life as a prize of war, because you have put your trust in Me.',
+    keyThemes: ['Jerusalem breached', 'Zedekiah blinded', 'Jeremiah protected', 'Ebed-melech rewarded'],
+    christConnection: 'The fall of Jerusalem was judgment for rejecting God\'s word. Yet Christ, the true temple, was destroyed and raised again to bring true restoration.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 40,
+    title: 'Jeremiah Stays in Judah',
+    summary: 'The word that came to Jeremiah from the LORD after Nebuzaradan the captain of the guard had let him go from Ramah, when he took him bound in chains along with all the captives of Jerusalem and Judah who were being exiled to Babylon. The captain of the guard took Jeremiah and said to him: The LORD your God pronounced this disaster against this place. The LORD has brought it about, as He said. Because you sinned against the LORD and did not obey His voice, this thing has come upon you. Now, behold, I release you today from the chains on your hands. If it seems good to you to come with me to Babylon, come, and I will look after you well. But if it seems wrong to you, see, all the land is before you. Go wherever you think it good and right to go. When he had not yet gone back, Nebuzaradan said: Go back to Gedaliah son of Ahikam, whom the king of Babylon has appointed governor over the cities of Judah, and dwell with him among the people, or go wherever you think it right to go. Jeremiah went to Gedaliah at Mizpah and lived with him among the people who were left in the land.',
+    keyThemes: ['Jeremiah released', 'Babylon acknowledges God', 'Gedaliah governor', 'Remnant gathered'],
+    christConnection: 'Even pagans recognized God\'s judgment. Jeremiah stayed with the poor of the land, as Christ identified with the lowly and rejected.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 41,
+    title: 'Gedaliah Assassinated',
+    summary: 'In the seventh month, Ishmael the son of Nethaniah, son of Elishama, of the royal family, one of the chief officers of the king, came with ten men to Gedaliah at Mizpah. As they ate bread together, Ishmael and the ten men with him rose up and struck down Gedaliah, whom the king of Babylon had appointed governor in the land. Ishmael also struck down all the Judeans who were with Gedaliah and the Chaldean soldiers who happened to be there. On the day after the murder of Gedaliah, when no one yet knew of it, eighty men arrived from Shechem and Shiloh, bringing grain offerings and incense to present at the house of the LORD. Ishmael went out to meet them, weeping. He said: Come to Gedaliah. When they came into the city, Ishmael slaughtered them and cast them into a cistern. But ten men said: Do not kill us, for we have stores of wheat, barley, oil, and honey hidden in the fields. Then Ishmael took captive all the rest of the people and set out to cross over to the Ammonites. But when Johanan heard of the evil that Ishmael had done, he pursued and rescued the people.',
+    keyThemes: ['Gedaliah murdered', 'Treachery at meal', 'Pilgrims slaughtered', 'Johanan rescues'],
+    christConnection: 'Gedaliah was murdered while sharing bread—a betrayal like Judas. Christ was betrayed at a meal, yet His death brought life, not further destruction.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 42,
+    title: 'Warning Against Going to Egypt',
+    summary: 'Then all the commanders of the forces, and Johanan the son of Kareah, and Jezaniah the son of Hoshaiah, and all the people from the least to the greatest, came near and said to Jeremiah the prophet: Let our plea for mercy come before you, and pray to the LORD your God for us, for all this remnant, that the LORD your God may show us the way we should go, and what we should do. Jeremiah said: I have heard you. I will pray to the LORD your God according to your request. Whatever the LORD answers you, I will tell you. They said: May the LORD be a true and faithful witness against us if we do not act according to all the word that the LORD your God sends you. At the end of ten days the word of the LORD came to Jeremiah: Thus says the LORD, the God of Israel: If you will remain in this land, then I will build you up and not pull you down. Do not fear the king of Babylon, for I am with you to save you. But if you say: We will not remain in this land, and we will go to Egypt—the sword and famine that you fear shall follow you closely to Egypt, and there you shall die.',
+    keyThemes: ['Prayer for guidance', 'Ten days waiting', 'Stay in land', 'Egypt means death'],
+    christConnection: 'The remnant asked for God\'s word but refused to obey. Christ calls us to hear and obey His word, trusting His presence even in fearful circumstances.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 43,
+    title: 'Taken to Egypt',
+    summary: 'When Jeremiah finished speaking to all the people all these words of the LORD their God, Azariah the son of Hoshaiah and Johanan the son of Kareah and all the insolent men said to Jeremiah: You are telling a lie. The LORD our God did not send you to say, Do not go to Egypt to live there. But Baruch the son of Neriah has set you against us, to deliver us into the hand of the Chaldeans, that they may kill us or take us into exile in Babylon. So Johanan and all the commanders of the forces and all the people did not obey the voice of the LORD, to remain in the land of Judah. But Johanan took all the remnant of Judah who had returned to live in the land—the men, the women, the children, the princesses, and every person that Nebuzaradan had left with Gedaliah, also Jeremiah the prophet and Baruch the son of Neriah—and they came into the land of Egypt. They arrived at Tahpanhes. Then the word of the LORD came to Jeremiah: Take large stones and hide them in the pavement at the entrance to Pharaoh\'s palace. Nebuchadnezzar will set his throne over these stones when he comes to strike the land of Egypt.',
+    keyThemes: ['God\'s word rejected', 'Jeremiah accused', 'Forced to Egypt', 'Babylon will come'],
+    christConnection: 'Despite clear guidance, the people chose their own way. Christ alone perfectly obeyed the Father\'s direction, even to the cross.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 44,
+    title: 'Judgment on Those in Egypt',
+    summary: 'The word that came to Jeremiah concerning all the Judeans who lived in Egypt: Thus says the LORD of hosts, the God of Israel: You have seen all the disaster that I brought upon Jerusalem. They provoked Me to anger in that they went to make offerings to other gods. I persistently sent My servants the prophets, saying: Do not do this abomination that I hate! But they did not listen. Therefore My wrath was poured out. And now, why do you commit this great evil against yourselves, making offerings to other gods in Egypt? Have you forgotten the evil of your fathers, the evil of the kings of Judah, the evil of their wives, your own evil? They are not humbled even to this day. Therefore thus says the LORD: I will set My face against you for harm. I will take the remnant of Judah who came to Egypt, and they shall all be consumed in Egypt. Then all the women answered: As for the word that you have spoken to us in the name of the LORD, we will not listen to you. We will continue making offerings to the queen of heaven. Since we stopped, we have lacked everything.',
+    keyThemes: ['Idolatry in Egypt', 'Queen of heaven worshiped', 'Remnant will perish', 'Defiant refusal'],
+    christConnection: 'The people blamed their troubles on not worshiping false gods. Christ alone is worthy of worship; all other worship leads to destruction.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 45,
+    title: 'Message to Baruch',
+    summary: 'The word that Jeremiah the prophet spoke to Baruch the son of Neriah, when he wrote these words in a book at the dictation of Jeremiah, in the fourth year of Jehoiakim king of Judah: Thus says the LORD, the God of Israel, to you, O Baruch: You said, Woe is me! For the LORD has added sorrow to my pain. I am weary with my groaning, and I find no rest. Thus shall you say to him: Thus says the LORD: Behold, what I have built I am breaking down, and what I have planted I am plucking up—that is, the whole land. And do you seek great things for yourself? Seek them not, for behold, I am bringing disaster upon all flesh, declares the LORD. But I will give you your life as a prize of war in all places to which you may go.',
+    keyThemes: ['Baruch\'s lament', 'No rest found', 'Seek not greatness', 'Life as prize'],
+    christConnection: 'Christ did not seek great things for Himself but humbled Himself. Baruch\'s life was preserved; in Christ, our lives are eternally secure.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 46,
+    title: 'Judgment on Egypt',
+    summary: 'The word of the LORD that came to Jeremiah the prophet concerning the nations. About Egypt. Concerning the army of Pharaoh Neco, king of Egypt, which was by the river Euphrates at Carchemish and which Nebuchadnezzar king of Babylon defeated in the fourth year of Jehoiakim. Prepare buckler and shield, and advance for battle! Harness the horses; mount, O horsemen! Take your stations with your helmets, polish your spears, put on your armor! Why have I seen it? They are dismayed and have turned backward. Their warriors are beaten down and have fled in haste; they look not back—terror on every side! The swift cannot flee away, nor the warrior escape; in the north by the river Euphrates they have stumbled and fallen. Who is this, rising like the Nile, like rivers whose waters surge? Egypt rises like the Nile; he said, I will rise, I will cover the earth. Come up, O horses, and rage, O chariots! But that day is the day of the Lord GOD of hosts, a day of vengeance. The sword shall devour and be sated. But fear not, O Jacob My servant, for I am with you. I will discipline you in just measure.',
+    keyThemes: ['Egypt defeated', 'Carchemish battle', 'Day of vengeance', 'Jacob comforted'],
+    christConnection: 'The day of the LORD brings judgment on all nations. Yet God\'s servants find comfort—Christ is our security even when empires fall.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 47,
+    title: 'Judgment on Philistia',
+    summary: 'The word of the LORD that came to Jeremiah the prophet concerning the Philistines, before Pharaoh struck down Gaza. Thus says the LORD: Behold, waters are rising out of the north, and shall become an overflowing torrent; they shall overflow the land and all that fills it, the city and those who dwell in it. Men shall cry out, and every inhabitant of the land shall wail. At the noise of the stamping of the hoofs of his stallions, at the rushing of his chariots, at the rumbling of their wheels, fathers look not back to their children, so feeble are their hands, because of the day that is coming to destroy all the Philistines, to cut off from Tyre and Sidon every helper that remains. For the LORD is destroying the Philistines, the remnant of the coastland of Caphtor. Baldness has come upon Gaza; Ashkelon has perished. O remnant of their valley, how long will you gash yourselves? Ah, sword of the LORD! How long till you are quiet? Put yourself into your scabbard; rest and be still! How can it be quiet when the LORD has given it a charge?',
+    keyThemes: ['Waters from north', 'Philistines destroyed', 'Fathers abandon children', 'Sword of LORD'],
+    christConnection: 'The LORD\'s sword of judgment cannot rest until its work is complete. Christ bore that sword for His people that we might find eternal rest.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 48,
+    title: 'Judgment on Moab',
+    summary: 'Concerning Moab. Thus says the LORD of hosts, the God of Israel: Woe to Nebo, for it is laid waste! Kiriathaim is put to shame, it is taken; the fortress is put to shame and broken down. The renown of Moab is no more. Come, let us cut her off from being a nation! Moab is destroyed; her little ones have made a cry. For at the ascent of Luhith they go up weeping; for at the descent of Horonaim they have heard the distressed cry of destruction. Flee! Save yourselves! Make yourselves like a juniper in the desert! For, because you trusted in your works and your treasures, you also shall be taken. Cursed is he who does the work of the LORD with slackness, and cursed is he who keeps back his sword from bloodshed. Moab has been at ease from his youth and has settled on his dregs; he has not been emptied from vessel to vessel, nor has he gone into exile; so his taste remains in him, and his scent is not changed. How is the strong staff broken, the beautiful rod! We have heard of the pride of Moab—he is very proud. Yet I will restore the fortunes of Moab in the latter days.',
+    keyThemes: ['Moab\'s destruction', 'Trust in works', 'Settled on dregs', 'Future restoration'],
+    christConnection: 'Moab trusted in works and treasures but was emptied. Christ alone is the true treasure; in Him, even enemies like Moab find restoration.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 49,
+    title: 'Judgment on Ammon, Edom, and Others',
+    summary: 'Concerning the Ammonites. Thus says the LORD: Has Israel no sons? Has he no heir? Why then has Milcom dispossessed Gad? Ammon shall become a mound of ruins. I will restore the fortunes of the Ammonites. Concerning Edom. Thus says the LORD of hosts: Is wisdom no more in Teman? Has counsel perished from the prudent? Concerning Edom, I will bring the calamity of Esau upon him. If grape gatherers came to you, would they not leave gleanings? But I have stripped Esau bare; I have uncovered his hiding places. His children are destroyed, and his brothers, and his neighbors. Leave your fatherless children; I will keep them alive; let your widows trust in Me. For thus says the LORD: If those who did not deserve to drink the cup must drink it, will you go unpunished? Concerning Damascus. Hamath and Arpad are confounded. Concerning Kedar and Hazor. Flee, wander far away; dwell in the depths, O inhabitants of Hazor! Concerning Elam. I will break the bow of Elam. But in the latter days I will restore the fortunes of Elam.',
+    keyThemes: ['Ammon judged', 'Edom stripped', 'Damascus dismayed', 'Restoration promised'],
+    christConnection: 'God judges all nations but promises restoration. Through Christ, enemies become friends; the nations find hope in the latter days.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 50,
+    title: 'Judgment on Babylon',
+    summary: 'The word that the LORD spoke concerning Babylon, by Jeremiah the prophet: Declare among the nations and proclaim, set up a banner and proclaim, do not conceal it, say: Babylon is taken, Bel is put to shame, Merodach is dismayed. Her images are put to shame, her idols are dismayed. For out of the north a nation has come up against her, which shall make her land a desolation. In those days and in that time, declares the LORD, the people of Israel and the people of Judah shall come together, weeping as they come, and they shall seek the LORD their God. They shall ask the way to Zion. My people have been lost sheep. Their shepherds have led them astray. Flee from the midst of Babylon! Go out of the land of the Chaldeans. For behold, I am stirring up and bringing against Babylon a gathering of great nations, from the north country. Because you rejoiced, because you exulted, O plunderers of My heritage, I am against you, declares the LORD. Israel is a hunted sheep driven away by lions. First the king of Assyria devoured him, and now Nebuchadnezzar has gnawed his bones. Therefore thus says the LORD: I will punish the king of Babylon as I punished the king of Assyria.',
+    keyThemes: ['Babylon taken', 'Israel seeks Zion', 'Lost sheep', 'Babylon punished'],
+    christConnection: 'God\'s people are scattered sheep whom Christ the Good Shepherd gathers. Babylon, the enemy, is judged—as will be all who oppose God\'s flock.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 51,
+    title: 'The Doom of Babylon',
+    summary: 'Thus says the LORD: Behold, I will stir up the spirit of a destroyer against Babylon, against the inhabitants of Leb-kamai. I will send to Babylon winnowers, and they shall winnow her. They shall empty her land when they come against her from every side in the day of trouble. Though Babylon should mount up to heaven, and though she should fortify her strong height, yet destroyers would come from Me against her. The sound of a cry from Babylon! A great destruction from the land of the Chaldeans! For the LORD is laying Babylon waste. Though Babylon should mount up to heaven, and though she should fortify her strong height, yet destroyers would come from Me against her. Flee from the midst of Babylon; let every one save his life! Be not cut off in her punishment, for this is the time of the LORD\'s vengeance. Babylon was a golden cup in the LORD\'s hand, making all the earth drunken. Suddenly Babylon has fallen and been broken; wail for her! The LORD has stirred up the spirit of the kings of the Medes. Israel and Judah have not been forsaken by their God, the LORD of hosts. The sea has come up on Babylon; she is covered with its tumultuous waves. Jeremiah wrote in a book all the disaster that should come upon Babylon. You shall bind a stone to it and cast it into the Euphrates and say: Thus shall Babylon sink.',
+    keyThemes: ['Babylon destroyed', 'Golden cup', 'Medes stirred', 'Scroll cast in Euphrates'],
+    christConnection: 'Babylon the great falls, as Revelation echoes (Rev 18). Christ\'s kingdom triumphs over all earthly powers. The stone sinking pictures final judgment.'
+  },
+  {
+    bookId: 'jeremiah',
+    chapter: 52,
+    title: 'The Fall of Jerusalem Recounted',
+    summary: 'Zedekiah was twenty-one years old when he became king, and he reigned eleven years in Jerusalem. He did what was evil in the sight of the LORD. For because of the anger of the LORD it came to the point in Jerusalem that He cast them out from His presence. And Zedekiah rebelled against the king of Babylon. In the ninth year of his reign, Nebuchadnezzar came against Jerusalem. The city was besieged till the eleventh year of King Zedekiah. Then a breach was made in the city. All the men of war fled. The army of the Chaldeans pursued Zedekiah and overtook him in the plains of Jericho. They slaughtered the sons of Zedekiah before his eyes, put out his eyes, bound him in chains, and took him to Babylon. Nebuzaradan burned the house of the LORD, the king\'s house, and all the great houses. He broke down the walls of Jerusalem. He carried into exile the rest of the people. He left some of the poorest. The Chaldeans broke in pieces the bronze pillars, the stands, and the bronze sea. In the thirty-seventh year of the exile of Jehoiachin, Evil-merodach lifted up the head of Jehoiachin king of Judah and brought him out of prison. He spoke kindly to him and gave him a seat above the kings who were with him in Babylon.',
+    keyThemes: ['Jerusalem falls', 'Temple destroyed', 'Exile completed', 'Jehoiachin released'],
+    christConnection: 'The book ends with hope: Jehoiachin is released and honored. The Davidic line survives, pointing to Christ who would come from this very line to reign forever.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -5608,6 +6564,10 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return ECCLESIASTES_CHAPTERS;
     case 'song-of-solomon':
       return SONG_OF_SOLOMON_CHAPTERS;
+    case 'isaiah':
+      return ISAIAH_CHAPTERS;
+    case 'jeremiah':
+      return JEREMIAH_CHAPTERS;
     // More books will be added
     default:
       return [];
@@ -5638,4 +6598,6 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'proverbs', bookName: 'Proverbs', chapters: PROVERBS_CHAPTERS },
   { bookId: 'ecclesiastes', bookName: 'Ecclesiastes', chapters: ECCLESIASTES_CHAPTERS },
   { bookId: 'song-of-solomon', bookName: 'Song of Solomon', chapters: SONG_OF_SOLOMON_CHAPTERS },
+  { bookId: 'isaiah', bookName: 'Isaiah', chapters: ISAIAH_CHAPTERS },
+  { bookId: 'jeremiah', bookName: 'Jeremiah', chapters: JEREMIAH_CHAPTERS },
 ];
