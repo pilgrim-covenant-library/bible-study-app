@@ -7637,6 +7637,238 @@ export const MALACHI_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ============================================================================
+// NEW TESTAMENT
+// ============================================================================
+
+// Matthew - 28 chapters
+export const MATTHEW_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'matthew',
+    chapter: 1,
+    title: 'The Genealogy and Birth of Jesus Christ',
+    summary: 'The book of the genealogy of Jesus Christ, the son of David, the son of Abraham. Abraham was the father of Isaac, and Isaac the father of Jacob, and Jacob the father of Judah and his brothers. The genealogy traces through the kings of Judah to Joseph the husband of Mary, of whom Jesus was born, who is called Christ. Now the birth of Jesus Christ took place in this way. When his mother Mary had been betrothed to Joseph, before they came together she was found to be with child from the Holy Spirit. And her husband Joseph, being a just man and unwilling to put her to shame, resolved to divorce her quietly. But as he considered these things, behold, an angel of the Lord appeared to him in a dream, saying, Joseph, son of David, do not fear to take Mary as your wife, for that which is conceived in her is from the Holy Spirit. She will bear a son, and you shall call his name Jesus, for he will save his people from their sins. All this took place to fulfill what the Lord had spoken by the prophet: Behold, the virgin shall conceive and bear a son, and they shall call his name Immanuel.',
+    keyThemes: ['Son of David', 'Son of Abraham', 'Virgin birth', 'Immanuel'],
+    christConnection: 'Jesus is the promised Messiah, son of David and Abraham. Born of a virgin, He is Immanuel—God with us. He saves His people from their sins.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 2,
+    title: 'The Visit of the Magi and Flight to Egypt',
+    summary: 'Now after Jesus was born in Bethlehem of Judea in the days of Herod the king, behold, wise men from the east came to Jerusalem, saying, Where is he who has been born king of the Jews? For we saw his star when it rose and have come to worship him. When Herod the king heard this, he was troubled, and all Jerusalem with him. And assembling all the chief priests and scribes of the people, he inquired of them where the Christ was to be born. They told him, In Bethlehem of Judea, for so it is written by the prophet. And being warned in a dream not to return to Herod, they departed to their own country by another way. Now when they had departed, behold, an angel of the Lord appeared to Joseph in a dream and said, Rise, take the child and his mother, and flee to Egypt, and remain there until I tell you, for Herod is about to search for the child, to destroy him. Then Herod, when he saw that he had been tricked by the wise men, became furious, and he sent and killed all the male children in Bethlehem. Then was fulfilled what was spoken by the prophet Jeremiah: A voice was heard in Ramah, weeping and loud lamentation. But when Herod died, an angel of the Lord appeared in a dream to Joseph in Egypt, saying, Rise, take the child and his mother and go to the land of Israel. And he rose and took the child and came and lived in a city called Nazareth, so that what was spoken by the prophets might be fulfilled: He shall be called a Nazarene.',
+    keyThemes: ['Wise men worship', 'Bethlehem prophecy', 'Flight to Egypt', 'Out of Egypt my son'],
+    christConnection: 'Gentile wise men worship Christ the King. He fulfills Micah 5:2 (Bethlehem), Hosea 11:1 (out of Egypt), and is called a Nazarene. Even as an infant, He is opposed.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 3,
+    title: 'John the Baptist and the Baptism of Jesus',
+    summary: 'In those days John the Baptist came preaching in the wilderness of Judea, Repent, for the kingdom of heaven is at hand. For this is he who was spoken of by the prophet Isaiah when he said, The voice of one crying in the wilderness: Prepare the way of the Lord; make his paths straight. Now John wore a garment of camel\'s hair and a leather belt around his waist, and his food was locusts and wild honey. Then Jerusalem and all Judea and all the region about the Jordan were going out to him, and they were baptized by him in the river Jordan, confessing their sins. But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, You brood of vipers! Who warned you to flee from the wrath to come? Bear fruit in keeping with repentance. Then Jesus came from Galilee to the Jordan to John, to be baptized by him. John would have prevented him, saying, I need to be baptized by you, and do you come to me? But Jesus answered him, Let it be so now, for thus it is fitting for us to fulfill all righteousness. And when Jesus was baptized, immediately he went up from the water, and behold, the heavens were opened to him, and he saw the Spirit of God descending like a dove and coming to rest on him; and behold, a voice from heaven said, This is my beloved Son, with whom I am well pleased.',
+    keyThemes: ['Repent kingdom near', 'Prepare the way', 'Baptism of Jesus', 'Beloved Son'],
+    christConnection: 'John prepares the way for Christ. At Jesus\'s baptism, the Trinity is revealed: the Father speaks, the Son is baptized, the Spirit descends. He fulfills all righteousness for us.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 4,
+    title: 'The Temptation and Beginning of Ministry',
+    summary: 'Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting forty days and forty nights, he was hungry. And the tempter came and said to him, If you are the Son of God, command these stones to become loaves of bread. But he answered, It is written, Man shall not live by bread alone, but by every word that comes from the mouth of God. Then the devil took him to the holy city and set him on the pinnacle of the temple and said to him, If you are the Son of God, throw yourself down. Jesus said to him, Again it is written, You shall not put the Lord your God to the test. Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their glory. And he said to him, All these I will give you, if you will fall down and worship me. Then Jesus said to him, Be gone, Satan! For it is written, You shall worship the Lord your God and him only shall you serve. Then the devil left him, and behold, angels came and were ministering to him. From that time Jesus began to preach, saying, Repent, for the kingdom of heaven is at hand. And he said to them, Follow me, and I will make you fishers of men.',
+    keyThemes: ['Temptation in wilderness', 'It is written', 'Kingdom at hand', 'Follow me'],
+    christConnection: 'Where Adam failed, Christ succeeds. He defeats Satan with Scripture. The kingdom of heaven is at hand in His person. He calls disciples to follow Him.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 5,
+    title: 'The Sermon on the Mount: Beatitudes and the Law',
+    summary: 'Seeing the crowds, he went up on the mountain, and when he sat down, his disciples came to him. And he opened his mouth and taught them, saying: Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall receive mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who are persecuted for righteousness\' sake, for theirs is the kingdom of heaven. You are the salt of the earth. You are the light of the world. Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them. For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven. You have heard that it was said to those of old, You shall not murder. But I say to you that everyone who is angry with his brother will be liable to judgment.',
+    keyThemes: ['Beatitudes', 'Salt and light', 'Fulfill not abolish', 'Heart righteousness'],
+    christConnection: 'Christ is the true interpreter of the Law. He calls for heart righteousness, not mere external compliance. He fulfills the Law perfectly for us.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 6,
+    title: 'The Sermon: Piety, Prayer, and Treasure',
+    summary: 'Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven. Thus, when you give to the needy, sound no trumpet before you, as the hypocrites do. But when you give to the needy, do not let your left hand know what your right hand is doing. And when you pray, do not be like the hypocrites. But when you pray, go into your room and shut the door and pray to your Father who is in secret. Pray then like this: Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our debts, as we also have forgiven our debtors. And lead us not into temptation, but deliver us from evil. Do not lay up for yourselves treasures on earth, where moth and rust destroy. But lay up for yourselves treasures in heaven. For where your treasure is, there your heart will be also. No one can serve two masters. You cannot serve God and money. Therefore I tell you, do not be anxious about your life. But seek first the kingdom of God and his righteousness, and all these things will be added to you.',
+    keyThemes: ['Secret piety', 'Lord\'s Prayer', 'Treasure in heaven', 'Seek first kingdom'],
+    christConnection: 'Christ teaches us to pray to our Father. He is the way to the Father. We seek His kingdom and righteousness first, trusting Him for all our needs.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 7,
+    title: 'The Sermon: Judging, Asking, and Building',
+    summary: 'Judge not, that you be not judged. For with the judgment you pronounce you will be judged, and with the measure you use it will be measured to you. Why do you see the speck that is in your brother\'s eye, but do not notice the log that is in your own eye? Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. For everyone who asks receives, and the one who seeks finds, and to the one who knocks it will be opened. So whatever you wish that others would do to you, do also to them, for this is the Law and the Prophets. Enter by the narrow gate. For the gate is wide and the way is easy that leads to destruction. Beware of false prophets, who come to you in sheep\'s clothing but inwardly are ravenous wolves. You will recognize them by their fruits. Not everyone who says to me, Lord, Lord, will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven. Everyone then who hears these words of mine and does them will be like a wise man who built his house on the rock. And when the crowds heard it, they were astonished at his teaching, for he was teaching them as one who had authority.',
+    keyThemes: ['Do not judge', 'Ask seek knock', 'Narrow gate', 'Build on rock'],
+    christConnection: 'Christ is the narrow gate and the rock foundation. His words have divine authority. Those who build on Him stand firm; those who reject Him fall.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 8,
+    title: 'Miracles of Healing and Authority',
+    summary: 'When he came down from the mountain, great crowds followed him. And behold, a leper came to him and knelt before him, saying, Lord, if you will, you can make me clean. And Jesus stretched out his hand and touched him, saying, I will; be clean. And immediately his leprosy was cleansed. When he had entered Capernaum, a centurion came forward to him, appealing to him, Lord, my servant is lying paralyzed at home, suffering terribly. And Jesus said to him, I will come and heal him. But the centurion replied, Lord, I am not worthy to have you come under my roof, but only say the word, and my servant will be healed. When Jesus heard this, he marveled and said to those who followed him, Truly, I tell you, with no one in Israel have I found such faith. That evening they brought to him many who were oppressed by demons, and he cast out the spirits with a word and healed all who were sick. This was to fulfill what was spoken by the prophet Isaiah: He took our illnesses and bore our diseases. And when Jesus got into the boat, his disciples followed him. And behold, there arose a great storm on the sea, so that the boat was being swamped by the waves; but he was asleep. And they woke him, saying, Save us, Lord; we are perishing. And he said to them, Why are you afraid, O you of little faith? Then he rose and rebuked the winds and the sea, and there was a great calm. And the men marveled, saying, What sort of man is this, that even winds and sea obey him?',
+    keyThemes: ['Leper cleansed', 'Centurion\'s faith', 'Bore our diseases', 'Stills the storm'],
+    christConnection: 'Christ has authority over disease, demons, and nature. He fulfills Isaiah 53:4, bearing our illnesses. Even wind and sea obey Him—He is God incarnate.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 9,
+    title: 'More Miracles and the Call of Matthew',
+    summary: 'And getting into a boat he crossed over and came to his own city. And behold, some people brought to him a paralytic, lying on a bed. And when Jesus saw their faith, he said to the paralytic, Take heart, my son; your sins are forgiven. And behold, some of the scribes said to themselves, This man is blaspheming. But Jesus, knowing their thoughts, said, Why do you think evil in your hearts? For which is easier, to say, Your sins are forgiven, or to say, Rise and walk? But that you may know that the Son of Man has authority on earth to forgive sins—he then said to the paralytic—Rise, pick up your bed and go home. As Jesus passed on from there, he saw a man called Matthew sitting at the tax booth, and he said to him, Follow me. And he rose and followed him. And as Jesus reclined at table in the house, behold, many tax collectors and sinners came and were reclining with Jesus and his disciples. And when the Pharisees saw this, they said to his disciples, Why does your teacher eat with tax collectors and sinners? But when he heard it, he said, Those who are well have no need of a physician, but those who are sick. Go and learn what this means: I desire mercy, and not sacrifice. For I came not to call the righteous, but sinners.',
+    keyThemes: ['Authority to forgive', 'Matthew called', 'Physician for sick', 'Mercy not sacrifice'],
+    christConnection: 'Christ has authority to forgive sins—only God can do this. He is the Great Physician who came for sinners. He calls unlikely disciples like Matthew.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 10,
+    title: 'The Twelve Apostles Sent Out',
+    summary: 'And he called to him his twelve disciples and gave them authority over unclean spirits, to cast them out, and to heal every disease and every affliction. The names of the twelve apostles are these: first, Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother; Philip and Bartholomew; Thomas and Matthew the tax collector; James the son of Alphaeus, and Thaddaeus; Simon the Zealot, and Judas Iscariot, who betrayed him. These twelve Jesus sent out, instructing them, Go nowhere among the Gentiles, but go rather to the lost sheep of the house of Israel. And proclaim as you go, saying, The kingdom of heaven is at hand. Behold, I am sending you out as sheep in the midst of wolves, so be wise as serpents and innocent as doves. Beware of men, for they will deliver you over to courts and flog you in their synagogues, and you will be dragged before governors and kings for my sake. Brother will deliver brother over to death, and the father his child. And you will be hated by all for my name\'s sake. But the one who endures to the end will be saved. A disciple is not above his teacher. So have no fear of them. Everyone who acknowledges me before men, I also will acknowledge before my Father who is in heaven. Do not think that I have come to bring peace to the earth. I have not come to bring peace, but a sword.',
+    keyThemes: ['Twelve sent', 'Sheep among wolves', 'Endure to end', 'Acknowledge before men'],
+    christConnection: 'Christ sends His apostles with His authority. Following Him brings division and persecution. He will acknowledge those who acknowledge Him before the Father.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 11,
+    title: 'Jesus and John the Baptist',
+    summary: 'When Jesus had finished instructing his twelve disciples, he went on from there to teach and preach in their cities. Now when John heard in prison about the deeds of the Christ, he sent word by his disciples and said to him, Are you the one who is to come, or shall we look for another? And Jesus answered them, Go and tell John what you hear and see: the blind receive their sight and the lame walk, lepers are cleansed and the deaf hear, and the dead are raised up, and the poor have good news preached to them. And blessed is the one who is not offended by me. Truly, I say to you, among those born of women there has arisen no one greater than John the Baptist. Yet the one who is least in the kingdom of heaven is greater than he. Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light.',
+    keyThemes: ['Are you the one', 'Deeds of Christ', 'Greater than John', 'Come find rest'],
+    christConnection: 'Jesus proves His messiahship by His works. He invites the weary to come and find rest. His yoke is easy because He carries it with us and for us.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 12,
+    title: 'Lord of the Sabbath',
+    summary: 'At that time Jesus went through the grainfields on the Sabbath. His disciples were hungry, and they began to pluck heads of grain and to eat. But when the Pharisees saw it, they said to him, Look, your disciples are doing what is not lawful to do on the Sabbath. He said to them, Have you not read what David did when he was hungry? Or have you not read in the Law how on the Sabbath the priests in the temple profane the Sabbath and are guiltless? I tell you, something greater than the temple is here. For the Son of Man is lord of the Sabbath. And a man was there with a withered hand. And they asked him, Is it lawful to heal on the Sabbath? He said to them, It is lawful to do good on the Sabbath. Then he said to the man, Stretch out your hand. And the man stretched it out, and it was restored. But the Pharisees went out and conspired against him, how to destroy him. Then a demon-oppressed man who was blind and mute was brought to him, and he healed him. And the Pharisees said, It is only by Beelzebul, the prince of demons, that this man casts out demons. Whoever speaks against the Holy Spirit will not be forgiven. For out of the abundance of the heart the mouth speaks. An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of the prophet Jonah.',
+    keyThemes: ['Lord of Sabbath', 'Greater than temple', 'Blasphemy Spirit', 'Sign of Jonah'],
+    christConnection: 'Christ is greater than the temple and Lord of the Sabbath. He is our true Sabbath rest. The sign of Jonah points to His death and resurrection.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 13,
+    title: 'Parables of the Kingdom',
+    summary: 'That same day Jesus went out of the house and sat beside the sea. And great crowds gathered about him, so that he got into a boat and sat down. And the whole crowd stood on the beach. And he told them many things in parables, saying: A sower went out to sow. And as he sowed, some seeds fell along the path, and the birds came and devoured them. Other seeds fell on rocky ground. Other seeds fell among thorns. Other seeds fell on good soil and produced grain, some a hundredfold. He who has ears, let him hear. The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field. It is the smallest of all seeds, but when it has grown it is larger than all the garden plants. The kingdom of heaven is like leaven that a woman took and hid in three measures of flour. The kingdom of heaven is like treasure hidden in a field. Again, the kingdom of heaven is like a merchant in search of fine pearls, who, on finding one pearl of great value, went and sold all that he had and bought it. Again, the kingdom of heaven is like a net that was thrown into the sea.',
+    keyThemes: ['Sower and soils', 'Mustard seed', 'Hidden treasure', 'Pearl of great price'],
+    christConnection: 'Christ reveals kingdom mysteries through parables. He is the treasure worth selling all to obtain. His kingdom starts small but grows to fill the earth.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 14,
+    title: 'John Beheaded and Jesus Feeds Five Thousand',
+    summary: 'At that time Herod the tetrarch heard about the fame of Jesus, and he said to his servants, This is John the Baptist. He has been raised from the dead. For Herod had seized John and bound him and put him in prison for the sake of Herodias, his brother Philip\'s wife. For John had been saying to him, It is not lawful for you to have her. And though he wanted to put him to death, he feared the people, because they held him to be a prophet. But when Herod\'s birthday came, the daughter of Herodias danced before the company and pleased Herod. And she, prompted by her mother, said, Give me the head of John the Baptist here on a platter. Now when Jesus heard this, he withdrew from there in a boat to a desolate place by himself. When he went ashore he saw a great crowd, and he had compassion on them and healed their sick. Now when it was evening, the disciples came to him and said, This is a desolate place, and the day is now over; send the crowds away. But Jesus said, They need not go away; you give them something to eat. And taking the five loaves and the two fish, he looked up to heaven and said a blessing. Then he broke the loaves and gave them to the disciples, and the disciples gave them to the crowds. And they all ate and were satisfied. And immediately he made the disciples get into the boat. And in the fourth watch of the night he came to them, walking on the sea.',
+    keyThemes: ['John martyred', 'Compassion on crowds', 'Feeds five thousand', 'Walks on water'],
+    christConnection: 'Christ is the Bread of Life who feeds the multitudes. He walks on water, showing divine power over creation. He invites Peter to come to Him on the waves.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 15,
+    title: 'Tradition and the Heart',
+    summary: 'Then Pharisees and scribes came to Jesus from Jerusalem and said, Why do your disciples break the tradition of the elders? For they do not wash their hands when they eat. He answered them, And why do you break the commandment of God for the sake of your tradition? For God commanded, Honor your father and your mother. But you say, If anyone tells his father or his mother, What you would have gained from me is given to God, he need not honor his father. So for the sake of your tradition you have made void the word of God. You hypocrites! Well did Isaiah prophesy of you. And he called the people to him and said to them, Hear and understand: it is not what goes into the mouth that defiles a person, but what comes out of the mouth; this defiles a person. For out of the heart come evil thoughts. These are what defile a person. And Jesus went away from there and withdrew to the district of Tyre and Sidon. And behold, a Canaanite woman from that region came out and was crying, Have mercy on me, O Lord, Son of David. And he answered her, I was sent only to the lost sheep of the house of Israel. But she came and knelt before him, saying, Lord, help me. And he answered, It is not right to take the children\'s bread and throw it to the dogs. She said, Yes, Lord, yet even the dogs eat the crumbs that fall from their masters\' table. Then Jesus answered her, O woman, great is your faith! Be it done for you as you desire.',
+    keyThemes: ['Tradition vs commandment', 'Heart defilement', 'Canaanite woman', 'Great faith'],
+    christConnection: 'Christ exposes empty tradition and calls for heart purity. He responds to the Gentile woman\'s faith, showing His mission extends beyond Israel to all nations.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 16,
+    title: 'Peter\'s Confession of Christ',
+    summary: 'And the Pharisees and Sadducees came, and to test him they asked him to show them a sign from heaven. He answered them, An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah. Now when the disciples reached the other side, they had forgotten to bring any bread. Jesus said to them, Watch and beware of the leaven of the Pharisees and Sadducees. Now when Jesus came into the district of Caesarea Philippi, he asked his disciples, Who do people say that the Son of Man is? And they said, Some say John the Baptist, others say Elijah, and others Jeremiah or one of the prophets. He said to them, But who do you say that I am? Simon Peter replied, You are the Christ, the Son of the living God. And Jesus answered him, Blessed are you, Simon Bar-Jonah! For flesh and blood has not revealed this to you, but my Father who is in heaven. And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it. From that time Jesus began to show his disciples that he must go to Jerusalem and suffer many things and be killed, and on the third day be raised.',
+    keyThemes: ['Sign of Jonah', 'You are the Christ', 'On this rock', 'Must suffer and rise'],
+    christConnection: 'Peter confesses Jesus as the Christ, the Son of the living God. Christ will build His church on this confession. He predicts His suffering, death, and resurrection.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 17,
+    title: 'The Transfiguration',
+    summary: 'And after six days Jesus took with him Peter and James, and John his brother, and led them up a high mountain by themselves. And he was transfigured before them, and his face shone like the sun, and his clothes became white as light. And behold, there appeared to them Moses and Elijah, talking with him. And Peter said to Jesus, Lord, it is good that we are here. If you wish, I will make three tents here. He was still speaking when, behold, a bright cloud overshadowed them, and a voice from the cloud said, This is my beloved Son, with whom I am well pleased; listen to him. When the disciples heard this, they fell on their faces and were terrified. But Jesus came and touched them, saying, Rise, and have no fear. And when they lifted up their eyes, they saw no one but Jesus only. And as they were coming down the mountain, Jesus commanded them, Tell no one the vision, until the Son of Man is raised from the dead. And the disciples asked him, Then why do the scribes say that first Elijah must come? He answered, Elijah does come, and he will restore all things. But I tell you that Elijah has already come.',
+    keyThemes: ['Transfiguration', 'Moses and Elijah', 'Listen to him', 'Elijah has come'],
+    christConnection: 'Christ\'s glory is revealed on the mountain. The Father commands us to listen to Him. Moses (Law) and Elijah (Prophets) testify to Christ. John the Baptist was Elijah.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 18,
+    title: 'The Greatest in the Kingdom',
+    summary: 'At that time the disciples came to Jesus, saying, Who is the greatest in the kingdom of heaven? And calling to him a child, he put him in the midst of them and said, Truly, I say to you, unless you turn and become like children, you will never enter the kingdom of heaven. Whoever humbles himself like this child is the greatest in the kingdom of heaven. Whoever receives one such child in my name receives me. But whoever causes one of these little ones who believe in me to sin, it would be better for him to have a great millstone fastened around his neck. See that you do not despise one of these little ones. For I tell you that in heaven their angels always see the face of my Father. What do you think? If a man has a hundred sheep, and one of them has gone astray, does he not leave the ninety-nine on the mountains and go in search of the one that went astray? If your brother sins against you, go and tell him his fault, between you and him alone. For where two or three are gathered in my name, there am I among them. Then Peter came up and said to him, Lord, how often will my brother sin against me, and I forgive him? As many as seven times? Jesus said to him, I do not say to you seven times, but seventy-seven times.',
+    keyThemes: ['Become like children', 'Do not despise little ones', 'Seek the lost', 'Forgive seventy-seven times'],
+    christConnection: 'Christ values the humble and seeks the lost. He is present where two or three gather. He calls us to unlimited forgiveness, as He has forgiven us.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 19,
+    title: 'Marriage, Divorce, and Riches',
+    summary: 'Now when Jesus had finished these sayings, he went away from Galilee and entered the region of Judea beyond the Jordan. And Pharisees came up to him and tested him by asking, Is it lawful to divorce one\'s wife for any cause? He answered, Have you not read that he who created them from the beginning made them male and female? Therefore a man shall leave his father and his mother and hold fast to his wife, and the two shall become one flesh. What therefore God has joined together, let not man separate. Then children were brought to him that he might lay his hands on them and pray. And the disciples rebuked the people. But Jesus said, Let the little children come to me and do not hinder them, for to such belongs the kingdom of heaven. And behold, a man came up to him, saying, Teacher, what good deed must I do to have eternal life? And he said to him, Why do you ask me about what is good? There is only one who is good. If you would enter life, keep the commandments. The young man said to him, All these I have kept. What do I still lack? Jesus said to him, If you would be perfect, go, sell what you possess and give to the poor. When the young man heard this he went away sorrowful, for he had great possessions.',
+    keyThemes: ['Marriage from beginning', 'Let children come', 'Rich young ruler', 'Hard for rich to enter'],
+    christConnection: 'Christ upholds God\'s design for marriage. He welcomes children. He exposes the rich man\'s idol. With man salvation is impossible, but with God all things are possible.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 20,
+    title: 'Workers in the Vineyard',
+    summary: 'For the kingdom of heaven is like a master of a house who went out early in the morning to hire laborers for his vineyard. After agreeing with the laborers for a denarius a day, he sent them into his vineyard. And going out about the third hour he saw others standing idle in the marketplace, and to them he said, You go into the vineyard too, and whatever is right I will give you. Going out again about the sixth hour and the ninth hour, he did the same. And about the eleventh hour he went out and found others standing. And he said to them, You go into the vineyard too. And when evening came, the owner of the vineyard said to his foreman, Call the laborers and pay them their wages, beginning with the last, up to the first. And when those hired about the eleventh hour came, each of them received a denarius. So when the first came, they thought they would receive more, but each of them also received a denarius. Am I not allowed to do what I choose with what belongs to me? Or do you begrudge my generosity? So the last will be first, and the first last. And Jesus said, The Son of Man will be delivered over to the chief priests and scribes, and they will condemn him. Whoever would be great among you must be your servant. Even as the Son of Man came not to be served but to serve, and to give his life as a ransom for many.',
+    keyThemes: ['Laborers in vineyard', 'Last first first last', 'Son of Man to suffer', 'Ransom for many'],
+    christConnection: 'God\'s grace is sovereign—He gives generously to all who come. Christ came to serve, not be served, and to give His life as a ransom for many.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 21,
+    title: 'The Triumphal Entry',
+    summary: 'Now when they drew near to Jerusalem and came to Bethphage, to the Mount of Olives, then Jesus sent two disciples, saying to them, Go into the village in front of you, and immediately you will find a donkey tied, and a colt with her. Untie them and bring them to me. This took place to fulfill what was spoken by the prophet, saying, Say to the daughter of Zion, Behold, your king is coming to you, humble, and mounted on a donkey. The crowds that went before him and that followed him were shouting, Hosanna to the Son of David! Blessed is he who comes in the name of the Lord! Hosanna in the highest! And Jesus entered the temple and drove out all who sold and bought in the temple, and he overturned the tables of the money-changers. He said to them, It is written, My house shall be called a house of prayer, but you make it a den of robbers. And the blind and the lame came to him in the temple, and he healed them. Jesus answered them, Have you never read, The stone that the builders rejected has become the cornerstone; this was the Lord\'s doing, and it is marvelous in our eyes? Therefore I tell you, the kingdom of God will be taken away from you and given to a people producing its fruits.',
+    keyThemes: ['Triumphal entry', 'Cleansing temple', 'Rejected cornerstone', 'Kingdom given to others'],
+    christConnection: 'Christ enters Jerusalem as the humble King (Zech 9:9). He cleanses His Father\'s house. He is the rejected cornerstone who becomes the foundation of God\'s new temple.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 22,
+    title: 'Parables and Questions',
+    summary: 'And again Jesus spoke to them in parables, saying, The kingdom of heaven may be compared to a king who gave a wedding feast for his son. Those invited were not worthy. Then he said to his servants, Go therefore to the main roads and invite to the wedding feast as many as you find. But when the king came in to look at the guests, he saw there a man who had no wedding garment. And he said to him, Friend, how did you get in here without a wedding garment? And he was speechless. Then the king said to the attendants, Bind him hand and foot and cast him into the outer darkness. For many are called, but few are chosen. Then the Pharisees went and plotted how to entangle him in his words. Teacher, is it lawful to pay taxes to Caesar, or not? But Jesus, aware of their malice, said, Render to Caesar the things that are Caesar\'s, and to God the things that are God\'s. And the Sadducees came to him. Teacher, which is the great commandment in the Law? And he said to him, You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the great and first commandment. And a second is like it: You shall love your neighbor as yourself.',
+    keyThemes: ['Wedding feast', 'Render to Caesar', 'Greatest commandment', 'Love God and neighbor'],
+    christConnection: 'Christ is the Son for whom the wedding feast is prepared. We must be clothed in His righteousness. Loving God and neighbor summarizes the law He fulfilled.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 23,
+    title: 'Woes to the Scribes and Pharisees',
+    summary: 'Then Jesus said to the crowds and to his disciples, The scribes and the Pharisees sit on Moses\' seat, so do and observe whatever they tell you, but not the works they do. For they preach, but do not practice. They tie up heavy burdens, hard to bear, and lay them on people\'s shoulders. They do all their deeds to be seen by others. But woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of heaven in people\'s faces. Woe to you, scribes and Pharisees, hypocrites! For you travel across sea and land to make a single proselyte, and when he becomes a proselyte, you make him twice as much a child of hell as yourselves. Woe to you, blind guides! Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier matters of the law: justice and mercy and faithfulness. These you ought to have done, without neglecting the others. You serpents, you brood of vipers, how are you to escape being sentenced to hell? O Jerusalem, Jerusalem, the city that kills the prophets. How often would I have gathered your children together as a hen gathers her brood under her wings, and you were not willing!',
+    keyThemes: ['Seven woes', 'Heavy burdens', 'Blind guides', 'Lament over Jerusalem'],
+    christConnection: 'Christ exposes religious hypocrisy. His burden is light, unlike theirs. He longs to gather Jerusalem to Himself. He weeps over those who reject Him.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 24,
+    title: 'Signs of the End of the Age',
+    summary: 'Jesus left the temple and was going away, when his disciples came to point out to him the buildings of the temple. But he answered them, You see all these, do you not? Truly, I say to you, there will not be left here one stone upon another that will not be thrown down. As he sat on the Mount of Olives, the disciples came to him privately, saying, Tell us, when will these things be, and what will be the sign of your coming and of the end of the age? And Jesus answered them, See that no one leads you astray. For many will come in my name, saying, I am the Christ. And you will hear of wars and rumors of wars. Nation will rise against nation. And then many will fall away and betray one another. And this gospel of the kingdom will be proclaimed throughout the whole world as a testimony to all nations, and then the end will come. So when you see the abomination of desolation spoken of by the prophet Daniel, standing in the holy place, then let those who are in Judea flee to the mountains. Immediately after the tribulation of those days the sun will be darkened. Then will appear in heaven the sign of the Son of Man. But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only. Therefore, stay awake, for you do not know on what day your Lord is coming.',
+    keyThemes: ['Temple destruction', 'Wars and rumors', 'Gospel to all nations', 'Stay awake'],
+    christConnection: 'Christ prophesies Jerusalem\'s destruction and His return. The gospel will reach all nations. We watch and wait for His coming, living faithfully.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 25,
+    title: 'Parables of Readiness and Judgment',
+    summary: 'Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom. Five of them were foolish, and five were wise. For when the foolish took their lamps, they took no oil with them, but the wise took flasks of oil with their lamps. As the bridegroom was delayed, they all became drowsy and slept. But at midnight there was a cry, Here is the bridegroom! Come out to meet him. And the foolish said to the wise, Give us some of your oil, for our lamps are going out. But the wise answered, saying, Since there will not be enough for us and for you, go rather to the dealers and buy for yourselves. And while they were going to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. Watch therefore, for you know neither the day nor the hour. For it will be like a man going on a journey, who called his servants and entrusted to them his property. When the Son of Man comes in his glory, and all the angels with him, then he will sit on his glorious throne. Before him will be gathered all the nations, and he will separate people one from another as a shepherd separates the sheep from the goats.',
+    keyThemes: ['Ten virgins', 'Talents', 'Sheep and goats', 'Final judgment'],
+    christConnection: 'Christ is the Bridegroom coming for His bride. We must be ready with oil in our lamps. He will judge all nations, rewarding faithful service.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 26,
+    title: 'The Plot, the Supper, and Gethsemane',
+    summary: 'When Jesus had finished all these sayings, he said to his disciples, You know that after two days the Passover is coming, and the Son of Man will be delivered up to be crucified. Then the chief priests and the elders of the people gathered. Now when Jesus was at Bethany in the house of Simon the leper, a woman came up to him with an alabaster flask of very expensive ointment. She poured it on his head as he reclined at table. Now on the first day of Unleavened Bread the disciples came to Jesus, saying, Where will you have us prepare for you to eat the Passover? Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, Take, eat; this is my body. And he took a cup, and when he had given thanks he gave it to them, saying, Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. Then Jesus went with them to a place called Gethsemane, and he said to his disciples, Sit here, while I go over there and pray. And he began to be sorrowful and troubled. And going a little farther he fell on his face and prayed, saying, My Father, if it be possible, let this cup pass from me; nevertheless, not as I will, but as you will.',
+    keyThemes: ['Anointing for burial', 'Last Supper', 'Blood of covenant', 'Gethsemane prayer'],
+    christConnection: 'Christ institutes the Lord\'s Supper—His body and blood of the new covenant. In Gethsemane He submits to the Father\'s will, embracing the cup of wrath for us.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 27,
+    title: 'The Trial and Crucifixion',
+    summary: 'When morning came, all the chief priests and the elders of the people took counsel against Jesus to put him to death. And they bound him and led him away and delivered him over to Pilate the governor. Then when Judas, his betrayer, saw that Jesus was condemned, he changed his mind and brought back the thirty pieces of silver. And throwing down the pieces of silver into the temple, he departed, and he went and hanged himself. Now Jesus stood before the governor, and the governor asked him, Are you the King of the Jews? Jesus said, You have said so. Now at the feast the governor was accustomed to release for the crowd any one prisoner whom they wanted. And they had then a notorious prisoner called Barabbas. Pilate said to them, Whom do you want me to release for you: Barabbas, or Jesus who is called Christ? And they all said, Let him be crucified! Then the soldiers of the governor took Jesus. And when they had mocked him, they stripped him of the robe and put his own clothes on him and led him away to crucify him. And when they came to a place called Golgotha, they offered him wine to drink, mixed with gall. And they crucified him. And Jesus cried out again with a loud voice and yielded up his spirit. And behold, the curtain of the temple was torn in two, from top to bottom.',
+    keyThemes: ['Thirty pieces of silver', 'Barabbas released', 'Crucified', 'Temple curtain torn'],
+    christConnection: 'Christ is crucified for sinners. Barabbas the guilty goes free while the innocent dies. The torn curtain shows access to God is now open through His sacrifice.'
+  },
+  {
+    bookId: 'matthew',
+    chapter: 28,
+    title: 'The Resurrection and Great Commission',
+    summary: 'Now after the Sabbath, toward the dawn of the first day of the week, Mary Magdalene and the other Mary went to see the tomb. And behold, there was a great earthquake, for an angel of the Lord descended from heaven and came and rolled back the stone and sat on it. His appearance was like lightning, and his clothing white as snow. And for fear of him the guards trembled and became like dead men. But the angel said to the women, Do not be afraid, for I know that you seek Jesus who was crucified. He is not here, for he has risen, as he said. Come, see the place where he lay. Then go quickly and tell his disciples that he has risen from the dead. So they departed quickly from the tomb with fear and great joy, and ran to tell his disciples. And behold, Jesus met them and said, Greetings! And they came up and took hold of his feet and worshiped him. Now the eleven disciples went to Galilee, to the mountain to which Jesus had directed them. And Jesus came and said to them, All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.',
+    keyThemes: ['He is risen', 'All authority given', 'Great Commission', 'I am with you always'],
+    christConnection: 'Christ is risen! He has all authority. He commissions us to make disciples of all nations. He promises His presence to the end of the age—Immanuel still.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -7718,7 +7950,9 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return ZECHARIAH_CHAPTERS;
     case 'malachi':
       return MALACHI_CHAPTERS;
-    // New Testament books will be added
+    case 'matthew':
+      return MATTHEW_CHAPTERS;
+    // More New Testament books will be added
     default:
       return [];
   }
@@ -7765,4 +7999,6 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'haggai', bookName: 'Haggai', chapters: HAGGAI_CHAPTERS },
   { bookId: 'zechariah', bookName: 'Zechariah', chapters: ZECHARIAH_CHAPTERS },
   { bookId: 'malachi', bookName: 'Malachi', chapters: MALACHI_CHAPTERS },
+  // New Testament
+  { bookId: 'matthew', bookName: 'Matthew', chapters: MATTHEW_CHAPTERS },
 ];
