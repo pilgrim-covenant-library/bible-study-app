@@ -8310,6 +8310,62 @@ const JOHN_CHAPTERS: ChapterSummary[] = [
     summary: 'Let not your hearts be troubled. Believe in God; believe also in me. In my Father\'s house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? And if I go and prepare a place for you, I will come again and will take you to myself, that where I am you may be also. And you know the way to where I am going. Thomas said to him, Lord, we do not know where you are going. How can we know the way? Jesus said to him, I am the way, and the truth, and the life. No one comes to the Father except through me. If you had known me, you would have known my Father also. From now on you do know him and have seen him. Philip said to him, Lord, show us the Father. Whoever has seen me has seen the Father. Do you not believe that I am in the Father and the Father is in me? If you love me, you will keep my commandments. And I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth. I will not leave you as orphans; I will come to you. Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.',
     keyThemes: ['I am the way truth life', 'Prepare a place', 'Seen me seen Father', 'Another Helper'],
     christConnection: 'Christ is the Way, the Truth, and the Life—no one comes to the Father except through Him. He prepares a place for us. He reveals the Father. He will send the Spirit to be with us forever.'
+  },
+  {
+    bookId: 'john',
+    chapter: 15,
+    title: 'The True Vine',
+    summary: 'Jesus declares He is the true vine and His Father is the vinedresser. Every branch that does not bear fruit is taken away, and every branch that bears fruit is pruned to bear more. Apart from Christ we can do nothing; abiding in Him we bear much fruit. If we abide in His word and His words abide in us, we may ask whatever we wish. The Father is glorified when we bear much fruit. As the Father loved Jesus, so Jesus loves His disciples. He commands them to love one another as He has loved them. Greater love has no one than to lay down his life for his friends. Jesus chose the disciples and appointed them to bear lasting fruit. The world hates them because it first hated Him. The Helper, the Spirit of truth, will testify about Christ, and the disciples also will bear witness.',
+    keyThemes: ['True vine', 'Abide in me', 'Love one another', 'World hates you'],
+    christConnection: 'Christ is the True Vine—believers must abide in Him to bear fruit. Apart from Him we can do nothing. He chose us and laid down His life in the greatest act of love.'
+  },
+  {
+    bookId: 'john',
+    chapter: 16,
+    title: 'The Spirit of Truth Will Come',
+    summary: 'Jesus warns that the disciples will be put out of synagogues; indeed, the hour is coming when those who persecute them will think they are offering service to God. He tells them these things so that when the hour comes they may remember He told them. It is to their advantage that He goes away, for if He does not go, the Helper will not come. When the Spirit of truth comes, He will convict the world concerning sin, righteousness, and judgment. He will guide the disciples into all truth, declaring what is to come and glorifying Christ. In a little while they will not see Him, and again in a little while they will see Him. Their sorrow will turn to joy like a woman in labor. In that day they will ask in His name. Jesus has spoken in figures, but the hour is coming when He will tell them plainly about the Father. He has said these things so that in Him they may have peace. In the world they will have tribulation, but they should take heart—He has overcome the world.',
+    keyThemes: ['Helper will come', 'Spirit convicts world', 'Sorrow to joy', 'I have overcome'],
+    christConnection: 'Christ sends the Spirit who convicts the world and guides believers into truth. Though tribulation comes, Christ has overcome the world. Our sorrow turns to joy that none can take away.'
+  },
+  {
+    bookId: 'john',
+    chapter: 17,
+    title: 'The High Priestly Prayer',
+    summary: 'Jesus lifts His eyes to heaven and prays. He asks the Father to glorify the Son that the Son may glorify the Father. Eternal life is to know the only true God and Jesus Christ whom He has sent. Jesus has accomplished the work given to Him and manifested the Father\'s name to those given Him out of the world. He prays for His disciples—not for the world but for those the Father has given Him. He asks the Father to keep them in His name, that they may be one as the Father and Son are one. He does not ask that they be taken out of the world but kept from the evil one. He sanctifies Himself for their sake, that they may be sanctified in truth. He prays also for those who will believe through their word, that they all may be one, so the world may believe the Father sent Him. He desires that those given Him may be with Him where He is, to see His glory.',
+    keyThemes: ['Glorify Your Son', 'Eternal life knowing God', 'Keep them in Your name', 'That they may be one'],
+    christConnection: 'Christ prays as our great High Priest. He accomplished the work of salvation. He prays for believers\' unity and protection, and that we would be with Him to behold His glory forever.'
+  },
+  {
+    bookId: 'john',
+    chapter: 18,
+    title: 'Betrayal and Arrest',
+    summary: 'Jesus goes with His disciples across the Kidron Valley to a garden. Judas, knowing the place, comes with soldiers and officers carrying lanterns, torches, and weapons. Jesus, knowing all that would happen, asks whom they seek. They answer, Jesus of Nazareth. Jesus says, I am he, and they draw back and fall to the ground. He asks again, and when they answer, He tells them to let the disciples go. Peter draws his sword and cuts off the ear of the high priest\'s servant Malchus, but Jesus tells him to put away the sword—shall He not drink the cup the Father has given? They bind Jesus and bring Him to Annas, then to Caiaphas. Peter follows and denies Jesus three times before the rooster crows. Jesus is brought before Pilate, who asks if He is the King of the Jews. Jesus answers that His kingdom is not of this world. Pilate finds no guilt in Him and offers to release Him, but the crowd cries out for Barabbas instead.',
+    keyThemes: ['I am he', 'Drink the cup', 'Peter denies Jesus', 'My kingdom not of this world'],
+    christConnection: 'Christ voluntarily submits to arrest, declaring "I am he." He drinks the cup of suffering the Father gives. His kingdom is not of this world—He came to bear witness to the truth.'
+  },
+  {
+    bookId: 'john',
+    chapter: 19,
+    title: 'The Crucifixion and Burial',
+    summary: 'Pilate has Jesus flogged. The soldiers twist a crown of thorns, put it on His head, and mock Him as King of the Jews. Pilate brings Jesus out and says, Behold the man! The chief priests cry out to crucify Him. Pilate asks, Shall I crucify your King? They answer, We have no king but Caesar. So Pilate delivers Jesus to be crucified. He carries His own cross to Golgotha, where they crucify Him between two others. Pilate writes an inscription: Jesus of Nazareth, the King of the Jews. The soldiers divide His garments and cast lots for His tunic, fulfilling Scripture. Standing by the cross are His mother and the beloved disciple; Jesus entrusts His mother to the disciple\'s care. Knowing all is accomplished, Jesus says, I thirst, then, It is finished, and gives up His spirit. Since it is the day of Preparation, the soldiers break the legs of those crucified, but finding Jesus already dead, they pierce His side instead, and blood and water flow out. Joseph of Arimathea and Nicodemus take the body and lay it in a new tomb.',
+    keyThemes: ['Behold the man', 'King of the Jews', 'It is finished', 'Blood and water'],
+    christConnection: 'Christ is lifted up as King, wearing a crown of thorns. He declares "It is finished"—the work of redemption is complete. Blood and water flow from His pierced side, signifying atonement and cleansing.'
+  },
+  {
+    bookId: 'john',
+    chapter: 20,
+    title: 'The Resurrection',
+    summary: 'On the first day of the week, Mary Magdalene comes to the tomb early while it is still dark and sees the stone taken away. She runs to Peter and the other disciple and tells them. They run to the tomb; the other disciple arrives first but waits. Peter enters and sees the linen cloths lying there. The other disciple also enters, sees, and believes. Mary stands weeping outside the tomb and sees two angels. She turns and sees Jesus but does not recognize Him until He says her name. She clings to Him, but He tells her to go to the brothers and say He is ascending to the Father. That evening, Jesus comes and stands among the disciples, showing them His hands and side. He breathes on them and says, Receive the Holy Spirit. Thomas, not present, refuses to believe unless he sees the nail marks. Eight days later, Jesus appears again and invites Thomas to touch His wounds. Thomas exclaims, My Lord and my God! Jesus says blessed are those who believe without seeing. These signs are written that you may believe Jesus is the Christ, the Son of God.',
+    keyThemes: ['Empty tomb', 'Mary Magdalene', 'My Lord and my God', 'Blessed who believe'],
+    christConnection: 'Christ rises bodily from the grave, conquering sin and death. He breathes the Spirit on His disciples. Thomas confesses Him as Lord and God. These things are written that we may believe and have life.'
+  },
+  {
+    bookId: 'john',
+    chapter: 21,
+    title: 'Restoration of Peter',
+    summary: 'Jesus reveals Himself again to the disciples by the Sea of Tiberias. Peter, Thomas, Nathanael, the sons of Zebedee, and two others go fishing but catch nothing all night. At daybreak Jesus stands on the shore, though they do not know it is He. He tells them to cast the net on the right side, and they catch so many fish they cannot haul it in. The disciple whom Jesus loved says to Peter, It is the Lord! Peter throws himself into the sea. They come ashore and find a charcoal fire with fish and bread. Jesus says, Come and have breakfast. This is the third time Jesus appeared to the disciples after rising from the dead. After breakfast, Jesus asks Peter three times, Do you love me? Each time Peter affirms his love, and Jesus commands him to feed His sheep. Jesus tells Peter by what kind of death he will glorify God, then says, Follow me. Peter asks about the beloved disciple, but Jesus says, What is that to you? You follow me. This is the disciple who testifies to these things, and his testimony is true.',
+    keyThemes: ['Miraculous catch', 'Do you love me', 'Feed my sheep', 'Follow me'],
+    christConnection: 'Christ restores Peter after his threefold denial with a threefold commission: Feed my sheep. He calls Peter to follow Him even unto death. The risen Lord reigns and cares for His flock.'
   }
 ];
 
