@@ -8600,6 +8600,141 @@ const ACTS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 1 CORINTHIANS (16 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+const FIRST_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '1-corinthians',
+    chapter: 1,
+    title: 'Divisions and the Cross',
+    summary: 'Paul, called by the will of God to be an apostle, writes to the church of God at Corinth, to those sanctified in Christ Jesus and called to be saints. He gives thanks for the grace given them in Christ—they were enriched in all speech and knowledge and are not lacking in any gift as they wait for the revealing of the Lord Jesus Christ. But he appeals to them that there be no divisions among them. It has been reported that there are quarrels: some say, I follow Paul; others, I follow Apollos; or, I follow Cephas; or, I follow Christ. Is Christ divided? Was Paul crucified for you? Paul thanks God he baptized none of them except Crispus and Gaius, lest anyone say they were baptized into Paul\'s name. Christ did not send him to baptize but to preach the gospel—not with words of eloquent wisdom, lest the cross of Christ be emptied of its power. For the word of the cross is folly to those who are perishing, but to us who are being saved it is the power of God. The foolishness of God is wiser than men, and the weakness of God is stronger than men. Not many were wise, powerful, or of noble birth. God chose what is foolish to shame the wise, what is weak to shame the strong, so that no human being might boast in the presence of God. Christ Jesus became to us wisdom from God, righteousness and sanctification and redemption.',
+    keyThemes: ['Divisions in the church', 'Word of the cross', 'Foolishness to the wise', 'Christ our wisdom'],
+    christConnection: 'Christ crucified is the power and wisdom of God. He is our righteousness, sanctification, and redemption. All boasting must be in the Lord alone, not in human leaders or wisdom.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 2,
+    title: 'The Spirit Reveals God\'s Wisdom',
+    summary: 'Paul came to Corinth not with lofty speech or wisdom, proclaiming the testimony of God. He decided to know nothing among them except Jesus Christ and Him crucified. He was with them in weakness and fear and much trembling, and his speech and message were not in plausible words of wisdom, but in demonstration of the Spirit and of power, so that their faith might not rest in the wisdom of men but in the power of God. Yet among the mature he imparts wisdom—not of this age or of its rulers, who are doomed to pass away. He speaks the wisdom of God, a mystery hidden, which God decreed before the ages for our glory. None of the rulers of this age understood it, for if they had, they would not have crucified the Lord of glory. As it is written, What no eye has seen, nor ear heard, nor the heart of man imagined, what God has prepared for those who love Him—these things God has revealed to us through the Spirit. The Spirit searches everything, even the depths of God. No one comprehends the thoughts of God except the Spirit of God. We have received the Spirit who is from God, that we might understand the things freely given us by God. The natural person does not accept the things of the Spirit of God. But we have the mind of Christ.',
+    keyThemes: ['Jesus Christ crucified', 'Demonstration of the Spirit', 'Wisdom of God', 'Mind of Christ'],
+    christConnection: 'Paul preached only Christ crucified. The crucified Lord of glory is God\'s hidden wisdom, now revealed by the Spirit. Believers have the mind of Christ to understand God\'s gifts.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 3,
+    title: 'God\'s Fellow Workers',
+    summary: 'Paul could not address the Corinthians as spiritual people, but as infants in Christ. He fed them with milk, not solid food, for they were not ready. They are still not ready, for there is jealousy and strife among them. When one says, I follow Paul, and another, I follow Apollos, are they not being merely human? What is Apollos? What is Paul? Servants through whom you believed, as the Lord assigned to each. Paul planted, Apollos watered, but God gave the growth. So neither he who plants nor he who waters is anything, but only God who gives the growth. He who plants and he who waters are one, and each will receive his wages according to his labor. For we are God\'s fellow workers. You are God\'s field, God\'s building. According to the grace given to Paul, like a skilled master builder he laid a foundation, and someone else is building upon it. Let each one take care how he builds. For no one can lay a foundation other than that which is laid, which is Jesus Christ. If anyone builds on the foundation with gold, silver, precious stones, wood, hay, straw—each one\'s work will become manifest, for the Day will disclose it. It will be revealed by fire. Do you not know that you are God\'s temple and that God\'s Spirit dwells in you? If anyone destroys God\'s temple, God will destroy him. Let no one deceive himself. If anyone among you thinks he is wise, let him become a fool that he may become wise.',
+    keyThemes: ['God gives the growth', 'God\'s fellow workers', 'Foundation is Christ', 'You are God\'s temple'],
+    christConnection: 'Christ is the only foundation. We are God\'s temple where His Spirit dwells. All human leaders are merely servants; only God gives the growth. All work will be tested by fire.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 4,
+    title: 'Servants of Christ and Stewards',
+    summary: 'This is how one should regard Paul and his fellow workers: as servants of Christ and stewards of the mysteries of God. It is required of stewards that they be found faithful. With Paul it is a very small thing that he should be judged by the Corinthians or by any human court. He does not even judge himself. He is not aware of anything against himself, but he is not thereby acquitted. It is the Lord who judges him. Therefore do not pronounce judgment before the time, before the Lord comes, who will bring to light the things now hidden in darkness. Then each one will receive his commendation from God. Paul has applied all this to himself and Apollos for their benefit, that they may learn not to go beyond what is written, that none may be puffed up in favor of one against another. What do you have that you did not receive? If you received it, why do you boast as if you did not receive it? Already they are filled, already rich, already reigning! Paul wishes they did reign, so he might reign with them. God has exhibited the apostles as last of all, like men sentenced to death, a spectacle to the world. They are fools for Christ\'s sake; the Corinthians are wise in Christ. The apostles hunger, thirst, are poorly dressed, buffeted, homeless. When reviled, they bless; when persecuted, they endure; when slandered, they entreat. Paul writes not to shame them but to admonish them as beloved children. He urges them to be imitators of him.',
+    keyThemes: ['Stewards of mysteries', 'Lord judges', 'What did you receive', 'Imitators of Paul'],
+    christConnection: 'Apostles are servants of Christ and stewards of His mysteries. Everything believers have is received as a gift. Paul models Christ-like suffering and humility for the church to imitate.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 5,
+    title: 'Church Discipline',
+    summary: 'It is actually reported that there is sexual immorality among them, and of a kind that is not tolerated even among pagans—a man has his father\'s wife. And they are arrogant! Ought they not rather to mourn? Let him who has done this be removed from among them. Paul, though absent in body, is present in spirit, and he has already pronounced judgment on the one who did such a thing. When they are assembled in the name of the Lord Jesus, with the power of our Lord Jesus, they are to deliver this man to Satan for the destruction of the flesh, so that his spirit may be saved in the day of the Lord. Their boasting is not good. Do they not know that a little leaven leavens the whole lump? Cleanse out the old leaven that they may be a new lump, as they really are unleavened. For Christ, our Passover lamb, has been sacrificed. Therefore let us celebrate the festival, not with the old leaven, the leaven of malice and evil, but with the unleavened bread of sincerity and truth. Paul wrote in a previous letter not to associate with sexually immoral people—not meaning the immoral of this world, but rather any so-called brother who is guilty of immorality. With such a one do not even eat. God judges those outside. Purge the evil person from among you.',
+    keyThemes: ['Immorality must be judged', 'Little leaven', 'Christ our Passover', 'Purge the evil'],
+    christConnection: 'Christ our Passover lamb has been sacrificed. Therefore the church must be holy, purging sin from its midst. Church discipline aims at restoration—that the spirit may be saved.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 6,
+    title: 'Lawsuits and the Body',
+    summary: 'When one of them has a grievance against another, does he dare go to law before the unrighteous instead of the saints? Do they not know that the saints will judge the world? If the world is to be judged by them, are they incompetent to try trivial cases? Do they not know that they will judge angels? How much more, matters of this life! If they have such cases, why do they lay them before those who have no standing in the church? Paul says this to their shame. Can it be that there is no one wise enough to settle a dispute? To have lawsuits at all with one another is already a defeat. Why not rather suffer wrong? Why not rather be defrauded? But they wrong and defraud—even their own brothers. Do they not know that the unrighteous will not inherit the kingdom of God? Do not be deceived: neither the sexually immoral, nor idolaters, nor adulterers, nor men who practice homosexuality, nor thieves, nor the greedy, nor drunkards, nor revilers, nor swindlers will inherit the kingdom of God. And such were some of them. But they were washed, they were sanctified, they were justified in the name of the Lord Jesus Christ and by the Spirit of our God. All things are lawful, but not all things are helpful. The body is not meant for sexual immorality, but for the Lord, and the Lord for the body. God raised the Lord and will also raise us. Your bodies are members of Christ. Shall one take the members of Christ and make them members of a prostitute? Your body is a temple of the Holy Spirit. You are not your own, for you were bought with a price. So glorify God in your body.',
+    keyThemes: ['Saints will judge', 'You were washed', 'Body for the Lord', 'Bought with a price'],
+    christConnection: 'Believers were bought with a price—Christ\'s blood. Our bodies are members of Christ and temples of the Holy Spirit. We were washed, sanctified, and justified in Christ\'s name.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 7,
+    title: 'Marriage and Singleness',
+    summary: 'Now concerning the matters about which they wrote: It is good for a man not to have sexual relations with a woman. But because of the temptation to sexual immorality, each man should have his own wife and each woman her own husband. The husband should give to his wife her conjugal rights, and likewise the wife to her husband. Do not deprive one another, except perhaps by agreement for a limited time, that you may devote yourselves to prayer; then come together again. Paul says this as a concession, not a command. He wishes that all were as he is, but each has his own gift from God. To the unmarried and widows Paul says: it is good for them to remain single as he is. But if they cannot exercise self-control, they should marry. To the married he gives charge—not he, but the Lord—that the wife should not separate from her husband, and the husband should not divorce his wife. If an unbelieving partner separates, let it be so; God has called them to peace. Each should remain in the condition in which they were called. Are they called while circumcised, uncircumcised, a bondservant? Remain with God in whatever condition you were called. Concerning the betrothed: Paul has no command from the Lord but gives his judgment. In view of the present distress it is good to remain as you are. If you marry, you have not sinned. Yet those who marry will have worldly troubles. The appointed time has grown very short. He who marries does well, and he who refrains from marriage will do even better.',
+    keyThemes: ['Marriage or singleness', 'Do not deprive', 'Called to peace', 'Time is short'],
+    christConnection: 'Both marriage and singleness are gifts for serving Christ. The present form of this world is passing away. Whatever our calling, we are to live wholly devoted to the Lord.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 8,
+    title: 'Food Offered to Idols',
+    summary: 'Now concerning food offered to idols: Paul knows that they all have knowledge. Knowledge puffs up, but love builds up. If anyone imagines that he knows something, he does not yet know as he ought to know. But if anyone loves God, he is known by God. Therefore, as to the eating of food offered to idols, we know that an idol has no real existence, and that there is no God but one. For although there may be so-called gods in heaven or on earth—as indeed there are many gods and many lords—yet for us there is one God, the Father, from whom are all things and for whom we exist, and one Lord, Jesus Christ, through whom are all things and through whom we exist. However, not all possess this knowledge. Some, through former association with idols, eat food as really offered to an idol, and their conscience, being weak, is defiled. Food will not commend us to God. We are no worse off if we do not eat, and no better off if we do. But take care that this right does not become a stumbling block to the weak. For if anyone sees you who have knowledge eating in an idol\'s temple, will not his conscience be encouraged to eat food offered to idols? And so by your knowledge this weak person is destroyed, the brother for whom Christ died. Thus, sinning against your brothers and wounding their conscience when it is weak, you sin against Christ. Therefore, if food makes my brother stumble, Paul will never eat meat, lest he make his brother stumble.',
+    keyThemes: ['Knowledge puffs up love builds', 'One God one Lord', 'Stumbling block to weak', 'Brother for whom Christ died'],
+    christConnection: 'There is one Lord, Jesus Christ, through whom all things exist. Love for the brother for whom Christ died takes precedence over knowledge and rights. We must not sin against Christ by causing others to stumble.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 9,
+    title: 'Paul\'s Rights as an Apostle',
+    summary: 'Am I not free? Am I not an apostle? Have I not seen Jesus our Lord? Are not the Corinthians Paul\'s workmanship in the Lord? They are the seal of his apostleship. This is his defense to those who would examine him. Do we not have the right to eat and drink? Do we not have the right to take along a believing wife, as do the other apostles and the brothers of the Lord and Cephas? Do only Barnabas and Paul lack the right to refrain from working for a living? The Lord commanded that those who proclaim the gospel should get their living by the gospel. But Paul has made no use of any of these rights. He would rather die than have anyone deprive him of this ground for boasting. For if he preaches the gospel, that gives him no ground for boasting. Necessity is laid upon him. Woe to him if he does not preach the gospel! He has become all things to all people, that by all means he might save some. To the Jews he became as a Jew; to those outside the law as one outside the law; to the weak he became weak. He does it all for the sake of the gospel, that he may share with them in its blessings. Do they not know that in a race all the runners run, but only one receives the prize? So run that you may obtain it. Every athlete exercises self-control. They do it for a perishable wreath, but we for an imperishable. Paul disciplines his body and keeps it under control, lest after preaching to others he himself should be disqualified.',
+    keyThemes: ['Rights of an apostle', 'All things to all people', 'Run to obtain', 'Discipline the body'],
+    christConnection: 'Paul forsakes his rights for the gospel\'s sake. He becomes all things to all people to win some to Christ. Like an athlete, he disciplines himself to share in the imperishable prize.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 10,
+    title: 'Warnings from Israel\'s History',
+    summary: 'Paul does not want them to be unaware that all the fathers were under the cloud, all passed through the sea, all were baptized into Moses, all ate the same spiritual food, and all drank the same spiritual drink. For they drank from the spiritual Rock that followed them, and the Rock was Christ. Nevertheless, with most of them God was not pleased, and they were overthrown in the wilderness. Now these things took place as examples for us, that we might not desire evil as they did. Do not be idolaters as some of them were. We must not indulge in sexual immorality as some of them did—and twenty-three thousand fell in a single day. We must not put Christ to the test. We must not grumble. These things were written down for our instruction, on whom the end of the ages has come. Therefore let anyone who thinks he stands take heed lest he fall. No temptation has overtaken them that is not common to man. God is faithful, and He will not let them be tempted beyond their ability, but with the temptation He will also provide the way of escape. Therefore flee from idolatry. The cup of blessing that we bless, is it not a participation in the blood of Christ? The bread that we break, is it not a participation in the body of Christ? Because there is one bread, we who are many are one body. Whether you eat or drink, or whatever you do, do all to the glory of God.',
+    keyThemes: ['Rock was Christ', 'Examples for us', 'God provides escape', 'Do all to God\'s glory'],
+    christConnection: 'The spiritual Rock that followed Israel was Christ. The Lord\'s Supper is participation in Christ\'s body and blood. All believers are one body because we share one bread—Christ.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 11,
+    title: 'Head Coverings and the Lord\'s Supper',
+    summary: 'Be imitators of me, as I am of Christ. Paul commends them because they maintain the traditions as he delivered them. But he wants them to understand that the head of every man is Christ, the head of a wife is her husband, and the head of Christ is God. Every man who prays or prophesies with his head covered dishonors his head, but every wife who prays or prophesies with her head uncovered dishonors her head. Man is the image and glory of God, but woman is the glory of man. For man was not made from woman, but woman from man. In the Lord, however, woman is not independent of man nor man of woman. Judge for yourselves: is it proper for a wife to pray to God with her head uncovered? Nature itself teaches them. But in giving these instructions, Paul does not commend them, because when they come together it is not for the better but for the worse. There are divisions among them. When they come together, it is not the Lord\'s supper they eat. Each one goes ahead with his own meal; one goes hungry, another gets drunk. Do they not have houses to eat and drink in? Do they despise the church of God and humiliate those who have nothing? Whoever eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty concerning the body and blood of the Lord. Let a person examine himself. For anyone who eats and drinks without discerning the body eats and drinks judgment on himself.',
+    keyThemes: ['Head coverings', 'Divisions at the table', 'Unworthy manner', 'Examine yourself'],
+    christConnection: 'Christ is the head of every man. The Lord\'s Supper proclaims Christ\'s death until He comes. We must discern the body—both Christ\'s sacrificial body and His church body.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 12,
+    title: 'Spiritual Gifts and One Body',
+    summary: 'Now concerning spiritual gifts, Paul does not want them to be uninformed. No one speaking in the Spirit of God ever says Jesus is accursed, and no one can say Jesus is Lord except in the Holy Spirit. There are varieties of gifts, but the same Spirit; varieties of service, but the same Lord; varieties of activities, but it is the same God who empowers them all in everyone. To each is given the manifestation of the Spirit for the common good. To one is given through the Spirit the utterance of wisdom, to another the utterance of knowledge, to another faith, to another gifts of healing, to another the working of miracles, to another prophecy, to another the ability to distinguish between spirits, to another various kinds of tongues, to another the interpretation of tongues. All these are empowered by one and the same Spirit, who apportions to each one individually as He wills. For just as the body is one and has many members, and all the members of the body, though many, are one body, so it is with Christ. In one Spirit we were all baptized into one body—Jews or Greeks, slaves or free—and all were made to drink of one Spirit. The body does not consist of one member but of many. The eye cannot say to the hand, I have no need of you. God has so composed the body, giving greater honor to the part that lacked it, that there may be no division in the body. You are the body of Christ and individually members of it.',
+    keyThemes: ['Varieties of gifts same Spirit', 'One body many members', 'Baptized into one body', 'Body of Christ'],
+    christConnection: 'In one Spirit we are baptized into Christ\'s body. Jesus is Lord—the confession empowered by the Spirit. Every member is essential; the church is Christ\'s body on earth.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 13,
+    title: 'The Way of Love',
+    summary: 'If Paul speaks in the tongues of men and of angels, but has not love, he is a noisy gong or a clanging cymbal. If he has prophetic powers and understands all mysteries and all knowledge, and if he has all faith so as to remove mountains, but has not love, he is nothing. If he gives away all he has and delivers up his body to be burned, but has not love, he gains nothing. Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things. Love never ends. As for prophecies, they will pass away; as for tongues, they will cease; as for knowledge, it will pass away. For we know in part and we prophesy in part, but when the perfect comes, the partial will pass away. When Paul was a child, he spoke like a child, thought like a child, reasoned like a child. When he became a man, he gave up childish ways. For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known. So now faith, hope, and love abide, these three; but the greatest of these is love.',
+    keyThemes: ['Without love nothing', 'Love is patient and kind', 'Love never ends', 'Faith hope love'],
+    christConnection: 'Love is the more excellent way that reflects Christ Himself. The partial gifts will pass; love remains forever. Faith, hope, and love abide—the greatest is love, for God is love.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 14,
+    title: 'Prophecy and Tongues',
+    summary: 'Pursue love, and earnestly desire the spiritual gifts, especially that you may prophesy. For one who speaks in a tongue speaks not to men but to God; no one understands him, but he utters mysteries in the Spirit. On the other hand, the one who prophesies speaks to people for their upbuilding and encouragement and consolation. The one who speaks in a tongue builds up himself, but the one who prophesies builds up the church. Paul would like them all to speak in tongues, but even more to prophesy. The one who prophesies is greater than the one who speaks in tongues, unless someone interprets, so that the church may be built up. If Paul comes speaking in tongues, how will he benefit them unless he brings revelation, knowledge, prophecy, or teaching? Even lifeless instruments must give distinct notes, or no one will know what is played. So with them: if they utter speech that is not intelligible, how will anyone know what is said? There are many languages in the world, and none is without meaning. If Paul does not know the meaning, he will be a foreigner to the speaker. Since they are eager for spiritual gifts, strive to excel in building up the church. If there is no interpreter, let the tongue-speaker keep silent in church. Let two or three prophets speak, and let the others weigh what is said. God is not a God of confusion but of peace. All things should be done decently and in order.',
+    keyThemes: ['Prophecy builds up', 'Tongues need interpretation', 'God not of confusion', 'Decently and in order'],
+    christConnection: 'The Spirit\'s gifts are for building up Christ\'s body, the church. Prophecy edifies others; tongues without interpretation do not. Worship must be orderly, reflecting God\'s nature.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 15,
+    title: 'The Resurrection of the Dead',
+    summary: 'Paul reminds them of the gospel he preached: Christ died for our sins in accordance with the Scriptures, He was buried, He was raised on the third day in accordance with the Scriptures, and He appeared to Cephas, then to the twelve, then to more than five hundred brothers at one time, then to James, then to all the apostles. Last of all He appeared also to Paul. If Christ is proclaimed as raised from the dead, how can some of them say there is no resurrection of the dead? If there is no resurrection, then Christ has not been raised. And if Christ has not been raised, our preaching is in vain and so is their faith. We are even found to be misrepresenting God. If the dead are not raised, Let us eat and drink, for tomorrow we die. But in fact Christ has been raised from the dead, the firstfruits of those who have fallen asleep. For as by a man came death, by a man has come also the resurrection of the dead. For as in Adam all die, so also in Christ shall all be made alive. But each in his own order: Christ the firstfruits, then at His coming those who belong to Christ. Then comes the end, when He delivers the kingdom to God the Father. The last enemy to be destroyed is death. What is sown is perishable; what is raised is imperishable. It is sown in dishonor; it is raised in glory. The first man Adam became a living being; the last Adam became a life-giving spirit. We shall not all sleep, but we shall all be changed, in a moment, at the last trumpet. Death is swallowed up in victory. Thanks be to God, who gives us the victory through our Lord Jesus Christ.',
+    keyThemes: ['Christ raised firstfruits', 'In Adam all die in Christ alive', 'Last enemy death', 'Victory through Christ'],
+    christConnection: 'Christ is risen as the firstfruits—guaranteeing our resurrection. As Adam brought death, Christ brings life. The last Adam is a life-giving spirit. We have victory through Him.'
+  },
+  {
+    bookId: '1-corinthians',
+    chapter: 16,
+    title: 'The Collection and Final Greetings',
+    summary: 'Now concerning the collection for the saints: as Paul directed the churches of Galatia, so they should do also. On the first day of every week, each of them is to put something aside and store it up, as he may prosper, so that there will be no collecting when Paul comes. And when he arrives, he will send those whom they accredit to carry their gift to Jerusalem. Paul will visit them after passing through Macedonia. Perhaps he will stay with them or even spend the winter, so that they may help him on his journey. He does not want to see them now just in passing; he hopes to spend some time with them, if the Lord permits. But he will stay in Ephesus until Pentecost, for a wide door for effective work has opened to him, and there are many adversaries. When Timothy comes, see that he has nothing to fear, for he is doing the work of the Lord. As for Apollos, Paul strongly urged him to visit them, but it was not at all his will to come now; he will come when he has opportunity. Be watchful, stand firm in the faith, act like men, be strong. Let all that you do be done in love. They know the household of Stephanas, the first converts in Achaia, who devoted themselves to the service of the saints. Be subject to such as these. Greet one another with a holy kiss. Paul writes this greeting with his own hand. If anyone has no love for the Lord, let him be accursed. Our Lord, come! The grace of the Lord Jesus be with you. My love be with you all in Christ Jesus.',
+    keyThemes: ['Collection for saints', 'Stand firm in faith', 'All done in love', 'Maranatha'],
+    christConnection: 'Paul closes with "Maranatha"—Our Lord, come! The believers\' hope is Christ\'s return. Until then, they stand firm in faith, act in love, and serve one another in Christ\'s name.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -8691,6 +8826,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return JOHN_CHAPTERS;
     case 'acts':
       return ACTS_CHAPTERS;
+    case '1-corinthians':
+      return FIRST_CORINTHIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -8744,4 +8881,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'luke', bookName: 'Luke', chapters: LUKE_CHAPTERS },
   { bookId: 'john', bookName: 'John', chapters: JOHN_CHAPTERS },
   { bookId: 'acts', bookName: 'Acts', chapters: ACTS_CHAPTERS },
+  { bookId: '1-corinthians', bookName: '1 Corinthians', chapters: FIRST_CORINTHIANS_CHAPTERS },
 ];
