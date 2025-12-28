@@ -8735,6 +8735,117 @@ const FIRST_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 2 CORINTHIANS (13 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+const SECOND_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '2-corinthians',
+    chapter: 1,
+    title: 'The God of All Comfort',
+    summary: 'Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother, to the church of God at Corinth, with all the saints in Achaia: Grace to you and peace from God our Father and the Lord Jesus Christ. Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort, who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by God. For as we share abundantly in Christ\'s sufferings, so through Christ we share abundantly in comfort too. If we are afflicted, it is for your comfort and salvation. Paul was so utterly burdened beyond his strength that he despaired of life itself. But that was to make him rely not on himself but on God who raises the dead. God delivered him from such a deadly peril, and He will deliver him again. Paul\'s boast is the testimony of his conscience that he has acted with holiness and godly sincerity. He wanted to visit them but changed his plans—not out of fickleness, but to spare them. For all the promises of God find their Yes in Christ. That is why it is through Him that we utter our Amen to God for His glory. God establishes us with you in Christ, has anointed us, sealed us, and given us His Spirit as a guarantee.',
+    keyThemes: ['God of all comfort', 'Share in Christ\'s sufferings', 'All promises Yes in Christ', 'Spirit as guarantee'],
+    christConnection: 'All God\'s promises find their "Yes" in Christ. We share in Christ\'s sufferings and His comfort. The Spirit is our guarantee of the inheritance Christ secured.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 2,
+    title: 'Forgiveness and the Fragrance of Christ',
+    summary: 'Paul made up his mind not to make another painful visit to them. For if he caused them pain, who was there to make him glad but the one he had pained? He wrote as he did so that when he came he might not suffer pain from those who should have made him rejoice. He wrote out of much affliction and anguish of heart and with many tears, not to cause them pain but to let them know the abundant love he had for them. If anyone has caused pain, he has caused it not to Paul but in some measure to all of them. For such a one, the punishment by the majority is enough, so they should turn to forgive and comfort him, or he may be overwhelmed by excessive sorrow. Paul urges them to reaffirm their love for him. Anyone they forgive, Paul also forgives. What he has forgiven has been for their sake in the presence of Christ, so that they would not be outwitted by Satan. When Paul came to Troas to preach the gospel, a door was opened for him in the Lord. But his spirit was not at rest because he did not find Titus. Thanks be to God, who in Christ always leads us in triumphal procession, and through us spreads the fragrance of the knowledge of Him everywhere. We are the aroma of Christ to God among those being saved and among those perishing—to one a fragrance from death to death, to the other a fragrance from life to life.',
+    keyThemes: ['Forgive and comfort', 'Not outwitted by Satan', 'Triumphal procession', 'Aroma of Christ'],
+    christConnection: 'Christ leads us in His triumphal procession. We are the aroma of Christ—the fragrance of His saving knowledge spreading everywhere through His servants.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 3,
+    title: 'Ministers of the New Covenant',
+    summary: 'Are we beginning to commend ourselves again? Or do we need letters of recommendation to or from them? They themselves are Paul\'s letter of recommendation, written on his heart, known and read by all. They are a letter from Christ delivered by Paul, written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets of human hearts. Such is the confidence that we have through Christ toward God. Not that we are sufficient in ourselves, but our sufficiency is from God, who has made us sufficient to be ministers of a new covenant, not of the letter but of the Spirit. For the letter kills, but the Spirit gives life. Now if the ministry of death, carved in letters on stone, came with such glory that the Israelites could not gaze at Moses\' face because of its glory, will not the ministry of the Spirit have even more glory? If there was glory in the ministry of condemnation, the ministry of righteousness must far exceed it in glory. Indeed, what once had glory has come to have no glory at all, because of the glory that surpasses it. For if what was being brought to an end came with glory, much more will what is permanent have glory. Since we have such a hope, we are very bold. When one turns to the Lord, the veil is removed. Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom. And we all, with unveiled face, beholding the glory of the Lord, are being transformed into the same image from one degree of glory to another.',
+    keyThemes: ['Letter from Christ', 'New covenant', 'Letter kills Spirit gives life', 'Transformed into His image'],
+    christConnection: 'Christ makes us ministers of the new covenant. With unveiled faces we behold His glory and are transformed into His image by the Spirit, from glory to glory.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 4,
+    title: 'Treasure in Jars of Clay',
+    summary: 'Therefore, having this ministry by the mercy of God, we do not lose heart. We have renounced disgraceful, underhanded ways. We refuse to practice cunning or to tamper with God\'s word, but by the open statement of the truth we commend ourselves to everyone\'s conscience in the sight of God. And even if our gospel is veiled, it is veiled to those who are perishing. In their case the god of this world has blinded the minds of the unbelievers, to keep them from seeing the light of the gospel of the glory of Christ, who is the image of God. For what we proclaim is not ourselves, but Jesus Christ as Lord, with ourselves as your servants for Jesus\' sake. For God, who said, Let light shine out of darkness, has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ. But we have this treasure in jars of clay, to show that the surpassing power belongs to God and not to us. We are afflicted in every way, but not crushed; perplexed, but not driven to despair; persecuted, but not forsaken; struck down, but not destroyed; always carrying in the body the death of Jesus, so that the life of Jesus may also be manifested in our bodies. So we do not lose heart. Though our outer self is wasting away, our inner self is being renewed day by day. For this light momentary affliction is preparing for us an eternal weight of glory beyond all comparison.',
+    keyThemes: ['God of this world blinds', 'Christ the image of God', 'Treasure in jars of clay', 'Eternal weight of glory'],
+    christConnection: 'Christ is the image of God; the light of His glory shines in our hearts. The treasure of the gospel is in weak vessels, so the power is clearly God\'s, not ours.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 5,
+    title: 'The Ministry of Reconciliation',
+    summary: 'For we know that if the tent that is our earthly home is destroyed, we have a building from God, a house not made with hands, eternal in the heavens. For in this tent we groan, longing to put on our heavenly dwelling. While we are at home in the body we are away from the Lord. We walk by faith, not by sight. We would rather be away from the body and at home with the Lord. So whether at home or away, we make it our aim to please Him. For we must all appear before the judgment seat of Christ, so that each one may receive what is due for what he has done in the body, whether good or evil. Therefore, knowing the fear of the Lord, we persuade others. The love of Christ controls us, because we have concluded this: that one has died for all, therefore all have died; and He died for all, that those who live might no longer live for themselves but for Him who for their sake died and was raised. From now on, we regard no one according to the flesh. If anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come. All this is from God, who through Christ reconciled us to Himself and gave us the ministry of reconciliation. In Christ God was reconciling the world to Himself, not counting their trespasses against them. For our sake He made Him to be sin who knew no sin, so that in Him we might become the righteousness of God.',
+    keyThemes: ['Building from God eternal', 'Judgment seat of Christ', 'New creation in Christ', 'Ministry of reconciliation'],
+    christConnection: 'God made Christ, who knew no sin, to be sin for us, so that in Him we become the righteousness of God. We are new creations, ministers of Christ\'s reconciliation.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 6,
+    title: 'The Hardships of Ministry',
+    summary: 'Working together with Him, we appeal to them not to receive the grace of God in vain. For He says, In a favorable time I listened to you, and in a day of salvation I have helped you. Behold, now is the favorable time; behold, now is the day of salvation. We put no obstacle in anyone\'s way, so that no fault may be found with our ministry. But as servants of God we commend ourselves in every way: by great endurance, in afflictions, hardships, calamities, beatings, imprisonments, riots, labors, sleepless nights, hunger; by purity, knowledge, patience, kindness, the Holy Spirit, genuine love; by truthful speech, and the power of God; with the weapons of righteousness for the right hand and for the left; through honor and dishonor, through slander and praise. We are treated as impostors, and yet are true; as unknown, and yet well known; as dying, and behold, we live; as punished, and yet not killed; as sorrowful, yet always rejoicing; as poor, yet making many rich; as having nothing, yet possessing everything. We have spoken freely to them; our heart is wide open. They are not restricted by us, but they are restricted in their own affections. In return, widen their hearts also. Do not be unequally yoked with unbelievers. For what partnership has righteousness with lawlessness? Or what fellowship has light with darkness? What accord has Christ with Belial? Therefore go out from their midst, and be separate, says the Lord. Touch no unclean thing; then I will welcome you.',
+    keyThemes: ['Now is the day of salvation', 'Commend ourselves as servants', 'Sorrowful yet rejoicing', 'Do not be unequally yoked'],
+    christConnection: 'Now is the day of salvation through Christ. His servants endure all things for His sake. Believers are called to separation unto Christ, as His temple where He dwells.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 7,
+    title: 'Godly Grief Produces Repentance',
+    summary: 'Since we have these promises, beloved, let us cleanse ourselves from every defilement of body and spirit, bringing holiness to completion in the fear of God. Make room in your hearts for us. We have wronged no one, we have corrupted no one, we have taken advantage of no one. Paul does not say this to condemn them, for he said before that they are in his heart, to die together and to live together. He is acting with great boldness toward them; he has great pride in them; he is filled with comfort. In all his affliction, he is overflowing with joy. Even when he came into Macedonia, his body had no rest, but he was afflicted at every turn—fighting without and fear within. But God, who comforts the downcast, comforted him by the coming of Titus, and not only by his coming but also by the comfort with which he was comforted by them. Titus told Paul of their longing, their mourning, their zeal for him, so that he rejoiced still more. Even if he made them grieve with his letter, he does not regret it. He sees that the letter grieved them, but only for a while. Now he rejoices, not because they were grieved, but because their grief led to repentance. Godly grief produces a repentance that leads to salvation without regret, whereas worldly grief produces death. See what earnestness their godly grief has produced in them, what eagerness to clear themselves, what indignation, what fear, what longing, what zeal, what punishment! At every point they have proved themselves innocent in the matter.',
+    keyThemes: ['Cleanse from defilement', 'God comforts the downcast', 'Godly grief produces repentance', 'Worldly grief produces death'],
+    christConnection: 'Godly grief leads to repentance and salvation, while worldly grief leads to death. God comforts His afflicted servants and produces holiness in His people through trials.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 8,
+    title: 'The Grace of Giving',
+    summary: 'Paul wants them to know about the grace of God given among the churches of Macedonia. In a severe test of affliction, their abundance of joy and their extreme poverty have overflowed in a wealth of generosity. They gave according to their means, and beyond their means, of their own accord, begging earnestly for the favor of taking part in the relief of the saints. They gave themselves first to the Lord and then by the will of God to Paul. So he urged Titus to complete among them this act of grace. As they excel in everything—in faith, in speech, in knowledge, in all earnestness, and in their love for Paul—see that they excel in this act of grace also. Paul says this not as a command, but to prove by the earnestness of others that their love also is genuine. For they know the grace of our Lord Jesus Christ, that though He was rich, yet for their sake He became poor, so that by His poverty they might become rich. Paul gives his judgment: it is best for them to complete what a year ago they began not only to do but to desire. Now finish doing it as well. If the readiness is there, it is acceptable according to what a person has, not according to what he does not have. Paul is not saying that others should be eased and they burdened, but that as a matter of fairness their abundance may supply the need of others, and their abundance may supply their need, so that there may be fairness.',
+    keyThemes: ['Generosity in poverty', 'Grace of giving', 'Christ became poor', 'Fairness in giving'],
+    christConnection: 'Christ, though rich, became poor for our sake, so that through His poverty we might become rich. His self-giving is the model for Christian generosity.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 9,
+    title: 'Cheerful Giving',
+    summary: 'Now it is superfluous for Paul to write to them about the ministry for the saints, for he knows their readiness and boasts about it to the Macedonians, saying that Achaia has been ready since last year. Their zeal has stirred up most of them. But he is sending the brothers so that their boasting about them may not prove empty, so that they may be ready as he said they would be. Otherwise, if some Macedonians come with Paul and find them unprepared, they would be humiliated—to say nothing of the Corinthians—for being so confident. So he thought it necessary to urge the brothers to go on ahead and arrange in advance for the gift they promised, so that it may be ready as a willing gift, not as an exaction. The point is this: whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully. Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver. And God is able to make all grace abound to them, so that having all sufficiency in all things at all times, they may abound in every good work. He who supplies seed to the sower and bread for food will supply and multiply their seed for sowing and increase the harvest of their righteousness. They will be enriched in every way to be generous in every way, which through Paul will produce thanksgiving to God. Thanks be to God for His inexpressible gift!',
+    keyThemes: ['Sow bountifully reap bountifully', 'Cheerful giver', 'God makes grace abound', 'Inexpressible gift'],
+    christConnection: 'God\'s inexpressible gift is Christ Himself. As God gave His Son, so believers give generously. God supplies all we need to abound in every good work.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 10,
+    title: 'Paul Defends His Ministry',
+    summary: 'Paul himself appeals to them by the meekness and gentleness of Christ—he who is humble when face to face with them, but bold toward them when he is away! He begs them that when he is present he may not have to show boldness with such confidence as he counts on showing against some who suspect them of walking according to the flesh. For though we walk in the flesh, we are not waging war according to the flesh. For the weapons of our warfare are not of the flesh but have divine power to destroy strongholds. We destroy arguments and every lofty opinion raised against the knowledge of God, and take every thought captive to obey Christ. They are ready to punish every disobedience when their obedience is complete. Look at what is before them. If anyone is confident that he is Christ\'s, let him remind himself that just as he is Christ\'s, so also is Paul. Even if Paul boasts a little too much of the authority which the Lord gave for building them up and not for destroying them, he will not be ashamed. He does not want to appear to be frightening them with his letters. Some say his letters are weighty and strong, but his bodily presence is weak and his speech of no account. Let such a person understand that what Paul says by letter when absent, he will do when present. Paul will not boast beyond limits, but will boast only with regard to the area of influence God assigned to him. Let the one who boasts, boast in the Lord.',
+    keyThemes: ['Meekness of Christ', 'Weapons not of flesh', 'Take thoughts captive', 'Boast in the Lord'],
+    christConnection: 'Paul appeals by Christ\'s meekness and gentleness. Our spiritual weapons have divine power through Christ. All boasting must be in the Lord alone.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 11,
+    title: 'Paul and the False Apostles',
+    summary: 'Paul wishes they would bear with him in a little foolishness. He is jealous for them with a godly jealousy, for he betrothed them to one husband, to present them as a pure virgin to Christ. But he fears that as the serpent deceived Eve by his cunning, their thoughts will be led astray from sincere devotion to Christ. For if someone comes and proclaims another Jesus or a different gospel, they put up with it readily enough. Paul considers himself not in the least inferior to these super-apostles. Even if he is unskilled in speaking, he is not so in knowledge. Did he commit a sin in humbling himself so that they might be exalted, because he preached God\'s gospel to them free of charge? He robbed other churches by accepting support from them in order to serve Corinth. What he is doing he will continue to do, in order to undermine the claim of those who would like to claim that they work on the same terms as Paul. For such men are false apostles, deceitful workmen, disguising themselves as apostles of Christ. And no wonder, for even Satan disguises himself as an angel of light. His servants also disguise themselves as servants of righteousness. Paul will boast of his weaknesses—the things that show his weakness: his sufferings, hardships, dangers, beatings, imprisonments, and the anxiety for all the churches. If he must boast, he will boast of the things that show his weakness.',
+    keyThemes: ['Godly jealousy', 'Sincere devotion to Christ', 'False apostles', 'Boast in weakness'],
+    christConnection: 'Paul betrothed the church to Christ as a pure virgin. False apostles proclaim "another Jesus." True apostolic ministry is marked by suffering and weakness for Christ\'s sake.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 12,
+    title: 'Paul\'s Thorn in the Flesh',
+    summary: 'Paul must go on boasting, though there is nothing to be gained by it. He will go on to visions and revelations of the Lord. He knows a man in Christ who fourteen years ago was caught up to the third heaven—whether in the body or out of the body he does not know, God knows. This man was caught up into paradise and heard things that cannot be told, which man may not utter. On behalf of this man Paul will boast, but on his own behalf he will not boast, except of his weaknesses. So to keep him from becoming conceited because of the surpassing greatness of the revelations, a thorn was given him in the flesh, a messenger of Satan to harass him. Three times he pleaded with the Lord about this, that it should leave him. But He said, My grace is sufficient for you, for My power is made perfect in weakness. Therefore Paul will boast all the more gladly of his weaknesses, so that the power of Christ may rest upon him. For the sake of Christ, then, he is content with weaknesses, insults, hardships, persecutions, and calamities. For when he is weak, then he is strong. He has been a fool! They forced him to it, for he ought to have been commended by them. He was not at all inferior to these super-apostles, even though he is nothing. The signs of a true apostle were performed among them with signs and wonders and mighty works.',
+    keyThemes: ['Visions and revelations', 'Thorn in the flesh', 'Grace is sufficient', 'When weak then strong'],
+    christConnection: 'Christ\'s grace is sufficient; His power is made perfect in our weakness. When we are weak, then we are strong in Christ. His power rests upon those who embrace their weakness.'
+  },
+  {
+    bookId: '2-corinthians',
+    chapter: 13,
+    title: 'Final Warnings and Benediction',
+    summary: 'This is the third time Paul is coming to them. Every charge must be established by the evidence of two or three witnesses. He warned those who sinned before and all the others, and he warns them now while absent, as he did when present on his second visit, that if he comes again he will not spare them—since they seek proof that Christ is speaking in Paul. Christ is not weak in dealing with them, but is powerful among them. For He was crucified in weakness, but lives by the power of God. For we also are weak in Him, but in dealing with them we will live with Him by the power of God. Examine yourselves, to see whether you are in the faith. Test yourselves. Or do you not realize this about yourselves, that Jesus Christ is in you?—unless indeed you fail to meet the test! Paul hopes they will find that he has not failed the test. He prays to God that they may not do wrong—not that Paul may appear to have met the test, but that they may do what is right. For he cannot do anything against the truth, but only for the truth. He is glad when he is weak and they are strong. He prays for their restoration. He writes these things while absent, that when he comes he may not have to be severe in his use of the authority that the Lord has given him for building up and not for tearing down. Finally, brothers, rejoice. Aim for restoration, comfort one another, agree with one another, live in peace. The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.',
+    keyThemes: ['Examine yourselves', 'Christ crucified in weakness', 'Jesus Christ is in you', 'Trinitarian benediction'],
+    christConnection: 'Christ was crucified in weakness but lives by God\'s power. Believers must examine whether Christ is in them. The trinitarian benediction blesses with grace, love, and fellowship.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -8828,6 +8939,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return ACTS_CHAPTERS;
     case '1-corinthians':
       return FIRST_CORINTHIANS_CHAPTERS;
+    case '2-corinthians':
+      return SECOND_CORINTHIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -8882,4 +8995,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'john', bookName: 'John', chapters: JOHN_CHAPTERS },
   { bookId: 'acts', bookName: 'Acts', chapters: ACTS_CHAPTERS },
   { bookId: '1-corinthians', bookName: '1 Corinthians', chapters: FIRST_CORINTHIANS_CHAPTERS },
+  { bookId: '2-corinthians', bookName: '2 Corinthians', chapters: SECOND_CORINTHIANS_CHAPTERS },
 ];
