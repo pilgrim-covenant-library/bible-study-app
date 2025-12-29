@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import {
@@ -304,6 +304,122 @@ function ContinueReadingSection() {
   );
 }
 
+// Daily Devotional Component - shows a Christ Connection meditation
+function DailyDevotional() {
+  const [refreshKey, setRefreshKey] = useState(0);
+
+  // Get today's devotional based on date (deterministic)
+  const devotional = useMemo(() => {
+    // Build list of all chapters with Christ connections
+    const chaptersWithChrist: {
+      bookId: string;
+      bookName: string;
+      chapter: number;
+      title: string;
+      christConnection: string;
+      summary: string;
+    }[] = [];
+
+    for (const book of ALL_CHAPTER_SUMMARIES) {
+      for (const chapter of book.chapters) {
+        if (chapter.christConnection) {
+          chaptersWithChrist.push({
+            bookId: book.bookId,
+            bookName: book.bookName,
+            chapter: chapter.chapter,
+            title: chapter.title,
+            christConnection: chapter.christConnection,
+            summary: chapter.summary,
+          });
+        }
+      }
+    }
+
+    // Use date + refreshKey to select a devotional
+    const today = new Date();
+    const dayOfYear = Math.floor(
+      (today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24)
+    );
+    const index = (dayOfYear + refreshKey) % chaptersWithChrist.length;
+
+    return chaptersWithChrist[index];
+  }, [refreshKey]);
+
+  const handleRefresh = () => {
+    setRefreshKey(prev => prev + 1);
+  };
+
+  if (!devotional) return null;
+
+  return (
+    <section className="mb-8">
+      <Card className="bg-gradient-to-br from-purple-500/5 via-violet-500/5 to-indigo-500/5 border-purple-500/20 overflow-hidden">
+        <CardContent className="p-0">
+          {/* Header */}
+          <div className="px-4 pt-4 pb-3 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <div className="p-2 rounded-full bg-purple-500/10">
+                <Cross className="h-5 w-5 text-purple-500" />
+              </div>
+              <div>
+                <h2 className="text-lg font-semibold flex items-center gap-2">
+                  Daily Devotional
+                  <Sparkles className="h-4 w-4 text-amber-500" />
+                </h2>
+                <p className="text-xs text-muted-foreground">Christ Connection</p>
+              </div>
+            </div>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={handleRefresh}
+              className="h-8 w-8 text-muted-foreground hover:text-foreground"
+              title="Get another devotional"
+            >
+              <RefreshCw className="h-4 w-4" />
+            </Button>
+          </div>
+
+          {/* Content */}
+          <div className="px-4 pb-4">
+            {/* Chapter Reference */}
+            <div className="flex items-center gap-2 mb-3">
+              <Link
+                href={`/bible-study/${devotional.bookId}`}
+                className="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline"
+              >
+                {devotional.bookName} {devotional.chapter}
+              </Link>
+              <span className="text-muted-foreground">—</span>
+              <span className="text-sm text-muted-foreground italic">{devotional.title}</span>
+            </div>
+
+            {/* Christ Connection */}
+            <blockquote className="pl-4 border-l-2 border-purple-500/50 text-sm text-foreground leading-relaxed">
+              {devotional.christConnection}
+            </blockquote>
+
+            {/* Summary Preview */}
+            <p className="mt-3 text-xs text-muted-foreground line-clamp-2">
+              {devotional.summary}
+            </p>
+
+            {/* Action */}
+            <div className="mt-4">
+              <Link href={`/bible-study/${devotional.bookId}`}>
+                <Button variant="outline" size="sm" className="gap-2 text-purple-600 dark:text-purple-400 border-purple-500/30 hover:bg-purple-500/10">
+                  <BookOpen className="h-4 w-4" />
+                  Read Full Chapter
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </section>
+  );
+}
+
 export default function BibleStudyPage() {
   const [testamentFilter, setTestamentFilter] = useState<TestamentFilter>('all');
   const [selectedGroup, setSelectedGroup] = useState<CanonicalGroup | 'all'>('all');
@@ -405,6 +521,9 @@ export default function BibleStudyPage() {
 
         {/* Reading Streak */}
         <ReadingStreakSection />
+
+        {/* Daily Devotional */}
+        <DailyDevotional />
 
         {/* Quick Actions */}
         <section className="mb-8">
