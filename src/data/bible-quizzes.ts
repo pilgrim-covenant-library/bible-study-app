@@ -5532,6 +5532,186 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Colossians', 'Hebrews', 'John'],
     explanation: 'Philippians 2:5-11 is the Christ hymn on His humiliation and exaltation.',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ADDITIONAL QUESTIONS FOR REMAINING LOW-COUNT BOOKS
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // 2 Chronicles (additional - currently 6)
+  {
+    id: '2ch-007',
+    bookId: '2-chronicles',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book contains God\'s promise: "If my people... humble themselves and pray... I will heal their land" (7:14)?',
+    correctAnswer: '2 Chronicles',
+    distractors: ['1 Kings', 'Isaiah', 'Jeremiah'],
+    explanation: '2 Chronicles 7:14 is God\'s response to Solomon\'s dedication prayer.',
+  },
+  {
+    id: '2ch-008',
+    bookId: '2-chronicles',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book describes the Queen of Sheba\'s visit to Solomon and her amazement at his wisdom?',
+    correctAnswer: '2 Chronicles',
+    distractors: ['1 Kings', 'Proverbs', 'Ecclesiastes'],
+    explanation: '2 Chronicles 9 records the queen\'s visit and tribute to Solomon\'s God-given wisdom.',
+  },
+
+  // 2 Corinthians (additional - currently 6)
+  {
+    id: '2co-007',
+    bookId: '2-corinthians',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says "My grace is sufficient for you, for my power is made perfect in weakness" (12:9)?',
+    correctAnswer: '2 Corinthians',
+    distractors: ['Romans', 'Galatians', 'Philippians'],
+    explanation: '2 Corinthians 12:9 is Christ\'s answer to Paul\'s thorn in the flesh.',
+  },
+  {
+    id: '2co-008',
+    bookId: '2-corinthians',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter describes Paul\'s "thorn in the flesh" given to keep him humble?',
+    correctAnswer: '2 Corinthians',
+    distractors: ['Galatians', 'Romans', 'Philippians'],
+    explanation: '2 Corinthians 12:7-10 records Paul\'s mysterious affliction and God\'s sufficient grace.',
+  },
+
+  // 2 John (additional - currently 6)
+  {
+    id: '2jo-007',
+    bookId: '2-john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter warns against receiving false teachers into one\'s home?',
+    correctAnswer: '2 John',
+    distractors: ['3 John', '1 John', 'Jude'],
+    explanation: '2 John 10-11 instructs believers not to welcome those who deny Christ.',
+  },
+  {
+    id: '2jo-008',
+    bookId: '2-john',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter is addressed to "the elect lady and her children"?',
+    correctAnswer: '2 John',
+    distractors: ['1 Peter', '3 John', 'Philemon'],
+    explanation: '2 John is written to a Christian woman (or church personified) and her household.',
+  },
+
+  // 3 John (additional - currently 6)
+  {
+    id: '3jo-007',
+    bookId: '3-john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter commends Gaius for showing hospitality to traveling missionaries?',
+    correctAnswer: '3 John',
+    distractors: ['2 John', 'Philemon', 'Hebrews'],
+    explanation: '3 John praises Gaius for his faithful support of itinerant Christian workers.',
+  },
+  {
+    id: '3jo-008',
+    bookId: '3-john',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says "I have no greater joy than to hear that my children are walking in the truth" (v.4)?',
+    correctAnswer: '3 John',
+    distractors: ['1 John', '2 John', 'Philippians'],
+    explanation: '3 John 4 expresses the apostle\'s paternal joy in spiritual faithfulness.',
+  },
+
+  // Ezekiel (additional - currently 6)
+  {
+    id: 'eze-007',
+    bookId: 'ezekiel',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which prophet saw the vision of dry bones coming to life, symbolizing Israel\'s restoration?',
+    correctAnswer: 'Ezekiel',
+    distractors: ['Isaiah', 'Jeremiah', 'Daniel'],
+    explanation: 'Ezekiel 37 contains the famous valley of dry bones vision.',
+  },
+  {
+    id: 'eze-008',
+    bookId: 'ezekiel',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which prophet saw the glory of the LORD departing from the temple before Jerusalem\'s fall?',
+    correctAnswer: 'Ezekiel',
+    distractors: ['Jeremiah', 'Isaiah', 'Daniel'],
+    explanation: 'Ezekiel 10-11 describes the departure of God\'s glory from the temple.',
+  },
+
+  // Jeremiah (additional - currently 6)
+  {
+    id: 'jer-007',
+    bookId: 'jeremiah',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which prophet wrote: "For I know the plans I have for you... plans for welfare and not for evil" (29:11)?',
+    correctAnswer: 'Jeremiah',
+    distractors: ['Isaiah', 'Ezekiel', 'Proverbs'],
+    explanation: 'Jeremiah 29:11 promises hope to the exiles in Babylon.',
+  },
+  {
+    id: 'jer-008',
+    bookId: 'jeremiah',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which prophet predicted a new covenant when God would write His law on people\'s hearts?',
+    correctAnswer: 'Jeremiah',
+    distractors: ['Isaiah', 'Ezekiel', 'Hosea'],
+    explanation: 'Jeremiah 31:31-34 prophesies the new covenant fulfilled in Christ.',
+  },
+
+  // Mark (additional - currently 6)
+  {
+    id: 'mar-007',
+    bookId: 'mark',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel emphasizes Jesus as the suffering Servant through rapid action and service?',
+    correctAnswer: 'Mark',
+    distractors: ['Matthew', 'Luke', 'John'],
+    explanation: 'Mark portrays Jesus as the Servant who "came to serve and give His life."',
+  },
+  {
+    id: 'mar-008',
+    bookId: 'mark',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel uses the word "immediately" most frequently, emphasizing urgency?',
+    correctAnswer: 'Mark',
+    distractors: ['Matthew', 'Luke', 'John'],
+    explanation: 'Mark uses "immediately" (euthus) over 40 times, conveying dynamic action.',
+  },
+
+  // Numbers (additional - currently 6)
+  {
+    id: 'num-007',
+    bookId: 'numbers',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records Moses striking the rock instead of speaking to it, barring him from Canaan?',
+    correctAnswer: 'Numbers',
+    distractors: ['Exodus', 'Deuteronomy', 'Joshua'],
+    explanation: 'Numbers 20 describes Moses\' sin at Meribah and its consequence.',
+  },
+  {
+    id: 'num-008',
+    bookId: 'numbers',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book contains the priestly blessing: "The LORD bless you and keep you"?',
+    correctAnswer: 'Numbers',
+    distractors: ['Leviticus', 'Deuteronomy', 'Psalms'],
+    explanation: 'Numbers 6:24-26 gives the Aaronic benediction used in worship.',
+  },
 ];
 
 // Helper functions for quiz functionality
