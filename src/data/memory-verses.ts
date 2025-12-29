@@ -5886,6 +5886,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'ecclesiastes-4-9',
+    reference: 'Ecclesiastes 4:9',
+    book: 'Ecclesiastes',
+    chapter: 4,
+    verse: 9,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Two are better than one, because they have a good reward for their toil.',
+      NIV: 'Two are better than one, because they have a good return for their labor.',
+      KJV: 'Two are better than one; because they have a good reward for their labour.',
+      NASB: 'Two are better than one because they have a good return for their labor.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 4:8',
+        text: 'One person who has no other, either son or brother, yet there is no end to all his toil.',
+      },
+      after: {
+        reference: 'Ecclesiastes 4:10',
+        text: 'For if they fall, one will lift up his fellow. But woe to him who is alone when he falls and has not another to lift him up!',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-5-2',
+    reference: 'Ecclesiastes 5:2',
+    book: 'Ecclesiastes',
+    chapter: 5,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Be not rash with your mouth, nor let your heart be hasty to utter a word before God, for God is in heaven and you are on earth. Therefore let your words be few.',
+      NIV: 'Do not be quick with your mouth, do not be hasty in your heart to utter anything before God. God is in heaven and you are on earth, so let your words be few.',
+      KJV: 'Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.',
+      NASB: 'Do not be hasty in word or impulsive in thought to bring up a matter in the presence of God. For God is in heaven and you are on the earth; therefore let your words be few.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 5:1',
+        text: 'Guard your steps when you go to the house of God. To draw near to listen is better than to offer the sacrifice of fools.',
+      },
+      after: {
+        reference: 'Ecclesiastes 5:3',
+        text: 'For a dream comes with much business, and a fool\'s voice with many words.',
+      },
+    },
+  },
 
   // ============ SONG OF SOLOMON ============
   {
@@ -6077,6 +6125,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Song of Solomon 6:4',
         text: 'You are beautiful as Tirzah, my love, lovely as Jerusalem, awesome as an army with banners.',
+      },
+    },
+  },
+  {
+    id: 'song-of-solomon-2-10',
+    reference: 'Song of Solomon 2:10',
+    book: 'Song of Solomon',
+    chapter: 2,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'My beloved spoke and said to me, "Arise, my love, my beautiful one, and come away."',
+      NIV: 'My beloved spoke and said to me, "Arise, my darling, my beautiful one, come with me."',
+      KJV: 'My beloved spake, and said unto me, Rise up, my love, my fair one, and come away.',
+      NASB: 'My beloved responded and said to me, "Arise, my darling, my beautiful one, and come along."',
+    },
+    context: {
+      before: {
+        reference: 'Song of Solomon 2:9',
+        text: 'My beloved is like a gazelle or a young stag. Behold, there he stands behind our wall, gazing through the windows.',
+      },
+      after: {
+        reference: 'Song of Solomon 2:11',
+        text: 'For behold, the winter is past; the rain is over and gone.',
+      },
+    },
+  },
+  {
+    id: 'song-of-solomon-5-16',
+    reference: 'Song of Solomon 5:16',
+    book: 'Song of Solomon',
+    chapter: 5,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'His mouth is most sweet, and he is altogether desirable. This is my beloved and this is my friend, O daughters of Jerusalem.',
+      NIV: 'His mouth is sweetness itself; he is altogether lovely. This is my beloved, this is my friend, daughters of Jerusalem.',
+      KJV: 'His mouth is most sweet: yea, he is altogether lovely. This is my beloved, and this is my friend, O daughters of Jerusalem.',
+      NASB: 'His mouth is full of sweetness. And he is wholly desirable. This is my beloved and this is my friend, O daughters of Jerusalem.',
+    },
+    context: {
+      before: {
+        reference: 'Song of Solomon 5:15',
+        text: 'His legs are alabaster columns, set on bases of gold. His appearance is like Lebanon, choice as the cedars.',
+      },
+      after: {
+        reference: 'Song of Solomon 6:1',
+        text: 'Where has your beloved gone, O most beautiful among women?',
       },
     },
   },
@@ -8043,6 +8139,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'amos-9-11',
+    reference: 'Amos 9:11',
+    book: 'Amos',
+    chapter: 9,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"In that day I will raise up the booth of David that is fallen and repair its breaches, and raise up its ruins and rebuild it as in the days of old."',
+      NIV: '"In that day I will restore David\'s fallen shelter—I will repair its broken walls and restore its ruins—and will rebuild it as it used to be."',
+      KJV: 'In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof; and I will raise up his ruins, and I will build it as in the days of old.',
+      NASB: '"In that day I will raise up the fallen booth of David, and wall up its breaches; I will also raise up its ruins and rebuild it as in the days of old."',
+    },
+    context: {
+      before: {
+        reference: 'Amos 9:10',
+        text: 'All the sinners of my people shall die by the sword, who say, "Disaster shall not overtake or meet us."',
+      },
+      after: {
+        reference: 'Amos 9:12',
+        text: 'That they may possess the remnant of Edom and all the nations who are called by my name.',
+      },
+    },
+  },
+  {
+    id: 'amos-5-24',
+    reference: 'Amos 5:24',
+    book: 'Amos',
+    chapter: 5,
+    verse: 24,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But let justice roll down like waters, and righteousness like an ever-flowing stream.',
+      NIV: 'But let justice roll on like a river, righteousness like a never-failing stream!',
+      KJV: 'But let judgment run down as waters, and righteousness as a mighty stream.',
+      NASB: 'But let justice roll down like waters and righteousness like an ever-flowing stream.',
+    },
+    context: {
+      before: {
+        reference: 'Amos 5:23',
+        text: 'Take away from me the noise of your songs; to the melody of your harps I will not listen.',
+      },
+      after: {
+        reference: 'Amos 5:25',
+        text: 'Did you bring to me sacrifices and offerings during the forty years in the wilderness, O house of Israel?',
+      },
+    },
+  },
 
   // ============ OBADIAH ============
   {
@@ -9661,6 +9805,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'haggai-2-5',
+    reference: 'Haggai 2:5',
+    book: 'Haggai',
+    chapter: 2,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'According to the covenant that I made with you when you came out of Egypt. My Spirit remains in your midst. Fear not.',
+      NIV: 'This is what I covenanted with you when you came out of Egypt. And my Spirit remains among you. Do not fear.',
+      KJV: 'According to the word that I covenanted with you when ye came out of Egypt, so my spirit remaineth among you: fear ye not.',
+      NASB: 'As for the promise which I made you when you came out of Egypt, My Spirit is abiding in your midst; do not fear!',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 2:4',
+        text: 'Yet now be strong, O Zerubbabel, declares the LORD. Be strong, O Joshua, son of Jehozadak, the high priest.',
+      },
+      after: {
+        reference: 'Haggai 2:6',
+        text: 'For thus says the LORD of hosts: Yet once more, in a little while, I will shake the heavens and the earth.',
+      },
+    },
+  },
+  {
+    id: 'haggai-1-5',
+    reference: 'Haggai 1:5',
+    book: 'Haggai',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Now, therefore, thus says the LORD of hosts: Consider your ways.',
+      NIV: 'Now this is what the LORD Almighty says: "Give careful thought to your ways."',
+      KJV: 'Now therefore thus saith the LORD of hosts; Consider your ways.',
+      NASB: 'Now, therefore, thus says the LORD of hosts, "Consider your ways!"',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 1:4',
+        text: 'Is it a time for you yourselves to dwell in your paneled houses, while this house lies in ruins?',
+      },
+      after: {
+        reference: 'Haggai 1:6',
+        text: 'You have sown much, and harvested little. You eat, but you never have enough.',
+      },
+    },
+  },
 
   // ============ ZECHARIAH ============
   {
@@ -9879,6 +10071,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'zechariah-12-10',
+    reference: 'Zechariah 12:10',
+    book: 'Zechariah',
+    chapter: 12,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and pleas for mercy, so that, when they look on me, on him whom they have pierced, they shall mourn for him, as one mourns for an only child.',
+      NIV: 'And I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and supplication. They will look on me, the one they have pierced, and they will mourn for him as one mourns for an only child.',
+      KJV: 'And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son.',
+      NASB: 'I will pour out on the house of David and on the inhabitants of Jerusalem, the Spirit of grace and of supplication, so that they will look on Me whom they have pierced; and they will mourn for Him, as one mourns for an only son.',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 12:9',
+        text: 'And on that day I will seek to destroy all the nations that come against Jerusalem.',
+      },
+      after: {
+        reference: 'Zechariah 12:11',
+        text: 'On that day the mourning in Jerusalem will be as great as the mourning for Hadad-rimmon in the plain of Megiddo.',
+      },
+    },
+  },
 
   // ============ MALACHI ============
   {
@@ -10066,6 +10282,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Malachi 4:5',
         text: 'Behold, I will send you Elijah the prophet before the great and awesome day of the LORD comes.',
+      },
+    },
+  },
+  {
+    id: 'malachi-3-6',
+    reference: 'Malachi 3:6',
+    book: 'Malachi',
+    chapter: 3,
+    verse: 6,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For I the LORD do not change; therefore you, O children of Jacob, are not consumed.',
+      NIV: '"I the LORD do not change. So you, the descendants of Jacob, are not destroyed.',
+      KJV: 'For I am the LORD, I change not; therefore ye sons of Jacob are not consumed.',
+      NASB: 'For I, the LORD, do not change; therefore you, O sons of Jacob, are not consumed.',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 3:5',
+        text: 'Then I will draw near to you for judgment. I will be a swift witness against the sorcerers.',
+      },
+      after: {
+        reference: 'Malachi 3:7',
+        text: 'From the days of your fathers you have turned aside from my statutes and have not kept them.',
+      },
+    },
+  },
+  {
+    id: 'malachi-4-5',
+    reference: 'Malachi 4:5',
+    book: 'Malachi',
+    chapter: 4,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Behold, I will send you Elijah the prophet before the great and awesome day of the LORD comes.',
+      NIV: 'See, I will send the prophet Elijah to you before that great and dreadful day of the LORD comes.',
+      KJV: 'Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD.',
+      NASB: 'Behold, I am going to send you Elijah the prophet before the coming of the great and terrible day of the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 4:4',
+        text: 'Remember the law of my servant Moses, the statutes and rules that I commanded him at Horeb for all Israel.',
+      },
+      after: {
+        reference: 'Malachi 4:6',
+        text: 'And he will turn the hearts of fathers to their children and the hearts of children to their fathers.',
       },
     },
   },
@@ -10548,6 +10812,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Mark 16:16',
         text: 'Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.',
+      },
+    },
+  },
+  {
+    id: 'mark-1-15',
+    reference: 'Mark 1:15',
+    book: 'Mark',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And saying, "The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel."',
+      NIV: '"The time has come," he said. "The kingdom of God has come near. Repent and believe the good news!"',
+      KJV: 'And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.',
+      NASB: 'And saying, "The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel."',
+    },
+    context: {
+      before: {
+        reference: 'Mark 1:14',
+        text: 'Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God.',
+      },
+      after: {
+        reference: 'Mark 1:16',
+        text: 'Passing alongside the Sea of Galilee, he saw Simon and Andrew the brother of Simon casting a net into the sea.',
       },
     },
   },
@@ -17012,6 +17300,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: '3 John 13',
         text: 'I had much to write to you, but I would rather not write with pen and ink.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-5',
+    reference: '3 John 5',
+    book: '3 John',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Beloved, it is a faithful thing you do in all your efforts for these brothers, strangers as they are.',
+      NIV: 'Dear friend, you are faithful in what you are doing for the brothers and sisters, even though they are strangers to you.',
+      KJV: 'Beloved, thou doest faithfully whatsoever thou doest to the brethren, and to strangers.',
+      NASB: 'Beloved, you are acting faithfully in whatever you accomplish for the brethren, and especially when they are strangers.',
+    },
+    context: {
+      before: {
+        reference: '3 John 4',
+        text: 'I have no greater joy than to hear that my children are walking in the truth.',
+      },
+      after: {
+        reference: '3 John 6',
+        text: 'Who have testified of your love before the church.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-11',
+    reference: '3 John 11',
+    book: '3 John',
+    chapter: 1,
+    verse: 11,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Beloved, do not imitate evil but imitate good. Whoever does good is from God; whoever does evil has not seen God.',
+      NIV: 'Dear friend, do not imitate what is evil but what is good. Anyone who does what is good is from God. Anyone who does what is evil has not seen God.',
+      KJV: 'Beloved, follow not that which is evil, but that which is good. He that doeth good is of God: but he that doeth evil hath not seen God.',
+      NASB: 'Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God.',
+    },
+    context: {
+      before: {
+        reference: '3 John 10',
+        text: 'So if I come, I will bring up what he is doing, talking wicked nonsense against us.',
+      },
+      after: {
+        reference: '3 John 12',
+        text: 'Demetrius has received a good testimony from everyone, and from the truth itself.',
       },
     },
   },
