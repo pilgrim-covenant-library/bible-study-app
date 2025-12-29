@@ -356,7 +356,7 @@ export default function ReadingPlansPage() {
             <div>
               <label className="text-sm font-medium mb-2 block">Category</label>
               <div className="flex flex-wrap gap-2">
-                {(['all', 'thematic', 'canonical'] as const).map((cat) => (
+                {(['all', 'chronological', 'thematic', 'canonical'] as const).map((cat) => (
                   <Button
                     key={cat}
                     variant={categoryFilter === cat ? 'bible' : 'outline'}
