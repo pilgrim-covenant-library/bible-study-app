@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/Card';
-import { ALL_CHAPTER_SUMMARIES, type ChapterSummary } from '@/data/bible-chapter-summaries';
+import { ALL_CHAPTER_SUMMARIES } from '@/data/bible-chapter-summaries';
 
 // Theme category definitions with normalized keywords
 const THEME_CATEGORIES: Record<string, { label: string; keywords: string[]; color: string }> = {

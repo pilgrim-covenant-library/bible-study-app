@@ -356,7 +356,7 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
                       </span>
                     </div>
                     <p className="text-sm text-muted-foreground italic leading-relaxed">
-                      "{verse.translations.ESV}"
+                      &ldquo;{verse.translations.ESV}&rdquo;
                     </p>
                   </div>
                 ))}
