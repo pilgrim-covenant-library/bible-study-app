@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle, Lightbulb } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
@@ -770,6 +770,20 @@ export default function BibleStudyPage() {
                   <div>
                     <div className="font-medium">Reading Plans</div>
                     <div className="text-sm text-muted-foreground">Structured Bible reading</div>
+                  </div>
+                  <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/bible-study/themes">
+              <Card className="cursor-pointer hover:shadow-md transition-all hover:-translate-y-0.5">
+                <CardContent className="p-4 flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-orange-500/10">
+                    <Lightbulb className="h-5 w-5 text-orange-500" />
+                  </div>
+                  <div>
+                    <div className="font-medium">Theme Explorer</div>
+                    <div className="text-sm text-muted-foreground">Discover themes across Scripture</div>
                   </div>
                   <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
                 </CardContent>
