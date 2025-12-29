@@ -9081,6 +9081,37 @@ export const FIRST_THESSALONIANS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 2 THESSALONIANS (3 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const SECOND_THESSALONIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '2-thessalonians',
+    chapter: 1,
+    title: 'God\'s Righteous Judgment',
+    summary: 'Paul, Silvanus, and Timothy, to the church of the Thessalonians in God our Father and the Lord Jesus Christ: Grace and peace from God our Father and the Lord Jesus Christ. They ought always to give thanks to God for them, as is right, because their faith is growing abundantly, and the love of every one of them for one another is increasing. Therefore they themselves boast about them in the churches of God for their steadfastness and faith in all their persecutions and in the afflictions that they are enduring. This is evidence of the righteous judgment of God, that they may be considered worthy of the kingdom of God, for which they are also suffering—since indeed God considers it just to repay with affliction those who afflict them, and to grant relief to them who are afflicted as well as to Paul and his companions when the Lord Jesus is revealed from heaven with His mighty angels in flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of His might, when He comes on that day to be glorified in His saints, and to be marveled at among all who have believed, because their testimony to them was believed. To this end they always pray for them, that God may make them worthy of His calling and may fulfill every resolve for good and every work of faith by His power, so that the name of our Lord Jesus may be glorified in them, and they in Him, according to the grace of their God and the Lord Jesus Christ.',
+    keyThemes: ['Faith growing abundantly', 'Righteous judgment of God', 'Relief when Lord revealed', 'Glorified in His saints'],
+    christConnection: 'The Lord Jesus will be revealed from heaven with His mighty angels, inflicting vengeance on those who do not obey the gospel. He comes to be glorified in His saints. His name will be glorified in believers.'
+  },
+  {
+    bookId: '2-thessalonians',
+    chapter: 2,
+    title: 'The Man of Lawlessness',
+    summary: 'Now concerning the coming of our Lord Jesus Christ and their being gathered together to Him, they ask them not to be quickly shaken in mind or alarmed, either by a spirit or a spoken word, or a letter seeming to be from Paul and his companions, to the effect that the day of the Lord has come. Let no one deceive them in any way. For that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed, the son of destruction, who opposes and exalts himself against every so-called god or object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God. Do they not remember that when Paul was still with them he told them these things? And they know what is restraining him now so that he may be revealed in his time. For the mystery of lawlessness is already at work. Only he who now restrains it will do so until he is out of the way. And then the lawless one will be revealed, whom the Lord Jesus will kill with the breath of His mouth and bring to nothing by the appearance of His coming. The coming of the lawless one is by the activity of Satan with all power and false signs and wonders, and with all wicked deception for those who are perishing, because they refused to love the truth and so be saved. Therefore God sends them a strong delusion, so that they may believe what is false, in order that all may be condemned who did not believe the truth but had pleasure in unrighteousness. But they ought always to give thanks to God for the Thessalonians, brothers beloved by the Lord, because God chose them as the firstfruits to be saved, through sanctification by the Spirit and belief in the truth. To this He called them through the gospel, so that they may obtain the glory of our Lord Jesus Christ. So then, stand firm and hold to the traditions that they were taught.',
+    keyThemes: ['Day of Lord not yet come', 'Man of lawlessness revealed', 'Lord kills with breath', 'Chosen as firstfruits'],
+    christConnection: 'The Lord Jesus will kill the lawless one with the breath of His mouth and bring him to nothing by His appearing. God chose believers to obtain the glory of our Lord Jesus Christ through the gospel.'
+  },
+  {
+    bookId: '2-thessalonians',
+    chapter: 3,
+    title: 'Warning Against Idleness',
+    summary: 'Finally, brothers, pray for Paul and his companions, that the word of the Lord may speed ahead and be honored, as happened among the Thessalonians, and that they may be delivered from wicked and evil men. For not all have faith. But the Lord is faithful. He will establish them and guard them against the evil one. And they have confidence in the Lord about them, that they are doing and will do the things that they command. May the Lord direct their hearts to the love of God and to the steadfastness of Christ. Now they command them in the name of our Lord Jesus Christ that they keep away from any brother who is walking in idleness and not in accord with the tradition that they received from Paul and his companions. For they themselves know how they ought to imitate them, because they were not idle when they were with them, nor did they eat anyone\'s bread without paying for it, but with toil and labor they worked night and day, that they might not be a burden to any of them. It was not because they do not have that right, but to give them an example to imitate. For even when they were with them, they would give them this command: If anyone is not willing to work, let him not eat. For they hear that some among them walk in idleness, not busy at work, but busybodies. Now such persons they command and encourage in the Lord Jesus Christ to do their work quietly and to earn their own living. As for them, do not grow weary in doing good. If anyone does not obey what Paul says in this letter, take note of that person, and have nothing to do with him, that he may be ashamed. Do not regard him as an enemy, but warn him as a brother. Now may the Lord of peace Himself give them peace at all times in every way. The Lord be with them all. Paul writes this greeting with his own hand. This is the sign of genuineness in every letter of his. The grace of our Lord Jesus Christ be with them all.',
+    keyThemes: ['Word of Lord speed ahead', 'Lord is faithful', 'Not willing to work not eat', 'Lord of peace give peace'],
+    christConnection: 'The Lord is faithful—He will establish and guard them against the evil one. May the Lord of peace Himself give peace at all times. The grace of our Lord Jesus Christ be with them all.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9186,6 +9217,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return COLOSSIANS_CHAPTERS;
     case '1-thessalonians':
       return FIRST_THESSALONIANS_CHAPTERS;
+    case '2-thessalonians':
+      return SECOND_THESSALONIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9246,4 +9279,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'philippians', bookName: 'Philippians', chapters: PHILIPPIANS_CHAPTERS },
   { bookId: 'colossians', bookName: 'Colossians', chapters: COLOSSIANS_CHAPTERS },
   { bookId: '1-thessalonians', bookName: '1 Thessalonians', chapters: FIRST_THESSALONIANS_CHAPTERS },
+  { bookId: '2-thessalonians', bookName: '2 Thessalonians', chapters: SECOND_THESSALONIANS_CHAPTERS },
 ];
