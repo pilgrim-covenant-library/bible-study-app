@@ -264,6 +264,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'exodus-34-6-7',
+    reference: 'Exodus 34:6-7',
+    book: 'Exodus',
+    chapter: 34,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'The LORD passed before him and proclaimed, "The LORD, the LORD, a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness, keeping steadfast love for thousands, forgiving iniquity and transgression and sin, but who will by no means clear the guilty."',
+      NIV: 'And he passed in front of Moses, proclaiming, "The LORD, the LORD, the compassionate and gracious God, slow to anger, abounding in love and faithfulness, maintaining love to thousands, and forgiving wickedness, rebellion and sin. Yet he does not leave the guilty unpunished."',
+      KJV: 'And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering, and abundant in goodness and truth, Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty.',
+      NASB: 'Then the LORD passed by in front of him and proclaimed, "The LORD, the LORD God, compassionate and gracious, slow to anger, and abounding in lovingkindness and truth; who keeps lovingkindness for thousands, who forgives iniquity, transgression and sin; yet He will by no means leave the guilty unpunished."',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 34:5',
+        text: 'The LORD descended in the cloud and stood with him there, and proclaimed the name of the LORD.',
+      },
+      after: {
+        reference: 'Exodus 34:8',
+        text: 'And Moses quickly bowed his head toward the earth and worshiped.',
+      },
+    },
+  },
+  {
+    id: 'exodus-15-2',
+    reference: 'Exodus 15:2',
+    book: 'Exodus',
+    chapter: 15,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD is my strength and my song, and he has become my salvation; this is my God, and I will praise him, my father\'s God, and I will exalt him.',
+      NIV: 'The LORD is my strength and my defense; he has become my salvation. He is my God, and I will praise him, my father\'s God, and I will exalt him.',
+      KJV: 'The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father\'s God, and I will exalt him.',
+      NASB: 'The LORD is my strength and song, and He has become my salvation; This is my God, and I will praise Him; My father\'s God, and I will extol Him.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 15:1',
+        text: 'Then Moses and the people of Israel sang this song to the LORD, saying, "I will sing to the LORD, for he has triumphed gloriously; the horse and his rider he has thrown into the sea."',
+      },
+      after: {
+        reference: 'Exodus 15:3',
+        text: 'The LORD is a man of war; the LORD is his name.',
+      },
+    },
+  },
 
   // ============ LEVITICUS ============
   {
@@ -435,6 +483,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Deuteronomy 31:7',
         text: 'Then Moses summoned Joshua and said to him in the sight of all Israel, "Be strong and courageous."',
+      },
+    },
+  },
+  {
+    id: 'deuteronomy-29-29',
+    reference: 'Deuteronomy 29:29',
+    book: 'Deuteronomy',
+    chapter: 29,
+    verse: 29,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The secret things belong to the LORD our God, but the things that are revealed belong to us and to our children forever, that we may do all the words of this law.',
+      NIV: 'The secret things belong to the LORD our God, but the things revealed belong to us and to our children forever, that we may follow all the words of this law.',
+      KJV: 'The secret things belong unto the LORD our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law.',
+      NASB: 'The secret things belong to the LORD our God, but the things revealed belong to us and to our sons forever, that we may observe all the words of this law.',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 29:28',
+        text: 'The LORD uprooted them from their land in anger and fury and great wrath, and cast them into another land, as they are this day.',
+      },
+      after: {
+        reference: 'Deuteronomy 30:1',
+        text: 'And when all these things come upon you, the blessing and the curse, which I have set before you, and you call them to mind among all the nations.',
+      },
+    },
+  },
+  {
+    id: 'deuteronomy-30-19',
+    reference: 'Deuteronomy 30:19',
+    book: 'Deuteronomy',
+    chapter: 30,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I call heaven and earth to witness against you today, that I have set before you life and death, blessing and curse. Therefore choose life, that you and your offspring may live,',
+      NIV: 'This day I call the heavens and the earth as witnesses against you that I have set before you life and death, blessings and curses. Now choose life, so that you and your children may live',
+      KJV: 'I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live:',
+      NASB: 'I call heaven and earth to witness against you today, that I have set before you life and death, the blessing and the curse. So choose life in order that you may live, you and your descendants,',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 30:18',
+        text: 'I declare to you today, that you shall surely perish. You shall not live long in the land that you are going over the Jordan to enter and possess.',
+      },
+      after: {
+        reference: 'Deuteronomy 30:20',
+        text: 'loving the LORD your God, obeying his voice and holding fast to him, for he is your life and length of days.',
       },
     },
   },
@@ -4100,6 +4196,126 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-corinthians-1-30',
+    reference: '1 Corinthians 1:30',
+    book: '1 Corinthians',
+    chapter: 1,
+    verse: 30,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And because of him you are in Christ Jesus, who became to us wisdom from God, righteousness and sanctification and redemption,',
+      NIV: 'It is because of him that you are in Christ Jesus, who has become for us wisdom from God—that is, our righteousness, holiness and redemption.',
+      KJV: 'But of him are ye in Christ Jesus, who of God is made unto us wisdom, and righteousness, and sanctification, and redemption:',
+      NASB: 'But by His doing you are in Christ Jesus, who became to us wisdom from God, and righteousness and sanctification, and redemption,',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 1:29',
+        text: 'so that no human being might boast in the presence of God.',
+      },
+      after: {
+        reference: '1 Corinthians 1:31',
+        text: 'so that, as it is written, "Let the one who boasts, boast in the Lord."',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-2-14',
+    reference: '1 Corinthians 2:14',
+    book: '1 Corinthians',
+    chapter: 2,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them because they are spiritually discerned.',
+      NIV: 'The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit.',
+      KJV: 'But the natural man receiveth not the things of the Spirit of God: for they are foolishness unto him: neither can he know them, because they are spiritually discerned.',
+      NASB: 'But a natural man does not accept the things of the Spirit of God, for they are foolishness to him; and he cannot understand them, because they are spiritually appraised.',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 2:13',
+        text: 'And we impart this in words not taught by human wisdom but taught by the Spirit, interpreting spiritual truths to those who are spiritual.',
+      },
+      after: {
+        reference: '1 Corinthians 2:15',
+        text: 'The spiritual person judges all things, but is himself to be judged by no one.',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-6-19',
+    reference: '1 Corinthians 6:19',
+    book: '1 Corinthians',
+    chapter: 6,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own,',
+      NIV: 'Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own;',
+      KJV: 'What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?',
+      NASB: 'Or do you not know that your body is a temple of the Holy Spirit who is in you, whom you have from God, and that you are not your own?',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 6:18',
+        text: 'Flee from sexual immorality. Every other sin a person commits is outside the body, but the sexually immoral person sins against his own body.',
+      },
+      after: {
+        reference: '1 Corinthians 6:20',
+        text: 'for you were bought with a price. So glorify God in your body.',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-10-31',
+    reference: '1 Corinthians 10:31',
+    book: '1 Corinthians',
+    chapter: 10,
+    verse: 31,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'So, whether you eat or drink, or whatever you do, do all to the glory of God.',
+      NIV: 'So whether you eat or drink or whatever you do, do it all for the glory of God.',
+      KJV: 'Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God.',
+      NASB: 'Whether, then, you eat or drink or whatever you do, do all to the glory of God.',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 10:30',
+        text: 'If I partake with thankfulness, why am I denounced because of that for which I give thanks?',
+      },
+      after: {
+        reference: '1 Corinthians 10:32',
+        text: 'Give no offense to Jews or to Greeks or to the church of God,',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-15-3-4',
+    reference: '1 Corinthians 15:3-4',
+    book: '1 Corinthians',
+    chapter: 15,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures,',
+      NIV: 'For what I received I passed on to you as of first importance: that Christ died for our sins according to the Scriptures, that he was buried, that he was raised on the third day according to the Scriptures,',
+      KJV: 'For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures; And that he was buried, and that he rose again the third day according to the scriptures:',
+      NASB: 'For I delivered to you as of first importance what I also received, that Christ died for our sins according to the Scriptures, and that He was buried, and that He was raised on the third day according to the Scriptures,',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 15:2',
+        text: 'and by which you are being saved, if you hold fast to the word I preached to you—unless you believed in vain.',
+      },
+      after: {
+        reference: '1 Corinthians 15:5',
+        text: 'and that he appeared to Cephas, then to the twelve.',
+      },
+    },
+  },
 
   // ============ 2 CORINTHIANS ============
   {
@@ -4566,6 +4782,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'colossians-1-17',
+    reference: 'Colossians 1:17',
+    book: 'Colossians',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he is before all things, and in him all things hold together.',
+      NIV: 'He is before all things, and in him all things hold together.',
+      KJV: 'And he is before all things, and by him all things consist.',
+      NASB: 'He is before all things, and in Him all things hold together.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 1:16',
+        text: 'For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him.',
+      },
+      after: {
+        reference: 'Colossians 1:18',
+        text: 'And he is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything he might be preeminent.',
+      },
+    },
+  },
+  {
+    id: 'colossians-3-1-2',
+    reference: 'Colossians 3:1-2',
+    book: 'Colossians',
+    chapter: 3,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God. Set your minds on things that are above, not on things that are on earth.',
+      NIV: 'Since, then, you have been raised with Christ, set your hearts on things above, where Christ is, seated at the right hand of God. Set your minds on things above, not on earthly things.',
+      KJV: 'If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God. Set your affection on things above, not on things on the earth.',
+      NASB: 'Therefore if you have been raised up with Christ, keep seeking the things above, where Christ is, seated at the right hand of God. Set your mind on the things above, not on the things that are on earth.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 2:20',
+        text: 'If with Christ you died to the elemental spirits of the world, why, as if you were still alive in the world, do you submit to regulations—',
+      },
+      after: {
+        reference: 'Colossians 3:3',
+        text: 'For you have died, and your life is hidden with Christ in God.',
+      },
+    },
+  },
+  {
+    id: 'colossians-3-16',
+    reference: 'Colossians 3:16',
+    book: 'Colossians',
+    chapter: 3,
+    verse: 16,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, with thankfulness in your hearts to God.',
+      NIV: 'Let the message of Christ dwell among you richly as you teach and admonish one another with all wisdom through psalms, hymns, and songs from the Spirit, singing to God with gratitude in your hearts.',
+      KJV: 'Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.',
+      NASB: 'Let the word of Christ richly dwell within you, with all wisdom teaching and admonishing one another with psalms and hymns and spiritual songs, singing with thankfulness in your hearts to God.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 3:15',
+        text: 'And let the peace of Christ rule in your hearts, to which indeed you were called in one body. And be thankful.',
+      },
+      after: {
+        reference: 'Colossians 3:17',
+        text: 'And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.',
+      },
+    },
+  },
 
   // ============ 1 THESSALONIANS ============
   {
@@ -4616,6 +4904,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-thessalonians-5-23',
+    reference: '1 Thessalonians 5:23',
+    book: '1 Thessalonians',
+    chapter: 5,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Now may the God of peace himself sanctify you completely, and may your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ.',
+      NIV: 'May God himself, the God of peace, sanctify you through and through. May your whole spirit, soul and body be kept blameless at the coming of our Lord Jesus Christ.',
+      KJV: 'And the very God of peace sanctify you wholly; and I pray God your whole spirit and soul and body be preserved blameless unto the coming of our Lord Jesus Christ.',
+      NASB: 'Now may the God of peace Himself sanctify you entirely; and may your spirit and soul and body be preserved complete, without blame at the coming of our Lord Jesus Christ.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 5:22',
+        text: 'Abstain from every form of evil.',
+      },
+      after: {
+        reference: '1 Thessalonians 5:24',
+        text: 'He who calls you is faithful; he will surely do it.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-4-3',
+    reference: '1 Thessalonians 4:3',
+    book: '1 Thessalonians',
+    chapter: 4,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For this is the will of God, your sanctification: that you abstain from sexual immorality.',
+      NIV: 'It is God\'s will that you should be sanctified: that you should avoid sexual immorality.',
+      KJV: 'For this is the will of God, even your sanctification, that ye should abstain from fornication.',
+      NASB: 'For this is the will of God, your sanctification; that is, that you abstain from sexual immorality.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 4:2',
+        text: 'For you know what instructions we gave you through the Lord Jesus.',
+      },
+      after: {
+        reference: '1 Thessalonians 4:4',
+        text: 'that each one of you know how to control his own body in holiness and honor.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-5-11',
+    reference: '1 Thessalonians 5:11',
+    book: '1 Thessalonians',
+    chapter: 5,
+    verse: 11,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Therefore encourage one another and build one another up, just as you are doing.',
+      NIV: 'Therefore encourage one another and build each other up, just as in fact you are doing.',
+      KJV: 'Wherefore comfort yourselves together, and edify one another, even as also ye do.',
+      NASB: 'Therefore encourage one another and build up one another, just as you also are doing.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 5:10',
+        text: 'who died for us so that whether we are awake or asleep we might live with him.',
+      },
+      after: {
+        reference: '1 Thessalonians 5:12',
+        text: 'We ask you, brothers, to respect those who labor among you and are over you in the Lord and admonish you.',
+      },
+    },
+  },
 
   // ============ 2 THESSALONIANS ============
   {
@@ -4663,6 +5023,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Thessalonians 1:10',
         text: 'when he comes on that day to be glorified in his saints, and to be marveled at among all who have believed.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-2-16-17',
+    reference: '2 Thessalonians 2:16-17',
+    book: '2 Thessalonians',
+    chapter: 2,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Now may our Lord Jesus Christ himself, and God our Father, who loved us and gave us eternal comfort and good hope through grace, comfort your hearts and establish them in every good work and word.',
+      NIV: 'May our Lord Jesus Christ himself and God our Father, who loved us and by his grace gave us eternal encouragement and good hope, encourage your hearts and strengthen you in every good deed and word.',
+      KJV: 'Now our Lord Jesus Christ himself, and God, even our Father, which hath loved us, and hath given us everlasting consolation and good hope through grace, comfort your hearts, and stablish you in every good word and work.',
+      NASB: 'Now may our Lord Jesus Christ Himself and God our Father, who has loved us and given us eternal comfort and good hope by grace, comfort and strengthen your hearts in every good work and word.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 2:15',
+        text: 'So then, brothers, stand firm and hold to the traditions that you were taught by us, either by our spoken word or by our letter.',
+      },
+      after: {
+        reference: '2 Thessalonians 3:1',
+        text: 'Finally, brothers, pray for us, that the word of the Lord may speed ahead and be honored, as happened among you.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-3-10',
+    reference: '2 Thessalonians 3:10',
+    book: '2 Thessalonians',
+    chapter: 3,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For even when we were with you, we would give you this command: If anyone is not willing to work, let him not eat.',
+      NIV: 'For even when we were with you, we gave you this rule: "The one who is unwilling to work shall not eat."',
+      KJV: 'For even when we were with you, this we commanded you, that if any would not work, neither should he eat.',
+      NASB: 'For even when we were with you, we used to give you this order: if anyone is not willing to work, then he is not to eat, either.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 3:9',
+        text: 'It was not because we do not have that right, but to give you in ourselves an example to imitate.',
+      },
+      after: {
+        reference: '2 Thessalonians 3:11',
+        text: 'For we hear that some among you walk in idleness, not busy at work, but busybodies.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-1-11-12',
+    reference: '2 Thessalonians 1:11-12',
+    book: '2 Thessalonians',
+    chapter: 1,
+    verse: 11,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'To this end we always pray for you, that our God may make you worthy of his calling and may fulfill every resolve for good and every work of faith by his power, so that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.',
+      NIV: 'With this in mind, we constantly pray for you, that our God may make you worthy of his calling, and that by his power he may bring to fruition your every desire for goodness and your every deed prompted by faith. We pray this so that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.',
+      KJV: 'Wherefore also we pray always for you, that our God would count you worthy of this calling, and fulfil all the good pleasure of his goodness, and the work of faith with power: That the name of our Lord Jesus Christ may be glorified in you, and ye in him, according to the grace of our God and the Lord Jesus Christ.',
+      NASB: 'To this end also we pray for you always, that our God will count you worthy of your calling, and fulfill every desire for goodness and the work of faith with power, so that the name of our Lord Jesus will be glorified in you, and you in Him, according to the grace of our God and the Lord Jesus Christ.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 1:10',
+        text: 'when he comes on that day to be glorified in his saints, and to be marveled at among all who have believed.',
+      },
+      after: {
+        reference: '2 Thessalonians 2:1',
+        text: 'Now concerning the coming of our Lord Jesus Christ and our being gathered together to him, we ask you, brothers.',
       },
     },
   },
@@ -5007,6 +5439,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Philemon 17',
         text: 'So if you consider me your partner, receive him as you would receive me.',
+      },
+    },
+  },
+  {
+    id: 'philemon-17-18',
+    reference: 'Philemon 17-18',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So if you consider me your partner, receive him as you would receive me. If he has wronged you at all, or owes you anything, charge that to my account.',
+      NIV: 'So if you consider me a partner, welcome him as you would welcome me. If he has done you any wrong or owes you anything, charge it to me.',
+      KJV: 'If thou count me therefore a partner, receive him as myself. If he hath wronged thee, or oweth thee ought, put that on mine account.',
+      NASB: 'If then you regard me a partner, accept him as you would me. But if he has wronged you in any way or owes you anything, charge that to my account.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 16',
+        text: 'no longer as a bondservant but more than a bondservant, as a beloved brother—especially to me, but how much more to you, both in the flesh and in the Lord.',
+      },
+      after: {
+        reference: 'Philemon 19',
+        text: 'I, Paul, write this with my own hand: I will repay it—to say nothing of your owing me even your own self.',
+      },
+    },
+  },
+  {
+    id: 'philemon-4-5',
+    reference: 'Philemon 4-5',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I thank my God always when I remember you in my prayers, because I hear of your love and of the faith that you have toward the Lord Jesus and for all the saints.',
+      NIV: 'I always thank my God as I remember you in my prayers, because I hear about your love for all his holy people and your faith in the Lord Jesus.',
+      KJV: 'I thank my God, making mention of thee always in my prayers, hearing of thy love and faith, which thou hast toward the Lord Jesus, and toward all saints.',
+      NASB: 'I thank my God always, making mention of you in my prayers, because I hear of your love and of the faith which you have toward the Lord Jesus and toward all the saints.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 3',
+        text: 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
+      },
+      after: {
+        reference: 'Philemon 6',
+        text: 'and I pray that the sharing of your faith may become effective for the full knowledge of every good thing that is in us for the sake of Christ.',
       },
     },
   },
@@ -5548,6 +6028,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-john-1-3',
+    reference: '2 John 3',
+    book: '2 John',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Grace, mercy, and peace will be with us, from God the Father and from Jesus Christ the Father\'s Son, in truth and love.',
+      NIV: 'Grace, mercy and peace from God the Father and from Jesus Christ, the Father\'s Son, will be with us in truth and love.',
+      KJV: 'Grace be with you, mercy, and peace, from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love.',
+      NASB: 'Grace, mercy and peace will be with us, from God the Father and from Jesus Christ, the Son of the Father, in truth and love.',
+    },
+    context: {
+      before: {
+        reference: '2 John 2',
+        text: 'because of the truth that abides in us and will be with us forever.',
+      },
+      after: {
+        reference: '2 John 4',
+        text: 'I rejoiced greatly to find some of your children walking in the truth, just as we were commanded by the Father.',
+      },
+    },
+  },
+  {
+    id: '2-john-1-7',
+    reference: '2 John 7',
+    book: '2 John',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For many deceivers have gone out into the world, those who do not confess the coming of Jesus Christ in the flesh. Such a one is the deceiver and the antichrist.',
+      NIV: 'I say this because many deceivers, who do not acknowledge Jesus Christ as coming in the flesh, have gone out into the world. Any such person is the deceiver and the antichrist.',
+      KJV: 'For many deceivers are entered into the world, who confess not that Jesus Christ is come in the flesh. This is a deceiver and an antichrist.',
+      NASB: 'For many deceivers have gone out into the world, those who do not acknowledge Jesus Christ as coming in the flesh. This is the deceiver and the antichrist.',
+    },
+    context: {
+      before: {
+        reference: '2 John 6',
+        text: 'And this is love, that we walk according to his commandments; this is the commandment, just as you have heard from the beginning, so that you should walk in it.',
+      },
+      after: {
+        reference: '2 John 8',
+        text: 'Watch yourselves, so that you may not lose what we have worked for, but may win a full reward.',
+      },
+    },
+  },
 
   // ============ 3 JOHN ============
   {
@@ -5595,6 +6123,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '3 John 12',
         text: 'Demetrius has received a good testimony from everyone, and from the truth itself. We also add our testimony, and you know that our testimony is true.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-5-6',
+    reference: '3 John 5-6',
+    book: '3 John',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Beloved, it is a faithful thing you do in all your efforts for these brothers, strangers as they are, who testified to your love before the church. You will do well to send them on their journey in a manner worthy of God.',
+      NIV: 'Dear friend, you are faithful in what you are doing for the brothers and sisters, even though they are strangers to you. They have told the church about your love. Please send them on their way in a manner that honors God.',
+      KJV: 'Beloved, thou doest faithfully whatsoever thou doest to the brethren, and to strangers; Which have borne witness of thy charity before the church: whom if thou bring forward on their journey after a godly sort, thou shalt do well.',
+      NASB: 'Beloved, you are acting faithfully in whatever you accomplish for the brethren, and especially when they are strangers; and they have testified to your love before the church. You will do well to send them on their way in a manner worthy of God.',
+    },
+    context: {
+      before: {
+        reference: '3 John 4',
+        text: 'I have no greater joy than to hear that my children are walking in the truth.',
+      },
+      after: {
+        reference: '3 John 7',
+        text: 'For they have gone out for the sake of the name, accepting nothing from the Gentiles.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-2',
+    reference: '3 John 2',
+    book: '3 John',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.',
+      NIV: 'Dear friend, I pray that you may enjoy good health and that all may go well with you, even as your soul is getting along well.',
+      KJV: 'Beloved, I wish above all things that thou mayest prosper and be in health, even as thy soul prospereth.',
+      NASB: 'Beloved, I pray that in all respects you may prosper and be in good health, just as your soul prospers.',
+    },
+    context: {
+      before: {
+        reference: '3 John 1',
+        text: 'The elder to the beloved Gaius, whom I love in truth.',
+      },
+      after: {
+        reference: '3 John 3',
+        text: 'For I rejoiced greatly when the brothers came and testified to your truth, as indeed you are walking in the truth.',
       },
     },
   },
@@ -5739,6 +6315,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Jude 4',
         text: 'For certain people have crept in unnoticed who long ago were designated for this condemnation.',
+      },
+    },
+  },
+  {
+    id: 'jude-20-21',
+    reference: 'Jude 20-21',
+    book: 'Jude',
+    chapter: 1,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But you, beloved, building yourselves up in your most holy faith and praying in the Holy Spirit, keep yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life.',
+      NIV: 'But you, dear friends, by building yourselves up in your most holy faith and praying in the Holy Spirit, keep yourselves in God\'s love as you wait for the mercy of our Lord Jesus Christ to bring you to eternal life.',
+      KJV: 'But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost, keep yourselves in the love of God, looking for the mercy of our Lord Jesus Christ unto eternal life.',
+      NASB: 'But you, beloved, building yourselves up on your most holy faith, praying in the Holy Spirit, keep yourselves in the love of God, waiting anxiously for the mercy of our Lord Jesus Christ to eternal life.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 19',
+        text: 'It is these who cause divisions, worldly people, devoid of the Spirit.',
+      },
+      after: {
+        reference: 'Jude 22',
+        text: 'And have mercy on those who doubt.',
+      },
+    },
+  },
+  {
+    id: 'jude-24-25',
+    reference: 'Jude 24-25',
+    book: 'Jude',
+    chapter: 1,
+    verse: 24,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy, to the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time and now and forever. Amen.',
+      NIV: 'To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy—to the only God our Savior be glory, majesty, power and authority, through Jesus Christ our Lord, before all ages, now and forevermore! Amen.',
+      KJV: 'Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy, To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.',
+      NASB: 'Now to Him who is able to keep you from stumbling, and to make you stand in the presence of His glory blameless with great joy, to the only God our Savior, through Jesus Christ our Lord, be glory, majesty, dominion and authority, before all time and now and forever. Amen.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 23',
+        text: 'save others by snatching them out of the fire; to others show mercy with fear, hating even the garment stained by the flesh.',
       },
     },
   },
