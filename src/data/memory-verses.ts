@@ -412,6 +412,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'numbers-14-18',
+    reference: 'Numbers 14:18',
+    book: 'Numbers',
+    chapter: 14,
+    verse: 18,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'The LORD is slow to anger and abounding in steadfast love, forgiving iniquity and transgression, but he will by no means clear the guilty, visiting the iniquity of the fathers on the children, to the third and the fourth generation.',
+      NIV: 'The LORD is slow to anger, abounding in love and forgiving sin and rebellion. Yet he does not leave the guilty unpunished; he punishes the children for the sin of the parents to the third and fourth generation.',
+      KJV: 'The LORD is longsuffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing the guilty, visiting the iniquity of the fathers upon the children unto the third and fourth generation.',
+      NASB: 'The LORD is slow to anger and abundant in lovingkindness, forgiving iniquity and transgression; but He will by no means clear the guilty, visiting the iniquity of the fathers on the children to the third and the fourth generations.',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 14:17',
+        text: 'And now, please let the power of the Lord be great as you have promised, saying,',
+      },
+      after: {
+        reference: 'Numbers 14:19',
+        text: 'Please pardon the iniquity of this people, according to the greatness of your steadfast love, just as you have forgiven this people, from Egypt until now.',
+      },
+    },
+  },
+  {
+    id: 'numbers-21-9',
+    reference: 'Numbers 21:9',
+    book: 'Numbers',
+    chapter: 21,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So Moses made a bronze serpent and set it on a pole. And if a serpent bit anyone, he would look at the bronze serpent and live.',
+      NIV: 'So Moses made a bronze snake and put it up on a pole. Then when anyone was bitten by a snake and looked at the bronze snake, they lived.',
+      KJV: 'And Moses made a serpent of brass, and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived.',
+      NASB: 'And Moses made a bronze serpent and set it on the standard; and it came about, that if a serpent bit any man, when he looked to the bronze serpent, he lived.',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 21:8',
+        text: 'And the LORD said to Moses, "Make a fiery serpent and set it on a pole, and everyone who is bitten, when he sees it, shall live."',
+      },
+      after: {
+        reference: 'Numbers 21:10',
+        text: 'And the people of Israel set out and camped in Oboth.',
+      },
+    },
+  },
 
   // ============ DEUTERONOMY ============
   {
@@ -2471,6 +2519,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ JOEL ============
   {
+    id: 'joel-2-12',
+    reference: 'Joel 2:12',
+    book: 'Joel',
+    chapter: 2,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"Yet even now," declares the LORD, "return to me with all your heart, with fasting, with weeping, and with mourning."',
+      NIV: '"Even now," declares the LORD, "return to me with all your heart, with fasting and weeping and mourning."',
+      KJV: 'Therefore also now, saith the LORD, turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning.',
+      NASB: '"Yet even now," declares the LORD, "Return to Me with all your heart, and with fasting, weeping and mourning."',
+    },
+    context: {
+      before: {
+        reference: 'Joel 2:11',
+        text: 'The LORD utters his voice before his army, for his camp is exceedingly great; he who executes his word is powerful.',
+      },
+      after: {
+        reference: 'Joel 2:13',
+        text: 'And rend your hearts and not your garments. Return to the LORD your God, for he is gracious and merciful.',
+      },
+    },
+  },
+  {
+    id: 'joel-2-13',
+    reference: 'Joel 2:13',
+    book: 'Joel',
+    chapter: 2,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And rend your hearts and not your garments. Return to the LORD your God, for he is gracious and merciful, slow to anger, and abounding in steadfast love; and he relents over disaster.',
+      NIV: 'Rend your heart and not your garments. Return to the LORD your God, for he is gracious and compassionate, slow to anger and abounding in love, and he relents from sending calamity.',
+      KJV: 'And rend your heart, and not your garments, and turn unto the LORD your God: for he is gracious and merciful, slow to anger, and of great kindness, and repenteth him of the evil.',
+      NASB: 'And rend your heart and not your garments. Now return to the LORD your God, for He is gracious and compassionate, slow to anger, abounding in lovingkindness and relenting of evil.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 2:12',
+        text: '"Yet even now," declares the LORD, "return to me with all your heart, with fasting, with weeping, and with mourning."',
+      },
+      after: {
+        reference: 'Joel 2:14',
+        text: 'Who knows whether he will not turn and relent, and leave a blessing behind him, a grain offering and a drink offering for the LORD your God?',
+      },
+    },
+  },
+  {
     id: 'joel-2-32',
     reference: 'Joel 2:32',
     book: 'Joel',
@@ -2619,6 +2715,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ OBADIAH ============
   {
+    id: 'obadiah-1-15',
+    reference: 'Obadiah 15',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the day of the LORD is near upon all the nations. As you have done, it shall be done to you; your deeds shall return on your own head.',
+      NIV: 'The day of the LORD is near for all nations. As you have done, it will be done to you; your deeds will return upon your own head.',
+      KJV: 'For the day of the LORD is near upon all the heathen: as thou hast done, it shall be done unto thee: thy reward shall return upon thine own head.',
+      NASB: 'For the day of the LORD draws near on all the nations. As you have done, it will be done to you. Your dealings will return on your own head.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 14',
+        text: 'Do not stand at the crossroads to cut off his fugitives; do not hand over his survivors in the day of distress.',
+      },
+      after: {
+        reference: 'Obadiah 16',
+        text: 'For as you have drunk on my holy mountain, so all the nations shall drink continually.',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-17',
+    reference: 'Obadiah 17',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But in Mount Zion there shall be those who escape, and it shall be holy, and the house of Jacob shall possess their own possessions.',
+      NIV: 'But on Mount Zion will be deliverance; it will be holy, and Jacob will possess his inheritance.',
+      KJV: 'But upon mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions.',
+      NASB: 'But on Mount Zion there will be those who escape, and it will be holy. And the house of Jacob will possess their possessions.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 16',
+        text: 'For as you have drunk on my holy mountain, so all the nations shall drink continually.',
+      },
+      after: {
+        reference: 'Obadiah 18',
+        text: 'The house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau stubble.',
+      },
+    },
+  },
+  {
     id: 'obadiah-1-4',
     reference: 'Obadiah 4',
     book: 'Obadiah',
@@ -2664,6 +2808,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ JONAH ============
+  {
+    id: 'jonah-1-9',
+    reference: 'Jonah 1:9',
+    book: 'Jonah',
+    chapter: 1,
+    verse: 9,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he said to them, "I am a Hebrew, and I fear the LORD, the God of heaven, who made the sea and the dry land."',
+      NIV: 'He answered, "I am a Hebrew and I worship the LORD, the God of heaven, who made the sea and the dry land."',
+      KJV: 'And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land.',
+      NASB: 'He said to them, "I am a Hebrew, and I fear the LORD God of heaven who made the sea and the dry land."',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 1:8',
+        text: 'Then they said to him, "Tell us on whose account this evil has come upon us. What is your occupation? And where do you come from?"',
+      },
+      after: {
+        reference: 'Jonah 1:10',
+        text: 'Then the men were exceedingly afraid and said to him, "What is this that you have done!"',
+      },
+    },
+  },
+  {
+    id: 'jonah-3-10',
+    reference: 'Jonah 3:10',
+    book: 'Jonah',
+    chapter: 3,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it.',
+      NIV: 'When God saw what they did and how they turned from their evil ways, he relented and did not bring on them the destruction he had threatened.',
+      KJV: 'And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.',
+      NASB: 'When God saw their deeds, that they turned from their wicked way, then God relented concerning the calamity which He had declared He would bring upon them. And He did not do it.',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 3:9',
+        text: 'Who knows? God may turn and relent and turn from his fierce anger, so that we may not perish.',
+      },
+      after: {
+        reference: 'Jonah 4:1',
+        text: 'But it displeased Jonah exceedingly, and he was angry.',
+      },
+    },
+  },
   {
     id: 'jonah-2-9',
     reference: 'Jonah 2:9',
@@ -2813,6 +3005,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ NAHUM ============
   {
+    id: 'nahum-1-2',
+    reference: 'Nahum 1:2',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD is a jealous and avenging God; the LORD is avenging and wrathful; the LORD takes vengeance on his adversaries and keeps wrath for his enemies.',
+      NIV: 'The LORD is a jealous and avenging God; the LORD takes vengeance and is filled with wrath. The LORD takes vengeance on his foes and vents his wrath against his enemies.',
+      KJV: 'God is jealous, and the LORD revengeth; the LORD revengeth, and is furious; the LORD will take vengeance on his adversaries, and he reserveth wrath for his enemies.',
+      NASB: 'A jealous and avenging God is the LORD; the LORD is avenging and wrathful. The LORD takes vengeance on His adversaries, and He reserves wrath for His enemies.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:1',
+        text: 'An oracle concerning Nineveh. The book of the vision of Nahum of Elkosh.',
+      },
+      after: {
+        reference: 'Nahum 1:3',
+        text: 'The LORD is slow to anger and great in power, and the LORD will by no means clear the guilty.',
+      },
+    },
+  },
+  {
+    id: 'nahum-1-15',
+    reference: 'Nahum 1:15',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Behold, upon the mountains, the feet of him who brings good news, who publishes peace! Keep your feasts, O Judah; fulfill your vows, for never again shall the worthless pass through you; he is utterly cut off.',
+      NIV: 'Look, there on the mountains, the feet of one who brings good news, who proclaims peace! Celebrate your festivals, Judah, and fulfill your vows. No more will the wicked invade you; they will be completely destroyed.',
+      KJV: 'Behold upon the mountains the feet of him that bringeth good tidings, that publisheth peace! O Judah, keep thy solemn feasts, perform thy vows: for the wicked shall no more pass through thee; he is utterly cut off.',
+      NASB: 'Behold, on the mountains the feet of him who brings good news, who announces peace! Celebrate your feasts, O Judah; pay your vows. For never again will the wicked one pass through you; he is cut off completely.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:14',
+        text: 'The LORD has given commandment about you: "No more shall your name be perpetuated; from the house of your gods I will cut off the carved image."',
+      },
+      after: {
+        reference: 'Nahum 2:1',
+        text: 'The scatterer has come up against you. Man the ramparts; watch the road; dress for battle; collect all your strength.',
+      },
+    },
+  },
+  {
     id: 'nahum-1-7',
     reference: 'Nahum 1:7',
     book: 'Nahum',
@@ -2862,6 +3102,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ HABAKKUK ============
+  {
+    id: 'habakkuk-2-14',
+    reference: 'Habakkuk 2:14',
+    book: 'Habakkuk',
+    chapter: 2,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the earth will be filled with the knowledge of the glory of the LORD as the waters cover the sea.',
+      NIV: 'For the earth will be filled with the knowledge of the glory of the LORD as the waters cover the sea.',
+      KJV: 'For the earth shall be filled with the knowledge of the glory of the LORD, as the waters cover the sea.',
+      NASB: 'For the earth will be filled with the knowledge of the glory of the LORD, as the waters cover the sea.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 2:13',
+        text: 'Behold, is it not from the LORD of hosts that peoples labor merely for fire, and nations weary themselves for nothing?',
+      },
+      after: {
+        reference: 'Habakkuk 2:15',
+        text: 'Woe to him who makes his neighbors drink—you pour out your wrath and make them drunk.',
+      },
+    },
+  },
+  {
+    id: 'habakkuk-3-19',
+    reference: 'Habakkuk 3:19',
+    book: 'Habakkuk',
+    chapter: 3,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'GOD, the Lord, is my strength; he makes my feet like the deer\'s; he makes me tread on my high places.',
+      NIV: 'The Sovereign LORD is my strength; he makes my feet like the feet of a deer, he enables me to tread on the heights.',
+      KJV: 'The LORD God is my strength, and he will make my feet like hinds\' feet, and he will make me to walk upon mine high places.',
+      NASB: 'The Lord GOD is my strength, and He has made my feet like hinds\' feet, and makes me walk on my high places.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 3:18',
+        text: 'Yet I will rejoice in the LORD; I will take joy in the God of my salvation.',
+      },
+    },
+  },
   {
     id: 'habakkuk-2-4',
     reference: 'Habakkuk 2:4',
@@ -2913,6 +3197,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ ZEPHANIAH ============
   {
+    id: 'zephaniah-1-7',
+    reference: 'Zephaniah 1:7',
+    book: 'Zephaniah',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Be silent before the Lord GOD! For the day of the LORD is near; the LORD has prepared a sacrifice and consecrated his guests.',
+      NIV: 'Be silent before the Sovereign LORD, for the day of the LORD is near. The LORD has prepared a sacrifice; he has consecrated those he has invited.',
+      KJV: 'Hold thy peace at the presence of the Lord GOD: for the day of the LORD is at hand: for the LORD hath prepared a sacrifice, he hath bid his guests.',
+      NASB: 'Be silent before the Lord GOD! For the day of the LORD is near, for the LORD has prepared a sacrifice, He has consecrated His guests.',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 1:6',
+        text: 'Those who have turned back from following the LORD, who do not seek the LORD or inquire of him.',
+      },
+      after: {
+        reference: 'Zephaniah 1:8',
+        text: 'And on the day of the LORD\'s sacrifice—I will punish the officials and the king\'s sons.',
+      },
+    },
+  },
+  {
+    id: 'zephaniah-3-9',
+    reference: 'Zephaniah 3:9',
+    book: 'Zephaniah',
+    chapter: 3,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For at that time I will change the speech of the peoples to a pure speech, that all of them may call upon the name of the LORD and serve him with one accord.',
+      NIV: 'Then I will purify the lips of the peoples, that all of them may call on the name of the LORD and serve him shoulder to shoulder.',
+      KJV: 'For then will I turn to the people a pure language, that they may all call upon the name of the LORD, to serve him with one consent.',
+      NASB: 'For then I will give to the peoples purified lips, that all of them may call on the name of the LORD, to serve Him shoulder to shoulder.',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 3:8',
+        text: 'Therefore wait for me," declares the LORD, "for the day when I rise up to seize the prey.',
+      },
+      after: {
+        reference: 'Zephaniah 3:10',
+        text: 'From beyond the rivers of Cush my worshipers, the daughter of my dispersed ones, shall bring my offering.',
+      },
+    },
+  },
+  {
     id: 'zephaniah-3-17',
     reference: 'Zephaniah 3:17',
     book: 'Zephaniah',
@@ -2962,6 +3294,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ HAGGAI ============
+  {
+    id: 'haggai-1-7',
+    reference: 'Haggai 1:7',
+    book: 'Haggai',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Thus says the LORD of hosts: Consider your ways.',
+      NIV: 'This is what the LORD Almighty says: "Give careful thought to your ways."',
+      KJV: 'Thus saith the LORD of hosts; Consider your ways.',
+      NASB: 'Thus says the LORD of hosts, "Consider your ways!"',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 1:6',
+        text: 'You have sown much, and harvested little. You eat, but you never have enough; you drink, but you never have your fill.',
+      },
+      after: {
+        reference: 'Haggai 1:8',
+        text: 'Go up to the hills and bring wood and build the house, that I may take pleasure in it and that I may be glorified, says the LORD.',
+      },
+    },
+  },
+  {
+    id: 'haggai-2-6',
+    reference: 'Haggai 2:6',
+    book: 'Haggai',
+    chapter: 2,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For thus says the LORD of hosts: Yet once more, in a little while, I will shake the heavens and the earth and the sea and the dry land.',
+      NIV: 'This is what the LORD Almighty says: "In a little while I will once more shake the heavens and the earth, the sea and the dry land."',
+      KJV: 'For thus saith the LORD of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth, and the sea, and the dry land.',
+      NASB: 'For thus says the LORD of hosts, "Once more in a little while, I am going to shake the heavens and the earth, the sea also and the dry land."',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 2:5',
+        text: 'According to the covenant that I made with you when you came out of Egypt. My Spirit remains in your midst. Fear not.',
+      },
+      after: {
+        reference: 'Haggai 2:7',
+        text: 'And I will shake all nations, so that the treasures of all nations shall come in, and I will fill this house with glory, says the LORD of hosts.',
+      },
+    },
+  },
   {
     id: 'haggai-2-9',
     reference: 'Haggai 2:9',
@@ -3110,6 +3490,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ MALACHI ============
+  {
+    id: 'malachi-3-1',
+    reference: 'Malachi 3:1',
+    book: 'Malachi',
+    chapter: 3,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Behold, I send my messenger, and he will prepare the way before me. And the Lord whom you seek will suddenly come to his temple; and the messenger of the covenant in whom you delight, behold, he is coming, says the LORD of hosts.',
+      NIV: '"I will send my messenger, who will prepare the way before me. Then suddenly the Lord you are seeking will come to his temple; the messenger of the covenant, whom you desire, will come," says the LORD Almighty.',
+      KJV: 'Behold, I will send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.',
+      NASB: '"Behold, I am going to send My messenger, and he will clear the way before Me. And the Lord, whom you seek, will suddenly come to His temple; and the messenger of the covenant, in whom you delight, behold, He is coming," says the LORD of hosts.',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 2:17',
+        text: 'You have wearied the LORD with your words. But you say, "How have we wearied him?"',
+      },
+      after: {
+        reference: 'Malachi 3:2',
+        text: 'But who can endure the day of his coming, and who can stand when he appears?',
+      },
+    },
+  },
+  {
+    id: 'malachi-3-10',
+    reference: 'Malachi 3:10',
+    book: 'Malachi',
+    chapter: 3,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Bring the full tithe into the storehouse, that there may be food in my house. And thereby put me to the test, says the LORD of hosts, if I will not open the windows of heaven for you and pour down for you a blessing until there is no more need.',
+      NIV: 'Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this," says the LORD Almighty, "and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.',
+      KJV: 'Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.',
+      NASB: '"Bring the whole tithe into the storehouse, so that there may be food in My house, and test Me now in this," says the LORD of hosts, "if I will not open for you the windows of heaven and pour out for you a blessing until it overflows."',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 3:9',
+        text: 'You are cursed with a curse, for you are robbing me, the whole nation of you.',
+      },
+      after: {
+        reference: 'Malachi 3:11',
+        text: 'I will rebuke the devourer for you, so that it will not destroy the fruits of your soil.',
+      },
+    },
+  },
   {
     id: 'malachi-3-6',
     reference: 'Malachi 3:6',
