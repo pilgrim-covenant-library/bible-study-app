@@ -8850,7 +8850,7 @@ const SECOND_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
 // GALATIANS (6 Chapters)
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const GALATIANS_CHAPTERS: ChapterSummary[] = [
+export const GALATIANS_CHAPTERS: ChapterSummary[] = [
   {
     bookId: 'galatians',
     chapter: 1,
@@ -8898,6 +8898,61 @@ const GALATIANS_CHAPTERS: ChapterSummary[] = [
     summary: 'Brothers, if anyone is caught in any transgression, you who are spiritual should restore him in a spirit of gentleness. Keep watch on yourself, lest you too be tempted. Bear one another\'s burdens, and so fulfill the law of Christ. For if anyone thinks he is something, when he is nothing, he deceives himself. Let each one test his own work, and then his reason to boast will be in himself alone and not in his neighbor. For each will have to bear his own load. Let the one who is taught the word share all good things with the one who teaches. Do not be deceived: God is not mocked, for whatever one sows, that will he also reap. For the one who sows to his own flesh will from the flesh reap corruption, but the one who sows to the Spirit will from the Spirit reap eternal life. Let us not grow weary of doing good, for in due season we will reap, if we do not give up. So then, as we have opportunity, let us do good to everyone, and especially to those who are of the household of faith. See with what large letters Paul is writing with his own hand. Those who want to make a good showing in the flesh would force circumcision on them—only in order that they may not be persecuted for the cross of Christ. But far be it from Paul to boast except in the cross of our Lord Jesus Christ, by which the world has been crucified to him, and he to the world. For neither circumcision counts for anything, nor uncircumcision, but a new creation. Peace and mercy be upon all who walk by this rule, upon the Israel of God.',
     keyThemes: ['Bear one another\'s burdens', 'Sow to Spirit reap life', 'Boast in the cross', 'New creation'],
     christConnection: 'We fulfill the law of Christ by bearing one another\'s burdens. Paul boasts only in the cross of Christ, by which the world is crucified to him. What matters is new creation.'
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// EPHESIANS (6 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const EPHESIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'ephesians',
+    chapter: 1,
+    title: 'Spiritual Blessings in Christ',
+    summary: 'Paul, an apostle of Christ Jesus by the will of God, to the saints who are in Ephesus. Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places, even as He chose us in Him before the foundation of the world, that we should be holy and blameless before Him. In love He predestined us for adoption as sons through Jesus Christ, according to the purpose of His will, to the praise of His glorious grace, with which He has blessed us in the Beloved. In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace, which He lavished upon us. He made known to us the mystery of His will, to unite all things in Christ, things in heaven and things on earth. In Him we have obtained an inheritance, having been predestined according to the purpose of Him who works all things according to the counsel of His will. In Him, when they heard the word of truth, the gospel of salvation, and believed, they were sealed with the promised Holy Spirit, who is the guarantee of our inheritance. Paul prays that they may know the hope of His calling, the riches of His glorious inheritance in the saints, and the immeasurable greatness of His power toward us who believe—the same power with which He raised Christ from the dead and seated Him at His right hand in the heavenly places, far above all rule and authority and power and dominion.',
+    keyThemes: ['Chosen before foundation of world', 'Predestined for adoption', 'Redemption through His blood', 'Sealed with Holy Spirit'],
+    christConnection: 'Every spiritual blessing is ours "in Christ." He is the Beloved in whom we are accepted, through whose blood we have redemption, and in whom all things will be united.'
+  },
+  {
+    bookId: 'ephesians',
+    chapter: 2,
+    title: 'Made Alive in Christ',
+    summary: 'And you were dead in the trespasses and sins in which you once walked, following the course of this world, following the prince of the power of the air, the spirit that is now at work in the sons of disobedience—among whom we all once lived in the passions of our flesh, carrying out the desires of the body and the mind, and were by nature children of wrath, like the rest of mankind. But God, being rich in mercy, because of the great love with which He loved us, even when we were dead in our trespasses, made us alive together with Christ—by grace you have been saved—and raised us up with Him and seated us with Him in the heavenly places in Christ Jesus, so that in the coming ages He might show the immeasurable riches of His grace in kindness toward us in Christ Jesus. For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast. For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them. Therefore remember that at one time you Gentiles in the flesh were separated from Christ, alienated from the commonwealth of Israel and strangers to the covenants of promise, having no hope and without God in the world. But now in Christ Jesus you who once were far off have been brought near by the blood of Christ. For He Himself is our peace, who has made us both one and has broken down in His flesh the dividing wall of hostility. He came and preached peace to you who were far off and peace to those who were near. So then you are no longer strangers and aliens, but fellow citizens with the saints and members of the household of God, built on the foundation of the apostles and prophets, Christ Jesus Himself being the cornerstone.',
+    keyThemes: ['Dead in trespasses made alive', 'By grace through faith', 'His workmanship', 'Christ our peace'],
+    christConnection: 'Christ made us alive when we were dead in sin. By grace through faith—not works—we are saved. He is our peace who broke down the wall between Jew and Gentile, and He is the cornerstone of God\'s household.'
+  },
+  {
+    bookId: 'ephesians',
+    chapter: 3,
+    title: 'The Mystery of the Gospel',
+    summary: 'For this reason Paul, a prisoner of Christ Jesus on behalf of the Gentiles—assuming they have heard of the stewardship of God\'s grace that was given to him for them, how the mystery was made known to him by revelation, as he has written briefly. When they read this they can perceive his insight into the mystery of Christ, which was not made known to the sons of men in other generations as it has now been revealed to His holy apostles and prophets by the Spirit. This mystery is that the Gentiles are fellow heirs, members of the same body, and partakers of the promise in Christ Jesus through the gospel. Of this gospel Paul was made a minister according to the gift of God\'s grace, which was given him by the working of His power. To Paul, though he is the very least of all the saints, this grace was given, to preach to the Gentiles the unsearchable riches of Christ, and to bring to light for everyone what is the plan of the mystery hidden for ages in God who created all things, so that through the church the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places. This was according to the eternal purpose that He has realized in Christ Jesus our Lord, in whom we have boldness and access with confidence through our faith in Him. Paul bows his knees before the Father, from whom every family in heaven and on earth is named, that He would grant them to be strengthened with power through His Spirit in their inner being, so that Christ may dwell in their hearts through faith—that they may know the love of Christ that surpasses knowledge, that they may be filled with all the fullness of God. Now to Him who is able to do far more abundantly than all that we ask or think, according to the power at work within us, to Him be glory in the church and in Christ Jesus throughout all generations, forever and ever.',
+    keyThemes: ['Mystery revealed', 'Gentiles fellow heirs', 'Unsearchable riches of Christ', 'Love surpassing knowledge'],
+    christConnection: 'The mystery hidden for ages is now revealed: Gentiles are fellow heirs in Christ. Through Him we have boldness and access to the Father. His love surpasses knowledge.'
+  },
+  {
+    bookId: 'ephesians',
+    chapter: 4,
+    title: 'Unity in the Body of Christ',
+    summary: 'Paul therefore, a prisoner for the Lord, urges them to walk in a manner worthy of the calling to which they have been called, with all humility and gentleness, with patience, bearing with one another in love, eager to maintain the unity of the Spirit in the bond of peace. There is one body and one Spirit—just as they were called to the one hope that belongs to their call—one Lord, one faith, one baptism, one God and Father of all, who is over all and through all and in all. But grace was given to each one of us according to the measure of Christ\'s gift. Therefore it says, When He ascended on high He led a host of captives, and He gave gifts to men. He who descended is the one who also ascended far above all the heavens, that He might fill all things. And He gave the apostles, the prophets, the evangelists, the shepherds and teachers, to equip the saints for the work of ministry, for building up the body of Christ, until we all attain to the unity of the faith and of the knowledge of the Son of God, to mature manhood, to the measure of the stature of the fullness of Christ, so that we may no longer be children, tossed to and fro by every wind of doctrine. Rather, speaking the truth in love, we are to grow up in every way into Him who is the head, into Christ, from whom the whole body, joined and held together, grows so that it builds itself up in love. Now this Paul says: they must no longer walk as the Gentiles do, in the futility of their minds. They must put off the old self, which belongs to their former manner of life, and be renewed in the spirit of their minds, and put on the new self, created after the likeness of God in true righteousness and holiness. Let no corrupting talk come out of their mouths. Do not grieve the Holy Spirit of God, by whom they were sealed for the day of redemption. Let all bitterness and wrath and anger and clamor and slander be put away from them, along with all malice. Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave them.',
+    keyThemes: ['Walk worthy of calling', 'One body one Spirit one Lord', 'Gifts for building up', 'Put off old put on new'],
+    christConnection: 'Christ ascended and gave gifts to equip His body. He is the head from whom the whole body grows. We are to grow up into Him and forgive as God in Christ forgave us.'
+  },
+  {
+    bookId: 'ephesians',
+    chapter: 5,
+    title: 'Walk in Love and Light',
+    summary: 'Therefore be imitators of God, as beloved children. And walk in love, as Christ loved us and gave Himself up for us, a fragrant offering and sacrifice to God. But sexual immorality and all impurity or covetousness must not even be named among them, as is proper among saints. Let there be no filthiness nor foolish talk nor crude joking, which are out of place, but instead let there be thanksgiving. For they may be sure of this, that everyone who is sexually immoral or impure, or who is covetous (that is, an idolater), has no inheritance in the kingdom of Christ and God. Let no one deceive them with empty words. For because of these things the wrath of God comes upon the sons of disobedience. Therefore do not become partners with them; for at one time they were darkness, but now they are light in the Lord. Walk as children of light, for the fruit of light is found in all that is good and right and true. Take no part in the unfruitful works of darkness, but instead expose them. Look carefully then how they walk, not as unwise but as wise, making the best use of the time, because the days are evil. Therefore do not be foolish, but understand what the will of the Lord is. And do not get drunk with wine, for that is debauchery, but be filled with the Spirit, addressing one another in psalms and hymns and spiritual songs, singing and making melody to the Lord with their heart, giving thanks always and for everything to God the Father in the name of our Lord Jesus Christ. Wives, submit to your own husbands, as to the Lord. For the husband is the head of the wife even as Christ is the head of the church, His body, and is Himself its Savior. Husbands, love your wives, as Christ loved the church and gave Himself up for her, that He might sanctify her, cleansing her by the washing of water with the word, so that He might present the church to Himself in splendor, without spot or wrinkle or any such thing. This mystery is profound, and Paul is saying that it refers to Christ and the church.',
+    keyThemes: ['Walk in love', 'Light not darkness', 'Be filled with Spirit', 'Christ and church mystery'],
+    christConnection: 'Christ loved us and gave Himself as a fragrant sacrifice. Marriage reflects the profound mystery of Christ and the church—He gave Himself to sanctify her and present her in splendor.'
+  },
+  {
+    bookId: 'ephesians',
+    chapter: 6,
+    title: 'The Armor of God',
+    summary: 'Children, obey your parents in the Lord, for this is right. Honor your father and mother—this is the first commandment with a promise—that it may go well with them and they may live long in the land. Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord. Bondservants, obey your earthly masters with fear and trembling, with a sincere heart, as you would Christ, not by the way of eye-service, as people-pleasers, but as bondservants of Christ, doing the will of God from the heart, rendering service with a good will as to the Lord and not to man, knowing that whatever good anyone does, this he will receive back from the Lord. Masters, do the same to them, and stop your threatening, knowing that He who is both their Master and yours is in heaven, and that there is no partiality with Him. Finally, be strong in the Lord and in the strength of His might. Put on the whole armor of God, that they may be able to stand against the schemes of the devil. For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places. Therefore take up the whole armor of God, that they may be able to withstand in the evil day, and having done all, to stand firm. Stand therefore, having fastened on the belt of truth, and having put on the breastplate of righteousness, and, as shoes for their feet, having put on the readiness given by the gospel of peace. In all circumstances take up the shield of faith, with which they can extinguish all the flaming darts of the evil one; and take the helmet of salvation, and the sword of the Spirit, which is the word of God, praying at all times in the Spirit, with all prayer and supplication. To that end, keep alert with all perseverance, making supplication for all the saints, and also for Paul, that words may be given to him in opening his mouth boldly to proclaim the mystery of the gospel.',
+    keyThemes: ['Honor parents', 'Serve as to the Lord', 'Strong in the Lord', 'Whole armor of God'],
+    christConnection: 'Our strength is in the Lord. The armor of God equips us against spiritual evil: truth, righteousness, the gospel of peace, faith, salvation, and the word of God—all centered on Christ.'
   }
 ];
 
@@ -8998,6 +9053,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return SECOND_CORINTHIANS_CHAPTERS;
     case 'galatians':
       return GALATIANS_CHAPTERS;
+    case 'ephesians':
+      return EPHESIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9054,4 +9111,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: '1-corinthians', bookName: '1 Corinthians', chapters: FIRST_CORINTHIANS_CHAPTERS },
   { bookId: '2-corinthians', bookName: '2 Corinthians', chapters: SECOND_CORINTHIANS_CHAPTERS },
   { bookId: 'galatians', bookName: 'Galatians', chapters: GALATIANS_CHAPTERS },
+  { bookId: 'ephesians', bookName: 'Ephesians', chapters: EPHESIANS_CHAPTERS },
 ];
