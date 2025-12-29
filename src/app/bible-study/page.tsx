@@ -12,7 +12,7 @@ import {
   type CanonicalGroup,
   type BibleBookSummary,
 } from '@/data/bible-summaries';
-import { ALL_CHAPTER_SUMMARIES } from '@/data/bible-chapter-summaries';
+import { ALL_CHAPTER_SUMMARIES, getChaptersByBook } from '@/data/bible-chapter-summaries';
 
 type TestamentFilter = 'all' | Testament;
 
@@ -308,6 +308,7 @@ export default function BibleStudyPage() {
 // Book Card Component
 function BookCard({ book }: { book: BibleBookSummary }) {
   const groupBadge = getGroupBadge(book.canonicalGroup);
+  const chapterCount = getChaptersByBook(book.id).length;
 
   return (
     <Link href={`/bible-study/${book.id}`}>
@@ -316,7 +317,9 @@ function BookCard({ book }: { book: BibleBookSummary }) {
           <div className="flex items-start justify-between gap-2 mb-2">
             <div>
               <h4 className="font-medium">{book.name}</h4>
-              <p className="text-xs text-muted-foreground">{book.abbreviation}</p>
+              <p className="text-xs text-muted-foreground">
+                {book.abbreviation} • {chapterCount} chapter{chapterCount !== 1 ? 's' : ''}
+              </p>
             </div>
             <span className={`text-[10px] px-1.5 py-0.5 rounded font-medium ${groupBadge.bg}`}>
               {groupBadge.label}
