@@ -23,11 +23,9 @@ import {
 import { calculateSimilarity, SimilarityResult } from '@/lib/similarity';
 import {
   VERSE_THEMES,
-  VERSE_THEME_MAP,
   getVerseIdsForTheme,
   getThemeVerseCounts,
   getThemesForVerse,
-  VerseTheme,
 } from '@/data/memory-verse-themes';
 
 // ============================================================================
