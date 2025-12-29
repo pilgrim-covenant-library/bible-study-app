@@ -15,11 +15,10 @@ import {
   ChevronDown,
   ChevronUp,
   Download,
-  Globe,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
-import { getAuthorById, type ChurchHistoryAuthor, type AuthorWork, type AuthorId } from '@/data/church-history-authors';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
+import { getAuthorById, type AuthorWork, type AuthorId } from '@/data/church-history-authors';
 
 type TabId = 'biography' | 'works' | 'theology' | 'quotes';
 
@@ -342,7 +341,7 @@ export default function AuthorDetailPage() {
                   <div className="bg-history/5 p-6">
                     <Quote className="h-8 w-8 text-history/30 mb-2" />
                     <blockquote className="text-lg italic leading-relaxed">
-                      "{quote.text}"
+                      &ldquo;{quote.text}&rdquo;
                     </blockquote>
                   </div>
                   {quote.source && (

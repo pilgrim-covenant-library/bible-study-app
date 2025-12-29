@@ -4,18 +4,15 @@ import { useState, useCallback, useEffect, useMemo, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import {
-  ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff,
-  Grid3X3, ArrowUpDown, Layers, GraduationCap, Clock, TrendingUp,
+  ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, Eye, EyeOff,
+  Grid3X3, ArrowUpDown, Layers, GraduationCap, Clock,
   CheckSquare, MessageSquare, Link2, Star, Trophy, Pause, PlayCircle
 } from 'lucide-react';
 import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
-import { useTest107SessionStore, type Test107Phase } from '@/stores/test107SessionStore';
+import { useTest107SessionStore } from '@/stores/test107SessionStore';
 import {
   WESTMINSTER_CATECHISM,
   CATECHISM_CATEGORIES,
-  getCatechismByCategory,
-  getCatechismByDifficulty,
-  getRandomCatechism,
   type CatechismQuestion,
   type CatechismCategory,
   type Difficulty,
@@ -24,9 +21,6 @@ import {
   getDistractorsForQuestion,
   getEnhancedDistractorsForQuestion,
   selectDiverseDistractors,
-  WSC_DISTRACTORS,
-  CATEGORY_FALLBACK_DISTRACTORS,
-  type Distractor,
 } from '@/data/wsc-distractors';
 import { calculateCatechismSimilarity, type CatechismSimilarityResult } from '@/lib/similarity';
 import { Button } from '@/components/ui/Button';
@@ -352,7 +346,6 @@ function TheologyPracticeContent() {
     pauseSession: pauseTest107,
     abandonSession: abandonTest107,
     hasActiveSession: hasTest107Session,
-    getSessionProgress: getTest107Progress,
   } = useTest107SessionStore();
 
   // Check for active Test All 107 session on mount
@@ -846,7 +839,7 @@ function TheologyPracticeContent() {
     recordReview(currentQuestion.id, `WSC Q${currentQuestion.number}`, finalScore, quizMode);
 
     setState('result');
-  }, [currentQuestion, quizMode, userAnswer, answerWords, wordBankBlanks, wordBankSelected, wordBankOptions, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview, mcqSelected, shortAnswerInput, scriptureSelected]);
+  }, [currentQuestion, quizMode, userAnswer, answerWords, wordBankBlanks, wordBankSelected, wordBankOptions, selfRating, reorderPhrases, correctOrder, progressiveBlanks, progressiveAnswers, recordReview, mcqSelected, mcqOptions, shortAnswerInput, scriptureSelected]);
 
   // ============================================================================
   // MODE-SPECIFIC HANDLERS
@@ -1304,7 +1297,7 @@ function TheologyPracticeContent() {
                   }`}>
                     <CardContent className="text-center p-8">
                       <p className="text-lg leading-relaxed">
-                        "{currentQuestion.answer}"
+                        &ldquo;{currentQuestion.answer}&rdquo;
                       </p>
                       {currentQuestion.shortAnswer && (
                         <p className="text-sm text-theology mt-3">
@@ -1324,7 +1317,7 @@ function TheologyPracticeContent() {
                         className="border-red-200 dark:border-red-800 hover:bg-red-50 dark:hover:bg-red-900/20"
                         onClick={() => setSelfRating('hard')}
                       >
-                        Didn't Know
+                        Didn&apos;t Know
                       </Button>
                       <Button
                         variant="outline"
@@ -1527,7 +1520,7 @@ function TheologyPracticeContent() {
                       Which Scripture proves this answer?
                     </div>
                     <div className="grid grid-cols-2 gap-3">
-                      {scriptureOptions.map((scripture, i) => (
+                      {scriptureOptions.map((scripture) => (
                         <button
                           key={scripture}
                           className={`p-4 rounded-lg border-2 transition-all text-center ${

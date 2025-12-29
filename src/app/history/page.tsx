@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ArrowLeft, ScrollText, ChevronRight, BookOpen, Calendar, FileText, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
-import { CHURCH_HISTORY_AUTHORS, type ChurchHistoryAuthor } from '@/data/church-history-authors';
+import { CHURCH_HISTORY_AUTHORS } from '@/data/church-history-authors';
 
 type TraditionFilter = 'all' | 'early_church' | 'reformation' | 'puritan' | 'american_reformed';
 
@@ -206,7 +206,7 @@ export default function HistoryPage() {
 
                 {/* Timeline items */}
                 <div className="space-y-6">
-                  {CHURCH_HISTORY_AUTHORS.map((author, index) => {
+                  {CHURCH_HISTORY_AUTHORS.map((author) => {
                     const badge = getTraditionBadge(author.tradition);
                     return (
                       <div key={author.id} className="relative pl-10">

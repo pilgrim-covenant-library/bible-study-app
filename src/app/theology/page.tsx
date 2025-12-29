@@ -8,7 +8,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { CATECHISM_CATEGORIES, WESTMINSTER_CATECHISM, type CatechismCategory, type Difficulty } from '@/data/westminster-catechism';
 import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
 
-type FilterMode = 'all' | 'category' | 'difficulty' | 'due';
+type _FilterMode = 'all' | 'category' | 'difficulty' | 'due';
 
 const DIFFICULTIES: { value: Difficulty | 'all'; label: string; color: string }[] = [
   { value: 'all', label: 'All', color: 'bg-theology' },

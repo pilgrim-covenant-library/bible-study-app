@@ -7870,7 +7870,7 @@ export const MATTHEW_CHAPTERS: ChapterSummary[] = [
 ];
 
 // Mark - The Servant Messiah (16 chapters)
-const MARK_CHAPTERS: ChapterSummary[] = [
+export const MARK_CHAPTERS: ChapterSummary[] = [
   {
     bookId: 'mark',
     chapter: 1,
@@ -8002,7 +8002,7 @@ const MARK_CHAPTERS: ChapterSummary[] = [
 ];
 
 // Luke - The Gospel for All People (24 chapters)
-const LUKE_CHAPTERS: ChapterSummary[] = [
+export const LUKE_CHAPTERS: ChapterSummary[] = [
   {
     bookId: 'luke',
     chapter: 1,
@@ -8198,7 +8198,7 @@ const LUKE_CHAPTERS: ChapterSummary[] = [
 ];
 
 // John - The Word Made Flesh (21 chapters)
-const JOHN_CHAPTERS: ChapterSummary[] = [
+export const JOHN_CHAPTERS: ChapterSummary[] = [
   {
     bookId: 'john',
     chapter: 1,
@@ -8373,7 +8373,7 @@ const JOHN_CHAPTERS: ChapterSummary[] = [
 // ACTS (28 Chapters)
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const ACTS_CHAPTERS: ChapterSummary[] = [
+export const ACTS_CHAPTERS: ChapterSummary[] = [
   {
     bookId: 'acts',
     chapter: 1,
@@ -8604,7 +8604,7 @@ const ACTS_CHAPTERS: ChapterSummary[] = [
 // ROMANS (16 Chapters)
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const ROMANS_CHAPTERS: ChapterSummary[] = [
+export const ROMANS_CHAPTERS: ChapterSummary[] = [
   {
     bookId: 'romans',
     chapter: 1,
@@ -8739,7 +8739,7 @@ const ROMANS_CHAPTERS: ChapterSummary[] = [
 // 1 CORINTHIANS (16 Chapters)
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const FIRST_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
+export const FIRST_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
   {
     bookId: '1-corinthians',
     chapter: 1,
@@ -8874,7 +8874,7 @@ const FIRST_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
 // 2 CORINTHIANS (13 Chapters)
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const SECOND_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
+export const SECOND_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
   {
     bookId: '2-corinthians',
     chapter: 1,

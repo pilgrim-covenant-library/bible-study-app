@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { realtimeDb, isRealtimeDbAvailable } from '@/lib/firebase';
 import { ref, set, get, update, onValue, onDisconnect, remove } from 'firebase/database';
-import { getRandomVerse, MemoryVerse, VerseTranslations, MEMORY_VERSES, getVersesByDifficulty } from '@/data/memory-verses';
+import { MemoryVerse, VerseTranslations, MEMORY_VERSES, getVersesByDifficulty } from '@/data/memory-verses';
 
 // Round mode: typing (full verse) or progressive (fill blanks)
 export type RoundMode = 'typing' | 'progressive';
@@ -338,7 +338,7 @@ export function useRoom(): UseRoomReturn {
     }
   }, [currentRoomCode, playerId]);
 
-  const startGame = useCallback(async (numRounds: number = 6): Promise<void> => {
+  const startGame = useCallback(async (_numRounds: number = 6): Promise<void> => {
     if (!currentRoomCode || !realtimeDb || !isHost) return;
 
     try {
@@ -397,7 +397,7 @@ export function useRoom(): UseRoomReturn {
     } catch (err) {
       console.error('Failed to start game:', err);
     }
-  }, [currentRoomCode, isHost, room?.players]);
+  }, [currentRoomCode, isHost, room]);
 
   const nextRound = useCallback(async (): Promise<void> => {
     if (!currentRoomCode || !realtimeDb || !isHost || !room) return;

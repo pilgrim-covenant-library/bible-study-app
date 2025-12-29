@@ -7,7 +7,7 @@ import {
   Grid3X3, ArrowUpDown, Layers, GraduationCap,
   Clock, Flame, Trophy, TrendingUp, Calendar, Target
 } from 'lucide-react';
-import { useSpacedRepetitionStore, VerseProgress } from '@/stores/spacedRepetitionStore';
+import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
 import { MEMORY_VERSES } from '@/data/memory-verses';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
@@ -203,7 +203,6 @@ export default function PracticePage() {
   const { recordReview, getDueVerses, getVerseProgress, getStats } = useSpacedRepetitionStore();
   const dueVerses = useMemo(() => getDueVerses(), [getDueVerses]);
   const srStats = useMemo(() => getStats(), [getStats]);
-  const allVerseIds = useMemo(() => MEMORY_VERSES.map(v => v.id), []);
 
   // Get the verse text (ESV as default)
   const verseText = currentVerse?.translations.ESV || '';
@@ -1006,7 +1005,7 @@ export default function PracticePage() {
                     >
                       <CardContent className="text-center p-8">
                         <p className="text-lg leading-relaxed mb-4">
-                          "{currentVerse.translations.ESV}"
+                          &ldquo;{currentVerse.translations.ESV}&rdquo;
                         </p>
                         <div className="text-sm text-muted-foreground">
                           — {currentVerse.reference} (ESV)
@@ -1025,7 +1024,7 @@ export default function PracticePage() {
                         className="border-red-200 dark:border-red-800 hover:bg-red-50 dark:hover:bg-red-900/20"
                         onClick={() => setSelfRating('hard')}
                       >
-                        Didn't Know
+                        Didn&apos;t Know
                       </Button>
                       <Button
                         variant="outline"

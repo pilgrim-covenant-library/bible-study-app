@@ -1,13 +1,12 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { useParams, notFound } from 'next/navigation';
 import Link from 'next/link';
 import {
   ArrowLeft,
   BookMarked,
   BookOpen,
-  Scroll,
   ChevronRight,
   ChevronLeft,
   Cross,
@@ -19,12 +18,11 @@ import {
   HelpCircle,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import {
   getBookById,
   getNextBook,
   getPreviousBook,
-  type BibleBookSummary,
   type CanonicalGroup,
 } from '@/data/bible-summaries';
 
@@ -210,7 +208,7 @@ export default function BookDetailPage() {
                   {book.keyVerses.map((verse, idx) => (
                     <div key={idx} className="p-4 bg-bible/5 rounded-lg">
                       <blockquote className="italic text-foreground mb-2">
-                        "{verse.text}"
+                        &ldquo;{verse.text}&rdquo;
                       </blockquote>
                       <div className="flex items-center justify-between">
                         <span className="text-sm font-medium text-bible">{verse.reference}</span>
