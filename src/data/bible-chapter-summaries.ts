@@ -9457,6 +9457,37 @@ export const FIRST_PETER_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 2 PETER (3 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const SECOND_PETER_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '2-peter',
+    chapter: 1,
+    title: 'Confirming Your Calling and Election',
+    summary: 'Simon Peter, a servant and apostle of Jesus Christ, writes to those who have obtained a faith of equal standing through the righteousness of our God and Savior Jesus Christ. Grace and peace are multiplied through the knowledge of God and of Jesus our Lord. His divine power has granted all things that pertain to life and godliness, through the knowledge of Him who called us to His own glory and excellence. By these He has granted precious and very great promises, so that through them believers may become partakers of the divine nature, having escaped the corruption that is in the world because of sinful desire. For this very reason, make every effort to supplement faith with virtue, virtue with knowledge, knowledge with self-control, self-control with steadfastness, steadfastness with godliness, godliness with brotherly affection, and brotherly affection with love. If these qualities are theirs and increasing, they keep them from being ineffective or unfruitful in the knowledge of our Lord Jesus Christ. Whoever lacks these qualities is so nearsighted that he is blind, having forgotten he was cleansed from his former sins. Therefore, be all the more diligent to confirm your calling and election, for if you practice these qualities you will never fall. So an entrance into the eternal kingdom of our Lord and Savior Jesus Christ will be richly provided. Peter will always remind them of these qualities, stirring them up as long as he is in this body, knowing that the putting off of his body will be soon, as our Lord Jesus Christ made clear to him. He will make every effort so that after his departure they may recall these things. They did not follow cleverly devised myths when they made known the power and coming of our Lord Jesus Christ, but were eyewitnesses of His majesty on the holy mountain. They heard the voice from heaven declaring, "This is my beloved Son." They have the prophetic word more fully confirmed, to which they will do well to pay attention as to a lamp shining in a dark place, until the day dawns and the morning star rises in their hearts. No prophecy of Scripture comes from someone\'s own interpretation; no prophecy was ever produced by the will of man, but men spoke from God as they were carried along by the Holy Spirit.',
+    keyThemes: ['Divine power for godliness', 'Growth in Christian virtues', 'Confirming election', 'Scripture\'s divine inspiration'],
+    christConnection: 'Christ is explicitly called "our God and Savior" (v.1), affirming His deity. Peter was an eyewitness of Christ\'s majesty at the Transfiguration. All Scripture testifies to Christ, given by the Holy Spirit who is Christ\'s Spirit.'
+  },
+  {
+    bookId: '2-peter',
+    chapter: 2,
+    title: 'False Prophets and Their Destruction',
+    summary: 'But false prophets also arose among the people, just as there will be false teachers among them, who will secretly bring in destructive heresies, even denying the Master who bought them, bringing upon themselves swift destruction. Many will follow their sensuality, and because of them the way of truth will be blasphemed. In their greed they will exploit with false words. Their condemnation from long ago is not idle, and their destruction is not asleep. For if God did not spare angels when they sinned but cast them into hell, committing them to chains of gloomy darkness until the judgment; if He did not spare the ancient world but preserved Noah, a herald of righteousness, with seven others, when He brought a flood upon the world of the ungodly; if by turning Sodom and Gomorrah to ashes He condemned them to extinction, making them an example of what is going to happen to the ungodly; and if He rescued righteous Lot, greatly distressed by the sensual conduct of the wicked—then the Lord knows how to rescue the godly from trials and to keep the unrighteous under punishment until the day of judgment. This is especially true of those who indulge in the lust of defiling passion and despise authority. Bold and willful, they do not tremble as they blaspheme the glorious ones. These false teachers are like irrational animals, creatures of instinct, born to be caught and destroyed. They have eyes full of adultery, insatiable for sin, enticing unsteady souls. They are accursed children who have followed the way of Balaam, who loved gain from wrongdoing. They are waterless springs and mists driven by a storm, for whom the gloom of utter darkness has been reserved. For, speaking loud boasts of folly, they entice by sensual passions of the flesh those who are barely escaping from those who live in error. They promise freedom, but they themselves are slaves of corruption—for whatever overcomes a person, to that he is enslaved. For if, after escaping the defilements of the world through the knowledge of our Lord and Savior Jesus Christ, they are again entangled in them and overcome, the last state has become worse than the first. It would have been better for them never to have known the way of righteousness than after knowing it to turn back from the holy commandment delivered to them.',
+    keyThemes: ['Warning against false teachers', 'Certainty of divine judgment', 'God rescues the godly', 'Slavery to corruption'],
+    christConnection: 'The false teachers deny "the Master who bought them"—Christ the Redeemer whose atoning purchase they reject. Deliverance from the defilements of the world comes only through knowledge of the Lord and Savior Jesus Christ.'
+  },
+  {
+    bookId: '2-peter',
+    chapter: 3,
+    title: 'The Day of the Lord Will Come',
+    summary: 'This is now the second letter Peter writes to stir up their sincere mind by way of reminder, that they should remember the predictions of the holy prophets and the commandment of the Lord and Savior through the apostles. Know this first: scoffers will come in the last days, following their own sinful desires, saying, "Where is the promise of his coming? For ever since the fathers fell asleep, all things are continuing as they were from the beginning of creation." They deliberately overlook that the heavens existed long ago and the earth was formed out of water and through water by the word of God, and that by these waters the world that then existed was deluged and perished. By the same word the heavens and earth that now exist are stored up for fire, being kept until the day of judgment and destruction of the ungodly. But do not overlook this one fact: with the Lord one day is as a thousand years, and a thousand years as one day. The Lord is not slow to fulfill His promise as some count slowness, but is patient toward you, not wishing that any should perish but that all should reach repentance. But the day of the Lord will come like a thief, and then the heavens will pass away with a roar, and the heavenly bodies will be burned up and dissolved, and the earth and the works that are done on it will be exposed. Since all these things are thus to be dissolved, what sort of people ought you to be in lives of holiness and godliness, waiting for and hastening the coming of the day of God! According to His promise we are waiting for new heavens and a new earth in which righteousness dwells. Therefore, beloved, since you are waiting for these, be diligent to be found by Him without spot or blemish, and at peace. Count the patience of our Lord as salvation, just as our beloved brother Paul also wrote to you. There are some things in Paul\'s letters hard to understand, which the ignorant and unstable twist to their own destruction, as they do the other Scriptures. You therefore, knowing this beforehand, take care that you are not carried away with the error of lawless people and lose your own stability. But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To Him be the glory both now and to the day of eternity. Amen.',
+    keyThemes: ['Certainty of Christ\'s return', 'God\'s patience for repentance', 'New heavens and new earth', 'Growing in grace and knowledge'],
+    christConnection: 'The entire chapter centers on the Day of the Lord—Christ\'s return in judgment. His patience in delaying is for the salvation of the elect. The goal of all things is "new heavens and a new earth in which righteousness dwells," the consummation of Christ\'s redemptive work. Believers are to grow in the grace and knowledge of Christ.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9578,6 +9609,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return JAMES_CHAPTERS;
     case '1-peter':
       return FIRST_PETER_CHAPTERS;
+    case '2-peter':
+      return SECOND_PETER_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9646,4 +9679,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'hebrews', bookName: 'Hebrews', chapters: HEBREWS_CHAPTERS },
   { bookId: 'james', bookName: 'James', chapters: JAMES_CHAPTERS },
   { bookId: '1-peter', bookName: '1 Peter', chapters: FIRST_PETER_CHAPTERS },
+  { bookId: '2-peter', bookName: '2 Peter', chapters: SECOND_PETER_CHAPTERS },
 ];
