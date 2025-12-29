@@ -764,6 +764,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-chronicles-20-12',
+    reference: '2 Chronicles 20:12',
+    book: '2 Chronicles',
+    chapter: 20,
+    verse: 12,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'O our God, will you not execute judgment on them? For we are powerless against this great horde that is coming against us. We do not know what to do, but our eyes are on you.',
+      NIV: 'Our God, will you not judge them? For we have no power to face this vast army that is attacking us. We do not know what to do, but our eyes are on you.',
+      KJV: 'O our God, wilt thou not judge them? for we have no might against this great company that cometh against us; neither know we what to do: but our eyes are upon thee.',
+      NASB: 'O our God, will You not judge them? For we are powerless before this great multitude who are coming against us; nor do we know what to do, but our eyes are on You.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 20:11',
+        text: 'Behold, they reward us by coming to drive us out of your possession, which you have given us to inherit.',
+      },
+      after: {
+        reference: '2 Chronicles 20:13',
+        text: 'Meanwhile all Judah stood before the LORD, with their little ones, their wives, and their children.',
+      },
+    },
+  },
 
   // ============ EZRA ============
   {
@@ -1612,6 +1636,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'ezekiel-37-14',
+    reference: 'Ezekiel 37:14',
+    book: 'Ezekiel',
+    chapter: 37,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will put my Spirit within you, and you shall live, and I will place you in your own land. Then you shall know that I am the LORD; I have spoken, and I will do it, declares the LORD.',
+      NIV: 'I will put my Spirit in you and you will live, and I will settle you in your own land. Then you will know that I the LORD have spoken, and I have done it, declares the LORD.',
+      KJV: 'And shall put my spirit in you, and ye shall live, and I shall place you in your own land: then shall ye know that I the LORD have spoken it, and performed it, saith the LORD.',
+      NASB: 'I will put My Spirit within you and you will come to life, and I will place you on your own land. Then you will know that I, the LORD, have spoken and done it, declares the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Ezekiel 37:13',
+        text: 'And you shall know that I am the LORD, when I open your graves, and raise you from your graves, O my people.',
+      },
+      after: {
+        reference: 'Ezekiel 37:15',
+        text: 'The word of the LORD came to me.',
+      },
+    },
+  },
 
   // ============ DANIEL ============
   {
@@ -1788,6 +1836,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'amos-3-3',
+    reference: 'Amos 3:3',
+    book: 'Amos',
+    chapter: 3,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Do two walk together, unless they have agreed to meet?',
+      NIV: 'Do two walk together unless they have agreed to do so?',
+      KJV: 'Can two walk together, except they be agreed?',
+      NASB: 'Do two men walk together unless they have made an appointment?',
+    },
+    context: {
+      before: {
+        reference: 'Amos 3:2',
+        text: 'You only have I known of all the families of the earth; therefore I will punish you for all your iniquities.',
+      },
+      after: {
+        reference: 'Amos 3:4',
+        text: 'Does a lion roar in the forest, when he has no prey?',
+      },
+    },
+  },
 
   // ============ OBADIAH ============
   {
@@ -1860,8 +1932,56 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'jonah-4-2',
+    reference: 'Jonah 4:2',
+    book: 'Jonah',
+    chapter: 4,
+    verse: 2,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And he prayed to the LORD and said, "O LORD, is not this what I said when I was yet in my country? That is why I made haste to flee to Tarshish; for I knew that you are a gracious God and merciful, slow to anger and abounding in steadfast love, and relenting from disaster."',
+      NIV: 'He prayed to the LORD, "Isn\'t this what I said, LORD, when I was still at home? That is what I tried to forestall by fleeing to Tarshish. I knew that you are a gracious and compassionate God, slow to anger and abounding in love, a God who relents from sending calamity."',
+      KJV: 'And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.',
+      NASB: 'He prayed to the LORD and said, "Please LORD, was not this what I said while I was still in my own country? Therefore in order to forestall this I fled to Tarshish, for I knew that You are a gracious and compassionate God, slow to anger and abundant in lovingkindness, and one who relents concerning calamity."',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 4:1',
+        text: 'But it displeased Jonah exceedingly, and he was angry.',
+      },
+      after: {
+        reference: 'Jonah 4:3',
+        text: 'Therefore now, O LORD, please take my life from me, for it is better for me to die than to live.',
+      },
+    },
+  },
 
   // ============ MICAH ============
+  {
+    id: 'micah-5-2',
+    reference: 'Micah 5:2',
+    book: 'Micah',
+    chapter: 5,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from ancient days.',
+      NIV: 'But you, Bethlehem Ephrathah, though you are small among the clans of Judah, out of you will come for me one who will be ruler over Israel, whose origins are from of old, from ancient times.',
+      KJV: 'But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting.',
+      NASB: 'But as for you, Bethlehem Ephrathah, too little to be among the clans of Judah, from you One will go forth for Me to be ruler in Israel. His goings forth are from long ago, from the days of eternity.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 5:1',
+        text: 'Now muster your troops, O daughter of troops; siege is laid against us; with a rod they strike the judge of Israel on the cheek.',
+      },
+      after: {
+        reference: 'Micah 5:3',
+        text: 'Therefore he shall give them up until the time when she who is in labor has given birth.',
+      },
+    },
+  },
   {
     id: 'micah-6-8',
     reference: 'Micah 6:8',
@@ -1935,6 +2055,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Habakkuk 2:5',
         text: 'Moreover, wine is a traitor, an arrogant man who is never at rest.',
+      },
+    },
+  },
+  {
+    id: 'habakkuk-3-18',
+    reference: 'Habakkuk 3:18',
+    book: 'Habakkuk',
+    chapter: 3,
+    verse: 18,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Yet I will rejoice in the LORD; I will take joy in the God of my salvation.',
+      NIV: 'Yet I will rejoice in the LORD, I will be joyful in God my Savior.',
+      KJV: 'Yet I will rejoice in the LORD, I will joy in the God of my salvation.',
+      NASB: 'Yet I will exult in the LORD, I will rejoice in the God of my salvation.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 3:17',
+        text: 'Though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail and the fields yield no food.',
+      },
+      after: {
+        reference: 'Habakkuk 3:19',
+        text: 'GOD, the Lord, is my strength; he makes my feet like the deer\'s; he makes me tread on my high places.',
       },
     },
   },
@@ -2016,6 +2160,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'zechariah-9-9',
+    reference: 'Zechariah 9:9',
+    book: 'Zechariah',
+    chapter: 9,
+    verse: 9,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Rejoice greatly, O daughter of Zion! Shout aloud, O daughter of Jerusalem! Behold, your king is coming to you; righteous and having salvation is he, humble and mounted on a donkey, on a colt, the foal of a donkey.',
+      NIV: 'Rejoice greatly, Daughter Zion! Shout, Daughter Jerusalem! See, your king comes to you, righteous and victorious, lowly and riding on a donkey, on a colt, the foal of a donkey.',
+      KJV: 'Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass, and upon a colt the foal of an ass.',
+      NASB: 'Rejoice greatly, O daughter of Zion! Shout in triumph, O daughter of Jerusalem! Behold, your king is coming to you; He is just and endowed with salvation, humble, and mounted on a donkey, even on a colt, the foal of a donkey.',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 9:8',
+        text: 'Then I will encamp at my house as a guard, so that none shall march to and fro.',
+      },
+      after: {
+        reference: 'Zechariah 9:10',
+        text: 'I will cut off the chariot from Ephraim and the war horse from Jerusalem; and the battle bow shall be cut off.',
+      },
+    },
+  },
 
   // ============ MALACHI ============
   {
@@ -2039,6 +2207,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Malachi 3:7',
         text: 'From the days of your fathers you have turned aside from my statutes and have not kept them.',
+      },
+    },
+  },
+  {
+    id: 'malachi-4-2',
+    reference: 'Malachi 4:2',
+    book: 'Malachi',
+    chapter: 4,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But for you who fear my name, the sun of righteousness shall rise with healing in its wings. You shall go out leaping like calves from the stall.',
+      NIV: 'But for you who revere my name, the sun of righteousness will rise with healing in its rays. And you will go out and frolic like well-fed calves.',
+      KJV: 'But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.',
+      NASB: 'But for you who fear My name, the sun of righteousness will rise with healing in its wings; and you will go forth and skip about like calves from the stall.',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 4:1',
+        text: 'For behold, the day is coming, burning like an oven, when all the arrogant and all evildoers will be stubble.',
+      },
+      after: {
+        reference: 'Malachi 4:3',
+        text: 'And you shall tread down the wicked, for they will be ashes under the soles of your feet, on the day when I act, says the LORD of hosts.',
       },
     },
   },
