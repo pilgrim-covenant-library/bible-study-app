@@ -3771,6 +3771,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-chronicles-7-14',
+    reference: '2 Chronicles 7:14',
+    book: '2 Chronicles',
+    chapter: 7,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'If my people who are called by my name humble themselves, and pray and seek my face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and heal their land.',
+      NIV: 'If my people, who are called by my name, will humble themselves and pray and seek my face and turn from their wicked ways, then I will hear from heaven, and I will forgive their sin and will heal their land.',
+      KJV: 'If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land.',
+      NASB: 'And My people who are called by My name humble themselves and pray and seek My face and turn from their wicked ways, then I will hear from heaven, will forgive their sin and will heal their land.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 7:13',
+        text: 'When I shut up the heavens so that there is no rain, or command the locust to devour the land, or send pestilence among my people.',
+      },
+      after: {
+        reference: '2 Chronicles 7:15',
+        text: 'Now my eyes will be open and my ears attentive to the prayer that is made in this place.',
+      },
+    },
+  },
+  {
+    id: '2-chronicles-20-12',
+    reference: '2 Chronicles 20:12',
+    book: '2 Chronicles',
+    chapter: 20,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'O our God, will you not execute judgment on them? For we are powerless against this great horde that is coming against us. We do not know what to do, but our eyes are on you.',
+      NIV: 'Our God, will you not judge them? For we have no power to face this vast army that is attacking us. We do not know what to do, but our eyes are on you.',
+      KJV: 'O our God, wilt thou not judge them? for we have no might against this great company that cometh against us; neither know we what to do: but our eyes are upon thee.',
+      NASB: 'O our God, will You not judge them? For we are powerless before this great multitude who are coming against us; nor do we know what to do, but our eyes are on You.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 20:11',
+        text: 'Behold, they reward us by coming to drive us out of your possession, which you have given us to inherit.',
+      },
+      after: {
+        reference: '2 Chronicles 20:13',
+        text: 'Meanwhile all Judah stood before the LORD, with their little ones, their wives, and their children.',
+      },
+    },
+  },
 
   // ============ EZRA ============
   {
@@ -3963,6 +4011,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ezra 7:1',
         text: 'Now after this, in the reign of Artaxerxes king of Persia, Ezra the son of Seraiah.',
+      },
+    },
+  },
+  {
+    id: 'ezra-8-22',
+    reference: 'Ezra 8:22',
+    book: 'Ezra',
+    chapter: 8,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For I was ashamed to ask the king for a band of soldiers and horsemen to protect us against the enemy on our way, since we had told the king, "The hand of our God is for good on all who seek him, and the power of his wrath is against all who forsake him."',
+      NIV: 'I was ashamed to ask the king for soldiers and horsemen to protect us from enemies on the road, because we had told the king, "The gracious hand of our God is on everyone who looks to him, but his great anger is against all who forsake him."',
+      KJV: 'For I was ashamed to require of the king a band of soldiers and horsemen to help us against the enemy in the way: because we had spoken unto the king, saying, The hand of our God is upon all them for good that seek him; but his power and his wrath is against all them that forsake him.',
+      NASB: 'For I was ashamed to request from the king troops and horsemen to protect us from the enemy on the way, because we had said to the king, "The hand of our God is favorably disposed to all those who seek Him, but His power and His anger are against all those who forsake Him."',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 8:21',
+        text: 'Then I proclaimed a fast there, at the river Ahava, that we might humble ourselves before our God, to seek from him a safe journey for ourselves, our children, and all our goods.',
+      },
+      after: {
+        reference: 'Ezra 8:23',
+        text: 'So we fasted and implored our God for this, and he listened to our entreaty.',
+      },
+    },
+  },
+  {
+    id: 'ezra-3-11',
+    reference: 'Ezra 3:11',
+    book: 'Ezra',
+    chapter: 3,
+    verse: 11,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And they sang responsively, praising and giving thanks to the LORD, "For he is good, for his steadfast love endures forever toward Israel." And all the people shouted with a great shout when they praised the LORD, because the foundation of the house of the LORD was laid.',
+      NIV: 'With praise and thanksgiving they sang to the LORD: "He is good; his love toward Israel endures forever." And all the people gave a great shout of praise to the LORD, because the foundation of the house of the LORD was laid.',
+      KJV: 'And they sang together by course in praising and giving thanks unto the LORD; because he is good, for his mercy endureth for ever toward Israel. And all the people shouted with a great shout, when they praised the LORD, because the foundation of the house of the LORD was laid.',
+      NASB: 'They sang, praising and giving thanks to the LORD, saying, "For He is good, for His lovingkindness is upon Israel forever." And all the people shouted with a great shout when they praised the LORD because the foundation of the house of the LORD was laid.',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 3:10',
+        text: 'And when the builders laid the foundation of the temple of the LORD, the priests in their vestments came forward with trumpets, and the Levites, the sons of Asaph, with cymbals.',
+      },
+      after: {
+        reference: 'Ezra 3:12',
+        text: 'But many of the priests and Levites and heads of fathers\' houses, old men who had seen the first house, wept with a loud voice when they saw the foundation of this house being laid.',
       },
     },
   },
@@ -4161,6 +4257,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'nehemiah-1-5',
+    reference: 'Nehemiah 1:5',
+    book: 'Nehemiah',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I said, "O LORD God of heaven, the great and awesome God who keeps covenant and steadfast love with those who love him and keep his commandments.',
+      NIV: 'Then I said: "LORD, the God of heaven, the great and awesome God, who keeps his covenant of love with those who love him and keep his commandments.',
+      KJV: 'And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth covenant and mercy for them that love him and observe his commandments.',
+      NASB: 'I said, "I beseech You, O LORD God of heaven, the great and awesome God, who preserves the covenant and lovingkindness for those who love Him and keep His commandments.',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 1:4',
+        text: 'As soon as I heard these words I sat down and wept and mourned for days, and I continued fasting and praying before the God of heaven.',
+      },
+      after: {
+        reference: 'Nehemiah 1:6',
+        text: 'Let your ear be attentive and your eyes open, to hear the prayer of your servant that I now pray before you day and night for the people of Israel your servants.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-4-14',
+    reference: 'Nehemiah 4:14',
+    book: 'Nehemiah',
+    chapter: 4,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I looked and arose and said to the nobles and to the officials and to the rest of the people, "Do not be afraid of them. Remember the Lord, who is great and awesome, and fight for your brothers, your sons, your daughters, your wives, and your homes."',
+      NIV: 'After I looked things over, I stood up and said to the nobles, the officials and the rest of the people, "Don\'t be afraid of them. Remember the Lord, who is great and awesome, and fight for your families, your sons and your daughters, your wives and your homes."',
+      KJV: 'And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of the people, Be not ye afraid of them: remember the Lord, which is great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses.',
+      NASB: 'When I saw their fear, I rose and spoke to the nobles, the officials and the rest of the people: "Do not be afraid of them; remember the Lord who is great and awesome, and fight for your brothers, your sons, your daughters, your wives and your houses."',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 4:13',
+        text: 'So in the lowest parts of the space behind the wall, in open places, I stationed the people by their clans, with their swords, their spears, and their bows.',
+      },
+      after: {
+        reference: 'Nehemiah 4:15',
+        text: 'When our enemies heard that it was known to us and that God had frustrated their plan, we all returned to the wall, each to his work.',
+      },
+    },
+  },
 
   // ============ ESTHER ============
   {
@@ -4349,6 +4493,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Esther 10:2',
         text: 'And all the acts of his power and might, and the full account of the high honor of Mordecai, to which the king advanced him.',
+      },
+    },
+  },
+  {
+    id: 'esther-4-16',
+    reference: 'Esther 4:16',
+    book: 'Esther',
+    chapter: 4,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Go, gather all the Jews to be found in Susa, and hold a fast on my behalf, and do not eat or drink for three days, night or day. I and my young women will also fast as you do. Then I will go to the king, though it is against the law, and if I perish, I perish.',
+      NIV: 'Go, gather together all the Jews who are in Susa, and fast for me. Do not eat or drink for three days, night or day. I and my attendants will fast as you do. When this is done, I will go to the king, even though it is against the law. And if I perish, I perish.',
+      KJV: 'Go, gather together all the Jews that are present in Shushan, and fast ye for me, and neither eat nor drink three days, night or day: I also and my maidens will fast likewise; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.',
+      NASB: 'Go, assemble all the Jews who are found in Susa, and fast for me; do not eat or drink for three days, night or day. I and my maidens also will fast in the same way. And thus I will go in to the king, which is not according to the law; and if I perish, I perish.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 4:15',
+        text: 'Then Esther told them to reply to Mordecai.',
+      },
+      after: {
+        reference: 'Esther 4:17',
+        text: 'So Mordecai went away and did everything as Esther had ordered him.',
+      },
+    },
+  },
+  {
+    id: 'esther-6-13',
+    reference: 'Esther 6:13',
+    book: 'Esther',
+    chapter: 6,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And Haman told his wife Zeresh and all his friends everything that had happened to him. Then his wise men and his wife Zeresh said to him, "If Mordecai, before whom you have begun to fall, is of the Jewish people, you will not overcome him but will surely fall before him."',
+      NIV: 'And Haman told his wife Zeresh and all his friends everything that had happened to him. His advisers and his wife Zeresh said to him, "Since Mordecai, before whom your downfall has started, is of Jewish origin, you cannot stand against him—you will surely come to ruin!"',
+      KJV: 'And Haman told Zeresh his wife and all his friends every thing that had befallen him. Then said his wise men and Zeresh his wife unto him, If Mordecai be of the seed of the Jews, before whom thou hast begun to fall, thou shalt not prevail against him, but shalt surely fall before him.',
+      NASB: 'Haman recounted to Zeresh his wife and all his friends everything that had happened to him. Then his wise men and Zeresh his wife said to him, "If Mordecai, before whom you have begun to fall, is of Jewish origin, you will not overcome him, but will surely fall before him."',
+    },
+    context: {
+      before: {
+        reference: 'Esther 6:12',
+        text: 'Then Mordecai returned to the king\'s gate. But Haman hurried to his house, mourning and with his head covered.',
+      },
+      after: {
+        reference: 'Esther 6:14',
+        text: 'While they were yet talking with him, the king\'s eunuchs arrived and hurried to bring Haman to the feast that Esther had prepared.',
       },
     },
   },
