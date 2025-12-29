@@ -9410,6 +9410,53 @@ export const JAMES_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 1 PETER (5 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const FIRST_PETER_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '1-peter',
+    chapter: 1,
+    title: 'Living Hope Through the Resurrection',
+    summary: 'Peter writes to elect exiles scattered throughout Asia Minor, greeting them with grace and peace. He blesses God for the living hope secured through Christ\'s resurrection—an inheritance imperishable, undefiled, and unfading, kept in heaven for those guarded by God\'s power through faith. Though now they suffer various trials, these test and purify their faith, which is more precious than gold. The prophets who foretold this salvation searched earnestly to understand what the Spirit of Christ within them was revealing about His sufferings and subsequent glories. Therefore, believers are to set their hope fully on the grace coming at Christ\'s revelation, living as obedient children, not conforming to former passions but being holy as God is holy. They have been redeemed not with perishable silver or gold but with the precious blood of Christ, the lamb without blemish, foreknown before the foundation of the world. Having purified their souls through obedience to the truth, they are to love one another earnestly from a pure heart, having been born again through the living and abiding word of God.',
+    keyThemes: ['Living hope through resurrection', 'Trials that refine faith', 'Redemption by Christ\'s blood', 'Holiness and new birth'],
+    christConnection: 'Christ is the Lamb without blemish foreknown before creation, whose precious blood ransoms believers. His resurrection secures the living hope of an eternal inheritance. The prophets testified to His sufferings and the glories that would follow.'
+  },
+  {
+    bookId: '1-peter',
+    chapter: 2,
+    title: 'The Living Stone and Chosen People',
+    summary: 'Putting away all malice, deceit, hypocrisy, envy, and slander, believers are to long for pure spiritual milk to grow into salvation. Coming to Christ, the living stone rejected by men but chosen and precious to God, they themselves are being built up as living stones into a spiritual house, a holy priesthood offering spiritual sacrifices acceptable to God through Jesus Christ. Scripture declares: "Behold, I am laying in Zion a stone, a cornerstone chosen and precious, and whoever believes in him will not be put to shame." To believers He is precious, but to unbelievers He is the stone of stumbling and rock of offense. Believers are a chosen race, a royal priesthood, a holy nation, a people for God\'s own possession, called out of darkness into His marvelous light. Once not a people, they are now God\'s people; once without mercy, they have now received mercy. Peter urges them as sojourners and exiles to abstain from fleshly passions that wage war against the soul, keeping conduct honorable among Gentiles. They are to submit to human authorities for the Lord\'s sake. As servants of God, they should honor everyone, love the brotherhood, fear God, and honor the emperor. Servants are to be subject to masters, even harsh ones, enduring suffering for doing good—for Christ also suffered for them, leaving an example. He bore our sins in His body on the tree, that we might die to sin and live to righteousness. By His wounds they have been healed; they were straying like sheep but have now returned to the Shepherd and Overseer of their souls.',
+    keyThemes: ['Christ the living cornerstone', 'Believers as royal priesthood', 'Honorable conduct in society', 'Christ\'s suffering as example'],
+    christConnection: 'Christ is the living stone, cornerstone, and foundation of God\'s spiritual house. He bore our sins on the cross that we might die to sin and live to righteousness. By His wounds we are healed. He is the Shepherd and Overseer of our souls.'
+  },
+  {
+    bookId: '1-peter',
+    chapter: 3,
+    title: 'Suffering for Righteousness\' Sake',
+    summary: 'Wives are to be submissive to their husbands so that unbelieving husbands may be won without a word through their reverent and pure conduct. Their adorning should not be external—braided hair, gold jewelry, fine clothing—but the hidden person of the heart with the imperishable beauty of a gentle and quiet spirit, which is precious before God. Sarah obeyed Abraham, calling him lord; wives become her daughters when they do good without fear. Husbands are to live with their wives in an understanding way, showing honor to the weaker vessel and as fellow heirs of the grace of life, so that their prayers may not be hindered. All believers are to have unity of mind, sympathy, brotherly love, a tender heart, and a humble mind, not repaying evil for evil or reviling for reviling, but blessing—for to this they were called, that they might inherit a blessing. Whoever would love life and see good days must keep tongue from evil and lips from deceit, turn from evil and do good, seek peace and pursue it. The Lord\'s eyes are on the righteous and His ears attend to their prayer. Who can harm them if they are zealous for good? But even if they suffer for righteousness, they are blessed. They should not fear what others fear but honor Christ as Lord in their hearts, always ready to give a defense of their hope with gentleness and respect, keeping a good conscience. It is better to suffer for doing good, if God wills, than for doing evil. For Christ also suffered once for sins, the righteous for the unrighteous, to bring them to God—put to death in the flesh but made alive in the spirit. He proclaimed to the spirits in prison who disobeyed in Noah\'s day. Baptism now saves—not removal of dirt but the appeal of a good conscience to God through Christ\'s resurrection, who has gone into heaven and is at God\'s right hand with angels, authorities, and powers subject to Him.',
+    keyThemes: ['Godly marriage relationships', 'Suffering for righteousness', 'Christ\'s victorious suffering', 'Baptism and resurrection'],
+    christConnection: 'Christ suffered once for sins, the righteous for the unrighteous, to bring us to God. His resurrection is the basis of our salvation through baptism. He now reigns at God\'s right hand with all powers in subjection to Him.'
+  },
+  {
+    bookId: '1-peter',
+    chapter: 4,
+    title: 'Living for God\'s Will',
+    summary: 'Since Christ suffered in the flesh, believers are to arm themselves with the same way of thinking—for whoever has suffered in the flesh has ceased from sin, so as to live the rest of their earthly life no longer for human passions but for the will of God. They have spent enough time doing what the Gentiles want: sensuality, passions, drunkenness, orgies, drinking parties, and lawless idolatry. The Gentiles are surprised that believers no longer join them in debauchery, and they malign them—but they will give account to Him who is ready to judge the living and the dead. This is why the gospel was preached even to those who are dead, that though judged in the flesh according to men, they might live in the spirit according to God. The end of all things is at hand; therefore believers must be self-controlled and sober-minded for prayer. Above all, they are to keep loving one another earnestly, since love covers a multitude of sins. They are to show hospitality without grumbling and use their gifts to serve one another as good stewards of God\'s varied grace. Whoever speaks should speak as one who speaks oracles of God; whoever serves should serve in the strength God provides, so that in everything God may be glorified through Jesus Christ. Beloved, do not be surprised at the fiery trial as though something strange were happening. Rather, rejoice insofar as they share Christ\'s sufferings, that they may rejoice and be glad when His glory is revealed. If they are insulted for the name of Christ, they are blessed, for the Spirit of glory and of God rests upon them. Let none suffer as a murderer, thief, evildoer, or meddler—but if anyone suffers as a Christian, let him not be ashamed but glorify God in that name. For judgment begins at the household of God; if it begins with us, what will be the outcome for those who disobey the gospel? If the righteous is scarcely saved, what will become of the ungodly and sinner? Therefore let those who suffer according to God\'s will entrust their souls to a faithful Creator while doing good.',
+    keyThemes: ['Living for God\'s will', 'End times sobriety', 'Sharing Christ\'s sufferings', 'Judgment beginning with God\'s house'],
+    christConnection: 'Christ\'s suffering in the flesh is the pattern for believers facing persecution. Sharing in Christ\'s sufferings now leads to rejoicing when His glory is revealed. He is the Judge of the living and the dead, and all service glorifies God through Jesus Christ.'
+  },
+  {
+    bookId: '1-peter',
+    chapter: 5,
+    title: 'Shepherding the Flock and Standing Firm',
+    summary: 'Peter exhorts the elders as a fellow elder and witness of Christ\'s sufferings, and as a partaker in the glory to be revealed: shepherd the flock of God that is among you, exercising oversight not under compulsion but willingly, as God would have you; not for shameful gain but eagerly; not domineering over those in your charge but being examples to the flock. When the chief Shepherd appears, they will receive the unfading crown of glory. Likewise, the younger are to be subject to the elders, and all are to clothe themselves with humility toward one another, for God opposes the proud but gives grace to the humble. Believers are to humble themselves under the mighty hand of God so that at the proper time He may exalt them, casting all their anxieties on Him, because He cares for them. They are to be sober-minded and watchful, for their adversary the devil prowls around like a roaring lion, seeking someone to devour. They are to resist him, firm in their faith, knowing that the same kinds of suffering are being experienced by their brotherhood throughout the world. After they have suffered a little while, the God of all grace, who has called them to His eternal glory in Christ, will Himself restore, confirm, strengthen, and establish them. To Him be the dominion forever and ever. Amen. Peter writes briefly by Silvanus, a faithful brother, exhorting and declaring that this is the true grace of God—stand firm in it. She who is at Babylon, chosen together with them, sends greetings, as does Mark, Peter\'s son. They are to greet one another with a kiss of love. Peace to all who are in Christ.',
+    keyThemes: ['Faithful shepherding', 'Humility and casting anxiety on God', 'Resisting the devil', 'God\'s restorative grace'],
+    christConnection: 'Christ is the chief Shepherd who will appear in glory to reward His faithful under-shepherds. The God of all grace calls believers to eternal glory in Christ, and after their brief suffering, He will restore, confirm, strengthen, and establish them.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9529,6 +9576,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return HEBREWS_CHAPTERS;
     case 'james':
       return JAMES_CHAPTERS;
+    case '1-peter':
+      return FIRST_PETER_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9596,4 +9645,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'philemon', bookName: 'Philemon', chapters: PHILEMON_CHAPTERS },
   { bookId: 'hebrews', bookName: 'Hebrews', chapters: HEBREWS_CHAPTERS },
   { bookId: 'james', bookName: 'James', chapters: JAMES_CHAPTERS },
+  { bookId: '1-peter', bookName: '1 Peter', chapters: FIRST_PETER_CHAPTERS },
 ];
