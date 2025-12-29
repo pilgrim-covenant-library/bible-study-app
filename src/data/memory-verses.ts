@@ -4337,6 +4337,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'joel-3-16',
+    reference: 'Joel 3:16',
+    book: 'Joel',
+    chapter: 3,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD roars from Zion, and utters his voice from Jerusalem, and the heavens and the earth quake. But the LORD is a refuge to his people, a stronghold to the people of Israel.',
+      NIV: 'The LORD will roar from Zion and thunder from Jerusalem; the earth and the heavens will tremble. But the LORD will be a refuge for his people, a stronghold for the people of Israel.',
+      KJV: 'The LORD also shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of his people, and the strength of the children of Israel.',
+      NASB: 'The LORD roars from Zion and utters His voice from Jerusalem, and the heavens and the earth tremble. But the LORD is a refuge for His people and a stronghold to the sons of Israel.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 3:15',
+        text: 'The sun and the moon are darkened, and the stars withdraw their shining.',
+      },
+      after: {
+        reference: 'Joel 3:17',
+        text: 'So you shall know that I am the LORD your God, who dwells in Zion, my holy mountain.',
+      },
+    },
+  },
+  {
+    id: 'joel-2-25',
+    reference: 'Joel 2:25',
+    book: 'Joel',
+    chapter: 2,
+    verse: 25,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I will restore to you the years that the swarming locust has eaten, the hopper, the destroyer, and the cutter, my great army, which I sent among you.',
+      NIV: 'I will repay you for the years the locusts have eaten—the great locust and the young locust, the other locusts and the locust swarm—my great army that I sent among you.',
+      KJV: 'And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpiller, and the palmerworm, my great army which I sent among you.',
+      NASB: 'Then I will make up to you for the years that the swarming locust has eaten, the creeping locust, the stripping locust and the gnawing locust, My great army which I sent among you.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 2:24',
+        text: 'The threshing floors shall be full of grain; the vats shall overflow with wine and oil.',
+      },
+      after: {
+        reference: 'Joel 2:26',
+        text: 'You shall eat in plenty and be satisfied, and praise the name of the LORD your God, who has dealt wondrously with you.',
+      },
+    },
+  },
 
   // ============ AMOS ============
   {
@@ -4432,6 +4480,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Amos 4:13',
         text: 'For behold, he who forms the mountains and creates the wind, and declares to man what is his thought, who makes the morning darkness.',
+      },
+    },
+  },
+  {
+    id: 'amos-5-4',
+    reference: 'Amos 5:4',
+    book: 'Amos',
+    chapter: 5,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For thus says the LORD to the house of Israel: "Seek me and live."',
+      NIV: 'This is what the LORD says to Israel: "Seek me and live."',
+      KJV: 'For thus saith the LORD unto the house of Israel, Seek ye me, and ye shall live.',
+      NASB: 'For thus says the LORD to the house of Israel, "Seek Me that you may live."',
+    },
+    context: {
+      before: {
+        reference: 'Amos 5:3',
+        text: 'For thus says the Lord GOD: "The city that went out a thousand shall have a hundred left, and that which went out a hundred shall have ten left to the house of Israel."',
+      },
+      after: {
+        reference: 'Amos 5:5',
+        text: 'But do not seek Bethel, and do not enter into Gilgal or cross over to Beersheba.',
+      },
+    },
+  },
+  {
+    id: 'amos-9-11',
+    reference: 'Amos 9:11',
+    book: 'Amos',
+    chapter: 9,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"In that day I will raise up the booth of David that is fallen and repair its breaches, and raise up its ruins and rebuild it as in the days of old."',
+      NIV: '"In that day I will restore David\'s fallen shelter—I will repair its broken walls and restore its ruins—and will rebuild it as it used to be."',
+      KJV: 'In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof; and I will raise up his ruins, and I will build it as in the days of old.',
+      NASB: '"In that day I will raise up the fallen booth of David, and wall up its breaches; I will also raise up its ruins and rebuild it as in the days of old."',
+    },
+    context: {
+      before: {
+        reference: 'Amos 9:10',
+        text: 'All the sinners of my people shall die by the sword, who say, "Disaster shall not overtake or meet us."',
+      },
+      after: {
+        reference: 'Amos 9:12',
+        text: 'That they may possess the remnant of Edom and all the nations who are called by my name.',
       },
     },
   },
@@ -4725,6 +4821,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'micah-4-1',
+    reference: 'Micah 4:1',
+    book: 'Micah',
+    chapter: 4,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'It shall come to pass in the latter days that the mountain of the house of the LORD shall be established as the highest of the mountains, and it shall be lifted up above the hills; and peoples shall flow to it.',
+      NIV: 'In the last days the mountain of the LORD\'s temple will be established as the highest of the mountains; it will be exalted above the hills, and peoples will stream to it.',
+      KJV: 'But in the last days it shall come to pass, that the mountain of the house of the LORD shall be established in the top of the mountains, and it shall be exalted above the hills; and people shall flow unto it.',
+      NASB: 'And it will come about in the last days that the mountain of the house of the LORD will be established as the chief of the mountains. It will be raised above the hills, and the peoples will stream to it.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 3:12',
+        text: 'Therefore because of you Zion shall be plowed as a field; Jerusalem shall become a heap of ruins, and the mountain of the house a wooded height.',
+      },
+      after: {
+        reference: 'Micah 4:2',
+        text: 'And many nations shall come, and say: "Come, let us go up to the mountain of the LORD, to the house of the God of Jacob."',
+      },
+    },
+  },
+  {
+    id: 'micah-5-4',
+    reference: 'Micah 5:4',
+    book: 'Micah',
+    chapter: 5,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he shall stand and shepherd his flock in the strength of the LORD, in the majesty of the name of the LORD his God. And they shall dwell secure, for now he shall be great to the ends of the earth.',
+      NIV: 'He will stand and shepherd his flock in the strength of the LORD, in the majesty of the name of the LORD his God. And they will live securely, for then his greatness will reach to the ends of the earth.',
+      KJV: 'And he shall stand and feed in the strength of the LORD, in the majesty of the name of the LORD his God; and they shall abide: for now shall he be great unto the ends of the earth.',
+      NASB: 'And He will arise and shepherd His flock in the strength of the LORD, in the majesty of the name of the LORD His God. And they will remain, because at that time He will be great to the ends of the earth.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 5:3',
+        text: 'Therefore he shall give them up until the time when she who is in labor has given birth; then the rest of his brothers shall return to the people of Israel.',
+      },
+      after: {
+        reference: 'Micah 5:5',
+        text: 'And he shall be their peace. When the Assyrian comes into our land and treads in our palaces.',
+      },
+    },
+  },
 
   // ============ NAHUM ============
   {
@@ -4823,6 +4967,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'nahum-1-9',
+    reference: 'Nahum 1:9',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'What do you plot against the LORD? He will make a complete end; trouble will not rise up a second time.',
+      NIV: 'Whatever they plot against the LORD he will bring to an end; trouble will not come a second time.',
+      KJV: 'What do ye imagine against the LORD? he will make an utter end: affliction shall not rise up the second time.',
+      NASB: 'Whatever you devise against the LORD, He will make a complete end of it. Distress will not rise up twice.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:8',
+        text: 'But with an overflowing flood he will make a complete end of the adversaries, and will pursue his enemies into darkness.',
+      },
+      after: {
+        reference: 'Nahum 1:10',
+        text: 'For they are like entangled thorns, like drunkards as they drink; they are consumed like stubble fully dried.',
+      },
+    },
+  },
+  {
+    id: 'nahum-2-2',
+    reference: 'Nahum 2:2',
+    book: 'Nahum',
+    chapter: 2,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the LORD is restoring the majesty of Jacob as the majesty of Israel, for plunderers have plundered them and ruined their branches.',
+      NIV: 'The LORD will restore the splendor of Jacob like the splendor of Israel, though destroyers have laid them waste and have ruined their vines.',
+      KJV: 'For the LORD hath turned away the excellency of Jacob, as the excellency of Israel: for the emptiers have emptied them out, and marred their vine branches.',
+      NASB: 'For the LORD will restore the splendor of Jacob like the splendor of Israel, even though devastators have devastated them and destroyed their vine branches.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 2:1',
+        text: 'The scatterer has come up against you. Man the ramparts; watch the road; dress for battle; collect all your strength.',
+      },
+      after: {
+        reference: 'Nahum 2:3',
+        text: 'The shield of his mighty men is red; his soldiers are clothed in scarlet.',
+      },
+    },
+  },
 
   // ============ HABAKKUK ============
   {
@@ -4914,6 +5106,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Habakkuk 3:19',
         text: 'GOD, the Lord, is my strength; he makes my feet like the deer\'s; he makes me tread on my high places.',
+      },
+    },
+  },
+  {
+    id: 'habakkuk-1-5',
+    reference: 'Habakkuk 1:5',
+    book: 'Habakkuk',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Look among the nations, and see; wonder and be astounded. For I am doing a work in your days that you would not believe if told.',
+      NIV: 'Look at the nations and watch—and be utterly amazed. For I am going to do something in your days that you would not believe, even if you were told.',
+      KJV: 'Behold ye among the heathen, and regard, and wonder marvelously: for I will work a work in your days, which ye will not believe, though it be told you.',
+      NASB: 'Look among the nations! Observe! Be astonished! Wonder! Because I am doing something in your days—you would not believe if you were told.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 1:4',
+        text: 'So the law is paralyzed, and justice never goes forth. For the wicked surround the righteous; so justice goes forth perverted.',
+      },
+      after: {
+        reference: 'Habakkuk 1:6',
+        text: 'For behold, I am raising up the Chaldeans, that bitter and hasty nation, who march through the breadth of the earth.',
+      },
+    },
+  },
+  {
+    id: 'habakkuk-2-20',
+    reference: 'Habakkuk 2:20',
+    book: 'Habakkuk',
+    chapter: 2,
+    verse: 20,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But the LORD is in his holy temple; let all the earth keep silence before him.',
+      NIV: 'The LORD is in his holy temple; let all the earth be silent before him.',
+      KJV: 'But the LORD is in his holy temple: let all the earth keep silence before him.',
+      NASB: 'But the LORD is in His holy temple. Let all the earth be silent before Him.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 2:19',
+        text: 'Woe to him who says to a wooden thing, Awake; to a silent stone, Arise! Can this teach? Behold, it is overlaid with gold and silver, and there is no breath at all in it.',
+      },
+      after: {
+        reference: 'Habakkuk 3:1',
+        text: 'A prayer of Habakkuk the prophet, according to Shigionoth.',
       },
     },
   },
@@ -8599,6 +8839,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Titus 2:15',
         text: 'Declare these things; exhort and rebuke with all authority. Let no one disregard you.',
+      },
+    },
+  },
+  {
+    id: 'titus-2-13',
+    reference: 'Titus 2:13',
+    book: 'Titus',
+    chapter: 2,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ,',
+      NIV: 'while we wait for the blessed hope—the appearing of the glory of our great God and Savior, Jesus Christ,',
+      KJV: 'Looking for that blessed hope, and the glorious appearing of the great God and our Saviour Jesus Christ;',
+      NASB: 'looking for the blessed hope and the appearing of the glory of our great God and Savior, Christ Jesus,',
+    },
+    context: {
+      before: {
+        reference: 'Titus 2:12',
+        text: 'training us to renounce ungodliness and worldly passions, and to live self-controlled, upright, and godly lives in the present age,',
+      },
+      after: {
+        reference: 'Titus 2:14',
+        text: 'who gave himself for us to redeem us from all lawlessness and to purify for himself a people for his own possession who are zealous for good works.',
+      },
+    },
+  },
+  {
+    id: 'titus-3-4-7',
+    reference: 'Titus 3:4-7',
+    book: 'Titus',
+    chapter: 3,
+    verse: 4,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'But when the goodness and loving kindness of God our Savior appeared, he saved us, not because of works done by us in righteousness, but according to his own mercy, by the washing of regeneration and renewal of the Holy Spirit, whom he poured out on us richly through Jesus Christ our Savior, so that being justified by his grace we might become heirs according to the hope of eternal life.',
+      NIV: 'But when the kindness and love of God our Savior appeared, he saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit, whom he poured out on us generously through Jesus Christ our Savior, so that, having been justified by his grace, we might become heirs having the hope of eternal life.',
+      KJV: 'But after that the kindness and love of God our Saviour toward man appeared, Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost; Which he shed on us abundantly through Jesus Christ our Saviour; That being justified by his grace, we should be made heirs according to the hope of eternal life.',
+      NASB: 'But when the kindness of God our Savior and His love for mankind appeared, He saved us, not on the basis of deeds which we have done in righteousness, but according to His mercy, by the washing of regeneration and renewing by the Holy Spirit, whom He poured out upon us richly through Jesus Christ our Savior, so that being justified by His grace we would be made heirs according to the hope of eternal life.',
+    },
+    context: {
+      before: {
+        reference: 'Titus 3:3',
+        text: 'For we ourselves were once foolish, disobedient, led astray, slaves to various passions and pleasures, passing our days in malice and envy, hated by others and hating one another.',
+      },
+      after: {
+        reference: 'Titus 3:8',
+        text: 'The saying is trustworthy, and I want you to insist on these things, so that those who have believed in God may be careful to devote themselves to good works.',
+      },
+    },
+  },
+  {
+    id: 'titus-1-9',
+    reference: 'Titus 1:9',
+    book: 'Titus',
+    chapter: 1,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He must hold firm to the trustworthy word as taught, so that he may be able to give instruction in sound doctrine and also to rebuke those who contradict it.',
+      NIV: 'He must hold firmly to the trustworthy message as it has been taught, so that he can encourage others by sound doctrine and refute those who oppose it.',
+      KJV: 'Holding fast the faithful word as he hath been taught, that he may be able by sound doctrine both to exhort and to convince the gainsayers.',
+      NASB: 'holding fast the faithful word which is in accordance with the teaching, so that he will be able both to exhort in sound doctrine and to refute those who contradict.',
+    },
+    context: {
+      before: {
+        reference: 'Titus 1:8',
+        text: 'but hospitable, a lover of good, self-controlled, upright, holy, and disciplined.',
+      },
+      after: {
+        reference: 'Titus 1:10',
+        text: 'For there are many who are insubordinate, empty talkers and deceivers, especially those of the circumcision party.',
+      },
+    },
+  },
+  {
+    id: 'titus-2-1',
+    reference: 'Titus 2:1',
+    book: 'Titus',
+    chapter: 2,
+    verse: 1,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But as for you, teach what accords with sound doctrine.',
+      NIV: 'You, however, must teach what is appropriate to sound doctrine.',
+      KJV: 'But speak thou the things which become sound doctrine:',
+      NASB: 'But as for you, speak the things which are fitting for sound doctrine.',
+    },
+    context: {
+      before: {
+        reference: 'Titus 1:16',
+        text: 'They profess to know God, but they deny him by their works. They are detestable, disobedient, unfit for any good work.',
+      },
+      after: {
+        reference: 'Titus 2:2',
+        text: 'Older men are to be sober-minded, dignified, self-controlled, sound in faith, in love, and in steadfastness.',
       },
     },
   },
