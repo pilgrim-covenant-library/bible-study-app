@@ -7731,54 +7731,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
-    id: 'malachi-3-6',
-    reference: 'Malachi 3:6',
-    book: 'Malachi',
-    chapter: 3,
-    verse: 6,
-    difficulty: 'easy',
-    translations: {
-      ESV: 'For I the LORD do not change; therefore you, O children of Jacob, are not consumed.',
-      NIV: 'I the LORD do not change. So you, the descendants of Jacob, are not destroyed.',
-      KJV: 'For I am the LORD, I change not; therefore ye sons of Jacob are not consumed.',
-      NASB: 'For I, the LORD, do not change; therefore you, O sons of Jacob, are not consumed.',
-    },
-    context: {
-      before: {
-        reference: 'Malachi 3:5',
-        text: 'Then I will draw near to you for judgment. I will be a swift witness against the sorcerers, against the adulterers.',
-      },
-      after: {
-        reference: 'Malachi 3:7',
-        text: 'From the days of your fathers you have turned aside from my statutes and have not kept them.',
-      },
-    },
-  },
-  {
-    id: 'malachi-3-10',
-    reference: 'Malachi 3:10',
-    book: 'Malachi',
-    chapter: 3,
-    verse: 10,
-    difficulty: 'hard',
-    translations: {
-      ESV: 'Bring the full tithe into the storehouse, that there may be food in my house. And thereby put me to the test, says the LORD of hosts, if I will not open the windows of heaven for you and pour down for you a blessing until there is no more need.',
-      NIV: 'Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this," says the LORD Almighty, "and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.',
-      KJV: 'Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.',
-      NASB: 'Bring the whole tithe into the storehouse, so that there may be food in My house, and test Me now in this," says the LORD of hosts, "if I will not open for you the windows of heaven and pour out for you a blessing until it overflows.',
-    },
-    context: {
-      before: {
-        reference: 'Malachi 3:9',
-        text: 'You are cursed with a curse, for you are robbing me, the whole nation of you.',
-      },
-      after: {
-        reference: 'Malachi 3:11',
-        text: 'I will rebuke the devourer for you, so that it will not destroy the fruits of your soil.',
-      },
-    },
-  },
-  {
     id: 'malachi-4-5',
     reference: 'Malachi 4:5',
     book: 'Malachi',
@@ -7823,6 +7775,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Malachi 1:12',
         text: 'But you profane it when you say that the Lord\'s table is polluted, and its fruit, that is, its food may be despised.',
+      },
+    },
+  },
+  {
+    id: 'malachi-2-16',
+    reference: 'Malachi 2:16',
+    book: 'Malachi',
+    chapter: 2,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"For the man who does not love his wife but divorces her, says the LORD, the God of Israel, covers his garment with violence, says the LORD of hosts. So guard yourselves in your spirit, and do not be faithless."',
+      NIV: '"The man who hates and divorces his wife," says the LORD, the God of Israel, "does violence to the one he should protect," says the LORD Almighty. So be on your guard, and do not be unfaithful.',
+      KJV: 'For the LORD, the God of Israel, saith that he hateth putting away: for one covereth violence with his garment, saith the LORD of hosts: therefore take heed to your spirit, that ye deal not treacherously.',
+      NASB: '"For I hate divorce," says the LORD, the God of Israel, "and him who covers his garment with wrong," says the LORD of hosts. "So take heed to your spirit, that you do not deal treacherously."',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 2:15',
+        text: 'Did he not make them one, with a portion of the Spirit in their union? And what was the one God seeking? Godly offspring.',
+      },
+      after: {
+        reference: 'Malachi 2:17',
+        text: 'You have wearied the LORD with your words. But you say, "How have we wearied him?"',
+      },
+    },
+  },
+  {
+    id: 'malachi-4-6',
+    reference: 'Malachi 4:6',
+    book: 'Malachi',
+    chapter: 4,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he will turn the hearts of fathers to their children and the hearts of children to their fathers, lest I come and strike the land with a decree of utter destruction.',
+      NIV: 'He will turn the hearts of the parents to their children, and the hearts of the children to their parents; or else I will come and strike the land with total destruction.',
+      KJV: 'And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.',
+      NASB: 'He will restore the hearts of the fathers to their children and the hearts of the children to their fathers, so that I will not come and smite the land with a curse.',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 4:5',
+        text: 'Behold, I will send you Elijah the prophet before the great and awesome day of the LORD comes.',
       },
     },
   },
