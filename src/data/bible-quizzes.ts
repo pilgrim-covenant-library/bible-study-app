@@ -6372,6 +6372,318 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['1 Timothy', 'Philemon', '2 Timothy'],
     explanation: 'Titus was left in Crete to appoint elders and order the churches (Titus 1:5).',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ADDITIONAL QUESTIONS FOR BOOKS WITH 8 QUESTIONS (bringing to 10+)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // Exodus (additional)
+  {
+    id: 'exo-009',
+    bookId: 'exodus',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the Israelites worshiping a golden calf while Moses was on Mount Sinai?',
+    correctAnswer: 'Exodus',
+    distractors: ['Numbers', 'Deuteronomy', '1 Kings'],
+    explanation: 'Exodus 32 describes Israel\'s idolatry with the golden calf made by Aaron.',
+  },
+  {
+    id: 'exo-010',
+    bookId: 'exodus',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book declares "The LORD will fight for you, and you have only to be silent" (14:14)?',
+    correctAnswer: 'Exodus',
+    distractors: ['Joshua', 'Judges', 'Isaiah'],
+    explanation: 'Moses spoke these words to Israel at the Red Sea before God\'s deliverance.',
+  },
+
+  // Leviticus (additional)
+  {
+    id: 'lev-009',
+    bookId: 'leviticus',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book commands "Be holy, for I the LORD your God am holy" (19:2)?',
+    correctAnswer: 'Leviticus',
+    distractors: ['Exodus', 'Deuteronomy', '1 Peter'],
+    explanation: 'This call to holiness in Leviticus 19:2 is quoted by Peter in 1 Peter 1:16.',
+  },
+  {
+    id: 'lev-010',
+    bookId: 'leviticus',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book describes the Year of Jubilee when debts were cancelled and land returned?',
+    correctAnswer: 'Leviticus',
+    distractors: ['Deuteronomy', 'Numbers', 'Exodus'],
+    explanation: 'Leviticus 25 establishes the Jubilee every 50 years, a picture of gospel freedom.',
+  },
+
+  // 1 Samuel (additional)
+  {
+    id: '1sa-009',
+    bookId: '1-samuel',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book declares "man looks on the outward appearance, but the LORD looks on the heart" (16:7)?',
+    correctAnswer: '1 Samuel',
+    distractors: ['Proverbs', 'Psalms', 'Jeremiah'],
+    explanation: 'God spoke this to Samuel when choosing David over his older brothers.',
+  },
+  {
+    id: '1sa-010',
+    bookId: '1-samuel',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book records the story of David defeating Goliath?',
+    correctAnswer: '1 Samuel',
+    distractors: ['2 Samuel', 'Judges', '1 Chronicles'],
+    explanation: '1 Samuel 17 tells the famous account of David\'s victory over the Philistine giant.',
+  },
+
+  // 2 Samuel (additional)
+  {
+    id: '2sa-009',
+    bookId: '2-samuel',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records God\'s covenant promise to David of an eternal throne?',
+    correctAnswer: '2 Samuel',
+    distractors: ['1 Samuel', '1 Kings', '1 Chronicles'],
+    explanation: '2 Samuel 7 contains the Davidic covenant promising an everlasting kingdom.',
+  },
+  {
+    id: '2sa-010',
+    bookId: '2-samuel',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records David\'s sin with Bathsheba and murder of Uriah?',
+    correctAnswer: '2 Samuel',
+    distractors: ['1 Kings', '1 Samuel', 'Psalms'],
+    explanation: '2 Samuel 11-12 records David\'s great sin and Nathan\'s confrontation.',
+  },
+
+  // 2 Kings (additional)
+  {
+    id: '2ki-009',
+    bookId: '2-kings',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book records Elijah being taken up to heaven in a chariot of fire?',
+    correctAnswer: '2 Kings',
+    distractors: ['1 Kings', 'Malachi', 'Daniel'],
+    explanation: '2 Kings 2 describes Elijah\'s dramatic departure and Elisha receiving his mantle.',
+  },
+  {
+    id: '2ki-010',
+    bookId: '2-kings',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the exile of Judah to Babylon under Nebuchadnezzar?',
+    correctAnswer: '2 Kings',
+    distractors: ['Jeremiah', 'Daniel', '2 Chronicles'],
+    explanation: '2 Kings 25 records Jerusalem\'s fall and Judah\'s deportation to Babylon.',
+  },
+
+  // 1 Chronicles (additional)
+  {
+    id: '1ch-009',
+    bookId: '1-chronicles',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book begins with extensive genealogies tracing lineage from Adam?',
+    correctAnswer: '1 Chronicles',
+    distractors: ['Genesis', 'Matthew', 'Numbers'],
+    explanation: '1 Chronicles 1-9 traces Israel\'s ancestry from Adam through the post-exilic period.',
+  },
+  {
+    id: '1ch-010',
+    bookId: '1-chronicles',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book records David\'s prayer "Yours, O LORD, is the greatness and the power" (29:11)?',
+    correctAnswer: '1 Chronicles',
+    distractors: ['2 Chronicles', 'Psalms', '1 Kings'],
+    explanation: 'David\'s prayer in 1 Chronicles 29:10-19 celebrates God\'s sovereignty over all.',
+  },
+
+  // 2 Chronicles (additional)
+  {
+    id: '2ch-009',
+    bookId: '2-chronicles',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book contains "If my people who are called by my name humble themselves and pray" (7:14)?',
+    correctAnswer: '2 Chronicles',
+    distractors: ['1 Chronicles', 'Psalms', 'Isaiah'],
+    explanation: 'God spoke this promise to Solomon after dedicating the temple.',
+  },
+  {
+    id: '2ch-010',
+    bookId: '2-chronicles',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book records King Josiah finding the Book of the Law and leading reform?',
+    correctAnswer: '2 Chronicles',
+    distractors: ['2 Kings', '1 Chronicles', 'Ezra'],
+    explanation: '2 Chronicles 34-35 details Josiah\'s discovery and subsequent national repentance.',
+  },
+
+  // Ezra (additional)
+  {
+    id: 'ezr-009',
+    bookId: 'ezra',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the Jews rebuilding the Jerusalem temple after exile?',
+    correctAnswer: 'Ezra',
+    distractors: ['Nehemiah', 'Haggai', '2 Chronicles'],
+    explanation: 'Ezra 1-6 records the return from exile and temple reconstruction.',
+  },
+  {
+    id: 'ezr-010',
+    bookId: 'ezra',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records Ezra reading the Law to the returned exiles?',
+    correctAnswer: 'Ezra',
+    distractors: ['Nehemiah', 'Deuteronomy', 'Joshua'],
+    explanation: 'Ezra 7-10 describes Ezra the scribe teaching God\'s law to Israel.',
+  },
+
+  // Nehemiah (additional)
+  {
+    id: 'neh-009',
+    bookId: 'nehemiah',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book records the rebuilding of Jerusalem\'s walls in 52 days?',
+    correctAnswer: 'Nehemiah',
+    distractors: ['Ezra', 'Haggai', 'Zechariah'],
+    explanation: 'Nehemiah 6:15 reports the wall was completed in just 52 days despite opposition.',
+  },
+  {
+    id: 'neh-010',
+    bookId: 'nehemiah',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records opposition from Sanballat and Tobiah against the Jews?',
+    correctAnswer: 'Nehemiah',
+    distractors: ['Ezra', 'Esther', 'Daniel'],
+    explanation: 'Nehemiah 2-6 details the enemies\' attempts to stop the wall\'s construction.',
+  },
+
+  // Proverbs (additional)
+  {
+    id: 'pro-009',
+    bookId: 'proverbs',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book says "Trust in the LORD with all your heart, and do not lean on your own understanding" (3:5)?',
+    correctAnswer: 'Proverbs',
+    distractors: ['Psalms', 'Ecclesiastes', 'James'],
+    explanation: 'Proverbs 3:5-6 is one of the most beloved passages on trusting God.',
+  },
+  {
+    id: 'pro-010',
+    bookId: 'proverbs',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book describes personified Wisdom crying out in the streets and calling fools to learn?',
+    correctAnswer: 'Proverbs',
+    distractors: ['Ecclesiastes', 'Job', 'Psalms'],
+    explanation: 'Proverbs 1 and 8 personify Wisdom as a woman calling people to understanding.',
+  },
+
+  // Ecclesiastes (additional)
+  {
+    id: 'ecc-009',
+    bookId: 'ecclesiastes',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book concludes "Fear God and keep his commandments, for this is the whole duty of man" (12:13)?',
+    correctAnswer: 'Ecclesiastes',
+    distractors: ['Proverbs', 'Deuteronomy', 'Psalms'],
+    explanation: 'The Preacher\'s conclusion in Ecclesiastes 12:13-14 summarizes life\'s purpose.',
+  },
+  {
+    id: 'ecc-010',
+    bookId: 'ecclesiastes',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book says "For everything there is a season, and a time for every matter under heaven" (3:1)?',
+    correctAnswer: 'Ecclesiastes',
+    distractors: ['Psalms', 'Proverbs', 'Job'],
+    explanation: 'Ecclesiastes 3 reflects on the appointed times for all of life\'s experiences.',
+  },
+
+  // Song of Solomon (additional)
+  {
+    id: 'sos-009',
+    bookId: 'song-of-solomon',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book is an extended love poem celebrating the beauty of marital love?',
+    correctAnswer: 'Song of Solomon',
+    distractors: ['Proverbs', 'Ruth', 'Ecclesiastes'],
+    explanation: 'Song of Solomon celebrates romantic love as God\'s good gift.',
+  },
+  {
+    id: 'sos-010',
+    bookId: 'song-of-solomon',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book says "Many waters cannot quench love, neither can floods drown it" (8:7)?',
+    correctAnswer: 'Song of Solomon',
+    distractors: ['Proverbs', 'Psalms', '1 Corinthians'],
+    explanation: 'Song of Solomon 8:6-7 celebrates the invincible nature of true love.',
+  },
+
+  // Jeremiah (additional)
+  {
+    id: 'jer-009',
+    bookId: 'jeremiah',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book says "I know the plans I have for you...plans for welfare and not for evil" (29:11)?',
+    correctAnswer: 'Jeremiah',
+    distractors: ['Isaiah', 'Psalms', 'Proverbs'],
+    explanation: 'Jeremiah 29:11 was God\'s promise of hope to the exiles in Babylon.',
+  },
+  {
+    id: 'jer-010',
+    bookId: 'jeremiah',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which prophet was told not to marry as a sign of coming judgment?',
+    correctAnswer: 'Jeremiah',
+    distractors: ['Ezekiel', 'Hosea', 'Isaiah'],
+    explanation: 'Jeremiah 16:1-4 records God\'s command for Jeremiah to remain unmarried.',
+  },
+
+  // Lamentations (additional)
+  {
+    id: 'lam-009',
+    bookId: 'lamentations',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book declares "The steadfast love of the LORD never ceases; his mercies are new every morning" (3:22-23)?',
+    correctAnswer: 'Lamentations',
+    distractors: ['Psalms', 'Isaiah', 'Hosea'],
+    explanation: 'Amid grief over Jerusalem\'s fall, Jeremiah affirms God\'s unfailing love.',
+  },
+  {
+    id: 'lam-010',
+    bookId: 'lamentations',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book is structured as five poems of lament over Jerusalem\'s destruction?',
+    correctAnswer: 'Lamentations',
+    distractors: ['Psalms', 'Jeremiah', 'Ezekiel'],
+    explanation: 'Lamentations contains five acrostic laments mourning Jerusalem\'s fall to Babylon.',
+  },
 ];
 
 // Helper functions for quiz functionality
