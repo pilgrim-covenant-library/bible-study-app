@@ -1460,6 +1460,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-chronicles-15-2',
+    reference: '2 Chronicles 15:2',
+    book: '2 Chronicles',
+    chapter: 15,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he went out to meet Asa and said to him, "Hear me, Asa, and all Judah and Benjamin: The LORD is with you while you are with him. If you seek him, he will be found by you, but if you forsake him, he will forsake you."',
+      NIV: 'He went out to meet Asa and said to him, "Listen to me, Asa and all Judah and Benjamin. The LORD is with you when you are with him. If you seek him, he will be found by you, but if you forsake him, he will forsake you."',
+      KJV: 'And he went out to meet Asa, and said unto him, Hear ye me, Asa, and all Judah and Benjamin; The LORD is with you, while ye be with him; and if ye seek him, he will be found of you; but if ye forsake him, he will forsake you.',
+      NASB: 'And he went out to meet Asa and said to him, "Listen to me, Asa, and all Judah and Benjamin: the LORD is with you when you are with Him. And if you seek Him, He will let you find Him; but if you forsake Him, He will forsake you."',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 15:1',
+        text: 'The Spirit of God came upon Azariah the son of Oded.',
+      },
+      after: {
+        reference: '2 Chronicles 15:3',
+        text: 'For a long time Israel was without the true God, and without a teaching priest and without law.',
+      },
+    },
+  },
+  {
+    id: '2-chronicles-16-9',
+    reference: '2 Chronicles 16:9',
+    book: '2 Chronicles',
+    chapter: 16,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the eyes of the LORD run to and fro throughout the whole earth, to give strong support to those whose heart is blameless toward him.',
+      NIV: 'For the eyes of the LORD range throughout the earth to strengthen those whose hearts are fully committed to him.',
+      KJV: 'For the eyes of the LORD run to and fro throughout the whole earth, to shew himself strong in the behalf of them whose heart is perfect toward him.',
+      NASB: 'For the eyes of the LORD move to and fro throughout the earth that He may strongly support those whose heart is completely His.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 16:8',
+        text: 'Were not the Ethiopians and the Libyans a huge army with very many chariots and horsemen? Yet because you relied on the LORD, he gave them into your hand.',
+      },
+      after: {
+        reference: '2 Chronicles 16:10',
+        text: 'Then Asa was angry with the seer and put him in the stocks in prison, for he was in a rage with him because of this.',
+      },
+    },
+  },
 
   // ============ EZRA ============
   {
@@ -1507,6 +1555,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ezra 9:7',
         text: 'From the days of our fathers to this day we have been in great guilt.',
+      },
+    },
+  },
+  {
+    id: 'ezra-3-11',
+    reference: 'Ezra 3:11',
+    book: 'Ezra',
+    chapter: 3,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And they sang responsively, praising and giving thanks to the LORD, "For he is good, for his steadfast love endures forever toward Israel."',
+      NIV: 'With praise and thanksgiving they sang to the LORD: "He is good; his love toward Israel endures forever."',
+      KJV: 'And they sang together by course in praising and giving thanks unto the LORD; because he is good, for his mercy endureth for ever toward Israel.',
+      NASB: 'They sang, praising and giving thanks to the LORD, saying, "For He is good, for His lovingkindness is upon Israel forever."',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 3:10',
+        text: 'And when the builders laid the foundation of the temple of the LORD, the priests in their vestments came forward with trumpets.',
+      },
+      after: {
+        reference: 'Ezra 3:12',
+        text: 'But many of the priests and Levites and heads of fathers houses, old men who had seen the first house, wept with a loud voice.',
+      },
+    },
+  },
+  {
+    id: 'ezra-8-22',
+    reference: 'Ezra 8:22',
+    book: 'Ezra',
+    chapter: 8,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For I was ashamed to ask the king for a band of soldiers and horsemen to protect us against the enemy on our way, since we had told the king, "The hand of our God is for good on all who seek him, and the power of his wrath is against all who forsake him."',
+      NIV: 'I was ashamed to ask the king for soldiers and horsemen to protect us from enemies on the road, because we had told the king, "The gracious hand of our God is on everyone who looks to him, but his great anger is against all who forsake him."',
+      KJV: 'For I was ashamed to require of the king a band of soldiers and horsemen to help us against the enemy in the way: because we had spoken unto the king, saying, The hand of our God is upon all them for good that seek him; but his power and his wrath is against all them that forsake him.',
+      NASB: 'For I was ashamed to request from the king troops and horsemen to protect us from the enemy on the way, because we had said to the king, "The hand of our God is favorably disposed to all those who seek Him, but His power and His anger are against all those who forsake Him."',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 8:21',
+        text: 'Then I proclaimed a fast there, at the river Ahava, that we might humble ourselves before our God, to seek from him a safe journey for ourselves.',
+      },
+      after: {
+        reference: 'Ezra 8:23',
+        text: 'So we fasted and implored our God for this, and he listened to our entreaty.',
       },
     },
   },
@@ -1655,6 +1751,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Esther 6:14',
         text: 'While they were yet talking with him, the king\'s eunuchs arrived and hurried to bring Haman to the feast that Esther had prepared.',
+      },
+    },
+  },
+  {
+    id: 'esther-4-14',
+    reference: 'Esther 4:14',
+    book: 'Esther',
+    chapter: 4,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For if you keep silent at this time, relief and deliverance will rise for the Jews from another place, but you and your father\'s house will perish. And who knows whether you have not come to the kingdom for such a time as this?',
+      NIV: 'For if you remain silent at this time, relief and deliverance for the Jews will arise from another place, but you and your father\'s family will perish. And who knows but that you have come to your royal position for such a time as this?',
+      KJV: 'For if thou altogether holdest thy peace at this time, then shall there enlargement and deliverance arise to the Jews from another place; but thou and thy father\'s house shall be destroyed: and who knoweth whether thou art come to the kingdom for such a time as this?',
+      NASB: 'For if you remain silent at this time, relief and deliverance will arise for the Jews from another place and you and your father\'s house will perish. And who knows whether you have not attained royalty for such a time as this?',
+    },
+    context: {
+      before: {
+        reference: 'Esther 4:13',
+        text: 'Then Mordecai told them to reply to Esther, "Do not think to yourself that in the king\'s palace you will escape any more than all the other Jews."',
+      },
+      after: {
+        reference: 'Esther 4:15',
+        text: 'Then Esther told them to reply to Mordecai.',
+      },
+    },
+  },
+  {
+    id: 'esther-8-17',
+    reference: 'Esther 8:17',
+    book: 'Esther',
+    chapter: 8,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And in every province and in every city, wherever the king\'s command and his edict reached, there was gladness and joy among the Jews, a feast and a holiday.',
+      NIV: 'In every province and in every city to which the edict of the king came, there was joy and gladness among the Jews, with feasting and celebrating.',
+      KJV: 'And in every province, and in every city, whithersoever the king\'s commandment and his decree came, the Jews had joy and gladness, a feast and a good day.',
+      NASB: 'In each and every province and in each and every city, wherever the king\'s commandment and his decree arrived, there was gladness and joy for the Jews, a feast and a holiday.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 8:16',
+        text: 'The Jews had light and gladness and joy and honor.',
+      },
+      after: {
+        reference: 'Esther 9:1',
+        text: 'Now in the twelfth month, which is the month of Adar, on the thirteenth day of the same, when the king\'s command and edict were about to be carried out.',
       },
     },
   },
@@ -2333,6 +2477,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Song of Solomon 8:7',
         text: 'Many waters cannot quench love, neither can floods drown it.',
+      },
+    },
+  },
+  {
+    id: 'song-of-solomon-2-16',
+    reference: 'Song of Solomon 2:16',
+    book: 'Song of Solomon',
+    chapter: 2,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'My beloved is mine, and I am his; he grazes among the lilies.',
+      NIV: 'My beloved is mine and I am his; he browses among the lilies.',
+      KJV: 'My beloved is mine, and I am his: he feedeth among the lilies.',
+      NASB: 'My beloved is mine, and I am his; he pastures his flock among the lilies.',
+    },
+    context: {
+      before: {
+        reference: 'Song of Solomon 2:15',
+        text: 'Catch the foxes for us, the little foxes that spoil the vineyards, for our vineyards are in blossom.',
+      },
+      after: {
+        reference: 'Song of Solomon 2:17',
+        text: 'Until the day breathes and the shadows flee, turn, my beloved, be like a gazelle or a young stag on cleft mountains.',
+      },
+    },
+  },
+  {
+    id: 'song-of-solomon-8-7',
+    reference: 'Song of Solomon 8:7',
+    book: 'Song of Solomon',
+    chapter: 8,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Many waters cannot quench love, neither can floods drown it. If a man offered for love all the wealth of his house, he would be utterly despised.',
+      NIV: 'Many waters cannot quench love; rivers cannot sweep it away. If one were to give all the wealth of one\'s house for love, it would be utterly scorned.',
+      KJV: 'Many waters cannot quench love, neither can the floods drown it: if a man would give all the substance of his house for love, it would utterly be contemned.',
+      NASB: 'Many waters cannot quench love, nor will rivers overflow it; if a man were to give all the riches of his house for love, it would be utterly despised.',
+    },
+    context: {
+      before: {
+        reference: 'Song of Solomon 8:6',
+        text: 'Set me as a seal upon your heart, as a seal upon your arm, for love is strong as death, jealousy is fierce as the grave.',
+      },
+      after: {
+        reference: 'Song of Solomon 8:8',
+        text: 'We have a little sister, and she has no breasts. What shall we do for our sister on the day when she is spoken for?',
       },
     },
   },
