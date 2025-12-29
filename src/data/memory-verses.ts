@@ -1690,6 +1690,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'joshua-5-14',
+    reference: 'Joshua 5:14',
+    book: 'Joshua',
+    chapter: 5,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he said, "No; but I am the commander of the army of the LORD. Now I have come." And Joshua fell on his face to the earth and worshiped and said to him, "What does my lord say to his servant?"',
+      NIV: '"Neither," he replied, "but as commander of the army of the LORD I have now come." Then Joshua fell facedown to the ground in reverence, and asked him, "What message does my Lord have for his servant?"',
+      KJV: 'And he said, Nay; but as captain of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?',
+      NASB: 'He said, "No; rather I indeed come now as captain of the host of the LORD." And Joshua fell on his face to the earth, and bowed down, and said to him, "What has my lord to say to his servant?"',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 5:13',
+        text: 'When Joshua was by Jericho, he lifted up his eyes and looked, and behold, a man was standing before him with his drawn sword in his hand. And Joshua went to him and said to him, "Are you for us, or for our adversaries?"',
+      },
+      after: {
+        reference: 'Joshua 5:15',
+        text: 'And the commander of the LORD\'s army said to Joshua, "Take off your sandals from your feet, for the place where you are standing is holy." And Joshua did so.',
+      },
+    },
+  },
+  {
+    id: 'joshua-4-24',
+    reference: 'Joshua 4:24',
+    book: 'Joshua',
+    chapter: 4,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'so that all the peoples of the earth may know that the hand of the LORD is mighty, that you may fear the LORD your God forever.',
+      NIV: 'He did this so that all the peoples of the earth might know that the hand of the LORD is powerful and so that you might always fear the LORD your God.',
+      KJV: 'That all the people of the earth might know the hand of the LORD, that it is mighty: that ye might fear the LORD your God for ever.',
+      NASB: 'that all the peoples of the earth may know that the hand of the LORD is mighty, so that you may fear the LORD your God forever.',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 4:23',
+        text: 'For the LORD your God dried up the waters of the Jordan for you until you passed over, as the LORD your God did to the Red Sea, which he dried up for us until we passed over.',
+      },
+      after: {
+        reference: 'Joshua 5:1',
+        text: 'As soon as all the kings of the Amorites who were beyond the Jordan to the west, and all the kings of the Canaanites who were by the sea, heard that the LORD had dried up the waters of the Jordan for the people of Israel until they had crossed over, their hearts melted and there was no longer any spirit in them because of the people of Israel.',
+      },
+    },
+  },
 
   // ============ JUDGES ============
   {
