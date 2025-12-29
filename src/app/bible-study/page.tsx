@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import {
@@ -133,6 +133,113 @@ function formatRelativeTime(dateString: string): string {
   if (diffDays === 1) return 'Yesterday';
   if (diffDays < 7) return `${diffDays} days ago`;
   return date.toLocaleDateString();
+}
+
+// Reading Streak Section Component
+function ReadingStreakSection() {
+  const { getStreakStats, getTotalChaptersRead } = useReadingProgressStore();
+  const streakStats = getStreakStats();
+  const totalRead = getTotalChaptersRead();
+
+  // Don't show if user hasn't started reading
+  if (totalRead === 0) {
+    return null;
+  }
+
+  // Determine streak status and messaging
+  const getStreakMessage = () => {
+    if (streakStats.readToday && streakStats.currentStreak >= 7) {
+      return "Amazing dedication! Keep it up!";
+    } else if (streakStats.readToday && streakStats.currentStreak >= 3) {
+      return "You're building a great habit!";
+    } else if (streakStats.readToday) {
+      return "Great job reading today!";
+    } else if (streakStats.currentStreak > 0) {
+      return "Read today to keep your streak!";
+    } else {
+      return "Start a new streak today!";
+    }
+  };
+
+  // Get flame color based on streak
+  const getFlameColor = () => {
+    if (streakStats.currentStreak >= 30) return 'text-purple-500';
+    if (streakStats.currentStreak >= 14) return 'text-red-500';
+    if (streakStats.currentStreak >= 7) return 'text-orange-500';
+    if (streakStats.currentStreak >= 3) return 'text-amber-500';
+    return 'text-gray-400';
+  };
+
+  return (
+    <section className="mb-8">
+      <Card className="bg-gradient-to-br from-orange-500/5 via-amber-500/5 to-yellow-500/5 border-orange-500/20">
+        <CardContent className="p-4">
+          <div className="flex items-center justify-between">
+            {/* Streak Info */}
+            <div className="flex items-center gap-4">
+              <div className={`p-3 rounded-full bg-background/80 ${streakStats.readToday ? 'ring-2 ring-orange-500/50' : ''}`}>
+                <Flame className={`h-8 w-8 ${getFlameColor()} ${streakStats.currentStreak > 0 ? 'animate-pulse' : ''}`} />
+              </div>
+              <div>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl font-bold text-foreground">
+                    {streakStats.currentStreak}
+                  </span>
+                  <span className="text-sm text-muted-foreground">
+                    day{streakStats.currentStreak !== 1 ? 's' : ''} streak
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground">{getStreakMessage()}</p>
+              </div>
+            </div>
+
+            {/* Stats */}
+            <div className="hidden sm:flex items-center gap-6">
+              <div className="text-center">
+                <div className="flex items-center gap-1.5 text-amber-600 dark:text-amber-400">
+                  <Trophy className="h-4 w-4" />
+                  <span className="text-xl font-bold">{streakStats.longestStreak}</span>
+                </div>
+                <span className="text-xs text-muted-foreground">Best Streak</span>
+              </div>
+              <div className="text-center">
+                <div className="flex items-center gap-1.5 text-green-600 dark:text-green-400">
+                  <Target className="h-4 w-4" />
+                  <span className="text-xl font-bold">{streakStats.totalDaysRead}</span>
+                </div>
+                <span className="text-xs text-muted-foreground">Total Days</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Mobile stats row */}
+          <div className="flex sm:hidden items-center justify-around mt-4 pt-4 border-t border-border/50">
+            <div className="text-center">
+              <div className="flex items-center gap-1.5 text-amber-600 dark:text-amber-400">
+                <Trophy className="h-4 w-4" />
+                <span className="text-lg font-bold">{streakStats.longestStreak}</span>
+              </div>
+              <span className="text-xs text-muted-foreground">Best Streak</span>
+            </div>
+            <div className="text-center">
+              <div className="flex items-center gap-1.5 text-green-600 dark:text-green-400">
+                <Target className="h-4 w-4" />
+                <span className="text-lg font-bold">{streakStats.totalDaysRead}</span>
+              </div>
+              <span className="text-xs text-muted-foreground">Total Days</span>
+            </div>
+            <div className="text-center">
+              <div className={`flex items-center gap-1.5 ${streakStats.readToday ? 'text-green-500' : 'text-muted-foreground'}`}>
+                <div className={`w-3 h-3 rounded-full ${streakStats.readToday ? 'bg-green-500' : 'bg-muted'}`} />
+                <span className="text-sm font-medium">{streakStats.readToday ? 'Done' : 'Pending'}</span>
+              </div>
+              <span className="text-xs text-muted-foreground">Today</span>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </section>
+  );
 }
 
 // Continue Reading Section Component
@@ -295,6 +402,9 @@ export default function BibleStudyPage() {
             </CardContent>
           </Card>
         </section>
+
+        {/* Reading Streak */}
+        <ReadingStreakSection />
 
         {/* Quick Actions */}
         <section className="mb-8">

@@ -24,6 +24,14 @@ interface PlanProgress {
   currentDay: number; // Current day in the plan
 }
 
+interface StreakStats {
+  currentStreak: number;
+  longestStreak: number;
+  totalDaysRead: number;
+  readToday: boolean;
+  lastReadDate: string | null;
+}
+
 interface ReadingProgressState {
   // Chapter-level progress
   readChapters: ChapterProgress[];
@@ -50,6 +58,8 @@ interface ReadingProgressState {
   // Stats
   getTotalChaptersRead: () => number;
   getRecentReadings: (limit: number) => ChapterProgress[];
+  getStreakStats: () => StreakStats;
+  getUniqueDaysRead: () => string[];
 
   // Reset
   resetAllProgress: () => void;
@@ -213,6 +223,93 @@ export const useReadingProgressStore = create<ReadingProgressState>()(
         return [...get().readChapters]
           .sort((a, b) => new Date(b.readAt).getTime() - new Date(a.readAt).getTime())
           .slice(0, limit);
+      },
+
+      getUniqueDaysRead: () => {
+        const days = new Set<string>();
+        get().readChapters.forEach(c => {
+          // Convert to local date string (YYYY-MM-DD)
+          const date = new Date(c.readAt);
+          const dateStr = date.toISOString().split('T')[0];
+          days.add(dateStr);
+        });
+        return Array.from(days).sort();
+      },
+
+      getStreakStats: () => {
+        const uniqueDays = get().getUniqueDaysRead();
+
+        if (uniqueDays.length === 0) {
+          return {
+            currentStreak: 0,
+            longestStreak: 0,
+            totalDaysRead: 0,
+            readToday: false,
+            lastReadDate: null,
+          };
+        }
+
+        // Get today's date in YYYY-MM-DD format
+        const today = new Date();
+        const todayStr = today.toISOString().split('T')[0];
+
+        // Get yesterday's date
+        const yesterday = new Date(today);
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayStr = yesterday.toISOString().split('T')[0];
+
+        const readToday = uniqueDays.includes(todayStr);
+        const lastReadDate = uniqueDays[uniqueDays.length - 1];
+
+        // Calculate current streak
+        let currentStreak = 0;
+        const sortedDays = [...uniqueDays].sort().reverse(); // Most recent first
+
+        // Current streak starts from today or yesterday
+        if (readToday || lastReadDate === yesterdayStr) {
+          const checkDate = readToday ? today : yesterday;
+
+          for (const dayStr of sortedDays) {
+            const checkDateStr = checkDate.toISOString().split('T')[0];
+            if (dayStr === checkDateStr) {
+              currentStreak++;
+              checkDate.setDate(checkDate.getDate() - 1);
+            } else if (dayStr < checkDateStr) {
+              // Gap in dates, streak broken
+              break;
+            }
+          }
+        }
+
+        // Calculate longest streak
+        let longestStreak = 0;
+        let tempStreak = 1;
+        const sortedAsc = [...uniqueDays].sort();
+
+        for (let i = 1; i < sortedAsc.length; i++) {
+          const prevDate = new Date(sortedAsc[i - 1]);
+          const currDate = new Date(sortedAsc[i]);
+
+          // Check if dates are consecutive
+          const diffTime = currDate.getTime() - prevDate.getTime();
+          const diffDays = diffTime / (1000 * 60 * 60 * 24);
+
+          if (diffDays === 1) {
+            tempStreak++;
+          } else {
+            longestStreak = Math.max(longestStreak, tempStreak);
+            tempStreak = 1;
+          }
+        }
+        longestStreak = Math.max(longestStreak, tempStreak);
+
+        return {
+          currentStreak,
+          longestStreak,
+          totalDaysRead: uniqueDays.length,
+          readToday,
+          lastReadDate,
+        };
       },
 
       // Reset
