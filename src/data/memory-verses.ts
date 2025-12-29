@@ -273,6 +273,52 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ JUDGES ============
+  {
+    id: 'judges-2-10',
+    reference: 'Judges 2:10',
+    book: 'Judges',
+    chapter: 2,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And all that generation also were gathered to their fathers. And there arose another generation after them who did not know the LORD or the work that he had done for Israel.',
+      NIV: 'After that whole generation had been gathered to their ancestors, another generation grew up who knew neither the LORD nor what he had done for Israel.',
+      KJV: 'And also all that generation were gathered unto their fathers: and there arose another generation after them, which knew not the LORD, nor yet the works which he had done for Israel.',
+      NASB: 'All that generation also were gathered to their fathers; and there arose another generation after them who did not know the LORD, nor yet the work which He had done for Israel.',
+    },
+    context: {
+      before: {
+        reference: 'Judges 2:9',
+        text: 'And they buried him within the boundaries of his inheritance in Timnath-heres, in the hill country of Ephraim, north of the mountain of Gaash.',
+      },
+      after: {
+        reference: 'Judges 2:11',
+        text: 'And the people of Israel did what was evil in the sight of the LORD and served the Baals.',
+      },
+    },
+  },
+  {
+    id: 'judges-21-25',
+    reference: 'Judges 21:25',
+    book: 'Judges',
+    chapter: 21,
+    verse: 25,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'In those days there was no king in Israel. Everyone did what was right in his own eyes.',
+      NIV: 'In those days Israel had no king; everyone did as they saw fit.',
+      KJV: 'In those days there was no king in Israel: every man did that which was right in his own eyes.',
+      NASB: 'In those days there was no king in Israel; everyone did what was right in his own eyes.',
+    },
+    context: {
+      before: {
+        reference: 'Judges 21:24',
+        text: 'And the people of Israel departed from there at that time, every man to his tribe and family, and they went out from there every man to his inheritance.',
+      },
+    },
+  },
+
   // ============ RUTH ============
   {
     id: 'ruth-1-16',
@@ -377,6 +423,106 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ 2 KINGS ============
+  {
+    id: '2-kings-2-9',
+    reference: '2 Kings 2:9',
+    book: '2 Kings',
+    chapter: 2,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'When they had crossed, Elijah said to Elisha, "Ask what I shall do for you, before I am taken from you." And Elisha said, "Please let there be a double portion of your spirit on me."',
+      NIV: 'When they had crossed, Elijah said to Elisha, "Tell me, what can I do for you before I am taken from you?" "Let me inherit a double portion of your spirit," Elisha replied.',
+      KJV: 'And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall do for thee, before I be taken away from thee. And Elisha said, I pray thee, let a double portion of thy spirit be upon me.',
+      NASB: 'When they had crossed over, Elijah said to Elisha, "Ask what I shall do for you before I am taken from you." And Elisha said, "Please, let a double portion of your spirit be upon me."',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 2:8',
+        text: 'Then Elijah took his cloak and rolled it up and struck the water, and the water was parted to the one side and to the other, till the two of them could go over on dry ground.',
+      },
+      after: {
+        reference: '2 Kings 2:10',
+        text: 'And he said, "You have asked a hard thing; yet, if you see me as I am being taken from you, it shall be so for you."',
+      },
+    },
+  },
+  {
+    id: '2-kings-5-14',
+    reference: '2 Kings 5:14',
+    book: '2 Kings',
+    chapter: 5,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So he went down and dipped himself seven times in the Jordan, according to the word of the man of God, and his flesh was restored like the flesh of a little child, and he was clean.',
+      NIV: 'So he went down and dipped himself in the Jordan seven times, as the man of God had told him, and his flesh was restored and became clean like that of a young boy.',
+      KJV: 'Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean.',
+      NASB: 'So he went down and dipped himself seven times in the Jordan, according to the word of the man of God; and his flesh was restored like the flesh of a little child and he was clean.',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 5:13',
+        text: 'But his servants came near and said to him, "My father, it is a great word the prophet has spoken to you; will you not do it?"',
+      },
+      after: {
+        reference: '2 Kings 5:15',
+        text: 'Then he returned to the man of God, he and all his company, and he came and stood before him. And he said, "Behold, I know that there is no God in all the earth but in Israel."',
+      },
+    },
+  },
+
+  // ============ 1 CHRONICLES ============
+  {
+    id: '1-chronicles-16-11',
+    reference: '1 Chronicles 16:11',
+    book: '1 Chronicles',
+    chapter: 16,
+    verse: 11,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Seek the LORD and his strength; seek his presence continually!',
+      NIV: 'Look to the LORD and his strength; seek his face always.',
+      KJV: 'Seek the LORD and his strength, seek his face continually.',
+      NASB: 'Seek the LORD and His strength; seek His face continually.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 16:10',
+        text: 'Glory in his holy name; let the hearts of those who seek the LORD rejoice!',
+      },
+      after: {
+        reference: '1 Chronicles 16:12',
+        text: 'Remember the wondrous works that he has done, his miracles and the judgments he uttered.',
+      },
+    },
+  },
+  {
+    id: '1-chronicles-29-11',
+    reference: '1 Chronicles 29:11',
+    book: '1 Chronicles',
+    chapter: 29,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Yours, O LORD, is the greatness and the power and the glory and the victory and the majesty, for all that is in the heavens and in the earth is yours. Yours is the kingdom, O LORD, and you are exalted as head above all.',
+      NIV: 'Yours, LORD, is the greatness and the power and the glory and the majesty and the splendor, for everything in heaven and earth is yours. Yours, LORD, is the kingdom; you are exalted as head over all.',
+      KJV: 'Thine, O LORD, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heaven and in the earth is thine; thine is the kingdom, O LORD, and thou art exalted as head above all.',
+      NASB: 'Yours, O LORD, is the greatness and the power and the glory and the victory and the majesty, indeed everything that is in the heavens and the earth; Yours is the dominion, O LORD, and You exalt Yourself as head over all.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 29:10',
+        text: 'Therefore David blessed the LORD in the presence of all the assembly. And David said: "Blessed are you, O LORD, the God of Israel our father, forever and ever."',
+      },
+      after: {
+        reference: '1 Chronicles 29:12',
+        text: 'Both riches and honor come from you, and you rule over all. In your hand are power and might, and in your hand it is to make great and to give strength to all.',
+      },
+    },
+  },
+
   // ============ 2 CHRONICLES ============
   {
     id: '2-chronicles-7-14',
@@ -399,6 +545,56 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Chronicles 7:15',
         text: 'Now my eyes will be open and my ears attentive to the prayer that is made in this place.',
+      },
+    },
+  },
+
+  // ============ EZRA ============
+  {
+    id: 'ezra-7-10',
+    reference: 'Ezra 7:10',
+    book: 'Ezra',
+    chapter: 7,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For Ezra had set his heart to study the Law of the LORD, and to do it and to teach his statutes and rules in Israel.',
+      NIV: 'For Ezra had devoted himself to the study and observance of the Law of the LORD, and to teaching its decrees and laws in Israel.',
+      KJV: 'For Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments.',
+      NASB: 'For Ezra had set his heart to study the law of the LORD and to practice it, and to teach His statutes and ordinances in Israel.',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 7:9',
+        text: 'For on the first day of the first month he began to go up from Babylon, and on the first day of the fifth month he came to Jerusalem.',
+      },
+      after: {
+        reference: 'Ezra 7:11',
+        text: 'This is a copy of the letter that King Artaxerxes gave to Ezra the priest.',
+      },
+    },
+  },
+  {
+    id: 'ezra-9-6',
+    reference: 'Ezra 9:6',
+    book: 'Ezra',
+    chapter: 9,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'O my God, I am ashamed and blush to lift my face to you, my God, for our iniquities have risen higher than our heads, and our guilt has mounted up to the heavens.',
+      NIV: 'I am too ashamed and disgraced, my God, to lift up my face to you, because our sins are higher than our heads and our guilt has reached to the heavens.',
+      KJV: 'And said, O my God, I am ashamed and blush to lift up my face to thee, my God: for our iniquities are increased over our head, and our trespass is grown up unto the heavens.',
+      NASB: 'And I said, "O my God, I am ashamed and embarrassed to lift up my face to You, my God, for our iniquities have risen above our heads and our guilt has grown even to the heavens.',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 9:5',
+        text: 'And at the evening sacrifice I rose from my fasting, with my garment and my cloak torn, and fell upon my knees and spread out my hands to the LORD my God.',
+      },
+      after: {
+        reference: 'Ezra 9:7',
+        text: 'From the days of our fathers to this day we have been in great guilt.',
       },
     },
   },
@@ -855,6 +1051,56 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ SONG OF SOLOMON ============
+  {
+    id: 'song-of-solomon-2-4',
+    reference: 'Song of Solomon 2:4',
+    book: 'Song of Solomon',
+    chapter: 2,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'He brought me to the banqueting house, and his banner over me was love.',
+      NIV: 'Let him lead me to the banquet hall, and let his banner over me be love.',
+      KJV: 'He brought me to the banqueting house, and his banner over me was love.',
+      NASB: 'He has brought me to his banquet hall, and his banner over me is love.',
+    },
+    context: {
+      before: {
+        reference: 'Song of Solomon 2:3',
+        text: 'As an apple tree among the trees of the forest, so is my beloved among the young men. With great delight I sat in his shadow, and his fruit was sweet to my taste.',
+      },
+      after: {
+        reference: 'Song of Solomon 2:5',
+        text: 'Sustain me with raisins; refresh me with apples, for I am sick with love.',
+      },
+    },
+  },
+  {
+    id: 'song-of-solomon-8-6',
+    reference: 'Song of Solomon 8:6',
+    book: 'Song of Solomon',
+    chapter: 8,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Set me as a seal upon your heart, as a seal upon your arm, for love is strong as death, jealousy is fierce as the grave. Its flashes are flashes of fire, the very flame of the LORD.',
+      NIV: 'Place me like a seal over your heart, like a seal on your arm; for love is as strong as death, its jealousy unyielding as the grave. It burns like blazing fire, like a mighty flame.',
+      KJV: 'Set me as a seal upon thine heart, as a seal upon thine arm: for love is strong as death; jealousy is cruel as the grave: the coals thereof are coals of fire, which hath a most vehement flame.',
+      NASB: 'Put me like a seal over your heart, like a seal on your arm. For love is as strong as death, jealousy is as severe as Sheol; its flashes are flashes of fire, the very flame of the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Song of Solomon 8:5',
+        text: 'Who is that coming up from the wilderness, leaning on her beloved?',
+      },
+      after: {
+        reference: 'Song of Solomon 8:7',
+        text: 'Many waters cannot quench love, neither can floods drown it.',
+      },
+    },
+  },
+
   // ============ ISAIAH ============
   {
     id: 'isaiah-9-6',
@@ -1159,6 +1405,52 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ OBADIAH ============
+  {
+    id: 'obadiah-1-4',
+    reference: 'Obadiah 4',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Though you soar aloft like the eagle, though your nest is set among the stars, from there I will bring you down, declares the LORD.',
+      NIV: 'Though you soar like the eagle and make your nest among the stars, from there I will bring you down," declares the LORD.',
+      KJV: 'Though thou exalt thyself as the eagle, and though thou set thy nest among the stars, thence will I bring thee down, saith the LORD.',
+      NASB: 'Though you build high like the eagle, though you set your nest among the stars, from there I will bring you down," declares the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 3',
+        text: 'The pride of your heart has deceived you, you who live in the clefts of the rock, in your lofty dwelling.',
+      },
+      after: {
+        reference: 'Obadiah 5',
+        text: 'If thieves came to you, if plunderers came by night—how you have been destroyed!—would they not steal only enough for themselves?',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-21',
+    reference: 'Obadiah 21',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 21,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Saviors shall go up to Mount Zion to rule Mount Esau, and the kingdom shall be the LORD\'s.',
+      NIV: 'Deliverers will go up on Mount Zion to govern the mountains of Esau. And the kingdom will be the LORD\'s.',
+      KJV: 'And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD\'S.',
+      NASB: 'The deliverers will ascend Mount Zion to judge the mountain of Esau, and the kingdom will be the LORD\'S.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 20',
+        text: 'The exiles of this host of the people of Israel shall possess the land of the Canaanites as far as Zarephath.',
+      },
+    },
+  },
+
   // ============ JONAH ============
   {
     id: 'jonah-2-9',
@@ -1211,6 +1503,32 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ NAHUM ============
+  {
+    id: 'nahum-1-7',
+    reference: 'Nahum 1:7',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The LORD is good, a stronghold in the day of trouble; he knows those who take refuge in him.',
+      NIV: 'The LORD is good, a refuge in times of trouble. He cares for those who trust in him.',
+      KJV: 'The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.',
+      NASB: 'The LORD is good, a stronghold in the day of trouble, and He knows those who take refuge in Him.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:6',
+        text: 'Who can stand before his indignation? Who can endure the heat of his anger? His wrath is poured out like fire, and the rocks are broken into pieces by him.',
+      },
+      after: {
+        reference: 'Nahum 1:8',
+        text: 'But with an overflowing flood he will make a complete end of the adversaries, and will pursue his enemies into darkness.',
+      },
+    },
+  },
+
   // ============ HABAKKUK ============
   {
     id: 'habakkuk-2-4',
@@ -1259,6 +1577,32 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Zephaniah 3:18',
         text: 'I will gather those of you who mourn for the festival, so that you will no longer suffer reproach.',
+      },
+    },
+  },
+
+  // ============ HAGGAI ============
+  {
+    id: 'haggai-2-9',
+    reference: 'Haggai 2:9',
+    book: 'Haggai',
+    chapter: 2,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The latter glory of this house shall be greater than the former, says the LORD of hosts. And in this place I will give peace, declares the LORD of hosts.',
+      NIV: '"The glory of this present house will be greater than the glory of the former house," says the LORD Almighty. "And in this place I will grant peace," declares the LORD Almighty.',
+      KJV: 'The glory of this latter house shall be greater than of the former, saith the LORD of hosts: and in this place will I give peace, saith the LORD of hosts.',
+      NASB: '"The latter glory of this house will be greater than the former," says the LORD of hosts, "and in this place I will give peace," declares the LORD of hosts.',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 2:8',
+        text: 'The silver is mine, and the gold is mine, declares the LORD of hosts.',
+      },
+      after: {
+        reference: 'Haggai 2:10',
+        text: 'On the twenty-fourth day of the ninth month, in the second year of Darius, the word of the LORD came by Haggai the prophet.',
       },
     },
   },
@@ -2883,6 +3227,106 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 John 4:20',
         text: 'If anyone says, "I love God," and hates his brother, he is a liar; for he who does not love his brother whom he has seen cannot love God whom he has not seen.',
+      },
+    },
+  },
+
+  // ============ 2 JOHN ============
+  {
+    id: '2-john-1-6',
+    reference: '2 John 6',
+    book: '2 John',
+    chapter: 1,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And this is love, that we walk according to his commandments; this is the commandment, just as you have heard from the beginning, so that you should walk in it.',
+      NIV: 'And this is love: that we walk in obedience to his commands. As you have heard from the beginning, his command is that you walk in love.',
+      KJV: 'And this is love, that we walk after his commandments. This is the commandment, That, as ye have heard from the beginning, ye should walk in it.',
+      NASB: 'And this is love, that we walk according to His commandments. This is the commandment, just as you have heard from the beginning, that you should walk in it.',
+    },
+    context: {
+      before: {
+        reference: '2 John 5',
+        text: 'And now I ask you, dear lady—not as though I were writing you a new commandment, but the one we have had from the beginning—that we love one another.',
+      },
+      after: {
+        reference: '2 John 7',
+        text: 'For many deceivers have gone out into the world, those who do not confess the coming of Jesus Christ in the flesh. Such a one is the deceiver and the antichrist.',
+      },
+    },
+  },
+  {
+    id: '2-john-1-9',
+    reference: '2 John 9',
+    book: '2 John',
+    chapter: 1,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Everyone who goes on ahead and does not abide in the teaching of Christ, does not have God. Whoever abides in the teaching has both the Father and the Son.',
+      NIV: 'Anyone who runs ahead and does not continue in the teaching of Christ does not have God; whoever continues in the teaching has both the Father and the Son.',
+      KJV: 'Whosoever transgresseth, and abideth not in the doctrine of Christ, hath not God. He that abideth in the doctrine of Christ, he hath both the Father and the Son.',
+      NASB: 'Anyone who goes too far and does not abide in the teaching of Christ, does not have God; the one who abides in the teaching, he has both the Father and the Son.',
+    },
+    context: {
+      before: {
+        reference: '2 John 8',
+        text: 'Watch yourselves, so that you may not lose what we have worked for, but may win a full reward.',
+      },
+      after: {
+        reference: '2 John 10',
+        text: 'If anyone comes to you and does not bring this teaching, do not receive him into your house or give him any greeting.',
+      },
+    },
+  },
+
+  // ============ 3 JOHN ============
+  {
+    id: '3-john-1-4',
+    reference: '3 John 4',
+    book: '3 John',
+    chapter: 1,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I have no greater joy than to hear that my children are walking in the truth.',
+      NIV: 'I have no greater joy than to hear that my children are walking in the truth.',
+      KJV: 'I have no greater joy than to hear that my children walk in truth.',
+      NASB: 'I have no greater joy than this, to hear of my children walking in the truth.',
+    },
+    context: {
+      before: {
+        reference: '3 John 3',
+        text: 'For I rejoiced greatly when the brothers came and testified to your truth, as indeed you are walking in the truth.',
+      },
+      after: {
+        reference: '3 John 5',
+        text: 'Beloved, it is a faithful thing you do in all your efforts for these brothers, strangers as they are.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-11',
+    reference: '3 John 11',
+    book: '3 John',
+    chapter: 1,
+    verse: 11,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Beloved, do not imitate evil but imitate good. Whoever does good is from God; whoever does evil has not seen God.',
+      NIV: 'Dear friend, do not imitate what is evil but what is good. Anyone who does what is good is from God. Anyone who does what is evil has not seen God.',
+      KJV: 'Beloved, follow not that which is evil, but that which is good. He that doeth good is of God: but he that doeth evil hath not seen God.',
+      NASB: 'Beloved, do not imitate what is evil, but what is good. The one who does good is of God; the one who does evil has not seen God.',
+    },
+    context: {
+      before: {
+        reference: '3 John 10',
+        text: 'So if I come, I will bring up what he is doing, talking wicked nonsense against us. And not content with that, he refuses to welcome the brothers.',
+      },
+      after: {
+        reference: '3 John 12',
+        text: 'Demetrius has received a good testimony from everyone, and from the truth itself. We also add our testimony, and you know that our testimony is true.',
       },
     },
   },
