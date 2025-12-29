@@ -8956,6 +8956,45 @@ export const EPHESIANS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// PHILIPPIANS (4 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const PHILIPPIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'philippians',
+    chapter: 1,
+    title: 'To Live Is Christ',
+    summary: 'Paul and Timothy, servants of Christ Jesus, to all the saints in Christ Jesus who are at Philippi, with the overseers and deacons: Grace and peace from God our Father and the Lord Jesus Christ. Paul thanks God in all his remembrance of them, always in every prayer making his requests with joy, because of their partnership in the gospel from the first day until now. And he is sure of this, that He who began a good work in them will bring it to completion at the day of Jesus Christ. It is right for Paul to feel this way about them all, because he holds them in his heart, for they are all partakers with him of grace, both in his imprisonment and in the defense and confirmation of the gospel. Paul yearns for them all with the affection of Christ Jesus. And this is his prayer, that their love may abound more and more, with knowledge and all discernment, so that they may approve what is excellent, and so be pure and blameless for the day of Christ. Now Paul wants them to know that what has happened to him has really served to advance the gospel, so that it has become known throughout the whole imperial guard and to all the rest that his imprisonment is for Christ. Most of the brothers, having become confident in the Lord by his imprisonment, are much more bold to speak the word without fear. Some indeed preach Christ from envy and rivalry, but others from good will. What then? Only that in every way, whether in pretense or in truth, Christ is proclaimed, and in that Paul rejoices. For Paul knows that this will turn out for his deliverance through their prayers and the help of the Spirit of Jesus Christ, as it is his eager expectation and hope that he will not be at all ashamed, but that with full courage Christ will be honored in his body, whether by life or by death. For to Paul, to live is Christ, and to die is gain.',
+    keyThemes: ['Partnership in gospel', 'He who began good work', 'To live is Christ', 'To die is gain'],
+    christConnection: 'To live is Christ, to die is gain. Whether by life or death, Christ will be honored. He who began the good work will complete it at the day of Christ Jesus.'
+  },
+  {
+    bookId: 'philippians',
+    chapter: 2,
+    title: 'The Mind of Christ',
+    summary: 'So if there is any encouragement in Christ, any comfort from love, any participation in the Spirit, any affection and sympathy, complete Paul\'s joy by being of the same mind, having the same love, being in full accord and of one mind. Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others. Have this mind among yourselves, which is yours in Christ Jesus, who, though He was in the form of God, did not count equality with God a thing to be grasped, but emptied Himself, by taking the form of a servant, being born in the likeness of men. And being found in human form, He humbled Himself by becoming obedient to the point of death, even death on a cross. Therefore God has highly exalted Him and bestowed on Him the name that is above every name, so that at the name of Jesus every knee should bow, in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father. Therefore, work out your own salvation with fear and trembling, for it is God who works in you, both to will and to work for His good pleasure. Do all things without grumbling or disputing, that they may be blameless and innocent, children of God without blemish in the midst of a crooked and twisted generation, among whom they shine as lights in the world, holding fast to the word of life. Paul hopes in the Lord Jesus to send Timothy to them soon. He is genuinely concerned for their welfare. But Paul trusts in the Lord that shortly he himself will come also. He has thought it necessary to send Epaphroditus, their messenger who ministered to Paul\'s need, for he nearly died for the work of Christ.',
+    keyThemes: ['Same mind in Christ', 'Emptied Himself took form of servant', 'Every knee will bow', 'Work out salvation with fear'],
+    christConnection: 'Christ Jesus, though in the form of God, emptied Himself and became obedient to death on a cross. Therefore God exalted Him—every knee will bow and tongue confess He is Lord.'
+  },
+  {
+    bookId: 'philippians',
+    chapter: 3,
+    title: 'Knowing Christ Above All',
+    summary: 'Finally, brothers, rejoice in the Lord. To write the same things is no trouble to Paul and is safe for them. Look out for the dogs, look out for the evildoers, look out for those who mutilate the flesh. For we are the circumcision, who worship by the Spirit of God and glory in Christ Jesus and put no confidence in the flesh—though Paul himself has reason for confidence in the flesh also. If anyone else thinks he has reason for confidence in the flesh, Paul has more: circumcised on the eighth day, of the people of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; as to the law, a Pharisee; as to zeal, a persecutor of the church; as to righteousness under the law, blameless. But whatever gain he had, he counted as loss for the sake of Christ. Indeed, Paul counts everything as loss because of the surpassing worth of knowing Christ Jesus his Lord. For His sake he has suffered the loss of all things and counts them as rubbish, in order that he may gain Christ and be found in Him, not having a righteousness of his own that comes from the law, but that which comes through faith in Christ, the righteousness from God that depends on faith—that he may know Him and the power of His resurrection, and may share His sufferings, becoming like Him in His death, that by any means possible he may attain the resurrection from the dead. Not that Paul has already obtained this or is already perfect, but he presses on to make it his own, because Christ Jesus has made him his own. Brothers, he does not consider that he has made it his own. But one thing he does: forgetting what lies behind and straining forward to what lies ahead, he presses on toward the goal for the prize of the upward call of God in Christ Jesus. Our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will transform our lowly body to be like His glorious body.',
+    keyThemes: ['Surpassing worth of knowing Christ', 'Righteousness through faith', 'Press on toward goal', 'Citizenship in heaven'],
+    christConnection: 'Paul counts all as loss for the surpassing worth of knowing Christ—to gain Him, be found in Him, know His resurrection power, and await Him as Savior who will transform our bodies.'
+  },
+  {
+    bookId: 'philippians',
+    chapter: 4,
+    title: 'Rejoice in the Lord Always',
+    summary: 'Therefore, brothers, whom Paul loves and longs for, his joy and crown, stand firm thus in the Lord. He entreats Euodia and Syntyche to agree in the Lord. Yes, he asks his true companion to help these women, who have labored side by side with him in the gospel together with Clement and the rest of his fellow workers, whose names are in the book of life. Rejoice in the Lord always; again he will say, rejoice. Let your reasonableness be known to everyone. The Lord is at hand; do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus. Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things. What they have learned and received and heard and seen in Paul—practice these things, and the God of peace will be with them. Paul rejoiced in the Lord greatly that now at length they have revived their concern for him. Not that he is speaking of being in need, for he has learned in whatever situation he is to be content. He knows how to be brought low, and he knows how to abound. In any and every circumstance, he has learned the secret of facing plenty and hunger, abundance and need. He can do all things through Him who strengthens him. Yet it was kind of them to share his trouble. No church entered into partnership with him in giving and receiving except them only. Even in Thessalonica they sent help for his needs. Not that Paul seeks the gift, but he seeks the fruit that increases to their credit. And my God will supply every need of yours according to His riches in glory in Christ Jesus.',
+    keyThemes: ['Rejoice always', 'Peace surpassing understanding', 'Content in all circumstances', 'All things through Christ'],
+    christConnection: 'Rejoice in the Lord always. The peace of God guards our hearts in Christ Jesus. We can do all things through Christ who strengthens us. God supplies every need according to His riches in Christ.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9055,6 +9094,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return GALATIANS_CHAPTERS;
     case 'ephesians':
       return EPHESIANS_CHAPTERS;
+    case 'philippians':
+      return PHILIPPIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9112,4 +9153,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: '2-corinthians', bookName: '2 Corinthians', chapters: SECOND_CORINTHIANS_CHAPTERS },
   { bookId: 'galatians', bookName: 'Galatians', chapters: GALATIANS_CHAPTERS },
   { bookId: 'ephesians', bookName: 'Ephesians', chapters: EPHESIANS_CHAPTERS },
+  { bookId: 'philippians', bookName: 'Philippians', chapters: PHILIPPIANS_CHAPTERS },
 ];
