@@ -21,18 +21,13 @@ import { BIBLE_BOOK_SUMMARIES } from '@/data/bible-summaries';
 
 type SearchFilter = 'all' | 'summary' | 'themes' | 'christ';
 type TestamentFilter = 'all' | 'old' | 'new';
+type BookFilter = 'all' | string;
 
 interface SearchResult {
   chapter: ChapterSummary;
   bookName: string;
   matchType: 'summary' | 'themes' | 'christ' | 'title';
   matchedText: string;
-}
-
-// Get book name from bookId
-function getBookName(bookId: string): string {
-  const book = BIBLE_BOOK_SUMMARIES.find(b => b.id === bookId);
-  return book?.name || bookId;
 }
 
 // Get testament from bookId
@@ -174,8 +169,27 @@ export default function SearchPage() {
   const [query, setQuery] = useState('');
   const [searchFilter, setSearchFilter] = useState<SearchFilter>('all');
   const [testamentFilter, setTestamentFilter] = useState<TestamentFilter>('all');
+  const [bookFilter, setBookFilter] = useState<BookFilter>('all');
   const [expandedResults, setExpandedResults] = useState<Set<string>>(new Set());
   const [showFilters, setShowFilters] = useState(false);
+
+  // Get books filtered by testament
+  const availableBooks = useMemo(() => {
+    return BIBLE_BOOK_SUMMARIES.filter(book =>
+      testamentFilter === 'all' || book.testament === testamentFilter
+    );
+  }, [testamentFilter]);
+
+  // Reset book filter when testament changes and book is no longer available
+  const handleTestamentChange = useCallback((newTestament: TestamentFilter) => {
+    setTestamentFilter(newTestament);
+    if (bookFilter !== 'all') {
+      const book = BIBLE_BOOK_SUMMARIES.find(b => b.id === bookFilter);
+      if (book && newTestament !== 'all' && book.testament !== newTestament) {
+        setBookFilter('all');
+      }
+    }
+  }, [bookFilter]);
 
   // Perform search
   const searchResults = useMemo(() => {
@@ -187,6 +201,11 @@ export default function SearchPage() {
     for (const book of ALL_CHAPTER_SUMMARIES) {
       // Apply testament filter
       if (testamentFilter !== 'all' && getTestament(book.bookId) !== testamentFilter) {
+        continue;
+      }
+
+      // Apply book filter
+      if (bookFilter !== 'all' && book.bookId !== bookFilter) {
         continue;
       }
 
@@ -242,7 +261,7 @@ export default function SearchPage() {
     }
 
     return results;
-  }, [query, searchFilter, testamentFilter]);
+  }, [query, searchFilter, testamentFilter, bookFilter]);
 
   const toggleResult = useCallback((key: string) => {
     setExpandedResults(prev => {
@@ -259,6 +278,9 @@ export default function SearchPage() {
   const clearSearch = useCallback(() => {
     setQuery('');
     setExpandedResults(new Set());
+    setBookFilter('all');
+    setTestamentFilter('all');
+    setSearchFilter('all');
   }, []);
 
   // Suggested searches for common theological topics
@@ -359,12 +381,29 @@ export default function SearchPage() {
                       key={filter.value}
                       variant={testamentFilter === filter.value ? 'bible' : 'outline'}
                       size="sm"
-                      onClick={() => setTestamentFilter(filter.value)}
+                      onClick={() => handleTestamentChange(filter.value)}
                     >
                       {filter.label}
                     </Button>
                   ))}
                 </div>
+              </div>
+
+              {/* Book Filter */}
+              <div>
+                <label className="text-xs font-medium text-muted-foreground mb-2 block">Book</label>
+                <select
+                  value={bookFilter}
+                  onChange={(e) => setBookFilter(e.target.value)}
+                  className="w-full sm:w-auto px-3 py-2 rounded-lg border bg-background text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-bible"
+                >
+                  <option value="all">All Books ({availableBooks.length})</option>
+                  {availableBooks.map((book) => (
+                    <option key={book.id} value={book.id}>
+                      {book.name}
+                    </option>
+                  ))}
+                </select>
               </div>
             </div>
           )}
