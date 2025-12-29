@@ -2655,54 +2655,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
-    id: '2-samuel-7-16',
-    reference: '2 Samuel 7:16',
-    book: '2 Samuel',
-    chapter: 7,
-    verse: 16,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'And your house and your kingdom shall be made sure forever before me. Your throne shall be established forever.',
-      NIV: 'Your house and your kingdom will endure forever before me; your throne will be established forever.',
-      KJV: 'And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.',
-      NASB: 'Your house and your kingdom shall endure before Me forever; your throne shall be established forever.',
-    },
-    context: {
-      before: {
-        reference: '2 Samuel 7:15',
-        text: 'But my steadfast love will not depart from him, as I took it from Saul, whom I put away from before you.',
-      },
-      after: {
-        reference: '2 Samuel 7:17',
-        text: 'In accordance with all these words, and in accordance with all this vision, Nathan spoke to David.',
-      },
-    },
-  },
-  {
-    id: '2-samuel-12-13',
-    reference: '2 Samuel 12:13',
-    book: '2 Samuel',
-    chapter: 12,
-    verse: 13,
-    difficulty: 'easy',
-    translations: {
-      ESV: 'David said to Nathan, "I have sinned against the LORD." And Nathan said to David, "The LORD also has put away your sin; you shall not die."',
-      NIV: 'Then David said to Nathan, "I have sinned against the LORD." Nathan replied, "The LORD has taken away your sin. You are not going to die."',
-      KJV: 'And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.',
-      NASB: 'Then David said to Nathan, "I have sinned against the LORD." And Nathan said to David, "The LORD also has taken away your sin; you shall not die."',
-    },
-    context: {
-      before: {
-        reference: '2 Samuel 12:12',
-        text: 'For you did it secretly, but I will do this thing before all Israel and before the sun.',
-      },
-      after: {
-        reference: '2 Samuel 12:14',
-        text: 'Nevertheless, because by this deed you have utterly scorned the LORD, the child who is born to you shall die.',
-      },
-    },
-  },
-  {
     id: '2-samuel-22-31',
     reference: '2 Samuel 22:31',
     book: '2 Samuel',
@@ -2747,30 +2699,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Samuel 7:23',
         text: 'And who is like your people Israel, the one nation on earth whom God went to redeem to be his people?',
-      },
-    },
-  },
-  {
-    id: '2-samuel-22-31',
-    reference: '2 Samuel 22:31',
-    book: '2 Samuel',
-    chapter: 22,
-    verse: 31,
-    difficulty: 'easy',
-    translations: {
-      ESV: 'This God—his way is perfect; the word of the LORD proves true; he is a shield for all those who take refuge in him.',
-      NIV: 'As for God, his way is perfect: The LORD\'s word is flawless; he shields all who take refuge in him.',
-      KJV: 'As for God, his way is perfect; the word of the LORD is tried: he is a buckler to all them that trust in him.',
-      NASB: 'As for God, His way is blameless; the word of the LORD is tested; He is a shield to all who take refuge in Him.',
-    },
-    context: {
-      before: {
-        reference: '2 Samuel 22:30',
-        text: 'For by you I can run against a troop, and by my God I can leap over a wall.',
-      },
-      after: {
-        reference: '2 Samuel 22:32',
-        text: 'For who is God, but the LORD? And who is a rock, except our God?',
       },
     },
   },
@@ -3771,54 +3699,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
-  {
-    id: '2-chronicles-7-14',
-    reference: '2 Chronicles 7:14',
-    book: '2 Chronicles',
-    chapter: 7,
-    verse: 14,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'If my people who are called by my name humble themselves, and pray and seek my face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and heal their land.',
-      NIV: 'If my people, who are called by my name, will humble themselves and pray and seek my face and turn from their wicked ways, then I will hear from heaven, and I will forgive their sin and will heal their land.',
-      KJV: 'If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land.',
-      NASB: 'And My people who are called by My name humble themselves and pray and seek My face and turn from their wicked ways, then I will hear from heaven, will forgive their sin and will heal their land.',
-    },
-    context: {
-      before: {
-        reference: '2 Chronicles 7:13',
-        text: 'When I shut up the heavens so that there is no rain, or command the locust to devour the land, or send pestilence among my people.',
-      },
-      after: {
-        reference: '2 Chronicles 7:15',
-        text: 'Now my eyes will be open and my ears attentive to the prayer that is made in this place.',
-      },
-    },
-  },
-  {
-    id: '2-chronicles-20-12',
-    reference: '2 Chronicles 20:12',
-    book: '2 Chronicles',
-    chapter: 20,
-    verse: 12,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'O our God, will you not execute judgment on them? For we are powerless against this great horde that is coming against us. We do not know what to do, but our eyes are on you.',
-      NIV: 'Our God, will you not judge them? For we have no power to face this vast army that is attacking us. We do not know what to do, but our eyes are on you.',
-      KJV: 'O our God, wilt thou not judge them? for we have no might against this great company that cometh against us; neither know we what to do: but our eyes are upon thee.',
-      NASB: 'O our God, will You not judge them? For we are powerless before this great multitude who are coming against us; nor do we know what to do, but our eyes are on You.',
-    },
-    context: {
-      before: {
-        reference: '2 Chronicles 20:11',
-        text: 'Behold, they reward us by coming to drive us out of your possession, which you have given us to inherit.',
-      },
-      after: {
-        reference: '2 Chronicles 20:13',
-        text: 'Meanwhile all Judah stood before the LORD, with their little ones, their wives, and their children.',
-      },
-    },
-  },
 
   // ============ EZRA ============
   {
@@ -4015,50 +3895,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
-    id: 'ezra-8-22',
-    reference: 'Ezra 8:22',
+    id: 'ezra-1-5',
+    reference: 'Ezra 1:5',
     book: 'Ezra',
-    chapter: 8,
-    verse: 22,
+    chapter: 1,
+    verse: 5,
     difficulty: 'medium',
     translations: {
-      ESV: 'For I was ashamed to ask the king for a band of soldiers and horsemen to protect us against the enemy on our way, since we had told the king, "The hand of our God is for good on all who seek him, and the power of his wrath is against all who forsake him."',
-      NIV: 'I was ashamed to ask the king for soldiers and horsemen to protect us from enemies on the road, because we had told the king, "The gracious hand of our God is on everyone who looks to him, but his great anger is against all who forsake him."',
-      KJV: 'For I was ashamed to require of the king a band of soldiers and horsemen to help us against the enemy in the way: because we had spoken unto the king, saying, The hand of our God is upon all them for good that seek him; but his power and his wrath is against all them that forsake him.',
-      NASB: 'For I was ashamed to request from the king troops and horsemen to protect us from the enemy on the way, because we had said to the king, "The hand of our God is favorably disposed to all those who seek Him, but His power and His anger are against all those who forsake Him."',
+      ESV: 'Then rose up the heads of the fathers\' houses of Judah and Benjamin, and the priests and the Levites, everyone whose spirit God had stirred to go up to rebuild the house of the LORD that is in Jerusalem.',
+      NIV: 'Then the family heads of Judah and Benjamin, and the priests and Levites—everyone whose heart God had moved—prepared to go up and build the house of the LORD in Jerusalem.',
+      KJV: 'Then rose up the chief of the fathers of Judah and Benjamin, and the priests, and the Levites, with all them whose spirit God had raised, to go up to build the house of the LORD which is in Jerusalem.',
+      NASB: 'Then the heads of fathers\' households of Judah and Benjamin and the priests and the Levites arose, even everyone whose spirit God had stirred to go up and rebuild the house of the LORD which is in Jerusalem.',
     },
     context: {
       before: {
-        reference: 'Ezra 8:21',
-        text: 'Then I proclaimed a fast there, at the river Ahava, that we might humble ourselves before our God, to seek from him a safe journey for ourselves, our children, and all our goods.',
+        reference: 'Ezra 1:4',
+        text: 'And let each survivor, in whatever place he sojourns, be assisted by the men of his place with silver and gold, with goods and with beasts.',
       },
       after: {
-        reference: 'Ezra 8:23',
-        text: 'So we fasted and implored our God for this, and he listened to our entreaty.',
+        reference: 'Ezra 1:6',
+        text: 'And all who were about them aided them with vessels of silver, with gold, with goods, with beasts, and with costly wares.',
       },
     },
   },
   {
-    id: 'ezra-3-11',
-    reference: 'Ezra 3:11',
+    id: 'ezra-8-23',
+    reference: 'Ezra 8:23',
     book: 'Ezra',
-    chapter: 3,
-    verse: 11,
+    chapter: 8,
+    verse: 23,
     difficulty: 'easy',
     translations: {
-      ESV: 'And they sang responsively, praising and giving thanks to the LORD, "For he is good, for his steadfast love endures forever toward Israel." And all the people shouted with a great shout when they praised the LORD, because the foundation of the house of the LORD was laid.',
-      NIV: 'With praise and thanksgiving they sang to the LORD: "He is good; his love toward Israel endures forever." And all the people gave a great shout of praise to the LORD, because the foundation of the house of the LORD was laid.',
-      KJV: 'And they sang together by course in praising and giving thanks unto the LORD; because he is good, for his mercy endureth for ever toward Israel. And all the people shouted with a great shout, when they praised the LORD, because the foundation of the house of the LORD was laid.',
-      NASB: 'They sang, praising and giving thanks to the LORD, saying, "For He is good, for His lovingkindness is upon Israel forever." And all the people shouted with a great shout when they praised the LORD because the foundation of the house of the LORD was laid.',
+      ESV: 'So we fasted and implored our God for this, and he listened to our entreaty.',
+      NIV: 'So we fasted and petitioned our God about this, and he answered our prayer.',
+      KJV: 'So we fasted and besought our God for this: and he was intreated of us.',
+      NASB: 'So we fasted and sought our God concerning this matter, and He listened to our entreaty.',
     },
     context: {
       before: {
-        reference: 'Ezra 3:10',
-        text: 'And when the builders laid the foundation of the temple of the LORD, the priests in their vestments came forward with trumpets, and the Levites, the sons of Asaph, with cymbals.',
+        reference: 'Ezra 8:22',
+        text: 'For I was ashamed to ask the king for a band of soldiers and horsemen to protect us against the enemy on our way.',
       },
       after: {
-        reference: 'Ezra 3:12',
-        text: 'But many of the priests and Levites and heads of fathers\' houses, old men who had seen the first house, wept with a loud voice when they saw the foundation of this house being laid.',
+        reference: 'Ezra 8:24',
+        text: 'Then I set apart twelve of the leading priests: Sherebiah, Hashabiah, and ten of their kinsmen with them.',
       },
     },
   },
@@ -4162,30 +4042,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
   // Additional Nehemiah verses
   {
-    id: 'nehemiah-1-5',
-    reference: 'Nehemiah 1:5',
-    book: 'Nehemiah',
-    chapter: 1,
-    verse: 5,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'And I said, "O LORD God of heaven, the great and awesome God who keeps covenant and steadfast love with those who love him and keep his commandments."',
-      NIV: 'Then I said: "LORD, the God of heaven, the great and awesome God, who keeps his covenant of love with those who love him and keep his commandments."',
-      KJV: 'And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth covenant and mercy for them that love him and observe his commandments.',
-      NASB: 'And I said, "I beseech You, O LORD God of heaven, the great and awesome God, who preserves the covenant and lovingkindness for those who love Him and keep His commandments."',
-    },
-    context: {
-      before: {
-        reference: 'Nehemiah 1:4',
-        text: 'As soon as I heard these words I sat down and wept and mourned for days, and I continued fasting and praying before the God of heaven.',
-      },
-      after: {
-        reference: 'Nehemiah 1:6',
-        text: 'Let your ear be attentive and your eyes open, to hear the prayer of your servant.',
-      },
-    },
-  },
-  {
     id: 'nehemiah-6-16',
     reference: 'Nehemiah 6:16',
     book: 'Nehemiah',
@@ -4210,30 +4066,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
-    id: 'nehemiah-9-6',
-    reference: 'Nehemiah 9:6',
-    book: 'Nehemiah',
-    chapter: 9,
-    verse: 6,
-    difficulty: 'hard',
-    translations: {
-      ESV: 'You are the LORD, you alone. You have made heaven, the heaven of heavens, with all their host, the earth and all that is on it, the seas and all that is in them; and you preserve all of them; and the host of heaven worships you.',
-      NIV: 'You alone are the LORD. You made the heavens, even the highest heavens, and all their starry host, the earth and all that is on it, the seas and all that is in them. You give life to everything, and the multitudes of heaven worship you.',
-      KJV: 'Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee.',
-      NASB: 'You alone are the LORD. You have made the heavens, the heaven of heavens with all their host, the earth and all that is on it, the seas and all that is in them. You give life to all of them and the heavenly host bows down before You.',
-    },
-    context: {
-      before: {
-        reference: 'Nehemiah 9:5',
-        text: 'Stand up and bless the LORD your God from everlasting to everlasting.',
-      },
-      after: {
-        reference: 'Nehemiah 9:7',
-        text: 'You are the LORD, the God who chose Abram and brought him out of Ur of the Chaldeans.',
-      },
-    },
-  },
-  {
     id: 'nehemiah-2-20',
     reference: 'Nehemiah 2:20',
     book: 'Nehemiah',
@@ -4254,54 +4086,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Nehemiah 3:1',
         text: 'Then Eliashib the high priest rose up with his brothers the priests, and they built the Sheep Gate.',
-      },
-    },
-  },
-  {
-    id: 'nehemiah-1-5',
-    reference: 'Nehemiah 1:5',
-    book: 'Nehemiah',
-    chapter: 1,
-    verse: 5,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'And I said, "O LORD God of heaven, the great and awesome God who keeps covenant and steadfast love with those who love him and keep his commandments.',
-      NIV: 'Then I said: "LORD, the God of heaven, the great and awesome God, who keeps his covenant of love with those who love him and keep his commandments.',
-      KJV: 'And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth covenant and mercy for them that love him and observe his commandments.',
-      NASB: 'I said, "I beseech You, O LORD God of heaven, the great and awesome God, who preserves the covenant and lovingkindness for those who love Him and keep His commandments.',
-    },
-    context: {
-      before: {
-        reference: 'Nehemiah 1:4',
-        text: 'As soon as I heard these words I sat down and wept and mourned for days, and I continued fasting and praying before the God of heaven.',
-      },
-      after: {
-        reference: 'Nehemiah 1:6',
-        text: 'Let your ear be attentive and your eyes open, to hear the prayer of your servant that I now pray before you day and night for the people of Israel your servants.',
-      },
-    },
-  },
-  {
-    id: 'nehemiah-4-14',
-    reference: 'Nehemiah 4:14',
-    book: 'Nehemiah',
-    chapter: 4,
-    verse: 14,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'And I looked and arose and said to the nobles and to the officials and to the rest of the people, "Do not be afraid of them. Remember the Lord, who is great and awesome, and fight for your brothers, your sons, your daughters, your wives, and your homes."',
-      NIV: 'After I looked things over, I stood up and said to the nobles, the officials and the rest of the people, "Don\'t be afraid of them. Remember the Lord, who is great and awesome, and fight for your families, your sons and your daughters, your wives and your homes."',
-      KJV: 'And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of the people, Be not ye afraid of them: remember the Lord, which is great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses.',
-      NASB: 'When I saw their fear, I rose and spoke to the nobles, the officials and the rest of the people: "Do not be afraid of them; remember the Lord who is great and awesome, and fight for your brothers, your sons, your daughters, your wives and your houses."',
-    },
-    context: {
-      before: {
-        reference: 'Nehemiah 4:13',
-        text: 'So in the lowest parts of the space behind the wall, in open places, I stationed the people by their clans, with their swords, their spears, and their bows.',
-      },
-      after: {
-        reference: 'Nehemiah 4:15',
-        text: 'When our enemies heard that it was known to us and that God had frustrated their plan, we all returned to the wall, each to his work.',
       },
     },
   },
@@ -4352,30 +4136,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Esther 6:14',
         text: 'While they were yet talking with him, the king\'s eunuchs arrived and hurried to bring Haman to the feast that Esther had prepared.',
-      },
-    },
-  },
-  {
-    id: 'esther-4-14',
-    reference: 'Esther 4:14',
-    book: 'Esther',
-    chapter: 4,
-    verse: 14,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'For if you keep silent at this time, relief and deliverance will rise for the Jews from another place, but you and your father\'s house will perish. And who knows whether you have not come to the kingdom for such a time as this?',
-      NIV: 'For if you remain silent at this time, relief and deliverance for the Jews will arise from another place, but you and your father\'s family will perish. And who knows but that you have come to your royal position for such a time as this?',
-      KJV: 'For if thou altogether holdest thy peace at this time, then shall there enlargement and deliverance arise to the Jews from another place; but thou and thy father\'s house shall be destroyed: and who knoweth whether thou art come to the kingdom for such a time as this?',
-      NASB: 'For if you remain silent at this time, relief and deliverance will arise for the Jews from another place and you and your father\'s house will perish. And who knows whether you have not attained royalty for such a time as this?',
-    },
-    context: {
-      before: {
-        reference: 'Esther 4:13',
-        text: 'Then Mordecai told them to reply to Esther, "Do not think to yourself that in the king\'s palace you will escape any more than all the other Jews."',
-      },
-      after: {
-        reference: 'Esther 4:15',
-        text: 'Then Esther told them to reply to Mordecai.',
       },
     },
   },
@@ -4493,54 +4253,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Esther 10:2',
         text: 'And all the acts of his power and might, and the full account of the high honor of Mordecai, to which the king advanced him.',
-      },
-    },
-  },
-  {
-    id: 'esther-4-16',
-    reference: 'Esther 4:16',
-    book: 'Esther',
-    chapter: 4,
-    verse: 16,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'Go, gather all the Jews to be found in Susa, and hold a fast on my behalf, and do not eat or drink for three days, night or day. I and my young women will also fast as you do. Then I will go to the king, though it is against the law, and if I perish, I perish.',
-      NIV: 'Go, gather together all the Jews who are in Susa, and fast for me. Do not eat or drink for three days, night or day. I and my attendants will fast as you do. When this is done, I will go to the king, even though it is against the law. And if I perish, I perish.',
-      KJV: 'Go, gather together all the Jews that are present in Shushan, and fast ye for me, and neither eat nor drink three days, night or day: I also and my maidens will fast likewise; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.',
-      NASB: 'Go, assemble all the Jews who are found in Susa, and fast for me; do not eat or drink for three days, night or day. I and my maidens also will fast in the same way. And thus I will go in to the king, which is not according to the law; and if I perish, I perish.',
-    },
-    context: {
-      before: {
-        reference: 'Esther 4:15',
-        text: 'Then Esther told them to reply to Mordecai.',
-      },
-      after: {
-        reference: 'Esther 4:17',
-        text: 'So Mordecai went away and did everything as Esther had ordered him.',
-      },
-    },
-  },
-  {
-    id: 'esther-6-13',
-    reference: 'Esther 6:13',
-    book: 'Esther',
-    chapter: 6,
-    verse: 13,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'And Haman told his wife Zeresh and all his friends everything that had happened to him. Then his wise men and his wife Zeresh said to him, "If Mordecai, before whom you have begun to fall, is of the Jewish people, you will not overcome him but will surely fall before him."',
-      NIV: 'And Haman told his wife Zeresh and all his friends everything that had happened to him. His advisers and his wife Zeresh said to him, "Since Mordecai, before whom your downfall has started, is of Jewish origin, you cannot stand against him—you will surely come to ruin!"',
-      KJV: 'And Haman told Zeresh his wife and all his friends every thing that had befallen him. Then said his wise men and Zeresh his wife unto him, If Mordecai be of the seed of the Jews, before whom thou hast begun to fall, thou shalt not prevail against him, but shalt surely fall before him.',
-      NASB: 'Haman recounted to Zeresh his wife and all his friends everything that had happened to him. Then his wise men and Zeresh his wife said to him, "If Mordecai, before whom you have begun to fall, is of Jewish origin, you will not overcome him, but will surely fall before him."',
-    },
-    context: {
-      before: {
-        reference: 'Esther 6:12',
-        text: 'Then Mordecai returned to the king\'s gate. But Haman hurried to his house, mourning and with his head covered.',
-      },
-      after: {
-        reference: 'Esther 6:14',
-        text: 'While they were yet talking with him, the king\'s eunuchs arrived and hurried to bring Haman to the feast that Esther had prepared.',
       },
     },
   },
@@ -5885,6 +5597,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'ecclesiastes-7-2',
+    reference: 'Ecclesiastes 7:2',
+    book: 'Ecclesiastes',
+    chapter: 7,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'It is better to go to the house of mourning than to go to the house of feasting, for this is the end of all mankind, and the living will lay it to heart.',
+      NIV: 'It is better to go to a house of mourning than to go to a house of feasting, for death is the destiny of everyone; the living should take this to heart.',
+      KJV: 'It is better to go to the house of mourning, than to go to the house of feasting: for that is the end of all men; and the living will lay it to his heart.',
+      NASB: 'It is better to go to a house of mourning than to go to a house of feasting, because that is the end of every man, and the living takes it to heart.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 7:1',
+        text: 'A good name is better than precious ointment, and the day of death than the day of birth.',
+      },
+      after: {
+        reference: 'Ecclesiastes 7:3',
+        text: 'Sorrow is better than laughter, for by sadness of face the heart is made glad.',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-3-11',
+    reference: 'Ecclesiastes 3:11',
+    book: 'Ecclesiastes',
+    chapter: 3,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He has made everything beautiful in its time. Also, he has put eternity into man\'s heart, yet so that he cannot find out what God has done from the beginning to the end.',
+      NIV: 'He has made everything beautiful in its time. He has also set eternity in the human heart; yet no one can fathom what God has done from beginning to end.',
+      KJV: 'He hath made every thing beautiful in his time: also he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end.',
+      NASB: 'He has made everything appropriate in its time. He has also set eternity in their heart, yet so that man will not find out the work which God has done from the beginning even to the end.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 3:10',
+        text: 'I have seen the business that God has given to the children of man to be busy with.',
+      },
+      after: {
+        reference: 'Ecclesiastes 3:12',
+        text: 'I perceived that there is nothing better for them than to be joyful and to do good as long as they live.',
+      },
+    },
+  },
 
   // ============ SONG OF SOLOMON ============
   {
@@ -6542,78 +6302,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   {
-    id: 'jeremiah-17-9',
-    reference: 'Jeremiah 17:9',
-    book: 'Jeremiah',
-    chapter: 17,
-    verse: 9,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'The heart is deceitful above all things, and desperately sick; who can understand it?',
-      NIV: 'The heart is deceitful above all things and beyond cure. Who can understand it?',
-      KJV: 'The heart is deceitful above all things, and desperately wicked: who can know it?',
-      NASB: 'The heart is more deceitful than all else and is desperately sick; who can understand it?',
-    },
-    context: {
-      before: {
-        reference: 'Jeremiah 17:8',
-        text: 'He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes.',
-      },
-      after: {
-        reference: 'Jeremiah 17:10',
-        text: 'I the LORD search the heart and test the mind, to give every man according to his ways, according to the fruit of his deeds.',
-      },
-    },
-  },
-  {
-    id: 'jeremiah-31-33',
-    reference: 'Jeremiah 31:33',
-    book: 'Jeremiah',
-    chapter: 31,
-    verse: 33,
-    difficulty: 'hard',
-    translations: {
-      ESV: 'For this is the covenant that I will make with the house of Israel after those days, declares the LORD: I will put my law within them, and I will write it on their hearts. And I will be their God, and they shall be my people.',
-      NIV: '"This is the covenant I will make with the people of Israel after that time," declares the LORD. "I will put my law in their minds and write it on their hearts. I will be their God, and they will be my people."',
-      KJV: 'But this shall be the covenant that I will make with the house of Israel; After those days, saith the LORD, I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people.',
-      NASB: '"But this is the covenant which I will make with the house of Israel after those days," declares the LORD, "I will put My law within them and on their heart I will write it; and I will be their God, and they shall be My people."',
-    },
-    context: {
-      before: {
-        reference: 'Jeremiah 31:32',
-        text: 'Not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt.',
-      },
-      after: {
-        reference: 'Jeremiah 31:34',
-        text: 'And no longer shall each one teach his neighbor and each his brother, saying, "Know the LORD," for they shall all know me.',
-      },
-    },
-  },
-  {
-    id: 'jeremiah-1-5',
-    reference: 'Jeremiah 1:5',
-    book: 'Jeremiah',
-    chapter: 1,
-    verse: 5,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'Before I formed you in the womb I knew you, and before you were born I consecrated you; I appointed you a prophet to the nations.',
-      NIV: 'Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations.',
-      KJV: 'Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.',
-      NASB: 'Before I formed you in the womb I knew you, and before you were born I consecrated you; I have appointed you a prophet to the nations.',
-    },
-    context: {
-      before: {
-        reference: 'Jeremiah 1:4',
-        text: 'Now the word of the LORD came to me, saying,',
-      },
-      after: {
-        reference: 'Jeremiah 1:6',
-        text: 'Then I said, "Ah, Lord GOD! Behold, I do not know how to speak, for I am only a youth."',
-      },
-    },
-  },
-  {
     id: 'jeremiah-17-7',
     reference: 'Jeremiah 17:7',
     book: 'Jeremiah',
@@ -6831,6 +6519,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'lamentations-3-32-33',
+    reference: 'Lamentations 3:32-33',
+    book: 'Lamentations',
+    chapter: 3,
+    verse: 32,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But, though he cause grief, he will have compassion according to the abundance of his steadfast love; for he does not afflict from his heart or grieve the children of men.',
+      NIV: 'Though he brings grief, he will show compassion, so great is his unfailing love. For he does not willingly bring affliction or grief to anyone.',
+      KJV: 'But though he cause grief, yet will he have compassion according to the multitude of his mercies. For he doth not afflict willingly nor grieve the children of men.',
+      NASB: 'For if He causes grief, then He will have compassion according to His abundant lovingkindness. For He does not afflict willingly or grieve the sons of men.',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 3:31',
+        text: 'For the Lord will not cast off forever.',
+      },
+      after: {
+        reference: 'Lamentations 3:34',
+        text: 'To crush underfoot all the prisoners of the earth.',
+      },
+    },
+  },
+  {
+    id: 'lamentations-3-22-23',
+    reference: 'Lamentations 3:22-23',
+    book: 'Lamentations',
+    chapter: 3,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.',
+      NIV: 'Because of the LORD\'s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.',
+      KJV: 'It is of the LORD\'s mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.',
+      NASB: 'The LORD\'s lovingkindnesses indeed never cease, for His compassions never fail. They are new every morning; great is Your faithfulness.',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 3:21',
+        text: 'But this I call to mind, and therefore I have hope.',
+      },
+      after: {
+        reference: 'Lamentations 3:24',
+        text: '"The LORD is my portion," says my soul, "therefore I will hope in him."',
+      },
+    },
+  },
 
   // ============ EZEKIEL ============
   {
@@ -7022,6 +6758,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ezekiel 11:20',
         text: 'that they may walk in my statutes and keep my rules and obey them. And they shall be my people, and I will be their God.',
+      },
+    },
+  },
+  {
+    id: 'ezekiel-37-3-4',
+    reference: 'Ezekiel 37:3-4',
+    book: 'Ezekiel',
+    chapter: 37,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he said to me, "Son of man, can these bones live?" And I answered, "O Lord GOD, you know." Then he said to me, "Prophesy over these bones, and say to them, O dry bones, hear the word of the LORD."',
+      NIV: 'He asked me, "Son of man, can these bones live?" I said, "Sovereign LORD, you alone know." Then he said to me, "Prophesy to these bones and say to them, \'Dry bones, hear the word of the LORD!\'"',
+      KJV: 'And he said unto me, Son of man, can these bones live? And I answered, O Lord GOD, thou knowest. Again he said unto me, Prophesy upon these bones, and say unto them, O ye dry bones, hear the word of the LORD.',
+      NASB: 'He said to me, "Son of man, can these bones live?" And I answered, "O Lord GOD, You know." Again He said to me, "Prophesy over these bones and say to them, \'O dry bones, hear the word of the LORD.\'"',
+    },
+    context: {
+      before: {
+        reference: 'Ezekiel 37:2',
+        text: 'And he led me around among them, and behold, there were very many on the surface of the valley, and behold, they were very dry.',
+      },
+      after: {
+        reference: 'Ezekiel 37:5',
+        text: 'Thus says the Lord GOD to these bones: Behold, I will cause breath to enter you, and you shall live.',
+      },
+    },
+  },
+  {
+    id: 'ezekiel-18-23',
+    reference: 'Ezekiel 18:23',
+    book: 'Ezekiel',
+    chapter: 18,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Have I any pleasure in the death of the wicked, declares the Lord GOD, and not rather that he should turn from his way and live?',
+      NIV: 'Do I take any pleasure in the death of the wicked? declares the Sovereign LORD. Rather, am I not pleased when they turn from their ways and live?',
+      KJV: 'Have I any pleasure at all that the wicked should die? saith the Lord GOD: and not that he should return from his ways, and live?',
+      NASB: 'Do I have any pleasure in the death of the wicked, declares the Lord GOD, rather than that he should turn from his ways and live?',
+    },
+    context: {
+      before: {
+        reference: 'Ezekiel 18:22',
+        text: 'None of the transgressions that he has committed shall be remembered against him; for the righteousness that he has done he shall live.',
+      },
+      after: {
+        reference: 'Ezekiel 18:24',
+        text: 'But when a righteous person turns away from his righteousness and does injustice and does the same abominations that the wicked person does, shall he live?',
       },
     },
   },
@@ -7462,6 +7246,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'hosea-2-19-20',
+    reference: 'Hosea 2:19-20',
+    book: 'Hosea',
+    chapter: 2,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will betroth you to me forever. I will betroth you to me in righteousness and in justice, in steadfast love and in mercy. I will betroth you to me in faithfulness. And you shall know the LORD.',
+      NIV: 'I will betroth you to me forever; I will betroth you in righteousness and justice, in love and compassion. I will betroth you in faithfulness, and you will acknowledge the LORD.',
+      KJV: 'And I will betroth thee unto me for ever; yea, I will betroth thee unto me in righteousness, and in judgment, and in lovingkindness, and in mercies. I will even betroth thee unto me in faithfulness: and thou shalt know the LORD.',
+      NASB: 'I will betroth you to Me forever; yes, I will betroth you to Me in righteousness and in justice, in lovingkindness and in compassion, and I will betroth you to Me in faithfulness. Then you will know the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 2:18',
+        text: 'And I will make for them a covenant on that day with the beasts of the field, the birds of the heavens, and the creeping things of the ground.',
+      },
+      after: {
+        reference: 'Hosea 2:21',
+        text: 'And in that day I will answer, declares the LORD, I will answer the heavens, and they shall answer the earth.',
+      },
+    },
+  },
+  {
+    id: 'hosea-11-8',
+    reference: 'Hosea 11:8',
+    book: 'Hosea',
+    chapter: 11,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'How can I give you up, O Ephraim? How can I hand you over, O Israel? How can I make you like Admah? How can I treat you like Zeboiim? My heart recoils within me; my compassion grows warm and tender.',
+      NIV: 'How can I give you up, Ephraim? How can I hand you over, Israel? How can I treat you like Admah? How can I make you like Zeboyim? My heart is changed within me; all my compassion is aroused.',
+      KJV: 'How shall I give thee up, Ephraim? how shall I deliver thee, Israel? how shall I make thee as Admah? how shall I set thee as Zeboim? mine heart is turned within me, my repentings are kindled together.',
+      NASB: 'How can I give you up, O Ephraim? How can I surrender you, O Israel? How can I make you like Admah? How can I treat you like Zeboiim? My heart is turned over within Me, all My compassions are kindled.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 11:7',
+        text: 'My people are bent on turning away from me, and though they call out to the Most High, he shall not raise them up at all.',
+      },
+      after: {
+        reference: 'Hosea 11:9',
+        text: 'I will not execute my burning anger; I will not again destroy Ephraim; for I am God and not a man, the Holy One in your midst, and I will not come in wrath.',
+      },
+    },
+  },
 
   // ============ JOEL ============
   {
@@ -7605,54 +7437,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Joel 2:26',
         text: 'You shall eat in plenty and be satisfied, and praise the name of the LORD your God, who has dealt wondrously with you.',
-      },
-    },
-  },
-  {
-    id: 'joel-2-28',
-    reference: 'Joel 2:28',
-    book: 'Joel',
-    chapter: 2,
-    verse: 28,
-    difficulty: 'medium',
-    translations: {
-      ESV: '"And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy, your old men shall dream dreams, and your young men shall see visions."',
-      NIV: '"And afterward, I will pour out my Spirit on all people. Your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions."',
-      KJV: 'And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions.',
-      NASB: '"It will come about after this that I will pour out My Spirit on all mankind; and your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions."',
-    },
-    context: {
-      before: {
-        reference: 'Joel 2:27',
-        text: 'You shall know that I am in the midst of Israel, and that I am the LORD your God and there is none else.',
-      },
-      after: {
-        reference: 'Joel 2:29',
-        text: 'Even on the male and female servants in those days I will pour out my Spirit.',
-      },
-    },
-  },
-  {
-    id: 'joel-3-16',
-    reference: 'Joel 3:16',
-    book: 'Joel',
-    chapter: 3,
-    verse: 16,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'The LORD roars from Zion, and utters his voice from Jerusalem, and the heavens and the earth quake. But the LORD is a refuge to his people, a stronghold to the people of Israel.',
-      NIV: 'The LORD will roar from Zion and thunder from Jerusalem; the earth and the heavens will tremble. But the LORD will be a refuge for his people, a stronghold for the people of Israel.',
-      KJV: 'The LORD also shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of his people, and the strength of the children of Israel.',
-      NASB: 'The LORD roars from Zion and utters His voice from Jerusalem, and the heavens and the earth tremble. But the LORD is a refuge for His people and a stronghold to the sons of Israel.',
-    },
-    context: {
-      before: {
-        reference: 'Joel 3:15',
-        text: 'The sun and the moon are darkened, and the stars withdraw their shining.',
-      },
-      after: {
-        reference: 'Joel 3:17',
-        text: 'So you shall know that I am the LORD your God, who dwells in Zion, my holy mountain.',
       },
     },
   },
@@ -7802,54 +7586,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
-  {
-    id: 'amos-3-7',
-    reference: 'Amos 3:7',
-    book: 'Amos',
-    chapter: 3,
-    verse: 7,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'For the Lord GOD does nothing without revealing his secret to his servants the prophets.',
-      NIV: 'Surely the Sovereign LORD does nothing without revealing his plan to his servants the prophets.',
-      KJV: 'Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets.',
-      NASB: 'Surely the Lord GOD does nothing unless He reveals His secret counsel to His servants the prophets.',
-    },
-    context: {
-      before: {
-        reference: 'Amos 3:6',
-        text: 'Is a trumpet blown in a city, and the people are not afraid? Does disaster come to a city, unless the LORD has done it?',
-      },
-      after: {
-        reference: 'Amos 3:8',
-        text: 'The lion has roared; who will not fear? The Lord GOD has spoken; who can but prophesy?',
-      },
-    },
-  },
-  {
-    id: 'amos-4-12',
-    reference: 'Amos 4:12',
-    book: 'Amos',
-    chapter: 4,
-    verse: 12,
-    difficulty: 'medium',
-    translations: {
-      ESV: '"Therefore thus I will do to you, O Israel; because I will do this to you, prepare to meet your God, O Israel!"',
-      NIV: '"Therefore this is what I will do to you, Israel, and because I will do this to you, Israel, prepare to meet your God."',
-      KJV: 'Therefore thus will I do unto thee, O Israel: and because I will do this unto thee, prepare to meet thy God, O Israel.',
-      NASB: '"Therefore thus I will do to you, O Israel; because I will do this to you, prepare to meet your God, O Israel."',
-    },
-    context: {
-      before: {
-        reference: 'Amos 4:11',
-        text: 'I overthrew some of you, as when God overthrew Sodom and Gomorrah, and you were as a brand plucked out of the burning.',
-      },
-      after: {
-        reference: 'Amos 4:13',
-        text: 'For behold, he who forms the mountains and creates the wind, and declares to man what is his thought.',
-      },
-    },
-  },
 
   // ============ OBADIAH ============
   {
@@ -7992,54 +7728,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
-  {
-    id: 'obadiah-1-17',
-    reference: 'Obadiah 17',
-    book: 'Obadiah',
-    chapter: 1,
-    verse: 17,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'But in Mount Zion there shall be those who escape, and it shall be holy, and the house of Jacob shall possess their own possessions.',
-      NIV: 'But on Mount Zion will be deliverance; it will be holy, and Jacob will possess his inheritance.',
-      KJV: 'But upon mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions.',
-      NASB: 'But on Mount Zion there will be those who escape, and it will be holy. And the house of Jacob will possess their possessions.',
-    },
-    context: {
-      before: {
-        reference: 'Obadiah 16',
-        text: 'For as you have drunk on my holy mountain, so all the nations shall drink continually.',
-      },
-      after: {
-        reference: 'Obadiah 18',
-        text: 'The house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau stubble.',
-      },
-    },
-  },
-  {
-    id: 'obadiah-1-21',
-    reference: 'Obadiah 21',
-    book: 'Obadiah',
-    chapter: 1,
-    verse: 21,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'Saviors shall go up to Mount Zion to rule Mount Esau, and the kingdom shall be the LORD\'s.',
-      NIV: 'Deliverers will go up on Mount Zion to govern the mountains of Esau. And the kingdom will be the LORD\'s.',
-      KJV: 'And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD\'s.',
-      NASB: 'The deliverers will ascend Mount Zion to judge the mountain of Esau, and the kingdom will be the LORD\'s.',
-    },
-    context: {
-      before: {
-        reference: 'Obadiah 20',
-        text: 'The exiles of this host of the people of Israel shall possess the land of the Canaanites as far as Zarephath.',
-      },
-      after: {
-        reference: 'Obadiah 15',
-        text: 'For the day of the LORD is near upon all the nations. As you have done, it shall be done to you.',
-      },
-    },
-  },
 
   // ============ JONAH ============
   {
@@ -8135,54 +7823,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Jonah 4:3',
         text: 'Therefore now, O LORD, please take my life from me, for it is better for me to die than to live.',
-      },
-    },
-  },
-  {
-    id: 'jonah-2-9',
-    reference: 'Jonah 2:9',
-    book: 'Jonah',
-    chapter: 2,
-    verse: 9,
-    difficulty: 'easy',
-    translations: {
-      ESV: 'But I with the voice of thanksgiving will sacrifice to you; what I have vowed I will pay. Salvation belongs to the LORD!',
-      NIV: 'But I, with shouts of grateful praise, will sacrifice to you. What I have vowed I will make good. I will say, \'Salvation comes from the LORD.\'',
-      KJV: 'But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD.',
-      NASB: 'But I will sacrifice to You with the voice of thanksgiving. That which I have vowed I will pay. Salvation is from the LORD.',
-    },
-    context: {
-      before: {
-        reference: 'Jonah 2:8',
-        text: 'Those who pay regard to vain idols forsake their hope of steadfast love.',
-      },
-      after: {
-        reference: 'Jonah 2:10',
-        text: 'And the LORD spoke to the fish, and it vomited Jonah out upon the dry land.',
-      },
-    },
-  },
-  {
-    id: 'jonah-3-10',
-    reference: 'Jonah 3:10',
-    book: 'Jonah',
-    chapter: 3,
-    verse: 10,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it.',
-      NIV: 'When God saw what they did and how they turned from their evil ways, he relented and did not bring on them the destruction he had threatened.',
-      KJV: 'And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.',
-      NASB: 'When God saw their deeds, that they turned from their wicked way, then God relented concerning the calamity which He had declared He would bring upon them. And He did not do it.',
-    },
-    context: {
-      before: {
-        reference: 'Jonah 3:9',
-        text: 'Who knows? God may turn and relent and turn from his fierce anger, so that we may not perish.',
-      },
-      after: {
-        reference: 'Jonah 4:1',
-        text: 'But it displeased Jonah exceedingly, and he was angry.',
       },
     },
   },
@@ -8714,54 +8354,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
-  {
-    id: 'nahum-1-3',
-    reference: 'Nahum 1:3',
-    book: 'Nahum',
-    chapter: 1,
-    verse: 3,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'The LORD is slow to anger and great in power, and the LORD will by no means clear the guilty. His way is in whirlwind and storm, and the clouds are the dust of his feet.',
-      NIV: 'The LORD is slow to anger but great in power; the LORD will not leave the guilty unpunished. His way is in the whirlwind and the storm, and clouds are the dust of his feet.',
-      KJV: 'The LORD is slow to anger, and great in power, and will not at all acquit the wicked: the LORD hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.',
-      NASB: 'The LORD is slow to anger and great in power, and the LORD will by no means leave the guilty unpunished. In whirlwind and storm is His way, and clouds are the dust beneath His feet.',
-    },
-    context: {
-      before: {
-        reference: 'Nahum 1:2',
-        text: 'The LORD is a jealous and avenging God; the LORD is avenging and wrathful.',
-      },
-      after: {
-        reference: 'Nahum 1:4',
-        text: 'He rebukes the sea and makes it dry; he dries up all the rivers.',
-      },
-    },
-  },
-  {
-    id: 'nahum-1-7',
-    reference: 'Nahum 1:7',
-    book: 'Nahum',
-    chapter: 1,
-    verse: 7,
-    difficulty: 'easy',
-    translations: {
-      ESV: 'The LORD is good, a stronghold in the day of trouble; he knows those who take refuge in him.',
-      NIV: 'The LORD is good, a refuge in times of trouble. He cares for those who trust in him.',
-      KJV: 'The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.',
-      NASB: 'The LORD is good, a stronghold in the day of trouble, and He knows those who take refuge in Him.',
-    },
-    context: {
-      before: {
-        reference: 'Nahum 1:6',
-        text: 'Who can stand before his indignation? Who can endure the heat of his anger?',
-      },
-      after: {
-        reference: 'Nahum 1:8',
-        text: 'But with an overflowing flood he will make a complete end of the adversaries.',
-      },
-    },
-  },
 
   // ============ HABAKKUK ============
   {
@@ -9095,78 +8687,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
-    id: 'zephaniah-3-17',
-    reference: 'Zephaniah 3:17',
-    book: 'Zephaniah',
-    chapter: 3,
-    verse: 17,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'The LORD your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.',
-      NIV: 'The LORD your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing.',
-      KJV: 'The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.',
-      NASB: 'The LORD your God is in your midst, a victorious warrior. He will exult over you with joy, He will be quiet in His love, He will rejoice over you with shouts of joy.',
-    },
-    context: {
-      before: {
-        reference: 'Zephaniah 3:16',
-        text: 'On that day it shall be said to Jerusalem: "Fear not, O Zion; let not your hands grow weak."',
-      },
-      after: {
-        reference: 'Zephaniah 3:18',
-        text: 'I will gather those of you who mourn for the festival, so that you will no longer suffer reproach.',
-      },
-    },
-  },
-  {
-    id: 'zephaniah-1-7',
-    reference: 'Zephaniah 1:7',
-    book: 'Zephaniah',
-    chapter: 1,
-    verse: 7,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'Be silent before the Lord GOD! For the day of the LORD is near; the LORD has prepared a sacrifice and consecrated his guests.',
-      NIV: 'Be silent before the Sovereign LORD, for the day of the LORD is near. The LORD has prepared a sacrifice; he has consecrated those he has invited.',
-      KJV: 'Hold thy peace at the presence of the Lord GOD: for the day of the LORD is at hand: for the LORD hath prepared a sacrifice, he hath bid his guests.',
-      NASB: 'Be silent before the Lord GOD! For the day of the LORD is near, for the LORD has prepared a sacrifice, He has consecrated His guests.',
-    },
-    context: {
-      before: {
-        reference: 'Zephaniah 1:6',
-        text: 'those who have turned back from following the LORD, who do not seek the LORD or inquire of him.',
-      },
-      after: {
-        reference: 'Zephaniah 1:8',
-        text: 'And on the day of the LORD\'s sacrifice— "I will punish the officials and the king\'s sons."',
-      },
-    },
-  },
-  {
-    id: 'zephaniah-3-9',
-    reference: 'Zephaniah 3:9',
-    book: 'Zephaniah',
-    chapter: 3,
-    verse: 9,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'For at that time I will change the speech of the peoples to a pure speech, that all of them may call upon the name of the LORD and serve him with one accord.',
-      NIV: 'Then I will purify the lips of the peoples, that all of them may call on the name of the LORD and serve him shoulder to shoulder.',
-      KJV: 'For then will I turn to the people a pure language, that they may all call upon the name of the LORD, to serve him with one consent.',
-      NASB: 'For then I will give to the peoples purified lips, that all of them may call on the name of the LORD, to serve Him shoulder to shoulder.',
-    },
-    context: {
-      before: {
-        reference: 'Zephaniah 3:8',
-        text: 'Therefore wait for me, declares the LORD, for the day when I rise up to seize the prey.',
-      },
-      after: {
-        reference: 'Zephaniah 3:10',
-        text: 'From beyond the rivers of Cush my worshipers, the daughter of my dispersed ones, shall bring my offering.',
-      },
-    },
-  },
-  {
     id: 'zephaniah-3-12',
     reference: 'Zephaniah 3:12',
     book: 'Zephaniah',
@@ -9356,30 +8876,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
-  {
-    id: 'haggai-2-9',
-    reference: 'Haggai 2:9',
-    book: 'Haggai',
-    chapter: 2,
-    verse: 9,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'The latter glory of this house shall be greater than the former, says the LORD of hosts. And in this place I will give peace, declares the LORD of hosts.',
-      NIV: 'The glory of this present house will be greater than the glory of the former house, says the LORD Almighty. And in this place I will grant peace, declares the LORD Almighty.',
-      KJV: 'The glory of this latter house shall be greater than of the former, saith the LORD of hosts: and in this place will I give peace, saith the LORD of hosts.',
-      NASB: 'The latter glory of this house will be greater than the former, says the LORD of hosts, and in this place I will give peace, declares the LORD of hosts.',
-    },
-    context: {
-      before: {
-        reference: 'Haggai 2:8',
-        text: 'The silver is mine, and the gold is mine, declares the LORD of hosts.',
-      },
-      after: {
-        reference: 'Haggai 2:10',
-        text: 'On the twenty-fourth day of the ninth month, in the second year of Darius.',
-      },
-    },
-  },
 
   // ============ ZECHARIAH ============
   {
@@ -9475,78 +8971,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Zechariah 14:1',
         text: 'Behold, a day is coming for the LORD, when the spoil taken from you will be divided in your midst.',
-      },
-    },
-  },
-  {
-    id: 'zechariah-4-6',
-    reference: 'Zechariah 4:6',
-    book: 'Zechariah',
-    chapter: 4,
-    verse: 6,
-    difficulty: 'easy',
-    translations: {
-      ESV: 'Then he said to me, "This is the word of the LORD to Zerubbabel: Not by might, nor by power, but by my Spirit, says the LORD of hosts."',
-      NIV: 'So he said to me, "This is the word of the LORD to Zerubbabel: \'Not by might nor by power, but by my Spirit,\' says the LORD Almighty."',
-      KJV: 'Then he answered and spake unto me, saying, This is the word of the LORD unto Zerubbabel, saying, Not by might, nor by power, but by my spirit, saith the LORD of hosts.',
-      NASB: 'Then he said to me, "This is the word of the LORD to Zerubbabel saying, \'Not by might nor by power, but by My Spirit,\' says the LORD of hosts."',
-    },
-    context: {
-      before: {
-        reference: 'Zechariah 4:5',
-        text: 'Then the angel who talked with me answered and said to me, "Do you not know what these are?" I said, "No, my lord."',
-      },
-      after: {
-        reference: 'Zechariah 4:7',
-        text: 'Who are you, O great mountain? Before Zerubbabel you shall become a plain.',
-      },
-    },
-  },
-  {
-    id: 'zechariah-9-9',
-    reference: 'Zechariah 9:9',
-    book: 'Zechariah',
-    chapter: 9,
-    verse: 9,
-    difficulty: 'hard',
-    translations: {
-      ESV: 'Rejoice greatly, O daughter of Zion! Shout aloud, O daughter of Jerusalem! Behold, your king is coming to you; righteous and having salvation is he, humble and mounted on a donkey, on a colt, the foal of a donkey.',
-      NIV: 'Rejoice greatly, Daughter Zion! Shout, Daughter Jerusalem! See, your king comes to you, righteous and victorious, lowly and riding on a donkey, on a colt, the foal of a donkey.',
-      KJV: 'Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass, and upon a colt the foal of an ass.',
-      NASB: 'Rejoice greatly, O daughter of Zion! Shout in triumph, O daughter of Jerusalem! Behold, your king is coming to you; He is just and endowed with salvation, humble, and mounted on a donkey, even on a colt, the foal of a donkey.',
-    },
-    context: {
-      before: {
-        reference: 'Zechariah 9:8',
-        text: 'Then I will encamp at my house as a guard, so that none shall march to and fro.',
-      },
-      after: {
-        reference: 'Zechariah 9:10',
-        text: 'I will cut off the chariot from Ephraim and the war horse from Jerusalem; and the battle bow shall be cut off.',
-      },
-    },
-  },
-  {
-    id: 'zechariah-12-10',
-    reference: 'Zechariah 12:10',
-    book: 'Zechariah',
-    chapter: 12,
-    verse: 10,
-    difficulty: 'hard',
-    translations: {
-      ESV: 'And I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and pleas for mercy, so that, when they look on me, on him whom they have pierced, they shall mourn for him, as one mourns for an only child.',
-      NIV: 'And I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and supplication. They will look on me, the one they have pierced, and they will mourn for him as one mourns for an only child.',
-      KJV: 'And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son.',
-      NASB: 'I will pour out on the house of David and on the inhabitants of Jerusalem, the Spirit of grace and of supplication, so that they will look on Me whom they have pierced; and they will mourn for Him, as one mourns for an only son.',
-    },
-    context: {
-      before: {
-        reference: 'Zechariah 12:9',
-        text: 'And on that day I will seek to destroy all the nations that come against Jerusalem.',
-      },
-      after: {
-        reference: 'Zechariah 12:11',
-        text: 'On that day the mourning in Jerusalem will be as great as the mourning for Hadad-rimmon in the plain of Megiddo.',
       },
     },
   },
@@ -10246,30 +9670,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
-  {
-    id: 'mark-1-15',
-    reference: 'Mark 1:15',
-    book: 'Mark',
-    chapter: 1,
-    verse: 15,
-    difficulty: 'easy',
-    translations: {
-      ESV: 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.',
-      NIV: 'The time has come," he said. "The kingdom of God has come near. Repent and believe the good news!',
-      KJV: 'And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.',
-      NASB: 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.',
-    },
-    context: {
-      before: {
-        reference: 'Mark 1:14',
-        text: 'Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God.',
-      },
-      after: {
-        reference: 'Mark 1:16',
-        text: 'Passing alongside the Sea of Galilee, he saw Simon and Andrew the brother of Simon casting a net into the sea.',
-      },
-    },
-  },
   {
     id: 'mark-8-36',
     reference: 'Mark 8:36',
@@ -16263,30 +15663,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 John 5:14',
         text: 'And this is the confidence that we have toward him, that if we ask anything according to his will he hears us.',
-      },
-    },
-  },
-  {
-    id: '1-john-2-15',
-    reference: '1 John 2:15',
-    book: '1 John',
-    chapter: 2,
-    verse: 15,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in him.',
-      NIV: 'Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them.',
-      KJV: 'Love not the world, neither the things that are in the world. If any man love the world, the love of the Father is not in him.',
-      NASB: 'Do not love the world nor the things in the world. If anyone loves the world, the love of the Father is not in him.',
-    },
-    context: {
-      before: {
-        reference: '1 John 2:14',
-        text: 'I write to you, fathers, because you know him who is from the beginning.',
-      },
-      after: {
-        reference: '1 John 2:16',
-        text: 'For all that is in the world—the desires of the flesh and the desires of the eyes and pride of life—is not from the Father but is from the world.',
       },
     },
   },
