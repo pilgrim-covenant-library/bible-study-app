@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import {
@@ -183,6 +183,20 @@ export default function BibleStudyPage() {
                   <div>
                     <div className="font-medium">Start with Genesis</div>
                     <div className="text-sm text-muted-foreground">Begin at the beginning</div>
+                  </div>
+                  <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
+                </CardContent>
+              </Card>
+            </Link>
+            <Link href="/bible-study/plans">
+              <Card className="cursor-pointer hover:shadow-md transition-all hover:-translate-y-0.5">
+                <CardContent className="p-4 flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-blue-500/10">
+                    <Calendar className="h-5 w-5 text-blue-500" />
+                  </div>
+                  <div>
+                    <div className="font-medium">Reading Plans</div>
+                    <div className="text-sm text-muted-foreground">Structured Bible reading</div>
                   </div>
                   <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
                 </CardContent>
