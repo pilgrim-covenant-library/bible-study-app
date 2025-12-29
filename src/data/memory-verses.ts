@@ -3731,6 +3731,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'job-1-22',
+    reference: 'Job 1:22',
+    book: 'Job',
+    chapter: 1,
+    verse: 22,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'In all this Job did not sin or charge God with wrong.',
+      NIV: 'In all this, Job did not sin by charging God with wrongdoing.',
+      KJV: 'In all this Job sinned not, nor charged God foolishly.',
+      NASB: 'Through all this Job did not sin nor did he blame God.',
+    },
+    context: {
+      before: {
+        reference: 'Job 1:21',
+        text: 'And he said, "Naked I came from my mother\'s womb, and naked shall I return. The LORD gave, and the LORD has taken away; blessed be the name of the LORD."',
+      },
+      after: {
+        reference: 'Job 2:1',
+        text: 'Again there was a day when the sons of God came to present themselves before the LORD, and Satan also came among them to present himself before the LORD.',
+      },
+    },
+  },
+  {
+    id: 'job-2-10',
+    reference: 'Job 2:10',
+    book: 'Job',
+    chapter: 2,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But he said to her, "You speak as one of the foolish women would speak. Shall we receive good from God, and shall we not receive evil?" In all this Job did not sin with his lips.',
+      NIV: 'He replied, "You are talking like a foolish woman. Shall we accept good from God, and not trouble?" In all this, Job did not sin in what he said.',
+      KJV: 'But he said unto her, Thou speakest as one of the foolish women speaketh. What? shall we receive good at the hand of God, and shall we not receive evil? In all this did not Job sin with his lips.',
+      NASB: 'But he said to her, "You speak as one of the foolish women speaks. Shall we actually accept good from God but not accept adversity?" In all this Job did not sin with his lips.',
+    },
+    context: {
+      before: {
+        reference: 'Job 2:9',
+        text: 'Then his wife said to him, "Do you still hold fast your integrity? Curse God and die."',
+      },
+      after: {
+        reference: 'Job 2:11',
+        text: 'Now when Job\'s three friends heard of all this evil that had come upon him, they came each from his own place.',
+      },
+    },
+  },
+  {
+    id: 'job-40-4',
+    reference: 'Job 40:4',
+    book: 'Job',
+    chapter: 40,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Behold, I am of small account; what shall I answer you? I lay my hand on my mouth.',
+      NIV: 'I am unworthy—how can I reply to you? I put my hand over my mouth.',
+      KJV: 'Behold, I am vile; what shall I answer thee? I will lay mine hand upon my mouth.',
+      NASB: 'Behold, I am insignificant; what can I reply to You? I lay my hand on my mouth.',
+    },
+    context: {
+      before: {
+        reference: 'Job 40:3',
+        text: 'Then Job answered the LORD and said:',
+      },
+      after: {
+        reference: 'Job 40:5',
+        text: 'I have spoken once, and I will not answer; twice, but I will proceed no further.',
+      },
+    },
+  },
+  {
+    id: 'job-42-2',
+    reference: 'Job 42:2',
+    book: 'Job',
+    chapter: 42,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I know that you can do all things, and that no purpose of yours can be thwarted.',
+      NIV: 'I know that you can do all things; no purpose of yours can be thwarted.',
+      KJV: 'I know that thou canst do every thing, and that no thought can be withholden from thee.',
+      NASB: 'I know that You can do all things, and that no purpose of Yours can be thwarted.',
+    },
+    context: {
+      before: {
+        reference: 'Job 42:1',
+        text: 'Then Job answered the LORD and said:',
+      },
+      after: {
+        reference: 'Job 42:3',
+        text: '"Who is this that hides counsel without knowledge?" Therefore I have uttered what I did not understand, things too wonderful for me, which I did not know.',
+      },
+    },
+  },
 
   // ============ PSALMS ============
   {
@@ -10157,6 +10253,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Corinthians 15:5',
         text: 'and that he appeared to Cephas, then to the twelve.',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-3-16',
+    reference: '1 Corinthians 3:16',
+    book: '1 Corinthians',
+    chapter: 3,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Do you not know that you are God\'s temple and that God\'s Spirit dwells in you?',
+      NIV: 'Don\'t you know that you yourselves are God\'s temple and that God\'s Spirit dwells in your midst?',
+      KJV: 'Know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?',
+      NASB: 'Do you not know that you are a temple of God and that the Spirit of God dwells in you?',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 3:15',
+        text: 'If anyone\'s work is burned up, he will suffer loss, though he himself will be saved, but only as through fire.',
+      },
+      after: {
+        reference: '1 Corinthians 3:17',
+        text: 'If anyone destroys God\'s temple, God will destroy him. For God\'s temple is holy, and you are that temple.',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-6-20',
+    reference: '1 Corinthians 6:20',
+    book: '1 Corinthians',
+    chapter: 6,
+    verse: 20,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'for you were bought with a price. So glorify God in your body.',
+      NIV: 'you were bought at a price. Therefore honor God with your bodies.',
+      KJV: 'For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God\'s.',
+      NASB: 'For you have been bought with a price: therefore glorify God in your body.',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 6:19',
+        text: 'Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own,',
+      },
+      after: {
+        reference: '1 Corinthians 7:1',
+        text: 'Now concerning the matters about which you wrote: "It is good for a man not to have sexual relations with a woman."',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-13-13',
+    reference: '1 Corinthians 13:13',
+    book: '1 Corinthians',
+    chapter: 13,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'So now faith, hope, and love abide, these three; but the greatest of these is love.',
+      NIV: 'And now these three remain: faith, hope and love. But the greatest of these is love.',
+      KJV: 'And now abideth faith, hope, charity, these three; but the greatest of these is charity.',
+      NASB: 'But now faith, hope, love, abide these three; but the greatest of these is love.',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 13:12',
+        text: 'For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.',
+      },
+      after: {
+        reference: '1 Corinthians 14:1',
+        text: 'Pursue love, and earnestly desire the spiritual gifts, especially that you may prophesy.',
+      },
+    },
+  },
+  {
+    id: '1-corinthians-15-22',
+    reference: '1 Corinthians 15:22',
+    book: '1 Corinthians',
+    chapter: 15,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For as in Adam all die, so also in Christ shall all be made alive.',
+      NIV: 'For as in Adam all die, so in Christ all will be made alive.',
+      KJV: 'For as in Adam all die, even so in Christ shall all be made alive.',
+      NASB: 'For as in Adam all die, so also in Christ all will be made alive.',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 15:21',
+        text: 'For as by a man came death, by a man has come also the resurrection of the dead.',
+      },
+      after: {
+        reference: '1 Corinthians 15:23',
+        text: 'But each in his own order: Christ the firstfruits, then at his coming those who belong to Christ.',
       },
     },
   },
