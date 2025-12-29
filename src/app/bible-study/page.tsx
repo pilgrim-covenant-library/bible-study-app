@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle, Lightbulb, Goal, Plus, Check, Minus, Settings2 } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle, Lightbulb, Goal, Plus, Check, Settings2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
@@ -711,6 +711,253 @@ function RandomChapterCard() {
   );
 }
 
+// Reading Goals Section Component
+function ReadingGoalsSection() {
+  const { goals, setGoal, removeGoal, hasActiveGoals } = useReadingGoalsStore();
+  const { readChapters, getTotalChaptersRead } = useReadingProgressStore();
+  const [showSetup, setShowSetup] = useState(false);
+  const [editingPeriod, setEditingPeriod] = useState<GoalPeriod | null>(null);
+  const [customValue, setCustomValue] = useState<number>(0);
+
+  const totalRead = getTotalChaptersRead();
+  const activeGoals = goals.filter(g => g.isActive);
+
+  // Calculate progress for each goal
+  const goalProgressData = useMemo(() => {
+    return activeGoals.map(goal => ({
+      goal,
+      progress: calculateGoalProgress(goal, readChapters),
+    }));
+  }, [activeGoals, readChapters]);
+
+  // Get color based on progress
+  const getProgressColor = (percentage: number, isComplete: boolean) => {
+    if (isComplete) return 'text-green-500';
+    if (percentage >= 75) return 'text-emerald-500';
+    if (percentage >= 50) return 'text-yellow-500';
+    if (percentage >= 25) return 'text-orange-500';
+    return 'text-red-400';
+  };
+
+  const getProgressBgColor = (percentage: number, isComplete: boolean) => {
+    if (isComplete) return 'from-green-400 to-emerald-500';
+    if (percentage >= 75) return 'from-emerald-400 to-green-500';
+    if (percentage >= 50) return 'from-yellow-400 to-amber-500';
+    if (percentage >= 25) return 'from-orange-400 to-amber-500';
+    return 'from-red-400 to-orange-500';
+  };
+
+  const handleSetGoal = (period: GoalPeriod, value: number) => {
+    setGoal(period, value);
+    setEditingPeriod(null);
+    setCustomValue(0);
+  };
+
+  // If no goals and haven't started reading, show intro
+  if (!hasActiveGoals() && totalRead === 0) {
+    return null;
+  }
+
+  // Show setup UI
+  if (showSetup || (!hasActiveGoals() && totalRead > 0)) {
+    return (
+      <section className="mb-8">
+        <Card className="bg-gradient-to-br from-cyan-500/5 via-teal-500/5 to-emerald-500/5 border-cyan-500/20">
+          <CardContent className="p-4">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2">
+                <div className="p-2 rounded-full bg-cyan-500/10">
+                  <Goal className="h-5 w-5 text-cyan-500" />
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold">Set a Reading Goal</h2>
+                  <p className="text-xs text-muted-foreground">Track your Bible reading progress</p>
+                </div>
+              </div>
+              {hasActiveGoals() && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => setShowSetup(false)}
+                  className="text-muted-foreground"
+                >
+                  <X className="h-4 w-4" />
+                </Button>
+              )}
+            </div>
+
+            <div className="grid sm:grid-cols-3 gap-4">
+              {(['daily', 'weekly', 'monthly'] as GoalPeriod[]).map((period) => {
+                const existingGoal = goals.find(g => g.period === period);
+                const isEditing = editingPeriod === period;
+                const suggestions = getSuggestedGoals(period);
+
+                return (
+                  <div
+                    key={period}
+                    className="p-3 rounded-lg bg-background/50 border border-border/50"
+                  >
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="font-medium text-sm">{getGoalPeriodLabel(period)}</span>
+                      {existingGoal && (
+                        <button
+                          onClick={() => removeGoal(period)}
+                          className="p-1 rounded hover:bg-muted text-muted-foreground"
+                          title="Remove goal"
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      )}
+                    </div>
+
+                    {isEditing ? (
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2">
+                          <input
+                            type="number"
+                            min="1"
+                            max="200"
+                            value={customValue || ''}
+                            onChange={(e) => setCustomValue(parseInt(e.target.value) || 0)}
+                            className="w-full px-2 py-1 text-sm rounded border border-border bg-background"
+                            placeholder="Enter chapters"
+                            autoFocus
+                          />
+                          <Button
+                            size="sm"
+                            variant="ghost"
+                            onClick={() => {
+                              if (customValue > 0) {
+                                handleSetGoal(period, customValue);
+                              }
+                            }}
+                            disabled={customValue <= 0}
+                            className="h-8 w-8 p-0"
+                          >
+                            <Check className="h-4 w-4" />
+                          </Button>
+                        </div>
+                        <div className="flex flex-wrap gap-1">
+                          {suggestions.map((val) => (
+                            <button
+                              key={val}
+                              onClick={() => handleSetGoal(period, val)}
+                              className="px-2 py-0.5 text-xs rounded bg-muted hover:bg-muted/80 transition-colors"
+                            >
+                              {val}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    ) : existingGoal ? (
+                      <div className="flex items-center justify-between">
+                        <span className="text-lg font-bold text-foreground">
+                          {existingGoal.targetChapters}
+                        </span>
+                        <span className="text-xs text-muted-foreground">
+                          {getGoalPeriodDescription(period)}
+                        </span>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={() => {
+                          setEditingPeriod(period);
+                          setCustomValue(suggestions[0]);
+                        }}
+                        className="w-full py-2 text-sm text-center text-muted-foreground hover:text-foreground border border-dashed border-border/50 rounded hover:bg-muted/50 transition-colors flex items-center justify-center gap-1"
+                      >
+                        <Plus className="h-3 w-3" />
+                        Set goal
+                      </button>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </CardContent>
+        </Card>
+      </section>
+    );
+  }
+
+  // Show progress view
+  return (
+    <section className="mb-8">
+      <Card className="bg-gradient-to-br from-cyan-500/5 via-teal-500/5 to-emerald-500/5 border-cyan-500/20">
+        <CardContent className="p-4">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <div className="p-2 rounded-full bg-cyan-500/10">
+                <Goal className="h-5 w-5 text-cyan-500" />
+              </div>
+              <h2 className="text-lg font-semibold">Reading Goals</h2>
+            </div>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowSetup(true)}
+              className="h-8 w-8 p-0 text-muted-foreground hover:text-foreground"
+              title="Edit goals"
+            >
+              <Settings2 className="h-4 w-4" />
+            </Button>
+          </div>
+
+          <div className="grid sm:grid-cols-3 gap-4">
+            {goalProgressData.map(({ goal, progress }) => {
+              const pace = getRecommendedDailyPace(progress);
+
+              return (
+                <div
+                  key={goal.id}
+                  className="p-3 rounded-lg bg-background/50 border border-border/50"
+                >
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="font-medium text-sm">{getGoalPeriodLabel(goal.period)}</span>
+                    {progress.isComplete && (
+                      <span className="flex items-center gap-1 text-xs text-green-500">
+                        <Check className="h-3 w-3" />
+                        Done!
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="flex items-baseline gap-2 mb-2">
+                    <span className={`text-2xl font-bold ${getProgressColor(progress.percentage, progress.isComplete)}`}>
+                      {progress.chaptersRead}
+                    </span>
+                    <span className="text-sm text-muted-foreground">
+                      / {progress.targetChapters}
+                    </span>
+                  </div>
+
+                  {/* Progress bar */}
+                  <div className="relative h-2 bg-muted rounded-full overflow-hidden mb-2">
+                    <div
+                      className={`absolute inset-y-0 left-0 bg-gradient-to-r ${getProgressBgColor(progress.percentage, progress.isComplete)} rounded-full transition-all duration-500`}
+                      style={{ width: `${progress.percentage}%` }}
+                    />
+                  </div>
+
+                  {/* Footer info */}
+                  <div className="flex items-center justify-between text-xs text-muted-foreground">
+                    <span>{progress.percentage}% complete</span>
+                    {!progress.isComplete && progress.daysRemaining > 0 && (
+                      <span>
+                        {pace > 0 ? `${pace}/day to finish` : `${progress.daysRemaining}d left`}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </CardContent>
+      </Card>
+    </section>
+  );
+}
+
 export default function BibleStudyPage() {
   const [testamentFilter, setTestamentFilter] = useState<TestamentFilter>('all');
   const [selectedGroup, setSelectedGroup] = useState<CanonicalGroup | 'all'>('all');
@@ -818,6 +1065,9 @@ export default function BibleStudyPage() {
 
         {/* Testament Progress */}
         <TestamentProgressSection />
+
+        {/* Reading Goals */}
+        <ReadingGoalsSection />
 
         {/* Daily Devotional */}
         <DailyDevotional />
