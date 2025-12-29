@@ -12972,6 +12972,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'james-4-8',
+    reference: 'James 4:8',
+    book: 'James',
+    chapter: 4,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Draw near to God, and he will draw near to you. Cleanse your hands, you sinners, and purify your hearts, you double-minded.',
+      NIV: 'Come near to God and he will come near to you. Wash your hands, you sinners, and purify your hearts, you double-minded.',
+      KJV: 'Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded.',
+      NASB: 'Draw near to God and He will draw near to you. Cleanse your hands, you sinners; and purify your hearts, you double-minded.',
+    },
+    context: {
+      before: {
+        reference: 'James 4:7',
+        text: 'Submit yourselves therefore to God. Resist the devil, and he will flee from you.',
+      },
+      after: {
+        reference: 'James 4:9',
+        text: 'Be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom.',
+      },
+    },
+  },
+  {
+    id: 'james-4-10',
+    reference: 'James 4:10',
+    book: 'James',
+    chapter: 4,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Humble yourselves before the Lord, and he will exalt you.',
+      NIV: 'Humble yourselves before the Lord, and he will lift you up.',
+      KJV: 'Humble yourselves in the sight of the Lord, and he shall lift you up.',
+      NASB: 'Humble yourselves in the presence of the Lord, and He will exalt you.',
+    },
+    context: {
+      before: {
+        reference: 'James 4:9',
+        text: 'Be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom.',
+      },
+      after: {
+        reference: 'James 4:11',
+        text: 'Do not speak evil against one another, brothers.',
+      },
+    },
+  },
 
   // ============ 1 PETER ============
   {
@@ -13163,6 +13211,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Peter 5:10',
         text: 'And after you have suffered a little while, the God of all grace, who has called you to his eternal glory in Christ, will himself restore, confirm, strengthen, and establish you.',
+      },
+    },
+  },
+  {
+    id: '1-peter-4-8',
+    reference: '1 Peter 4:8',
+    book: '1 Peter',
+    chapter: 4,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Above all, keep loving one another earnestly, since love covers a multitude of sins.',
+      NIV: 'Above all, love each other deeply, because love covers over a multitude of sins.',
+      KJV: 'And above all things have fervent charity among yourselves: for charity shall cover the multitude of sins.',
+      NASB: 'Above all, keep fervent in your love for one another, because love covers a multitude of sins.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 4:7',
+        text: 'The end of all things is at hand; therefore be self-controlled and sober-minded for the sake of your prayers.',
+      },
+      after: {
+        reference: '1 Peter 4:9',
+        text: 'Show hospitality to one another without grumbling.',
+      },
+    },
+  },
+  {
+    id: '1-peter-5-10',
+    reference: '1 Peter 5:10',
+    book: '1 Peter',
+    chapter: 5,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And after you have suffered a little while, the God of all grace, who has called you to his eternal glory in Christ, will himself restore, confirm, strengthen, and establish you.',
+      NIV: 'And the God of all grace, who called you to his eternal glory in Christ, after you have suffered a little while, will himself restore you and make you strong, firm and steadfast.',
+      KJV: 'But the God of all grace, who hath called us unto his eternal glory by Christ Jesus, after that ye have suffered a while, make you perfect, stablish, strengthen, settle you.',
+      NASB: 'After you have suffered for a little while, the God of all grace, who called you to His eternal glory in Christ, will Himself perfect, confirm, strengthen and establish you.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 5:9',
+        text: 'Resist him, firm in your faith, knowing that the same kinds of suffering are being experienced by your brotherhood throughout the world.',
+      },
+      after: {
+        reference: '1 Peter 5:11',
+        text: 'To him be the dominion forever and ever. Amen.',
       },
     },
   },
@@ -13405,6 +13501,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 John 5:14',
         text: 'And this is the confidence that we have toward him, that if we ask anything according to his will he hears us.',
+      },
+    },
+  },
+  {
+    id: '1-john-2-15',
+    reference: '1 John 2:15',
+    book: '1 John',
+    chapter: 2,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in him.',
+      NIV: 'Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them.',
+      KJV: 'Love not the world, neither the things that are in the world. If any man love the world, the love of the Father is not in him.',
+      NASB: 'Do not love the world nor the things in the world. If anyone loves the world, the love of the Father is not in him.',
+    },
+    context: {
+      before: {
+        reference: '1 John 2:14',
+        text: 'I write to you, fathers, because you know him who is from the beginning.',
+      },
+      after: {
+        reference: '1 John 2:16',
+        text: 'For all that is in the world—the desires of the flesh and the desires of the eyes and pride of life—is not from the Father but is from the world.',
+      },
+    },
+  },
+  {
+    id: '1-john-5-4',
+    reference: '1 John 5:4',
+    book: '1 John',
+    chapter: 5,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For everyone who has been born of God overcomes the world. And this is the victory that has overcome the world—our faith.',
+      NIV: 'For everyone born of God overcomes the world. This is the victory that has overcome the world, even our faith.',
+      KJV: 'For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith.',
+      NASB: 'For whatever is born of God overcomes the world; and this is the victory that has overcome the world—our faith.',
+    },
+    context: {
+      before: {
+        reference: '1 John 5:3',
+        text: 'For this is the love of God, that we keep his commandments. And his commandments are not burdensome.',
+      },
+      after: {
+        reference: '1 John 5:5',
+        text: 'Who is it that overcomes the world except the one who believes that Jesus is the Son of God?',
       },
     },
   },
