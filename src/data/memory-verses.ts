@@ -246,6 +246,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'deuteronomy-6-4',
+    reference: 'Deuteronomy 6:4',
+    book: 'Deuteronomy',
+    chapter: 6,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Hear, O Israel: The LORD our God, the LORD is one.',
+      NIV: 'Hear, O Israel: The LORD our God, the LORD is one.',
+      KJV: 'Hear, O Israel: The LORD our God is one LORD:',
+      NASB: 'Hear, O Israel! The LORD is our God, the LORD is one!',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 6:3',
+        text: 'Hear therefore, O Israel, and be careful to do them, that it may go well with you.',
+      },
+      after: {
+        reference: 'Deuteronomy 6:5',
+        text: 'You shall love the LORD your God with all your heart and with all your soul and with all your might.',
+      },
+    },
+  },
+  {
+    id: 'deuteronomy-31-6',
+    reference: 'Deuteronomy 31:6',
+    book: 'Deuteronomy',
+    chapter: 31,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Be strong and courageous. Do not fear or be in dread of them, for it is the LORD your God who goes with you. He will not leave you or forsake you.',
+      NIV: 'Be strong and courageous. Do not be afraid or terrified because of them, for the LORD your God goes with you; he will never leave you nor forsake you.',
+      KJV: 'Be strong and of a good courage, fear not, nor be afraid of them: for the LORD thy God, he it is that doth go with thee; he will not fail thee, nor forsake thee.',
+      NASB: 'Be strong and courageous, do not be afraid or tremble at them, for the LORD your God is the one who goes with you. He will not fail you or forsake you.',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 31:5',
+        text: 'And the LORD will give them over to you, and you shall do to them according to the whole commandment that I have commanded you.',
+      },
+      after: {
+        reference: 'Deuteronomy 31:7',
+        text: 'Then Moses summoned Joshua and said to him in the sight of all Israel, "Be strong and courageous."',
+      },
+    },
+  },
 
   // ============ JOSHUA ============
   {
@@ -269,6 +317,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Joshua 1:10',
         text: 'And Joshua commanded the officers of the people,',
+      },
+    },
+  },
+  {
+    id: 'joshua-24-15',
+    reference: 'Joshua 24:15',
+    book: 'Joshua',
+    chapter: 24,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And if it is evil in your eyes to serve the LORD, choose this day whom you will serve, whether the gods your fathers served in the region beyond the River, or the gods of the Amorites in whose land you dwell. But as for me and my house, we will serve the LORD.',
+      NIV: 'But if serving the LORD seems undesirable to you, then choose for yourselves this day whom you will serve, whether the gods your ancestors served beyond the Euphrates, or the gods of the Amorites, in whose land you are living. But as for me and my household, we will serve the LORD.',
+      KJV: 'And if it seem evil unto you to serve the LORD, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the LORD.',
+      NASB: 'If it is disagreeable in your sight to serve the LORD, choose for yourselves today whom you will serve: whether the gods which your fathers served which were beyond the River, or the gods of the Amorites in whose land you are living; but as for me and my house, we will serve the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 24:14',
+        text: 'Now therefore fear the LORD and serve him in sincerity and in faithfulness. Put away the gods that your fathers served beyond the River and in Egypt, and serve the LORD.',
+      },
+      after: {
+        reference: 'Joshua 24:16',
+        text: 'Then the people answered, "Far be it from us that we should forsake the LORD to serve other gods."',
       },
     },
   },
@@ -1224,6 +1296,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'jeremiah-31-33',
+    reference: 'Jeremiah 31:33',
+    book: 'Jeremiah',
+    chapter: 31,
+    verse: 33,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For this is the covenant that I will make with the house of Israel after those days, declares the LORD: I will put my law within them, and I will write it on their hearts. And I will be their God, and they shall be my people.',
+      NIV: '"This is the covenant I will make with the people of Israel after that time," declares the LORD. "I will put my law in their minds and write it on their hearts. I will be their God, and they will be my people."',
+      KJV: 'But this shall be the covenant that I will make with the house of Israel; After those days, saith the LORD, I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people.',
+      NASB: '"But this is the covenant which I will make with the house of Israel after those days," declares the LORD, "I will put My law within them and on their heart I will write it; and I will be their God, and they shall be My people."',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 31:32',
+        text: 'not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt, my covenant that they broke.',
+      },
+      after: {
+        reference: 'Jeremiah 31:34',
+        text: 'And no longer shall each one teach his neighbor and each his brother, saying, "Know the LORD," for they shall all know me, from the least of them to the greatest.',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-17-9',
+    reference: 'Jeremiah 17:9',
+    book: 'Jeremiah',
+    chapter: 17,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The heart is deceitful above all things, and desperately sick; who can understand it?',
+      NIV: 'The heart is deceitful above all things and beyond cure. Who can understand it?',
+      KJV: 'The heart is deceitful above all things, and desperately wicked: who can know it?',
+      NASB: 'The heart is more deceitful than all else and is desperately sick; who can understand it?',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 17:8',
+        text: 'He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes.',
+      },
+      after: {
+        reference: 'Jeremiah 17:10',
+        text: 'I the LORD search the heart and test the mind, to give every man according to his ways, according to the fruit of his deeds.',
+      },
+    },
+  },
 
   // ============ LAMENTATIONS ============
   {
@@ -1326,6 +1446,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'daniel-2-44',
+    reference: 'Daniel 2:44',
+    book: 'Daniel',
+    chapter: 2,
+    verse: 44,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And in the days of those kings the God of heaven will set up a kingdom that shall never be destroyed, nor shall the kingdom be left to another people. It shall break in pieces all these kingdoms and bring them to an end, and it shall stand forever,',
+      NIV: 'In the time of those kings, the God of heaven will set up a kingdom that will never be destroyed, nor will it be left to another people. It will crush all those kingdoms and bring them to an end, but it will itself endure forever.',
+      KJV: 'And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.',
+      NASB: 'In the days of those kings the God of heaven will set up a kingdom which will never be destroyed, and that kingdom will not be left for another people; it will crush and put an end to all these kingdoms, but it will itself endure forever.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 2:43',
+        text: 'As you saw the iron mixed with soft clay, so they will mix with one another in marriage, but they will not hold together.',
+      },
+      after: {
+        reference: 'Daniel 2:45',
+        text: 'just as you saw that a stone was cut from a mountain by no human hand, and that it broke in pieces the iron, the bronze, the clay, the silver, and the gold.',
+      },
+    },
+  },
 
   // ============ HOSEA ============
   {
@@ -1349,6 +1493,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Hosea 6:7',
         text: 'But like Adam they transgressed the covenant; there they dealt faithlessly with me.',
+      },
+    },
+  },
+  {
+    id: 'hosea-11-1',
+    reference: 'Hosea 11:1',
+    book: 'Hosea',
+    chapter: 11,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'When Israel was a child, I loved him, and out of Egypt I called my son.',
+      NIV: 'When Israel was a child, I loved him, and out of Egypt I called my son.',
+      KJV: 'When Israel was a child, then I loved him, and called my son out of Egypt.',
+      NASB: 'When Israel was a youth I loved him, and out of Egypt I called My son.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 10:15',
+        text: 'So shall it be done to you, O Bethel, because of your great wickedness. At dawn the king of Israel shall be utterly cut off.',
+      },
+      after: {
+        reference: 'Hosea 11:2',
+        text: 'The more they were called, the more they went away; they kept sacrificing to the Baals and burning offerings to idols.',
       },
     },
   },
@@ -2140,6 +2308,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'acts-2-38',
+    reference: 'Acts 2:38',
+    book: 'Acts',
+    chapter: 2,
+    verse: 38,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And Peter said to them, "Repent and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins, and you will receive the gift of the Holy Spirit.',
+      NIV: 'Peter replied, "Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit.',
+      KJV: 'Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.',
+      NASB: 'Peter said to them, "Repent, and each of you be baptized in the name of Jesus Christ for the forgiveness of your sins; and you will receive the gift of the Holy Spirit.',
+    },
+    context: {
+      before: {
+        reference: 'Acts 2:37',
+        text: 'Now when they heard this they were cut to the heart, and said to Peter and the rest of the apostles, "Brothers, what shall we do?"',
+      },
+      after: {
+        reference: 'Acts 2:39',
+        text: 'For the promise is for you and for your children and for all who are far off, everyone whom the Lord our God calls to himself.',
+      },
+    },
+  },
+  {
+    id: 'acts-4-12',
+    reference: 'Acts 4:12',
+    book: 'Acts',
+    chapter: 4,
+    verse: 12,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And there is salvation in no one else, for there is no other name under heaven given among men by which we must be saved.',
+      NIV: 'Salvation is found in no one else, for there is no other name under heaven given to mankind by which we must be saved.',
+      KJV: 'Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.',
+      NASB: 'And there is salvation in no one else; for there is no other name under heaven that has been given among men by which we must be saved.',
+    },
+    context: {
+      before: {
+        reference: 'Acts 4:11',
+        text: 'This Jesus is the stone that was rejected by you, the builders, which has become the cornerstone.',
+      },
+      after: {
+        reference: 'Acts 4:13',
+        text: 'Now when they saw the boldness of Peter and John, and perceived that they were uneducated, common men, they were astonished.',
+      },
+    },
+  },
 
   // ============ ROMANS ============
   {
@@ -2730,6 +2946,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'colossians-1-16',
+    reference: 'Colossians 1:16',
+    book: 'Colossians',
+    chapter: 1,
+    verse: 16,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him.',
+      NIV: 'For in him all things were created: things in heaven and on earth, visible and invisible, whether thrones or powers or rulers or authorities; all things have been created through him and for him.',
+      KJV: 'For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him:',
+      NASB: 'For by Him all things were created, both in the heavens and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things have been created through Him and for Him.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 1:15',
+        text: 'He is the image of the invisible God, the firstborn of all creation.',
+      },
+      after: {
+        reference: 'Colossians 1:17',
+        text: 'And he is before all things, and in him all things hold together.',
+      },
+    },
+  },
+  {
+    id: 'colossians-2-9',
+    reference: 'Colossians 2:9',
+    book: 'Colossians',
+    chapter: 2,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For in him the whole fullness of deity dwells bodily,',
+      NIV: 'For in Christ all the fullness of the Deity lives in bodily form,',
+      KJV: 'For in him dwelleth all the fulness of the Godhead bodily.',
+      NASB: 'For in Him all the fullness of Deity dwells in bodily form,',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 2:8',
+        text: 'See to it that no one takes you captive by philosophy and empty deceit, according to human tradition, according to the elemental spirits of the world, and not according to Christ.',
+      },
+      after: {
+        reference: 'Colossians 2:10',
+        text: 'and you have been filled in him, who is the head of all rule and authority.',
+      },
+    },
+  },
 
   // ============ 1 THESSALONIANS ============
   {
@@ -2803,6 +3067,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Thessalonians 3:4',
         text: 'And we have confidence in the Lord about you, that you are doing and will do the things that we command.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-1-8-9',
+    reference: '2 Thessalonians 1:8-9',
+    book: '2 Thessalonians',
+    chapter: 1,
+    verse: 8,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'in flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of his might,',
+      NIV: 'He will punish those who do not know God and do not obey the gospel of our Lord Jesus. They will be punished with everlasting destruction and shut out from the presence of the Lord and from the glory of his might',
+      KJV: 'In flaming fire taking vengeance on them that know not God, and that obey not the gospel of our Lord Jesus Christ: Who shall be punished with everlasting destruction from the presence of the Lord, and from the glory of his power;',
+      NASB: 'dealing out retribution to those who do not know God and to those who do not obey the gospel of our Lord Jesus. These will pay the penalty of eternal destruction, away from the presence of the Lord and from the glory of His power,',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 1:7',
+        text: 'and to grant relief to you who are afflicted as well as to us, when the Lord Jesus is revealed from heaven with his mighty angels',
+      },
+      after: {
+        reference: '2 Thessalonians 1:10',
+        text: 'when he comes on that day to be glorified in his saints, and to be marveled at among all who have believed.',
       },
     },
   },
