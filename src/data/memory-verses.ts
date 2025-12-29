@@ -1017,6 +1017,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'ruth-1-17',
+    reference: 'Ruth 1:17',
+    book: 'Ruth',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Where you die I will die, and there will I be buried. May the LORD do so to me and more also if anything but death parts me from you.',
+      NIV: 'Where you die I will die, and there I will be buried. May the LORD deal with me, be it ever so severely, if even death separates you and me.',
+      KJV: 'Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but death part thee and me.',
+      NASB: 'Where you die, I will die, and there I will be buried. Thus may the LORD do to me, and worse, if anything but death parts you and me.',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 1:16',
+        text: 'But Ruth said, "Do not urge me to leave you or to return from following you. For where you go I will go, and where you lodge I will lodge."',
+      },
+      after: {
+        reference: 'Ruth 1:18',
+        text: 'And when Naomi saw that she was determined to go with her, she said no more.',
+      },
+    },
+  },
+  {
+    id: 'ruth-3-9',
+    reference: 'Ruth 3:9',
+    book: 'Ruth',
+    chapter: 3,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He said, "Who are you?" And she answered, "I am Ruth, your servant. Spread your wings over your servant, for you are a redeemer."',
+      NIV: '"Who are you?" he asked. "I am your servant Ruth," she said. "Spread the corner of your garment over me, since you are a guardian-redeemer of our family."',
+      KJV: 'And he said, Who art thou? And she answered, I am Ruth thine handmaid: spread therefore thy skirt over thine handmaid; for thou art a near kinsman.',
+      NASB: 'He said, "Who are you?" And she answered, "I am Ruth your maid. So spread your covering over your maid, for you are a close relative."',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 3:8',
+        text: 'At midnight the man was startled and turned over, and behold, a woman lay at his feet!',
+      },
+      after: {
+        reference: 'Ruth 3:10',
+        text: 'And he said, "May you be blessed by the LORD, my daughter. You have made this last kindness greater than the first."',
+      },
+    },
+  },
+  {
+    id: 'ruth-4-9',
+    reference: 'Ruth 4:9',
+    book: 'Ruth',
+    chapter: 4,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then Boaz said to the elders and all the people, "You are witnesses this day that I have bought from the hand of Naomi all that belonged to Elimelech and all that belonged to Chilion and to Mahlon."',
+      NIV: 'Then Boaz announced to the elders and all the people, "Today you are witnesses that I have bought from Naomi all the property of Elimelek, Kilion and Mahlon."',
+      KJV: 'And Boaz said unto the elders, and unto all the people, Ye are witnesses this day, that I have bought all that was Elimelech\'s, and all that was Chilion\'s and Mahlon\'s, of the hand of Naomi.',
+      NASB: 'Then Boaz said to the elders and all the people, "You are witnesses today that I have bought from the hand of Naomi all that belonged to Elimelech and all that belonged to Chilion and Mahlon."',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 4:8',
+        text: 'So when the redeemer said to Boaz, "Buy it for yourself," he drew off his sandal.',
+      },
+      after: {
+        reference: 'Ruth 4:10',
+        text: 'Also Ruth the Moabite, the widow of Mahlon, I have bought to be my wife, to perpetuate the name of the dead.',
+      },
+    },
+  },
+  {
+    id: 'ruth-2-20',
+    reference: 'Ruth 2:20',
+    book: 'Ruth',
+    chapter: 2,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And Naomi said to her daughter-in-law, "May he be blessed by the LORD, whose kindness has not forsaken the living or the dead!" Naomi also said to her, "The man is a close relative of ours, one of our redeemers."',
+      NIV: '"The LORD bless him!" Naomi said to her daughter-in-law. "He has not stopped showing his kindness to the living and the dead." She added, "That man is our close relative; he is one of our guardian-redeemers."',
+      KJV: 'And Naomi said unto her daughter in law, Blessed be he of the LORD, who hath not left off his kindness to the living and to the dead. And Naomi said unto her, The man is near of kin unto us, one of our next kinsmen.',
+      NASB: 'Naomi said to her daughter-in-law, "May he be blessed of the LORD who has not withdrawn his kindness to the living and to the dead." Again Naomi said to her, "The man is our relative, he is one of our closest relatives."',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 2:19',
+        text: 'And her mother-in-law said to her, "Where did you glean today? And where have you worked? Blessed be the man who took notice of you."',
+      },
+      after: {
+        reference: 'Ruth 2:21',
+        text: 'And Ruth the Moabite said, "Besides, he said to me, \'You shall keep close by my young men until they have finished all my harvest.\'"',
+      },
+    },
+  },
 
   // ============ 1 SAMUEL ============
   {
@@ -1115,6 +1211,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-samuel-3-10',
+    reference: '1 Samuel 3:10',
+    book: '1 Samuel',
+    chapter: 3,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And the LORD came and stood, calling as at other times, "Samuel! Samuel!" And Samuel said, "Speak, for your servant hears."',
+      NIV: 'The LORD came and stood there, calling as at the other times, "Samuel! Samuel!" Then Samuel said, "Speak, for your servant is listening."',
+      KJV: 'And the LORD came, and stood, and called as at other times, Samuel, Samuel. Then Samuel answered, Speak; for thy servant heareth.',
+      NASB: 'Then the LORD came and stood and called as at other times, "Samuel! Samuel!" And Samuel said, "Speak, for Your servant is listening."',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 3:9',
+        text: 'Therefore Eli said to Samuel, "Go, lie down, and if he calls you, you shall say, \'Speak, LORD, for your servant hears.\'"',
+      },
+      after: {
+        reference: '1 Samuel 3:11',
+        text: 'Then the LORD said to Samuel, "Behold, I am about to do a thing in Israel at which the two ears of everyone who hears it will tingle."',
+      },
+    },
+  },
+  {
+    id: '1-samuel-12-22',
+    reference: '1 Samuel 12:22',
+    book: '1 Samuel',
+    chapter: 12,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the LORD will not forsake his people, for his great name\'s sake, because it has pleased the LORD to make you a people for himself.',
+      NIV: 'For the sake of his great name the LORD will not reject his people, because the LORD was pleased to make you his own.',
+      KJV: 'For the LORD will not forsake his people for his great name\'s sake: because it hath pleased the LORD to make you his people.',
+      NASB: 'For the LORD will not abandon His people on account of His great name, because the LORD has been pleased to make you a people for Himself.',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 12:21',
+        text: 'And do not turn aside after empty things that cannot profit or deliver, for they are empty.',
+      },
+      after: {
+        reference: '1 Samuel 12:23',
+        text: 'Moreover, as for me, far be it from me that I should sin against the LORD by ceasing to pray for you.',
+      },
+    },
+  },
+  {
+    id: '1-samuel-17-47',
+    reference: '1 Samuel 17:47',
+    book: '1 Samuel',
+    chapter: 17,
+    verse: 47,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And that all this assembly may know that the LORD saves not with sword and spear. For the battle is the LORD\'s, and he will give you into our hand.',
+      NIV: 'All those gathered here will know that it is not by sword or spear that the LORD saves; for the battle is the LORD\'s, and he will give all of you into our hands.',
+      KJV: 'And all this assembly shall know that the LORD saveth not with sword and spear: for the battle is the LORD\'s, and he will give you into our hands.',
+      NASB: 'And that all this assembly may know that the LORD does not deliver by sword or by spear; for the battle is the LORD\'s and He will give you into our hands.',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 17:46',
+        text: 'This day the LORD will deliver you into my hand, and I will strike you down and cut off your head.',
+      },
+      after: {
+        reference: '1 Samuel 17:48',
+        text: 'When the Philistine arose and came and drew near to meet David, David ran quickly toward the battle line to meet the Philistine.',
+      },
+    },
+  },
+  {
+    id: '1-samuel-12-24',
+    reference: '1 Samuel 12:24',
+    book: '1 Samuel',
+    chapter: 12,
+    verse: 24,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Only fear the LORD and serve him faithfully with all your heart. For consider what great things he has done for you.',
+      NIV: 'But be sure to fear the LORD and serve him faithfully with all your heart; consider what great things he has done for you.',
+      KJV: 'Only fear the LORD, and serve him in truth with all your heart: for consider how great things he hath done for you.',
+      NASB: 'Only fear the LORD and serve Him in truth with all your heart; for consider what great things He has done for you.',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 12:23',
+        text: 'Moreover, as for me, far be it from me that I should sin against the LORD by ceasing to pray for you, and I will instruct you in the good and the right way.',
+      },
+      after: {
+        reference: '1 Samuel 12:25',
+        text: 'But if you still do wickedly, you shall be swept away, both you and your king.',
+      },
+    },
+  },
 
   // ============ 2 SAMUEL ============
   {
@@ -1210,6 +1402,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Samuel 24:25',
         text: 'And David built there an altar to the LORD and offered burnt offerings and peace offerings. So the LORD responded to the plea for the land, and the plague was averted from Israel.',
+      },
+    },
+  },
+  {
+    id: '2-samuel-7-16',
+    reference: '2 Samuel 7:16',
+    book: '2 Samuel',
+    chapter: 7,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And your house and your kingdom shall be made sure forever before me. Your throne shall be established forever.',
+      NIV: 'Your house and your kingdom will endure forever before me; your throne will be established forever.',
+      KJV: 'And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.',
+      NASB: 'Your house and your kingdom shall endure before Me forever; your throne shall be established forever.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 7:15',
+        text: 'But my steadfast love will not depart from him, as I took it from Saul, whom I put away from before you.',
+      },
+      after: {
+        reference: '2 Samuel 7:17',
+        text: 'In accordance with all these words, and in accordance with all this vision, Nathan spoke to David.',
+      },
+    },
+  },
+  {
+    id: '2-samuel-12-13',
+    reference: '2 Samuel 12:13',
+    book: '2 Samuel',
+    chapter: 12,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'David said to Nathan, "I have sinned against the LORD." And Nathan said to David, "The LORD also has put away your sin; you shall not die."',
+      NIV: 'Then David said to Nathan, "I have sinned against the LORD." Nathan replied, "The LORD has taken away your sin. You are not going to die."',
+      KJV: 'And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.',
+      NASB: 'Then David said to Nathan, "I have sinned against the LORD." And Nathan said to David, "The LORD also has taken away your sin; you shall not die."',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 12:12',
+        text: 'For you did it secretly, but I will do this thing before all Israel and before the sun.',
+      },
+      after: {
+        reference: '2 Samuel 12:14',
+        text: 'Nevertheless, because by this deed you have utterly scorned the LORD, the child who is born to you shall die.',
+      },
+    },
+  },
+  {
+    id: '2-samuel-22-31',
+    reference: '2 Samuel 22:31',
+    book: '2 Samuel',
+    chapter: 22,
+    verse: 31,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'This God—his way is perfect; the word of the LORD proves true; he is a shield for all those who take refuge in him.',
+      NIV: 'As for God, his way is perfect: The LORD\'s word is flawless; he shields all who take refuge in him.',
+      KJV: 'As for God, his way is perfect; the word of the LORD is tried: he is a buckler to all them that trust in him.',
+      NASB: 'As for God, His way is blameless; the word of the LORD is tested; He is a shield to all who take refuge in Him.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 22:30',
+        text: 'For by you I can run against a troop, and by my God I can leap over a wall.',
+      },
+      after: {
+        reference: '2 Samuel 22:32',
+        text: 'For who is God, but the LORD? And who is a rock, except our God?',
+      },
+    },
+  },
+  {
+    id: '2-samuel-7-22',
+    reference: '2 Samuel 7:22',
+    book: '2 Samuel',
+    chapter: 7,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore you are great, O LORD God. For there is none like you, and there is no God besides you, according to all that we have heard with our ears.',
+      NIV: 'How great you are, Sovereign LORD! There is no one like you, and there is no God but you, as we have heard with our own ears.',
+      KJV: 'Wherefore thou art great, O LORD God: for there is none like thee, neither is there any God beside thee, according to all that we have heard with our ears.',
+      NASB: 'For this reason You are great, O Lord GOD; for there is none like You, and there is no God besides You, according to all that we have heard with our ears.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 7:21',
+        text: 'Because of your promise, and according to your own heart, you have brought about all this greatness, to make your servant know it.',
+      },
+      after: {
+        reference: '2 Samuel 7:23',
+        text: 'And who is like your people Israel, the one nation on earth whom God went to redeem to be his people?',
       },
     },
   },
@@ -1312,6 +1600,104 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // Additional 1 Kings verses
+  {
+    id: '1-kings-19-12',
+    reference: '1 Kings 19:12',
+    book: '1 Kings',
+    chapter: 19,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And after the earthquake a fire, but the LORD was not in the fire. And after the fire the sound of a low whisper.',
+      NIV: 'After the earthquake came a fire, but the LORD was not in the fire. And after the fire came a gentle whisper.',
+      KJV: 'And after the earthquake a fire; but the LORD was not in the fire: and after the fire a still small voice.',
+      NASB: 'After the earthquake a fire, but the LORD was not in the fire; and after the fire a sound of a gentle blowing.',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 19:11',
+        text: 'And he said, "Go out and stand on the mount before the LORD." And behold, the LORD passed by, and a great and strong wind tore the mountains.',
+      },
+      after: {
+        reference: '1 Kings 19:13',
+        text: 'And when Elijah heard it, he wrapped his face in his cloak and went out and stood at the entrance of the cave.',
+      },
+    },
+  },
+  {
+    id: '1-kings-8-60',
+    reference: '1 Kings 8:60',
+    book: '1 Kings',
+    chapter: 8,
+    verse: 60,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'That all the peoples of the earth may know that the LORD is God; there is no other.',
+      NIV: 'So that all the peoples of the earth may know that the LORD is God and that there is no other.',
+      KJV: 'That all the people of the earth may know that the LORD is God, and that there is none else.',
+      NASB: 'So that all the peoples of the earth may know that the LORD is God; there is no one else.',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 8:59',
+        text: 'Let these words of mine, with which I have pleaded before the LORD, be near to the LORD our God day and night.',
+      },
+      after: {
+        reference: '1 Kings 8:61',
+        text: 'Let your heart therefore be wholly true to the LORD our God, walking in his statutes and keeping his commandments.',
+      },
+    },
+  },
+  {
+    id: '1-kings-2-2',
+    reference: '1 Kings 2:2',
+    book: '1 Kings',
+    chapter: 2,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I am about to go the way of all the earth. Be strong, and show yourself a man.',
+      NIV: 'I am about to go the way of all the earth. So be strong, act like a man.',
+      KJV: 'I go the way of all the earth: be thou strong therefore, and shew thyself a man.',
+      NASB: 'I am going the way of all the earth. Be strong, therefore, and show yourself a man.',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 2:1',
+        text: 'When David\'s time to die drew near, he commanded Solomon his son.',
+      },
+      after: {
+        reference: '1 Kings 2:3',
+        text: 'And keep the charge of the LORD your God, walking in his ways and keeping his statutes.',
+      },
+    },
+  },
+  {
+    id: '1-kings-11-9',
+    reference: '1 Kings 11:9',
+    book: '1 Kings',
+    chapter: 11,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And the LORD was angry with Solomon, because his heart had turned away from the LORD, the God of Israel, who had appeared to him twice.',
+      NIV: 'The LORD became angry with Solomon because his heart had turned away from the LORD, the God of Israel, who had appeared to him twice.',
+      KJV: 'And the LORD was angry with Solomon, because his heart was turned from the LORD God of Israel, which had appeared unto him twice.',
+      NASB: 'Now the LORD was angry with Solomon because his heart was turned away from the LORD, the God of Israel, who had appeared to him twice.',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 11:8',
+        text: 'And so he did for all his foreign wives, who made offerings and sacrificed to their gods.',
+      },
+      after: {
+        reference: '1 Kings 11:10',
+        text: 'And had commanded him concerning this thing, that he should not go after other gods. But he did not keep what the LORD commanded.',
+      },
+    },
+  },
+
   // ============ 2 KINGS ============
   {
     id: '2-kings-2-9',
@@ -1406,6 +1792,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Kings 17:14',
         text: 'But they would not listen, but were stubborn, as their fathers had been, who did not believe in the LORD their God.',
+      },
+    },
+  },
+  // Additional 2 Kings verses
+  {
+    id: '2-kings-2-11',
+    reference: '2 Kings 2:11',
+    book: '2 Kings',
+    chapter: 2,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And as they still went on and talked, behold, chariots of fire and horses of fire separated the two of them. And Elijah went up by a whirlwind into heaven.',
+      NIV: 'As they were walking along and talking together, suddenly a chariot of fire and horses of fire appeared and separated the two of them, and Elijah went up to heaven in a whirlwind.',
+      KJV: 'And it came to pass, as they still went on, and talked, that, behold, there appeared a chariot of fire, and horses of fire, and parted them both asunder; and Elijah went up by a whirlwind into heaven.',
+      NASB: 'As they were going along and talking, behold, there appeared a chariot of fire and horses of fire which separated the two of them. And Elijah went up by a whirlwind to heaven.',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 2:10',
+        text: 'And he said, "You have asked a hard thing; yet, if you see me as I am being taken from you, it shall be so for you."',
+      },
+      after: {
+        reference: '2 Kings 2:12',
+        text: 'And Elisha saw it and he cried, "My father, my father! The chariots of Israel and its horsemen!" And he saw him no more.',
+      },
+    },
+  },
+  {
+    id: '2-kings-20-5',
+    reference: '2 Kings 20:5',
+    book: '2 Kings',
+    chapter: 20,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Turn back, and say to Hezekiah the leader of my people, Thus says the LORD, the God of David your father: I have heard your prayer; I have seen your tears. Behold, I will heal you.',
+      NIV: 'Go back and tell Hezekiah, the ruler of my people, "This is what the LORD, the God of your father David, says: I have heard your prayer and seen your tears; I will heal you."',
+      KJV: 'Turn again, and tell Hezekiah the captain of my people, Thus saith the LORD, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will heal thee.',
+      NASB: 'Return and say to Hezekiah the leader of My people, "Thus says the LORD, the God of your father David, I have heard your prayer, I have seen your tears; behold, I will heal you."',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 20:4',
+        text: 'And before Isaiah had gone out of the middle court, the word of the LORD came to him.',
+      },
+      after: {
+        reference: '2 Kings 20:6',
+        text: 'And I will add fifteen years to your life. I will deliver you and this city out of the hand of the king of Assyria.',
+      },
+    },
+  },
+  {
+    id: '2-kings-19-19',
+    reference: '2 Kings 19:19',
+    book: '2 Kings',
+    chapter: 19,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So now, O LORD our God, save us, please, from his hand, that all the kingdoms of the earth may know that you, O LORD, are God alone.',
+      NIV: 'Now, LORD our God, deliver us from his hand, so that all the kingdoms of the earth may know that you alone, LORD, are God.',
+      KJV: 'Now therefore, O LORD our God, I beseech thee, save thou us out of his hand, that all the kingdoms of the earth may know that thou art the LORD God, even thou only.',
+      NASB: 'Now, O LORD our God, I pray, deliver us from his hand that all the kingdoms of the earth may know that You alone, O LORD, are God.',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 19:18',
+        text: 'And have cast their gods into the fire, for they were not gods, but the work of men\'s hands, wood and stone.',
+      },
+      after: {
+        reference: '2 Kings 19:20',
+        text: 'Then Isaiah the son of Amoz sent to Hezekiah, saying, "Thus says the LORD, the God of Israel: Your prayer to me about Sennacherib king of Assyria I have heard."',
+      },
+    },
+  },
+  {
+    id: '2-kings-22-19',
+    reference: '2 Kings 22:19',
+    book: '2 Kings',
+    chapter: 22,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Because your heart was penitent, and you humbled yourself before the LORD, when you heard how I spoke against this place and against its inhabitants, that they should become a desolation and a curse, and you have torn your clothes and wept before me, I also have heard you, declares the LORD.',
+      NIV: 'Because your heart was responsive and you humbled yourself before the LORD when you heard what I have spoken against this place and its people—that they would become a curse and be laid waste—and because you tore your robes and wept in my presence, I also have heard you, declares the LORD.',
+      KJV: 'Because thine heart was tender, and thou hast humbled thyself before the LORD, when thou heardest what I spake against this place, and against the inhabitants thereof, that they should become a desolation and a curse, and hast rent thy clothes, and wept before me; I also have heard thee, saith the LORD.',
+      NASB: 'Because your heart was tender and you humbled yourself before the LORD when you heard what I spoke against this place and against its inhabitants that they should become a desolation and a curse, and you have torn your clothes and wept before Me, I truly have heard you, declares the LORD.',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 22:18',
+        text: 'But to the king of Judah, who sent you to inquire of the LORD, thus shall you say to him.',
+      },
+      after: {
+        reference: '2 Kings 22:20',
+        text: 'Therefore, behold, I will gather you to your fathers, and you shall be gathered to your grave in peace.',
       },
     },
   },
@@ -1507,6 +1990,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  // Additional 1 Chronicles verses
+  {
+    id: '1-chronicles-4-10',
+    reference: '1 Chronicles 4:10',
+    book: '1 Chronicles',
+    chapter: 4,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Jabez called upon the God of Israel, saying, "Oh that you would bless me and enlarge my border, and that your hand might be with me, and that you would keep me from harm so that it might not bring me pain!" And God granted what he asked.',
+      NIV: 'Jabez cried out to the God of Israel, "Oh, that you would bless me and enlarge my territory! Let your hand be with me, and keep me from harm so that I will be free from pain." And God granted his request.',
+      KJV: 'And Jabez called on the God of Israel, saying, Oh that thou wouldest bless me indeed, and enlarge my coast, and that thine hand might be with me, and that thou wouldest keep me from evil, that it may not grieve me! And God granted him that which he requested.',
+      NASB: 'Now Jabez called on the God of Israel, saying, "Oh that You would bless me indeed and enlarge my border, and that Your hand might be with me, and that You would keep me from harm that it may not pain me!" And God granted him what he requested.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 4:9',
+        text: 'Jabez was more honorable than his brothers; and his mother called his name Jabez, saying, "Because I bore him in pain."',
+      },
+      after: {
+        reference: '1 Chronicles 4:11',
+        text: 'Chelub, the brother of Shuhah, fathered Mehir, who was the father of Eshton.',
+      },
+    },
+  },
+  {
+    id: '1-chronicles-16-34',
+    reference: '1 Chronicles 16:34',
+    book: '1 Chronicles',
+    chapter: 16,
+    verse: 34,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Oh give thanks to the LORD, for he is good; for his steadfast love endures forever!',
+      NIV: 'Give thanks to the LORD, for he is good; his love endures forever.',
+      KJV: 'O give thanks unto the LORD; for he is good; for his mercy endureth for ever.',
+      NASB: 'O give thanks to the LORD, for He is good; for His lovingkindness is everlasting.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 16:33',
+        text: 'Then shall the trees of the forest sing for joy before the LORD, for he comes to judge the earth.',
+      },
+      after: {
+        reference: '1 Chronicles 16:35',
+        text: 'Say also: "Save us, O God of our salvation, and gather and deliver us from among the nations."',
+      },
+    },
+  },
+  {
+    id: '1-chronicles-28-9',
+    reference: '1 Chronicles 28:9',
+    book: '1 Chronicles',
+    chapter: 28,
+    verse: 9,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And you, Solomon my son, know the God of your father and serve him with a whole heart and with a willing mind, for the LORD searches all hearts and understands every plan and thought.',
+      NIV: 'And you, my son Solomon, acknowledge the God of your father, and serve him with wholehearted devotion and with a willing mind, for the LORD searches every heart and understands every desire and every thought.',
+      KJV: 'And thou, Solomon my son, know thou the God of thy father, and serve him with a perfect heart and with a willing mind: for the LORD searcheth all hearts, and understandeth all the imaginations of the thoughts.',
+      NASB: 'As for you, my son Solomon, know the God of your father, and serve Him with a whole heart and a willing mind; for the LORD searches all hearts, and understands every intent of the thoughts.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 28:8',
+        text: 'Now therefore in the sight of all Israel, the assembly of the LORD, and in the hearing of our God, observe and seek out all the commandments of the LORD your God.',
+      },
+      after: {
+        reference: '1 Chronicles 28:10',
+        text: 'Be careful now, for the LORD has chosen you to build a house for the sanctuary; be strong and do it.',
+      },
+    },
+  },
+  {
+    id: '1-chronicles-29-13',
+    reference: '1 Chronicles 29:13',
+    book: '1 Chronicles',
+    chapter: 29,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And now we thank you, our God, and praise your glorious name.',
+      NIV: 'Now, our God, we give you thanks, and praise your glorious name.',
+      KJV: 'Now therefore, our God, we thank thee, and praise thy glorious name.',
+      NASB: 'Now therefore, our God, we thank You, and praise Your glorious name.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 29:12',
+        text: 'Both riches and honor come from you, and you rule over all. In your hand are power and might.',
+      },
+      after: {
+        reference: '1 Chronicles 29:14',
+        text: 'But who am I, and what is my people, that we should be able thus to offer willingly?',
+      },
+    },
+  },
 
   // ============ 2 CHRONICLES ============
   {
@@ -1602,6 +2182,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Chronicles 16:10',
         text: 'Then Asa was angry with the seer and put him in the stocks in prison, for he was in a rage with him because of this.',
+      },
+    },
+  },
+  // Additional 2 Chronicles verses
+  {
+    id: '2-chronicles-20-15',
+    reference: '2 Chronicles 20:15',
+    book: '2 Chronicles',
+    chapter: 20,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he said, "Listen, all Judah and inhabitants of Jerusalem and King Jehoshaphat: Thus says the LORD to you, \'Do not be afraid and do not be dismayed at this great horde, for the battle is not yours but God\'s."',
+      NIV: 'He said: "Listen, King Jehoshaphat and all who live in Judah and Jerusalem! This is what the LORD says to you: \'Do not be afraid or discouraged because of this vast army. For the battle is not yours, but God\'s."',
+      KJV: 'And he said, Hearken ye, all Judah, and ye inhabitants of Jerusalem, and thou king Jehoshaphat, Thus saith the LORD unto you, Be not afraid nor dismayed by reason of this great multitude; for the battle is not yours, but God\'s.',
+      NASB: 'And he said, "Listen, all Judah and the inhabitants of Jerusalem and King Jehoshaphat: thus says the LORD to you, \'Do not fear or be dismayed because of this great multitude, for the battle is not yours but God\'s."',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 20:14',
+        text: 'And the Spirit of the LORD came upon Jahaziel the son of Zechariah.',
+      },
+      after: {
+        reference: '2 Chronicles 20:16',
+        text: 'Tomorrow go down against them. Behold, they will come up by the ascent of Ziz.',
+      },
+    },
+  },
+  {
+    id: '2-chronicles-6-18',
+    reference: '2 Chronicles 6:18',
+    book: '2 Chronicles',
+    chapter: 6,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But will God indeed dwell with man on the earth? Behold, heaven and the highest heaven cannot contain you, how much less this house that I have built!',
+      NIV: 'But will God really dwell on earth with humans? The heavens, even the highest heavens, cannot contain you. How much less this temple I have built!',
+      KJV: 'But will God in very deed dwell with men on the earth? behold, heaven and the heaven of heavens cannot contain thee; how much less this house which I have built!',
+      NASB: 'But will God indeed dwell with mankind on the earth? Behold, heaven and the highest heaven cannot contain You; how much less this house which I have built.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 6:17',
+        text: 'Now therefore, O LORD, God of Israel, let your word be confirmed, which you have spoken to your servant David.',
+      },
+      after: {
+        reference: '2 Chronicles 6:19',
+        text: 'Yet have regard to the prayer of your servant and to his plea, O LORD my God.',
+      },
+    },
+  },
+  {
+    id: '2-chronicles-32-8',
+    reference: '2 Chronicles 32:8',
+    book: '2 Chronicles',
+    chapter: 32,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'With him is an arm of flesh, but with us is the LORD our God, to help us and to fight our battles." And the people took confidence from the words of Hezekiah king of Judah.',
+      NIV: 'With him is only the arm of flesh, but with us is the LORD our God to help us and to fight our battles." And the people gained confidence from what Hezekiah the king of Judah said.',
+      KJV: 'With him is an arm of flesh; but with us is the LORD our God to help us, and to fight our battles. And the people rested themselves upon the words of Hezekiah king of Judah.',
+      NASB: 'With him is only an arm of flesh, but with us is the LORD our God to help us and to fight our battles." And the people relied on the words of Hezekiah king of Judah.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 32:7',
+        text: 'Be strong and courageous. Do not be afraid or dismayed before the king of Assyria and all the horde that is with him.',
+      },
+      after: {
+        reference: '2 Chronicles 32:9',
+        text: 'After this, Sennacherib king of Assyria, who was besieging Lachish with all his forces, sent his servants to Jerusalem.',
+      },
+    },
+  },
+  {
+    id: '2-chronicles-34-27',
+    reference: '2 Chronicles 34:27',
+    book: '2 Chronicles',
+    chapter: 34,
+    verse: 27,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Because your heart was tender and you humbled yourself before God when you heard his words against this place and its inhabitants, and you have humbled yourself before me and have torn your clothes and wept before me, I also have heard you, declares the LORD.',
+      NIV: 'Because your heart was responsive and you humbled yourself before God when you heard what he spoke against this place and its people, and because you humbled yourself before me and tore your robes and wept in my presence, I have heard you, declares the LORD.',
+      KJV: 'Because thine heart was tender, and thou didst humble thyself before God, when thou heardest his words against this place, and against the inhabitants thereof, and humbledst thyself before me, and didst rend thy clothes, and weep before me; I have even heard thee also, saith the LORD.',
+      NASB: 'Because your heart was tender and you humbled yourself before God when you heard His words against this place and against its inhabitants, and because you humbled yourself before Me, tore your clothes and wept before Me, I truly have heard you, declares the LORD.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 34:26',
+        text: 'But to the king of Judah, who sent you to inquire of the LORD, thus shall you say to him.',
+      },
+      after: {
+        reference: '2 Chronicles 34:28',
+        text: 'Behold, I will gather you to your fathers, and you shall be gathered to your grave in peace.',
       },
     },
   },
@@ -1703,6 +2380,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  // Additional Ezra verses
+  {
+    id: 'ezra-1-3',
+    reference: 'Ezra 1:3',
+    book: 'Ezra',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Whoever is among you of all his people, may his God be with him, and let him go up to Jerusalem, which is in Judah, and rebuild the house of the LORD, the God of Israel—he is the God who is in Jerusalem.',
+      NIV: 'Any of his people among you may go up to Jerusalem in Judah and build the temple of the LORD, the God of Israel, the God who is in Jerusalem, and may their God be with them.',
+      KJV: 'Who is there among you of all his people? his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of the LORD God of Israel, (he is the God,) which is in Jerusalem.',
+      NASB: 'Whoever there is among you of all His people, may his God be with him! Let him go up to Jerusalem which is in Judah and rebuild the house of the LORD, the God of Israel; He is the God who is in Jerusalem.',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 1:2',
+        text: 'Thus says Cyrus king of Persia: The LORD, the God of heaven, has given me all the kingdoms of the earth, and he has charged me to build him a house at Jerusalem.',
+      },
+      after: {
+        reference: 'Ezra 1:4',
+        text: 'And let each survivor, in whatever place he sojourns, be assisted by the men of his place with silver and gold.',
+      },
+    },
+  },
+  {
+    id: 'ezra-7-27',
+    reference: 'Ezra 7:27',
+    book: 'Ezra',
+    chapter: 7,
+    verse: 27,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Blessed be the LORD, the God of our fathers, who put such a thing as this into the heart of the king, to beautify the house of the LORD that is in Jerusalem.',
+      NIV: 'Praise be to the LORD, the God of our ancestors, who has put it into the king\'s heart to bring honor to the house of the LORD in Jerusalem in this way.',
+      KJV: 'Blessed be the LORD God of our fathers, which hath put such a thing as this in the king\'s heart, to beautify the house of the LORD which is in Jerusalem.',
+      NASB: 'Blessed be the LORD, the God of our fathers, who has put such a thing as this in the king\'s heart, to adorn the house of the LORD which is in Jerusalem.',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 7:26',
+        text: 'Whoever will not obey the law of your God and the law of the king, let judgment be strictly executed on him.',
+      },
+      after: {
+        reference: 'Ezra 7:28',
+        text: 'And has extended to me his steadfast love before the king and his counselors, and before all the king\'s mighty officers.',
+      },
+    },
+  },
+  {
+    id: 'ezra-9-8',
+    reference: 'Ezra 9:8',
+    book: 'Ezra',
+    chapter: 9,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But now for a brief moment favor has been shown by the LORD our God, to leave us a remnant and to give us a secure hold within his holy place, that our God may brighten our eyes and grant us a little reviving in our slavery.',
+      NIV: 'But now, for a brief moment, the LORD our God has been gracious in leaving us a remnant and giving us a firm place in his sanctuary, and so our God gives light to our eyes and a little relief in our bondage.',
+      KJV: 'And now for a little space grace hath been shewed from the LORD our God, to leave us a remnant to escape, and to give us a nail in his holy place, that our God may lighten our eyes, and give us a little reviving in our bondage.',
+      NASB: 'But now for a brief moment grace has been shown from the LORD our God, to leave us an escaped remnant and to give us a peg in His holy place, that our God may enlighten our eyes and grant us a little reviving in our bondage.',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 9:7',
+        text: 'From the days of our fathers to this day we have been in great guilt.',
+      },
+      after: {
+        reference: 'Ezra 9:9',
+        text: 'For we are slaves. Yet our God has not forsaken us in our slavery.',
+      },
+    },
+  },
+  {
+    id: 'ezra-6-22',
+    reference: 'Ezra 6:22',
+    book: 'Ezra',
+    chapter: 6,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And they kept the Feast of Unleavened Bread seven days with joy, for the LORD had made them joyful and had turned the heart of the king of Assyria to them, so that he aided them in the work of the house of God, the God of Israel.',
+      NIV: 'For seven days they celebrated with joy the Festival of Unleavened Bread, because the LORD had filled them with joy by changing the attitude of the king of Assyria so that he assisted them in the work on the house of God, the God of Israel.',
+      KJV: 'And kept the feast of unleavened bread seven days with joy: for the LORD had made them joyful, and turned the heart of the king of Assyria unto them, to strengthen their hands in the work of the house of God, the God of Israel.',
+      NASB: 'And they observed the Feast of Unleavened Bread seven days with joy, for the LORD had caused them to rejoice, and had turned the heart of the king of Assyria toward them to encourage them in the work of the house of God, the God of Israel.',
+    },
+    context: {
+      before: {
+        reference: 'Ezra 6:21',
+        text: 'It was eaten by the people of Israel who had returned from exile, and also by every one who had joined them and separated himself from the uncleanness of the peoples.',
+      },
+      after: {
+        reference: 'Ezra 7:1',
+        text: 'Now after this, in the reign of Artaxerxes king of Persia, Ezra the son of Seraiah.',
+      },
+    },
+  },
 
   // ============ NEHEMIAH ============
   {
@@ -1801,6 +2575,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  // Additional Nehemiah verses
+  {
+    id: 'nehemiah-1-5',
+    reference: 'Nehemiah 1:5',
+    book: 'Nehemiah',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I said, "O LORD God of heaven, the great and awesome God who keeps covenant and steadfast love with those who love him and keep his commandments."',
+      NIV: 'Then I said: "LORD, the God of heaven, the great and awesome God, who keeps his covenant of love with those who love him and keep his commandments."',
+      KJV: 'And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth covenant and mercy for them that love him and observe his commandments.',
+      NASB: 'And I said, "I beseech You, O LORD God of heaven, the great and awesome God, who preserves the covenant and lovingkindness for those who love Him and keep His commandments."',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 1:4',
+        text: 'As soon as I heard these words I sat down and wept and mourned for days, and I continued fasting and praying before the God of heaven.',
+      },
+      after: {
+        reference: 'Nehemiah 1:6',
+        text: 'Let your ear be attentive and your eyes open, to hear the prayer of your servant.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-6-16',
+    reference: 'Nehemiah 6:16',
+    book: 'Nehemiah',
+    chapter: 6,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And when all our enemies heard of it, all the nations around us were afraid and fell greatly in their own esteem, for they perceived that this work had been accomplished with the help of our God.',
+      NIV: 'When all our enemies heard about this, all the surrounding nations were afraid and lost their self-confidence, because they realized that this work had been done with the help of our God.',
+      KJV: 'And it came to pass, that when all our enemies heard thereof, and all the heathen that were about us saw these things, they were much cast down in their own eyes: for they perceived that this work was wrought of our God.',
+      NASB: 'When all our enemies heard of it, and all the nations surrounding us saw it, they lost their confidence; for they recognized that this work had been accomplished with the help of our God.',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 6:15',
+        text: 'So the wall was finished on the twenty-fifth day of the month Elul, in fifty-two days.',
+      },
+      after: {
+        reference: 'Nehemiah 6:17',
+        text: 'Moreover, in those days the nobles of Judah sent many letters to Tobiah, and Tobiah\'s letters came to them.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-9-6',
+    reference: 'Nehemiah 9:6',
+    book: 'Nehemiah',
+    chapter: 9,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'You are the LORD, you alone. You have made heaven, the heaven of heavens, with all their host, the earth and all that is on it, the seas and all that is in them; and you preserve all of them; and the host of heaven worships you.',
+      NIV: 'You alone are the LORD. You made the heavens, even the highest heavens, and all their starry host, the earth and all that is on it, the seas and all that is in them. You give life to everything, and the multitudes of heaven worship you.',
+      KJV: 'Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee.',
+      NASB: 'You alone are the LORD. You have made the heavens, the heaven of heavens with all their host, the earth and all that is on it, the seas and all that is in them. You give life to all of them and the heavenly host bows down before You.',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 9:5',
+        text: 'Stand up and bless the LORD your God from everlasting to everlasting.',
+      },
+      after: {
+        reference: 'Nehemiah 9:7',
+        text: 'You are the LORD, the God who chose Abram and brought him out of Ur of the Chaldeans.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-2-20',
+    reference: 'Nehemiah 2:20',
+    book: 'Nehemiah',
+    chapter: 2,
+    verse: 20,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Then I replied to them, "The God of heaven will make us prosper, and we his servants will arise and build, but you have no portion or right or claim in Jerusalem."',
+      NIV: 'I answered them by saying, "The God of heaven will give us success. We his servants will start rebuilding, but as for you, you have no share in Jerusalem or any claim or historic right to it."',
+      KJV: 'Then answered I them, and said unto them, The God of heaven, he will prosper us; therefore we his servants will arise and build: but ye have no portion, nor right, nor memorial, in Jerusalem.',
+      NASB: 'So I answered them and said to them, "The God of heaven will give us success; therefore we His servants will arise and build, but you have no portion, right or memorial in Jerusalem."',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 2:19',
+        text: 'But when Sanballat the Horonite and Tobiah the Ammonite servant and Geshem the Arab heard of it, they jeered at us and despised us.',
+      },
+      after: {
+        reference: 'Nehemiah 3:1',
+        text: 'Then Eliashib the high priest rose up with his brothers the priests, and they built the Sheep Gate.',
+      },
+    },
+  },
 
   // ============ ESTHER ============
   {
@@ -1896,6 +2767,99 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Esther 9:1',
         text: 'Now in the twelfth month, which is the month of Adar, on the thirteenth day of the same, when the king\'s command and edict were about to be carried out.',
+      },
+    },
+  },
+  // Additional Esther verses
+  {
+    id: 'esther-4-16',
+    reference: 'Esther 4:16',
+    book: 'Esther',
+    chapter: 4,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Go, gather all the Jews to be found in Susa, and hold a fast on my behalf, and do not eat or drink for three days, night or day. I and my young women will also fast as you do. Then I will go to the king, though it is against the law, and if I perish, I perish.',
+      NIV: 'Go, gather together all the Jews who are in Susa, and fast for me. Do not eat or drink for three days, night or day. I and my attendants will fast as you do. When this is done, I will go to the king, even though it is against the law. And if I perish, I perish.',
+      KJV: 'Go, gather together all the Jews that are present in Shushan, and fast ye for me, and neither eat nor drink three days, night or day: I also and my maidens will fast likewise; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.',
+      NASB: 'Go, assemble all the Jews who are found in Susa, and fast for me; do not eat or drink for three days, night or day. I and my maidens also will fast in the same way. And thus I will go in to the king, which is not according to the law; and if I perish, I perish.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 4:15',
+        text: 'Then Esther told them to reply to Mordecai.',
+      },
+      after: {
+        reference: 'Esther 4:17',
+        text: 'So Mordecai went away and did everything as Esther had ordered him.',
+      },
+    },
+  },
+  {
+    id: 'esther-6-1',
+    reference: 'Esther 6:1',
+    book: 'Esther',
+    chapter: 6,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'On that night the king could not sleep. And he gave orders to bring the book of memorable deeds, the chronicles, and they were read before the king.',
+      NIV: 'That night the king could not sleep; so he ordered the book of the chronicles, the record of his reign, to be brought in and read to him.',
+      KJV: 'On that night could not the king sleep, and he commanded to bring the book of records of the chronicles; and they were read before the king.',
+      NASB: 'During that night the king could not sleep so he gave an order to bring the book of records, the chronicles, and they were read before the king.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 5:14',
+        text: 'Then his wife Zeresh and all his friends said to him, "Let a gallows fifty cubits high be made."',
+      },
+      after: {
+        reference: 'Esther 6:2',
+        text: 'And it was found written how Mordecai had told about Bigthana and Teresh, two of the king\'s eunuchs.',
+      },
+    },
+  },
+  {
+    id: 'esther-9-22',
+    reference: 'Esther 9:22',
+    book: 'Esther',
+    chapter: 9,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'As the days on which the Jews got relief from their enemies, and as the month that had been turned for them from sorrow into gladness and from mourning into a holiday.',
+      NIV: 'As the time when the Jews got relief from their enemies, and as the month when their sorrow was turned into joy and their mourning into a day of celebration.',
+      KJV: 'As the days wherein the Jews rested from their enemies, and the month which was turned unto them from sorrow to joy, and from mourning into a good day.',
+      NASB: 'Because on those days the Jews rid themselves of their enemies, and it was a month which was turned for them from sorrow into gladness and from mourning into a holiday.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 9:21',
+        text: 'Obliging them to keep the fourteenth day of the month Adar and also the fifteenth day of the same, year by year.',
+      },
+      after: {
+        reference: 'Esther 9:23',
+        text: 'And the Jews accepted what they had begun to do, and what Mordecai had written to them.',
+      },
+    },
+  },
+  {
+    id: 'esther-10-3',
+    reference: 'Esther 10:3',
+    book: 'Esther',
+    chapter: 10,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For Mordecai the Jew was second in rank to King Ahasuerus, and he was great among the Jews and popular with the multitude of his brothers, for he sought the welfare of his people and spoke peace to all his people.',
+      NIV: 'Mordecai the Jew was second in rank to King Xerxes, preeminent among the Jews, and held in high esteem by his many fellow Jews, because he worked for the good of his people and spoke up for the welfare of all the Jews.',
+      KJV: 'For Mordecai the Jew was next unto king Ahasuerus, and great among the Jews, and accepted of the multitude of his brethren, seeking the wealth of his people, and speaking peace to all his seed.',
+      NASB: 'For Mordecai the Jew was second only to King Ahasuerus, and great among the Jews and in favor with his many kinsmen, one who sought the good of his people and one who spoke for the welfare of his whole nation.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 10:2',
+        text: 'And all the acts of his power and might, and the full account of the high honor of Mordecai, to which the king advanced him.',
       },
     },
   },
