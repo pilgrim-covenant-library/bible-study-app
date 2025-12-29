@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { CHURCH_HISTORY_AUTHORS } from '@/data/church-history-authors';
 
-type TraditionFilter = 'all' | 'early_church' | 'reformation' | 'puritan' | 'american_reformed';
+type TraditionFilter = 'all' | 'early_church' | 'reformation' | 'puritan' | 'american_reformed' | 'great_awakening' | 'modern_reformed';
 
 const TRADITION_FILTERS: { value: TraditionFilter; label: string }[] = [
   { value: 'all', label: 'All Traditions' },
@@ -15,6 +15,8 @@ const TRADITION_FILTERS: { value: TraditionFilter; label: string }[] = [
   { value: 'reformation', label: 'Reformation' },
   { value: 'puritan', label: 'Puritan' },
   { value: 'american_reformed', label: 'American Reformed' },
+  { value: 'great_awakening', label: 'Great Awakening' },
+  { value: 'modern_reformed', label: 'Modern Reformed' },
 ];
 
 // Tradition badge styling
@@ -24,12 +26,16 @@ function getTraditionBadge(tradition: string) {
     reformation: 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300',
     puritan: 'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300',
     american_reformed: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300',
+    great_awakening: 'bg-rose-100 text-rose-800 dark:bg-rose-900/30 dark:text-rose-300',
+    modern_reformed: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300',
   };
   const labels: Record<string, string> = {
     early_church: 'Early Church',
     reformation: 'Reformation',
     puritan: 'Puritan',
     american_reformed: 'American Reformed',
+    great_awakening: 'Great Awakening',
+    modern_reformed: 'Modern Reformed',
   };
   return {
     className: styles[tradition] || 'bg-gray-100 text-gray-800',
