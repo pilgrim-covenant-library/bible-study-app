@@ -7558,6 +7558,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'jonah-1-17',
+    reference: 'Jonah 1:17',
+    book: 'Jonah',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And the LORD appointed a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.',
+      NIV: 'Now the LORD provided a huge fish to swallow Jonah, and Jonah was in the belly of the fish three days and three nights.',
+      KJV: 'Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.',
+      NASB: 'And the LORD appointed a great fish to swallow Jonah, and Jonah was in the stomach of the fish three days and three nights.',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 1:16',
+        text: 'Then the men feared the LORD exceedingly, and they offered a sacrifice to the LORD and made vows.',
+      },
+      after: {
+        reference: 'Jonah 2:1',
+        text: 'Then Jonah prayed to the LORD his God from the belly of the fish.',
+      },
+    },
+  },
+  {
+    id: 'jonah-2-6',
+    reference: 'Jonah 2:6',
+    book: 'Jonah',
+    chapter: 2,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'I went down to the land whose bars closed upon me forever; yet you brought up my life from the pit, O LORD my God.',
+      NIV: 'To the roots of the mountains I sank down; the earth beneath barred me in forever. But you, LORD my God, brought my life up from the pit.',
+      KJV: 'I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God.',
+      NASB: 'I descended to the roots of the mountains. The earth with its bars was around me forever, but You have brought up my life from the pit, O LORD my God.',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 2:5',
+        text: 'The waters closed in over me to take my life; the deep surrounded me; weeds were wrapped about my head.',
+      },
+      after: {
+        reference: 'Jonah 2:7',
+        text: 'When my life was fainting away, I remembered the LORD, and my prayer came to you, into your holy temple.',
+      },
+    },
+  },
+  {
+    id: 'jonah-3-5',
+    reference: 'Jonah 3:5',
+    book: 'Jonah',
+    chapter: 3,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And the people of Nineveh believed God. They called for a fast and put on sackcloth, from the greatest of them to the least of them.',
+      NIV: 'The Ninevites believed God. A fast was proclaimed, and all of them, from the greatest to the least, put on sackcloth.',
+      KJV: 'So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them.',
+      NASB: 'Then the people of Nineveh believed in God; and they called a fast and put on sackcloth from the greatest to the least of them.',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 3:4',
+        text: 'Jonah began to go into the city, going a day\'s journey. And he called out, "Yet forty days, and Nineveh shall be overthrown!"',
+      },
+      after: {
+        reference: 'Jonah 3:6',
+        text: 'The word reached the king of Nineveh, and he arose from his throne, removed his robe, covered himself with sackcloth, and sat in ashes.',
+      },
+    },
+  },
+  {
+    id: 'jonah-4-4',
+    reference: 'Jonah 4:4',
+    book: 'Jonah',
+    chapter: 4,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And the LORD said, "Do you do well to be angry?"',
+      NIV: 'But the LORD replied, "Is it right for you to be angry?"',
+      KJV: 'Then said the LORD, Doest thou well to be angry?',
+      NASB: 'The LORD said, "Do you have good reason to be angry?"',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 4:3',
+        text: 'Therefore now, O LORD, please take my life from me, for it is better for me to die than to live.',
+      },
+      after: {
+        reference: 'Jonah 4:5',
+        text: 'Jonah went out of the city and sat to the east of the city and made a booth for himself there.',
+      },
+    },
+  },
 
   // ============ MICAH ============
   {
