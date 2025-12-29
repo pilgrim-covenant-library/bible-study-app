@@ -7752,6 +7752,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'micah-5-5',
+    reference: 'Micah 5:5',
+    book: 'Micah',
+    chapter: 5,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he shall be their peace. When the Assyrian comes into our land and treads in our palaces, then we will raise against him seven shepherds and eight princes of men.',
+      NIV: 'And he will be our peace when the Assyrians invade our land and march through our fortresses. We will raise against them seven shepherds, even eight commanders.',
+      KJV: 'And this man shall be the peace, when the Assyrian shall come into our land: and when he shall tread in our palaces, then shall we raise against him seven shepherds, and eight principal men.',
+      NASB: 'This One will be our peace. When the Assyrian invades our land, when he tramples on our citadels, then we will raise against him seven shepherds and eight leaders of men.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 5:4',
+        text: 'And he shall stand and shepherd his flock in the strength of the LORD, in the majesty of the name of the LORD his God.',
+      },
+      after: {
+        reference: 'Micah 5:6',
+        text: 'They shall shepherd the land of Assyria with the sword, and the land of Nimrod at its entrances.',
+      },
+    },
+  },
+  {
+    id: 'micah-7-8',
+    reference: 'Micah 7:8',
+    book: 'Micah',
+    chapter: 7,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Rejoice not over me, O my enemy; when I fall, I shall rise; when I sit in darkness, the LORD will be a light to me.',
+      NIV: 'Do not gloat over me, my enemy! Though I have fallen, I will rise. Though I sit in darkness, the LORD will be my light.',
+      KJV: 'Rejoice not against me, O mine enemy: when I fall, I shall arise; when I sit in darkness, the LORD shall be a light unto me.',
+      NASB: 'Do not rejoice over me, O my enemy. Though I fall I will rise; though I dwell in darkness, the LORD is a light for me.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 7:7',
+        text: 'But as for me, I will look to the LORD; I will wait for the God of my salvation; my God will hear me.',
+      },
+      after: {
+        reference: 'Micah 7:9',
+        text: 'I will bear the indignation of the LORD because I have sinned against him, until he pleads my cause and executes judgment for me.',
+      },
+    },
+  },
 
   // ============ NAHUM ============
   {
@@ -8711,6 +8759,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Zechariah 14:10',
         text: 'The whole land shall be turned into a plain from Geba to Rimmon south of Jerusalem.',
+      },
+    },
+  },
+  {
+    id: 'zechariah-3-8',
+    reference: 'Zechariah 3:8',
+    book: 'Zechariah',
+    chapter: 3,
+    verse: 8,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Hear now, O Joshua the high priest, you and your friends who sit before you, for they are men who are a sign: behold, I will bring my servant the Branch.',
+      NIV: '"Listen, High Priest Joshua, you and your associates seated before you, who are men symbolic of things to come: I am going to bring my servant, the Branch."',
+      KJV: 'Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH.',
+      NASB: 'Now listen, Joshua the high priest, you and your friends who are sitting in front of you—indeed they are men who are a sign: for behold, I am going to bring in My servant the Branch.',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 3:7',
+        text: 'Thus says the LORD of hosts: If you will walk in my ways and keep my charge, then you shall rule my house and have charge of my courts.',
+      },
+      after: {
+        reference: 'Zechariah 3:9',
+        text: 'For behold, on the stone that I have set before Joshua, on a single stone with seven eyes, I will engrave its inscription, declares the LORD of hosts.',
+      },
+    },
+  },
+  {
+    id: 'zechariah-6-12',
+    reference: 'Zechariah 6:12',
+    book: 'Zechariah',
+    chapter: 6,
+    verse: 12,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And say to him, "Thus says the LORD of hosts, \'Behold, the man whose name is the Branch: for he shall branch out from his place, and he shall build the temple of the LORD.\'"',
+      NIV: 'Tell him this is what the LORD Almighty says: "Here is the man whose name is the Branch, and he will branch out from his place and build the temple of the LORD."',
+      KJV: 'And speak unto him, saying, Thus speaketh the LORD of hosts, saying, Behold the man whose name is The BRANCH; and he shall grow up out of his place, and he shall build the temple of the LORD:',
+      NASB: 'and say to him, "Thus says the LORD of hosts, \'Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD.\'"',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 6:11',
+        text: 'Take from them silver and gold, and make a crown, and set it on the head of Joshua, the son of Jehozadak, the high priest.',
+      },
+      after: {
+        reference: 'Zechariah 6:13',
+        text: 'It is he who shall build the temple of the LORD and shall bear royal honor, and shall sit and rule on his throne.',
+      },
+    },
+  },
+  {
+    id: 'zechariah-8-23',
+    reference: 'Zechariah 8:23',
+    book: 'Zechariah',
+    chapter: 8,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Thus says the LORD of hosts: In those days ten men from the nations of every tongue shall take hold of the robe of a Jew, saying, "Let us go with you, for we have heard that God is with you."',
+      NIV: 'This is what the LORD Almighty says: "In those days ten people from all languages and nations will take firm hold of one Jew by the hem of his robe and say, \'Let us go with you, because we have heard that God is with you.\'"',
+      KJV: 'Thus saith the LORD of hosts; In those days it shall come to pass, that ten men shall take hold out of all languages of the nations, even shall take hold of the skirt of him that is a Jew, saying, We will go with you: for we have heard that God is with you.',
+      NASB: 'Thus says the LORD of hosts, "In those days ten men from all the nations will grasp the garment of a Jew, saying, \'Let us go with you, for we have heard that God is with you.\'"',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 8:22',
+        text: 'Many peoples and strong nations shall come to seek the LORD of hosts in Jerusalem and to entreat the favor of the LORD.',
+      },
+      after: {
+        reference: 'Zechariah 9:1',
+        text: 'The oracle of the word of the LORD is against the land of Hadrach and Damascus is its resting place.',
+      },
+    },
+  },
+  {
+    id: 'zechariah-11-12',
+    reference: 'Zechariah 11:12',
+    book: 'Zechariah',
+    chapter: 11,
+    verse: 12,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Then I said to them, "If it seems good to you, give me my wages; but if not, keep them." And they weighed out as my wages thirty pieces of silver.',
+      NIV: 'I told them, "If you think it best, give me my pay; but if not, keep it." So they paid me thirty pieces of silver.',
+      KJV: 'And I said unto them, If ye think good, give me my price; and if not, forbear. So they weighed for my price thirty pieces of silver.',
+      NASB: 'And I said to them, "If it is good in your sight, give me my wages; but if not, never mind!" So they weighed out thirty shekels of silver as my wages.',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 11:11',
+        text: 'So it was annulled on that day, and the sheep merchants, who were watching me, knew that it was the word of the LORD.',
+      },
+      after: {
+        reference: 'Zechariah 11:13',
+        text: 'Then the LORD said to me, "Throw it to the potter"—the lordly price at which I was priced by them. So I took the thirty pieces of silver and threw them into the house of the LORD, to the potter.',
       },
     },
   },
