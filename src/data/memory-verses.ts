@@ -4786,6 +4786,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-john-3-1',
+    reference: '1 John 3:1',
+    book: '1 John',
+    chapter: 3,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'See what kind of love the Father has given to us, that we should be called children of God; and so we are. The reason why the world does not know us is that it did not know him.',
+      NIV: 'See what great love the Father has lavished on us, that we should be called children of God! And that is what we are! The reason the world does not know us is that it did not know him.',
+      KJV: 'Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.',
+      NASB: 'See how great a love the Father has bestowed on us, that we would be called children of God; and such we are. For this reason the world does not know us, because it did not know Him.',
+    },
+    context: {
+      before: {
+        reference: '1 John 2:29',
+        text: 'If you know that he is righteous, you may be sure that everyone who practices righteousness has been born of him.',
+      },
+      after: {
+        reference: '1 John 3:2',
+        text: 'Beloved, we are God\'s children now, and what we will be has not yet appeared; but we know that when he appears we shall be like him, because we shall see him as he is.',
+      },
+    },
+  },
+  {
+    id: '1-john-4-8',
+    reference: '1 John 4:8',
+    book: '1 John',
+    chapter: 4,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Anyone who does not love does not know God, because God is love.',
+      NIV: 'Whoever does not love does not know God, because God is love.',
+      KJV: 'He that loveth not knoweth not God; for God is love.',
+      NASB: 'The one who does not love does not know God, for God is love.',
+    },
+    context: {
+      before: {
+        reference: '1 John 4:7',
+        text: 'Beloved, let us love one another, for love is from God, and whoever loves has been born of God and knows God.',
+      },
+      after: {
+        reference: '1 John 4:9',
+        text: 'In this the love of God was made manifest among us, that God sent his only Son into the world, so that we might live through him.',
+      },
+    },
+  },
+  {
+    id: '1-john-5-11',
+    reference: '1 John 5:11',
+    book: '1 John',
+    chapter: 5,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And this is the testimony, that God gave us eternal life, and this life is in his Son.',
+      NIV: 'And this is the testimony: God has given us eternal life, and this life is in his Son.',
+      KJV: 'And this is the record, that God hath given to us eternal life, and this life is in his Son.',
+      NASB: 'And the testimony is this, that God has given us eternal life, and this life is in His Son.',
+    },
+    context: {
+      before: {
+        reference: '1 John 5:10',
+        text: 'Whoever believes in the Son of God has the testimony in himself. Whoever does not believe God has made him a liar, because he has not believed in the testimony that God has borne concerning his Son.',
+      },
+      after: {
+        reference: '1 John 5:12',
+        text: 'Whoever has the Son has life; whoever does not have the Son of God does not have life.',
+      },
+    },
+  },
+  {
+    id: '1-john-2-15',
+    reference: '1 John 2:15',
+    book: '1 John',
+    chapter: 2,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in him.',
+      NIV: 'Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them.',
+      KJV: 'Love not the world, neither the things that are in the world. If any man love the world, the love of the Father is not in him.',
+      NASB: 'Do not love the world nor the things in the world. If anyone loves the world, the love of the Father is not in him.',
+    },
+    context: {
+      before: {
+        reference: '1 John 2:14',
+        text: 'I write to you, fathers, because you know him who is from the beginning. I write to you, young men, because you are strong, and the word of God abides in you, and you have overcome the evil one.',
+      },
+      after: {
+        reference: '1 John 2:16',
+        text: 'For all that is in the world—the desires of the flesh and the desires of the eyes and pride of life—is not from the Father but is from the world.',
+      },
+    },
+  },
 
   // ============ 2 JOHN ============
   {
@@ -5125,6 +5221,150 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Revelation 22:21',
         text: 'The grace of the Lord Jesus be with all. Amen.',
+      },
+    },
+  },
+  {
+    id: 'revelation-5-9',
+    reference: 'Revelation 5:9',
+    book: 'Revelation',
+    chapter: 5,
+    verse: 9,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And they sang a new song, saying, "Worthy are you to take the scroll and to open its seals, for you were slain, and by your blood you ransomed people for God from every tribe and language and people and nation."',
+      NIV: 'And they sang a new song, saying: "You are worthy to take the scroll and to open its seals, because you were slain, and with your blood you purchased for God persons from every tribe and language and people and nation."',
+      KJV: 'And they sung a new song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation.',
+      NASB: 'And they sang a new song, saying, "Worthy are You to take the book and to break its seals; for You were slain, and purchased for God with Your blood men from every tribe and tongue and people and nation."',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 5:8',
+        text: 'And when he had taken the scroll, the four living creatures and the twenty-four elders fell down before the Lamb, each holding a harp, and golden bowls full of incense, which are the prayers of the saints.',
+      },
+      after: {
+        reference: 'Revelation 5:10',
+        text: 'And you have made them a kingdom and priests to our God, and they shall reign on the earth.',
+      },
+    },
+  },
+  {
+    id: 'revelation-7-17',
+    reference: 'Revelation 7:17',
+    book: 'Revelation',
+    chapter: 7,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the Lamb in the midst of the throne will be their shepherd, and he will guide them to springs of living water, and God will wipe away every tear from their eyes.',
+      NIV: 'For the Lamb at the center of the throne will be their shepherd; he will lead them to springs of living water. And God will wipe away every tear from their eyes.',
+      KJV: 'For the Lamb which is in the midst of the throne shall feed them, and shall lead them unto living fountains of waters: and God shall wipe away all tears from their eyes.',
+      NASB: 'for the Lamb in the center of the throne will be their shepherd, and will guide them to springs of the water of life; and God will wipe every tear from their eyes.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 7:16',
+        text: 'They shall hunger no more, neither thirst anymore; the sun shall not strike them, nor any scorching heat.',
+      },
+      after: {
+        reference: 'Revelation 8:1',
+        text: 'When the Lamb opened the seventh seal, there was silence in heaven for about half an hour.',
+      },
+    },
+  },
+  {
+    id: 'revelation-12-11',
+    reference: 'Revelation 12:11',
+    book: 'Revelation',
+    chapter: 12,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And they have conquered him by the blood of the Lamb and by the word of their testimony, for they loved not their lives even unto death.',
+      NIV: 'They triumphed over him by the blood of the Lamb and by the word of their testimony; they did not love their lives so much as to shrink from death.',
+      KJV: 'And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death.',
+      NASB: 'And they overcame him because of the blood of the Lamb and because of the word of their testimony, and they did not love their life even when faced with death.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 12:10',
+        text: 'And I heard a loud voice in heaven, saying, "Now the salvation and the power and the kingdom of our God and the authority of his Christ have come, for the accuser of our brothers has been thrown down."',
+      },
+      after: {
+        reference: 'Revelation 12:12',
+        text: 'Therefore, rejoice, O heavens and you who dwell in them! But woe to you, O earth and sea, for the devil has come down to you in great wrath, because he knows that his time is short!',
+      },
+    },
+  },
+  {
+    id: 'revelation-19-16',
+    reference: 'Revelation 19:16',
+    book: 'Revelation',
+    chapter: 19,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'On his robe and on his thigh he has a name written, King of kings and Lord of lords.',
+      NIV: 'On his robe and on his thigh he has this name written: King of kings and Lord of lords.',
+      KJV: 'And he hath on his vesture and on his thigh a name written, KING OF KINGS, AND LORD OF LORDS.',
+      NASB: 'And on His robe and on His thigh He has a name written, "KING OF KINGS, AND LORD OF LORDS."',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 19:15',
+        text: 'From his mouth comes a sharp sword with which to strike down the nations, and he will rule them with a rod of iron. He will tread the winepress of the fury of the wrath of God the Almighty.',
+      },
+      after: {
+        reference: 'Revelation 19:17',
+        text: 'Then I saw an angel standing in the sun, and with a loud voice he called to all the birds that fly directly overhead.',
+      },
+    },
+  },
+  {
+    id: 'revelation-21-5',
+    reference: 'Revelation 21:5',
+    book: 'Revelation',
+    chapter: 21,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he who was seated on the throne said, "Behold, I am making all things new." Also he said, "Write this down, for these words are trustworthy and true."',
+      NIV: 'He who was seated on the throne said, "I am making everything new!" Then he said, "Write this down, for these words are trustworthy and true."',
+      KJV: 'And he that sat upon the throne said, Behold, I make all things new. And he said unto me, Write: for these words are true and faithful.',
+      NASB: 'And He who sits on the throne said, "Behold, I am making all things new." And He said, "Write, for these words are faithful and true."',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 21:4',
+        text: 'He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.',
+      },
+      after: {
+        reference: 'Revelation 21:6',
+        text: 'And he said to me, "It is done! I am the Alpha and the Omega, the beginning and the end. To the thirsty I will give from the spring of the water of life without payment."',
+      },
+    },
+  },
+  {
+    id: 'revelation-22-17',
+    reference: 'Revelation 22:17',
+    book: 'Revelation',
+    chapter: 22,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The Spirit and the Bride say, "Come." And let the one who hears say, "Come." And let the one who is thirsty come; let the one who desires take the water of life without price.',
+      NIV: 'The Spirit and the bride say, "Come!" And let the one who hears say, "Come!" Let the one who is thirsty come; and let the one who wishes take the free gift of the water of life.',
+      KJV: 'And the Spirit and the bride say, Come. And let him that heareth say, Come. And let him that is athirst come. And whosoever will, let him take the water of life freely.',
+      NASB: 'The Spirit and the bride say, "Come." And let the one who hears say, "Come." And let the one who is thirsty come; let the one who wishes take the water of life without cost.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 22:16',
+        text: 'I, Jesus, have sent my angel to testify to you about these things for the churches. I am the root and the descendant of David, the bright morning star.',
+      },
+      after: {
+        reference: 'Revelation 22:18',
+        text: 'I warn everyone who hears the words of the prophecy of this book: if anyone adds to them, God will add to him the plagues described in this book.',
       },
     },
   },
