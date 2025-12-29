@@ -1058,6 +1058,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'leviticus-6-13',
+    reference: 'Leviticus 6:13',
+    book: 'Leviticus',
+    chapter: 6,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Fire shall be kept burning on the altar continually; it shall not go out.',
+      NIV: 'The fire must be kept burning on the altar continuously; it must not go out.',
+      KJV: 'The fire shall ever be burning upon the altar; it shall never go out.',
+      NASB: 'Fire shall be kept burning continually on the altar; it is not to go out.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 6:12',
+        text: 'The fire on the altar shall be kept burning on it; it shall not go out. The priest shall burn wood on it every morning.',
+      },
+      after: {
+        reference: 'Leviticus 6:14',
+        text: 'And this is the law of the grain offering. The sons of Aaron shall offer it before the LORD in front of the altar.',
+      },
+    },
+  },
+  {
+    id: 'leviticus-25-10',
+    reference: 'Leviticus 25:10',
+    book: 'Leviticus',
+    chapter: 25,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And you shall consecrate the fiftieth year, and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee for you, when each of you shall return to his property and each of you shall return to his clan.',
+      NIV: 'Consecrate the fiftieth year and proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee for you; each of you is to return to your family property and to your own clan.',
+      KJV: 'And ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession, and ye shall return every man unto his family.',
+      NASB: 'You shall thus consecrate the fiftieth year and proclaim a release through the land to all its inhabitants. It shall be a jubilee for you, and each of you shall return to his own property, and each of you shall return to his family.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 25:9',
+        text: 'Then you shall sound the loud trumpet on the tenth day of the seventh month. On the Day of Atonement you shall sound the trumpet throughout all your land.',
+      },
+      after: {
+        reference: 'Leviticus 25:11',
+        text: 'That fiftieth year shall be a jubilee for you; in it you shall neither sow nor reap what grows of itself nor gather the grapes from the undressed vines.',
+      },
+    },
+  },
 
   // ============ NUMBERS ============
   {
@@ -1249,6 +1297,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Numbers 11:30',
         text: 'And Moses and the elders of Israel returned to the camp.',
+      },
+    },
+  },
+  {
+    id: 'numbers-14-21',
+    reference: 'Numbers 14:21',
+    book: 'Numbers',
+    chapter: 14,
+    verse: 21,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But truly, as I live, and as all the earth shall be filled with the glory of the LORD,',
+      NIV: 'Nevertheless, as surely as I live and as surely as the glory of the LORD fills the whole earth,',
+      KJV: 'But as truly as I live, all the earth shall be filled with the glory of the LORD.',
+      NASB: 'but indeed, as I live, all the earth will be filled with the glory of the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 14:20',
+        text: 'Then the LORD said, "I have pardoned, according to your word."',
+      },
+      after: {
+        reference: 'Numbers 14:22',
+        text: 'none of the men who have seen my glory and my signs that I did in Egypt and in the wilderness, and yet have put me to the test these ten times and have not obeyed my voice,',
+      },
+    },
+  },
+  {
+    id: 'numbers-23-23',
+    reference: 'Numbers 23:23',
+    book: 'Numbers',
+    chapter: 23,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For there is no enchantment against Jacob, no divination against Israel; now it shall be said of Jacob and Israel, "What has God wrought!"',
+      NIV: 'There is no divination against Jacob, no evil omens against Israel. It will now be said of Jacob and of Israel, "See what God has done!"',
+      KJV: 'Surely there is no enchantment against Jacob, neither is there any divination against Israel: according to this time it shall be said of Jacob and of Israel, What hath God wrought!',
+      NASB: 'For there is no omen against Jacob, nor any divination against Israel; at the proper time it shall be said to Jacob and to Israel, what God has done!',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 23:22',
+        text: 'God brings them out of Egypt and is for them like the horns of the wild ox.',
+      },
+      after: {
+        reference: 'Numbers 23:24',
+        text: 'Behold, a people! As a lioness it rises up and as a lion it lifts itself; it does not lie down until it has devoured the prey and drunk the blood of the slain.',
       },
     },
   },
@@ -1928,6 +2024,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'judges-3-9',
+    reference: 'Judges 3:9',
+    book: 'Judges',
+    chapter: 3,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But when the people of Israel cried out to the LORD, the LORD raised up a deliverer for the people of Israel, who saved them, Othniel the son of Kenaz, Caleb\'s younger brother.',
+      NIV: 'But when they cried out to the LORD, he raised up for them a deliverer, Othniel son of Kenaz, Caleb\'s younger brother, who saved them.',
+      KJV: 'And when the children of Israel cried unto the LORD, the LORD raised up a deliverer to the children of Israel, who delivered them, even Othniel the son of Kenaz, Caleb\'s younger brother.',
+      NASB: 'When the sons of Israel cried to the LORD, the LORD raised up a deliverer for the sons of Israel to deliver them, Othniel the son of Kenaz, Caleb\'s younger brother.',
+    },
+    context: {
+      before: {
+        reference: 'Judges 3:8',
+        text: 'Therefore the anger of the LORD was kindled against Israel, and he sold them into the hand of Cushan-rishathaim king of Mesopotamia.',
+      },
+      after: {
+        reference: 'Judges 3:10',
+        text: 'The Spirit of the LORD was upon him, and he judged Israel. He went out to war, and the LORD gave Cushan-rishathaim king of Mesopotamia into his hand.',
+      },
+    },
+  },
+  {
+    id: 'judges-13-5',
+    reference: 'Judges 13:5',
+    book: 'Judges',
+    chapter: 13,
+    verse: 5,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'for behold, you shall conceive and bear a son. No razor shall come upon his head, for the child shall be a Nazirite to God from the womb, and he shall begin to save Israel from the hand of the Philistines.',
+      NIV: 'You will become pregnant and have a son whose head is never to be touched by a razor because the boy is to be a Nazirite, dedicated to God from the womb. He will take the lead in delivering Israel from the hands of the Philistines.',
+      KJV: 'For, lo, thou shalt conceive, and bear a son; and no razor shall come on his head: for the child shall be a Nazarite unto God from the womb: and he shall begin to deliver Israel out of the hand of the Philistines.',
+      NASB: 'For behold, you shall conceive and give birth to a son, and no razor shall come upon his head, for the boy shall be a Nazirite to God from the womb; and he shall begin to deliver Israel from the hands of the Philistines.',
+    },
+    context: {
+      before: {
+        reference: 'Judges 13:4',
+        text: 'Therefore be careful and drink no wine or strong drink, and eat nothing unclean.',
+      },
+      after: {
+        reference: 'Judges 13:6',
+        text: 'Then the woman came and told her husband, "A man of God came to me, and his appearance was like the appearance of the angel of God."',
+      },
+    },
+  },
 
   // ============ RUTH ============
   {
@@ -2119,6 +2263,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ruth 2:21',
         text: 'And Ruth the Moabite said, "Besides, he said to me, \'You shall keep close by my young men until they have finished all my harvest.\'"',
+      },
+    },
+  },
+  {
+    id: 'ruth-1-20',
+    reference: 'Ruth 1:20',
+    book: 'Ruth',
+    chapter: 1,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'She said to them, "Do not call me Naomi; call me Mara, for the Almighty has dealt very bitterly with me."',
+      NIV: '"Don\'t call me Naomi," she told them. "Call me Mara, because the Almighty has made my life very bitter."',
+      KJV: 'And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.',
+      NASB: 'She said to them, "Do not call me Naomi; call me Mara, for the Almighty has dealt very bitterly with me."',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 1:19',
+        text: 'So the two of them went on until they came to Bethlehem. And when they came to Bethlehem, the whole town was stirred.',
+      },
+      after: {
+        reference: 'Ruth 1:21',
+        text: 'I went away full, and the LORD has brought me back empty. Why call me Naomi, when the LORD has testified against me?',
+      },
+    },
+  },
+  {
+    id: 'ruth-3-11',
+    reference: 'Ruth 3:11',
+    book: 'Ruth',
+    chapter: 3,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And now, my daughter, do not fear. I will do for you all that you ask, for all my fellow townsmen know that you are a worthy woman.',
+      NIV: 'And now, my daughter, don\'t be afraid. I will do for you all you ask. All the people of my town know that you are a woman of noble character.',
+      KJV: 'And now, my daughter, fear not; I will do to thee all that thou requirest: for all the city of my people doth know that thou art a virtuous woman.',
+      NASB: 'Now, my daughter, do not fear. I will do for you whatever you ask, for all my people in the city know that you are a woman of excellence.',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 3:10',
+        text: 'And he said, "May you be blessed by the LORD, my daughter. You have made this last kindness greater than the first."',
+      },
+      after: {
+        reference: 'Ruth 3:12',
+        text: 'And now it is true that I am a redeemer. Yet there is a redeemer nearer than I.',
       },
     },
   },
@@ -3093,6 +3285,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Chronicles 29:14',
         text: 'But who am I, and what is my people, that we should be able thus to offer willingly?',
+      },
+    },
+  },
+  {
+    id: '1-chronicles-16-8',
+    reference: '1 Chronicles 16:8',
+    book: '1 Chronicles',
+    chapter: 16,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Oh give thanks to the LORD; call upon his name; make known his deeds among the peoples!',
+      NIV: 'Give praise to the LORD, proclaim his name; make known among the nations what he has done.',
+      KJV: 'Give thanks unto the LORD, call upon his name, make known his deeds among the people.',
+      NASB: 'Oh give thanks to the LORD, call upon His name; make known His deeds among the peoples.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 16:7',
+        text: 'Then on that day David first appointed that thanksgiving be sung to the LORD by Asaph and his brothers.',
+      },
+      after: {
+        reference: '1 Chronicles 16:9',
+        text: 'Sing to him, sing praises to him; tell of all his wondrous works!',
+      },
+    },
+  },
+  {
+    id: '1-chronicles-28-20',
+    reference: '1 Chronicles 28:20',
+    book: '1 Chronicles',
+    chapter: 28,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then David said to Solomon his son, "Be strong and courageous and do it. Do not be afraid and do not be dismayed, for the LORD God, even my God, is with you. He will not leave you or forsake you, until all the work for the service of the house of the LORD is finished."',
+      NIV: 'David also said to Solomon his son, "Be strong and courageous, and do the work. Do not be afraid or discouraged, for the LORD God, my God, is with you. He will not fail you or forsake you until all the work for the service of the temple of the LORD is finished."',
+      KJV: 'And David said to Solomon his son, Be strong and of good courage, and do it: fear not, nor be dismayed: for the LORD God, even my God, will be with thee; he will not fail thee, nor forsake thee, until thou hast finished all the work for the service of the house of the LORD.',
+      NASB: 'Then David said to his son Solomon, "Be strong and courageous, and act; do not fear nor be dismayed, for the LORD God, my God, is with you. He will not fail you nor forsake you until all the work for the service of the house of the LORD is finished."',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 28:19',
+        text: 'All this he made clear to me in writing from the hand of the LORD, all the work to be done according to the plan.',
+      },
+      after: {
+        reference: '1 Chronicles 28:21',
+        text: 'And behold the divisions of the priests and the Levites for all the service of the house of God.',
       },
     },
   },
