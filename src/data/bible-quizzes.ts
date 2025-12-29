@@ -478,7 +478,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     explanation: 'Ezra likely compiled Chronicles to remind returning exiles of their heritage.',
   },
 
-  // 2 Chronicles (3 questions)
+  // 2 Chronicles (6 questions)
   {
     id: '2ch-001',
     bookId: '2-chronicles',
@@ -508,6 +508,36 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: '2 Chronicles',
     distractors: ['Ezra', 'Nehemiah', 'Daniel'],
     explanation: '2 Chronicles ends where Ezra begins - with the return from exile.',
+  },
+  {
+    id: '2ch-004',
+    bookId: '2-chronicles',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records King Hezekiah\'s great Passover celebration that reunited Israel and Judah in worship?',
+    correctAnswer: '2 Chronicles',
+    distractors: ['2 Kings', 'Ezra', 'Nehemiah'],
+    explanation: '2 Chronicles 30 describes Hezekiah\'s remarkable Passover revival.',
+  },
+  {
+    id: '2ch-005',
+    bookId: '2-chronicles',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book details King Josiah\'s discovery of the Book of the Law and subsequent reforms?',
+    correctAnswer: '2 Chronicles',
+    distractors: ['2 Kings', '1 Kings', 'Ezra'],
+    explanation: '2 Chronicles 34-35 records Josiah\'s reform and the rediscovered Law.',
+  },
+  {
+    id: '2ch-006',
+    bookId: '2-chronicles',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book describes King Asa removing his own grandmother from being queen mother because of idolatry?',
+    correctAnswer: '2 Chronicles',
+    distractors: ['1 Kings', '2 Kings', '1 Chronicles'],
+    explanation: '2 Chronicles 15:16 shows Asa\'s zealous reform against idolatry.',
   },
 
   // Ezra (3 questions)
@@ -1808,7 +1838,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     explanation: 'Paul addresses idleness in expectation of Christ\'s return.',
   },
 
-  // 1 Timothy (3 questions)
+  // 1 Timothy (5 questions)
   {
     id: '1ti-001',
     bookId: '1-timothy',
@@ -1839,8 +1869,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Hebrews', 'Romans', 'John'],
     explanation: '1 Timothy 2:5 affirms Christ\'s unique mediatorial role.',
   },
+  {
+    id: '1ti-004',
+    bookId: '1-timothy',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter warns that "the love of money is a root of all kinds of evils" (6:10)?',
+    correctAnswer: '1 Timothy',
+    distractors: ['James', 'Proverbs', 'Ecclesiastes'],
+    explanation: '1 Timothy 6:10 warns against greed and materialism.',
+  },
+  {
+    id: '1ti-005',
+    bookId: '1-timothy',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter calls the church "the pillar and buttress of the truth" (3:15)?',
+    correctAnswer: '1 Timothy',
+    distractors: ['Ephesians', '1 Corinthians', 'Colossians'],
+    explanation: '1 Timothy 3:15 describes the church\'s role in upholding truth.',
+  },
 
-  // 2 Timothy (3 questions)
+  // 2 Timothy (5 questions)
   {
     id: '2ti-001',
     bookId: '2-timothy',
@@ -1870,6 +1920,26 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: '2 Timothy',
     distractors: ['Philippians', '1 Corinthians', 'Hebrews'],
     explanation: 'Paul\'s final testimony of faithfulness.',
+  },
+  {
+    id: '2ti-004',
+    bookId: '2-timothy',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'In which letter does Paul urge Timothy to "preach the word; be ready in season and out of season" (4:2)?',
+    correctAnswer: '2 Timothy',
+    distractors: ['1 Timothy', 'Titus', 'Romans'],
+    explanation: '2 Timothy 4:2 is Paul\'s urgent charge for faithful preaching.',
+  },
+  {
+    id: '2ti-005',
+    bookId: '2-timothy',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter instructs Timothy to be "a worker who has no need to be ashamed, rightly handling the word of truth" (2:15)?',
+    correctAnswer: '2 Timothy',
+    distractors: ['1 Timothy', 'Titus', 'James'],
+    explanation: '2 Timothy 2:15 emphasizes accurate Scripture interpretation.',
   },
 
   // Titus (3 questions)
