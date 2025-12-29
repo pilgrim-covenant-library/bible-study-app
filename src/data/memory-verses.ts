@@ -2739,6 +2739,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ JAMES ============
   {
+    id: 'james-1-2-3',
+    reference: 'James 1:2-3',
+    book: 'James',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness.',
+      NIV: 'Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.',
+      KJV: 'My brethren, count it all joy when ye fall into divers temptations; Knowing this, that the trying of your faith worketh patience.',
+      NASB: 'Consider it all joy, my brethren, when you encounter various trials, knowing that the testing of your faith produces endurance.',
+    },
+    context: {
+      before: {
+        reference: 'James 1:1',
+        text: 'James, a servant of God and of the Lord Jesus Christ, to the twelve tribes in the Dispersion: Greetings.',
+      },
+      after: {
+        reference: 'James 1:4',
+        text: 'And let steadfastness have its full effect, that you may be perfect and complete, lacking in nothing.',
+      },
+    },
+  },
+  {
     id: 'james-1-5',
     reference: 'James 1:5',
     book: 'James',
@@ -2764,6 +2788,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ 1 PETER ============
+  {
+    id: '1-peter-2-9',
+    reference: '1 Peter 2:9',
+    book: '1 Peter',
+    chapter: 2,
+    verse: 9,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.',
+      NIV: 'But you are a chosen people, a royal priesthood, a holy nation, God\'s special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.',
+      KJV: 'But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light.',
+      NASB: 'But you are a chosen race, a royal priesthood, a holy nation, a people for God\'s own possession, so that you may proclaim the excellencies of Him who has called you out of darkness into His marvelous light.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 2:8',
+        text: '"A stone of stumbling, and a rock of offense." They stumble because they disobey the word, as they were destined to do.',
+      },
+      after: {
+        reference: '1 Peter 2:10',
+        text: 'Once you were not a people, but now you are God\'s people; once you had not received mercy, but now you have received mercy.',
+      },
+    },
+  },
   {
     id: '1-peter-5-7',
     reference: '1 Peter 5:7',
