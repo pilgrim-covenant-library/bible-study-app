@@ -486,7 +486,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     explanation: '2 Kings 22-23 describes Josiah\'s discovery and reforms.',
   },
 
-  // 1 Chronicles (3 questions)
+  // 1 Chronicles (5 questions)
   {
     id: '1ch-001',
     bookId: '1-chronicles',
@@ -516,6 +516,26 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: '1 Chronicles',
     distractors: ['Ezra', 'Nehemiah', 'Haggai'],
     explanation: 'Ezra likely compiled Chronicles to remind returning exiles of their heritage.',
+  },
+  {
+    id: '1ch-004',
+    bookId: '1-chronicles',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records David\'s prayer: "Yours, O LORD, is the greatness and the power and the glory" (29:11)?',
+    correctAnswer: '1 Chronicles',
+    distractors: ['2 Samuel', 'Psalms', '1 Kings'],
+    explanation: 'David\'s prayer of dedication is recorded in 1 Chronicles 29.',
+  },
+  {
+    id: '1ch-005',
+    bookId: '1-chronicles',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book omits David\'s sins with Bathsheba, focusing instead on his positive contributions?',
+    correctAnswer: '1 Chronicles',
+    distractors: ['2 Samuel', '1 Kings', 'Psalms'],
+    explanation: 'Chronicles presents an idealized portrait of David for post-exilic encouragement.',
   },
 
   // 2 Chronicles (6 questions)
@@ -1068,7 +1088,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
   // MINOR PROPHETS (Hosea - Malachi)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  // Hosea (3 questions)
+  // Hosea (5 questions)
   {
     id: 'hos-001',
     bookId: 'hosea',
@@ -1099,8 +1119,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Jeremiah', 'Isaiah', 'Micah'],
     explanation: 'Hosea ends with promises of God\'s restoring love.',
   },
+  {
+    id: 'hos-004',
+    bookId: 'hosea',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book contains the prophecy "Out of Egypt I called my son" (11:1), later applied to Jesus?',
+    correctAnswer: 'Hosea',
+    distractors: ['Exodus', 'Isaiah', 'Jeremiah'],
+    explanation: 'Hosea 11:1 refers to Israel but is typologically fulfilled in Christ (Matthew 2:15).',
+  },
+  {
+    id: 'hos-005',
+    bookId: 'hosea',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which prophet redeemed his wayward wife from slavery as a picture of God\'s redeeming love?',
+    correctAnswer: 'Hosea',
+    distractors: ['Jeremiah', 'Ezekiel', 'Isaiah'],
+    explanation: 'In Hosea 3, the prophet buys back Gomer, illustrating divine redemption.',
+  },
 
-  // Joel (3 questions)
+  // Joel (5 questions)
   {
     id: 'joe-001',
     bookId: 'joel',
@@ -1131,8 +1171,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Amos', 'Hosea', 'Isaiah'],
     explanation: 'Joel calls for genuine repentance, not mere external religion.',
   },
+  {
+    id: 'joe-004',
+    bookId: 'joel',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book promises that God will "restore the years that the swarming locust has eaten" (2:25)?',
+    correctAnswer: 'Joel',
+    distractors: ['Amos', 'Hosea', 'Malachi'],
+    explanation: 'Joel promises divine restoration after judgment.',
+  },
+  {
+    id: 'joe-005',
+    bookId: 'joel',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book declares: "Whoever calls on the name of the LORD shall be saved" (2:32)?',
+    correctAnswer: 'Joel',
+    distractors: ['Isaiah', 'Romans', 'Psalms'],
+    explanation: 'Joel 2:32 is quoted by Paul in Romans 10:13 regarding salvation.',
+  },
 
-  // Amos (3 questions)
+  // Amos (5 questions)
   {
     id: 'amo-001',
     bookId: 'amos',
@@ -1163,8 +1223,18 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Isaiah', 'Micah', 'Hosea'],
     explanation: 'Amos 4:1 uses this bold imagery to condemn exploitation.',
   },
+  {
+    id: 'amo-004',
+    bookId: 'amos',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book contains five visions of judgment including a plumb line and basket of summer fruit?',
+    correctAnswer: 'Amos',
+    distractors: ['Zechariah', 'Ezekiel', 'Daniel'],
+    explanation: 'Amos 7-9 records symbolic visions of coming judgment on Israel.',
+  },
 
-  // Obadiah (3 questions)
+  // Obadiah (4 questions)
   {
     id: 'oba-001',
     bookId: 'obadiah',
@@ -1195,8 +1265,18 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Joel', 'Nahum', 'Zephaniah'],
     explanation: 'Edom (Esau\'s descendants) rejoiced when Babylon destroyed Jerusalem.',
   },
+  {
+    id: 'oba-004',
+    bookId: 'obadiah',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book warns: "The pride of your heart has deceived you" (v. 3)?',
+    correctAnswer: 'Obadiah',
+    distractors: ['Proverbs', 'Isaiah', 'Jeremiah'],
+    explanation: 'Obadiah condemns Edom\'s arrogance in their mountain fortress.',
+  },
 
-  // Jonah (3 questions)
+  // Jonah (6 questions)
   {
     id: 'jon-001',
     bookId: 'jonah',
@@ -1227,8 +1307,38 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Habakkuk', 'Nahum', 'Jeremiah'],
     explanation: 'Jonah 4 reveals Jonah\'s anger at Nineveh\'s repentance.',
   },
+  {
+    id: 'jon-004',
+    bookId: 'jonah',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which prophet fled to Tarshish to escape God\'s call?',
+    correctAnswer: 'Jonah',
+    distractors: ['Elijah', 'Jeremiah', 'Moses'],
+    explanation: 'Jonah sailed toward Tarshish (Spain) to flee from God\'s presence.',
+  },
+  {
+    id: 'jon-005',
+    bookId: 'jonah',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'In which book does a plant grow and then wither to teach a prophet about compassion?',
+    correctAnswer: 'Jonah',
+    distractors: ['Isaiah', 'Ezekiel', 'Jeremiah'],
+    explanation: 'God used a vine to teach Jonah about divine compassion for Nineveh.',
+  },
+  {
+    id: 'jon-006',
+    bookId: 'jonah',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book records a pagan ship crew fearing the LORD and offering sacrifices after witnessing His power?',
+    correctAnswer: 'Jonah',
+    distractors: ['Acts', 'Daniel', 'Ezekiel'],
+    explanation: 'The sailors in Jonah 1 came to fear God through the storm.',
+  },
 
-  // Micah (3 questions)
+  // Micah (4 questions)
   {
     id: 'mic-001',
     bookId: 'micah',
@@ -1259,8 +1369,18 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Amos', 'Hosea', 'Joel'],
     explanation: 'Micah prophesied during the reigns of Jotham, Ahaz, and Hezekiah.',
   },
+  {
+    id: 'mic-004',
+    bookId: 'micah',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book promises: "Who is a God like you, pardoning iniquity...He will again have compassion on us" (7:18-19)?',
+    correctAnswer: 'Micah',
+    distractors: ['Isaiah', 'Hosea', 'Psalms'],
+    explanation: 'Micah\'s name means "Who is like the LORD?" and the ending celebrates God\'s mercy.',
+  },
 
-  // Nahum (3 questions)
+  // Nahum (4 questions)
   {
     id: 'nah-001',
     bookId: 'nahum',
@@ -1291,8 +1411,18 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Joel', 'Habakkuk', 'Jonah'],
     explanation: 'Nahum emphasizes both God\'s patience and His justice.',
   },
+  {
+    id: 'nah-004',
+    bookId: 'nahum',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book is sometimes called "the sequel to Jonah" because it addresses the same city generations later?',
+    correctAnswer: 'Nahum',
+    distractors: ['Jonah', 'Habakkuk', 'Zephaniah'],
+    explanation: 'Nahum prophesies against Nineveh which repented in Jonah but returned to wickedness.',
+  },
 
-  // Habakkuk (3 questions)
+  // Habakkuk (5 questions)
   {
     id: 'hab-001',
     bookId: 'habakkuk',
@@ -1323,8 +1453,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Nahum', 'Joel', 'Zephaniah'],
     explanation: 'Habakkuk 3 is a powerful expression of faith despite circumstances.',
   },
+  {
+    id: 'hab-004',
+    bookId: 'habakkuk',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which prophet says: "Though the fig tree should not blossom...yet I will rejoice in the LORD" (3:17-18)?',
+    correctAnswer: 'Habakkuk',
+    distractors: ['Joel', 'Amos', 'Micah'],
+    explanation: 'Habakkuk expresses faith in God despite economic devastation.',
+  },
+  {
+    id: 'hab-005',
+    bookId: 'habakkuk',
+    category: 'identification',
+    difficulty: 'medium',
+    question: 'Which prophetic book is structured as a dialogue between the prophet and God?',
+    correctAnswer: 'Habakkuk',
+    distractors: ['Malachi', 'Jonah', 'Amos'],
+    explanation: 'Habakkuk uniquely presents a conversation with God about justice.',
+  },
 
-  // Zephaniah (3 questions)
+  // Zephaniah (4 questions)
   {
     id: 'zep-001',
     bookId: 'zephaniah',
@@ -1355,8 +1505,18 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Isaiah', 'Hosea', 'Zechariah'],
     explanation: 'Zephaniah 3:17 beautifully pictures God\'s joy over His redeemed people.',
   },
+  {
+    id: 'zep-004',
+    bookId: 'zephaniah',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book calls God\'s people to "seek the LORD...seek righteousness, seek humility" before judgment falls (2:3)?',
+    correctAnswer: 'Zephaniah',
+    distractors: ['Amos', 'Hosea', 'Micah'],
+    explanation: 'Zephaniah urges repentance while there is still time.',
+  },
 
-  // Haggai (3 questions)
+  // Haggai (5 questions)
   {
     id: 'hag-001',
     bookId: 'haggai',
@@ -1387,8 +1547,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Malachi', 'Zephaniah', 'Nahum'],
     explanation: 'Haggai and Zechariah prophesied together during temple rebuilding.',
   },
+  {
+    id: 'hag-004',
+    bookId: 'haggai',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book promises: "The latter glory of this house shall be greater than the former" (2:9)?',
+    correctAnswer: 'Haggai',
+    distractors: ['Zechariah', 'Ezra', 'Isaiah'],
+    explanation: 'Haggai encouraged the builders with future glory for the temple.',
+  },
+  {
+    id: 'hag-005',
+    bookId: 'haggai',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book is dated precisely to the second year of King Darius of Persia?',
+    correctAnswer: 'Haggai',
+    distractors: ['Zechariah', 'Ezra', 'Daniel'],
+    explanation: 'Haggai contains precise dates, making it among the most precisely dated biblical books.',
+  },
 
-  // Zechariah (3 questions)
+  // Zechariah (5 questions)
   {
     id: 'zec-001',
     bookId: 'zechariah',
@@ -1419,8 +1599,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Daniel', 'Ezekiel', 'Revelation'],
     explanation: 'Zechariah 1-6 records eight symbolic visions.',
   },
+  {
+    id: 'zec-004',
+    bookId: 'zechariah',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book prophesies: "They will look on me, the one they have pierced" (12:10)?',
+    correctAnswer: 'Zechariah',
+    distractors: ['Isaiah', 'Psalms', 'Daniel'],
+    explanation: 'Zechariah 12:10 is quoted regarding Christ\'s crucifixion in John 19:37.',
+  },
+  {
+    id: 'zec-005',
+    bookId: 'zechariah',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book says: "Not by might, nor by power, but by my Spirit, says the LORD of hosts" (4:6)?',
+    correctAnswer: 'Zechariah',
+    distractors: ['Isaiah', 'Joel', 'Haggai'],
+    explanation: 'This verse encouraged Zerubbabel in rebuilding the temple.',
+  },
 
-  // Malachi (3 questions)
+  // Malachi (4 questions)
   {
     id: 'mal-001',
     bookId: 'malachi',
@@ -1450,6 +1650,16 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: 'Malachi',
     distractors: ['Joel', '1 Kings', 'Isaiah'],
     explanation: 'This prophecy was fulfilled in John the Baptist.',
+  },
+  {
+    id: 'mal-004',
+    bookId: 'malachi',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book uses a dialogue format where God responds to Israel\'s skeptical questions?',
+    correctAnswer: 'Malachi',
+    distractors: ['Habakkuk', 'Job', 'Hosea'],
+    explanation: 'Malachi\'s disputations format ("You say...But I say...") is unique in prophetic literature.',
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
