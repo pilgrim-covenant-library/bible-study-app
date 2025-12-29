@@ -9034,6 +9034,53 @@ export const COLOSSIANS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 1 THESSALONIANS (5 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const FIRST_THESSALONIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '1-thessalonians',
+    chapter: 1,
+    title: 'Faith, Love, and Hope',
+    summary: 'Paul, Silvanus, and Timothy, to the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace and peace. They give thanks to God always for all of them, constantly mentioning them in their prayers, remembering before God and Father their work of faith and labor of love and steadfastness of hope in the Lord Jesus Christ. For they know, brothers loved by God, that He has chosen them, because the gospel came to them not only in word, but also in power and in the Holy Spirit and with full conviction. The Thessalonians know what kind of men Paul and his companions proved to be among them for their sake. And they became imitators of Paul and of the Lord, for they received the word in much affliction, with the joy of the Holy Spirit, so that they became an example to all the believers in Macedonia and in Achaia. For not only has the word of the Lord sounded forth from them in Macedonia and Achaia, but their faith in God has gone forth everywhere, so that they need not say anything. For they themselves report what kind of reception Paul had among them, and how they turned to God from idols to serve the living and true God, and to wait for His Son from heaven, whom He raised from the dead, Jesus who delivers us from the wrath to come.',
+    keyThemes: ['Work of faith labor of love', 'Chosen by God', 'Turned from idols to God', 'Waiting for Son from heaven'],
+    christConnection: 'The Thessalonians turned from idols to serve the living God and to wait for His Son from heaven—Jesus who delivers us from the wrath to come. He is our hope and deliverance.'
+  },
+  {
+    bookId: '1-thessalonians',
+    chapter: 2,
+    title: 'Paul\'s Ministry Among Them',
+    summary: 'For they themselves know that the coming of Paul and his companions to them was not in vain. But though they had already suffered and been shamefully treated at Philippi, as the Thessalonians know, they had boldness in their God to declare to them the gospel of God in the midst of much conflict. For their appeal does not spring from error or impurity or any attempt to deceive, but just as they have been approved by God to be entrusted with the gospel, so they speak, not to please man, but to please God who tests their hearts. For they never came with words of flattery, as the Thessalonians know, nor with a pretext for greed—God is witness. Nor did they seek glory from people, whether from them or from others, though they could have made demands as apostles of Christ. But they were gentle among them, like a nursing mother taking care of her own children. So, being affectionately desirous of them, they were ready to share not only the gospel of God but also their own selves, because they had become very dear to them. For the Thessalonians remember their labor and toil: working night and day, that they might not be a burden to any of them, they proclaimed to them the gospel of God. They are witnesses, and God also, how holy and righteous and blameless was their conduct toward them who believed. For they know how, like a father with his children, Paul exhorted each one of them and encouraged them and charged them to walk in a manner worthy of God, who calls them into His own kingdom and glory. And they also thank God constantly for this, that when they received the word of God, which they heard from Paul and his companions, they accepted it not as the word of men but as what it really is, the word of God, which is at work in those who believe.',
+    keyThemes: ['Gospel entrusted to them', 'Gentle like nursing mother', 'Like father exhorting children', 'Word of God at work'],
+    christConnection: 'Paul and his companions were entrusted with the gospel of God—the word of God which works in believers. They shared not only the gospel but their very selves, following Christ\'s pattern of self-giving love.'
+  },
+  {
+    bookId: '1-thessalonians',
+    chapter: 3,
+    title: 'Timothy\'s Encouraging Report',
+    summary: 'Therefore when Paul could bear it no longer, he was willing to be left behind at Athens alone, and he sent Timothy, their brother and God\'s coworker in the gospel of Christ, to establish and exhort them in their faith, that no one be moved by these afflictions. For they themselves know that they are destined for this. For when Paul was with them, he kept telling them beforehand that they were to suffer affliction, just as it has come to pass, and just as they know. For this reason, when Paul could bear it no longer, he sent to learn about their faith, for fear that somehow the tempter had tempted them and their labor would be in vain. But now that Timothy has come to Paul from them, and has brought him the good news of their faith and love and reported that they always remember him kindly and long to see him, as he longs to see them—for this reason, in all their distress and affliction they have been comforted about them through their faith. For now they live, if the Thessalonians are standing fast in the Lord. For what thanksgiving can they return to God for them, for all the joy that they feel for their sake before their God, as they pray most earnestly night and day that they may see their face and supply what is lacking in their faith? Now may their God and Father Himself, and the Lord Jesus, direct their way to them, and may the Lord make them increase and abound in love for one another and for all, as they do for them, so that He may establish their hearts blameless in holiness before their God and Father, at the coming of our Lord Jesus with all His saints.',
+    keyThemes: ['Destined for affliction', 'Timothy\'s good report', 'Standing fast in the Lord', 'Blameless at Christ\'s coming'],
+    christConnection: 'Paul prays that the Lord Jesus would direct his way and make them abound in love, establishing their hearts blameless in holiness at the coming of our Lord Jesus with all His saints.'
+  },
+  {
+    bookId: '1-thessalonians',
+    chapter: 4,
+    title: 'The Lord\'s Coming',
+    summary: 'Finally, then, Paul and his companions ask and urge them in the Lord Jesus, that as they received from them how they ought to walk and to please God, just as they are doing, that they do so more and more. For they know what instructions Paul gave them through the Lord Jesus. For this is the will of God, their sanctification: that they abstain from sexual immorality; that each one of them know how to control his own body in holiness and honor, not in the passion of lust like the Gentiles who do not know God; that no one transgress and wrong his brother in this matter, because the Lord is an avenger in all these things, as Paul told them beforehand and solemnly warned them. For God has not called them for impurity, but in holiness. Therefore whoever disregards this, disregards not man but God, who gives His Holy Spirit to them. Now concerning brotherly love they have no need for anyone to write to them, for they themselves have been taught by God to love one another. But they urge them to do this more and more, and to aspire to live quietly, and to mind their own affairs, and to work with their hands, as they instructed them, so that they may walk properly before outsiders and be dependent on no one. But they do not want them to be uninformed about those who are asleep, that they may not grieve as others do who have no hope. For since they believe that Jesus died and rose again, even so, through Jesus, God will bring with Him those who have fallen asleep. For this they declare to them by a word from the Lord, that they who are alive, who are left until the coming of the Lord, will not precede those who have fallen asleep. For the Lord Himself will descend from heaven with a cry of command, with the voice of an archangel, and with the sound of the trumpet of God. And the dead in Christ will rise first. Then they who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air, and so they will always be with the Lord. Therefore encourage one another with these words.',
+    keyThemes: ['Sanctification God\'s will', 'Control body in holiness', 'Dead in Christ rise first', 'Caught up to meet Lord'],
+    christConnection: 'Jesus died and rose again. The Lord Himself will descend from heaven; the dead in Christ will rise first, then believers will be caught up to meet Him. We will always be with the Lord.'
+  },
+  {
+    bookId: '1-thessalonians',
+    chapter: 5,
+    title: 'The Day of the Lord',
+    summary: 'Now concerning the times and the seasons, brothers, they have no need to have anything written to them. For they themselves are fully aware that the day of the Lord will come like a thief in the night. While people are saying, There is peace and security, then sudden destruction will come upon them as labor pains come upon a pregnant woman, and they will not escape. But they are not in darkness, brothers, for that day to surprise them like a thief. For they are all children of light, children of the day. They are not of the night or of the darkness. So then let them not sleep, as others do, but let them keep awake and be sober. For those who sleep, sleep at night, and those who get drunk, are drunk at night. But since they belong to the day, let them be sober, having put on the breastplate of faith and love, and for a helmet the hope of salvation. For God has not destined them for wrath, but to obtain salvation through the Lord Jesus Christ, who died for them so that whether they are awake or asleep they might live with Him. Therefore encourage one another and build one another up, just as they are doing. They ask them to respect those who labor among them and are over them in the Lord and admonish them, and to esteem them very highly in love because of their work. Be at peace among yourselves. Admonish the idle, encourage the fainthearted, help the weak, be patient with them all. See that no one repays anyone evil for evil, but always seek to do good to one another and to everyone. Rejoice always, pray without ceasing, give thanks in all circumstances; for this is the will of God in Christ Jesus for them. Do not quench the Spirit. Do not despise prophecies, but test everything; hold fast what is good. Abstain from every form of evil. Now may the God of peace Himself sanctify them completely, and may their whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ. He who calls them is faithful; He will surely do it.',
+    keyThemes: ['Day of Lord like thief', 'Children of light', 'Destined for salvation not wrath', 'Rejoice pray give thanks'],
+    christConnection: 'God has not destined us for wrath but for salvation through the Lord Jesus Christ, who died so we might live with Him. He who calls is faithful—He will sanctify us completely at His coming.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9137,6 +9184,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return PHILIPPIANS_CHAPTERS;
     case 'colossians':
       return COLOSSIANS_CHAPTERS;
+    case '1-thessalonians':
+      return FIRST_THESSALONIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9196,4 +9245,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'ephesians', bookName: 'Ephesians', chapters: EPHESIANS_CHAPTERS },
   { bookId: 'philippians', bookName: 'Philippians', chapters: PHILIPPIANS_CHAPTERS },
   { bookId: 'colossians', bookName: 'Colossians', chapters: COLOSSIANS_CHAPTERS },
+  { bookId: '1-thessalonians', bookName: '1 Thessalonians', chapters: FIRST_THESSALONIANS_CHAPTERS },
 ];
