@@ -23,6 +23,8 @@ import {
   Bookmark,
   Link2,
   Zap,
+  Pencil,
+  X,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
@@ -199,9 +201,12 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   onToggle: () => void;
 }) {
   const { isChapterRead, markChapterRead, markChapterUnread } = useReadingProgressStore();
-  const { isBookmarked, addBookmark, removeBookmark } = useBookmarksStore();
+  const { isBookmarked, addBookmark, removeBookmark, getBookmark, updateBookmarkNote } = useBookmarksStore();
   const isRead = isChapterRead(bookId, chapter.chapter);
   const bookmarked = isBookmarked(bookId, chapter.chapter);
+  const bookmark = getBookmark(bookId, chapter.chapter);
+  const [isEditingNote, setIsEditingNote] = useState(false);
+  const [noteText, setNoteText] = useState(bookmark?.note || '');
 
   // Compute related chapters only when expanded (memoized for performance)
   const relatedChapters = useMemo(() => {
@@ -214,6 +219,23 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
     if (!isExpanded) return [];
     return getMemoryVersesForChapter(bookId, chapter.chapter);
   }, [isExpanded, bookId, chapter.chapter]);
+
+  // Sync note text when bookmark changes from external source
+  // This is intentional - we need to sync local state with store changes
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => {
+    setNoteText(bookmark?.note || '');
+  }, [bookmark?.note]);
+
+  const handleSaveNote = () => {
+    updateBookmarkNote(bookId, chapter.chapter, noteText.trim());
+    setIsEditingNote(false);
+  };
+
+  const handleCancelNote = () => {
+    setNoteText(bookmark?.note || '');
+    setIsEditingNote(false);
+  };
 
   const handleReadToggle = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -411,6 +433,67 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
                   </Link>
                 ))}
               </div>
+            </div>
+          )}
+
+          {/* Personal Study Notes - shown when bookmarked */}
+          {bookmarked && (
+            <div className="pt-2 border-t">
+              <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center gap-2">
+                  <Pencil className="h-4 w-4 text-amber-500" />
+                  <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Study Notes</span>
+                </div>
+                {!isEditingNote && (
+                  <button
+                    onClick={() => setIsEditingNote(true)}
+                    className="text-xs text-amber-600 hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-300"
+                  >
+                    {bookmark?.note ? 'Edit' : 'Add note'}
+                  </button>
+                )}
+              </div>
+              {isEditingNote ? (
+                <div className="space-y-2">
+                  <textarea
+                    value={noteText}
+                    onChange={(e) => setNoteText(e.target.value)}
+                    placeholder="Write your study notes, reflections, or questions about this chapter..."
+                    className="w-full p-3 text-sm rounded-lg border border-amber-200 dark:border-amber-900/50 bg-amber-50/50 dark:bg-amber-900/20 focus:outline-none focus:ring-2 focus:ring-amber-500/50 resize-none"
+                    rows={4}
+                    autoFocus
+                  />
+                  <div className="flex items-center gap-2 justify-end">
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={handleCancelNote}
+                      className="gap-1.5"
+                    >
+                      <X className="h-3.5 w-3.5" />
+                      Cancel
+                    </Button>
+                    <Button
+                      size="sm"
+                      onClick={handleSaveNote}
+                      className="gap-1.5 bg-amber-500 hover:bg-amber-600 text-white"
+                    >
+                      <Check className="h-3.5 w-3.5" />
+                      Save Note
+                    </Button>
+                  </div>
+                </div>
+              ) : bookmark?.note ? (
+                <div className="p-3 bg-amber-50/50 dark:bg-amber-900/20 rounded-lg border border-amber-200/50 dark:border-amber-900/30">
+                  <p className="text-sm text-muted-foreground whitespace-pre-wrap leading-relaxed">
+                    {bookmark.note}
+                  </p>
+                </div>
+              ) : (
+                <p className="text-sm text-muted-foreground italic">
+                  Add personal notes to remember insights, questions, or applications from this chapter.
+                </p>
+              )}
             </div>
           )}
         </CardContent>

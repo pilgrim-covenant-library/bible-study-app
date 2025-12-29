@@ -934,6 +934,219 @@ function createReformersPlan(): ReadingPlan {
 }
 
 /**
+ * Covenant Progression Plan
+ * Trace the unfolding covenant of grace through 90 days of reading.
+ * This plan follows the major covenant administrations from Adam to Christ,
+ * highlighting how God's promise of redemption develops through Scripture.
+ * Essential for understanding Reformed covenant theology.
+ */
+function createCovenantProgressionPlan(): ReadingPlan {
+  // Organized by covenant administration:
+  // 1. Covenant of Works & Promise (Genesis 1-3, 12-22) - Creation, Fall, Abrahamic promise
+  // 2. Mosaic Covenant (Exodus 19-24, Deuteronomy selections, Leviticus selections)
+  // 3. Davidic Covenant (2 Samuel 7, Psalms of kingship, 1 Chronicles selections)
+  // 4. New Covenant Prophesied (Jeremiah 31, Ezekiel 36-37, Isaiah 42-55)
+  // 5. New Covenant Fulfilled (Gospels, Hebrews, select Pauline passages)
+
+  const covenantReadings: { bookId: string; chapters: number[] }[] = [
+    // === CREATION COVENANT & THE FALL ===
+    // Creation mandate, Image of God, covenant of works
+    { bookId: 'genesis', chapters: [1, 2] },
+    { bookId: 'genesis', chapters: [3] }, // Fall and protoevangelium (Gen 3:15)
+    { bookId: 'genesis', chapters: [4, 5] }, // Line of Cain vs Seth
+    { bookId: 'genesis', chapters: [6, 7, 8, 9] }, // Noahic covenant
+    { bookId: 'genesis', chapters: [10, 11] }, // Table of nations, Babel
+
+    // === ABRAHAMIC COVENANT ===
+    // The covenant of grace begins to be more clearly revealed
+    { bookId: 'genesis', chapters: [12, 13] }, // Call of Abram, land promise
+    { bookId: 'genesis', chapters: [14, 15] }, // Melchizedek, covenant ceremony
+    { bookId: 'genesis', chapters: [16, 17] }, // Ishmael, covenant sign (circumcision)
+    { bookId: 'genesis', chapters: [18, 19] }, // Promise renewed, Sodom
+    { bookId: 'genesis', chapters: [20, 21] }, // Isaac born
+    { bookId: 'genesis', chapters: [22] }, // Binding of Isaac - type of Christ
+    { bookId: 'genesis', chapters: [23, 24] }, // Land purchased, bride for Isaac
+    { bookId: 'genesis', chapters: [25, 26, 27] }, // Jacob and Esau, covenant passed
+    { bookId: 'genesis', chapters: [28, 29, 30] }, // Jacob's ladder, covenant renewed
+    { bookId: 'genesis', chapters: [31, 32, 33] }, // Jacob returns, wrestles with God
+    { bookId: 'genesis', chapters: [34, 35] }, // Jacob becomes Israel
+    { bookId: 'genesis', chapters: [37, 39, 40] }, // Joseph's descent to Egypt
+    { bookId: 'genesis', chapters: [41, 42, 43] }, // Joseph's rise, brothers come
+    { bookId: 'genesis', chapters: [44, 45, 46] }, // Joseph revealed
+    { bookId: 'genesis', chapters: [47, 48, 49, 50] }, // Blessing of tribes, death of Jacob
+
+    // === MOSAIC COVENANT ===
+    // The covenant of grace administered through law
+    { bookId: 'exodus', chapters: [1, 2, 3] }, // Israel in Egypt, Moses' call
+    { bookId: 'exodus', chapters: [4, 5, 6] }, // Moses sent, covenant name revealed
+    { bookId: 'exodus', chapters: [7, 8, 9] }, // Plagues begin
+    { bookId: 'exodus', chapters: [10, 11, 12] }, // Final plagues, Passover instituted
+    { bookId: 'exodus', chapters: [13, 14, 15] }, // Exodus, Red Sea, song of Moses
+    { bookId: 'exodus', chapters: [16, 17, 18] }, // Wilderness provision
+    { bookId: 'exodus', chapters: [19, 20] }, // Sinai, Ten Commandments
+    { bookId: 'exodus', chapters: [21, 22, 23] }, // Book of the covenant
+    { bookId: 'exodus', chapters: [24] }, // Covenant ratified with blood
+    { bookId: 'exodus', chapters: [25, 26, 27] }, // Tabernacle instructions
+    { bookId: 'exodus', chapters: [28, 29] }, // Priesthood
+    { bookId: 'exodus', chapters: [30, 31] }, // Altar, anointing, Sabbath
+    { bookId: 'exodus', chapters: [32, 33, 34] }, // Golden calf, covenant renewed
+    { bookId: 'exodus', chapters: [40] }, // Glory fills tabernacle
+
+    // Levitical system - types pointing to Christ
+    { bookId: 'leviticus', chapters: [1, 2, 3, 4, 5] }, // Sacrificial system
+    { bookId: 'leviticus', chapters: [16] }, // Day of Atonement
+    { bookId: 'leviticus', chapters: [17, 18, 19] }, // Holiness code
+    { bookId: 'leviticus', chapters: [23] }, // Feasts
+    { bookId: 'leviticus', chapters: [26] }, // Covenant blessings and curses
+
+    // Deuteronomy - Covenant renewal on the plains of Moab
+    { bookId: 'deuteronomy', chapters: [1, 2, 3, 4] }, // Historical prologue
+    { bookId: 'deuteronomy', chapters: [5, 6, 7] }, // Commandments, Shema
+    { bookId: 'deuteronomy', chapters: [8, 9, 10, 11] }, // Warnings, blessings
+    { bookId: 'deuteronomy', chapters: [27, 28] }, // Blessings and curses
+    { bookId: 'deuteronomy', chapters: [29, 30] }, // Covenant renewal, life and death
+    { bookId: 'deuteronomy', chapters: [31, 32, 33, 34] }, // Moses' song, blessing, death
+
+    // === DAVIDIC COVENANT ===
+    // The covenant of grace administered through kingship
+    { bookId: '2-samuel', chapters: [5, 6, 7] }, // David king, Davidic covenant
+    { bookId: '1-chronicles', chapters: [17] }, // Davidic covenant parallel
+    { bookId: 'psalms', chapters: [2] }, // King as God's Son
+    { bookId: 'psalms', chapters: [72] }, // Solomon's reign, Messianic hope
+    { bookId: 'psalms', chapters: [89] }, // Covenant faithfulness
+    { bookId: 'psalms', chapters: [110] }, // Priest-King Messiah
+    { bookId: 'psalms', chapters: [132] }, // David's oath, Zion chosen
+
+    // === NEW COVENANT PROPHESIED ===
+    // Prophets announce the coming new covenant administration
+    { bookId: 'isaiah', chapters: [7, 9] }, // Immanuel, child born
+    { bookId: 'isaiah', chapters: [11, 12] }, // Branch of Jesse, second exodus
+    { bookId: 'isaiah', chapters: [42, 43] }, // Servant of the Lord
+    { bookId: 'isaiah', chapters: [49, 50] }, // Servant's mission
+    { bookId: 'isaiah', chapters: [52, 53] }, // Suffering Servant
+    { bookId: 'isaiah', chapters: [54, 55] }, // Everlasting covenant
+    { bookId: 'isaiah', chapters: [61] }, // Year of the Lord's favor
+    { bookId: 'jeremiah', chapters: [31] }, // New covenant promise
+    { bookId: 'jeremiah', chapters: [32, 33] }, // Restoration, righteous Branch
+    { bookId: 'ezekiel', chapters: [34] }, // True Shepherd
+    { bookId: 'ezekiel', chapters: [36, 37] }, // New heart, valley of dry bones
+    { bookId: 'ezekiel', chapters: [47] }, // River from temple (new creation)
+    { bookId: 'hosea', chapters: [1, 2, 3] }, // Covenant unfaithfulness and restoration
+    { bookId: 'hosea', chapters: [11, 14] }, // God's steadfast love
+    { bookId: 'zechariah', chapters: [9] }, // King on a donkey
+    { bookId: 'zechariah', chapters: [12, 13] }, // Pierced one, fountain opened
+    { bookId: 'malachi', chapters: [3, 4] }, // Messenger of the covenant
+
+    // === NEW COVENANT FULFILLED ===
+    // Christ inaugurates the new covenant
+    { bookId: 'matthew', chapters: [1, 2] }, // Son of David, Son of Abraham
+    { bookId: 'matthew', chapters: [3, 4] }, // Baptism, temptation
+    { bookId: 'matthew', chapters: [5, 6, 7] }, // Sermon on the Mount - new law
+    { bookId: 'luke', chapters: [1] }, // Covenant promises fulfilled
+    { bookId: 'luke', chapters: [4] }, // Jubilee proclaimed
+    { bookId: 'luke', chapters: [22] }, // New covenant in my blood
+    { bookId: 'john', chapters: [1] }, // Word became flesh
+    { bookId: 'john', chapters: [3, 4] }, // Born again, living water
+    { bookId: 'john', chapters: [6] }, // Bread of life
+    { bookId: 'john', chapters: [10] }, // Good Shepherd
+    { bookId: 'john', chapters: [14, 15, 16, 17] }, // Upper Room Discourse
+    { bookId: 'john', chapters: [19, 20] }, // It is finished, resurrection
+
+    // Acts - New covenant community
+    { bookId: 'acts', chapters: [2] }, // Spirit poured out
+    { bookId: 'acts', chapters: [10, 11] }, // Gentiles included in covenant
+    { bookId: 'acts', chapters: [15] }, // Jerusalem council
+
+    // Pauline - New covenant theology
+    { bookId: 'romans', chapters: [1, 2, 3] }, // All under sin
+    { bookId: 'romans', chapters: [4] }, // Abraham's faith, promise before law
+    { bookId: 'romans', chapters: [5] }, // Adam and Christ, two covenant heads
+    { bookId: 'romans', chapters: [6, 7, 8] }, // Union with Christ, Spirit life
+    { bookId: 'romans', chapters: [9, 10, 11] }, // Israel and the covenant
+    { bookId: 'galatians', chapters: [3, 4] }, // Promise vs law, sons of Abraham
+    { bookId: 'ephesians', chapters: [1, 2] }, // In Christ, one new humanity
+    { bookId: 'ephesians', chapters: [3] }, // Mystery revealed to Gentiles
+    { bookId: 'colossians', chapters: [1, 2] }, // Christ preeminent, new circumcision
+
+    // Hebrews - Old and new covenant comparison
+    { bookId: 'hebrews', chapters: [1, 2] }, // Christ superior to angels
+    { bookId: 'hebrews', chapters: [3, 4] }, // Rest remains, Jesus our high priest
+    { bookId: 'hebrews', chapters: [5, 6, 7] }, // Melchizedek priesthood
+    { bookId: 'hebrews', chapters: [8] }, // New covenant superior
+    { bookId: 'hebrews', chapters: [9, 10] }, // Better sacrifice, new access
+    { bookId: 'hebrews', chapters: [11, 12] }, // Faith hall of fame, new Zion
+    { bookId: 'hebrews', chapters: [13] }, // Covenant application
+
+    // Consummation - Covenant fulfilled in new creation
+    { bookId: 'revelation', chapters: [1] }, // Risen Lord among churches
+    { bookId: 'revelation', chapters: [4, 5] }, // Lamb worthy to open scroll
+    { bookId: 'revelation', chapters: [7] }, // 144,000 sealed, multitude
+    { bookId: 'revelation', chapters: [11, 12] }, // Ark of covenant, woman and dragon
+    { bookId: 'revelation', chapters: [19] }, // Marriage supper of Lamb
+    { bookId: 'revelation', chapters: [21, 22] }, // New Jerusalem, God with his people
+  ];
+
+  return {
+    id: 'covenant-90-days',
+    name: 'Covenant Progression',
+    description: "Trace the unfolding covenant of grace from creation to new creation in 90 days. Follow God's redemptive plan through each covenant administration: Adamic, Noahic, Abrahamic, Mosaic, Davidic, and New Covenant in Christ. Essential reading for understanding Reformed covenant theology and the Bible's grand narrative.",
+    duration: '90 days',
+    durationDays: 90,
+    category: 'thematic',
+    difficulty: 'intensive',
+    chaptersPerDay: '3-4 chapters',
+    features: [
+      'Reformed covenant theology',
+      'Traces redemptive history',
+      'Christ-centered progression',
+      'Types & fulfillment patterns',
+    ],
+    getDayReadings: (day: number) => {
+      if (day < 1 || day > 90) return null;
+
+      // Calculate total chapters
+      let totalChapters = 0;
+      for (const reading of covenantReadings) {
+        totalChapters += reading.chapters.length;
+      }
+
+      const chaptersPerDay = Math.ceil(totalChapters / 90);
+
+      // Flatten chapters for distribution
+      const flatChapters: { bookId: string; chapter: number }[] = [];
+      for (const reading of covenantReadings) {
+        for (const chapter of reading.chapters) {
+          flatChapters.push({ bookId: reading.bookId, chapter });
+        }
+      }
+
+      const startIdx = (day - 1) * chaptersPerDay;
+      const endIdx = Math.min(startIdx + chaptersPerDay, flatChapters.length);
+
+      if (startIdx >= flatChapters.length) return null;
+
+      // Group by book for output
+      const readings: Map<string, number[]> = new Map();
+      for (let i = startIdx; i < endIdx; i++) {
+        const { bookId, chapter } = flatChapters[i];
+        if (!readings.has(bookId)) {
+          readings.set(bookId, []);
+        }
+        readings.get(bookId)!.push(chapter);
+      }
+
+      return {
+        day,
+        readings: Array.from(readings.entries()).map(([bookId, chapters]) => ({
+          bookId,
+          chapters,
+        })),
+      };
+    },
+  };
+}
+
+/**
  * Wisdom Literature Plan
  * Read Job, Psalms, Proverbs, Ecclesiastes, and Song of Solomon in 60 days
  * These five books form the "Wisdom Literature" of the Old Testament,
@@ -1009,6 +1222,7 @@ export const READING_PLANS: ReadingPlan[] = [
   createProphetsPlan(),
   createWisdomLiteraturePlan(),
   createReformersPlan(),
+  createCovenantProgressionPlan(),
 ];
 
 // Helper to get a plan by ID
