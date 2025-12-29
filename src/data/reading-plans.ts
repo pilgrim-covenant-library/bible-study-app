@@ -1211,6 +1211,71 @@ function createWisdomLiteraturePlan(): ReadingPlan {
   };
 }
 
+/**
+ * General Epistles Plan
+ * Read Hebrews, James, 1-2 Peter, 1-3 John, and Jude in 21 days
+ * These letters, written to the broader church, address practical Christian living,
+ * perseverance under trial, and the supremacy of Christ.
+ */
+function createGeneralEpistlesPlan(): ReadingPlan {
+  const generalEpistles = [
+    'hebrews', 'james', '1-peter', '2-peter', '1-john', '2-john', '3-john', 'jude',
+  ];
+
+  const epistelChapters: { bookId: string; chapter: number }[] = [];
+  for (const bookId of generalEpistles) {
+    const count = CHAPTER_COUNTS[bookId] || 0;
+    for (let ch = 1; ch <= count; ch++) {
+      epistelChapters.push({ bookId, chapter: ch });
+    }
+  }
+
+  // Total: 13 (Hebrews) + 5 (James) + 5 (1 Peter) + 3 (2 Peter) + 5 (1 John) + 1 (2 John) + 1 (3 John) + 1 (Jude) = 34 chapters
+  const chaptersPerDay = Math.ceil(epistelChapters.length / 21); // ~2 chapters/day
+
+  return {
+    id: 'general-epistles-21-days',
+    name: 'General Epistles',
+    description: 'Study the letters written to the broader church: Hebrews on Christ\'s supremacy, James on faith and works, Peter on suffering and hope, John on love and truth, and Jude on contending for the faith.',
+    duration: '21 days',
+    durationDays: 21,
+    category: 'thematic',
+    difficulty: 'easy',
+    chaptersPerDay: '1-2 chapters',
+    features: [
+      'Christ\'s supremacy in Hebrews',
+      'Practical Christian living',
+      'Perseverance under trial',
+      'Love and truth in John\'s letters',
+    ],
+    getDayReadings: (day: number) => {
+      if (day < 1 || day > 21) return null;
+
+      const startIdx = (day - 1) * chaptersPerDay;
+      const endIdx = Math.min(startIdx + chaptersPerDay, epistelChapters.length);
+
+      if (startIdx >= epistelChapters.length) return null;
+
+      const readings: Map<string, number[]> = new Map();
+      for (let i = startIdx; i < endIdx; i++) {
+        const { bookId, chapter } = epistelChapters[i];
+        if (!readings.has(bookId)) {
+          readings.set(bookId, []);
+        }
+        readings.get(bookId)!.push(chapter);
+      }
+
+      return {
+        day,
+        readings: Array.from(readings.entries()).map(([bookId, chapters]) => ({
+          bookId,
+          chapters,
+        })),
+      };
+    },
+  };
+}
+
 // Export all reading plans
 export const READING_PLANS: ReadingPlan[] = [
   createCanonicalYearPlan(),
@@ -1219,6 +1284,7 @@ export const READING_PLANS: ReadingPlan[] = [
   createGospelsPlan(),
   createPsalmsProverbsMonthlyPlan(),
   createPaulineEpistlesPlan(),
+  createGeneralEpistlesPlan(),
   createProphetsPlan(),
   createWisdomLiteraturePlan(),
   createReformersPlan(),
