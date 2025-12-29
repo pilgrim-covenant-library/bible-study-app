@@ -729,6 +729,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: 'joshua-1-5',
+    reference: 'Joshua 1:5',
+    book: 'Joshua',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'No man shall be able to stand before you all the days of your life. Just as I was with Moses, so I will be with you. I will not leave you or forsake you.',
+      NIV: 'No one will be able to stand against you all the days of your life. As I was with Moses, so I will be with you; I will never leave you nor forsake you.',
+      KJV: 'There shall not any man be able to stand before thee all the days of thy life: as I was with Moses, so I will be with thee: I will not fail thee, nor forsake thee.',
+      NASB: 'No man will be able to stand before you all the days of your life. Just as I have been with Moses, I will be with you; I will not fail you or forsake you.',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 1:4',
+        text: 'From the wilderness and this Lebanon as far as the great river, the river Euphrates, all the land of the Hittites to the Great Sea toward the going down of the sun shall be your territory.',
+      },
+      after: {
+        reference: 'Joshua 1:6',
+        text: 'Be strong and courageous, for you shall cause this people to inherit the land that I swore to their fathers to give them.',
+      },
+    },
+  },
+  {
+    id: 'joshua-3-5',
+    reference: 'Joshua 3:5',
+    book: 'Joshua',
+    chapter: 3,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Then Joshua said to the people, "Consecrate yourselves, for tomorrow the LORD will do wonders among you."',
+      NIV: 'Joshua told the people, "Consecrate yourselves, for tomorrow the LORD will do amazing things among you."',
+      KJV: 'And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you.',
+      NASB: 'Then Joshua said to the people, "Consecrate yourselves, for tomorrow the LORD will do wonders among you."',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 3:4',
+        text: 'Yet there shall be a distance between you and it, about 2,000 cubits in length. Do not come near it, in order that you may know the way you shall go.',
+      },
+      after: {
+        reference: 'Joshua 3:6',
+        text: 'And Joshua said to the priests, "Take up the ark of the covenant and pass on before the people."',
+      },
+    },
+  },
+  {
+    id: 'joshua-23-14',
+    reference: 'Joshua 23:14',
+    book: 'Joshua',
+    chapter: 23,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And now I am about to go the way of all the earth, and you know in your hearts and souls, all of you, that not one word has failed of all the good things that the LORD your God promised concerning you. All have come to pass for you; not one of them has failed.',
+      NIV: 'Now I am about to go the way of all the earth. You know with all your heart and soul that not one of all the good promises the LORD your God gave you has failed. Every promise has been fulfilled; not one has failed.',
+      KJV: 'And, behold, this day I am going the way of all the earth: and ye know in all your hearts and in all your souls, that not one thing hath failed of all the good things which the LORD your God spake concerning you; all are come to pass unto you, and not one thing hath failed thereof.',
+      NASB: 'Now behold, today I am going the way of all the earth, and you know in all your hearts and in all your souls that not one word of all the good words which the LORD your God spoke concerning you has failed; all have been fulfilled for you, not one of them has failed.',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 23:13',
+        text: 'Know for certain that the LORD your God will no longer drive out these nations before you, but they shall be a snare and a trap for you.',
+      },
+      after: {
+        reference: 'Joshua 23:15',
+        text: 'But just as all the good things that the LORD your God promised concerning you have been fulfilled for you, so the LORD will bring upon you all the evil things.',
+      },
+    },
+  },
+  {
+    id: 'joshua-24-24',
+    reference: 'Joshua 24:24',
+    book: 'Joshua',
+    chapter: 24,
+    verse: 24,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And the people said to Joshua, "The LORD our God we will serve, and his voice we will obey."',
+      NIV: 'And the people said to Joshua, "We will serve the LORD our God and obey him."',
+      KJV: 'And the people said unto Joshua, The LORD our God will we serve, and his voice will we obey.',
+      NASB: 'The people said to Joshua, "We will serve the LORD our God and we will obey His voice."',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 24:23',
+        text: '"Now therefore put away the foreign gods that are among you, and incline your heart to the LORD, the God of Israel."',
+      },
+      after: {
+        reference: 'Joshua 24:25',
+        text: 'So Joshua made a covenant with the people that day, and put in place statutes and rules for them at Shechem.',
+      },
+    },
+  },
+
   // ============ JUDGES ============
   {
     id: 'judges-2-10',
@@ -8112,6 +8209,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'colossians-2-6-7',
+    reference: 'Colossians 2:6-7',
+    book: 'Colossians',
+    chapter: 2,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore, as you received Christ Jesus the Lord, so walk in him, rooted and built up in him and established in the faith, just as you were taught, abounding in thanksgiving.',
+      NIV: 'So then, just as you received Christ Jesus as Lord, continue to live your lives in him, rooted and built up in him, strengthened in the faith as you were taught, and overflowing with thankfulness.',
+      KJV: 'As ye have therefore received Christ Jesus the Lord, so walk ye in him: Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving.',
+      NASB: 'Therefore as you have received Christ Jesus the Lord, so walk in Him, having been firmly rooted and now being built up in Him and established in your faith, just as you were instructed, and overflowing with gratitude.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 2:5',
+        text: 'For though I am absent in body, yet I am with you in spirit, rejoicing to see your good order and the firmness of your faith in Christ.',
+      },
+      after: {
+        reference: 'Colossians 2:8',
+        text: 'See to it that no one takes you captive by philosophy and empty deceit, according to human tradition, according to the elemental spirits of the world, and not according to Christ.',
+      },
+    },
+  },
+  {
+    id: 'colossians-3-17',
+    reference: 'Colossians 3:17',
+    book: 'Colossians',
+    chapter: 3,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him.',
+      NIV: 'And whatever you do, whether in word or deed, do it all in the name of the Lord Jesus, giving thanks to God the Father through him.',
+      KJV: 'And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.',
+      NASB: 'Whatever you do in word or deed, do all in the name of the Lord Jesus, giving thanks through Him to God the Father.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 3:16',
+        text: 'Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, with thankfulness in your hearts to God.',
+      },
+      after: {
+        reference: 'Colossians 3:18',
+        text: 'Wives, submit to your husbands, as is fitting in the Lord.',
+      },
+    },
+  },
 
   // ============ 1 THESSALONIANS ============
   {
@@ -8234,6 +8379,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-thessalonians-5-24',
+    reference: '1 Thessalonians 5:24',
+    book: '1 Thessalonians',
+    chapter: 5,
+    verse: 24,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'He who calls you is faithful; he will surely do it.',
+      NIV: 'The one who calls you is faithful, and he will do it.',
+      KJV: 'Faithful is he that calleth you, who also will do it.',
+      NASB: 'Faithful is He who calls you, and He also will bring it to pass.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 5:23',
+        text: 'Now may the God of peace himself sanctify you completely, and may your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ.',
+      },
+      after: {
+        reference: '1 Thessalonians 5:25',
+        text: 'Brothers, pray for us.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-4-13-14',
+    reference: '1 Thessalonians 4:13-14',
+    book: '1 Thessalonians',
+    chapter: 4,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But we do not want you to be uninformed, brothers, about those who are asleep, that you may not grieve as others do who have no hope. For since we believe that Jesus died and rose again, even so, through Jesus, God will bring with him those who have fallen asleep.',
+      NIV: 'Brothers and sisters, we do not want you to be uninformed about those who sleep in death, so that you do not grieve like the rest of mankind, who have no hope. For we believe that Jesus died and rose again, and so we believe that God will bring with Jesus those who have fallen asleep in him.',
+      KJV: 'But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope. For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him.',
+      NASB: 'But we do not want you to be uninformed, brethren, about those who are asleep, so that you will not grieve as do the rest who have no hope. For if we believe that Jesus died and rose again, even so God will bring with Him those who have fallen asleep in Jesus.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 4:12',
+        text: 'so that you may walk properly before outsiders and be dependent on no one.',
+      },
+      after: {
+        reference: '1 Thessalonians 4:15',
+        text: 'For this we declare to you by a word from the Lord, that we who are alive, who are left until the coming of the Lord, will not precede those who have fallen asleep.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-2-13',
+    reference: '1 Thessalonians 2:13',
+    book: '1 Thessalonians',
+    chapter: 2,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And we also thank God constantly for this, that when you received the word of God, which you heard from us, you accepted it not as the word of men but as what it really is, the word of God, which is at work in you believers.',
+      NIV: 'And we also thank God continually because, when you received the word of God, which you heard from us, you accepted it not as a human word, but as it actually is, the word of God, which is indeed at work in you who believe.',
+      KJV: 'For this cause also thank we God without ceasing, because, when ye received the word of God which ye heard of us, ye received it not as the word of men, but as it is in truth, the word of God, which effectually worketh also in you that believe.',
+      NASB: 'For this reason we also constantly thank God that when you received the word of God which you heard from us, you accepted it not as the word of men, but for what it really is, the word of God, which also performs its work in you who believe.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 2:12',
+        text: 'exhorting and encouraging and insisting that you walk in a manner worthy of God, who calls you into his own kingdom and glory.',
+      },
+      after: {
+        reference: '1 Thessalonians 2:14',
+        text: 'For you, brothers, became imitators of the churches of God in Christ Jesus that are in Judea.',
+      },
+    },
+  },
 
   // ============ 2 THESSALONIANS ============
   {
@@ -8353,6 +8570,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Thessalonians 2:1',
         text: 'Now concerning the coming of our Lord Jesus Christ and our being gathered together to him, we ask you, brothers.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-2-13',
+    reference: '2 Thessalonians 2:13',
+    book: '2 Thessalonians',
+    chapter: 2,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But we ought always to give thanks to God for you, brothers beloved by the Lord, because God chose you as the firstfruits to be saved, through sanctification by the Spirit and belief in the truth.',
+      NIV: 'But we ought always to thank God for you, brothers and sisters loved by the Lord, because God chose you as firstfruits to be saved through the sanctifying work of the Spirit and through belief in the truth.',
+      KJV: 'But we are bound to give thanks alway to God for you, brethren beloved of the Lord, because God hath from the beginning chosen you to salvation through sanctification of the Spirit and belief of the truth.',
+      NASB: 'But we should always give thanks to God for you, brethren beloved by the Lord, because God has chosen you from the beginning for salvation through sanctification by the Spirit and faith in the truth.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 2:12',
+        text: 'in order that all may be condemned who did not believe the truth but had pleasure in unrighteousness.',
+      },
+      after: {
+        reference: '2 Thessalonians 2:14',
+        text: 'To this he called you through our gospel, so that you may obtain the glory of our Lord Jesus Christ.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-3-5',
+    reference: '2 Thessalonians 3:5',
+    book: '2 Thessalonians',
+    chapter: 3,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'May the Lord direct your hearts to the love of God and to the steadfastness of Christ.',
+      NIV: 'May the Lord direct your hearts into God\'s love and Christ\'s perseverance.',
+      KJV: 'And the Lord direct your hearts into the love of God, and into the patient waiting for Christ.',
+      NASB: 'May the Lord direct your hearts into the love of God and into the steadfastness of Christ.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 3:4',
+        text: 'And we have confidence in the Lord about you, that you are doing and will do the things that we command.',
+      },
+      after: {
+        reference: '2 Thessalonians 3:6',
+        text: 'Now we command you, brothers, in the name of our Lord Jesus Christ, that you keep away from any brother who is walking in idleness.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-2-15',
+    reference: '2 Thessalonians 2:15',
+    book: '2 Thessalonians',
+    chapter: 2,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So then, brothers, stand firm and hold to the traditions that you were taught by us, either by our spoken word or by our letter.',
+      NIV: 'So then, brothers and sisters, stand firm and hold fast to the teachings we passed on to you, whether by word of mouth or by letter.',
+      KJV: 'Therefore, brethren, stand fast, and hold the traditions which ye have been taught, whether by word, or our epistle.',
+      NASB: 'So then, brethren, stand firm and hold to the traditions which you were taught, whether by word of mouth or by letter from us.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 2:14',
+        text: 'To this he called you through our gospel, so that you may obtain the glory of our Lord Jesus Christ.',
+      },
+      after: {
+        reference: '2 Thessalonians 2:16',
+        text: 'Now may our Lord Jesus Christ himself, and God our Father, who loved us and gave us eternal comfort and good hope through grace.',
       },
     },
   },
@@ -9033,6 +9322,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Philemon 6',
         text: 'and I pray that the sharing of your faith may become effective for the full knowledge of every good thing that is in us for the sake of Christ.',
+      },
+    },
+  },
+  {
+    id: 'philemon-7',
+    reference: 'Philemon 7',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For I have derived much joy and comfort from your love, my brother, because the hearts of the saints have been refreshed through you.',
+      NIV: 'Your love has given me great joy and encouragement, because you, brother, have refreshed the hearts of the Lord\'s people.',
+      KJV: 'For we have great joy and consolation in thy love, because the bowels of the saints are refreshed by thee, brother.',
+      NASB: 'For I have come to have much joy and comfort in your love, because the hearts of the saints have been refreshed through you, brother.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 6',
+        text: 'and I pray that the sharing of your faith may become effective for the full knowledge of every good thing that is in us for the sake of Christ.',
+      },
+      after: {
+        reference: 'Philemon 8',
+        text: 'Accordingly, though I am bold enough in Christ to command you to do what is required,',
+      },
+    },
+  },
+  {
+    id: 'philemon-10-11',
+    reference: 'Philemon 10-11',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I appeal to you for my child, Onesimus, whose father I became in my imprisonment. Formerly he was useless to you, but now he is indeed useful to you and to me.',
+      NIV: 'I appeal to you for my son Onesimus, who became my son while I was in chains. Formerly he was useless to you, but now he has become useful both to you and to me.',
+      KJV: 'I beseech thee for my son Onesimus, whom I have begotten in my bonds: Which in time past was to thee unprofitable, but now profitable to thee and to me.',
+      NASB: 'I appeal to you for my child Onesimus, whom I have begotten in my imprisonment, who formerly was useless to you, but now is useful both to you and to me.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 9',
+        text: 'yet for love\'s sake I prefer to appeal to you—I, Paul, an old man and now a prisoner also for Christ Jesus—',
+      },
+      after: {
+        reference: 'Philemon 12',
+        text: 'I am sending him back to you, sending my very heart.',
+      },
+    },
+  },
+  {
+    id: 'philemon-18-19',
+    reference: 'Philemon 18-19',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'If he has wronged you at all, or owes you anything, charge that to my account. I, Paul, write this with my own hand: I will repay it—to say nothing of your owing me even your own self.',
+      NIV: 'If he has done you any wrong or owes you anything, charge it to me. I, Paul, am writing this with my own hand. I will pay it back—not to mention that you owe me your very self.',
+      KJV: 'If he hath wronged thee, or oweth thee ought, put that on mine account; I Paul have written it with mine own hand, I will repay it: albeit I do not say to thee how thou owest unto me even thine own self besides.',
+      NASB: 'But if he has wronged you in any way or owes you anything, charge that to my account; I, Paul, am writing this with my own hand, I will repay it (not to mention to you that you owe to me even your own self as well).',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 17',
+        text: 'So if you consider me your partner, receive him as you would receive me.',
+      },
+      after: {
+        reference: 'Philemon 20',
+        text: 'Yes, brother, I want some benefit from you in the Lord. Refresh my heart in Christ.',
+      },
+    },
+  },
+  {
+    id: 'philemon-20',
+    reference: 'Philemon 20',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 20,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Yes, brother, I want some benefit from you in the Lord. Refresh my heart in Christ.',
+      NIV: 'I do wish, brother, that I may have some benefit from you in the Lord; refresh my heart in Christ.',
+      KJV: 'Yea, brother, let me have joy of thee in the Lord: refresh my bowels in the Lord.',
+      NASB: 'Yes, brother, let me benefit from you in the Lord; refresh my heart in Christ.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 19',
+        text: 'I, Paul, write this with my own hand: I will repay it—to say nothing of your owing me even your own self.',
+      },
+      after: {
+        reference: 'Philemon 21',
+        text: 'Confident of your obedience, I write to you, knowing that you will do even more than I say.',
       },
     },
   },
