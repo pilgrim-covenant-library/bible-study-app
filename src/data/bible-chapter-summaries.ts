@@ -9488,6 +9488,53 @@ export const SECOND_PETER_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 1 JOHN (5 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const FIRST_JOHN_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '1-john',
+    chapter: 1,
+    title: 'Fellowship in the Light',
+    summary: 'John opens with a declaration of the eternal Word of life—that which was from the beginning, which the apostles heard, saw, touched, and handled. This testimony concerning Jesus Christ, the eternal Son made manifest in the flesh, is proclaimed so that readers may have fellowship with the apostles, whose fellowship is with the Father and with His Son Jesus Christ. This message brings fullness of joy. The core proclamation is that God is light and in Him is no darkness at all. Those who claim fellowship with God while walking in darkness lie and do not practice the truth. But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son cleanses us from all sin. To claim sinlessness is self-deception that makes the truth absent from us. But if we confess our sins, He is faithful and just to forgive our sins and to cleanse us from all unrighteousness. To deny having sinned makes God a liar and shows His word is not in us.',
+    keyThemes: ['The incarnate Word of life', 'Fellowship with God and believers', 'Walking in light versus darkness', 'Confession and cleansing from sin'],
+    christConnection: 'Christ is the eternal "Word of life" made manifest. As the light of the world, He reveals the Father\'s nature. His blood provides the only cleansing from sin, enabling sinners to have fellowship with a holy God. The incarnation—that the eternal became tangible—is the foundation of apostolic testimony.'
+  },
+  {
+    bookId: '1-john',
+    chapter: 2,
+    title: 'Walking as Christ Walked',
+    summary: 'John writes so that his spiritual children may not sin, yet if anyone does sin, we have an Advocate with the Father—Jesus Christ the righteous—who is the propitiation for our sins, and not for ours only but for the whole world. The test of knowing Him is keeping His commandments; whoever claims to know Him but disobeys is a liar. Whoever keeps His word has God\'s love perfected in him. The one who claims to abide in Christ must walk as He walked. The old commandment to love is also a new commandment, being realized anew as the true light already shines. Whoever hates his brother walks in darkness; whoever loves his brother abides in the light. John addresses children, fathers, and young men at different stages of spiritual maturity. He warns against loving the world—the desires of the flesh, desires of the eyes, and pride of life—which passes away, while whoever does God\'s will abides forever. It is the last hour, and antichrists have come—those who went out from the church, proving they were never truly of it. These antichrists deny that Jesus is the Christ. Believers have an anointing from the Holy One and know the truth. If what they heard from the beginning abides in them, they will abide in the Son and the Father, receiving the promise of eternal life.',
+    keyThemes: ['Christ our Advocate and Propitiation', 'Obedience as evidence of knowing God', 'Warning against worldliness', 'Antichrists and the last hour'],
+    christConnection: 'Christ is the believer\'s Advocate (parakletos) before the Father, pleading His finished work. He is the propitiation—the sacrifice that satisfies God\'s wrath against sin. Believers are to walk as He walked. The antichrists are identified by their denial that Jesus is the Christ, the incarnate Son.'
+  },
+  {
+    bookId: '1-john',
+    chapter: 3,
+    title: 'Children of God and Children of the Devil',
+    summary: 'Behold what manner of love the Father has given, that we should be called children of God—and so we are! The world does not know us because it did not know Him. When Christ appears, we shall be like Him, for we shall see Him as He is. Everyone who has this hope purifies himself as He is pure. Sin is lawlessness, and Christ appeared to take away sins—in Him there is no sin. Whoever abides in Him does not keep on sinning; whoever keeps on sinning has neither seen nor known Him. Whoever practices righteousness is righteous; whoever makes a practice of sinning is of the devil, for the devil has been sinning from the beginning. The Son of God appeared to destroy the works of the devil. No one born of God makes a practice of sinning, for God\'s seed abides in him. By this the children of God and children of the devil are manifest: whoever does not practice righteousness is not of God, nor is the one who does not love his brother. The message from the beginning is to love one another—not like Cain who murdered his brother. The world hates believers as it hated Christ. We know we have passed from death to life because we love the brothers. Whoever hates his brother is a murderer. Christ laid down His life for us; we ought to lay down our lives for the brothers. If anyone has the world\'s goods and sees his brother in need yet closes his heart, how does God\'s love abide in him? Let us love in deed and truth. By this we assure our hearts before God. If our heart condemns us, God is greater than our heart. If our heart does not condemn us, we have confidence before God and receive what we ask. His commandment is to believe in Jesus Christ and love one another. Whoever keeps His commandments abides in Him, and He in them—and we know He abides in us by the Spirit He has given us.',
+    keyThemes: ['Identity as children of God', 'Sin incompatible with new birth', 'Love for brothers as evidence of life', 'Assurance through the Spirit'],
+    christConnection: 'Christ appeared for two purposes: to take away sins and to destroy the works of the devil. His sinless life provides the standard of purity. His sacrificial death defines true love—laying down His life becomes the model for believers. The hope of being like Him at His appearing motivates present holiness.'
+  },
+  {
+    bookId: '1-john',
+    chapter: 4,
+    title: 'Testing the Spirits and God\'s Love',
+    summary: 'Beloved, do not believe every spirit, but test the spirits to see whether they are from God, for many false prophets have gone out into the world. The test: every spirit that confesses Jesus Christ has come in the flesh is from God; every spirit that does not confess Jesus is not from God—this is the spirit of the antichrist. You are from God and have overcome them, because He who is in you is greater than he who is in the world. They are from the world and speak from the world; we are from God, and whoever knows God listens to us. Beloved, let us love one another, for love is from God, and whoever loves has been born of God and knows God. Whoever does not love does not know God, because God is love. In this the love of God was made manifest: God sent His only Son into the world so that we might live through Him. This is love—not that we loved God but that He loved us and sent His Son as the propitiation for our sins. If God so loved us, we also ought to love one another. No one has ever seen God; if we love one another, God abides in us and His love is perfected in us. By this we know we abide in Him: He has given us of His Spirit. The Father has sent His Son as Savior of the world. Whoever confesses Jesus as Son of God, God abides in him and he in God. We have known and believed the love God has for us. God is love, and whoever abides in love abides in God. By this, love is perfected in us for confidence on the day of judgment, because as He is so are we in this world. There is no fear in love; perfect love casts out fear, for fear has to do with punishment. We love because He first loved us. If anyone claims to love God yet hates his brother, he is a liar—we cannot love God whom we have not seen if we do not love our brother whom we have seen.',
+    keyThemes: ['Testing spirits by Christological confession', 'God is love', 'Love as evidence of rebirth', 'Perfect love casts out fear'],
+    christConnection: 'The incarnation—Jesus Christ come in the flesh—is the doctrinal test distinguishing truth from error. God\'s love is defined by sending His only Son as propitiation. Christ is the Savior of the world. Confession of Jesus as Son of God marks those in whom God abides.'
+  },
+  {
+    bookId: '1-john',
+    chapter: 5,
+    title: 'Faith Overcomes the World',
+    summary: 'Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the Father loves the child born of Him. We know we love God\'s children when we love God and obey His commandments. For this is the love of God: that we keep His commandments—and His commandments are not burdensome. Everyone born of God overcomes the world, and this is the victory that overcomes the world: our faith. Who overcomes the world but the one who believes that Jesus is the Son of God? This is He who came by water and blood—Jesus Christ—not by water only but by water and blood. The Spirit bears witness because the Spirit is truth. There are three that testify: the Spirit, the water, and the blood, and these three agree. If we receive the testimony of men, the testimony of God is greater, for this is God\'s testimony about His Son. Whoever believes in the Son has the testimony in himself; whoever does not believe God has made Him a liar by not believing the testimony. This is the testimony: God gave us eternal life, and this life is in His Son. Whoever has the Son has life; whoever does not have the Son does not have life. John writes these things so that those who believe in the name of the Son of God may know that they have eternal life. This is the confidence we have: if we ask anything according to His will, He hears us. If we know He hears us, we know we have the requests asked of Him. If anyone sees his brother sinning a sin not leading to death, he should pray and God will give him life—but there is sin that leads to death. All wrongdoing is sin, but there is sin not leading to death. We know that everyone born of God does not keep on sinning, but the One born of God protects him and the evil one does not touch him. We know we are from God and the whole world lies in the power of the evil one. We know the Son of God has come and given us understanding to know Him who is true—we are in Him who is true, in His Son Jesus Christ. This is the true God and eternal life. Little children, keep yourselves from idols.',
+    keyThemes: ['Faith as victory over the world', 'The threefold testimony to Christ', 'Assurance of eternal life', 'Confidence in prayer'],
+    christConnection: 'Jesus Christ is the Son of God who came "by water and blood"—His baptism and His atoning death. The Spirit, water, and blood unite in testifying to Him. Eternal life is found exclusively in the Son: "Whoever has the Son has life." The letter concludes affirming that Jesus Christ is "the true God and eternal life."'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9611,6 +9658,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return FIRST_PETER_CHAPTERS;
     case '2-peter':
       return SECOND_PETER_CHAPTERS;
+    case '1-john':
+      return FIRST_JOHN_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9680,4 +9729,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'james', bookName: 'James', chapters: JAMES_CHAPTERS },
   { bookId: '1-peter', bookName: '1 Peter', chapters: FIRST_PETER_CHAPTERS },
   { bookId: '2-peter', bookName: '2 Peter', chapters: SECOND_PETER_CHAPTERS },
+  { bookId: '1-john', bookName: '1 John', chapters: FIRST_JOHN_CHAPTERS },
 ];
