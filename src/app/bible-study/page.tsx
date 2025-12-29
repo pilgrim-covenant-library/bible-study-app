@@ -12,6 +12,7 @@ import {
   type CanonicalGroup,
   type BibleBookSummary,
 } from '@/data/bible-summaries';
+import { ALL_CHAPTER_SUMMARIES } from '@/data/bible-chapter-summaries';
 
 type TestamentFilter = 'all' | Testament;
 
@@ -71,10 +72,12 @@ export default function BibleStudyPage() {
   const stats = useMemo(() => {
     const otBooks = BIBLE_BOOK_SUMMARIES.filter(b => b.testament === 'old').length;
     const ntBooks = BIBLE_BOOK_SUMMARIES.filter(b => b.testament === 'new').length;
+    const totalChapters = ALL_CHAPTER_SUMMARIES.reduce((sum, book) => sum + book.chapters.length, 0);
     return {
       total: BIBLE_BOOK_SUMMARIES.length,
       ot: otBooks,
       nt: ntBooks,
+      chapters: totalChapters,
     };
   }, []);
 
@@ -117,10 +120,14 @@ export default function BibleStudyPage() {
         <section className="mb-8">
           <Card variant="bible">
             <CardContent className="p-6">
-              <div className="grid grid-cols-3 gap-4 text-center">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
                 <div>
                   <div className="text-3xl font-bold text-bible">{stats.total}</div>
-                  <div className="text-sm text-muted-foreground">Books Available</div>
+                  <div className="text-sm text-muted-foreground">Books</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-bible">{stats.chapters.toLocaleString()}</div>
+                  <div className="text-sm text-muted-foreground">Chapter Summaries</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-bible">{stats.ot}</div>
