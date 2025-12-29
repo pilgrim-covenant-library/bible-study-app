@@ -4100,6 +4100,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-timothy-3-16',
+    reference: '1 Timothy 3:16',
+    book: '1 Timothy',
+    chapter: 3,
+    verse: 16,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Great indeed, we confess, is the mystery of godliness: He was manifested in the flesh, vindicated by the Spirit, seen by angels, proclaimed among the nations, believed on in the world, taken up in glory.',
+      NIV: 'Beyond all question, the mystery from which true godliness springs is great: He appeared in the flesh, was vindicated by the Spirit, was seen by angels, was preached among the nations, was believed on in the world, was taken up in glory.',
+      KJV: 'And without controversy great is the mystery of godliness: God was manifest in the flesh, justified in the Spirit, seen of angels, preached unto the Gentiles, believed on in the world, received up into glory.',
+      NASB: 'By common confession, great is the mystery of godliness: He who was revealed in the flesh, was vindicated in the Spirit, seen by angels, proclaimed among the nations, believed on in the world, taken up in glory.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 3:15',
+        text: 'if I delay, you may know how one ought to behave in the household of God, which is the church of the living God, a pillar and buttress of the truth.',
+      },
+      after: {
+        reference: '1 Timothy 4:1',
+        text: 'Now the Spirit expressly says that in later times some will depart from the faith by devoting themselves to deceitful spirits and teachings of demons,',
+      },
+    },
+  },
+  {
+    id: '1-timothy-6-12',
+    reference: '1 Timothy 6:12',
+    book: '1 Timothy',
+    chapter: 6,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Fight the good fight of the faith. Take hold of the eternal life to which you were called and about which you made the good confession in the presence of many witnesses.',
+      NIV: 'Fight the good fight of the faith. Take hold of the eternal life to which you were called when you made your good confession in the presence of many witnesses.',
+      KJV: 'Fight the good fight of faith, lay hold on eternal life, whereunto thou art also called, and hast professed a good profession before many witnesses.',
+      NASB: 'Fight the good fight of faith; take hold of the eternal life to which you were called, and you made the good confession in the presence of many witnesses.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 6:11',
+        text: 'But as for you, O man of God, flee these things. Pursue righteousness, godliness, faith, love, steadfastness, gentleness.',
+      },
+      after: {
+        reference: '1 Timothy 6:13',
+        text: 'I charge you in the presence of God, who gives life to all things, and of Christ Jesus, who in his testimony before Pontius Pilate made the good confession,',
+      },
+    },
+  },
 
   // ============ 2 TIMOTHY ============
   {
@@ -4150,6 +4198,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-timothy-2-15',
+    reference: '2 Timothy 2:15',
+    book: '2 Timothy',
+    chapter: 2,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Do your best to present yourself to God as one approved, a worker who has no need to be ashamed, rightly handling the word of truth.',
+      NIV: 'Do your best to present yourself to God as one approved, a worker who does not need to be ashamed and who correctly handles the word of truth.',
+      KJV: 'Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.',
+      NASB: 'Be diligent to present yourself approved to God as a workman who does not need to be ashamed, accurately handling the word of truth.',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 2:14',
+        text: 'Remind them of these things, and charge them before God not to quarrel about words, which does no good, but only ruins the hearers.',
+      },
+      after: {
+        reference: '2 Timothy 2:16',
+        text: 'But avoid irreverent babble, for it will lead people into more and more ungodliness,',
+      },
+    },
+  },
+  {
+    id: '2-timothy-4-7',
+    reference: '2 Timothy 4:7',
+    book: '2 Timothy',
+    chapter: 4,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I have fought the good fight, I have finished the race, I have kept the faith.',
+      NIV: 'I have fought the good fight, I have finished the race, I have kept the faith.',
+      KJV: 'I have fought a good fight, I have finished my course, I have kept the faith:',
+      NASB: 'I have fought the good fight, I have finished the course, I have kept the faith;',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 4:6',
+        text: 'For I am already being poured out as a drink offering, and the time of my departure has come.',
+      },
+      after: {
+        reference: '2 Timothy 4:8',
+        text: 'Henceforth there is laid up for me the crown of righteousness, which the Lord, the righteous judge, will award to me on that day, and not only to me but also to all who have loved his appearing.',
+      },
+    },
+  },
 
   // ============ TITUS ============
   {
@@ -4197,6 +4293,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Titus 2:13',
         text: 'waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ.',
+      },
+    },
+  },
+  {
+    id: 'titus-1-2',
+    reference: 'Titus 1:2',
+    book: 'Titus',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'in hope of eternal life, which God, who never lies, promised before the ages began',
+      NIV: 'in the hope of eternal life, which God, who does not lie, promised before the beginning of time,',
+      KJV: 'In hope of eternal life, which God, that cannot lie, promised before the world began;',
+      NASB: 'in the hope of eternal life, which God, who cannot lie, promised long ages ago,',
+    },
+    context: {
+      before: {
+        reference: 'Titus 1:1',
+        text: 'Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God\'s elect and their knowledge of the truth, which accords with godliness,',
+      },
+      after: {
+        reference: 'Titus 1:3',
+        text: 'and at the proper time manifested in his word through the preaching with which I have been entrusted by the command of God our Savior;',
+      },
+    },
+  },
+  {
+    id: 'titus-2-14',
+    reference: 'Titus 2:14',
+    book: 'Titus',
+    chapter: 2,
+    verse: 14,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'who gave himself for us to redeem us from all lawlessness and to purify for himself a people for his own possession who are zealous for good works.',
+      NIV: 'who gave himself for us to redeem us from all wickedness and to purify for himself a people that are his very own, eager to do what is good.',
+      KJV: 'Who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a peculiar people, zealous of good works.',
+      NASB: 'who gave Himself for us to redeem us from every lawless deed, and to purify for Himself a people for His own possession, zealous for good deeds.',
+    },
+    context: {
+      before: {
+        reference: 'Titus 2:13',
+        text: 'waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ,',
+      },
+      after: {
+        reference: 'Titus 2:15',
+        text: 'Declare these things; exhort and rebuke with all authority. Let no one disregard you.',
       },
     },
   },
@@ -4789,6 +4933,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Peter 3:10',
         text: 'But the day of the Lord will come like a thief, and then the heavens will pass away with a roar.',
+      },
+    },
+  },
+  {
+    id: '2-peter-1-21',
+    reference: '2 Peter 1:21',
+    book: '2 Peter',
+    chapter: 1,
+    verse: 21,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For no prophecy was ever produced by the will of man, but men spoke from God as they were carried along by the Holy Spirit.',
+      NIV: 'For prophecy never had its origin in the human will, but prophets, though human, spoke from God as they were carried along by the Holy Spirit.',
+      KJV: 'For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost.',
+      NASB: 'for no prophecy was ever made by an act of human will, but men moved by the Holy Spirit spoke from God.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 1:20',
+        text: 'knowing this first of all, that no prophecy of Scripture comes from someone\'s own interpretation.',
+      },
+      after: {
+        reference: '2 Peter 2:1',
+        text: 'But false prophets also arose among the people, just as there will be false teachers among you.',
+      },
+    },
+  },
+  {
+    id: '2-peter-3-18',
+    reference: '2 Peter 3:18',
+    book: '2 Peter',
+    chapter: 3,
+    verse: 18,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and to the day of eternity. Amen.',
+      NIV: 'But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be glory both now and forever! Amen.',
+      KJV: 'But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen.',
+      NASB: 'but grow in the grace and knowledge of our Lord and Savior Jesus Christ. To Him be the glory, both now and to the day of eternity. Amen.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 3:17',
+        text: 'You therefore, beloved, knowing this beforehand, take care that you are not carried away with the error of lawless people and lose your own stability.',
       },
     },
   },
