@@ -720,6 +720,150 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'exodus-4-11',
+    reference: 'Exodus 4:11',
+    book: 'Exodus',
+    chapter: 4,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then the LORD said to him, "Who has made man\'s mouth? Who makes him mute, or deaf, or seeing, or blind? Is it not I, the LORD?"',
+      NIV: 'The LORD said to him, "Who gave human beings their mouths? Who makes them deaf or mute? Who gives them sight or makes them blind? Is it not I, the LORD?"',
+      KJV: 'And the LORD said unto him, Who hath made man\'s mouth? or who maketh the dumb, or deaf, or the seeing, or the blind? have not I the LORD?',
+      NASB: 'The LORD said to him, "Who has made man\'s mouth? Or who makes him mute or deaf, or seeing or blind? Is it not I, the LORD?"',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 4:10',
+        text: 'But Moses said to the LORD, "Oh, my Lord, I am not eloquent, either in the past or since you have spoken to your servant, but I am slow of speech and of tongue."',
+      },
+      after: {
+        reference: 'Exodus 4:12',
+        text: 'Now therefore go, and I will be with your mouth and teach you what you shall speak.',
+      },
+    },
+  },
+  {
+    id: 'exodus-15-11',
+    reference: 'Exodus 15:11',
+    book: 'Exodus',
+    chapter: 15,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Who is like you, O LORD, among the gods? Who is like you, majestic in holiness, awesome in glorious deeds, doing wonders?',
+      NIV: 'Who among the gods is like you, LORD? Who is like you—majestic in holiness, awesome in glory, working wonders?',
+      KJV: 'Who is like unto thee, O LORD, among the gods? who is like thee, glorious in holiness, fearful in praises, doing wonders?',
+      NASB: 'Who is like You among the gods, O LORD? Who is like You, majestic in holiness, awesome in praises, working wonders?',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 15:10',
+        text: 'You blew with your wind; the sea covered them; they sank like lead in the mighty waters.',
+      },
+      after: {
+        reference: 'Exodus 15:12',
+        text: 'You stretched out your right hand; the earth swallowed them.',
+      },
+    },
+  },
+  {
+    id: 'exodus-19-6',
+    reference: 'Exodus 19:6',
+    book: 'Exodus',
+    chapter: 19,
+    verse: 6,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'and you shall be to me a kingdom of priests and a holy nation. These are the words that you shall speak to the people of Israel.',
+      NIV: 'you will be for me a kingdom of priests and a holy nation.\' These are the words you are to speak to the Israelites.',
+      KJV: 'And ye shall be unto me a kingdom of priests, and an holy nation. These are the words which thou shalt speak unto the children of Israel.',
+      NASB: 'and you shall be to Me a kingdom of priests and a holy nation.\' These are the words that you shall speak to the sons of Israel.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 19:5',
+        text: 'Now therefore, if you will indeed obey my voice and keep my covenant, you shall be my treasured possession among all peoples.',
+      },
+      after: {
+        reference: 'Exodus 19:7',
+        text: 'So Moses came and called the elders of the people and set before them all these words that the LORD had commanded him.',
+      },
+    },
+  },
+  {
+    id: 'exodus-20-8',
+    reference: 'Exodus 20:8',
+    book: 'Exodus',
+    chapter: 20,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Remember the Sabbath day, to keep it holy.',
+      NIV: 'Remember the Sabbath day by keeping it holy.',
+      KJV: 'Remember the sabbath day, to keep it holy.',
+      NASB: 'Remember the sabbath day, to keep it holy.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 20:7',
+        text: 'You shall not take the name of the LORD your God in vain, for the LORD will not hold him guiltless who takes his name in vain.',
+      },
+      after: {
+        reference: 'Exodus 20:9',
+        text: 'Six days you shall labor, and do all your work.',
+      },
+    },
+  },
+  {
+    id: 'exodus-25-8',
+    reference: 'Exodus 25:8',
+    book: 'Exodus',
+    chapter: 25,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And let them make me a sanctuary, that I may dwell in their midst.',
+      NIV: 'Then have them make a sanctuary for me, and I will dwell among them.',
+      KJV: 'And let them make me a sanctuary; that I may dwell among them.',
+      NASB: 'Let them construct a sanctuary for Me, that I may dwell among them.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 25:7',
+        text: 'onyx stones, and stones for setting, for the ephod and for the breastpiece.',
+      },
+      after: {
+        reference: 'Exodus 25:9',
+        text: 'Exactly as I show you concerning the pattern of the tabernacle, and of all its furniture, so you shall make it.',
+      },
+    },
+  },
+  {
+    id: 'exodus-34-14',
+    reference: 'Exodus 34:14',
+    book: 'Exodus',
+    chapter: 34,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'for you shall worship no other god, for the LORD, whose name is Jealous, is a jealous God.',
+      NIV: 'Do not worship any other god, for the LORD, whose name is Jealous, is a jealous God.',
+      KJV: 'For thou shalt worship no other god: for the LORD, whose name is Jealous, is a jealous God.',
+      NASB: 'for you shall not worship any other god, for the LORD, whose name is Jealous, is a jealous God.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 34:13',
+        text: 'You shall tear down their altars and break their pillars and cut down their Asherim.',
+      },
+      after: {
+        reference: 'Exodus 34:15',
+        text: 'lest you make a covenant with the inhabitants of the land, and when they whore after their gods and sacrifice to their gods.',
+      },
+    },
+  },
 
   // ============ LEVITICUS ============
   {
@@ -14632,6 +14776,55 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Peter 5:11',
         text: 'To him be the dominion forever and ever. Amen.',
+      },
+    },
+  },
+
+  {
+    id: '1-peter-1-6-7',
+    reference: '1 Peter 1:6-7',
+    book: '1 Peter',
+    chapter: 1,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials, so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ.',
+      NIV: 'In all this you greatly rejoice, though now for a little while you may have had to suffer grief in all kinds of trials. These have come so that the proven genuineness of your faith—of greater worth than gold, which perishes even though refined by fire—may result in praise, glory and honor when Jesus Christ is revealed.',
+      KJV: 'Wherein ye greatly rejoice, though now for a season, if need be, ye are in heaviness through manifold temptations: That the trial of your faith, being much more precious than of gold that perisheth, though it be tried with fire, might be found unto praise and honour and glory at the appearing of Jesus Christ.',
+      NASB: 'In this you greatly rejoice, even though now for a little while, if necessary, you have been distressed by various trials, so that the proof of your faith, being more precious than gold which is perishable, even though tested by fire, may be found to result in praise and glory and honor at the revelation of Jesus Christ.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 1:5',
+        text: 'who by God\'s power are being guarded through faith for a salvation ready to be revealed in the last time.',
+      },
+      after: {
+        reference: '1 Peter 1:8',
+        text: 'Though you have not seen him, you love him. Though you do not now see him, you believe in him and rejoice with joy that is inexpressible and filled with glory,',
+      },
+    },
+  },
+  {
+    id: '1-peter-2-5',
+    reference: '1 Peter 2:5',
+    book: '1 Peter',
+    chapter: 2,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'you yourselves like living stones are being built up as a spiritual house, to be a holy priesthood, to offer spiritual sacrifices acceptable to God through Jesus Christ.',
+      NIV: 'you also, like living stones, are being built into a spiritual house to be a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ.',
+      KJV: 'Ye also, as lively stones, are built up a spiritual house, an holy priesthood, to offer up spiritual sacrifices, acceptable to God by Jesus Christ.',
+      NASB: 'you also, as living stones, are being built up as a spiritual house for a holy priesthood, to offer up spiritual sacrifices acceptable to God through Jesus Christ.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 2:4',
+        text: 'As you come to him, a living stone rejected by men but in the sight of God chosen and precious,',
+      },
+      after: {
+        reference: '1 Peter 2:6',
+        text: 'For it stands in Scripture: "Behold, I am laying in Zion a stone, a cornerstone chosen and precious, and whoever believes in him will not be put to shame."',
       },
     },
   },
