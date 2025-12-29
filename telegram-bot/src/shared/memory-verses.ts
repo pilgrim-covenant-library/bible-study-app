@@ -690,7 +690,7 @@ export function getAllBooks(): string[] {
 
 // Get N unique random verses
 export function getRandomVerses(count: number, difficulty?: Difficulty): MemoryVerse[] {
-  let pool = difficulty ? getVersesByDifficulty(difficulty) : MEMORY_VERSES;
+  const pool = difficulty ? getVersesByDifficulty(difficulty) : MEMORY_VERSES;
   const shuffled = [...pool].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }

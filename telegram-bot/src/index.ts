@@ -16,7 +16,6 @@ import {
   checkAllSubmitted,
   showRoundResults,
   nextRound,
-  getPlayerNames,
 } from './game/room-manager.js';
 import { calculateSimilarity } from './shared/similarity.js';
 import { parseDeepLink, createDeepLink } from './utils/deep-links.js';
@@ -36,7 +35,6 @@ import {
   errorMessage,
   notInGameMessage,
   alreadyInGameMessage,
-  playerReadyMessage,
 } from './ui/messages.js';
 import {
   readyKeyboard,
@@ -228,7 +226,7 @@ bot.command('leave', async (ctx) => {
     ctx.session.playerName = undefined;
 
     await ctx.reply('You have left the game. Use /newgame to start a new one!');
-  } catch (error) {
+  } catch {
     await ctx.reply(errorMessage('Failed to leave room'));
   }
 });
@@ -256,11 +254,8 @@ bot.callbackQuery('ready', async (ctx) => {
     });
 
     // Notify other player
-    const otherPlayerId = Object.keys(room.players).find(p => p !== playerId);
-    if (otherPlayerId) {
-      const playerName = ctx.session.playerName || 'Player';
-      // Note: In production, you'd store chat IDs and message other players
-    }
+    // Note: In production, you'd store chat IDs and message other players
+    // const otherPlayerId = Object.keys(room.players).find(p => p !== playerId);
 
     // Check if both ready
     if (await checkAllReady(roomCode)) {
@@ -291,7 +286,7 @@ bot.callbackQuery('ready', async (ctx) => {
         }
       }
     }
-  } catch (error) {
+  } catch {
     await ctx.reply(errorMessage('Failed to set ready status'));
   }
 });
@@ -314,7 +309,7 @@ bot.callbackQuery('cancel_ready', async (ctx) => {
         reply_markup: readyKeyboard(),
       });
     }
-  } catch (error) {
+  } catch {
     await ctx.reply(errorMessage('Failed to cancel ready'));
   }
 });
@@ -363,7 +358,7 @@ bot.callbackQuery('next_round', async (ctx) => {
         });
       }
     }
-  } catch (error) {
+  } catch {
     await ctx.reply(errorMessage('Failed to advance round'));
   }
 });
@@ -498,7 +493,7 @@ bot.on('message:text', async (ctx) => {
         );
       }
     }
-  } catch (error) {
+  } catch {
     await ctx.reply(errorMessage('Failed to submit answer'));
   }
 });

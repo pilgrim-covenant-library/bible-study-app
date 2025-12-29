@@ -91,13 +91,6 @@ interface Test107SessionState {
   getCurrentQuestion: () => { phase: Test107Phase; index: number } | null;
 }
 
-// Helper to add days to date
-function addDays(date: Date, days: number): string {
-  const result = new Date(date);
-  result.setDate(result.getDate() + days);
-  return result.toISOString().split('T')[0];
-}
-
 // Generate unique session ID
 function generateSessionId(): string {
   return `test107-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;

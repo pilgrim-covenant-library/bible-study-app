@@ -234,7 +234,7 @@ export function formatReference(
 ): string {
   // Convert API book name back to display name
   const displayBook = Object.entries(BOOK_MAP)
-    .find(([_, api]) => api === book)?.[0] || book;
+    .find(([, api]) => api === book)?.[0] || book;
 
   const capitalizedBook = displayBook
     .split(' ')

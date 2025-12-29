@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, HelpCircle, Trophy, Clock, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
@@ -144,15 +144,36 @@ export default function TriviaPage() {
   const [timeLeft, setTimeLeft] = useState(15);
   const [answers, setAnswers] = useState<{ questionId: string; correct: boolean }[]>([]);
 
+  const handleAnswer = useCallback((answerIndex: number) => {
+    setSelectedAnswer(answerIndex);
+    setShowResult(true);
+
+    const question = questions[currentQuestion];
+    const isCorrect = answerIndex === question.correctIndex;
+
+    if (isCorrect) {
+      const timeBonus = Math.floor(timeLeft * 5);
+      const streakBonus = streak * 10;
+      setScore(s => s + 100 + timeBonus + streakBonus);
+      setStreak(s => s + 1);
+    } else {
+      setStreak(0);
+    }
+
+    setAnswers(prev => [...prev, { questionId: question.id, correct: isCorrect }]);
+  }, [questions, currentQuestion, timeLeft, streak]);
+
   // Timer
   useEffect(() => {
     if (gameState === 'playing' && !showResult && timeLeft > 0) {
       const timer = setTimeout(() => setTimeLeft(t => t - 1), 1000);
       return () => clearTimeout(timer);
     } else if (timeLeft === 0 && !showResult) {
-      handleAnswer(-1); // Time's up
+      // Defer state update to avoid synchronous setState in effect
+      const timeout = setTimeout(() => handleAnswer(-1), 0);
+      return () => clearTimeout(timeout);
     }
-  }, [gameState, timeLeft, showResult]);
+  }, [gameState, timeLeft, showResult, handleAnswer]);
 
   const startGame = () => {
     let filtered = SAMPLE_QUESTIONS;
@@ -177,25 +198,6 @@ export default function TriviaPage() {
     setAnswers([]);
     setTimeLeft(15);
     setGameState('playing');
-  };
-
-  const handleAnswer = (answerIndex: number) => {
-    setSelectedAnswer(answerIndex);
-    setShowResult(true);
-
-    const question = questions[currentQuestion];
-    const isCorrect = answerIndex === question.correctIndex;
-
-    if (isCorrect) {
-      const timeBonus = Math.floor(timeLeft * 5);
-      const streakBonus = streak * 10;
-      setScore(s => s + 100 + timeBonus + streakBonus);
-      setStreak(s => s + 1);
-    } else {
-      setStreak(0);
-    }
-
-    setAnswers(prev => [...prev, { questionId: question.id, correct: isCorrect }]);
   };
 
   const nextQuestion = () => {

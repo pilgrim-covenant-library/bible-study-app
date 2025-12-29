@@ -1,6 +1,6 @@
 // Message templates for Telegram bot
 
-import { RoomState, Player, GameVerse, ProgressiveRoundData } from '../shared/types.js';
+import { RoomState, GameVerse, ProgressiveRoundData } from '../shared/types.js';
 
 export function welcomeMessage(): string {
   return `Welcome to Scripture Memory Challenge!

@@ -203,7 +203,7 @@ export function Test107Completion({
           </div>
           <h2 className="text-2xl font-bold mb-1">Congratulations!</h2>
           <p className="text-white/80 text-sm">
-            You've completed all 107 questions in both phases!
+            You&apos;ve completed all 107 questions in both phases!
           </p>
           {loopCount > 0 && (
             <p className="text-white/60 text-xs mt-1">

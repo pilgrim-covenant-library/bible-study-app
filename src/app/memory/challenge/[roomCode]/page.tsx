@@ -766,7 +766,7 @@ export default function ChallengePage() {
                   {/* Opponent's Answer */}
                   {opponent?.currentRoundAnswer && (
                     <div className="bg-muted/50 rounded-xl p-4">
-                      <div className="text-sm font-medium mb-2">{opponent.name}'s answer:</div>
+                      <div className="text-sm font-medium mb-2">{opponent.name}&apos;s answer:</div>
                       <p className="text-sm leading-relaxed">
                         {opponent.currentRoundAnswer}
                       </p>
