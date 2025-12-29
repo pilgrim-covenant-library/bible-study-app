@@ -7974,6 +7974,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-timothy-1-15',
+    reference: '1 Timothy 1:15',
+    book: '1 Timothy',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost.',
+      NIV: 'Here is a trustworthy saying that deserves full acceptance: Christ Jesus came into the world to save sinners—of whom I am the worst.',
+      KJV: 'This is a faithful saying, and worthy of all acceptation, that Christ Jesus came into the world to save sinners; of whom I am chief.',
+      NASB: 'It is a trustworthy statement, deserving full acceptance, that Christ Jesus came into the world to save sinners, among whom I am foremost of all.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 1:14',
+        text: 'and the grace of our Lord overflowed for me with the faith and love that are in Christ Jesus.',
+      },
+      after: {
+        reference: '1 Timothy 1:16',
+        text: 'But I received mercy for this reason, that in me, as the foremost, Jesus Christ might display his perfect patience as an example to those who were to believe in him for eternal life.',
+      },
+    },
+  },
+  {
+    id: '1-timothy-4-8',
+    reference: '1 Timothy 4:8',
+    book: '1 Timothy',
+    chapter: 4,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'for while bodily training is of some value, godliness is of value in every way, as it holds promise for the present life and also for the life to come.',
+      NIV: 'For physical training is of some value, but godliness has value for all things, holding promise for both the present life and the life to come.',
+      KJV: 'For bodily exercise profiteth little: but godliness is profitable unto all things, having promise of the life that now is, and of that which is to come.',
+      NASB: 'for bodily discipline is only of little profit, but godliness is profitable for all things, since it holds promise for the present life and also for the life to come.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 4:7',
+        text: 'Have nothing to do with irreverent, silly myths. Rather train yourself for godliness;',
+      },
+      after: {
+        reference: '1 Timothy 4:9',
+        text: 'The saying is trustworthy and deserving of full acceptance.',
+      },
+    },
+  },
+  {
+    id: '1-timothy-6-6',
+    reference: '1 Timothy 6:6',
+    book: '1 Timothy',
+    chapter: 6,
+    verse: 6,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But godliness with contentment is great gain,',
+      NIV: 'But godliness with contentment is great gain.',
+      KJV: 'But godliness with contentment is great gain.',
+      NASB: 'But godliness actually is a means of great gain when accompanied by contentment.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 6:5',
+        text: 'and constant friction among people who are depraved in mind and deprived of the truth, imagining that godliness is a means of gain.',
+      },
+      after: {
+        reference: '1 Timothy 6:7',
+        text: 'for we brought nothing into the world, and we cannot take anything out of the world.',
+      },
+    },
+  },
+  {
+    id: '1-timothy-6-10',
+    reference: '1 Timothy 6:10',
+    book: '1 Timothy',
+    chapter: 6,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the love of money is a root of all kinds of evils. It is through this craving that some have wandered away from the faith and pierced themselves with many pangs.',
+      NIV: 'For the love of money is a root of all kinds of evil. Some people, eager for money, have wandered from the faith and pierced themselves with many griefs.',
+      KJV: 'For the love of money is the root of all evil: which while some coveted after, they have erred from the faith, and pierced themselves through with many sorrows.',
+      NASB: 'For the love of money is a root of all sorts of evil, and some by longing for it have wandered away from the faith and pierced themselves with many griefs.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 6:9',
+        text: 'But those who desire to be rich fall into temptation, into a snare, into many senseless and harmful desires that plunge people into ruin and destruction.',
+      },
+      after: {
+        reference: '1 Timothy 6:11',
+        text: 'But as for you, O man of God, flee these things. Pursue righteousness, godliness, faith, love, steadfastness, gentleness.',
+      },
+    },
+  },
 
   // ============ 2 TIMOTHY ============
   {
@@ -9999,6 +10095,294 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Revelation 22:18',
         text: 'I warn everyone who hears the words of the prophecy of this book: if anyone adds to them, God will add to him the plagues described in this book.',
+      },
+    },
+  },
+  {
+    id: 'revelation-1-5',
+    reference: 'Revelation 1:5',
+    book: 'Revelation',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'and from Jesus Christ the faithful witness, the firstborn of the dead, and the ruler of kings on earth. To him who loves us and has freed us from our sins by his blood',
+      NIV: 'and from Jesus Christ, who is the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To him who loves us and has freed us from our sins by his blood,',
+      KJV: 'And from Jesus Christ, who is the faithful witness, and the first begotten of the dead, and the prince of the kings of the earth. Unto him that loved us, and washed us from our sins in his own blood,',
+      NASB: 'and from Jesus Christ, the faithful witness, the firstborn of the dead, and the ruler of the kings of the earth. To Him who loves us and released us from our sins by His blood—',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 1:4',
+        text: 'John to the seven churches that are in Asia: Grace to you and peace from him who is and who was and who is to come, and from the seven spirits who are before his throne,',
+      },
+      after: {
+        reference: 'Revelation 1:6',
+        text: 'and made us a kingdom, priests to his God and Father, to him be glory and dominion forever and ever. Amen.',
+      },
+    },
+  },
+  {
+    id: 'revelation-2-10',
+    reference: 'Revelation 2:10',
+    book: 'Revelation',
+    chapter: 2,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Do not fear what you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested, and for ten days you will have tribulation. Be faithful unto death, and I will give you the crown of life.',
+      NIV: 'Do not be afraid of what you are about to suffer. I tell you, the devil will put some of you in prison to test you, and you will suffer persecution for ten days. Be faithful, even to the point of death, and I will give you life as your victor\'s crown.',
+      KJV: 'Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life.',
+      NASB: 'Do not fear what you are about to suffer. Behold, the devil is about to cast some of you into prison, so that you will be tested, and you will have tribulation for ten days. Be faithful until death, and I will give you the crown of life.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 2:9',
+        text: 'I know your tribulation and your poverty (but you are rich) and the slander of those who say that they are Jews and are not, but are a synagogue of Satan.',
+      },
+      after: {
+        reference: 'Revelation 2:11',
+        text: 'He who has an ear, let him hear what the Spirit says to the churches. The one who conquers will not be hurt by the second death.',
+      },
+    },
+  },
+  {
+    id: 'revelation-4-11',
+    reference: 'Revelation 4:11',
+    book: 'Revelation',
+    chapter: 4,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Worthy are you, our Lord and God, to receive glory and honor and power, for you created all things, and by your will they existed and were created.',
+      NIV: 'You are worthy, our Lord and God, to receive glory and honor and power, for you created all things, and by your will they were created and have their being.',
+      KJV: 'Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.',
+      NASB: 'Worthy are You, our Lord and our God, to receive glory and honor and power; for You created all things, and because of Your will they existed, and were created.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 4:10',
+        text: 'the twenty-four elders fall down before him who is seated on the throne and worship him who lives forever and ever. They cast their crowns before the throne, saying,',
+      },
+      after: {
+        reference: 'Revelation 5:1',
+        text: 'Then I saw in the right hand of him who was seated on the throne a scroll written within and on the back, sealed with seven seals.',
+      },
+    },
+  },
+  {
+    id: 'revelation-5-12',
+    reference: 'Revelation 5:12',
+    book: 'Revelation',
+    chapter: 5,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'saying with a loud voice, "Worthy is the Lamb who was slain, to receive power and wealth and wisdom and might and honor and glory and blessing!"',
+      NIV: 'In a loud voice they were saying: "Worthy is the Lamb, who was slain, to receive power and wealth and wisdom and strength and honor and glory and praise!"',
+      KJV: 'Saying with a loud voice, Worthy is the Lamb that was slain to receive power, and riches, and wisdom, and strength, and honour, and glory, and blessing.',
+      NASB: 'saying with a loud voice, "Worthy is the Lamb that was slain to receive power and riches and wisdom and might and honor and glory and blessing."',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 5:11',
+        text: 'Then I looked, and I heard around the throne and the living creatures and the elders the voice of many angels, numbering myriads of myriads and thousands of thousands,',
+      },
+      after: {
+        reference: 'Revelation 5:13',
+        text: 'And I heard every creature in heaven and on earth and under the earth and in the sea, and all that is in them, saying, "To him who sits on the throne and to the Lamb be blessing and honor and glory and might forever and ever!"',
+      },
+    },
+  },
+  {
+    id: 'revelation-11-15',
+    reference: 'Revelation 11:15',
+    book: 'Revelation',
+    chapter: 11,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then the seventh angel blew his trumpet, and there were loud voices in heaven, saying, "The kingdom of the world has become the kingdom of our Lord and of his Christ, and he shall reign forever and ever."',
+      NIV: 'The seventh angel sounded his trumpet, and there were loud voices in heaven, which said: "The kingdom of the world has become the kingdom of our Lord and of his Messiah, and he will reign for ever and ever."',
+      KJV: 'And the seventh angel sounded; and there were great voices in heaven, saying, The kingdoms of this world are become the kingdoms of our Lord, and of his Christ; and he shall reign for ever and ever.',
+      NASB: 'Then the seventh angel sounded; and there were loud voices in heaven, saying, "The kingdom of the world has become the kingdom of our Lord and of His Christ; and He will reign forever and ever."',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 11:14',
+        text: 'The second woe has passed; behold, the third woe is soon to come.',
+      },
+      after: {
+        reference: 'Revelation 11:16',
+        text: 'And the twenty-four elders who sit on their thrones before God fell on their faces and worshiped God,',
+      },
+    },
+  },
+  {
+    id: 'revelation-14-12',
+    reference: 'Revelation 14:12',
+    book: 'Revelation',
+    chapter: 14,
+    verse: 12,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Here is a call for the endurance of the saints, those who keep the commandments of God and their faith in Jesus.',
+      NIV: 'This calls for patient endurance on the part of the people of God who keep his commands and remain faithful to Jesus.',
+      KJV: 'Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus.',
+      NASB: 'Here is the perseverance of the saints who keep the commandments of God and their faith in Jesus.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 14:11',
+        text: 'And the smoke of their torment goes up forever and ever, and they have no rest, day or night, these worshipers of the beast and its image.',
+      },
+      after: {
+        reference: 'Revelation 14:13',
+        text: 'And I heard a voice from heaven saying, "Write this: Blessed are the dead who die in the Lord from now on."',
+      },
+    },
+  },
+  {
+    id: 'revelation-15-3',
+    reference: 'Revelation 15:3',
+    book: 'Revelation',
+    chapter: 15,
+    verse: 3,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And they sing the song of Moses, the servant of God, and the song of the Lamb, saying, "Great and amazing are your deeds, O Lord God the Almighty! Just and true are your ways, O King of the nations!"',
+      NIV: 'and sang the song of God\'s servant Moses and of the Lamb: "Great and marvelous are your deeds, Lord God Almighty. Just and true are your ways, King of the nations."',
+      KJV: 'And they sing the song of Moses the servant of God, and the song of the Lamb, saying, Great and marvellous are thy works, Lord God Almighty; just and true are thy ways, thou King of saints.',
+      NASB: 'And they sang the song of Moses, the bond-servant of God, and the song of the Lamb, saying, "Great and marvelous are Your works, O Lord God, the Almighty; Righteous and true are Your ways, King of the nations!"',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 15:2',
+        text: 'And I saw what appeared to be a sea of glass mingled with fire—and also those who had conquered the beast and its image and the number of its name, standing beside the sea of glass with harps of God in their hands.',
+      },
+      after: {
+        reference: 'Revelation 15:4',
+        text: 'Who will not fear, O Lord, and glorify your name? For you alone are holy. All nations will come and worship you, for your righteous acts have been revealed.',
+      },
+    },
+  },
+  {
+    id: 'revelation-19-6',
+    reference: 'Revelation 19:6',
+    book: 'Revelation',
+    chapter: 19,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then I heard what seemed to be the voice of a great multitude, like the roar of many waters and like the sound of mighty peals of thunder, crying out, "Hallelujah! For the Lord our God the Almighty reigns."',
+      NIV: 'Then I heard what sounded like a great multitude, like the roar of rushing waters and like loud peals of thunder, shouting: "Hallelujah! For our Lord God Almighty reigns."',
+      KJV: 'And I heard as it were the voice of a great multitude, and as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth.',
+      NASB: 'Then I heard something like the voice of a great multitude and like the sound of many waters and like the sound of mighty peals of thunder, saying, "Hallelujah! For the Lord our God, the Almighty, reigns."',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 19:5',
+        text: 'And from the throne came a voice saying, "Praise our God, all you his servants, you who fear him, small and great."',
+      },
+      after: {
+        reference: 'Revelation 19:7',
+        text: 'Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his Bride has made herself ready.',
+      },
+    },
+  },
+  {
+    id: 'revelation-20-6',
+    reference: 'Revelation 20:6',
+    book: 'Revelation',
+    chapter: 20,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Blessed and holy is the one who shares in the first resurrection! Over such the second death has no power, but they will be priests of God and of Christ, and they will reign with him for a thousand years.',
+      NIV: 'Blessed and holy are those who share in the first resurrection. The second death has no power over them, but they will be priests of God and of Christ and will reign with him for a thousand years.',
+      KJV: 'Blessed and holy is he that hath part in the first resurrection: on such the second death hath no power, but they shall be priests of God and of Christ, and shall reign with him a thousand years.',
+      NASB: 'Blessed and holy is the one who has a part in the first resurrection; over these the second death has no power, but they will be priests of God and of Christ and will reign with Him for a thousand years.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 20:5',
+        text: 'The rest of the dead did not come to life until the thousand years were ended. This is the first resurrection.',
+      },
+      after: {
+        reference: 'Revelation 20:7',
+        text: 'And when the thousand years are ended, Satan will be released from his prison.',
+      },
+    },
+  },
+  {
+    id: 'revelation-21-3',
+    reference: 'Revelation 21:3',
+    book: 'Revelation',
+    chapter: 21,
+    verse: 3,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And I heard a loud voice from the throne saying, "Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God."',
+      NIV: 'And I heard a loud voice from the throne saying, "Look! God\'s dwelling place is now among the people, and he will dwell with them. They will be his people, and God himself will be with them and be their God."',
+      KJV: 'And I heard a great voice out of heaven saying, Behold, the tabernacle of God is with men, and he will dwell with them, and they shall be his people, and God himself shall be with them, and be their God.',
+      NASB: 'And I heard a loud voice from the throne, saying, "Behold, the tabernacle of God is among men, and He will dwell among them, and they shall be His people, and God Himself will be among them,"',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 21:2',
+        text: 'And I saw the holy city, new Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband.',
+      },
+      after: {
+        reference: 'Revelation 21:4',
+        text: 'He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.',
+      },
+    },
+  },
+  {
+    id: 'revelation-22-12',
+    reference: 'Revelation 22:12',
+    book: 'Revelation',
+    chapter: 22,
+    verse: 12,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Behold, I am coming soon, bringing my recompense with me, to repay each one for what he has done.',
+      NIV: 'Look, I am coming soon! My reward is with me, and I will give to each person according to what they have done.',
+      KJV: 'And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be.',
+      NASB: 'Behold, I am coming quickly, and My reward is with Me, to render to every man according to what he has done.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 22:11',
+        text: 'Let the evildoer still do evil, and the filthy still be filthy, and the righteous still do right, and the holy still be holy.',
+      },
+      after: {
+        reference: 'Revelation 22:13',
+        text: 'I am the Alpha and the Omega, the first and the last, the beginning and the end.',
+      },
+    },
+  },
+  {
+    id: 'revelation-22-13',
+    reference: 'Revelation 22:13',
+    book: 'Revelation',
+    chapter: 22,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I am the Alpha and the Omega, the first and the last, the beginning and the end.',
+      NIV: 'I am the Alpha and the Omega, the First and the Last, the Beginning and the End.',
+      KJV: 'I am Alpha and Omega, the beginning and the end, the first and the last.',
+      NASB: 'I am the Alpha and the Omega, the first and the last, the beginning and the end.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 22:12',
+        text: 'Behold, I am coming soon, bringing my recompense with me, to repay each one for what he has done.',
+      },
+      after: {
+        reference: 'Revelation 22:14',
+        text: 'Blessed are those who wash their robes, so that they may have the right to the tree of life and that they may enter the city by the gates.',
       },
     },
   },
