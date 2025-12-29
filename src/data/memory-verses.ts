@@ -6262,6 +6262,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'hosea-6-1',
+    reference: 'Hosea 6:1',
+    book: 'Hosea',
+    chapter: 6,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Come, let us return to the LORD; for he has torn us, that he may heal us; he has struck us down, and he will bind us up.',
+      NIV: 'Come, let us return to the LORD. He has torn us to pieces but he will heal us; he has injured us but he will bind up our wounds.',
+      KJV: 'Come, and let us return unto the LORD: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.',
+      NASB: 'Come, let us return to the LORD. For He has torn us, but He will heal us; He has wounded us, but He will bandage us.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 5:15',
+        text: 'I will return again to my place, until they acknowledge their guilt and seek my face.',
+      },
+      after: {
+        reference: 'Hosea 6:2',
+        text: 'After two days he will revive us; on the third day he will raise us up, that we may live before him.',
+      },
+    },
+  },
+  {
+    id: 'hosea-10-12',
+    reference: 'Hosea 10:12',
+    book: 'Hosea',
+    chapter: 10,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Sow for yourselves righteousness; reap steadfast love; break up your fallow ground, for it is the time to seek the LORD, that he may come and rain righteousness upon you.',
+      NIV: 'Sow righteousness for yourselves, reap the fruit of unfailing love, and break up your unplowed ground; for it is time to seek the LORD, until he comes and showers his righteousness on you.',
+      KJV: 'Sow to yourselves in righteousness, reap in mercy; break up your fallow ground: for it is time to seek the LORD, till he come and rain righteousness upon you.',
+      NASB: 'Sow with a view to righteousness, reap in accordance with kindness; break up your fallow ground, for it is time to seek the LORD until He comes to rain righteousness on you.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 10:11',
+        text: 'Ephraim was a trained calf that loved to thresh, and I spared her fair neck.',
+      },
+      after: {
+        reference: 'Hosea 10:13',
+        text: 'You have plowed iniquity; you have reaped injustice; you have eaten the fruit of lies.',
+      },
+    },
+  },
 
   // ============ JOEL ============
   {
@@ -6405,6 +6453,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Joel 2:26',
         text: 'You shall eat in plenty and be satisfied, and praise the name of the LORD your God, who has dealt wondrously with you.',
+      },
+    },
+  },
+  {
+    id: 'joel-2-28',
+    reference: 'Joel 2:28',
+    book: 'Joel',
+    chapter: 2,
+    verse: 28,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy, your old men shall dream dreams, and your young men shall see visions."',
+      NIV: '"And afterward, I will pour out my Spirit on all people. Your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions."',
+      KJV: 'And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions.',
+      NASB: '"It will come about after this that I will pour out My Spirit on all mankind; and your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions."',
+    },
+    context: {
+      before: {
+        reference: 'Joel 2:27',
+        text: 'You shall know that I am in the midst of Israel, and that I am the LORD your God and there is none else.',
+      },
+      after: {
+        reference: 'Joel 2:29',
+        text: 'Even on the male and female servants in those days I will pour out my Spirit.',
+      },
+    },
+  },
+  {
+    id: 'joel-3-16',
+    reference: 'Joel 3:16',
+    book: 'Joel',
+    chapter: 3,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD roars from Zion, and utters his voice from Jerusalem, and the heavens and the earth quake. But the LORD is a refuge to his people, a stronghold to the people of Israel.',
+      NIV: 'The LORD will roar from Zion and thunder from Jerusalem; the earth and the heavens will tremble. But the LORD will be a refuge for his people, a stronghold for the people of Israel.',
+      KJV: 'The LORD also shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of his people, and the strength of the children of Israel.',
+      NASB: 'The LORD roars from Zion and utters His voice from Jerusalem, and the heavens and the earth tremble. But the LORD is a refuge for His people and a stronghold to the sons of Israel.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 3:15',
+        text: 'The sun and the moon are darkened, and the stars withdraw their shining.',
+      },
+      after: {
+        reference: 'Joel 3:17',
+        text: 'So you shall know that I am the LORD your God, who dwells in Zion, my holy mountain.',
       },
     },
   },
@@ -6554,6 +6650,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'amos-3-7',
+    reference: 'Amos 3:7',
+    book: 'Amos',
+    chapter: 3,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the Lord GOD does nothing without revealing his secret to his servants the prophets.',
+      NIV: 'Surely the Sovereign LORD does nothing without revealing his plan to his servants the prophets.',
+      KJV: 'Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets.',
+      NASB: 'Surely the Lord GOD does nothing unless He reveals His secret counsel to His servants the prophets.',
+    },
+    context: {
+      before: {
+        reference: 'Amos 3:6',
+        text: 'Is a trumpet blown in a city, and the people are not afraid? Does disaster come to a city, unless the LORD has done it?',
+      },
+      after: {
+        reference: 'Amos 3:8',
+        text: 'The lion has roared; who will not fear? The Lord GOD has spoken; who can but prophesy?',
+      },
+    },
+  },
+  {
+    id: 'amos-4-12',
+    reference: 'Amos 4:12',
+    book: 'Amos',
+    chapter: 4,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"Therefore thus I will do to you, O Israel; because I will do this to you, prepare to meet your God, O Israel!"',
+      NIV: '"Therefore this is what I will do to you, Israel, and because I will do this to you, Israel, prepare to meet your God."',
+      KJV: 'Therefore thus will I do unto thee, O Israel: and because I will do this unto thee, prepare to meet thy God, O Israel.',
+      NASB: '"Therefore thus I will do to you, O Israel; because I will do this to you, prepare to meet your God, O Israel."',
+    },
+    context: {
+      before: {
+        reference: 'Amos 4:11',
+        text: 'I overthrew some of you, as when God overthrew Sodom and Gomorrah, and you were as a brand plucked out of the burning.',
+      },
+      after: {
+        reference: 'Amos 4:13',
+        text: 'For behold, he who forms the mountains and creates the wind, and declares to man what is his thought.',
+      },
+    },
+  },
 
   // ============ OBADIAH ============
   {
@@ -6693,6 +6837,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Obadiah 11',
         text: 'On the day that you stood aloof, on the day that strangers carried off his wealth and foreigners entered his gates.',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-17',
+    reference: 'Obadiah 17',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But in Mount Zion there shall be those who escape, and it shall be holy, and the house of Jacob shall possess their own possessions.',
+      NIV: 'But on Mount Zion will be deliverance; it will be holy, and Jacob will possess his inheritance.',
+      KJV: 'But upon mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions.',
+      NASB: 'But on Mount Zion there will be those who escape, and it will be holy. And the house of Jacob will possess their possessions.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 16',
+        text: 'For as you have drunk on my holy mountain, so all the nations shall drink continually.',
+      },
+      after: {
+        reference: 'Obadiah 18',
+        text: 'The house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau stubble.',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-21',
+    reference: 'Obadiah 21',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 21,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Saviors shall go up to Mount Zion to rule Mount Esau, and the kingdom shall be the LORD\'s.',
+      NIV: 'Deliverers will go up on Mount Zion to govern the mountains of Esau. And the kingdom will be the LORD\'s.',
+      KJV: 'And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD\'s.',
+      NASB: 'The deliverers will ascend Mount Zion to judge the mountain of Esau, and the kingdom will be the LORD\'s.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 20',
+        text: 'The exiles of this host of the people of Israel shall possess the land of the Canaanites as far as Zarephath.',
+      },
+      after: {
+        reference: 'Obadiah 15',
+        text: 'For the day of the LORD is near upon all the nations. As you have done, it shall be done to you.',
       },
     },
   },
@@ -7032,6 +7224,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'micah-4-5',
+    reference: 'Micah 4:5',
+    book: 'Micah',
+    chapter: 4,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For all the peoples walk each in the name of its god, but we will walk in the name of the LORD our God forever and ever.',
+      NIV: 'All the nations may walk in the name of their gods, but we will walk in the name of the LORD our God for ever and ever.',
+      KJV: 'For all people will walk every one in the name of his god, and we will walk in the name of the LORD our God for ever and ever.',
+      NASB: 'Though all the peoples walk each in the name of his god, as for us, we will walk in the name of the LORD our God forever and ever.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 4:4',
+        text: 'But they shall sit every man under his vine and under his fig tree, and no one shall make them afraid.',
+      },
+      after: {
+        reference: 'Micah 4:6',
+        text: 'In that day, declares the LORD, I will assemble the lame and gather those who have been driven away.',
+      },
+    },
+  },
+  {
+    id: 'micah-7-7',
+    reference: 'Micah 7:7',
+    book: 'Micah',
+    chapter: 7,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But as for me, I will look to the LORD; I will wait for the God of my salvation; my God will hear me.',
+      NIV: 'But as for me, I watch in hope for the LORD, I wait for God my Savior; my God will hear me.',
+      KJV: 'Therefore I will look unto the LORD; I will wait for the God of my salvation: my God will hear me.',
+      NASB: 'But as for me, I will watch expectantly for the LORD; I will wait for the God of my salvation. My God will hear me.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 7:6',
+        text: 'For the son treats the father with contempt, the daughter rises up against her mother.',
+      },
+      after: {
+        reference: 'Micah 7:8',
+        text: 'Rejoice not over me, O my enemy; when I fall, I shall rise; when I sit in darkness, the LORD will be a light to me.',
+      },
+    },
+  },
 
   // ============ NAHUM ============
   {
@@ -7178,6 +7418,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'nahum-1-3',
+    reference: 'Nahum 1:3',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD is slow to anger and great in power, and the LORD will by no means clear the guilty. His way is in whirlwind and storm, and the clouds are the dust of his feet.',
+      NIV: 'The LORD is slow to anger but great in power; the LORD will not leave the guilty unpunished. His way is in the whirlwind and the storm, and clouds are the dust of his feet.',
+      KJV: 'The LORD is slow to anger, and great in power, and will not at all acquit the wicked: the LORD hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.',
+      NASB: 'The LORD is slow to anger and great in power, and the LORD will by no means leave the guilty unpunished. In whirlwind and storm is His way, and clouds are the dust beneath His feet.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:2',
+        text: 'The LORD is a jealous and avenging God; the LORD is avenging and wrathful.',
+      },
+      after: {
+        reference: 'Nahum 1:4',
+        text: 'He rebukes the sea and makes it dry; he dries up all the rivers.',
+      },
+    },
+  },
+  {
+    id: 'nahum-1-7',
+    reference: 'Nahum 1:7',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The LORD is good, a stronghold in the day of trouble; he knows those who take refuge in him.',
+      NIV: 'The LORD is good, a refuge in times of trouble. He cares for those who trust in him.',
+      KJV: 'The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.',
+      NASB: 'The LORD is good, a stronghold in the day of trouble, and He knows those who take refuge in Him.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:6',
+        text: 'Who can stand before his indignation? Who can endure the heat of his anger?',
+      },
+      after: {
+        reference: 'Nahum 1:8',
+        text: 'But with an overflowing flood he will make a complete end of the adversaries.',
+      },
+    },
+  },
 
   // ============ HABAKKUK ============
   {
@@ -7317,6 +7605,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Habakkuk 3:1',
         text: 'A prayer of Habakkuk the prophet, according to Shigionoth.',
+      },
+    },
+  },
+  {
+    id: 'habakkuk-3-2',
+    reference: 'Habakkuk 3:2',
+    book: 'Habakkuk',
+    chapter: 3,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'O LORD, I have heard the report of you, and your work, O LORD, do I fear. In the midst of the years revive it; in the midst of the years make it known; in wrath remember mercy.',
+      NIV: 'LORD, I have heard of your fame; I stand in awe of your deeds, LORD. Repeat them in our day, in our time make them known; in wrath remember mercy.',
+      KJV: 'O LORD, I have heard thy speech, and was afraid: O LORD, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy.',
+      NASB: 'LORD, I have heard the report about You and I fear. O LORD, revive Your work in the midst of the years, in the midst of the years make it known; in wrath remember mercy.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 3:1',
+        text: 'A prayer of Habakkuk the prophet, according to Shigionoth.',
+      },
+      after: {
+        reference: 'Habakkuk 3:3',
+        text: 'God came from Teman, and the Holy One from Mount Paran.',
+      },
+    },
+  },
+  {
+    id: 'habakkuk-3-17-18',
+    reference: 'Habakkuk 3:17-18',
+    book: 'Habakkuk',
+    chapter: 3,
+    verse: 17,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Though the fig tree should not blossom, nor fruit be on the vines, the produce of the olive fail and the fields yield no food, the flock be cut off from the fold and there be no herd in the stalls, yet I will rejoice in the LORD; I will take joy in the God of my salvation.',
+      NIV: 'Though the fig tree does not bud and there are no grapes on the vines, though the olive crop fails and the fields produce no food, though there are no sheep in the pen and no cattle in the stalls, yet I will rejoice in the LORD, I will be joyful in God my Savior.',
+      KJV: 'Although the fig tree shall not blossom, neither shall fruit be in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls: Yet I will rejoice in the LORD, I will joy in the God of my salvation.',
+      NASB: 'Though the fig tree should not blossom and there be no fruit on the vines, though the yield of the olive should fail and the fields produce no food, though the flock should be cut off from the fold and there be no cattle in the stalls, yet I will exult in the LORD, I will rejoice in the God of my salvation.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 3:16',
+        text: 'I hear, and my body trembles; my lips quiver at the sound; rottenness enters into my bones; my legs tremble beneath me.',
+      },
+      after: {
+        reference: 'Habakkuk 3:19',
+        text: 'GOD, the Lord, is my strength; he makes my feet like the deer\'s; he makes me tread on my high places.',
       },
     },
   },
@@ -7653,6 +7989,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Haggai 2:22',
         text: 'I will overthrow the throne of kingdoms. I will destroy the strength of the kingdoms of the nations.',
+      },
+    },
+  },
+  {
+    id: 'haggai-2-7',
+    reference: 'Haggai 2:7',
+    book: 'Haggai',
+    chapter: 2,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will shake all nations, so that the treasures of all nations shall come in, and I will fill this house with glory, says the LORD of hosts.',
+      NIV: 'I will shake all nations, and what is desired by all nations will come, and I will fill this house with glory, says the LORD Almighty.',
+      KJV: 'And I will shake all nations, and the desire of all nations shall come: and I will fill this house with glory, saith the LORD of hosts.',
+      NASB: 'I will shake all the nations; and they will come with the wealth of all nations, and I will fill this house with glory," says the LORD of hosts.',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 2:6',
+        text: 'For thus says the LORD of hosts: Yet once more, in a little while, I will shake the heavens and the earth and the sea and the dry land.',
+      },
+      after: {
+        reference: 'Haggai 2:8',
+        text: 'The silver is mine, and the gold is mine, declares the LORD of hosts.',
+      },
+    },
+  },
+  {
+    id: 'haggai-2-9',
+    reference: 'Haggai 2:9',
+    book: 'Haggai',
+    chapter: 2,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The latter glory of this house shall be greater than the former, says the LORD of hosts. And in this place I will give peace, declares the LORD of hosts.',
+      NIV: 'The glory of this present house will be greater than the glory of the former house, says the LORD Almighty. And in this place I will grant peace, declares the LORD Almighty.',
+      KJV: 'The glory of this latter house shall be greater than of the former, saith the LORD of hosts: and in this place will I give peace, saith the LORD of hosts.',
+      NASB: 'The latter glory of this house will be greater than the former, says the LORD of hosts, and in this place I will give peace, declares the LORD of hosts.',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 2:8',
+        text: 'The silver is mine, and the gold is mine, declares the LORD of hosts.',
+      },
+      after: {
+        reference: 'Haggai 2:10',
+        text: 'On the twenty-fourth day of the ninth month, in the second year of Darius.',
       },
     },
   },
