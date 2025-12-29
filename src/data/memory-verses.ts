@@ -190,6 +190,150 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'genesis-1-27',
+    reference: 'Genesis 1:27',
+    book: 'Genesis',
+    chapter: 1,
+    verse: 27,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'So God created man in his own image, in the image of God he created him; male and female he created them.',
+      NIV: 'So God created mankind in his own image, in the image of God he created them; male and female he created them.',
+      KJV: 'So God created man in his own image, in the image of God created he him; male and female created he them.',
+      NASB: 'God created man in His own image, in the image of God He created him; male and female He created them.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 1:26',
+        text: 'Then God said, "Let us make man in our image, after our likeness. And let them have dominion over the fish of the sea and over the birds of the heavens."',
+      },
+      after: {
+        reference: 'Genesis 1:28',
+        text: 'And God blessed them. And God said to them, "Be fruitful and multiply and fill the earth and subdue it."',
+      },
+    },
+  },
+  {
+    id: 'genesis-2-24',
+    reference: 'Genesis 2:24',
+    book: 'Genesis',
+    chapter: 2,
+    verse: 24,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Therefore a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh.',
+      NIV: 'That is why a man leaves his father and mother and is united to his wife, and they become one flesh.',
+      KJV: 'Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.',
+      NASB: 'For this reason a man shall leave his father and his mother, and be joined to his wife; and they shall become one flesh.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 2:23',
+        text: 'Then the man said, "This at last is bone of my bones and flesh of my flesh; she shall be called Woman, because she was taken out of Man."',
+      },
+      after: {
+        reference: 'Genesis 2:25',
+        text: 'And the man and his wife were both naked and were not ashamed.',
+      },
+    },
+  },
+  {
+    id: 'genesis-9-6',
+    reference: 'Genesis 9:6',
+    book: 'Genesis',
+    chapter: 9,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Whoever sheds the blood of man, by man shall his blood be shed, for God made man in his own image.',
+      NIV: 'Whoever sheds human blood, by humans shall their blood be shed; for in the image of God has God made mankind.',
+      KJV: 'Whoso sheddeth man\'s blood, by man shall his blood be shed: for in the image of God made he man.',
+      NASB: 'Whoever sheds man\'s blood, by man his blood shall be shed, for in the image of God He made man.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 9:5',
+        text: 'And for your lifeblood I will require a reckoning: from every beast I will require it and from man.',
+      },
+      after: {
+        reference: 'Genesis 9:7',
+        text: 'And you, be fruitful and multiply, increase greatly on the earth and multiply in it.',
+      },
+    },
+  },
+  {
+    id: 'genesis-12-3',
+    reference: 'Genesis 12:3',
+    book: 'Genesis',
+    chapter: 12,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.',
+      NIV: 'I will bless those who bless you, and whoever curses you I will curse; and all peoples on earth will be blessed through you.',
+      KJV: 'And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.',
+      NASB: 'And I will bless those who bless you, and the one who curses you I will curse. And in you all the families of the earth will be blessed.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 12:2',
+        text: 'And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing.',
+      },
+      after: {
+        reference: 'Genesis 12:4',
+        text: 'So Abram went, as the LORD had told him, and Lot went with him.',
+      },
+    },
+  },
+  {
+    id: 'genesis-22-8',
+    reference: 'Genesis 22:8',
+    book: 'Genesis',
+    chapter: 22,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Abraham said, "God will provide for himself the lamb for a burnt offering, my son." So they went both of them together.',
+      NIV: 'Abraham answered, "God himself will provide the lamb for the burnt offering, my son." And the two of them went on together.',
+      KJV: 'And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.',
+      NASB: 'Abraham said, "God will provide for Himself the lamb for the burnt offering, my son." So the two of them walked on together.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 22:7',
+        text: 'And Isaac said to his father Abraham, "My father!" And he said, "Here I am, my son." He said, "Behold, the fire and the wood, but where is the lamb for a burnt offering?"',
+      },
+      after: {
+        reference: 'Genesis 22:9',
+        text: 'When they came to the place of which God had told him, Abraham built the altar there and laid the wood in order.',
+      },
+    },
+  },
+  {
+    id: 'genesis-22-14',
+    reference: 'Genesis 22:14',
+    book: 'Genesis',
+    chapter: 22,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So Abraham called the name of that place, "The LORD will provide"; as it is said to this day, "On the mount of the LORD it shall be provided."',
+      NIV: 'So Abraham called that place The LORD Will Provide. And to this day it is said, "On the mountain of the LORD it will be provided."',
+      KJV: 'And Abraham called the name of that place Jehovahjireh: as it is said to this day, In the mount of the LORD it shall be seen.',
+      NASB: 'Abraham called the name of that place The LORD Will Provide, as it is said to this day, "In the mount of the LORD it will be provided."',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 22:13',
+        text: 'And Abraham lifted up his eyes and looked, and behold, behind him was a ram, caught in a thicket by his horns.',
+      },
+      after: {
+        reference: 'Genesis 22:15',
+        text: 'And the angel of the LORD called to Abraham a second time from heaven.',
+      },
+    },
+  },
 
   // ============ EXODUS ============
   {
@@ -312,6 +456,126 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'exodus-19-5',
+    reference: 'Exodus 19:5',
+    book: 'Exodus',
+    chapter: 19,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Now therefore, if you will indeed obey my voice and keep my covenant, you shall be my treasured possession among all peoples, for all the earth is mine.',
+      NIV: 'Now if you obey me fully and keep my covenant, then out of all nations you will be my treasured possession. Although the whole earth is mine.',
+      KJV: 'Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people: for all the earth is mine.',
+      NASB: 'Now then, if you will indeed obey My voice and keep My covenant, then you shall be My own possession among all the peoples, for all the earth is Mine.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 19:4',
+        text: 'You yourselves have seen what I did to the Egyptians, and how I bore you on eagles\' wings and brought you to myself.',
+      },
+      after: {
+        reference: 'Exodus 19:6',
+        text: 'And you shall be to me a kingdom of priests and a holy nation.',
+      },
+    },
+  },
+  {
+    id: 'exodus-20-2',
+    reference: 'Exodus 20:2',
+    book: 'Exodus',
+    chapter: 20,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery.',
+      NIV: 'I am the LORD your God, who brought you out of Egypt, out of the land of slavery.',
+      KJV: 'I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.',
+      NASB: 'I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 20:1',
+        text: 'And God spoke all these words, saying,',
+      },
+      after: {
+        reference: 'Exodus 20:3',
+        text: 'You shall have no other gods before me.',
+      },
+    },
+  },
+  {
+    id: 'exodus-33-14',
+    reference: 'Exodus 33:14',
+    book: 'Exodus',
+    chapter: 33,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he said, "My presence will go with you, and I will give you rest."',
+      NIV: 'The LORD replied, "My Presence will go with you, and I will give you rest."',
+      KJV: 'And he said, My presence shall go with thee, and I will give thee rest.',
+      NASB: 'And He said, "My presence shall go with you, and I will give you rest."',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 33:13',
+        text: 'Now therefore, if I have found favor in your sight, please show me now your ways, that I may know you in order to find favor in your sight.',
+      },
+      after: {
+        reference: 'Exodus 33:15',
+        text: 'And he said to him, "If your presence will not go with me, do not bring us up from here."',
+      },
+    },
+  },
+  {
+    id: 'exodus-33-18-19',
+    reference: 'Exodus 33:18-19',
+    book: 'Exodus',
+    chapter: 33,
+    verse: 18,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Moses said, "Please show me your glory." And he said, "I will make all my goodness pass before you and will proclaim before you my name \'The LORD.\' And I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy."',
+      NIV: 'Then Moses said, "Now show me your glory." And the LORD said, "I will cause all my goodness to pass in front of you, and I will proclaim my name, the LORD, in your presence. I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion."',
+      KJV: 'And he said, I beseech thee, shew me thy glory. And he said, I will make all my goodness pass before thee, and I will proclaim the name of the LORD before thee; and will be gracious to whom I will be gracious, and will shew mercy on whom I will shew mercy.',
+      NASB: 'Then Moses said, "I pray You, show me Your glory!" And He said, "I Myself will make all My goodness pass before you, and will proclaim the name of the LORD before you; and I will be gracious to whom I will be gracious, and will show compassion on whom I will show compassion."',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 33:17',
+        text: 'And the LORD said to Moses, "This very thing that you have spoken I will do, for you have found favor in my sight, and I know you by name."',
+      },
+      after: {
+        reference: 'Exodus 33:20',
+        text: 'But," he said, "you cannot see my face, for man shall not see me and live."',
+      },
+    },
+  },
+  {
+    id: 'exodus-12-13',
+    reference: 'Exodus 12:13',
+    book: 'Exodus',
+    chapter: 12,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The blood shall be a sign for you, on the houses where you are. And when I see the blood, I will pass over you, and no plague will befall you to destroy you, when I strike the land of Egypt.',
+      NIV: 'The blood will be a sign for you on the houses where you are, and when I see the blood, I will pass over you. No destructive plague will touch you when I strike Egypt.',
+      KJV: 'And the blood shall be to you for a token upon the houses where ye are: and when I see the blood, I will pass over you, and the plague shall not be upon you to destroy you, when I smite the land of Egypt.',
+      NASB: 'The blood shall be a sign for you on the houses where you live; and when I see the blood I will pass over you, and no plague will befall you to destroy you when I strike the land of Egypt.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 12:12',
+        text: 'For I will pass through the land of Egypt that night, and I will strike all the firstborn in the land of Egypt.',
+      },
+      after: {
+        reference: 'Exodus 12:14',
+        text: 'This day shall be for you a memorial day, and you shall keep it as a feast to the LORD.',
+      },
+    },
+  },
 
   // ============ LEVITICUS ============
   {
@@ -410,6 +674,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'leviticus-11-44',
+    reference: 'Leviticus 11:44',
+    book: 'Leviticus',
+    chapter: 11,
+    verse: 44,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For I am the LORD your God. Consecrate yourselves therefore, and be holy, for I am holy.',
+      NIV: 'I am the LORD your God; consecrate yourselves and be holy, because I am holy.',
+      KJV: 'For I am the LORD your God: ye shall therefore sanctify yourselves, and ye shall be holy; for I am holy.',
+      NASB: 'For I am the LORD your God. Consecrate yourselves therefore, and be holy, for I am holy.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 11:43',
+        text: 'You shall not make yourselves detestable with any swarming thing that swarms, and you shall not defile yourselves with them.',
+      },
+      after: {
+        reference: 'Leviticus 11:45',
+        text: 'For I am the LORD who brought you up out of the land of Egypt to be your God. You shall therefore be holy, for I am holy.',
+      },
+    },
+  },
+  {
+    id: 'leviticus-19-2',
+    reference: 'Leviticus 19:2',
+    book: 'Leviticus',
+    chapter: 19,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Speak to all the congregation of the people of Israel and say to them, You shall be holy, for I the LORD your God am holy.',
+      NIV: 'Speak to the entire assembly of Israel and say to them: \'Be holy because I, the LORD your God, am holy.\'',
+      KJV: 'Speak unto all the congregation of the children of Israel, and say unto them, Ye shall be holy: for I the LORD your God am holy.',
+      NASB: 'Speak to all the congregation of the sons of Israel and say to them, \'You shall be holy, for I the LORD your God am holy.\'',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 19:1',
+        text: 'And the LORD spoke to Moses, saying,',
+      },
+      after: {
+        reference: 'Leviticus 19:3',
+        text: 'Every one of you shall revere his mother and his father, and you shall keep my Sabbaths: I am the LORD your God.',
+      },
+    },
+  },
+  {
+    id: 'leviticus-26-12',
+    reference: 'Leviticus 26:12',
+    book: 'Leviticus',
+    chapter: 26,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will walk among you and will be your God, and you shall be my people.',
+      NIV: 'I will walk among you and be your God, and you will be my people.',
+      KJV: 'And I will walk among you, and will be your God, and ye shall be my people.',
+      NASB: 'I will also walk among you and be your God, and you shall be My people.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 26:11',
+        text: 'I will make my dwelling among you, and my soul shall not abhor you.',
+      },
+      after: {
+        reference: 'Leviticus 26:13',
+        text: 'I am the LORD your God, who brought you out of the land of Egypt, that you should not be their slaves.',
+      },
+    },
+  },
+  {
+    id: 'leviticus-23-3',
+    reference: 'Leviticus 23:3',
+    book: 'Leviticus',
+    chapter: 23,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Six days shall work be done, but on the seventh day is a Sabbath of solemn rest, a holy convocation. You shall do no work. It is a Sabbath to the LORD in all your dwelling places.',
+      NIV: 'There are six days when you may work, but the seventh day is a day of sabbath rest, a day of sacred assembly. You are not to do any work; wherever you live, it is a sabbath to the LORD.',
+      KJV: 'Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the LORD in all your dwellings.',
+      NASB: 'For six days work may be done, but on the seventh day there is a sabbath of complete rest, a holy convocation. You shall not do any work; it is a sabbath to the LORD in all your dwellings.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 23:2',
+        text: 'Speak to the people of Israel and say to them, These are the appointed feasts of the LORD that you shall proclaim as holy convocations.',
+      },
+      after: {
+        reference: 'Leviticus 23:4',
+        text: 'These are the appointed feasts of the LORD, the holy convocations, which you shall proclaim at the time appointed for them.',
+      },
+    },
+  },
 
   // ============ NUMBERS ============
   {
@@ -505,6 +865,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Numbers 21:10',
         text: 'And the people of Israel set out and camped in Oboth.',
+      },
+    },
+  },
+  {
+    id: 'numbers-10-35',
+    reference: 'Numbers 10:35',
+    book: 'Numbers',
+    chapter: 10,
+    verse: 35,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And whenever the ark set out, Moses said, "Arise, O LORD, and let your enemies be scattered, and let those who hate you flee before you."',
+      NIV: 'Whenever the ark set out, Moses said, "Rise up, LORD! May your enemies be scattered; may your foes flee before you."',
+      KJV: 'And it came to pass, when the ark set forward, that Moses said, Rise up, LORD, and let thine enemies be scattered; and let them that hate thee flee before thee.',
+      NASB: 'Then it came about when the ark set out that Moses said, "Rise up, O LORD! And let Your enemies be scattered, and let those who hate You flee before You."',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 10:34',
+        text: 'And the cloud of the LORD was over them by day, whenever they set out from the camp.',
+      },
+      after: {
+        reference: 'Numbers 10:36',
+        text: 'And when it rested, he said, "Return, O LORD, to the ten thousand thousands of Israel."',
+      },
+    },
+  },
+  {
+    id: 'numbers-12-3',
+    reference: 'Numbers 12:3',
+    book: 'Numbers',
+    chapter: 12,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Now the man Moses was very meek, more than all people who were on the face of the earth.',
+      NIV: '(Now Moses was a very humble man, more humble than anyone else on the face of the earth.)',
+      KJV: '(Now the man Moses was very meek, above all the men which were upon the face of the earth.)',
+      NASB: '(Now the man Moses was very humble, more than any man who was on the face of the earth.)',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 12:2',
+        text: 'And they said, "Has the LORD indeed spoken only through Moses? Has he not spoken through us also?" And the LORD heard it.',
+      },
+      after: {
+        reference: 'Numbers 12:4',
+        text: 'And suddenly the LORD said to Moses and to Aaron and Miriam, "Come out, you three, to the tent of meeting."',
+      },
+    },
+  },
+  {
+    id: 'numbers-24-17',
+    reference: 'Numbers 24:17',
+    book: 'Numbers',
+    chapter: 24,
+    verse: 17,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'I see him, but not now; I behold him, but not near: a star shall come out of Jacob, and a scepter shall rise out of Israel; it shall crush the forehead of Moab and break down all the sons of Sheth.',
+      NIV: 'I see him, but not now; I behold him, but not near. A star will come out of Jacob; a scepter will rise out of Israel. He will crush the foreheads of Moab, the skulls of all the people of Sheth.',
+      KJV: 'I shall see him, but not now: I shall behold him, but not nigh: there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel, and shall smite the corners of Moab, and destroy all the children of Sheth.',
+      NASB: 'I see him, but not now; I behold him, but not near; a star shall come forth from Jacob, a scepter shall rise from Israel, and shall crush through the forehead of Moab, and tear down all the sons of Sheth.',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 24:16',
+        text: 'The oracle of him who hears the words of God, and knows the knowledge of the Most High, who sees the vision of the Almighty.',
+      },
+      after: {
+        reference: 'Numbers 24:18',
+        text: 'Edom shall be dispossessed; Seir also, his enemies, shall be dispossessed. Israel is doing valiantly.',
+      },
+    },
+  },
+  {
+    id: 'numbers-11-29',
+    reference: 'Numbers 11:29',
+    book: 'Numbers',
+    chapter: 11,
+    verse: 29,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But Moses said to him, "Are you jealous for my sake? Would that all the LORD\'s people were prophets, that the LORD would put his Spirit on them!"',
+      NIV: 'But Moses replied, "Are you jealous for my sake? I wish that all the LORD\'s people were prophets and that the LORD would put his Spirit on them!"',
+      KJV: 'And Moses said unto him, Enviest thou for my sake? would God that all the LORD\'s people were prophets, and that the LORD would put his spirit upon them!',
+      NASB: 'But Moses said to him, "Are you jealous for my sake? Would that all the LORD\'s people were prophets, that the LORD would put His Spirit upon them!"',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 11:28',
+        text: 'And Joshua the son of Nun, the assistant of Moses from his youth, said, "My lord Moses, stop them."',
+      },
+      after: {
+        reference: 'Numbers 11:30',
+        text: 'And Moses and the elders of Israel returned to the camp.',
       },
     },
   },
@@ -7141,6 +7597,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'luke-1-46-47',
+    reference: 'Luke 1:46-47',
+    book: 'Luke',
+    chapter: 1,
+    verse: 46,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And Mary said, "My soul magnifies the Lord, and my spirit rejoices in God my Savior."',
+      NIV: 'And Mary said: "My soul glorifies the Lord and my spirit rejoices in God my Savior."',
+      KJV: 'And Mary said, My soul doth magnify the Lord, And my spirit hath rejoiced in God my Saviour.',
+      NASB: 'And Mary said: "My soul exalts the Lord, And my spirit has rejoiced in God my Savior."',
+    },
+    context: {
+      before: {
+        reference: 'Luke 1:45',
+        text: 'And blessed is she who believed that there would be a fulfillment of what was spoken to her from the Lord.',
+      },
+      after: {
+        reference: 'Luke 1:48',
+        text: 'for he has looked on the humble estate of his servant. For behold, from now on all generations will call me blessed.',
+      },
+    },
+  },
+  {
+    id: 'luke-10-27',
+    reference: 'Luke 10:27',
+    book: 'Luke',
+    chapter: 10,
+    verse: 27,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he answered, "You shall love the Lord your God with all your heart and with all your soul and with all your strength and with all your mind, and your neighbor as yourself."',
+      NIV: 'He answered, "\'Love the Lord your God with all your heart and with all your soul and with all your strength and with all your mind\'; and, \'Love your neighbor as yourself.\'"',
+      KJV: 'And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbour as thyself.',
+      NASB: 'And he answered, "YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR STRENGTH, AND WITH ALL YOUR MIND; AND YOUR NEIGHBOR AS YOURSELF."',
+    },
+    context: {
+      before: {
+        reference: 'Luke 10:26',
+        text: 'He said to him, "What is written in the Law? How do you read it?"',
+      },
+      after: {
+        reference: 'Luke 10:28',
+        text: 'And he said to him, "You have answered correctly; do this, and you will live."',
+      },
+    },
+  },
+  {
+    id: 'luke-15-7',
+    reference: 'Luke 15:7',
+    book: 'Luke',
+    chapter: 15,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Just so, I tell you, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance.',
+      NIV: 'I tell you that in the same way there will be more rejoicing in heaven over one sinner who repents than over ninety-nine righteous persons who do not need to repent.',
+      KJV: 'I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.',
+      NASB: 'I tell you that in the same way, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance.',
+    },
+    context: {
+      before: {
+        reference: 'Luke 15:6',
+        text: 'And when he comes home, he calls together his friends and his neighbors, saying to them, "Rejoice with me, for I have found my sheep that was lost."',
+      },
+      after: {
+        reference: 'Luke 15:8',
+        text: 'Or what woman, having ten silver coins, if she loses one coin, does not light a lamp and sweep the house and seek diligently until she finds it?',
+      },
+    },
+  },
+  {
+    id: 'luke-23-43',
+    reference: 'Luke 23:43',
+    book: 'Luke',
+    chapter: 23,
+    verse: 43,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he said to him, "Truly, I say to you, today you will be with me in paradise."',
+      NIV: 'Jesus answered him, "Truly I tell you, today you will be with me in paradise."',
+      KJV: 'And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in paradise.',
+      NASB: 'And He said to him, "Truly I say to you, today you shall be with Me in Paradise."',
+    },
+    context: {
+      before: {
+        reference: 'Luke 23:42',
+        text: 'And he said, "Jesus, remember me when you come into your kingdom."',
+      },
+      after: {
+        reference: 'Luke 23:44',
+        text: 'It was now about the sixth hour, and there was darkness over the whole land until the ninth hour.',
+      },
+    },
+  },
 
   // ============ JOHN ============
   {
@@ -7474,6 +8026,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Acts 20:25',
         text: 'And now, behold, I know that none of you among whom I have gone about proclaiming the kingdom will see my face again.',
+      },
+    },
+  },
+  {
+    id: 'acts-2-42',
+    reference: 'Acts 2:42',
+    book: 'Acts',
+    chapter: 2,
+    verse: 42,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And they devoted themselves to the apostles\' teaching and the fellowship, to the breaking of bread and the prayers.',
+      NIV: 'They devoted themselves to the apostles\' teaching and to fellowship, to the breaking of bread and to prayer.',
+      KJV: 'And they continued stedfastly in the apostles\' doctrine and fellowship, and in breaking of bread, and in prayers.',
+      NASB: 'They were continually devoting themselves to the apostles\' teaching and to fellowship, to the breaking of bread and to prayer.',
+    },
+    context: {
+      before: {
+        reference: 'Acts 2:41',
+        text: 'So those who received his word were baptized, and there were added that day about three thousand souls.',
+      },
+      after: {
+        reference: 'Acts 2:43',
+        text: 'And awe came upon every soul, and many wonders and signs were being done through the apostles.',
+      },
+    },
+  },
+  {
+    id: 'acts-5-29',
+    reference: 'Acts 5:29',
+    book: 'Acts',
+    chapter: 5,
+    verse: 29,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But Peter and the apostles answered, "We must obey God rather than men."',
+      NIV: 'Peter and the other apostles replied: "We must obey God rather than human beings!"',
+      KJV: 'Then Peter and the other apostles answered and said, We ought to obey God rather than men.',
+      NASB: 'But Peter and the apostles answered, "We must obey God rather than men."',
+    },
+    context: {
+      before: {
+        reference: 'Acts 5:28',
+        text: '"We strictly charged you not to teach in this name, yet here you have filled Jerusalem with your teaching, and you intend to bring this man\'s blood upon us."',
+      },
+      after: {
+        reference: 'Acts 5:30',
+        text: 'The God of our fathers raised Jesus, whom you killed by hanging him on a tree.',
+      },
+    },
+  },
+  {
+    id: 'acts-13-38-39',
+    reference: 'Acts 13:38-39',
+    book: 'Acts',
+    chapter: 13,
+    verse: 38,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Let it be known to you therefore, brothers, that through this man forgiveness of sins is proclaimed to you, and by him everyone who believes is freed from everything from which you could not be freed by the law of Moses.',
+      NIV: 'Therefore, my friends, I want you to know that through Jesus the forgiveness of sins is proclaimed to you. Through him everyone who believes is set free from every sin, a justification you were not able to obtain under the law of Moses.',
+      KJV: 'Be it known unto you therefore, men and brethren, that through this man is preached unto you the forgiveness of sins: And by him all that believe are justified from all things, from which ye could not be justified by the law of Moses.',
+      NASB: 'Therefore let it be known to you, brethren, that through Him forgiveness of sins is proclaimed to you, and through Him everyone who believes is freed from all things, from which you could not be freed through the Law of Moses.',
+    },
+    context: {
+      before: {
+        reference: 'Acts 13:37',
+        text: 'but he whom God raised up did not see corruption.',
+      },
+      after: {
+        reference: 'Acts 13:40',
+        text: 'Beware, therefore, lest what is said in the Prophets should come about.',
+      },
+    },
+  },
+  {
+    id: 'acts-17-28',
+    reference: 'Acts 17:28',
+    book: 'Acts',
+    chapter: 17,
+    verse: 28,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"In him we live and move and have our being"; as even some of your own poets have said, "For we are indeed his offspring."',
+      NIV: '"For in him we live and move and have our being." As some of your own poets have said, "We are his offspring."',
+      KJV: 'For in him we live, and move, and have our being; as certain also of your own poets have said, For we are also his offspring.',
+      NASB: 'for in Him we live and move and exist, as even some of your own poets have said, "For we also are His children."',
+    },
+    context: {
+      before: {
+        reference: 'Acts 17:27',
+        text: 'that they should seek God, and perhaps feel their way toward him and find him. Yet he is actually not far from each one of us,',
+      },
+      after: {
+        reference: 'Acts 17:29',
+        text: 'Being then God\'s offspring, we ought not to think that the divine being is like gold or silver or stone, an image formed by the art and imagination of man.',
       },
     },
   },
@@ -11206,6 +11854,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 John 2:16',
         text: 'For all that is in the world—the desires of the flesh and the desires of the eyes and pride of life—is not from the Father but is from the world.',
+      },
+    },
+  },
+  {
+    id: '1-john-1-7',
+    reference: '1 John 1:7',
+    book: '1 John',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus his Son cleanses us from all sin.',
+      NIV: 'But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus, his Son, purifies us from all sin.',
+      KJV: 'But if we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin.',
+      NASB: 'but if we walk in the Light as He Himself is in the Light, we have fellowship with one another, and the blood of Jesus His Son cleanses us from all sin.',
+    },
+    context: {
+      before: {
+        reference: '1 John 1:6',
+        text: 'If we say we have fellowship with him while we walk in darkness, we lie and do not practice the truth.',
+      },
+      after: {
+        reference: '1 John 1:8',
+        text: 'If we say we have no sin, we deceive ourselves, and the truth is not in us.',
+      },
+    },
+  },
+  {
+    id: '1-john-2-2',
+    reference: '1 John 2:2',
+    book: '1 John',
+    chapter: 2,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He is the propitiation for our sins, and not for ours only but also for the sins of the whole world.',
+      NIV: 'He is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.',
+      KJV: 'And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world.',
+      NASB: 'and He Himself is the propitiation for our sins; and not for ours only, but also for those of the whole world.',
+    },
+    context: {
+      before: {
+        reference: '1 John 2:1',
+        text: 'My little children, I am writing these things to you so that you may not sin. But if anyone does sin, we have an advocate with the Father, Jesus Christ the righteous.',
+      },
+      after: {
+        reference: '1 John 2:3',
+        text: 'And by this we know that we have come to know him, if we keep his commandments.',
+      },
+    },
+  },
+  {
+    id: '1-john-4-10',
+    reference: '1 John 4:10',
+    book: '1 John',
+    chapter: 4,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'In this is love, not that we have loved God but that he loved us and sent his Son to be the propitiation for our sins.',
+      NIV: 'This is love: not that we loved God, but that he loved us and sent his Son as an atoning sacrifice for our sins.',
+      KJV: 'Herein is love, not that we loved God, but that he loved us, and sent his Son to be the propitiation for our sins.',
+      NASB: 'In this is love, not that we loved God, but that He loved us and sent His Son to be the propitiation for our sins.',
+    },
+    context: {
+      before: {
+        reference: '1 John 4:9',
+        text: 'In this the love of God was made manifest among us, that God sent his only Son into the world, so that we might live through him.',
+      },
+      after: {
+        reference: '1 John 4:11',
+        text: 'Beloved, if God so loved us, we also ought to love one another.',
+      },
+    },
+  },
+  {
+    id: '1-john-5-13',
+    reference: '1 John 5:13',
+    book: '1 John',
+    chapter: 5,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life.',
+      NIV: 'I write these things to you who believe in the name of the Son of God so that you may know that you have eternal life.',
+      KJV: 'These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God.',
+      NASB: 'These things I have written to you who believe in the name of the Son of God, so that you may know that you have eternal life.',
+    },
+    context: {
+      before: {
+        reference: '1 John 5:12',
+        text: 'Whoever has the Son has life; whoever does not have the Son of God does not have life.',
+      },
+      after: {
+        reference: '1 John 5:14',
+        text: 'And this is the confidence that we have toward him, that if we ask anything according to his will he hears us.',
       },
     },
   },
