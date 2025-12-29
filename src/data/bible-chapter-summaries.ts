@@ -9363,6 +9363,53 @@ export const HEBREWS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// JAMES (5 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const JAMES_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'james',
+    chapter: 1,
+    title: 'Trials, Temptation, and True Religion',
+    summary: 'James, a servant of God and of the Lord Jesus Christ, writes to the twelve tribes in the Dispersion. He calls believers to count it all joy when they meet trials of various kinds, for the testing of faith produces steadfastness, and steadfastness leads to completeness and maturity. If anyone lacks wisdom, let him ask God, who gives generously to all without reproach. But he must ask in faith, without doubting, for the double-minded person is unstable in all his ways. The lowly brother should boast in his exaltation, and the rich in his humiliation, for the rich will fade away like a flower of the grass. Blessed is the one who remains steadfast under trial, for when he has stood the test he will receive the crown of life. Let no one say when tempted, "I am being tempted by God," for God tempts no one. Each person is tempted when lured by his own desire, which gives birth to sin, and sin when fully grown brings forth death. Every good gift comes from above, from the Father of lights with whom there is no variation. He brought us forth by the word of truth. Be quick to hear, slow to speak, slow to anger. Be doers of the word, and not hearers only, deceiving yourselves. Pure and undefiled religion is this: to visit orphans and widows in their affliction and to keep oneself unstained from the world.',
+    keyThemes: ['Joy in trials', 'Asking in faith', 'Temptation from within', 'Doers not hearers only'],
+    christConnection: 'James identifies himself as a servant of the Lord Jesus Christ, grounding all his practical exhortations in relationship to Christ. The "crown of life" promised to those who endure trials is the reward Christ Himself bestows on faithful believers.'
+  },
+  {
+    bookId: 'james',
+    chapter: 2,
+    title: 'Faith Without Works Is Dead',
+    summary: 'My brothers, show no partiality as you hold the faith in our Lord Jesus Christ, the Lord of glory. If a man wearing a gold ring and fine clothing comes into your assembly, and also a poor man in shabby clothing, and you pay attention to the one who wears fine clothing while you tell the poor man to sit at your feet, have you not then made distinctions among yourselves and become judges with evil thoughts? God chose those who are poor in the world to be rich in faith and heirs of the kingdom. If you show partiality, you are committing sin and are convicted by the law as transgressors. Whoever keeps the whole law but fails in one point has become guilty of all of it. So speak and act as those who are to be judged under the law of liberty. For judgment is without mercy to one who has shown no mercy—yet mercy triumphs over judgment. What good is it if someone says he has faith but does not have works? Can that faith save him? If a brother or sister is poorly clothed and lacking daily food, and you say "Go in peace, be warmed and filled" without giving them what they need, what good is that? So also faith by itself, if it does not have works, is dead. Abraham was justified by works when he offered up Isaac. You see that faith was active along with his works, and faith was completed by his works. Rahab the prostitute was also justified by works when she received the messengers. As the body apart from the spirit is dead, so also faith apart from works is dead.',
+    keyThemes: ['No partiality in the assembly', 'The royal law of love', 'Faith and works together', 'Justification demonstrated'],
+    christConnection: 'James calls Jesus "the Lord of glory," emphasizing His divine majesty. True faith in Christ necessarily produces works—not as the ground of justification but as its evidence. Abraham and Rahab demonstrate that living faith is visible faith.'
+  },
+  {
+    bookId: 'james',
+    chapter: 3,
+    title: 'Taming the Tongue',
+    summary: 'Not many of you should become teachers, my brothers, for you know that we who teach will be judged with greater strictness. We all stumble in many ways. If anyone does not stumble in what he says, he is a perfect man, able also to bridle his whole body. If we put bits into the mouths of horses so that they obey us, we guide their whole bodies. Look also at ships: though great and driven by strong winds, they are guided by a very small rudder. So also the tongue is a small member, yet it boasts of great things. How great a forest is set ablaze by such a small fire! The tongue is a fire, a world of unrighteousness set among our members, staining the whole body and setting on fire the entire course of life. Every kind of beast and bird, reptile and sea creature, can be tamed, but no human being can tame the tongue. It is a restless evil, full of deadly poison. With it we bless our Lord and Father, and with it we curse people who are made in the likeness of God. From the same mouth come blessing and cursing. My brothers, these things ought not to be so. Does a spring pour forth from the same opening both fresh and salt water? Can a fig tree bear olives, or a grapevine produce figs? Who is wise and understanding among you? By his good conduct let him show his works in the meekness of wisdom. But if you have bitter jealousy and selfish ambition, do not boast and be false to the truth. This is not wisdom from above but is earthly, unspiritual, demonic. The wisdom from above is first pure, then peaceable, gentle, open to reason, full of mercy and good fruits, impartial and sincere. A harvest of righteousness is sown in peace by those who make peace.',
+    keyThemes: ['Power and danger of the tongue', 'Inconsistency of speech', 'Earthly versus heavenly wisdom', 'Peacemakers and righteousness'],
+    christConnection: 'The wisdom from above that James describes perfectly characterizes Christ—pure, peaceable, gentle, full of mercy. Christ is the wisdom of God (1 Cor 1:30), and those who receive Him receive this heavenly wisdom that transforms speech and conduct.'
+  },
+  {
+    bookId: 'james',
+    chapter: 4,
+    title: 'Submission to God',
+    summary: 'What causes quarrels and fights among you? Is it not this, that your passions are at war within you? You desire and do not have, so you murder. You covet and cannot obtain, so you fight and quarrel. You do not have because you do not ask. You ask and do not receive because you ask wrongly, to spend it on your passions. You adulterous people! Do you not know that friendship with the world is enmity with God? Therefore whoever wishes to be a friend of the world makes himself an enemy of God. Or do you suppose it is to no purpose that Scripture says, "He yearns jealously over the spirit that He has made to dwell in us"? But He gives more grace. Therefore it says, "God opposes the proud but gives grace to the humble." Submit yourselves therefore to God. Resist the devil, and he will flee from you. Draw near to God, and He will draw near to you. Cleanse your hands, you sinners, and purify your hearts, you double-minded. Be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom. Humble yourselves before the Lord, and He will exalt you. Do not speak evil against one another, brothers. Whoever speaks evil against a brother speaks evil against the law and judges the law. There is only one lawgiver and judge, He who is able to save and to destroy. But who are you to judge your neighbor? Come now, you who say, "Today or tomorrow we will go into such and such a town and spend a year there and trade and make a profit"—yet you do not know what tomorrow will bring. You are a mist that appears for a little time and then vanishes. Instead you ought to say, "If the Lord wills, we will live and do this or that." As it is, you boast in your arrogance. All such boasting is evil. So whoever knows the right thing to do and fails to do it, for him it is sin.',
+    keyThemes: ['War within the passions', 'Friendship with the world', 'Humility before God', 'Dependence on God\'s will'],
+    christConnection: 'The call to humble submission before God points to Christ, who "humbled Himself" (Phil 2:8). Drawing near to God is possible only through Christ our Mediator. The one Lawgiver and Judge is the Lord Jesus Christ who saves and destroys.'
+  },
+  {
+    bookId: 'james',
+    chapter: 5,
+    title: 'Patience Until the Lord\'s Coming',
+    summary: 'Come now, you rich, weep and howl for the miseries that are coming upon you. Your riches have rotted and your garments are moth-eaten. Your gold and silver have corroded, and their corrosion will be evidence against you. You have laid up treasure in the last days. Behold, the wages of the laborers who mowed your fields, which you kept back by fraud, are crying out against you. You have lived on the earth in luxury and self-indulgence. You have fattened your hearts in a day of slaughter. You have condemned and murdered the righteous person; he does not resist you. Be patient, therefore, brothers, until the coming of the Lord. See how the farmer waits for the precious fruit of the earth, being patient about it. You also, be patient. Establish your hearts, for the coming of the Lord is at hand. Do not grumble against one another, brothers, so that you may not be judged. Behold, the Judge is standing at the door. As an example of suffering and patience, take the prophets who spoke in the name of the Lord. We count those blessed who remained steadfast. You have heard of the steadfastness of Job and have seen the purpose of the Lord, how the Lord is compassionate and merciful. Above all, do not swear by heaven or by earth or by any other oath, but let your yes be yes and your no be no. Is anyone among you suffering? Let him pray. Is anyone cheerful? Let him sing praise. Is anyone sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord. The prayer of faith will save the one who is sick, and the Lord will raise him up. If he has committed sins, he will be forgiven. Confess your sins to one another and pray for one another, that you may be healed. The prayer of a righteous person has great power. Elijah was a man with a nature like ours, and he prayed fervently. If anyone wanders from the truth and someone brings him back, let him know that whoever brings back a sinner from his wandering will save his soul from death and will cover a multitude of sins.',
+    keyThemes: ['Warning to the rich', 'Patience until Christ\'s return', 'Power of prayer', 'Restoring the wandering'],
+    christConnection: 'The entire chapter centers on "the coming of the Lord"—Christ\'s return as Judge who stands at the door. Prayer is offered "in the name of the Lord" Jesus, and the restoration of wandering sinners reflects Christ\'s own mission to seek and save the lost.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9480,6 +9527,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return PHILEMON_CHAPTERS;
     case 'hebrews':
       return HEBREWS_CHAPTERS;
+    case 'james':
+      return JAMES_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9546,4 +9595,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'titus', bookName: 'Titus', chapters: TITUS_CHAPTERS },
   { bookId: 'philemon', bookName: 'Philemon', chapters: PHILEMON_CHAPTERS },
   { bookId: 'hebrews', bookName: 'Hebrews', chapters: HEBREWS_CHAPTERS },
+  { bookId: 'james', bookName: 'James', chapters: JAMES_CHAPTERS },
 ];
