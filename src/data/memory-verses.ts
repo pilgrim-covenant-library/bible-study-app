@@ -1276,6 +1276,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'job-38-4',
+    reference: 'Job 38:4',
+    book: 'Job',
+    chapter: 38,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Where were you when I laid the foundation of the earth? Tell me, if you have understanding.',
+      NIV: 'Where were you when I laid the earth\'s foundation? Tell me, if you understand.',
+      KJV: 'Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.',
+      NASB: 'Where were you when I laid the foundation of the earth? Tell Me, if you have understanding.',
+    },
+    context: {
+      before: {
+        reference: 'Job 38:3',
+        text: 'Dress for action like a man; I will question you, and you make it known to me.',
+      },
+      after: {
+        reference: 'Job 38:5',
+        text: 'Who determined its measurements—surely you know! Or who stretched the line upon it?',
+      },
+    },
+  },
+  {
+    id: 'job-42-5-6',
+    reference: 'Job 42:5-6',
+    book: 'Job',
+    chapter: 42,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I had heard of you by the hearing of the ear, but now my eye sees you; therefore I despise myself, and repent in dust and ashes.',
+      NIV: 'My ears had heard of you but now my eyes have seen you. Therefore I despise myself and repent in dust and ashes.',
+      KJV: 'I have heard of thee by the hearing of the ear: but now mine eye seeth thee. Wherefore I abhor myself, and repent in dust and ashes.',
+      NASB: 'I have heard of You by the hearing of the ear; but now my eye sees You; therefore I retract, and I repent in dust and ashes.',
+    },
+    context: {
+      before: {
+        reference: 'Job 42:4',
+        text: 'Hear, and I will speak; I will question you, and you make it known to me.',
+      },
+      after: {
+        reference: 'Job 42:7',
+        text: 'After the LORD had spoken these words to Job, the LORD said to Eliphaz the Temanite: "My anger burns against you."',
+      },
+    },
+  },
 
   // ============ PSALMS ============
   {
@@ -1546,6 +1594,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'psalm-103-12',
+    reference: 'Psalm 103:12',
+    book: 'Psalms',
+    chapter: 103,
+    verse: 12,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'As far as the east is from the west, so far does he remove our transgressions from us.',
+      NIV: 'As far as the east is from the west, so far has he removed our transgressions from us.',
+      KJV: 'As far as the east is from the west, so far hath he removed our transgressions from us.',
+      NASB: 'As far as the east is from the west, so far has He removed our transgressions from us.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 103:11',
+        text: 'For as high as the heavens are above the earth, so great is his steadfast love toward those who fear him.',
+      },
+      after: {
+        reference: 'Psalm 103:13',
+        text: 'As a father shows compassion to his children, so the LORD shows compassion to those who fear him.',
+      },
+    },
+  },
+  {
+    id: 'psalm-19-14',
+    reference: 'Psalm 19:14',
+    book: 'Psalms',
+    chapter: 19,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Let the words of my mouth and the meditation of my heart be acceptable in your sight, O LORD, my rock and my redeemer.',
+      NIV: 'May these words of my mouth and this meditation of my heart be pleasing in your sight, LORD, my Rock and my Redeemer.',
+      KJV: 'Let the words of my mouth, and the meditation of my heart, be acceptable in thy sight, O LORD, my strength, and my redeemer.',
+      NASB: 'Let the words of my mouth and the meditation of my heart be acceptable in Your sight, O LORD, my rock and my Redeemer.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 19:13',
+        text: 'Keep back your servant also from presumptuous sins; let them not have dominion over me!',
+      },
+    },
+  },
 
   // ============ PROVERBS ============
   {
@@ -1715,6 +1807,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ecclesiastes 3:12',
         text: 'I perceived that there is nothing better for them than to be joyful and to do good as long as they live.',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-1-2',
+    reference: 'Ecclesiastes 1:2',
+    book: 'Ecclesiastes',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Vanity of vanities, says the Preacher, vanity of vanities! All is vanity.',
+      NIV: '"Meaningless! Meaningless!" says the Teacher. "Utterly meaningless! Everything is meaningless."',
+      KJV: 'Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity.',
+      NASB: '"Vanity of vanities," says the Preacher, "Vanity of vanities! All is vanity."',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 1:1',
+        text: 'The words of the Preacher, the son of David, king in Jerusalem.',
+      },
+      after: {
+        reference: 'Ecclesiastes 1:3',
+        text: 'What does man gain by all the toil at which he toils under the sun?',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-12-14',
+    reference: 'Ecclesiastes 12:14',
+    book: 'Ecclesiastes',
+    chapter: 12,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For God will bring every deed into judgment, with every secret thing, whether good or evil.',
+      NIV: 'For God will bring every deed into judgment, including every hidden thing, whether it is good or evil.',
+      KJV: 'For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.',
+      NASB: 'For God will bring every act to judgment, everything which is hidden, whether it is good or evil.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 12:13',
+        text: 'The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man.',
       },
     },
   },
@@ -2090,6 +2226,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'daniel-7-14',
+    reference: 'Daniel 7:14',
+    book: 'Daniel',
+    chapter: 7,
+    verse: 14,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And to him was given dominion and glory and a kingdom, that all peoples, nations, and languages should serve him; his dominion is an everlasting dominion, which shall not pass away, and his kingdom one that shall not be destroyed.',
+      NIV: 'He was given authority, glory and sovereign power; all nations and peoples of every language worshiped him. His dominion is an everlasting dominion that will not pass away, and his kingdom is one that will never be destroyed.',
+      KJV: 'And there was given him dominion, and glory, and a kingdom, that all people, nations, and languages, should serve him: his dominion is an everlasting dominion, which shall not pass away, and his kingdom that which shall not be destroyed.',
+      NASB: 'And to Him was given dominion, glory and a kingdom, that all the peoples, nations and men of every language might serve Him. His dominion is an everlasting dominion which will not pass away; and His kingdom is one which will not be destroyed.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 7:13',
+        text: 'I saw in the night visions, and behold, with the clouds of heaven there came one like a son of man, and he came to the Ancient of Days.',
+      },
+      after: {
+        reference: 'Daniel 7:15',
+        text: 'As for me, Daniel, my spirit within me was anxious, and the visions of my head alarmed me.',
+      },
+    },
+  },
+  {
+    id: 'daniel-4-35',
+    reference: 'Daniel 4:35',
+    book: 'Daniel',
+    chapter: 4,
+    verse: 35,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'All the inhabitants of the earth are accounted as nothing, and he does according to his will among the host of heaven and among the inhabitants of the earth; and none can stay his hand or say to him, "What have you done?"',
+      NIV: 'All the peoples of the earth are regarded as nothing. He does as he pleases with the powers of heaven and the peoples of the earth. No one can hold back his hand or say to him: "What have you done?"',
+      KJV: 'And all the inhabitants of the earth are reputed as nothing: and he doeth according to his will in the army of heaven, and among the inhabitants of the earth: and none can stay his hand, or say unto him, What doest thou?',
+      NASB: 'All the inhabitants of the earth are accounted as nothing, but He does according to His will in the host of heaven and among the inhabitants of earth; and no one can ward off His hand or say to Him, "What have You done?"',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 4:34',
+        text: 'At the end of the days I, Nebuchadnezzar, lifted my eyes to heaven, and my reason returned to me, and I blessed the Most High.',
+      },
+      after: {
+        reference: 'Daniel 4:36',
+        text: 'At the same time my reason returned to me, and for the glory of my kingdom, my majesty and splendor returned to me.',
+      },
+    },
+  },
 
   // ============ HOSEA ============
   {
@@ -2137,6 +2321,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Hosea 11:2',
         text: 'The more they were called, the more they went away; they kept sacrificing to the Baals and burning offerings to idols.',
+      },
+    },
+  },
+  {
+    id: 'hosea-14-4',
+    reference: 'Hosea 14:4',
+    book: 'Hosea',
+    chapter: 14,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I will heal their apostasy; I will love them freely, for my anger has turned from them.',
+      NIV: 'I will heal their waywardness and love them freely, for my anger has turned away from them.',
+      KJV: 'I will heal their backsliding, I will love them freely: for mine anger is turned away from him.',
+      NASB: 'I will heal their apostasy, I will love them freely, for My anger has turned away from them.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 14:3',
+        text: 'Assyria shall not save us; we will not ride on horses; and we will say no more, "Our God," to the work of our hands.',
+      },
+      after: {
+        reference: 'Hosea 14:5',
+        text: 'I will be like the dew to Israel; he shall blossom like the lily; he shall take root like the trees of Lebanon.',
+      },
+    },
+  },
+  {
+    id: 'hosea-2-19',
+    reference: 'Hosea 2:19',
+    book: 'Hosea',
+    chapter: 2,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will betroth you to me forever. I will betroth you to me in righteousness and in justice, in steadfast love and in mercy.',
+      NIV: 'I will betroth you to me forever; I will betroth you in righteousness and justice, in love and compassion.',
+      KJV: 'And I will betroth thee unto me for ever; yea, I will betroth thee unto me in righteousness, and in judgment, and in lovingkindness, and in mercies.',
+      NASB: 'I will betroth you to Me forever; yes, I will betroth you to Me in righteousness and in justice, in lovingkindness and in compassion.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 2:18',
+        text: 'And I will make for them a covenant on that day with the beasts of the field, the birds of the heavens, and the creeping things of the ground.',
+      },
+      after: {
+        reference: 'Hosea 2:20',
+        text: 'I will betroth you to me in faithfulness. And you shall know the LORD.',
       },
     },
   },
@@ -2237,6 +2469,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Amos 3:4',
         text: 'Does a lion roar in the forest, when he has no prey?',
+      },
+    },
+  },
+  {
+    id: 'amos-3-7',
+    reference: 'Amos 3:7',
+    book: 'Amos',
+    chapter: 3,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the Lord GOD does nothing without revealing his secret to his servants the prophets.',
+      NIV: 'Surely the Sovereign LORD does nothing without revealing his plan to his servants the prophets.',
+      KJV: 'Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets.',
+      NASB: 'Surely the Lord GOD does nothing unless He reveals His secret counsel to His servants the prophets.',
+    },
+    context: {
+      before: {
+        reference: 'Amos 3:6',
+        text: 'Is a trumpet blown in a city, and the people are not afraid? Does disaster come to a city, unless the LORD has done it?',
+      },
+      after: {
+        reference: 'Amos 3:8',
+        text: 'The lion has roared; who will not fear? The Lord GOD has spoken; who can but prophesy?',
+      },
+    },
+  },
+  {
+    id: 'amos-4-12',
+    reference: 'Amos 4:12',
+    book: 'Amos',
+    chapter: 4,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore thus I will do to you, O Israel; because I will do this to you, prepare to meet your God, O Israel!',
+      NIV: 'Therefore this is what I will do to you, Israel, and because I will do this to you, Israel, prepare to meet your God.',
+      KJV: 'Therefore thus will I do unto thee, O Israel: and because I will do this unto thee, prepare to meet thy God, O Israel.',
+      NASB: 'Therefore thus I will do to you, O Israel; because I will do this to you, prepare to meet your God, O Israel.',
+    },
+    context: {
+      before: {
+        reference: 'Amos 4:11',
+        text: 'I overthrew some of you, as when God overthrew Sodom and Gomorrah, and you were as a brand plucked out of the burning; yet you did not return to me.',
+      },
+      after: {
+        reference: 'Amos 4:13',
+        text: 'For behold, he who forms the mountains and creates the wind, and declares to man what is his thought, who makes the morning darkness.',
       },
     },
   },
@@ -2383,6 +2663,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Micah 6:9',
         text: 'The voice of the LORD cries to the city—and it is sound wisdom to fear your name.',
+      },
+    },
+  },
+  {
+    id: 'micah-7-18',
+    reference: 'Micah 7:18',
+    book: 'Micah',
+    chapter: 7,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Who is a God like you, pardoning iniquity and passing over transgression for the remnant of his inheritance? He does not retain his anger forever, because he delights in steadfast love.',
+      NIV: 'Who is a God like you, who pardons sin and forgives the transgression of the remnant of his inheritance? You do not stay angry forever but delight to show mercy.',
+      KJV: 'Who is a God like unto thee, that pardoneth iniquity, and passeth by the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in mercy.',
+      NASB: 'Who is a God like You, who pardons iniquity and passes over the rebellious act of the remnant of His possession? He does not retain His anger forever, because He delights in unchanging love.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 7:17',
+        text: 'They shall lick the dust like a serpent, like the crawling things of the earth.',
+      },
+      after: {
+        reference: 'Micah 7:19',
+        text: 'He will again have compassion on us; he will tread our iniquities underfoot. You will cast all our sins into the depths of the sea.',
+      },
+    },
+  },
+  {
+    id: 'micah-7-19',
+    reference: 'Micah 7:19',
+    book: 'Micah',
+    chapter: 7,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He will again have compassion on us; he will tread our iniquities underfoot. You will cast all our sins into the depths of the sea.',
+      NIV: 'You will again have compassion on us; you will tread our sins underfoot and hurl all our iniquities into the depths of the sea.',
+      KJV: 'He will turn again, he will have compassion upon us; he will subdue our iniquities; and thou wilt cast all their sins into the depths of the sea.',
+      NASB: 'He will again have compassion on us; He will tread our iniquities under foot. Yes, You will cast all their sins into the depths of the sea.',
+    },
+    context: {
+      before: {
+        reference: 'Micah 7:18',
+        text: 'Who is a God like you, pardoning iniquity and passing over transgression for the remnant of his inheritance?',
+      },
+      after: {
+        reference: 'Micah 7:20',
+        text: 'You will show faithfulness to Jacob and steadfast love to Abraham, as you have sworn to our fathers from the days of old.',
       },
     },
   },
@@ -2636,6 +2964,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'zechariah-12-10',
+    reference: 'Zechariah 12:10',
+    book: 'Zechariah',
+    chapter: 12,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and pleas for mercy, so that, when they look on me, on him whom they have pierced, they shall mourn for him, as one mourns for an only child, and weep bitterly over him, as one weeps over a firstborn.',
+      NIV: 'And I will pour out on the house of David and the inhabitants of Jerusalem a spirit of grace and supplication. They will look on me, the one they have pierced, and they will mourn for him as one mourns for an only child, and grieve bitterly for him as one grieves for a firstborn son.',
+      KJV: 'And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son, and shall be in bitterness for him, as one that is in bitterness for his firstborn.',
+      NASB: 'I will pour out on the house of David and on the inhabitants of Jerusalem, the Spirit of grace and of supplication, so that they will look on Me whom they have pierced; and they will mourn for Him, as one mourns for an only son, and they will weep bitterly over Him like the bitter weeping over a firstborn.',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 12:9',
+        text: 'And on that day I will seek to destroy all the nations that come against Jerusalem.',
+      },
+      after: {
+        reference: 'Zechariah 12:11',
+        text: 'On that day the mourning in Jerusalem will be as great as the mourning for Hadad-rimmon in the plain of Megiddo.',
+      },
+    },
+  },
+  {
+    id: 'zechariah-13-9',
+    reference: 'Zechariah 13:9',
+    book: 'Zechariah',
+    chapter: 13,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will put this third into the fire, and refine them as one refines silver, and test them as gold is tested. They will call upon my name, and I will answer them. I will say, "They are my people"; and they will say, "The LORD is my God."',
+      NIV: 'This third I will put into the fire; I will refine them like silver and test them like gold. They will call on my name and I will answer them; I will say, "They are my people," and they will say, "The LORD is our God."',
+      KJV: 'And I will bring the third part through the fire, and will refine them as silver is refined, and will try them as gold is tried: they shall call on my name, and I will hear them: I will say, It is my people: and they shall say, The LORD is my God.',
+      NASB: 'And I will bring the third part through the fire, refine them as silver is refined, and test them as gold is tested. They will call on My name, and I will answer them; I will say, "They are My people," and they will say, "The LORD is my God."',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 13:8',
+        text: 'In the whole land, declares the LORD, two thirds shall be cut off and perish, and one third shall be left alive.',
+      },
+      after: {
+        reference: 'Zechariah 14:1',
+        text: 'Behold, a day is coming for the LORD, when the spoil taken from you will be divided in your midst.',
+      },
+    },
+  },
 
   // ============ MALACHI ============
   {
@@ -2878,6 +3254,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'mark-1-15',
+    reference: 'Mark 1:15',
+    book: 'Mark',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.',
+      NIV: '"The time has come," he said. "The kingdom of God has come near. Repent and believe the good news!"',
+      KJV: 'And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.',
+      NASB: 'and saying, "The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel."',
+    },
+    context: {
+      before: {
+        reference: 'Mark 1:14',
+        text: 'Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God.',
+      },
+      after: {
+        reference: 'Mark 1:16',
+        text: 'Passing alongside the Sea of Galilee, he saw Simon and Andrew the brother of Simon casting a net into the sea, for they were fishermen.',
+      },
+    },
+  },
+  {
+    id: 'mark-8-35',
+    reference: 'Mark 8:35',
+    book: 'Mark',
+    chapter: 8,
+    verse: 35,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For whoever would save his life will lose it, but whoever loses his life for my sake and the gospel\'s will save it.',
+      NIV: 'For whoever wants to save their life will lose it, but whoever loses their life for me and for the gospel will save it.',
+      KJV: 'For whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel\'s, the same shall save it.',
+      NASB: 'For whoever wishes to save his life will lose it, but whoever loses his life for My sake and the gospel\'s will save it.',
+    },
+    context: {
+      before: {
+        reference: 'Mark 8:34',
+        text: 'And calling the crowd to him with his disciples, he said to them, "If anyone would come after me, let him deny himself and take up his cross and follow me."',
+      },
+      after: {
+        reference: 'Mark 8:36',
+        text: 'For what does it profit a man to gain the whole world and forfeit his soul?',
+      },
+    },
+  },
+  {
+    id: 'mark-12-30',
+    reference: 'Mark 12:30',
+    book: 'Mark',
+    chapter: 12,
+    verse: 30,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And you shall love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.',
+      NIV: 'Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.',
+      KJV: 'And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment.',
+      NASB: 'AND YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND, AND WITH ALL YOUR STRENGTH.',
+    },
+    context: {
+      before: {
+        reference: 'Mark 12:29',
+        text: 'Jesus answered, "The most important is, \'Hear, O Israel: The Lord our God, the Lord is one."',
+      },
+      after: {
+        reference: 'Mark 12:31',
+        text: 'The second is this: \'You shall love your neighbor as yourself.\' There is no other commandment greater than these.',
+      },
+    },
+  },
+  {
+    id: 'mark-16-15',
+    reference: 'Mark 16:15',
+    book: 'Mark',
+    chapter: 16,
+    verse: 15,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he said to them, "Go into all the world and proclaim the gospel to the whole creation."',
+      NIV: 'He said to them, "Go into all the world and preach the gospel to all creation."',
+      KJV: 'And he said unto them, Go ye into all the world, and preach the gospel to every creature.',
+      NASB: 'And He said to them, "Go into all the world and preach the gospel to all creation."',
+    },
+    context: {
+      before: {
+        reference: 'Mark 16:14',
+        text: 'Afterward he appeared to the eleven themselves as they were reclining at table, and he rebuked them for their unbelief and hardness of heart.',
+      },
+      after: {
+        reference: 'Mark 16:16',
+        text: 'Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.',
+      },
+    },
+  },
 
   // ============ LUKE ============
   {
@@ -2949,6 +3421,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Luke 2:12',
         text: 'And this will be a sign for you: you will find a baby wrapped in swaddling cloths and lying in a manger.',
+      },
+    },
+  },
+  {
+    id: 'luke-1-37',
+    reference: 'Luke 1:37',
+    book: 'Luke',
+    chapter: 1,
+    verse: 37,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For nothing will be impossible with God.',
+      NIV: 'For no word from God will ever fail.',
+      KJV: 'For with God nothing shall be impossible.',
+      NASB: 'For nothing will be impossible with God.',
+    },
+    context: {
+      before: {
+        reference: 'Luke 1:36',
+        text: 'And behold, your relative Elizabeth in her old age has also conceived a son, and this is the sixth month with her who was called barren.',
+      },
+      after: {
+        reference: 'Luke 1:38',
+        text: 'And Mary said, "Behold, I am the servant of the Lord; let it be to me according to your word." And the angel departed from her.',
+      },
+    },
+  },
+  {
+    id: 'luke-6-27',
+    reference: 'Luke 6:27',
+    book: 'Luke',
+    chapter: 6,
+    verse: 27,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But I say to you who hear, Love your enemies, do good to those who hate you.',
+      NIV: 'But to you who are listening I say: Love your enemies, do good to those who hate you.',
+      KJV: 'But I say unto you which hear, Love your enemies, do good to them which hate you.',
+      NASB: 'But I say to you who hear, love your enemies, do good to those who hate you.',
+    },
+    context: {
+      before: {
+        reference: 'Luke 6:26',
+        text: 'Woe to you, when all people speak well of you, for so their fathers did to the false prophets.',
+      },
+      after: {
+        reference: 'Luke 6:28',
+        text: 'bless those who curse you, pray for those who abuse you.',
+      },
+    },
+  },
+  {
+    id: 'luke-24-46-47',
+    reference: 'Luke 24:46-47',
+    book: 'Luke',
+    chapter: 24,
+    verse: 46,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Thus it is written, that the Christ should suffer and on the third day rise from the dead, and that repentance for the forgiveness of sins should be proclaimed in his name to all nations, beginning from Jerusalem.',
+      NIV: 'He told them, "This is what is written: The Messiah will suffer and rise from the dead on the third day, and repentance for the forgiveness of sins will be preached in his name to all nations, beginning at Jerusalem."',
+      KJV: 'And said unto them, Thus it is written, and thus it behooved Christ to suffer, and to rise from the dead the third day: And that repentance and remission of sins should be preached in his name among all nations, beginning at Jerusalem.',
+      NASB: 'and He said to them, "Thus it is written, that the Christ would suffer and rise again from the dead the third day, and that repentance for forgiveness of sins would be proclaimed in His name to all the nations, beginning from Jerusalem."',
+    },
+    context: {
+      before: {
+        reference: 'Luke 24:45',
+        text: 'Then he opened their minds to understand the Scriptures.',
+      },
+      after: {
+        reference: 'Luke 24:48',
+        text: 'You are witnesses of these things.',
       },
     },
   },
@@ -3213,6 +3757,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Acts 4:13',
         text: 'Now when they saw the boldness of Peter and John, and perceived that they were uneducated, common men, they were astonished.',
+      },
+    },
+  },
+  {
+    id: 'acts-16-31',
+    reference: 'Acts 16:31',
+    book: 'Acts',
+    chapter: 16,
+    verse: 31,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And they said, "Believe in the Lord Jesus, and you will be saved, you and your household."',
+      NIV: 'They replied, "Believe in the Lord Jesus, and you will be saved—you and your household."',
+      KJV: 'And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.',
+      NASB: 'They said, "Believe in the Lord Jesus, and you will be saved, you and your household."',
+    },
+    context: {
+      before: {
+        reference: 'Acts 16:30',
+        text: 'Then he brought them out and said, "Sirs, what must I do to be saved?"',
+      },
+      after: {
+        reference: 'Acts 16:32',
+        text: 'And they spoke the word of the Lord to him and to all who were in his house.',
+      },
+    },
+  },
+  {
+    id: 'acts-17-30-31',
+    reference: 'Acts 17:30-31',
+    book: 'Acts',
+    chapter: 17,
+    verse: 30,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'The times of ignorance God overlooked, but now he commands all people everywhere to repent, because he has fixed a day on which he will judge the world in righteousness by a man whom he has appointed; and of this he has given assurance to all by raising him from the dead.',
+      NIV: 'In the past God overlooked such ignorance, but now he commands all people everywhere to repent. For he has set a day when he will judge the world with justice by the man he has appointed. He has given proof of this to everyone by raising him from the dead.',
+      KJV: 'And the times of this ignorance God winked at; but now commandeth all men every where to repent: Because he hath appointed a day, in the which he will judge the world in righteousness by that man whom he hath ordained; whereof he hath given assurance unto all men, in that he hath raised him from the dead.',
+      NASB: 'Therefore having overlooked the times of ignorance, God is now declaring to men that all people everywhere should repent, because He has fixed a day in which He will judge the world in righteousness through a Man whom He has appointed, having furnished proof to all men by raising Him from the dead.',
+    },
+    context: {
+      before: {
+        reference: 'Acts 17:29',
+        text: "Being then God's offspring, we ought not to think that the divine being is like gold or silver or stone, an image formed by the art and imagination of man.",
+      },
+      after: {
+        reference: 'Acts 17:32',
+        text: 'Now when they heard of the resurrection of the dead, some mocked. But others said, "We will hear you again about this."',
+      },
+    },
+  },
+  {
+    id: 'acts-20-24',
+    reference: 'Acts 20:24',
+    book: 'Acts',
+    chapter: 20,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But I do not account my life of any value nor as precious to myself, if only I may finish my course and the ministry that I received from the Lord Jesus, to testify to the gospel of the grace of God.',
+      NIV: "However, I consider my life worth nothing to me; my only aim is to finish the race and complete the task the Lord Jesus has given me—the task of testifying to the good news of God's grace.",
+      KJV: 'But none of these things move me, neither count I my life dear unto myself, so that I might finish my course with joy, and the ministry, which I have received of the Lord Jesus, to testify the gospel of the grace of God.',
+      NASB: 'But I do not consider my life of any account as dear to myself, so that I may finish my course and the ministry which I received from the Lord Jesus, to testify solemnly of the gospel of the grace of God.',
+    },
+    context: {
+      before: {
+        reference: 'Acts 20:23',
+        text: 'except that the Holy Spirit testifies to me in every city that imprisonment and afflictions await me.',
+      },
+      after: {
+        reference: 'Acts 20:25',
+        text: 'And now, behold, I know that none of you among whom I have gone about proclaiming the kingdom will see my face again.',
       },
     },
   },
