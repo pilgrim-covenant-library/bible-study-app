@@ -6236,6 +6236,142 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Esther', 'Judges', '1 Samuel'],
     explanation: 'Ruth the Moabitess is in the lineage of David and Jesus (Matt 1:5).',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ADDITIONAL QUESTIONS FOR NT GENERAL EPISTLES (8 → 10)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // James (additional - currently 8)
+  {
+    id: 'jam-009',
+    bookId: 'james',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which letter says "Faith without works is dead" (2:26)?',
+    correctAnswer: 'James',
+    distractors: ['Romans', 'Galatians', 'Hebrews'],
+    explanation: 'James 2:26 teaches that genuine faith produces visible obedience.',
+  },
+  {
+    id: 'jam-010',
+    bookId: 'james',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter compares the tongue to a small fire that sets a great forest ablaze?',
+    correctAnswer: 'James',
+    distractors: ['Proverbs', '1 Peter', 'Jude'],
+    explanation: 'James 3:5-6 powerfully illustrates the destructive potential of the tongue.',
+  },
+
+  // 1 Peter (additional - currently 8)
+  {
+    id: '1pe-009',
+    bookId: '1-peter',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says "Cast all your anxieties on him, because he cares for you" (5:7)?',
+    correctAnswer: '1 Peter',
+    distractors: ['Philippians', 'Matthew', 'Psalms'],
+    explanation: '1 Peter 5:7 invites believers to entrust their worries to God\'s loving care.',
+  },
+  {
+    id: '1pe-010',
+    bookId: '1-peter',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter describes believers as "a royal priesthood, a holy nation"?',
+    correctAnswer: '1 Peter',
+    distractors: ['Hebrews', 'Revelation', 'Exodus'],
+    explanation: '1 Peter 2:9 applies Israel\'s covenant identity to the church in Christ.',
+  },
+
+  // 2 Peter (additional - currently 8)
+  {
+    id: '2pe-009',
+    bookId: '2-peter',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter says scoffers will ask "Where is the promise of his coming?"?',
+    correctAnswer: '2 Peter',
+    distractors: ['Jude', '1 Thessalonians', 'Revelation'],
+    explanation: '2 Peter 3:4 addresses mockers who doubt Christ\'s return.',
+  },
+  {
+    id: '2pe-010',
+    bookId: '2-peter',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter states that "no prophecy of Scripture comes from someone\'s own interpretation" (1:20)?',
+    correctAnswer: '2 Peter',
+    distractors: ['2 Timothy', 'Hebrews', 'Romans'],
+    explanation: '2 Peter 1:20-21 affirms the divine origin and authority of Scripture.',
+  },
+
+  // 1 John (additional - currently 8)
+  {
+    id: '1jo-009',
+    bookId: '1-john',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which letter declares "God is love" (4:8)?',
+    correctAnswer: '1 John',
+    distractors: ['John', 'Romans', '1 Corinthians'],
+    explanation: '1 John 4:8 identifies love as essential to God\'s very nature.',
+  },
+  {
+    id: '1jo-010',
+    bookId: '1-john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter says "If we confess our sins, he is faithful and just to forgive us"?',
+    correctAnswer: '1 John',
+    distractors: ['Romans', 'Hebrews', 'James'],
+    explanation: '1 John 1:9 promises forgiveness and cleansing upon confession.',
+  },
+
+  // Jude (additional - currently 8)
+  {
+    id: 'jud-009',
+    bookId: 'jude',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter urges believers to "contend for the faith that was once for all delivered"?',
+    correctAnswer: 'Jude',
+    distractors: ['1 Timothy', '2 Peter', 'Galatians'],
+    explanation: 'Jude 3 calls Christians to defend the apostolic faith against false teaching.',
+  },
+  {
+    id: 'jud-010',
+    bookId: 'jude',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter mentions Michael the archangel disputing with the devil about Moses\' body?',
+    correctAnswer: 'Jude',
+    distractors: ['Revelation', 'Daniel', 'Zechariah'],
+    explanation: 'Jude 9 references this otherwise unknown event from Jewish tradition.',
+  },
+
+  // Titus (additional - currently 8)
+  {
+    id: 'tit-009',
+    bookId: 'titus',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says "the grace of God has appeared, bringing salvation for all people" (2:11)?',
+    correctAnswer: 'Titus',
+    distractors: ['Ephesians', 'Romans', '1 Timothy'],
+    explanation: 'Titus 2:11-14 beautifully summarizes the gospel of grace.',
+  },
+  {
+    id: 'tit-010',
+    bookId: 'titus',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter was written to a pastor on the island of Crete?',
+    correctAnswer: 'Titus',
+    distractors: ['1 Timothy', 'Philemon', '2 Timothy'],
+    explanation: 'Titus was left in Crete to appoint elders and order the churches (Titus 1:5).',
+  },
 ];
 
 // Helper functions for quiz functionality
