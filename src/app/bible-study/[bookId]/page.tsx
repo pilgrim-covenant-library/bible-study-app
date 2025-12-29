@@ -9,6 +9,8 @@ import {
   BookOpen,
   ChevronRight,
   ChevronLeft,
+  ChevronDown,
+  ChevronUp,
   Cross,
   Lightbulb,
   Quote,
@@ -16,6 +18,7 @@ import {
   Calendar,
   FileText,
   HelpCircle,
+  List,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
@@ -25,16 +28,91 @@ import {
   getPreviousBook,
   type CanonicalGroup,
 } from '@/data/bible-summaries';
+import { getChaptersByBook, type ChapterSummary } from '@/data/bible-chapter-summaries';
 
-type TabId = 'overview' | 'outline' | 'themes' | 'christ' | 'study';
+type TabId = 'overview' | 'outline' | 'chapters' | 'themes' | 'christ' | 'study';
 
 const TABS: { id: TabId; label: string; icon: typeof BookOpen }[] = [
   { id: 'overview', label: 'Overview', icon: BookOpen },
   { id: 'outline', label: 'Outline', icon: FileText },
+  { id: 'chapters', label: 'Chapters', icon: List },
   { id: 'themes', label: 'Themes', icon: Lightbulb },
   { id: 'christ', label: 'Christ', icon: Cross },
   { id: 'study', label: 'Study', icon: HelpCircle },
 ];
+
+// Chapter card component with expandable content
+function ChapterCard({ chapter, isExpanded, onToggle }: {
+  chapter: ChapterSummary;
+  isExpanded: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <Card className="overflow-hidden">
+      <button
+        onClick={onToggle}
+        className="w-full text-left"
+      >
+        <CardHeader className="pb-2 cursor-pointer hover:bg-muted/50 transition-colors">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-bible/10 text-bible font-semibold text-sm">
+                {chapter.chapter}
+              </span>
+              <CardTitle className="text-base">{chapter.title}</CardTitle>
+            </div>
+            {isExpanded ? (
+              <ChevronUp className="h-4 w-4 text-muted-foreground" />
+            ) : (
+              <ChevronDown className="h-4 w-4 text-muted-foreground" />
+            )}
+          </div>
+        </CardHeader>
+      </button>
+      {isExpanded && (
+        <CardContent className="pt-0 pb-4 space-y-4">
+          {/* Summary */}
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            {chapter.summary}
+          </p>
+
+          {/* Key Themes */}
+          {chapter.keyThemes.length > 0 && (
+            <div>
+              <div className="flex items-center gap-2 mb-2">
+                <Lightbulb className="h-4 w-4 text-bible" />
+                <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Key Themes</span>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {chapter.keyThemes.map((theme, idx) => (
+                  <span
+                    key={idx}
+                    className="text-xs px-2 py-1 bg-muted rounded-full"
+                  >
+                    {theme}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Christ Connection */}
+          {chapter.christConnection && (
+            <div className="p-3 bg-bible/5 rounded-lg border border-bible/10">
+              <div className="flex items-center gap-2 mb-2">
+                <Cross className="h-4 w-4 text-bible" />
+                <span className="text-xs font-medium text-bible uppercase tracking-wider">Christ Connection</span>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                {chapter.christConnection}
+              </p>
+            </div>
+          )}
+        </CardContent>
+      )}
+    </Card>
+  );
+}
 
 // Group badge styling
 function getGroupBadge(group: CanonicalGroup) {
@@ -70,6 +148,7 @@ export default function BookDetailPage() {
   const book = getBookById(bookId);
 
   const [activeTab, setActiveTab] = useState<TabId>('overview');
+  const [expandedChapters, setExpandedChapters] = useState<Set<number>>(new Set());
 
   if (!book) {
     notFound();
@@ -78,6 +157,27 @@ export default function BookDetailPage() {
   const prevBook = getPreviousBook(bookId);
   const nextBook = getNextBook(bookId);
   const groupBadge = getGroupBadge(book.canonicalGroup);
+  const chapterSummaries = getChaptersByBook(bookId);
+
+  const toggleChapter = (chapter: number) => {
+    setExpandedChapters(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(chapter)) {
+        newSet.delete(chapter);
+      } else {
+        newSet.add(chapter);
+      }
+      return newSet;
+    });
+  };
+
+  const expandAll = () => {
+    setExpandedChapters(new Set(chapterSummaries.map(c => c.chapter)));
+  };
+
+  const collapseAll = () => {
+    setExpandedChapters(new Set());
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -239,6 +339,52 @@ export default function BookDetailPage() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        )}
+
+        {/* Chapters Tab */}
+        {activeTab === 'chapters' && (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-semibold">
+                Chapter Summaries
+                <span className="ml-2 text-sm font-normal text-muted-foreground">
+                  ({chapterSummaries.length} chapters)
+                </span>
+              </h2>
+              <div className="flex gap-2">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={expandAll}
+                  disabled={expandedChapters.size === chapterSummaries.length}
+                >
+                  Expand All
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={collapseAll}
+                  disabled={expandedChapters.size === 0}
+                >
+                  Collapse All
+                </Button>
+              </div>
+            </div>
+            <p className="text-sm text-muted-foreground mb-6">
+              Reformed commentary insights from Matthew Henry, John Calvin, Matthew Poole, and Jean Ostervald.
+              Each summary highlights key themes and shows how the chapter points to Christ.
+            </p>
+            <div className="space-y-3">
+              {chapterSummaries.map((chapter) => (
+                <ChapterCard
+                  key={chapter.chapter}
+                  chapter={chapter}
+                  isExpanded={expandedChapters.has(chapter.chapter)}
+                  onToggle={() => toggleChapter(chapter.chapter)}
+                />
+              ))}
+            </div>
           </div>
         )}
 
