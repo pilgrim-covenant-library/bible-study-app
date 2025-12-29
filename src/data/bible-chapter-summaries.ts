@@ -8846,6 +8846,61 @@ const SECOND_CORINTHIANS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// GALATIANS (6 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+const GALATIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'galatians',
+    chapter: 1,
+    title: 'No Other Gospel',
+    summary: 'Paul, an apostle—not from men nor through man, but through Jesus Christ and God the Father, who raised Him from the dead—to the churches of Galatia: Grace and peace from God our Father and the Lord Jesus Christ, who gave Himself for our sins to deliver us from the present evil age. Paul is astonished that they are so quickly deserting Him who called them in the grace of Christ and are turning to a different gospel—not that there is another one, but there are some who trouble them and want to distort the gospel of Christ. But even if we or an angel from heaven should preach to you a gospel contrary to the one we preached, let him be accursed. Am I now seeking the approval of man, or of God? If I were still trying to please man, I would not be a servant of Christ. For Paul would have them know that the gospel preached by him is not of human origin. He did not receive it from any man, nor was he taught it, but he received it through a revelation of Jesus Christ. They have heard of his former life in Judaism, how he persecuted the church violently and tried to destroy it. But when He who had set him apart before he was born called him by His grace, He was pleased to reveal His Son to Paul.',
+    keyThemes: ['No other gospel', 'Accursed if contrary gospel', 'Gospel by revelation', 'Set apart before birth'],
+    christConnection: 'Christ gave Himself for our sins. The gospel is not of human origin but revealed by Christ Himself. Any other gospel is accursed—salvation is in Christ alone.'
+  },
+  {
+    bookId: 'galatians',
+    chapter: 2,
+    title: 'Justified by Faith in Christ',
+    summary: 'After fourteen years Paul went up again to Jerusalem with Barnabas, taking Titus along. He went up because of a revelation and set before them the gospel that he proclaims among the Gentiles. Yet not even Titus, who was with him, was forced to be circumcised, though he was a Greek. False brothers slipped in to spy out the freedom we have in Christ Jesus, so that they might bring us into slavery. To them Paul did not yield in submission even for a moment, so that the truth of the gospel might be preserved. Those who seemed to be influential added nothing to him. On the contrary, they saw that Paul had been entrusted with the gospel to the uncircumcised, just as Peter to the circumcised. James, Cephas, and John gave the right hand of fellowship to Barnabas and Paul—they should go to the Gentiles, and they to the circumcised. But when Cephas came to Antioch, Paul opposed him to his face, because he stood condemned. He was eating with the Gentiles, but when certain men came from James, he drew back and separated himself. Even Barnabas was led astray. Paul said before them all: We know that a person is not justified by works of the law but through faith in Jesus Christ. We ourselves have believed in Christ Jesus, in order to be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified. I have been crucified with Christ. It is no longer I who live, but Christ who lives in me.',
+    keyThemes: ['Freedom in Christ', 'Justified by faith', 'Crucified with Christ', 'Christ lives in me'],
+    christConnection: 'We are justified by faith in Christ, not by works of the law. We have been crucified with Christ; He now lives in us. The life we live, we live by faith in the Son of God.'
+  },
+  {
+    bookId: 'galatians',
+    chapter: 3,
+    title: 'The Law and the Promise',
+    summary: 'O foolish Galatians! Who has bewitched you? It was before your eyes that Jesus Christ was publicly portrayed as crucified. Did you receive the Spirit by works of the law or by hearing with faith? Are you so foolish? Having begun by the Spirit, are you now being perfected by the flesh? Does He who supplies the Spirit to you and works miracles among you do so by works of the law, or by hearing with faith? Just as Abraham believed God, and it was counted to him as righteousness, know then that it is those of faith who are the sons of Abraham. The Scripture, foreseeing that God would justify the Gentiles by faith, preached the gospel beforehand to Abraham: In you shall all the nations be blessed. So then, those who are of faith are blessed along with Abraham, the man of faith. For all who rely on works of the law are under a curse. Christ redeemed us from the curse of the law by becoming a curse for us. Now the promises were made to Abraham and to his offspring—who is Christ. The law, which came 430 years afterward, does not annul a covenant previously ratified by God. Why then the law? It was added because of transgressions, until the offspring should come to whom the promise had been made. The law was our guardian until Christ came, in order that we might be justified by faith. But now that faith has come, we are no longer under a guardian. For in Christ Jesus you are all sons of God, through faith. There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus.',
+    keyThemes: ['Received Spirit by faith', 'Sons of Abraham by faith', 'Christ redeemed from curse', 'All one in Christ'],
+    christConnection: 'Christ redeemed us from the law\'s curse by becoming a curse for us. He is the promised offspring of Abraham. In Him there is neither Jew nor Greek—all are one.'
+  },
+  {
+    bookId: 'galatians',
+    chapter: 4,
+    title: 'Sons and Heirs',
+    summary: 'The heir, as long as he is a child, is no different from a slave, though he is the owner of everything, but he is under guardians and managers until the date set by his father. In the same way we also, when we were children, were enslaved to the elementary principles of the world. But when the fullness of time had come, God sent forth His Son, born of woman, born under the law, to redeem those who were under the law, so that we might receive adoption as sons. And because you are sons, God has sent the Spirit of His Son into our hearts, crying, Abba! Father! So you are no longer a slave, but a son, and if a son, then an heir through God. Formerly, when they did not know God, they were enslaved to those that by nature are not gods. But now that they have come to know God, or rather to be known by God, how can they turn back again to the weak and worthless elementary principles? They observe days and months and seasons and years! Paul is afraid he may have labored over them in vain. He pleads with them. Where is their blessing they felt? They would have gouged out their eyes for him. Has he become their enemy by telling them the truth? Tell me, you who desire to be under the law—Abraham had two sons, one by a slave woman and one by a free woman. These may be interpreted allegorically: the two women are two covenants. Hagar corresponds to Mount Sinai and the present Jerusalem, which is in slavery. But the Jerusalem above is free, and she is our mother.',
+    keyThemes: ['Fullness of time', 'Sent forth His Son', 'Adoption as sons', 'Abba Father'],
+    christConnection: 'In the fullness of time, God sent His Son, born of a woman, born under law, to redeem us. Through Christ we receive adoption as sons and cry "Abba! Father!" by the Spirit.'
+  },
+  {
+    bookId: 'galatians',
+    chapter: 5,
+    title: 'Freedom in Christ and the Fruit of the Spirit',
+    summary: 'For freedom Christ has set us free; stand firm therefore, and do not submit again to a yoke of slavery. Look: Paul says to them that if they accept circumcision, Christ will be of no advantage to them. Every man who accepts circumcision is obligated to keep the whole law. Those who would be justified by the law are severed from Christ; they have fallen away from grace. For through the Spirit, by faith, we wait for the hope of righteousness. For in Christ Jesus neither circumcision nor uncircumcision counts for anything, but only faith working through love. They were running well. Who hindered them from obeying the truth? This persuasion is not from Him who calls them. A little leaven leavens the whole lump. Paul has confidence in the Lord that they will take no other view. The one who is troubling them will bear the penalty. Brothers, if Paul still preaches circumcision, why is he still being persecuted? For they were called to freedom, only do not use freedom as an opportunity for the flesh, but through love serve one another. The whole law is fulfilled in one word: You shall love your neighbor as yourself. But walk by the Spirit, and you will not gratify the desires of the flesh. The works of the flesh are evident, but the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law. Those who belong to Christ Jesus have crucified the flesh with its passions and desires.',
+    keyThemes: ['For freedom Christ set us free', 'Faith working through love', 'Walk by the Spirit', 'Fruit of the Spirit'],
+    christConnection: 'Christ set us free for freedom. In Him neither circumcision nor uncircumcision matters—only faith working through love. Those who belong to Christ have crucified the flesh.'
+  },
+  {
+    bookId: 'galatians',
+    chapter: 6,
+    title: 'Bear One Another\'s Burdens',
+    summary: 'Brothers, if anyone is caught in any transgression, you who are spiritual should restore him in a spirit of gentleness. Keep watch on yourself, lest you too be tempted. Bear one another\'s burdens, and so fulfill the law of Christ. For if anyone thinks he is something, when he is nothing, he deceives himself. Let each one test his own work, and then his reason to boast will be in himself alone and not in his neighbor. For each will have to bear his own load. Let the one who is taught the word share all good things with the one who teaches. Do not be deceived: God is not mocked, for whatever one sows, that will he also reap. For the one who sows to his own flesh will from the flesh reap corruption, but the one who sows to the Spirit will from the Spirit reap eternal life. Let us not grow weary of doing good, for in due season we will reap, if we do not give up. So then, as we have opportunity, let us do good to everyone, and especially to those who are of the household of faith. See with what large letters Paul is writing with his own hand. Those who want to make a good showing in the flesh would force circumcision on them—only in order that they may not be persecuted for the cross of Christ. But far be it from Paul to boast except in the cross of our Lord Jesus Christ, by which the world has been crucified to him, and he to the world. For neither circumcision counts for anything, nor uncircumcision, but a new creation. Peace and mercy be upon all who walk by this rule, upon the Israel of God.',
+    keyThemes: ['Bear one another\'s burdens', 'Sow to Spirit reap life', 'Boast in the cross', 'New creation'],
+    christConnection: 'We fulfill the law of Christ by bearing one another\'s burdens. Paul boasts only in the cross of Christ, by which the world is crucified to him. What matters is new creation.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -8941,6 +8996,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return FIRST_CORINTHIANS_CHAPTERS;
     case '2-corinthians':
       return SECOND_CORINTHIANS_CHAPTERS;
+    case 'galatians':
+      return GALATIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -8996,4 +9053,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'acts', bookName: 'Acts', chapters: ACTS_CHAPTERS },
   { bookId: '1-corinthians', bookName: '1 Corinthians', chapters: FIRST_CORINTHIANS_CHAPTERS },
   { bookId: '2-corinthians', bookName: '2 Corinthians', chapters: SECOND_CORINTHIANS_CHAPTERS },
+  { bookId: 'galatians', bookName: 'Galatians', chapters: GALATIANS_CHAPTERS },
 ];
