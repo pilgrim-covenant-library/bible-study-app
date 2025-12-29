@@ -842,6 +842,71 @@ function createChronologicalPlan(): ReadingPlan {
   };
 }
 
+/**
+ * Wisdom Literature Plan
+ * Read Job, Psalms, Proverbs, Ecclesiastes, and Song of Solomon in 60 days
+ * These five books form the "Wisdom Literature" of the Old Testament,
+ * exploring life's deepest questions through poetry, proverb, and reflection.
+ */
+function createWisdomLiteraturePlan(): ReadingPlan {
+  const wisdomBooks = [
+    'job', 'psalms', 'proverbs', 'ecclesiastes', 'song-of-solomon',
+  ];
+
+  const wisdomChapters: { bookId: string; chapter: number }[] = [];
+  for (const bookId of wisdomBooks) {
+    const count = CHAPTER_COUNTS[bookId] || 0;
+    for (let ch = 1; ch <= count; ch++) {
+      wisdomChapters.push({ bookId, chapter: ch });
+    }
+  }
+
+  // Total: 42 (Job) + 150 (Psalms) + 31 (Proverbs) + 12 (Ecclesiastes) + 8 (Song) = 243 chapters
+  const chaptersPerDay = Math.ceil(wisdomChapters.length / 60); // ~4 chapters/day
+
+  return {
+    id: 'wisdom-60-days',
+    name: 'Wisdom Literature',
+    description: 'Explore the poetry and wisdom of Scripture through Job, Psalms, Proverbs, Ecclesiastes, and Song of Solomon. These books address life\'s deepest questions about suffering, worship, practical living, meaning, and love.',
+    duration: '60 days',
+    durationDays: 60,
+    category: 'thematic',
+    difficulty: 'medium',
+    chaptersPerDay: '4 chapters',
+    features: [
+      'Poetry and wisdom literature',
+      'Life\'s deepest questions',
+      'Practical and devotional',
+      'Rich theological reflection',
+    ],
+    getDayReadings: (day: number) => {
+      if (day < 1 || day > 60) return null;
+
+      const startIdx = (day - 1) * chaptersPerDay;
+      const endIdx = Math.min(startIdx + chaptersPerDay, wisdomChapters.length);
+
+      if (startIdx >= wisdomChapters.length) return null;
+
+      const readings: Map<string, number[]> = new Map();
+      for (let i = startIdx; i < endIdx; i++) {
+        const { bookId, chapter } = wisdomChapters[i];
+        if (!readings.has(bookId)) {
+          readings.set(bookId, []);
+        }
+        readings.get(bookId)!.push(chapter);
+      }
+
+      return {
+        day,
+        readings: Array.from(readings.entries()).map(([bookId, chapters]) => ({
+          bookId,
+          chapters,
+        })),
+      };
+    },
+  };
+}
+
 // Export all reading plans
 export const READING_PLANS: ReadingPlan[] = [
   createCanonicalYearPlan(),
@@ -851,6 +916,7 @@ export const READING_PLANS: ReadingPlan[] = [
   createPsalmsProverbsMonthlyPlan(),
   createPaulineEpistlesPlan(),
   createProphetsPlan(),
+  createWisdomLiteraturePlan(),
 ];
 
 // Helper to get a plan by ID
