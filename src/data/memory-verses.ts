@@ -1087,6 +1087,127 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: 'deuteronomy-8-3',
+    reference: 'Deuteronomy 8:3',
+    book: 'Deuteronomy',
+    chapter: 8,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he humbled you and let you hunger and fed you with manna, which you did not know, nor did your fathers know, that he might make you know that man does not live by bread alone, but man lives by every word that comes from the mouth of the LORD.',
+      NIV: 'He humbled you, causing you to hunger and then feeding you with manna, which neither you nor your ancestors had known, to teach you that man does not live on bread alone but on every word that comes from the mouth of the LORD.',
+      KJV: 'And he humbled thee, and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know; that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live.',
+      NASB: 'He humbled you and let you be hungry, and fed you with manna which you did not know, nor did your fathers know, that He might make you understand that man does not live by bread alone, but man lives by everything that proceeds out of the mouth of the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 8:2',
+        text: 'And you shall remember the whole way that the LORD your God has led you these forty years in the wilderness.',
+      },
+      after: {
+        reference: 'Deuteronomy 8:4',
+        text: 'Your clothing did not wear out on you and your foot did not swell these forty years.',
+      },
+    },
+  },
+  {
+    id: 'deuteronomy-18-15',
+    reference: 'Deuteronomy 18:15',
+    book: 'Deuteronomy',
+    chapter: 18,
+    verse: 15,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'The LORD your God will raise up for you a prophet like me from among you, from your brothers—it is to him you shall listen—',
+      NIV: 'The LORD your God will raise up for you a prophet like me from among you, from your fellow Israelites. You must listen to him.',
+      KJV: 'The LORD thy God will raise up unto thee a Prophet from the midst of thee, of thy brethren, like unto me; unto him ye shall hearken;',
+      NASB: 'The LORD your God will raise up for you a prophet like me from among you, from your countrymen, you shall listen to him.',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 18:14',
+        text: 'For these nations, which you are about to dispossess, listen to fortune-tellers and to diviners. But as for you, the LORD your God has not allowed you to do this.',
+      },
+      after: {
+        reference: 'Deuteronomy 18:16',
+        text: 'Just as you desired of the LORD your God at Horeb on the day of the assembly, when you said, "Let me not hear again the voice of the LORD my God."',
+      },
+    },
+  },
+  {
+    id: 'deuteronomy-10-12',
+    reference: 'Deuteronomy 10:12',
+    book: 'Deuteronomy',
+    chapter: 10,
+    verse: 12,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And now, Israel, what does the LORD your God require of you, but to fear the LORD your God, to walk in all his ways, to love him, to serve the LORD your God with all your heart and with all your soul,',
+      NIV: 'And now, Israel, what does the LORD your God ask of you but to fear the LORD your God, to walk in obedience to him, to love him, to serve the LORD your God with all your heart and with all your soul,',
+      KJV: 'And now, Israel, what doth the LORD thy God require of thee, but to fear the LORD thy God, to walk in all his ways, and to love him, and to serve the LORD thy God with all thy heart and with all thy soul,',
+      NASB: 'Now, Israel, what does the LORD your God require from you, but to fear the LORD your God, to walk in all His ways and love Him, and to serve the LORD your God with all your heart and with all your soul,',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 10:11',
+        text: 'And the LORD said to me, "Arise, go on your journey at the head of the people, so that they may go in and possess the land."',
+      },
+      after: {
+        reference: 'Deuteronomy 10:13',
+        text: 'and to keep the commandments and statutes of the LORD, which I am commanding you today for your good?',
+      },
+    },
+  },
+  {
+    id: 'deuteronomy-32-4',
+    reference: 'Deuteronomy 32:4',
+    book: 'Deuteronomy',
+    chapter: 32,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The Rock, his work is perfect, for all his ways are justice. A God of faithfulness and without iniquity, just and upright is he.',
+      NIV: 'He is the Rock, his works are perfect, and all his ways are just. A faithful God who does no wrong, upright and just is he.',
+      KJV: 'He is the Rock, his work is perfect: for all his ways are judgment: a God of truth and without iniquity, just and right is he.',
+      NASB: 'The Rock! His work is perfect, for all His ways are just; a God of faithfulness and without injustice, righteous and upright is He.',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 32:3',
+        text: 'For I will proclaim the name of the LORD; ascribe greatness to our God!',
+      },
+      after: {
+        reference: 'Deuteronomy 32:5',
+        text: 'They have dealt corruptly with him; they are no longer his children because they are blemished; they are a crooked and twisted generation.',
+      },
+    },
+  },
+  {
+    id: 'deuteronomy-7-9',
+    reference: 'Deuteronomy 7:9',
+    book: 'Deuteronomy',
+    chapter: 7,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations,',
+      NIV: 'Know therefore that the LORD your God is God; he is the faithful God, keeping his covenant of love to a thousand generations of those who love him and keep his commandments.',
+      KJV: 'Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;',
+      NASB: 'Know therefore that the LORD your God, He is God, the faithful God, who keeps His covenant and His lovingkindness to a thousandth generation with those who love Him and keep His commandments;',
+    },
+    context: {
+      before: {
+        reference: 'Deuteronomy 7:8',
+        text: 'But it is because the LORD loves you and is keeping the oath that he swore to your fathers, that the LORD has brought you out with a mighty hand.',
+      },
+      after: {
+        reference: 'Deuteronomy 7:10',
+        text: 'and repays to their face those who hate him, by destroying them. He will not be slack with one who hates him. He will repay him to his face.',
+      },
+    },
+  },
+
   // ============ JOSHUA ============
   {
     id: 'joshua-1-9',
@@ -5316,6 +5437,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: 'jeremiah-17-9',
+    reference: 'Jeremiah 17:9',
+    book: 'Jeremiah',
+    chapter: 17,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The heart is deceitful above all things, and desperately sick; who can understand it?',
+      NIV: 'The heart is deceitful above all things and beyond cure. Who can understand it?',
+      KJV: 'The heart is deceitful above all things, and desperately wicked: who can know it?',
+      NASB: 'The heart is more deceitful than all else and is desperately sick; who can understand it?',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 17:8',
+        text: 'He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes.',
+      },
+      after: {
+        reference: 'Jeremiah 17:10',
+        text: 'I the LORD search the heart and test the mind, to give every man according to his ways, according to the fruit of his deeds.',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-31-33',
+    reference: 'Jeremiah 31:33',
+    book: 'Jeremiah',
+    chapter: 31,
+    verse: 33,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For this is the covenant that I will make with the house of Israel after those days, declares the LORD: I will put my law within them, and I will write it on their hearts. And I will be their God, and they shall be my people.',
+      NIV: '"This is the covenant I will make with the people of Israel after that time," declares the LORD. "I will put my law in their minds and write it on their hearts. I will be their God, and they will be my people."',
+      KJV: 'But this shall be the covenant that I will make with the house of Israel; After those days, saith the LORD, I will put my law in their inward parts, and write it in their hearts; and will be their God, and they shall be my people.',
+      NASB: '"But this is the covenant which I will make with the house of Israel after those days," declares the LORD, "I will put My law within them and on their heart I will write it; and I will be their God, and they shall be My people."',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 31:32',
+        text: 'Not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt.',
+      },
+      after: {
+        reference: 'Jeremiah 31:34',
+        text: 'And no longer shall each one teach his neighbor and each his brother, saying, "Know the LORD," for they shall all know me.',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-1-5',
+    reference: 'Jeremiah 1:5',
+    book: 'Jeremiah',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Before I formed you in the womb I knew you, and before you were born I consecrated you; I appointed you a prophet to the nations.',
+      NIV: 'Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations.',
+      KJV: 'Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.',
+      NASB: 'Before I formed you in the womb I knew you, and before you were born I consecrated you; I have appointed you a prophet to the nations.',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 1:4',
+        text: 'Now the word of the LORD came to me, saying,',
+      },
+      after: {
+        reference: 'Jeremiah 1:6',
+        text: 'Then I said, "Ah, Lord GOD! Behold, I do not know how to speak, for I am only a youth."',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-17-7',
+    reference: 'Jeremiah 17:7',
+    book: 'Jeremiah',
+    chapter: 17,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Blessed is the man who trusts in the LORD, whose trust is the LORD.',
+      NIV: 'But blessed is the one who trusts in the LORD, whose confidence is in him.',
+      KJV: 'Blessed is the man that trusteth in the LORD, and whose hope the LORD is.',
+      NASB: 'Blessed is the man who trusts in the LORD and whose trust is the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 17:6',
+        text: 'He is like a shrub in the desert, and shall not see any good come. He shall dwell in the parched places of the wilderness.',
+      },
+      after: {
+        reference: 'Jeremiah 17:8',
+        text: 'He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes.',
+      },
+    },
+  },
+
   // ============ LAMENTATIONS ============
   {
     id: 'lamentations-3-22',
@@ -8204,6 +8422,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Mark 16:16',
         text: 'Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.',
+      },
+    },
+  },
+
+  {
+    id: 'mark-1-15',
+    reference: 'Mark 1:15',
+    book: 'Mark',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.',
+      NIV: 'The time has come," he said. "The kingdom of God has come near. Repent and believe the good news!',
+      KJV: 'And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.',
+      NASB: 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.',
+    },
+    context: {
+      before: {
+        reference: 'Mark 1:14',
+        text: 'Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God.',
+      },
+      after: {
+        reference: 'Mark 1:16',
+        text: 'Passing alongside the Sea of Galilee, he saw Simon and Andrew the brother of Simon casting a net into the sea.',
+      },
+    },
+  },
+  {
+    id: 'mark-8-36',
+    reference: 'Mark 8:36',
+    book: 'Mark',
+    chapter: 8,
+    verse: 36,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For what does it profit a man to gain the whole world and forfeit his soul?',
+      NIV: 'What good is it for someone to gain the whole world, yet forfeit their soul?',
+      KJV: 'For what shall it profit a man, if he shall gain the whole world, and lose his own soul?',
+      NASB: 'For what does it profit a man to gain the whole world, and forfeit his soul?',
+    },
+    context: {
+      before: {
+        reference: 'Mark 8:35',
+        text: 'For whoever would save his life will lose it, but whoever loses his life for my sake and the gospel\'s will save it.',
+      },
+      after: {
+        reference: 'Mark 8:37',
+        text: 'For what can a man give in return for his soul?',
+      },
+    },
+  },
+  {
+    id: 'mark-9-23',
+    reference: 'Mark 9:23',
+    book: 'Mark',
+    chapter: 9,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And Jesus said to him, "\'If you can\'! All things are possible for one who believes."',
+      NIV: '"\'If you can\'?" said Jesus. "Everything is possible for one who believes."',
+      KJV: 'Jesus said unto him, If thou canst believe, all things are possible to him that believeth.',
+      NASB: 'And Jesus said to him, "\'If You can?\' All things are possible to him who believes."',
+    },
+    context: {
+      before: {
+        reference: 'Mark 9:22',
+        text: 'And it has often cast him into fire and into water, to destroy him. But if you can do anything, have compassion on us and help us.',
+      },
+      after: {
+        reference: 'Mark 9:24',
+        text: 'Immediately the father of the child cried out and said, "I believe; help my unbelief!"',
+      },
+    },
+  },
+  {
+    id: 'mark-10-27',
+    reference: 'Mark 10:27',
+    book: 'Mark',
+    chapter: 10,
+    verse: 27,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Jesus looked at them and said, "With man it is impossible, but not with God. For all things are possible with God."',
+      NIV: 'Jesus looked at them and said, "With man this is impossible, but not with God; all things are possible with God."',
+      KJV: 'And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible.',
+      NASB: 'Looking at them, Jesus said, "With people it is impossible, but not with God; for all things are possible with God."',
+    },
+    context: {
+      before: {
+        reference: 'Mark 10:26',
+        text: 'And they were exceedingly astonished, and said to him, "Then who can be saved?"',
+      },
+      after: {
+        reference: 'Mark 10:28',
+        text: 'Peter began to say to him, "See, we have left everything and followed you."',
       },
     },
   },
