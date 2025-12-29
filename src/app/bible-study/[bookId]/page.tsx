@@ -20,6 +20,7 @@ import {
   HelpCircle,
   List,
   Check,
+  Bookmark,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
@@ -31,6 +32,8 @@ import {
 } from '@/data/bible-summaries';
 import { getChaptersByBook, type ChapterSummary } from '@/data/bible-chapter-summaries';
 import { useReadingProgressStore } from '@/stores/readingProgressStore';
+import { useBookmarksStore } from '@/stores/bookmarksStore';
+import { BIBLE_BOOK_SUMMARIES } from '@/data/bible-summaries';
 
 type TabId = 'overview' | 'outline' | 'chapters' | 'themes' | 'christ' | 'study';
 
@@ -43,6 +46,12 @@ const TABS: { id: TabId; label: string; icon: typeof BookOpen }[] = [
   { id: 'study', label: 'Study', icon: HelpCircle },
 ];
 
+// Helper to get book name
+function getBookName(bookId: string): string {
+  const book = BIBLE_BOOK_SUMMARIES.find(b => b.id === bookId);
+  return book?.name || bookId;
+}
+
 // Chapter card component with expandable content
 function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   chapter: ChapterSummary;
@@ -51,7 +60,9 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   onToggle: () => void;
 }) {
   const { isChapterRead, markChapterRead, markChapterUnread } = useReadingProgressStore();
+  const { isBookmarked, addBookmark, removeBookmark } = useBookmarksStore();
   const isRead = isChapterRead(bookId, chapter.chapter);
+  const bookmarked = isBookmarked(bookId, chapter.chapter);
 
   const handleReadToggle = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -59,6 +70,20 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
       markChapterUnread(bookId, chapter.chapter);
     } else {
       markChapterRead(bookId, chapter.chapter);
+    }
+  };
+
+  const handleBookmarkToggle = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (bookmarked) {
+      removeBookmark(bookId, chapter.chapter);
+    } else {
+      addBookmark({
+        bookId,
+        chapter: chapter.chapter,
+        bookName: getBookName(bookId),
+        chapterTitle: chapter.title,
+      });
     }
   };
 
@@ -90,11 +115,24 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
                 {chapter.title}
               </CardTitle>
             </div>
-            {isExpanded ? (
-              <ChevronUp className="h-4 w-4 text-muted-foreground" />
-            ) : (
-              <ChevronDown className="h-4 w-4 text-muted-foreground" />
-            )}
+            <div className="flex items-center gap-2">
+              <button
+                onClick={handleBookmarkToggle}
+                className={`p-1.5 rounded-full transition-all ${
+                  bookmarked
+                    ? 'text-amber-500 hover:text-amber-600'
+                    : 'text-muted-foreground hover:text-amber-500'
+                }`}
+                title={bookmarked ? 'Remove bookmark' : 'Add bookmark'}
+              >
+                <Bookmark className={`h-4 w-4 ${bookmarked ? 'fill-current' : ''}`} />
+              </button>
+              {isExpanded ? (
+                <ChevronUp className="h-4 w-4 text-muted-foreground" />
+              ) : (
+                <ChevronDown className="h-4 w-4 text-muted-foreground" />
+              )}
+            </div>
           </div>
         </CardHeader>
       </button>

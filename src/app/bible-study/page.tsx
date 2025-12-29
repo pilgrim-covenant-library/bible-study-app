@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import {
@@ -13,6 +13,7 @@ import {
   type BibleBookSummary,
 } from '@/data/bible-summaries';
 import { ALL_CHAPTER_SUMMARIES, getChaptersByBook } from '@/data/bible-chapter-summaries';
+import { useBookmarksStore } from '@/stores/bookmarksStore';
 
 type TestamentFilter = 'all' | Testament;
 
@@ -41,6 +42,66 @@ function getDifficultyBadge(difficulty: string) {
     hard: 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300',
   };
   return styles[difficulty] || 'bg-gray-100 text-gray-800';
+}
+
+// Bookmarks Section Component
+function BookmarksSection() {
+  const { bookmarks, removeBookmark, getTotalBookmarks } = useBookmarksStore();
+  const recentBookmarks = bookmarks.slice(0, 6); // Show up to 6 most recent
+  const totalBookmarks = getTotalBookmarks();
+
+  if (totalBookmarks === 0) {
+    return null; // Don't show section if no bookmarks
+  }
+
+  return (
+    <section className="mb-8">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <Bookmark className="h-5 w-5 text-amber-500" />
+          <h2 className="text-lg font-semibold">Saved Chapters</h2>
+          <span className="text-sm text-muted-foreground">({totalBookmarks})</span>
+        </div>
+      </div>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        {recentBookmarks.map((bookmark) => (
+          <Card key={`${bookmark.bookId}-${bookmark.chapter}`} className="group relative hover:shadow-md transition-all hover:-translate-y-0.5">
+            <Link href={`/bible-study/${bookmark.bookId}`}>
+              <CardContent className="p-4">
+                <div className="flex items-start gap-3">
+                  <div className="flex items-center justify-center w-8 h-8 rounded-full bg-amber-500/10 text-amber-600 dark:text-amber-400 font-semibold text-sm shrink-0">
+                    {bookmark.chapter}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-xs text-muted-foreground">{bookmark.bookName}</div>
+                    <div className="font-medium text-sm truncate">{bookmark.chapterTitle}</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Link>
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                removeBookmark(bookmark.bookId, bookmark.chapter);
+              }}
+              className="absolute top-2 right-2 p-1.5 rounded-full bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-muted"
+              title="Remove bookmark"
+            >
+              <X className="h-3.5 w-3.5 text-muted-foreground" />
+            </button>
+          </Card>
+        ))}
+      </div>
+      {totalBookmarks > 6 && (
+        <div className="mt-3 text-center">
+          <span className="text-sm text-muted-foreground">
+            +{totalBookmarks - 6} more saved chapters
+          </span>
+        </div>
+      )}
+    </section>
+  );
 }
 
 export default function BibleStudyPage() {
@@ -204,6 +265,9 @@ export default function BibleStudyPage() {
             </Link>
           </div>
         </section>
+
+        {/* Bookmarks Section */}
+        <BookmarksSection />
 
         {/* Filters */}
         <section className="mb-6">
