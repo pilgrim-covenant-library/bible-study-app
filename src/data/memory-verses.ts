@@ -13477,6 +13477,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'philemon-16',
+    reference: 'Philemon 16',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'no longer as a bondservant but more than a bondservant, as a beloved brother—especially to me, but how much more to you, both in the flesh and in the Lord.',
+      NIV: 'no longer as a slave, but better than a slave, as a dear brother. He is very dear to me but even dearer to you, both as a fellow man and as a brother in the Lord.',
+      KJV: 'Not now as a servant, but above a servant, a brother beloved, specially to me, but how much more unto thee, both in the flesh, and in the Lord?',
+      NASB: 'no longer as a slave, but more than a slave, a beloved brother, especially to me, but how much more to you, both in the flesh and in the Lord.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 15',
+        text: 'For this perhaps is why he was parted from you for a while, that you might have him back forever,',
+      },
+      after: {
+        reference: 'Philemon 17',
+        text: 'So if you consider me your partner, receive him as you would receive me.',
+      },
+    },
+  },
+  {
+    id: 'philemon-21',
+    reference: 'Philemon 21',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 21,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Confident of your obedience, I write to you, knowing that you will do even more than I say.',
+      NIV: 'Confident of your obedience, I write to you, knowing that you will do even more than I ask.',
+      KJV: 'Having confidence in thy obedience I wrote unto thee, knowing that thou wilt also do more than I say.',
+      NASB: 'Having confidence in your obedience, I write to you, since I know that you will do even more than what I say.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 20',
+        text: 'Yes, brother, I want some benefit from you in the Lord. Refresh my heart in Christ.',
+      },
+      after: {
+        reference: 'Philemon 22',
+        text: 'At the same time, prepare a guest room for me, for I am hoping that through your prayers I will be graciously given to you.',
+      },
+    },
+  },
 
   // ============ HEBREWS ============
   {
