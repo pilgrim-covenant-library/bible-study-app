@@ -22,6 +22,7 @@ import {
   Check,
   Bookmark,
   Link2,
+  Zap,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
@@ -35,8 +36,38 @@ import { getChaptersByBook, ALL_CHAPTER_SUMMARIES, type ChapterSummary } from '@
 import { useReadingProgressStore } from '@/stores/readingProgressStore';
 import { useBookmarksStore } from '@/stores/bookmarksStore';
 import { BIBLE_BOOK_SUMMARIES } from '@/data/bible-summaries';
+import { MEMORY_VERSES, type MemoryVerse } from '@/data/memory-verses';
 
 type TabId = 'overview' | 'outline' | 'chapters' | 'themes' | 'christ' | 'study';
+
+// Map book names to bookIds for memory verse matching
+const BOOK_NAME_TO_ID: Record<string, string> = {
+  'Genesis': 'genesis', 'Exodus': 'exodus', 'Leviticus': 'leviticus', 'Numbers': 'numbers',
+  'Deuteronomy': 'deuteronomy', 'Joshua': 'joshua', 'Judges': 'judges', 'Ruth': 'ruth',
+  '1 Samuel': '1-samuel', '2 Samuel': '2-samuel', '1 Kings': '1-kings', '2 Kings': '2-kings',
+  '1 Chronicles': '1-chronicles', '2 Chronicles': '2-chronicles', 'Ezra': 'ezra',
+  'Nehemiah': 'nehemiah', 'Esther': 'esther', 'Job': 'job', 'Psalms': 'psalms',
+  'Proverbs': 'proverbs', 'Ecclesiastes': 'ecclesiastes', 'Song of Solomon': 'song-of-solomon',
+  'Isaiah': 'isaiah', 'Jeremiah': 'jeremiah', 'Lamentations': 'lamentations', 'Ezekiel': 'ezekiel',
+  'Daniel': 'daniel', 'Hosea': 'hosea', 'Joel': 'joel', 'Amos': 'amos', 'Obadiah': 'obadiah',
+  'Jonah': 'jonah', 'Micah': 'micah', 'Nahum': 'nahum', 'Habakkuk': 'habakkuk',
+  'Zephaniah': 'zephaniah', 'Haggai': 'haggai', 'Zechariah': 'zechariah', 'Malachi': 'malachi',
+  'Matthew': 'matthew', 'Mark': 'mark', 'Luke': 'luke', 'John': 'john', 'Acts': 'acts',
+  'Romans': 'romans', '1 Corinthians': '1-corinthians', '2 Corinthians': '2-corinthians',
+  'Galatians': 'galatians', 'Ephesians': 'ephesians', 'Philippians': 'philippians',
+  'Colossians': 'colossians', '1 Thessalonians': '1-thessalonians', '2 Thessalonians': '2-thessalonians',
+  '1 Timothy': '1-timothy', '2 Timothy': '2-timothy', 'Titus': 'titus', 'Philemon': 'philemon',
+  'Hebrews': 'hebrews', 'James': 'james', '1 Peter': '1-peter', '2 Peter': '2-peter',
+  '1 John': '1-john', '2 John': '2-john', '3 John': '3-john', 'Jude': 'jude', 'Revelation': 'revelation',
+};
+
+// Find memory verses for a specific chapter
+function getMemoryVersesForChapter(bookId: string, chapter: number): MemoryVerse[] {
+  return MEMORY_VERSES.filter(verse => {
+    const verseBookId = BOOK_NAME_TO_ID[verse.book];
+    return verseBookId === bookId && verse.chapter === chapter;
+  });
+}
 
 const TABS: { id: TabId; label: string; icon: typeof BookOpen }[] = [
   { id: 'overview', label: 'Overview', icon: BookOpen },
@@ -178,6 +209,12 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
     return findRelatedChapters(bookId, chapter.chapter, chapter.keyThemes, 5);
   }, [isExpanded, bookId, chapter.chapter, chapter.keyThemes]);
 
+  // Get memory verses for this chapter
+  const memoryVerses = useMemo(() => {
+    if (!isExpanded) return [];
+    return getMemoryVersesForChapter(bookId, chapter.chapter);
+  }, [isExpanded, bookId, chapter.chapter]);
+
   const handleReadToggle = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (isRead) {
@@ -290,6 +327,46 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {chapter.christConnection}
               </p>
+            </div>
+          )}
+
+          {/* Memory Verses */}
+          {memoryVerses.length > 0 && (
+            <div className="p-3 bg-memory/5 rounded-lg border border-memory/10">
+              <div className="flex items-center gap-2 mb-3">
+                <Zap className="h-4 w-4 text-memory" />
+                <span className="text-xs font-medium text-memory uppercase tracking-wider">Memory Verses</span>
+                <span className="text-[10px] px-1.5 py-0.5 bg-memory/20 text-memory rounded-full">
+                  {memoryVerses.length}
+                </span>
+              </div>
+              <div className="space-y-3">
+                {memoryVerses.map((verse) => (
+                  <div key={verse.id} className="space-y-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-medium text-memory">{verse.reference}</span>
+                      <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                        verse.difficulty === 'easy'
+                          ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
+                          : verse.difficulty === 'medium'
+                          ? 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400'
+                          : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'
+                      }`}>
+                        {verse.difficulty}
+                      </span>
+                    </div>
+                    <p className="text-sm text-muted-foreground italic leading-relaxed">
+                      "{verse.translations.ESV}"
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <Link href="/memory" className="inline-block mt-3">
+                <Button variant="outline" size="sm" className="gap-2 text-memory border-memory/30 hover:bg-memory/10">
+                  <Zap className="h-3 w-3" />
+                  Practice Memorization
+                </Button>
+              </Link>
             </div>
           )}
 
