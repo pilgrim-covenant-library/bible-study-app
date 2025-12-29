@@ -362,6 +362,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'leviticus-17-11',
+    reference: 'Leviticus 17:11',
+    book: 'Leviticus',
+    chapter: 17,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the life of the flesh is in the blood, and I have given it for you on the altar to make atonement for your souls, for it is the blood that makes atonement by the life.',
+      NIV: 'For the life of a creature is in the blood, and I have given it to you to make atonement for yourselves on the altar; it is the blood that makes atonement for one\'s life.',
+      KJV: 'For the life of the flesh is in the blood: and I have given it to you upon the altar to make an atonement for your souls: for it is the blood that maketh an atonement for the soul.',
+      NASB: 'For the life of the flesh is in the blood, and I have given it to you on the altar to make atonement for your souls; for it is the blood by reason of the life that makes atonement.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 17:10',
+        text: 'If any one of the house of Israel or of the strangers who sojourn among them eats any blood, I will set my face against that person.',
+      },
+      after: {
+        reference: 'Leviticus 17:12',
+        text: 'Therefore I have said to the people of Israel, No person among you shall eat blood.',
+      },
+    },
+  },
+  {
+    id: 'leviticus-16-30',
+    reference: 'Leviticus 16:30',
+    book: 'Leviticus',
+    chapter: 16,
+    verse: 30,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For on this day shall atonement be made for you to cleanse you. You shall be clean before the LORD from all your sins.',
+      NIV: 'because on this day atonement will be made for you, to cleanse you. Then, before the LORD, you will be clean from all your sins.',
+      KJV: 'For on that day shall the priest make an atonement for you, to cleanse you, that ye may be clean from all your sins before the LORD.',
+      NASB: 'for it is on this day that atonement shall be made for you to cleanse you; you will be clean from all your sins before the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 16:29',
+        text: 'And it shall be a statute to you forever that in the seventh month, on the tenth day of the month, you shall afflict yourselves.',
+      },
+      after: {
+        reference: 'Leviticus 16:31',
+        text: 'It is a Sabbath of solemn rest to you, and you shall afflict yourselves; it is a statute forever.',
+      },
+    },
+  },
 
   // ============ NUMBERS ============
   {
@@ -632,6 +680,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'joshua-1-8',
+    reference: 'Joshua 1:8',
+    book: 'Joshua',
+    chapter: 1,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'This Book of the Law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it. For then you will make your way prosperous, and then you will have good success.',
+      NIV: 'Keep this Book of the Law always on your lips; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful.',
+      KJV: 'This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is written therein: for then thou shalt make thy way prosperous, and then thou shalt have good success.',
+      NASB: 'This book of the law shall not depart from your mouth, but you shall meditate on it day and night, so that you may be careful to do according to all that is written in it; for then you will make your way prosperous, and then you will have success.',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 1:7',
+        text: 'Only be strong and very courageous, being careful to do according to all the law that Moses my servant commanded you.',
+      },
+      after: {
+        reference: 'Joshua 1:9',
+        text: 'Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.',
+      },
+    },
+  },
+  {
+    id: 'joshua-21-45',
+    reference: 'Joshua 21:45',
+    book: 'Joshua',
+    chapter: 21,
+    verse: 45,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Not one word of all the good promises that the LORD had made to the house of Israel had failed; all came to pass.',
+      NIV: 'Not one of all the LORD\'s good promises to Israel failed; every one was fulfilled.',
+      KJV: 'There failed not ought of any good thing which the LORD had spoken unto the house of Israel; all came to pass.',
+      NASB: 'Not one of the good promises which the LORD had made to the house of Israel failed; all came to pass.',
+    },
+    context: {
+      before: {
+        reference: 'Joshua 21:44',
+        text: 'And the LORD gave them rest on every side just as he had sworn to their fathers. Not one of all their enemies had withstood them.',
+      },
+      after: {
+        reference: 'Joshua 22:1',
+        text: 'At that time Joshua summoned the Reubenites and the Gadites and the half-tribe of Manasseh.',
+      },
+    },
+  },
 
   // ============ JUDGES ============
   {
@@ -675,6 +771,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Judges 21:24',
         text: 'And the people of Israel departed from there at that time, every man to his tribe and family, and they went out from there every man to his inheritance.',
+      },
+    },
+  },
+  {
+    id: 'judges-6-12',
+    reference: 'Judges 6:12',
+    book: 'Judges',
+    chapter: 6,
+    verse: 12,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And the angel of the LORD appeared to him and said to him, "The LORD is with you, O mighty man of valor."',
+      NIV: 'When the angel of the LORD appeared to Gideon, he said, "The LORD is with you, mighty warrior."',
+      KJV: 'And the angel of the LORD appeared unto him, and said unto him, The LORD is with thee, thou mighty man of valour.',
+      NASB: 'The angel of the LORD appeared to him and said to him, "The LORD is with you, O valiant warrior."',
+    },
+    context: {
+      before: {
+        reference: 'Judges 6:11',
+        text: 'Now the angel of the LORD came and sat under the terebinth at Ophrah, which belonged to Joash the Abiezrite, while his son Gideon was beating out wheat in the winepress.',
+      },
+      after: {
+        reference: 'Judges 6:13',
+        text: 'And Gideon said to him, "Please, my lord, if the LORD is with us, why then has all this happened to us?"',
+      },
+    },
+  },
+  {
+    id: 'judges-7-2',
+    reference: 'Judges 7:2',
+    book: 'Judges',
+    chapter: 7,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD said to Gideon, "The people with you are too many for me to give the Midianites into their hand, lest Israel boast over me, saying, \'My own hand has saved me.\'"',
+      NIV: 'The LORD said to Gideon, "You have too many men. I cannot deliver Midian into their hands, or Israel would boast against me, \'My own strength has saved me.\'"',
+      KJV: 'And the LORD said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.',
+      NASB: 'The LORD said to Gideon, "The people who are with you are too many for Me to give Midian into their hands, for Israel would become boastful, saying, \'My own power has delivered me.\'"',
+    },
+    context: {
+      before: {
+        reference: 'Judges 7:1',
+        text: 'Then Jerubbaal (that is, Gideon) and all the people who were with him rose early and encamped beside the spring of Harod.',
+      },
+      after: {
+        reference: 'Judges 7:3',
+        text: 'Now therefore proclaim in the ears of the people, saying, "Whoever is fearful and trembling, let him return home."',
       },
     },
   },
@@ -725,6 +869,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ruth 4:15',
         text: 'He shall be to you a restorer of life and a nourisher of your old age, for your daughter-in-law who loves you, who is more to you than seven sons, has given birth to him.',
+      },
+    },
+  },
+  {
+    id: 'ruth-2-12',
+    reference: 'Ruth 2:12',
+    book: 'Ruth',
+    chapter: 2,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD repay you for what you have done, and a full reward be given you by the LORD, the God of Israel, under whose wings you have come to take refuge!',
+      NIV: 'May the LORD repay you for what you have done. May you be richly rewarded by the LORD, the God of Israel, under whose wings you have come to take refuge.',
+      KJV: 'The LORD recompense thy work, and a full reward be given thee of the LORD God of Israel, under whose wings thou art come to trust.',
+      NASB: 'May the LORD reward your work, and your wages be full from the LORD, the God of Israel, under whose wings you have come to seek refuge.',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 2:11',
+        text: 'But Boaz answered her, "All that you have done for your mother-in-law since the death of your husband has been fully told to me."',
+      },
+      after: {
+        reference: 'Ruth 2:13',
+        text: 'Then she said, "I have found favor in your eyes, my lord, for you have comforted me."',
+      },
+    },
+  },
+  {
+    id: 'ruth-4-17',
+    reference: 'Ruth 4:17',
+    book: 'Ruth',
+    chapter: 4,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And the women of the neighborhood gave him a name, saying, "A son has been born to Naomi." They named him Obed. He was the father of Jesse, the father of David.',
+      NIV: 'The women living there said, "Naomi has a son!" And they named him Obed. He was the father of Jesse, the father of David.',
+      KJV: 'And the women her neighbours gave it a name, saying, There is a son born to Naomi; and they called his name Obed: he is the father of Jesse, the father of David.',
+      NASB: 'The neighbor women gave him a name, saying, "A son has been born to Naomi!" So they named him Obed. He is the father of Jesse, the father of David.',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 4:16',
+        text: 'Then Naomi took the child and laid him on her lap and became his nurse.',
+      },
+      after: {
+        reference: 'Ruth 4:18',
+        text: 'Now these are the generations of Perez: Perez fathered Hezron.',
       },
     },
   },
@@ -1170,6 +1362,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-chronicles-17-14',
+    reference: '1 Chronicles 17:14',
+    book: '1 Chronicles',
+    chapter: 17,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But I will confirm him in my house and in my kingdom forever, and his throne shall be established forever.',
+      NIV: 'I will set him over my house and my kingdom forever; his throne will be established forever.',
+      KJV: 'But I will settle him in mine house and in my kingdom for ever: and his throne shall be established for evermore.',
+      NASB: 'But I will settle him in My house and in My kingdom forever, and his throne shall be established forever.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 17:13',
+        text: 'I will be to him a father, and he shall be to me a son. I will not take my steadfast love from him.',
+      },
+      after: {
+        reference: '1 Chronicles 17:15',
+        text: 'In accordance with all these words, and in accordance with all this vision, Nathan spoke to David.',
+      },
+    },
+  },
+  {
+    id: '1-chronicles-29-14',
+    reference: '1 Chronicles 29:14',
+    book: '1 Chronicles',
+    chapter: 29,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But who am I, and what is my people, that we should be able thus to offer willingly? For all things come from you, and of your own have we given you.',
+      NIV: 'But who am I, and who are my people, that we should be able to give as generously as this? Everything comes from you, and we have given you only what comes from your hand.',
+      KJV: 'But who am I, and what is my people, that we should be able to offer so willingly after this sort? for all things come of thee, and of thine own have we given thee.',
+      NASB: 'But who am I and who are my people that we should be able to offer as generously as this? For all things come from You, and from Your hand we have given You.',
+    },
+    context: {
+      before: {
+        reference: '1 Chronicles 29:13',
+        text: 'And now we thank you, our God, and praise your glorious name.',
+      },
+      after: {
+        reference: '1 Chronicles 29:15',
+        text: 'For we are strangers before you and sojourners, as all our fathers were.',
+      },
+    },
+  },
 
   // ============ 2 CHRONICLES ============
   {
@@ -1317,6 +1557,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Nehemiah 9:7',
         text: 'You are the LORD, the God who chose Abram and brought him out of Ur of the Chaldeans and gave him the name Abraham.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-1-5',
+    reference: 'Nehemiah 1:5',
+    book: 'Nehemiah',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I said, "O LORD God of heaven, the great and awesome God who keeps covenant and steadfast love with those who love him and keep his commandments."',
+      NIV: 'Then I said: "LORD, the God of heaven, the great and awesome God, who keeps his covenant of love with those who love him and keep his commandments."',
+      KJV: 'And said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth covenant and mercy for them that love him and observe his commandments.',
+      NASB: 'I said, "I beseech You, O LORD God of heaven, the great and awesome God, who preserves the covenant and lovingkindness for those who love Him and keep His commandments."',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 1:4',
+        text: 'As soon as I heard these words I sat down and wept and mourned for days, and I continued fasting and praying before the God of heaven.',
+      },
+      after: {
+        reference: 'Nehemiah 1:6',
+        text: 'Let your ear be attentive and your eyes open, to hear the prayer of your servant that I now pray before you.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-4-14',
+    reference: 'Nehemiah 4:14',
+    book: 'Nehemiah',
+    chapter: 4,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I looked and arose and said to the nobles and to the officials and to the rest of the people, "Do not be afraid of them. Remember the Lord, who is great and awesome, and fight for your brothers, your sons, your daughters, your wives, and your homes."',
+      NIV: 'After I looked things over, I stood up and said to the nobles, the officials and the rest of the people, "Don\'t be afraid of them. Remember the Lord, who is great and awesome, and fight for your families, your sons and your daughters, your wives and your homes."',
+      KJV: 'And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of the people, Be not ye afraid of them: remember the Lord, which is great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses.',
+      NASB: 'When I saw their fear, I rose and spoke to the nobles, the officials and the rest of the people: "Do not be afraid of them; remember the Lord who is great and awesome, and fight for your brothers, your sons, your daughters, your wives and your houses."',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 4:13',
+        text: 'So in the lowest parts of the space behind the wall, in open places, I stationed the people by their clans, with their swords, their spears, and their bows.',
+      },
+      after: {
+        reference: 'Nehemiah 4:15',
+        text: 'When our enemies heard that it was known to us and that God had frustrated their plan, we all returned to the wall, each to his work.',
       },
     },
   },
@@ -2220,6 +2508,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'jeremiah-1-5',
+    reference: 'Jeremiah 1:5',
+    book: 'Jeremiah',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Before I formed you in the womb I knew you, and before you were born I consecrated you; I appointed you a prophet to the nations.',
+      NIV: '"Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations."',
+      KJV: 'Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.',
+      NASB: '"Before I formed you in the womb I knew you, and before you were born I consecrated you; I have appointed you a prophet to the nations."',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 1:4',
+        text: 'Now the word of the LORD came to me, saying,',
+      },
+      after: {
+        reference: 'Jeremiah 1:6',
+        text: 'Then I said, "Ah, Lord GOD! Behold, I do not know how to speak, for I am only a youth."',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-33-3',
+    reference: 'Jeremiah 33:3',
+    book: 'Jeremiah',
+    chapter: 33,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Call to me and I will answer you, and will tell you great and hidden things that you have not known.',
+      NIV: '"Call to me and I will answer you and tell you great and unsearchable things you do not know."',
+      KJV: 'Call unto me, and I will answer thee, and show thee great and mighty things, which thou knowest not.',
+      NASB: '"Call to Me and I will answer you, and I will tell you great and mighty things, which you do not know."',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 33:2',
+        text: 'Thus says the LORD who made the earth, the LORD who formed it to establish it—the LORD is his name.',
+      },
+      after: {
+        reference: 'Jeremiah 33:4',
+        text: 'For thus says the LORD, the God of Israel, concerning the houses of this city and the houses of the kings of Judah.',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-31-3',
+    reference: 'Jeremiah 31:3',
+    book: 'Jeremiah',
+    chapter: 31,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD appeared to him from far away. I have loved you with an everlasting love; therefore I have continued my faithfulness to you.',
+      NIV: 'The LORD appeared to us in the past, saying: "I have loved you with an everlasting love; I have drawn you with unfailing kindness."',
+      KJV: 'The LORD hath appeared of old unto me, saying, Yea, I have loved thee with an everlasting love: therefore with lovingkindness have I drawn thee.',
+      NASB: 'The LORD appeared to him from afar, saying, "I have loved you with an everlasting love; therefore I have drawn you with lovingkindness."',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 31:2',
+        text: 'Thus says the LORD: "The people who survived the sword found grace in the wilderness; when Israel sought for rest."',
+      },
+      after: {
+        reference: 'Jeremiah 31:4',
+        text: 'Again I will build you, and you shall be built, O virgin Israel! Again you shall adorn yourself with tambourines.',
+      },
+    },
+  },
 
   // ============ LAMENTATIONS ============
   {
@@ -2270,6 +2630,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'lamentations-3-24',
+    reference: 'Lamentations 3:24',
+    book: 'Lamentations',
+    chapter: 3,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"The LORD is my portion," says my soul, "therefore I will hope in him."',
+      NIV: 'I say to myself, "The LORD is my portion; therefore I will wait for him."',
+      KJV: 'The LORD is my portion, saith my soul; therefore will I hope in him.',
+      NASB: '"The LORD is my portion," says my soul, "Therefore I have hope in Him."',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 3:23',
+        text: 'They are new every morning; great is your faithfulness.',
+      },
+      after: {
+        reference: 'Lamentations 3:25',
+        text: 'The LORD is good to those who wait for him, to the soul who seeks him.',
+      },
+    },
+  },
+  {
+    id: 'lamentations-3-25',
+    reference: 'Lamentations 3:25',
+    book: 'Lamentations',
+    chapter: 3,
+    verse: 25,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The LORD is good to those who wait for him, to the soul who seeks him.',
+      NIV: 'The LORD is good to those whose hope is in him, to the one who seeks him;',
+      KJV: 'The LORD is good unto them that wait for him, to the soul that seeketh him.',
+      NASB: 'The LORD is good to those who wait for Him, to the person who seeks Him.',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 3:24',
+        text: '"The LORD is my portion," says my soul, "therefore I will hope in him."',
+      },
+      after: {
+        reference: 'Lamentations 3:26',
+        text: 'It is good that one should wait quietly for the salvation of the LORD.',
+      },
+    },
+  },
 
   // ============ EZEKIEL ============
   {
@@ -2317,6 +2725,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ezekiel 37:15',
         text: 'The word of the LORD came to me.',
+      },
+    },
+  },
+  {
+    id: 'ezekiel-36-27',
+    reference: 'Ezekiel 36:27',
+    book: 'Ezekiel',
+    chapter: 36,
+    verse: 27,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will put my Spirit within you, and cause you to walk in my statutes and be careful to obey my rules.',
+      NIV: 'And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws.',
+      KJV: 'And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them.',
+      NASB: 'I will put My Spirit within you and cause you to walk in My statutes, and you will be careful to observe My ordinances.',
+    },
+    context: {
+      before: {
+        reference: 'Ezekiel 36:26',
+        text: 'And I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh.',
+      },
+      after: {
+        reference: 'Ezekiel 36:28',
+        text: 'You shall dwell in the land that I gave to your fathers, and you shall be my people, and I will be your God.',
+      },
+    },
+  },
+  {
+    id: 'ezekiel-34-11',
+    reference: 'Ezekiel 34:11',
+    book: 'Ezekiel',
+    chapter: 34,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For thus says the Lord GOD: Behold, I, I myself will search for my sheep and will seek them out.',
+      NIV: 'For this is what the Sovereign LORD says: I myself will search for my sheep and look after them.',
+      KJV: 'For thus saith the Lord GOD; Behold, I, even I, will both search my sheep, and seek them out.',
+      NASB: 'For thus says the Lord GOD, "Behold, I Myself will search for My sheep and seek them out."',
+    },
+    context: {
+      before: {
+        reference: 'Ezekiel 34:10',
+        text: 'Thus says the Lord GOD, Behold, I am against the shepherds, and I will require my sheep at their hand.',
+      },
+      after: {
+        reference: 'Ezekiel 34:12',
+        text: 'As a shepherd seeks out his flock when he is among his sheep that have been scattered, so will I seek out my sheep.',
       },
     },
   },
