@@ -13411,6 +13411,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ 2 JOHN ============
   {
+    id: '2-john-1-1-2',
+    reference: '2 John 1-2',
+    book: '2 John',
+    chapter: 1,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The elder to the elect lady and her children, whom I love in truth, and not only I, but also all who know the truth, because of the truth that abides in us and will be with us forever.',
+      NIV: 'The elder, To the lady chosen by God and to her children, whom I love in the truth—and not I only, but also all who know the truth— because of the truth, which lives in us and will be with us forever.',
+      KJV: 'The elder unto the elect lady and her children, whom I love in the truth; and not I only, but also all they that have known the truth; For the truth\'s sake, which dwelleth in us, and shall be with us for ever.',
+      NASB: 'The elder to the chosen lady and her children, whom I love in truth; and not only I, but also all who know the truth, for the sake of the truth which abides in us and will be with us forever.',
+    },
+    context: {
+      after: {
+        reference: '2 John 3',
+        text: 'Grace, mercy, and peace will be with us, from God the Father and from Jesus Christ the Father\'s Son, in truth and love.',
+      },
+    },
+  },
+  {
+    id: '2-john-1-5',
+    reference: '2 John 5',
+    book: '2 John',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And now I ask you, dear lady—not as though I were writing you a new commandment, but the one we have had from the beginning—that we love one another.',
+      NIV: 'And now, dear lady, I am not writing you a new command but one we have had from the beginning. I ask that we love one another.',
+      KJV: 'And now I beseech thee, lady, not as though I wrote a new commandment unto thee, but that which we had from the beginning, that we love one another.',
+      NASB: 'Now I ask you, lady, not as though I were writing to you a new commandment, but the one which we have had from the beginning, that we love one another.',
+    },
+    context: {
+      before: {
+        reference: '2 John 4',
+        text: 'I rejoiced greatly to find some of your children walking in the truth, just as we were commanded by the Father.',
+      },
+      after: {
+        reference: '2 John 6',
+        text: 'And this is love, that we walk according to his commandments; this is the commandment, just as you have heard from the beginning, so that you should walk in it.',
+      },
+    },
+  },
+  {
     id: '2-john-1-6',
     reference: '2 John 6',
     book: '2 John',
@@ -13556,6 +13600,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ 3 JOHN ============
+  {
+    id: '3-john-1-1',
+    reference: '3 John 1',
+    book: '3 John',
+    chapter: 1,
+    verse: 1,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The elder to the beloved Gaius, whom I love in truth.',
+      NIV: 'The elder, To my dear friend Gaius, whom I love in the truth.',
+      KJV: 'The elder unto the wellbeloved Gaius, whom I love in the truth.',
+      NASB: 'The elder to the beloved Gaius, whom I love in truth.',
+    },
+    context: {
+      after: {
+        reference: '3 John 2',
+        text: 'Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-12',
+    reference: '3 John 12',
+    book: '3 John',
+    chapter: 1,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Demetrius has received a good testimony from everyone, and from the truth itself. We also add our testimony, and you know that our testimony is true.',
+      NIV: 'Demetrius is well spoken of by everyone—and even by the truth itself. We also speak well of him, and you know that our testimony is true.',
+      KJV: 'Demetrius hath good report of all men, and of the truth itself: yea, and we also bear record; and ye know that our record is true.',
+      NASB: 'Demetrius has received a good testimony from everyone, and from the truth itself; and we add our testimony, and you know that our testimony is true.',
+    },
+    context: {
+      before: {
+        reference: '3 John 11',
+        text: 'Beloved, do not imitate evil but imitate good. Whoever does good is from God; whoever does evil has not seen God.',
+      },
+      after: {
+        reference: '3 John 13',
+        text: 'I had much to write to you, but I would rather not write with pen and ink.',
+      },
+    },
+  },
   {
     id: '3-john-1-4',
     reference: '3 John 4',
