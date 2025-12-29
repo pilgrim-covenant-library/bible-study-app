@@ -639,6 +639,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
+    id: 'psalm-46-10',
+    reference: 'Psalm 46:10',
+    book: 'Psalms',
+    chapter: 46,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Be still, and know that I am God. I will be exalted among the nations, I will be exalted in the earth!',
+      NIV: 'He says, "Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth."',
+      KJV: 'Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.',
+      NASB: 'Cease striving and know that I am God; I will be exalted among the nations, I will be exalted in the earth.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 46:9',
+        text: 'He makes wars cease to the end of the earth; he breaks the bow and shatters the spear; he burns the chariots with fire.',
+      },
+      after: {
+        reference: 'Psalm 46:11',
+        text: 'The LORD of hosts is with us; the God of Jacob is our fortress.',
+      },
+    },
+  },
+  {
     id: 'psalm-46-1',
     reference: 'Psalm 46:1',
     book: 'Psalms',
@@ -832,6 +856,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ ISAIAH ============
+  {
+    id: 'isaiah-9-6',
+    reference: 'Isaiah 9:6',
+    book: 'Isaiah',
+    chapter: 9,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For to us a child is born, to us a son is given; and the government shall be upon his shoulder, and his name shall be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.',
+      NIV: 'For to us a child is born, to us a son is given, and the government will be on his shoulders. And he will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.',
+      KJV: 'For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.',
+      NASB: 'For a child will be born to us, a son will be given to us; and the government will rest on His shoulders; and His name will be called Wonderful Counselor, Mighty God, Eternal Father, Prince of Peace.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 9:5',
+        text: 'For every boot of the tramping warrior in battle tumult and every garment rolled in blood will be burned as fuel for the fire.',
+      },
+      after: {
+        reference: 'Isaiah 9:7',
+        text: 'Of the increase of his government and of peace there will be no end.',
+      },
+    },
+  },
   {
     id: 'isaiah-40-31',
     reference: 'Isaiah 40:31',
@@ -1163,6 +1211,110 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ HABAKKUK ============
+  {
+    id: 'habakkuk-2-4',
+    reference: 'Habakkuk 2:4',
+    book: 'Habakkuk',
+    chapter: 2,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Behold, his soul is puffed up; it is not upright within him, but the righteous shall live by his faith.',
+      NIV: 'See, the enemy is puffed up; his desires are not upright—but the righteous person will live by his faithfulness.',
+      KJV: 'Behold, his soul which is lifted up is not upright in him: but the just shall live by his faith.',
+      NASB: 'Behold, as for the proud one, his soul is not right within him; but the righteous will live by his faith.',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 2:3',
+        text: 'For still the vision awaits its appointed time; it hastens to the end—it will not lie.',
+      },
+      after: {
+        reference: 'Habakkuk 2:5',
+        text: 'Moreover, wine is a traitor, an arrogant man who is never at rest.',
+      },
+    },
+  },
+
+  // ============ ZEPHANIAH ============
+  {
+    id: 'zephaniah-3-17',
+    reference: 'Zephaniah 3:17',
+    book: 'Zephaniah',
+    chapter: 3,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.',
+      NIV: 'The LORD your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing.',
+      KJV: 'The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.',
+      NASB: 'The LORD your God is in your midst, a victorious warrior. He will exult over you with joy, He will be quiet in His love, He will rejoice over you with shouts of joy.',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 3:16',
+        text: 'On that day it shall be said to Jerusalem: "Fear not, O Zion; let not your hands grow weak."',
+      },
+      after: {
+        reference: 'Zephaniah 3:18',
+        text: 'I will gather those of you who mourn for the festival, so that you will no longer suffer reproach.',
+      },
+    },
+  },
+
+  // ============ ZECHARIAH ============
+  {
+    id: 'zechariah-4-6',
+    reference: 'Zechariah 4:6',
+    book: 'Zechariah',
+    chapter: 4,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then he said to me, "This is the word of the LORD to Zerubbabel: Not by might, nor by power, but by my Spirit, says the LORD of hosts."',
+      NIV: 'So he said to me, "This is the word of the LORD to Zerubbabel: \'Not by might nor by power, but by my Spirit,\' says the LORD Almighty."',
+      KJV: 'Then he answered and spake unto me, saying, This is the word of the LORD unto Zerubbabel, saying, Not by might, nor by power, but by my spirit, saith the LORD of hosts.',
+      NASB: 'Then he said to me, "This is the word of the LORD to Zerubbabel saying, \'Not by might nor by power, but by My Spirit,\' says the LORD of hosts."',
+    },
+    context: {
+      before: {
+        reference: 'Zechariah 4:5',
+        text: 'And the angel who talked with me answered and said to me, "Do you not know what these are?"',
+      },
+      after: {
+        reference: 'Zechariah 4:7',
+        text: 'Who are you, O great mountain? Before Zerubbabel you shall become a plain.',
+      },
+    },
+  },
+
+  // ============ MALACHI ============
+  {
+    id: 'malachi-3-6',
+    reference: 'Malachi 3:6',
+    book: 'Malachi',
+    chapter: 3,
+    verse: 6,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For I the LORD do not change; therefore you, O children of Jacob, are not consumed.',
+      NIV: 'I the LORD do not change. So you, the descendants of Jacob, are not destroyed.',
+      KJV: 'For I am the LORD, I change not; therefore ye sons of Jacob are not consumed.',
+      NASB: 'For I, the LORD, do not change; therefore you, O sons of Jacob, are not consumed.',
+    },
+    context: {
+      before: {
+        reference: 'Malachi 3:5',
+        text: 'Then I will draw near to you for judgment. I will be a swift witness against the sorcerers.',
+      },
+      after: {
+        reference: 'Malachi 3:7',
+        text: 'From the days of your fathers you have turned aside from my statutes and have not kept them.',
+      },
+    },
+  },
+
   // ============ MATTHEW ============
   {
     id: 'matthew-5-16',
@@ -1301,6 +1453,130 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Matthew 28:19',
         text: 'Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,',
+      },
+    },
+  },
+
+  // ============ MARK ============
+  {
+    id: 'mark-10-45',
+    reference: 'Mark 10:45',
+    book: 'Mark',
+    chapter: 10,
+    verse: 45,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.',
+      NIV: 'For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many.',
+      KJV: 'For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.',
+      NASB: 'For even the Son of Man did not come to be served, but to serve, and to give His life a ransom for many.',
+    },
+    context: {
+      before: {
+        reference: 'Mark 10:44',
+        text: 'and whoever would be first among you must be slave of all.',
+      },
+      after: {
+        reference: 'Mark 10:46',
+        text: 'And they came to Jericho. And as he was leaving Jericho with his disciples and a great crowd, Bartimaeus, a blind beggar, the son of Timaeus, was sitting by the roadside.',
+      },
+    },
+  },
+  {
+    id: 'mark-8-34',
+    reference: 'Mark 8:34',
+    book: 'Mark',
+    chapter: 8,
+    verse: 34,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And calling the crowd to him with his disciples, he said to them, "If anyone would come after me, let him deny himself and take up his cross and follow me."',
+      NIV: 'Then he called the crowd to him along with his disciples and said: "Whoever wants to be my disciple must deny themselves and take up their cross and follow me."',
+      KJV: 'And when he had called the people unto him with his disciples also, he said unto them, Whosoever will come after me, let him deny himself, and take up his cross, and follow me.',
+      NASB: 'And He summoned the crowd with His disciples, and said to them, "If anyone wishes to come after Me, he must deny himself, and take up his cross and follow Me."',
+    },
+    context: {
+      before: {
+        reference: 'Mark 8:33',
+        text: 'But turning and seeing his disciples, he rebuked Peter and said, "Get behind me, Satan! For you are not setting your mind on the things of God, but on the things of man."',
+      },
+      after: {
+        reference: 'Mark 8:35',
+        text: 'For whoever would save his life will lose it, but whoever loses his life for my sake and the gospel\'s will save it.',
+      },
+    },
+  },
+
+  // ============ LUKE ============
+  {
+    id: 'luke-19-10',
+    reference: 'Luke 19:10',
+    book: 'Luke',
+    chapter: 19,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For the Son of Man came to seek and to save the lost.',
+      NIV: 'For the Son of Man came to seek and to save the lost.',
+      KJV: 'For the Son of man is come to seek and to save that which was lost.',
+      NASB: 'For the Son of Man has come to seek and to save that which was lost.',
+    },
+    context: {
+      before: {
+        reference: 'Luke 19:9',
+        text: 'And Jesus said to him, "Today salvation has come to this house, since he also is a son of Abraham."',
+      },
+      after: {
+        reference: 'Luke 19:11',
+        text: 'As they heard these things, he proceeded to tell a parable, because he was near to Jerusalem.',
+      },
+    },
+  },
+  {
+    id: 'luke-9-23',
+    reference: 'Luke 9:23',
+    book: 'Luke',
+    chapter: 9,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he said to all, "If anyone would come after me, let him deny himself and take up his cross daily and follow me."',
+      NIV: 'Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me."',
+      KJV: 'And he said to them all, If any man will come after me, let him deny himself, and take up his cross daily, and follow me.',
+      NASB: 'And He was saying to them all, "If anyone wishes to come after Me, he must deny himself, and take up his cross daily and follow Me."',
+    },
+    context: {
+      before: {
+        reference: 'Luke 9:22',
+        text: 'saying, "The Son of Man must suffer many things and be rejected by the elders and chief priests and scribes, and be killed, and on the third day be raised."',
+      },
+      after: {
+        reference: 'Luke 9:24',
+        text: 'For whoever would save his life will lose it, but whoever loses his life for my sake will save it.',
+      },
+    },
+  },
+  {
+    id: 'luke-2-10-11',
+    reference: 'Luke 2:10-11',
+    book: 'Luke',
+    chapter: 2,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And the angel said to them, "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."',
+      NIV: 'But the angel said to them, "Do not be afraid. I bring you good news that will cause great joy for all the people. Today in the town of David a Savior has been born to you; he is the Messiah, the Lord."',
+      KJV: 'And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord.',
+      NASB: 'And the angel said to them, "Do not be afraid; for behold, I bring you good news of great joy which will be for all the people; for today in the city of David there has been born for you a Savior, who is Christ the Lord."',
+    },
+    context: {
+      before: {
+        reference: 'Luke 2:9',
+        text: 'And an angel of the Lord appeared to them, and the glory of the Lord shone around them, and they were filled with great fear.',
+      },
+      after: {
+        reference: 'Luke 2:12',
+        text: 'And this will be a sign for you: you will find a baby wrapped in swaddling cloths and lying in a manger.',
       },
     },
   },
@@ -1717,6 +1993,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ 1 CORINTHIANS ============
   {
+    id: '1-corinthians-15-55-57',
+    reference: '1 Corinthians 15:55-57',
+    book: '1 Corinthians',
+    chapter: 15,
+    verse: 55,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"O death, where is your victory? O death, where is your sting?" The sting of death is sin, and the power of sin is the law. But thanks be to God, who gives us the victory through our Lord Jesus Christ.',
+      NIV: '"Where, O death, is your victory? Where, O death, is your sting?" The sting of death is sin, and the power of sin is the law. But thanks be to God! He gives us the victory through our Lord Jesus Christ.',
+      KJV: 'O death, where is thy sting? O grave, where is thy victory? The sting of death is sin; and the strength of sin is the law. But thanks be to God, which giveth us the victory through our Lord Jesus Christ.',
+      NASB: '"O death, where is your victory? O death, where is your sting?" The sting of death is sin, and the power of sin is the law; but thanks be to God, who gives us the victory through our Lord Jesus Christ.',
+    },
+    context: {
+      before: {
+        reference: '1 Corinthians 15:54',
+        text: 'When the perishable puts on the imperishable, and the mortal puts on immortality, then shall come to pass the saying that is written: "Death is swallowed up in victory."',
+      },
+      after: {
+        reference: '1 Corinthians 15:58',
+        text: 'Therefore, my beloved brothers, be steadfast, immovable, always abounding in the work of the Lord, knowing that in the Lord your labor is not in vain.',
+      },
+    },
+  },
+  {
     id: '1-corinthians-10-13',
     reference: '1 Corinthians 10:13',
     book: '1 Corinthians',
@@ -1965,6 +2265,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ PHILIPPIANS ============
   {
+    id: 'philippians-2-10-11',
+    reference: 'Philippians 2:10-11',
+    book: 'Philippians',
+    chapter: 2,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'so that at the name of Jesus every knee should bow, in heaven and on earth and under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father.',
+      NIV: 'that at the name of Jesus every knee should bow, in heaven and on earth and under the earth, and every tongue acknowledge that Jesus Christ is Lord, to the glory of God the Father.',
+      KJV: 'That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.',
+      NASB: 'so that at the name of Jesus every knee will bow, of those who are in heaven and on earth and under the earth, and that every tongue will confess that Jesus Christ is Lord, to the glory of God the Father.',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 2:9',
+        text: 'Therefore God has highly exalted him and bestowed on him the name that is above every name,',
+      },
+      after: {
+        reference: 'Philippians 2:12',
+        text: 'Therefore, my beloved, as you have always obeyed, so now, not only as in my presence but much more in my absence, work out your own salvation with fear and trembling.',
+      },
+    },
+  },
+  {
     id: 'philippians-4-6',
     reference: 'Philippians 4:6',
     book: 'Philippians',
@@ -2063,6 +2387,132 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ 1 THESSALONIANS ============
+  {
+    id: '1-thessalonians-5-16-18',
+    reference: '1 Thessalonians 5:16-18',
+    book: '1 Thessalonians',
+    chapter: 5,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Rejoice always, pray without ceasing, give thanks in all circumstances; for this is the will of God in Christ Jesus for you.',
+      NIV: 'Rejoice always, pray continually, give thanks in all circumstances; for this is God\'s will for you in Christ Jesus.',
+      KJV: 'Rejoice evermore. Pray without ceasing. In every thing give thanks: for this is the will of God in Christ Jesus concerning you.',
+      NASB: 'Rejoice always; pray without ceasing; in everything give thanks; for this is God\'s will for you in Christ Jesus.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 5:15',
+        text: 'See that no one repays anyone evil for evil, but always seek to do good to one another and to everyone.',
+      },
+      after: {
+        reference: '1 Thessalonians 5:19',
+        text: 'Do not quench the Spirit.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-4-16-17',
+    reference: '1 Thessalonians 4:16-17',
+    book: '1 Thessalonians',
+    chapter: 4,
+    verse: 16,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For the Lord himself will descend from heaven with a cry of command, with the voice of an archangel, and with the sound of the trumpet of God. And the dead in Christ will rise first. Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air, and so we will always be with the Lord.',
+      NIV: 'For the Lord himself will come down from heaven, with a loud command, with the voice of the archangel and with the trumpet call of God, and the dead in Christ will rise first. After that, we who are still alive and are left will be caught up together with them in the clouds to meet the Lord in the air. And so we will be with the Lord forever.',
+      KJV: 'For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first: Then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord.',
+      NASB: 'For the Lord Himself will descend from heaven with a shout, with the voice of the archangel and with the trumpet of God, and the dead in Christ will rise first. Then we who are alive and remain will be caught up together with them in the clouds to meet the Lord in the air, and so we shall always be with the Lord.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 4:15',
+        text: 'For this we declare to you by a word from the Lord, that we who are alive, who are left until the coming of the Lord, will not precede those who have fallen asleep.',
+      },
+      after: {
+        reference: '1 Thessalonians 4:18',
+        text: 'Therefore encourage one another with these words.',
+      },
+    },
+  },
+
+  // ============ 2 THESSALONIANS ============
+  {
+    id: '2-thessalonians-3-3',
+    reference: '2 Thessalonians 3:3',
+    book: '2 Thessalonians',
+    chapter: 3,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But the Lord is faithful. He will establish you and guard you against the evil one.',
+      NIV: 'But the Lord is faithful, and he will strengthen you and protect you from the evil one.',
+      KJV: 'But the Lord is faithful, who shall stablish you, and keep you from evil.',
+      NASB: 'But the Lord is faithful, and He will strengthen and protect you from the evil one.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 3:2',
+        text: 'And that we may be delivered from wicked and evil men. For not all have faith.',
+      },
+      after: {
+        reference: '2 Thessalonians 3:4',
+        text: 'And we have confidence in the Lord about you, that you are doing and will do the things that we command.',
+      },
+    },
+  },
+
+  // ============ 1 TIMOTHY ============
+  {
+    id: '1-timothy-2-5',
+    reference: '1 Timothy 2:5',
+    book: '1 Timothy',
+    chapter: 2,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For there is one God, and there is one mediator between God and men, the man Christ Jesus,',
+      NIV: 'For there is one God and one mediator between God and mankind, the man Christ Jesus,',
+      KJV: 'For there is one God, and one mediator between God and men, the man Christ Jesus;',
+      NASB: 'For there is one God, and one mediator also between God and men, the man Christ Jesus,',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 2:4',
+        text: 'who desires all people to be saved and to come to the knowledge of the truth.',
+      },
+      after: {
+        reference: '1 Timothy 2:6',
+        text: 'who gave himself as a ransom for all, which is the testimony given at the proper time.',
+      },
+    },
+  },
+  {
+    id: '1-timothy-4-12',
+    reference: '1 Timothy 4:12',
+    book: '1 Timothy',
+    chapter: 4,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Let no one despise you for your youth, but set the believers an example in speech, in conduct, in love, in faith, in purity.',
+      NIV: 'Don\'t let anyone look down on you because you are young, but set an example for the believers in speech, in conduct, in love, in faith and in purity.',
+      KJV: 'Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity.',
+      NASB: 'Let no one look down on your youthfulness, but rather in speech, conduct, love, faith and purity, show yourself an example of those who believe.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 4:11',
+        text: 'Command and teach these things.',
+      },
+      after: {
+        reference: '1 Timothy 4:13',
+        text: 'Until I come, devote yourself to the public reading of Scripture, to exhortation, to teaching.',
+      },
+    },
+  },
+
   // ============ 2 TIMOTHY ============
   {
     id: '2-timothy-1-7',
@@ -2113,7 +2563,107 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ TITUS ============
+  {
+    id: 'titus-3-5',
+    reference: 'Titus 3:5',
+    book: 'Titus',
+    chapter: 3,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'he saved us, not because of works done by us in righteousness, but according to his own mercy, by the washing of regeneration and renewal of the Holy Spirit,',
+      NIV: 'he saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit,',
+      KJV: 'Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost;',
+      NASB: 'He saved us, not on the basis of deeds which we have done in righteousness, but according to His mercy, by the washing of regeneration and renewing by the Holy Spirit,',
+    },
+    context: {
+      before: {
+        reference: 'Titus 3:4',
+        text: 'But when the goodness and loving kindness of God our Savior appeared,',
+      },
+      after: {
+        reference: 'Titus 3:6',
+        text: 'whom he poured out on us richly through Jesus Christ our Savior,',
+      },
+    },
+  },
+  {
+    id: 'titus-2-11-12',
+    reference: 'Titus 2:11-12',
+    book: 'Titus',
+    chapter: 2,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the grace of God has appeared, bringing salvation for all people, training us to renounce ungodliness and worldly passions, and to live self-controlled, upright, and godly lives in the present age.',
+      NIV: 'For the grace of God has appeared that offers salvation to all people. It teaches us to say "No" to ungodliness and worldly passions, and to live self-controlled, upright and godly lives in this present age.',
+      KJV: 'For the grace of God that bringeth salvation hath appeared to all men, Teaching us that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world.',
+      NASB: 'For the grace of God has appeared, bringing salvation to all men, instructing us to deny ungodliness and worldly desires and to live sensibly, righteously and godly in the present age.',
+    },
+    context: {
+      before: {
+        reference: 'Titus 2:10',
+        text: 'not pilfering, but showing all good faith, so that in everything they may adorn the doctrine of God our Savior.',
+      },
+      after: {
+        reference: 'Titus 2:13',
+        text: 'waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ.',
+      },
+    },
+  },
+
+  // ============ PHILEMON ============
+  {
+    id: 'philemon-6',
+    reference: 'Philemon 6',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'and I pray that the sharing of your faith may become effective for the full knowledge of every good thing that is in us for the sake of Christ.',
+      NIV: 'I pray that your partnership in the faith may be effective in deepening your understanding of every good thing we share for the sake of Christ.',
+      KJV: 'That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.',
+      NASB: 'And I pray that the fellowship of your faith may become effective through the knowledge of every good thing which is in you for Christ\'s sake.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 5',
+        text: 'because I hear of your love and of the faith that you have toward the Lord Jesus and for all the saints,',
+      },
+      after: {
+        reference: 'Philemon 7',
+        text: 'For I have derived much joy and comfort from your love, my brother, because the hearts of the saints have been refreshed through you.',
+      },
+    },
+  },
+
   // ============ HEBREWS ============
+  {
+    id: 'hebrews-12-1-2',
+    reference: 'Hebrews 12:1-2',
+    book: 'Hebrews',
+    chapter: 12,
+    verse: 1,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Therefore, since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight, and sin which clings so closely, and let us run with endurance the race that is set before us, looking to Jesus, the founder and perfecter of our faith, who for the joy that was set before him endured the cross, despising the shame, and is seated at the right hand of the throne of God.',
+      NIV: 'Therefore, since we are surrounded by such a great cloud of witnesses, let us throw off everything that hinders and the sin that so easily entangles. And let us run with perseverance the race marked out for us, fixing our eyes on Jesus, the pioneer and perfecter of faith. For the joy set before him he endured the cross, scorning its shame, and sat down at the right hand of the throne of God.',
+      KJV: 'Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God.',
+      NASB: 'Therefore, since we have so great a cloud of witnesses surrounding us, let us also lay aside every encumbrance and the sin which so easily entangles us, and let us run with endurance the race that is set before us, fixing our eyes on Jesus, the author and perfecter of faith, who for the joy set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 11:40',
+        text: 'Since God had provided something better for us, that apart from us they should not be made perfect.',
+      },
+      after: {
+        reference: 'Hebrews 12:3',
+        text: 'Consider him who endured from sinners such hostility against himself, so that you may not grow weary or fainthearted.',
+      },
+    },
+  },
   {
     id: 'hebrews-4-12',
     reference: 'Hebrews 4:12',
@@ -2385,6 +2935,104 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Jude 4',
         text: 'For certain people have crept in unnoticed who long ago were designated for this condemnation.',
+      },
+    },
+  },
+
+  // ============ REVELATION ============
+  {
+    id: 'revelation-1-8',
+    reference: 'Revelation 1:8',
+    book: 'Revelation',
+    chapter: 1,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"I am the Alpha and the Omega," says the Lord God, "who is and who was and who is to come, the Almighty."',
+      NIV: '"I am the Alpha and the Omega," says the Lord God, "who is, and who was, and who is to come, the Almighty."',
+      KJV: 'I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty.',
+      NASB: '"I am the Alpha and the Omega," says the Lord God, "who is and who was and who is to come, the Almighty."',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 1:7',
+        text: 'Behold, he is coming with the clouds, and every eye will see him, even those who pierced him, and all tribes of the earth will wail on account of him.',
+      },
+      after: {
+        reference: 'Revelation 1:9',
+        text: 'I, John, your brother and partner in the tribulation and the kingdom and the patient endurance that are in Jesus.',
+      },
+    },
+  },
+  {
+    id: 'revelation-3-20',
+    reference: 'Revelation 3:20',
+    book: 'Revelation',
+    chapter: 3,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.',
+      NIV: 'Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me.',
+      KJV: 'Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.',
+      NASB: 'Behold, I stand at the door and knock; if anyone hears My voice and opens the door, I will come in to him and will dine with him, and he with Me.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 3:19',
+        text: 'Those whom I love, I reprove and discipline, so be zealous and repent.',
+      },
+      after: {
+        reference: 'Revelation 3:21',
+        text: 'The one who conquers, I will grant him to sit with me on my throne, as I also conquered and sat down with my Father on his throne.',
+      },
+    },
+  },
+  {
+    id: 'revelation-21-4',
+    reference: 'Revelation 21:4',
+    book: 'Revelation',
+    chapter: 21,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.',
+      NIV: 'He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away.',
+      KJV: 'And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.',
+      NASB: 'and He will wipe away every tear from their eyes; and there will no longer be any death; there will no longer be any mourning, or crying, or pain; the first things have passed away.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 21:3',
+        text: 'And I heard a loud voice from the throne saying, "Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people."',
+      },
+      after: {
+        reference: 'Revelation 21:5',
+        text: 'And he who was seated on the throne said, "Behold, I am making all things new."',
+      },
+    },
+  },
+  {
+    id: 'revelation-22-20',
+    reference: 'Revelation 22:20',
+    book: 'Revelation',
+    chapter: 22,
+    verse: 20,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'He who testifies to these things says, "Surely I am coming soon." Amen. Come, Lord Jesus!',
+      NIV: 'He who testifies to these things says, "Yes, I am coming soon." Amen. Come, Lord Jesus.',
+      KJV: 'He which testifieth these things saith, Surely I come quickly. Amen. Even so, come, Lord Jesus.',
+      NASB: 'He who testifies to these things says, "Yes, I am coming quickly." Amen. Come, Lord Jesus.',
+    },
+    context: {
+      before: {
+        reference: 'Revelation 22:19',
+        text: 'And if anyone takes away from the words of the book of this prophecy, God will take away his share in the tree of life.',
+      },
+      after: {
+        reference: 'Revelation 22:21',
+        text: 'The grace of the Lord Jesus be with all. Amen.',
       },
     },
   },
