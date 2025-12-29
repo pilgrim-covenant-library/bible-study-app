@@ -11341,6 +11341,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'galatians-3-11',
+    reference: 'Galatians 3:11',
+    book: 'Galatians',
+    chapter: 3,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Now it is evident that no one is justified before God by the law, for "The righteous shall live by faith."',
+      NIV: 'Clearly no one who relies on the law is justified before God, because "the righteous will live by faith."',
+      KJV: 'But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith.',
+      NASB: 'Now that no one is justified by the Law before God is evident; for, "The righteous man shall live by faith."',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 3:10',
+        text: 'For all who rely on works of the law are under a curse; for it is written, "Cursed be everyone who does not abide by all things written in the Book of the Law, and do them."',
+      },
+      after: {
+        reference: 'Galatians 3:12',
+        text: 'But the law is not of faith, rather "The one who does them shall live by them."',
+      },
+    },
+  },
+  {
+    id: 'galatians-4-6',
+    reference: 'Galatians 4:6',
+    book: 'Galatians',
+    chapter: 4,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And because you are sons, God has sent the Spirit of his Son into our hearts, crying, "Abba! Father!"',
+      NIV: 'Because you are his sons, God sent the Spirit of his Son into our hearts, the Spirit who calls out, "Abba, Father."',
+      KJV: 'And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.',
+      NASB: 'Because you are sons, God has sent forth the Spirit of His Son into our hearts, crying, "Abba! Father!"',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 4:5',
+        text: 'to redeem those who were under the law, so that we might receive adoption as sons.',
+      },
+      after: {
+        reference: 'Galatians 4:7',
+        text: 'So you are no longer a slave, but a son, and if a son, then an heir through God.',
+      },
+    },
+  },
 
   // ============ EPHESIANS ============
   {
@@ -15452,6 +15500,98 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-john-1-10',
+    reference: '2 John 10',
+    book: '2 John',
+    chapter: 1,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'If anyone comes to you and does not bring this teaching, do not receive him into your house or give him any greeting.',
+      NIV: 'If anyone comes to you and does not bring this teaching, do not take them into your house or welcome them.',
+      KJV: 'If there come any unto you, and bring not this doctrine, receive him not into your house, neither bid him God speed.',
+      NASB: 'If anyone comes to you and does not bring this teaching, do not receive him into your house, and do not give him a greeting.',
+    },
+    context: {
+      before: {
+        reference: '2 John 9',
+        text: 'Everyone who goes on ahead and does not abide in the teaching of Christ, does not have God. Whoever abides in the teaching has both the Father and the Son.',
+      },
+      after: {
+        reference: '2 John 11',
+        text: 'For whoever greets him takes part in his wicked works.',
+      },
+    },
+  },
+  {
+    id: '2-john-1-11',
+    reference: '2 John 11',
+    book: '2 John',
+    chapter: 1,
+    verse: 11,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For whoever greets him takes part in his wicked works.',
+      NIV: 'Anyone who welcomes them shares in their wicked work.',
+      KJV: 'For he that biddeth him God speed is partaker of his evil deeds.',
+      NASB: 'For the one who gives him a greeting participates in his evil deeds.',
+    },
+    context: {
+      before: {
+        reference: '2 John 10',
+        text: 'If anyone comes to you and does not bring this teaching, do not receive him into your house or give him any greeting.',
+      },
+      after: {
+        reference: '2 John 12',
+        text: 'Though I have much to write to you, I would rather not use paper and ink. Instead I hope to come to you and talk face to face, so that our joy may be complete.',
+      },
+    },
+  },
+  {
+    id: '2-john-1-12',
+    reference: '2 John 12',
+    book: '2 John',
+    chapter: 1,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Though I have much to write to you, I would rather not use paper and ink. Instead I hope to come to you and talk face to face, so that our joy may be complete.',
+      NIV: 'I have much to write to you, but I do not want to use paper and ink. Instead, I hope to visit you and talk with you face to face, so that our joy may be complete.',
+      KJV: 'Having many things to write unto you, I would not write with paper and ink: but I trust to come unto you, and speak face to face, that our joy may be full.',
+      NASB: 'Though I have many things to write to you, I do not want to do so with paper and ink; but I hope to come to you and speak face to face, so that your joy may be made full.',
+    },
+    context: {
+      before: {
+        reference: '2 John 11',
+        text: 'For whoever greets him takes part in his wicked works.',
+      },
+      after: {
+        reference: '2 John 13',
+        text: 'The children of your elect sister greet you.',
+      },
+    },
+  },
+  {
+    id: '2-john-1-13',
+    reference: '2 John 13',
+    book: '2 John',
+    chapter: 1,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The children of your elect sister greet you.',
+      NIV: 'The children of your sister, who is chosen by God, send their greetings.',
+      KJV: 'The children of thy elect sister greet thee. Amen.',
+      NASB: 'The children of your chosen sister greet you.',
+    },
+    context: {
+      before: {
+        reference: '2 John 12',
+        text: 'Though I have much to write to you, I would rather not use paper and ink. Instead I hope to come to you and talk face to face, so that our joy may be complete.',
+      },
+    },
+  },
 
   // ============ 3 JOHN ============
   {
@@ -15930,6 +16070,98 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ JUDE ============
+  {
+    id: 'jude-1',
+    reference: 'Jude 1',
+    book: 'Jude',
+    chapter: 1,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Jude, a servant of Jesus Christ and brother of James, To those who are called, beloved in God the Father and kept for Jesus Christ.',
+      NIV: 'Jude, a servant of Jesus Christ and a brother of James, To those who have been called, who are loved in God the Father and kept for Jesus Christ.',
+      KJV: 'Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called.',
+      NASB: 'Jude, a bond-servant of Jesus Christ, and brother of James, To those who are the called, beloved in God the Father, and kept for Jesus Christ.',
+    },
+    context: {
+      after: {
+        reference: 'Jude 2',
+        text: 'May mercy, peace, and love be multiplied to you.',
+      },
+    },
+  },
+  {
+    id: 'jude-2',
+    reference: 'Jude 2',
+    book: 'Jude',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'May mercy, peace, and love be multiplied to you.',
+      NIV: 'Mercy, peace and love be yours in abundance.',
+      KJV: 'Mercy unto you, and peace, and love, be multiplied.',
+      NASB: 'May mercy and peace and love be multiplied to you.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 1',
+        text: 'Jude, a servant of Jesus Christ and brother of James, To those who are called, beloved in God the Father and kept for Jesus Christ.',
+      },
+      after: {
+        reference: 'Jude 3',
+        text: 'Beloved, although I was very eager to write to you about our common salvation, I found it necessary to write appealing to you to contend for the faith that was once for all delivered to the saints.',
+      },
+    },
+  },
+  {
+    id: 'jude-5',
+    reference: 'Jude 5',
+    book: 'Jude',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Now I want to remind you, although you once fully knew it, that Jesus, who saved a people out of the land of Egypt, afterward destroyed those who did not believe.',
+      NIV: 'Though you already know all this, I want to remind you that the Lord at one time delivered his people out of Egypt, but later destroyed those who did not believe.',
+      KJV: 'I will therefore put you in remembrance, though ye once knew this, how that the Lord, having saved the people out of the land of Egypt, afterward destroyed them that believed not.',
+      NASB: 'Now I desire to remind you, though you know all things once for all, that the Lord, after saving a people out of the land of Egypt, subsequently destroyed those who did not believe.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 4',
+        text: 'For certain people have crept in unnoticed who long ago were designated for this condemnation, ungodly people, who pervert the grace of our God into sensuality and deny our only Master and Lord, Jesus Christ.',
+      },
+      after: {
+        reference: 'Jude 6',
+        text: 'And the angels who did not stay within their own position of authority, but left their proper dwelling, he has kept in eternal chains under gloomy darkness until the judgment of the great day.',
+      },
+    },
+  },
+  {
+    id: 'jude-6',
+    reference: 'Jude 6',
+    book: 'Jude',
+    chapter: 1,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And the angels who did not stay within their own position of authority, but left their proper dwelling, he has kept in eternal chains under gloomy darkness until the judgment of the great day.',
+      NIV: 'And the angels who did not keep their positions of authority but abandoned their proper dwelling—these he has kept in darkness, bound with everlasting chains for judgment on the great Day.',
+      KJV: 'And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day.',
+      NASB: 'And angels who did not keep their own domain, but abandoned their proper abode, He has kept in eternal bonds under darkness for the judgment of the great day.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 5',
+        text: 'Now I want to remind you, although you once fully knew it, that Jesus, who saved a people out of the land of Egypt, afterward destroyed those who did not believe.',
+      },
+      after: {
+        reference: 'Jude 7',
+        text: 'Just as Sodom and Gomorrah and the surrounding cities, which likewise indulged in sexual immorality and pursued unnatural desire, serve as an example by undergoing a punishment of eternal fire.',
+      },
+    },
+  },
   {
     id: 'jude-24',
     reference: 'Jude 24',
