@@ -9565,6 +9565,21 @@ export const THIRD_JOHN_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// JUDE (1 Chapter)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const JUDE_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'jude',
+    chapter: 1,
+    title: 'Contending for the Faith',
+    summary: 'Jude, a servant of Jesus Christ and brother of James, writes to those who are called, beloved in God the Father, and kept for Jesus Christ. Mercy, peace, and love be multiplied. Though eager to write about their common salvation, he found it necessary to appeal to them to contend for the faith once for all delivered to the saints. Certain people have crept in unnoticed—ungodly people who pervert the grace of God into sensuality and deny our only Master and Lord, Jesus Christ. He reminds them: the Lord saved a people out of Egypt but afterward destroyed those who did not believe; angels who abandoned their proper dwelling He keeps in eternal chains; Sodom and Gomorrah serve as an example by undergoing punishment of eternal fire. Yet these people, relying on their dreams, defile the flesh, reject authority, and blaspheme the glorious ones. Even the archangel Michael, when contending with the devil about Moses\' body, did not pronounce a blasphemous judgment but said, "The Lord rebuke you." But these people blaspheme what they do not understand and are destroyed by what they know by instinct. Woe to them! They walked in Cain\'s way, abandoned themselves to Balaam\'s error for profit, and perished in Korah\'s rebellion. They are hidden reefs at love feasts, shepherds feeding themselves, waterless clouds, fruitless trees twice dead, wild waves foaming up their shame, wandering stars for whom gloom of utter darkness is reserved forever. Enoch prophesied about them: "Behold, the Lord comes with ten thousands of His holy ones to execute judgment." These are grumblers, malcontents, following their own sinful desires; their mouths speak loud boasts, showing favoritism for advantage. But the apostles foretold that scoffers would come in the last time. These cause divisions, worldly people, devoid of the Spirit. But you, beloved, building yourselves up in the most holy faith, praying in the Holy Spirit, keep yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life. Have mercy on those who doubt; save others by snatching them out of the fire; to others show mercy with fear, hating even the garment stained by the flesh. Now to Him who is able to keep you from stumbling and to present you blameless before the presence of His glory with great joy—to the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time and now and forever. Amen.',
+    keyThemes: ['Contending for the faith', 'Judgment on false teachers', 'Apostasy and its consequences', 'Preservation by God\'s power'],
+    christConnection: 'Jesus Christ is "our only Master and Lord" whom the false teachers deny. Believers are "kept for Jesus Christ"—preserved for His coming. The concluding doxology praises God who keeps believers from stumbling through Jesus Christ. Eternal life comes through "the mercy of our Lord Jesus Christ."'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9694,6 +9709,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return SECOND_JOHN_CHAPTERS;
     case '3-john':
       return THIRD_JOHN_CHAPTERS;
+    case 'jude':
+      return JUDE_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9766,4 +9783,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: '1-john', bookName: '1 John', chapters: FIRST_JOHN_CHAPTERS },
   { bookId: '2-john', bookName: '2 John', chapters: SECOND_JOHN_CHAPTERS },
   { bookId: '3-john', bookName: '3 John', chapters: THIRD_JOHN_CHAPTERS },
+  { bookId: 'jude', bookName: 'Jude', chapters: JUDE_CHAPTERS },
 ];
