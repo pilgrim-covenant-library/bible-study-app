@@ -14828,6 +14828,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-peter-1-23',
+    reference: '1 Peter 1:23',
+    book: '1 Peter',
+    chapter: 1,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'since you have been born again, not of perishable seed but of imperishable, through the living and abiding word of God.',
+      NIV: 'For you have been born again, not of perishable seed, but of imperishable, through the living and enduring word of God.',
+      KJV: 'Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever.',
+      NASB: 'for you have been born again not of seed which is perishable but imperishable, that is, through the living and enduring word of God.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 1:22',
+        text: 'Having purified your souls by your obedience to the truth for a sincere brotherly love, love one another earnestly from a pure heart,',
+      },
+      after: {
+        reference: '1 Peter 1:24',
+        text: 'for "All flesh is like grass and all its glory like the flower of grass. The grass withers, and the flower falls,"',
+      },
+    },
+  },
+  {
+    id: '1-peter-2-2',
+    reference: '1 Peter 2:2',
+    book: '1 Peter',
+    chapter: 2,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Like newborn infants, long for the pure spiritual milk, that by it you may grow up into salvation—',
+      NIV: 'Like newborn babies, crave pure spiritual milk, so that by it you may grow up in your salvation,',
+      KJV: 'As newborn babes, desire the sincere milk of the word, that ye may grow thereby:',
+      NASB: 'like newborn babies, long for the pure milk of the word, so that by it you may grow in respect to salvation,',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 2:1',
+        text: 'So put away all malice and all deceit and hypocrisy and envy and all slander.',
+      },
+      after: {
+        reference: '1 Peter 2:3',
+        text: 'if indeed you have tasted that the Lord is good.',
+      },
+    },
+  },
+  {
+    id: '1-peter-3-7',
+    reference: '1 Peter 3:7',
+    book: '1 Peter',
+    chapter: 3,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Likewise, husbands, live with your wives in an understanding way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace of life, so that your prayers may not be hindered.',
+      NIV: 'Husbands, in the same way be considerate as you live with your wives, and treat them with respect as the weaker partner and as heirs with you of the gracious gift of life, so that nothing will hinder your prayers.',
+      KJV: 'Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.',
+      NASB: 'You husbands in the same way, live with your wives in an understanding way, as with someone weaker, since she is a woman; and show her honor as a fellow heir of the grace of life, so that your prayers will not be hindered.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 3:6',
+        text: 'as Sarah obeyed Abraham, calling him lord. And you are her children, if you do good and do not fear anything that is frightening.',
+      },
+      after: {
+        reference: '1 Peter 3:8',
+        text: 'Finally, all of you, have unity of mind, sympathy, brotherly love, a tender heart, and a humble mind.',
+      },
+    },
+  },
+  {
+    id: '1-peter-5-5',
+    reference: '1 Peter 5:5',
+    book: '1 Peter',
+    chapter: 5,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Likewise, you who are younger, be subject to the elders. Clothe yourselves, all of you, with humility toward one another, for "God opposes the proud but gives grace to the humble."',
+      NIV: 'In the same way, you who are younger, submit yourselves to your elders. All of you, clothe yourselves with humility toward one another, because, "God opposes the proud but shows favor to the humble."',
+      KJV: 'Likewise, ye younger, submit yourselves unto the elder. Yea, all of you be subject one to another, and be clothed with humility: for God resisteth the proud, and giveth grace to the humble.',
+      NASB: 'You younger men, likewise, be subject to your elders; and all of you, clothe yourselves with humility toward one another, for God is opposed to the proud, but gives grace to the humble.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 5:4',
+        text: 'And when the chief Shepherd appears, you will receive the unfading crown of glory.',
+      },
+      after: {
+        reference: '1 Peter 5:6',
+        text: 'Humble yourselves, therefore, under the mighty hand of God so that at the proper time he may exalt you,',
+      },
+    },
+  },
 
   // ============ 1 JOHN ============
   {
@@ -15685,6 +15781,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Peter 3:9',
         text: 'The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish.',
+      },
+    },
+  },
+  {
+    id: '2-peter-1-16',
+    reference: '2 Peter 1:16',
+    book: '2 Peter',
+    chapter: 1,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For we did not follow cleverly devised myths when we made known to you the power and coming of our Lord Jesus Christ, but we were eyewitnesses of his majesty.',
+      NIV: 'For we did not follow cleverly devised stories when we told you about the coming of our Lord Jesus Christ in power, but we were eyewitnesses of his majesty.',
+      KJV: 'For we have not followed cunningly devised fables, when we made known unto you the power and coming of our Lord Jesus Christ, but were eyewitnesses of his majesty.',
+      NASB: 'For we did not follow cleverly devised tales when we made known to you the power and coming of our Lord Jesus Christ, but we were eyewitnesses of His majesty.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 1:15',
+        text: 'And I will make every effort so that after my departure you may be able at any time to recall these things.',
+      },
+      after: {
+        reference: '2 Peter 1:17',
+        text: 'For when he received honor and glory from God the Father, and the voice was borne to him by the Majestic Glory.',
+      },
+    },
+  },
+  {
+    id: '2-peter-2-9',
+    reference: '2 Peter 2:9',
+    book: '2 Peter',
+    chapter: 2,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'then the Lord knows how to rescue the godly from trials, and to keep the unrighteous under punishment until the day of judgment.',
+      NIV: 'if this is so, then the Lord knows how to rescue the godly from trials and to hold the unrighteous for punishment on the day of judgment.',
+      KJV: 'The Lord knoweth how to deliver the godly out of temptations, and to reserve the unjust unto the day of judgment to be punished.',
+      NASB: 'then the Lord knows how to rescue the godly from temptation, and to keep the unrighteous under punishment for the day of judgment.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 2:8',
+        text: 'for as that righteous man lived among them day after day, he was tormenting his righteous soul over their lawless deeds that he saw and heard.',
+      },
+      after: {
+        reference: '2 Peter 2:10',
+        text: 'and especially those who indulge in the lust of defiling passion and despise authority.',
+      },
+    },
+  },
+  {
+    id: '2-peter-3-13',
+    reference: '2 Peter 3:13',
+    book: '2 Peter',
+    chapter: 3,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But according to his promise we are waiting for new heavens and a new earth in which righteousness dwells.',
+      NIV: 'But in keeping with his promise we are looking forward to a new heaven and a new earth, where righteousness dwells.',
+      KJV: 'Nevertheless we, according to his promise, look for new heavens and a new earth, wherein dwelleth righteousness.',
+      NASB: 'But according to His promise we are looking for new heavens and a new earth, in which righteousness dwells.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 3:12',
+        text: 'waiting for and hastening the coming of the day of God, because of which the heavens will be set on fire and dissolved.',
+      },
+      after: {
+        reference: '2 Peter 3:14',
+        text: 'Therefore, beloved, since you are waiting for these, be diligent to be found by him without spot or blemish, and at peace.',
+      },
+    },
+  },
+  {
+    id: '2-peter-3-14',
+    reference: '2 Peter 3:14',
+    book: '2 Peter',
+    chapter: 3,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore, beloved, since you are waiting for these, be diligent to be found by him without spot or blemish, and at peace.',
+      NIV: 'So then, dear friends, since you are looking forward to this, make every effort to be found spotless, blameless and at peace with him.',
+      KJV: 'Wherefore, beloved, seeing that ye look for such things, be diligent that ye may be found of him in peace, without spot, and blameless.',
+      NASB: 'Therefore, beloved, since you look for these things, be diligent to be found by Him in peace, spotless and blameless.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 3:13',
+        text: 'But according to his promise we are waiting for new heavens and a new earth in which righteousness dwells.',
+      },
+      after: {
+        reference: '2 Peter 3:15',
+        text: 'And count the patience of our Lord as salvation, just as our beloved brother Paul also wrote to you.',
       },
     },
   },
