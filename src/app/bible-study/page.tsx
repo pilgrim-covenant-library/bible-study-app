@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle, Lightbulb, Goal, Plus, Check, Settings2 } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle, Lightbulb, Goal, Plus, Check, Settings2, Award, Star, Crown, Zap, Medal, Gift } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
@@ -958,6 +958,206 @@ function ReadingGoalsSection() {
   );
 }
 
+// Reading Milestones Section - celebrates reading achievements
+interface Milestone {
+  id: string;
+  name: string;
+  description: string;
+  threshold: number;
+  icon: React.ReactNode;
+  colorClass: string;
+  bgClass: string;
+  borderClass: string;
+}
+
+const READING_MILESTONES: Milestone[] = [
+  {
+    id: 'first-steps',
+    name: 'First Steps',
+    description: 'Read your first 10 chapters',
+    threshold: 10,
+    icon: <Star className="h-5 w-5" />,
+    colorClass: 'text-amber-500',
+    bgClass: 'bg-amber-500/10',
+    borderClass: 'border-amber-500/30',
+  },
+  {
+    id: 'dedicated-reader',
+    name: 'Dedicated Reader',
+    description: 'Read 50 chapters',
+    threshold: 50,
+    icon: <Medal className="h-5 w-5" />,
+    colorClass: 'text-blue-500',
+    bgClass: 'bg-blue-500/10',
+    borderClass: 'border-blue-500/30',
+  },
+  {
+    id: 'century-club',
+    name: 'Century Club',
+    description: 'Read 100 chapters',
+    threshold: 100,
+    icon: <Award className="h-5 w-5" />,
+    colorClass: 'text-purple-500',
+    bgClass: 'bg-purple-500/10',
+    borderClass: 'border-purple-500/30',
+  },
+  {
+    id: 'testament-explorer',
+    name: 'Testament Explorer',
+    description: 'Complete the New Testament (260 chapters)',
+    threshold: 260,
+    icon: <BookMarked className="h-5 w-5" />,
+    colorClass: 'text-green-500',
+    bgClass: 'bg-green-500/10',
+    borderClass: 'border-green-500/30',
+  },
+  {
+    id: 'halfway-hero',
+    name: 'Halfway Hero',
+    description: 'Read half the Bible (595 chapters)',
+    threshold: 595,
+    icon: <Zap className="h-5 w-5" />,
+    colorClass: 'text-orange-500',
+    bgClass: 'bg-orange-500/10',
+    borderClass: 'border-orange-500/30',
+  },
+  {
+    id: 'bible-master',
+    name: 'Bible Master',
+    description: 'Read all 1,189 chapters',
+    threshold: 1189,
+    icon: <Crown className="h-5 w-5" />,
+    colorClass: 'text-rose-500',
+    bgClass: 'bg-gradient-to-br from-rose-500/10 to-amber-500/10',
+    borderClass: 'border-rose-500/30',
+  },
+];
+
+function ReadingMilestonesSection() {
+  const { getTotalChaptersRead } = useReadingProgressStore();
+  const totalRead = getTotalChaptersRead();
+
+  // Don't show if user hasn't started reading
+  if (totalRead === 0) {
+    return null;
+  }
+
+  // Find earned and upcoming milestones
+  const earnedMilestones = READING_MILESTONES.filter(m => totalRead >= m.threshold);
+  const upcomingMilestones = READING_MILESTONES.filter(m => totalRead < m.threshold);
+  const nextMilestone = upcomingMilestones[0];
+
+  // Calculate progress to next milestone
+  const previousThreshold = earnedMilestones.length > 0
+    ? earnedMilestones[earnedMilestones.length - 1].threshold
+    : 0;
+  const progressToNext = nextMilestone
+    ? ((totalRead - previousThreshold) / (nextMilestone.threshold - previousThreshold)) * 100
+    : 100;
+
+  return (
+    <section className="mb-8">
+      <Card className="bg-gradient-to-br from-rose-500/5 via-pink-500/5 to-purple-500/5 border-rose-500/20">
+        <CardContent className="p-4">
+          {/* Header */}
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <div className="p-2 rounded-full bg-rose-500/10">
+                <Trophy className="h-5 w-5 text-rose-500" />
+              </div>
+              <div>
+                <h2 className="text-lg font-semibold">Reading Milestones</h2>
+                <p className="text-xs text-muted-foreground">
+                  {earnedMilestones.length} of {READING_MILESTONES.length} earned
+                </p>
+              </div>
+            </div>
+            {earnedMilestones.length > 0 && (
+              <div className="flex -space-x-2">
+                {earnedMilestones.slice(-3).map((milestone) => (
+                  <div
+                    key={milestone.id}
+                    className={`p-1.5 rounded-full ${milestone.bgClass} border-2 border-background ${milestone.colorClass}`}
+                    title={milestone.name}
+                  >
+                    {milestone.icon}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Next Milestone Progress */}
+          {nextMilestone && (
+            <div className="mb-4 p-3 rounded-lg bg-background/50 border border-border/50">
+              <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center gap-2">
+                  <div className={`p-1.5 rounded-full ${nextMilestone.bgClass} ${nextMilestone.colorClass}`}>
+                    {nextMilestone.icon}
+                  </div>
+                  <div>
+                    <span className="font-medium text-sm">{nextMilestone.name}</span>
+                    <p className="text-xs text-muted-foreground">{nextMilestone.description}</p>
+                  </div>
+                </div>
+                <span className="text-xs text-muted-foreground">
+                  {nextMilestone.threshold - totalRead} to go
+                </span>
+              </div>
+              <div className="relative h-2 bg-muted rounded-full overflow-hidden">
+                <div
+                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-rose-400 to-purple-500 rounded-full transition-all duration-500"
+                  style={{ width: `${Math.min(progressToNext, 100)}%` }}
+                />
+              </div>
+              <div className="mt-1 flex justify-between text-xs text-muted-foreground">
+                <span>{totalRead} chapters read</span>
+                <span>{nextMilestone.threshold} goal</span>
+              </div>
+            </div>
+          )}
+
+          {/* Earned Milestones */}
+          {earnedMilestones.length > 0 && (
+            <div>
+              <div className="text-xs text-muted-foreground mb-2 flex items-center gap-1">
+                <Gift className="h-3 w-3" />
+                Earned Achievements
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {earnedMilestones.map((milestone) => (
+                  <div
+                    key={milestone.id}
+                    className={`flex items-center gap-1.5 px-2 py-1 rounded-full ${milestone.bgClass} ${milestone.borderClass} border`}
+                    title={milestone.description}
+                  >
+                    <span className={milestone.colorClass}>{milestone.icon}</span>
+                    <span className="text-xs font-medium">{milestone.name}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* All complete celebration */}
+          {earnedMilestones.length === READING_MILESTONES.length && (
+            <div className="mt-4 p-3 rounded-lg bg-gradient-to-r from-amber-500/10 to-rose-500/10 border border-amber-500/30 text-center">
+              <div className="flex items-center justify-center gap-2 text-amber-600 dark:text-amber-400">
+                <Crown className="h-5 w-5" />
+                <span className="font-semibold">All Milestones Complete!</span>
+                <Crown className="h-5 w-5" />
+              </div>
+              <p className="text-xs text-muted-foreground mt-1">
+                You&apos;ve read all 1,189 chapters of the Bible. Amazing!
+              </p>
+            </div>
+          )}
+        </CardContent>
+      </Card>
+    </section>
+  );
+}
+
 export default function BibleStudyPage() {
   const [testamentFilter, setTestamentFilter] = useState<TestamentFilter>('all');
   const [selectedGroup, setSelectedGroup] = useState<CanonicalGroup | 'all'>('all');
@@ -1068,6 +1268,9 @@ export default function BibleStudyPage() {
 
         {/* Reading Goals */}
         <ReadingGoalsSection />
+
+        {/* Reading Milestones */}
+        <ReadingMilestonesSection />
 
         {/* Daily Devotional */}
         <DailyDevotional />
