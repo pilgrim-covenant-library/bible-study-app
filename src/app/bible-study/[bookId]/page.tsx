@@ -333,14 +333,29 @@ export default function BookDetailPage() {
   const bookId = params.bookId as string;
   const book = getBookById(bookId);
 
-  const [activeTab, setActiveTab] = useState<TabId>('overview');
-  const [expandedChapters, setExpandedChapters] = useState<Set<number>>(new Set());
-  const hasScrolled = useRef(false);
-
   const chapterSummaries = getChaptersByBook(bookId);
 
-  // Handle hash navigation (e.g., #chapter-5)
-  // NOTE: Setting state in effect is intentional here for initial URL hash handling
+  // Parse initial chapter from URL hash (lazy initialization avoids setState in effect)
+  const getInitialChapterFromHash = (): number | null => {
+    if (typeof window === 'undefined') return null;
+    const hash = window.location.hash;
+    if (hash && hash.startsWith('#chapter-')) {
+      const chapterNum = parseInt(hash.replace('#chapter-', ''), 10);
+      if (!isNaN(chapterNum) && chapterSummaries.some(c => c.chapter === chapterNum)) {
+        return chapterNum;
+      }
+    }
+    return null;
+  };
+
+  const initialChapter = getInitialChapterFromHash();
+  const [activeTab, setActiveTab] = useState<TabId>(initialChapter !== null ? 'chapters' : 'overview');
+  const [expandedChapters, setExpandedChapters] = useState<Set<number>>(
+    initialChapter !== null ? new Set([initialChapter]) : new Set()
+  );
+  const hasScrolled = useRef(false);
+
+  // Handle scroll-to-chapter on initial load (only the scroll side effect, not state)
   useEffect(() => {
     if (hasScrolled.current) return;
 
@@ -350,26 +365,18 @@ export default function BookDetailPage() {
       if (!isNaN(chapterNum) && chapterSummaries.some(c => c.chapter === chapterNum)) {
         hasScrolled.current = true;
 
-        // Use requestAnimationFrame for initial state sync from URL
-        requestAnimationFrame(() => {
-          // Switch to chapters tab
-          setActiveTab('chapters');
-          // Expand the chapter
-          setExpandedChapters(new Set([chapterNum]));
-
-          // Scroll to the chapter after a short delay to allow rendering
-          setTimeout(() => {
-            const element = document.getElementById(`chapter-${chapterNum}`);
-            if (element) {
-              element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-              // Add a highlight effect
-              element.classList.add('ring-2', 'ring-bible', 'ring-offset-2');
-              setTimeout(() => {
-                element.classList.remove('ring-2', 'ring-bible', 'ring-offset-2');
-              }, 2000);
-            }
-          }, 100);
-        });
+        // Scroll to the chapter after a short delay to allow rendering
+        setTimeout(() => {
+          const element = document.getElementById(`chapter-${chapterNum}`);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // Add a highlight effect
+            element.classList.add('ring-2', 'ring-bible', 'ring-offset-2');
+            setTimeout(() => {
+              element.classList.remove('ring-2', 'ring-bible', 'ring-offset-2');
+            }, 2000);
+          }
+        }, 100);
       }
     }
   }, [chapterSummaries]);
