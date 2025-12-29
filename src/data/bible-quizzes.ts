@@ -1666,7 +1666,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
   // GOSPELS & ACTS
   // ═══════════════════════════════════════════════════════════════════════════
 
-  // Matthew (3 questions)
+  // Matthew (6 questions)
   {
     id: 'mat-001',
     bookId: 'matthew',
@@ -1697,8 +1697,38 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Mark', 'Luke', 'Acts'],
     explanation: 'Matthew\'s Gospel climaxes with Jesus\' commission to His disciples.',
   },
+  {
+    id: 'mat-004',
+    bookId: 'matthew',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel presents Jesus as the fulfillment of Old Testament prophecy, using "that it might be fulfilled" repeatedly?',
+    correctAnswer: 'Matthew',
+    distractors: ['John', 'Luke', 'Mark'],
+    explanation: 'Matthew quotes OT prophecy extensively to show Jesus is the promised Messiah.',
+  },
+  {
+    id: 'mat-005',
+    bookId: 'matthew',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel contains the parable of the ten virgins and the parable of the talents?',
+    correctAnswer: 'Matthew',
+    distractors: ['Luke', 'Mark', 'John'],
+    explanation: 'Matthew 25 uniquely records these parables about watchfulness and stewardship.',
+  },
+  {
+    id: 'mat-006',
+    bookId: 'matthew',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which Gospel records Peter confessing Jesus as Christ and receiving the "keys of the kingdom"?',
+    correctAnswer: 'Matthew',
+    distractors: ['Mark', 'Luke', 'John'],
+    explanation: 'Matthew 16:13-20 uniquely includes Jesus\' words about the keys and building His church.',
+  },
 
-  // Mark (3 questions)
+  // Mark (6 questions)
   {
     id: 'mar-001',
     bookId: 'mark',
@@ -1729,8 +1759,38 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Matthew', 'Luke', 'John'],
     explanation: 'Early church tradition connects Mark to Peter\'s preaching in Rome.',
   },
+  {
+    id: 'mar-004',
+    bookId: 'mark',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel begins with John the Baptist preparing the way rather than a birth narrative?',
+    correctAnswer: 'Mark',
+    distractors: ['Matthew', 'Luke', 'John'],
+    explanation: 'Mark skips Jesus\' birth and begins with John\'s ministry (Mark 1:1-8).',
+  },
+  {
+    id: 'mar-005',
+    bookId: 'mark',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which Gospel emphasizes the "Messianic Secret" where Jesus repeatedly tells people not to reveal His identity?',
+    correctAnswer: 'Mark',
+    distractors: ['Matthew', 'Luke', 'John'],
+    explanation: 'Mark uniquely highlights Jesus silencing demons and healed people about His identity.',
+  },
+  {
+    id: 'mar-006',
+    bookId: 'mark',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which Gospel states that "the Son of Man came not to be served but to serve, and to give his life as a ransom for many" (10:45)?',
+    correctAnswer: 'Mark',
+    distractors: ['Matthew', 'Luke', 'John'],
+    explanation: 'Mark 10:45 captures Jesus\' mission as the suffering Servant.',
+  },
 
-  // Luke (3 questions)
+  // Luke (6 questions)
   {
     id: 'luk-001',
     bookId: 'luke',
@@ -1761,8 +1821,38 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Matthew', 'Mark', 'John'],
     explanation: 'Luke 3:23-38 emphasizes Jesus as Savior of all humanity.',
   },
+  {
+    id: 'luk-004',
+    bookId: 'luke',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel contains the Magnificat, Mary\'s song of praise?',
+    correctAnswer: 'Luke',
+    distractors: ['Matthew', 'Mark', 'John'],
+    explanation: 'Luke 1:46-55 records Mary\'s hymn praising God for the coming Messiah.',
+  },
+  {
+    id: 'luk-005',
+    bookId: 'luke',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel uniquely records the story of Jesus and Zacchaeus the tax collector?',
+    correctAnswer: 'Luke',
+    distractors: ['Matthew', 'Mark', 'John'],
+    explanation: 'Luke 19:1-10 tells of Jesus seeking and saving Zacchaeus in Jericho.',
+  },
+  {
+    id: 'luk-006',
+    bookId: 'luke',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which Gospel records Jesus\' appearance to two disciples on the road to Emmaus?',
+    correctAnswer: 'Luke',
+    distractors: ['Matthew', 'Mark', 'John'],
+    explanation: 'Luke 24:13-35 uniquely describes this post-resurrection encounter.',
+  },
 
-  // John (3 questions)
+  // John (6 questions)
   {
     id: 'joh-001',
     bookId: 'john',
@@ -1793,8 +1883,38 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Matthew', 'Luke', 'Mark'],
     explanation: 'John uniquely records Jesus\' "I AM" self-declarations.',
   },
+  {
+    id: 'joh-004',
+    bookId: 'john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel records the raising of Lazarus from the dead after four days?',
+    correctAnswer: 'John',
+    distractors: ['Matthew', 'Luke', 'Mark'],
+    explanation: 'John 11 uniquely records this sign foreshadowing Jesus\' resurrection.',
+  },
+  {
+    id: 'joh-005',
+    bookId: 'john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel contains Jesus\' extended Farewell Discourse to His disciples (chapters 14-17)?',
+    correctAnswer: 'John',
+    distractors: ['Matthew', 'Luke', 'Mark'],
+    explanation: 'John 14-17 records Jesus\' intimate teaching before His death.',
+  },
+  {
+    id: 'joh-006',
+    bookId: 'john',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which Gospel records Jesus saying "I am the way, and the truth, and the life" (14:6)?',
+    correctAnswer: 'John',
+    distractors: ['Matthew', 'Luke', 'Acts'],
+    explanation: 'John 14:6 is one of Jesus\' most exclusive claims about Himself.',
+  },
 
-  // Acts (3 questions)
+  // Acts (6 questions)
   {
     id: 'act-001',
     bookId: 'acts',
@@ -1824,6 +1944,36 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: 'Acts',
     distractors: ['2 Timothy', 'Romans', 'Hebrews'],
     explanation: 'Luke-Acts is a two-volume work by the same author.',
+  },
+  {
+    id: 'act-004',
+    bookId: 'acts',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the first Christian martyr, Stephen, being stoned?',
+    correctAnswer: 'Acts',
+    distractors: ['Matthew', 'Hebrews', '1 Peter'],
+    explanation: 'Acts 7 describes Stephen\'s powerful sermon and martyrdom.',
+  },
+  {
+    id: 'act-005',
+    bookId: 'acts',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the Jerusalem Council\'s decision about Gentile believers?',
+    correctAnswer: 'Acts',
+    distractors: ['Galatians', 'Romans', 'Ephesians'],
+    explanation: 'Acts 15 describes the landmark council regarding circumcision and the law.',
+  },
+  {
+    id: 'act-006',
+    bookId: 'acts',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book describes Paul\'s shipwreck on his voyage to Rome?',
+    correctAnswer: 'Acts',
+    distractors: ['2 Corinthians', 'Philemon', '2 Timothy'],
+    explanation: 'Acts 27-28 vividly describes Paul\'s perilous journey to Rome.',
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
@@ -2700,7 +2850,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
   // APOCALYPTIC (Revelation)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  // Revelation (3 questions)
+  // Revelation (7 questions)
   {
     id: 'rev-001',
     bookId: 'revelation',
@@ -2730,6 +2880,46 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: 'Revelation',
     distractors: ['Isaiah', 'Ezekiel', 'Hebrews'],
     explanation: 'Revelation 21-22 portrays the consummation of redemption.',
+  },
+  {
+    id: 'rev-004',
+    bookId: 'revelation',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book describes the Lamb who was slain opening seven seals?',
+    correctAnswer: 'Revelation',
+    distractors: ['Daniel', 'Isaiah', 'Hebrews'],
+    explanation: 'Revelation 5-8 describes the Lamb alone being worthy to open the scroll.',
+  },
+  {
+    id: 'rev-005',
+    bookId: 'revelation',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book describes the 144,000 sealed from the twelve tribes of Israel?',
+    correctAnswer: 'Revelation',
+    distractors: ['Daniel', 'Ezekiel', 'Isaiah'],
+    explanation: 'Revelation 7 and 14 describe this symbolic number representing God\'s people.',
+  },
+  {
+    id: 'rev-006',
+    bookId: 'revelation',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book declares: "I am the Alpha and the Omega, the first and the last" (1:11)?',
+    correctAnswer: 'Revelation',
+    distractors: ['Isaiah', 'John', 'Hebrews'],
+    explanation: 'Revelation uses this title for Christ, affirming His eternal deity.',
+  },
+  {
+    id: 'rev-007',
+    bookId: 'revelation',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book describes the great white throne judgment?',
+    correctAnswer: 'Revelation',
+    distractors: ['Daniel', 'Matthew', 'Romans'],
+    explanation: 'Revelation 20:11-15 describes the final judgment before God\'s throne.',
   },
 
   // ═══════════════════════════════════════════════════════════════════════════
