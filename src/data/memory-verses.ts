@@ -2726,6 +2726,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-samuel-22-47',
+    reference: '2 Samuel 22:47',
+    book: '2 Samuel',
+    chapter: 22,
+    verse: 47,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The LORD lives, and blessed be my rock, and exalted be my God, the rock of my salvation.',
+      NIV: 'The LORD lives! Praise be to my Rock! Exalted be my God, the Rock, my Savior!',
+      KJV: 'The LORD liveth; and blessed be my rock; and exalted be the God of the rock of my salvation.',
+      NASB: 'The LORD lives, and blessed be my rock; and exalted be God, the rock of my salvation.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 22:46',
+        text: 'Foreigners lost heart and came trembling out of their fortresses.',
+      },
+      after: {
+        reference: '2 Samuel 22:48',
+        text: 'The God who gave me vengeance and brought down peoples under me.',
+      },
+    },
+  },
+  {
+    id: '2-samuel-23-5',
+    reference: '2 Samuel 23:5',
+    book: '2 Samuel',
+    chapter: 23,
+    verse: 5,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For does not my house stand so with God? For he has made with me an everlasting covenant, ordered in all things and secure. For will he not cause to prosper all my help and my desire?',
+      NIV: 'If my house were not right with God, surely he would not have made with me an everlasting covenant, arranged and secured in every part. Will he not bring to fruition my salvation and grant me my every desire?',
+      KJV: 'Although my house be not so with God; yet he hath made with me an everlasting covenant, ordered in all things, and sure: for this is all my salvation, and all my desire, although he make it not to grow.',
+      NASB: 'Truly is not my house so with God? For He has made an everlasting covenant with me, ordered in all things, and secured; for all my salvation and all my desire, will He not indeed make it grow?',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 23:4',
+        text: 'He dawns on them like the morning light, like the sun shining forth on a cloudless morning, like rain that makes grass to sprout from the earth.',
+      },
+      after: {
+        reference: '2 Samuel 23:6',
+        text: 'But worthless men are all like thorns that are thrown away, for they cannot be taken with the hand.',
+      },
+    },
+  },
+  {
+    id: '2-samuel-1-27',
+    reference: '2 Samuel 1:27',
+    book: '2 Samuel',
+    chapter: 1,
+    verse: 27,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'How the mighty have fallen, and the weapons of war perished!',
+      NIV: 'How the mighty have fallen! The weapons of war have perished!',
+      KJV: 'How are the mighty fallen, and the weapons of war perished!',
+      NASB: 'How have the mighty fallen, and the weapons of war perished!',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 1:26',
+        text: 'I am distressed for you, my brother Jonathan; very pleasant have you been to me; your love to me was extraordinary, surpassing the love of women.',
+      },
+      after: {
+        reference: '2 Samuel 2:1',
+        text: 'After this David inquired of the LORD, "Shall I go up into any of the cities of Judah?" And the LORD said to him, "Go up." David said, "To which shall I go up?"',
+      },
+    },
+  },
 
   // ============ 1 KINGS ============
   {
@@ -3699,6 +3771,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-chronicles-1-10',
+    reference: '2 Chronicles 1:10',
+    book: '2 Chronicles',
+    chapter: 1,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Give me now wisdom and knowledge to go out and come in before this people, for who can govern this people of yours, which is so great?',
+      NIV: 'Give me wisdom and knowledge, that I may lead this people, for who is able to govern this great people of yours?',
+      KJV: 'Give me now wisdom and knowledge, that I may go out and come in before this people: for who can judge this thy people, that is so great?',
+      NASB: 'Give me now wisdom and knowledge, that I may go out and come in before this people, for who can rule this great people of Yours?',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 1:9',
+        text: 'O LORD God, let your word to David my father be now fulfilled, for you have made me king over a people as numerous as the dust of the earth.',
+      },
+      after: {
+        reference: '2 Chronicles 1:11',
+        text: 'God answered Solomon, "Because this was in your heart, and you have not asked for possessions, wealth, honor, or the life of those who hate you, and have not even asked for long life, but have asked for wisdom and knowledge for yourself that you may govern my people over whom I have made you king."',
+      },
+    },
+  },
+  {
+    id: '2-chronicles-30-9',
+    reference: '2 Chronicles 30:9',
+    book: '2 Chronicles',
+    chapter: 30,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For if you return to the LORD, your brothers and your children will find compassion with their captors and return to this land. For the LORD your God is gracious and merciful and will not turn away his face from you, if you return to him.',
+      NIV: 'If you return to the LORD, then your fellow Israelites and your children will be shown compassion by their captors and will return to this land, for the LORD your God is gracious and compassionate. He will not turn his face from you if you return to him.',
+      KJV: 'For if ye turn again unto the LORD, your brethren and your children shall find compassion before them that lead them captive, so that they shall come again into this land: for the LORD your God is gracious and merciful, and will not turn away his face from you, if ye return unto him.',
+      NASB: 'For if you return to the LORD, your brothers and your sons will find compassion before those who led them captive and will return to this land. For the LORD your God is gracious and compassionate, and will not turn His face away from you if you return to Him.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 30:8',
+        text: 'Do not now be stiff-necked as your fathers were, but yield yourselves to the LORD and come to his sanctuary, which he has consecrated forever.',
+      },
+      after: {
+        reference: '2 Chronicles 30:10',
+        text: 'So the couriers went from city to city through the country of Ephraim and Manasseh, and as far as Zebulun, but they laughed them to scorn and mocked them.',
+      },
+    },
+  },
 
   // ============ EZRA ============
   {
@@ -4089,6 +4209,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'nehemiah-4-6',
+    reference: 'Nehemiah 4:6',
+    book: 'Nehemiah',
+    chapter: 4,
+    verse: 6,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'So we built the wall. And all the wall was joined together to half its height, for the people had a mind to work.',
+      NIV: 'So we rebuilt the wall till all of it reached half its height, for the people worked with all their heart.',
+      KJV: 'So built we the wall; and all the wall was joined together unto the half thereof: for the people had a mind to work.',
+      NASB: 'So we built the wall and the whole wall was joined together to half its height, for the people had a mind to work.',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 4:5',
+        text: 'Do not cover their guilt, and let not their sin be blotted out from your sight.',
+      },
+      after: {
+        reference: 'Nehemiah 4:7',
+        text: 'But when Sanballat and Tobiah and the Arabs and the Ammonites and the Ashdodites heard that the repairing of the walls of Jerusalem was going forward.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-6-3',
+    reference: 'Nehemiah 6:3',
+    book: 'Nehemiah',
+    chapter: 6,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I sent messengers to them, saying, "I am doing a great work and I cannot come down. Why should the work stop while I leave it and come down to you?"',
+      NIV: 'So I sent messengers to them with this reply: "I am carrying on a great project and cannot go down. Why should the work stop while I leave it and go down to you?"',
+      KJV: 'And I sent messengers unto them, saying, I am doing a great work, so that I cannot come down: why should the work cease, whilst I leave it, and come down to you?',
+      NASB: 'So I sent messengers to them, saying, "I am doing a great work and I cannot come down. Why should the work stop while I leave it and come down to you?"',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 6:2',
+        text: 'Sanballat and Geshem sent to me, saying, "Come and let us meet together at Hakkephirim in the plain of Ono." But they intended to do me harm.',
+      },
+      after: {
+        reference: 'Nehemiah 6:4',
+        text: 'And they sent to me four times in this way, and I answered them in the same manner.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-9-17',
+    reference: 'Nehemiah 9:17',
+    book: 'Nehemiah',
+    chapter: 9,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'They refused to obey and were not mindful of the wonders that you performed among them, but they stiffened their neck and appointed a leader to return to their slavery in Egypt. But you are a God ready to forgive, gracious and merciful, slow to anger and abounding in steadfast love.',
+      NIV: 'They refused to listen and failed to remember the miracles you performed among them. They became stiff-necked and in their rebellion appointed a leader in order to return to their slavery. But you are a forgiving God, gracious and compassionate, slow to anger and abounding in love.',
+      KJV: 'And refused to obey, neither were mindful of thy wonders that thou didst among them; but hardened their necks, and in their rebellion appointed a captain to return to their bondage: but thou art a God ready to pardon, gracious and merciful, slow to anger, and of great kindness.',
+      NASB: 'They refused to listen, and did not remember Your wondrous deeds which You had performed among them; so they became stubborn and appointed a leader to return to their slavery in Egypt. But You are a God of forgiveness, gracious and compassionate, slow to anger and abounding in lovingkindness.',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 9:16',
+        text: 'But they and our fathers acted presumptuously and stiffened their neck and did not obey your commandments.',
+      },
+      after: {
+        reference: 'Nehemiah 9:18',
+        text: 'Even when they had made for themselves a golden calf and said, "This is your God who brought you up out of Egypt," and had committed great blasphemies.',
+      },
+    },
+  },
+  {
+    id: 'nehemiah-13-14',
+    reference: 'Nehemiah 13:14',
+    book: 'Nehemiah',
+    chapter: 13,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Remember me, O my God, concerning this, and do not wipe out my good deeds that I have done for the house of my God and for his service.',
+      NIV: 'Remember me for this, my God, and do not blot out what I have so faithfully done for the house of my God and its services.',
+      KJV: 'Remember me, O my God, concerning this, and wipe not out my good deeds that I have done for the house of my God, and for the offices thereof.',
+      NASB: 'Remember me for this, O my God, and do not wipe out my loyal deeds which I have performed for the house of my God and its services.',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 13:13',
+        text: 'I appointed as treasurers over the storehouses Shelemiah the priest, Zadok the scribe, and Pedaiah of the Levites.',
+      },
+      after: {
+        reference: 'Nehemiah 13:15',
+        text: 'In those days I saw in Judah people treading winepresses on the Sabbath.',
+      },
+    },
+  },
 
   // ============ ESTHER ============
   {
@@ -4253,6 +4469,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Esther 10:2',
         text: 'And all the acts of his power and might, and the full account of the high honor of Mordecai, to which the king advanced him.',
+      },
+    },
+  },
+  {
+    id: 'esther-2-17',
+    reference: 'Esther 2:17',
+    book: 'Esther',
+    chapter: 2,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The king loved Esther more than all the women, and she won grace and favor in his sight more than all the virgins, so that he set the royal crown on her head and made her queen instead of Vashti.',
+      NIV: 'Now the king was attracted to Esther more than to any of the other women, and she won his favor and approval more than any of the other virgins. So he set a royal crown on her head and made her queen instead of Vashti.',
+      KJV: 'And the king loved Esther above all the women, and she obtained grace and favour in his sight more than all the virgins; so that he set the royal crown upon her head, and made her queen instead of Vashti.',
+      NASB: 'The king loved Esther more than all the women, and she found favor and kindness with him more than all the virgins, so that he set the royal crown on her head and made her queen instead of Vashti.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 2:16',
+        text: 'And when Esther was taken to King Ahasuerus, into his royal palace, in the tenth month, which is the month of Tebeth, in the seventh year of his reign.',
+      },
+      after: {
+        reference: 'Esther 2:18',
+        text: 'Then the king gave a great feast for all his officials and servants; it was Esther\'s feast.',
+      },
+    },
+  },
+  {
+    id: 'esther-5-2',
+    reference: 'Esther 5:2',
+    book: 'Esther',
+    chapter: 5,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And when the king saw Queen Esther standing in the court, she won favor in his sight, and he held out to Esther the golden scepter that was in his hand. Then Esther approached and touched the tip of the scepter.',
+      NIV: 'When he saw Queen Esther standing in the court, he was pleased with her and held out to her the gold scepter that was in his hand. So Esther approached and touched the tip of the scepter.',
+      KJV: 'And it was so, when the king saw Esther the queen standing in the court, that she obtained favour in his sight: and the king held out to Esther the golden sceptre that was in his hand. So Esther drew near, and touched the top of the sceptre.',
+      NASB: 'When the king saw Esther the queen standing in the court, she obtained favor in his sight; and the king extended to Esther the golden scepter which was in his hand. So Esther came near and touched the top of the scepter.',
+    },
+    context: {
+      before: {
+        reference: 'Esther 5:1',
+        text: 'On the third day Esther put on her royal robes and stood in the inner court of the king\'s palace, in front of the king\'s quarters.',
+      },
+      after: {
+        reference: 'Esther 5:3',
+        text: 'And the king said to her, "What is it, Queen Esther? What is your request? It shall be given you, even to the half of my kingdom."',
+      },
+    },
+  },
+  {
+    id: 'esther-6-10',
+    reference: 'Esther 6:10',
+    book: 'Esther',
+    chapter: 6,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then the king said to Haman, "Hurry; take the robes and the horse, as you have said, and do so to Mordecai the Jew who sits at the king\'s gate. Leave out nothing that you have mentioned."',
+      NIV: '"Go at once," the king commanded Haman. "Get the robe and the horse and do just as you have suggested for Mordecai the Jew, who sits at the king\'s gate. Do not neglect anything you have recommended."',
+      KJV: 'Then the king said to Haman, Make haste, and take the apparel and the horse, as thou hast said, and do even so to Mordecai the Jew, that sitteth at the king\'s gate: let nothing fail of all that thou hast spoken.',
+      NASB: 'Then the king said to Haman, "Take quickly the robes and the horse as you have said, and do so for Mordecai the Jew, who is sitting at the king\'s gate; do not fall short in anything of all that you have said."',
+    },
+    context: {
+      before: {
+        reference: 'Esther 6:9',
+        text: 'And let the robes and the horse be handed over to one of the king\'s most noble officials. Let them dress the man whom the king delights to honor.',
+      },
+      after: {
+        reference: 'Esther 6:11',
+        text: 'So Haman took the robes and the horse, and he dressed Mordecai and led him through the square of the city, proclaiming before him, "Thus shall it be done to the man whom the king delights to honor."',
       },
     },
   },
@@ -8712,6 +9000,126 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ HAGGAI ============
+  {
+    id: 'zephaniah-1-14',
+    reference: 'Zephaniah 1:14',
+    book: 'Zephaniah',
+    chapter: 1,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The great day of the LORD is near, near and hastening fast; the sound of the day of the LORD is bitter; the mighty man cries aloud there.',
+      NIV: 'The great day of the LORD is near—near and coming quickly. The cry on the day of the LORD is bitter; the Mighty Warrior shouts his battle cry.',
+      KJV: 'The great day of the LORD is near, it is near, and hasteth greatly, even the voice of the day of the LORD: the mighty man shall cry there bitterly.',
+      NASB: 'Near is the great day of the LORD, near and coming very quickly; listen, the day of the LORD! In it the warrior cries out bitterly.',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 1:13',
+        text: 'Their goods shall be plundered, and their houses laid waste. Though they build houses, they shall not inhabit them.',
+      },
+      after: {
+        reference: 'Zephaniah 1:15',
+        text: 'A day of wrath is that day, a day of distress and anguish, a day of ruin and devastation.',
+      },
+    },
+  },
+  {
+    id: 'zephaniah-1-18',
+    reference: 'Zephaniah 1:18',
+    book: 'Zephaniah',
+    chapter: 1,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Neither their silver nor their gold shall be able to deliver them on the day of the wrath of the LORD. In the fire of his jealousy, all the earth shall be consumed.',
+      NIV: 'Neither their silver nor their gold will be able to save them on the day of the LORD\'s wrath. In the fire of his jealousy the whole earth will be consumed.',
+      KJV: 'Neither their silver nor their gold shall be able to deliver them in the day of the LORD\'s wrath; but the whole land shall be devoured by the fire of his jealousy.',
+      NASB: 'Neither their silver nor their gold will be able to deliver them on the day of the LORD\'s wrath; and all the earth will be devoured in the fire of His jealousy.',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 1:17',
+        text: 'I will bring distress on mankind, so that they shall walk like the blind, because they have sinned against the LORD.',
+      },
+      after: {
+        reference: 'Zephaniah 2:1',
+        text: 'Gather together, yes, gather, O shameless nation.',
+      },
+    },
+  },
+  {
+    id: 'zephaniah-3-8',
+    reference: 'Zephaniah 3:8',
+    book: 'Zephaniah',
+    chapter: 3,
+    verse: 8,
+    difficulty: 'hard',
+    translations: {
+      ESV: '"Therefore wait for me," declares the LORD, "for the day when I rise up to seize the prey. For my decision is to gather nations, to assemble kingdoms, to pour out upon them my indignation."',
+      NIV: '"Therefore wait for me," declares the LORD, "for the day I will stand up to testify. I have decided to assemble the nations, to gather the kingdoms and to pour out my wrath on them."',
+      KJV: 'Therefore wait ye upon me, saith the LORD, until the day that I rise up to the prey: for my determination is to gather the nations, that I may assemble the kingdoms, to pour upon them mine indignation.',
+      NASB: '"Therefore wait for Me," declares the LORD, "for the day when I rise up as a witness. Indeed, My decision is to gather nations, to assemble kingdoms, to pour out on them My indignation."',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 3:7',
+        text: 'I said, "Surely you will fear me; you will accept correction." Then their dwelling would not be cut off.',
+      },
+      after: {
+        reference: 'Zephaniah 3:9',
+        text: 'For at that time I will change the speech of the peoples to a pure speech.',
+      },
+    },
+  },
+  {
+    id: 'zephaniah-3-14',
+    reference: 'Zephaniah 3:14',
+    book: 'Zephaniah',
+    chapter: 3,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Sing aloud, O daughter of Zion; shout, O Israel! Rejoice and exult with all your heart, O daughter of Jerusalem!',
+      NIV: 'Sing, Daughter Zion; shout aloud, Israel! Be glad and rejoice with all your heart, Daughter Jerusalem!',
+      KJV: 'Sing, O daughter of Zion; shout, O Israel; be glad and rejoice with all the heart, O daughter of Jerusalem.',
+      NASB: 'Shout for joy, O daughter of Zion! Shout in triumph, O Israel! Rejoice and exult with all your heart, O daughter of Jerusalem!',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 3:13',
+        text: 'Those who are left in Israel; they shall do no injustice and speak no lies.',
+      },
+      after: {
+        reference: 'Zephaniah 3:15',
+        text: 'The LORD has taken away the judgments against you; he has cleared away your enemies.',
+      },
+    },
+  },
+  {
+    id: 'zephaniah-3-20',
+    reference: 'Zephaniah 3:20',
+    book: 'Zephaniah',
+    chapter: 3,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'At that time I will bring you in, at the time when I gather you together; for I will make you renowned and praised among all the peoples of the earth, when I restore your fortunes before your eyes.',
+      NIV: 'At that time I will gather you; at that time I will bring you home. I will give you honor and praise among all the peoples of the earth when I restore your fortunes before your very eyes.',
+      KJV: 'At that time will I bring you again, even in the time that I gather you: for I will make you a name and a praise among all people of the earth.',
+      NASB: 'At that time I will bring you in, even at the time when I gather you together; indeed, I will give you renown and praise among all the peoples of the earth.',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 3:19',
+        text: 'Behold, at that time I will deal with all your oppressors. And I will save the lame and gather the outcast.',
+      },
+      after: {
+        reference: 'Haggai 1:1',
+        text: 'In the second year of Darius the king, in the sixth month, on the first day of the month.',
+      },
+    },
+  },
   {
     id: 'haggai-1-7',
     reference: 'Haggai 1:7',
