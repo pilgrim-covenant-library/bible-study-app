@@ -3774,6 +3774,16 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Satan and Death', 'Babylon and Gog', 'Death and Hades'],
     explanation: 'Revelation 19:20 records the beast and false prophet being thrown into the lake of fire.',
   },
+  {
+    id: 'rev-007',
+    bookId: 'revelation',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'In Revelation, what title is given to Jesus Christ identifying Him as the ruler of all earthly authorities?',
+    correctAnswer: 'King of kings and Lord of lords',
+    distractors: ['Alpha and Omega', 'Bright Morning Star', 'Lion of Judah'],
+    explanation: 'Revelation 19:16 proclaims Jesus as "King of kings and Lord of lords," emphasizing His supreme sovereignty over all rulers and powers.',
+  },
 
   // ═══════════════════════════════════════════════════════════════════════════
   // EXPANDED AUTHOR QUESTIONS
