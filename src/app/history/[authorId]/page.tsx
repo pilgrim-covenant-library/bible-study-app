@@ -15,10 +15,12 @@ import {
   ChevronDown,
   ChevronUp,
   Download,
+  Users,
+  ArrowRight,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
-import { getAuthorById, type AuthorWork, type AuthorId } from '@/data/church-history-authors';
+import { getAuthorById, type AuthorWork, type AuthorId, type ChurchHistoryAuthor } from '@/data/church-history-authors';
 
 type TabId = 'biography' | 'works' | 'theology' | 'quotes';
 
@@ -162,6 +164,38 @@ function WorkCard({ work }: { work: AuthorWork }) {
   );
 }
 
+// Related Theologian Card component
+function RelatedAuthorCard({ author }: { author: ChurchHistoryAuthor }) {
+  const badge = getTraditionBadge(author.tradition);
+
+  return (
+    <Link href={`/history/${author.id}`}>
+      <Card className="h-full hover:border-history/50 hover:shadow-md transition-all group cursor-pointer">
+        <CardContent className="p-4">
+          <div className="flex items-start justify-between gap-2">
+            <div className="flex-1 min-w-0">
+              <h3 className="font-semibold text-sm group-hover:text-history transition-colors truncate">
+                {author.name}
+              </h3>
+              <p className="text-xs text-muted-foreground">{author.lifespan}</p>
+            </div>
+            <span className={`shrink-0 text-[10px] px-1.5 py-0.5 rounded-full font-medium ${badge.className}`}>
+              {badge.label}
+            </span>
+          </div>
+          <p className="text-xs text-muted-foreground mt-2 line-clamp-2">
+            {author.tagline}
+          </p>
+          <div className="flex items-center gap-1 mt-2 text-xs text-history opacity-0 group-hover:opacity-100 transition-opacity">
+            <span>View profile</span>
+            <ArrowRight className="h-3 w-3" />
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
+  );
+}
+
 export default function AuthorDetailPage() {
   const params = useParams();
   const authorId = params.authorId as AuthorId;
@@ -179,6 +213,21 @@ export default function AuthorDetailPage() {
   const totalResources = useMemo(() => {
     return author.majorWorks.reduce((sum, work) => sum + work.freeLinks.length, 0);
   }, [author]);
+
+  // Resolve related theologians
+  const influencedByAuthors = useMemo(() => {
+    return author.influences
+      .map((id) => getAuthorById(id))
+      .filter((a): a is ChurchHistoryAuthor => a !== undefined);
+  }, [author.influences]);
+
+  const influencedAuthors = useMemo(() => {
+    return author.influenced
+      .map((id) => getAuthorById(id))
+      .filter((a): a is ChurchHistoryAuthor => a !== undefined);
+  }, [author.influenced]);
+
+  const hasRelatedAuthors = influencedByAuthors.length > 0 || influencedAuthors.length > 0;
 
   return (
     <div className="min-h-screen bg-background">
@@ -362,14 +411,63 @@ export default function AuthorDetailPage() {
           </div>
         )}
 
+        {/* Related Theologians */}
+        {hasRelatedAuthors && (
+          <section className="mt-12 pt-8 border-t">
+            <div className="flex items-center gap-2 mb-6">
+              <Users className="h-5 w-5 text-history" />
+              <h2 className="text-lg font-semibold">Related Theologians</h2>
+            </div>
+
+            {/* Influenced By - Who shaped this theologian */}
+            {influencedByAuthors.length > 0 && (
+              <div className="mb-8">
+                <h3 className="text-sm font-medium text-muted-foreground mb-3 flex items-center gap-2">
+                  <span className="w-8 h-px bg-muted-foreground/30" />
+                  Influenced By
+                  <span className="text-xs bg-muted px-2 py-0.5 rounded-full">{influencedByAuthors.length}</span>
+                </h3>
+                <p className="text-xs text-muted-foreground mb-4">
+                  Theologians whose work shaped {author.name}&apos;s thinking
+                </p>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {influencedByAuthors.map((relatedAuthor) => (
+                    <RelatedAuthorCard
+                      key={relatedAuthor.id}
+                      author={relatedAuthor}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Influenced - Who this theologian shaped */}
+            {influencedAuthors.length > 0 && (
+              <div>
+                <h3 className="text-sm font-medium text-muted-foreground mb-3 flex items-center gap-2">
+                  <span className="w-8 h-px bg-muted-foreground/30" />
+                  Influenced
+                  <span className="text-xs bg-muted px-2 py-0.5 rounded-full">{influencedAuthors.length}</span>
+                </h3>
+                <p className="text-xs text-muted-foreground mb-4">
+                  Theologians {author.name} helped shape
+                </p>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {influencedAuthors.map((relatedAuthor) => (
+                    <RelatedAuthorCard
+                      key={relatedAuthor.id}
+                      author={relatedAuthor}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
+        )}
+
         {/* Quick Navigation */}
-        <section className="mt-12 pt-8 border-t">
-          <h2 className="text-lg font-semibold mb-4">Other Theologians</h2>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {/* Show other authors */}
-            {/* This would dynamically show other authors from the data */}
-          </div>
-          <div className="mt-4 text-center">
+        <section className={`${hasRelatedAuthors ? 'mt-8' : 'mt-12'} pt-8 border-t`}>
+          <div className="text-center">
             <Link href="/history">
               <Button variant="outline">
                 <ArrowLeft className="h-4 w-4 mr-2" />
