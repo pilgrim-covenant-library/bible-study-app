@@ -8995,6 +8995,45 @@ export const PHILIPPIANS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// COLOSSIANS (4 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const COLOSSIANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'colossians',
+    chapter: 1,
+    title: 'The Supremacy of Christ',
+    summary: 'Paul, an apostle of Christ Jesus by the will of God, and Timothy our brother, to the saints and faithful brothers in Christ at Colossae: Grace and peace from God our Father. Paul thanks God always when he prays for them, since he heard of their faith in Christ Jesus and of the love that they have for all the saints, because of the hope laid up for them in heaven. Of this they have heard before in the word of the truth, the gospel, which has come to them, as indeed in the whole world it is bearing fruit and increasing—as it also does among them, since the day they heard it and understood the grace of God in truth. Paul does not cease to pray for them, asking that they may be filled with the knowledge of His will in all spiritual wisdom and understanding, so as to walk in a manner worthy of the Lord, fully pleasing to Him: bearing fruit in every good work and increasing in the knowledge of God; being strengthened with all power, according to His glorious might, for all endurance and patience with joy; giving thanks to the Father, who has qualified them to share in the inheritance of the saints in light. He has delivered us from the domain of darkness and transferred us to the kingdom of His beloved Son, in whom we have redemption, the forgiveness of sins. He is the image of the invisible God, the firstborn of all creation. For by Him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through Him and for Him. And He is before all things, and in Him all things hold together. And He is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything He might be preeminent. For in Him all the fullness of God was pleased to dwell, and through Him to reconcile to Himself all things, whether on earth or in heaven, making peace by the blood of His cross.',
+    keyThemes: ['Image of invisible God', 'Firstborn of all creation', 'All things created through Him', 'Fullness of God dwells in Him'],
+    christConnection: 'Christ is the image of the invisible God, the firstborn of all creation. All things were created through Him and for Him. In Him all the fullness of God dwells, and through His blood He reconciles all things.'
+  },
+  {
+    bookId: 'colossians',
+    chapter: 2,
+    title: 'Fullness in Christ Alone',
+    summary: 'For Paul wants them to know how great a struggle he has for them and for those at Laodicea and for all who have not seen him face to face, that their hearts may be encouraged, being knit together in love, to reach all the riches of full assurance of understanding and the knowledge of God\'s mystery, which is Christ, in whom are hidden all the treasures of wisdom and knowledge. Paul says this in order that no one may delude them with plausible arguments. For though he is absent in body, yet he is with them in spirit, rejoicing to see their good order and the firmness of their faith in Christ. Therefore, as they received Christ Jesus the Lord, so they are to walk in Him, rooted and built up in Him and established in the faith, just as they were taught, abounding in thanksgiving. See to it that no one takes them captive by philosophy and empty deceit, according to human tradition, according to the elemental spirits of the world, and not according to Christ. For in Him the whole fullness of deity dwells bodily, and they have been filled in Him, who is the head of all rule and authority. In Him also they were circumcised with a circumcision made without hands, by putting off the body of the flesh, by the circumcision of Christ, having been buried with Him in baptism, in which they were also raised with Him through faith in the powerful working of God, who raised Him from the dead. And you, who were dead in your trespasses and the uncircumcision of your flesh, God made alive together with Him, having forgiven us all our trespasses, by canceling the record of debt that stood against us with its legal demands. This He set aside, nailing it to the cross. He disarmed the rulers and authorities and put them to open shame, by triumphing over them in Him. Therefore let no one pass judgment on them in questions of food and drink, or with regard to a festival or a new moon or a Sabbath. These are a shadow of the things to come, but the substance belongs to Christ.',
+    keyThemes: ['All treasures of wisdom in Christ', 'Fullness of deity bodily', 'Record of debt nailed to cross', 'Shadow versus substance'],
+    christConnection: 'In Christ are hidden all treasures of wisdom. The fullness of deity dwells bodily in Him. He canceled our debt by nailing it to the cross and triumphed over rulers and authorities.'
+  },
+  {
+    bookId: 'colossians',
+    chapter: 3,
+    title: 'Raised with Christ',
+    summary: 'If then they have been raised with Christ, they are to seek the things that are above, where Christ is, seated at the right hand of God. They are to set their minds on things that are above, not on things that are on earth. For they have died, and their life is hidden with Christ in God. When Christ who is their life appears, then they also will appear with Him in glory. They are to put to death therefore what is earthly in them: sexual immorality, impurity, passion, evil desire, and covetousness, which is idolatry. On account of these the wrath of God is coming. In these they too once walked, when they were living in them. But now they must put them all away: anger, wrath, malice, slander, and obscene talk from their mouths. They are not to lie to one another, seeing that they have put off the old self with its practices and have put on the new self, which is being renewed in knowledge after the image of its creator. Here there is not Greek and Jew, circumcised and uncircumcised, barbarian, Scythian, slave, free; but Christ is all, and in all. They are to put on then, as God\'s chosen ones, holy and beloved, compassionate hearts, kindness, humility, meekness, and patience, bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven them, so they also must forgive. And above all these put on love, which binds everything together in perfect harmony. And let the peace of Christ rule in their hearts, to which indeed they were called in one body. And be thankful. Let the word of Christ dwell in them richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, with thankfulness in their hearts to God. And whatever they do, in word or deed, they are to do everything in the name of the Lord Jesus, giving thanks to God the Father through Him. Wives, submit to your husbands, as is fitting in the Lord. Husbands, love your wives, and do not be harsh with them. Children, obey your parents in everything. Fathers, do not provoke your children.',
+    keyThemes: ['Raised with Christ seek above', 'Life hidden with Christ', 'Put off old put on new', 'Christ is all in all'],
+    christConnection: 'We have been raised with Christ; our life is hidden with Christ in God. When He appears, we will appear with Him in glory. Christ is all, and in all—do everything in His name.'
+  },
+  {
+    bookId: 'colossians',
+    chapter: 4,
+    title: 'Continue in Prayer',
+    summary: 'Masters, treat your bondservants justly and fairly, knowing that they also have a Master in heaven. Continue steadfastly in prayer, being watchful in it with thanksgiving. At the same time, pray also for Paul and his companions, that God may open to them a door for the word, to declare the mystery of Christ, on account of which Paul is in prison—that he may make it clear, which is how he ought to speak. Walk in wisdom toward outsiders, making the best use of the time. Let their speech always be gracious, seasoned with salt, so that they may know how they ought to answer each person. Tychicus will tell them all about Paul\'s activities. He is a beloved brother and faithful minister and fellow servant in the Lord. Paul has sent him to them for this very purpose, that they may know how they are and that he may encourage their hearts, and with him Onesimus, the faithful and beloved brother, who is one of them. They will tell them of everything that has taken place. Aristarchus, Paul\'s fellow prisoner, greets them, and Mark the cousin of Barnabas (concerning whom they have received instructions—if he comes to them, they are to welcome him), and Jesus who is called Justus. These are the only men of the circumcision among Paul\'s fellow workers for the kingdom of God, and they have been a comfort to him. Epaphras, who is one of them, a servant of Christ Jesus, greets them, always struggling on their behalf in his prayers, that they may stand mature and fully assured in all the will of God. For Paul bears him witness that he has worked hard for them and for those in Laodicea and in Hierapolis. Luke the beloved physician greets them, as does Demas. Give Paul\'s greetings to the brothers at Laodicea, and to Nympha and the church in her house. And when this letter has been read among them, have it also read in the church of the Laodiceans; and see that they also read the letter from Laodicea. And say to Archippus, See that you fulfill the ministry that you have received in the Lord. Paul writes this greeting with his own hand. Remember his chains. Grace be with them.',
+    keyThemes: ['Continue in prayer', 'Walk in wisdom toward outsiders', 'Speech gracious seasoned with salt', 'Fulfill ministry received'],
+    christConnection: 'Paul is in prison for declaring the mystery of Christ. Walk wisely, speak graciously, and fulfill the ministry received in the Lord. The letter closes with reminders of gospel fellowship and grace.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9096,6 +9135,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return EPHESIANS_CHAPTERS;
     case 'philippians':
       return PHILIPPIANS_CHAPTERS;
+    case 'colossians':
+      return COLOSSIANS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9154,4 +9195,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'galatians', bookName: 'Galatians', chapters: GALATIANS_CHAPTERS },
   { bookId: 'ephesians', bookName: 'Ephesians', chapters: EPHESIANS_CHAPTERS },
   { bookId: 'philippians', bookName: 'Philippians', chapters: PHILIPPIANS_CHAPTERS },
+  { bookId: 'colossians', bookName: 'Colossians', chapters: COLOSSIANS_CHAPTERS },
 ];
