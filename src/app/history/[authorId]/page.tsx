@@ -60,12 +60,16 @@ function getTraditionBadge(tradition: string) {
     reformation: 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300',
     puritan: 'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300',
     american_reformed: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300',
+    great_awakening: 'bg-rose-100 text-rose-800 dark:bg-rose-900/30 dark:text-rose-300',
+    modern_reformed: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300',
   };
   const labels: Record<string, string> = {
     early_church: 'Early Church',
     reformation: 'Reformation',
     puritan: 'Puritan',
     american_reformed: 'American Reformed',
+    great_awakening: 'Great Awakening',
+    modern_reformed: 'Modern Reformed',
   };
   return {
     className: styles[tradition] || 'bg-gray-100 text-gray-800',
