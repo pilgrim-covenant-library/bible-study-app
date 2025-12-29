@@ -5018,6 +5018,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: 'matthew-5-3',
+    reference: 'Matthew 5:3',
+    book: 'Matthew',
+    chapter: 5,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Blessed are the poor in spirit, for theirs is the kingdom of heaven.',
+      NIV: 'Blessed are the poor in spirit, for theirs is the kingdom of heaven.',
+      KJV: 'Blessed are the poor in spirit: for theirs is the kingdom of heaven.',
+      NASB: 'Blessed are the poor in spirit, for theirs is the kingdom of heaven.',
+    },
+    context: {
+      before: {
+        reference: 'Matthew 5:2',
+        text: 'And he opened his mouth and taught them, saying:',
+      },
+      after: {
+        reference: 'Matthew 5:4',
+        text: 'Blessed are those who mourn, for they shall be comforted.',
+      },
+    },
+  },
+  {
+    id: 'matthew-5-48',
+    reference: 'Matthew 5:48',
+    book: 'Matthew',
+    chapter: 5,
+    verse: 48,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'You therefore must be perfect, as your heavenly Father is perfect.',
+      NIV: 'Be perfect, therefore, as your heavenly Father is perfect.',
+      KJV: 'Be ye therefore perfect, even as your Father which is in heaven is perfect.',
+      NASB: 'Therefore you are to be perfect, as your heavenly Father is perfect.',
+    },
+    context: {
+      before: {
+        reference: 'Matthew 5:47',
+        text: 'And if you greet only your brothers, what more are you doing than others? Do not even the Gentiles do the same?',
+      },
+      after: {
+        reference: 'Matthew 6:1',
+        text: 'Beware of practicing your righteousness before other people in order to be seen by them, for then you will have no reward from your Father who is in heaven.',
+      },
+    },
+  },
+  {
+    id: 'matthew-6-9',
+    reference: 'Matthew 6:9',
+    book: 'Matthew',
+    chapter: 6,
+    verse: 9,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Pray then like this: "Our Father in heaven, hallowed be your name."',
+      NIV: 'This, then, is how you should pray: "Our Father in heaven, hallowed be your name,"',
+      KJV: 'After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.',
+      NASB: 'Pray, then, in this way: "Our Father who is in heaven, Hallowed be Your name."',
+    },
+    context: {
+      before: {
+        reference: 'Matthew 6:8',
+        text: 'Do not be like them, for your Father knows what you need before you ask him.',
+      },
+      after: {
+        reference: 'Matthew 6:10',
+        text: 'Your kingdom come, your will be done, on earth as it is in heaven.',
+      },
+    },
+  },
+  {
+    id: 'matthew-16-24',
+    reference: 'Matthew 16:24',
+    book: 'Matthew',
+    chapter: 16,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then Jesus told his disciples, "If anyone would come after me, let him deny himself and take up his cross and follow me."',
+      NIV: 'Then Jesus said to his disciples, "Whoever wants to be my disciple must deny themselves and take up their cross and follow me."',
+      KJV: 'Then said Jesus unto his disciples, If any man will come after me, let him deny himself, and take up his cross, and follow me.',
+      NASB: 'Then Jesus said to His disciples, "If anyone wishes to come after Me, he must deny himself, and take up his cross and follow Me."',
+    },
+    context: {
+      before: {
+        reference: 'Matthew 16:23',
+        text: 'But he turned and said to Peter, "Get behind me, Satan! You are a hindrance to me. For you are not setting your mind on the things of God, but on the things of man."',
+      },
+      after: {
+        reference: 'Matthew 16:25',
+        text: 'For whoever would save his life will lose it, but whoever loses his life for my sake will find it.',
+      },
+    },
+  },
+
   // ============ MARK ============
   {
     id: 'mark-10-45',
@@ -8899,6 +8996,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-john-1-4',
+    reference: '2 John 4',
+    book: '2 John',
+    chapter: 1,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I rejoiced greatly to find some of your children walking in the truth, just as we were commanded by the Father.',
+      NIV: 'It has given me great joy to find some of your children walking in the truth, just as the Father commanded us.',
+      KJV: 'I rejoiced greatly that I found of thy children walking in truth, as we have received a commandment from the Father.',
+      NASB: 'I was very glad to find some of your children walking in truth, just as we have received commandment to do from the Father.',
+    },
+    context: {
+      before: {
+        reference: '2 John 3',
+        text: 'Grace, mercy, and peace will be with us, from God the Father and from Jesus Christ the Father\'s Son, in truth and love.',
+      },
+      after: {
+        reference: '2 John 5',
+        text: 'And now I ask you, dear lady—not as though I were writing you a new commandment, but the one we have had from the beginning—that we love one another.',
+      },
+    },
+  },
+  {
+    id: '2-john-1-8',
+    reference: '2 John 8',
+    book: '2 John',
+    chapter: 1,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Watch yourselves, so that you may not lose what we have worked for, but may win a full reward.',
+      NIV: 'Watch out that you do not lose what we have worked for, but that you may be rewarded fully.',
+      KJV: 'Look to yourselves, that we lose not those things which we have wrought, but that we receive a full reward.',
+      NASB: 'Watch yourselves, that you do not lose what we have accomplished, but that you may receive a full reward.',
+    },
+    context: {
+      before: {
+        reference: '2 John 7',
+        text: 'For many deceivers have gone out into the world, those who do not confess the coming of Jesus Christ in the flesh. Such a one is the deceiver and the antichrist.',
+      },
+      after: {
+        reference: '2 John 9',
+        text: 'Everyone who goes on ahead and does not abide in the teaching of Christ, does not have God.',
+      },
+    },
+  },
 
   // ============ 3 JOHN ============
   {
@@ -8997,6 +9142,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '3-john-1-7-8',
+    reference: '3 John 7-8',
+    book: '3 John',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For they have gone out for the sake of the name, accepting nothing from the Gentiles. Therefore we ought to support people like these, that we may be fellow workers for the truth.',
+      NIV: 'It was for the sake of the Name that they went out, receiving no help from the pagans. We ought therefore to show hospitality to such people so that we may work together for the truth.',
+      KJV: 'Because that for his name\'s sake they went forth, taking nothing of the Gentiles. We therefore ought to receive such, that we might be fellowhelpers to the truth.',
+      NASB: 'For they went out for the sake of the Name, accepting nothing from the Gentiles. Therefore we ought to support such men, so that we may be fellow workers with the truth.',
+    },
+    context: {
+      before: {
+        reference: '3 John 6',
+        text: 'They have testified to your love before the church. You will do well to send them on their journey in a manner worthy of God.',
+      },
+      after: {
+        reference: '3 John 9',
+        text: 'I have written something to the church, but Diotrephes, who likes to put himself first, does not acknowledge our authority.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-3',
+    reference: '3 John 3',
+    book: '3 John',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For I rejoiced greatly when the brothers came and testified to your truth, as indeed you are walking in the truth.',
+      NIV: 'It gave me great joy when some believers came and testified about your faithfulness to the truth, telling how you continue to walk in it.',
+      KJV: 'For I rejoiced greatly, when the brethren came and testified of the truth that is in thee, even as thou walkest in the truth.',
+      NASB: 'For I was very glad when brethren came and testified to your truth, that is, how you are walking in truth.',
+    },
+    context: {
+      before: {
+        reference: '3 John 2',
+        text: 'Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.',
+      },
+      after: {
+        reference: '3 John 4',
+        text: 'I have no greater joy than to hear that my children are walking in the truth.',
+      },
+    },
+  },
 
   // ============ 2 PETER ============
   {
@@ -9091,6 +9284,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-peter-1-4',
+    reference: '2 Peter 1:4',
+    book: '2 Peter',
+    chapter: 1,
+    verse: 4,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'By which he has granted to us his precious and very great promises, so that through them you may become partakers of the divine nature, having escaped from the corruption that is in the world because of sinful desire.',
+      NIV: 'Through these he has given us his very great and precious promises, so that through them you may participate in the divine nature, having escaped the corruption in the world caused by evil desires.',
+      KJV: 'Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust.',
+      NASB: 'For by these He has granted to us His precious and magnificent promises, so that by them you may become partakers of the divine nature, having escaped the corruption that is in the world by lust.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 1:3',
+        text: 'His divine power has granted to us all things that pertain to life and godliness, through the knowledge of him who called us to his own glory and excellence.',
+      },
+      after: {
+        reference: '2 Peter 1:5',
+        text: 'For this very reason, make every effort to supplement your faith with virtue, and virtue with knowledge.',
+      },
+    },
+  },
+  {
+    id: '2-peter-1-5-7',
+    reference: '2 Peter 1:5-7',
+    book: '2 Peter',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For this very reason, make every effort to supplement your faith with virtue, and virtue with knowledge, and knowledge with self-control, and self-control with steadfastness, and steadfastness with godliness, and godliness with brotherly affection, and brotherly affection with love.',
+      NIV: 'For this very reason, make every effort to add to your faith goodness; and to goodness, knowledge; and to knowledge, self-control; and to self-control, perseverance; and to perseverance, godliness; and to godliness, mutual affection; and to mutual affection, love.',
+      KJV: 'And beside this, giving all diligence, add to your faith virtue; and to virtue knowledge; And to knowledge temperance; and to temperance patience; and to patience godliness; And to godliness brotherly kindness; and to brotherly kindness charity.',
+      NASB: 'Now for this very reason also, applying all diligence, in your faith supply moral excellence, and in your moral excellence, knowledge, and in your knowledge, self-control, and in your self-control, perseverance, and in your perseverance, godliness, and in your godliness, brotherly kindness, and in your brotherly kindness, love.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 1:4',
+        text: 'By which he has granted to us his precious and very great promises, so that through them you may become partakers of the divine nature.',
+      },
+      after: {
+        reference: '2 Peter 1:8',
+        text: 'For if these qualities are yours and are increasing, they keep you from being ineffective or unfruitful in the knowledge of our Lord Jesus Christ.',
+      },
+    },
+  },
+  {
+    id: '2-peter-1-10-11',
+    reference: '2 Peter 1:10-11',
+    book: '2 Peter',
+    chapter: 1,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore, brothers, be all the more diligent to confirm your calling and election, for if you practice these qualities you will never fall. For in this way there will be richly provided for you an entrance into the eternal kingdom of our Lord and Savior Jesus Christ.',
+      NIV: 'Therefore, my brothers and sisters, make every effort to confirm your calling and election. For if you do these things, you will never stumble, and you will receive a rich welcome into the eternal kingdom of our Lord and Savior Jesus Christ.',
+      KJV: 'Wherefore the rather, brethren, give diligence to make your calling and election sure: for if ye do these things, ye shall never fall: For so an entrance shall be ministered unto you abundantly into the everlasting kingdom of our Lord and Saviour Jesus Christ.',
+      NASB: 'Therefore, brethren, be all the more diligent to make certain about His calling and choosing you; for as long as you practice these things, you will never stumble; for in this way the entrance into the eternal kingdom of our Lord and Savior Jesus Christ will be abundantly supplied to you.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 1:9',
+        text: 'For whoever lacks these qualities is so nearsighted that he is blind, having forgotten that he was cleansed from his former sins.',
+      },
+      after: {
+        reference: '2 Peter 1:12',
+        text: 'Therefore I intend always to remind you of these qualities, though you know them and are established in the truth that you have.',
+      },
+    },
+  },
+  {
+    id: '2-peter-3-8',
+    reference: '2 Peter 3:8',
+    book: '2 Peter',
+    chapter: 3,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But do not overlook this one fact, beloved, that with the Lord one day is as a thousand years, and a thousand years as one day.',
+      NIV: 'But do not forget this one thing, dear friends: With the Lord a day is like a thousand years, and a thousand years are like a day.',
+      KJV: 'But, beloved, be not ignorant of this one thing, that one day is with the Lord as a thousand years, and a thousand years as one day.',
+      NASB: 'But do not let this one fact escape your notice, beloved, that with the Lord one day is like a thousand years, and a thousand years like one day.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 3:7',
+        text: 'But by the same word the heavens and earth that now exist are stored up for fire, being kept until the day of judgment and destruction of the ungodly.',
+      },
+      after: {
+        reference: '2 Peter 3:9',
+        text: 'The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish.',
+      },
+    },
+  },
 
   // ============ JUDE ============
   {
@@ -9182,6 +9471,98 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       before: {
         reference: 'Jude 23',
         text: 'save others by snatching them out of the fire; to others show mercy with fear, hating even the garment stained by the flesh.',
+      },
+    },
+  },
+  {
+    id: 'jude-4',
+    reference: 'Jude 4',
+    book: 'Jude',
+    chapter: 1,
+    verse: 4,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For certain people have crept in unnoticed who long ago were designated for this condemnation, ungodly people, who pervert the grace of our God into sensuality and deny our only Master and Lord, Jesus Christ.',
+      NIV: 'For certain individuals whose condemnation was written about long ago have secretly slipped in among you. They are ungodly people, who pervert the grace of our God into a license for immorality and deny Jesus Christ our only Sovereign and Lord.',
+      KJV: 'For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ.',
+      NASB: 'For certain persons have crept in unnoticed, those who were long beforehand marked out for this condemnation, ungodly persons who turn the grace of our God into licentiousness and deny our only Master and Lord, Jesus Christ.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 3',
+        text: 'Beloved, although I was very eager to write to you about our common salvation, I found it necessary to write appealing to you to contend for the faith.',
+      },
+      after: {
+        reference: 'Jude 5',
+        text: 'Now I want to remind you, although you once fully knew it, that Jesus, who saved a people out of the land of Egypt, afterward destroyed those who did not believe.',
+      },
+    },
+  },
+  {
+    id: 'jude-17-19',
+    reference: 'Jude 17-19',
+    book: 'Jude',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'But you must remember, beloved, the predictions of the apostles of our Lord Jesus Christ. They said to you, "In the last time there will be scoffers, following their own ungodly passions." It is these who cause divisions, worldly people, devoid of the Spirit.',
+      NIV: 'But, dear friends, remember what the apostles of our Lord Jesus Christ foretold. They said to you, "In the last times there will be scoffers who will follow their own ungodly desires." These are the people who divide you, who follow mere natural instincts and do not have the Spirit.',
+      KJV: 'But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ; How that they told you there should be mockers in the last time, who should walk after their own ungodly lusts. These be they who separate themselves, sensual, having not the Spirit.',
+      NASB: 'But you, beloved, ought to remember the words that were spoken beforehand by the apostles of our Lord Jesus Christ, that they were saying to you, "In the last time there will be mockers, following after their own ungodly lusts." These are the ones who cause divisions, worldly-minded, devoid of the Spirit.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 16',
+        text: 'These are grumblers, malcontents, following their own sinful desires; they are loud-mouthed boasters, showing favoritism to gain advantage.',
+      },
+      after: {
+        reference: 'Jude 20',
+        text: 'But you, beloved, building yourselves up in your most holy faith and praying in the Holy Spirit.',
+      },
+    },
+  },
+  {
+    id: 'jude-22-23',
+    reference: 'Jude 22-23',
+    book: 'Jude',
+    chapter: 1,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And have mercy on those who doubt; save others by snatching them out of the fire; to others show mercy with fear, hating even the garment stained by the flesh.',
+      NIV: 'Be merciful to those who doubt; save others by snatching them from the fire; to others show mercy, mixed with fear—hating even the clothing stained by corrupted flesh.',
+      KJV: 'And of some have compassion, making a difference: And others save with fear, pulling them out of the fire; hating even the garment spotted by the flesh.',
+      NASB: 'And have mercy on some, who are doubting; save others, snatching them out of the fire; and on some have mercy with fear, hating even the garment polluted by the flesh.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 21',
+        text: 'Keep yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life.',
+      },
+      after: {
+        reference: 'Jude 24',
+        text: 'Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy.',
+      },
+    },
+  },
+  {
+    id: 'jude-25',
+    reference: 'Jude 25',
+    book: 'Jude',
+    chapter: 1,
+    verse: 25,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'To the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time and now and forever. Amen.',
+      NIV: 'To the only God our Savior be glory, majesty, power and authority, through Jesus Christ our Lord, before all ages, now and forevermore! Amen.',
+      KJV: 'To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.',
+      NASB: 'To the only God our Savior, through Jesus Christ our Lord, be glory, majesty, dominion and authority, before all time and now and forever. Amen.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 24',
+        text: 'Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy.',
       },
     },
   },
