@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Book, Home, Search, BookOpen } from 'lucide-react';
+import { Book, Home, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
 export default function NotFound() {
