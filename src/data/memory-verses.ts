@@ -94,6 +94,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'genesis-12-2',
+    reference: 'Genesis 12:2',
+    book: 'Genesis',
+    chapter: 12,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing.',
+      NIV: 'I will make you into a great nation, and I will bless you; I will make your name great, and you will be a blessing.',
+      KJV: 'And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing.',
+      NASB: 'And I will make you a great nation, and I will bless you, and make your name great; and so you shall be a blessing.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 12:1',
+        text: 'Now the LORD said to Abram, "Go from your country and your kindred and your father\'s house to the land that I will show you."',
+      },
+      after: {
+        reference: 'Genesis 12:3',
+        text: 'I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed.',
+      },
+    },
+  },
+  {
+    id: 'genesis-15-6',
+    reference: 'Genesis 15:6',
+    book: 'Genesis',
+    chapter: 15,
+    verse: 6,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he believed the LORD, and he counted it to him as righteousness.',
+      NIV: 'Abram believed the LORD, and he credited it to him as righteousness.',
+      KJV: 'And he believed in the LORD; and he counted it to him for righteousness.',
+      NASB: 'Then he believed in the LORD; and He credited it to him as righteousness.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 15:5',
+        text: 'And he brought him outside and said, "Look toward heaven, and number the stars, if you are able to number them." Then he said to him, "So shall your offspring be."',
+      },
+      after: {
+        reference: 'Genesis 15:7',
+        text: 'And he said to him, "I am the LORD who brought you out from Ur of the Chaldeans to give you this land to possess."',
+      },
+    },
+  },
+  {
+    id: 'genesis-28-15',
+    reference: 'Genesis 28:15',
+    book: 'Genesis',
+    chapter: 28,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Behold, I am with you and will keep you wherever you go, and will bring you back to this land. For I will not leave you until I have done what I have promised you.',
+      NIV: 'I am with you and will watch over you wherever you go, and I will bring you back to this land. I will not leave you until I have done what I have promised you.',
+      KJV: 'And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of.',
+      NASB: 'Behold, I am with you and will keep you wherever you go, and will bring you back to this land; for I will not leave you until I have done what I have promised you.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 28:14',
+        text: 'Your offspring shall be like the dust of the earth, and you shall spread abroad to the west and to the east and to the north and to the south, and in you and your offspring shall all the families of the earth be blessed.',
+      },
+      after: {
+        reference: 'Genesis 28:16',
+        text: 'Then Jacob awoke from his sleep and said, "Surely the LORD is in this place, and I did not know it."',
+      },
+    },
+  },
+  {
+    id: 'genesis-50-20',
+    reference: 'Genesis 50:20',
+    book: 'Genesis',
+    chapter: 50,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'As for you, you meant evil against me, but God meant it for good, to bring it about that many people should be kept alive, as they are today.',
+      NIV: 'You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives.',
+      KJV: 'But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.',
+      NASB: 'As for you, you meant evil against me, but God meant it for good in order to bring about this present result, to preserve many people alive.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 50:19',
+        text: 'But Joseph said to them, "Do not fear, for am I in the place of God?"',
+      },
+      after: {
+        reference: 'Genesis 50:21',
+        text: 'So do not fear; I will provide for you and your little ones." Thus he comforted them and spoke kindly to them.',
+      },
+    },
+  },
 
   // ============ EXODUS ============
   {
@@ -538,6 +634,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-samuel-15-22',
+    reference: '1 Samuel 15:22',
+    book: '1 Samuel',
+    chapter: 15,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And Samuel said, "Has the LORD as great delight in burnt offerings and sacrifices, as in obeying the voice of the LORD? Behold, to obey is better than sacrifice, and to listen than the fat of rams."',
+      NIV: 'But Samuel replied: "Does the LORD delight in burnt offerings and sacrifices as much as in obeying the LORD? To obey is better than sacrifice, and to heed is better than the fat of rams."',
+      KJV: 'And Samuel said, Hath the LORD as great delight in burnt offerings and sacrifices, as in obeying the voice of the LORD? Behold, to obey is better than sacrifice, and to hearken than the fat of rams.',
+      NASB: 'Samuel said, "Has the LORD as much delight in burnt offerings and sacrifices as in obeying the voice of the LORD? Behold, to obey is better than sacrifice, and to heed than the fat of rams."',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 15:21',
+        text: 'But the people took of the spoil, sheep and oxen, the best of the things devoted to destruction, to sacrifice to the LORD your God in Gilgal.',
+      },
+      after: {
+        reference: '1 Samuel 15:23',
+        text: 'For rebellion is as the sin of divination, and presumption is as iniquity and idolatry. Because you have rejected the word of the LORD, he has also rejected you from being king.',
+      },
+    },
+  },
+  {
+    id: '1-samuel-16-7',
+    reference: '1 Samuel 16:7',
+    book: '1 Samuel',
+    chapter: 16,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But the LORD said to Samuel, "Do not look on his appearance or on the height of his stature, because I have rejected him. For the LORD sees not as man sees: man looks on the outward appearance, but the LORD looks on the heart."',
+      NIV: 'But the LORD said to Samuel, "Do not consider his appearance or his height, for I have rejected him. The LORD does not look at the things people look at. People look at the outward appearance, but the LORD looks at the heart."',
+      KJV: 'But the LORD said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the LORD seeth not as man seeth; for man looketh on the outward appearance, but the LORD looketh on the heart.',
+      NASB: 'But the LORD said to Samuel, "Do not look at his appearance or at the height of his stature, because I have rejected him; for God sees not as man sees, for man looks at the outward appearance, but the LORD looks at the heart."',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 16:6',
+        text: 'When they came, he looked on Eliab and thought, "Surely the LORD\'s anointed is before him."',
+      },
+      after: {
+        reference: '1 Samuel 16:8',
+        text: 'Then Jesse called Abinadab and made him pass before Samuel. And he said, "Neither has the LORD chosen this one."',
+      },
+    },
+  },
 
   // ============ 2 SAMUEL ============
   {
@@ -585,6 +729,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Samuel 7:17',
         text: 'In accordance with all these words, and in accordance with all this vision, Nathan spoke to David.',
+      },
+    },
+  },
+  {
+    id: '2-samuel-12-13',
+    reference: '2 Samuel 12:13',
+    book: '2 Samuel',
+    chapter: 12,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'David said to Nathan, "I have sinned against the LORD." And Nathan said to David, "The LORD also has put away your sin; you shall not die."',
+      NIV: 'Then David said to Nathan, "I have sinned against the LORD." Nathan replied, "The LORD has taken away your sin. You are not going to die."',
+      KJV: 'And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.',
+      NASB: 'Then David said to Nathan, "I have sinned against the LORD." And Nathan said to David, "The LORD also has taken away your sin; you shall not die."',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 12:12',
+        text: 'For you did it secretly, but I will do this thing before all Israel and before the sun.',
+      },
+      after: {
+        reference: '2 Samuel 12:14',
+        text: 'Nevertheless, because by this deed you have utterly scorned the LORD, the child who is born to you shall die.',
+      },
+    },
+  },
+  {
+    id: '2-samuel-24-24',
+    reference: '2 Samuel 24:24',
+    book: '2 Samuel',
+    chapter: 24,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But the king said to Araunah, "No, but I will buy it from you for a price. I will not offer burnt offerings to the LORD my God that cost me nothing." So David bought the threshing floor and the oxen for fifty shekels of silver.',
+      NIV: 'But the king replied to Araunah, "No, I insist on paying you for it. I will not sacrifice to the LORD my God burnt offerings that cost me nothing." So David bought the threshing floor and the oxen and paid fifty shekels of silver for them.',
+      KJV: 'And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. So David bought the threshingfloor and the oxen for fifty shekels of silver.',
+      NASB: 'However, the king said to Araunah, "No, but I will surely buy it from you for a price, for I will not offer burnt offerings to the LORD my God which cost me nothing." So David bought the threshing floor and the oxen for fifty shekels of silver.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 24:23',
+        text: 'All this, O king, Araunah gives to the king." And Araunah said to the king, "May the LORD your God accept you."',
+      },
+      after: {
+        reference: '2 Samuel 24:25',
+        text: 'And David built there an altar to the LORD and offered burnt offerings and peace offerings. So the LORD responded to the plea for the land, and the plague was averted from Israel.',
       },
     },
   },
@@ -638,6 +830,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-kings-3-9',
+    reference: '1 Kings 3:9',
+    book: '1 Kings',
+    chapter: 3,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Give your servant therefore an understanding mind to govern your people, that I may discern between good and evil, for who is able to govern this your great people?',
+      NIV: 'So give your servant a discerning heart to govern your people and to distinguish between right and wrong. For who is able to govern this great people of yours?',
+      KJV: 'Give therefore thy servant an understanding heart to judge thy people, that I may discern between good and bad: for who is able to judge this thy so great a people?',
+      NASB: 'So give Your servant an understanding heart to judge Your people to discern between good and evil. For who is able to judge this great people of Yours?',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 3:8',
+        text: 'And your servant is in the midst of your people whom you have chosen, a great people, too many to be numbered or counted for multitude.',
+      },
+      after: {
+        reference: '1 Kings 3:10',
+        text: 'It pleased the Lord that Solomon had asked this.',
+      },
+    },
+  },
+  {
+    id: '1-kings-8-27',
+    reference: '1 Kings 8:27',
+    book: '1 Kings',
+    chapter: 8,
+    verse: 27,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But will God indeed dwell on the earth? Behold, heaven and the highest heaven cannot contain you; how much less this house that I have built!',
+      NIV: 'But will God really dwell on earth? The heavens, even the highest heaven, cannot contain you. How much less this temple I have built!',
+      KJV: 'But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?',
+      NASB: 'But will God indeed dwell on the earth? Behold, heaven and the highest heaven cannot contain You, how much less this house which I have built!',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 8:26',
+        text: 'Now therefore, O God of Israel, let your word be confirmed, which you have spoken to your servant David my father.',
+      },
+      after: {
+        reference: '1 Kings 8:28',
+        text: 'Yet have regard to the prayer of your servant and to his plea, O LORD my God, listening to the cry and to the prayer that your servant prays before you this day.',
+      },
+    },
+  },
 
   // ============ 2 KINGS ============
   {
@@ -685,6 +925,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Kings 5:15',
         text: 'Then he returned to the man of God, he and all his company, and he came and stood before him. And he said, "Behold, I know that there is no God in all the earth but in Israel."',
+      },
+    },
+  },
+  {
+    id: '2-kings-6-16',
+    reference: '2 Kings 6:16',
+    book: '2 Kings',
+    chapter: 6,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'He said, "Do not be afraid, for those who are with us are more than those who are with them."',
+      NIV: '"Don\'t be afraid," the prophet answered. "Those who are with us are more than those who are with them."',
+      KJV: 'And he answered, Fear not: for they that be with us are more than they that be with them.',
+      NASB: 'So he answered, "Do not fear, for those who are with us are more than those who are with them."',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 6:15',
+        text: 'When the servant of the man of God rose early in the morning and went out, behold, an army with horses and chariots was all around the city. And the servant said, "Alas, my master! What shall we do?"',
+      },
+      after: {
+        reference: '2 Kings 6:17',
+        text: 'Then Elisha prayed and said, "O LORD, please open his eyes that he may see." So the LORD opened the eyes of the young man, and he saw, and behold, the mountain was full of horses and chariots of fire all around Elisha.',
+      },
+    },
+  },
+  {
+    id: '2-kings-17-13',
+    reference: '2 Kings 17:13',
+    book: '2 Kings',
+    chapter: 17,
+    verse: 13,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Yet the LORD warned Israel and Judah by every prophet and every seer, saying, "Turn from your evil ways and keep my commandments and my statutes, in accordance with all the Law that I commanded your fathers, and that I sent to you by my servants the prophets."',
+      NIV: 'The LORD warned Israel and Judah through all his prophets and seers: "Turn from your evil ways. Observe my commands and decrees, in accordance with the entire Law that I commanded your ancestors to obey and that I delivered to you through my servants the prophets."',
+      KJV: 'Yet the LORD testified against Israel, and against Judah, by all the prophets, and by all the seers, saying, Turn ye from your evil ways, and keep my commandments and my statutes, according to all the law which I commanded your fathers, and which I sent to you by my servants the prophets.',
+      NASB: 'Yet the LORD warned Israel and Judah through all His prophets and every seer, saying, "Turn from your evil ways and keep My commandments, My statutes according to all the law which I commanded your fathers, and which I sent to you through My servants the prophets."',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 17:12',
+        text: 'And they served idols, of which the LORD had said to them, "You shall not do this."',
+      },
+      after: {
+        reference: '2 Kings 17:14',
+        text: 'But they would not listen, but were stubborn, as their fathers had been, who did not believe in the LORD their God.',
       },
     },
   },
@@ -3246,6 +3534,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-corinthians-5-21',
+    reference: '2 Corinthians 5:21',
+    book: '2 Corinthians',
+    chapter: 5,
+    verse: 21,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.',
+      NIV: 'God made him who had no sin to be sin for us, so that in him we might become the righteousness of God.',
+      KJV: 'For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him.',
+      NASB: 'He made Him who knew no sin to be sin on our behalf, so that we might become the righteousness of God in Him.',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 5:20',
+        text: 'Therefore, we are ambassadors for Christ, God making his appeal through us. We implore you on behalf of Christ, be reconciled to God.',
+      },
+      after: {
+        reference: '2 Corinthians 6:1',
+        text: 'Working together with him, then, we appeal to you not to receive the grace of God in vain.',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-4-17',
+    reference: '2 Corinthians 4:17',
+    book: '2 Corinthians',
+    chapter: 4,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For this light momentary affliction is preparing for us an eternal weight of glory beyond all comparison,',
+      NIV: 'For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all.',
+      KJV: 'For our light affliction, which is but for a moment, worketh for us a far more exceeding and eternal weight of glory;',
+      NASB: 'For momentary, light affliction is producing for us an eternal weight of glory far beyond all comparison,',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 4:16',
+        text: 'So we do not lose heart. Though our outer self is wasting away, our inner self is being renewed day by day.',
+      },
+      after: {
+        reference: '2 Corinthians 4:18',
+        text: 'as we look not to the things that are seen but to the things that are unseen. For the things that are seen are transient, but the things that are unseen are eternal.',
+      },
+    },
+  },
 
   // ============ GALATIANS ============
   {
@@ -3293,6 +3629,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Galatians 5:23',
         text: 'gentleness, self-control; against such things there is no law.',
+      },
+    },
+  },
+  {
+    id: 'galatians-3-28',
+    reference: 'Galatians 3:28',
+    book: 'Galatians',
+    chapter: 3,
+    verse: 28,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'There is neither Jew nor Greek, there is neither slave nor free, there is no male and female, for you are all one in Christ Jesus.',
+      NIV: 'There is neither Jew nor Gentile, neither slave nor free, nor is there male and female, for you are all one in Christ Jesus.',
+      KJV: 'There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.',
+      NASB: 'There is neither Jew nor Greek, there is neither slave nor free man, there is neither male nor female; for you are all one in Christ Jesus.',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 3:27',
+        text: 'For as many of you as were baptized into Christ have put on Christ.',
+      },
+      after: {
+        reference: 'Galatians 3:29',
+        text: 'And if you are Christ\'s, then you are Abraham\'s offspring, heirs according to promise.',
+      },
+    },
+  },
+  {
+    id: 'galatians-6-14',
+    reference: 'Galatians 6:14',
+    book: 'Galatians',
+    chapter: 6,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But far be it from me to boast except in the cross of our Lord Jesus Christ, by which the world has been crucified to me, and I to the world.',
+      NIV: 'May I never boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world.',
+      KJV: 'But God forbid that I should glory, save in the cross of our Lord Jesus Christ, by whom the world is crucified unto me, and I unto the world.',
+      NASB: 'But may it never be that I would boast, except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world.',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 6:13',
+        text: 'For even those who are circumcised do not themselves keep the law, but they desire to have you circumcised that they may boast in your flesh.',
+      },
+      after: {
+        reference: 'Galatians 6:15',
+        text: 'For neither circumcision counts for anything, nor uncircumcision, but a new creation.',
       },
     },
   },
