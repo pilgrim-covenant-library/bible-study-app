@@ -8601,6 +8601,141 @@ const ACTS_CHAPTERS: ChapterSummary[] = [
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════════
+// ROMANS (16 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+const ROMANS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'romans',
+    chapter: 1,
+    title: 'The Gospel and Human Sinfulness',
+    summary: 'Paul introduces himself as a servant of Christ Jesus, set apart for the gospel concerning God\'s Son, descended from David according to the flesh and declared Son of God in power according to the Spirit of holiness by His resurrection. Paul longs to visit Rome to impart spiritual gifts and be mutually encouraged. He is not ashamed of the gospel, for it is the power of God for salvation to everyone who believes, to the Jew first and also to the Greek. In it the righteousness of God is revealed from faith for faith, as it is written: "The righteous shall live by faith." But the wrath of God is also revealed from heaven against all ungodliness. Though God\'s invisible attributes are clearly perceived in creation, humanity suppressed the truth in unrighteousness. They exchanged the glory of the immortal God for images resembling mortal creatures, and God gave them up to dishonorable passions and debased minds, resulting in every form of wickedness.',
+    keyThemes: ['Gospel as God\'s power', 'Righteousness revealed', 'General revelation', 'Wrath against sin'],
+    christConnection: 'Christ is the center of the gospel—descended from David, declared Son of God by His resurrection. The righteousness of God is revealed through faith in Him, the only rescue from divine wrath.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 2,
+    title: 'God\'s Righteous Judgment',
+    summary: 'Paul addresses those who pass judgment on others while practicing the same sins, presuming on God\'s kindness that is meant to lead to repentance. God will render to each according to his works—eternal life to those who seek glory and immortality, wrath to those who are self-seeking and disobey the truth. There is no partiality with God. Those who sinned without the law will perish without the law; those who sinned under the law will be judged by the law. It is not the hearers but the doers of the law who will be justified. Gentiles who do by nature what the law requires show the law written on their hearts. Circumcision has value if one obeys the law, but a Jew who breaks the law is no better than an uncircumcised Gentile. True circumcision is a matter of the heart, by the Spirit, not the letter.',
+    keyThemes: ['Impartial judgment', 'Hypocrisy condemned', 'Law written on hearts', 'Inward circumcision'],
+    christConnection: 'God judges impartially through Christ Jesus (v. 16). The inward circumcision of the heart that Paul describes is accomplished by the Spirit of Christ, transforming hearts to love God\'s law.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 3,
+    title: 'All Under Sin, Justified by Faith',
+    summary: 'What advantage has the Jew? Much in every way—they were entrusted with the oracles of God. Their unfaithfulness does not nullify God\'s faithfulness. Let God be true though every man a liar. Are Jews better off? No, for all—both Jews and Greeks—are under sin. As it is written: "None is righteous, no, not one." Through the law comes knowledge of sin, but no one will be justified by works of the law. Now the righteousness of God has been manifested apart from the law, through faith in Jesus Christ for all who believe. All have sinned and fall short of God\'s glory, and are justified by His grace as a gift, through the redemption in Christ Jesus, whom God put forward as a propitiation by His blood. God shows His righteousness: He is just and the justifier of the one who has faith in Jesus. Boasting is excluded—by the law of faith. A person is justified by faith apart from works of the law.',
+    keyThemes: ['Universal sinfulness', 'Righteousness through faith', 'Propitiation by blood', 'Boasting excluded'],
+    christConnection: 'Christ is the propitiation—the sacrifice that turns away God\'s wrath. Through His blood, God demonstrates both His justice (sin is punished) and His mercy (sinners are justified). This is the heart of the gospel.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 4,
+    title: 'Abraham Justified by Faith',
+    summary: 'What then shall we say was gained by Abraham? If he was justified by works, he has something to boast about—but not before God. For what does Scripture say? "Abraham believed God, and it was counted to him as righteousness." To one who works, wages are not counted as a gift but as due. But to one who does not work but believes in Him who justifies the ungodly, his faith is counted as righteousness. David also speaks of blessing apart from works: "Blessed are those whose lawless deeds are forgiven." Was this blessing for the circumcised or also the uncircumcised? Abraham\'s faith was counted as righteousness before he was circumcised—circumcision was a sign and seal of the righteousness he had by faith. Abraham is the father of all who believe. The promise to Abraham—that he would be heir of the world—came through the righteousness of faith. Abraham grew strong in faith, fully convinced that God was able to do what He had promised. "It was counted to him as righteousness" was written not for his sake alone, but for ours also. It will be counted to us who believe in Him who raised Jesus our Lord from the dead, who was delivered up for our trespasses and raised for our justification.',
+    keyThemes: ['Faith credited as righteousness', 'Justification of the ungodly', 'Abraham father of believers', 'Promise through faith'],
+    christConnection: 'Abraham\'s faith pointed forward to Christ; our faith looks back to His death and resurrection. Christ was delivered for our sins and raised for our justification—His resurrection declares that the Father accepted His sacrifice.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 5,
+    title: 'Peace with God and Adam\'s Contrast with Christ',
+    summary: 'Having been justified by faith, we have peace with God through our Lord Jesus Christ. Through Him we have access into this grace in which we stand, and we rejoice in hope of God\'s glory. We also rejoice in sufferings, knowing that suffering produces endurance, endurance character, and character hope—hope that does not put us to shame, because God\'s love has been poured into our hearts through the Holy Spirit. While we were still weak, Christ died for the ungodly. God shows His love for us in that while we were yet sinners, Christ died for us. Since we have been justified by His blood, much more shall we be saved from wrath through Him. Just as sin came into the world through one man, and death through sin, so death spread to all because all sinned. The free gift is not like the trespass. If many died through one man\'s trespass, much more have the grace of God and the gift by the grace of one man Jesus Christ abounded for many. The judgment following one trespass brought condemnation, but the free gift following many trespasses brings justification. If by one man\'s trespass death reigned, much more will those who receive the abundance of grace and the gift of righteousness reign in life through the one man Jesus Christ. Where sin increased, grace abounded all the more.',
+    keyThemes: ['Peace with God', 'Rejoicing in suffering', 'Adam and Christ contrasted', 'Grace abounding'],
+    christConnection: 'Christ is the second Adam whose one act of obedience brings justification and life, undoing the curse of the first Adam. Where Adam brought death to all, Christ brings life to all who believe.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 6,
+    title: 'Dead to Sin, Alive to God',
+    summary: 'What shall we say then? Are we to continue in sin that grace may abound? By no means! How can we who died to sin still live in it? All who have been baptized into Christ Jesus were baptized into His death. We were buried with Him by baptism into death, in order that, just as Christ was raised from the dead, we too might walk in newness of life. If we have been united with Him in a death like His, we shall certainly be united with Him in a resurrection like His. Our old self was crucified with Him so that the body of sin might be brought to nothing, and we would no longer be enslaved to sin. For one who has died has been set free from sin. If we have died with Christ, we believe that we will also live with Him. Death no longer has dominion over Him; the death He died He died to sin once for all, but the life He lives He lives to God. So you also must consider yourselves dead to sin and alive to God in Christ Jesus. Do not present your members as instruments for unrighteousness, but present yourselves to God as instruments for righteousness. Sin will have no dominion over you, for you are not under law but under grace. Having been set free from sin, you have become slaves of righteousness. The wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.',
+    keyThemes: ['Union with Christ in death and resurrection', 'Freedom from sin\'s dominion', 'Grace not license', 'Slaves of righteousness'],
+    christConnection: 'Believers are united with Christ in His death, burial, and resurrection. Our old self was crucified with Him. Because He died to sin and rose to newness of life, so do all who are in Him.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 7,
+    title: 'Released from the Law, Struggle with Sin',
+    summary: 'The law is binding on a person only during his life. A married woman is bound by law to her husband while he lives, but if he dies she is released. Likewise, believers have died to the law through the body of Christ, so that they may belong to another—to Him who has been raised from the dead, in order that they may bear fruit for God. While living in the flesh, sinful passions aroused by the law were at work producing fruit for death. But now we are released from the law, having died to that which held us captive. What then? Is the law sin? By no means! Yet Paul would not have known sin except through the law. But sin, seizing an opportunity through the commandment, produced all kinds of covetousness. Apart from the law, sin lies dead. The very commandment that promised life proved to be death to Paul. The law is holy, righteous, and good; but sin used what is good to bring about death. Paul delights in the law of God in his inner being, but he sees another law in his members waging war against the law of his mind. Wretched man that he is! Who will deliver him from this body of death? Thanks be to God through Jesus Christ our Lord!',
+    keyThemes: ['Dead to the law', 'Law reveals sin', 'Inner conflict', 'Deliverance through Christ'],
+    christConnection: 'Christ alone delivers from the wretched struggle between flesh and spirit. Through His body given on the cross, believers die to the law\'s condemnation and are freed to bear fruit for God.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 8,
+    title: 'Life in the Spirit, No Condemnation',
+    summary: 'There is therefore now no condemnation for those who are in Christ Jesus. The law of the Spirit of life has set you free from the law of sin and death. God has done what the law, weakened by the flesh, could not do: sending His own Son in the likeness of sinful flesh and for sin, He condemned sin in the flesh. Those who live according to the flesh set their minds on things of the flesh, but those who live according to the Spirit set their minds on things of the Spirit. To set the mind on the flesh is death, but to set the mind on the Spirit is life and peace. If the Spirit of Him who raised Jesus from the dead dwells in you, He will also give life to your mortal bodies. We are debtors not to the flesh. All who are led by the Spirit of God are sons of God. You have received the Spirit of adoption as sons, by whom we cry, "Abba! Father!" The Spirit bears witness that we are children of God, heirs of God and fellow heirs with Christ. The sufferings of this present time are not worth comparing with the glory that is to be revealed. The whole creation groans, waiting for the redemption of our bodies. The Spirit helps us in our weakness, interceding with groanings too deep for words. And we know that for those who love God all things work together for good, for those called according to His purpose. Whom He foreknew He predestined to be conformed to the image of His Son. Whom He predestined He called; whom He called He justified; whom He justified He glorified. If God is for us, who can be against us? Who shall separate us from the love of Christ? Neither death nor life, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.',
+    keyThemes: ['No condemnation', 'Life in the Spirit', 'Adoption as sons', 'Nothing can separate us'],
+    christConnection: 'Christ Jesus brings no condemnation. God sent His own Son to condemn sin. The Spirit of Christ dwells in believers. We are co-heirs with Christ, and nothing can separate us from His love.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 9,
+    title: 'God\'s Sovereign Election of Israel',
+    summary: 'Paul has great sorrow for his kinsmen according to the flesh—Israelites, to whom belong adoption, glory, covenants, the law, worship, and the promises. From them, according to the flesh, came the Christ. But it is not as though God\'s word has failed. Not all who are descended from Israel belong to Israel, nor are all Abraham\'s children his true offspring. "Through Isaac shall your offspring be named"—it is not the children of the flesh who are children of God, but the children of the promise. Before the twins were born or had done anything good or bad, in order that God\'s purpose of election might stand, Rebekah was told, "The elder will serve the younger." "Jacob I loved, but Esau I hated." Is there injustice on God\'s part? By no means! God told Moses, "I will have mercy on whom I have mercy." It depends not on human will or exertion, but on God who has mercy. The Scripture says to Pharaoh, "For this very purpose I have raised you up, that I might show My power in you." So God has mercy on whomever He wills, and He hardens whomever He wills. Who are you, O man, to answer back to God? Has the potter no right over the clay? What if God, desiring to show His wrath, has endured with much patience vessels of wrath prepared for destruction, in order to make known the riches of His glory for vessels of mercy? Gentiles who did not pursue righteousness have attained it through faith, while Israel who pursued a law of righteousness did not succeed because they pursued it not by faith but by works.',
+    keyThemes: ['God\'s sovereign election', 'Children of promise', 'Potter and clay', 'Righteousness by faith'],
+    christConnection: 'Christ came from Israel according to the flesh and is God over all, forever blessed. He is the stumbling stone over which Israel stumbled, yet the cornerstone of God\'s mercy to both Jews and Gentiles.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 10,
+    title: 'Salvation for All Who Call on Christ',
+    summary: 'Paul\'s heart\'s desire and prayer to God for Israel is that they may be saved. They have a zeal for God, but not according to knowledge. Being ignorant of the righteousness of God and seeking to establish their own, they did not submit to God\'s righteousness. For Christ is the end of the law for righteousness to everyone who believes. Moses writes about the righteousness from the law: "The person who does the commandments shall live by them." But the righteousness based on faith says, "Do not say in your heart, \'Who will ascend into heaven?\'" (to bring Christ down) or "\'Who will descend into the abyss?\'" (to bring Christ up from the dead). The word is near you, in your mouth and in your heart—the word of faith that we proclaim. If you confess with your mouth that Jesus is Lord and believe in your heart that God raised Him from the dead, you will be saved. With the heart one believes and is justified, and with the mouth one confesses and is saved. "Everyone who calls on the name of the Lord will be saved." How then will they call on Him in whom they have not believed? And how are they to believe in Him of whom they have never heard? And how are they to hear without someone preaching? And how are they to preach unless they are sent? "How beautiful are the feet of those who preach the good news!"',
+    keyThemes: ['Christ the end of the law', 'Confess and believe', 'Calling on the Lord', 'Necessity of preaching'],
+    christConnection: 'Christ is the goal and fulfillment of the law. Salvation comes by confessing Jesus as Lord and believing God raised Him from the dead. All who call on His name—Jew or Gentile—will be saved.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 11,
+    title: 'Israel\'s Remnant and Future Restoration',
+    summary: 'Has God rejected His people? By no means! Paul himself is an Israelite, a descendant of Abraham. God has not rejected His people whom He foreknew. Even as in Elijah\'s day God preserved seven thousand who had not bowed to Baal, so at the present time there is a remnant chosen by grace. Israel failed to obtain what it was seeking, but the elect obtained it; the rest were hardened. Did they stumble in order to fall? By no means! Through their trespass salvation has come to the Gentiles, so as to make Israel jealous. If their trespass means riches for the world, how much more will their full inclusion mean! Paul magnifies his ministry to the Gentiles in order to make his fellow Jews jealous and save some. If their rejection means reconciliation of the world, what will their acceptance mean but life from the dead? Paul warns Gentile believers not to be arrogant: they are wild olive branches grafted in among the natural branches of Israel\'s olive tree. They stand only by faith. If God did not spare the natural branches, neither will He spare them. Note the kindness and severity of God. And if Israel does not persist in unbelief, they will be grafted in again. A partial hardening has come upon Israel until the fullness of the Gentiles comes in. All Israel will be saved. Oh, the depth of the riches and wisdom and knowledge of God!',
+    keyThemes: ['Remnant by grace', 'Gentiles grafted in', 'Israel\'s future restoration', 'Depth of God\'s wisdom'],
+    christConnection: 'The Deliverer will come from Zion and banish ungodliness from Jacob. Christ\'s work includes the future salvation of Israel. The riches of God\'s mercy extend to both Jews and Gentiles through Him.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 12,
+    title: 'Living Sacrifices and the Body of Christ',
+    summary: 'Paul appeals to believers by the mercies of God to present their bodies as living sacrifices, holy and acceptable to God, which is their spiritual worship. Do not be conformed to this world, but be transformed by the renewal of your mind, that you may discern God\'s will—what is good, acceptable, and perfect. Each one should think with sober judgment, according to the measure of faith God has assigned. As in one body we have many members with different functions, so we who are many are one body in Christ, individually members one of another. Having gifts that differ according to the grace given to us, let us use them: prophecy, service, teaching, exhortation, generosity, leadership, mercy—each according to their gift. Let love be genuine. Abhor what is evil; hold fast to what is good. Love one another with brotherly affection. Outdo one another in showing honor. Be fervent in spirit, serving the Lord. Rejoice in hope, be patient in tribulation, be constant in prayer. Contribute to the needs of the saints. Bless those who persecute you; bless and do not curse them. Rejoice with those who rejoice, weep with those who weep. Live in harmony. Do not be haughty but associate with the lowly. Never be wise in your own sight. Repay no one evil for evil. If possible, live peaceably with all. Never avenge yourselves. If your enemy is hungry, feed him. Do not be overcome by evil, but overcome evil with good.',
+    keyThemes: ['Living sacrifice', 'Renewed mind', 'One body, many members', 'Overcome evil with good'],
+    christConnection: 'In view of God\'s mercies in Christ, believers offer themselves as living sacrifices. As members of Christ\'s body, each uses their gifts to serve. Christ\'s love constrains us to love even our enemies.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 13,
+    title: 'Submission to Authorities and Love\'s Fulfillment',
+    summary: 'Let every person be subject to the governing authorities, for there is no authority except from God, and those that exist have been instituted by God. Therefore whoever resists the authorities resists what God has appointed, and those who resist will incur judgment. Rulers are not a terror to good conduct but to bad. Do what is good, and you will receive approval. If you do wrong, be afraid, for the authority does not bear the sword in vain. He is God\'s servant, an avenger who carries out God\'s wrath on the wrongdoer. Be subject not only to avoid wrath but also for the sake of conscience. Pay taxes, for authorities are ministers of God. Pay to all what is owed: taxes to whom taxes are owed, revenue to whom revenue, respect to whom respect, honor to whom honor. Owe no one anything except to love each other, for the one who loves another has fulfilled the law. The commandments—"You shall not commit adultery, murder, steal, covet"—are summed up in this: "You shall love your neighbor as yourself." Love does no wrong to a neighbor; therefore love is the fulfilling of the law. Besides this, you know the time, that the hour has come to wake from sleep. The night is far gone; the day is at hand. Cast off the works of darkness and put on the armor of light. Put on the Lord Jesus Christ, and make no provision for the flesh.',
+    keyThemes: ['Submission to government', 'Love fulfills the law', 'Waking from sleep', 'Put on Christ'],
+    christConnection: 'Believers are called to put on the Lord Jesus Christ, clothing themselves with His character. Love, which Christ perfectly embodied, is the fulfillment of all God\'s commands.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 14,
+    title: 'The Weak and the Strong',
+    summary: 'Welcome the one who is weak in faith, but not to quarrel over opinions. One person believes he may eat anything, while the weak person eats only vegetables. Let not the one who eats despise the one who abstains, and let not the one who abstains pass judgment on the one who eats, for God has welcomed him. Who are you to pass judgment on the servant of another? It is before his own master that he stands or falls. And he will be upheld, for the Lord is able to make him stand. One person esteems one day above another, while another esteems all days alike. Each one should be fully convinced in his own mind. The one who observes the day, observes it in honor of the Lord. Whether we live or die, we are the Lord\'s. Christ died and lived again, that He might be Lord of both the dead and the living. Why do you pass judgment on your brother? We will all stand before the judgment seat of God. Let us not pass judgment on one another but decide never to put a stumbling block or hindrance in the way of a brother. Nothing is unclean in itself, but it is unclean for anyone who thinks it unclean. If your brother is grieved by what you eat, you are no longer walking in love. Do not destroy the one for whom Christ died. The kingdom of God is not a matter of eating and drinking but of righteousness and peace and joy in the Holy Spirit.',
+    keyThemes: ['Welcoming the weak', 'Not judging in disputable matters', 'Living to the Lord', 'Kingdom is righteousness and peace'],
+    christConnection: 'Christ died and rose to be Lord of both living and dead. We belong to Him and will give account to Him. We must not destroy with our liberty those for whom Christ gave His life.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 15,
+    title: 'Christ\'s Example and Paul\'s Mission',
+    summary: 'We who are strong have an obligation to bear with the failings of the weak, and not to please ourselves. Let each of us please his neighbor for his good, to build him up. For Christ did not please Himself, but as it is written, "The reproaches of those who reproached You fell on Me." Whatever was written in former days was written for our instruction, that through endurance and the encouragement of the Scriptures we might have hope. May the God of endurance and encouragement grant you to live in harmony with one another, in accord with Christ Jesus, that together you may with one voice glorify God. Welcome one another as Christ has welcomed you, for the glory of God. Christ became a servant to the circumcised to show God\'s truthfulness, to confirm the promises made to the patriarchs, and in order that the Gentiles might glorify God for His mercy. Paul\'s ambition is to preach Christ where He has not been named, not to build on another\'s foundation. From Jerusalem to Illyricum he has fulfilled the ministry of the gospel. Now he plans to visit Rome on his way to Spain. But first he must deliver to Jerusalem the contribution collected from Macedonia and Achaia for the poor among the saints. The Gentiles have shared in Israel\'s spiritual blessings and ought to be of service to them in material blessings. Paul asks for their prayers.',
+    keyThemes: ['Bear with the weak', 'Christ our example', 'Gentiles glorify God', 'Paul\'s missionary vision'],
+    christConnection: 'Christ did not please Himself but bore reproaches for us. He became a servant to confirm God\'s promises and extend mercy to the Gentiles. His welcome of sinners is the pattern for how believers welcome one another.'
+  },
+  {
+    bookId: 'romans',
+    chapter: 16,
+    title: 'Greetings and Final Warnings',
+    summary: 'Paul commends Phoebe, a servant of the church at Cenchreae, asking that they receive her in the Lord and help her in whatever she needs. He greets Prisca and Aquila, his fellow workers in Christ Jesus, who risked their necks for his life. He greets Epaenetus, his beloved, who was the first convert in Asia. He greets Mary, who worked hard for them; Andronicus and Junia, his kinsmen and fellow prisoners, well known among the apostles; Ampliatus, Urbanus, Stachys, and many others by name—all those who labor in the Lord. Paul urges them to watch out for those who cause divisions and create obstacles contrary to the doctrine they have been taught; avoid them. Such persons do not serve our Lord Christ but their own appetites, and by smooth talk and flattery they deceive the hearts of the naive. The report of their obedience has reached all, so Paul rejoices over them but wants them to be wise as to what is good and innocent as to what is evil. The God of peace will soon crush Satan under their feet. Paul sends greetings from Timothy, Lucius, Jason, Sosipater, Tertius (who wrote the letter), Gaius, Erastus, and Quartus. Now to Him who is able to strengthen you according to Paul\'s gospel and the preaching of Jesus Christ, according to the revelation of the mystery that was kept secret for long ages but has now been disclosed and made known to all nations—to the only wise God be glory forevermore through Jesus Christ. Amen.',
+    keyThemes: ['Commendation and greetings', 'Warning against divisive people', 'Obedience and wisdom', 'Glory to God alone'],
+    christConnection: 'The letter closes with glory to God through Jesus Christ, by whom the mystery long hidden has now been revealed. The gospel Paul preached centers on Christ, through whom believers are strengthened and God is glorified forever.'
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════════════════════
 // 1 CORINTHIANS (16 Chapters)
 // ═══════════════════════════════════════════════════════════════════════════════
 
@@ -9671,6 +9806,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return JOHN_CHAPTERS;
     case 'acts':
       return ACTS_CHAPTERS;
+    case 'romans':
+      return ROMANS_CHAPTERS;
     case '1-corinthians':
       return FIRST_CORINTHIANS_CHAPTERS;
     case '2-corinthians':
@@ -9764,6 +9901,7 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'luke', bookName: 'Luke', chapters: LUKE_CHAPTERS },
   { bookId: 'john', bookName: 'John', chapters: JOHN_CHAPTERS },
   { bookId: 'acts', bookName: 'Acts', chapters: ACTS_CHAPTERS },
+  { bookId: 'romans', bookName: 'Romans', chapters: ROMANS_CHAPTERS },
   { bookId: '1-corinthians', bookName: '1 Corinthians', chapters: FIRST_CORINTHIANS_CHAPTERS },
   { bookId: '2-corinthians', bookName: '2 Corinthians', chapters: SECOND_CORINTHIANS_CHAPTERS },
   { bookId: 'galatians', bookName: 'Galatians', chapters: GALATIANS_CHAPTERS },
