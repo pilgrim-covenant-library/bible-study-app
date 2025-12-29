@@ -9434,6 +9434,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'john-1-14',
+    reference: 'John 1:14',
+    book: 'John',
+    chapter: 1,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.',
+      NIV: 'The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth.',
+      KJV: 'And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.',
+      NASB: 'And the Word became flesh, and dwelt among us; and we saw His glory, glory as of the only Son from the Father, full of grace and truth.',
+    },
+    context: {
+      before: {
+        reference: 'John 1:13',
+        text: 'who were born, not of blood nor of the will of the flesh nor of the will of man, but of God.',
+      },
+      after: {
+        reference: 'John 1:15',
+        text: '(John bore witness about him, and cried out, "This was he of whom I said, \'He who comes after me ranks before me, because he was before me.\'")',
+      },
+    },
+  },
+  {
+    id: 'john-6-35',
+    reference: 'John 6:35',
+    book: 'John',
+    chapter: 6,
+    verse: 35,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Jesus said to them, "I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst."',
+      NIV: 'Then Jesus declared, "I am the bread of life. Whoever comes to me will never go hungry, and whoever believes in me will never be thirsty."',
+      KJV: 'And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.',
+      NASB: 'Jesus said to them, "I am the bread of life; the one who comes to Me will not be hungry, and the one who believes in Me will never be thirsty."',
+    },
+    context: {
+      before: {
+        reference: 'John 6:34',
+        text: 'They said to him, "Sir, give us this bread always."',
+      },
+      after: {
+        reference: 'John 6:36',
+        text: 'But I said to you that you have seen me and yet do not believe.',
+      },
+    },
+  },
+  {
+    id: 'john-10-11',
+    reference: 'John 10:11',
+    book: 'John',
+    chapter: 10,
+    verse: 11,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I am the good shepherd. The good shepherd lays down his life for the sheep.',
+      NIV: 'I am the good shepherd. The good shepherd lays down his life for the sheep.',
+      KJV: 'I am the good shepherd: the good shepherd giveth his life for the sheep.',
+      NASB: 'I am the good shepherd; the good shepherd lays down His life for the sheep.',
+    },
+    context: {
+      before: {
+        reference: 'John 10:10',
+        text: 'The thief comes only to steal and kill and destroy. I came that they may have life and have it abundantly.',
+      },
+      after: {
+        reference: 'John 10:12',
+        text: 'He who is a hired hand and not a shepherd, who does not own the sheep, sees the wolf coming and leaves the sheep and flees.',
+      },
+    },
+  },
+  {
+    id: 'john-17-3',
+    reference: 'John 17:3',
+    book: 'John',
+    chapter: 17,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And this is eternal life, that they know you, the only true God, and Jesus Christ whom you have sent.',
+      NIV: 'Now this is eternal life: that they know you, the only true God, and Jesus Christ, whom you have sent.',
+      KJV: 'And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.',
+      NASB: 'This is eternal life, that they may know You, the only true God, and Jesus Christ whom You have sent.',
+    },
+    context: {
+      before: {
+        reference: 'John 17:2',
+        text: 'since you have given him authority over all flesh, to give eternal life to all whom you have given him.',
+      },
+      after: {
+        reference: 'John 17:4',
+        text: 'I glorified you on earth, having accomplished the work that you gave me to do.',
+      },
+    },
+  },
 
   // ============ ACTS ============
   {
@@ -11319,6 +11415,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Philippians 4:1',
         text: 'Therefore, my brothers, whom I love and long for, my joy and crown, stand firm thus in the Lord, my beloved.',
+      },
+    },
+  },
+  {
+    id: 'philippians-1-6',
+    reference: 'Philippians 1:6',
+    book: 'Philippians',
+    chapter: 1,
+    verse: 6,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ.',
+      NIV: 'being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus.',
+      KJV: 'Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ.',
+      NASB: 'For I am confident of this very thing, that He who began a good work among you will perfect it until the day of Christ Jesus.',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 1:5',
+        text: 'because of your partnership in the gospel from the first day until now.',
+      },
+      after: {
+        reference: 'Philippians 1:7',
+        text: 'It is right for me to feel this way about you all, because I hold you in my heart.',
+      },
+    },
+  },
+  {
+    id: 'philippians-4-8',
+    reference: 'Philippians 4:8',
+    book: 'Philippians',
+    chapter: 4,
+    verse: 8,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things.',
+      NIV: 'Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.',
+      KJV: 'Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.',
+      NASB: 'Finally, brethren, whatever is true, whatever is honorable, whatever is right, whatever is pure, whatever is lovely, whatever is of good repute, if there is any excellence and if anything worthy of praise, dwell on these things.',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 4:7',
+        text: 'And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.',
+      },
+      after: {
+        reference: 'Philippians 4:9',
+        text: 'What you have learned and received and heard and seen in me—practice these things, and the God of peace will be with you.',
+      },
+    },
+  },
+  {
+    id: 'philippians-4-19',
+    reference: 'Philippians 4:19',
+    book: 'Philippians',
+    chapter: 4,
+    verse: 19,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And my God will supply every need of yours according to his riches in glory in Christ Jesus.',
+      NIV: 'And my God will meet all your needs according to the riches of his glory in Christ Jesus.',
+      KJV: 'But my God shall supply all your need according to his riches in glory by Christ Jesus.',
+      NASB: 'And my God will supply all your needs according to His riches in glory in Christ Jesus.',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 4:18',
+        text: 'I have received full payment, and more. I am well supplied, having received from Epaphroditus the gifts you sent.',
+      },
+      after: {
+        reference: 'Philippians 4:20',
+        text: 'To our God and Father be glory forever and ever. Amen.',
       },
     },
   },
