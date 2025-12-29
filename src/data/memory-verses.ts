@@ -7099,6 +7099,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'philippians-1-21',
+    reference: 'Philippians 1:21',
+    book: 'Philippians',
+    chapter: 1,
+    verse: 21,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For to me to live is Christ, and to die is gain.',
+      NIV: 'For to me, to live is Christ and to die is gain.',
+      KJV: 'For to me to live is Christ, and to die is gain.',
+      NASB: 'For to me, to live is Christ and to die is gain.',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 1:20',
+        text: 'as it is my eager expectation and hope that I will not be at all ashamed, but that with full courage now as always Christ will be honored in my body, whether by life or by death.',
+      },
+      after: {
+        reference: 'Philippians 1:22',
+        text: 'If I am to live in the flesh, that means fruitful labor for me. Yet which I shall choose I cannot tell.',
+      },
+    },
+  },
+  {
+    id: 'philippians-2-3-4',
+    reference: 'Philippians 2:3-4',
+    book: 'Philippians',
+    chapter: 2,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others.',
+      NIV: 'Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others.',
+      KJV: 'Let nothing be done through strife or vainglory; but in lowliness of mind let each esteem other better than themselves. Look not every man on his own things, but every man also on the things of others.',
+      NASB: 'Do nothing from selfishness or empty conceit, but with humility of mind regard one another as more important than yourselves; do not merely look out for your own personal interests, but also for the interests of others.',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 2:2',
+        text: 'complete my joy by being of the same mind, having the same love, being in full accord and of one mind.',
+      },
+      after: {
+        reference: 'Philippians 2:5',
+        text: 'Have this mind among yourselves, which is yours in Christ Jesus,',
+      },
+    },
+  },
+  {
+    id: 'philippians-3-8',
+    reference: 'Philippians 3:8',
+    book: 'Philippians',
+    chapter: 3,
+    verse: 8,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Indeed, I count everything as loss because of the surpassing worth of knowing Christ Jesus my Lord. For his sake I have suffered the loss of all things and count them as rubbish, in order that I may gain Christ',
+      NIV: 'What is more, I consider everything a loss because of the surpassing worth of knowing Christ Jesus my Lord, for whose sake I have lost all things. I consider them garbage, that I may gain Christ',
+      KJV: 'Yea doubtless, and I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I have suffered the loss of all things, and do count them but dung, that I may win Christ,',
+      NASB: 'More than that, I count all things to be loss in view of the surpassing value of knowing Christ Jesus my Lord, for whom I have suffered the loss of all things, and count them but rubbish so that I may gain Christ,',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 3:7',
+        text: 'But whatever gain I had, I counted as loss for the sake of Christ.',
+      },
+      after: {
+        reference: 'Philippians 3:9',
+        text: 'and be found in him, not having a righteousness of my own that comes from the law, but that which comes through faith in Christ, the righteousness from God that depends on faith—',
+      },
+    },
+  },
+  {
+    id: 'philippians-3-20-21',
+    reference: 'Philippians 3:20-21',
+    book: 'Philippians',
+    chapter: 3,
+    verse: 20,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'But our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will transform our lowly body to be like his glorious body, by the power that enables him even to subject all things to himself.',
+      NIV: 'But our citizenship is in heaven. And we eagerly await a Savior from there, the Lord Jesus Christ, who, by the power that enables him to bring everything under his control, will transform our lowly bodies so that they will be like his glorious body.',
+      KJV: 'For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ: Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working whereby he is able even to subdue all things unto himself.',
+      NASB: 'For our citizenship is in heaven, from which also we eagerly wait for a Savior, the Lord Jesus Christ; who will transform the body of our humble state into conformity with the body of His glory, by the exertion of the power that He has even to subject all things to Himself.',
+    },
+    context: {
+      before: {
+        reference: 'Philippians 3:19',
+        text: 'Their end is destruction, their god is their belly, and they glory in their shame, with minds set on earthly things.',
+      },
+      after: {
+        reference: 'Philippians 4:1',
+        text: 'Therefore, my brothers, whom I love and long for, my joy and crown, stand firm thus in the Lord, my beloved.',
+      },
+    },
+  },
 
   // ============ COLOSSIANS ============
   {
@@ -8266,6 +8362,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'James 3:1',
         text: 'Not many of you should become teachers, my brothers, for you know that we who teach will be judged with greater strictness.',
+      },
+    },
+  },
+  {
+    id: 'james-1-17',
+    reference: 'James 1:17',
+    book: 'James',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom there is no variation or shadow due to change.',
+      NIV: 'Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows.',
+      KJV: 'Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.',
+      NASB: 'Every good thing given and every perfect gift is from above, coming down from the Father of lights, with whom there is no variation or shifting shadow.',
+    },
+    context: {
+      before: {
+        reference: 'James 1:16',
+        text: 'Do not be deceived, my beloved brothers.',
+      },
+      after: {
+        reference: 'James 1:18',
+        text: 'Of his own will he brought us forth by the word of truth, that we should be a kind of firstfruits of his creatures.',
+      },
+    },
+  },
+  {
+    id: 'james-1-22',
+    reference: 'James 1:22',
+    book: 'James',
+    chapter: 1,
+    verse: 22,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But be doers of the word, and not hearers only, deceiving yourselves.',
+      NIV: 'Do not merely listen to the word, and so deceive yourselves. Do what it says.',
+      KJV: 'But be ye doers of the word, and not hearers only, deceiving your own selves.',
+      NASB: 'But prove yourselves doers of the word, and not merely hearers who delude themselves.',
+    },
+    context: {
+      before: {
+        reference: 'James 1:21',
+        text: 'Therefore put away all filthiness and rampant wickedness and receive with meekness the implanted word, which is able to save your souls.',
+      },
+      after: {
+        reference: 'James 1:23',
+        text: 'For if anyone is a hearer of the word and not a doer, he is like a man who looks intently at his natural face in a mirror.',
+      },
+    },
+  },
+  {
+    id: 'james-3-17',
+    reference: 'James 3:17',
+    book: 'James',
+    chapter: 3,
+    verse: 17,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'But the wisdom from above is first pure, then peaceable, gentle, open to reason, full of mercy and good fruits, impartial and sincere.',
+      NIV: 'But the wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere.',
+      KJV: 'But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.',
+      NASB: 'But the wisdom from above is first pure, then peaceable, gentle, reasonable, full of mercy and good fruits, unwavering, without hypocrisy.',
+    },
+    context: {
+      before: {
+        reference: 'James 3:16',
+        text: 'For where jealousy and selfish ambition exist, there will be disorder and every vile practice.',
+      },
+      after: {
+        reference: 'James 3:18',
+        text: 'And a harvest of righteousness is sown in peace by those who make peace.',
+      },
+    },
+  },
+  {
+    id: 'james-5-16',
+    reference: 'James 5:16',
+    book: 'James',
+    chapter: 5,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore, confess your sins to one another and pray for one another, that you may be healed. The prayer of a righteous person has great power as it is working.',
+      NIV: 'Therefore confess your sins to each other and pray for each other so that you may be healed. The prayer of a righteous person is powerful and effective.',
+      KJV: 'Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.',
+      NASB: 'Therefore, confess your sins to one another, and pray for one another so that you may be healed. The effective prayer of a righteous man can accomplish much.',
+    },
+    context: {
+      before: {
+        reference: 'James 5:15',
+        text: 'And the prayer of faith will save the one who is sick, and the Lord will raise him up. And if he has committed sins, he will be forgiven.',
+      },
+      after: {
+        reference: 'James 5:17',
+        text: 'Elijah was a man with a nature like ours, and he prayed fervently that it might not rain, and for three years and six months it did not rain on the earth.',
       },
     },
   },
