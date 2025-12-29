@@ -165,7 +165,7 @@ export default function Home() {
               <div className="text-sm text-muted-foreground">Memory Players</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-trivia mb-2">436</div>
+              <div className="text-3xl font-bold text-trivia mb-2">493</div>
               <div className="text-sm text-muted-foreground">Trivia Questions</div>
             </div>
             <div>
