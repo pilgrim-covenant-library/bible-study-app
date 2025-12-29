@@ -10642,6 +10642,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-corinthians-4-7',
+    reference: '2 Corinthians 4:7',
+    book: '2 Corinthians',
+    chapter: 4,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But we have this treasure in jars of clay, to show that the surpassing power belongs to God and not to us.',
+      NIV: 'But we have this treasure in jars of clay to show that this all-surpassing power is from God and not from us.',
+      KJV: 'But we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.',
+      NASB: 'But we have this treasure in earthen vessels, so that the surpassing greatness of the power will be of God and not from ourselves;',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 4:6',
+        text: 'For God, who said, "Let light shine out of darkness," has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.',
+      },
+      after: {
+        reference: '2 Corinthians 4:8',
+        text: 'We are afflicted in every way, but not crushed; perplexed, but not driven to despair;',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-5-20',
+    reference: '2 Corinthians 5:20',
+    book: '2 Corinthians',
+    chapter: 5,
+    verse: 20,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore, we are ambassadors for Christ, God making his appeal through us. We implore you on behalf of Christ, be reconciled to God.',
+      NIV: 'We are therefore Christ\'s ambassadors, as though God were making his appeal through us. We implore you on Christ\'s behalf: Be reconciled to God.',
+      KJV: 'Now then we are ambassadors for Christ, as though God did beseech you by us: we pray you in Christ\'s stead, be ye reconciled to God.',
+      NASB: 'Therefore, we are ambassadors for Christ, as though God were making an appeal through us; we beg you on behalf of Christ, be reconciled to God.',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 5:19',
+        text: 'that is, in Christ God was reconciling the world to himself, not counting their trespasses against them, and entrusting to us the message of reconciliation.',
+      },
+      after: {
+        reference: '2 Corinthians 5:21',
+        text: 'For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-10-5',
+    reference: '2 Corinthians 10:5',
+    book: '2 Corinthians',
+    chapter: 10,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'We destroy arguments and every lofty opinion raised against the knowledge of God, and take every thought captive to obey Christ,',
+      NIV: 'We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.',
+      KJV: 'Casting down imaginations, and every high thing that exalteth itself against the knowledge of God, and bringing into captivity every thought to the obedience of Christ;',
+      NASB: 'We are destroying speculations and every lofty thing raised up against the knowledge of God, and we are taking every thought captive to the obedience of Christ,',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 10:4',
+        text: 'For the weapons of our warfare are not of the flesh but have divine power to destroy strongholds.',
+      },
+      after: {
+        reference: '2 Corinthians 10:6',
+        text: 'being ready to punish every disobedience, when your obedience is complete.',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-12-10',
+    reference: '2 Corinthians 12:10',
+    book: '2 Corinthians',
+    chapter: 12,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the sake of Christ, then, I am content with weaknesses, insults, hardships, persecutions, and calamities. For when I am weak, then I am strong.',
+      NIV: 'That is why, for Christ\'s sake, I delight in weaknesses, in insults, in hardships, in persecutions, in difficulties. For when I am weak, then I am strong.',
+      KJV: 'Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ\'s sake: for when I am weak, then am I strong.',
+      NASB: 'Therefore I am well content with weaknesses, with insults, with distresses, with persecutions, with difficulties, for Christ\'s sake; for when I am weak, then I am strong.',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 12:9',
+        text: 'But he said to me, "My grace is sufficient for you, for my power is made perfect in weakness." Therefore I will boast all the more gladly of my weaknesses, so that the power of Christ may rest upon me.',
+      },
+      after: {
+        reference: '2 Corinthians 12:11',
+        text: 'I have been a fool! You forced me to it, for I ought to have been commended by you. For I was not at all inferior to these super-apostles, even though I am nothing.',
+      },
+    },
+  },
 
   // ============ GALATIANS ============
   {
@@ -11681,6 +11777,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Colossians 3:18',
         text: 'Wives, submit to your husbands, as is fitting in the Lord.',
+      },
+    },
+  },
+  {
+    id: 'colossians-1-15',
+    reference: 'Colossians 1:15',
+    book: 'Colossians',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'He is the image of the invisible God, the firstborn of all creation.',
+      NIV: 'The Son is the image of the invisible God, the firstborn over all creation.',
+      KJV: 'Who is the image of the invisible God, the firstborn of every creature:',
+      NASB: 'He is the image of the invisible God, the firstborn of all creation.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 1:14',
+        text: 'in whom we have redemption, the forgiveness of sins.',
+      },
+      after: {
+        reference: 'Colossians 1:16',
+        text: 'For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him.',
+      },
+    },
+  },
+  {
+    id: 'colossians-1-18',
+    reference: 'Colossians 1:18',
+    book: 'Colossians',
+    chapter: 1,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything he might be preeminent.',
+      NIV: 'And he is the head of the body, the church; he is the beginning and the firstborn from among the dead, so that in everything he might have the supremacy.',
+      KJV: 'And he is the head of the body, the church: who is the beginning, the firstborn from the dead; that in all things he might have the preeminence.',
+      NASB: 'He is also head of the body, the church; and He is the beginning, the firstborn from the dead, so that He Himself will come to have first place in everything.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 1:17',
+        text: 'And he is before all things, and in him all things hold together.',
+      },
+      after: {
+        reference: 'Colossians 1:19',
+        text: 'For in him all the fullness of God was pleased to dwell,',
+      },
+    },
+  },
+  {
+    id: 'colossians-3-3',
+    reference: 'Colossians 3:3',
+    book: 'Colossians',
+    chapter: 3,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For you have died, and your life is hidden with Christ in God.',
+      NIV: 'For you died, and your life is now hidden with Christ in God.',
+      KJV: 'For ye are dead, and your life is hid with Christ in God.',
+      NASB: 'For you have died and your life is hidden with Christ in God.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 3:2',
+        text: 'Set your minds on things that are above, not on things that are on earth.',
+      },
+      after: {
+        reference: 'Colossians 3:4',
+        text: 'When Christ who is your life appears, then you also will appear with him in glory.',
+      },
+    },
+  },
+  {
+    id: 'colossians-2-13-14',
+    reference: 'Colossians 2:13-14',
+    book: 'Colossians',
+    chapter: 2,
+    verse: 13,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And you, who were dead in your trespasses and the uncircumcision of your flesh, God made alive together with him, having forgiven us all our trespasses, by canceling the record of debt that stood against us with its legal demands. This he set aside, nailing it to the cross.',
+      NIV: 'When you were dead in your sins and in the uncircumcision of your flesh, God made you alive with Christ. He forgave us all our sins, having canceled the charge of our legal indebtedness, which stood against us and condemned us; he has taken it away, nailing it to the cross.',
+      KJV: 'And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses; Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross;',
+      NASB: 'When you were dead in your transgressions and the uncircumcision of your flesh, He made you alive together with Him, having forgiven us all our transgressions, having canceled out the certificate of debt consisting of decrees against us, which was hostile to us; and He has taken it out of the way, having nailed it to the cross.',
+    },
+    context: {
+      before: {
+        reference: 'Colossians 2:12',
+        text: 'having been buried with him in baptism, in which you were also raised with him through faith in the powerful working of God, who raised him from the dead.',
+      },
+      after: {
+        reference: 'Colossians 2:15',
+        text: 'He disarmed the rulers and authorities and put them to open shame, by triumphing over them in him.',
       },
     },
   },
