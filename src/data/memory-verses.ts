@@ -2032,6 +2032,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'nahum-1-3',
+    reference: 'Nahum 1:3',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD is slow to anger and great in power, and the LORD will by no means clear the guilty. His way is in whirlwind and storm, and the clouds are the dust of his feet.',
+      NIV: 'The LORD is slow to anger but great in power; the LORD will not leave the guilty unpunished. His way is in the whirlwind and the storm, and clouds are the dust of his feet.',
+      KJV: 'The LORD is slow to anger, and great in power, and will not at all acquit the wicked: the LORD hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.',
+      NASB: 'The LORD is slow to anger and great in power, and the LORD will by no means leave the guilty unpunished. In whirlwind and storm is His way, and clouds are the dust beneath His feet.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:2',
+        text: 'The LORD is a jealous and avenging God; the LORD is avenging and wrathful.',
+      },
+      after: {
+        reference: 'Nahum 1:4',
+        text: 'He rebukes the sea and makes it dry; he dries up all the rivers.',
+      },
+    },
+  },
 
   // ============ HABAKKUK ============
   {
@@ -2108,6 +2132,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'zephaniah-2-3',
+    reference: 'Zephaniah 2:3',
+    book: 'Zephaniah',
+    chapter: 2,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Seek the LORD, all you humble of the land, who do his just commands; seek righteousness; seek humility; perhaps you may be hidden on the day of the anger of the LORD.',
+      NIV: 'Seek the LORD, all you humble of the land, you who do what he commands. Seek righteousness, seek humility; perhaps you will be sheltered on the day of the LORD\'s anger.',
+      KJV: 'Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD\'s anger.',
+      NASB: 'Seek the LORD, all you humble of the earth who have carried out His ordinances; seek righteousness, seek humility. Perhaps you will be hidden in the day of the LORD\'s anger.',
+    },
+    context: {
+      before: {
+        reference: 'Zephaniah 2:2',
+        text: 'Before the decree takes effect—before the day passes away like chaff—before there comes upon you the burning anger of the LORD.',
+      },
+      after: {
+        reference: 'Zephaniah 2:4',
+        text: 'For Gaza shall be deserted, and Ashkelon shall become a desolation.',
+      },
+    },
+  },
 
   // ============ HAGGAI ============
   {
@@ -2131,6 +2179,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Haggai 2:10',
         text: 'On the twenty-fourth day of the ninth month, in the second year of Darius, the word of the LORD came by Haggai the prophet.',
+      },
+    },
+  },
+  {
+    id: 'haggai-1-5',
+    reference: 'Haggai 1:5',
+    book: 'Haggai',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Now, therefore, thus says the LORD of hosts: Consider your ways.',
+      NIV: 'Now this is what the LORD Almighty says: "Give careful thought to your ways."',
+      KJV: 'Now therefore thus saith the LORD of hosts; Consider your ways.',
+      NASB: 'Now therefore, thus says the LORD of hosts, "Consider your ways!"',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 1:4',
+        text: 'Is it a time for you yourselves to dwell in your paneled houses, while this house lies in ruins?',
+      },
+      after: {
+        reference: 'Haggai 1:6',
+        text: 'You have sown much, and harvested little. You eat, but you never have enough; you drink, but you never have your fill.',
       },
     },
   },
@@ -3675,6 +3747,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Philemon 7',
         text: 'For I have derived much joy and comfort from your love, my brother, because the hearts of the saints have been refreshed through you.',
+      },
+    },
+  },
+  {
+    id: 'philemon-15-16',
+    reference: 'Philemon 15-16',
+    book: 'Philemon',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For this perhaps is why he was parted from you for a while, that you might have him back forever, no longer as a bondservant but more than a bondservant, as a beloved brother.',
+      NIV: 'Perhaps the reason he was separated from you for a little while was that you might have him back forever—no longer as a slave, but better than a slave, as a dear brother.',
+      KJV: 'For perhaps he therefore departed for a season, that thou shouldest receive him for ever; not now as a servant, but above a servant, a brother beloved.',
+      NASB: 'For perhaps he was for this reason separated from you for a while, that you would have him back forever, no longer as a slave, but more than a slave, a beloved brother.',
+    },
+    context: {
+      before: {
+        reference: 'Philemon 14',
+        text: 'But I preferred to do nothing without your consent in order that your goodness might not be by compulsion but of your own accord.',
+      },
+      after: {
+        reference: 'Philemon 17',
+        text: 'So if you consider me your partner, receive him as you would receive me.',
       },
     },
   },
