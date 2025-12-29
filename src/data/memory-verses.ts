@@ -1901,6 +1901,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: 'job-13-15',
+    reference: 'Job 13:15',
+    book: 'Job',
+    chapter: 13,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Though he slay me, I will hope in him; yet I will argue my ways to his face.',
+      NIV: 'Though he slay me, yet will I hope in him; I will surely defend my ways to his face.',
+      KJV: 'Though he slay me, yet will I trust in him: but I will maintain mine own ways before him.',
+      NASB: 'Though He slay me, I will hope in Him. Nevertheless I will argue my ways before Him.',
+    },
+    context: {
+      before: {
+        reference: 'Job 13:14',
+        text: 'Why should I take my flesh in my teeth and put my life in my hand?',
+      },
+      after: {
+        reference: 'Job 13:16',
+        text: 'This will be my salvation, that a godless man shall not come before him.',
+      },
+    },
+  },
+  {
+    id: 'job-23-10',
+    reference: 'Job 23:10',
+    book: 'Job',
+    chapter: 23,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But he knows the way that I take; when he has tried me, I shall come out as gold.',
+      NIV: 'But he knows the way that I take; when he has tested me, I will come forth as gold.',
+      KJV: 'But he knoweth the way that I take: when he hath tried me, I shall come forth as gold.',
+      NASB: 'But He knows the way I take; when He has tried me, I shall come forth as gold.',
+    },
+    context: {
+      before: {
+        reference: 'Job 23:9',
+        text: 'on the left hand when he is working, I do not behold him; he turns to the right hand, but I do not see him.',
+      },
+      after: {
+        reference: 'Job 23:11',
+        text: 'My foot has held fast to his steps; I have kept his way and have not turned aside.',
+      },
+    },
+  },
+  {
+    id: 'job-28-28',
+    reference: 'Job 28:28',
+    book: 'Job',
+    chapter: 28,
+    verse: 28,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he said to man, "Behold, the fear of the Lord, that is wisdom, and to turn away from evil is understanding."',
+      NIV: 'And he said to the human race, "The fear of the Lord—that is wisdom, and to shun evil is understanding."',
+      KJV: 'And unto man he said, Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding.',
+      NASB: 'And to man He said, "Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding."',
+    },
+    context: {
+      before: {
+        reference: 'Job 28:27',
+        text: 'then he saw it and declared it; he established it, and searched it out.',
+      },
+      after: {
+        reference: 'Job 29:1',
+        text: 'And Job again took up his discourse, and said:',
+      },
+    },
+  },
+  {
+    id: 'job-37-5',
+    reference: 'Job 37:5',
+    book: 'Job',
+    chapter: 37,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'God thunders wondrously with his voice; he does great things that we cannot comprehend.',
+      NIV: 'God\'s voice thunders in marvelous ways; he does great things beyond our understanding.',
+      KJV: 'God thundereth marvellously with his voice; great things doeth he, which we cannot comprehend.',
+      NASB: 'God thunders with His voice wondrously, doing great things which we cannot comprehend.',
+    },
+    context: {
+      before: {
+        reference: 'Job 37:4',
+        text: 'After it his voice roars; he thunders with his majestic voice, and he does not restrain the lightnings when his voice is heard.',
+      },
+      after: {
+        reference: 'Job 37:6',
+        text: 'For to the snow he says, "Fall on the earth," likewise to the downpour, his mighty downpour.',
+      },
+    },
+  },
+
   // ============ PSALMS ============
   {
     id: 'psalm-27-1',
@@ -3704,6 +3801,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Daniel 4:36',
         text: 'At the same time my reason returned to me, and for the glory of my kingdom, my majesty and splendor returned to me.',
+      },
+    },
+  },
+
+  {
+    id: 'daniel-1-8',
+    reference: 'Daniel 1:8',
+    book: 'Daniel',
+    chapter: 1,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But Daniel resolved that he would not defile himself with the king\'s food, or with the wine that he drank. Therefore he asked the chief of the eunuchs to allow him not to defile himself.',
+      NIV: 'But Daniel resolved not to defile himself with the royal food and wine, and he asked the chief official for permission not to defile himself this way.',
+      KJV: 'But Daniel purposed in his heart that he would not defile himself with the portion of the king\'s meat, nor with the wine which he drank: therefore he requested of the prince of the eunuchs that he might not defile himself.',
+      NASB: 'But Daniel made up his mind that he would not defile himself with the king\'s choice food or with the wine which he drank; so he sought permission from the commander of the officials that he might not defile himself.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 1:7',
+        text: 'And the chief of the eunuchs gave them names: Daniel he called Belteshazzar, Hananiah he called Shadrach, Mishael he called Meshach, and Azariah he called Abednego.',
+      },
+      after: {
+        reference: 'Daniel 1:9',
+        text: 'And God gave Daniel favor and compassion in the sight of the chief of the eunuchs.',
+      },
+    },
+  },
+  {
+    id: 'daniel-6-26',
+    reference: 'Daniel 6:26',
+    book: 'Daniel',
+    chapter: 6,
+    verse: 26,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I make a decree, that in all my royal dominion people are to tremble and fear before the God of Daniel, for he is the living God, enduring forever; his kingdom shall never be destroyed, and his dominion shall be to the end.',
+      NIV: 'I issue a decree that in every part of my kingdom people must fear and reverence the God of Daniel. For he is the living God and he endures forever; his kingdom will not be destroyed, his dominion will never end.',
+      KJV: 'I make a decree, That in every dominion of my kingdom men tremble and fear before the God of Daniel: for he is the living God, and stedfast for ever, and his kingdom that which shall not be destroyed, and his dominion shall be even unto the end.',
+      NASB: 'I make a decree that in all the dominion of my kingdom men are to fear and tremble before the God of Daniel; for He is the living God and enduring forever, and His kingdom is one which will not be destroyed, and His dominion will be forever.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 6:25',
+        text: 'Then King Darius wrote to all the peoples, nations, and languages that dwell in all the earth: "Peace be multiplied to you."',
+      },
+      after: {
+        reference: 'Daniel 6:27',
+        text: 'He delivers and rescues; he works signs and wonders in heaven and on earth, he who has saved Daniel from the power of the lions.',
+      },
+    },
+  },
+  {
+    id: 'daniel-9-9',
+    reference: 'Daniel 9:9',
+    book: 'Daniel',
+    chapter: 9,
+    verse: 9,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'To the Lord our God belong mercy and forgiveness, for we have rebelled against him.',
+      NIV: 'The Lord our God is merciful and forgiving, even though we have rebelled against him.',
+      KJV: 'To the Lord our God belong mercies and forgivenesses, though we have rebelled against him.',
+      NASB: 'To the Lord our God belong compassion and forgiveness, for we have rebelled against Him.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 9:8',
+        text: 'To us, O LORD, belongs open shame, to our kings, to our princes, and to our fathers, because we have sinned against you.',
+      },
+      after: {
+        reference: 'Daniel 9:10',
+        text: 'and have not obeyed the voice of the LORD our God by walking in his laws, which he set before us by his servants the prophets.',
+      },
+    },
+  },
+  {
+    id: 'daniel-12-3',
+    reference: 'Daniel 12:3',
+    book: 'Daniel',
+    chapter: 12,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And those who are wise shall shine like the brightness of the sky above; and those who turn many to righteousness, like the stars forever and ever.',
+      NIV: 'Those who are wise will shine like the brightness of the heavens, and those who lead many to righteousness, like the stars for ever and ever.',
+      KJV: 'And they that be wise shall shine as the brightness of the firmament; and they that turn many to righteousness as the stars for ever and ever.',
+      NASB: 'Those who have insight will shine brightly like the brightness of the expanse of heaven, and those who lead the many to righteousness, like the stars forever and ever.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 12:2',
+        text: 'And many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.',
+      },
+      after: {
+        reference: 'Daniel 12:4',
+        text: 'But you, Daniel, shut up the words and seal the book, until the time of the end.',
       },
     },
   },
