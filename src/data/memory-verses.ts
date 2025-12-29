@@ -49,6 +49,7 @@ const BOOK_ORDER: Record<string, number> = {
 };
 
 export const MEMORY_VERSES: MemoryVerse[] = [
+
   // ============ GENESIS ============
   {
     id: 'genesis-3-15',
@@ -5885,54 +5886,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
-  {
-    id: 'ecclesiastes-7-2',
-    reference: 'Ecclesiastes 7:2',
-    book: 'Ecclesiastes',
-    chapter: 7,
-    verse: 2,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'It is better to go to the house of mourning than to go to the house of feasting, for this is the end of all mankind, and the living will lay it to heart.',
-      NIV: 'It is better to go to a house of mourning than to go to a house of feasting, for death is the destiny of everyone; the living should take this to heart.',
-      KJV: 'It is better to go to the house of mourning, than to go to the house of feasting: for that is the end of all men; and the living will lay it to his heart.',
-      NASB: 'It is better to go to a house of mourning than to go to a house of feasting, because that is the end of every man, and the living takes it to heart.',
-    },
-    context: {
-      before: {
-        reference: 'Ecclesiastes 7:1',
-        text: 'A good name is better than precious ointment, and the day of death than the day of birth.',
-      },
-      after: {
-        reference: 'Ecclesiastes 7:3',
-        text: 'Sorrow is better than laughter, for by sadness of face the heart is made glad.',
-      },
-    },
-  },
-  {
-    id: 'ecclesiastes-3-11',
-    reference: 'Ecclesiastes 3:11',
-    book: 'Ecclesiastes',
-    chapter: 3,
-    verse: 11,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'He has made everything beautiful in its time. Also, he has put eternity into man\'s heart, yet so that he cannot find out what God has done from the beginning to the end.',
-      NIV: 'He has made everything beautiful in its time. He has also set eternity in the human heart; yet no one can fathom what God has done from beginning to end.',
-      KJV: 'He hath made every thing beautiful in his time: also he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end.',
-      NASB: 'He has made everything appropriate in its time. He has also set eternity in their heart, yet so that man will not find out the work which God has done from the beginning even to the end.',
-    },
-    context: {
-      before: {
-        reference: 'Ecclesiastes 3:10',
-        text: 'I have seen the business that God has given to the children of man to be busy with.',
-      },
-      after: {
-        reference: 'Ecclesiastes 3:12',
-        text: 'I perceived that there is nothing better for them than to be joyful and to do good as long as they live.',
-      },
-    },
-  },
 
   // ============ SONG OF SOLOMON ============
   {
@@ -6610,6 +6563,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Jeremiah 17:8',
         text: 'He is like a tree planted by water, that sends out its roots by the stream, and does not fear when heat comes.',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-29-13',
+    reference: 'Jeremiah 29:13',
+    book: 'Jeremiah',
+    chapter: 29,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'You will seek me and find me, when you seek me with all your heart.',
+      NIV: 'You will seek me and find me when you seek me with all your heart.',
+      KJV: 'And ye shall seek me, and find me, when ye shall search for me with all your heart.',
+      NASB: 'You will seek Me and find Me when you search for Me with all your heart.',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 29:12',
+        text: 'Then you will call upon me and come and pray to me, and I will hear you.',
+      },
+      after: {
+        reference: 'Jeremiah 29:14',
+        text: 'I will be found by you, declares the LORD, and I will restore your fortunes and gather you from all the nations.',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-10-23',
+    reference: 'Jeremiah 10:23',
+    book: 'Jeremiah',
+    chapter: 10,
+    verse: 23,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I know, O LORD, that the way of man is not in himself, that it is not in man who walks to direct his steps.',
+      NIV: 'LORD, I know that people\'s lives are not their own; it is not for them to direct their steps.',
+      KJV: 'O LORD, I know that the way of man is not in himself: it is not in man that walketh to direct his steps.',
+      NASB: 'I know, O LORD, that a man\'s way is not in himself, nor is it in a man who walks to direct his steps.',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 10:22',
+        text: 'Behold, a rumor! It comes—a great commotion out of the north country to make the cities of Judah a desolation.',
+      },
+      after: {
+        reference: 'Jeremiah 10:24',
+        text: 'Correct me, O LORD, but in justice; not in your anger, lest you bring me to nothing.',
+      },
+    },
+  },
+  {
+    id: 'jeremiah-32-27',
+    reference: 'Jeremiah 32:27',
+    book: 'Jeremiah',
+    chapter: 32,
+    verse: 27,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Behold, I am the LORD, the God of all flesh. Is anything too hard for me?',
+      NIV: '"I am the LORD, the God of all mankind. Is anything too hard for me?',
+      KJV: 'Behold, I am the LORD, the God of all flesh: is there any thing too hard for me?',
+      NASB: 'Behold, I am the LORD, the God of all flesh; is anything too difficult for Me?',
+    },
+    context: {
+      before: {
+        reference: 'Jeremiah 32:26',
+        text: 'The word of the LORD came to Jeremiah:',
+      },
+      after: {
+        reference: 'Jeremiah 32:28',
+        text: 'Therefore, thus says the LORD: Behold, I am giving this city into the hands of the Chaldeans.',
       },
     },
   },
@@ -7728,6 +7753,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'joel-1-14',
+    reference: 'Joel 1:14',
+    book: 'Joel',
+    chapter: 1,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Consecrate a fast; call a solemn assembly. Gather the elders and all the inhabitants of the land to the house of the LORD your God, and cry out to the LORD.',
+      NIV: 'Declare a holy fast; call a sacred assembly. Summon the elders and all who live in the land to the house of the LORD your God, and cry out to the LORD.',
+      KJV: 'Sanctify ye a fast, call a solemn assembly, gather the elders and all the inhabitants of the land into the house of the LORD your God, and cry unto the LORD.',
+      NASB: 'Consecrate a fast, proclaim a solemn assembly; gather the elders and all the inhabitants of the land to the house of the LORD your God, and cry out to the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 1:13',
+        text: 'Put on sackcloth and lament, O priests; wail, O ministers of the altar. Go in, pass the night in sackcloth, O ministers of my God!',
+      },
+      after: {
+        reference: 'Joel 1:15',
+        text: 'Alas for the day! For the day of the LORD is near, and as destruction from the Almighty it comes.',
+      },
+    },
+  },
+  {
+    id: 'joel-2-1',
+    reference: 'Joel 2:1',
+    book: 'Joel',
+    chapter: 2,
+    verse: 1,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Blow a trumpet in Zion; sound an alarm on my holy mountain! Let all the inhabitants of the land tremble, for the day of the LORD is coming; it is near.',
+      NIV: 'Blow the trumpet in Zion; sound the alarm on my holy hill. Let all who live in the land tremble, for the day of the LORD is coming. It is close at hand.',
+      KJV: 'Blow ye the trumpet in Zion, and sound an alarm in my holy mountain: let all the inhabitants of the land tremble: for the day of the LORD cometh, for it is nigh at hand.',
+      NASB: 'Blow a trumpet in Zion, and sound an alarm on My holy mountain! Let all the inhabitants of the land tremble, for the day of the LORD is coming; surely it is near.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 1:20',
+        text: 'Even the beasts of the field pant for you because the water brooks are dried up, and fire has devoured the pastures of the wilderness.',
+      },
+      after: {
+        reference: 'Joel 2:2',
+        text: 'A day of darkness and gloom, a day of clouds and thick darkness! Like blackness there is spread upon the mountains a great and powerful people.',
+      },
+    },
+  },
+  {
+    id: 'joel-2-27',
+    reference: 'Joel 2:27',
+    book: 'Joel',
+    chapter: 2,
+    verse: 27,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'You shall know that I am in the midst of Israel, and that I am the LORD your God and there is none else. And my people shall never again be put to shame.',
+      NIV: 'Then you will know that I am in Israel, that I am the LORD your God, and that there is no other; never again will my people be shamed.',
+      KJV: 'And ye shall know that I am in the midst of Israel, and that I am the LORD your God, and none else: and my people shall never be ashamed.',
+      NASB: 'Thus you will know that I am in the midst of Israel, and that I am the LORD your God, and there is no other; and My people will never be put to shame.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 2:26',
+        text: 'You shall eat in plenty and be satisfied, and praise the name of the LORD your God, who has dealt wondrously with you.',
+      },
+      after: {
+        reference: 'Joel 2:28',
+        text: 'And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy.',
+      },
+    },
+  },
+  {
+    id: 'joel-3-14',
+    reference: 'Joel 3:14',
+    book: 'Joel',
+    chapter: 3,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Multitudes, multitudes, in the valley of decision! For the day of the LORD is near in the valley of decision.',
+      NIV: 'Multitudes, multitudes in the valley of decision! For the day of the LORD is near in the valley of decision.',
+      KJV: 'Multitudes, multitudes in the valley of decision: for the day of the LORD is near in the valley of decision.',
+      NASB: 'Multitudes, multitudes in the valley of decision! For the day of the LORD is near in the valley of decision.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 3:13',
+        text: 'Put in the sickle, for the harvest is ripe. Go in, tread, for the winepress is full.',
+      },
+      after: {
+        reference: 'Joel 3:15',
+        text: 'The sun and the moon are darkened, and the stars withdraw their shining.',
+      },
+    },
+  },
 
   // ============ AMOS ============
   {
@@ -7874,6 +7995,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'amos-5-14',
+    reference: 'Amos 5:14',
+    book: 'Amos',
+    chapter: 5,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Seek good, and not evil, that you may live; and so the LORD, the God of hosts, will be with you, as you have said.',
+      NIV: 'Seek good, not evil, that you may live. Then the LORD God Almighty will be with you, just as you say he is.',
+      KJV: 'Seek good, and not evil, that ye may live: and so the LORD, the God of hosts, shall be with you, as ye have spoken.',
+      NASB: 'Seek good and not evil, that you may live; and thus may the LORD God of hosts be with you, just as you have said!',
+    },
+    context: {
+      before: {
+        reference: 'Amos 5:13',
+        text: 'Therefore he who is prudent will keep silent in such a time, for it is an evil time.',
+      },
+      after: {
+        reference: 'Amos 5:15',
+        text: 'Hate evil, and love good, and establish justice in the gate; it may be that the LORD, the God of hosts, will be gracious.',
+      },
+    },
+  },
+  {
+    id: 'amos-8-11',
+    reference: 'Amos 8:11',
+    book: 'Amos',
+    chapter: 8,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: '"Behold, the days are coming," declares the Lord GOD, "when I will send a famine on the land—not a famine of bread, nor a thirst for water, but of hearing the words of the LORD."',
+      NIV: '"The days are coming," declares the Sovereign LORD, "when I will send a famine through the land—not a famine of food or a thirst for water, but a famine of hearing the words of the LORD."',
+      KJV: 'Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the LORD.',
+      NASB: '"Behold, days are coming," declares the Lord GOD, "When I will send a famine on the land, not a famine for bread or a thirst for water, but rather for hearing the words of the LORD."',
+    },
+    context: {
+      before: {
+        reference: 'Amos 8:10',
+        text: 'I will turn your feasts into mourning and all your songs into lamentation; I will bring sackcloth on every waist.',
+      },
+      after: {
+        reference: 'Amos 8:12',
+        text: 'They shall wander from sea to sea, and from north to east; they shall run to and fro, to seek the word of the LORD.',
+      },
+    },
+  },
 
   // ============ OBADIAH ============
   {
@@ -8013,6 +8182,98 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Obadiah 11',
         text: 'On the day that you stood aloof, on the day that strangers carried off his wealth and foreigners entered his gates.',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-12',
+    reference: 'Obadiah 12',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But do not gloat over the day of your brother in the day of his misfortune; do not rejoice over the people of Judah in the day of their ruin; do not boast in the day of distress.',
+      NIV: 'You should not gloat over your brother in the day of his misfortune, nor rejoice over the people of Judah in the day of their destruction, nor boast so much in the day of their trouble.',
+      KJV: 'But thou shouldest not have looked on the day of thy brother in the day that he became a stranger; neither shouldest thou have rejoiced over the children of Judah in the day of their destruction.',
+      NASB: 'Do not gloat over your brother\'s day, the day of his misfortune. And do not rejoice over the sons of Judah in the day of their destruction.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 11',
+        text: 'On the day that you stood aloof, on the day that strangers carried off his wealth and foreigners entered his gates.',
+      },
+      after: {
+        reference: 'Obadiah 13',
+        text: 'Do not enter the gate of my people in the day of their calamity; do not gloat over his disaster in the day of his calamity.',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-1',
+    reference: 'Obadiah 1',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The vision of Obadiah. Thus says the Lord GOD concerning Edom: We have heard a report from the LORD, and a messenger has been sent among the nations: "Rise up! Let us rise against her for battle!"',
+      NIV: 'The vision of Obadiah. This is what the Sovereign LORD says about Edom—We have heard a message from the LORD: An envoy was sent to the nations to say, "Rise, let us go against her for battle"—',
+      KJV: 'The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle.',
+      NASB: 'The vision of Obadiah. Thus says the Lord GOD concerning Edom—We have heard a report from the LORD, and an envoy has been sent among the nations saying, "Arise and let us go against her for battle"—',
+    },
+    context: {
+      after: {
+        reference: 'Obadiah 2',
+        text: 'Behold, I will make you small among the nations; you shall be utterly despised.',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-2',
+    reference: 'Obadiah 2',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Behold, I will make you small among the nations; you shall be utterly despised.',
+      NIV: '"See, I will make you small among the nations; you will be utterly despised.',
+      KJV: 'Behold, I have made thee small among the heathen: thou art greatly despised.',
+      NASB: 'Behold, I will make you small among the nations; you are greatly despised.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 1',
+        text: 'The vision of Obadiah. Thus says the Lord GOD concerning Edom.',
+      },
+      after: {
+        reference: 'Obadiah 3',
+        text: 'The pride of your heart has deceived you, you who live in the clefts of the rock.',
+      },
+    },
+  },
+  {
+    id: 'obadiah-1-18',
+    reference: 'Obadiah 18',
+    book: 'Obadiah',
+    chapter: 1,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau stubble; they shall burn them and consume them, and there shall be no survivor for the house of Esau, for the LORD has spoken.',
+      NIV: 'Jacob will be a fire and Joseph a flame; Esau will be stubble, and they will set him on fire and destroy him. There will be no survivors from Esau." The LORD has spoken.',
+      KJV: 'And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble, and they shall kindle in them, and devour them; and there shall not be any remaining of the house of Esau; for the LORD hath spoken it.',
+      NASB: 'Then the house of Jacob will be a fire and the house of Joseph a flame; but the house of Esau will be as stubble. And they will set them on fire and consume them, so that there will be no survivor of the house of Esau, for the LORD has spoken.',
+    },
+    context: {
+      before: {
+        reference: 'Obadiah 17',
+        text: 'But in Mount Zion there shall be those who escape, and it shall be holy.',
+      },
+      after: {
+        reference: 'Obadiah 19',
+        text: 'Those of the Negeb shall possess Mount Esau, and those of the Shephelah shall possess the land of the Philistines.',
       },
     },
   },
@@ -8639,6 +8900,98 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Nahum 2:3',
         text: 'The shield of his mighty men is red; his soldiers are clothed in scarlet.',
+      },
+    },
+  },
+  {
+    id: 'nahum-3-19',
+    reference: 'Nahum 3:19',
+    book: 'Nahum',
+    chapter: 3,
+    verse: 19,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'There is no easing your hurt; your wound is grievous. All who hear the news about you clap their hands over you. For upon whom has not come your unceasing evil?',
+      NIV: 'Nothing can heal you; your wound is fatal. All who hear the news about you clap their hands at your fall, for who has not felt your endless cruelty?',
+      KJV: 'There is no healing of thy bruise; thy wound is grievous: all that hear the bruit of thee shall clap the hands over thee: for upon whom hath not thy wickedness passed continually?',
+      NASB: 'There is no relief for your breakdown, your wound is incurable. All who hear about you will clap their hands over you, for on whom has not your evil passed continually?',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 3:18',
+        text: 'Your shepherds are asleep, O king of Assyria; your nobles slumber. Your people are scattered on the mountains with none to gather them.',
+      },
+    },
+  },
+  {
+    id: 'nahum-1-5',
+    reference: 'Nahum 1:5',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The mountains quake before him; the hills melt; the earth heaves before him, the world and all who dwell in it.',
+      NIV: 'The mountains quake before him and the hills melt away. The earth trembles at his presence, the world and all who live in it.',
+      KJV: 'The mountains quake at him, and the hills melt, and the earth is burned at his presence, yea, the world, and all that dwell therein.',
+      NASB: 'Mountains quake because of Him and the hills dissolve; indeed the earth is upheaved by His presence, the world and all the inhabitants in it.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:4',
+        text: 'He rebukes the sea and makes it dry; he dries up all the rivers; Bashan and Carmel wither; the bloom of Lebanon withers.',
+      },
+      after: {
+        reference: 'Nahum 1:6',
+        text: 'Who can stand before his indignation? Who can endure the heat of his anger?',
+      },
+    },
+  },
+  {
+    id: 'nahum-1-6',
+    reference: 'Nahum 1:6',
+    book: 'Nahum',
+    chapter: 1,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Who can stand before his indignation? Who can endure the heat of his anger? His wrath is poured out like fire, and the rocks are broken into pieces by him.',
+      NIV: 'Who can withstand his indignation? Who can endure his fierce anger? His wrath is poured out like fire; the rocks are shattered before him.',
+      KJV: 'Who can stand before his indignation? and who can abide in the fierceness of his anger? his fury is poured out like fire, and the rocks are thrown down by him.',
+      NASB: 'Who can stand before His indignation? Who can endure the burning of His anger? His wrath is poured out like fire and the rocks are broken up by Him.',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 1:5',
+        text: 'The mountains quake before him; the hills melt; the earth heaves before him.',
+      },
+      after: {
+        reference: 'Nahum 1:7',
+        text: 'The LORD is good, a stronghold in the day of trouble; he knows those who take refuge in him.',
+      },
+    },
+  },
+  {
+    id: 'nahum-3-7',
+    reference: 'Nahum 3:7',
+    book: 'Nahum',
+    chapter: 3,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And all who look on you will shrink from you and say, "Wasted is Nineveh; who will grieve for her?" Where shall I seek comforters for you?',
+      NIV: 'All who see you will flee from you and say, "Nineveh is in ruins—who will mourn for her?" Where can I find anyone to comfort you?',
+      KJV: 'And it shall come to pass, that all they that look upon thee shall flee from thee, and say, Nineveh is laid waste: who will bemoan her? whence shall I seek comforters for thee?',
+      NASB: 'And it will come about that all who see you will shrink from you and say, "Nineveh is devastated! Who will grieve for her?" Where will I seek comforters for you?',
+    },
+    context: {
+      before: {
+        reference: 'Nahum 3:6',
+        text: 'I will throw filth at you and treat you with contempt and make you a spectacle.',
+      },
+      after: {
+        reference: 'Nahum 3:8',
+        text: 'Are you better than Thebes that sat by the Nile, with water around her?',
       },
     },
   },
@@ -9281,6 +9634,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Haggai 2:8',
         text: 'The silver is mine, and the gold is mine, declares the LORD of hosts.',
+      },
+    },
+  },
+  {
+    id: 'haggai-2-4',
+    reference: 'Haggai 2:4',
+    book: 'Haggai',
+    chapter: 2,
+    verse: 4,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Yet now be strong, O Zerubbabel, declares the LORD. Be strong, O Joshua, son of Jehozadak, the high priest. Be strong, all you people of the land, declares the LORD. Work, for I am with you, declares the LORD of hosts.',
+      NIV: 'But now be strong, Zerubbabel, declares the LORD. Be strong, Joshua son of Jozadak, the high priest. Be strong, all you people of the land, declares the LORD, and work. For I am with you, declares the LORD Almighty.',
+      KJV: 'Yet now be strong, O Zerubbabel, saith the LORD; and be strong, O Joshua, son of Josedech, the high priest; and be strong, all ye people of the land, saith the LORD, and work: for I am with you, saith the LORD of hosts.',
+      NASB: 'But now take courage, Zerubbabel, declares the LORD, take courage also, Joshua son of Jehozadak, the high priest, and all you people of the land take courage, declares the LORD, and work; for I am with you, declares the LORD of hosts.',
+    },
+    context: {
+      before: {
+        reference: 'Haggai 2:3',
+        text: 'Who is left among you who saw this house in its former glory? How do you see it now? Is it not as nothing in your eyes?',
+      },
+      after: {
+        reference: 'Haggai 2:5',
+        text: 'According to the covenant that I made with you when you came out of Egypt. My Spirit remains in your midst. Fear not.',
       },
     },
   },
@@ -10147,6 +10524,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Mark 10:28',
         text: 'Peter began to say to him, "See, we have left everything and followed you."',
+      },
+    },
+  },
+  {
+    id: 'mark-16-15',
+    reference: 'Mark 16:15',
+    book: 'Mark',
+    chapter: 16,
+    verse: 15,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he said to them, "Go into all the world and proclaim the gospel to the whole creation."',
+      NIV: 'He said to them, "Go into all the world and preach the gospel to all creation."',
+      KJV: 'And he said unto them, Go ye into all the world, and preach the gospel to every creature.',
+      NASB: 'And He said to them, "Go into all the world and preach the gospel to all creation."',
+    },
+    context: {
+      before: {
+        reference: 'Mark 16:14',
+        text: 'Afterward he appeared to the eleven themselves as they were reclining at table, and he rebuked them for their unbelief.',
+      },
+      after: {
+        reference: 'Mark 16:16',
+        text: 'Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.',
       },
     },
   },
@@ -16567,6 +16968,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '3 John 4',
         text: 'I have no greater joy than to hear that my children are walking in the truth.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-9',
+    reference: '3 John 9',
+    book: '3 John',
+    chapter: 1,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I have written something to the church, but Diotrephes, who likes to put himself first, does not acknowledge our authority.',
+      NIV: 'I wrote to the church, but Diotrephes, who loves to be first, will not welcome us.',
+      KJV: 'I wrote unto the church: but Diotrephes, who loveth to have the preeminence among them, receiveth us not.',
+      NASB: 'I wrote something to the church; but Diotrephes, who loves to be first among them, does not accept what we say.',
+    },
+    context: {
+      before: {
+        reference: '3 John 8',
+        text: 'Therefore we ought to support people like these, that we may be fellow workers for the truth.',
+      },
+      after: {
+        reference: '3 John 10',
+        text: 'So if I come, I will bring up what he is doing, talking wicked nonsense against us.',
+      },
+    },
+  },
+  {
+    id: '3-john-1-14',
+    reference: '3 John 14',
+    book: '3 John',
+    chapter: 1,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'I hope to see you soon, and we will talk face to face. Peace be to you. The friends greet you. Greet the friends, each by name.',
+      NIV: 'I hope to see you soon, and we will talk face to face. Peace to you. The friends here send their greetings. Greet the friends there by name.',
+      KJV: 'But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our friends salute thee. Greet the friends by name.',
+      NASB: 'But I hope to see you shortly, and we will speak face to face. Peace be to you. The friends greet you. Greet the friends by name.',
+    },
+    context: {
+      before: {
+        reference: '3 John 13',
+        text: 'I had much to write to you, but I would rather not write with pen and ink.',
       },
     },
   },
