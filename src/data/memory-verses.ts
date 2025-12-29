@@ -13767,6 +13767,150 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'hebrews-3-13',
+    reference: 'Hebrews 3:13',
+    book: 'Hebrews',
+    chapter: 3,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But exhort one another every day, as long as it is called "today," that none of you may be hardened by the deceitfulness of sin.',
+      NIV: 'But encourage one another daily, as long as it is called "Today," so that none of you may be hardened by sin\'s deceitfulness.',
+      KJV: 'But exhort one another daily, while it is called To day; lest any of you be hardened through the deceitfulness of sin.',
+      NASB: 'But encourage one another day after day, as long as it is still called "Today," so that none of you will be hardened by the deceitfulness of sin.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 3:12',
+        text: 'Take care, brothers, lest there be in any of you an evil, unbelieving heart, leading you to fall away from the living God.',
+      },
+      after: {
+        reference: 'Hebrews 3:14',
+        text: 'For we have come to share in Christ, if indeed we hold our original confidence firm to the end.',
+      },
+    },
+  },
+  {
+    id: 'hebrews-5-8-9',
+    reference: 'Hebrews 5:8-9',
+    book: 'Hebrews',
+    chapter: 5,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Although he was a son, he learned obedience through what he suffered. And being made perfect, he became the source of eternal salvation to all who obey him,',
+      NIV: 'Son though he was, he learned obedience from what he suffered and, once made perfect, he became the source of eternal salvation for all who obey him',
+      KJV: 'Though he were a Son, yet learned he obedience by the things which he suffered; And being made perfect, he became the author of eternal salvation unto all them that obey him;',
+      NASB: 'Although He was a Son, He learned obedience from the things which He suffered. And having been made perfect, He became to all those who obey Him the source of eternal salvation,',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 5:7',
+        text: 'In the days of his flesh, Jesus offered up prayers and supplications, with loud cries and tears, to him who was able to save him from death, and he was heard because of his reverence.',
+      },
+      after: {
+        reference: 'Hebrews 5:10',
+        text: 'being designated by God a high priest after the order of Melchizedek.',
+      },
+    },
+  },
+  {
+    id: 'hebrews-6-19',
+    reference: 'Hebrews 6:19',
+    book: 'Hebrews',
+    chapter: 6,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'We have this as a sure and steadfast anchor of the soul, a hope that enters into the inner place behind the curtain,',
+      NIV: 'We have this hope as an anchor for the soul, firm and secure. It enters the inner sanctuary behind the curtain,',
+      KJV: 'Which hope we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil;',
+      NASB: 'This hope we have as an anchor of the soul, a hope both sure and steadfast and one which enters within the veil,',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 6:18',
+        text: 'so that by two unchangeable things, in which it is impossible for God to lie, we who have fled for refuge might have strong encouragement to hold fast to the hope set before us.',
+      },
+      after: {
+        reference: 'Hebrews 6:20',
+        text: 'where Jesus has gone as a forerunner on our behalf, having become a high priest forever after the order of Melchizedek.',
+      },
+    },
+  },
+  {
+    id: 'hebrews-8-10',
+    reference: 'Hebrews 8:10',
+    book: 'Hebrews',
+    chapter: 8,
+    verse: 10,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For this is the covenant that I will make with the house of Israel after those days, declares the Lord: I will put my laws into their minds, and write them on their hearts, and I will be their God, and they shall be my people.',
+      NIV: 'This is the covenant I will establish with the people of Israel after that time, declares the Lord. I will put my laws in their minds and write them on their hearts. I will be their God, and they will be my people.',
+      KJV: 'For this is the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people:',
+      NASB: '"For this is the covenant that I will make with the house of Israel after those days, says the Lord: I will put My laws into their minds, and I will write them on their hearts. And I will be their God, and they shall be My people.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 8:9',
+        text: 'not like the covenant that I made with their fathers on the day when I took them by the hand to bring them out of the land of Egypt.',
+      },
+      after: {
+        reference: 'Hebrews 8:11',
+        text: 'And they shall not teach, each one his neighbor and each one his brother, saying, "Know the Lord," for they shall all know me, from the least of them to the greatest.',
+      },
+    },
+  },
+  {
+    id: 'hebrews-12-11',
+    reference: 'Hebrews 12:11',
+    book: 'Hebrews',
+    chapter: 12,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the moment all discipline seems painful rather than pleasant, but later it yields the peaceful fruit of righteousness to those who have been trained by it.',
+      NIV: 'No discipline seems pleasant at the time, but painful. Later on, however, it produces a harvest of righteousness and peace for those who have been trained by it.',
+      KJV: 'Now no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of righteousness unto them which are exercised thereby.',
+      NASB: 'All discipline for the moment seems not to be joyful, but sorrowful; yet to those who have been trained by it, afterwards it yields the peaceful fruit of righteousness.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 12:10',
+        text: 'For they disciplined us for a short time as it seemed best to them, but he disciplines us for our good, that we may share his holiness.',
+      },
+      after: {
+        reference: 'Hebrews 12:12',
+        text: 'Therefore lift your drooping hands and strengthen your weak knees,',
+      },
+    },
+  },
+  {
+    id: 'hebrews-13-5-6',
+    reference: 'Hebrews 13:5-6',
+    book: 'Hebrews',
+    chapter: 13,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Keep your life free from love of money, and be content with what you have, for he has said, "I will never leave you nor forsake you." So we can confidently say, "The Lord is my helper; I will not fear; what can man do to me?"',
+      NIV: 'Keep your lives free from the love of money and be content with what you have, because God has said, "Never will I leave you; never will I forsake you." So we say with confidence, "The Lord is my helper; I will not be afraid. What can mere mortals do to me?"',
+      KJV: 'Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee. So that we may boldly say, The Lord is my helper, and I will not fear what man shall do unto me.',
+      NASB: 'Make sure that your character is free from the love of money, being content with what you have; for He Himself has said, "I will never desert you, nor will I ever forsake you," so that we confidently say, "The Lord is my helper, I will not be afraid. What will man do to me?"',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 13:4',
+        text: 'Let marriage be held in honor among all, and let the marriage bed be undefiled, for God will judge the sexually immoral and adulterous.',
+      },
+      after: {
+        reference: 'Hebrews 13:7',
+        text: 'Remember your leaders, those who spoke to you the word of God. Consider the outcome of their way of life, and imitate their faith.',
+      },
+    },
+  },
 
   // ============ JAMES ============
   {
