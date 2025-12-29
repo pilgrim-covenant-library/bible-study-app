@@ -207,6 +207,7 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   const bookmark = getBookmark(bookId, chapter.chapter);
   const [isEditingNote, setIsEditingNote] = useState(false);
   const [noteText, setNoteText] = useState(bookmark?.note || '');
+  const prevBookmarkNoteRef = useRef(bookmark?.note);
 
   // Compute related chapters only when expanded (memoized for performance)
   const relatedChapters = useMemo(() => {
@@ -221,11 +222,10 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   }, [isExpanded, bookId, chapter.chapter]);
 
   // Sync note text when bookmark changes from external source
-  // This is intentional - we need to sync local state with store changes
-  // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => {
+  if (prevBookmarkNoteRef.current !== bookmark?.note) {
+    prevBookmarkNoteRef.current = bookmark?.note;
     setNoteText(bookmark?.note || '');
-  }, [bookmark?.note]);
+  }
 
   const handleSaveNote = () => {
     updateBookmarkNote(bookId, chapter.chapter, noteText.trim());
