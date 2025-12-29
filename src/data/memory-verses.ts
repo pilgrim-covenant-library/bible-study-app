@@ -2214,6 +2214,190 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'psalm-2-7',
+    reference: 'Psalm 2:7',
+    book: 'Psalms',
+    chapter: 2,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I will tell of the decree: The LORD said to me, "You are my Son; today I have begotten you."',
+      NIV: 'I will proclaim the LORD\'s decree: He said to me, "You are my Son; today I have become your Father."',
+      KJV: 'I will declare the decree: the LORD hath said unto me, Thou art my Son; this day have I begotten thee.',
+      NASB: 'I will surely tell of the decree of the LORD: He said to Me, "You are My Son, today I have begotten You."',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 2:6',
+        text: '"As for me, I have set my King on Zion, my holy hill."',
+      },
+      after: {
+        reference: 'Psalm 2:8',
+        text: 'Ask of me, and I will make the nations your heritage, and the ends of the earth your possession.',
+      },
+    },
+  },
+  {
+    id: 'psalm-16-10',
+    reference: 'Psalm 16:10',
+    book: 'Psalms',
+    chapter: 16,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For you will not abandon my soul to Sheol, or let your holy one see corruption.',
+      NIV: 'because you will not abandon me to the realm of the dead, nor will you let your faithful one see decay.',
+      KJV: 'For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption.',
+      NASB: 'For You will not abandon my soul to Sheol; nor will You allow Your Holy One to undergo decay.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 16:9',
+        text: 'Therefore my heart is glad, and my whole being rejoices; my flesh also dwells secure.',
+      },
+      after: {
+        reference: 'Psalm 16:11',
+        text: 'You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore.',
+      },
+    },
+  },
+  {
+    id: 'psalm-22-1',
+    reference: 'Psalm 22:1',
+    book: 'Psalms',
+    chapter: 22,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'My God, my God, why have you forsaken me? Why are you so far from saving me, from the words of my groaning?',
+      NIV: 'My God, my God, why have you forsaken me? Why are you so far from saving me, so far from my cries of anguish?',
+      KJV: 'My God, my God, why hast thou forsaken me? why art thou so far from helping me, and from the words of my roaring?',
+      NASB: 'My God, my God, why have You forsaken me? Far from my deliverance are the words of my groaning.',
+    },
+    context: {
+      after: {
+        reference: 'Psalm 22:2',
+        text: 'O my God, I cry by day, but you do not answer, and by night, but I find no rest.',
+      },
+    },
+  },
+  {
+    id: 'psalm-22-18',
+    reference: 'Psalm 22:18',
+    book: 'Psalms',
+    chapter: 22,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'they divide my garments among them, and for my clothing they cast lots.',
+      NIV: 'They divide my clothes among them and cast lots for my garment.',
+      KJV: 'They part my garments among them, and cast lots upon my vesture.',
+      NASB: 'They divide my garments among them, and for my clothing they cast lots.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 22:17',
+        text: 'I can count all my bones—they stare and gloat over me;',
+      },
+      after: {
+        reference: 'Psalm 22:19',
+        text: 'But you, O LORD, do not be far off! O you my help, come quickly to my aid!',
+      },
+    },
+  },
+  {
+    id: 'psalm-34-8',
+    reference: 'Psalm 34:8',
+    book: 'Psalms',
+    chapter: 34,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in him!',
+      NIV: 'Taste and see that the LORD is good; blessed is the one who takes refuge in him.',
+      KJV: 'O taste and see that the LORD is good: blessed is the man that trusteth in him.',
+      NASB: 'O taste and see that the LORD is good; how blessed is the man who takes refuge in Him!',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 34:7',
+        text: 'The angel of the LORD encamps around those who fear him, and delivers them.',
+      },
+      after: {
+        reference: 'Psalm 34:9',
+        text: 'Oh, fear the LORD, you his saints, for those who fear him have no lack!',
+      },
+    },
+  },
+  {
+    id: 'psalm-40-8',
+    reference: 'Psalm 40:8',
+    book: 'Psalms',
+    chapter: 40,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I delight to do your will, O my God; your law is within my heart.',
+      NIV: 'I desire to do your will, my God; your law is within my heart.',
+      KJV: 'I delight to do thy will, O my God: yea, thy law is within my heart.',
+      NASB: 'I delight to do Your will, O my God; Your Law is within my heart.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 40:7',
+        text: 'Then I said, "Behold, I have come; in the scroll of the book it is written of me."',
+      },
+      after: {
+        reference: 'Psalm 40:9',
+        text: 'I have told the glad news of deliverance in the great congregation.',
+      },
+    },
+  },
+  {
+    id: 'psalm-110-1',
+    reference: 'Psalm 110:1',
+    book: 'Psalms',
+    chapter: 110,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD says to my Lord: "Sit at my right hand, until I make your enemies your footstool."',
+      NIV: 'The LORD says to my lord: "Sit at my right hand until I make your enemies a footstool for your feet."',
+      KJV: 'The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.',
+      NASB: 'The LORD says to my Lord: "Sit at My right hand until I make Your enemies a footstool for Your feet."',
+    },
+    context: {
+      after: {
+        reference: 'Psalm 110:2',
+        text: 'The LORD sends forth from Zion your mighty scepter. Rule in the midst of your enemies!',
+      },
+    },
+  },
+  {
+    id: 'psalm-118-22',
+    reference: 'Psalm 118:22',
+    book: 'Psalms',
+    chapter: 118,
+    verse: 22,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The stone that the builders rejected has become the cornerstone.',
+      NIV: 'The stone the builders rejected has become the cornerstone;',
+      KJV: 'The stone which the builders refused is become the head stone of the corner.',
+      NASB: 'The stone which the builders rejected has become the chief corner stone.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 118:21',
+        text: 'I thank you that you have answered me and have become my salvation.',
+      },
+      after: {
+        reference: 'Psalm 118:23',
+        text: 'This is the LORD\'s doing; it is marvelous in our eyes.',
+      },
+    },
+  },
 
   // ============ PROVERBS ============
   {
