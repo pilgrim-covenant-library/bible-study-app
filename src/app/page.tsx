@@ -161,8 +161,8 @@ export default function Home() {
               <div className="text-sm text-muted-foreground">One2One Questions</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-memory mb-2">2</div>
-              <div className="text-sm text-muted-foreground">Memory Players</div>
+              <div className="text-3xl font-bold text-memory mb-2">765</div>
+              <div className="text-sm text-muted-foreground">Memory Verses</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-trivia mb-2">594</div>
@@ -187,7 +187,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t">
         <div className="max-w-4xl mx-auto text-center text-sm text-muted-foreground">
-          <p>Bible texts from ESV, NIV, and KJV translations</p>
+          <p>Bible texts from ESV, NIV, KJV, and NASB translations</p>
           <p className="mt-2">Built for growing in faith together</p>
         </div>
       </footer>
