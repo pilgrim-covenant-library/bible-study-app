@@ -2520,6 +2520,246 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'proverbs-9-10',
+    reference: 'Proverbs 9:10',
+    book: 'Proverbs',
+    chapter: 9,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The fear of the LORD is the beginning of wisdom, and the knowledge of the Holy One is insight.',
+      NIV: 'The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding.',
+      KJV: 'The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding.',
+      NASB: 'The fear of the LORD is the beginning of wisdom, and the knowledge of the Holy One is understanding.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 9:9',
+        text: 'Give instruction to a wise man, and he will be still wiser; teach a righteous man, and he will increase in learning.',
+      },
+      after: {
+        reference: 'Proverbs 9:11',
+        text: 'For by me your days will be multiplied, and years will be added to your life.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-4-23',
+    reference: 'Proverbs 4:23',
+    book: 'Proverbs',
+    chapter: 4,
+    verse: 23,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Keep your heart with all vigilance, for from it flow the springs of life.',
+      NIV: 'Above all else, guard your heart, for everything you do flows from it.',
+      KJV: 'Keep thy heart with all diligence; for out of it are the issues of life.',
+      NASB: 'Watch over your heart with all diligence, for from it flow the springs of life.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 4:22',
+        text: 'For they are life to those who find them, and healing to all their flesh.',
+      },
+      after: {
+        reference: 'Proverbs 4:24',
+        text: 'Put away from you crooked speech, and put devious talk far from you.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-18-10',
+    reference: 'Proverbs 18:10',
+    book: 'Proverbs',
+    chapter: 18,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The name of the LORD is a strong tower; the righteous man runs into it and is safe.',
+      NIV: 'The name of the LORD is a fortified tower; the righteous run to it and are safe.',
+      KJV: 'The name of the LORD is a strong tower: the righteous runneth into it, and is safe.',
+      NASB: 'The name of the LORD is a strong tower; the righteous runs into it and is safe.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 18:9',
+        text: 'Whoever is slack in his work is a brother to him who destroys.',
+      },
+      after: {
+        reference: 'Proverbs 18:11',
+        text: 'A rich man\'s wealth is his strong city, and like a high wall in his imagination.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-27-17',
+    reference: 'Proverbs 27:17',
+    book: 'Proverbs',
+    chapter: 27,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Iron sharpens iron, and one man sharpens another.',
+      NIV: 'As iron sharpens iron, so one person sharpens another.',
+      KJV: 'Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.',
+      NASB: 'Iron sharpens iron, so one man sharpens another.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 27:16',
+        text: 'to restrain her is to restrain the wind or to grasp oil in one\'s right hand.',
+      },
+      after: {
+        reference: 'Proverbs 27:18',
+        text: 'Whoever tends a fig tree will eat its fruit, and he who guards his master will be honored.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-11-2',
+    reference: 'Proverbs 11:2',
+    book: 'Proverbs',
+    chapter: 11,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'When pride comes, then comes disgrace, but with the humble is wisdom.',
+      NIV: 'When pride comes, then comes disgrace, but with humility comes wisdom.',
+      KJV: 'When pride cometh, then cometh shame: but with the lowly is wisdom.',
+      NASB: 'When pride comes, then comes dishonor, but with the humble is wisdom.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 11:1',
+        text: 'A false balance is an abomination to the LORD, but a just weight is his delight.',
+      },
+      after: {
+        reference: 'Proverbs 11:3',
+        text: 'The integrity of the upright guides them, but the crookedness of the treacherous destroys them.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-15-1',
+    reference: 'Proverbs 15:1',
+    book: 'Proverbs',
+    chapter: 15,
+    verse: 1,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'A soft answer turns away wrath, but a harsh word stirs up anger.',
+      NIV: 'A gentle answer turns away wrath, but a harsh word stirs up anger.',
+      KJV: 'A soft answer turneth away wrath: but grievous words stir up anger.',
+      NASB: 'A gentle answer turns away wrath, but a harsh word stirs up anger.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 14:35',
+        text: 'A servant who deals wisely has the king\'s favor, but his wrath falls on one who acts shamefully.',
+      },
+      after: {
+        reference: 'Proverbs 15:2',
+        text: 'The tongue of the wise commends knowledge, but the mouths of fools pour out folly.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-16-3',
+    reference: 'Proverbs 16:3',
+    book: 'Proverbs',
+    chapter: 16,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Commit your work to the LORD, and your plans will be established.',
+      NIV: 'Commit to the LORD whatever you do, and he will establish your plans.',
+      KJV: 'Commit thy works unto the LORD, and thy thoughts shall be established.',
+      NASB: 'Commit your works to the LORD and your plans will be established.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 16:2',
+        text: 'All the ways of a man are pure in his own eyes, but the LORD weighs the spirit.',
+      },
+      after: {
+        reference: 'Proverbs 16:4',
+        text: 'The LORD has made everything for its purpose, even the wicked for the day of trouble.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-19-21',
+    reference: 'Proverbs 19:21',
+    book: 'Proverbs',
+    chapter: 19,
+    verse: 21,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Many are the plans in the mind of a man, but it is the purpose of the LORD that will stand.',
+      NIV: 'Many are the plans in a person\'s heart, but it is the LORD\'s purpose that prevails.',
+      KJV: 'There are many devices in a man\'s heart; nevertheless the counsel of the LORD, that shall stand.',
+      NASB: 'Many plans are in a man\'s heart, but the counsel of the LORD will stand.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 19:20',
+        text: 'Listen to advice and accept instruction, that you may gain wisdom in the future.',
+      },
+      after: {
+        reference: 'Proverbs 19:22',
+        text: 'What is desired in a man is steadfast love, and a poor man is better than a liar.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-29-25',
+    reference: 'Proverbs 29:25',
+    book: 'Proverbs',
+    chapter: 29,
+    verse: 25,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The fear of man lays a snare, but whoever trusts in the LORD is safe.',
+      NIV: 'Fear of man will prove to be a snare, but whoever trusts in the LORD is kept safe.',
+      KJV: 'The fear of man bringeth a snare: but whoso putteth his trust in the LORD shall be safe.',
+      NASB: 'The fear of man brings a snare, but he who trusts in the LORD will be exalted.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 29:24',
+        text: 'The partner of a thief hates his own life; he hears the curse, but discloses nothing.',
+      },
+      after: {
+        reference: 'Proverbs 29:26',
+        text: 'Many seek the face of a ruler, but it is from the LORD that a man gets justice.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-31-30',
+    reference: 'Proverbs 31:30',
+    book: 'Proverbs',
+    chapter: 31,
+    verse: 30,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Charm is deceitful, and beauty is vain, but a woman who fears the LORD is to be praised.',
+      NIV: 'Charm is deceptive, and beauty is fleeting; but a woman who fears the LORD is to be praised.',
+      KJV: 'Favour is deceitful, and beauty is vain: but a woman that feareth the LORD, she shall be praised.',
+      NASB: 'Charm is deceitful and beauty is vain, but a woman who fears the LORD, she shall be praised.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 31:29',
+        text: '"Many women have done excellently, but you surpass them all."',
+      },
+      after: {
+        reference: 'Proverbs 31:31',
+        text: 'Give her of the fruit of her hands, and let her works praise her in the gates.',
+      },
+    },
+  },
 
   // ============ ECCLESIASTES ============
   {
