@@ -1,0 +1,667 @@
+/**
+ * Doctrinal Scripture Index
+ *
+ * Maps key Reformed doctrines to Scripture passages.
+ * Each doctrine includes:
+ * - Definition from Reformed confessions
+ * - Key Scripture passages with chapter references
+ * - Related Westminster Shorter Catechism questions
+ * - Cross-references to other doctrines
+ */
+
+export interface DoctrinePassage {
+  bookId: string;
+  chapter: number;
+  verse?: string; // Optional specific verse reference
+  description: string; // How this passage supports the doctrine
+}
+
+export interface Doctrine {
+  id: string;
+  name: string;
+  shortName: string;
+  category: DoctrineCategory;
+  definition: string;
+  confessionalReference?: string; // WCF, WSC, etc.
+  wscQuestions?: number[]; // Related Westminster Shorter Catechism questions
+  keyPassages: DoctrinePassage[];
+  relatedDoctrines: string[]; // IDs of related doctrines
+}
+
+export type DoctrineCategory =
+  | 'theology_proper'    // Doctrine of God
+  | 'christology'        // Doctrine of Christ
+  | 'pneumatology'       // Doctrine of the Holy Spirit
+  | 'anthropology'       // Doctrine of Man
+  | 'soteriology'        // Doctrine of Salvation
+  | 'ecclesiology'       // Doctrine of the Church
+  | 'eschatology';       // Doctrine of Last Things
+
+export const DOCTRINE_CATEGORIES: { id: DoctrineCategory; name: string; description: string }[] = [
+  { id: 'theology_proper', name: 'Theology Proper', description: 'The doctrine of God: His existence, attributes, and works' },
+  { id: 'christology', name: 'Christology', description: 'The doctrine of Christ: His person, natures, and offices' },
+  { id: 'pneumatology', name: 'Pneumatology', description: 'The doctrine of the Holy Spirit: His person and work' },
+  { id: 'anthropology', name: 'Anthropology', description: 'The doctrine of Man: creation, fall, and human nature' },
+  { id: 'soteriology', name: 'Soteriology', description: 'The doctrine of Salvation: the application of redemption' },
+  { id: 'ecclesiology', name: 'Ecclesiology', description: 'The doctrine of the Church: its nature, marks, and government' },
+  { id: 'eschatology', name: 'Eschatology', description: 'The doctrine of Last Things: death, judgment, and eternity' },
+];
+
+export const DOCTRINAL_INDEX: Doctrine[] = [
+  // ═══════════════════════════════════════════════════════════════════
+  // THEOLOGY PROPER - Doctrine of God
+  // ═══════════════════════════════════════════════════════════════════
+  {
+    id: 'divine-sovereignty',
+    name: "God's Sovereignty",
+    shortName: 'Sovereignty',
+    category: 'theology_proper',
+    definition: 'God\'s absolute right and power to do all things according to His own good pleasure, so that nothing happens apart from His will or beyond His control.',
+    confessionalReference: 'WCF 3.1; WSC Q7-11',
+    wscQuestions: [7, 8, 11],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 50, description: 'Joseph declares that what man meant for evil, God meant for good' },
+      { bookId: 'exodus', chapter: 4, description: 'God hardens Pharaoh\'s heart to display His power' },
+      { bookId: 'deuteronomy', chapter: 32, description: 'Song of Moses celebrates God\'s sovereign control over nations' },
+      { bookId: 'job', chapter: 1, description: 'Satan can only act within limits God permits' },
+      { bookId: 'job', chapter: 38, description: 'God interrogates Job about His sovereign power over creation' },
+      { bookId: 'psalms', chapter: 115, description: '"Our God is in heaven; He does whatever He pleases"' },
+      { bookId: 'psalms', chapter: 135, description: 'God does whatever pleases Him in heaven and earth' },
+      { bookId: 'proverbs', chapter: 16, description: 'The lot is cast, but its every decision is from the Lord' },
+      { bookId: 'proverbs', chapter: 21, description: 'The king\'s heart is a stream of water in the Lord\'s hand' },
+      { bookId: 'isaiah', chapter: 46, description: 'God declares the end from the beginning, His counsel shall stand' },
+      { bookId: 'daniel', chapter: 4, description: 'Nebuchadnezzar learns God\'s dominion is everlasting' },
+      { bookId: 'romans', chapter: 9, description: 'God has mercy on whom He will; vessels of wrath and mercy' },
+      { bookId: 'ephesians', chapter: 1, description: 'God works all things according to the counsel of His will' },
+    ],
+    relatedDoctrines: ['divine-providence', 'predestination', 'immutability'],
+  },
+  {
+    id: 'divine-providence',
+    name: 'Divine Providence',
+    shortName: 'Providence',
+    category: 'theology_proper',
+    definition: "God's most holy, wise, and powerful preserving and governing all His creatures and all their actions.",
+    confessionalReference: 'WCF 5; WSC Q11',
+    wscQuestions: [11],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 22, description: 'God provides the ram for Abraham on Mount Moriah' },
+      { bookId: 'genesis', chapter: 45, description: 'God sent Joseph to Egypt to preserve life' },
+      { bookId: 'ruth', chapter: 2, description: 'Ruth "happened" to glean in the field of Boaz' },
+      { bookId: 'esther', chapter: 4, description: 'Esther came to royal position "for such a time as this"' },
+      { bookId: 'esther', chapter: 6, description: 'The king\'s sleepless night leads to Mordecai\'s honor' },
+      { bookId: 'job', chapter: 42, description: 'God restores Job\'s fortunes and blesses his latter days' },
+      { bookId: 'psalms', chapter: 104, description: 'God sustains all creatures by His ongoing provision' },
+      { bookId: 'psalms', chapter: 145, description: 'God opens His hand and satisfies every living thing' },
+      { bookId: 'matthew', chapter: 6, description: 'God feeds the birds and clothes the lilies' },
+      { bookId: 'matthew', chapter: 10, description: 'Not a sparrow falls apart from the Father\'s will' },
+      { bookId: 'acts', chapter: 4, description: 'Herod and Pilate did what God\'s hand predestined' },
+      { bookId: 'romans', chapter: 8, description: 'All things work together for good for those who love God' },
+      { bookId: 'colossians', chapter: 1, description: 'In Christ all things hold together' },
+      { bookId: 'hebrews', chapter: 1, description: 'The Son upholds the universe by the word of His power' },
+    ],
+    relatedDoctrines: ['divine-sovereignty', 'creation', 'common-grace'],
+  },
+  {
+    id: 'trinity',
+    name: 'The Holy Trinity',
+    shortName: 'Trinity',
+    category: 'theology_proper',
+    definition: 'There is one God who exists eternally in three distinct persons—Father, Son, and Holy Spirit—each fully God, co-equal and co-eternal.',
+    confessionalReference: 'WCF 2.3; WSC Q6',
+    wscQuestions: [6],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 1, description: '"Let us make man in our image" - plural language' },
+      { bookId: 'genesis', chapter: 11, description: '"Let us go down" - divine deliberation at Babel' },
+      { bookId: 'isaiah', chapter: 6, description: 'Seraphim cry "Holy, holy, holy" - triple invocation' },
+      { bookId: 'isaiah', chapter: 48, description: 'The Servant speaks of the Lord God and His Spirit sending Him' },
+      { bookId: 'matthew', chapter: 3, description: 'Father speaks, Spirit descends, Son is baptized' },
+      { bookId: 'matthew', chapter: 28, description: 'Baptize in the name (singular) of Father, Son, Holy Spirit' },
+      { bookId: 'john', chapter: 1, description: 'The Word was with God and the Word was God' },
+      { bookId: 'john', chapter: 14, description: 'Father will send the Spirit in the Son\'s name' },
+      { bookId: 'john', chapter: 15, description: 'The Spirit proceeds from the Father; sent by the Son' },
+      { bookId: 'acts', chapter: 2, description: 'Peter\'s sermon: Father raised Jesus, who poured out the Spirit' },
+      { bookId: 'romans', chapter: 8, description: 'Spirit of God, Spirit of Christ, Father who raised Jesus' },
+      { bookId: '2-corinthians', chapter: 13, description: 'Trinitarian benediction: grace, love, fellowship' },
+      { bookId: 'ephesians', chapter: 1, description: 'Father chose, Son redeemed, Spirit sealed' },
+      { bookId: '1-peter', chapter: 1, description: 'Elect according to Father\'s foreknowledge, Spirit\'s sanctification, for obedience to Jesus' },
+    ],
+    relatedDoctrines: ['divinity-of-christ', 'divinity-of-spirit', 'divine-attributes'],
+  },
+  {
+    id: 'divine-attributes',
+    name: 'Divine Attributes',
+    shortName: 'Attributes of God',
+    category: 'theology_proper',
+    definition: 'The perfections of God revealed in Scripture: infinite, eternal, unchangeable in being, wisdom, power, holiness, justice, goodness, and truth.',
+    confessionalReference: 'WCF 2.1; WSC Q4',
+    wscQuestions: [4],
+    keyPassages: [
+      { bookId: 'exodus', chapter: 3, description: '"I AM WHO I AM" - God\'s self-existence and eternality' },
+      { bookId: 'exodus', chapter: 34, description: 'God proclaims His name: merciful, gracious, slow to anger' },
+      { bookId: 'deuteronomy', chapter: 32, description: 'The Rock - His work is perfect, all His ways are justice' },
+      { bookId: 'psalms', chapter: 90, description: 'From everlasting to everlasting, You are God' },
+      { bookId: 'psalms', chapter: 139, description: 'God\'s omniscience and omnipresence' },
+      { bookId: 'psalms', chapter: 145, description: 'God is gracious, merciful, good to all' },
+      { bookId: 'isaiah', chapter: 40, description: 'God\'s incomparable greatness and wisdom' },
+      { bookId: 'isaiah', chapter: 55, description: 'God\'s thoughts are higher than our thoughts' },
+      { bookId: 'malachi', chapter: 3, description: '"I the LORD do not change" - divine immutability' },
+      { bookId: 'john', chapter: 4, description: 'God is Spirit and must be worshiped in spirit and truth' },
+      { bookId: 'romans', chapter: 11, description: 'The depth of the riches of God\'s wisdom and knowledge' },
+      { bookId: 'james', chapter: 1, description: 'Father of lights, with whom there is no variation' },
+      { bookId: '1-john', chapter: 1, description: 'God is light; in Him is no darkness at all' },
+      { bookId: '1-john', chapter: 4, description: 'God is love' },
+    ],
+    relatedDoctrines: ['trinity', 'divine-sovereignty', 'immutability'],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════
+  // CHRISTOLOGY - Doctrine of Christ
+  // ═══════════════════════════════════════════════════════════════════
+  {
+    id: 'divinity-of-christ',
+    name: 'Divinity of Christ',
+    shortName: 'Christ\'s Divinity',
+    category: 'christology',
+    definition: 'Jesus Christ is truly and eternally God, the second person of the Trinity, possessing the same divine essence as the Father and the Spirit.',
+    confessionalReference: 'WCF 8.2; WSC Q21',
+    wscQuestions: [21],
+    keyPassages: [
+      { bookId: 'psalms', chapter: 110, description: 'The LORD says to my Lord - David\'s Lord' },
+      { bookId: 'isaiah', chapter: 9, description: 'His name: Mighty God, Everlasting Father' },
+      { bookId: 'matthew', chapter: 1, description: 'Emmanuel - "God with us"' },
+      { bookId: 'matthew', chapter: 28, description: 'Jesus claims all authority in heaven and on earth' },
+      { bookId: 'john', chapter: 1, description: 'The Word was God; all things made through Him' },
+      { bookId: 'john', chapter: 5, description: 'Jesus calls God His own Father, making Himself equal with God' },
+      { bookId: 'john', chapter: 8, description: '"Before Abraham was, I AM"' },
+      { bookId: 'john', chapter: 10, description: '"I and the Father are one"' },
+      { bookId: 'john', chapter: 20, description: 'Thomas: "My Lord and my God!"' },
+      { bookId: 'romans', chapter: 9, description: 'Christ, who is God over all, blessed forever' },
+      { bookId: 'philippians', chapter: 2, description: 'Christ in the form of God, equal with God' },
+      { bookId: 'colossians', chapter: 1, description: 'In Him all the fullness of deity dwells' },
+      { bookId: 'colossians', chapter: 2, description: 'In Him the whole fullness of deity dwells bodily' },
+      { bookId: 'titus', chapter: 2, description: 'Our great God and Savior Jesus Christ' },
+      { bookId: 'hebrews', chapter: 1, description: 'Of the Son: "Your throne, O God, is forever"' },
+    ],
+    relatedDoctrines: ['trinity', 'humanity-of-christ', 'incarnation'],
+  },
+  {
+    id: 'humanity-of-christ',
+    name: 'Humanity of Christ',
+    shortName: 'Christ\'s Humanity',
+    category: 'christology',
+    definition: 'Jesus Christ is truly and fully human, possessing a true body and a reasonable soul, yet without sin.',
+    confessionalReference: 'WCF 8.2; WSC Q22',
+    wscQuestions: [22],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 3, description: 'The seed of the woman shall crush the serpent\'s head' },
+      { bookId: 'isaiah', chapter: 7, description: 'A virgin shall conceive and bear a son' },
+      { bookId: 'isaiah', chapter: 53, description: 'A man of sorrows, acquainted with grief' },
+      { bookId: 'matthew', chapter: 4, description: 'Jesus was hungry after fasting; tempted as a man' },
+      { bookId: 'matthew', chapter: 26, description: 'Jesus\' soul is sorrowful unto death in Gethsemane' },
+      { bookId: 'luke', chapter: 2, description: 'Jesus increased in wisdom and stature' },
+      { bookId: 'john', chapter: 1, description: 'The Word became flesh and dwelt among us' },
+      { bookId: 'john', chapter: 4, description: 'Jesus wearied from His journey, asked for water' },
+      { bookId: 'john', chapter: 11, description: 'Jesus wept at Lazarus\' tomb' },
+      { bookId: 'john', chapter: 19, description: 'Jesus thirsted; His body was buried' },
+      { bookId: 'galatians', chapter: 4, description: 'Born of a woman, born under the law' },
+      { bookId: 'philippians', chapter: 2, description: 'Found in human form, He humbled Himself' },
+      { bookId: 'hebrews', chapter: 2, description: 'He had to be made like His brothers in every respect' },
+      { bookId: 'hebrews', chapter: 4, description: 'Tempted in every way as we are, yet without sin' },
+      { bookId: '1-john', chapter: 4, description: 'Jesus Christ has come in the flesh' },
+    ],
+    relatedDoctrines: ['divinity-of-christ', 'incarnation', 'active-obedience'],
+  },
+  {
+    id: 'incarnation',
+    name: 'The Incarnation',
+    shortName: 'Incarnation',
+    category: 'christology',
+    definition: 'The eternal Son of God took to Himself a true human nature, being conceived by the Holy Spirit in the womb of the virgin Mary.',
+    confessionalReference: 'WCF 8.2',
+    keyPassages: [
+      { bookId: 'isaiah', chapter: 7, description: 'The virgin shall conceive and bear a son, Immanuel' },
+      { bookId: 'micah', chapter: 5, description: 'From Bethlehem, One whose origin is from of old' },
+      { bookId: 'matthew', chapter: 1, description: 'Conceived by the Holy Spirit, born of the virgin Mary' },
+      { bookId: 'luke', chapter: 1, description: 'The Holy Spirit will come upon you; the holy offspring' },
+      { bookId: 'luke', chapter: 2, description: 'She gave birth to her firstborn son in Bethlehem' },
+      { bookId: 'john', chapter: 1, description: 'The Word became flesh and dwelt among us' },
+      { bookId: 'romans', chapter: 1, description: 'Descended from David according to the flesh' },
+      { bookId: 'romans', chapter: 8, description: 'God sent His own Son in the likeness of sinful flesh' },
+      { bookId: 'galatians', chapter: 4, description: 'God sent forth His Son, born of woman' },
+      { bookId: 'philippians', chapter: 2, description: 'He emptied Himself, taking the form of a servant' },
+      { bookId: 'hebrews', chapter: 2, description: 'He partook of flesh and blood to destroy the devil' },
+      { bookId: '1-timothy', chapter: 3, description: 'Great is the mystery of godliness: He was manifested in the flesh' },
+    ],
+    relatedDoctrines: ['divinity-of-christ', 'humanity-of-christ', 'virgin-birth'],
+  },
+  {
+    id: 'threefold-office',
+    name: 'Threefold Office of Christ',
+    shortName: 'Prophet, Priest, King',
+    category: 'christology',
+    definition: 'Christ executes the office of a prophet, priest, and king, both in His estate of humiliation and exaltation.',
+    confessionalReference: 'WSC Q23-26',
+    wscQuestions: [23, 24, 25, 26],
+    keyPassages: [
+      // Prophet
+      { bookId: 'deuteronomy', chapter: 18, description: 'God will raise up a prophet like Moses' },
+      { bookId: 'matthew', chapter: 5, description: 'Jesus teaches with divine authority on the mount' },
+      { bookId: 'john', chapter: 1, description: 'The Word - God\'s revelation in person' },
+      { bookId: 'acts', chapter: 3, description: 'Peter identifies Jesus as the prophet Moses foretold' },
+      // Priest
+      { bookId: 'psalms', chapter: 110, description: 'A priest forever after the order of Melchizedek' },
+      { bookId: 'isaiah', chapter: 53, description: 'He bore our griefs and carried our sorrows; intercedes for transgressors' },
+      { bookId: 'hebrews', chapter: 7, description: 'Jesus the great High Priest in the order of Melchizedek' },
+      { bookId: 'hebrews', chapter: 9, description: 'Christ entered the holy places by His own blood' },
+      { bookId: 'hebrews', chapter: 10, description: 'One sacrifice for sins forever, then sat down' },
+      // King
+      { bookId: '2-samuel', chapter: 7, description: 'God promises David an eternal throne fulfilled in Christ' },
+      { bookId: 'psalms', chapter: 2, description: 'God installs His King on Zion, His holy hill' },
+      { bookId: 'matthew', chapter: 28, description: 'All authority in heaven and earth given to Christ' },
+      { bookId: 'revelation', chapter: 19, description: 'King of kings and Lord of lords' },
+    ],
+    relatedDoctrines: ['divinity-of-christ', 'active-obedience', 'atonement'],
+  },
+  {
+    id: 'atonement',
+    name: 'The Atonement',
+    shortName: 'Atonement',
+    category: 'christology',
+    definition: 'Christ, by His perfect obedience and sacrifice of Himself, satisfied divine justice and purchased reconciliation with God for all whom the Father has given Him.',
+    confessionalReference: 'WCF 8.5; WSC Q25',
+    wscQuestions: [25],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 22, description: 'God provides a substitute for Isaac - type of Christ' },
+      { bookId: 'exodus', chapter: 12, description: 'The Passover lamb\'s blood protects from judgment' },
+      { bookId: 'leviticus', chapter: 16, description: 'Day of Atonement - scapegoat bears sins away' },
+      { bookId: 'isaiah', chapter: 53, description: 'He was pierced for our transgressions, crushed for our iniquities' },
+      { bookId: 'matthew', chapter: 20, description: 'The Son of Man came to give His life as a ransom for many' },
+      { bookId: 'matthew', chapter: 26, description: 'This is My blood of the covenant, poured out for many' },
+      { bookId: 'john', chapter: 10, description: 'The Good Shepherd lays down His life for the sheep' },
+      { bookId: 'romans', chapter: 3, description: 'God put Christ forward as a propitiation by His blood' },
+      { bookId: 'romans', chapter: 5, description: 'God demonstrates His love: while we were sinners, Christ died' },
+      { bookId: '2-corinthians', chapter: 5, description: 'God made Him who knew no sin to be sin for us' },
+      { bookId: 'galatians', chapter: 3, description: 'Christ redeemed us from the curse, becoming a curse for us' },
+      { bookId: 'ephesians', chapter: 5, description: 'Christ loved the church and gave Himself for her' },
+      { bookId: 'hebrews', chapter: 9, description: 'Without the shedding of blood there is no forgiveness' },
+      { bookId: '1-peter', chapter: 2, description: 'He bore our sins in His body on the tree' },
+      { bookId: '1-john', chapter: 2, description: 'He is the propitiation for our sins' },
+    ],
+    relatedDoctrines: ['penal-substitution', 'imputation', 'justification'],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════
+  // ANTHROPOLOGY - Doctrine of Man
+  // ═══════════════════════════════════════════════════════════════════
+  {
+    id: 'image-of-god',
+    name: 'Image of God',
+    shortName: 'Imago Dei',
+    category: 'anthropology',
+    definition: 'Man was created in the image of God, in knowledge, righteousness, and holiness, with dominion over the creatures.',
+    confessionalReference: 'WCF 4.2; WSC Q10',
+    wscQuestions: [10],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 1, description: '"Let us make man in our image, after our likeness"' },
+      { bookId: 'genesis', chapter: 2, description: 'God breathed into man the breath of life' },
+      { bookId: 'genesis', chapter: 5, description: 'Adam\'s descendants born in his image after the fall' },
+      { bookId: 'genesis', chapter: 9, description: 'Murder forbidden because man is made in God\'s image' },
+      { bookId: 'psalms', chapter: 8, description: 'Man crowned with glory and honor, ruling creation' },
+      { bookId: 'ecclesiastes', chapter: 7, description: 'God made man upright' },
+      { bookId: 'romans', chapter: 8, description: 'Predestined to be conformed to the image of His Son' },
+      { bookId: '2-corinthians', chapter: 3, description: 'Being transformed into the same image from glory to glory' },
+      { bookId: 'ephesians', chapter: 4, description: 'Put on the new self, created after God\'s likeness' },
+      { bookId: 'colossians', chapter: 3, description: 'The new self being renewed in knowledge after its Creator' },
+      { bookId: 'james', chapter: 3, description: 'People are made in the likeness of God' },
+    ],
+    relatedDoctrines: ['creation', 'original-sin', 'sanctification'],
+  },
+  {
+    id: 'original-sin',
+    name: 'Original Sin',
+    shortName: 'Original Sin',
+    category: 'anthropology',
+    definition: 'Through Adam\'s fall, all mankind sinned in him and fell with him; we are conceived and born in sin, wholly defiled, and inclined to all evil.',
+    confessionalReference: 'WCF 6.2-3; WSC Q16-18',
+    wscQuestions: [16, 17, 18],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 3, description: 'The fall: Adam and Eve eat the forbidden fruit' },
+      { bookId: 'genesis', chapter: 6, description: 'Every intention of man\'s heart was only evil continually' },
+      { bookId: 'genesis', chapter: 8, description: 'The intention of man\'s heart is evil from his youth' },
+      { bookId: 'job', chapter: 14, description: 'Who can bring a clean thing out of an unclean?' },
+      { bookId: 'psalms', chapter: 51, description: 'In sin did my mother conceive me' },
+      { bookId: 'psalms', chapter: 58, description: 'The wicked are estranged from the womb' },
+      { bookId: 'jeremiah', chapter: 17, description: 'The heart is deceitful above all things' },
+      { bookId: 'john', chapter: 3, description: 'That which is born of flesh is flesh' },
+      { bookId: 'romans', chapter: 3, description: 'None is righteous, no not one' },
+      { bookId: 'romans', chapter: 5, description: 'Sin came into the world through one man, death through sin' },
+      { bookId: 'romans', chapter: 7, description: 'Nothing good dwells in me, that is, in my flesh' },
+      { bookId: '1-corinthians', chapter: 15, description: 'In Adam all die' },
+      { bookId: 'ephesians', chapter: 2, description: 'Dead in trespasses and sins, by nature children of wrath' },
+    ],
+    relatedDoctrines: ['total-depravity', 'imputation', 'covenant-of-works'],
+  },
+  {
+    id: 'total-depravity',
+    name: 'Total Depravity',
+    shortName: 'Total Depravity',
+    category: 'anthropology',
+    definition: 'As a result of the fall, every part of man\'s being is affected by sin; man is unable, apart from divine grace, to turn to God or do spiritual good.',
+    confessionalReference: 'WCF 6.2, 9.3; WSC Q18',
+    wscQuestions: [18],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 6, description: 'Every intention of the thoughts of his heart was only evil' },
+      { bookId: 'psalms', chapter: 14, description: 'The fool says there is no God; none does good' },
+      { bookId: 'psalms', chapter: 53, description: 'There is none who does good, not even one' },
+      { bookId: 'isaiah', chapter: 64, description: 'All our righteous deeds are like filthy rags' },
+      { bookId: 'jeremiah', chapter: 13, description: 'Can the leopard change his spots? Neither can you do good' },
+      { bookId: 'jeremiah', chapter: 17, description: 'The heart is deceitful above all things and desperately sick' },
+      { bookId: 'matthew', chapter: 15, description: 'Out of the heart come evil thoughts, murder, adultery' },
+      { bookId: 'john', chapter: 3, description: 'Unless one is born again, he cannot see the kingdom' },
+      { bookId: 'john', chapter: 6, description: 'No one can come to Me unless the Father draws him' },
+      { bookId: 'john', chapter: 8, description: 'Everyone who practices sin is a slave to sin' },
+      { bookId: 'romans', chapter: 3, description: 'No one seeks for God; all have turned aside' },
+      { bookId: 'romans', chapter: 8, description: 'The mind set on the flesh is hostile to God' },
+      { bookId: '1-corinthians', chapter: 2, description: 'The natural person does not accept spiritual things' },
+      { bookId: 'ephesians', chapter: 2, description: 'Dead in trespasses, following the prince of the air' },
+      { bookId: 'ephesians', chapter: 4, description: 'Darkened in understanding, alienated from God' },
+      { bookId: 'titus', chapter: 3, description: 'We ourselves were once foolish, disobedient, enslaved' },
+    ],
+    relatedDoctrines: ['original-sin', 'unconditional-election', 'effectual-calling'],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════
+  // SOTERIOLOGY - Doctrine of Salvation (TULIP)
+  // ═══════════════════════════════════════════════════════════════════
+  {
+    id: 'unconditional-election',
+    name: 'Unconditional Election',
+    shortName: 'Election',
+    category: 'soteriology',
+    definition: 'God, from all eternity, chose in Christ certain individuals to be saved, not based on any foreseen merit or faith in them, but solely according to His sovereign good pleasure.',
+    confessionalReference: 'WCF 3.5; WSC Q20',
+    wscQuestions: [20],
+    keyPassages: [
+      { bookId: 'deuteronomy', chapter: 7, description: 'God chose Israel not for their greatness but out of love' },
+      { bookId: 'deuteronomy', chapter: 10, description: 'God set His love on your fathers and chose their offspring' },
+      { bookId: 'john', chapter: 6, description: 'All that the Father gives Me will come to Me' },
+      { bookId: 'john', chapter: 10, description: 'My sheep hear My voice; I give them eternal life' },
+      { bookId: 'john', chapter: 15, description: 'You did not choose Me, but I chose you' },
+      { bookId: 'acts', chapter: 13, description: 'As many as were appointed to eternal life believed' },
+      { bookId: 'romans', chapter: 8, description: 'Those He foreknew He predestined to be conformed to Christ' },
+      { bookId: 'romans', chapter: 9, description: 'Jacob I loved, Esau I hated - before they had done anything' },
+      { bookId: 'romans', chapter: 11, description: 'A remnant chosen by grace, not by works' },
+      { bookId: 'ephesians', chapter: 1, description: 'He chose us in Him before the foundation of the world' },
+      { bookId: '2-thessalonians', chapter: 2, description: 'God chose you as firstfruits to be saved' },
+      { bookId: '2-timothy', chapter: 1, description: 'Called with a holy calling according to His own purpose' },
+      { bookId: '1-peter', chapter: 1, description: 'Elect according to the foreknowledge of God the Father' },
+    ],
+    relatedDoctrines: ['total-depravity', 'effectual-calling', 'perseverance'],
+  },
+  {
+    id: 'effectual-calling',
+    name: 'Effectual Calling',
+    shortName: 'Effectual Call',
+    category: 'soteriology',
+    definition: 'God effectually calls His elect by His Word and Spirit, renewing their wills and enabling them to answer His call, embracing Christ freely offered in the gospel.',
+    confessionalReference: 'WCF 10.1; WSC Q31',
+    wscQuestions: [31],
+    keyPassages: [
+      { bookId: 'ezekiel', chapter: 36, description: 'I will give you a new heart and put a new spirit within you' },
+      { bookId: 'ezekiel', chapter: 37, description: 'Dry bones live - God breathes life into the dead' },
+      { bookId: 'john', chapter: 3, description: 'Unless one is born again of water and Spirit' },
+      { bookId: 'john', chapter: 5, description: 'The dead will hear the voice of the Son and live' },
+      { bookId: 'john', chapter: 6, description: 'Everyone who has heard and learned from the Father comes' },
+      { bookId: 'john', chapter: 10, description: 'The sheep hear His voice and follow Him' },
+      { bookId: 'acts', chapter: 16, description: 'The Lord opened Lydia\'s heart to pay attention to Paul' },
+      { bookId: 'romans', chapter: 8, description: 'Those He predestined He also called' },
+      { bookId: '1-corinthians', chapter: 1, description: 'Those who are called, Christ the power and wisdom of God' },
+      { bookId: '2-corinthians', chapter: 4, description: 'God who said "Let light shine" has shone in our hearts' },
+      { bookId: 'ephesians', chapter: 2, description: 'Made us alive together with Christ' },
+      { bookId: 'colossians', chapter: 2, description: 'God made you alive together with Him' },
+      { bookId: '1-peter', chapter: 2, description: 'Called out of darkness into His marvelous light' },
+      { bookId: '2-peter', chapter: 1, description: 'He has called us to His own glory and excellence' },
+    ],
+    relatedDoctrines: ['unconditional-election', 'regeneration', 'faith'],
+  },
+  {
+    id: 'justification',
+    name: 'Justification by Faith',
+    shortName: 'Justification',
+    category: 'soteriology',
+    definition: 'God declares sinners righteous on the basis of Christ\'s righteousness alone, received through faith alone, apart from any works of the law.',
+    confessionalReference: 'WCF 11; WSC Q33',
+    wscQuestions: [33],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 15, description: 'Abraham believed God, and it was counted to him as righteousness' },
+      { bookId: 'psalms', chapter: 32, description: 'Blessed is the one whose transgression is forgiven' },
+      { bookId: 'isaiah', chapter: 53, description: 'By His knowledge shall the righteous one justify many' },
+      { bookId: 'habakkuk', chapter: 2, description: 'The righteous shall live by his faith' },
+      { bookId: 'acts', chapter: 13, description: 'By Him everyone who believes is justified from everything' },
+      { bookId: 'romans', chapter: 1, description: 'The righteous shall live by faith' },
+      { bookId: 'romans', chapter: 3, description: 'Justified by His grace as a gift, through the redemption in Christ' },
+      { bookId: 'romans', chapter: 4, description: 'To the one who does not work but believes, faith is counted as righteousness' },
+      { bookId: 'romans', chapter: 5, description: 'Since we have been justified by faith, we have peace with God' },
+      { bookId: 'romans', chapter: 8, description: 'Who shall bring any charge against God\'s elect?' },
+      { bookId: '2-corinthians', chapter: 5, description: 'In Christ God was reconciling the world to Himself' },
+      { bookId: 'galatians', chapter: 2, description: 'A person is not justified by works of the law but through faith' },
+      { bookId: 'galatians', chapter: 3, description: 'Those of faith are blessed along with Abraham' },
+      { bookId: 'ephesians', chapter: 2, description: 'By grace you have been saved through faith - not of works' },
+      { bookId: 'philippians', chapter: 3, description: 'Not having a righteousness of my own but that from God' },
+      { bookId: 'titus', chapter: 3, description: 'Justified by His grace so that we might become heirs' },
+    ],
+    relatedDoctrines: ['imputation', 'atonement', 'faith', 'sanctification'],
+  },
+  {
+    id: 'sanctification',
+    name: 'Sanctification',
+    shortName: 'Sanctification',
+    category: 'soteriology',
+    definition: 'The work of God\'s free grace whereby we are renewed in the whole man after the image of God, and are enabled more and more to die unto sin and live unto righteousness.',
+    confessionalReference: 'WCF 13; WSC Q35',
+    wscQuestions: [35],
+    keyPassages: [
+      { bookId: 'leviticus', chapter: 20, description: 'You shall be holy, for I the LORD your God am holy' },
+      { bookId: 'psalms', chapter: 119, description: 'Your word I have hidden in my heart that I might not sin' },
+      { bookId: 'ezekiel', chapter: 36, description: 'I will cause you to walk in My statutes' },
+      { bookId: 'john', chapter: 17, description: 'Sanctify them in the truth; Your word is truth' },
+      { bookId: 'romans', chapter: 6, description: 'We are dead to sin; shall we continue in sin?' },
+      { bookId: 'romans', chapter: 8, description: 'If by the Spirit you put to death the deeds of the body' },
+      { bookId: 'romans', chapter: 12, description: 'Be transformed by the renewal of your mind' },
+      { bookId: '2-corinthians', chapter: 3, description: 'Being transformed into the same image from glory to glory' },
+      { bookId: '2-corinthians', chapter: 7, description: 'Let us cleanse ourselves from every defilement' },
+      { bookId: 'galatians', chapter: 5, description: 'Walk by the Spirit; the fruit of the Spirit is...' },
+      { bookId: 'ephesians', chapter: 4, description: 'Put off the old self, put on the new self' },
+      { bookId: 'philippians', chapter: 2, description: 'Work out your salvation; God works in you' },
+      { bookId: 'colossians', chapter: 3, description: 'Put to death what is earthly; put on compassion, kindness' },
+      { bookId: '1-thessalonians', chapter: 4, description: 'This is the will of God, your sanctification' },
+      { bookId: '1-thessalonians', chapter: 5, description: 'May the God of peace sanctify you completely' },
+      { bookId: 'hebrews', chapter: 12, description: 'Strive for holiness without which no one will see the Lord' },
+      { bookId: '1-peter', chapter: 1, description: 'Be holy yourselves in all your conduct' },
+    ],
+    relatedDoctrines: ['justification', 'perseverance', 'good-works'],
+  },
+  {
+    id: 'perseverance',
+    name: 'Perseverance of the Saints',
+    shortName: 'Perseverance',
+    category: 'soteriology',
+    definition: 'Those whom God has accepted in Christ, effectually called and sanctified, can neither totally nor finally fall away from the state of grace, but shall certainly persevere to the end.',
+    confessionalReference: 'WCF 17; WSC Q36',
+    wscQuestions: [36],
+    keyPassages: [
+      { bookId: 'psalms', chapter: 37, description: 'The steps of a man are established by the LORD' },
+      { bookId: 'psalms', chapter: 121, description: 'The LORD is your keeper; He who keeps Israel neither slumbers nor sleeps' },
+      { bookId: 'jeremiah', chapter: 32, description: 'I will make an everlasting covenant; I will not turn away' },
+      { bookId: 'matthew', chapter: 24, description: 'False prophets cannot lead astray the elect' },
+      { bookId: 'john', chapter: 6, description: 'I will lose nothing of all He has given Me' },
+      { bookId: 'john', chapter: 10, description: 'No one will snatch them out of My hand' },
+      { bookId: 'john', chapter: 17, description: 'I have kept them; not one of them has been lost' },
+      { bookId: 'romans', chapter: 8, description: 'Nothing can separate us from the love of God in Christ' },
+      { bookId: 'romans', chapter: 11, description: 'The gifts and calling of God are irrevocable' },
+      { bookId: '1-corinthians', chapter: 1, description: 'He will sustain you to the end, guiltless' },
+      { bookId: 'ephesians', chapter: 1, description: 'Sealed with the promised Holy Spirit as a guarantee' },
+      { bookId: 'philippians', chapter: 1, description: 'He who began a good work will bring it to completion' },
+      { bookId: '2-timothy', chapter: 1, description: 'He is able to guard until that Day what has been entrusted' },
+      { bookId: '1-peter', chapter: 1, description: 'Guarded by God\'s power through faith for salvation' },
+      { bookId: '1-john', chapter: 2, description: 'They went out from us; they were not of us' },
+      { bookId: 'jude', chapter: 1, description: 'Now to Him who is able to keep you from stumbling' },
+    ],
+    relatedDoctrines: ['unconditional-election', 'effectual-calling', 'sanctification'],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════
+  // ECCLESIOLOGY - Doctrine of the Church
+  // ═══════════════════════════════════════════════════════════════════
+  {
+    id: 'church-nature',
+    name: 'The Nature of the Church',
+    shortName: 'Church',
+    category: 'ecclesiology',
+    definition: 'The visible church consists of all those who profess the true faith together with their children; the invisible church consists of all the elect throughout all ages.',
+    confessionalReference: 'WCF 25; WSC Q94',
+    wscQuestions: [94],
+    keyPassages: [
+      { bookId: 'matthew', chapter: 16, description: 'On this rock I will build My church' },
+      { bookId: 'matthew', chapter: 18, description: 'Where two or three are gathered, I am among them' },
+      { bookId: 'acts', chapter: 2, description: 'The Lord added to their number those being saved' },
+      { bookId: 'acts', chapter: 20, description: 'Shepherd the church of God, which He obtained with His blood' },
+      { bookId: 'romans', chapter: 12, description: 'We, though many, are one body in Christ' },
+      { bookId: '1-corinthians', chapter: 12, description: 'You are the body of Christ, individually members of it' },
+      { bookId: 'ephesians', chapter: 1, description: 'The church is His body, the fullness of Him who fills all' },
+      { bookId: 'ephesians', chapter: 2, description: 'Built on the apostles and prophets, Christ the cornerstone' },
+      { bookId: 'ephesians', chapter: 4, description: 'One body, one Spirit, one Lord, one faith, one baptism' },
+      { bookId: 'ephesians', chapter: 5, description: 'Christ loved the church and gave Himself for her' },
+      { bookId: 'colossians', chapter: 1, description: 'He is the head of the body, the church' },
+      { bookId: '1-timothy', chapter: 3, description: 'The church of the living God, pillar and buttress of truth' },
+      { bookId: 'hebrews', chapter: 12, description: 'You have come to the assembly of the firstborn enrolled in heaven' },
+      { bookId: '1-peter', chapter: 2, description: 'A chosen race, a royal priesthood, a holy nation' },
+    ],
+    relatedDoctrines: ['covenant', 'sacraments', 'means-of-grace'],
+  },
+  {
+    id: 'sacraments',
+    name: 'The Sacraments',
+    shortName: 'Sacraments',
+    category: 'ecclesiology',
+    definition: 'The sacraments of the New Testament are baptism and the Lord\'s Supper, holy signs and seals of the covenant of grace, instituted by Christ.',
+    confessionalReference: 'WCF 27-29; WSC Q91-97',
+    wscQuestions: [91, 92, 93, 94, 95, 96, 97],
+    keyPassages: [
+      { bookId: 'genesis', chapter: 17, description: 'Circumcision as sign of covenant - OT precedent' },
+      { bookId: 'exodus', chapter: 12, description: 'Passover instituted - OT precedent for Lord\'s Supper' },
+      { bookId: 'matthew', chapter: 26, description: 'This is My body; this is My blood of the covenant' },
+      { bookId: 'matthew', chapter: 28, description: 'Baptizing them in the name of the Father, Son, Holy Spirit' },
+      { bookId: 'mark', chapter: 14, description: 'He took the cup: This is My blood of the covenant' },
+      { bookId: 'acts', chapter: 2, description: 'Repent and be baptized; the promise is to you and your children' },
+      { bookId: 'acts', chapter: 16, description: 'Lydia baptized with her household' },
+      { bookId: 'romans', chapter: 6, description: 'Baptized into Christ Jesus, baptized into His death' },
+      { bookId: '1-corinthians', chapter: 10, description: 'The cup is a participation in the blood of Christ' },
+      { bookId: '1-corinthians', chapter: 11, description: 'Do this in remembrance of Me; proclaiming His death' },
+      { bookId: 'galatians', chapter: 3, description: 'As many as were baptized into Christ have put on Christ' },
+      { bookId: 'colossians', chapter: 2, description: 'Circumcision made without hands; buried with Him in baptism' },
+      { bookId: '1-peter', chapter: 3, description: 'Baptism now saves you - an appeal to God for a good conscience' },
+    ],
+    relatedDoctrines: ['church-nature', 'covenant', 'means-of-grace'],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════
+  // ESCHATOLOGY - Doctrine of Last Things
+  // ═══════════════════════════════════════════════════════════════════
+  {
+    id: 'resurrection',
+    name: 'Resurrection of the Body',
+    shortName: 'Resurrection',
+    category: 'eschatology',
+    definition: 'At the last day, all the dead shall be raised up, both the just and the unjust, with their bodies reunited to their souls.',
+    confessionalReference: 'WCF 32; WSC Q37',
+    wscQuestions: [37],
+    keyPassages: [
+      { bookId: 'job', chapter: 19, description: 'I know that my Redeemer lives; in my flesh I shall see God' },
+      { bookId: 'psalms', chapter: 16, description: 'You will not abandon my soul to Sheol' },
+      { bookId: 'isaiah', chapter: 26, description: 'Your dead shall live; their bodies shall rise' },
+      { bookId: 'daniel', chapter: 12, description: 'Many who sleep in the dust shall awake' },
+      { bookId: 'ezekiel', chapter: 37, description: 'These bones shall live - vision of resurrection' },
+      { bookId: 'john', chapter: 5, description: 'The hour is coming when all in the tombs will hear His voice' },
+      { bookId: 'john', chapter: 6, description: 'I will raise him up on the last day' },
+      { bookId: 'john', chapter: 11, description: 'I am the resurrection and the life' },
+      { bookId: 'acts', chapter: 24, description: 'There will be a resurrection of both the just and unjust' },
+      { bookId: 'romans', chapter: 8, description: 'He who raised Christ will also give life to your mortal bodies' },
+      { bookId: '1-corinthians', chapter: 15, description: 'The resurrection of the dead: sown perishable, raised imperishable' },
+      { bookId: 'philippians', chapter: 3, description: 'He will transform our lowly body to be like His glorious body' },
+      { bookId: '1-thessalonians', chapter: 4, description: 'The dead in Christ will rise first' },
+      { bookId: 'revelation', chapter: 20, description: 'Death and Hades gave up the dead in them' },
+    ],
+    relatedDoctrines: ['final-judgment', 'eternal-life', 'glorification'],
+  },
+  {
+    id: 'final-judgment',
+    name: 'The Final Judgment',
+    shortName: 'Final Judgment',
+    category: 'eschatology',
+    definition: 'God has appointed a day when He will judge the world in righteousness by Jesus Christ, to whom all power and judgment is given of the Father.',
+    confessionalReference: 'WCF 33',
+    keyPassages: [
+      { bookId: 'psalms', chapter: 96, description: 'He is coming to judge the earth with righteousness' },
+      { bookId: 'ecclesiastes', chapter: 12, description: 'God will bring every deed into judgment' },
+      { bookId: 'daniel', chapter: 7, description: 'The court sat in judgment, and the books were opened' },
+      { bookId: 'matthew', chapter: 12, description: 'People will give account for every careless word' },
+      { bookId: 'matthew', chapter: 25, description: 'The Son of Man will separate the sheep from the goats' },
+      { bookId: 'john', chapter: 5, description: 'The Father has given all judgment to the Son' },
+      { bookId: 'acts', chapter: 17, description: 'He has fixed a day to judge the world in righteousness' },
+      { bookId: 'romans', chapter: 2, description: 'God\'s righteous judgment will be revealed' },
+      { bookId: 'romans', chapter: 14, description: 'We will all stand before the judgment seat of God' },
+      { bookId: '2-corinthians', chapter: 5, description: 'We must all appear before the judgment seat of Christ' },
+      { bookId: '2-thessalonians', chapter: 1, description: 'When the Lord Jesus is revealed with His mighty angels' },
+      { bookId: 'hebrews', chapter: 9, description: 'It is appointed for man to die once, and after that judgment' },
+      { bookId: '2-peter', chapter: 3, description: 'The day of the Lord will come like a thief' },
+      { bookId: 'revelation', chapter: 20, description: 'The great white throne judgment; judged by what was written' },
+    ],
+    relatedDoctrines: ['resurrection', 'eternal-life', 'second-coming'],
+  },
+  {
+    id: 'new-creation',
+    name: 'New Heaven and New Earth',
+    shortName: 'New Creation',
+    category: 'eschatology',
+    definition: 'God will create new heavens and a new earth where righteousness dwells, and the redeemed will dwell with God forever in glorified bodies.',
+    confessionalReference: 'WCF 33.2',
+    keyPassages: [
+      { bookId: 'isaiah', chapter: 65, description: 'Behold, I create new heavens and a new earth' },
+      { bookId: 'isaiah', chapter: 66, description: 'The new heavens and new earth that I make shall remain' },
+      { bookId: 'matthew', chapter: 19, description: 'In the regeneration, when the Son of Man sits on His throne' },
+      { bookId: 'acts', chapter: 3, description: 'The restoration of all things' },
+      { bookId: 'romans', chapter: 8, description: 'Creation waits for the revealing of the sons of God' },
+      { bookId: '1-corinthians', chapter: 15, description: 'Then comes the end, when He delivers the kingdom to God' },
+      { bookId: '2-peter', chapter: 3, description: 'New heavens and a new earth where righteousness dwells' },
+      { bookId: 'revelation', chapter: 21, description: 'New heaven and new earth; God will dwell with His people' },
+      { bookId: 'revelation', chapter: 22, description: 'The river of life; the throne of God and the Lamb' },
+    ],
+    relatedDoctrines: ['resurrection', 'final-judgment', 'eternal-life'],
+  },
+];
+
+// Helper functions
+export function getDoctrineById(id: string): Doctrine | undefined {
+  return DOCTRINAL_INDEX.find(d => d.id === id);
+}
+
+export function getDoctrinesByCategory(category: DoctrineCategory): Doctrine[] {
+  return DOCTRINAL_INDEX.filter(d => d.category === category);
+}
+
+export function getRelatedDoctrines(doctrineId: string): Doctrine[] {
+  const doctrine = getDoctrineById(doctrineId);
+  if (!doctrine) return [];
+  return doctrine.relatedDoctrines
+    .map(id => getDoctrineById(id))
+    .filter((d): d is Doctrine => d !== undefined);
+}
+
+// Get all passages for a specific book and chapter
+export function getDoctrinesForChapter(bookId: string, chapter: number): Doctrine[] {
+  return DOCTRINAL_INDEX.filter(d =>
+    d.keyPassages.some(p => p.bookId === bookId && p.chapter === chapter)
+  );
+}

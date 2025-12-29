@@ -1349,6 +1349,20 @@ export default function BibleStudyPage() {
                 </CardContent>
               </Card>
             </Link>
+            <Link href="/bible-study/doctrines">
+              <Card className="cursor-pointer hover:shadow-md transition-all hover:-translate-y-0.5">
+                <CardContent className="p-4 flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-purple-500/10">
+                    <Cross className="h-5 w-5 text-purple-500" />
+                  </div>
+                  <div>
+                    <div className="font-medium">Doctrinal Index</div>
+                    <div className="text-sm text-muted-foreground">Reformed theology in Scripture</div>
+                  </div>
+                  <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
+                </CardContent>
+              </Card>
+            </Link>
             <RandomChapterCard />
           </div>
         </section>
