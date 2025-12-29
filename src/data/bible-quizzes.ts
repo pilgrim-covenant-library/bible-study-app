@@ -11198,6 +11198,34 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Leviticus', 'Numbers', 'Nehemiah'],
     explanation: 'Esther 9:20-32 establishes Purim to celebrate deliverance from Haman.',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // SESSION 269 ADDITIONS - Balancing Underrepresented Books (James, Galatians)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // James (bring to 15)
+  {
+    id: 'jam-018',
+    bookId: 'james',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter warns that "friendship with the world is enmity with God" (4:4)?',
+    correctAnswer: 'James',
+    distractors: ['1 John', '1 Peter', 'Galatians'],
+    explanation: 'James 4:4 challenges believers about divided loyalties between God and worldliness.',
+  },
+
+  // Galatians (bring to 15)
+  {
+    id: 'gal-018',
+    bookId: 'galatians',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'In which letter does Paul describe how he publicly opposed Peter for hypocrisy in Antioch?',
+    correctAnswer: 'Galatians',
+    distractors: ['1 Corinthians', 'Acts', '2 Corinthians'],
+    explanation: 'Galatians 2:11-14 recounts Paul\'s confrontation with Peter over table fellowship with Gentiles.',
+  },
 ];
 
 // Helper functions for quiz functionality
