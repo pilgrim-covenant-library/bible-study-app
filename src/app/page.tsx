@@ -42,7 +42,7 @@ const features = [
   },
   {
     title: 'Church History',
-    description: 'Explore the lives and writings of Augustine, Luther, Calvin, Owen, and Edwards with free resources.',
+    description: 'Explore 21 theologians from Augustine to Machen, spanning Early Church to Modern Reformed with free resources.',
     icon: ScrollText,
     href: '/history',
     color: 'history',
@@ -173,8 +173,8 @@ export default function Home() {
               <div className="text-sm text-muted-foreground">Catechism Q&A</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-history mb-2">5</div>
-              <div className="text-sm text-muted-foreground">Church Fathers</div>
+              <div className="text-3xl font-bold text-history mb-2">21</div>
+              <div className="text-sm text-muted-foreground">Theologians</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-bible mb-2">66</div>
