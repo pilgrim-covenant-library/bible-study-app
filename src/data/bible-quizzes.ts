@@ -7572,6 +7572,252 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Exodus', 'Leviticus', 'Numbers'],
     explanation: 'Deuteronomy 6:4-9 contains Israel\'s foundational confession of monotheism, still recited daily by observant Jews.',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ADDITIONAL QUESTIONS - BRINGING TOTAL TO 700
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // Matthew (additional)
+  {
+    id: 'mat-015',
+    bookId: 'matthew',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel records the parable of the ten virgins and the talents in its eschatological discourse?',
+    correctAnswer: 'Matthew',
+    distractors: ['Mark', 'Luke', 'John'],
+    explanation: 'Matthew 25 contains these parables about watchfulness for Christ\'s return.',
+  },
+  {
+    id: 'mat-016',
+    bookId: 'matthew',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which Gospel records Jesus saying "Come to me, all who labor and are heavy laden, and I will give you rest" (11:28)?',
+    correctAnswer: 'Matthew',
+    distractors: ['Mark', 'Luke', 'John'],
+    explanation: 'Matthew 11:28-30 contains Jesus\' gracious invitation to find rest in Him.',
+  },
+
+  // Luke (additional)
+  {
+    id: 'luk-015',
+    bookId: 'luke',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel contains the parables of the Good Samaritan and the Prodigal Son?',
+    correctAnswer: 'Luke',
+    distractors: ['Matthew', 'Mark', 'John'],
+    explanation: 'Luke\'s unique parables (chapters 10 and 15) emphasize God\'s mercy to outsiders.',
+  },
+  {
+    id: 'luk-016',
+    bookId: 'luke',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which Gospel records Jesus\' encounter with Zacchaeus the tax collector?',
+    correctAnswer: 'Luke',
+    distractors: ['Matthew', 'Mark', 'John'],
+    explanation: 'Luke 19:1-10 uniquely records how Jesus sought and saved Zacchaeus in Jericho.',
+  },
+
+  // John (additional)
+  {
+    id: 'joh-014',
+    bookId: 'john',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which Gospel records the seven "I AM" statements of Jesus?',
+    correctAnswer: 'John',
+    distractors: ['Matthew', 'Mark', 'Luke'],
+    explanation: 'John uniquely records Jesus\' divine self-revelations: I AM the bread, light, door, shepherd, resurrection, way, and vine.',
+  },
+  {
+    id: 'joh-015',
+    bookId: 'john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel records Jesus raising Lazarus from the dead after four days?',
+    correctAnswer: 'John',
+    distractors: ['Matthew', 'Mark', 'Luke'],
+    explanation: 'John 11 records this miracle unique to the Fourth Gospel, demonstrating Jesus as the resurrection and the life.',
+  },
+
+  // Acts (additional)
+  {
+    id: 'act-015',
+    bookId: 'acts',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book records the first church council in Jerusalem that addressed the question of Gentile salvation?',
+    correctAnswer: 'Acts',
+    distractors: ['Galatians', 'Romans', '1 Corinthians'],
+    explanation: 'Acts 15 records the Jerusalem Council that affirmed salvation by grace through faith for Gentiles.',
+  },
+  {
+    id: 'act-016',
+    bookId: 'acts',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records Paul\'s three missionary journeys and his voyage to Rome?',
+    correctAnswer: 'Acts',
+    distractors: ['Romans', 'Galatians', '2 Corinthians'],
+    explanation: 'Acts chapters 13-28 detail Paul\'s missionary travels and final journey to Rome.',
+  },
+
+  // Romans (additional)
+  {
+    id: 'rom-013',
+    bookId: 'romans',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which letter declares "For I am not ashamed of the gospel, for it is the power of God for salvation" (1:16)?',
+    correctAnswer: 'Romans',
+    distractors: ['Galatians', '1 Corinthians', 'Ephesians'],
+    explanation: 'Romans 1:16 states Paul\'s thesis that the gospel is God\'s saving power.',
+  },
+  {
+    id: 'rom-014',
+    bookId: 'romans',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter contains the classic passage on election: "Jacob I loved, but Esau I hated" (9:13)?',
+    correctAnswer: 'Romans',
+    distractors: ['Ephesians', '1 Peter', 'Galatians'],
+    explanation: 'Romans 9 addresses God\'s sovereign choice in election, quoting Malachi 1:2-3.',
+  },
+
+  // 1 Corinthians (additional)
+  {
+    id: '1co-011',
+    bookId: '1-corinthians',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter contains the "love chapter" that describes love as patient, kind, and never-ending?',
+    correctAnswer: '1 Corinthians',
+    distractors: ['Ephesians', 'Colossians', 'Romans'],
+    explanation: '1 Corinthians 13 is the famous chapter on the supremacy and characteristics of love.',
+  },
+  {
+    id: '1co-012',
+    bookId: '1-corinthians',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which letter says "If Christ has not been raised, your faith is futile and you are still in your sins" (15:17)?',
+    correctAnswer: '1 Corinthians',
+    distractors: ['Romans', 'Galatians', '1 Thessalonians'],
+    explanation: '1 Corinthians 15 presents the essential importance of Christ\'s bodily resurrection.',
+  },
+
+  // Galatians (additional)
+  {
+    id: 'gal-007',
+    bookId: 'galatians',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which letter declares "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me" (2:20)?',
+    correctAnswer: 'Galatians',
+    distractors: ['Romans', 'Philippians', 'Colossians'],
+    explanation: 'Galatians 2:20 describes the believer\'s union with Christ in His death and new life.',
+  },
+  {
+    id: 'gal-008',
+    bookId: 'galatians',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter lists the fruit of the Spirit: love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control?',
+    correctAnswer: 'Galatians',
+    distractors: ['Ephesians', 'Colossians', 'Romans'],
+    explanation: 'Galatians 5:22-23 describes the ninefold fruit produced by the Spirit in believers.',
+  },
+
+  // Hebrews (additional)
+  {
+    id: 'heb-013',
+    bookId: 'hebrews',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says "Jesus Christ is the same yesterday and today and forever" (13:8)?',
+    correctAnswer: 'Hebrews',
+    distractors: ['Colossians', 'Revelation', 'John'],
+    explanation: 'Hebrews 13:8 affirms Christ\'s eternal unchanging nature.',
+  },
+  {
+    id: 'heb-014',
+    bookId: 'hebrews',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter contains the "hall of faith" chapter listing Abel, Enoch, Noah, Abraham, and others?',
+    correctAnswer: 'Hebrews',
+    distractors: ['James', 'Romans', '1 Peter'],
+    explanation: 'Hebrews 11 surveys Old Testament examples of faith from Abel to the prophets.',
+  },
+
+  // James (additional)
+  {
+    id: 'jam-006',
+    bookId: 'james',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says "faith without works is dead" (2:26)?',
+    correctAnswer: 'James',
+    distractors: ['Romans', 'Galatians', 'Hebrews'],
+    explanation: 'James 2:14-26 teaches that genuine faith produces visible works.',
+  },
+  {
+    id: 'jam-007',
+    bookId: 'james',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which letter teaches that trials produce steadfastness and that God gives wisdom generously to those who ask?',
+    correctAnswer: 'James',
+    distractors: ['1 Peter', 'Romans', 'Hebrews'],
+    explanation: 'James 1:2-8 encourages believers to rejoice in trials and seek God\'s wisdom.',
+  },
+
+  // 1 Peter (additional)
+  {
+    id: '1pe-006',
+    bookId: '1-peter',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter declares believers are "a chosen race, a royal priesthood, a holy nation" (2:9)?',
+    correctAnswer: '1 Peter',
+    distractors: ['Ephesians', 'Revelation', 'Hebrews'],
+    explanation: '1 Peter 2:9 applies Old Testament Israel\'s titles to the New Testament church.',
+  },
+  {
+    id: '1pe-007',
+    bookId: '1-peter',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter teaches that Christ "bore our sins in his body on the tree" and "by his wounds you have been healed" (2:24)?',
+    correctAnswer: '1 Peter',
+    distractors: ['Hebrews', 'Romans', 'Isaiah'],
+    explanation: '1 Peter 2:24 applies Isaiah 53 to Christ\'s substitutionary atonement.',
+  },
+
+  // Revelation (additional)
+  {
+    id: 'rev-016',
+    bookId: 'revelation',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book declares "Behold, I am making all things new" (21:5)?',
+    correctAnswer: 'Revelation',
+    distractors: ['Isaiah', '2 Corinthians', '2 Peter'],
+    explanation: 'Revelation 21:5 announces God\'s cosmic renewal of heaven and earth.',
+  },
+  {
+    id: 'rev-017',
+    bookId: 'revelation',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book describes the Lamb\'s book of life and the new Jerusalem coming down from heaven?',
+    correctAnswer: 'Revelation',
+    distractors: ['Hebrews', 'Daniel', 'Ezekiel'],
+    explanation: 'Revelation 21-22 portrays the eternal city where God dwells with His people.',
+  },
 ];
 
 // Helper functions for quiz functionality
