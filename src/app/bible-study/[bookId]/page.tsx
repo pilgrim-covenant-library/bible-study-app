@@ -19,6 +19,7 @@ import {
   FileText,
   HelpCircle,
   List,
+  Check,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
@@ -29,6 +30,7 @@ import {
   type CanonicalGroup,
 } from '@/data/bible-summaries';
 import { getChaptersByBook, type ChapterSummary } from '@/data/bible-chapter-summaries';
+import { useReadingProgressStore } from '@/stores/readingProgressStore';
 
 type TabId = 'overview' | 'outline' | 'chapters' | 'themes' | 'christ' | 'study';
 
@@ -42,13 +44,26 @@ const TABS: { id: TabId; label: string; icon: typeof BookOpen }[] = [
 ];
 
 // Chapter card component with expandable content
-function ChapterCard({ chapter, isExpanded, onToggle }: {
+function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   chapter: ChapterSummary;
+  bookId: string;
   isExpanded: boolean;
   onToggle: () => void;
 }) {
+  const { isChapterRead, markChapterRead, markChapterUnread } = useReadingProgressStore();
+  const isRead = isChapterRead(bookId, chapter.chapter);
+
+  const handleReadToggle = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (isRead) {
+      markChapterUnread(bookId, chapter.chapter);
+    } else {
+      markChapterRead(bookId, chapter.chapter);
+    }
+  };
+
   return (
-    <Card className="overflow-hidden">
+    <Card className={`overflow-hidden ${isRead ? 'border-green-500/30 bg-green-50/30 dark:bg-green-900/10' : ''}`}>
       <button
         onClick={onToggle}
         className="w-full text-left"
@@ -56,10 +71,24 @@ function ChapterCard({ chapter, isExpanded, onToggle }: {
         <CardHeader className="pb-2 cursor-pointer hover:bg-muted/50 transition-colors">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-bible/10 text-bible font-semibold text-sm">
-                {chapter.chapter}
-              </span>
-              <CardTitle className="text-base">{chapter.title}</CardTitle>
+              <button
+                onClick={handleReadToggle}
+                className={`flex items-center justify-center w-8 h-8 rounded-full transition-all ${
+                  isRead
+                    ? 'bg-green-500 text-white hover:bg-green-600'
+                    : 'bg-bible/10 text-bible hover:bg-bible/20'
+                }`}
+                title={isRead ? 'Mark as unread' : 'Mark as read'}
+              >
+                {isRead ? (
+                  <Check className="h-4 w-4" />
+                ) : (
+                  <span className="font-semibold text-sm">{chapter.chapter}</span>
+                )}
+              </button>
+              <CardTitle className={`text-base ${isRead ? 'text-muted-foreground' : ''}`}>
+                {chapter.title}
+              </CardTitle>
             </div>
             {isExpanded ? (
               <ChevronUp className="h-4 w-4 text-muted-foreground" />
@@ -111,6 +140,122 @@ function ChapterCard({ chapter, isExpanded, onToggle }: {
         </CardContent>
       )}
     </Card>
+  );
+}
+
+// Chapters Tab Content with progress tracking
+function ChaptersTabContent({
+  bookId,
+  chapterSummaries,
+  expandedChapters,
+  toggleChapter,
+  expandAll,
+  collapseAll,
+}: {
+  bookId: string;
+  chapterSummaries: ChapterSummary[];
+  expandedChapters: Set<number>;
+  toggleChapter: (chapter: number) => void;
+  expandAll: () => void;
+  collapseAll: () => void;
+}) {
+  const { getBookProgress, markChapterRead, markChapterUnread } = useReadingProgressStore();
+  const progress = getBookProgress(bookId, chapterSummaries.length);
+
+  const markAllRead = () => {
+    chapterSummaries.forEach(ch => markChapterRead(bookId, ch.chapter));
+  };
+
+  const markAllUnread = () => {
+    chapterSummaries.forEach(ch => markChapterUnread(bookId, ch.chapter));
+  };
+
+  return (
+    <div className="space-y-4">
+      {/* Progress Card */}
+      <Card className="bg-gradient-to-r from-bible/5 to-green-500/5 border-bible/20">
+        <CardContent className="p-4">
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center gap-2">
+              <BookOpen className="h-5 w-5 text-bible" />
+              <span className="font-medium">Reading Progress</span>
+            </div>
+            <span className="text-sm font-semibold text-bible">
+              {progress.read} / {progress.total} chapters
+            </span>
+          </div>
+          <div className="relative h-3 bg-muted rounded-full overflow-hidden mb-3">
+            <div
+              className="absolute inset-y-0 left-0 bg-gradient-to-r from-bible to-green-500 rounded-full transition-all duration-500"
+              style={{ width: `${progress.percentage}%` }}
+            />
+          </div>
+          <div className="flex items-center justify-between text-sm">
+            <span className="text-muted-foreground">
+              {progress.percentage === 100
+                ? 'Complete!'
+                : progress.percentage > 0
+                ? `${progress.percentage}% complete`
+                : 'Not started'}
+            </span>
+            <div className="flex gap-2">
+              {progress.read < progress.total && (
+                <Button variant="outline" size="sm" onClick={markAllRead}>
+                  Mark All Read
+                </Button>
+              )}
+              {progress.read > 0 && (
+                <Button variant="ghost" size="sm" onClick={markAllUnread}>
+                  Reset
+                </Button>
+              )}
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <div className="flex items-center justify-between mb-4">
+        <h2 className="text-lg font-semibold">
+          Chapter Summaries
+          <span className="ml-2 text-sm font-normal text-muted-foreground">
+            ({chapterSummaries.length} chapters)
+          </span>
+        </h2>
+        <div className="flex gap-2">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={expandAll}
+            disabled={expandedChapters.size === chapterSummaries.length}
+          >
+            Expand All
+          </Button>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={collapseAll}
+            disabled={expandedChapters.size === 0}
+          >
+            Collapse All
+          </Button>
+        </div>
+      </div>
+      <p className="text-sm text-muted-foreground mb-6">
+        Reformed commentary insights from Matthew Henry, John Calvin, Matthew Poole, and Jean Ostervald.
+        Click the chapter number to mark as read. Each summary highlights key themes and shows how the chapter points to Christ.
+      </p>
+      <div className="space-y-3">
+        {chapterSummaries.map((chapter) => (
+          <ChapterCard
+            key={chapter.chapter}
+            chapter={chapter}
+            bookId={bookId}
+            isExpanded={expandedChapters.has(chapter.chapter)}
+            onToggle={() => toggleChapter(chapter.chapter)}
+          />
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -344,48 +489,14 @@ export default function BookDetailPage() {
 
         {/* Chapters Tab */}
         {activeTab === 'chapters' && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-lg font-semibold">
-                Chapter Summaries
-                <span className="ml-2 text-sm font-normal text-muted-foreground">
-                  ({chapterSummaries.length} chapters)
-                </span>
-              </h2>
-              <div className="flex gap-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={expandAll}
-                  disabled={expandedChapters.size === chapterSummaries.length}
-                >
-                  Expand All
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={collapseAll}
-                  disabled={expandedChapters.size === 0}
-                >
-                  Collapse All
-                </Button>
-              </div>
-            </div>
-            <p className="text-sm text-muted-foreground mb-6">
-              Reformed commentary insights from Matthew Henry, John Calvin, Matthew Poole, and Jean Ostervald.
-              Each summary highlights key themes and shows how the chapter points to Christ.
-            </p>
-            <div className="space-y-3">
-              {chapterSummaries.map((chapter) => (
-                <ChapterCard
-                  key={chapter.chapter}
-                  chapter={chapter}
-                  isExpanded={expandedChapters.has(chapter.chapter)}
-                  onToggle={() => toggleChapter(chapter.chapter)}
-                />
-              ))}
-            </div>
-          </div>
+          <ChaptersTabContent
+            bookId={bookId}
+            chapterSummaries={chapterSummaries}
+            expandedChapters={expandedChapters}
+            toggleChapter={toggleChapter}
+            expandAll={expandAll}
+            collapseAll={collapseAll}
+          />
         )}
 
         {/* Themes Tab */}

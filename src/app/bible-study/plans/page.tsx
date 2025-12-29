@@ -6,20 +6,21 @@ import {
   ArrowLeft,
   Calendar,
   BookOpen,
-  Clock,
-  ChevronRight,
   Target,
-  Zap,
   BookMarked,
   Check,
   Lightbulb,
   Cross,
+  Play,
+  RotateCcw,
+  Trophy,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent, CardDescription } from '@/components/ui/Card';
 import { READING_PLANS, type ReadingPlan } from '@/data/reading-plans';
 import { BIBLE_BOOK_SUMMARIES } from '@/data/bible-summaries';
 import { getChaptersByBook, type ChapterSummary } from '@/data/bible-chapter-summaries';
+import { useReadingProgressStore } from '@/stores/readingProgressStore';
 
 type DifficultyFilter = 'all' | 'easy' | 'medium' | 'intensive';
 type CategoryFilter = 'all' | 'chronological' | 'thematic' | 'canonical' | 'overview';
@@ -53,8 +54,45 @@ function getCategoryBadge(category: string) {
 
 // Plan preview component
 function PlanPreview({ plan, onClose }: { plan: ReadingPlan; onClose: () => void }) {
-  const [previewDay, setPreviewDay] = useState(1);
+  const {
+    getPlanProgress,
+    startPlan,
+    markPlanDayComplete,
+    markPlanDayIncomplete,
+    isPlanDayComplete,
+    getPlanPercentage,
+    resetPlan
+  } = useReadingProgressStore();
+
+  const planProgress = getPlanProgress(plan.id);
+  const [previewDay, setPreviewDay] = useState(planProgress?.currentDay || 1);
   const dayReadings = plan.getDayReadings(previewDay);
+  const isDayComplete = isPlanDayComplete(plan.id, previewDay);
+  const progressPercentage = getPlanPercentage(plan.id, plan.durationDays);
+
+  const handleMarkComplete = () => {
+    if (isDayComplete) {
+      markPlanDayIncomplete(plan.id, previewDay);
+    } else {
+      markPlanDayComplete(plan.id, previewDay);
+      // Auto-advance to next day
+      if (previewDay < plan.durationDays) {
+        setPreviewDay(previewDay + 1);
+      }
+    }
+  };
+
+  const handleStartPlan = () => {
+    startPlan(plan.id);
+    setPreviewDay(1);
+  };
+
+  const handleResetPlan = () => {
+    if (confirm('Are you sure you want to reset your progress for this plan?')) {
+      resetPlan(plan.id);
+      setPreviewDay(1);
+    }
+  };
 
   // Get chapter summaries for the readings
   const chapterDetails = useMemo(() => {
@@ -91,6 +129,53 @@ function PlanPreview({ plan, onClose }: { plan: ReadingPlan; onClose: () => void
           </div>
         </CardHeader>
         <CardContent className="p-6 overflow-y-auto flex-1">
+          {/* Progress Bar */}
+          {planProgress && (
+            <div className="mb-6 p-4 bg-gradient-to-r from-bible/5 to-green-500/5 rounded-lg border border-bible/20">
+              <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center gap-2">
+                  {progressPercentage === 100 ? (
+                    <Trophy className="h-5 w-5 text-yellow-500" />
+                  ) : (
+                    <Target className="h-5 w-5 text-bible" />
+                  )}
+                  <span className="font-medium">
+                    {progressPercentage === 100 ? 'Plan Complete!' : 'Your Progress'}
+                  </span>
+                </div>
+                <span className="text-sm font-semibold text-bible">
+                  {planProgress.completedDays.length} / {plan.durationDays} days
+                </span>
+              </div>
+              <div className="relative h-2 bg-muted rounded-full overflow-hidden mb-2">
+                <div
+                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-bible to-green-500 rounded-full transition-all duration-500"
+                  style={{ width: `${progressPercentage}%` }}
+                />
+              </div>
+              <div className="flex items-center justify-between text-xs text-muted-foreground">
+                <span>{progressPercentage}% complete</span>
+                <Button variant="ghost" size="sm" onClick={handleResetPlan} className="h-6 text-xs">
+                  <RotateCcw className="h-3 w-3 mr-1" />
+                  Reset
+                </Button>
+              </div>
+            </div>
+          )}
+
+          {/* Start Plan Button (if not started) */}
+          {!planProgress && (
+            <div className="mb-6 p-4 bg-muted/50 rounded-lg text-center">
+              <p className="text-sm text-muted-foreground mb-3">
+                Start this plan to track your daily progress
+              </p>
+              <Button variant="bible" onClick={handleStartPlan}>
+                <Play className="h-4 w-4 mr-2" />
+                Start Plan
+              </Button>
+            </div>
+          )}
+
           {/* Day Navigator */}
           <div className="flex items-center justify-between mb-6">
             <Button
@@ -102,7 +187,10 @@ function PlanPreview({ plan, onClose }: { plan: ReadingPlan; onClose: () => void
               Previous Day
             </Button>
             <div className="text-center">
-              <div className="text-lg font-semibold">Day {previewDay}</div>
+              <div className="flex items-center gap-2 justify-center">
+                {isDayComplete && <Check className="h-4 w-4 text-green-500" />}
+                <span className="text-lg font-semibold">Day {previewDay}</span>
+              </div>
               <div className="text-sm text-muted-foreground">of {plan.durationDays}</div>
             </div>
             <Button
@@ -173,6 +261,27 @@ function PlanPreview({ plan, onClose }: { plan: ReadingPlan; onClose: () => void
                   </Card>
                 ))}
               </div>
+
+              {/* Mark Day Complete Button */}
+              <div className="pt-4">
+                <Button
+                  variant={isDayComplete ? 'outline' : 'bible'}
+                  className="w-full"
+                  onClick={handleMarkComplete}
+                >
+                  {isDayComplete ? (
+                    <>
+                      <Check className="h-4 w-4 mr-2 text-green-500" />
+                      Day Completed - Click to Undo
+                    </>
+                  ) : (
+                    <>
+                      <Check className="h-4 w-4 mr-2" />
+                      Mark Day {previewDay} Complete
+                    </>
+                  )}
+                </Button>
+              </div>
             </div>
           )}
 
@@ -200,11 +309,14 @@ function PlanPreview({ plan, onClose }: { plan: ReadingPlan; onClose: () => void
 
 // Plan card component
 function PlanCard({ plan, onPreview }: { plan: ReadingPlan; onPreview: () => void }) {
+  const { getPlanProgress, getPlanPercentage } = useReadingProgressStore();
+  const progress = getPlanProgress(plan.id);
+  const percentage = getPlanPercentage(plan.id, plan.durationDays);
   const difficultyBadge = getDifficultyBadge(plan.difficulty);
   const categoryBadge = getCategoryBadge(plan.category);
 
   return (
-    <Card className="h-full hover:shadow-md transition-all">
+    <Card className={`h-full hover:shadow-md transition-all ${progress ? 'border-bible/30' : ''}`}>
       <CardHeader>
         <div className="flex items-start justify-between gap-2 mb-2">
           <div className="flex gap-1.5">
@@ -234,15 +346,47 @@ function PlanCard({ plan, onPreview }: { plan: ReadingPlan; onPreview: () => voi
           </div>
         </div>
 
-        {/* Features */}
-        <div className="space-y-1.5">
-          {plan.features.slice(0, 3).map((feature, idx) => (
-            <div key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
-              <Check className="h-3.5 w-3.5 text-green-500 shrink-0" />
-              <span>{feature}</span>
+        {/* Progress indicator (if started) */}
+        {progress && (
+          <div className="p-2 bg-bible/5 rounded-lg">
+            <div className="flex items-center justify-between mb-1.5 text-xs">
+              <span className="flex items-center gap-1.5 font-medium">
+                {percentage === 100 ? (
+                  <>
+                    <Trophy className="h-3.5 w-3.5 text-yellow-500" />
+                    Complete!
+                  </>
+                ) : (
+                  <>
+                    <Target className="h-3.5 w-3.5 text-bible" />
+                    In Progress
+                  </>
+                )}
+              </span>
+              <span className="text-muted-foreground">
+                Day {progress.currentDay} of {plan.durationDays}
+              </span>
             </div>
-          ))}
-        </div>
+            <div className="relative h-1.5 bg-muted rounded-full overflow-hidden">
+              <div
+                className="absolute inset-y-0 left-0 bg-gradient-to-r from-bible to-green-500 rounded-full"
+                style={{ width: `${percentage}%` }}
+              />
+            </div>
+          </div>
+        )}
+
+        {/* Features (only show if no progress) */}
+        {!progress && (
+          <div className="space-y-1.5">
+            {plan.features.slice(0, 3).map((feature, idx) => (
+              <div key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Check className="h-3.5 w-3.5 text-green-500 shrink-0" />
+                <span>{feature}</span>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Action Buttons */}
         <div className="flex gap-2 pt-2">
@@ -252,8 +396,17 @@ function PlanCard({ plan, onPreview }: { plan: ReadingPlan; onPreview: () => voi
             className="flex-1 gap-1"
             onClick={onPreview}
           >
-            <BookOpen className="h-4 w-4" />
-            Preview Plan
+            {progress ? (
+              <>
+                <Play className="h-4 w-4" />
+                Continue
+              </>
+            ) : (
+              <>
+                <BookOpen className="h-4 w-4" />
+                Preview Plan
+              </>
+            )}
           </Button>
         </div>
       </CardContent>
