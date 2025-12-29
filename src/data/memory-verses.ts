@@ -12071,6 +12071,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: '1-thessalonians-1-5',
+    reference: '1 Thessalonians 1:5',
+    book: '1 Thessalonians',
+    chapter: 1,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'because our gospel came to you not only in word, but also in power and in the Holy Spirit and with full conviction. You know what kind of men we proved to be among you for your sake.',
+      NIV: 'because our gospel came to you not simply with words but also with power, with the Holy Spirit and deep conviction. You know how we lived among you for your sake.',
+      KJV: 'For our gospel came not unto you in word only, but also in power, and in the Holy Ghost, and in much assurance; as ye know what manner of men we were among you for your sake.',
+      NASB: 'for our gospel did not come to you in word only, but also in power and in the Holy Spirit and with full conviction; just as you know what kind of men we proved to be among you for your sake.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 1:4',
+        text: 'For we know, brothers loved by God, that he has chosen you.',
+      },
+      after: {
+        reference: '1 Thessalonians 1:6',
+        text: 'And you became imitators of us and of the Lord, for you received the word in much affliction, with the joy of the Holy Spirit.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-3-12-13',
+    reference: '1 Thessalonians 3:12-13',
+    book: '1 Thessalonians',
+    chapter: 3,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'and may the Lord make you increase and abound in love for one another and for all, as we do for you, so that he may establish your hearts blameless in holiness before our God and Father, at the coming of our Lord Jesus with all his saints.',
+      NIV: 'May the Lord make your love increase and overflow for each other and for everyone else, just as ours does for you. May he strengthen your hearts so that you will be blameless and holy in the presence of our God and Father when our Lord Jesus comes with all his holy ones.',
+      KJV: 'And the Lord make you to increase and abound in love one toward another, and toward all men, even as we do toward you: To the end he may stablish your hearts unblameable in holiness before God, even our Father, at the coming of our Lord Jesus Christ with all his saints.',
+      NASB: 'and may the Lord cause you to increase and abound in love for one another, and for all people, just as we also do for you; so that He may establish your hearts without blame in holiness before our God and Father at the coming of our Lord Jesus with all His saints.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 3:11',
+        text: 'Now may our God and Father himself, and our Lord Jesus, direct our way to you.',
+      },
+      after: {
+        reference: '1 Thessalonians 4:1',
+        text: 'Finally, then, brothers, we ask and urge you in the Lord Jesus, that as you received from us how you ought to walk and to please God, just as you are doing, that you do so more and more.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-4-7',
+    reference: '1 Thessalonians 4:7',
+    book: '1 Thessalonians',
+    chapter: 4,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For God has not called us for impurity, but in holiness.',
+      NIV: 'For God did not call us to be impure, but to live a holy life.',
+      KJV: 'For God hath not called us unto uncleanness, but unto holiness.',
+      NASB: 'For God has not called us for the purpose of impurity, but in sanctification.',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 4:6',
+        text: 'that no one transgress and wrong his brother in this matter, because the Lord is an avenger in all these things, as we told you beforehand and solemnly warned you.',
+      },
+      after: {
+        reference: '1 Thessalonians 4:8',
+        text: 'Therefore whoever disregards this, disregards not man but God, who gives his Holy Spirit to you.',
+      },
+    },
+  },
+  {
+    id: '1-thessalonians-5-9',
+    reference: '1 Thessalonians 5:9',
+    book: '1 Thessalonians',
+    chapter: 5,
+    verse: 9,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ,',
+      NIV: 'For God did not appoint us to suffer wrath but to receive salvation through our Lord Jesus Christ.',
+      KJV: 'For God hath not appointed us to wrath, but to obtain salvation by our Lord Jesus Christ,',
+      NASB: 'For God has not destined us for wrath, but for obtaining salvation through our Lord Jesus Christ,',
+    },
+    context: {
+      before: {
+        reference: '1 Thessalonians 5:8',
+        text: 'But since we belong to the day, let us be sober, having put on the breastplate of faith and love, and for a helmet the hope of salvation.',
+      },
+      after: {
+        reference: '1 Thessalonians 5:10',
+        text: 'who died for us so that whether we are awake or asleep we might live with him.',
+      },
+    },
+  },
+
   // ============ 2 THESSALONIANS ============
   {
     id: '2-thessalonians-3-3',
@@ -12261,6 +12358,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Thessalonians 2:16',
         text: 'Now may our Lord Jesus Christ himself, and God our Father, who loved us and gave us eternal comfort and good hope through grace.',
+      },
+    },
+  },
+
+  {
+    id: '2-thessalonians-1-3',
+    reference: '2 Thessalonians 1:3',
+    book: '2 Thessalonians',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'We ought always to give thanks to God for you, brothers, as is right, because your faith is growing abundantly, and the love of every one of you for one another is increasing.',
+      NIV: 'We ought always to thank God for you, brothers and sisters, and rightly so, because your faith is growing more and more, and the love all of you have for one another is increasing.',
+      KJV: 'We are bound to thank God always for you, brethren, as it is meet, because that your faith groweth exceedingly, and the charity of every one of you all toward each other aboundeth;',
+      NASB: 'We ought always to give thanks to God for you, brethren, as is only fitting, because your faith is greatly enlarged, and the love of each one of you toward one another grows ever greater;',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 1:2',
+        text: 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
+      },
+      after: {
+        reference: '2 Thessalonians 1:4',
+        text: 'Therefore we ourselves boast about you in the churches of God for your steadfastness and faith in all your persecutions and in the afflictions that you are enduring.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-2-1-2',
+    reference: '2 Thessalonians 2:1-2',
+    book: '2 Thessalonians',
+    chapter: 2,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Now concerning the coming of our Lord Jesus Christ and our being gathered together to him, we ask you, brothers, not to be quickly shaken in mind or alarmed, either by a spirit or a spoken word, or a letter seeming to be from us, to the effect that the day of the Lord has come.',
+      NIV: 'Concerning the coming of our Lord Jesus Christ and our being gathered to him, we ask you, brothers and sisters, not to become easily unsettled or alarmed by the teaching allegedly from us—whether by a prophecy or by word of mouth or by letter—asserting that the day of the Lord has already come.',
+      KJV: 'Now we beseech you, brethren, by the coming of our Lord Jesus Christ, and by our gathering together unto him, That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand.',
+      NASB: 'Now we request you, brethren, with regard to the coming of our Lord Jesus Christ and our gathering together to Him, that you not be quickly shaken from your composure or be disturbed either by a spirit or a message or a letter as if from us, to the effect that the day of the Lord has come.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 1:12',
+        text: 'so that the name of our Lord Jesus may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.',
+      },
+      after: {
+        reference: '2 Thessalonians 2:3',
+        text: 'Let no one deceive you in any way. For that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-3-13',
+    reference: '2 Thessalonians 3:13',
+    book: '2 Thessalonians',
+    chapter: 3,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'As for you, brothers, do not grow weary in doing good.',
+      NIV: 'And as for you, brothers and sisters, never tire of doing what is good.',
+      KJV: 'But ye, brethren, be not weary in well doing.',
+      NASB: 'But as for you, brethren, do not grow weary of doing good.',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 3:12',
+        text: 'Now such persons we command and encourage in the Lord Jesus Christ to do their work quietly and to earn their own living.',
+      },
+      after: {
+        reference: '2 Thessalonians 3:14',
+        text: 'If anyone does not obey what we say in this letter, take note of that person, and have nothing to do with him, that he may be ashamed.',
+      },
+    },
+  },
+  {
+    id: '2-thessalonians-3-16',
+    reference: '2 Thessalonians 3:16',
+    book: '2 Thessalonians',
+    chapter: 3,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Now may the Lord of peace himself give you peace at all times in every way. The Lord be with you all.',
+      NIV: 'Now may the Lord of peace himself give you peace at all times and in every situation. The Lord be with all of you.',
+      KJV: 'Now the Lord of peace himself give you peace always by all means. The Lord be with you all.',
+      NASB: 'Now may the Lord of peace Himself continually grant you peace in every circumstance. The Lord be with you all!',
+    },
+    context: {
+      before: {
+        reference: '2 Thessalonians 3:15',
+        text: 'Do not regard him as an enemy, but warn him as a brother.',
+      },
+      after: {
+        reference: '2 Thessalonians 3:17',
+        text: 'I, Paul, write this greeting with my own hand. This is the sign of genuineness in every letter of mine; it is the way I write.',
       },
     },
   },
@@ -12459,6 +12653,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: '1-timothy-1-17',
+    reference: '1 Timothy 1:17',
+    book: '1 Timothy',
+    chapter: 1,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'To the King of the ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen.',
+      NIV: 'Now to the King eternal, immortal, invisible, the only God, be honor and glory for ever and ever. Amen.',
+      KJV: 'Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.',
+      NASB: 'Now to the King eternal, immortal, invisible, the only God, be honor and glory forever and ever. Amen.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 1:16',
+        text: 'But I received mercy for this reason, that in me, as the foremost, Jesus Christ might display his perfect patience as an example to those who were to believe in him for eternal life.',
+      },
+      after: {
+        reference: '1 Timothy 1:18',
+        text: 'This charge I entrust to you, Timothy, my child, in accordance with the prophecies previously made about you, that by them you may wage the good warfare.',
+      },
+    },
+  },
+  {
+    id: '1-timothy-2-1-2',
+    reference: '1 Timothy 2:1-2',
+    book: '1 Timothy',
+    chapter: 2,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'First of all, then, I urge that supplications, prayers, intercessions, and thanksgivings be made for all people, for kings and all who are in high positions, that we may lead a peaceful and quiet life, godly and dignified in every way.',
+      NIV: 'I urge, then, first of all, that petitions, prayers, intercession and thanksgiving be made for all people— for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.',
+      KJV: 'I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty.',
+      NASB: 'First of all, then, I urge that entreaties and prayers, petitions and thanksgivings, be made on behalf of all men, for kings and all who are in authority, so that we may lead a tranquil and quiet life in all godliness and dignity.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 1:20',
+        text: 'among whom are Hymenaeus and Alexander, whom I have handed over to Satan that they may learn not to blaspheme.',
+      },
+      after: {
+        reference: '1 Timothy 2:3',
+        text: 'This is good, and it is pleasing in the sight of God our Savior,',
+      },
+    },
+  },
+  {
+    id: '1-timothy-6-11',
+    reference: '1 Timothy 6:11',
+    book: '1 Timothy',
+    chapter: 6,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But as for you, O man of God, flee these things. Pursue righteousness, godliness, faith, love, steadfastness, gentleness.',
+      NIV: 'But you, man of God, flee from all this, and pursue righteousness, godliness, faith, love, endurance and gentleness.',
+      KJV: 'But thou, O man of God, flee these things; and follow after righteousness, godliness, faith, love, patience, meekness.',
+      NASB: 'But flee from these things, you man of God, and pursue righteousness, godliness, faith, love, perseverance and gentleness.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 6:10',
+        text: 'For the love of money is a root of all kinds of evils. It is through this craving that some have wandered away from the faith and pierced themselves with many pangs.',
+      },
+      after: {
+        reference: '1 Timothy 6:12',
+        text: 'Fight the good fight of the faith. Take hold of the eternal life to which you were called and about which you made the good confession in the presence of many witnesses.',
+      },
+    },
+  },
+  {
+    id: '1-timothy-4-16',
+    reference: '1 Timothy 4:16',
+    book: '1 Timothy',
+    chapter: 4,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Keep a close watch on yourself and on the teaching. Persist in this, for by so doing you will save both yourself and your hearers.',
+      NIV: 'Watch your life and doctrine closely. Persevere in them, because if you do, you will save both yourself and your hearers.',
+      KJV: 'Take heed unto thyself, and unto the doctrine; continue in them: for in doing this thou shalt both save thyself, and them that hear thee.',
+      NASB: 'Pay close attention to yourself and to your teaching; persevere in these things, for as you do this you will ensure salvation both for yourself and for those who hear you.',
+    },
+    context: {
+      before: {
+        reference: '1 Timothy 4:15',
+        text: 'Practice these things, immerse yourself in them, so that all may see your progress.',
+      },
+      after: {
+        reference: '1 Timothy 5:1',
+        text: 'Do not rebuke an older man but encourage him as you would a father, younger men as brothers.',
+      },
+    },
+  },
+
   // ============ 2 TIMOTHY ============
   {
     id: '2-timothy-1-7',
@@ -12653,6 +12944,103 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: '2-timothy-1-12',
+    reference: '2 Timothy 1:12',
+    book: '2 Timothy',
+    chapter: 1,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'which is why I suffer as I do. But I am not ashamed, for I know whom I have believed, and I am convinced that he is able to guard until that day what has been entrusted to me.',
+      NIV: 'That is why I am suffering as I am. Yet this is no cause for shame, because I know whom I have believed, and am convinced that he is able to guard what I have entrusted to him until that day.',
+      KJV: 'For the which cause I also suffer these things: nevertheless I am not ashamed: for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day.',
+      NASB: 'For this reason I also suffer these things, but I am not ashamed; for I know whom I have believed and I am convinced that He is able to guard what I have entrusted to Him until that day.',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 1:11',
+        text: 'for which I was appointed a preacher and apostle and teacher.',
+      },
+      after: {
+        reference: '2 Timothy 1:13',
+        text: 'Follow the pattern of the sound words that you have heard from me, in the faith and love that are in Christ Jesus.',
+      },
+    },
+  },
+  {
+    id: '2-timothy-2-11-12',
+    reference: '2 Timothy 2:11-12',
+    book: '2 Timothy',
+    chapter: 2,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The saying is trustworthy, for: If we have died with him, we will also live with him; if we endure, we will also reign with him; if we deny him, he also will deny us;',
+      NIV: 'Here is a trustworthy saying: If we died with him, we will also live with him; if we endure, we will also reign with him. If we disown him, he will also disown us;',
+      KJV: 'It is a faithful saying: For if we be dead with him, we shall also live with him: If we suffer, we shall also reign with him: if we deny him, he also will deny us:',
+      NASB: 'It is a trustworthy statement: For if we died with Him, we will also live with Him; If we endure, we will also reign with Him; If we deny Him, He also will deny us;',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 2:10',
+        text: 'Therefore I endure everything for the sake of the elect, that they also may obtain the salvation that is in Christ Jesus with eternal glory.',
+      },
+      after: {
+        reference: '2 Timothy 2:13',
+        text: 'if we are faithless, he remains faithful—for he cannot deny himself.',
+      },
+    },
+  },
+  {
+    id: '2-timothy-4-8',
+    reference: '2 Timothy 4:8',
+    book: '2 Timothy',
+    chapter: 4,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Henceforth there is laid up for me the crown of righteousness, which the Lord, the righteous judge, will award to me on that day, and not only to me but also to all who have loved his appearing.',
+      NIV: 'Now there is in store for me the crown of righteousness, which the Lord, the righteous Judge, will award to me on that day—and not only to me, but also to all who have longed for his appearing.',
+      KJV: 'Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing.',
+      NASB: 'in the future there is laid up for me the crown of righteousness, which the Lord, the righteous Judge, will award to me on that day; and not only to me, but also to all who have loved His appearing.',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 4:7',
+        text: 'I have fought the good fight, I have finished the race, I have kept the faith.',
+      },
+      after: {
+        reference: '2 Timothy 4:9',
+        text: 'Do your best to come to me soon.',
+      },
+    },
+  },
+  {
+    id: '2-timothy-3-12',
+    reference: '2 Timothy 3:12',
+    book: '2 Timothy',
+    chapter: 3,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Indeed, all who desire to live a godly life in Christ Jesus will be persecuted,',
+      NIV: 'In fact, everyone who wants to live a godly life in Christ Jesus will be persecuted,',
+      KJV: 'Yea, and all that will live godly in Christ Jesus shall suffer persecution.',
+      NASB: 'Indeed, all who desire to live godly in Christ Jesus will be persecuted.',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 3:11',
+        text: 'my persecutions and sufferings that happened to me at Antioch, at Iconium, and at Lystra—which persecutions I endured; yet from them all the Lord rescued me.',
+      },
+      after: {
+        reference: '2 Timothy 3:13',
+        text: 'while evil people and impostors will go on from bad to worse, deceiving and being deceived.',
+      },
+    },
+  },
+
   // ============ TITUS ============
   {
     id: 'titus-3-5',
@@ -12843,6 +13231,55 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Titus 2:2',
         text: 'Older men are to be sober-minded, dignified, self-controlled, sound in faith, in love, and in steadfastness.',
+      },
+    },
+  },
+
+  {
+    id: 'titus-3-3',
+    reference: 'Titus 3:3',
+    book: 'Titus',
+    chapter: 3,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For we ourselves were once foolish, disobedient, led astray, slaves to various passions and pleasures, passing our days in malice and envy, hated by others and hating one another.',
+      NIV: 'At one time we too were foolish, disobedient, deceived and enslaved by all kinds of passions and pleasures. We lived in malice and envy, being hated and hating one another.',
+      KJV: 'For we ourselves also were sometimes foolish, disobedient, deceived, serving divers lusts and pleasures, living in malice and envy, hateful, and hating one another.',
+      NASB: 'For we also once were foolish ourselves, disobedient, deceived, enslaved to various lusts and pleasures, spending our life in malice and envy, hateful, hating one another.',
+    },
+    context: {
+      before: {
+        reference: 'Titus 3:2',
+        text: 'to speak evil of no one, to avoid quarreling, to be gentle, and to show perfect courtesy toward all people.',
+      },
+      after: {
+        reference: 'Titus 3:4',
+        text: 'But when the goodness and loving kindness of God our Savior appeared,',
+      },
+    },
+  },
+  {
+    id: 'titus-1-15',
+    reference: 'Titus 1:15',
+    book: 'Titus',
+    chapter: 1,
+    verse: 15,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'To the pure, all things are pure, but to the defiled and unbelieving, nothing is pure; but both their minds and their consciences are defiled.',
+      NIV: 'To the pure, all things are pure, but to those who are corrupted and do not believe, nothing is pure. In fact, both their minds and consciences are corrupted.',
+      KJV: 'Unto the pure all things are pure: but unto them that are defiled and unbelieving is nothing pure; but even their mind and conscience is defiled.',
+      NASB: 'To the pure, all things are pure; but to those who are defiled and unbelieving, nothing is pure, but both their mind and their conscience are defiled.',
+    },
+    context: {
+      before: {
+        reference: 'Titus 1:14',
+        text: 'not devoting themselves to Jewish myths and the commands of people who turn away from the truth.',
+      },
+      after: {
+        reference: 'Titus 1:16',
+        text: 'They profess to know God, but they deny him by their works. They are detestable, disobedient, unfit for any good work.',
       },
     },
   },
