@@ -9252,6 +9252,117 @@ export const PHILEMON_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// HEBREWS (13 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const HEBREWS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'hebrews',
+    chapter: 1,
+    title: 'The Supremacy of the Son',
+    summary: 'God, who spoke in many ways through the prophets in former times, has now spoken finally and fully through His Son. This Son is the radiance of God\'s glory and the exact imprint of His nature, upholding all things by the word of His power. Having made purification for sins, He sat down at the right hand of the Majesty on high. The author demonstrates Christ\'s superiority to angels through a chain of Old Testament quotations. To the Son God says, "Your throne, O God, is forever and ever," and "You, Lord, laid the foundation of the earth." While angels are ministering spirits sent to serve those who will inherit salvation, the Son is worshiped by the angels and reigns eternally at God\'s right hand.',
+    keyThemes: ['Christ as God\'s final Word', 'The Son\'s divine nature', 'Superiority over angels', 'Session at God\'s right hand'],
+    christConnection: 'Christ is revealed as the ultimate Prophet through whom God speaks, the eternal Son who is the radiance of divine glory, and the enthroned King at the Father\'s right hand—Prophet, Priest, and King united in one Person.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 2,
+    title: 'The Incarnation of the Son',
+    summary: 'Because of Christ\'s supreme dignity, we must pay closer attention to what we have heard lest we drift away. The message spoken by angels was binding, so how shall we escape if we neglect so great a salvation? This salvation was declared by the Lord, confirmed by those who heard Him, and attested by God with signs and wonders. Yet it was not to angels that God subjected the world to come, but to man—and specifically to Christ, who was made for a little while lower than the angels through His incarnation. Jesus tasted death for everyone, and through death destroyed the one who has the power of death, delivering those who through fear of death were subject to lifelong slavery. He became like His brothers in every way to become a merciful and faithful high priest, able to help those who are tempted.',
+    keyThemes: ['Warning against neglect', 'Christ\'s humiliation', 'Solidarity with humanity', 'Victory over death and the devil'],
+    christConnection: 'Christ\'s incarnation was necessary for our salvation. By becoming truly human while remaining truly God, He could represent us, die in our place, destroy Satan\'s power, and sympathetically help us in temptation.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 3,
+    title: 'Jesus Greater Than Moses',
+    summary: 'Holy brothers who share in a heavenly calling should consider Jesus, the apostle and high priest of our confession. He was faithful to the One who appointed Him, just as Moses was faithful in all God\'s house. Yet Jesus is counted worthy of more glory than Moses, as the builder of a house has more honor than the house itself. Moses was faithful as a servant in God\'s house, testifying to what would be spoken later, but Christ is faithful as a Son over God\'s house—and we are His house if we hold fast our confidence. Therefore, as the Holy Spirit says, "Today, if you hear His voice, do not harden your hearts as in the rebellion." The wilderness generation failed to enter God\'s rest because of unbelief. Take care, brothers, lest there be in any of you an evil, unbelieving heart that falls away from the living God. Exhort one another daily while it is called "today."',
+    keyThemes: ['Christ\'s superiority to Moses', 'Faithfulness in God\'s house', 'Warning against unbelief', 'Daily exhortation'],
+    christConnection: 'Moses was the greatest figure in Israel\'s history, yet he was merely a servant pointing to Christ. Jesus is the Son over God\'s house, the reality to which Moses testified, the true deliverer who leads His people to eternal rest.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 4,
+    title: 'The Promise of Rest',
+    summary: 'Since the promise of entering God\'s rest still stands, let us fear lest any of you fail to reach it. The good news came to those in the wilderness, but it did not benefit them because they lacked faith. We who have believed enter that rest, yet God\'s works were finished from the foundation of the world. God rested on the seventh day, and David spoke of "today" long after Joshua, indicating another Sabbath rest remains for the people of God. Strive to enter that rest so that no one may fall by the same pattern of disobedience. The word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and spirit, discerning the thoughts and intentions of the heart. No creature is hidden from His sight. Since we have a great high priest who has passed through the heavens, Jesus the Son of God, let us hold fast our confession. He is able to sympathize with our weaknesses, having been tempted in every way yet without sin. Let us approach the throne of grace with confidence to receive mercy and find grace to help in time of need.',
+    keyThemes: ['Sabbath rest fulfilled in Christ', 'The living Word of God', 'Christ as sympathetic High Priest', 'Bold access to the throne of grace'],
+    christConnection: 'Christ is both the rest to which all Sabbaths pointed and the High Priest who grants us access to that rest. Through His sinless life and sympathetic priesthood, He opens the way to confident communion with God.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 5,
+    title: 'Christ the High Priest',
+    summary: 'Every high priest chosen from among men is appointed to act on behalf of men in relation to God, offering gifts and sacrifices for sins. He can deal gently with the ignorant and wayward since he himself is beset with weakness and must offer sacrifice for his own sins as well as for the people\'s. No one takes this honor for himself—he must be called by God, just as Aaron was. So also Christ did not exalt Himself but was appointed by the One who said, "You are My Son," and "You are a priest forever after the order of Melchizedek." In the days of His flesh, Jesus offered up prayers with loud cries and tears to Him who was able to save Him from death. Although He was a Son, He learned obedience through what He suffered. Being made perfect, He became the source of eternal salvation to all who obey Him. There is much to say about this that is hard to explain, since the readers have become dull of hearing. By now they should be teachers, yet they need someone to teach them the basic principles again. They are unskilled in the word of righteousness, needing milk rather than solid food.',
+    keyThemes: ['Qualifications of priesthood', 'Christ\'s appointment by God', 'Obedience through suffering', 'Spiritual immaturity'],
+    christConnection: 'Christ perfectly fulfills the requirements for high priesthood: He was appointed by God, not self-exalted; He experienced human weakness; and through His suffering and obedience, He became the source of eternal salvation—superior to Aaron in every way.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 6,
+    title: 'Warning Against Apostasy',
+    summary: 'Let us leave the elementary doctrine of Christ and go on to maturity, not laying again a foundation of repentance, faith, baptisms, laying on of hands, resurrection, and eternal judgment. This we will do if God permits. For it is impossible to restore again to repentance those who have once been enlightened, who have tasted the heavenly gift, who have shared in the Holy Spirit and the goodness of God\'s word and the powers of the age to come, if they then fall away—since they are crucifying the Son of God again and holding Him up to contempt. Land that receives rain and produces a useful crop receives blessing, but land producing thorns is worthless and near to being cursed. Yet the author is convinced of better things concerning his readers—things that belong to salvation. God is not unjust to overlook their work and love shown to the saints. We desire each to show earnestness to the full assurance of hope to the end. By faith and patience inherit the promises. When God made His promise to Abraham, He swore by Himself since He had no one greater to swear by. This promise is an anchor of the soul, sure and steadfast, entering the inner place behind the curtain where Jesus has gone as a forerunner, having become a high priest forever after the order of Melchizedek.',
+    keyThemes: ['Moving toward maturity', 'The impossibility of restoration after apostasy', 'God\'s oath to Abraham', 'Christ as anchor of the soul'],
+    christConnection: 'Christ as our forerunner has entered behind the veil where we cannot yet go. He is the anchor of our souls, the guarantee of God\'s promises, and the Melchizedekian priest who secures our hope in the heavenly sanctuary.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 7,
+    title: 'The Order of Melchizedek',
+    summary: 'Melchizedek, king of Salem and priest of the Most High God, met Abraham returning from the slaughter of the kings and blessed him. Abraham gave him a tenth of everything. Melchizedek\'s name means "king of righteousness," and he is also king of Salem, meaning "king of peace." He is without father, mother, or genealogy, having neither beginning of days nor end of life—resembling the Son of God, he remains a priest forever. Consider how great Melchizedek was: even the patriarch Abraham gave him a tithe. The Levitical priests collect tithes from their brothers though descended from Abraham, but Melchizedek, not of Levitical descent, received tithes from Abraham and blessed him who had the promises. The inferior is blessed by the superior. If perfection came through the Levitical priesthood, why was another priest needed according to the order of Melchizedek? When the priesthood changes, the law must change too. Our Lord descended from Judah, not Levi. This becomes clearer when another priest arises in the likeness of Melchizedek—appointed not by law of physical requirement but by the power of an indestructible life. The former commandment is set aside because of its weakness, for the law made nothing perfect. A better hope is introduced through which we draw near to God. Jesus became the guarantor of a better covenant. The former priests were many because death prevented them from continuing, but Jesus holds His priesthood permanently because He continues forever. He is able to save completely those who draw near to God through Him, since He always lives to make intercession for them. Such a high priest was fitting for us—holy, innocent, unstained, separated from sinners, exalted above the heavens. He has no need to offer sacrifices daily for His own sins and then for the people\'s, for He did this once for all when He offered Himself.',
+    keyThemes: ['Melchizedek as type of Christ', 'Superiority to Levitical priesthood', 'Permanent and indestructible priesthood', 'Christ\'s perpetual intercession'],
+    christConnection: 'Christ\'s priesthood is superior because it is after the order of Melchizedek—eternal, not hereditary; effective, not shadowy; complete, not repetitive. He saves completely and intercedes perpetually for His people.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 8,
+    title: 'The New Covenant',
+    summary: 'The point in what we are saying is this: we have such a high priest, One who is seated at the right hand of the throne of the Majesty in heaven, a minister in the holy places, in the true tent that the Lord set up, not man. Every high priest is appointed to offer gifts and sacrifices, so Christ must also have something to offer. If He were on earth, He would not be a priest at all since there are priests who offer gifts according to the law. They serve a copy and shadow of the heavenly things, as Moses was instructed when about to erect the tent. But Christ has obtained a ministry far more excellent than the old, as the covenant He mediates is better and enacted on better promises. For if the first covenant had been faultless, there would have been no occasion to look for a second. God finds fault with the people and declares: "Behold, the days are coming when I will establish a new covenant with the house of Israel—not like the covenant I made with their fathers when I took them by the hand to bring them out of Egypt, for they did not continue in My covenant." This is the covenant I will make: "I will put My laws into their minds and write them on their hearts. I will be their God and they shall be My people. They shall not teach each one his neighbor, for all shall know Me, from the least to the greatest. I will be merciful toward their iniquities, and I will remember their sins no more." In speaking of a new covenant, He makes the first obsolete.',
+    keyThemes: ['Christ\'s heavenly ministry', 'Shadow versus reality', 'The New Covenant promises', 'Obsolescence of the old covenant'],
+    christConnection: 'Christ is the mediator of the New Covenant promised in Jeremiah 31. This covenant is better because it provides what the old could only symbolize: internal transformation, universal knowledge of God, and complete forgiveness of sins.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 9,
+    title: 'The Blood of Christ',
+    summary: 'The first covenant had regulations for worship and an earthly sanctuary. A tent was prepared with the lampstand, table, and bread of the Presence in the first section; behind the second curtain was the Most Holy Place with the golden altar of incense and the ark of the covenant containing the manna, Aaron\'s rod, and the tablets. Above it were the cherubim of glory overshadowing the mercy seat. Priests went regularly into the first section performing their duties, but into the second only the high priest went once a year, not without blood for himself and for the unintentional sins of the people. By this the Holy Spirit indicates that the way into the holy places is not yet opened while the first section still stands. This is symbolic for the present age—gifts and sacrifices cannot perfect the conscience of the worshiper. They deal only with food and drink and washings, regulations for the body until the time of reformation. But when Christ appeared as high priest of the good things that have come, He entered through the greater and more perfect tent not made with hands. Not with the blood of goats and calves but with His own blood, He entered once for all into the holy places, securing eternal redemption. If the blood of animals sanctifies for the purification of the flesh, how much more will the blood of Christ, who through the eternal Spirit offered Himself without blemish to God, purify our conscience from dead works to serve the living God. Christ is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance—for a death has occurred that redeems them from transgressions committed under the first covenant. It was necessary for the copies of heavenly things to be purified with blood, but the heavenly things themselves with better sacrifices. Christ entered not into holy places made with hands but into heaven itself, to appear in the presence of God on our behalf. He will appear a second time, not to deal with sin but to save those who are eagerly waiting for Him.',
+    keyThemes: ['Old Testament tabernacle typology', 'Christ\'s blood versus animal blood', 'Purification of conscience', 'Once for all sacrifice'],
+    christConnection: 'Christ\'s blood accomplishes what animal sacrifices could never achieve: eternal redemption, cleansed conscience, and access to God\'s presence. His death inaugurates the New Covenant and secures the promised inheritance for the called.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 10,
+    title: 'The Perfect Sacrifice',
+    summary: 'The law has but a shadow of the good things to come instead of the true form. By the same sacrifices offered year after year, it can never make perfect those who draw near. Otherwise, would they not have ceased being offered, since the worshipers would no longer have consciousness of sins? But in these sacrifices there is a reminder of sins every year, for it is impossible for the blood of bulls and goats to take away sins. Consequently, when Christ came into the world, He said: "Sacrifices and offerings You have not desired, but a body You have prepared for Me. In burnt offerings and sin offerings You have taken no pleasure. Then I said, \'Behold, I have come to do Your will, O God.\'" He does away with the first in order to establish the second. By that will we have been sanctified through the offering of the body of Jesus Christ once for all. Every priest stands daily at his service, offering repeatedly the same sacrifices that can never take away sins. But when Christ had offered for all time a single sacrifice for sins, He sat down at the right hand of God, waiting until His enemies should be made a footstool for His feet. For by a single offering He has perfected for all time those who are being sanctified. The Holy Spirit bears witness through Jeremiah: "I will remember their sins no more." Where there is forgiveness of these, there is no longer any offering for sin. Therefore, brothers, since we have confidence to enter the holy places by the blood of Jesus, by the new and living way that He opened for us through the curtain, through His flesh, and since we have a great priest over the house of God, let us draw near with a true heart in full assurance of faith. Let us hold fast the confession of our hope without wavering. Let us consider how to stir one another to love and good works, not neglecting to meet together. If we go on sinning deliberately after receiving the knowledge of truth, there no longer remains a sacrifice for sins, but a fearful expectation of judgment.',
+    keyThemes: ['Shadow versus substance', 'Christ\'s willing sacrifice', 'Perfection through one offering', 'Confidence to enter God\'s presence'],
+    christConnection: 'Christ\'s one sacrifice accomplished what the law\'s many sacrifices never could: perfecting the worshiper\'s conscience, removing sins forever, and opening a new and living way into the presence of God.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 11,
+    title: 'The Faith of the Ancients',
+    summary: 'Faith is the assurance of things hoped for, the conviction of things not seen. By it the people of old received their commendation. By faith we understand that the universe was created by the word of God. By faith Abel offered a more acceptable sacrifice than Cain. By faith Enoch was taken up so that he should not see death. Without faith it is impossible to please God, for whoever would draw near must believe that He exists and that He rewards those who seek Him. By faith Noah, being warned about events not yet seen, built an ark for the saving of his household. By faith Abraham obeyed when called to go out to a place he would receive as an inheritance, and he went out not knowing where he was going. He lived as a foreigner in the promised land, looking forward to the city with foundations whose designer and builder is God. By faith Sarah received power to conceive, because she considered Him faithful who had promised. By faith Abraham, when tested, offered up Isaac. By faith Isaac, Jacob, and Joseph blessed their descendants. By faith Moses\' parents hid him; by faith Moses refused to be called a son of Pharaoh\'s daughter, choosing to be mistreated with God\'s people. By faith he left Egypt. By faith the people crossed the Red Sea and the walls of Jericho fell. By faith Rahab welcomed the spies. What more shall I say? Time would fail to tell of Gideon, Barak, Samson, Jephthah, David, Samuel, and the prophets—who through faith conquered kingdoms, stopped the mouths of lions, quenched fire, escaped the sword, were tortured, stoned, sawn in two. The world was not worthy of them. These all, having received commendation through faith, did not receive what was promised, since God had provided something better for us, that apart from us they should not be made perfect.',
+    keyThemes: ['Definition of faith', 'Cloud of witnesses', 'Living by future promises', 'Faith that endures suffering'],
+    christConnection: 'All these saints lived by faith in the promises of God, looking forward to Christ. They did not receive the promise because God planned something better—that they and we together would be made perfect through the one Savior.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 12,
+    title: 'Running the Race',
+    summary: 'Since we are surrounded by so great a cloud of witnesses, let us lay aside every weight and the sin that clings so closely, and run with endurance the race set before us, looking to Jesus, the founder and perfecter of our faith, who for the joy set before Him endured the cross, despising the shame, and is seated at the right hand of the throne of God. Consider Him who endured such hostility from sinners, so that you may not grow weary or fainthearted. In your struggle against sin you have not yet resisted to the point of shedding blood. Have you forgotten the exhortation that addresses you as sons? "My son, do not regard lightly the discipline of the Lord." The Lord disciplines the one He loves. God is treating you as sons; endure hardship as discipline. For the moment all discipline seems painful, but later it yields the peaceful fruit of righteousness to those trained by it. Therefore lift your drooping hands and strengthen your weak knees. See to it that no one fails to obtain the grace of God, that no root of bitterness springs up, and that no one is sexually immoral or unholy like Esau, who sold his birthright for a single meal. You have not come to a mountain that may be touched, to blazing fire, darkness, gloom, and tempest, to the sound of a trumpet and a voice whose words made the hearers beg that no further messages be spoken. You have come to Mount Zion, to the city of the living God, the heavenly Jerusalem, to innumerable angels in festal gathering, to the assembly of the firstborn enrolled in heaven, to God the judge of all, to the spirits of the righteous made perfect, and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks a better word than the blood of Abel. See that you do not refuse Him who is speaking. For we are receiving a kingdom that cannot be shaken.',
+    keyThemes: ['Perseverance in the race of faith', 'Divine discipline as fatherly love', 'Sinai versus Zion', 'The unshakable kingdom'],
+    christConnection: 'Jesus is the "founder and perfecter of our faith"—He ran the race before us and now sits enthroned. His blood speaks a better word than Abel\'s, and He mediates the new covenant that brings us to the heavenly Jerusalem.'
+  },
+  {
+    bookId: 'hebrews',
+    chapter: 13,
+    title: 'Final Exhortations',
+    summary: 'Let brotherly love continue. Do not neglect to show hospitality to strangers, for thereby some have entertained angels unawares. Remember those in prison as if in prison with them, and those mistreated as if you yourselves were suffering. Let marriage be held in honor among all. Keep your life free from love of money and be content with what you have, for He has said, "I will never leave you nor forsake you." So we can confidently say, "The Lord is my helper; I will not fear." Remember your leaders who spoke the word of God to you. Consider the outcome of their way of life and imitate their faith. Jesus Christ is the same yesterday, today, and forever. Do not be led away by diverse and strange teachings; it is good for the heart to be strengthened by grace, not by foods. We have an altar from which those who serve the tent have no right to eat. The bodies of animals whose blood is brought into the holy places are burned outside the camp. So Jesus also suffered outside the gate in order to sanctify the people through His own blood. Let us go to Him outside the camp and bear the reproach He endured. For here we have no lasting city, but we seek the city that is to come. Through Him let us continually offer up a sacrifice of praise to God, the fruit of lips that acknowledge His name. Do not neglect to do good and to share what you have. Obey your leaders and submit to them. Pray for us. May the God of peace who brought again from the dead our Lord Jesus, the great shepherd of the sheep, by the blood of the eternal covenant, equip you with everything good that you may do His will. Grace be with all of you.',
+    keyThemes: ['Practical Christian living', 'Christ unchanging', 'Going outside the camp', 'The city to come'],
+    christConnection: 'Christ is unchanging—the same yesterday, today, and forever. He suffered outside the city gate to sanctify His people, and now as the great Shepherd, raised by the blood of the eternal covenant, He equips believers for every good work.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9367,6 +9478,8 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return TITUS_CHAPTERS;
     case 'philemon':
       return PHILEMON_CHAPTERS;
+    case 'hebrews':
+      return HEBREWS_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9432,4 +9545,5 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: '2-timothy', bookName: '2 Timothy', chapters: SECOND_TIMOTHY_CHAPTERS },
   { bookId: 'titus', bookName: 'Titus', chapters: TITUS_CHAPTERS },
   { bookId: 'philemon', bookName: 'Philemon', chapters: PHILEMON_CHAPTERS },
+  { bookId: 'hebrews', bookName: 'Hebrews', chapters: HEBREWS_CHAPTERS },
 ];
