@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, notFound } from 'next/navigation';
 import Link from 'next/link';
 import {
@@ -88,7 +88,10 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   };
 
   return (
-    <Card className={`overflow-hidden ${isRead ? 'border-green-500/30 bg-green-50/30 dark:bg-green-900/10' : ''}`}>
+    <Card
+      id={`chapter-${chapter.chapter}`}
+      className={`overflow-hidden ${isRead ? 'border-green-500/30 bg-green-50/30 dark:bg-green-900/10' : ''}`}
+    >
       <button
         onClick={onToggle}
         className="w-full text-left"
@@ -332,15 +335,53 @@ export default function BookDetailPage() {
 
   const [activeTab, setActiveTab] = useState<TabId>('overview');
   const [expandedChapters, setExpandedChapters] = useState<Set<number>>(new Set());
+  const hasScrolled = useRef(false);
+
+  const chapterSummaries = getChaptersByBook(bookId);
+
+  // Handle hash navigation (e.g., #chapter-5)
+  // NOTE: Setting state in effect is intentional here for initial URL hash handling
+  useEffect(() => {
+    if (hasScrolled.current) return;
+
+    const hash = window.location.hash;
+    if (hash && hash.startsWith('#chapter-')) {
+      const chapterNum = parseInt(hash.replace('#chapter-', ''), 10);
+      if (!isNaN(chapterNum) && chapterSummaries.some(c => c.chapter === chapterNum)) {
+        hasScrolled.current = true;
+
+        // Use requestAnimationFrame for initial state sync from URL
+        requestAnimationFrame(() => {
+          // Switch to chapters tab
+          setActiveTab('chapters');
+          // Expand the chapter
+          setExpandedChapters(new Set([chapterNum]));
+
+          // Scroll to the chapter after a short delay to allow rendering
+          setTimeout(() => {
+            const element = document.getElementById(`chapter-${chapterNum}`);
+            if (element) {
+              element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              // Add a highlight effect
+              element.classList.add('ring-2', 'ring-bible', 'ring-offset-2');
+              setTimeout(() => {
+                element.classList.remove('ring-2', 'ring-bible', 'ring-offset-2');
+              }, 2000);
+            }
+          }, 100);
+        });
+      }
+    }
+  }, [chapterSummaries]);
 
   if (!book) {
     notFound();
   }
 
+  // Computed values - safe because book is defined after the notFound() check
   const prevBook = getPreviousBook(bookId);
   const nextBook = getNextBook(bookId);
   const groupBadge = getGroupBadge(book.canonicalGroup);
-  const chapterSummaries = getChaptersByBook(bookId);
 
   const toggleChapter = (chapter: number) => {
     setExpandedChapters(prev => {
@@ -386,9 +427,11 @@ export default function BookDetailPage() {
                 </div>
               </div>
             </div>
-            <span className={`ml-auto text-xs px-2 py-1 rounded-full font-medium ${groupBadge.bg}`}>
-              {groupBadge.label}
-            </span>
+            {groupBadge && (
+              <span className={`ml-auto text-xs px-2 py-1 rounded-full font-medium ${groupBadge.bg}`}>
+                {groupBadge.label}
+              </span>
+            )}
           </div>
 
           {/* Tabs */}

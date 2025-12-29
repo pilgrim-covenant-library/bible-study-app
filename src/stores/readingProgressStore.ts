@@ -60,6 +60,7 @@ interface ReadingProgressState {
   getRecentReadings: (limit: number) => ChapterProgress[];
   getStreakStats: () => StreakStats;
   getUniqueDaysRead: () => string[];
+  getReadingActivityByDate: (days: number) => Record<string, number>;
 
   // Reset
   resetAllProgress: () => void;
@@ -234,6 +235,31 @@ export const useReadingProgressStore = create<ReadingProgressState>()(
           days.add(dateStr);
         });
         return Array.from(days).sort();
+      },
+
+      getReadingActivityByDate: (days: number) => {
+        const activity: Record<string, number> = {};
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        // Initialize all days with 0
+        for (let i = days - 1; i >= 0; i--) {
+          const date = new Date(today);
+          date.setDate(date.getDate() - i);
+          const dateStr = date.toISOString().split('T')[0];
+          activity[dateStr] = 0;
+        }
+
+        // Count chapters read per day
+        get().readChapters.forEach(c => {
+          const date = new Date(c.readAt);
+          const dateStr = date.toISOString().split('T')[0];
+          if (activity.hasOwnProperty(dateStr)) {
+            activity[dateStr]++;
+          }
+        });
+
+        return activity;
       },
 
       getStreakStats: () => {

@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import {
@@ -242,6 +243,152 @@ function ReadingStreakSection() {
   );
 }
 
+// Reading Activity Calendar Component - shows a heatmap of reading activity
+function ReadingActivityCalendar() {
+  const { getReadingActivityByDate, getTotalChaptersRead } = useReadingProgressStore();
+  const totalRead = getTotalChaptersRead();
+
+  // Don't show if user hasn't started reading
+  if (totalRead === 0) {
+    return null;
+  }
+
+  // Get last 35 days (5 weeks) of activity
+  const activity = getReadingActivityByDate(35);
+  const activityEntries = Object.entries(activity);
+
+  // Get intensity level (0-4) based on chapters read
+  const getIntensity = (chapters: number): number => {
+    if (chapters === 0) return 0;
+    if (chapters === 1) return 1;
+    if (chapters <= 3) return 2;
+    if (chapters <= 5) return 3;
+    return 4;
+  };
+
+  // Get color class based on intensity
+  const getColorClass = (intensity: number): string => {
+    const colors = [
+      'bg-muted', // 0 - no activity
+      'bg-green-200 dark:bg-green-900', // 1 - light
+      'bg-green-400 dark:bg-green-700', // 2 - medium
+      'bg-green-500 dark:bg-green-600', // 3 - good
+      'bg-green-600 dark:bg-green-500', // 4 - great
+    ];
+    return colors[intensity];
+  };
+
+  // Format date for tooltip
+  const formatDate = (dateStr: string): string => {
+    const date = new Date(dateStr);
+    return date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+  };
+
+  // Get day of week label
+  const getDayLabel = (index: number): string => {
+    const days = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+    return days[index];
+  };
+
+  // Group by weeks (Sunday to Saturday)
+  const weeks: { date: string; chapters: number }[][] = [];
+  let currentWeek: { date: string; chapters: number }[] = [];
+
+  activityEntries.forEach(([date, chapters]) => {
+    const dayOfWeek = new Date(date).getDay();
+
+    // Start new week on Sunday (day 0)
+    if (dayOfWeek === 0 && currentWeek.length > 0) {
+      weeks.push(currentWeek);
+      currentWeek = [];
+    }
+
+    currentWeek.push({ date, chapters });
+  });
+
+  // Push the last week
+  if (currentWeek.length > 0) {
+    weeks.push(currentWeek);
+  }
+
+  // Calculate stats for this period
+  const totalDaysWithReading = activityEntries.filter(([, count]) => count > 0).length;
+  const totalChaptersInPeriod = activityEntries.reduce((sum, [, count]) => sum + count, 0);
+
+  return (
+    <section className="mb-8">
+      <Card className="bg-gradient-to-br from-green-500/5 via-emerald-500/5 to-teal-500/5 border-green-500/20">
+        <CardContent className="p-4">
+          {/* Header */}
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <Calendar className="h-5 w-5 text-green-500" />
+              <h2 className="text-lg font-semibold">Reading Activity</h2>
+            </div>
+            <div className="text-sm text-muted-foreground">
+              Last 5 weeks
+            </div>
+          </div>
+
+          {/* Calendar Grid */}
+          <div className="flex gap-1 mb-4">
+            {/* Day labels */}
+            <div className="flex flex-col gap-1 mr-1">
+              {[0, 1, 2, 3, 4, 5, 6].map((day) => (
+                <div key={day} className="h-4 w-4 text-[10px] text-muted-foreground flex items-center justify-center">
+                  {getDayLabel(day)}
+                </div>
+              ))}
+            </div>
+
+            {/* Weeks */}
+            {weeks.map((week, weekIndex) => (
+              <div key={weekIndex} className="flex flex-col gap-1">
+                {/* Pad the first week if it doesn't start on Sunday */}
+                {weekIndex === 0 && week.length < 7 && (
+                  Array(7 - week.length).fill(null).map((_, i) => (
+                    <div key={`pad-${i}`} className="h-4 w-4" />
+                  ))
+                )}
+                {week.map(({ date, chapters }) => {
+                  const intensity = getIntensity(chapters);
+                  return (
+                    <div
+                      key={date}
+                      className={`h-4 w-4 rounded-sm ${getColorClass(intensity)} transition-all hover:ring-2 hover:ring-green-400 cursor-default`}
+                      title={`${formatDate(date)}: ${chapters} chapter${chapters !== 1 ? 's' : ''} read`}
+                    />
+                  );
+                })}
+              </div>
+            ))}
+          </div>
+
+          {/* Legend and Stats */}
+          <div className="flex items-center justify-between text-xs">
+            <div className="flex items-center gap-2">
+              <span className="text-muted-foreground">Less</span>
+              <div className="flex gap-0.5">
+                {[0, 1, 2, 3, 4].map((intensity) => (
+                  <div
+                    key={intensity}
+                    className={`h-3 w-3 rounded-sm ${getColorClass(intensity)}`}
+                  />
+                ))}
+              </div>
+              <span className="text-muted-foreground">More</span>
+            </div>
+            <div className="flex items-center gap-4 text-muted-foreground">
+              <span>{totalDaysWithReading} active days</span>
+              <span>{totalChaptersInPeriod} chapters</span>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </section>
+  );
+}
+
 // Continue Reading Section Component
 function ContinueReadingSection() {
   const { getRecentReadings, getTotalChaptersRead } = useReadingProgressStore();
@@ -420,6 +567,46 @@ function DailyDevotional() {
   );
 }
 
+// Random Chapter Component
+function RandomChapterCard() {
+  const router = useRouter();
+
+  const goToRandomChapter = () => {
+    // Build list of all chapters with their book info
+    const allChapters: { bookId: string; chapter: number }[] = [];
+    for (const book of ALL_CHAPTER_SUMMARIES) {
+      for (const chapter of book.chapters) {
+        allChapters.push({ bookId: book.bookId, chapter: chapter.chapter });
+      }
+    }
+
+    // Select a random chapter
+    const randomIndex = Math.floor(Math.random() * allChapters.length);
+    const selected = allChapters[randomIndex];
+
+    // Navigate to the book page (with chapter hash for potential future scrolling)
+    router.push(`/bible-study/${selected.bookId}#chapter-${selected.chapter}`);
+  };
+
+  return (
+    <Card
+      className="cursor-pointer hover:shadow-md transition-all hover:-translate-y-0.5"
+      onClick={goToRandomChapter}
+    >
+      <CardContent className="p-4 flex items-center gap-3">
+        <div className="p-2 rounded-lg bg-emerald-500/10">
+          <Shuffle className="h-5 w-5 text-emerald-500" />
+        </div>
+        <div>
+          <div className="font-medium">Random Chapter</div>
+          <div className="text-sm text-muted-foreground">Discover something new</div>
+        </div>
+        <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
+      </CardContent>
+    </Card>
+  );
+}
+
 export default function BibleStudyPage() {
   const [testamentFilter, setTestamentFilter] = useState<TestamentFilter>('all');
   const [selectedGroup, setSelectedGroup] = useState<CanonicalGroup | 'all'>('all');
@@ -522,6 +709,9 @@ export default function BibleStudyPage() {
         {/* Reading Streak */}
         <ReadingStreakSection />
 
+        {/* Reading Activity Calendar */}
+        <ReadingActivityCalendar />
+
         {/* Daily Devotional */}
         <DailyDevotional />
 
@@ -585,6 +775,7 @@ export default function BibleStudyPage() {
                 </CardContent>
               </Card>
             </Link>
+            <RandomChapterCard />
           </div>
         </section>
 
