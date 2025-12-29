@@ -943,6 +943,364 @@ export const VERSE_THEME_MAP: Record<string, string[]> = {
   'revelation-22-18-19': ['scripture'],
   'revelation-22-20': ['hope', 'christ-person'],
   'revelation-22-21': ['salvation', 'love'],
+
+  // ============ ADDITIONAL MAPPINGS ============
+  // (Verses that were added to memory-verses.ts but not yet mapped)
+
+  // Numbers (additional)
+  'numbers-10-35': ['god-nature', 'strength'],
+  'numbers-11-29': ['holy-spirit', 'service'],
+  'numbers-12-3': ['holiness', 'identity'],
+  'numbers-21-9': ['prophecy', 'gospel', 'salvation'],
+  'numbers-24-17': ['prophecy', 'christ-person'],
+
+  // Deuteronomy (additional - split verses)
+  'deuteronomy-6-4': ['god-nature'],
+  'deuteronomy-6-5': ['love', 'obedience'],
+  'deuteronomy-30-19': ['obedience', 'wisdom'],
+
+  // Joshua (additional)
+  'joshua-24-24': ['obedience', 'faith'],
+
+  // Judges (additional)
+  'judges-2-10': ['faith', 'scripture'],
+  'judges-2-18': ['god-nature', 'salvation'],
+  'judges-5-31': ['god-nature', 'hope'],
+  'judges-6-24': ['god-nature', 'peace'],
+  'judges-16-28': ['prayer', 'strength'],
+
+  // Ruth (additional)
+  'ruth-4-9': ['salvation', 'covenant'],
+
+  // 1 Samuel (additional)
+  '1-samuel-12-22': ['god-nature', 'covenant'],
+  '1-samuel-17-47': ['god-nature', 'faith', 'salvation'],
+  '1-samuel-3-10': ['prayer', 'obedience'],
+
+  // 2 Samuel (additional)
+  '2-samuel-7-16': ['covenant', 'prophecy'],
+  '2-samuel-12-13': ['repentance', 'salvation'],
+  '2-samuel-24-24': ['stewardship', 'obedience'],
+
+  // 1 Kings (additional)
+  '1-kings-2-2': ['strength', 'obedience'],
+  '1-kings-11-9': ['obedience', 'god-nature'],
+  '1-kings-18-39': ['god-nature', 'faith'],
+
+  // 2 Kings (additional)
+  '2-kings-2-9': ['holy-spirit', 'service'],
+  '2-kings-2-11': ['eternal-life', 'god-nature'],
+  '2-kings-5-14': ['faith', 'obedience'],
+  '2-kings-17-13': ['repentance', 'scripture'],
+  '2-kings-22-19': ['repentance', 'holiness'],
+
+  // 1 Chronicles (additional)
+  '1-chronicles-4-10': ['prayer', 'faith'],
+  '1-chronicles-17-14': ['covenant', 'prophecy'],
+  '1-chronicles-29-14': ['stewardship', 'god-nature'],
+
+  // 2 Chronicles (additional)
+  '2-chronicles-6-18': ['god-nature', 'prayer'],
+  '2-chronicles-34-27': ['repentance', 'holiness'],
+
+  // Ezra (additional)
+  'ezra-9-8': ['god-nature', 'salvation'],
+
+  // Nehemiah (additional)
+  'nehemiah-6-16': ['god-nature', 'faith'],
+
+  // Esther (additional)
+  'esther-6-1': ['god-nature'],
+  'esther-8-17': ['salvation', 'faith'],
+
+  // Job (additional)
+  'job-19-25-26': ['christ-person', 'eternal-life', 'hope'],
+  'job-37-5': ['god-nature', 'creation'],
+  'job-42-5-6': ['god-nature', 'repentance'],
+
+  // Psalms (singular "psalm-" format)
+  'psalm-1-1': ['scripture', 'holiness'],
+  'psalm-2-7': ['christ-person', 'prophecy'],
+  'psalm-16-10': ['prophecy', 'eternal-life'],
+  'psalm-19-14': ['prayer', 'holiness'],
+  'psalm-22-1': ['prophecy', 'trials'],
+  'psalm-22-18': ['prophecy', 'christ-person'],
+  'psalm-23-1': ['god-nature', 'comfort'],
+  'psalm-23-4': ['comfort', 'trials'],
+  'psalm-27-1': ['strength', 'faith'],
+  'psalm-34-8': ['god-nature', 'faith'],
+  'psalm-37-4': ['prayer', 'faith'],
+  'psalm-40-8': ['obedience', 'christ-person'],
+  'psalm-46-1': ['strength', 'comfort'],
+  'psalm-46-10': ['god-nature', 'peace'],
+  'psalm-51-10': ['repentance', 'holiness'],
+  'psalm-91-1': ['god-nature', 'comfort'],
+  'psalm-100-4': ['prayer', 'god-nature'],
+  'psalm-103-12': ['repentance', 'salvation'],
+  'psalm-110-1': ['christ-person', 'prophecy'],
+  'psalm-118-22': ['christ-person', 'prophecy'],
+  'psalm-119-105': ['scripture', 'wisdom'],
+  'psalm-139-14': ['creation', 'identity'],
+
+  // Proverbs (additional)
+  'proverbs-3-5': ['faith', 'wisdom'],
+  'proverbs-3-6': ['wisdom', 'obedience'],
+  'proverbs-11-2': ['wisdom', 'holiness'],
+  'proverbs-16-9': ['god-nature', 'wisdom'],
+  'proverbs-29-25': ['faith', 'strength'],
+
+  // Ecclesiastes (additional)
+  'ecclesiastes-1-2': ['wisdom'],
+  'ecclesiastes-3-11': ['god-nature', 'eternal-life'],
+  'ecclesiastes-5-10': ['stewardship', 'wisdom'],
+  'ecclesiastes-7-2': ['wisdom', 'eternal-life'],
+  'ecclesiastes-11-9': ['wisdom', 'obedience'],
+  'ecclesiastes-12-14': ['god-nature', 'obedience'],
+
+  // Song of Solomon (additional)
+  'song-of-solomon-3-4': ['love'],
+  'song-of-solomon-8-6': ['love'],
+  'song-of-solomon-8-7': ['love'],
+
+  // Isaiah (additional)
+  'isaiah-6-8': ['service', 'obedience'],
+  'isaiah-43-1': ['salvation', 'identity'],
+  'isaiah-55-8': ['god-nature', 'wisdom'],
+
+  // Jeremiah (additional)
+  'jeremiah-1-5': ['god-nature', 'identity', 'service'],
+  'jeremiah-17-9': ['gospel', 'repentance'],
+  'jeremiah-31-33': ['covenant', 'holy-spirit'],
+
+  // Lamentations (additional - split verses)
+  'lamentations-3-22': ['god-nature', 'hope'],
+  'lamentations-3-23': ['god-nature', 'faith'],
+  'lamentations-3-24': ['hope', 'god-nature'],
+  'lamentations-3-31-32': ['god-nature', 'trials'],
+
+  // Ezekiel (additional)
+  'ezekiel-34-11': ['god-nature', 'comfort'],
+  'ezekiel-34-23': ['prophecy', 'christ-person'],
+  'ezekiel-37-3': ['faith', 'god-nature'],
+
+  // Hosea (additional)
+  'hosea-2-19': ['love', 'covenant'],
+  'hosea-3-5': ['prophecy', 'christ-person'],
+  'hosea-11-1': ['prophecy', 'christ-person'],
+  'hosea-13-14': ['salvation', 'eternal-life'],
+
+  // Joel (additional)
+  'joel-2-12': ['repentance'],
+  'joel-2-13': ['repentance', 'god-nature'],
+
+  // Amos (additional)
+  'amos-3-7': ['prophecy', 'scripture'],
+  'amos-4-12': ['god-nature', 'repentance'],
+
+  // Micah (additional)
+  'micah-4-1': ['prophecy', 'hope'],
+  'micah-5-4': ['christ-person', 'prophecy'],
+  'micah-7-18': ['god-nature', 'repentance'],
+  'micah-7-19': ['repentance', 'salvation'],
+
+  // Nahum (additional)
+  'nahum-1-2': ['god-nature'],
+  'nahum-2-2': ['hope', 'salvation'],
+
+  // Habakkuk (additional)
+  'habakkuk-3-18': ['faith', 'trials'],
+  'habakkuk-3-19': ['strength', 'faith'],
+
+  // Haggai (additional)
+  'haggai-1-5': ['wisdom', 'obedience'],
+  'haggai-1-7': ['obedience', 'service'],
+  'haggai-2-5': ['holy-spirit', 'comfort'],
+  'haggai-2-6': ['prophecy', 'god-nature'],
+  'haggai-2-23': ['identity', 'prophecy'],
+
+  // Zechariah (additional)
+  'zechariah-12-10': ['prophecy', 'holy-spirit', 'repentance'],
+
+  // Malachi (additional)
+  'malachi-4-5': ['prophecy', 'hope'],
+
+  // Daniel (additional)
+  'daniel-1-8': ['holiness', 'faith'],
+  'daniel-2-44': ['prophecy', 'god-nature'],
+  'daniel-6-26': ['god-nature'],
+
+  // Leviticus (additional)
+  'leviticus-11-44': ['holiness', 'god-nature'],
+
+  // Matthew (additional)
+  'matthew-5-3': ['holiness', 'identity'],
+  'matthew-5-48': ['holiness', 'obedience'],
+  'matthew-6-9': ['prayer'],
+  'matthew-11-28': ['comfort', 'salvation'],
+  'matthew-28-19': ['service', 'holy-spirit'],
+  'matthew-28-20': ['comfort', 'assurance'],
+
+  // Mark (additional)
+  'mark-1-15': ['gospel', 'repentance'],
+  'mark-8-35': ['obedience', 'trials'],
+  'mark-12-30': ['love', 'obedience'],
+
+  // Luke (additional)
+  'luke-1-46-47': ['prayer', 'salvation'],
+  'luke-2-10-11': ['gospel', 'christ-person'],
+  'luke-6-27': ['love', 'obedience'],
+  'luke-15-7': ['repentance', 'salvation'],
+  'luke-23-43': ['salvation', 'eternal-life'],
+  'luke-24-46-47': ['gospel', 'repentance'],
+
+  // John (additional)
+  'john-11-25': ['eternal-life', 'christ-person'],
+  'john-14-27': ['peace', 'comfort'],
+
+  // Acts (additional)
+  'acts-2-42': ['scripture', 'love', 'prayer'],
+  'acts-13-38-39': ['salvation', 'gospel'],
+  'acts-17-30-31': ['repentance', 'christ-person'],
+
+  // Romans (additional)
+  'romans-3-24': ['salvation', 'gospel'],
+  'romans-8-29': ['identity', 'holiness'],
+  'romans-9-16': ['salvation', 'god-nature'],
+  'romans-11-33': ['god-nature', 'wisdom'],
+  'romans-12-1': ['holiness', 'obedience'],
+  'romans-12-2': ['holiness', 'obedience'],
+  'romans-13-14': ['holiness', 'christ-person'],
+
+  // 1 Corinthians (additional)
+  '1-corinthians-1-30': ['salvation', 'christ-person'],
+  '1-corinthians-2-14': ['holy-spirit', 'scripture'],
+  '1-corinthians-6-19': ['identity', 'holy-spirit', 'holiness'],
+  '1-corinthians-13-4': ['love'],
+  '1-corinthians-15-3-4': ['gospel', 'salvation'],
+
+  // 2 Corinthians (additional)
+  '2-corinthians-4-6': ['god-nature', 'gospel'],
+  '2-corinthians-4-17': ['hope', 'trials'],
+
+  // Galatians (additional)
+  'galatians-3-13': ['salvation', 'gospel'],
+  'galatians-3-24': ['gospel', 'faith'],
+  'galatians-4-4': ['christ-person', 'gospel'],
+  'galatians-5-16': ['holy-spirit', 'holiness'],
+  'galatians-5-22': ['holy-spirit', 'holiness'],
+  'galatians-6-14': ['gospel', 'christ-person'],
+
+  // Ephesians (additional)
+  'ephesians-1-4': ['identity', 'holiness'],
+  'ephesians-2-1': ['gospel', 'salvation'],
+  'ephesians-2-4': ['salvation', 'love'],
+  'ephesians-2-8': ['salvation', 'faith'],
+  'ephesians-2-9': ['salvation', 'faith'],
+  'ephesians-3-20': ['god-nature', 'prayer'],
+  'ephesians-4-4': ['identity', 'holy-spirit'],
+  'ephesians-6-11': ['strength', 'trials'],
+
+  // Philippians (additional)
+  'philippians-1-21': ['christ-person', 'eternal-life'],
+  'philippians-2-10-11': ['christ-person', 'prayer'],
+  'philippians-3-8': ['christ-person', 'faith'],
+  'philippians-3-20-21': ['eternal-life', 'hope'],
+  'philippians-4-6': ['prayer', 'peace'],
+  'philippians-4-7': ['peace', 'comfort'],
+
+  // Colossians (additional)
+  'colossians-1-16': ['christ-person', 'creation'],
+  'colossians-1-17': ['christ-person', 'god-nature'],
+  'colossians-2-9': ['christ-person', 'god-nature'],
+  'colossians-3-1-2': ['holiness', 'hope'],
+  'colossians-3-16': ['scripture', 'prayer'],
+  'colossians-3-23': ['service', 'obedience'],
+
+  // 1 Thessalonians (additional)
+  '1-thessalonians-4-13-14': ['eternal-life', 'hope'],
+  '1-thessalonians-5-23': ['holiness', 'god-nature'],
+  '1-thessalonians-5-24': ['god-nature', 'assurance'],
+
+  // 2 Thessalonians (additional)
+  '2-thessalonians-1-8-9': ['god-nature', 'eternal-life'],
+  '2-thessalonians-2-15': ['scripture', 'obedience'],
+  '2-thessalonians-3-10': ['service', 'wisdom'],
+
+  // 1 Timothy (additional)
+  '1-timothy-3-16': ['christ-person', 'gospel'],
+  '1-timothy-6-10': ['stewardship', 'wisdom'],
+
+  // 2 Timothy (additional)
+  '2-timothy-3-16': ['scripture'],
+  '2-timothy-3-17': ['scripture', 'service'],
+  '2-timothy-4-7': ['faith', 'eternal-life'],
+
+  // Titus (additional)
+  'titus-2-1': ['scripture', 'service'],
+  'titus-2-13': ['hope', 'christ-person'],
+  'titus-3-4-7': ['salvation', 'holy-spirit'],
+  'titus-3-5': ['salvation', 'holy-spirit'],
+
+  // Philemon (additional)
+  'philemon-4-5': ['faith', 'love'],
+  'philemon-6': ['faith', 'love'],
+  'philemon-7': ['love', 'service'],
+  'philemon-10-11': ['love', 'service'],
+  'philemon-15-16': ['god-nature', 'love'],
+  'philemon-17-18': ['love', 'identity'],
+  'philemon-18-19': ['love', 'stewardship'],
+  'philemon-20': ['love', 'prayer'],
+
+  // Hebrews (additional)
+  'hebrews-2-17': ['christ-person', 'salvation'],
+  'hebrews-4-15-16': ['christ-person', 'prayer'],
+  'hebrews-9-14': ['christ-person', 'salvation'],
+  'hebrews-10-14': ['salvation', 'holiness'],
+
+  // James (additional)
+  'james-2-26': ['faith', 'service'],
+  'james-3-17': ['wisdom', 'holiness'],
+  'james-4-7': ['holiness', 'trials'],
+
+  // 1 Peter (additional)
+  '1-peter-1-18-19': ['salvation', 'gospel'],
+  '1-peter-4-12-13': ['trials', 'christ-person'],
+  '1-peter-5-8-9': ['trials', 'faith'],
+
+  // 2 Peter (additional)
+  '2-peter-1-10-11': ['assurance', 'eternal-life'],
+  '2-peter-3-8': ['god-nature', 'hope'],
+
+  // 1 John (additional)
+  '1-john-1-7': ['holiness', 'salvation'],
+  '1-john-2-2': ['christ-person', 'salvation'],
+  '1-john-4-10': ['love', 'gospel'],
+  '1-john-5-11': ['eternal-life', 'salvation'],
+  '1-john-5-13': ['assurance', 'eternal-life'],
+
+  // 3 John (additional)
+  '3-john-1-7-8': ['service', 'faith'],
+
+  // Jude (additional)
+  'jude-3': ['faith', 'scripture'],
+  'jude-4': ['scripture', 'salvation'],
+  'jude-17-19': ['scripture', 'faith'],
+  'jude-20-21': ['faith', 'holy-spirit', 'love'],
+  'jude-22-23': ['love', 'service'],
+  'jude-24': ['god-nature', 'assurance'],
+  'jude-24-25': ['god-nature', 'assurance'],
+  'jude-25': ['god-nature'],
+
+  // Revelation (additional)
+  'revelation-1-5': ['christ-person', 'salvation'],
+  'revelation-5-9': ['salvation', 'christ-person'],
+  'revelation-5-12': ['christ-person', 'prayer'],
+  'revelation-14-12': ['faith', 'obedience'],
+  'revelation-15-3': ['god-nature', 'prayer'],
+  'revelation-19-6': ['god-nature', 'prayer'],
+  'revelation-19-16': ['christ-person', 'god-nature'],
+  'revelation-20-6': ['eternal-life', 'salvation'],
+  'revelation-21-3': ['covenant', 'eternal-life'],
 };
 
 // Helper functions

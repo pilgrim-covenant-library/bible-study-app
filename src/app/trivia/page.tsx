@@ -1,116 +1,51 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, HelpCircle, Trophy, Clock, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { shuffleArray } from '@/lib/utils';
+import { BIBLE_QUIZ_QUESTIONS, type BibleQuizQuestion, type QuizCategory } from '@/data/bible-quizzes';
 import type { TriviaQuestion, TriviaCategory } from '@/types';
 
-// Sample trivia questions (in production, load from JSON file or API)
-const SAMPLE_QUESTIONS: TriviaQuestion[] = [
-  {
-    id: '1',
-    question: 'Who was the first man God created?',
-    answer: 'Adam',
-    options: ['Adam', 'Noah', 'Abraham', 'Moses'],
-    correctIndex: 0,
-    category: 'old_testament',
-    difficulty: 'easy',
-    reference: 'Genesis 2:7',
-    explanation: 'God formed Adam from the dust of the ground and breathed life into him.',
-  },
-  {
-    id: '2',
-    question: 'How many days did God take to create the world?',
-    answer: '6',
-    options: ['5', '6', '7', '8'],
-    correctIndex: 1,
-    category: 'old_testament',
-    difficulty: 'easy',
-    reference: 'Genesis 1:31-2:2',
-  },
-  {
-    id: '3',
-    question: 'Who was swallowed by a great fish?',
-    answer: 'Jonah',
-    options: ['Elijah', 'Jonah', 'Daniel', 'Job'],
-    correctIndex: 1,
-    category: 'old_testament',
-    difficulty: 'easy',
-    reference: 'Jonah 1:17',
-  },
-  {
-    id: '4',
-    question: 'Which disciple walked on water with Jesus?',
-    answer: 'Peter',
-    options: ['Peter', 'John', 'James', 'Andrew'],
-    correctIndex: 0,
-    category: 'new_testament',
-    difficulty: 'easy',
-    reference: 'Matthew 14:28-29',
-  },
-  {
-    id: '5',
-    question: 'In which city was Jesus born?',
-    answer: 'Bethlehem',
-    options: ['Jerusalem', 'Bethlehem', 'Nazareth', 'Capernaum'],
-    correctIndex: 1,
-    category: 'gospels',
-    difficulty: 'easy',
-    reference: 'Matthew 2:1',
-  },
-  {
-    id: '6',
-    question: 'How many books are in the New Testament?',
-    answer: '27',
-    options: ['21', '27', '39', '66'],
-    correctIndex: 1,
-    category: 'new_testament',
-    difficulty: 'medium',
-  },
-  {
-    id: '7',
-    question: 'Who killed Goliath?',
-    answer: 'David',
-    options: ['Saul', 'Jonathan', 'David', 'Samuel'],
-    correctIndex: 2,
-    category: 'old_testament',
-    difficulty: 'easy',
-    reference: '1 Samuel 17:50',
-  },
-  {
-    id: '8',
-    question: 'Which river did John the Baptist baptize Jesus in?',
-    answer: 'Jordan',
-    options: ['Nile', 'Euphrates', 'Jordan', 'Tigris'],
-    correctIndex: 2,
-    category: 'gospels',
-    difficulty: 'easy',
-    reference: 'Matthew 3:13',
-  },
-  {
-    id: '9',
-    question: 'How many plagues did God send on Egypt?',
-    answer: '10',
-    options: ['7', '10', '12', '40'],
-    correctIndex: 1,
-    category: 'old_testament',
-    difficulty: 'medium',
-    reference: 'Exodus 7-12',
-  },
-  {
-    id: '10',
-    question: 'Who denied Jesus three times?',
-    answer: 'Peter',
-    options: ['Judas', 'Peter', 'Thomas', 'John'],
-    correctIndex: 1,
-    category: 'gospels',
-    difficulty: 'easy',
-    reference: 'Matthew 26:69-75',
-  },
-];
+// Map quiz categories to trivia categories
+function mapCategory(quizCategory: QuizCategory, bookId: string): TriviaCategory {
+  // Determine testament from bookId
+  const otBooks = [
+    'genesis', 'exodus', 'leviticus', 'numbers', 'deuteronomy',
+    'joshua', 'judges', 'ruth', '1-samuel', '2-samuel', '1-kings', '2-kings',
+    '1-chronicles', '2-chronicles', 'ezra', 'nehemiah', 'esther',
+    'job', 'psalms', 'proverbs', 'ecclesiastes', 'song-of-solomon',
+    'isaiah', 'jeremiah', 'lamentations', 'ezekiel', 'daniel',
+    'hosea', 'joel', 'amos', 'obadiah', 'jonah', 'micah', 'nahum',
+    'habakkuk', 'zephaniah', 'haggai', 'zechariah', 'malachi'
+  ];
+  const gospels = ['matthew', 'mark', 'luke', 'john'];
+
+  if (gospels.includes(bookId)) return 'gospels';
+  if (otBooks.includes(bookId)) return 'old_testament';
+  return 'new_testament';
+}
+
+// Convert BibleQuizQuestion to TriviaQuestion
+function convertToTriviaQuestion(quiz: BibleQuizQuestion): TriviaQuestion {
+  // Shuffle the options and find the correct index
+  const allOptions = [quiz.correctAnswer, ...quiz.distractors];
+  const shuffledOptions = shuffleArray(allOptions);
+  const correctIndex = shuffledOptions.indexOf(quiz.correctAnswer);
+
+  return {
+    id: quiz.id,
+    question: quiz.question,
+    answer: quiz.correctAnswer,
+    options: shuffledOptions,
+    correctIndex,
+    category: mapCategory(quiz.category, quiz.bookId),
+    difficulty: quiz.difficulty,
+    explanation: quiz.explanation,
+  };
+}
 
 const CATEGORIES: { value: TriviaCategory | 'all'; label: string; color: string }[] = [
   { value: 'all', label: 'All Categories', color: 'bg-trivia' },
@@ -144,6 +79,36 @@ export default function TriviaPage() {
   const [timeLeft, setTimeLeft] = useState(15);
   const [answers, setAnswers] = useState<{ questionId: string; correct: boolean }[]>([]);
 
+  // Get question counts for display
+  const questionCounts = useMemo(() => {
+    const counts: Record<string, number> = {
+      all: BIBLE_QUIZ_QUESTIONS.length,
+      // Categories
+      old_testament: 0,
+      new_testament: 0,
+      gospels: 0,
+      prophets: 0,
+      epistles: 0,
+      characters: 0,
+      geography: 0,
+      numbers: 0,
+      parables: 0,
+      miracles: 0,
+      // Difficulties
+      easy: 0,
+      medium: 0,
+      hard: 0,
+    };
+
+    BIBLE_QUIZ_QUESTIONS.forEach((q) => {
+      const category = mapCategory(q.category, q.bookId);
+      counts[category] = (counts[category] || 0) + 1;
+      counts[q.difficulty]++;
+    });
+
+    return counts;
+  }, []);
+
   const handleAnswer = useCallback((answerIndex: number) => {
     setSelectedAnswer(answerIndex);
     setShowResult(true);
@@ -176,9 +141,11 @@ export default function TriviaPage() {
   }, [gameState, timeLeft, showResult, handleAnswer]);
 
   const startGame = () => {
-    let filtered = SAMPLE_QUESTIONS;
+    // Filter the quiz questions based on selected category and difficulty
+    let filtered = BIBLE_QUIZ_QUESTIONS;
+
     if (selectedCategory !== 'all') {
-      filtered = filtered.filter(q => q.category === selectedCategory);
+      filtered = filtered.filter(q => mapCategory(q.category, q.bookId) === selectedCategory);
     }
     if (selectedDifficulty !== 'all') {
       filtered = filtered.filter(q => q.difficulty === selectedDifficulty);
@@ -190,8 +157,11 @@ export default function TriviaPage() {
       return;
     }
 
+    // Shuffle and take 10 questions, then convert to TriviaQuestion format
     const shuffled = shuffleArray(filtered).slice(0, 10);
-    setQuestions(shuffled);
+    const triviaQuestions = shuffled.map(convertToTriviaQuestion);
+
+    setQuestions(triviaQuestions);
     setCurrentQuestion(0);
     setScore(0);
     setStreak(0);
@@ -264,7 +234,7 @@ export default function TriviaPage() {
               <CardHeader className="text-center">
                 <CardTitle className="text-2xl">Ready to Play?</CardTitle>
                 <CardDescription>
-                  Answer 10 questions to test your Bible knowledge
+                  Answer 10 questions from our pool of {questionCounts.all} Bible questions
                 </CardDescription>
               </CardHeader>
               <CardContent>
