@@ -26,6 +26,7 @@ import {
   VERSE_THEME_MAP,
   getVerseIdsForTheme,
   getThemeVerseCounts,
+  getThemesForVerse,
   VerseTheme,
 } from '@/data/memory-verse-themes';
 
@@ -1316,6 +1317,31 @@ export default function PracticePage() {
                       {currentVerse.translations.ESV}
                     </p>
                   </div>
+
+                  {/* Verse Themes */}
+                  {(() => {
+                    const themes = getThemesForVerse(currentVerse.id);
+                    if (themes.length === 0) return null;
+                    return (
+                      <div className="flex items-start gap-2">
+                        <Tag className="h-4 w-4 text-muted-foreground mt-0.5 flex-shrink-0" />
+                        <div className="flex flex-wrap gap-1.5">
+                          {themes.map((theme) => {
+                            const colorClasses = getThemeColorClasses(theme.color);
+                            return (
+                              <span
+                                key={theme.id}
+                                className={`px-2 py-0.5 rounded text-xs font-medium ${colorClasses.bg} ${colorClasses.text}`}
+                                title={theme.description}
+                              >
+                                {theme.shortName}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    );
+                  })()}
 
                   {/* Spaced Repetition Status */}
                   {(() => {
