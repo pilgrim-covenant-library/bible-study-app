@@ -1700,6 +1700,106 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+
+  // ============ 2 PETER ============
+  {
+    id: '2-peter-1-3',
+    reference: '2 Peter 1:3',
+    book: '2 Peter',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'His divine power has granted to us all things that pertain to life and godliness, through the knowledge of him who called us to his own glory and excellence.',
+      NIV: 'His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness.',
+      KJV: 'According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue.',
+      NASB: 'Seeing that His divine power has granted to us everything pertaining to life and godliness, through the true knowledge of Him who called us by His own glory and excellence.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 1:2',
+        text: 'May grace and peace be multiplied to you in the knowledge of God and of Jesus our Lord.',
+      },
+      after: {
+        reference: '2 Peter 1:4',
+        text: 'By which he has granted to us his precious and very great promises, so that through them you may become partakers of the divine nature.',
+      },
+    },
+  },
+  {
+    id: '2-peter-3-9',
+    reference: '2 Peter 3:9',
+    book: '2 Peter',
+    chapter: 3,
+    verse: 9,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance.',
+      NIV: 'The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.',
+      KJV: 'The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.',
+      NASB: 'The Lord is not slow about His promise, as some count slowness, but is patient toward you, not wishing for any to perish but for all to come to repentance.',
+    },
+    context: {
+      before: {
+        reference: '2 Peter 3:8',
+        text: 'But do not overlook this one fact, beloved, that with the Lord one day is as a thousand years, and a thousand years as one day.',
+      },
+      after: {
+        reference: '2 Peter 3:10',
+        text: 'But the day of the Lord will come like a thief, and then the heavens will pass away with a roar.',
+      },
+    },
+  },
+
+  // ============ JUDE ============
+  {
+    id: 'jude-24',
+    reference: 'Jude 24',
+    book: 'Jude',
+    chapter: 1,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy.',
+      NIV: 'To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy.',
+      KJV: 'Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy.',
+      NASB: 'Now to Him who is able to keep you from stumbling, and to make you stand in the presence of His glory blameless with great joy.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 23',
+        text: 'Save others by snatching them out of the fire; to others show mercy with fear, hating even the garment stained by the flesh.',
+      },
+      after: {
+        reference: 'Jude 25',
+        text: 'To the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time and now and forever. Amen.',
+      },
+    },
+  },
+  {
+    id: 'jude-3',
+    reference: 'Jude 3',
+    book: 'Jude',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Beloved, although I was very eager to write to you about our common salvation, I found it necessary to write appealing to you to contend for the faith that was once for all delivered to the saints.',
+      NIV: 'Dear friends, although I was very eager to write to you about the salvation we share, I felt compelled to write and urge you to contend for the faith that was once for all entrusted to God\'s holy people.',
+      KJV: 'Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints.',
+      NASB: 'Beloved, while I was making every effort to write you about our common salvation, I felt the necessity to write to you appealing that you contend earnestly for the faith which was once for all handed down to the saints.',
+    },
+    context: {
+      before: {
+        reference: 'Jude 2',
+        text: 'May mercy, peace, and love be multiplied to you.',
+      },
+      after: {
+        reference: 'Jude 4',
+        text: 'For certain people have crept in unnoticed who long ago were designated for this condemnation.',
+      },
+    },
+  },
 ];
 
 // Helper functions
