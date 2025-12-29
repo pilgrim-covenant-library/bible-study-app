@@ -28,7 +28,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
   // LAW / PENTATEUCH (Genesis - Deuteronomy)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  // Genesis (3 questions)
+  // Genesis (5 questions)
   {
     id: 'gen-001',
     bookId: 'genesis',
@@ -59,8 +59,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Exodus', 'Judges', 'Ruth'],
     explanation: 'Genesis 37 tells the story of Joseph being sold by his jealous brothers.',
   },
+  {
+    id: 'gen-004',
+    bookId: 'genesis',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book contains the first promise of a Redeemer: "I will put enmity between you and the woman, and between your offspring and her offspring" (3:15)?',
+    correctAnswer: 'Genesis',
+    distractors: ['Isaiah', 'Micah', 'Psalms'],
+    explanation: 'Genesis 3:15, the protoevangelium, is the first gospel promise.',
+  },
+  {
+    id: 'gen-005',
+    bookId: 'genesis',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the Tower of Babel and the confusion of languages?',
+    correctAnswer: 'Genesis',
+    distractors: ['Exodus', 'Deuteronomy', 'Judges'],
+    explanation: 'Genesis 11 describes the scattering of nations at Babel.',
+  },
 
-  // Exodus (3 questions)
+  // Exodus (5 questions)
   {
     id: 'exo-001',
     bookId: 'exodus',
@@ -90,6 +110,26 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: 'Exodus',
     distractors: ['Leviticus', 'Numbers', '1 Kings'],
     explanation: 'Exodus 25-40 provides detailed instructions for the tabernacle.',
+  },
+  {
+    id: 'exo-004',
+    bookId: 'exodus',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book describes the parting of the Red Sea?',
+    correctAnswer: 'Exodus',
+    distractors: ['Numbers', 'Deuteronomy', 'Joshua'],
+    explanation: 'Exodus 14 records God\'s miraculous deliverance at the Red Sea.',
+  },
+  {
+    id: 'exo-005',
+    bookId: 'exodus',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book declares God\'s name as "I AM WHO I AM" (3:14)?',
+    correctAnswer: 'Exodus',
+    distractors: ['Genesis', 'Isaiah', 'John'],
+    explanation: 'Exodus 3:14 reveals God\'s self-existent nature at the burning bush.',
   },
 
   // Leviticus (3 questions)
@@ -703,8 +743,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['1 Chronicles', 'Song of Solomon', '2 Samuel'],
     explanation: 'The Psalms have multiple authors with David writing about half.',
   },
+  {
+    id: 'psa-004',
+    bookId: 'psalms',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book contains prophetic passages about the Messiah\'s crucifixion: "They have pierced my hands and feet" (22:16)?',
+    correctAnswer: 'Psalms',
+    distractors: ['Isaiah', 'Zechariah', 'Daniel'],
+    explanation: 'Psalm 22 prophetically describes Christ\'s suffering on the cross.',
+  },
+  {
+    id: 'psa-005',
+    bookId: 'psalms',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book begins: "Blessed is the man who walks not in the counsel of the wicked" (1:1)?',
+    correctAnswer: 'Psalms',
+    distractors: ['Proverbs', 'Job', 'Ecclesiastes'],
+    explanation: 'Psalm 1 introduces the Psalter with the theme of two ways.',
+  },
 
-  // Proverbs (3 questions)
+  // Proverbs (5 questions)
   {
     id: 'pro-001',
     bookId: 'proverbs',
@@ -734,6 +794,26 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: 'Proverbs',
     distractors: ['Song of Solomon', 'Ruth', 'Ecclesiastes'],
     explanation: 'Proverbs 31:10-31 is the famous acrostic poem of the noble wife.',
+  },
+  {
+    id: 'pro-004',
+    bookId: 'proverbs',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book says: "Trust in the LORD with all your heart, and do not lean on your own understanding" (3:5)?',
+    correctAnswer: 'Proverbs',
+    distractors: ['Psalms', 'Isaiah', 'Jeremiah'],
+    explanation: 'Proverbs 3:5-6 is a beloved exhortation to trust God completely.',
+  },
+  {
+    id: 'pro-005',
+    bookId: 'proverbs',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book personifies Wisdom as a woman calling out in the streets (chapters 1-9)?',
+    correctAnswer: 'Proverbs',
+    distractors: ['Song of Solomon', 'Ecclesiastes', 'Sirach'],
+    explanation: 'Proverbs 1-9 introduces Wisdom as a noble woman to be pursued.',
   },
 
   // Ecclesiastes (3 questions)
@@ -804,7 +884,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
   // MAJOR PROPHETS (Isaiah - Daniel)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  // Isaiah (3 questions)
+  // Isaiah (5 questions)
   {
     id: 'isa-001',
     bookId: 'isaiah',
@@ -834,6 +914,26 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: 'Isaiah',
     distractors: ['Genesis', 'Micah', 'Matthew'],
     explanation: 'Isaiah\'s Immanuel prophecy is cited in Matthew regarding Jesus\' birth.',
+  },
+  {
+    id: 'isa-004',
+    bookId: 'isaiah',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book contains Isaiah\'s vision of the LORD sitting on a throne, with seraphim crying "Holy, holy, holy" (chapter 6)?',
+    correctAnswer: 'Isaiah',
+    distractors: ['Revelation', 'Ezekiel', '1 Kings'],
+    explanation: 'Isaiah 6 records the prophet\'s vision of God\'s holiness.',
+  },
+  {
+    id: 'isa-005',
+    bookId: 'isaiah',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book says: "But those who wait for the LORD shall renew their strength; they shall mount up with wings like eagles" (40:31)?',
+    correctAnswer: 'Isaiah',
+    distractors: ['Psalms', 'Jeremiah', 'Habakkuk'],
+    explanation: 'Isaiah 40:31 promises strength to those who trust in God.',
   },
 
   // Jeremiah (3 questions)
@@ -1520,7 +1620,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
   // PAULINE EPISTLES (Romans - Philemon)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  // Romans (3 questions)
+  // Romans (5 questions)
   {
     id: 'rom-001',
     bookId: 'romans',
@@ -1550,6 +1650,26 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: 'Romans',
     distractors: ['Philippians', 'Jeremiah', 'Psalms'],
     explanation: 'Romans 8:28 offers comfort about God\'s sovereign providence.',
+  },
+  {
+    id: 'rom-004',
+    bookId: 'romans',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter contains the "golden chain of salvation": calling, justification, and glorification (8:29-30)?',
+    correctAnswer: 'Romans',
+    distractors: ['Ephesians', 'Galatians', '1 Peter'],
+    explanation: 'Romans 8:29-30 traces God\'s sovereign work from foreknowledge to glory.',
+  },
+  {
+    id: 'rom-005',
+    bookId: 'romans',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which letter says: "I am not ashamed of the gospel, for it is the power of God for salvation" (1:16)?',
+    correctAnswer: 'Romans',
+    distractors: ['Galatians', '2 Timothy', '1 Corinthians'],
+    explanation: 'Romans 1:16 serves as the thesis statement for the entire letter.',
   },
 
   // 1 Corinthians (3 questions)
@@ -2010,7 +2130,7 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
   // GENERAL EPISTLES (Hebrews - Jude)
   // ═══════════════════════════════════════════════════════════════════════════
 
-  // Hebrews (3 questions)
+  // Hebrews (5 questions)
   {
     id: 'heb-001',
     bookId: 'hebrews',
@@ -2041,8 +2161,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['John', 'Revelation', 'Colossians'],
     explanation: 'Hebrews 13:8 affirms Christ\'s unchanging nature.',
   },
+  {
+    id: 'heb-004',
+    bookId: 'hebrews',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says: "For we do not have a high priest who is unable to sympathize with our weaknesses" (4:15)?',
+    correctAnswer: 'Hebrews',
+    distractors: ['Romans', '1 Peter', 'Colossians'],
+    explanation: 'Hebrews 4:15 highlights Christ\'s compassion as our high priest.',
+  },
+  {
+    id: 'heb-005',
+    bookId: 'hebrews',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter presents Christ as a priest "after the order of Melchizedek" (chapters 5-7)?',
+    correctAnswer: 'Hebrews',
+    distractors: ['Romans', 'Genesis', 'Psalms'],
+    explanation: 'Hebrews develops Christ\'s Melchizedekian priesthood from Psalm 110.',
+  },
 
-  // James (3 questions)
+  // James (5 questions)
   {
     id: 'jam-001',
     bookId: 'james',
@@ -2073,8 +2213,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Jude', '1 Peter', 'Hebrews'],
     explanation: 'James, Jesus\' half-brother, became a leader in Jerusalem.',
   },
+  {
+    id: 'jam-004',
+    bookId: 'james',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says: "If any of you lacks wisdom, let him ask God, who gives generously to all" (1:5)?',
+    correctAnswer: 'James',
+    distractors: ['Proverbs', '1 Corinthians', 'Colossians'],
+    explanation: 'James 1:5 promises God\'s generous wisdom to those who ask.',
+  },
+  {
+    id: 'jam-005',
+    bookId: 'james',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter warns: "You do not know what tomorrow will bring... You ought to say, If the Lord wills" (4:14-15)?',
+    correctAnswer: 'James',
+    distractors: ['Ecclesiastes', 'Proverbs', '1 Peter'],
+    explanation: 'James 4 teaches humble dependence on God\'s sovereign will.',
+  },
 
-  // 1 Peter (3 questions)
+  // 1 Peter (5 questions)
   {
     id: '1pe-001',
     bookId: '1-peter',
@@ -2105,8 +2265,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Colossians', '2 Timothy', 'Titus'],
     explanation: '1 Peter 3:15 is foundational for Christian apologetics.',
   },
+  {
+    id: '1pe-004',
+    bookId: '1-peter',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter commands: "Humble yourselves, therefore, under the mighty hand of God so that at the proper time he may exalt you" (5:6)?',
+    correctAnswer: '1 Peter',
+    distractors: ['James', 'Philippians', 'Colossians'],
+    explanation: '1 Peter 5 calls for humble trust in God\'s sovereign timing.',
+  },
+  {
+    id: '1pe-005',
+    bookId: '1-peter',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which letter says Christ "bore our sins in his body on the tree, that we might die to sin and live to righteousness" (2:24)?',
+    correctAnswer: '1 Peter',
+    distractors: ['Romans', 'Galatians', 'Hebrews'],
+    explanation: '1 Peter 2:24 presents Christ\'s substitutionary atonement.',
+  },
 
-  // 2 Peter (3 questions)
+  // 2 Peter (5 questions)
   {
     id: '2pe-001',
     bookId: '2-peter',
@@ -2137,8 +2317,28 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['2 Timothy', 'Hebrews', 'John'],
     explanation: '2 Peter 1:20-21 teaches the divine inspiration of Scripture.',
   },
+  {
+    id: '2pe-004',
+    bookId: '2-peter',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says: "The Lord is not slow to fulfill his promise... but is patient toward you, not wishing that any should perish" (3:9)?',
+    correctAnswer: '2 Peter',
+    distractors: ['Romans', '1 Timothy', 'Revelation'],
+    explanation: '2 Peter 3:9 explains the delay of Christ\'s return as divine patience.',
+  },
+  {
+    id: '2pe-005',
+    bookId: '2-peter',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter instructs believers to "make every effort to supplement your faith with virtue, and virtue with knowledge" (1:5)?',
+    correctAnswer: '2 Peter',
+    distractors: ['Romans', 'Galatians', 'Colossians'],
+    explanation: '2 Peter 1:5-7 lists the ladder of Christian virtues.',
+  },
 
-  // 1 John (3 questions)
+  // 1 John (5 questions)
   {
     id: '1jo-001',
     bookId: '1-john',
@@ -2168,6 +2368,26 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     correctAnswer: '1 John',
     distractors: ['James', 'Romans', 'Hebrews'],
     explanation: '1 John 1:9 assures believers of forgiveness through confession.',
+  },
+  {
+    id: '1jo-004',
+    bookId: '1-john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter provides three tests of genuine faith: believing the truth, obeying God\'s commands, and loving fellow believers?',
+    correctAnswer: '1 John',
+    distractors: ['James', 'Romans', 'Galatians'],
+    explanation: '1 John interweaves doctrinal, moral, and social tests of faith.',
+  },
+  {
+    id: '1jo-005',
+    bookId: '1-john',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which letter says: "We love because he first loved us" (4:19)?',
+    correctAnswer: '1 John',
+    distractors: ['Romans', 'John', 'Ephesians'],
+    explanation: '1 John 4:19 grounds our love in God\'s prior love for us.',
   },
 
   // 2 John (3 questions)
