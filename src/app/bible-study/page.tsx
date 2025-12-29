@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import {
@@ -145,7 +145,21 @@ export default function BibleStudyPage() {
         {/* Quick Actions */}
         <section className="mb-8">
           <h2 className="text-lg font-semibold mb-4">Quick Start</h2>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/bible-study/search">
+              <Card className="cursor-pointer hover:shadow-md transition-all hover:-translate-y-0.5">
+                <CardContent className="p-4 flex items-center gap-3">
+                  <div className="p-2 rounded-lg bg-purple-500/10">
+                    <Search className="h-5 w-5 text-purple-500" />
+                  </div>
+                  <div>
+                    <div className="font-medium">Search Scripture</div>
+                    <div className="text-sm text-muted-foreground">Find themes & topics</div>
+                  </div>
+                  <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
+                </CardContent>
+              </Card>
+            </Link>
             <Link href="/bible-study/practice">
               <Card className="cursor-pointer hover:shadow-md transition-all hover:-translate-y-0.5">
                 <CardContent className="p-4 flex items-center gap-3">
@@ -154,7 +168,7 @@ export default function BibleStudyPage() {
                   </div>
                   <div>
                     <div className="font-medium">Practice Quiz</div>
-                    <div className="text-sm text-muted-foreground">Test your Bible book knowledge</div>
+                    <div className="text-sm text-muted-foreground">Test your Bible knowledge</div>
                   </div>
                   <ChevronRight className="h-5 w-5 ml-auto text-muted-foreground" />
                 </CardContent>
