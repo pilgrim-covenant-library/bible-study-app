@@ -50,7 +50,7 @@ const features = [
   },
   {
     title: 'Bible Study',
-    description: 'Comprehensive summaries of all 66 books organized by canonical groupings. Test your knowledge with quizzes.',
+    description: 'Explore 1,189 chapter summaries with Reformed commentary insights. Discover Christ in every chapter of Scripture.',
     icon: BookMarked,
     href: '/bible-study',
     color: 'bible',
@@ -177,8 +177,8 @@ export default function Home() {
               <div className="text-sm text-muted-foreground">Theologians</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-bible mb-2">66</div>
-              <div className="text-sm text-muted-foreground">Bible Books</div>
+              <div className="text-3xl font-bold text-bible mb-2">1,189</div>
+              <div className="text-sm text-muted-foreground">Chapter Summaries</div>
             </div>
           </div>
         </div>
