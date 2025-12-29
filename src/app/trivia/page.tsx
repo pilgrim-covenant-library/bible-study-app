@@ -52,7 +52,6 @@ const CATEGORIES: { value: TriviaCategory | 'all'; label: string; color: string 
   { value: 'old_testament', label: 'Old Testament', color: 'bg-amber-600' },
   { value: 'new_testament', label: 'New Testament', color: 'bg-blue-600' },
   { value: 'gospels', label: 'Gospels', color: 'bg-green-600' },
-  { value: 'characters', label: 'Characters', color: 'bg-purple-600' },
 ];
 
 type Difficulty = 'easy' | 'medium' | 'hard';
