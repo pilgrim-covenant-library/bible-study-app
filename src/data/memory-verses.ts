@@ -1214,6 +1214,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'psalm-1-1',
+    reference: 'Psalm 1:1',
+    book: 'Psalms',
+    chapter: 1,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers;',
+      NIV: 'Blessed is the one who does not walk in step with the wicked or stand in the way that sinners take or sit in the company of mockers,',
+      KJV: 'Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.',
+      NASB: 'How blessed is the man who does not walk in the counsel of the wicked, nor stand in the path of sinners, nor sit in the seat of scoffers!',
+    },
+    context: {
+      after: {
+        reference: 'Psalm 1:2',
+        text: 'but his delight is in the law of the LORD, and on his law he meditates day and night.',
+      },
+    },
+  },
+  {
+    id: 'psalm-51-10',
+    reference: 'Psalm 51:10',
+    book: 'Psalms',
+    chapter: 51,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Create in me a clean heart, O God, and renew a right spirit within me.',
+      NIV: 'Create in me a pure heart, O God, and renew a steadfast spirit within me.',
+      KJV: 'Create in me a clean heart, O God; and renew a right spirit within me.',
+      NASB: 'Create in me a clean heart, O God, and renew a steadfast spirit within me.',
+    },
+    context: {
+      before: {
+        reference: 'Psalm 51:9',
+        text: 'Hide your face from my sins, and blot out all my iniquities.',
+      },
+      after: {
+        reference: 'Psalm 51:11',
+        text: 'Cast me not away from your presence, and take not your Holy Spirit from me.',
+      },
+    },
+  },
 
   // ============ PROVERBS ============
   {
@@ -1285,6 +1329,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Proverbs 22:7',
         text: 'The rich rules over the poor, and the borrower is the slave of the lender.',
+      },
+    },
+  },
+  {
+    id: 'proverbs-1-7',
+    reference: 'Proverbs 1:7',
+    book: 'Proverbs',
+    chapter: 1,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The fear of the LORD is the beginning of knowledge; fools despise wisdom and instruction.',
+      NIV: 'The fear of the LORD is the beginning of knowledge, but fools despise wisdom and instruction.',
+      KJV: 'The fear of the LORD is the beginning of knowledge: but fools despise wisdom and instruction.',
+      NASB: 'The fear of the LORD is the beginning of knowledge; fools despise wisdom and instruction.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 1:6',
+        text: 'to understand a proverb and a saying, the words of the wise and their riddles.',
+      },
+      after: {
+        reference: 'Proverbs 1:8',
+        text: 'Hear, my son, your father\'s instruction, and forsake not your mother\'s teaching,',
+      },
+    },
+  },
+  {
+    id: 'proverbs-16-9',
+    reference: 'Proverbs 16:9',
+    book: 'Proverbs',
+    chapter: 16,
+    verse: 9,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The heart of man plans his way, but the LORD establishes his steps.',
+      NIV: 'In their hearts humans plan their course, but the LORD establishes their steps.',
+      KJV: 'A man\'s heart deviseth his way: but the LORD directeth his steps.',
+      NASB: 'The mind of man plans his way, but the LORD directs his steps.',
+    },
+    context: {
+      before: {
+        reference: 'Proverbs 16:8',
+        text: 'Better is a little with righteousness than great revenues with injustice.',
+      },
+      after: {
+        reference: 'Proverbs 16:10',
+        text: 'An oracle is on the lips of a king; his mouth does not sin in judgment.',
       },
     },
   },
@@ -3872,6 +3964,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'hebrews-4-15-16',
+    reference: 'Hebrews 4:15-16',
+    book: 'Hebrews',
+    chapter: 4,
+    verse: 15,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sin. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.',
+      NIV: 'For we do not have a high priest who is unable to empathize with our weaknesses, but we have one who has been tempted in every way, just as we are—yet he did not sin. Let us then approach God\'s throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.',
+      KJV: 'For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin. Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need.',
+      NASB: 'For we do not have a high priest who cannot sympathize with our weaknesses, but One who has been tempted in all things as we are, yet without sin. Therefore let us draw near with confidence to the throne of grace, so that we may receive mercy and find grace to help in time of need.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 4:14',
+        text: 'Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession.',
+      },
+      after: {
+        reference: 'Hebrews 5:1',
+        text: 'For every high priest chosen from among men is appointed to act on behalf of men in relation to God, to offer gifts and sacrifices for sins.',
+      },
+    },
+  },
+  {
+    id: 'hebrews-1-3',
+    reference: 'Hebrews 1:3',
+    book: 'Hebrews',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'He is the radiance of the glory of God and the exact imprint of his nature, and he upholds the universe by the word of his power. After making purification for sins, he sat down at the right hand of the Majesty on high,',
+      NIV: 'The Son is the radiance of God\'s glory and the exact representation of his being, sustaining all things by his powerful word. After he had provided purification for sins, he sat down at the right hand of the Majesty in heaven.',
+      KJV: 'Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;',
+      NASB: 'And He is the radiance of His glory and the exact representation of His nature, and upholds all things by the word of His power. When He had made purification of sins, He sat down at the right hand of the Majesty on high,',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 1:2',
+        text: 'but in these last days he has spoken to us by his Son, whom he appointed the heir of all things, through whom also he created the world.',
+      },
+      after: {
+        reference: 'Hebrews 1:4',
+        text: 'having become as much superior to angels as the name he has inherited is more excellent than theirs.',
+      },
+    },
+  },
 
   // ============ JAMES ============
   {
@@ -3922,6 +4062,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'james-4-7',
+    reference: 'James 4:7',
+    book: 'James',
+    chapter: 4,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Submit yourselves therefore to God. Resist the devil, and he will flee from you.',
+      NIV: 'Submit yourselves, then, to God. Resist the devil, and he will flee from you.',
+      KJV: 'Submit yourselves therefore to God. Resist the devil, and he will flee from you.',
+      NASB: 'Submit therefore to God. Resist the devil and he will flee from you.',
+    },
+    context: {
+      before: {
+        reference: 'James 4:6',
+        text: 'But he gives more grace. Therefore it says, "God opposes the proud but gives grace to the humble."',
+      },
+      after: {
+        reference: 'James 4:8',
+        text: 'Draw near to God, and he will draw near to you. Cleanse your hands, you sinners, and purify your hearts, you double-minded.',
+      },
+    },
+  },
+  {
+    id: 'james-2-26',
+    reference: 'James 2:26',
+    book: 'James',
+    chapter: 2,
+    verse: 26,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For as the body apart from the spirit is dead, so also faith apart from works is dead.',
+      NIV: 'As the body without the spirit is dead, so faith without deeds is dead.',
+      KJV: 'For as the body without the spirit is dead, so faith without works is dead also.',
+      NASB: 'For just as the body without the spirit is dead, so also faith without works is dead.',
+    },
+    context: {
+      before: {
+        reference: 'James 2:25',
+        text: 'And in the same way was not also Rahab the prostitute justified by works when she received the messengers and sent them out by another way?',
+      },
+      after: {
+        reference: 'James 3:1',
+        text: 'Not many of you should become teachers, my brothers, for you know that we who teach will be judged with greater strictness.',
+      },
+    },
+  },
 
   // ============ 1 PETER ============
   {
@@ -3969,6 +4157,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Peter 5:8',
         text: 'Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour.',
+      },
+    },
+  },
+  {
+    id: '1-peter-3-15',
+    reference: '1 Peter 3:15',
+    book: '1 Peter',
+    chapter: 3,
+    verse: 15,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'but in your hearts honor Christ the Lord as holy, always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect,',
+      NIV: 'But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect,',
+      KJV: 'But sanctify the Lord God in your hearts: and be ready always to give an answer to every man that asketh you a reason of the hope that is in you with meekness and fear:',
+      NASB: 'but sanctify Christ as Lord in your hearts, always being ready to make a defense to everyone who asks you to give an account for the hope that is in you, yet with gentleness and reverence;',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 3:14',
+        text: 'But even if you should suffer for righteousness\' sake, you will be blessed. Have no fear of them, nor be troubled,',
+      },
+      after: {
+        reference: '1 Peter 3:16',
+        text: 'having a good conscience, so that, when you are slandered, those who revile your good behavior in Christ may be put to shame.',
+      },
+    },
+  },
+  {
+    id: '1-peter-1-3',
+    reference: '1 Peter 1:3',
+    book: '1 Peter',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,',
+      NIV: 'Praise be to the God and Father of our Lord Jesus Christ! In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead,',
+      KJV: 'Blessed be the God and Father of our Lord Jesus Christ, which according to his abundant mercy hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead,',
+      NASB: 'Blessed be the God and Father of our Lord Jesus Christ, who according to His great mercy has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 1:2',
+        text: 'according to the foreknowledge of God the Father, in the sanctification of the Spirit, for obedience to Jesus Christ and for sprinkling with his blood: May grace and peace be multiplied to you.',
+      },
+      after: {
+        reference: '1 Peter 1:4',
+        text: 'to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you,',
       },
     },
   },
