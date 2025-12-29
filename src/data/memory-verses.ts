@@ -2811,6 +2811,223 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: 'isaiah-6-8',
+    reference: 'Isaiah 6:8',
+    book: 'Isaiah',
+    chapter: 6,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And I heard the voice of the Lord saying, "Whom shall I send, and who will go for us?" Then I said, "Here I am! Send me."',
+      NIV: 'Then I heard the voice of the Lord saying, "Whom shall I send? And who will go for us?" And I said, "Here am I. Send me!"',
+      KJV: 'Also I heard the voice of the Lord, saying, Whom shall I send, and who will go for us? Then said I, Here am I; send me.',
+      NASB: 'Then I heard the voice of the Lord, saying, "Whom shall I send, and who will go for Us?" Then I said, "Here am I. Send me!"',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 6:7',
+        text: 'And he touched my mouth and said: "Behold, this has touched your lips; your guilt is taken away, and your sin atoned for."',
+      },
+      after: {
+        reference: 'Isaiah 6:9',
+        text: 'And he said, "Go, and say to this people: Keep on hearing, but do not understand."',
+      },
+    },
+  },
+  {
+    id: 'isaiah-7-14',
+    reference: 'Isaiah 7:14',
+    book: 'Isaiah',
+    chapter: 7,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.',
+      NIV: 'Therefore the Lord himself will give you a sign: The virgin will conceive and give birth to a son, and will call him Immanuel.',
+      KJV: 'Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.',
+      NASB: 'Therefore the Lord Himself will give you a sign: Behold, a virgin will be with child and bear a son, and she will call His name Immanuel.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 7:13',
+        text: 'And he said, "Hear then, O house of David! Is it too little for you to weary men, that you weary my God also?"',
+      },
+      after: {
+        reference: 'Isaiah 7:15',
+        text: 'He shall eat curds and honey when he knows how to refuse the evil and choose the good.',
+      },
+    },
+  },
+  {
+    id: 'isaiah-26-3',
+    reference: 'Isaiah 26:3',
+    book: 'Isaiah',
+    chapter: 26,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'You keep him in perfect peace whose mind is stayed on you, because he trusts in you.',
+      NIV: 'You will keep in perfect peace those whose minds are steadfast, because they trust in you.',
+      KJV: 'Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.',
+      NASB: 'The steadfast of mind You will keep in perfect peace, because he trusts in You.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 26:2',
+        text: 'Open the gates, that the righteous nation that keeps faith may enter in.',
+      },
+      after: {
+        reference: 'Isaiah 26:4',
+        text: 'Trust in the LORD forever, for the LORD GOD is an everlasting rock.',
+      },
+    },
+  },
+  {
+    id: 'isaiah-40-8',
+    reference: 'Isaiah 40:8',
+    book: 'Isaiah',
+    chapter: 40,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The grass withers, the flower fades, but the word of our God will stand forever.',
+      NIV: 'The grass withers and the flowers fall, but the word of our God endures forever.',
+      KJV: 'The grass withereth, the flower fadeth: but the word of our God shall stand for ever.',
+      NASB: 'The grass withers, the flower fades, but the word of our God stands forever.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 40:7',
+        text: 'The grass withers, the flower fades when the breath of the LORD blows on it; surely the people are grass.',
+      },
+      after: {
+        reference: 'Isaiah 40:9',
+        text: 'Go on up to a high mountain, O Zion, herald of good news; lift up your voice with strength.',
+      },
+    },
+  },
+  {
+    id: 'isaiah-43-1',
+    reference: 'Isaiah 43:1',
+    book: 'Isaiah',
+    chapter: 43,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But now thus says the LORD, he who created you, O Jacob, he who formed you, O Israel: "Fear not, for I have redeemed you; I have called you by name, you are mine."',
+      NIV: 'But now, this is what the LORD says—he who created you, Jacob, he who formed you, Israel: "Do not fear, for I have redeemed you; I have summoned you by name; you are mine."',
+      KJV: 'But now thus saith the LORD that created thee, O Jacob, and he that formed thee, O Israel, Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.',
+      NASB: 'But now, thus says the LORD, your Creator, O Jacob, and He who formed you, O Israel, "Do not fear, for I have redeemed you; I have called you by name; you are Mine!"',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 42:25',
+        text: 'So he poured on him the heat of his anger and the might of battle; it set him on fire all around, but he did not understand.',
+      },
+      after: {
+        reference: 'Isaiah 43:2',
+        text: 'When you pass through the waters, I will be with you; and through the rivers, they shall not overwhelm you.',
+      },
+    },
+  },
+  {
+    id: 'isaiah-53-6',
+    reference: 'Isaiah 53:6',
+    book: 'Isaiah',
+    chapter: 53,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'All we like sheep have gone astray; we have turned—every one—to his own way; and the LORD has laid on him the iniquity of us all.',
+      NIV: 'We all, like sheep, have gone astray, each of us has turned to our own way; and the LORD has laid on him the iniquity of us all.',
+      KJV: 'All we like sheep have gone astray; we have turned every one to his own way; and the LORD hath laid on him the iniquity of us all.',
+      NASB: 'All of us like sheep have gone astray, each of us has turned to his own way; but the LORD has caused the iniquity of us all to fall on Him.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 53:5',
+        text: 'But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed.',
+      },
+      after: {
+        reference: 'Isaiah 53:7',
+        text: 'He was oppressed, and he was afflicted, yet he opened not his mouth; like a lamb that is led to the slaughter.',
+      },
+    },
+  },
+  {
+    id: 'isaiah-55-8',
+    reference: 'Isaiah 55:8',
+    book: 'Isaiah',
+    chapter: 55,
+    verse: 8,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For my thoughts are not your thoughts, neither are your ways my ways, declares the LORD.',
+      NIV: '"For my thoughts are not your thoughts, neither are your ways my ways," declares the LORD.',
+      KJV: 'For my thoughts are not your thoughts, neither are your ways my ways, saith the LORD.',
+      NASB: '"For My thoughts are not your thoughts, nor are your ways My ways," declares the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 55:7',
+        text: 'let the wicked forsake his way, and the unrighteous man his thoughts; let him return to the LORD, that he may have compassion on him.',
+      },
+      after: {
+        reference: 'Isaiah 55:9',
+        text: 'For as the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.',
+      },
+    },
+  },
+  {
+    id: 'isaiah-55-11',
+    reference: 'Isaiah 55:11',
+    book: 'Isaiah',
+    chapter: 55,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'so shall my word be that goes out from my mouth; it shall not return to me empty, but it shall accomplish that which I purpose, and shall succeed in the thing for which I sent it.',
+      NIV: 'so is my word that goes out from my mouth: It will not return to me empty, but will accomplish what I desire and achieve the purpose for which I sent it.',
+      KJV: 'So shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.',
+      NASB: 'So will My word be which goes forth from My mouth; it will not return to Me empty, without accomplishing what I desire, and without succeeding in the matter for which I sent it.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 55:10',
+        text: 'For as the rain and the snow come down from heaven and do not return there but water the earth, making it bring forth and sprout.',
+      },
+      after: {
+        reference: 'Isaiah 55:12',
+        text: 'For you shall go out in joy and be led forth in peace; the mountains and the hills before you shall break forth into singing.',
+      },
+    },
+  },
+  {
+    id: 'isaiah-64-6',
+    reference: 'Isaiah 64:6',
+    book: 'Isaiah',
+    chapter: 64,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'We have all become like one who is unclean, and all our righteous deeds are like a polluted garment. We all fade like a leaf, and our iniquities, like the wind, take us away.',
+      NIV: 'All of us have become like one who is unclean, and all our righteous acts are like filthy rags; we all shrivel up like a leaf, and like the wind our sins sweep us away.',
+      KJV: 'But we are all as an unclean thing, and all our righteousnesses are as filthy rags; and we all do fade as a leaf; and our iniquities, like the wind, have taken us away.',
+      NASB: 'For all of us have become like one who is unclean, and all our righteous deeds are like a filthy garment; and all of us wither like a leaf, and our iniquities, like the wind, take us away.',
+    },
+    context: {
+      before: {
+        reference: 'Isaiah 64:5',
+        text: 'You meet him who joyfully works righteousness, those who remember you in your ways.',
+      },
+      after: {
+        reference: 'Isaiah 64:7',
+        text: 'There is no one who calls upon your name, who rouses himself to take hold of you.',
+      },
+    },
+  },
+
   // ============ JEREMIAH ============
   {
     id: 'jeremiah-29-11',
@@ -5773,6 +5990,175 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  {
+    id: 'galatians-2-16',
+    reference: 'Galatians 2:16',
+    book: 'Galatians',
+    chapter: 2,
+    verse: 16,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'yet we know that a person is not justified by works of the law but through faith in Jesus Christ, so we also have believed in Christ Jesus, in order to be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified.',
+      NIV: 'know that a person is not justified by the works of the law, but by faith in Jesus Christ. So we, too, have put our faith in Christ Jesus that we may be justified by faith in Christ and not by the works of the law, because by the works of the law no one will be justified.',
+      KJV: 'Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified.',
+      NASB: 'nevertheless knowing that a man is not justified by the works of the Law but through faith in Christ Jesus, even we have believed in Christ Jesus, so that we may be justified by faith in Christ and not by the works of the Law; since by the works of the Law no flesh will be justified.',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 2:15',
+        text: 'We ourselves are Jews by birth and not Gentile sinners;',
+      },
+      after: {
+        reference: 'Galatians 2:17',
+        text: 'But if, in our endeavor to be justified in Christ, we too were found to be sinners, is Christ then a servant of sin?',
+      },
+    },
+  },
+  {
+    id: 'galatians-3-13',
+    reference: 'Galatians 3:13',
+    book: 'Galatians',
+    chapter: 3,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Christ redeemed us from the curse of the law by becoming a curse for us—for it is written, "Cursed is everyone who is hanged on a tree"—',
+      NIV: 'Christ redeemed us from the curse of the law by becoming a curse for us, for it is written: "Cursed is everyone who is hung on a pole."',
+      KJV: 'Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed is every one that hangeth on a tree:',
+      NASB: 'Christ redeemed us from the curse of the Law, having become a curse for us—for it is written, "Cursed is everyone who hangs on a tree"—',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 3:12',
+        text: 'But the law is not of faith, rather "The one who does them shall live by them."',
+      },
+      after: {
+        reference: 'Galatians 3:14',
+        text: 'so that in Christ Jesus the blessing of Abraham might come to the Gentiles, so that we might receive the promised Spirit through faith.',
+      },
+    },
+  },
+  {
+    id: 'galatians-3-24',
+    reference: 'Galatians 3:24',
+    book: 'Galatians',
+    chapter: 3,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So then, the law was our guardian until Christ came, in order that we might be justified by faith.',
+      NIV: 'So the law was our guardian until Christ came that we might be justified by faith.',
+      KJV: 'Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith.',
+      NASB: 'Therefore the Law has become our tutor to lead us to Christ, so that we may be justified by faith.',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 3:23',
+        text: 'Now before faith came, we were held captive under the law, imprisoned until the coming faith would be revealed.',
+      },
+      after: {
+        reference: 'Galatians 3:25',
+        text: 'But now that faith has come, we are no longer under a guardian,',
+      },
+    },
+  },
+  {
+    id: 'galatians-4-4',
+    reference: 'Galatians 4:4',
+    book: 'Galatians',
+    chapter: 4,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But when the fullness of time had come, God sent forth his Son, born of woman, born under the law,',
+      NIV: 'But when the set time had fully come, God sent his Son, born of a woman, born under the law,',
+      KJV: 'But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law,',
+      NASB: 'But when the fullness of the time came, God sent forth His Son, born of a woman, born under the Law,',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 4:3',
+        text: 'In the same way we also, when we were children, were enslaved to the elementary principles of the world.',
+      },
+      after: {
+        reference: 'Galatians 4:5',
+        text: 'to redeem those who were under the law, so that we might receive adoption as sons.',
+      },
+    },
+  },
+  {
+    id: 'galatians-5-1',
+    reference: 'Galatians 5:1',
+    book: 'Galatians',
+    chapter: 5,
+    verse: 1,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'For freedom Christ has set us free; stand firm therefore, and do not submit again to a yoke of slavery.',
+      NIV: 'It is for freedom that Christ has set us free. Stand firm, then, and do not let yourselves be burdened again by a yoke of slavery.',
+      KJV: 'Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.',
+      NASB: 'It was for freedom that Christ set us free; therefore keep standing firm and do not be subject again to a yoke of slavery.',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 4:31',
+        text: 'So, brothers, we are not children of the slave but of the free woman.',
+      },
+      after: {
+        reference: 'Galatians 5:2',
+        text: 'Look: I, Paul, say to you that if you accept circumcision, Christ will be of no advantage to you.',
+      },
+    },
+  },
+  {
+    id: 'galatians-5-16',
+    reference: 'Galatians 5:16',
+    book: 'Galatians',
+    chapter: 5,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But I say, walk by the Spirit, and you will not gratify the desires of the flesh.',
+      NIV: 'So I say, walk by the Spirit, and you will not gratify the desires of the flesh.',
+      KJV: 'This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh.',
+      NASB: 'But I say, walk by the Spirit, and you will not carry out the desire of the flesh.',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 5:15',
+        text: 'But if you bite and devour one another, watch out that you are not consumed by one another.',
+      },
+      after: {
+        reference: 'Galatians 5:17',
+        text: 'For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other.',
+      },
+    },
+  },
+  {
+    id: 'galatians-6-7',
+    reference: 'Galatians 6:7',
+    book: 'Galatians',
+    chapter: 6,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Do not be deceived: God is not mocked, for whatever one sows, that will he also reap.',
+      NIV: 'Do not be deceived: God cannot be mocked. A man reaps what he sows.',
+      KJV: 'Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap.',
+      NASB: 'Do not be deceived, God is not mocked; for whatever a man sows, this he will also reap.',
+    },
+    context: {
+      before: {
+        reference: 'Galatians 6:6',
+        text: 'Let the one who is taught the word share all good things with the one who teaches.',
+      },
+      after: {
+        reference: 'Galatians 6:8',
+        text: 'For the one who sows to his own flesh will from the flesh reap corruption, but the one who sows to the Spirit will from the Spirit reap eternal life.',
+      },
+    },
+  },
+
   // ============ EPHESIANS ============
   {
     id: 'ephesians-2-8',
@@ -5867,6 +6253,223 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Ephesians 6:12',
         text: 'For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places.',
+      },
+    },
+  },
+
+  {
+    id: 'ephesians-1-3',
+    reference: 'Ephesians 1:3',
+    book: 'Ephesians',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,',
+      NIV: 'Praise be to the God and Father of our Lord Jesus Christ, who has blessed us in the heavenly realms with every spiritual blessing in Christ.',
+      KJV: 'Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ:',
+      NASB: 'Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 1:2',
+        text: 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
+      },
+      after: {
+        reference: 'Ephesians 1:4',
+        text: 'even as he chose us in him before the foundation of the world, that we should be holy and blameless before him.',
+      },
+    },
+  },
+  {
+    id: 'ephesians-1-4',
+    reference: 'Ephesians 1:4',
+    book: 'Ephesians',
+    chapter: 1,
+    verse: 4,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'even as he chose us in him before the foundation of the world, that we should be holy and blameless before him.',
+      NIV: 'For he chose us in him before the creation of the world to be holy and blameless in his sight.',
+      KJV: 'According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love:',
+      NASB: 'just as He chose us in Him before the foundation of the world, that we would be holy and blameless before Him.',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 1:3',
+        text: 'Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,',
+      },
+      after: {
+        reference: 'Ephesians 1:5',
+        text: 'In love he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,',
+      },
+    },
+  },
+  {
+    id: 'ephesians-2-1',
+    reference: 'Ephesians 2:1',
+    book: 'Ephesians',
+    chapter: 2,
+    verse: 1,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And you were dead in the trespasses and sins',
+      NIV: 'As for you, you were dead in your transgressions and sins,',
+      KJV: 'And you hath he quickened, who were dead in trespasses and sins;',
+      NASB: 'And you were dead in your trespasses and sins,',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 1:23',
+        text: 'which is his body, the fullness of him who fills all in all.',
+      },
+      after: {
+        reference: 'Ephesians 2:2',
+        text: 'in which you once walked, following the course of this world, following the prince of the power of the air.',
+      },
+    },
+  },
+  {
+    id: 'ephesians-2-4',
+    reference: 'Ephesians 2:4',
+    book: 'Ephesians',
+    chapter: 2,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But God, being rich in mercy, because of the great love with which he loved us,',
+      NIV: 'But because of his great love for us, God, who is rich in mercy,',
+      KJV: 'But God, who is rich in mercy, for his great love wherewith he loved us,',
+      NASB: 'But God, being rich in mercy, because of His great love with which He loved us,',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 2:3',
+        text: 'among whom we all once lived in the passions of our flesh, carrying out the desires of the body and the mind, and were by nature children of wrath, like the rest of mankind.',
+      },
+      after: {
+        reference: 'Ephesians 2:5',
+        text: 'even when we were dead in our trespasses, made us alive together with Christ—by grace you have been saved—',
+      },
+    },
+  },
+  {
+    id: 'ephesians-2-10',
+    reference: 'Ephesians 2:10',
+    book: 'Ephesians',
+    chapter: 2,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them.',
+      NIV: 'For we are God\'s handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.',
+      KJV: 'For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.',
+      NASB: 'For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them.',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 2:9',
+        text: 'not a result of works, so that no one may boast.',
+      },
+      after: {
+        reference: 'Ephesians 2:11',
+        text: 'Therefore remember that at one time you Gentiles in the flesh, called "the uncircumcision" by what is called the circumcision.',
+      },
+    },
+  },
+  {
+    id: 'ephesians-3-20',
+    reference: 'Ephesians 3:20',
+    book: 'Ephesians',
+    chapter: 3,
+    verse: 20,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Now to him who is able to do far more abundantly than all that we ask or think, according to the power at work within us,',
+      NIV: 'Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us,',
+      KJV: 'Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,',
+      NASB: 'Now to Him who is able to do far more abundantly beyond all that we ask or think, according to the power that works within us,',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 3:19',
+        text: 'and to know the love of Christ that surpasses knowledge, that you may be filled with all the fullness of God.',
+      },
+      after: {
+        reference: 'Ephesians 3:21',
+        text: 'to him be glory in the church and in Christ Jesus throughout all generations, forever and ever. Amen.',
+      },
+    },
+  },
+  {
+    id: 'ephesians-4-4',
+    reference: 'Ephesians 4:4',
+    book: 'Ephesians',
+    chapter: 4,
+    verse: 4,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'There is one body and one Spirit—just as you were called to the one hope that belongs to your call—',
+      NIV: 'There is one body and one Spirit, just as you were called to one hope when you were called;',
+      KJV: 'There is one body, and one Spirit, even as ye are called in one hope of your calling;',
+      NASB: 'There is one body and one Spirit, just as also you were called in one hope of your calling;',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 4:3',
+        text: 'eager to maintain the unity of the Spirit in the bond of peace.',
+      },
+      after: {
+        reference: 'Ephesians 4:5',
+        text: 'one Lord, one faith, one baptism,',
+      },
+    },
+  },
+  {
+    id: 'ephesians-5-25',
+    reference: 'Ephesians 5:25',
+    book: 'Ephesians',
+    chapter: 5,
+    verse: 25,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Husbands, love your wives, as Christ loved the church and gave himself up for her,',
+      NIV: 'Husbands, love your wives, just as Christ loved the church and gave himself up for her',
+      KJV: 'Husbands, love your wives, even as Christ also loved the church, and gave himself for it;',
+      NASB: 'Husbands, love your wives, just as Christ also loved the church and gave Himself up for her,',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 5:24',
+        text: 'Now as the church submits to Christ, so also wives should submit in everything to their husbands.',
+      },
+      after: {
+        reference: 'Ephesians 5:26',
+        text: 'that he might sanctify her, having cleansed her by the washing of water with the word,',
+      },
+    },
+  },
+  {
+    id: 'ephesians-6-12',
+    reference: 'Ephesians 6:12',
+    book: 'Ephesians',
+    chapter: 6,
+    verse: 12,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For we do not wrestle against flesh and blood, but against the rulers, against the authorities, against the cosmic powers over this present darkness, against the spiritual forces of evil in the heavenly places.',
+      NIV: 'For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world and against the spiritual forces of evil in the heavenly realms.',
+      KJV: 'For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places.',
+      NASB: 'For our struggle is not against flesh and blood, but against the rulers, against the powers, against the world forces of this darkness, against the spiritual forces of wickedness in the heavenly places.',
+    },
+    context: {
+      before: {
+        reference: 'Ephesians 6:11',
+        text: 'Put on the whole armor of God, that you may be able to stand against the schemes of the devil.',
+      },
+      after: {
+        reference: 'Ephesians 6:13',
+        text: 'Therefore take up the whole armor of God, that you may be able to withstand in the evil day, and having done all, to stand firm.',
       },
     },
   },
