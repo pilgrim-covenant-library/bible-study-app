@@ -5,7 +5,7 @@ import Link from 'next/link';
 import {
   ArrowLeft, BookOpen, Send, RotateCcw, Shuffle, ChevronDown, Eye, EyeOff,
   Grid3X3, ArrowUpDown, Layers, GraduationCap,
-  Clock, Flame, Trophy, TrendingUp, Calendar, Target
+  Clock, Flame, Trophy, TrendingUp, Calendar, Target, Tag
 } from 'lucide-react';
 import { useSpacedRepetitionStore } from '@/stores/spacedRepetitionStore';
 import { MEMORY_VERSES } from '@/data/memory-verses';
@@ -21,13 +21,20 @@ import {
   Difficulty,
 } from '@/data/memory-verses';
 import { calculateSimilarity, SimilarityResult } from '@/lib/similarity';
+import {
+  VERSE_THEMES,
+  VERSE_THEME_MAP,
+  getVerseIdsForTheme,
+  getThemeVerseCounts,
+  VerseTheme,
+} from '@/data/memory-verse-themes';
 
 // ============================================================================
 // TYPES & CONSTANTS
 // ============================================================================
 
 type PracticeState = 'select' | 'practice' | 'result';
-type FilterMode = 'difficulty' | 'book' | 'review';
+type FilterMode = 'difficulty' | 'book' | 'review' | 'theme';
 
 // Quiz modes for solo practice
 type QuizMode =
@@ -94,6 +101,32 @@ const QUIZ_MODE_COLORS: Record<'easy' | 'medium' | 'hard', string> = {
   medium: 'border-yellow-200 dark:border-yellow-800 bg-yellow-50 dark:bg-yellow-900/20',
   hard: 'border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-900/20',
 };
+
+// Theme color classes for UI badges
+const THEME_COLOR_CLASSES: Record<string, { bg: string; text: string; border: string }> = {
+  indigo: { bg: 'bg-indigo-100 dark:bg-indigo-900/30', text: 'text-indigo-700 dark:text-indigo-300', border: 'border-indigo-200 dark:border-indigo-800' },
+  emerald: { bg: 'bg-emerald-100 dark:bg-emerald-900/30', text: 'text-emerald-700 dark:text-emerald-300', border: 'border-emerald-200 dark:border-emerald-800' },
+  purple: { bg: 'bg-purple-100 dark:bg-purple-900/30', text: 'text-purple-700 dark:text-purple-300', border: 'border-purple-200 dark:border-purple-800' },
+  rose: { bg: 'bg-rose-100 dark:bg-rose-900/30', text: 'text-rose-700 dark:text-rose-300', border: 'border-rose-200 dark:border-rose-800' },
+  amber: { bg: 'bg-amber-100 dark:bg-amber-900/30', text: 'text-amber-700 dark:text-amber-300', border: 'border-amber-200 dark:border-amber-800' },
+  cyan: { bg: 'bg-cyan-100 dark:bg-cyan-900/30', text: 'text-cyan-700 dark:text-cyan-300', border: 'border-cyan-200 dark:border-cyan-800' },
+  blue: { bg: 'bg-blue-100 dark:bg-blue-900/30', text: 'text-blue-700 dark:text-blue-300', border: 'border-blue-200 dark:border-blue-800' },
+  green: { bg: 'bg-green-100 dark:bg-green-900/30', text: 'text-green-700 dark:text-green-300', border: 'border-green-200 dark:border-green-800' },
+  orange: { bg: 'bg-orange-100 dark:bg-orange-900/30', text: 'text-orange-700 dark:text-orange-300', border: 'border-orange-200 dark:border-orange-800' },
+  red: { bg: 'bg-red-100 dark:bg-red-900/30', text: 'text-red-700 dark:text-red-300', border: 'border-red-200 dark:border-red-800' },
+  teal: { bg: 'bg-teal-100 dark:bg-teal-900/30', text: 'text-teal-700 dark:text-teal-300', border: 'border-teal-200 dark:border-teal-800' },
+  violet: { bg: 'bg-violet-100 dark:bg-violet-900/30', text: 'text-violet-700 dark:text-violet-300', border: 'border-violet-200 dark:border-violet-800' },
+  pink: { bg: 'bg-pink-100 dark:bg-pink-900/30', text: 'text-pink-700 dark:text-pink-300', border: 'border-pink-200 dark:border-pink-800' },
+  sky: { bg: 'bg-sky-100 dark:bg-sky-900/30', text: 'text-sky-700 dark:text-sky-300', border: 'border-sky-200 dark:border-sky-800' },
+  lime: { bg: 'bg-lime-100 dark:bg-lime-900/30', text: 'text-lime-700 dark:text-lime-300', border: 'border-lime-200 dark:border-lime-800' },
+  fuchsia: { bg: 'bg-fuchsia-100 dark:bg-fuchsia-900/30', text: 'text-fuchsia-700 dark:text-fuchsia-300', border: 'border-fuchsia-200 dark:border-fuchsia-800' },
+  slate: { bg: 'bg-slate-100 dark:bg-slate-900/30', text: 'text-slate-700 dark:text-slate-300', border: 'border-slate-200 dark:border-slate-800' },
+  yellow: { bg: 'bg-yellow-100 dark:bg-yellow-900/30', text: 'text-yellow-700 dark:text-yellow-300', border: 'border-yellow-200 dark:border-yellow-800' },
+};
+
+function getThemeColorClasses(color: string) {
+  return THEME_COLOR_CLASSES[color] || THEME_COLOR_CLASSES.slate;
+}
 
 // ============================================================================
 // UTILITY FUNCTIONS
@@ -164,6 +197,7 @@ export default function PracticePage() {
   const [filterMode, setFilterMode] = useState<FilterMode>('difficulty');
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | 'all'>('all');
   const [selectedBook, setSelectedBook] = useState<string>('all');
+  const [selectedTheme, setSelectedTheme] = useState<string>('all');
 
   // Practice history
   const [practiceHistory, setPracticeHistory] = useState<{
@@ -198,6 +232,13 @@ export default function PracticePage() {
 
   const books = getAllBooks();
   const difficultyCounts = getDifficultyCounts();
+  const themeCounts = useMemo(() => getThemeVerseCounts(), []);
+
+  // Helper to get verses by theme
+  const getVersesByTheme = useCallback((themeId: string): MemoryVerse[] => {
+    const verseIds = getVerseIdsForTheme(themeId);
+    return MEMORY_VERSES.filter(v => verseIds.includes(v.id));
+  }, []);
 
   // Spaced Repetition
   const { recordReview, getDueVerses, getVerseProgress, getStats } = useSpacedRepetitionStore();
@@ -272,13 +313,24 @@ export default function PracticePage() {
       } else {
         verse = getRandomVerseByDifficulty(selectedDifficulty);
       }
-    } else {
+    } else if (filterMode === 'book') {
       if (selectedBook === 'all') {
         verse = getRandomVerse();
       } else {
         const bookVerses = getVersesByBook(selectedBook);
         verse = bookVerses[Math.floor(Math.random() * bookVerses.length)];
       }
+    } else if (filterMode === 'theme') {
+      if (selectedTheme === 'all') {
+        verse = getRandomVerse();
+      } else {
+        const themeVerses = getVersesByTheme(selectedTheme);
+        verse = themeVerses.length > 0
+          ? themeVerses[Math.floor(Math.random() * themeVerses.length)]
+          : getRandomVerse();
+      }
+    } else {
+      verse = getRandomVerse();
     }
 
     setCurrentVerse(verse);
@@ -310,7 +362,7 @@ export default function PracticePage() {
     }
 
     setState('practice');
-  }, [filterMode, selectedDifficulty, selectedBook, quizMode, dueVerses, initializeWordBank, initializeReorder, initializeProgressive]);
+  }, [filterMode, selectedDifficulty, selectedBook, selectedTheme, quizMode, dueVerses, getVersesByTheme, initializeWordBank, initializeReorder, initializeProgressive]);
 
   // ============================================================================
   // SUBMIT HANDLERS
@@ -661,6 +713,15 @@ export default function PracticePage() {
                 >
                   By Book
                 </button>
+                <button
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1.5 ${
+                    filterMode === 'theme' ? 'bg-memory text-white' : 'hover:bg-muted'
+                  }`}
+                  onClick={() => setFilterMode('theme')}
+                >
+                  <Tag className="h-4 w-4" />
+                  By Theme
+                </button>
               </div>
             </div>
 
@@ -782,6 +843,40 @@ export default function PracticePage() {
                       onClick={() => setSelectedBook(book)}
                     >
                       <span>{book}</span>
+                      <span className="text-sm opacity-70">{count} verse{count !== 1 ? 's' : ''}</span>
+                    </Button>
+                  );
+                })}
+              </div>
+            )}
+
+            {/* Theme Selection */}
+            {filterMode === 'theme' && (
+              <div className="space-y-2 mb-8 max-h-[350px] overflow-y-auto">
+                <Button
+                  variant={selectedTheme === 'all' ? 'memory' : 'outline'}
+                  className="w-full justify-between h-auto py-2"
+                  onClick={() => setSelectedTheme('all')}
+                >
+                  <span>All Themes</span>
+                  <span className="text-sm opacity-70">{MEMORY_VERSES.length} verses</span>
+                </Button>
+                {VERSE_THEMES.map((theme) => {
+                  const count = themeCounts[theme.id] || 0;
+                  const colorClasses = getThemeColorClasses(theme.color);
+                  return (
+                    <Button
+                      key={theme.id}
+                      variant={selectedTheme === theme.id ? 'memory' : 'outline'}
+                      className="w-full justify-between h-auto py-2 text-left"
+                      onClick={() => setSelectedTheme(theme.id)}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className={`px-2 py-0.5 rounded text-xs font-medium ${colorClasses.bg} ${colorClasses.text}`}>
+                          {theme.shortName}
+                        </span>
+                        <span className="text-sm truncate max-w-[200px]">{theme.name}</span>
+                      </div>
                       <span className="text-sm opacity-70">{count} verse{count !== 1 ? 's' : ''}</span>
                     </Button>
                   );
