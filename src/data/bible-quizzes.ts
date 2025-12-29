@@ -7818,6 +7818,288 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Hebrews', 'Daniel', 'Ezekiel'],
     explanation: 'Revelation 21-22 portrays the eternal city where God dwells with His people.',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ADDITIONAL QUESTIONS - EXPANDING COVERAGE (723 → 748)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // Leviticus (additional)
+  {
+    id: 'lev-011',
+    bookId: 'leviticus',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book commands "You shall love your neighbor as yourself" (19:18), quoted by Jesus as the second great commandment?',
+    correctAnswer: 'Leviticus',
+    distractors: ['Deuteronomy', 'Exodus', 'Proverbs'],
+    explanation: 'Leviticus 19:18 is the origin of this command Jesus paired with loving God (Matthew 22:39).',
+  },
+  {
+    id: 'lev-012',
+    bookId: 'leviticus',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book describes the Day of Atonement (Yom Kippur) when the high priest entered the Most Holy Place?',
+    correctAnswer: 'Leviticus',
+    distractors: ['Exodus', 'Numbers', 'Hebrews'],
+    explanation: 'Leviticus 16 details the annual Day of Atonement rituals, fulfilled in Christ.',
+  },
+
+  // Joshua (additional)
+  {
+    id: 'jos-011',
+    bookId: 'joshua',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book records "Choose this day whom you will serve... as for me and my house, we will serve the LORD" (24:15)?',
+    correctAnswer: 'Joshua',
+    distractors: ['Deuteronomy', 'Judges', '1 Samuel'],
+    explanation: 'Joshua\'s farewell challenge in chapter 24 calls Israel to covenant faithfulness.',
+  },
+  {
+    id: 'jos-012',
+    bookId: 'joshua',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the miraculous fall of Jericho\'s walls after Israel marched around it for seven days?',
+    correctAnswer: 'Joshua',
+    distractors: ['Judges', 'Numbers', 'Deuteronomy'],
+    explanation: 'Joshua 6 describes how God gave Jericho to Israel through obedient faith, not military might.',
+  },
+
+  // Judges (additional)
+  {
+    id: 'jdg-011',
+    bookId: 'judges',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the cycle of sin, oppression, crying out, and deliverance repeated throughout Israel\'s early history?',
+    correctAnswer: 'Judges',
+    distractors: ['Joshua', '1 Samuel', '2 Kings'],
+    explanation: 'Judges follows a repeated pattern showing Israel\'s need for a faithful king.',
+  },
+  {
+    id: 'jdg-012',
+    bookId: 'judges',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book ends with the refrain "In those days there was no king in Israel. Everyone did what was right in his own eyes" (21:25)?',
+    correctAnswer: 'Judges',
+    distractors: ['1 Samuel', 'Ruth', '2 Chronicles'],
+    explanation: 'This refrain in Judges 17:6; 21:25 highlights Israel\'s moral chaos and need for godly leadership.',
+  },
+
+  // 1 Samuel (additional)
+  {
+    id: '1sa-011',
+    bookId: '1-samuel',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book records God saying "The LORD sees not as man sees: man looks on the outward appearance, but the LORD looks on the heart" (16:7)?',
+    correctAnswer: '1 Samuel',
+    distractors: ['Proverbs', 'Psalms', 'Jeremiah'],
+    explanation: '1 Samuel 16:7 explains why God chose David over his older brothers to be king.',
+  },
+
+  // 2 Samuel (additional)
+  {
+    id: '2sa-011',
+    bookId: '2-samuel',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book contains God\'s covenant with David, promising his throne would be established forever?',
+    correctAnswer: '2 Samuel',
+    distractors: ['1 Kings', 'Psalms', '1 Chronicles'],
+    explanation: '2 Samuel 7 records the Davidic covenant, ultimately fulfilled in Christ\'s eternal reign.',
+  },
+
+  // Proverbs (additional)
+  {
+    id: 'pro-011',
+    bookId: 'proverbs',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book says "The fear of the LORD is the beginning of wisdom" (9:10)?',
+    correctAnswer: 'Proverbs',
+    distractors: ['Ecclesiastes', 'Job', 'Psalms'],
+    explanation: 'Proverbs 9:10 (also 1:7) establishes that true wisdom begins with reverence for God.',
+  },
+  {
+    id: 'pro-012',
+    bookId: 'proverbs',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book personifies wisdom as a woman calling out in the streets and inviting the simple to learn understanding (chapters 1-9)?',
+    correctAnswer: 'Proverbs',
+    distractors: ['Ecclesiastes', 'Song of Solomon', 'Job'],
+    explanation: 'Lady Wisdom in Proverbs 1-9 foreshadows Christ, who is our wisdom from God (1 Cor 1:30).',
+  },
+
+  // Ecclesiastes (additional)
+  {
+    id: 'ecc-011',
+    bookId: 'ecclesiastes',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book concludes "Fear God and keep his commandments, for this is the whole duty of man" (12:13)?',
+    correctAnswer: 'Ecclesiastes',
+    distractors: ['Proverbs', 'Deuteronomy', 'Job'],
+    explanation: 'Ecclesiastes 12:13-14 summarizes the book\'s conclusion after exploring life\'s vanities.',
+  },
+
+  // Isaiah (additional)
+  {
+    id: 'isa-013',
+    bookId: 'isaiah',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book prophesies "For unto us a child is born, unto us a son is given... and his name shall be called Wonderful Counselor, Mighty God" (9:6)?',
+    correctAnswer: 'Isaiah',
+    distractors: ['Micah', 'Jeremiah', 'Psalms'],
+    explanation: 'Isaiah 9:6-7 is one of the clearest messianic prophecies of Christ\'s divine nature.',
+  },
+  {
+    id: 'isa-014',
+    bookId: 'isaiah',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which prophet wrote the "Servant Songs" describing one who would be "wounded for our transgressions" and "crushed for our iniquities" (53:5)?',
+    correctAnswer: 'Isaiah',
+    distractors: ['Jeremiah', 'Zechariah', 'Micah'],
+    explanation: 'Isaiah\'s Servant Songs (42, 49, 50, 52-53) prophetically detail Christ\'s suffering and exaltation.',
+  },
+
+  // Jeremiah (additional)
+  {
+    id: 'jer-011',
+    bookId: 'jeremiah',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which prophet spoke of a "new covenant" when God would write His law on hearts (31:31-34)?',
+    correctAnswer: 'Jeremiah',
+    distractors: ['Ezekiel', 'Isaiah', 'Hosea'],
+    explanation: 'Jeremiah 31:31-34 is quoted in Hebrews 8 as fulfilled in Christ\'s new covenant.',
+  },
+  {
+    id: 'jer-012',
+    bookId: 'jeremiah',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book says "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope" (29:11)?',
+    correctAnswer: 'Jeremiah',
+    distractors: ['Isaiah', 'Psalms', 'Proverbs'],
+    explanation: 'Jeremiah 29:11 was God\'s promise to exiled Israel, offering hope beyond their captivity.',
+  },
+
+  // Zechariah (additional)
+  {
+    id: 'zec-011',
+    bookId: 'zechariah',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which prophet foretold the Messiah would be sold for thirty pieces of silver (11:12-13)?',
+    correctAnswer: 'Zechariah',
+    distractors: ['Micah', 'Isaiah', 'Malachi'],
+    explanation: 'Zechariah 11:12-13 precisely predicted the price of Judas\'s betrayal of Jesus.',
+  },
+  {
+    id: 'zec-012',
+    bookId: 'zechariah',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which prophet foretold Jerusalem would "look on me, on him whom they have pierced" (12:10)?',
+    correctAnswer: 'Zechariah',
+    distractors: ['Isaiah', 'Psalms', 'Daniel'],
+    explanation: 'Zechariah 12:10 is cited in John 19:37 as fulfilled at Christ\'s crucifixion.',
+  },
+
+  // 2 Corinthians (additional)
+  {
+    id: '2co-011',
+    bookId: '2-corinthians',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter says "God made him who had no sin to be sin for us, so that in him we might become the righteousness of God" (5:21)?',
+    correctAnswer: '2 Corinthians',
+    distractors: ['Romans', 'Galatians', 'Hebrews'],
+    explanation: '2 Corinthians 5:21 summarizes the great exchange of Christ\'s righteousness for our sin.',
+  },
+  {
+    id: '2co-012',
+    bookId: '2-corinthians',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter describes Paul\'s "thorn in the flesh" and God\'s reply "My grace is sufficient for you" (12:7-9)?',
+    correctAnswer: '2 Corinthians',
+    distractors: ['Galatians', 'Philippians', 'Romans'],
+    explanation: '2 Corinthians 12:7-10 shows God\'s power perfected in human weakness.',
+  },
+
+  // Ephesians (additional)
+  {
+    id: 'eph-011',
+    bookId: 'ephesians',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which letter says "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God" (2:8)?',
+    correctAnswer: 'Ephesians',
+    distractors: ['Romans', 'Galatians', 'Titus'],
+    explanation: 'Ephesians 2:8-9 is the classic statement of salvation by grace alone through faith alone.',
+  },
+  {
+    id: 'eph-012',
+    bookId: 'ephesians',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter describes the "armor of God" including the belt of truth, breastplate of righteousness, and sword of the Spirit?',
+    correctAnswer: 'Ephesians',
+    distractors: ['1 Thessalonians', 'Romans', '1 Peter'],
+    explanation: 'Ephesians 6:10-18 equips believers for spiritual warfare with divine armor.',
+  },
+
+  // Philippians (additional)
+  {
+    id: 'phi-011',
+    bookId: 'philippians',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which letter says "I can do all things through him who strengthens me" (4:13)?',
+    correctAnswer: 'Philippians',
+    distractors: ['2 Corinthians', 'Romans', 'Colossians'],
+    explanation: 'Philippians 4:13 expresses Paul\'s contentment through Christ\'s empowering presence.',
+  },
+  {
+    id: 'phi-012',
+    bookId: 'philippians',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which letter contains the "Christ hymn" describing Jesus emptying himself, taking the form of a servant, and being exalted to the highest place (2:5-11)?',
+    correctAnswer: 'Philippians',
+    distractors: ['Colossians', 'Hebrews', 'John'],
+    explanation: 'Philippians 2:5-11 presents Christ\'s humiliation and exaltation as a model for believers.',
+  },
+
+  // Colossians (additional)
+  {
+    id: 'col-011',
+    bookId: 'colossians',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which letter declares "He is the image of the invisible God, the firstborn of all creation" (1:15)?',
+    correctAnswer: 'Colossians',
+    distractors: ['Hebrews', 'John', 'Philippians'],
+    explanation: 'Colossians 1:15-20 exalts Christ\'s supremacy over all creation and the church.',
+  },
+  {
+    id: 'col-012',
+    bookId: 'colossians',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter warns against being taken captive by "philosophy and empty deceit" and celebrates believers\' fullness in Christ (2:8-10)?',
+    correctAnswer: 'Colossians',
+    distractors: ['Galatians', 'Romans', '1 Corinthians'],
+    explanation: 'Colossians 2 combats false teaching by emphasizing believers\' complete sufficiency in Christ.',
+  },
 ];
 
 // Helper functions for quiz functionality
