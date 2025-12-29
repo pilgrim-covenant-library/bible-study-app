@@ -29,16 +29,8 @@ export interface ReadingPlan {
   getDayReadings: (day: number) => ReadingDay | null;
 }
 
-// Helper to get book info
-function getBook(bookId: string) {
-  return BIBLE_BOOK_SUMMARIES.find(b => b.id === bookId);
-}
-
 // Get all books in canonical order
 const CANONICAL_ORDER = BIBLE_BOOK_SUMMARIES.map(b => b.id);
-
-// Old Testament books
-const OT_BOOKS = BIBLE_BOOK_SUMMARIES.filter(b => b.testament === 'old').map(b => b.id);
 
 // New Testament books
 const NT_BOOKS = BIBLE_BOOK_SUMMARIES.filter(b => b.testament === 'new').map(b => b.id);
