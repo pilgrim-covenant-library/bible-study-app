@@ -5839,6 +5839,198 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'romans-1-16',
+    reference: 'Romans 1:16',
+    book: 'Romans',
+    chapter: 1,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes, to the Jew first and also to the Greek.',
+      NIV: 'For I am not ashamed of the gospel, because it is the power of God that brings salvation to everyone who believes: first to the Jew, then to the Gentile.',
+      KJV: 'For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth; to the Jew first, and also to the Greek.',
+      NASB: 'For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes, to the Jew first and also to the Greek.',
+    },
+    context: {
+      before: {
+        reference: 'Romans 1:15',
+        text: 'So I am eager to preach the gospel to you also who are in Rome.',
+      },
+      after: {
+        reference: 'Romans 1:17',
+        text: 'For in it the righteousness of God is revealed from faith for faith, as it is written, "The righteous shall live by faith."',
+      },
+    },
+  },
+  {
+    id: 'romans-3-24',
+    reference: 'Romans 3:24',
+    book: 'Romans',
+    chapter: 3,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'and are justified by his grace as a gift, through the redemption that is in Christ Jesus,',
+      NIV: 'and all are justified freely by his grace through the redemption that came by Christ Jesus.',
+      KJV: 'Being justified freely by his grace through the redemption that is in Christ Jesus:',
+      NASB: 'being justified as a gift by His grace through the redemption which is in Christ Jesus,',
+    },
+    context: {
+      before: {
+        reference: 'Romans 3:23',
+        text: 'for all have sinned and fall short of the glory of God,',
+      },
+      after: {
+        reference: 'Romans 3:25',
+        text: 'whom God put forward as a propitiation by his blood, to be received by faith.',
+      },
+    },
+  },
+  {
+    id: 'romans-5-1',
+    reference: 'Romans 5:1',
+    book: 'Romans',
+    chapter: 5,
+    verse: 1,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ.',
+      NIV: 'Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ,',
+      KJV: 'Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:',
+      NASB: 'Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ,',
+    },
+    context: {
+      before: {
+        reference: 'Romans 4:25',
+        text: 'who was delivered up for our trespasses and raised for our justification.',
+      },
+      after: {
+        reference: 'Romans 5:2',
+        text: 'Through him we have also obtained access by faith into this grace in which we stand, and we rejoice in hope of the glory of God.',
+      },
+    },
+  },
+  {
+    id: 'romans-8-29',
+    reference: 'Romans 8:29',
+    book: 'Romans',
+    chapter: 8,
+    verse: 29,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers.',
+      NIV: 'For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters.',
+      KJV: 'For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren.',
+      NASB: 'For those whom He foreknew, He also predestined to become conformed to the image of His Son, so that He would be the firstborn among many brethren;',
+    },
+    context: {
+      before: {
+        reference: 'Romans 8:28',
+        text: 'And we know that for those who love God all things work together for good, for those who are called according to his purpose.',
+      },
+      after: {
+        reference: 'Romans 8:30',
+        text: 'And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified.',
+      },
+    },
+  },
+  {
+    id: 'romans-8-38-39',
+    reference: 'Romans 8:38-39',
+    book: 'Romans',
+    chapter: 8,
+    verse: 38,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.',
+      NIV: 'For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.',
+      KJV: 'For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.',
+      NASB: 'For I am convinced that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing, will be able to separate us from the love of God, which is in Christ Jesus our Lord.',
+    },
+    context: {
+      before: {
+        reference: 'Romans 8:37',
+        text: 'No, in all these things we are more than conquerors through him who loved us.',
+      },
+      after: {
+        reference: 'Romans 9:1',
+        text: 'I am speaking the truth in Christ—I am not lying; my conscience bears me witness in the Holy Spirit—',
+      },
+    },
+  },
+  {
+    id: 'romans-9-16',
+    reference: 'Romans 9:16',
+    book: 'Romans',
+    chapter: 9,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So then it depends not on human will or exertion, but on God, who has mercy.',
+      NIV: 'It does not, therefore, depend on human desire or effort, but on God\'s mercy.',
+      KJV: 'So then it is not of him that willeth, nor of him that runneth, but of God that sheweth mercy.',
+      NASB: 'So then it does not depend on the man who wills or the man who runs, but on God who has mercy.',
+    },
+    context: {
+      before: {
+        reference: 'Romans 9:15',
+        text: 'For he says to Moses, "I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion."',
+      },
+      after: {
+        reference: 'Romans 9:17',
+        text: 'For the Scripture says to Pharaoh, "For this very purpose I have raised you up, that I might show my power in you, and that my name might be proclaimed in all the earth."',
+      },
+    },
+  },
+  {
+    id: 'romans-11-33',
+    reference: 'Romans 11:33',
+    book: 'Romans',
+    chapter: 11,
+    verse: 33,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Oh, the depth of the riches and wisdom and knowledge of God! How unsearchable are his judgments and how inscrutable his ways!',
+      NIV: 'Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out!',
+      KJV: 'O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out!',
+      NASB: 'Oh, the depth of the riches both of the wisdom and knowledge of God! How unsearchable are His judgments and unfathomable His ways!',
+    },
+    context: {
+      before: {
+        reference: 'Romans 11:32',
+        text: 'For God has consigned all to disobedience, that he may have mercy on all.',
+      },
+      after: {
+        reference: 'Romans 11:34',
+        text: '"For who has known the mind of the Lord, or who has been his counselor?"',
+      },
+    },
+  },
+  {
+    id: 'romans-13-14',
+    reference: 'Romans 13:14',
+    book: 'Romans',
+    chapter: 13,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires.',
+      NIV: 'Rather, clothe yourselves with the Lord Jesus Christ, and do not think about how to gratify the desires of the flesh.',
+      KJV: 'But put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfil the lusts thereof.',
+      NASB: 'But put on the Lord Jesus Christ, and make no provision for the flesh in regard to its lusts.',
+    },
+    context: {
+      before: {
+        reference: 'Romans 13:13',
+        text: 'Let us walk properly as in the daytime, not in orgies and drunkenness, not in sexual immorality and sensuality, not in quarreling and jealousy.',
+      },
+      after: {
+        reference: 'Romans 14:1',
+        text: 'As for the one who is weak in faith, welcome him, but not to quarrel over opinions.',
+      },
+    },
+  },
 
   // ============ 1 CORINTHIANS ============
   {
@@ -6128,6 +6320,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Corinthians 4:18',
         text: 'as we look not to the things that are seen but to the things that are unseen. For the things that are seen are transient, but the things that are unseen are eternal.',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-3-18',
+    reference: '2 Corinthians 3:18',
+    book: '2 Corinthians',
+    chapter: 3,
+    verse: 18,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And we all, with unveiled face, beholding the glory of the Lord, are being transformed into the same image from one degree of glory to another. For this comes from the Lord who is the Spirit.',
+      NIV: 'And we all, who with unveiled faces contemplate the Lord\'s glory, are being transformed into his image with ever-increasing glory, which comes from the Lord, who is the Spirit.',
+      KJV: 'But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory, even as by the Spirit of the Lord.',
+      NASB: 'But we all, with unveiled face, beholding as in a mirror the glory of the Lord, are being transformed into the same image from glory to glory, just as from the Lord, the Spirit.',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 3:17',
+        text: 'Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom.',
+      },
+      after: {
+        reference: '2 Corinthians 4:1',
+        text: 'Therefore, having this ministry by the mercy of God, we do not lose heart.',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-4-6',
+    reference: '2 Corinthians 4:6',
+    book: '2 Corinthians',
+    chapter: 4,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'For God, who said, "Let light shine out of darkness," has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.',
+      NIV: 'For God, who said, "Let light shine out of darkness," made his light shine in our hearts to give us the light of the knowledge of God\'s glory displayed in the face of Christ.',
+      KJV: 'For God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ.',
+      NASB: 'For God, who said, "Light shall shine out of darkness," is the One who has shone in our hearts to give the Light of the knowledge of the glory of God in the face of Christ.',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 4:5',
+        text: 'For what we proclaim is not ourselves, but Jesus Christ as Lord, with ourselves as your servants for Jesus\' sake.',
+      },
+      after: {
+        reference: '2 Corinthians 4:7',
+        text: 'But we have this treasure in jars of clay, to show that the surpassing power belongs to God and not to us.',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-9-7',
+    reference: '2 Corinthians 9:7',
+    book: '2 Corinthians',
+    chapter: 9,
+    verse: 7,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver.',
+      NIV: 'Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.',
+      KJV: 'Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.',
+      NASB: 'Each one must do just as he has purposed in his heart, not grudgingly or under compulsion, for God loves a cheerful giver.',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 9:6',
+        text: 'The point is this: whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully.',
+      },
+      after: {
+        reference: '2 Corinthians 9:8',
+        text: 'And God is able to make all grace abound to you, so that having all sufficiency in all things at all times, you may abound in every good work.',
+      },
+    },
+  },
+  {
+    id: '2-corinthians-1-3-4',
+    reference: '2 Corinthians 1:3-4',
+    book: '2 Corinthians',
+    chapter: 1,
+    verse: 3,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort, who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by God.',
+      NIV: 'Praise be to the God and Father of our Lord Jesus Christ, the Father of compassion and the God of all comfort, who comforts us in all our troubles, so that we can comfort those in any trouble with the comfort we ourselves receive from God.',
+      KJV: 'Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God.',
+      NASB: 'Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort, who comforts us in all our affliction so that we will be able to comfort those who are in any affliction with the comfort with which we ourselves are comforted by God.',
+    },
+    context: {
+      before: {
+        reference: '2 Corinthians 1:2',
+        text: 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
+      },
+      after: {
+        reference: '2 Corinthians 1:5',
+        text: 'For as we share abundantly in Christ\'s sufferings, so through Christ we share abundantly in comfort too.',
       },
     },
   },
@@ -7739,6 +8027,150 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'hebrews-2-17',
+    reference: 'Hebrews 2:17',
+    book: 'Hebrews',
+    chapter: 2,
+    verse: 17,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Therefore he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest in the service of God, to make propitiation for the sins of the people.',
+      NIV: 'For this reason he had to be made like them, fully human in every way, in order that he might become a merciful and faithful high priest in service to God, and that he might make atonement for the sins of the people.',
+      KJV: 'Wherefore in all things it behoved him to be made like unto his brethren, that he might be a merciful and faithful high priest in things pertaining to God, to make reconciliation for the sins of the people.',
+      NASB: 'Therefore, He had to be made like His brethren in all things, so that He might become a merciful and faithful high priest in things pertaining to God, to make propitiation for the sins of the people.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 2:16',
+        text: 'For surely it is not angels that he helps, but he helps the offspring of Abraham.',
+      },
+      after: {
+        reference: 'Hebrews 2:18',
+        text: 'For because he himself has suffered when tempted, he is able to help those who are being tempted.',
+      },
+    },
+  },
+  {
+    id: 'hebrews-7-25',
+    reference: 'Hebrews 7:25',
+    book: 'Hebrews',
+    chapter: 7,
+    verse: 25,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Consequently, he is able to save to the uttermost those who draw near to God through him, since he always lives to make intercession for them.',
+      NIV: 'Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them.',
+      KJV: 'Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.',
+      NASB: 'Therefore He is able also to save forever those who draw near to God through Him, since He always lives to make intercession for them.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 7:24',
+        text: 'but he holds his priesthood permanently, because he continues forever.',
+      },
+      after: {
+        reference: 'Hebrews 7:26',
+        text: 'For it was indeed fitting that we should have such a high priest, holy, innocent, unstained, separated from sinners, and exalted above the heavens.',
+      },
+    },
+  },
+  {
+    id: 'hebrews-9-14',
+    reference: 'Hebrews 9:14',
+    book: 'Hebrews',
+    chapter: 9,
+    verse: 14,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'how much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to serve the living God.',
+      NIV: 'How much more, then, will the blood of Christ, who through the eternal Spirit offered himself unblemished to God, cleanse our consciences from acts that lead to death, so that we may serve the living God!',
+      KJV: 'How much more shall the blood of Christ, who through the eternal Spirit offered himself without spot to God, purge your conscience from dead works to serve the living God?',
+      NASB: 'how much more will the blood of Christ, who through the eternal Spirit offered Himself without blemish to God, cleanse your conscience from dead works to serve the living God?',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 9:13',
+        text: 'For if the blood of goats and bulls, and the sprinkling of defiled persons with the ashes of a heifer, sanctify for the purification of the flesh,',
+      },
+      after: {
+        reference: 'Hebrews 9:15',
+        text: 'Therefore he is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance,',
+      },
+    },
+  },
+  {
+    id: 'hebrews-10-14',
+    reference: 'Hebrews 10:14',
+    book: 'Hebrews',
+    chapter: 10,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For by a single offering he has perfected for all time those who are being sanctified.',
+      NIV: 'For by one sacrifice he has made perfect forever those who are being made holy.',
+      KJV: 'For by one offering he hath perfected for ever them that are sanctified.',
+      NASB: 'For by one offering He has perfected for all time those who are sanctified.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 10:13',
+        text: 'waiting from that time until his enemies should be made a footstool for his feet.',
+      },
+      after: {
+        reference: 'Hebrews 10:15',
+        text: 'And the Holy Spirit also bears witness to us; for after saying,',
+      },
+    },
+  },
+  {
+    id: 'hebrews-10-24-25',
+    reference: 'Hebrews 10:24-25',
+    book: 'Hebrews',
+    chapter: 10,
+    verse: 24,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And let us consider how to stir up one another to love and good works, not neglecting to meet together, as is the habit of some, but encouraging one another, and all the more as you see the Day drawing near.',
+      NIV: 'And let us consider how we may spur one another on toward love and good deeds, not giving up meeting together, as some are in the habit of doing, but encouraging one another—and all the more as you see the Day approaching.',
+      KJV: 'And let us consider one another to provoke unto love and to good works: Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.',
+      NASB: 'and let us consider how to stimulate one another to love and good deeds, not forsaking our own assembling together, as is the habit of some, but encouraging one another; and all the more as you see the day drawing near.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 10:23',
+        text: 'Let us hold fast the confession of our hope without wavering, for he who promised is faithful.',
+      },
+      after: {
+        reference: 'Hebrews 10:26',
+        text: 'For if we go on sinning deliberately after receiving the knowledge of the truth, there no longer remains a sacrifice for sins,',
+      },
+    },
+  },
+  {
+    id: 'hebrews-11-6',
+    reference: 'Hebrews 11:6',
+    book: 'Hebrews',
+    chapter: 11,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him.',
+      NIV: 'And without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him.',
+      KJV: 'But without faith it is impossible to please him: for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him.',
+      NASB: 'And without faith it is impossible to please Him, for he who comes to God must believe that He is and that He is a rewarder of those who seek Him.',
+    },
+    context: {
+      before: {
+        reference: 'Hebrews 11:5',
+        text: 'By faith Enoch was taken up so that he should not see death, and he was not found, because God had taken him.',
+      },
+      after: {
+        reference: 'Hebrews 11:7',
+        text: 'By faith Noah, being warned by God concerning events as yet unseen, in reverent fear constructed an ark for the saving of his household.',
+      },
+    },
+  },
 
   // ============ JAMES ============
   {
@@ -7932,6 +8364,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Peter 1:4',
         text: 'to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you,',
+      },
+    },
+  },
+  {
+    id: '1-peter-1-18-19',
+    reference: '1 Peter 1:18-19',
+    book: '1 Peter',
+    chapter: 1,
+    verse: 18,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'knowing that you were ransomed from the futile ways inherited from your forefathers, not with perishable things such as silver or gold, but with the precious blood of Christ, like that of a lamb without blemish or spot.',
+      NIV: 'For you know that it was not with perishable things such as silver or gold that you were redeemed from the empty way of life handed down to you from your ancestors, but with the precious blood of Christ, a lamb without blemish or defect.',
+      KJV: 'Forasmuch as ye know that ye were not redeemed with corruptible things, as silver and gold, from your vain conversation received by tradition from your fathers; But with the precious blood of Christ, as of a lamb without blemish and without spot:',
+      NASB: 'knowing that you were not redeemed with perishable things like silver or gold from your futile way of life inherited from your forefathers, but with precious blood, as of a lamb unblemished and spotless, the blood of Christ.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 1:17',
+        text: 'And if you call on him as Father who judges impartially according to each one\'s deeds, conduct yourselves with fear throughout the time of your exile,',
+      },
+      after: {
+        reference: '1 Peter 1:20',
+        text: 'He was foreknown before the foundation of the world but was made manifest in the last times for the sake of you',
+      },
+    },
+  },
+  {
+    id: '1-peter-2-24',
+    reference: '1 Peter 2:24',
+    book: '1 Peter',
+    chapter: 2,
+    verse: 24,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed.',
+      NIV: '"He himself bore our sins" in his body on the cross, so that we might die to sins and live for righteousness; "by his wounds you have been healed."',
+      KJV: 'Who his own self bare our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed.',
+      NASB: 'and He Himself bore our sins in His body on the cross, so that we might die to sin and live to righteousness; for by His wounds you were healed.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 2:23',
+        text: 'When he was reviled, he did not revile in return; when he suffered, he did not threaten, but continued entrusting himself to him who judges justly.',
+      },
+      after: {
+        reference: '1 Peter 2:25',
+        text: 'For you were straying like sheep, but have now returned to the Shepherd and Overseer of your souls.',
+      },
+    },
+  },
+  {
+    id: '1-peter-4-12-13',
+    reference: '1 Peter 4:12-13',
+    book: '1 Peter',
+    chapter: 4,
+    verse: 12,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Beloved, do not be surprised at the fiery trial when it comes upon you to test you, as though something strange were happening to you. But rejoice insofar as you share Christ\'s sufferings, that you may also rejoice and be glad when his glory is revealed.',
+      NIV: 'Dear friends, do not be surprised at the fiery ordeal that has come on you to test you, as though something strange were happening to you. But rejoice inasmuch as you participate in the sufferings of Christ, so that you may be overjoyed when his glory is revealed.',
+      KJV: 'Beloved, think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you: But rejoice, inasmuch as ye are partakers of Christ\'s sufferings; that, when his glory shall be revealed, ye may be glad also with exceeding joy.',
+      NASB: 'Beloved, do not be surprised at the fiery ordeal among you, which comes upon you for your testing, as though some strange thing were happening to you; but to the degree that you share the sufferings of Christ, keep on rejoicing, so that also at the revelation of His glory you may rejoice with exultation.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 4:11',
+        text: 'whoever speaks, as one who speaks oracles of God; whoever serves, as one who serves by the strength that God supplies—in order that in everything God may be glorified through Jesus Christ.',
+      },
+      after: {
+        reference: '1 Peter 4:14',
+        text: 'If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests upon you.',
+      },
+    },
+  },
+  {
+    id: '1-peter-5-8-9',
+    reference: '1 Peter 5:8-9',
+    book: '1 Peter',
+    chapter: 5,
+    verse: 8,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith, knowing that the same kinds of suffering are being experienced by your brotherhood throughout the world.',
+      NIV: 'Be alert and of sober mind. Your enemy the devil prowls around like a roaring lion looking for someone to devour. Resist him, standing firm in the faith, because you know that the family of believers throughout the world is undergoing the same kind of sufferings.',
+      KJV: 'Be sober, be vigilant; because your adversary the devil, as a roaring lion, walketh about, seeking whom he may devour: Whom resist stedfast in the faith, knowing that the same afflictions are accomplished in your brethren that are in the world.',
+      NASB: 'Be of sober spirit, be on the alert. Your adversary, the devil, prowls around like a roaring lion, seeking someone to devour. But resist him, firm in your faith, knowing that the same experiences of suffering are being accomplished by your brethren who are in the world.',
+    },
+    context: {
+      before: {
+        reference: '1 Peter 5:7',
+        text: 'casting all your anxieties on him, because he cares for you.',
+      },
+      after: {
+        reference: '1 Peter 5:10',
+        text: 'And after you have suffered a little while, the God of all grace, who has called you to his eternal glory in Christ, will himself restore, confirm, strengthen, and establish you.',
       },
     },
   },
