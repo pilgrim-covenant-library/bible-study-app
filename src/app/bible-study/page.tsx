@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle, Lightbulb } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp, Flame, Trophy, Target, Cross, RefreshCw, Sparkles, Shuffle, Lightbulb, Goal, Plus, Check, Minus, Settings2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
@@ -16,6 +16,15 @@ import {
 import { ALL_CHAPTER_SUMMARIES, getChaptersByBook } from '@/data/bible-chapter-summaries';
 import { useBookmarksStore } from '@/stores/bookmarksStore';
 import { useReadingProgressStore } from '@/stores/readingProgressStore';
+import {
+  useReadingGoalsStore,
+  calculateGoalProgress,
+  getRecommendedDailyPace,
+  getGoalPeriodLabel,
+  getGoalPeriodDescription,
+  getSuggestedGoals,
+  type GoalPeriod,
+} from '@/stores/readingGoalsStore';
 
 type TestamentFilter = 'all' | Testament;
 
@@ -389,6 +398,101 @@ function ReadingActivityCalendar() {
   );
 }
 
+// Testament Reading Progress Component - shows breakdown by OT/NT
+function TestamentProgressSection() {
+  const { readChapters, getTotalChaptersRead } = useReadingProgressStore();
+  const totalRead = getTotalChaptersRead();
+
+  // Don't show if user hasn't started reading
+  if (totalRead === 0) {
+    return null;
+  }
+
+  // Get OT and NT book IDs from the summary data
+  const otBookIds = new Set(
+    BIBLE_BOOK_SUMMARIES.filter(b => b.testament === 'old').map(b => b.id)
+  );
+  const ntBookIds = new Set(
+    BIBLE_BOOK_SUMMARIES.filter(b => b.testament === 'new').map(b => b.id)
+  );
+
+  // Count chapters per testament from ALL_CHAPTER_SUMMARIES
+  const otTotalChapters = ALL_CHAPTER_SUMMARIES
+    .filter(b => otBookIds.has(b.bookId))
+    .reduce((sum, b) => sum + b.chapters.length, 0);
+  const ntTotalChapters = ALL_CHAPTER_SUMMARIES
+    .filter(b => ntBookIds.has(b.bookId))
+    .reduce((sum, b) => sum + b.chapters.length, 0);
+
+  // Count read chapters per testament
+  const otReadChapters = readChapters.filter(c => otBookIds.has(c.bookId)).length;
+  const ntReadChapters = readChapters.filter(c => ntBookIds.has(c.bookId)).length;
+
+  // Calculate percentages
+  const otPercentage = otTotalChapters > 0 ? Math.round((otReadChapters / otTotalChapters) * 100) : 0;
+  const ntPercentage = ntTotalChapters > 0 ? Math.round((ntReadChapters / ntTotalChapters) * 100) : 0;
+
+  return (
+    <section className="mb-8">
+      <div className="flex items-center gap-2 mb-4">
+        <BookOpen className="h-5 w-5 text-bible" />
+        <h2 className="text-lg font-semibold">Testament Progress</h2>
+      </div>
+      <div className="grid sm:grid-cols-2 gap-4">
+        {/* Old Testament Progress */}
+        <Card className="bg-gradient-to-br from-amber-500/5 via-amber-500/5 to-orange-500/5 border-amber-500/20">
+          <CardContent className="p-4">
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-2">
+                <Scroll className="h-4 w-4 text-amber-500" />
+                <span className="font-medium text-sm">Old Testament</span>
+              </div>
+              <span className="text-xs text-muted-foreground">39 books</span>
+            </div>
+            <div className="flex items-baseline gap-2 mb-2">
+              <span className="text-2xl font-bold text-amber-600 dark:text-amber-400">{otPercentage}%</span>
+              <span className="text-xs text-muted-foreground">
+                {otReadChapters} / {otTotalChapters} chapters
+              </span>
+            </div>
+            <div className="relative h-2 bg-muted rounded-full overflow-hidden">
+              <div
+                className="absolute inset-y-0 left-0 bg-gradient-to-r from-amber-400 to-orange-500 rounded-full transition-all duration-500"
+                style={{ width: `${otPercentage}%` }}
+              />
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* New Testament Progress */}
+        <Card className="bg-gradient-to-br from-blue-500/5 via-blue-500/5 to-indigo-500/5 border-blue-500/20">
+          <CardContent className="p-4">
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-2">
+                <BookMarked className="h-4 w-4 text-blue-500" />
+                <span className="font-medium text-sm">New Testament</span>
+              </div>
+              <span className="text-xs text-muted-foreground">27 books</span>
+            </div>
+            <div className="flex items-baseline gap-2 mb-2">
+              <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">{ntPercentage}%</span>
+              <span className="text-xs text-muted-foreground">
+                {ntReadChapters} / {ntTotalChapters} chapters
+              </span>
+            </div>
+            <div className="relative h-2 bg-muted rounded-full overflow-hidden">
+              <div
+                className="absolute inset-y-0 left-0 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-full transition-all duration-500"
+                style={{ width: `${ntPercentage}%` }}
+              />
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </section>
+  );
+}
+
 // Continue Reading Section Component
 function ContinueReadingSection() {
   const { getRecentReadings, getTotalChaptersRead } = useReadingProgressStore();
@@ -711,6 +815,9 @@ export default function BibleStudyPage() {
 
         {/* Reading Activity Calendar */}
         <ReadingActivityCalendar />
+
+        {/* Testament Progress */}
+        <TestamentProgressSection />
 
         {/* Daily Devotional */}
         <DailyDevotional />
