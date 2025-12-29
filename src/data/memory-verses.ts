@@ -8093,6 +8093,50 @@ export const MEMORY_VERSES: MemoryVerse[] = [
 
   // ============ HABAKKUK ============
   {
+    id: 'habakkuk-1-2',
+    reference: 'Habakkuk 1:2',
+    book: 'Habakkuk',
+    chapter: 1,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'O LORD, how long shall I cry for help, and you will not hear? Or cry to you "Violence!" and you will not save?',
+      NIV: 'How long, LORD, must I call for help, but you do not listen? Or cry out to you, "Violence!" but you do not save?',
+      KJV: 'O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save!',
+      NASB: 'How long, O LORD, will I call for help, and You will not hear? I cry out to You, "Violence!" Yet You do not save.',
+    },
+    context: {
+      after: {
+        reference: 'Habakkuk 1:3',
+        text: 'Why do you make me see iniquity, and why do you idly look at wrong? Destruction and violence are before me; strife and contention arise.',
+      },
+    },
+  },
+  {
+    id: 'habakkuk-1-13',
+    reference: 'Habakkuk 1:13',
+    book: 'Habakkuk',
+    chapter: 1,
+    verse: 13,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'You who are of purer eyes than to see evil and cannot look at wrong, why do you idly look at traitors and remain silent when the wicked swallows up the man more righteous than he?',
+      NIV: 'Your eyes are too pure to look on evil; you cannot tolerate wrongdoing. Why then do you tolerate the treacherous? Why are you silent while the wicked swallow up those more righteous than themselves?',
+      KJV: 'Thou art of purer eyes than to behold evil, and canst not look on iniquity: wherefore lookest thou upon them that deal treacherously, and holdest thy tongue when the wicked devoureth the man that is more righteous than he?',
+      NASB: 'Your eyes are too pure to approve evil, and You cannot look on wickedness with favor. Why do You look with favor on those who deal treacherously? Why are You silent when the wicked swallow up those more righteous than they?',
+    },
+    context: {
+      before: {
+        reference: 'Habakkuk 1:12',
+        text: 'Are you not from everlasting, O LORD my God, my Holy One? We shall not die. O LORD, you have ordained them as a judgment, and you, O Rock, have established them for reproof.',
+      },
+      after: {
+        reference: 'Habakkuk 1:14',
+        text: 'You make mankind like the fish of the sea, like crawling things that have no ruler.',
+      },
+    },
+  },
+  {
     id: 'habakkuk-2-14',
     reference: 'Habakkuk 2:14',
     book: 'Habakkuk',
