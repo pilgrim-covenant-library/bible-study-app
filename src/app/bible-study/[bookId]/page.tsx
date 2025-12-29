@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, notFound } from 'next/navigation';
 import Link from 'next/link';
 import {
@@ -21,6 +21,7 @@ import {
   List,
   Check,
   Bookmark,
+  Link2,
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
@@ -30,7 +31,7 @@ import {
   getPreviousBook,
   type CanonicalGroup,
 } from '@/data/bible-summaries';
-import { getChaptersByBook, type ChapterSummary } from '@/data/bible-chapter-summaries';
+import { getChaptersByBook, ALL_CHAPTER_SUMMARIES, type ChapterSummary } from '@/data/bible-chapter-summaries';
 import { useReadingProgressStore } from '@/stores/readingProgressStore';
 import { useBookmarksStore } from '@/stores/bookmarksStore';
 import { BIBLE_BOOK_SUMMARIES } from '@/data/bible-summaries';
@@ -52,6 +53,113 @@ function getBookName(bookId: string): string {
   return book?.name || bookId;
 }
 
+// Interface for related chapter results
+interface RelatedChapter {
+  bookId: string;
+  bookName: string;
+  chapter: number;
+  title: string;
+  matchingThemes: string[];
+  score: number;
+}
+
+// Normalize a theme for matching (lowercase, remove punctuation)
+function normalizeTheme(theme: string): string {
+  return theme.toLowerCase().replace(/[^a-z0-9\s]/g, '').trim();
+}
+
+// Extract significant words from themes for matching
+function extractThemeWords(themes: string[]): Set<string> {
+  const words = new Set<string>();
+  const stopWords = new Set(['the', 'and', 'of', 'in', 'to', 'a', 'as', 'for', 'with', 'on', 'by', 'from', 'at', 'is', 'an']);
+
+  themes.forEach(theme => {
+    normalizeTheme(theme).split(/\s+/).forEach(word => {
+      if (word.length > 2 && !stopWords.has(word)) {
+        words.add(word);
+      }
+    });
+  });
+
+  return words;
+}
+
+// Find related chapters based on theme similarity
+function findRelatedChapters(
+  currentBookId: string,
+  currentChapter: number,
+  currentThemes: string[],
+  limit: number = 5
+): RelatedChapter[] {
+  if (currentThemes.length === 0) return [];
+
+  const currentWords = extractThemeWords(currentThemes);
+  if (currentWords.size === 0) return [];
+
+  const candidates: RelatedChapter[] = [];
+
+  // Scan all chapters for theme matches
+  for (const book of ALL_CHAPTER_SUMMARIES) {
+    for (const chapter of book.chapters) {
+      // Skip the current chapter
+      if (book.bookId === currentBookId && chapter.chapter === currentChapter) continue;
+
+      const chapterWords = extractThemeWords(chapter.keyThemes);
+      const matchingWords: string[] = [];
+
+      // Find matching theme words
+      currentWords.forEach(word => {
+        if (chapterWords.has(word)) {
+          matchingWords.push(word);
+        }
+      });
+
+      // Only include chapters with at least 2 matching theme words
+      if (matchingWords.length >= 2) {
+        // Find the original themes that matched
+        const matchingThemes = chapter.keyThemes.filter(theme => {
+          const normalized = normalizeTheme(theme);
+          return matchingWords.some(word => normalized.includes(word));
+        });
+
+        candidates.push({
+          bookId: book.bookId,
+          bookName: book.bookName,
+          chapter: chapter.chapter,
+          title: chapter.title,
+          matchingThemes: matchingThemes.slice(0, 3),
+          score: matchingWords.length,
+        });
+      }
+    }
+  }
+
+  // Sort by score (most matches first) and take top results
+  // Also prioritize diversity: try to show chapters from different books
+  candidates.sort((a, b) => {
+    // First sort by score
+    if (b.score !== a.score) return b.score - a.score;
+    // Then by testament diversity (mix OT and NT)
+    return 0;
+  });
+
+  // Select diverse results (limit per book to ensure variety)
+  const selected: RelatedChapter[] = [];
+  const bookCounts = new Map<string, number>();
+  const maxPerBook = 2;
+
+  for (const candidate of candidates) {
+    const count = bookCounts.get(candidate.bookId) || 0;
+    if (count < maxPerBook) {
+      selected.push(candidate);
+      bookCounts.set(candidate.bookId, count + 1);
+      if (selected.length >= limit) break;
+    }
+  }
+
+  return selected;
+}
+
 // Chapter card component with expandable content
 function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   chapter: ChapterSummary;
@@ -63,6 +171,12 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
   const { isBookmarked, addBookmark, removeBookmark } = useBookmarksStore();
   const isRead = isChapterRead(bookId, chapter.chapter);
   const bookmarked = isBookmarked(bookId, chapter.chapter);
+
+  // Compute related chapters only when expanded (memoized for performance)
+  const relatedChapters = useMemo(() => {
+    if (!isExpanded) return [];
+    return findRelatedChapters(bookId, chapter.chapter, chapter.keyThemes, 5);
+  }, [isExpanded, bookId, chapter.chapter, chapter.keyThemes]);
 
   const handleReadToggle = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -176,6 +290,50 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {chapter.christConnection}
               </p>
+            </div>
+          )}
+
+          {/* Related Chapters */}
+          {relatedChapters.length > 0 && (
+            <div className="pt-2 border-t">
+              <div className="flex items-center gap-2 mb-3">
+                <Link2 className="h-4 w-4 text-purple-500" />
+                <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">Related Chapters</span>
+              </div>
+              <div className="grid gap-2">
+                {relatedChapters.map((related) => (
+                  <Link
+                    key={`${related.bookId}-${related.chapter}`}
+                    href={`/bible-study/${related.bookId}#chapter-${related.chapter}`}
+                    className="group flex items-start gap-3 p-2 rounded-lg hover:bg-muted/50 transition-colors"
+                  >
+                    <span className="flex items-center justify-center w-6 h-6 rounded-full bg-purple-500/10 text-purple-600 dark:text-purple-400 font-semibold text-xs shrink-0">
+                      {related.chapter}
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs text-muted-foreground">{related.bookName}</span>
+                        <ChevronRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </div>
+                      <div className="text-sm font-medium truncate group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                        {related.title}
+                      </div>
+                      {related.matchingThemes.length > 0 && (
+                        <div className="flex flex-wrap gap-1 mt-1">
+                          {related.matchingThemes.map((theme, idx) => (
+                            <span
+                              key={idx}
+                              className="text-[10px] px-1.5 py-0.5 bg-purple-500/10 text-purple-600 dark:text-purple-400 rounded-full"
+                            >
+                              {theme}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
           )}
         </CardContent>
