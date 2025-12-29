@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X } from 'lucide-react';
+import { ArrowLeft, BookMarked, ChevronRight, BookOpen, Scroll, FileText, Search, Calendar, Bookmark, X, Clock, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import {
@@ -14,6 +14,7 @@ import {
 } from '@/data/bible-summaries';
 import { ALL_CHAPTER_SUMMARIES, getChaptersByBook } from '@/data/bible-chapter-summaries';
 import { useBookmarksStore } from '@/stores/bookmarksStore';
+import { useReadingProgressStore } from '@/stores/readingProgressStore';
 
 type TestamentFilter = 'all' | Testament;
 
@@ -100,6 +101,98 @@ function BookmarksSection() {
           </span>
         </div>
       )}
+    </section>
+  );
+}
+
+// Helper to get book name from bookId
+function getBookNameFromId(bookId: string): string {
+  const book = BIBLE_BOOK_SUMMARIES.find(b => b.id === bookId);
+  return book?.name || bookId;
+}
+
+// Helper to get chapter title from bookId and chapter number
+function getChapterTitle(bookId: string, chapter: number): string {
+  const chapters = getChaptersByBook(bookId);
+  const chapterData = chapters.find(c => c.chapter === chapter);
+  return chapterData?.title || `Chapter ${chapter}`;
+}
+
+// Format relative time (e.g., "2 hours ago", "Yesterday")
+function formatRelativeTime(dateString: string): string {
+  const date = new Date(dateString);
+  const now = new Date();
+  const diffMs = now.getTime() - date.getTime();
+  const diffMins = Math.floor(diffMs / (1000 * 60));
+  const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+  if (diffMins < 1) return 'Just now';
+  if (diffMins < 60) return `${diffMins}m ago`;
+  if (diffHours < 24) return `${diffHours}h ago`;
+  if (diffDays === 1) return 'Yesterday';
+  if (diffDays < 7) return `${diffDays} days ago`;
+  return date.toLocaleDateString();
+}
+
+// Continue Reading Section Component
+function ContinueReadingSection() {
+  const { getRecentReadings, getTotalChaptersRead } = useReadingProgressStore();
+  const recentReadings = getRecentReadings(4); // Show up to 4 recent readings
+  const totalRead = getTotalChaptersRead();
+
+  if (totalRead === 0) {
+    return null; // Don't show section if no reading history
+  }
+
+  // Calculate overall progress
+  const totalChapters = 1189; // Total chapters in the Bible
+  const progressPercentage = Math.round((totalRead / totalChapters) * 100);
+
+  return (
+    <section className="mb-8">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <Clock className="h-5 w-5 text-green-500" />
+          <h2 className="text-lg font-semibold">Continue Reading</h2>
+        </div>
+        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+          <TrendingUp className="h-4 w-4" />
+          <span>{totalRead} of {totalChapters} chapters read ({progressPercentage}%)</span>
+        </div>
+      </div>
+
+      {/* Overall Progress Bar */}
+      <div className="mb-4">
+        <div className="relative h-2 bg-muted rounded-full overflow-hidden">
+          <div
+            className="absolute inset-y-0 left-0 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full transition-all duration-500"
+            style={{ width: `${progressPercentage}%` }}
+          />
+        </div>
+      </div>
+
+      {/* Recent Readings */}
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        {recentReadings.map((reading) => (
+          <Card key={`${reading.bookId}-${reading.chapter}`} className="group hover:shadow-md transition-all hover:-translate-y-0.5 border-green-500/20">
+            <Link href={`/bible-study/${reading.bookId}`}>
+              <CardContent className="p-4">
+                <div className="flex items-start gap-3">
+                  <div className="flex items-center justify-center w-8 h-8 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 font-semibold text-sm shrink-0">
+                    {reading.chapter}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-xs text-muted-foreground">{getBookNameFromId(reading.bookId)}</div>
+                    <div className="font-medium text-sm truncate">{getChapterTitle(reading.bookId, reading.chapter)}</div>
+                    <div className="text-xs text-muted-foreground mt-1">{formatRelativeTime(reading.readAt)}</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Link>
+          </Card>
+        ))}
+      </div>
     </section>
   );
 }
@@ -265,6 +358,9 @@ export default function BibleStudyPage() {
             </Link>
           </div>
         </section>
+
+        {/* Continue Reading Section */}
+        <ContinueReadingSection />
 
         {/* Bookmarks Section */}
         <BookmarksSection />
