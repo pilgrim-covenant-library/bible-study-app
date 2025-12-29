@@ -8436,6 +8436,230 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Luke', '1 John', 'Acts'],
     explanation: 'John 20:31 explicitly states the evangelistic purpose of the fourth Gospel.',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ADDITIONAL QUESTIONS - REACHING 800 MILESTONE
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // Exodus additional
+  {
+    id: 'exo-011',
+    bookId: 'exodus',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book describes the ten plagues God sent upon Egypt?',
+    correctAnswer: 'Exodus',
+    distractors: ['Genesis', 'Numbers', 'Deuteronomy'],
+    explanation: 'Exodus 7-12 records the ten plagues culminating in the death of the firstborn and the Passover.',
+  },
+  {
+    id: 'exo-012',
+    bookId: 'exodus',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'In which book does God give Moses the Ten Commandments on Mount Sinai?',
+    correctAnswer: 'Exodus',
+    distractors: ['Leviticus', 'Deuteronomy', 'Numbers'],
+    explanation: 'Exodus 20 records the giving of the Ten Commandments at Sinai.',
+  },
+
+  // Numbers additional
+  {
+    id: 'num-011',
+    bookId: 'numbers',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the story of Balaam and his talking donkey?',
+    correctAnswer: 'Numbers',
+    distractors: ['Deuteronomy', 'Joshua', 'Judges'],
+    explanation: 'Numbers 22-24 tells of Balaam, whose donkey spoke to warn him of the angel.',
+  },
+  {
+    id: 'num-012',
+    bookId: 'numbers',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book describes the bronze serpent that Moses lifted up for healing?',
+    correctAnswer: 'Numbers',
+    distractors: ['Exodus', 'Deuteronomy', 'Leviticus'],
+    explanation: 'Numbers 21:4-9 records the bronze serpent, which Jesus compared to His own lifting up (John 3:14).',
+  },
+
+  // Daniel additional
+  {
+    id: 'dan-011',
+    bookId: 'daniel',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book tells of three men thrown into a fiery furnace for refusing to worship an idol?',
+    correctAnswer: 'Daniel',
+    distractors: ['Ezekiel', 'Jeremiah', 'Isaiah'],
+    explanation: 'Daniel 3 records Shadrach, Meshach, and Abednego in the fiery furnace.',
+  },
+  {
+    id: 'dan-012',
+    bookId: 'daniel',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book contains the vision of the Son of Man coming with the clouds of heaven?',
+    correctAnswer: 'Daniel',
+    distractors: ['Ezekiel', 'Zechariah', 'Isaiah'],
+    explanation: 'Daniel 7:13-14 presents the Son of Man receiving eternal dominion from the Ancient of Days.',
+  },
+
+  // Ezekiel additional
+  {
+    id: 'eze-011',
+    bookId: 'ezekiel',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which prophet saw a vision of a valley of dry bones that came to life?',
+    correctAnswer: 'Ezekiel',
+    distractors: ['Isaiah', 'Jeremiah', 'Daniel'],
+    explanation: 'Ezekiel 37 depicts the valley of dry bones symbolizing Israel\'s restoration.',
+  },
+  {
+    id: 'eze-012',
+    bookId: 'ezekiel',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which prophet was commanded to lie on his side for 390 days to symbolize Israel\'s sin?',
+    correctAnswer: 'Ezekiel',
+    distractors: ['Jeremiah', 'Isaiah', 'Hosea'],
+    explanation: 'Ezekiel 4 records various symbolic acts, including lying on his side to bear Israel\'s iniquity.',
+  },
+
+  // 1 Kings additional
+  {
+    id: '1ki-011',
+    bookId: '1-kings',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records Elijah\'s contest with the prophets of Baal on Mount Carmel?',
+    correctAnswer: '1 Kings',
+    distractors: ['2 Kings', '1 Chronicles', '2 Chronicles'],
+    explanation: '1 Kings 18 describes Elijah\'s dramatic victory over Baal\'s 450 prophets.',
+  },
+  {
+    id: '1ki-012',
+    bookId: '1-kings',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book describes Solomon building the temple in Jerusalem?',
+    correctAnswer: '1 Kings',
+    distractors: ['2 Samuel', '2 Chronicles', 'Ezra'],
+    explanation: '1 Kings 6-8 details Solomon\'s construction and dedication of the temple.',
+  },
+
+  // 2 Kings additional
+  {
+    id: '2ki-011',
+    bookId: '2-kings',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book tells of Elijah being taken up to heaven in a whirlwind with a chariot of fire?',
+    correctAnswer: '2 Kings',
+    distractors: ['1 Kings', '2 Chronicles', 'Isaiah'],
+    explanation: '2 Kings 2 records Elijah\'s dramatic departure as Elisha received his mantle.',
+  },
+  {
+    id: '2ki-012',
+    bookId: '2-kings',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book records Naaman the Syrian being healed of leprosy by washing in the Jordan?',
+    correctAnswer: '2 Kings',
+    distractors: ['1 Kings', 'Isaiah', 'Jeremiah'],
+    explanation: '2 Kings 5 tells how Elisha directed Naaman to wash seven times in the Jordan for healing.',
+  },
+
+  // Nehemiah additional
+  {
+    id: 'neh-011',
+    bookId: 'nehemiah',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book describes rebuilding Jerusalem\'s walls in just 52 days?',
+    correctAnswer: 'Nehemiah',
+    distractors: ['Ezra', 'Haggai', 'Zechariah'],
+    explanation: 'Nehemiah 6:15 records the wall\'s completion in 52 days despite opposition.',
+  },
+  {
+    id: 'neh-012',
+    bookId: 'nehemiah',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which Jewish cupbearer to King Artaxerxes led the effort to rebuild Jerusalem\'s walls?',
+    correctAnswer: 'Nehemiah',
+    distractors: ['Ezra', 'Zerubbabel', 'Joshua'],
+    explanation: 'Nehemiah served as Artaxerxes\' cupbearer before returning to rebuild Jerusalem.',
+  },
+
+  // Ezra additional
+  {
+    id: 'ezr-011',
+    bookId: 'ezra',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book describes the Jewish return from Babylonian exile under Zerubbabel and later Ezra?',
+    correctAnswer: 'Ezra',
+    distractors: ['Nehemiah', 'Daniel', 'Esther'],
+    explanation: 'Ezra records two returns: under Zerubbabel (ch. 1-6) and under Ezra (ch. 7-10).',
+  },
+  {
+    id: 'ezr-012',
+    bookId: 'ezra',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book records the decree of Cyrus allowing Jews to return and rebuild the temple?',
+    correctAnswer: 'Ezra',
+    distractors: ['Nehemiah', 'Daniel', '2 Chronicles'],
+    explanation: 'Ezra 1:1-4 records Cyrus\' decree fulfilling Jeremiah\'s prophecy (Jer 25:11-12).',
+  },
+
+  // Esther additional
+  {
+    id: 'est-012',
+    bookId: 'esther',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the origin of the Jewish festival of Purim?',
+    correctAnswer: 'Esther',
+    distractors: ['Ezra', 'Nehemiah', 'Leviticus'],
+    explanation: 'Esther 9 establishes Purim to commemorate Jewish deliverance from Haman\'s plot.',
+  },
+  {
+    id: 'est-013',
+    bookId: 'esther',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'In which book does someone say "Who knows whether you have not come to the kingdom for such a time as this?" (4:14)?',
+    correctAnswer: 'Esther',
+    distractors: ['Ruth', 'Daniel', 'Nehemiah'],
+    explanation: 'Mordecai challenged Esther to see God\'s providence in her royal position.',
+  },
+
+  // Lamentations additional
+  {
+    id: 'lam-011',
+    bookId: 'lamentations',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book declares "Great is your faithfulness" and "His mercies never come to an end" (3:22-23)?',
+    correctAnswer: 'Lamentations',
+    distractors: ['Psalms', 'Isaiah', 'Jeremiah'],
+    explanation: 'Lamentations 3:22-23 offers hope amid grief over Jerusalem\'s destruction.',
+  },
+  {
+    id: 'lam-012',
+    bookId: 'lamentations',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book consists of five poems mourning the destruction of Jerusalem in 586 BC?',
+    correctAnswer: 'Lamentations',
+    distractors: ['Jeremiah', 'Ezekiel', 'Psalms'],
+    explanation: 'Lamentations contains five chapters, four of which are acrostic poems.',
+  },
 ];
 
 // Helper functions for quiz functionality
