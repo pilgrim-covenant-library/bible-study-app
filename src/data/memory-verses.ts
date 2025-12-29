@@ -2389,30 +2389,6 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
   {
-    id: '1-samuel-16-7',
-    reference: '1 Samuel 16:7',
-    book: '1 Samuel',
-    chapter: 16,
-    verse: 7,
-    difficulty: 'medium',
-    translations: {
-      ESV: 'But the LORD said to Samuel, "Do not look on his appearance or on the height of his stature, because I have rejected him. For the LORD sees not as man sees: man looks on the outward appearance, but the LORD looks on the heart."',
-      NIV: 'But the LORD said to Samuel, "Do not consider his appearance or his height, for I have rejected him. The LORD does not look at the things people look at. People look at the outward appearance, but the LORD looks at the heart."',
-      KJV: 'But the LORD said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the LORD seeth not as man seeth; for man looketh on the outward appearance, but the LORD looketh on the heart.',
-      NASB: 'But the LORD said to Samuel, "Do not look at his appearance or at the height of his stature, because I have rejected him; for God sees not as man sees, for man looks at the outward appearance, but the LORD looks at the heart."',
-    },
-    context: {
-      before: {
-        reference: '1 Samuel 16:6',
-        text: 'When they came, he looked on Eliab and thought, "Surely the LORD\'s anointed is before him."',
-      },
-      after: {
-        reference: '1 Samuel 16:8',
-        text: 'Then Jesse called Abinadab and made him pass before Samuel. And he said, "Neither has the LORD chosen this one."',
-      },
-    },
-  },
-  {
     id: '1-samuel-3-10',
     reference: '1 Samuel 3:10',
     book: '1 Samuel',
@@ -2505,6 +2481,78 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Samuel 12:25',
         text: 'But if you still do wickedly, you shall be swept away, both you and your king.',
+      },
+    },
+  },
+  {
+    id: '1-samuel-2-30',
+    reference: '1 Samuel 2:30',
+    book: '1 Samuel',
+    chapter: 2,
+    verse: 30,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Therefore the LORD, the God of Israel, declares: "I promised that your house and the house of your father should go in and out before me forever," but now the LORD declares: "Far be it from me, for those who honor me I will honor, and those who despise me shall be lightly esteemed."',
+      NIV: 'Therefore the LORD, the God of Israel, declares: "I promised that members of your family would minister before me forever." But now the LORD declares: "Far be it from me! Those who honor me I will honor, but those who despise me will be disdained."',
+      KJV: 'Wherefore the LORD God of Israel saith, I said indeed that thy house, and the house of thy father, should walk before me for ever: but now the LORD saith, Be it far from me; for them that honour me I will honour, and they that despise me shall be lightly esteemed.',
+      NASB: 'Therefore the LORD God of Israel declares, "I did indeed say that your house and the house of your father should walk before Me forever"; but now the LORD declares, "Far be it from Me—for those who honor Me I will honor, and those who despise Me will be lightly esteemed."',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 2:29',
+        text: 'Why then do you scorn my sacrifices and my offerings that I commanded for my dwelling, and honor your sons above me by fattening yourselves on the choicest parts of every offering of my people Israel?',
+      },
+      after: {
+        reference: '1 Samuel 2:31',
+        text: 'Behold, the days are coming when I will cut off your strength and the strength of your father\'s house, so that there will not be an old man in your house.',
+      },
+    },
+  },
+  {
+    id: '1-samuel-7-12',
+    reference: '1 Samuel 7:12',
+    book: '1 Samuel',
+    chapter: 7,
+    verse: 12,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Then Samuel took a stone and set it up between Mizpah and Shen and called its name Ebenezer; for he said, "Till now the LORD has helped us."',
+      NIV: 'Then Samuel took a stone and set it up between Mizpah and Shen. He named it Ebenezer, saying, "Thus far the LORD has helped us."',
+      KJV: 'Then Samuel took a stone, and set it between Mizpah and Shen, and called the name of it Ebenezer, saying, Hitherto hath the LORD helped us.',
+      NASB: 'Then Samuel took a stone and set it between Mizpah and Shen, and named it Ebenezer, saying, "Thus far the LORD has helped us."',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 7:11',
+        text: 'And the men of Israel went out from Mizpah and pursued the Philistines and struck them, as far as below Beth-car.',
+      },
+      after: {
+        reference: '1 Samuel 7:13',
+        text: 'So the Philistines were subdued and did not again enter the territory of Israel. And the hand of the LORD was against the Philistines all the days of Samuel.',
+      },
+    },
+  },
+  {
+    id: '1-samuel-2-6-7',
+    reference: '1 Samuel 2:6-7',
+    book: '1 Samuel',
+    chapter: 2,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD kills and brings to life; he brings down to Sheol and raises up. The LORD makes poor and makes rich; he brings low and he exalts.',
+      NIV: 'The LORD brings death and makes alive; he brings down to the grave and raises up. The LORD sends poverty and wealth; he humbles and he exalts.',
+      KJV: 'The LORD killeth, and maketh alive: he bringeth down to the grave, and bringeth up. The LORD maketh poor, and maketh rich: he bringeth low, and lifteth up.',
+      NASB: 'The LORD kills and makes alive; He brings down to Sheol and raises up. The LORD makes poor and rich; He brings low, He also exalts.',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 2:5',
+        text: 'Those who were full have hired themselves out for bread, but those who were hungry have ceased to hunger. The barren has borne seven, but she who has many children is forlorn.',
+      },
+      after: {
+        reference: '1 Samuel 2:8',
+        text: 'He raises up the poor from the dust; he lifts the needy from the ash heap to make them sit with princes and inherit a seat of honor.',
       },
     },
   },
