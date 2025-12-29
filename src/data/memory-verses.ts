@@ -51,6 +51,30 @@ const BOOK_ORDER: Record<string, number> = {
 export const MEMORY_VERSES: MemoryVerse[] = [
   // ============ GENESIS ============
   {
+    id: 'genesis-3-15',
+    reference: 'Genesis 3:15',
+    book: 'Genesis',
+    chapter: 3,
+    verse: 15,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'I will put enmity between you and the woman, and between your offspring and her offspring; he shall bruise your head, and you shall bruise his heel.',
+      NIV: 'And I will put enmity between you and the woman, and between your offspring and hers; he will crush your head, and you will strike his heel.',
+      KJV: 'And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.',
+      NASB: 'And I will put enmity between you and the woman, and between your seed and her seed; He shall bruise you on the head, and you shall bruise him on the heel.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 3:14',
+        text: 'The LORD God said to the serpent, "Because you have done this, cursed are you above all livestock and above all beasts of the field."',
+      },
+      after: {
+        reference: 'Genesis 3:16',
+        text: 'To the woman he said, "I will surely multiply your pain in childbearing; in pain you shall bring forth children."',
+      },
+    },
+  },
+  {
     id: 'genesis-1-1',
     reference: 'Genesis 1:1',
     book: 'Genesis',
@@ -67,6 +91,132 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Genesis 1:2',
         text: 'The earth was without form and void, and darkness was over the face of the deep. And the Spirit of God was hovering over the face of the waters.',
+      },
+    },
+  },
+
+  // ============ EXODUS ============
+  {
+    id: 'exodus-3-14',
+    reference: 'Exodus 3:14',
+    book: 'Exodus',
+    chapter: 3,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'God said to Moses, "I AM WHO I AM." And he said, "Say this to the people of Israel: \'I AM has sent me to you.\'"',
+      NIV: 'God said to Moses, "I AM WHO I AM. This is what you are to say to the Israelites: \'I AM has sent me to you.\'"',
+      KJV: 'And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.',
+      NASB: 'God said to Moses, "I AM WHO I AM"; and He said, "Thus you shall say to the sons of Israel, \'I AM has sent me to you.\'"',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 3:13',
+        text: 'Then Moses said to God, "If I come to the people of Israel and say to them, \'The God of your fathers has sent me to you,\' and they ask me, \'What is his name?\' what shall I say to them?"',
+      },
+      after: {
+        reference: 'Exodus 3:15',
+        text: 'God also said to Moses, "Say this to the people of Israel: \'The LORD, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has sent me to you.\'"',
+      },
+    },
+  },
+  {
+    id: 'exodus-14-14',
+    reference: 'Exodus 14:14',
+    book: 'Exodus',
+    chapter: 14,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The LORD will fight for you, and you have only to be silent.',
+      NIV: 'The LORD will fight for you; you need only to be still.',
+      KJV: 'The LORD shall fight for you, and ye shall hold your peace.',
+      NASB: 'The LORD will fight for you while you keep silent.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 14:13',
+        text: 'And Moses said to the people, "Fear not, stand firm, and see the salvation of the LORD, which he will work for you today."',
+      },
+      after: {
+        reference: 'Exodus 14:15',
+        text: 'The LORD said to Moses, "Why do you cry to me? Tell the people of Israel to go forward."',
+      },
+    },
+  },
+  {
+    id: 'exodus-20-3',
+    reference: 'Exodus 20:3',
+    book: 'Exodus',
+    chapter: 20,
+    verse: 3,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'You shall have no other gods before me.',
+      NIV: 'You shall have no other gods before me.',
+      KJV: 'Thou shalt have no other gods before me.',
+      NASB: 'You shall have no other gods before Me.',
+    },
+    context: {
+      before: {
+        reference: 'Exodus 20:2',
+        text: 'I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery.',
+      },
+      after: {
+        reference: 'Exodus 20:4',
+        text: 'You shall not make for yourself a carved image, or any likeness of anything that is in heaven above, or that is in the earth beneath.',
+      },
+    },
+  },
+
+  // ============ LEVITICUS ============
+  {
+    id: 'leviticus-19-18',
+    reference: 'Leviticus 19:18',
+    book: 'Leviticus',
+    chapter: 19,
+    verse: 18,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'You shall not take vengeance or bear a grudge against the sons of your own people, but you shall love your neighbor as yourself: I am the LORD.',
+      NIV: 'Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as yourself. I am the LORD.',
+      KJV: 'Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.',
+      NASB: 'You shall not take vengeance, nor bear any grudge against the sons of your people, but you shall love your neighbor as yourself; I am the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 19:17',
+        text: 'You shall not hate your brother in your heart, but you shall reason frankly with your neighbor.',
+      },
+      after: {
+        reference: 'Leviticus 19:19',
+        text: 'You shall keep my statutes.',
+      },
+    },
+  },
+
+  // ============ NUMBERS ============
+  {
+    id: 'numbers-6-24-26',
+    reference: 'Numbers 6:24-26',
+    book: 'Numbers',
+    chapter: 6,
+    verse: 24,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'The LORD bless you and keep you; the LORD make his face to shine upon you and be gracious to you; the LORD lift up his countenance upon you and give you peace.',
+      NIV: 'The LORD bless you and keep you; the LORD make his face shine on you and be gracious to you; the LORD turn his face toward you and give you peace.',
+      KJV: 'The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee: The LORD lift up his countenance upon thee, and give thee peace.',
+      NASB: 'The LORD bless you, and keep you; the LORD make His face shine on you, and be gracious to you; the LORD lift up His countenance on you, and give you peace.',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 6:23',
+        text: 'Speak to Aaron and his sons, saying, Thus you shall bless the people of Israel: you shall say to them.',
+      },
+      after: {
+        reference: 'Numbers 6:27',
+        text: 'So shall they put my name upon the people of Israel, and I will bless them.',
       },
     },
   },
@@ -119,6 +269,238 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Joshua 1:10',
         text: 'And Joshua commanded the officers of the people,',
+      },
+    },
+  },
+
+  // ============ RUTH ============
+  {
+    id: 'ruth-1-16',
+    reference: 'Ruth 1:16',
+    book: 'Ruth',
+    chapter: 1,
+    verse: 16,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But Ruth said, "Do not urge me to leave you or to return from following you. For where you go I will go, and where you lodge I will lodge. Your people shall be my people, and your God my God."',
+      NIV: 'But Ruth replied, "Don\'t urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God."',
+      KJV: 'And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God.',
+      NASB: 'But Ruth said, "Do not urge me to leave you or turn back from following you; for where you go, I will go, and where you lodge, I will lodge. Your people shall be my people, and your God, my God."',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 1:15',
+        text: 'And she said, "See, your sister-in-law has gone back to her people and to her gods; return after your sister-in-law."',
+      },
+      after: {
+        reference: 'Ruth 1:17',
+        text: 'Where you die I will die, and there will I be buried. May the LORD do so to me and more also if anything but death parts me from you.',
+      },
+    },
+  },
+
+  // ============ 1 SAMUEL ============
+  {
+    id: '1-samuel-16-7',
+    reference: '1 Samuel 16:7',
+    book: '1 Samuel',
+    chapter: 16,
+    verse: 7,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'But the LORD said to Samuel, "Do not look on his appearance or on the height of his stature, because I have rejected him. For the LORD sees not as man sees: man looks on the outward appearance, but the LORD looks on the heart."',
+      NIV: 'But the LORD said to Samuel, "Do not consider his appearance or his height, for I have rejected him. The LORD does not look at the things people look at. People look at the outward appearance, but the LORD looks at the heart."',
+      KJV: 'But the LORD said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the LORD seeth not as man seeth; for man looketh on the outward appearance, but the LORD looketh on the heart.',
+      NASB: 'But the LORD said to Samuel, "Do not look at his appearance or at the height of his stature, because I have rejected him; for God sees not as man sees, for man looks at the outward appearance, but the LORD looks at the heart."',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 16:6',
+        text: 'When they came, he looked on Eliab and thought, "Surely the LORD\'s anointed is before him."',
+      },
+      after: {
+        reference: '1 Samuel 16:8',
+        text: 'Then Jesse called Abinadab and made him pass before Samuel.',
+      },
+    },
+  },
+
+  // ============ 2 SAMUEL ============
+  {
+    id: '2-samuel-22-2-3',
+    reference: '2 Samuel 22:2-3',
+    book: '2 Samuel',
+    chapter: 22,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He said, "The LORD is my rock and my fortress and my deliverer, my God, my rock, in whom I take refuge, my shield, and the horn of my salvation, my stronghold and my refuge, my savior; you save me from violence."',
+      NIV: 'He said: "The LORD is my rock, my fortress and my deliverer; my God is my rock, in whom I take refuge, my shield and the horn of my salvation. He is my stronghold, my refuge and my savior—from violent people you save me."',
+      KJV: 'And he said, The LORD is my rock, and my fortress, and my deliverer; The God of my rock; in him will I trust: he is my shield, and the horn of my salvation, my high tower, and my refuge, my saviour; thou savest me from violence.',
+      NASB: 'He said, "The LORD is my rock and my fortress and my deliverer; My God, my rock, in whom I take refuge, My shield and the horn of my salvation, my stronghold and my refuge; My savior, You save me from violence."',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 22:1',
+        text: 'And David spoke to the LORD the words of this song on the day when the LORD delivered him from the hand of all his enemies, and from the hand of Saul.',
+      },
+      after: {
+        reference: '2 Samuel 22:4',
+        text: 'I call upon the LORD, who is worthy to be praised, and I am saved from my enemies.',
+      },
+    },
+  },
+
+  // ============ 1 KINGS ============
+  {
+    id: '1-kings-8-56',
+    reference: '1 Kings 8:56',
+    book: '1 Kings',
+    chapter: 8,
+    verse: 56,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Blessed be the LORD who has given rest to his people Israel, according to all that he promised. Not one word has failed of all his good promise, which he spoke by Moses his servant.',
+      NIV: 'Praise be to the LORD, who has given rest to his people Israel just as he promised. Not one word has failed of all the good promises he gave through his servant Moses.',
+      KJV: 'Blessed be the LORD, that hath given rest unto his people Israel, according to all that he promised: there hath not failed one word of all his good promise, which he promised by the hand of Moses his servant.',
+      NASB: 'Blessed be the LORD, who has given rest to His people Israel, according to all that He promised; not one word has failed of all His good promise, which He promised through Moses His servant.',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 8:55',
+        text: 'And he stood and blessed all the assembly of Israel with a loud voice.',
+      },
+      after: {
+        reference: '1 Kings 8:57',
+        text: 'The LORD our God be with us, as he was with our fathers.',
+      },
+    },
+  },
+
+  // ============ 2 CHRONICLES ============
+  {
+    id: '2-chronicles-7-14',
+    reference: '2 Chronicles 7:14',
+    book: '2 Chronicles',
+    chapter: 7,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'If my people who are called by my name humble themselves, and pray and seek my face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and heal their land.',
+      NIV: 'If my people, who are called by my name, will humble themselves and pray and seek my face and turn from their wicked ways, then I will hear from heaven, and I will forgive their sin and will heal their land.',
+      KJV: 'If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land.',
+      NASB: 'And My people who are called by My name humble themselves and pray and seek My face and turn from their wicked ways, then I will hear from heaven, will forgive their sin and will heal their land.',
+    },
+    context: {
+      before: {
+        reference: '2 Chronicles 7:13',
+        text: 'When I shut up the heavens so that there is no rain, or command the locust to devour the land, or send pestilence among my people.',
+      },
+      after: {
+        reference: '2 Chronicles 7:15',
+        text: 'Now my eyes will be open and my ears attentive to the prayer that is made in this place.',
+      },
+    },
+  },
+
+  // ============ NEHEMIAH ============
+  {
+    id: 'nehemiah-8-10',
+    reference: 'Nehemiah 8:10',
+    book: 'Nehemiah',
+    chapter: 8,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then he said to them, "Go your way. Eat the fat and drink sweet wine and send portions to anyone who has nothing ready, for this day is holy to our Lord. And do not be grieved, for the joy of the LORD is your strength."',
+      NIV: 'Nehemiah said, "Go and enjoy choice food and sweet drinks, and send some to those who have nothing prepared. This day is holy to our Lord. Do not grieve, for the joy of the LORD is your strength."',
+      KJV: 'Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength.',
+      NASB: 'Then he said to them, "Go, eat of the fat, drink of the sweet, and send portions to him who has nothing prepared; for this day is holy to our Lord. Do not be grieved, for the joy of the LORD is your strength."',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 8:9',
+        text: 'And Nehemiah, who was the governor, and Ezra the priest and scribe, and the Levites who taught the people said to all the people, "This day is holy to the LORD your God; do not mourn or weep."',
+      },
+      after: {
+        reference: 'Nehemiah 8:11',
+        text: 'So the Levites calmed all the people, saying, "Be quiet, for this day is holy; do not be grieved."',
+      },
+    },
+  },
+
+  // ============ ESTHER ============
+  {
+    id: 'esther-4-14',
+    reference: 'Esther 4:14',
+    book: 'Esther',
+    chapter: 4,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For if you keep silent at this time, relief and deliverance will rise for the Jews from another place, but you and your father\'s house will perish. And who knows whether you have not come to the kingdom for such a time as this?',
+      NIV: 'For if you remain silent at this time, relief and deliverance for the Jews will arise from another place, but you and your father\'s family will perish. And who knows but that you have come to your royal position for such a time as this?',
+      KJV: 'For if thou altogether holdest thy peace at this time, then shall there enlargement and deliverance arise to the Jews from another place; but thou and thy father\'s house shall be destroyed: and who knoweth whether thou art come to the kingdom for such a time as this?',
+      NASB: 'For if you remain silent at this time, relief and deliverance will arise for the Jews from another place and you and your father\'s house will perish. And who knows whether you have not attained royalty for such a time as this?',
+    },
+    context: {
+      before: {
+        reference: 'Esther 4:13',
+        text: 'Then Mordecai told them to reply to Esther, "Do not think to yourself that in the king\'s palace you will escape any more than all the other Jews."',
+      },
+      after: {
+        reference: 'Esther 4:15',
+        text: 'Then Esther told them to reply to Mordecai.',
+      },
+    },
+  },
+
+  // ============ JOB ============
+  {
+    id: 'job-19-25-26',
+    reference: 'Job 19:25-26',
+    book: 'Job',
+    chapter: 19,
+    verse: 25,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For I know that my Redeemer lives, and at the last he will stand upon the earth. And after my skin has been thus destroyed, yet in my flesh I shall see God.',
+      NIV: 'I know that my redeemer lives, and that in the end he will stand on the earth. And after my skin has been destroyed, yet in my flesh I will see God.',
+      KJV: 'For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth: And though after my skin worms destroy this body, yet in my flesh shall I see God.',
+      NASB: 'As for me, I know that my Redeemer lives, and at the last He will take His stand on the earth. Even after my skin is destroyed, yet from my flesh I shall see God.',
+    },
+    context: {
+      before: {
+        reference: 'Job 19:24',
+        text: 'Oh that with an iron pen and lead they were engraved in the rock forever!',
+      },
+      after: {
+        reference: 'Job 19:27',
+        text: 'Whom I shall see for myself, and my eyes shall behold, and not another.',
+      },
+    },
+  },
+  {
+    id: 'job-1-21',
+    reference: 'Job 1:21',
+    book: 'Job',
+    chapter: 1,
+    verse: 21,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And he said, "Naked I came from my mother\'s womb, and naked shall I return. The LORD gave, and the LORD has taken away; blessed be the name of the LORD."',
+      NIV: 'And said: "Naked I came from my mother\'s womb, and naked I will depart. The LORD gave and the LORD has taken away; may the name of the LORD be praised."',
+      KJV: 'And said, Naked came I out of my mother\'s womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.',
+      NASB: 'He said, "Naked I came from my mother\'s womb, and naked I shall return there. The LORD gave and the LORD has taken away. Blessed be the name of the LORD."',
+    },
+    context: {
+      before: {
+        reference: 'Job 1:20',
+        text: 'Then Job arose and tore his robe and shaved his head and fell on the ground and worshiped.',
+      },
+      after: {
+        reference: 'Job 1:22',
+        text: 'In all this Job did not sin or charge God with wrong.',
       },
     },
   },
@@ -399,6 +781,56 @@ export const MEMORY_VERSES: MemoryVerse[] = [
     },
   },
 
+  // ============ ECCLESIASTES ============
+  {
+    id: 'ecclesiastes-12-13',
+    reference: 'Ecclesiastes 12:13',
+    book: 'Ecclesiastes',
+    chapter: 12,
+    verse: 13,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man.',
+      NIV: 'Now all has been heard; here is the conclusion of the matter: Fear God and keep his commandments, for this is the duty of all mankind.',
+      KJV: 'Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.',
+      NASB: 'The conclusion, when all has been heard, is: fear God and keep His commandments, because this applies to every person.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 12:12',
+        text: 'My son, beware of anything beyond these. Of making many books there is no end, and much study is a weariness of the flesh.',
+      },
+      after: {
+        reference: 'Ecclesiastes 12:14',
+        text: 'For God will bring every deed into judgment, with every secret thing, whether good or evil.',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-3-11',
+    reference: 'Ecclesiastes 3:11',
+    book: 'Ecclesiastes',
+    chapter: 3,
+    verse: 11,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'He has made everything beautiful in its time. Also, he has put eternity into man\'s heart, yet so that he cannot find out what God has done from the beginning to the end.',
+      NIV: 'He has made everything beautiful in its time. He has also set eternity in the human heart; yet no one can fathom what God has done from beginning to end.',
+      KJV: 'He hath made every thing beautiful in his time: also he hath set the world in their heart, so that no man can find out the work that God maketh from the beginning to the end.',
+      NASB: 'He has made everything appropriate in its time. He has also set eternity in their heart, yet so that man will not find out the work which God has done from the beginning even to the end.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 3:10',
+        text: 'I have seen the business that God has given to the children of man to be busy with.',
+      },
+      after: {
+        reference: 'Ecclesiastes 3:12',
+        text: 'I perceived that there is nothing better for them than to be joyful and to do good as long as they live.',
+      },
+    },
+  },
+
   // ============ ISAIAH ============
   {
     id: 'isaiah-40-31',
@@ -545,6 +977,162 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Lamentations 3:24',
         text: '"The LORD is my portion," says my soul, "therefore I will hope in him."',
+      },
+    },
+  },
+
+  // ============ EZEKIEL ============
+  {
+    id: 'ezekiel-36-26',
+    reference: 'Ezekiel 36:26',
+    book: 'Ezekiel',
+    chapter: 36,
+    verse: 26,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh.',
+      NIV: 'I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh.',
+      KJV: 'A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh.',
+      NASB: 'Moreover, I will give you a new heart and put a new spirit within you; and I will remove the heart of stone from your flesh and give you a heart of flesh.',
+    },
+    context: {
+      before: {
+        reference: 'Ezekiel 36:25',
+        text: 'I will sprinkle clean water on you, and you shall be clean from all your uncleannesses, and from all your idols I will cleanse you.',
+      },
+      after: {
+        reference: 'Ezekiel 36:27',
+        text: 'And I will put my Spirit within you, and cause you to walk in my statutes.',
+      },
+    },
+  },
+
+  // ============ DANIEL ============
+  {
+    id: 'daniel-3-17-18',
+    reference: 'Daniel 3:17-18',
+    book: 'Daniel',
+    chapter: 3,
+    verse: 17,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'If this be so, our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of your hand, O king. But if not, be it known to you, O king, that we will not serve your gods or worship the golden image that you have set up.',
+      NIV: 'If we are thrown into the blazing furnace, the God we serve is able to deliver us from it, and he will deliver us from Your Majesty\'s hand. But even if he does not, we want you to know, Your Majesty, that we will not serve your gods or worship the image of gold you have set up.',
+      KJV: 'If it be so, our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of thine hand, O king. But if not, be it known unto thee, O king, that we will not serve thy gods, nor worship the golden image which thou hast set up.',
+      NASB: 'If it be so, our God whom we serve is able to deliver us from the furnace of blazing fire; and He will deliver us out of your hand, O king. But even if He does not, let it be known to you, O king, that we are not going to serve your gods or worship the golden image that you have set up.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 3:16',
+        text: 'Shadrach, Meshach, and Abednego answered and said to the king, "O Nebuchadnezzar, we have no need to answer you in this matter."',
+      },
+      after: {
+        reference: 'Daniel 3:19',
+        text: 'Then Nebuchadnezzar was filled with fury, and the expression of his face was changed against Shadrach, Meshach, and Abednego.',
+      },
+    },
+  },
+
+  // ============ HOSEA ============
+  {
+    id: 'hosea-6-6',
+    reference: 'Hosea 6:6',
+    book: 'Hosea',
+    chapter: 6,
+    verse: 6,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For I desire steadfast love and not sacrifice, the knowledge of God rather than burnt offerings.',
+      NIV: 'For I desire mercy, not sacrifice, and acknowledgment of God rather than burnt offerings.',
+      KJV: 'For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings.',
+      NASB: 'For I delight in loyalty rather than sacrifice, and in the knowledge of God rather than burnt offerings.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 6:5',
+        text: 'Therefore I have hewn them by the prophets; I have slain them by the words of my mouth.',
+      },
+      after: {
+        reference: 'Hosea 6:7',
+        text: 'But like Adam they transgressed the covenant; there they dealt faithlessly with me.',
+      },
+    },
+  },
+
+  // ============ JOEL ============
+  {
+    id: 'joel-2-28',
+    reference: 'Joel 2:28',
+    book: 'Joel',
+    chapter: 2,
+    verse: 28,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy, your old men shall dream dreams, and your young men shall see visions.',
+      NIV: 'And afterward, I will pour out my Spirit on all people. Your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions.',
+      KJV: 'And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions.',
+      NASB: 'It will come about after this that I will pour out My Spirit on all mankind; and your sons and daughters will prophesy, your old men will dream dreams, your young men will see visions.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 2:27',
+        text: 'You shall know that I am in the midst of Israel, and that I am the LORD your God and there is none else.',
+      },
+      after: {
+        reference: 'Joel 2:29',
+        text: 'Even on the male and female servants in those days I will pour out my Spirit.',
+      },
+    },
+  },
+
+  // ============ AMOS ============
+  {
+    id: 'amos-5-24',
+    reference: 'Amos 5:24',
+    book: 'Amos',
+    chapter: 5,
+    verse: 24,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But let justice roll down like waters, and righteousness like an ever-flowing stream.',
+      NIV: 'But let justice roll on like a river, righteousness like a never-failing stream!',
+      KJV: 'But let judgment run down as waters, and righteousness as a mighty stream.',
+      NASB: 'But let justice roll down like waters and righteousness like an ever-flowing stream.',
+    },
+    context: {
+      before: {
+        reference: 'Amos 5:23',
+        text: 'Take away from me the noise of your songs; to the melody of your harps I will not listen.',
+      },
+      after: {
+        reference: 'Amos 5:25',
+        text: 'Did you bring to me sacrifices and offerings during the forty years in the wilderness, O house of Israel?',
+      },
+    },
+  },
+
+  // ============ JONAH ============
+  {
+    id: 'jonah-2-9',
+    reference: 'Jonah 2:9',
+    book: 'Jonah',
+    chapter: 2,
+    verse: 9,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'But I with the voice of thanksgiving will sacrifice to you; what I have vowed I will pay. Salvation belongs to the LORD!',
+      NIV: 'But I, with shouts of grateful praise, will sacrifice to you. What I have vowed I will make good. I will say, "Salvation comes from the LORD."',
+      KJV: 'But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD.',
+      NASB: 'But I will sacrifice to You with the voice of thanksgiving. That which I have vowed I will pay. Salvation is from the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Jonah 2:8',
+        text: 'Those who pay regard to vain idols forsake their hope of steadfast love.',
+      },
+      after: {
+        reference: 'Jonah 2:10',
+        text: 'And the LORD spoke to the fish, and it vomited Jonah out upon the dry land.',
       },
     },
   },
