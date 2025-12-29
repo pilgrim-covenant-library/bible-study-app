@@ -2951,6 +2951,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'ecclesiastes-7-2',
+    reference: 'Ecclesiastes 7:2',
+    book: 'Ecclesiastes',
+    chapter: 7,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'It is better to go to the house of mourning than to go to the house of feasting, for this is the end of all mankind, and the living will lay it to heart.',
+      NIV: 'It is better to go to a house of mourning than to go to a house of feasting, for death is the destiny of everyone; the living should take this to heart.',
+      KJV: 'It is better to go to the house of mourning, than to go to the house of feasting: for that is the end of all men; and the living will lay it to his heart.',
+      NASB: 'It is better to go to a house of mourning than to go to a house of feasting, because that is the end of every man, and the living takes it to heart.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 7:1',
+        text: 'A good name is better than precious ointment, and the day of death than the day of birth.',
+      },
+      after: {
+        reference: 'Ecclesiastes 7:3',
+        text: 'Sorrow is better than laughter, for by sadness of face the heart is made glad.',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-5-10',
+    reference: 'Ecclesiastes 5:10',
+    book: 'Ecclesiastes',
+    chapter: 5,
+    verse: 10,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'He who loves money will not be satisfied with money, nor he who loves wealth with his income; this also is vanity.',
+      NIV: 'Whoever loves money never has enough; whoever loves wealth is never satisfied with their income. This too is meaningless.',
+      KJV: 'He that loveth silver shall not be satisfied with silver; nor he that loveth abundance with increase: this is also vanity.',
+      NASB: 'He who loves money will not be satisfied with money, nor he who loves abundance with its income. This too is vanity.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 5:9',
+        text: 'Moreover, the profit of the earth is for all; the king himself is served by the field.',
+      },
+      after: {
+        reference: 'Ecclesiastes 5:11',
+        text: 'When goods increase, they increase who eat them, and what advantage has their owner but to see them with his eyes?',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-9-10',
+    reference: 'Ecclesiastes 9:10',
+    book: 'Ecclesiastes',
+    chapter: 9,
+    verse: 10,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Whatever your hand finds to do, do it with your might, for there is no work or thought or knowledge or wisdom in Sheol, to which you are going.',
+      NIV: 'Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom.',
+      KJV: 'Whatsoever thy hand findeth to do, do it with thy might; for there is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest.',
+      NASB: 'Whatever your hand finds to do, do it with all your might; for there is no activity or planning or knowledge or wisdom in Sheol where you are going.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 9:9',
+        text: 'Enjoy life with the wife whom you love, all the days of your vain life that he has given you under the sun, because that is your portion in life and in your toil at which you toil under the sun.',
+      },
+      after: {
+        reference: 'Ecclesiastes 9:11',
+        text: 'Again I saw that under the sun the race is not to the swift, nor the battle to the strong, nor bread to the wise, nor riches to the intelligent, nor favor to those with knowledge, but time and chance happen to them all.',
+      },
+    },
+  },
+  {
+    id: 'ecclesiastes-11-9',
+    reference: 'Ecclesiastes 11:9',
+    book: 'Ecclesiastes',
+    chapter: 11,
+    verse: 9,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Rejoice, O young man, in your youth, and let your heart cheer you in the days of your youth. Walk in the ways of your heart and the sight of your eyes. But know that for all these things God will bring you into judgment.',
+      NIV: 'You who are young, be happy while you are young, and let your heart give you joy in the days of your youth. Follow the ways of your heart and whatever your eyes see, but know that for all these things God will bring you into judgment.',
+      KJV: 'Rejoice, O young man, in thy youth; and let thy heart cheer thee in the days of thy youth, and walk in the ways of thine heart, and in the sight of thine eyes: but know thou, that for all these things God will bring thee into judgment.',
+      NASB: 'Rejoice, young man, during your childhood, and let your heart be pleasant during the days of young manhood. And follow the impulses of your heart and the desires of your eyes. Yet know that God will bring you to judgment for all these things.',
+    },
+    context: {
+      before: {
+        reference: 'Ecclesiastes 11:8',
+        text: 'So if a person lives many years, let him rejoice in them all; but let him remember that the days of darkness will be many. All that comes is vanity.',
+      },
+      after: {
+        reference: 'Ecclesiastes 11:10',
+        text: 'Remove vexation from your heart, and put away pain from your body, for youth and the dawn of life are vanity.',
+      },
+    },
+  },
 
   // ============ SONG OF SOLOMON ============
   {
@@ -3608,6 +3704,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'lamentations-3-26',
+    reference: 'Lamentations 3:26',
+    book: 'Lamentations',
+    chapter: 3,
+    verse: 26,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'It is good that one should wait quietly for the salvation of the LORD.',
+      NIV: 'it is good to wait quietly for the salvation of the LORD.',
+      KJV: 'It is good that a man should both hope and quietly wait for the salvation of the LORD.',
+      NASB: 'It is good that he waits silently for the salvation of the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 3:25',
+        text: 'The LORD is good to those who wait for him, to the soul who seeks him.',
+      },
+      after: {
+        reference: 'Lamentations 3:27',
+        text: 'It is good for a man that he bear the yoke in his youth.',
+      },
+    },
+  },
+  {
+    id: 'lamentations-3-31-32',
+    reference: 'Lamentations 3:31-32',
+    book: 'Lamentations',
+    chapter: 3,
+    verse: 31,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'For the Lord will not cast off forever, but, though he cause grief, he will have compassion according to the abundance of his steadfast love;',
+      NIV: 'For no one is cast off by the Lord forever. Though he brings grief, he will show compassion, so great is his unfailing love.',
+      KJV: 'For the Lord will not cast off for ever: But though he cause grief, yet will he have compassion according to the multitude of his mercies.',
+      NASB: 'For the Lord will not reject forever, for if He causes grief, then He will have compassion according to His abundant lovingkindness.',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 3:30',
+        text: 'let him give his cheek to the one who strikes, and let him be filled with insults.',
+      },
+      after: {
+        reference: 'Lamentations 3:33',
+        text: 'for he does not afflict from his heart or grieve the children of men.',
+      },
+    },
+  },
+  {
+    id: 'lamentations-5-21',
+    reference: 'Lamentations 5:21',
+    book: 'Lamentations',
+    chapter: 5,
+    verse: 21,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Restore us to yourself, O LORD, that we may be restored! Renew our days as of old—',
+      NIV: 'Restore us to yourself, LORD, that we may return; renew our days as of old',
+      KJV: 'Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old.',
+      NASB: 'Restore us to You, O LORD, that we may be restored; renew our days as of old,',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 5:20',
+        text: 'Why do you forget us forever, why do you forsake us for so many days?',
+      },
+      after: {
+        reference: 'Lamentations 5:22',
+        text: 'unless you have utterly rejected us, and you remain exceedingly angry with us.',
+      },
+    },
+  },
+  {
+    id: 'lamentations-3-40',
+    reference: 'Lamentations 3:40',
+    book: 'Lamentations',
+    chapter: 3,
+    verse: 40,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Let us test and examine our ways, and return to the LORD!',
+      NIV: 'Let us examine our ways and test them, and let us return to the LORD.',
+      KJV: 'Let us search and try our ways, and turn again to the LORD.',
+      NASB: 'Let us examine and probe our ways, and let us return to the LORD.',
+    },
+    context: {
+      before: {
+        reference: 'Lamentations 3:39',
+        text: 'Why should a living man complain, a man, about the punishment of his sins?',
+      },
+      after: {
+        reference: 'Lamentations 3:41',
+        text: 'Let us lift up our hearts and hands to God in heaven:',
+      },
+    },
+  },
 
   // ============ EZEKIEL ============
   {
@@ -3996,6 +4188,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Hosea 2:20',
         text: 'I will betroth you to me in faithfulness. And you shall know the LORD.',
+      },
+    },
+  },
+  {
+    id: 'hosea-13-14',
+    reference: 'Hosea 13:14',
+    book: 'Hosea',
+    chapter: 13,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'I shall ransom them from the power of Sheol; I shall redeem them from Death. O Death, where are your plagues? O Sheol, where is your sting? Compassion is hidden from my eyes.',
+      NIV: 'I will deliver this people from the power of the grave; I will redeem them from death. Where, O death, are your plagues? Where, O grave, is your destruction? I will have no compassion.',
+      KJV: 'I will ransom them from the power of the grave; I will redeem them from death: O death, I will be thy plagues; O grave, I will be thy destruction: repentance shall be hid from mine eyes.',
+      NASB: 'Shall I ransom them from the power of Sheol? Shall I redeem them from death? O Death, where are your thorns? O Sheol, where is your sting? Compassion will be hidden from My sight.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 13:13',
+        text: 'The pains of childbirth come for him, but he is an unwise son, for at the right time he does not present himself at the opening of the womb.',
+      },
+      after: {
+        reference: 'Hosea 13:15',
+        text: 'Though he may flourish among his brothers, the east wind, the wind of the LORD, shall come, rising from the wilderness.',
+      },
+    },
+  },
+  {
+    id: 'hosea-3-5',
+    reference: 'Hosea 3:5',
+    book: 'Hosea',
+    chapter: 3,
+    verse: 5,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Afterward the children of Israel shall return and seek the LORD their God, and David their king, and they shall come in fear to the LORD and to his goodness in the latter days.',
+      NIV: 'Afterward the Israelites will return and seek the LORD their God and David their king. They will come trembling to the LORD and to his blessings in the last days.',
+      KJV: 'Afterward shall the children of Israel return, and seek the LORD their God, and David their king; and shall fear the LORD and his goodness in the latter days.',
+      NASB: 'Afterward the sons of Israel will return and seek the LORD their God and David their king; and they will come trembling to the LORD and to His goodness in the last days.',
+    },
+    context: {
+      before: {
+        reference: 'Hosea 3:4',
+        text: 'For the children of Israel shall dwell many days without king or prince, without sacrifice or pillar, without ephod or household gods.',
+      },
+      after: {
+        reference: 'Hosea 4:1',
+        text: 'Hear the word of the LORD, O children of Israel, for the LORD has a controversy with the inhabitants of the land.',
       },
     },
   },
@@ -8165,6 +8405,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Timothy 4:8',
         text: 'Henceforth there is laid up for me the crown of righteousness, which the Lord, the righteous judge, will award to me on that day, and not only to me but also to all who have loved his appearing.',
+      },
+    },
+  },
+  {
+    id: '2-timothy-1-9',
+    reference: '2 Timothy 1:9',
+    book: '2 Timothy',
+    chapter: 1,
+    verse: 9,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'who saved us and called us to a holy calling, not because of our works but because of his own purpose and grace, which he gave us in Christ Jesus before the ages began,',
+      NIV: 'He has saved us and called us to a holy life—not because of anything we have done but because of his own purpose and grace. This grace was given us in Christ Jesus before the beginning of time,',
+      KJV: 'Who hath saved us, and called us with an holy calling, not according to our works, but according to his own purpose and grace, which was given us in Christ Jesus before the world began,',
+      NASB: 'who has saved us and called us with a holy calling, not according to our works, but according to His own purpose and grace which was granted us in Christ Jesus from all eternity,',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 1:8',
+        text: 'Therefore do not be ashamed of the testimony about our Lord, nor of me his prisoner, but share in suffering for the gospel by the power of God,',
+      },
+      after: {
+        reference: '2 Timothy 1:10',
+        text: 'and which now has been manifested through the appearing of our Savior Christ Jesus, who abolished death and brought life and immortality to light through the gospel,',
+      },
+    },
+  },
+  {
+    id: '2-timothy-2-22',
+    reference: '2 Timothy 2:22',
+    book: '2 Timothy',
+    chapter: 2,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'So flee youthful passions and pursue righteousness, faith, love, and peace, along with those who call on the Lord from a pure heart.',
+      NIV: 'Flee the evil desires of youth and pursue righteousness, faith, love and peace, along with those who call on the Lord out of a pure heart.',
+      KJV: 'Flee also youthful lusts: but follow righteousness, faith, charity, peace, with them that call on the Lord out of a pure heart.',
+      NASB: 'Now flee from youthful lusts and pursue righteousness, faith, love and peace, with those who call on the Lord from a pure heart.',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 2:21',
+        text: 'Therefore, if anyone cleanses himself from what is dishonorable, he will be a vessel for honorable use, set apart as holy, useful to the master of the house, ready for every good work.',
+      },
+      after: {
+        reference: '2 Timothy 2:23',
+        text: 'Have nothing to do with foolish, ignorant controversies; you know that they breed quarrels.',
+      },
+    },
+  },
+  {
+    id: '2-timothy-3-17',
+    reference: '2 Timothy 3:17',
+    book: '2 Timothy',
+    chapter: 3,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'that the man of God may be complete, equipped for every good work.',
+      NIV: 'so that the servant of God may be thoroughly equipped for every good work.',
+      KJV: 'That the man of God may be perfect, thoroughly furnished unto all good works.',
+      NASB: 'so that the man of God may be adequate, equipped for every good work.',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 3:16',
+        text: 'All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness,',
+      },
+      after: {
+        reference: '2 Timothy 4:1',
+        text: 'I charge you in the presence of God and of Christ Jesus, who is to judge the living and the dead, and by his appearing and his kingdom:',
+      },
+    },
+  },
+  {
+    id: '2-timothy-4-2',
+    reference: '2 Timothy 4:2',
+    book: '2 Timothy',
+    chapter: 4,
+    verse: 2,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'preach the word; be ready in season and out of season; reprove, rebuke, and exhort, with complete patience and teaching.',
+      NIV: 'Preach the word; be prepared in season and out of season; correct, rebuke and encourage—with great patience and careful instruction.',
+      KJV: 'Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all long suffering and doctrine.',
+      NASB: 'preach the word; be ready in season and out of season; reprove, rebuke, exhort, with great patience and instruction.',
+    },
+    context: {
+      before: {
+        reference: '2 Timothy 4:1',
+        text: 'I charge you in the presence of God and of Christ Jesus, who is to judge the living and the dead, and by his appearing and his kingdom:',
+      },
+      after: {
+        reference: '2 Timothy 4:3',
+        text: 'For the time is coming when people will not endure sound teaching, but having itching ears they will accumulate for themselves teachers to suit their own passions,',
       },
     },
   },
