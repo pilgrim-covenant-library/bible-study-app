@@ -61,6 +61,7 @@ interface ReadingProgressState {
   getStreakStats: () => StreakStats;
   getUniqueDaysRead: () => string[];
   getReadingActivityByDate: (days: number) => Record<string, number>;
+  getNextUnreadChapter: (bookId: string, totalChapters: number) => number | null;
 
   // Reset
   resetAllProgress: () => void;
@@ -260,6 +261,20 @@ export const useReadingProgressStore = create<ReadingProgressState>()(
         });
 
         return activity;
+      },
+
+      getNextUnreadChapter: (bookId: string, totalChapters: number) => {
+        const readChapters = get().getReadChaptersForBook(bookId);
+
+        // Find the first chapter that hasn't been read
+        for (let chapter = 1; chapter <= totalChapters; chapter++) {
+          if (!readChapters.includes(chapter)) {
+            return chapter;
+          }
+        }
+
+        // All chapters read
+        return null;
       },
 
       getStreakStats: () => {

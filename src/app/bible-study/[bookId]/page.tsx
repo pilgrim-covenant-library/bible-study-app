@@ -192,6 +192,7 @@ function ChaptersTabContent({
   toggleChapter,
   expandAll,
   collapseAll,
+  expandAndScrollTo,
 }: {
   bookId: string;
   chapterSummaries: ChapterSummary[];
@@ -199,9 +200,11 @@ function ChaptersTabContent({
   toggleChapter: (chapter: number) => void;
   expandAll: () => void;
   collapseAll: () => void;
+  expandAndScrollTo: (chapter: number) => void;
 }) {
-  const { getBookProgress, markChapterRead, markChapterUnread } = useReadingProgressStore();
+  const { getBookProgress, markChapterRead, markChapterUnread, getNextUnreadChapter } = useReadingProgressStore();
   const progress = getBookProgress(bookId, chapterSummaries.length);
+  const nextUnread = getNextUnreadChapter(bookId, chapterSummaries.length);
 
   const markAllRead = () => {
     chapterSummaries.forEach(ch => markChapterRead(bookId, ch.chapter));
@@ -209,6 +212,12 @@ function ChaptersTabContent({
 
   const markAllUnread = () => {
     chapterSummaries.forEach(ch => markChapterUnread(bookId, ch.chapter));
+  };
+
+  const handleContinueReading = () => {
+    if (nextUnread) {
+      expandAndScrollTo(nextUnread);
+    }
   };
 
   return (
@@ -252,6 +261,20 @@ function ChaptersTabContent({
               )}
             </div>
           </div>
+
+          {/* Continue to Next Unread */}
+          {nextUnread && progress.read > 0 && progress.read < progress.total && (
+            <div className="mt-4 pt-4 border-t border-bible/10">
+              <Button
+                variant="bible"
+                className="w-full gap-2"
+                onClick={handleContinueReading}
+              >
+                <ChevronRight className="h-4 w-4" />
+                Continue to Chapter {nextUnread}
+              </Button>
+            </div>
+          )}
         </CardContent>
       </Card>
 
@@ -408,6 +431,28 @@ export default function BookDetailPage() {
 
   const collapseAll = () => {
     setExpandedChapters(new Set());
+  };
+
+  const expandAndScrollTo = (chapter: number) => {
+    // Expand the chapter if not already expanded
+    setExpandedChapters(prev => {
+      const newSet = new Set(prev);
+      newSet.add(chapter);
+      return newSet;
+    });
+
+    // Scroll to the chapter after a short delay
+    setTimeout(() => {
+      const element = document.getElementById(`chapter-${chapter}`);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Add a highlight effect
+        element.classList.add('ring-2', 'ring-bible', 'ring-offset-2');
+        setTimeout(() => {
+          element.classList.remove('ring-2', 'ring-bible', 'ring-offset-2');
+        }, 2000);
+      }
+    }, 100);
   };
 
   return (
@@ -584,6 +629,7 @@ export default function BookDetailPage() {
             toggleChapter={toggleChapter}
             expandAll={expandAll}
             collapseAll={collapseAll}
+            expandAndScrollTo={expandAndScrollTo}
           />
         )}
 
