@@ -843,6 +843,97 @@ function createChronologicalPlan(): ReadingPlan {
 }
 
 /**
+ * Reformer's Reading Plan
+ * A 120-day journey through the books central to Protestant Reformation theology.
+ * Organized to build understanding progressively: Christ's identity (John),
+ * justification by faith (Romans, Galatians), Christian living (James, 1-2 Peter),
+ * the superiority of Christ (Hebrews), and the full scope of redemption (Genesis, Exodus, Isaiah).
+ * This sequence mirrors the theological emphases of Luther, Calvin, and the Reformed tradition.
+ */
+function createReformersPlan(): ReadingPlan {
+  // Books ordered to build theological understanding progressively
+  // Phase 1: The Gospel Foundation (John - 21 chapters)
+  // Phase 2: Justification by Faith (Romans 16, Galatians 6 - 22 chapters)
+  // Phase 3: Faith and Works (James 5, 1 Peter 5, 2 Peter 3 - 13 chapters)
+  // Phase 4: Christ Our High Priest (Hebrews - 13 chapters)
+  // Phase 5: Pauline Theology Expanded (Ephesians 6, Colossians 4, Philippians 4 - 14 chapters)
+  // Phase 6: Covenant Foundations (Genesis 50, Exodus 40 - 90 chapters)
+  // Phase 7: Messianic Prophecy (Isaiah - 66 chapters)
+  // Phase 8: The Psalms of David (Selected Psalms - ~50 chapters)
+  // Total: ~289 chapters over 120 days = ~2.4 chapters/day
+
+  const reformerBooks = [
+    // Phase 1: Start with John - "In the beginning was the Word"
+    'john',
+    // Phase 2: The heart of Reformed doctrine - justification
+    'romans', 'galatians',
+    // Phase 3: Faith producing works
+    'james', '1-peter', '2-peter',
+    // Phase 4: Christ as the superior mediator
+    'hebrews',
+    // Phase 5: Union with Christ and practical holiness
+    'ephesians', 'philippians', 'colossians',
+    // Phase 6: Covenant history foundations
+    'genesis', 'exodus',
+    // Phase 7: The suffering servant and Messiah
+    'isaiah',
+  ];
+
+  const reformerChapters: { bookId: string; chapter: number }[] = [];
+  for (const bookId of reformerBooks) {
+    const count = CHAPTER_COUNTS[bookId] || 0;
+    for (let ch = 1; ch <= count; ch++) {
+      reformerChapters.push({ bookId, chapter: ch });
+    }
+  }
+
+  // Total chapters: 21 + 16 + 6 + 5 + 5 + 3 + 13 + 6 + 4 + 4 + 50 + 40 + 66 = 239 chapters
+  const chaptersPerDay = Math.ceil(reformerChapters.length / 120); // ~2 chapters/day
+
+  return {
+    id: 'reformers-120-days',
+    name: "Reformer's Journey",
+    description: "Trace the theological heart of the Protestant Reformation through 120 days of reading. Begin with John's portrait of Christ, move through Paul's doctrine of justification (Romans, Galatians), explore faith and works (James, Peter), marvel at Christ's priesthood (Hebrews), then journey back to covenant foundations in Genesis and Exodus, culminating in Isaiah's Messianic prophecies.",
+    duration: '120 days',
+    durationDays: 120,
+    category: 'thematic',
+    difficulty: 'medium',
+    chaptersPerDay: '2 chapters',
+    features: [
+      'Reformation theology focus',
+      'Justification by faith emphasis',
+      'Covenant & Christ-centered',
+      'Follows Reformed hermeneutic',
+    ],
+    getDayReadings: (day: number) => {
+      if (day < 1 || day > 120) return null;
+
+      const startIdx = (day - 1) * chaptersPerDay;
+      const endIdx = Math.min(startIdx + chaptersPerDay, reformerChapters.length);
+
+      if (startIdx >= reformerChapters.length) return null;
+
+      const readings: Map<string, number[]> = new Map();
+      for (let i = startIdx; i < endIdx; i++) {
+        const { bookId, chapter } = reformerChapters[i];
+        if (!readings.has(bookId)) {
+          readings.set(bookId, []);
+        }
+        readings.get(bookId)!.push(chapter);
+      }
+
+      return {
+        day,
+        readings: Array.from(readings.entries()).map(([bookId, chapters]) => ({
+          bookId,
+          chapters,
+        })),
+      };
+    },
+  };
+}
+
+/**
  * Wisdom Literature Plan
  * Read Job, Psalms, Proverbs, Ecclesiastes, and Song of Solomon in 60 days
  * These five books form the "Wisdom Literature" of the Old Testament,
@@ -917,6 +1008,7 @@ export const READING_PLANS: ReadingPlan[] = [
   createPaulineEpistlesPlan(),
   createProphetsPlan(),
   createWisdomLiteraturePlan(),
+  createReformersPlan(),
 ];
 
 // Helper to get a plan by ID
