@@ -2750,6 +2750,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-samuel-22-31',
+    reference: '2 Samuel 22:31',
+    book: '2 Samuel',
+    chapter: 22,
+    verse: 31,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'This God—his way is perfect; the word of the LORD proves true; he is a shield for all those who take refuge in him.',
+      NIV: 'As for God, his way is perfect: The LORD\'s word is flawless; he shields all who take refuge in him.',
+      KJV: 'As for God, his way is perfect; the word of the LORD is tried: he is a buckler to all them that trust in him.',
+      NASB: 'As for God, His way is blameless; the word of the LORD is tested; He is a shield to all who take refuge in Him.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 22:30',
+        text: 'For by you I can run against a troop, and by my God I can leap over a wall.',
+      },
+      after: {
+        reference: '2 Samuel 22:32',
+        text: 'For who is God, but the LORD? And who is a rock, except our God?',
+      },
+    },
+  },
+  {
+    id: '2-samuel-7-28',
+    reference: '2 Samuel 7:28',
+    book: '2 Samuel',
+    chapter: 7,
+    verse: 28,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And now, O Lord GOD, you are God, and your words are true, and you have promised this good thing to your servant.',
+      NIV: 'Sovereign LORD, you are God! Your covenant is trustworthy, and you have promised these good things to your servant.',
+      KJV: 'And now, O Lord GOD, thou art that God, and thy words be true, and thou hast promised this goodness unto thy servant.',
+      NASB: 'Now, O Lord GOD, You are God, and Your words are truth, and You have promised this good thing to Your servant.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 7:27',
+        text: 'For you, O LORD of hosts, the God of Israel, have made this revelation to your servant, saying, "I will build you a house." Therefore your servant has found courage to pray this prayer to you.',
+      },
+      after: {
+        reference: '2 Samuel 7:29',
+        text: 'Now therefore may it please you to bless the house of your servant, so that it may continue forever before you.',
+      },
+    },
+  },
 
   // ============ 1 KINGS ============
   {
@@ -2946,6 +2994,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '1-kings-18-21',
+    reference: '1 Kings 18:21',
+    book: '1 Kings',
+    chapter: 18,
+    verse: 21,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And Elijah came near to all the people and said, "How long will you go limping between two different opinions? If the LORD is God, follow him; but if Baal, then follow him." And the people did not answer him a word.',
+      NIV: 'Elijah went before the people and said, "How long will you waver between two opinions? If the LORD is God, follow him; but if Baal is God, follow him." But the people said nothing.',
+      KJV: 'And Elijah came unto all the people, and said, How long halt ye between two opinions? if the LORD be God, follow him: but if Baal, then follow him. And the people answered him not a word.',
+      NASB: 'Elijah came near to all the people and said, "How long will you hesitate between two opinions? If the LORD is God, follow Him; but if Baal, follow him." But the people did not answer him a word.',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 18:20',
+        text: 'So Ahab sent to all the people of Israel and gathered the prophets together at Mount Carmel.',
+      },
+      after: {
+        reference: '1 Kings 18:22',
+        text: 'Then Elijah said to the people, "I, even I only, am left a prophet of the LORD, but Baal\'s prophets are 450 men."',
+      },
+    },
+  },
+  {
+    id: '1-kings-19-11-12',
+    reference: '1 Kings 19:11-12',
+    book: '1 Kings',
+    chapter: 19,
+    verse: 11,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And he said, "Go out and stand on the mount before the LORD." And behold, the LORD passed by, and a great and strong wind tore the mountains and broke in pieces the rocks before the LORD, but the LORD was not in the wind. And after the wind an earthquake, but the LORD was not in the earthquake. And after the earthquake a fire, but the LORD was not in the fire. And after the fire the sound of a low whisper.',
+      NIV: 'The LORD said, "Go out and stand on the mountain in the presence of the LORD, for the LORD is about to pass by." Then a great and powerful wind tore the mountains apart and shattered the rocks before the LORD, but the LORD was not in the wind. After the wind there was an earthquake, but the LORD was not in the earthquake. After the earthquake came a fire, but the LORD was not in the fire. And after the fire came a gentle whisper.',
+      KJV: 'And he said, Go forth, and stand upon the mount before the LORD. And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind: and after the wind an earthquake; but the LORD was not in the earthquake: And after the earthquake a fire; but the LORD was not in the fire: and after the fire a still small voice.',
+      NASB: 'So He said, "Go forth and stand on the mountain before the LORD." And behold, the LORD was passing by! And a great and strong wind was rending the mountains and breaking in pieces the rocks before the LORD; but the LORD was not in the wind. And after the wind an earthquake, but the LORD was not in the earthquake. After the earthquake a fire, but the LORD was not in the fire; and after the fire a sound of a gentle blowing.',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 19:10',
+        text: 'He said, "I have been very jealous for the LORD, the God of hosts. For the people of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword."',
+      },
+      after: {
+        reference: '1 Kings 19:13',
+        text: 'And when Elijah heard it, he wrapped his face in his cloak and went out and stood at the entrance of the cave.',
+      },
+    },
+  },
 
   // ============ 2 KINGS ============
   {
@@ -3138,6 +3234,102 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '2 Kings 22:20',
         text: 'Therefore, behold, I will gather you to your fathers, and you shall be gathered to your grave in peace.',
+      },
+    },
+  },
+  {
+    id: '2-kings-5-15',
+    reference: '2 Kings 5:15',
+    book: '2 Kings',
+    chapter: 5,
+    verse: 15,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Then he returned to the man of God, he and all his company, and he came and stood before him. And he said, "Behold, I know that there is no God in all the earth but in Israel."',
+      NIV: 'Then Naaman and all his attendants went back to the man of God. He stood before him and said, "Now I know that there is no God in all the world except in Israel."',
+      KJV: 'And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all the earth, but in Israel.',
+      NASB: 'When he returned to the man of God with all his company, and came and stood before him, he said, "Behold now, I know that there is no God in all the earth, but in Israel."',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 5:14',
+        text: 'So he went down and dipped himself seven times in the Jordan, according to the word of the man of God, and his flesh was restored like the flesh of a little child, and he was clean.',
+      },
+      after: {
+        reference: '2 Kings 5:16',
+        text: 'But he said, "As the LORD lives, before whom I stand, I will receive none." And he urged him to take it, but he refused.',
+      },
+    },
+  },
+  {
+    id: '2-kings-6-17',
+    reference: '2 Kings 6:17',
+    book: '2 Kings',
+    chapter: 6,
+    verse: 17,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then Elisha prayed and said, "O LORD, please open his eyes that he may see." So the LORD opened the eyes of the young man, and he saw, and behold, the mountain was full of horses and chariots of fire all around Elisha.',
+      NIV: 'And Elisha prayed, "Open his eyes, LORD, so that he may see." Then the LORD opened the servant\'s eyes, and he looked and saw the hills full of horses and chariots of fire all around Elisha.',
+      KJV: 'And Elisha prayed, and said, LORD, I pray thee, open his eyes, that he may see. And the LORD opened the eyes of the young man; and he saw: and, behold, the mountain was full of horses and chariots of fire round about Elisha.',
+      NASB: 'Then Elisha prayed and said, "O LORD, I pray, open his eyes that he may see." And the LORD opened the servant\'s eyes and he saw; and behold, the mountain was full of horses and chariots of fire all around Elisha.',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 6:16',
+        text: 'He said, "Do not be afraid, for those who are with us are more than those who are with them."',
+      },
+      after: {
+        reference: '2 Kings 6:18',
+        text: 'And when the Syrians came down against him, Elisha prayed to the LORD and said, "Please strike this people with blindness." So he struck them with blindness in accordance with the prayer of Elisha.',
+      },
+    },
+  },
+  {
+    id: '2-kings-18-5',
+    reference: '2 Kings 18:5',
+    book: '2 Kings',
+    chapter: 18,
+    verse: 5,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'He trusted in the LORD, the God of Israel, so that there was none like him among all the kings of Judah after him, nor among those who were before him.',
+      NIV: 'Hezekiah trusted in the LORD, the God of Israel. There was no one like him among all the kings of Judah, either before him or after him.',
+      KJV: 'He trusted in the LORD God of Israel; so that after him was none like him among all the kings of Judah, nor any that were before him.',
+      NASB: 'He trusted in the LORD, the God of Israel; so that after him there was none like him among all the kings of Judah, nor among those who were before him.',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 18:4',
+        text: 'He removed the high places and broke the pillars and cut down the Asherah. And he broke in pieces the bronze serpent that Moses had made.',
+      },
+      after: {
+        reference: '2 Kings 18:6',
+        text: 'For he held fast to the LORD. He did not depart from following him, but kept the commandments that the LORD commanded Moses.',
+      },
+    },
+  },
+  {
+    id: '2-kings-23-25',
+    reference: '2 Kings 23:25',
+    book: '2 Kings',
+    chapter: 23,
+    verse: 25,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Before him there was no king like him, who turned to the LORD with all his heart and with all his soul and with all his might, according to all the Law of Moses, nor did any like him arise after him.',
+      NIV: 'Neither before nor after Josiah was there a king like him who turned to the LORD as he did—with all his heart and with all his soul and with all his strength, in accordance with all the Law of Moses.',
+      KJV: 'And like unto him was there no king before him, that turned to the LORD with all his heart, and with all his soul, and with all his might, according to all the law of Moses; neither after him arose there any like him.',
+      NASB: 'Before him there was no king like him who turned to the LORD with all his heart and with all his soul and with all his might, according to all the law of Moses; nor did any like him arise after him.',
+    },
+    context: {
+      before: {
+        reference: '2 Kings 23:24',
+        text: 'Moreover, Josiah put away the mediums and the necromancers and the household gods and the idols and all the abominations that were seen in the land of Judah.',
+      },
+      after: {
+        reference: '2 Kings 23:26',
+        text: 'Still the LORD did not turn from the burning of his great wrath, by which his anger was kindled against Judah.',
       },
     },
   },
