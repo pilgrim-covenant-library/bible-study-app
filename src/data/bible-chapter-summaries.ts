@@ -9112,6 +9112,146 @@ export const SECOND_THESSALONIANS_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 1 TIMOTHY (6 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const FIRST_TIMOTHY_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '1-timothy',
+    chapter: 1,
+    title: 'Warning Against False Teachers',
+    summary: 'Paul, an apostle of Christ Jesus by command of God our Savior and of Christ Jesus our hope, writes to Timothy, his true child in the faith. He urges Timothy to remain in Ephesus to charge certain persons not to teach any different doctrine, nor to devote themselves to myths and endless genealogies, which promote speculations rather than the stewardship from God that is by faith. The aim of this charge is love that issues from a pure heart and a good conscience and a sincere faith. Certain persons have wandered away into vain discussion, desiring to be teachers of the law without understanding what they are saying. The law is good if one uses it lawfully, understanding that it is laid down not for the just but for the lawless and disobedient. Paul thanks Christ Jesus who has judged him faithful, appointing him to service, though he was formerly a blasphemer and persecutor. The saying is trustworthy: Christ Jesus came into the world to save sinners, of whom Paul is the foremost. He received mercy so that Christ might display His perfect patience as an example to those who would believe in Him for eternal life. To the King of the ages, immortal, invisible, the only God, be honor and glory forever. This charge Paul entrusts to Timothy: wage the good warfare, holding faith and a good conscience.',
+    keyThemes: ['Sound doctrine versus myths', 'Law for the lawless', 'Christ came to save sinners', 'Good warfare of faith'],
+    christConnection: 'Christ Jesus came into the world to save sinners. Paul, the foremost sinner, received mercy to display Christ\'s perfect patience as an example to all who would believe in Him for eternal life.'
+  },
+  {
+    bookId: '1-timothy',
+    chapter: 2,
+    title: 'Instructions for Worship',
+    summary: 'Paul urges that supplications, prayers, intercessions, and thanksgivings be made for all people, for kings and all in high positions, that we may lead a peaceful and quiet life, godly and dignified in every way. This is good and pleasing in the sight of God our Savior, who desires all people to be saved and to come to the knowledge of the truth. For there is one God, and there is one mediator between God and men, the man Christ Jesus, who gave Himself as a ransom for all, which is the testimony given at the proper time. For this Paul was appointed a preacher and an apostle, a teacher of the Gentiles in faith and truth. He desires that in every place the men should pray, lifting holy hands without anger or quarreling. Likewise, women should adorn themselves in respectable apparel, with modesty and self-control, not with braided hair and gold or pearls or costly attire, but with what is proper for women who profess godliness—with good works. Let a woman learn quietly with all submissiveness. Paul does not permit a woman to teach or to exercise authority over a man; rather, she is to remain quiet, for Adam was formed first, then Eve.',
+    keyThemes: ['Prayer for all people', 'One God one mediator', 'Ransom for all', 'Order in worship'],
+    christConnection: 'There is one mediator between God and men, the man Christ Jesus, who gave Himself as a ransom for all. He alone bridges the gap between holy God and sinful humanity.'
+  },
+  {
+    bookId: '1-timothy',
+    chapter: 3,
+    title: 'Qualifications for Overseers and Deacons',
+    summary: 'The saying is trustworthy: If anyone aspires to the office of overseer, he desires a noble task. Therefore an overseer must be above reproach, the husband of one wife, sober-minded, self-controlled, respectable, hospitable, able to teach, not a drunkard, not violent but gentle, not quarrelsome, not a lover of money. He must manage his own household well, with all dignity keeping his children submissive, for if someone does not know how to manage his own household, how will he care for God\'s church? He must not be a recent convert, or he may become puffed up with conceit and fall into the condemnation of the devil. He must be well thought of by outsiders. Deacons likewise must be dignified, not double-tongued, not addicted to much wine, not greedy for dishonest gain. They must hold the mystery of the faith with a clear conscience. Let them first be tested; then let them serve as deacons if they prove blameless. Their wives likewise must be dignified, not slanderers, sober-minded, faithful in all things. Let deacons each be the husband of one wife, managing their children and households well. Those who serve well gain a good standing and great confidence in the faith that is in Christ Jesus. Paul writes these things hoping to come to Timothy soon, but if delayed, Timothy may know how one ought to behave in the household of God, which is the church of the living God, a pillar and buttress of the truth. Great indeed is the mystery of godliness: He was manifested in the flesh, vindicated by the Spirit, seen by angels, proclaimed among the nations, believed on in the world, taken up in glory.',
+    keyThemes: ['Overseer qualifications', 'Deacon qualifications', 'Church as household of God', 'Mystery of godliness'],
+    christConnection: 'The mystery of godliness centers on Christ: manifested in the flesh, vindicated by the Spirit, seen by angels, proclaimed among nations, believed on in the world, taken up in glory—the whole gospel in one confession.'
+  },
+  {
+    bookId: '1-timothy',
+    chapter: 4,
+    title: 'A Good Servant of Christ Jesus',
+    summary: 'The Spirit expressly says that in later times some will depart from the faith by devoting themselves to deceitful spirits and teachings of demons, through the insincerity of liars whose consciences are seared, who forbid marriage and require abstinence from foods that God created to be received with thanksgiving by those who believe and know the truth. For everything created by God is good, and nothing is to be rejected if it is received with thanksgiving, for it is made holy by the word of God and prayer. If Timothy puts these things before the brothers, he will be a good servant of Christ Jesus, being trained in the words of the faith and of the good doctrine he has followed. Have nothing to do with irreverent, silly myths. Rather train yourself for godliness; for while bodily training is of some value, godliness is of value in every way, as it holds promise for the present life and also for the life to come. The saying is trustworthy and deserving of full acceptance. For to this end we toil and strive, because we have our hope set on the living God, who is the Savior of all people, especially of those who believe. Command and teach these things. Let no one despise Timothy for his youth, but set the believers an example in speech, conduct, love, faith, and purity. Until Paul comes, devote yourself to the public reading of Scripture, to exhortation, to teaching. Do not neglect your gift. Practice these things, immerse yourself in them, so that all may see your progress. Keep a close watch on yourself and on the teaching. Persist in this, for by so doing you will save both yourself and your hearers.',
+    keyThemes: ['False teachings in later times', 'Train for godliness', 'Example in youth', 'Persist in teaching'],
+    christConnection: 'We have our hope set on the living God, who is the Savior of all people, especially of those who believe. Christ is the source of our toil and striving in ministry.'
+  },
+  {
+    bookId: '1-timothy',
+    chapter: 5,
+    title: 'Instructions for the Church',
+    summary: 'Do not rebuke an older man but encourage him as you would a father, younger men as brothers, older women as mothers, younger women as sisters, in all purity. Honor widows who are truly widows. If a widow has children or grandchildren, let them first learn to show godliness to their own household and make some return to their parents, for this is pleasing in the sight of God. She who is truly a widow, left all alone, has set her hope on God and continues in supplications and prayers night and day. The one who is self-indulgent is dead even while she lives. If anyone does not provide for his relatives, especially his own household, he has denied the faith and is worse than an unbeliever. Let a widow be enrolled if she is not less than sixty years old, having been the wife of one husband, well known for good works. Refuse to enroll younger widows, for when their passions draw them away from Christ, they desire to marry. Let elders who rule well be considered worthy of double honor, especially those who labor in preaching and teaching. Do not admit a charge against an elder except on the evidence of two or three witnesses. As for those who persist in sin, rebuke them in the presence of all. Keep these rules without prejudging. Do not be hasty in the laying on of hands. Keep yourself pure. No longer drink only water, but use a little wine for your stomach. The sins of some people are conspicuous, but the sins of others appear later. So also good works are conspicuous.',
+    keyThemes: ['Care for true widows', 'Provide for household', 'Honor ruling elders', 'Impartiality in judgment'],
+    christConnection: 'The true widow has set her hope on God and continues in prayer. The church\'s care for widows reflects Christ\'s compassion for the vulnerable and models sacrificial love.'
+  },
+  {
+    bookId: '1-timothy',
+    chapter: 6,
+    title: 'False Teachers and True Contentment',
+    summary: 'Let all who are under a yoke as bondservants regard their own masters as worthy of all honor, so that the name of God and the teaching may not be reviled. Those who have believing masters must not be disrespectful on the ground that they are brothers; rather serve all the better. Teach and urge these things. If anyone teaches a different doctrine and does not agree with the sound words of our Lord Jesus Christ and the teaching that accords with godliness, he is puffed up with conceit and understands nothing. He has an unhealthy craving for controversy. Godliness with contentment is great gain, for we brought nothing into the world, and we cannot take anything out. If we have food and clothing, with these we will be content. Those who desire to be rich fall into temptation and many senseless and harmful desires. The love of money is a root of all kinds of evils. But as for you, O man of God, flee these things. Pursue righteousness, godliness, faith, love, steadfastness, gentleness. Fight the good fight of the faith. Take hold of the eternal life to which you were called when you made the good confession. Paul charges Timothy in the presence of God, who gives life to all things, and of Christ Jesus, who testified the good confession before Pontius Pilate, to keep the commandment unstained until the appearing of our Lord Jesus Christ, which He will display at the proper time—the blessed and only Sovereign, the King of kings and Lord of lords, who alone has immortality, dwelling in unapproachable light. To Him be honor and eternal dominion. Charge the rich not to be haughty or set their hopes on the uncertainty of riches, but on God, who richly provides. Guard the deposit entrusted to you.',
+    keyThemes: ['Godliness with contentment', 'Love of money root of evils', 'Fight the good fight', 'King of kings Lord of lords'],
+    christConnection: 'Christ Jesus testified the good confession before Pontius Pilate. He is the blessed and only Sovereign, King of kings and Lord of lords, who alone has immortality—the One whose appearing we await.'
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// 2 TIMOTHY (4 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const SECOND_TIMOTHY_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '2-timothy',
+    chapter: 1,
+    title: 'Guard the Good Deposit',
+    summary: 'Paul, an apostle of Christ Jesus by the will of God according to the promise of the life that is in Christ Jesus, writes to Timothy, his beloved child. He thanks God as he remembers Timothy constantly in his prayers, longing to see him and remembering his tears. He is reminded of Timothy\'s sincere faith, a faith that dwelt first in his grandmother Lois and mother Eunice. For this reason Paul reminds Timothy to fan into flame the gift of God that is in him through the laying on of Paul\'s hands. God gave us a spirit not of fear but of power and love and self-control. Therefore do not be ashamed of the testimony about our Lord, nor of Paul His prisoner, but share in suffering for the gospel by the power of God, who saved us and called us to a holy calling, not because of our works but because of His own purpose and grace, which He gave us in Christ Jesus before the ages began, and which now has been manifested through the appearing of our Savior Christ Jesus, who abolished death and brought life and immortality to light through the gospel. For this Paul was appointed a preacher and apostle and teacher. He is not ashamed, for he knows whom he has believed and is convinced that He is able to guard until that day what has been entrusted to him. Follow the pattern of sound words. Guard the good deposit by the Holy Spirit who dwells in us. All in Asia turned away from Paul, including Phygelus and Hermogenes. May the Lord grant mercy to the household of Onesiphorus, who often refreshed Paul and was not ashamed of his chains.',
+    keyThemes: ['Spirit of power love self-control', 'Not ashamed of gospel', 'Grace before ages began', 'Guard the deposit'],
+    christConnection: 'Our Savior Christ Jesus abolished death and brought life and immortality to light through the gospel. God\'s saving purpose and grace were given to us in Christ before the ages began.'
+  },
+  {
+    bookId: '2-timothy',
+    chapter: 2,
+    title: 'A Good Soldier of Christ Jesus',
+    summary: 'Be strengthened by the grace that is in Christ Jesus. What you have heard from Paul entrust to faithful men, who will be able to teach others also. Share in suffering as a good soldier of Christ Jesus. No soldier gets entangled in civilian pursuits. An athlete is not crowned unless he competes according to the rules. The hardworking farmer should have the first share of the crops. Think over what Paul says, for the Lord will give understanding. Remember Jesus Christ, risen from the dead, the offspring of David—this is the gospel for which Paul suffers to the point of chains. But the word of God is not bound! He endures everything for the sake of the elect, that they may obtain salvation in Christ Jesus with eternal glory. The saying is trustworthy: if we have died with Him, we will also live with Him; if we endure, we will reign with Him; if we deny Him, He will deny us; if we are faithless, He remains faithful, for He cannot deny Himself. Remind them of these things. Avoid quarreling about words. Do your best to present yourself to God as one approved, a worker who has no need to be ashamed, rightly handling the word of truth. Avoid irreverent babble. Flee youthful passions and pursue righteousness, faith, love, and peace. The Lord\'s servant must not be quarrelsome but kind to everyone, able to teach, patiently enduring evil, correcting opponents with gentleness.',
+    keyThemes: ['Good soldier entangled not', 'Word of God not bound', 'Died with Christ live with Him', 'Rightly handle word of truth'],
+    christConnection: 'Remember Jesus Christ, risen from the dead, offspring of David. If we have died with Him, we will live with Him; if we endure, we will reign with Him. He remains faithful even when we are faithless.'
+  },
+  {
+    bookId: '2-timothy',
+    chapter: 3,
+    title: 'Godlessness in the Last Days',
+    summary: 'Understand this: in the last days there will come times of difficulty. People will be lovers of self, lovers of money, proud, arrogant, abusive, disobedient to parents, ungrateful, unholy, heartless, unappeasable, slanderous, without self-control, brutal, not loving good, treacherous, reckless, swollen with conceit, lovers of pleasure rather than lovers of God, having the appearance of godliness but denying its power. Avoid such people. Among them are those who creep into households and capture weak women. These men oppose the truth, corrupted in mind and disqualified regarding the faith. But they will not get very far, for their folly will be plain to all. Timothy has followed Paul\'s teaching, conduct, aim in life, faith, patience, love, steadfastness, persecutions, and sufferings—yet from them all the Lord rescued him. Indeed, all who desire to live a godly life in Christ Jesus will be persecuted, while evil people and impostors will go on from bad to worse. But Timothy must continue in what he has learned and firmly believed, knowing from whom he learned it, and how from childhood he has been acquainted with the sacred writings, which are able to make him wise for salvation through faith in Christ Jesus. All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work.',
+    keyThemes: ['Difficulty in last days', 'Form of godliness denying power', 'Persecution for godly life', 'All Scripture God-breathed'],
+    christConnection: 'The sacred writings make one wise for salvation through faith in Christ Jesus. All Scripture—breathed out by God—points to Christ and equips believers for every good work in His name.'
+  },
+  {
+    bookId: '2-timothy',
+    chapter: 4,
+    title: 'Paul\'s Final Charge',
+    summary: 'Paul charges Timothy in the presence of God and of Christ Jesus, who is to judge the living and the dead, and by His appearing and His kingdom: preach the word; be ready in season and out of season; reprove, rebuke, and exhort, with complete patience and teaching. For the time is coming when people will not endure sound teaching but will accumulate teachers to suit their own passions. They will turn away from truth to myths. As for Timothy, always be sober-minded, endure suffering, do the work of an evangelist, fulfill your ministry. For Paul is already being poured out as a drink offering, and the time of his departure has come. He has fought the good fight, finished the race, kept the faith. Henceforth there is laid up for him the crown of righteousness, which the Lord, the righteous judge, will award to him on that day—and not only to him but also to all who have loved His appearing. Come to me soon. Demas, in love with this present world, deserted Paul. Only Luke is with him. Bring Mark, for he is very useful in ministry. Bring the cloak and the books, especially the parchments. Alexander the coppersmith did Paul great harm; the Lord will repay him. At Paul\'s first defense no one came to stand by him. But the Lord stood by him and strengthened him, so that through him the message might be fully proclaimed. The Lord will rescue him from every evil deed and bring him safely into His heavenly kingdom. To Him be glory forever.',
+    keyThemes: ['Preach the word in season out', 'Fought the fight finished the race', 'Crown of righteousness', 'Lord stood by strengthened'],
+    christConnection: 'Christ Jesus will judge the living and the dead at His appearing. The crown of righteousness awaits all who love His appearing. The Lord stood by Paul and will bring him safely into His heavenly kingdom.'
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// TITUS (3 Chapters)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const TITUS_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'titus',
+    chapter: 1,
+    title: 'Qualifications for Elders',
+    summary: 'Paul, a servant of God and apostle of Jesus Christ for the sake of the faith of God\'s elect and their knowledge of the truth, which accords with godliness, writes in hope of eternal life, which God, who never lies, promised before the ages began and at the proper time manifested in His word through the preaching with which Paul has been entrusted by the command of God our Savior. To Titus, his true child in a common faith: grace and peace from God the Father and Christ Jesus our Savior. Paul left Titus in Crete to put what remained in order and appoint elders in every town. An elder must be above reproach, the husband of one wife, whose children are believers and not open to the charge of debauchery or insubordination. As God\'s steward, an overseer must be above reproach, not arrogant or quick-tempered or a drunkard or violent or greedy for gain, but hospitable, a lover of good, self-controlled, upright, holy, and disciplined. He must hold firm to the trustworthy word as taught, so that he may be able to give instruction in sound doctrine and rebuke those who contradict it. For there are many who are insubordinate, empty talkers and deceivers, especially those of the circumcision party. They must be silenced, since they are upsetting whole families by teaching for shameful gain what they ought not to teach. One of the Cretans, a prophet of their own, said Cretans are always liars, evil beasts, lazy gluttons. This testimony is true. Rebuke them sharply. To the pure all things are pure, but to the defiled nothing is pure. They profess to know God, but deny Him by their works.',
+    keyThemes: ['Eternal life promised before ages', 'Elder qualifications', 'Hold firm trustworthy word', 'Profess God deny by works'],
+    christConnection: 'God, who never lies, promised eternal life before the ages began and manifested it through preaching entrusted to Paul by Christ Jesus our Savior. Elders must hold firm to this word.'
+  },
+  {
+    bookId: 'titus',
+    chapter: 2,
+    title: 'The Grace That Trains',
+    summary: 'Teach what accords with sound doctrine. Older men are to be sober-minded, dignified, self-controlled, sound in faith, in love, and in steadfastness. Older women likewise are to be reverent in behavior, not slanderers or slaves to much wine. They are to teach what is good and train the young women to love their husbands and children, to be self-controlled, pure, working at home, kind, submissive to their own husbands, that the word of God may not be reviled. Likewise urge the younger men to be self-controlled. Show yourself a model of good works, and in your teaching show integrity, dignity, and sound speech that cannot be condemned. Bondservants are to be submissive to their masters in everything, well-pleasing, not argumentative, not pilfering, but showing good faith, so that in everything they may adorn the doctrine of God our Savior. For the grace of God has appeared, bringing salvation for all people, training us to renounce ungodliness and worldly passions, and to live self-controlled, upright, and godly lives in the present age, waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ, who gave Himself for us to redeem us from all lawlessness and to purify for Himself a people for His own possession who are zealous for good works. Declare these things; exhort and rebuke with all authority.',
+    keyThemes: ['Sound doctrine for all ages', 'Adorn doctrine of God', 'Grace trains to godliness', 'Blessed hope appearing of Christ'],
+    christConnection: 'The grace of God has appeared, bringing salvation. We await the blessed hope—the appearing of our great God and Savior Jesus Christ, who gave Himself to redeem us and purify for Himself a people zealous for good works.'
+  },
+  {
+    bookId: 'titus',
+    chapter: 3,
+    title: 'Saved by His Mercy',
+    summary: 'Remind them to be submissive to rulers and authorities, to be obedient, ready for every good work, to speak evil of no one, to avoid quarreling, to be gentle, showing perfect courtesy toward all people. For we ourselves were once foolish, disobedient, led astray, slaves to various passions and pleasures, passing our days in malice and envy, hated by others and hating one another. But when the goodness and loving kindness of God our Savior appeared, He saved us, not because of works done by us in righteousness, but according to His own mercy, by the washing of regeneration and renewal of the Holy Spirit, whom He poured out on us richly through Jesus Christ our Savior, so that being justified by His grace we might become heirs according to the hope of eternal life. The saying is trustworthy, and Titus is to insist on these things, so that those who have believed in God may be careful to devote themselves to good works. These things are excellent and profitable for people. Avoid foolish controversies, genealogies, dissensions, and quarrels about the law, for they are unprofitable and worthless. As for a person who stirs up division, after warning him once and then twice, have nothing more to do with him. When Paul sends Artemas or Tychicus, come to Nicopolis. Do your best to speed Zenas the lawyer and Apollos on their way. Let our people learn to devote themselves to good works to meet urgent needs. Grace be with you all.',
+    keyThemes: ['Once foolish now saved', 'Mercy not works', 'Washing of regeneration', 'Heirs of eternal life'],
+    christConnection: 'God saved us by His mercy through the washing of regeneration and renewal of the Spirit poured out through Jesus Christ our Savior. Justified by grace, we become heirs according to the hope of eternal life.'
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// PHILEMON (1 Chapter)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const PHILEMON_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: 'philemon',
+    chapter: 1,
+    title: 'Appeal for Onesimus',
+    summary: 'Paul, a prisoner for Christ Jesus, and Timothy write to Philemon their beloved fellow worker, and to Apphia, Archippus, and the church in his house. Grace and peace from God our Father and the Lord Jesus Christ. Paul thanks God always when he remembers Philemon in his prayers, because he hears of his love and faith toward the Lord Jesus and for all the saints. Paul prays that the sharing of Philemon\'s faith may become effective for the full knowledge of every good thing that is in us for the sake of Christ. Paul has derived much joy and comfort from Philemon\'s love, because the hearts of the saints have been refreshed through him. Accordingly, though Paul could be bold in Christ to command what is required, for love\'s sake he prefers to appeal. He appeals for his child Onesimus, whose father Paul became in his imprisonment. Formerly Onesimus was useless to Philemon, but now he is indeed useful to both. Paul is sending him back to Philemon, sending his very heart. Paul would have been glad to keep him, but preferred to do nothing without Philemon\'s consent. Perhaps this is why Onesimus was separated for a while, that Philemon might have him back forever—no longer as a bondservant but as a beloved brother, especially to Paul, but how much more to Philemon, both in the flesh and in the Lord. If Philemon considers Paul his partner, receive Onesimus as he would receive Paul. If Onesimus has wronged Philemon or owes anything, charge that to Paul\'s account. Paul will repay it. Confident of Philemon\'s obedience, Paul writes knowing he will do even more than Paul says. Prepare a guest room. Epaphras, Mark, Aristarchus, Demas, and Luke send greetings. The grace of the Lord Jesus Christ be with your spirit.',
+    keyThemes: ['Appeal for love\'s sake', 'Useless now useful', 'Brother not bondservant', 'Receive as you would receive me'],
+    christConnection: 'Paul asks Philemon to receive Onesimus as he would receive Paul himself—a picture of imputation. If Onesimus owes anything, charge it to Paul\'s account, just as Christ takes our debt and gives us His righteousness.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9219,6 +9359,14 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return FIRST_THESSALONIANS_CHAPTERS;
     case '2-thessalonians':
       return SECOND_THESSALONIANS_CHAPTERS;
+    case '1-timothy':
+      return FIRST_TIMOTHY_CHAPTERS;
+    case '2-timothy':
+      return SECOND_TIMOTHY_CHAPTERS;
+    case 'titus':
+      return TITUS_CHAPTERS;
+    case 'philemon':
+      return PHILEMON_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9280,4 +9428,8 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: 'colossians', bookName: 'Colossians', chapters: COLOSSIANS_CHAPTERS },
   { bookId: '1-thessalonians', bookName: '1 Thessalonians', chapters: FIRST_THESSALONIANS_CHAPTERS },
   { bookId: '2-thessalonians', bookName: '2 Thessalonians', chapters: SECOND_THESSALONIANS_CHAPTERS },
+  { bookId: '1-timothy', bookName: '1 Timothy', chapters: FIRST_TIMOTHY_CHAPTERS },
+  { bookId: '2-timothy', bookName: '2 Timothy', chapters: SECOND_TIMOTHY_CHAPTERS },
+  { bookId: 'titus', bookName: 'Titus', chapters: TITUS_CHAPTERS },
+  { bookId: 'philemon', bookName: 'Philemon', chapters: PHILEMON_CHAPTERS },
 ];
