@@ -194,6 +194,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'leviticus-20-26',
+    reference: 'Leviticus 20:26',
+    book: 'Leviticus',
+    chapter: 20,
+    verse: 26,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'You shall be holy to me, for I the LORD am holy and have separated you from the peoples, that you should be mine.',
+      NIV: 'You are to be holy to me because I, the LORD, am holy, and I have set you apart from the nations to be my own.',
+      KJV: 'And ye shall be holy unto me: for I the LORD am holy, and have severed you from other people, that ye should be mine.',
+      NASB: 'Thus you are to be holy to Me, for I the LORD am holy; and I have set you apart from the peoples to be Mine.',
+    },
+    context: {
+      before: {
+        reference: 'Leviticus 20:25',
+        text: 'You shall therefore separate the clean beast from the unclean, and the unclean bird from the clean.',
+      },
+      after: {
+        reference: 'Leviticus 20:27',
+        text: 'A man or a woman who is a medium or a necromancer shall surely be put to death.',
+      },
+    },
+  },
 
   // ============ NUMBERS ============
   {
@@ -217,6 +241,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Numbers 6:27',
         text: 'So shall they put my name upon the people of Israel, and I will bless them.',
+      },
+    },
+  },
+  {
+    id: 'numbers-23-19',
+    reference: 'Numbers 23:19',
+    book: 'Numbers',
+    chapter: 23,
+    verse: 19,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'God is not man, that he should lie, or a son of man, that he should change his mind. Has he said, and will he not do it? Or has he spoken, and will he not fulfill it?',
+      NIV: 'God is not human, that he should lie, not a human being, that he should change his mind. Does he speak and then not act? Does he promise and not fulfill?',
+      KJV: 'God is not a man, that he should lie; neither the son of man, that he should repent: hath he said, and shall he not do it? or hath he spoken, and shall he not make it good?',
+      NASB: 'God is not a man, that He should lie, nor a son of man, that He should repent; has He said, and will He not do it? Or has He spoken, and will He not make it good?',
+    },
+    context: {
+      before: {
+        reference: 'Numbers 23:18',
+        text: 'And Balaam took up his discourse and said, "Rise, Balak, and hear; give ear to me, O son of Zippor."',
+      },
+      after: {
+        reference: 'Numbers 23:20',
+        text: 'Behold, I received a command to bless: he has blessed, and I cannot revoke it.',
       },
     },
   },
@@ -416,6 +464,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'ruth-4-14',
+    reference: 'Ruth 4:14',
+    book: 'Ruth',
+    chapter: 4,
+    verse: 14,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then the women said to Naomi, "Blessed be the LORD, who has not left you this day without a redeemer, and may his name be renowned in Israel!"',
+      NIV: 'The women said to Naomi: "Praise be to the LORD, who this day has not left you without a guardian-redeemer. May he become famous throughout Israel!"',
+      KJV: 'And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman, that his name may be famous in Israel.',
+      NASB: 'Then the women said to Naomi, "Blessed is the LORD who has not left you without a redeemer today, and may his name become famous in Israel."',
+    },
+    context: {
+      before: {
+        reference: 'Ruth 4:13',
+        text: 'So Boaz took Ruth, and she became his wife. And he went in to her, and the LORD gave her conception, and she bore a son.',
+      },
+      after: {
+        reference: 'Ruth 4:15',
+        text: 'He shall be to you a restorer of life and a nourisher of your old age, for your daughter-in-law who loves you, who is more to you than seven sons, has given birth to him.',
+      },
+    },
+  },
 
   // ============ 1 SAMUEL ============
   {
@@ -439,6 +511,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Samuel 16:8',
         text: 'Then Jesse called Abinadab and made him pass before Samuel.',
+      },
+    },
+  },
+  {
+    id: '1-samuel-2-2',
+    reference: '1 Samuel 2:2',
+    book: '1 Samuel',
+    chapter: 2,
+    verse: 2,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'There is none holy like the LORD: for there is none besides you; there is no rock like our God.',
+      NIV: 'There is no one holy like the LORD; there is no one besides you; there is no Rock like our God.',
+      KJV: 'There is none holy as the LORD: for there is none beside thee: neither is there any rock like our God.',
+      NASB: 'There is no one holy like the LORD, indeed, there is no one besides You, nor is there any rock like our God.',
+    },
+    context: {
+      before: {
+        reference: '1 Samuel 2:1',
+        text: 'And Hannah prayed and said, "My heart exults in the LORD; my horn is exalted in the LORD."',
+      },
+      after: {
+        reference: '1 Samuel 2:3',
+        text: 'Talk no more so very proudly, let not arrogance come from your mouth; for the LORD is a God of knowledge, and by him actions are weighed.',
       },
     },
   },
@@ -468,6 +564,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: '2-samuel-7-16',
+    reference: '2 Samuel 7:16',
+    book: '2 Samuel',
+    chapter: 7,
+    verse: 16,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And your house and your kingdom shall be made sure forever before me. Your throne shall be established forever.',
+      NIV: 'Your house and your kingdom will endure forever before me; your throne will be established forever.',
+      KJV: 'And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.',
+      NASB: 'Your house and your kingdom shall endure before Me forever; your throne shall be established forever.',
+    },
+    context: {
+      before: {
+        reference: '2 Samuel 7:15',
+        text: 'But my steadfast love will not depart from him, as I took it from Saul, whom I put away from before you.',
+      },
+      after: {
+        reference: '2 Samuel 7:17',
+        text: 'In accordance with all these words, and in accordance with all this vision, Nathan spoke to David.',
+      },
+    },
+  },
 
   // ============ 1 KINGS ============
   {
@@ -491,6 +611,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: '1 Kings 8:57',
         text: 'The LORD our God be with us, as he was with our fathers.',
+      },
+    },
+  },
+  {
+    id: '1-kings-18-39',
+    reference: '1 Kings 18:39',
+    book: '1 Kings',
+    chapter: 18,
+    verse: 39,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'And when all the people saw it, they fell on their faces and said, "The LORD, he is God; the LORD, he is God."',
+      NIV: 'When all the people saw this, they fell prostrate and cried, "The LORD—he is God! The LORD—he is God!"',
+      KJV: 'And when all the people saw it, they fell on their faces: and they said, The LORD, he is the God; the LORD, he is the God.',
+      NASB: 'When all the people saw it, they fell on their faces; and they said, "The LORD, He is God; the LORD, He is God."',
+    },
+    context: {
+      before: {
+        reference: '1 Kings 18:38',
+        text: 'Then the fire of the LORD fell and consumed the burnt offering and the wood and the stones and the dust, and licked up the water that was in the trench.',
+      },
+      after: {
+        reference: '1 Kings 18:40',
+        text: 'And Elijah said to them, "Seize the prophets of Baal; let not one of them escape."',
       },
     },
   },
@@ -696,6 +840,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'nehemiah-9-6',
+    reference: 'Nehemiah 9:6',
+    book: 'Nehemiah',
+    chapter: 9,
+    verse: 6,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'You are the LORD, you alone. You have made heaven, the heaven of heavens, with all their host, the earth and all that is on it, the seas and all that is in them; and you preserve all of them; and the host of heaven worships you.',
+      NIV: 'You alone are the LORD. You made the heavens, even the highest heavens, and all their starry host, the earth and all that is on it, the seas and all that is in them. You give life to everything, and the multitudes of heaven worship you.',
+      KJV: 'Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee.',
+      NASB: 'You alone are the LORD. You have made the heavens, the heaven of heavens with all their host, the earth and all that is on it, the seas and all that is in them. You give life to all of them and the heavenly host bows down before You.',
+    },
+    context: {
+      before: {
+        reference: 'Nehemiah 9:5',
+        text: 'Then the Levites, Jeshua, Kadmiel, Bani, Hashabneiah, Sherebiah, Hodiah, Shebaniah, and Pethahiah, said, "Stand up and bless the LORD your God from everlasting to everlasting."',
+      },
+      after: {
+        reference: 'Nehemiah 9:7',
+        text: 'You are the LORD, the God who chose Abram and brought him out of Ur of the Chaldeans and gave him the name Abraham.',
+      },
+    },
+  },
 
   // ============ ESTHER ============
   {
@@ -719,6 +887,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'Esther 4:15',
         text: 'Then Esther told them to reply to Mordecai.',
+      },
+    },
+  },
+  {
+    id: 'esther-6-13',
+    reference: 'Esther 6:13',
+    book: 'Esther',
+    chapter: 6,
+    verse: 13,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And Haman told his wife Zeresh and all his friends everything that had happened to him. Then his wise men and his wife Zeresh said to him, "If Mordecai, before whom you have begun to fall, is of the Jewish people, you will not overcome him but will surely fall before him."',
+      NIV: 'And Haman told his wife Zeresh and all his friends everything that had happened to him. His advisers and his wife Zeresh said to him, "Since Mordecai, before whom your downfall has started, is of Jewish origin, you cannot stand against him—you will surely come to ruin!"',
+      KJV: 'And Haman told Zeresh his wife and all his friends every thing that had befallen him. Then said his wise men and Zeresh his wife unto him, If Mordecai be of the seed of the Jews, before whom thou hast begun to fall, thou shalt not prevail against him, but shalt surely fall before him.',
+      NASB: 'Haman recounted to Zeresh his wife and all his friends everything that had happened to him. Then his wise men and Zeresh his wife said to him, "If Mordecai, before whom you have begun to fall, is of Jewish origin, you will not overcome him, but will surely fall before him."',
+    },
+    context: {
+      before: {
+        reference: 'Esther 6:12',
+        text: 'Then Mordecai returned to the king\'s gate. But Haman hurried to his house, mourning and with his head covered.',
+      },
+      after: {
+        reference: 'Esther 6:14',
+        text: 'While they were yet talking with him, the king\'s eunuchs arrived and hurried to bring Haman to the feast that Esther had prepared.',
       },
     },
   },
@@ -1522,6 +1714,30 @@ export const MEMORY_VERSES: MemoryVerse[] = [
   },
 
   // ============ JOEL ============
+  {
+    id: 'joel-2-32',
+    reference: 'Joel 2:32',
+    book: 'Joel',
+    chapter: 2,
+    verse: 32,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And it shall come to pass that everyone who calls on the name of the LORD shall be saved. For in Mount Zion and in Jerusalem there shall be those who escape, as the LORD has said, and among the survivors shall be those whom the LORD calls.',
+      NIV: 'And everyone who calls on the name of the LORD will be saved; for on Mount Zion and in Jerusalem there will be deliverance, as the LORD has said, even among the survivors whom the LORD calls.',
+      KJV: 'And it shall come to pass, that whosoever shall call on the name of the LORD shall be delivered: for in mount Zion and in Jerusalem shall be deliverance, as the LORD hath said, and in the remnant whom the LORD shall call.',
+      NASB: 'And it will come about that whoever calls on the name of the LORD will be delivered; for on Mount Zion and in Jerusalem there will be those who escape, as the LORD has said, even among the survivors whom the LORD calls.',
+    },
+    context: {
+      before: {
+        reference: 'Joel 2:31',
+        text: 'The sun shall be turned to darkness, and the moon to blood, before the great and awesome day of the LORD comes.',
+      },
+      after: {
+        reference: 'Joel 3:1',
+        text: 'For behold, in those days and at that time, when I restore the fortunes of Judah and Jerusalem.',
+      },
+    },
+  },
   {
     id: 'joel-2-28',
     reference: 'Joel 2:28',
