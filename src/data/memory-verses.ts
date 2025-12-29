@@ -6500,6 +6500,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'daniel-9-25-26',
+    reference: 'Daniel 9:25-26',
+    book: 'Daniel',
+    chapter: 9,
+    verse: 25,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'Know therefore and understand that from the going out of the word to restore and build Jerusalem to the coming of an anointed one, a prince, there shall be seven weeks. Then for sixty-two weeks it shall be built again with squares and moat, but in a troubled time. And after the sixty-two weeks, an anointed one shall be cut off and shall have nothing.',
+      NIV: 'Know and understand this: From the time the word goes out to restore and rebuild Jerusalem until the Anointed One, the ruler, comes, there will be seven "sevens," and sixty-two "sevens." It will be rebuilt with streets and a trench, but in times of trouble. After the sixty-two "sevens," the Anointed One will be put to death and will have nothing.',
+      KJV: 'Know therefore and understand, that from the going forth of the commandment to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, and threescore and two weeks: the street shall be built again, and the wall, even in troublous times. And after threescore and two weeks shall Messiah be cut off, but not for himself.',
+      NASB: 'So you are to know and discern that from the issuing of a decree to restore and rebuild Jerusalem until Messiah the Prince there will be seven weeks and sixty-two weeks; it will be built again, with plaza and moat, even in times of distress. Then after the sixty-two weeks the Messiah will be cut off and have nothing.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 9:24',
+        text: 'Seventy weeks are decreed about your people and your holy city, to finish the transgression, to put an end to sin, and to atone for iniquity, to bring in everlasting righteousness, to seal both vision and prophet, and to anoint a most holy place.',
+      },
+      after: {
+        reference: 'Daniel 9:27',
+        text: 'And he shall make a strong covenant with many for one week, and for half of the week he shall put an end to sacrifice and offering.',
+      },
+    },
+  },
+  {
+    id: 'daniel-6-22',
+    reference: 'Daniel 6:22',
+    book: 'Daniel',
+    chapter: 6,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'My God sent his angel and shut the lions\' mouths, and they have not harmed me, because I was found blameless before him; and also before you, O king, I have done no harm.',
+      NIV: 'My God sent his angel, and he shut the mouths of the lions. They have not hurt me, because I was found innocent in his sight. Nor have I ever done any wrong before you, Your Majesty.',
+      KJV: 'My God hath sent his angel, and hath shut the lions\' mouths, that they have not hurt me: forasmuch as before him innocency was found in me; and also before thee, O king, have I done no hurt.',
+      NASB: 'My God sent His angel and shut the lions\' mouths and they have not harmed me, inasmuch as I was found innocent before Him; and also toward you, O king, I have committed no crime.',
+    },
+    context: {
+      before: {
+        reference: 'Daniel 6:21',
+        text: 'Then Daniel said to the king, "O king, live forever!"',
+      },
+      after: {
+        reference: 'Daniel 6:23',
+        text: 'Then the king was exceedingly glad, and commanded that Daniel be taken up out of the den. So Daniel was taken up out of the den, and no kind of harm was found on him, because he had trusted in his God.',
+      },
+    },
+  },
 
   // ============ HOSEA ============
   {
