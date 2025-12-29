@@ -7286,6 +7286,292 @@ export const BIBLE_QUIZ_QUESTIONS: BibleQuizQuestion[] = [
     distractors: ['Galatians', 'Ephesians', 'James'],
     explanation: 'Romans 6:23 contrasts what we earn (death) with what God gives freely (eternal life).',
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // ADDITIONAL QUESTIONS - EXPANDING COVERAGE (675 → 700)
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  // Genesis (additional - currently 12)
+  {
+    id: 'gen-013',
+    bookId: 'genesis',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records Joseph interpreting Pharaoh\'s dreams about seven years of plenty and famine?',
+    correctAnswer: 'Genesis',
+    distractors: ['Daniel', 'Exodus', 'Numbers'],
+    explanation: 'Genesis 41 describes Joseph interpreting Pharaoh\'s prophetic dreams, leading to his elevation.',
+  },
+  {
+    id: 'gen-014',
+    bookId: 'genesis',
+    category: 'key_verse',
+    difficulty: 'hard',
+    question: 'Which book contains Jacob\'s prophecy that "the scepter shall not depart from Judah" (49:10)?',
+    correctAnswer: 'Genesis',
+    distractors: ['Numbers', 'Deuteronomy', 'Isaiah'],
+    explanation: 'Genesis 49:10 is a Messianic prophecy pointing to Christ\'s royal lineage from Judah.',
+  },
+
+  // Psalms (additional - currently 10)
+  {
+    id: 'psa-011',
+    bookId: 'psalms',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book contains the verse "The LORD is my shepherd; I shall not want" (23:1)?',
+    correctAnswer: 'Psalms',
+    distractors: ['Isaiah', 'John', 'Ezekiel'],
+    explanation: 'Psalm 23 is the beloved shepherd psalm attributed to David.',
+  },
+  {
+    id: 'psa-012',
+    bookId: 'psalms',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book declares "The heavens declare the glory of God, and the sky above proclaims his handiwork" (19:1)?',
+    correctAnswer: 'Psalms',
+    distractors: ['Isaiah', 'Job', 'Genesis'],
+    explanation: 'Psalm 19 teaches that creation reveals God\'s glory (general revelation).',
+  },
+  {
+    id: 'psa-013',
+    bookId: 'psalms',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book is divided into five sections, mirroring the five books of Moses?',
+    correctAnswer: 'Psalms',
+    distractors: ['Proverbs', 'Lamentations', 'Job'],
+    explanation: 'The Psalter has five books (1-41, 42-72, 73-89, 90-106, 107-150), echoing the Pentateuch.',
+  },
+
+  // Isaiah (additional - currently 10)
+  {
+    id: 'isa-011',
+    bookId: 'isaiah',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which prophet said "For unto us a child is born, unto us a son is given" (9:6)?',
+    correctAnswer: 'Isaiah',
+    distractors: ['Micah', 'Jeremiah', 'Malachi'],
+    explanation: 'Isaiah 9:6-7 is one of the clearest Messianic prophecies about Christ\'s birth.',
+  },
+  {
+    id: 'isa-012',
+    bookId: 'isaiah',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which prophet describes the Suffering Servant who was "pierced for our transgressions" (53:5)?',
+    correctAnswer: 'Isaiah',
+    distractors: ['Zechariah', 'Psalms', 'Daniel'],
+    explanation: 'Isaiah 53 is the famous Servant Song fulfilled in Christ\'s atoning death.',
+  },
+
+  // Matthew (additional - currently 12)
+  {
+    id: 'mat-013',
+    bookId: 'matthew',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which Gospel records Jesus\' Sermon on the Mount including the Beatitudes?',
+    correctAnswer: 'Matthew',
+    distractors: ['Luke', 'Mark', 'John'],
+    explanation: 'Matthew 5-7 contains the Sermon on the Mount in its fullest form.',
+  },
+  {
+    id: 'mat-014',
+    bookId: 'matthew',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which Gospel ends with "I am with you always, to the end of the age" (28:20)?',
+    correctAnswer: 'Matthew',
+    distractors: ['John', 'Mark', 'Luke'],
+    explanation: 'Matthew\'s Great Commission concludes with Christ\'s promise of His abiding presence.',
+  },
+
+  // Luke (additional - currently 13)
+  {
+    id: 'luk-014',
+    bookId: 'luke',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which Gospel contains the parables of the Good Samaritan and the Prodigal Son?',
+    correctAnswer: 'Luke',
+    distractors: ['Matthew', 'Mark', 'John'],
+    explanation: 'These beloved parables are unique to Luke (10:25-37; 15:11-32).',
+  },
+
+  // John (additional - currently 11)
+  {
+    id: 'joh-012',
+    bookId: 'john',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which Gospel begins "In the beginning was the Word, and the Word was with God, and the Word was God" (1:1)?',
+    correctAnswer: 'John',
+    distractors: ['Genesis', 'Hebrews', 'Colossians'],
+    explanation: 'John\'s prologue (1:1-18) affirms Christ\'s eternal deity as the divine Logos.',
+  },
+  {
+    id: 'joh-013',
+    bookId: 'john',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel records Jesus saying "I am the way, and the truth, and the life" (14:6)?',
+    correctAnswer: 'John',
+    distractors: ['Matthew', 'Luke', 'Hebrews'],
+    explanation: 'John 14:6 is part of Jesus\' Upper Room Discourse the night before His crucifixion.',
+  },
+
+  // Acts (additional - currently 13)
+  {
+    id: 'act-014',
+    bookId: 'acts',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book records the conversion of Paul on the road to Damascus?',
+    correctAnswer: 'Acts',
+    distractors: ['Galatians', 'Romans', '1 Corinthians'],
+    explanation: 'Acts 9 describes Saul\'s dramatic conversion encounter with the risen Christ.',
+  },
+
+  // Romans (additional - currently 10)
+  {
+    id: 'rom-011',
+    bookId: 'romans',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which letter declares "For all have sinned and fall short of the glory of God" (3:23)?',
+    correctAnswer: 'Romans',
+    distractors: ['Galatians', '1 John', 'Ephesians'],
+    explanation: 'Romans 3:23 is a key verse establishing universal human sinfulness.',
+  },
+  {
+    id: 'rom-012',
+    bookId: 'romans',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which letter contains Paul\'s extended discussion of predestination and God\'s sovereignty in chapters 9-11?',
+    correctAnswer: 'Romans',
+    distractors: ['Ephesians', 'Galatians', '1 Peter'],
+    explanation: 'Romans 9-11 addresses divine election and the future of Israel.',
+  },
+
+  // Hebrews (additional - currently 10)
+  {
+    id: 'heb-011',
+    bookId: 'hebrews',
+    category: 'content',
+    difficulty: 'easy',
+    question: 'Which book contains the famous "Hall of Faith" chapter listing Old Testament heroes?',
+    correctAnswer: 'Hebrews',
+    distractors: ['Romans', 'James', 'Galatians'],
+    explanation: 'Hebrews 11 celebrates Abel, Noah, Abraham, Moses, and many other faith heroes.',
+  },
+  {
+    id: 'heb-012',
+    bookId: 'hebrews',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book says "Jesus Christ is the same yesterday and today and forever" (13:8)?',
+    correctAnswer: 'Hebrews',
+    distractors: ['Revelation', 'Colossians', 'John'],
+    explanation: 'Hebrews 13:8 affirms Christ\'s immutable nature and eternal deity.',
+  },
+
+  // Revelation (additional - currently 13)
+  {
+    id: 'rev-014',
+    bookId: 'revelation',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book contains the promise "Behold, I am making all things new" (21:5)?',
+    correctAnswer: 'Revelation',
+    distractors: ['Isaiah', '2 Corinthians', '2 Peter'],
+    explanation: 'Revelation 21:5 is God\'s promise of cosmic renewal in the new creation.',
+  },
+  {
+    id: 'rev-015',
+    bookId: 'revelation',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book contains letters to seven churches in Asia Minor including Ephesus, Smyrna, and Laodicea?',
+    correctAnswer: 'Revelation',
+    distractors: ['Ephesians', 'Colossians', 'Acts'],
+    explanation: 'Revelation 2-3 contains Christ\'s seven letters to seven churches.',
+  },
+
+  // Job (additional - currently 10)
+  {
+    id: 'job-011',
+    bookId: 'job',
+    category: 'key_verse',
+    difficulty: 'medium',
+    question: 'Which book records "I know that my Redeemer lives, and at the last he will stand upon the earth" (19:25)?',
+    correctAnswer: 'Job',
+    distractors: ['Psalms', 'Isaiah', 'Romans'],
+    explanation: 'Job\'s confession in 19:25-27 expresses resurrection hope amid suffering.',
+  },
+
+  // Ruth (additional - currently 10)
+  {
+    id: 'rut-011',
+    bookId: 'ruth',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which book tells of a Moabite woman who becomes an ancestor of King David?',
+    correctAnswer: 'Ruth',
+    distractors: ['1 Samuel', 'Genesis', 'Judges'],
+    explanation: 'Ruth the Moabitess married Boaz and became David\'s great-grandmother.',
+  },
+
+  // Esther (additional - currently 10)
+  {
+    id: 'est-011',
+    bookId: 'esther',
+    category: 'content',
+    difficulty: 'hard',
+    question: 'Which book never explicitly mentions God but powerfully displays His providence?',
+    correctAnswer: 'Esther',
+    distractors: ['Ruth', 'Song of Solomon', 'Ecclesiastes'],
+    explanation: 'Esther omits God\'s name yet reveals His sovereign protection of His people.',
+  },
+
+  // Hosea (additional - currently 10)
+  {
+    id: 'hos-011',
+    bookId: 'hosea',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which prophet was commanded to marry an unfaithful woman as a picture of God\'s love for Israel?',
+    correctAnswer: 'Hosea',
+    distractors: ['Jeremiah', 'Ezekiel', 'Isaiah'],
+    explanation: 'Hosea\'s marriage to Gomer illustrated God\'s faithful love despite Israel\'s spiritual adultery.',
+  },
+
+  // Mark (additional - currently 11)
+  {
+    id: 'mar-012',
+    bookId: 'mark',
+    category: 'content',
+    difficulty: 'medium',
+    question: 'Which Gospel emphasizes Jesus as the Suffering Servant and uses the word "immediately" frequently?',
+    correctAnswer: 'Mark',
+    distractors: ['Matthew', 'Luke', 'John'],
+    explanation: 'Mark\'s fast-paced narrative uses "immediately" (euthys) over 40 times, emphasizing Jesus\' active ministry.',
+  },
+
+  // Deuteronomy (additional - currently 10)
+  {
+    id: 'deu-011',
+    bookId: 'deuteronomy',
+    category: 'key_verse',
+    difficulty: 'easy',
+    question: 'Which book contains the Shema: "Hear, O Israel: The LORD our God, the LORD is one" (6:4)?',
+    correctAnswer: 'Deuteronomy',
+    distractors: ['Exodus', 'Leviticus', 'Numbers'],
+    explanation: 'Deuteronomy 6:4-9 contains Israel\'s foundational confession of monotheism, still recited daily by observant Jews.',
+  },
 ];
 
 // Helper functions for quiz functionality
