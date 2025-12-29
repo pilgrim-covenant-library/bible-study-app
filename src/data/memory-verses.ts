@@ -334,6 +334,150 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       },
     },
   },
+  {
+    id: 'genesis-1-26',
+    reference: 'Genesis 1:26',
+    book: 'Genesis',
+    chapter: 1,
+    verse: 26,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Then God said, "Let us make man in our image, after our likeness. And let them have dominion over the fish of the sea and over the birds of the heavens and over the livestock and over all the earth and over every creeping thing that creeps on the earth."',
+      NIV: 'Then God said, "Let us make mankind in our image, in our likeness, so that they may rule over the fish in the sea and the birds in the sky, over the livestock and all the wild animals, and over all the creatures that move along the ground."',
+      KJV: 'And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.',
+      NASB: 'Then God said, "Let Us make man in Our image, according to Our likeness; and let them rule over the fish of the sea and over the birds of the sky and over the cattle and over all the earth, and over every creeping thing that creeps on the earth."',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 1:25',
+        text: 'And God made the beasts of the earth according to their kinds and the livestock according to their kinds, and everything that creeps on the ground according to its kind. And God saw that it was good.',
+      },
+      after: {
+        reference: 'Genesis 1:27',
+        text: 'So God created man in his own image, in the image of God he created him; male and female he created them.',
+      },
+    },
+  },
+  {
+    id: 'genesis-2-18',
+    reference: 'Genesis 2:18',
+    book: 'Genesis',
+    chapter: 2,
+    verse: 18,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Then the LORD God said, "It is not good that the man should be alone; I will make him a helper fit for him."',
+      NIV: 'The LORD God said, "It is not good for the man to be alone. I will make a helper suitable for him."',
+      KJV: 'And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.',
+      NASB: 'Then the LORD God said, "It is not good for the man to be alone; I will make him a helper suitable for him."',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 2:17',
+        text: 'But of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.',
+      },
+      after: {
+        reference: 'Genesis 2:19',
+        text: 'Now out of the ground the LORD God had formed every beast of the field and every bird of the heavens and brought them to the man to see what he would call them.',
+      },
+    },
+  },
+  {
+    id: 'genesis-8-22',
+    reference: 'Genesis 8:22',
+    book: 'Genesis',
+    chapter: 8,
+    verse: 22,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'While the earth remains, seedtime and harvest, cold and heat, summer and winter, day and night, shall not cease.',
+      NIV: 'As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night will never cease.',
+      KJV: 'While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.',
+      NASB: 'While the earth remains, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 8:21',
+        text: 'And when the LORD smelled the pleasing aroma, the LORD said in his heart, "I will never again curse the ground because of man."',
+      },
+      after: {
+        reference: 'Genesis 9:1',
+        text: 'And God blessed Noah and his sons and said to them, "Be fruitful and multiply and fill the earth."',
+      },
+    },
+  },
+  {
+    id: 'genesis-17-7',
+    reference: 'Genesis 17:7',
+    book: 'Genesis',
+    chapter: 17,
+    verse: 7,
+    difficulty: 'hard',
+    translations: {
+      ESV: 'And I will establish my covenant between me and you and your offspring after you throughout their generations for an everlasting covenant, to be God to you and to your offspring after you.',
+      NIV: 'I will establish my covenant as an everlasting covenant between me and you and your descendants after you for the generations to come, to be your God and the God of your descendants after you.',
+      KJV: 'And I will establish my covenant between me and thee and thy seed after thee in their generations for an everlasting covenant, to be a God unto thee, and to thy seed after thee.',
+      NASB: 'I will establish My covenant between Me and you and your descendants after you throughout their generations for an everlasting covenant, to be God to you and to your descendants after you.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 17:6',
+        text: 'I will make you exceedingly fruitful, and I will make you into nations, and kings shall come from you.',
+      },
+      after: {
+        reference: 'Genesis 17:8',
+        text: 'And I will give to you and to your offspring after you the land of your sojournings, all the land of Canaan, for an everlasting possession, and I will be their God.',
+      },
+    },
+  },
+  {
+    id: 'genesis-18-14',
+    reference: 'Genesis 18:14',
+    book: 'Genesis',
+    chapter: 18,
+    verse: 14,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'Is anything too hard for the LORD? At the appointed time I will return to you, about this time next year, and Sarah shall have a son.',
+      NIV: 'Is anything too hard for the LORD? I will return to you at the appointed time next year, and Sarah will have a son.',
+      KJV: 'Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son.',
+      NASB: 'Is anything too difficult for the LORD? At the appointed time I will return to you, at this time next year, and Sarah will have a son.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 18:13',
+        text: 'The LORD said to Abraham, "Why did Sarah laugh and say, \'Shall I indeed bear a child, now that I am old?\'"',
+      },
+      after: {
+        reference: 'Genesis 18:15',
+        text: 'But Sarah denied it, saying, "I did not laugh," for she was afraid. He said, "No, but you did laugh."',
+      },
+    },
+  },
+  {
+    id: 'genesis-28-12',
+    reference: 'Genesis 28:12',
+    book: 'Genesis',
+    chapter: 28,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'And he dreamed, and behold, there was a ladder set up on the earth, and the top of it reached to heaven. And behold, the angels of God were ascending and descending on it!',
+      NIV: 'He had a dream in which he saw a stairway resting on the earth, with its top reaching to heaven, and the angels of God were ascending and descending on it.',
+      KJV: 'And he dreamed, and behold a ladder set up on the earth, and the top of it reached to heaven: and behold the angels of God ascending and descending on it.',
+      NASB: 'He had a dream, and behold, a ladder was set on the earth with its top reaching to heaven; and behold, the angels of God were ascending and descending on it.',
+    },
+    context: {
+      before: {
+        reference: 'Genesis 28:11',
+        text: 'And he came to a certain place and stayed there that night, because the sun had set. Taking one of the stones of the place, he put it under his head and lay down in that place to sleep.',
+      },
+      after: {
+        reference: 'Genesis 28:13',
+        text: 'And behold, the LORD stood above it and said, "I am the LORD, the God of Abraham your father and the God of Isaac."',
+      },
+    },
+  },
 
   // ============ EXODUS ============
   {
@@ -14198,6 +14342,54 @@ export const MEMORY_VERSES: MemoryVerse[] = [
       after: {
         reference: 'James 4:11',
         text: 'Do not speak evil against one another, brothers.',
+      },
+    },
+  },
+  {
+    id: 'james-1-12',
+    reference: 'James 1:12',
+    book: 'James',
+    chapter: 1,
+    verse: 12,
+    difficulty: 'medium',
+    translations: {
+      ESV: 'Blessed is the man who remains steadfast under trial, for when he has stood the test he will receive the crown of life, which God has promised to those who love him.',
+      NIV: 'Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life that the Lord has promised to those who love him.',
+      KJV: 'Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him.',
+      NASB: 'Blessed is a man who perseveres under trial; for once he has been approved, he will receive the crown of life which the Lord has promised to those who love Him.',
+    },
+    context: {
+      before: {
+        reference: 'James 1:11',
+        text: 'For the sun rises with its scorching heat and withers the grass; its flower falls, and its beauty perishes. So also will the rich man fade away in the midst of his pursuits.',
+      },
+      after: {
+        reference: 'James 1:13',
+        text: 'Let no one say when he is tempted, "I am being tempted by God," for God cannot be tempted with evil, and he himself tempts no one.',
+      },
+    },
+  },
+  {
+    id: 'james-2-17',
+    reference: 'James 2:17',
+    book: 'James',
+    chapter: 2,
+    verse: 17,
+    difficulty: 'easy',
+    translations: {
+      ESV: 'So also faith by itself, if it does not have works, is dead.',
+      NIV: 'In the same way, faith by itself, if it is not accompanied by action, is dead.',
+      KJV: 'Even so faith, if it hath not works, is dead, being alone.',
+      NASB: 'Even so faith, if it has no works, is dead, being by itself.',
+    },
+    context: {
+      before: {
+        reference: 'James 2:16',
+        text: 'and one of you says to them, "Go in peace, be warmed and filled," without giving them the things needed for the body, what good is that?',
+      },
+      after: {
+        reference: 'James 2:18',
+        text: 'But someone will say, "You have faith and I have works." Show me your faith apart from your works, and I will show you my faith by my works.',
       },
     },
   },
