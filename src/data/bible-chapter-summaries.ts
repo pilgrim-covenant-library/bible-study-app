@@ -9535,6 +9535,36 @@ export const FIRST_JOHN_CHAPTERS: ChapterSummary[] = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// 2 JOHN (1 Chapter)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const SECOND_JOHN_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '2-john',
+    chapter: 1,
+    title: 'Walking in Truth and Love',
+    summary: 'The elder writes to the elect lady and her children, whom he loves in the truth—and not only he but all who know the truth—because of the truth that abides in us and will be with us forever. Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Father\'s Son, in truth and love. John rejoices greatly that he has found some of her children walking in the truth, just as the Father commanded. Now he asks her—not as though writing a new commandment, but the one we have had from the beginning—that we love one another. And this is love: that we walk according to His commandments. This is the commandment, just as you have heard from the beginning, so that you should walk in it. For many deceivers have gone out into the world, those who do not confess the coming of Jesus Christ in the flesh. Such a one is the deceiver and the antichrist. Watch yourselves, so that you may not lose what we have worked for, but may win a full reward. Everyone who goes on ahead and does not abide in the teaching of Christ does not have God. Whoever abides in the teaching has both the Father and the Son. If anyone comes to you and does not bring this teaching, do not receive him into your house or give him any greeting, for whoever greets him takes part in his wicked works. Though he has much to write, he would rather not use paper and ink. Instead he hopes to come and talk face to face, so that our joy may be complete. The children of her elect sister greet her.',
+    keyThemes: ['Truth and love united', 'The commandment to love', 'Guarding against deceivers', 'Abiding in Christ\'s teaching'],
+    christConnection: 'The test of orthodoxy is confessing "Jesus Christ coming in the flesh"—the incarnation. Those who deny this are deceivers and antichrist. True fellowship requires abiding in "the teaching of Christ." Only those who hold to Christ\'s doctrine have both the Father and the Son.'
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// 3 JOHN (1 Chapter)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export const THIRD_JOHN_CHAPTERS: ChapterSummary[] = [
+  {
+    bookId: '3-john',
+    chapter: 1,
+    title: 'Hospitality and Opposition in the Church',
+    summary: 'The elder writes to the beloved Gaius, whom he loves in truth. He prays that Gaius may prosper and be in good health, as his soul prospers. John rejoices greatly when brothers came and testified to Gaius\'s truth—that he is walking in the truth. He has no greater joy than to hear that his children are walking in the truth. Beloved, Gaius is acting faithfully in whatever he does for the brothers, even though they are strangers. They have testified to his love before the church. He will do well to send them on their journey in a manner worthy of God, for they have gone out for the sake of the name, accepting nothing from the Gentiles. Therefore we ought to support people like these, that we may be fellow workers for the truth. John wrote something to the church, but Diotrephes, who likes to put himself first, does not acknowledge their authority. So if John comes, he will bring up what Diotrephes is doing, talking wicked nonsense against them. Not content with that, he refuses to welcome the brothers and stops those who want to and puts them out of the church. Beloved, do not imitate evil but imitate good. Whoever does good is from God; whoever does evil has not seen God. Demetrius has received a good testimony from everyone, and from the truth itself. They also testify to him, and you know our testimony is true. John has much to write but would rather not write with pen and ink. He hopes to see Gaius soon and speak face to face. Peace be to you. The friends greet you. Greet the friends, each by name.',
+    keyThemes: ['Walking in truth', 'Christian hospitality', 'Pride and divisiveness condemned', 'Imitating good, not evil'],
+    christConnection: 'The itinerant missionaries have gone out "for the sake of the name"—the name of Christ. Supporting them makes believers "fellow workers for the truth." Walking in truth means living according to Christ\'s gospel. Those who do good are from God; those who do evil have not seen God, who is revealed in Christ.'
+  }
+];
+
 // Helper function to get chapters by book
 export function getChaptersByBook(bookId: string): ChapterSummary[] {
   switch (bookId) {
@@ -9660,6 +9690,10 @@ export function getChaptersByBook(bookId: string): ChapterSummary[] {
       return SECOND_PETER_CHAPTERS;
     case '1-john':
       return FIRST_JOHN_CHAPTERS;
+    case '2-john':
+      return SECOND_JOHN_CHAPTERS;
+    case '3-john':
+      return THIRD_JOHN_CHAPTERS;
     // More New Testament books will be added
     default:
       return [];
@@ -9730,4 +9764,6 @@ export const ALL_CHAPTER_SUMMARIES: BookChapters[] = [
   { bookId: '1-peter', bookName: '1 Peter', chapters: FIRST_PETER_CHAPTERS },
   { bookId: '2-peter', bookName: '2 Peter', chapters: SECOND_PETER_CHAPTERS },
   { bookId: '1-john', bookName: '1 John', chapters: FIRST_JOHN_CHAPTERS },
+  { bookId: '2-john', bookName: '2 John', chapters: SECOND_JOHN_CHAPTERS },
+  { bookId: '3-john', bookName: '3 John', chapters: THIRD_JOHN_CHAPTERS },
 ];
