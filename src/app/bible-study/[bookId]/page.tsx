@@ -35,6 +35,21 @@ import {
   type CanonicalGroup,
 } from '@/data/bible-summaries';
 import { getChaptersByBook, ALL_CHAPTER_SUMMARIES, type ChapterSummary } from '@/data/bible-chapter-summaries';
+import {
+  type ChapterCommentary,
+  type CommentatorQuote,
+  type CommentatorId,
+} from '@/data/bible-chapter-commentaries';
+
+// Try to import commentary data (may not exist for all books yet)
+let getCommentaryByBook: ((bookId: string) => ChapterCommentary[]) | undefined;
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const commentaryModule = require('@/data/bible-chapter-commentaries');
+  getCommentaryByBook = commentaryModule.getCommentaryByBook;
+} catch {
+  // Commentary data not yet available
+}
 import { useReadingProgressStore } from '@/stores/readingProgressStore';
 import { useBookmarksStore } from '@/stores/bookmarksStore';
 import { BIBLE_BOOK_SUMMARIES } from '@/data/bible-summaries';
@@ -69,6 +84,83 @@ function getMemoryVersesForChapter(bookId: string, chapter: number): MemoryVerse
     const verseBookId = BOOK_NAME_TO_ID[verse.book];
     return verseBookId === bookId && verse.chapter === chapter;
   });
+}
+
+// Commentator display configuration
+const COMMENTATORS: { id: CommentatorId; name: string; shortName: string; color: string }[] = [
+  { id: 'matthew_henry', name: 'Matthew Henry', shortName: 'Henry', color: 'bg-blue-500' },
+  { id: 'john_calvin', name: 'John Calvin', shortName: 'Calvin', color: 'bg-amber-600' },
+  { id: 'matthew_poole', name: 'Matthew Poole', shortName: 'Poole', color: 'bg-green-600' },
+  { id: 'albert_barnes', name: 'Albert Barnes', shortName: 'Barnes', color: 'bg-purple-600' },
+];
+
+// Commentary quote tabs component
+function CommentatorTabs({ quotes, fallbackSummary }: { quotes?: CommentatorQuote[]; fallbackSummary?: string }) {
+  const [selectedId, setSelectedId] = useState<CommentatorId>('matthew_henry');
+
+  // If no quotes available, show fallback summary
+  if (!quotes || quotes.length === 0) {
+    return fallbackSummary ? (
+      <p className="text-sm text-muted-foreground leading-relaxed">
+        {fallbackSummary}
+      </p>
+    ) : null;
+  }
+
+  const selectedQuote = quotes.find(q => q.commentator === selectedId) || quotes[0];
+
+  return (
+    <div className="space-y-3">
+      {/* Commentator tabs */}
+      <div className="flex flex-wrap gap-1.5">
+        {COMMENTATORS.map(commentator => {
+          const hasQuote = quotes.some(q => q.commentator === commentator.id);
+          if (!hasQuote) return null;
+
+          const isSelected = selectedId === commentator.id;
+          return (
+            <button
+              key={commentator.id}
+              onClick={() => setSelectedId(commentator.id)}
+              className={`px-3 py-1.5 text-xs font-medium rounded-full transition-all ${
+                isSelected
+                  ? `${commentator.color} text-white shadow-sm`
+                  : 'bg-muted hover:bg-muted/80 text-muted-foreground'
+              }`}
+            >
+              {commentator.shortName}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Selected quote */}
+      {selectedQuote && (
+        <div className="space-y-2">
+          <div className="flex items-start gap-2">
+            <Quote className="h-4 w-4 text-muted-foreground shrink-0 mt-0.5" />
+            <p className="text-sm text-muted-foreground leading-relaxed italic">
+              {selectedQuote.quote}
+            </p>
+          </div>
+
+          {/* Attribution */}
+          <div className="flex items-center justify-between text-xs text-muted-foreground/70">
+            <span className="font-medium">&mdash; {selectedQuote.displayName}</span>
+            <a
+              href={selectedQuote.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-bible transition-colors underline-offset-2 hover:underline"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Source
+            </a>
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 const TABS: { id: TabId; label: string; icon: typeof BookOpen }[] = [
@@ -194,11 +286,12 @@ function findRelatedChapters(
 }
 
 // Chapter card component with expandable content
-function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
+function ChapterCard({ chapter, bookId, isExpanded, onToggle, commentary }: {
   chapter: ChapterSummary;
   bookId: string;
   isExpanded: boolean;
   onToggle: () => void;
+  commentary?: ChapterCommentary;
 }) {
   const { isChapterRead, markChapterRead, markChapterUnread } = useReadingProgressStore();
   const { isBookmarked, addBookmark, removeBookmark, getBookmark, updateBookmarkNote } = useBookmarksStore();
@@ -265,11 +358,14 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
       id={`chapter-${chapter.chapter}`}
       className={`overflow-hidden ${isRead ? 'border-green-500/30 bg-green-50/30 dark:bg-green-900/10' : ''}`}
     >
-      <button
+      <div
+        role="button"
+        tabIndex={0}
         onClick={onToggle}
-        className="w-full text-left"
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') onToggle(); }}
+        className="w-full text-left cursor-pointer"
       >
-        <CardHeader className="pb-2 cursor-pointer hover:bg-muted/50 transition-colors">
+        <CardHeader className="pb-2 hover:bg-muted/50 transition-colors">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <button
@@ -311,13 +407,14 @@ function ChapterCard({ chapter, bookId, isExpanded, onToggle }: {
             </div>
           </div>
         </CardHeader>
-      </button>
+      </div>
       {isExpanded && (
         <CardContent className="pt-0 pb-4 space-y-4">
-          {/* Summary */}
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            {chapter.summary}
-          </p>
+          {/* Commentary Quotes or Summary */}
+          <CommentatorTabs
+            quotes={commentary?.quotes}
+            fallbackSummary={chapter.summary}
+          />
 
           {/* Key Themes */}
           {chapter.keyThemes.length > 0 && (
@@ -524,6 +621,17 @@ function ChaptersTabContent({
   const progress = getBookProgress(bookId, chapterSummaries.length);
   const nextUnread = getNextUnreadChapter(bookId, chapterSummaries.length);
 
+  // Load commentary data for this book (memoized)
+  const commentaryChapters = useMemo(() => {
+    if (!getCommentaryByBook) return new Map<number, ChapterCommentary>();
+    const chapters = getCommentaryByBook(bookId);
+    const map = new Map<number, ChapterCommentary>();
+    chapters.forEach(ch => map.set(ch.chapter, ch));
+    return map;
+  }, [bookId]);
+
+  const hasCommentary = commentaryChapters.size > 0;
+
   const markAllRead = () => {
     chapterSummaries.forEach(ch => markChapterRead(bookId, ch.chapter));
   };
@@ -623,8 +731,13 @@ function ChaptersTabContent({
         </div>
       </div>
       <p className="text-sm text-muted-foreground mb-6">
-        Reformed commentary insights from Matthew Henry, John Calvin, Matthew Poole, and Jean Ostervald.
-        Click the chapter number to mark as read. Each summary highlights key themes and shows how the chapter points to Christ.
+        {hasCommentary ? (
+          <>Verbatim quotes from Reformed commentators: Matthew Henry, John Calvin, Matthew Poole, and Albert Barnes.
+          Click the chapter number to mark as read. Switch between commentators to compare perspectives.</>
+        ) : (
+          <>Reformed commentary insights from Matthew Henry, John Calvin, Matthew Poole, and Albert Barnes.
+          Click the chapter number to mark as read. Each summary highlights key themes and shows how the chapter points to Christ.</>
+        )}
       </p>
       <div className="space-y-3">
         {chapterSummaries.map((chapter) => (
@@ -634,6 +747,7 @@ function ChaptersTabContent({
             bookId={bookId}
             isExpanded={expandedChapters.has(chapter.chapter)}
             onToggle={() => toggleChapter(chapter.chapter)}
+            commentary={commentaryChapters.get(chapter.chapter)}
           />
         ))}
       </div>

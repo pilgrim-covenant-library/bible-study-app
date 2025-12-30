@@ -5,8 +5,10 @@
 PROJECT_DIR="/home/jonathan/sandbox/bible-study-app"
 AUTONOMOUS_DIR="/home/jonathan/autonomous-claude"
 CONFIG_FILE="$AUTONOMOUS_DIR/config/bible_study.json"
+WATCHER_CONFIG_FILE="$AUTONOMOUS_DIR/config/bible_study_scraper.json"
 LOG_DIR="$PROJECT_DIR/logs"
 PID_FILE="$PROJECT_DIR/.clopus.pid"
+WATCHER_PID_FILE="$PROJECT_DIR/.clopus-watcher.pid"
 
 # Ensure log directory exists
 mkdir -p "$LOG_DIR"
@@ -30,9 +32,11 @@ show_help() {
     echo "Commands:"
     echo "  (none)    Start in foreground (see output)"
     echo "  daemon    Start as background daemon"
+    echo "  watcher   Start WATCHER mode to monitor AI scraper (detect only)"
     echo "  status    Check if running and show recent activity"
     echo "  stop      Stop the daemon"
     echo "  logs      Tail the log file"
+    echo "  scraper   Show AI scraper status"
     echo "  help      Show this help message"
     echo ""
     echo "Commentary Sources:"
@@ -40,6 +44,62 @@ show_help() {
     echo "  - John Calvin's Commentaries"
     echo "  - Matthew Poole's English Annotations"
     echo "  - Albert Barnes' Notes on the Bible"
+}
+
+start_watcher() {
+    if [ -f "$WATCHER_PID_FILE" ]; then
+        PID=$(cat "$WATCHER_PID_FILE")
+        if ps -p "$PID" > /dev/null 2>&1; then
+            echo -e "${YELLOW}Clopus-02 WATCHER is already running (PID: $PID)${NC}"
+            return 1
+        fi
+    fi
+
+    echo -e "${GREEN}Starting Clopus-02 in WATCHER MODE...${NC}"
+    echo -e "${YELLOW}Mode: Detect + Recommend (NO auto-fixes)${NC}"
+    echo -e "${BLUE}Monitoring: AI scraper at /tmp/ai-scraper.log${NC}"
+    echo ""
+
+    # Link watcher config as the active config
+    ln -sf "$WATCHER_CONFIG_FILE" "$AUTONOMOUS_DIR/config/autonomous.json"
+    export CLOPUS_MODE="watcher"
+
+    cd "$AUTONOMOUS_DIR"
+    nohup python3 scripts/watcher.py start > "$LOG_DIR/clopus-watcher.log" 2>&1 &
+    echo $! > "$WATCHER_PID_FILE"
+    echo -e "${GREEN}Started with PID: $(cat $WATCHER_PID_FILE)${NC}"
+    echo -e "Logs: $LOG_DIR/clopus-watcher.log"
+}
+
+show_scraper_status() {
+    echo -e "${BLUE}=== AI Scraper Status ===${NC}"
+    echo ""
+
+    # Check scraper log
+    if [ -f "/tmp/ai-scraper.log" ]; then
+        LINES=$(wc -l < /tmp/ai-scraper.log)
+        echo -e "Log file: ${GREEN}/tmp/ai-scraper.log${NC} ($LINES lines)"
+        echo ""
+
+        # Count completed chapters (lines with "✓ AI summary")
+        COMPLETED=$(grep -c "✓ AI summary" /tmp/ai-scraper.log 2>/dev/null || echo "0")
+        TOTAL_EXPECTED=$((1189 * 4))  # 1189 chapters × 4 commentators
+        PERCENT=$(echo "scale=1; $COMPLETED * 100 / $TOTAL_EXPECTED" | bc)
+
+        echo -e "Progress: ${GREEN}$COMPLETED${NC} / $TOTAL_EXPECTED summaries ($PERCENT%)"
+        echo ""
+
+        # Show last 15 lines
+        echo -e "${YELLOW}Recent activity:${NC}"
+        tail -15 /tmp/ai-scraper.log
+    else
+        echo -e "${RED}No scraper log found at /tmp/ai-scraper.log${NC}"
+    fi
+    echo ""
+
+    # Show output files
+    echo -e "${YELLOW}Output files:${NC}"
+    ls -la "$PROJECT_DIR/scripts/commentary-scraper/output/"*.json 2>/dev/null || echo "No output files yet"
 }
 
 start_foreground() {
@@ -144,14 +204,29 @@ case "${1:-}" in
     daemon)
         start_daemon
         ;;
+    watcher)
+        start_watcher
+        ;;
     status)
         check_status
         ;;
     stop)
         stop_daemon
+        # Also stop watcher if running
+        if [ -f "$WATCHER_PID_FILE" ]; then
+            PID=$(cat "$WATCHER_PID_FILE")
+            if ps -p "$PID" > /dev/null 2>&1; then
+                echo -e "${YELLOW}Also stopping watcher (PID: $PID)...${NC}"
+                kill "$PID"
+                rm -f "$WATCHER_PID_FILE"
+            fi
+        fi
         ;;
     logs)
         tail_logs
+        ;;
+    scraper)
+        show_scraper_status
         ;;
     help|--help|-h)
         show_help
