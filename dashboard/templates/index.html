@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Study App Dashboard</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --bg-card-hover: #334155;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-blue: #3b82f6;
+            --accent-green: #22c55e;
+            --accent-red: #ef4444;
+            --accent-yellow: #eab308;
+            --accent-purple: #a855f7;
+            --border-color: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+            padding: 1.5rem 2rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .header h1 .icon {
+            font-size: 1.75rem;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            border: none;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto 1fr 1fr;
+            gap: 1rem;
+            padding: 1rem;
+            height: calc(100vh - 80px);
+        }
+
+        .card {
+            background: var(--bg-card);
+            border-radius: 0.75rem;
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+
+        .card-header {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-header h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card-body {
+            padding: 1rem;
+        }
+
+        /* Status Cards Row */
+        .status-row {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .status-card {
+            padding: 1.25rem;
+        }
+
+        .status-card .label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .status-card .value {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .status-card .subtext {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .status-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .status-indicator.running {
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--accent-green);
+        }
+
+        .status-indicator.stopped {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-red);
+        }
+
+        .status-indicator .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: currentColor;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* App Preview */
+        .preview-container {
+            grid-row: 2 / 4;
+        }
+
+        .preview-frame {
+            width: 100%;
+            height: calc(100% - 60px);
+            border: none;
+            background: #000;
+        }
+
+        .preview-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: calc(100% - 60px);
+            color: var(--text-secondary);
+            gap: 1rem;
+        }
+
+        .preview-placeholder .icon {
+            font-size: 3rem;
+            opacity: 0.5;
+        }
+
+        /* Logs */
+        .logs-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .log-tabs {
+            display: flex;
+            gap: 0.5rem;
+            padding: 0.5rem;
+            background: var(--bg-dark);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .log-tab {
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+
+        .log-tab.active {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .log-tab:hover:not(.active) {
+            background: var(--bg-card-hover);
+        }
+
+        .log-output {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.75rem;
+            line-height: 1.5;
+            background: #0d1117;
+        }
+
+        .log-line {
+            padding: 0.125rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .log-line.info { color: var(--accent-blue); }
+        .log-line.warning { color: var(--accent-yellow); }
+        .log-line.error { color: var(--accent-red); }
+        .log-line.success { color: var(--accent-green); }
+
+        /* Health Checks */
+        .health-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+        }
+
+        .health-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: var(--bg-dark);
+            border-radius: 0.5rem;
+        }
+
+        .health-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 0.375rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        .health-icon.ok {
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--accent-green);
+        }
+
+        .health-icon.error {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--accent-red);
+        }
+
+        .health-icon.pending {
+            background: rgba(148, 163, 184, 0.15);
+            color: var(--text-secondary);
+        }
+
+        .health-info h4 {
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .health-info p {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.75rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            background: var(--bg-dark);
+            border-radius: 0.5rem;
+        }
+
+        .stat-item .value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .stat-item .label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        /* Timestamp */
+        .timestamp {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .dashboard {
+                grid-template-columns: 1fr;
+            }
+
+            .status-row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .preview-container {
+                grid-row: auto;
+                min-height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>
+            <span class="icon">📖</span>
+            Bible Study App Dashboard
+        </h1>
+        <div class="header-actions">
+            <button class="btn btn-secondary" onclick="runHealthCheck()">
+                🔍 Run Health Check
+            </button>
+            <button class="btn btn-primary" onclick="startApp()">
+                ▶️ Start App Preview
+            </button>
+        </div>
+    </header>
+
+    <div class="dashboard">
+        <!-- Status Cards Row -->
+        <div class="status-row">
+            <div class="card status-card">
+                <div class="label">Main Agent</div>
+                <div id="main-agent-status">
+                    <span class="status-indicator stopped">
+                        <span class="dot"></span>
+                        Checking...
+                    </span>
+                </div>
+                <div class="subtext" id="main-agent-pid">PID: --</div>
+            </div>
+
+            <div class="card status-card">
+                <div class="label">QA Monitor</div>
+                <div id="qa-monitor-status">
+                    <span class="status-indicator stopped">
+                        <span class="dot"></span>
+                        Checking...
+                    </span>
+                </div>
+                <div class="subtext" id="qa-monitor-pid">PID: --</div>
+            </div>
+
+            <div class="card status-card">
+                <div class="label">Chapter Summaries</div>
+                <div class="value" id="summary-count">--</div>
+                <div class="subtext" id="summary-details">Loading...</div>
+            </div>
+
+            <div class="card status-card">
+                <div class="label">QA Stats</div>
+                <div class="value" id="qa-checks">--</div>
+                <div class="subtext" id="qa-issues">Issues: -- | Fixed: --</div>
+            </div>
+        </div>
+
+        <!-- App Preview -->
+        <div class="card preview-container">
+            <div class="card-header">
+                <h2>📱 App Preview</h2>
+                <span class="timestamp" id="preview-status">Not running</span>
+            </div>
+            <div id="preview-area">
+                <div class="preview-placeholder">
+                    <span class="icon">🖥️</span>
+                    <p>App preview not running</p>
+                    <button class="btn btn-primary" onclick="startApp()">Start Dev Server</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Health Checks -->
+        <div class="card">
+            <div class="card-header">
+                <h2>🏥 Health Checks</h2>
+                <button class="btn btn-secondary" onclick="runHealthCheck()">Refresh</button>
+            </div>
+            <div class="card-body">
+                <div class="health-grid" id="health-checks">
+                    <div class="health-item">
+                        <div class="health-icon pending">⏳</div>
+                        <div class="health-info">
+                            <h4>TypeScript</h4>
+                            <p>Not checked</p>
+                        </div>
+                    </div>
+                    <div class="health-item">
+                        <div class="health-icon pending">⏳</div>
+                        <div class="health-info">
+                            <h4>ESLint</h4>
+                            <p>Not checked</p>
+                        </div>
+                    </div>
+                    <div class="health-item">
+                        <div class="health-icon pending">⏳</div>
+                        <div class="health-info">
+                            <h4>Structure</h4>
+                            <p>Not checked</p>
+                        </div>
+                    </div>
+                    <div class="health-item">
+                        <div class="health-icon pending">⏳</div>
+                        <div class="health-info">
+                            <h4>Build</h4>
+                            <p>Not checked</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live Logs -->
+        <div class="card logs-container">
+            <div class="card-header">
+                <h2>📋 Live Logs</h2>
+                <span class="timestamp" id="log-timestamp">--</span>
+            </div>
+            <div class="log-tabs">
+                <button class="log-tab active" onclick="switchLogTab('main')">Main Agent</button>
+                <button class="log-tab" onclick="switchLogTab('qa')">QA Monitor</button>
+            </div>
+            <div class="log-output" id="log-output">
+                <div class="log-line">Connecting to logs...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const socket = io();
+        let currentLogTab = 'main';
+        let mainLogs = [];
+        let qaLogs = [];
+
+        // Socket connection
+        socket.on('connect', () => {
+            console.log('Connected to dashboard');
+            socket.emit('subscribe_logs', { type: 'main' });
+            socket.emit('subscribe_logs', { type: 'qa' });
+        });
+
+        // Status updates
+        socket.on('status_update', (data) => {
+            updateStatus(data);
+        });
+
+        // Log updates
+        socket.on('main_log', (data) => {
+            mainLogs.push(data.line);
+            if (mainLogs.length > 200) mainLogs.shift();
+            if (currentLogTab === 'main') renderLogs(mainLogs);
+        });
+
+        socket.on('qa_log', (data) => {
+            qaLogs.push(data.line);
+            if (qaLogs.length > 200) qaLogs.shift();
+            if (currentLogTab === 'qa') renderLogs(qaLogs);
+        });
+
+        socket.on('log_history', (data) => {
+            if (data.type === 'main') {
+                mainLogs = data.lines;
+            } else {
+                qaLogs = data.lines;
+            }
+            if (currentLogTab === data.type) {
+                renderLogs(data.type === 'main' ? mainLogs : qaLogs);
+            }
+        });
+
+        function updateStatus(data) {
+            // Main agent status
+            const mainStatus = document.getElementById('main-agent-status');
+            const mainPid = document.getElementById('main-agent-pid');
+            if (data.main_agent.running) {
+                mainStatus.innerHTML = '<span class="status-indicator running"><span class="dot"></span>Running</span>';
+                mainPid.textContent = `PID: ${data.main_agent.pid}`;
+            } else {
+                mainStatus.innerHTML = '<span class="status-indicator stopped"><span class="dot"></span>Stopped</span>';
+                mainPid.textContent = 'PID: --';
+            }
+
+            // QA monitor status
+            const qaStatus = document.getElementById('qa-monitor-status');
+            const qaPid = document.getElementById('qa-monitor-pid');
+            if (data.qa_monitor.running) {
+                qaStatus.innerHTML = '<span class="status-indicator running"><span class="dot"></span>Running</span>';
+                qaPid.textContent = `PID: ${data.qa_monitor.pid}`;
+            } else {
+                qaStatus.innerHTML = '<span class="status-indicator stopped"><span class="dot"></span>Stopped</span>';
+                qaPid.textContent = 'PID: --';
+            }
+
+            // Summary stats
+            document.getElementById('summary-count').textContent = data.summary_stats.total_summaries || '--';
+            document.getElementById('summary-details').textContent =
+                `Books: ${data.summary_stats.books_in_export || 0} | Cases: ${data.summary_stats.switch_cases || 0}`;
+
+            // QA stats
+            document.getElementById('qa-checks').textContent = data.qa_state.checks_run || 0;
+            document.getElementById('qa-issues').textContent =
+                `Issues: ${data.qa_state.issues_found || 0} | Fixed: ${data.qa_state.issues_fixed || 0}`;
+        }
+
+        function renderLogs(logs) {
+            const output = document.getElementById('log-output');
+            output.innerHTML = logs.map(line => {
+                let className = 'log-line';
+                if (line.includes('ERROR') || line.includes('✗')) className += ' error';
+                else if (line.includes('WARNING') || line.includes('warning')) className += ' warning';
+                else if (line.includes('INFO') || line.includes('✓')) className += ' info';
+                else if (line.includes('SUCCESS') || line.includes('completed')) className += ' success';
+                return `<div class="${className}">${escapeHtml(line)}</div>`;
+            }).join('');
+            output.scrollTop = output.scrollHeight;
+            document.getElementById('log-timestamp').textContent = new Date().toLocaleTimeString();
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function switchLogTab(tab) {
+            currentLogTab = tab;
+            document.querySelectorAll('.log-tab').forEach(el => el.classList.remove('active'));
+            document.querySelector(`.log-tab:nth-child(${tab === 'main' ? 1 : 2})`).classList.add('active');
+            renderLogs(tab === 'main' ? mainLogs : qaLogs);
+        }
+
+        async function runHealthCheck() {
+            const healthGrid = document.getElementById('health-checks');
+            healthGrid.innerHTML = `
+                <div class="health-item">
+                    <div class="health-icon pending">⏳</div>
+                    <div class="health-info"><h4>Running checks...</h4><p>Please wait</p></div>
+                </div>
+            `;
+
+            try {
+                const response = await fetch('/api/health');
+                const data = await response.json();
+
+                healthGrid.innerHTML = `
+                    <div class="health-item">
+                        <div class="health-icon ${data.typescript?.ok ? 'ok' : 'error'}">${data.typescript?.ok ? '✓' : '✗'}</div>
+                        <div class="health-info">
+                            <h4>TypeScript</h4>
+                            <p>${data.typescript?.ok ? 'No errors' : 'Has errors'}</p>
+                        </div>
+                    </div>
+                    <div class="health-item">
+                        <div class="health-icon ${data.lint?.ok ? 'ok' : 'error'}">${data.lint?.ok ? '✓' : '✗'}</div>
+                        <div class="health-info">
+                            <h4>ESLint</h4>
+                            <p>${data.lint?.ok ? 'Passing' : 'Has warnings/errors'}</p>
+                        </div>
+                    </div>
+                `;
+            } catch (e) {
+                healthGrid.innerHTML = `
+                    <div class="health-item">
+                        <div class="health-icon error">✗</div>
+                        <div class="health-info"><h4>Error</h4><p>Failed to run checks</p></div>
+                    </div>
+                `;
+            }
+        }
+
+        async function startApp() {
+            try {
+                const response = await fetch('/api/start-app');
+                const data = await response.json();
+
+                if (data.success) {
+                    document.getElementById('preview-status').textContent = 'Starting...';
+                    setTimeout(() => {
+                        document.getElementById('preview-area').innerHTML =
+                            '<iframe class="preview-frame" src="http://localhost:3000"></iframe>';
+                        document.getElementById('preview-status').textContent = 'Running on :3000';
+                    }, 5000);
+                }
+            } catch (e) {
+                console.error('Failed to start app:', e);
+            }
+        }
+
+        // Initial status fetch
+        fetch('/api/status')
+            .then(r => r.json())
+            .then(updateStatus)
+            .catch(console.error);
+
+        // Initial health check
+        setTimeout(runHealthCheck, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+> bible-study-app@0.1.0 dev
+> next dev --turbopack
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /home/jonathan/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /home/jonathan/sandbox/bible-study-app/package-lock.json
+
+▲ Next.js 16.1.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.70.9.29:3000
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 660ms
+ GET /bible-study/genesis 200 in 75ms (compile: 30ms, render: 45ms)
+ GET /bible-study/genesis 200 in 2.5s (compile: 2.0s, render: 446ms)
+ GET /bible-study/genesis 200 in 60ms (compile: 3ms, render: 57ms)
+ GET /bible-study/genesis 200 in 360ms (compile: 118ms, render: 242ms)
+ GET /bible-study/genesis 200 in 80ms (compile: 36ms, render: 45ms)
+ GET /bible-study/genesis 200 in 85ms (compile: 27ms, render: 58ms)
+ GET /bible-study/genesis 200 in 87ms (compile: 35ms, render: 52ms)
+ GET /bible-study/genesis 200 in 78ms (compile: 38ms, render: 40ms)

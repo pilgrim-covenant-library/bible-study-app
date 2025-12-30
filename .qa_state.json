@@ -1,0 +1,8 @@
+{
+  "checks_run": 445,
+  "issues_found": 34,
+  "issues_fixed": 33,
+  "last_check": "2025-12-30T10:03:52.343986",
+  "last_issue": "build: Build failed:\n\n> bible-study-app@0.1.0 build\n> next build --webpack\n\n\u26a0 Warning: Next.js inferred your workspace root, but it may not be correct.\n We detected multiple lockfiles and selected the direct",
+  "last_fix": "Fixed build"
+}

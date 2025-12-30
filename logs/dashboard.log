@@ -1,0 +1,31 @@
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+============================================================
+BIBLE STUDY APP DASHBOARD
+============================================================
+Dashboard: http://localhost:5050
+App Preview: http://localhost:3000
+============================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://10.70.9.29:5050
+Press CTRL+C to quit
+127.0.0.1 - - [29/Dec/2025 16:38:32] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:39:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:39:40] "GET /socket.io/?EIO=4&transport=polling&t=PjfGrkY HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:39:40] "POST /socket.io/?EIO=4&transport=polling&t=PjfGrl4&sid=vmAJIOl2CK2w_I4CAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:39:40] "GET /socket.io/?EIO=4&transport=polling&t=PjfGrl5&sid=vmAJIOl2CK2w_I4CAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:39:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [29/Dec/2025 16:39:40] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:39:47] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:40:57] "GET /api/start-app HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:44:52] "GET /socket.io/?EIO=4&transport=websocket&sid=vmAJIOl2CK2w_I4CAAAA HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:44:53] "GET /socket.io/?EIO=4&transport=polling&t=PjfI2Ac HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:44:53] "POST /socket.io/?EIO=4&transport=polling&t=PjfI2Ah&sid=MVlX9yDu9mNkoHxtAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:44:53] "GET /socket.io/?EIO=4&transport=polling&t=PjfI2Ai&sid=MVlX9yDu9mNkoHxtAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:44:53] "GET /socket.io/?EIO=4&transport=polling&t=PjfI2An&sid=MVlX9yDu9mNkoHxtAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 16:44:53] "POST /socket.io/?EIO=4&transport=polling&t=PjfI2Ao&sid=MVlX9yDu9mNkoHxtAAAC HTTP/1.1" 200 -
+127.0.0.1 - - [29/Dec/2025 20:18:49] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [30/Dec/2025 08:37:44] "GET /socket.io/?EIO=4&transport=websocket&sid=MVlX9yDu9mNkoHxtAAAC HTTP/1.1" 200 -
