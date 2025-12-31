@@ -81,6 +81,7 @@ export interface CommentatorQuote {
   displayName: string;
   quote: string;
   source: string;
+  scrapedAt?: string;
 }
 
 export interface ChapterCommentary {
@@ -99,9 +100,19 @@ export interface BookCommentary {
 }
 `);
 
+  // Helper to create valid TypeScript identifier (can't start with number)
+  function toConstName(bookId: string): string {
+    let name = bookId.toUpperCase().replace(/-/g, '_') + '_COMMENTARY';
+    // If starts with a number, prefix with BOOK_
+    if (/^\d/.test(name)) {
+      name = 'BOOK_' + name;
+    }
+    return name;
+  }
+
   // Generate constants for each book
   for (const book of allBooks) {
-    const constName = book.bookId.toUpperCase().replace(/-/g, '_') + '_COMMENTARY';
+    const constName = toConstName(book.bookId);
     lines.push(`// ═══════════════════════════════════════════════════════════════════════════════`);
     lines.push(`// ${book.bookName.toUpperCase()} (${book.chapters.length} Chapters)`);
     lines.push(`// ═══════════════════════════════════════════════════════════════════════════════\n`);
@@ -115,7 +126,7 @@ export function getCommentaryByBook(bookId: string): ChapterCommentary[] {
   switch (bookId) {`);
 
   for (const book of allBooks) {
-    const constName = book.bookId.toUpperCase().replace(/-/g, '_') + '_COMMENTARY';
+    const constName = toConstName(book.bookId);
     lines.push(`    case '${book.bookId}': return ${constName};`);
   }
 
@@ -128,7 +139,7 @@ export function getCommentaryByBook(bookId: string): ChapterCommentary[] {
   lines.push(`// All books combined
 export const ALL_CHAPTER_COMMENTARY: BookCommentary[] = [`);
   for (const book of allBooks) {
-    const constName = book.bookId.toUpperCase().replace(/-/g, '_') + '_COMMENTARY';
+    const constName = toConstName(book.bookId);
     lines.push(`  { bookId: '${book.bookId}', bookName: '${book.bookName}', chapters: ${constName} },`);
   }
   lines.push(`];
