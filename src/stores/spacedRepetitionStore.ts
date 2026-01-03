@@ -300,6 +300,49 @@ export const useSpacedRepetitionStore = create<SpacedRepetitionState>()(
     {
       name: 'bible-memory-sr',
       version: 1,
+      // Validate rehydrated state to prevent corruption issues
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          // Ensure verses is a valid object
+          if (typeof state.verses !== 'object' || state.verses === null) {
+            state.verses = {};
+          }
+          // Validate each verse entry
+          Object.keys(state.verses).forEach((verseId) => {
+            const verse = state.verses[verseId];
+            if (!verse) {
+              delete state.verses[verseId];
+              return;
+            }
+            // Ensure history is a valid array
+            if (!Array.isArray(verse.history)) {
+              verse.history = [];
+            }
+            // Ensure numeric fields are valid and not NaN
+            if (typeof verse.easeFactor !== 'number' || isNaN(verse.easeFactor)) {
+              verse.easeFactor = 2.5; // Default SM-2 value
+            }
+            if (typeof verse.interval !== 'number' || isNaN(verse.interval) || verse.interval < 0) {
+              verse.interval = 1;
+            }
+            if (typeof verse.repetitions !== 'number' || isNaN(verse.repetitions) || verse.repetitions < 0) {
+              verse.repetitions = 0;
+            }
+            if (typeof verse.totalReviews !== 'number' || isNaN(verse.totalReviews)) {
+              verse.totalReviews = verse.history.length;
+            }
+            if (typeof verse.averageScore !== 'number' || isNaN(verse.averageScore)) {
+              // Recalculate from history
+              if (verse.history.length > 0) {
+                const total = verse.history.reduce((a, h) => a + (h.score || 0), 0);
+                verse.averageScore = total / verse.history.length;
+              } else {
+                verse.averageScore = 0;
+              }
+            }
+          });
+        }
+      },
     }
   )
 );

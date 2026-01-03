@@ -112,6 +112,20 @@ export const useBookmarksStore = create<BookmarksState>()(
     }),
     {
       name: 'bible-bookmarks',
+      version: 1,
+      // Validate rehydrated state to prevent corruption issues
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          // Ensure bookmarks is a valid array
+          if (!Array.isArray(state.bookmarks)) {
+            state.bookmarks = [];
+          }
+          // Filter out invalid entries
+          state.bookmarks = state.bookmarks.filter(
+            (b) => b && typeof b.bookId === 'string' && typeof b.chapter === 'number' && b.createdAt
+          );
+        }
+      },
     }
   )
 );

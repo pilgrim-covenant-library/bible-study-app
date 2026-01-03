@@ -305,6 +305,45 @@ export const useTest107SessionStore = create<Test107SessionState>()(
     {
       name: 'test107-session',
       version: 1,
+      // Validate rehydrated state to prevent corruption issues
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          // Validate currentSession
+          if (state.currentSession) {
+            const session = state.currentSession;
+            // Ensure arrays are valid
+            if (!Array.isArray(session.phase1Results)) {
+              session.phase1Results = [];
+            }
+            if (!Array.isArray(session.phase2Results)) {
+              session.phase2Results = [];
+            }
+            // Ensure currentQuestionIndex is within bounds (0-106)
+            if (typeof session.currentQuestionIndex !== 'number' || session.currentQuestionIndex < 0) {
+              session.currentQuestionIndex = 0;
+            } else if (session.currentQuestionIndex > 106) {
+              session.currentQuestionIndex = 106;
+            }
+            // Ensure loopCount is valid
+            if (typeof session.loopCount !== 'number' || session.loopCount < 0) {
+              session.loopCount = 0;
+            }
+            // Recalculate scores from results to ensure consistency
+            if (session.phase1Results.length > 0) {
+              const total = session.phase1Results.reduce((a, r) => a + (r.score || 0), 0);
+              session.phase1Score = total / session.phase1Results.length;
+            }
+            if (session.phase2Results.length > 0) {
+              const total = session.phase2Results.reduce((a, r) => a + (r.score || 0), 0);
+              session.phase2Score = total / session.phase2Results.length;
+            }
+          }
+          // Ensure completedSessions is a valid array
+          if (!Array.isArray(state.completedSessions)) {
+            state.completedSessions = [];
+          }
+        }
+      },
     }
   )
 );

@@ -360,6 +360,31 @@ export const useReadingProgressStore = create<ReadingProgressState>()(
     }),
     {
       name: 'bible-reading-progress',
+      version: 1,
+      // Validate rehydrated state to prevent corruption issues
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          // Ensure readChapters is a valid array
+          if (!Array.isArray(state.readChapters)) {
+            state.readChapters = [];
+          }
+          // Filter out invalid entries (missing required fields)
+          state.readChapters = state.readChapters.filter(
+            (c) => c && typeof c.bookId === 'string' && typeof c.chapter === 'number' && c.readAt
+          );
+          // Ensure planProgress is a valid object
+          if (typeof state.planProgress !== 'object' || state.planProgress === null) {
+            state.planProgress = {};
+          }
+          // Validate each plan's completedDays array
+          Object.keys(state.planProgress).forEach((planId) => {
+            const plan = state.planProgress[planId];
+            if (plan && !Array.isArray(plan.completedDays)) {
+              plan.completedDays = [];
+            }
+          });
+        }
+      },
     }
   )
 );

@@ -128,6 +128,23 @@ export const useReadingGoalsStore = create<ReadingGoalsState>()(
     }),
     {
       name: 'bible-reading-goals',
+      version: 1,
+      // Validate rehydrated state to prevent corruption issues
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          // Ensure goals is a valid array
+          if (!Array.isArray(state.goals)) {
+            state.goals = [];
+          }
+          // Filter out invalid entries and validate each goal
+          state.goals = state.goals.filter((g) => {
+            if (!g || typeof g.period !== 'string') return false;
+            if (!['daily', 'weekly', 'monthly'].includes(g.period)) return false;
+            if (typeof g.targetChapters !== 'number' || g.targetChapters <= 0) return false;
+            return true;
+          });
+        }
+      },
     }
   )
 );
