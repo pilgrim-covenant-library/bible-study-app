@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.pilgrimcovenant.biblestudy",
+    "sha256_cert_fingerprints": [
+      "95:A4:38:78:6A:D8:AE:94:B8:B3:8F:DE:C9:B5:79:BE:35:01:94:98:38:24:7B:2A:AE:6A:C1:A0:6E:96:E4:03"
+    ]
+  }
+}]
