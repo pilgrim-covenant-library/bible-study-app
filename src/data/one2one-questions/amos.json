@@ -1,0 +1,740 @@
+{
+  "bookId": "amos",
+  "bookName": "Amos",
+  "totalChapters": 9,
+  "chapters": [
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 1,
+      "chapterTitle": "Judgment on Israel's Neighbors",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Amos 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 2,
+      "chapterTitle": "Judgment on Judah and Israel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Amos 2:1-16 aloud, paying attention to the contrast between God's past deliverance and current judgment.",
+          "tips": [
+            "Notice the repetition of 'for three transgressions ... and for four' (v1)",
+            "Pay attention to the specific acts of oppression: 'sell the righteous for silver' (v3)"
+          ],
+          "focusVerse": "Amos 2:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God is judging, WHAT they have done, WHERE this judgment is being applied, and WHY God is taking action.",
+          "tips": [
+            "Include the three groups: Moab, Judah, and Israel",
+            "Note the specific sins: Moab's violence against Edom, Judah's rejection of God's law, Israel's oppression of the poor",
+            "The judgment comes because they have rejected God's law and oppressed the poor"
+          ],
+          "focusVerse": "Amos 2:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the description of Moab's sin (v1), the judgment on Judah (v2), or the oppression of the poor in Israel (v3)?",
+          "tips": [
+            "The phrase 'sell the righteous for silver, and the needy for a pair of sandals' shows extreme injustice and is a powerful image",
+            "The contrast between God's past deliverance (from Egypt) and current judgment highlights the cost of sin",
+            "The image of trampling the head of the poor into the dust of the earth is visceral and memorable"
+          ],
+          "focusVerse": "Amos 2:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Amos trying to communicate to northern Israel about God's judgment and their sin?",
+          "tips": [
+            "Amos emphasizes that God's judgment is not arbitrary but a response to specific sins: oppression of the poor and rejection of the law",
+            "The passage shows that God's past faithfulness (deliverance from Egypt) is contrasted with the current moral decay",
+            "This judgment is a call for the northern tribes to repent and stop the injustice"
+          ],
+          "focusVerse": "Amos 2:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The specific transgressions, the cultural context of selling the poor, or the scope of God's judgment?",
+          "tips": [
+            "The phrase 'for three transgressions of Moab, and for four' means God is not revoking punishment for the fourth transgression, but the exact number is a pattern of judgment",
+            "'Burned to lime the bones of the king of Edom' refers to Moab's violent destruction of Edom, a historical act of cruelty",
+            "'Sell the righteous for silver' is a specific form of injustice where the poor are exploited in the market, which was common in ancient Israel but condemned by God"
+          ],
+          "focusVerse": "Amos 2:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of not oppressing the poor this week?",
+          "tips": [
+            "Check if you are using the poor in your work or community in ways that are exploitative",
+            "Look for one person in your life who is vulnerable and take practical steps to help them",
+            "Consider how your actions might be 'trampling the head of the poor' and make amends"
+          ],
+          "focusVerse": "Amos 2:1-16"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His justice and for the examples of oppression that He has condemned. Ask for courage to confront injustice and for the poor.",
+          "tips": [
+            "Thank God for His justice and for the examples of oppression that He has condemned",
+            "Ask for courage to confront injustice in your community",
+            "Pray for the poor and for God's judgment to come on the oppressors"
+          ],
+          "focusVerse": "Amos 2:1-16"
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 3,
+      "chapterTitle": "Witnesses Against Israel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Amos 3:1-15 aloud, paying attention to the analogies in verses 2-4 and the call to see Samaria in verses 5-6.",
+          "tips": [
+            "Notice the repetition of 'does' in the analogies (v.2-4)",
+            "Pay attention to the phrase 'the LORD has spoken' (v.1) which emphasizes divine authority"
+          ],
+          "focusVerse": "Amos 3:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO the LORD is addressing, WHAT He says will happen, WHERE this punishment occurs, and WHY (the cause).",
+          "tips": [
+            "Include the northern Israelites (the whole family brought from Egypt)",
+            "Note the cause: their iniquities",
+            "The punishment is for all their sins"
+          ],
+          "focusVerse": "Amos 3:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the lion's roar (v.2), the trumpet warning (v.3), or the call to see Samaria's tumult (v.5-6)?",
+          "tips": [
+            "The lion's roar: God's authority is not to be ignored",
+            "The trumpet: God's warning is universal and will be heeded by the city",
+            "Samaria's tumult: the internal oppression that the LORD sees"
+          ],
+          "focusVerse": "Amos 3:1-6"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Amos trying to communicate to northern Israel through this passage?",
+          "tips": [
+            "Northern Israel is accountable because God has known them uniquely",
+            "The punishment is a direct result of their iniquities",
+            "God's word is not arbitrary but follows the pattern of His justice"
+          ],
+          "focusVerse": "Amos 3:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The cause of punishment? The role of the prophets? The nature of the 'witnesses'?",
+          "tips": [
+            "The phrase 'the LORD has spoken' (v.1) emphasizes divine authority and not human interpretation",
+            "The 'witnesses' (v.1-2) are the natural analogies that show God's justice is consistent",
+            "The term 'iniquities' (v.2) refers to the specific sins of the northern kingdom, including idolatry and social injustice"
+          ],
+          "focusVerse": "Amos 3:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "As a known child of God, how does the theme of accountability in Amos 3:1-15 apply to your life this week?",
+          "tips": [
+            "Reflect on one area where you have been called to account by God",
+            "Consider how your actions affect others in your community",
+            "Pray for humility and a willingness to confess when you have sinned"
+          ],
+          "focusVerse": "Amos 3:1-2"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He knows us and calls us to accountability. Ask for the courage to face our sins and the strength to live righteously.",
+          "tips": [
+            "Thank God for His knowledge of us",
+            "Pray for the courage to confess and change",
+            "Ask for the strength to live in obedience to His commands"
+          ],
+          "focusVerse": "Amos 3:1-2"
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 4,
+      "chapterTitle": "Israel Has Not Returned",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Amos 4:1-16 aloud, paying special attention to the repeated phrase 'yet you did not return to me' and the vivid imagery of judgment.",
+          "tips": [
+            "Notice the term 'cows of Bashan' used as a term of contempt for Israel",
+            "Pay attention to the phrase 'take you away with hooks' (a metaphor for sudden, violent removal)",
+            "The repeated phrase 'yet you did not return to me' appears five times in the passage"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (𐤂od vs. Israel), WHAT (God's judgments and the people's response), WHERE (Bethel, Gilgal, Samaria), and WHY (the people's failure to return to God despite His actions).",
+          "tips": [
+            "Include the cities of Bethel and Gilgal where the people go to transgress",
+            "Note the specific judgments: withheld rain, blight, pestilence, and overthrow",
+            "Highlight the people's response: they did not return to God even after being 'as a brand plucked out of the burning'"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the phrase 'cleanness of teeth' (God's provision) vs. 'lack of bread', the comparison to Sodom and Gomorrah, or the repeated 'yet you did not return'?",
+          "tips": [
+            "The contrast between God's provision (cleanness of teeth) and the people's lack of bread shows His care but their unresponsiveness",
+            "The comparison to Sodom and Gomorrah emphasizes the total destruction that awaits the unrepentant",
+            "The repeated phrase 'yet you did not return to me' is the central theme of the chapter, showing persistent failure"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Amos trying to communicate to northern Israel through this passage? Focus on the call to return and the consequences of not returning.",
+          "tips": [
+            "Amos emphasizes that God has been patient and provided (cleanness of teeth) but the people have not returned",
+            "The judgment is not new but a consequence of repeated disobedience",
+            "The ultimate call is to prepare to meet God (as in the coming judgment)"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Consider the cultural context of 'cows of Bashan', the metaphor 'take you away with hooks', and the reference to Sodom and Gomorrah.",
+          "tips": [
+            "'Cows of Bashan' is a derogatory term for the northern tribes (Bashan is a region in the north), used to mock Israel's sin",
+            "'Take you away with hooks' means being forcibly removed (like a fish caught with hooks) but in the context of divine judgment",
+            "Sodom and Gomorrah were destroyed by fire and brimstone; the comparison shows the severity of Israel's sin and God's judgment"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This chapter calls for returning to God. What specific area of your life has been a place where you have not returned to God (e.g., worship, repentance, service) and how can you take one step this week?",
+          "tips": [
+            "Think of a time when God has been 'cleansing' your life (like the lack of bread) but you have not responded",
+            "Consider how the 'overthrow' of some of you (as in Sodom) might be a warning for your current situation",
+            "Pray for the courage to 'return to me' as the chapter challenges"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the theme of returning to God and preparing to meet Him. Ask for the grace to turn from sin and trust in His provision.",
+          "tips": [
+            "Thank God for His patience and provision despite Israel's failure",
+            "Pray for the strength to return to Him rather than continue in sin",
+            "Ask for the courage to 'prepare to meet your God' as He comes for judgment"
+          ],
+          "focusVerse": "4:1-16"
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 5,
+      "chapterTitle": "A Lament and Call to Seek the LORD",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Amos 5:1-24 aloud, paying attention to the lament tone in verses 1-2 and the call to seek the LORD in verses 6-7.",
+          "tips": [
+            "Notice the phrase 'fallen, no more to rise' (v.1) - a sense of inevitable destruction",
+            "Pay attention to the repetition of 'seek me and live' (v.6) as the central command",
+            "Listen for the contrast between 'hate evil' and 'love good' (v.14) as a practical call"
+          ],
+          "focusVerse": "5:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Amos) is speaking to, WHAT (the lament and call for repentance), WHERE (northern Israel), and WHY (to stop idolatry and seek the LORD).",
+          "tips": [
+            "Include the destruction of northern Israel due to idolatry (v.1-2)",
+            "Note the call to abandon false worship centers like Bethel and Gilgal (v.5)",
+            "Describe the expectation of justice and righteousness (v.14-15)"
+          ],
+          "focusVerse": "5:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the lament in verses 1-2, the command 'seek me and live' (v.6), or the image of justice rolling like waters (v.15).",
+          "tips": [
+            "The lament 'fallen, no more to rise' (v.1) conveys the gravity of the situation",
+            "The phrase 'seek me and live' (v.6) is a direct and urgent call for survival",
+            "The image of justice 'rolling down like waters' (v.15) shows God's active role in bringing righteousness"
+          ],
+          "focusVerse": "5:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Amos trying to communicate to northern Israel through this passage?",
+          "tips": [
+            "Amos warns that northern Israel's idolatry and false worship would lead to destruction unless they turned to the LORD",
+            "The core message is that true worship involves justice and righteousness, not mere rituals and sacrifices",
+            "This passage emphasizes that God desires a relationship with His people based on obedience and love, not empty religious practices"
+          ],
+          "focusVerse": "5:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The numbers in verse 10, the specific places mentioned in verse 5, and the practical application of 'hate evil, love good' in verse 14.",
+          "tips": [
+            "The phrase 'the city that went out a thousand shall have a hundred left' (v.10) is a prediction of severe judgment but also a call to hope in God's mercy",
+            "Bethel was the center of Canaanite worship in the north, and Gilgal was a place associated with idolatry in northern Israel",
+            "'Hate evil, love good' (v.14) requires daily choices in relationships and justice, which can be difficult in a sinful world"
+          ],
+          "focusVerse": "5:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What can you do this week to 'seek the LORD and live' as Amos calls for?",
+          "tips": [
+            "Identify one area where you are not seeking God and pray for the courage to turn",
+            "Commit to one act of justice that reflects God's love in your community",
+            "Read Amos 5:6-7 and meditate on the cost of not seeking the LORD"
+          ],
+          "focusVerse": "5:1-24"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the call to seek the LORD and live in justice.",
+          "tips": [
+            "Thank God for His command to 'seek me and live'",
+            "Ask for the strength to hate evil and love good in your daily choices",
+            "Pray for the remnant of Israel to experience God's justice and mercy"
+          ],
+          "focusVerse": "5:1-24"
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 6,
+      "chapterTitle": "Woe to the Complacent",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Amos 6:1-14 aloud, paying attention to the contrast between the complacent elite and the suffering of the people.",
+          "tips": [
+            "Notice the repeated phrase 'Woe to' (v1 and v2)",
+            "Pay attention to the luxury imagery: 'beds of ivory', 'lamb from the flock', 'calves from the midst of the stall' (v5)",
+            "The emotional tone shifts from warning to condemnation of pride"
+          ],
+          "focusVerse": "6:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the complacent elite in northern Israel) does WHAT (lives in luxury without grief) WHERE (Zion and Samaria), and the consequence (they will be the first to go into exile).",
+          "tips": [
+            "Include the comparison to other kingdoms (Calneh, Hamath, Gath) to show their arrogance",
+            "Note the specific luxury described in v5: beds of ivory, eating lambs and calves, singing, drinking wine",
+            "The consequence: they will be the first to go into exile (v8)"
+          ],
+          "focusVerse": "6:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Identify the most impactful phrase from Amos 6:1-14 that illustrates the contrast between luxury and lack of concern for suffering.",
+          "tips": [
+            "The phrase 'who lie on beds of ivory ... but are not grieved over the ruin of Joseph' (v5) highlights the spiritual blindness of the elite",
+            "The declaration 'they shall now be the first of those who go into exile' (v8) shows the immediate consequence of their pride",
+            "The contrast between the luxury of the elite and the suffering of the nation (Joseph) is the central theme"
+          ],
+          "focusVerse": "6:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Amos trying to communicate to northern Israel through this passage?",
+          "tips": [
+            "Amos warns the elite that their pride and disregard for the suffering of the people will lead to their destruction",
+            "The theological significance: God's judgment is a response to moral decay and social injustice, not arbitrary punishment"
+          ],
+          "focusVerse": "6:1-14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Identify the confusing aspects of Amos 6:1-14 and clarify them.",
+          "tips": [
+            "The phrase 'ruin of Joseph' refers to the suffering of the nation of Israel (the tribe of Joseph is the largest tribe, and in context, it represents the whole people)",
+            "They are 'the first to go into exile' because they are the most guilty and their sin is the root cause of the judgment (the northern kingdom was destroyed by Assyria in 722 BC)",
+            "The 'house of Israel' in Amos 6:1 refers to the northern kingdom (the nation of Israel) distinct from the southern kingdom (Judah)"
+          ],
+          "focusVerse": "6:1-14"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme 'luxury without grief' (Amos 6:5). What situation requires you to grieve with those who grieve this week?",
+          "tips": [
+            "Consider a time when you have been in a position of comfort without being concerned about others' suffering",
+            "Practice active listening and empathy: ask someone how they are doing and show genuine concern",
+            "Make a concrete step: this week, set aside time to visit someone who is struggling and listen without judgment"
+          ],
+          "focusVerse": "6:5"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about being the first to go into exile by not grieving with those who grieve.",
+          "tips": [
+            "Thank God for His judgment that exposes our pride and complacency",
+            "Ask for the courage to grieve with those who suffer (especially in the community)",
+            "Pray for the strength to be a humble servant who cares for the poor and vulnerable"
+          ],
+          "focusVerse": "6:1-14"
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 7,
+      "chapterTitle": "Visions of Judgment",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Amos 7 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 8,
+      "chapterTitle": "The Basket of Summer Fruit",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Amos 8:1-12 aloud, paying attention to the Lord's warning about the basket of summer fruit and the coming famine of the word.",
+          "tips": [
+            "Notice the phrase 'basket of summer fruit' (v.1) and how it contrasts with the coming judgment (v.3) and the famine of the word (v.8)",
+            "Pay attention to the repetition of 'trample on the needy' (v.6) and 'false balances' (v.7)"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Lord) shows Amos a basket of summer fruit, WHAT (the Lord speaks about the end coming on Israel), WHERE (in the vision of Amos), and WHY (to warn northern Israel about their injustice and the coming spiritual famine).",
+          "tips": [
+            "Include the Lord's declaration that He will no longer pass by Israel (v.3)",
+            "Note the contrast between the current state of injustice and the coming spiritual famine (v.8)",
+            "The temple songs becoming wailings (v.4)"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the basket of summer fruit (v.1), the accusation of trampling the needy (v.6), or the famine of the word (v.8)?",
+          "tips": [
+            "The basket of summer fruit symbolizes the abundant blessings that are being misused by the wicked",
+            "The Lord's specific accusation of the people for trampling the needy and using false balances shows the depth of their injustice",
+            "The famine of the word (v.8) is a powerful image of spiritual desolation"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Amos trying to communicate to northern Israel through this passage?",
+          "tips": [
+            "Amos warns that the Lord's judgment is imminent due to the people's corruption and injustice",
+            "The passage emphasizes that the people have become so self-centered that they ignore the poor and distort the Sabbath for selfish gain",
+            "The main point is that without repentance, God will bring a spiritual famine where His word is not heard"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The basket of summer fruit? The famine of the word? The specific accusations of cheating?",
+          "tips": [
+            "The 'basket of summer fruit' is a metaphor for God's blessings that are being used for the wrong purposes (v.1)",
+            "The 'famine of the word' (v.8) refers to a spiritual condition where the people cannot hear God's word",
+            "The terms 'ephah' (a measure of grain) and 'shekel' (a unit of weight) are ancient measures that the people are distorting for dishonest trade"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you actively seek God's word this week in a way that you would not be 'wandering from sea to sea'?",
+          "tips": [
+            "Read a specific Bible passage that addresses the need for justice (e.g., Amos 5:14-20) and share it with someone who is struggling",
+            "Check your finances to ensure you are not using false balances in your transactions",
+            "Pray for the church community to become a place where the word of God is heard"
+          ],
+          "focusVerse": "8:8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His warning and ask for the courage to seek His word in a world of distraction.",
+          "tips": [
+            "Thank God that He sees the injustice and will not ignore it",
+            "Pray for the leaders of the church to be honest in their dealings and to prioritize the poor",
+            "Ask God to give you the heart to seek Him when you are in the 'wandering' state"
+          ],
+          "focusVerse": "8:8"
+        }
+      ]
+    },
+    {
+      "bookId": "amos",
+      "bookName": "Amos",
+      "chapter": 9,
+      "chapterTitle": "Destruction and Restoration",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Amos 9:1-12 aloud, focusing on the Lord's declaration of destruction and restoration.",
+          "tips": [
+            "Notice the repetition of 'not one of them shall escape' (v.2) and 'I will destroy it' (v.12)",
+            "Pay attention to the contrast between the Lord's destruction of the sinful kingdom and the restoration of the Davidic house",
+            "The phrase 'the eyes of the Lord GOD' (v.12) emphasizes God's active presence"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO the Lord is destroying, WHAT He does to the kingdom, WHERE this happens, and WHY He does it.",
+          "tips": [
+            "Include the destruction of the entire kingdom (v.1-10) and the preservation of the house of Jacob (v.12)",
+            "Note the restoration of the booth of David (v.11) and the inclusion of all nations (v.12)",
+            "The destruction is a response to the sin of northern Israel (idolatry and injustice)"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Which part stood out most? Consider: the Lord's all-seeing power (v.3), the restoration of the Davidic house (v.11), or the reversal of roles in the kingdom (v.13)?",
+          "tips": [
+            "The phrase 'if they hide on the top of Carmel, I will search them out' (v.3) shows God's absolute sovereignty and the futility of hiding",
+            "The restoration of the booth of David (v.11) promises a future where the Messiah will reign and the nations will be included",
+            "The plowman overtaking the reaper (v.13) symbolizes the coming of a new era where God's kingdom will be established"
+          ],
+          "focusVerse": "9:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Amos trying to communicate to northern Israel about God's judgment and restoration?",
+          "tips": [
+            "Amos warned of the destruction of the northern kingdom for its idolatry and social injustice, but also promised that the house of Jacob would be preserved and restored",
+            "This prophecy points to the ultimate restoration of God's kingdom through the Messiah (David's greater Son)",
+            "The restoration includes the inclusion of all nations who are called by God's name"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this chapter are challenging to understand? Consider cultural context, terms, or theological concepts.",
+          "tips": [
+            "The phrase 'strike the capitals until the thresholds shake' (v.1) refers to the destruction of the fortified cities of northern Israel, which were centers of idolatry",
+            "The phrase 'not utterly destroy the house of Jacob' (v.12) means that the covenant people (the house of Jacob) will be preserved for restoration, not the entire nation",
+            "The plowman overtaking the reaper (v.13) is a metaphor for the coming of a new age where the old order of human work is reversed by God's kingdom"
+          ],
+          "focusVerse": "9:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you trust in God's restoration after the destruction of your current life circumstances this week?",
+          "tips": [
+            "Think about the 'house of Jacob' that God preserves for restoration—what area of your life needs God's grace to be renewed?",
+            "Pray for the courage to face the 'destruction' of your sin patterns and trust in God's promise of restoration",
+            "How can you be part of the 'nations called by God's name' in your community this week?"
+          ],
+          "focusVerse": "9:11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for His promise of restoration after judgment. Ask for strength to trust Him in the midst of destruction.",
+          "tips": [
+            "Thank God for the promise that He will raise up the booth of David and restore His people",
+            "Pray for the courage to face the destruction of sin in your life and trust in God's restoration",
+            "Ask God to include you and others in His kingdom of restoration"
+          ],
+          "focusVerse": "9:11"
+        }
+      ]
+    }
+  ]
+}

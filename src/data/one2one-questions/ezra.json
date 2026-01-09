@@ -1,0 +1,821 @@
+{
+  "bookId": "ezra",
+  "bookName": "Ezra",
+  "totalChapters": 10,
+  "chapters": [
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 1,
+      "chapterTitle": "Cyrus's Decree: Return from Exile",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 1:1-11 aloud, paying attention to the phrases 'the Lord stirred up the spirit of Cyrus' (v.1), 'the decree of Cyrus' (v.2), and the list of returning leaders (v.3-4).",
+          "tips": [
+            "Notice the repeated phrase 'the Lord' (4 times) emphasizing divine sovereignty",
+            "Pay attention to the list of returning leaders: the heads of Judah and Benjamin, priests, and Levites",
+            "The emotional tone shifts from God's action to the human response"
+          ],
+          "focusVerse": "1:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Cyrus and the returned exiles), WHAT (Cyrus issues a decree allowing the return to Jerusalem and rebuilding the temple), WHERE (Jerusalem), and WHY (to fulfill the 70-year prophecy of Jeremiah and restore the temple).",
+          "tips": [
+            "Include that Cyrus returns the sacred vessels taken by Nebuchadnezzar",
+            "Note the leaders: high priest, princes, and Levites",
+            "The decree is issued by Cyrus, king of Persia"
+          ],
+          "focusVerse": "1:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the decree itself (v.2), the return of sacred vessels (v.3-4), or the list of returning leaders (v.5-6).",
+          "tips": [
+            "The decree is a direct response to God's sovereignty",
+            "The return of the sacred vessels shows God's faithfulness to His covenant",
+            "The list of returning leaders highlights the organized response to the decree"
+          ],
+          "focusVerse": "1:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles through this passage?",
+          "tips": [
+            "Ezra emphasizes that God's sovereignty is at work even through pagan kings",
+            "The decree fulfills Jeremiah's prophecy, showing God's faithfulness to His covenant",
+            "The return of the sacred vessels demonstrates God's care for His people"
+          ],
+          "focusVerse": "1:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Cyrus, the meaning of the decree, and the return of vessels.",
+          "tips": [
+            "Cyrus is a pagan king, but God uses him as an instrument of restoration - this shows God's sovereignty over nations",
+            "The decree is a legal document that allows the return, but it's God's initiative that makes it possible",
+            "The return of the sacred vessels (which were taken by Nebuchadnezz's) shows that God's temple is central and that He has not abandoned His people"
+          ],
+          "focusVerse": "1:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does this passage challenge you to act this week? Consider the theme of restoration and the role of divine sovereignty.",
+          "tips": [
+            "Pray for courage to trust God's timing in your life's restoration",
+            "Identify one area where you need to 'return' to God (like the exiles returning to Jerusalem)",
+            "Surrender a burden to God, knowing He is in control"
+          ],
+          "focusVerse": "1:1-11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His sovereignty and faithfulness in sending Cyrus to restore His people. Ask for the courage to trust His provision.",
+          "tips": [
+            "Thank God for using even pagan kings as instruments of His will",
+            "Pray for the returned exiles to experience God's restoration in their lives",
+            "Ask God to help you see the sacredness of His temple (your life) and to return to Him"
+          ],
+          "focusVerse": "1:1-11"
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 2,
+      "chapterTitle": "The Returning Exiles Listed",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 2:1-65 aloud, paying attention to the list of names and the structure of the census.",
+          "tips": [
+            "Notice the repetition of 'the names of the families' in verse 1",
+            "Pay attention to the phrase 'the children of the exiles' in verse 3"
+          ],
+          "focusVerse": "2:1-65"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO is being counted, WHAT they are doing (returning to Jerusalem), WHERE it happens (Jerusalem), and WHY they are being counted (to establish covenant community and priestly purity).",
+          "tips": [
+            "Include the detailed listing of families by ancestral houses and priestly groups",
+            "Note the purpose of the census: to re-establish the covenant community and ensure temple functionality"
+          ],
+          "focusVerse": "2:1-65"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the detailed list of families (v.1-2), the exclusion of those without genealogy (v.30-31), or the freewill offerings (v.67-68).",
+          "tips": [
+            "The list of families shows God's care for each individual, preserving the community through names",
+            "The exclusion of some from priesthood until verification highlights both genealogical importance and God's mercy",
+            "The freewill offerings demonstrate the community's generosity in rebuilding the temple"
+          ],
+          "focusVerse": "2:1-68"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles about their new community and covenant relationship with God?",
+          "tips": [
+            "Ezra emphasizes preservation of the covenant community through careful name and lineage recording",
+            "The census ensures temple and priesthood maintain God's laws"
+          ],
+          "focusVerse": "2:1-65"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Urim and Thummim, the exclusion of some from priesthood, and the total number of people.",
+          "tips": [
+            "Urim and Thummim were oracle stones for divination; here they verify genealogy for those without it",
+            "Exclusion shows God requires proper lineage but provides a process for verification",
+            "The total of 42,360 indicates the scale of community rebuilding"
+          ],
+          "focusVerse": "2:30-68"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you be part of God's community by showing generosity and commitment? What specific action can you take this week to support the church or community?",
+          "tips": [
+            "Consider giving a freewill offering (time, money, or resources) to rebuild church community",
+            "Think about spiritual lineage and how it strengthens your faith"
+          ],
+          "focusVerse": "2:67-68"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for preserving His people and ask for the grace to build a community of faith.",
+          "tips": [
+            "Thank God for the detailed census showing His care for each individual",
+            "Pray for returned exiles to maintain priestly purity and generosity",
+            "Ask God to help you be part of a community that values genealogy and generosity"
+          ],
+          "focusVerse": "2:1-68"
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 3,
+      "chapterTitle": "The Altar and Temple Foundation",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 3:1-13 aloud, paying attention to the joyful shouts and the weeping of the elders.",
+          "tips": [
+            "Notice the phrase 'the people shouted with joy' (v.12)",
+            "Pay attention to the elders weeping (v.12) - this shows mixed emotions",
+            "Notice the repeated phrase 'the foundation of the house of the Lord' (v.13)"
+          ],
+          "focusVerse": "Ezra 3:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the returned exiles), WHAT (rebuilding the altar and laying the temple foundation), WHERE (Jerusalem), and WHY (to resume worship and restart sacrifices).",
+          "tips": [
+            "Include that they built the altar first before the temple was complete",
+            "Note the joyful shouts and elders weeping",
+            "Mention this happened in the second year of the rebuilding"
+          ],
+          "focusVerse": "Ezra 3:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the joyful shouts (v.12), the elders weeping (v.12), or the laying of the foundation (v.13).",
+          "tips": [
+            "The mixed emotions of joy and weeping show the depth of their experience - celebrating new beginnings while mourning lost glory",
+            "The phrase 'the foundation of the house of the Lord' (v.13) emphasizes worship comes before physical structures",
+            "The elders' weeping reveals their connection to Solomon's temple and hope for restoration"
+          ],
+          "focusVerse": "Ezra 3:12-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles through this passage?",
+          "tips": [
+            "Ezra emphasized that worship (the altar) must precede physical temple construction, showing God's priority",
+            "The mixed emotions illustrate that returnees are both joyful in new work and sorrowful for lost temple",
+            "This reassures them God is present in the rebuilding process even when temple is incomplete"
+          ],
+          "focusVerse": "Ezra 3:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Why did they build the altar first? What does 'foundation' mean here? Why did the elders weep?",
+          "tips": [
+            "Building the altar first is necessary for priests to restart sacrifice cycles before temple completion",
+            "The 'foundation' refers to the first structural step of the temple, not the entire building",
+            "The elders wept because they remembered Solomon's destroyed temple which was the world's most glorious structure"
+          ],
+          "focusVerse": "Ezra 3:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you prioritize worship (like the altar) in your life this week, even when there's pressure to focus on other things?",
+          "tips": [
+            "Set aside time for prayer and worship before starting other tasks",
+            "Ask: 'Is this the first step in building God's kingdom?' before major projects",
+            "Practice joyful worship in small steps even when big projects aren't complete"
+          ],
+          "focusVerse": "Ezra 3:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for the priority of worship and ask for the courage to face the mixed emotions of joy and sorrow in the rebuilding of your life.",
+          "tips": [
+            "Thank God for providing the altar (worship) before physical structures",
+            "Pray for strength to weep with elders when remembering past glory and joy with people when seeing new beginnings",
+            "Ask God to help you lay the foundation of your life on Him, not your own efforts"
+          ],
+          "focusVerse": "Ezra 3:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 4,
+      "chapterTitle": "Opposition to Rebuilding",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Ezra 4 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 5,
+      "chapterTitle": "Prophetic Encouragement and Resumed Work",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 5:1-17 aloud, paying attention to the dialogue between Tattenai and the Jews in verses 5-10 and the testimony about Cyrus's decree in verses 11-17.",
+          "tips": [
+            "Notice the repeated phrase 'the house of God' (v.3, v.11)"
+          ],
+          "focusVerse": "5:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Zerubbabel, Jeshua, the prophets) is involved, WHAT (resuming temple building), WHERE (in Jerusalem), and WHY (to build God's house as authorized by Cyrus).",
+          "tips": [
+            "Include Haggai and Zechariah as the prophets who encouraged the people (v.1-2)",
+            "Note Zerubbabel (governor) and Jeshua (high priest) leading the work (v.3-4)"
+          ],
+          "focusVerse": "5:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Zerubbabel and Jeshua's response (v.3-4), Tattenai's questioning (v.5-10), or the Jews' testimony about Cyrus (v.11-17).",
+          "tips": [
+            "Zerubbabel and Jeshua's immediate response shows their faith in God's promise",
+            "The Jews' clear testimony about Cyrus's decree (v.11-12) demonstrates obedience to God's authority",
+            "The phrase 'we have begun the work again' (v.4) is hopeful and action-oriented"
+          ],
+          "focusVerse": "5:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles about the importance of prophetic encouragement and resumed work?",
+          "tips": [
+            "Ezra emphasizes that the work of rebuilding the temple is a divine mandate (Cyrus's decree) and must be done with confidence in God's authority",
+            "The passage shows that God's people can act with faith even when there is official questioning (Tattenai)"
+          ],
+          "focusVerse": "5:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Tattenai's role, the reference to Cyrus's decree, or the process of inquiry to the king?",
+          "tips": [
+            "Tattenai is a Persian governor with authority but does not stop the work because he is acting within his official role (not the king)"
+          ],
+          "focusVerse": "5:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "The passage shows that when the church is encouraged by the Spirit to build God's house, they can resume work even when there is official questioning. What situation requires you to trust God and take action this week?",
+          "tips": [
+            "Consider a project or task you've been hesitant to start due to fear of failure or others' opinions"
+          ],
+          "focusVerse": "5:4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His provision in our lives and ask for courage to begin new work in His kingdom.",
+          "tips": [
+            "Thank God for the prophets who encourage us to build His church",
+            "Pray for the strength to act when we are unsure of the outcome"
+          ],
+          "focusVerse": "5:4"
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 6,
+      "chapterTitle": "Temple Completed and Dedicated",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 6:1-22 aloud, paying attention to the phrase 'the king's heart turned' (v.12) and the celebrations of Passover (v.19).",
+          "tips": [
+            "Notice the repeated phrase 'the LORD has given us' in verses 10-11",
+            "Pay attention to the emotional tone of joy and dedication in verses 18-22",
+            "Listen for the emphasis on purification (v.18) and the king's support (v.1-3)"
+          ],
+          "focusVerse": "6:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved (the returned exiles and Persian officials), WHAT happens (the temple dedication), WHERE it occurs (in Jerusalem), and WHY it matters (God's promise fulfilled).",
+          "tips": [
+            "Include Darius's decree and royal support (v.1-3)",
+            "Note the purification of priests and Levites (v.18)",
+            "Describe the Passover celebration as a sign of God's covenant (v.19)"
+          ],
+          "focusVerse": "6:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the king's heart turning (v.12), the purification of priests (v.18), or the Passover celebration (v.19).",
+          "tips": [
+            "The king's heart turning is a powerful reminder of God's sovereignty over rulers",
+            "The priests and Levites' purification shows the community's commitment to holiness",
+            "The Passover celebration restores the covenant and points to Christ"
+          ],
+          "focusVerse": "6:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles about God's faithfulness and the temple's purpose?",
+          "tips": [
+            "The temple's completion signifies God's promise being fulfilled through the returned exiles",
+            "Darius's support demonstrates God's working through political powers for His purpose",
+            "The Passover celebration reveals God's covenant with His people"
+          ],
+          "focusVerse": "6:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The king's role in the temple project, the meaning of 'the king's heart turned', and the Passover celebration after the temple dedication.",
+          "tips": [
+            "Darius's decree was a political move to ensure the temple was built without interference",
+            "'The king's heart turned' (v.12) means God changed Darius's mind to favor the Israelites, not that he converted to Judaism",
+            "The Passover celebration (v.19) is significant because it restores the covenant and points to Christ as the true Passover Lamb"
+          ],
+          "focusVerse": "6:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God turning rulers' hearts to your life this week?",
+          "tips": [
+            "Consider a situation where God has turned a difficult person's heart to your benefit",
+            "Practice gratitude for the temple of God (the church) and its dedication",
+            "Seek to be like the priests and Levites who purified themselves and celebrated the Passover"
+          ],
+          "focusVerse": "6:1-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for turning the heart of Darius (v.12) and ask for courage to be a temple of God in your community.",
+          "tips": [
+            "Thank God for His sovereignty over rulers and His provision of the temple",
+            "Pray for leaders to turn their hearts to God for His purposes",
+            "Ask God to help you celebrate the Passover of Christ in your life"
+          ],
+          "focusVerse": "6:1-22"
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 7,
+      "chapterTitle": "Ezra's Mission: The Scribe Arrives",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 7:1-14 aloud, focusing on the royal authorization and Ezra's dedication.",
+          "tips": [
+            "Notice the phrase 'set his heart to study the law of the Lord, and to do it, and to teach statutes and ordinances in Israel' (v.10)"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is sent, WHAT they are authorized to do, WHERE this mission takes place, and WHY Ezra is chosen.",
+          "tips": [
+            "Ezra the scribe (descended from Aaron) is sent by Artaxerxes",
+            "He is granted authority to teach the law, appoint judges, and use temple funds",
+            "The mission occurs in Jerusalem among returned exiles"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Ezra's dedication (v.10), the royal authorization (v.6-7), or the mission's scope (v.14).",
+          "tips": [
+            "Ezra's phrase 'set his heart to study the law of the Lord, and to do it, and to teach statutes and ordinances in Israel' shows his commitment to action",
+            "The royal letter from Artaxerxes (v.6-7) demonstrates God's authority being exercised through royal decree",
+            "The mission to reestablish the law (v.14) addresses the need for religious order after the exile"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles about the importance of the law and the role of a scribe?",
+          "tips": [
+            "Ezra emphasizes that the law of Moses must be the foundation for community life",
+            "The scribe's role is not just to know the law but to actively study, do, and teach it",
+            "This passage shows that God's authority is exercised through the Word of God, even in the midst of a foreign power"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of the scribe, the use of temple funds for the mission, or the royal authorization's implications?",
+          "tips": [
+            "The term 'scribe' in ancient Israel was a law expert, not just a scribe in the modern sense",
+            "Temple funds being used for the mission (v.10) might seem unusual, but it's part of the religious community's resources",
+            "Artaxerxes' royal authorization (v.6-7) shows the Persian king was involved in the religious life of the exiles"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Ezra's study-do-teach pattern in your life this week?",
+          "tips": [
+            "Choose one area where you can study the Word of God in depth",
+            "Commit to doing what you learn (e.g., applying the Word to your daily life)",
+            "Share what you learn with others (teach) in a practical way"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the Word of God being the foundation for our lives and ask for courage to teach it.",
+          "tips": [
+            "Thank God for the Word of God being the foundation for our lives",
+            "Pray for courage to study the law and teach it in your context",
+            "Ask God for the strength to use His resources (like temple funds) for the mission of teaching"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 8,
+      "chapterTitle": "Ezra's Journey to Jerusalem",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 8:1-30 aloud, paying attention to the declaration of the fast and the journey.",
+          "tips": [
+            "Notice the phrase 'I have set my heart to seek the Lord' (v17) repeated in the context of prayer",
+            "Pay attention to the emotional tone of the journey: 'The Lord has protected us from the hand of the enemy' (v24) - a sense of security",
+            "The word 'fast' appears in v18 and v23, showing a deliberate act of seeking God"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Ezra and the returned exiles), WHAT (gathered to return to Jerusalem and build the temple), WHERE (from Shushan to Jerusalem), and WHY (to seek God's protection and rebuild the temple).",
+          "tips": [
+            "Include the 2000 people who returned (v1)",
+            "Note that Ezra declared a fast to seek God's protection (v18-23)",
+            "Describe the journey being protected by God (v24-29)"
+          ],
+          "focusVerse": "8:1-29"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Ezra's declaration of the fast (v18-23), the journey being protected by God (v24-29), or the delivery of the treasures (v30).",
+          "tips": [
+            "Ezra's humility: He was ashamed to ask for military protection (v19-20) but trusted God's promise",
+            "The phrase 'The Lord has protected us from the hand of the enemy' (v24) - a powerful declaration of divine protection",
+            "The delivery of the treasures to the temple (v30) shows the practical result of their trust"
+          ],
+          "focusVerse": "8:18-30"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles about God's faithfulness through this journey?",
+          "tips": [
+            "Ezra's refusal of military protection shows that God's promise to protect those who seek Him is sufficient",
+            "This passage emphasizes that true security comes from trusting God's promises, not human systems",
+            "It foreshadows the New Covenant where Christ is the ultimate protector (the 'fear of God' in the Old Testament is replaced by Christ's protection)"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The fast for protection, the role of the king, the nature of the protection.",
+          "tips": [
+            "The fast in Ezra 8 is not for atonement but for seeking God's protection (unlike the Passover in Exodus) - it's a personal act of seeking",
+            "Artaxerxes (the king) was a Persian ruler who had already granted permission for the return (v1-2) but Ezra refused military escort, which was common for such journeys",
+            "The phrase 'the Lord has protected us' (v24) is a declaration of God's active intervention, not passive provision"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Ezra trusted God's protection without military escort. What situation this week requires you to trust God's protection instead of human help?",
+          "tips": [
+            "Consider a situation where you are facing a risk or danger and you are tempted to seek human security",
+            "Think about how you can declare 'I have set my heart to seek the Lord' (v17) in that situation",
+            "Pray for the same protection that Ezra experienced: 'The Lord has protected us from the hand of the enemy'"
+          ],
+          "focusVerse": "8:17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His protection in the journey of faith. Ask for courage to trust Him without human help.",
+          "tips": [
+            "Thank God for protecting you from the enemy (as in v24) in your life",
+            "Pray for the courage to trust God in a situation where you feel vulnerable",
+            "Ask God to help you set your heart to seek Him (v17) in the next week"
+          ],
+          "focusVerse": "8:24"
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 9,
+      "chapterTitle": "Ezra's Prayer of Confession",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 9:1-15 aloud, focusing on the emotional tone and the phrase 'we have sinned' in verse 1.",
+          "tips": [
+            "Notice the tearing of garments (v. 1) as a sign of deep distress",
+            "Pay attention to the repeated phrase 'we have sinned' (v. 1, 3) and the plea for mercy (v. 11-12)"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Ezra), WHAT (the people have intermarried with foreign women), WHERE (Jerusalem), and WHY (they broke the covenant) in 3 sentences.",
+          "tips": [
+            "Include that Ezra tears his garments and sits stunned until the evening sacrifice",
+            "Note that the intermarriage is with 'unholy' peoples (v. 2)",
+            "Mention that he prays for God's mercy and restoration"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the phrase 'we have sinned' (v. 1), the claim of no right to stand before God (v. 13), or the plea for mercy (v. 11-12)?",
+          "tips": [
+            "Ezra's declaration of 'we have sinned' shows a community-wide confession, not individual guilt",
+            "The statement 'we have no right to stand before God' (v. 13) reveals deep humility and the need for grace",
+            "The promise of restoration (v. 14-15) shows hope despite sin"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles about their sin and God's response?",
+          "tips": [
+            "Ezra is calling the community to acknowledge their broken covenant through intermarriage",
+            "He emphasizes that they are not righteous enough to stand before God without mercy",
+            "This prayer shows that God's grace is available even after the people have sinned"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The tearing of garments? The meaning of 'holy seed'? Why does Ezra pray for mercy when they have already been restored?",
+          "tips": [
+            "Tearing garments in ancient Israel was a sign of repentance and grief, not just emotional distress",
+            "'Holy seed' (v. 2) refers to the Israelites as God's chosen people, but they have mixed with foreigners, thus defiling the sacred lineage",
+            "Ezra's prayer for mercy is not a rejection of the restoration (the return from exile) but a recognition that they have still sinned and need cleansing"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, identify one area where you have been unfaithful to God's command (like in relationships) and confess it to God as Ezra did.",
+          "tips": [
+            "Think of a specific sin or unfaithfulness (e.g., breaking a covenant with God in your life)",
+            "Pray for the same confession that Ezra made: 'we have sinned' (v. 1)",
+            "Ask God for the grace to be restored, as Ezra prayed for the community"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for His grace in the midst of our sin, ask for the courage to confess, and pray for the community to be restored.",
+          "tips": [
+            "Thank God that He provides mercy and restoration (v. 14-15)",
+            "Pray for the strength to confess our sins as Ezra did",
+            "Ask God to restore the community's relationship with Him"
+          ],
+          "focusVerse": "9:1-15"
+        }
+      ]
+    },
+    {
+      "bookId": "ezra",
+      "bookName": "Ezra",
+      "chapter": 10,
+      "chapterTitle": "Covenant Renewal: Putting Away Foreign Wives",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ezra 10:1-44 aloud, paying attention to the emotional tone of repentance in verses 1-2 and the urgency in verses 7-8.",
+          "tips": [
+            "Notice the repeated phrase 'I have sinned' (v.10) showing collective guilt",
+            "Pay attention to the specific call for action: 'let us put away foreign wives and their children according to the law' (v.10)",
+            "The list of names in verses 43-44 shows the concrete outcome of purification"
+          ],
+          "focusVerse": "10:1-44"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the returned exiles) did WHAT (put away foreign wives and their children), WHERE (in Jerusalem), and WHY (to renew the covenant with God after sinning by marrying foreign women).",
+          "tips": [
+            "Include the three-day deadline for the assembly (v.7)",
+            "Note that Shecaniah confessed the sin and proposed the covenant (v.3-4)",
+            "Describe the court of investigation that was established (v.9-11)"
+          ],
+          "focusVerse": "10:1-44"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Shecaniah's confession (v.10), the proposal to put away foreign wives (v.10), or the list of names in the end (v.43-44).",
+          "tips": [
+            "Shecaniah's confession: 'We have sinned' (v.10) is a powerful moment of collective repentance",
+            "The proposal: 'Let us put away foreign wives and their children according to the law' (v.10) shows the commitment to the law and covenant",
+            "The list of names (v.43-44) is a tangible result of the community's purification, showing the cost of obedience"
+          ],
+          "focusVerse": "10:1-44"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Ezra trying to communicate to the returned exiles about the need for covenant renewal through purification?",
+          "tips": [
+            "Ezra is emphasizing that the community must be cleansed of sin to be in right relationship with God",
+            "This renewal is not optional but a necessary step for the community to function as God's people",
+            "The covenant renewal is tied to the community's identity and purity (as seen in the list of names)"
+          ],
+          "focusVerse": "10:1-44"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The extent of the sin (marrying foreign women), the legal process of 'putting away', and the list of names at the end.",
+          "tips": [
+            "The sin of marrying foreign women was common in the context of the returned exiles living among surrounding nations",
+            "'Put away' refers to a legal divorce but also includes the children (as per the law of Moses, Deuteronomy 21:10-11)",
+            "The list of names (v.43-44) shows the community's commitment to accountability and transparency"
+          ],
+          "focusVerse": "10:1-44"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the principle of community purification to your life this week? Identify one area where you might be 'foreign' and take a step to remove it.",
+          "tips": [
+            "Consider a relationship or habit that is causing you to be unfaithful to God (like a foreign influence)",
+            "Think about how you can take a specific step to 'put away' that influence (e.g., cut ties, change habits)",
+            "Practice the urgency of the three-day deadline by acting quickly on one small step"
+          ],
+          "focusVerse": "10:10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His covenant with His people and ask for the courage to purify your life from anything that hinders full devotion.",
+          "tips": [
+            "Thank God for the community's repentance and the call to purity",
+            "Pray for the strength to remove anything that competes with your devotion to God",
+            "Ask God to help you be part of the list of those who are purified (v.43-44)"
+          ],
+          "focusVerse": "10:10"
+        }
+      ]
+    }
+  ]
+}

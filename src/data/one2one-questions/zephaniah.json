@@ -1,0 +1,247 @@
+{
+  "bookId": "zephaniah",
+  "bookName": "Zephaniah",
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "bookId": "zephaniah",
+      "bookName": "Zephaniah",
+      "chapter": 1,
+      "chapterTitle": "The Day of the LORD's Wrath",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Zephaniah 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "zephaniah",
+      "bookName": "Zephaniah",
+      "chapter": 2,
+      "chapterTitle": "Judgment on the Nations",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zephaniah 2:1-11 aloud, paying attention to the phrases 'gather together' (v1), 'burning anger' (v1), and the repeated imagery of desolation (v3-5).",
+          "tips": [
+            "Notice the repetition of 'gather' in verse 1 for emphasis",
+            "Pay attention to the phrase 'burning anger of the LORD' in verse 1",
+            "Observe the imagery of desolation in verses 3-5: 'deserted', 'desolation', 'dry waste'"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God is judging, WHAT He is doing (judgment), WHERE the judgment falls (specific nations), and WHY (because of their shamelessness and unrighteousness).",
+          "tips": [
+            "Include the judgment on Gaza and Ashkelon (v3)",
+            "Note the judgment on the Philistines (v4)",
+            "Describe the destruction of Assyria and Nineveh (v5-6)"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the repetition of 'gather' (v1), the desolation of Nineveh (v6), or the call to the humble (v3).",
+          "tips": [
+            "The repetition of 'gather' shows the urgency of the coming judgment and the need to respond quickly",
+            "The image of Nineveh as a lair for wild beasts (v6) is a powerful contrast to its former pride",
+            "The call to the humble to seek the LORD (v3) provides hope in the midst of judgment"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zephaniah trying to communicate to Judah through this passage? That God's judgment on the proud nations (including Assyria and Nineveh) is coming as a consequence of Judah's sin, but the humble who seek righteousness will be protected.",
+          "tips": [
+            "Zephaniah is warning Judah that their sin has led to God's judgment on the nations",
+            "The judgment on the nations serves as a sign that God is sovereign and will ultimately prevail",
+            "The call to the humble provides hope for those who turn to God"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The connection between Judah's sin and the judgment on the nations? The meaning of 'burning anger'? The prophecy about Assyria and Nineveh?",
+          "tips": [
+            "The judgment on the nations is a consequence of Judah's sin (as the book of Zephaniah is a judgment on Judah and the nations that are associated with Judah's sin)",
+            "'Burning anger' refers to God's wrath that is coming quickly and severely",
+            "Assyria and Nineveh were powerful empires that had oppressed Judah; God's judgment on them shows His sovereignty"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, identify a place where you are proud (like thinking you are secure) and pray to humble yourself and seek the LORD as Zephaniah calls the humble to do.",
+          "tips": [
+            "Read Zephaniah 2:3 and pray for the humility to seek the LORD",
+            "When you feel secure in your circumstances, ask God to reveal your pride and help you seek Him"
+          ],
+          "focusVerse": "2:3"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for His judgment on the proud nations and His mercy for the humble. Ask for humility in your life and the courage to seek Him when it's costly.",
+          "tips": [
+            "Thank God for His judgment on the proud nations and His mercy for the humble",
+            "Ask for humility in your life and the courage to seek Him when it's costly",
+            "Pray for the nations (especially Assyria and Nineveh) to be desolate and for the humble to find refuge"
+          ],
+          "focusVerse": "2:3"
+        }
+      ]
+    },
+    {
+      "bookId": "zephaniah",
+      "bookName": "Zephaniah",
+      "chapter": 3,
+      "chapterTitle": "Jerusalem's Redemption",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zephaniah 3:1-14 aloud, paying attention to the contrast between the city's rebellion and God's redemption.",
+          "tips": [
+            "Notice the repetition of 'the LORD' and 'righteous' in verses 3-4",
+            "Pay attention to the shift from judgment (v1-4) to redemption (v5-14)",
+            "Listen for the emotional tone: warning in the beginning, then hope and joy in the end"
+          ],
+          "focusVerse": "3:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being judged, WHAT God is doing, WHERE this occurs, and WHY it happens.",
+          "tips": [
+            "Include the city of Jerusalem (Judah) as the rebellious city",
+            "Note that God is taking away judgments and clearing enemies",
+            "The reason is the city's rebellion and lack of trust in God"
+          ],
+          "focusVerse": "3:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the city's rebellion (v1-4), God's righteous nature (v3), or the redemption of Jerusalem (v5-14)?",
+          "tips": [
+            "The phrase 'the LORD within her is righteous; he does no injustice' (v3) contrasts the city's injustice",
+            "The promise of a humble remnant that will seek refuge in the name of the LORD (v5) is a powerful image of God's faithfulness",
+            "The declaration 'The King of Israel, the LORD, is in your midst' (v13) brings comfort and security"
+          ],
+          "focusVerse": "3:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zephaniah trying to communicate to Judah through this passage?",
+          "tips": [
+            "Zephaniah is calling Judah to repent from their rebellion and trust in God's redemption",
+            "The main point is that God will ultimately redeem Jerusalem by removing the unjust and leaving a humble remnant who will be safe",
+            "This passage foreshadows the coming of Christ (as the King of Israel) who will bring salvation to His people"
+          ],
+          "focusVerse": "3:1-14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The city's rebellion, the imagery of lions and wolves, or the concept of God's redemption?",
+          "tips": [
+            "The phrase 'the LORD within her is righteous' (v3) refers to God's inherent righteousness that the city's rebellion cannot overcome",
+            "The comparison of officials as 'roaring lions' and judges as 'evening wolves' (v4) illustrates the city's leadership being violent and treacherous",
+            "The statement 'the unjust knows no shame' (v3) means the wicked do not experience the shame that comes from God's justice"
+          ],
+          "focusVerse": "3:1-14"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "The passage promises a humble remnant that will seek refuge in the LORD. What practical step can you take this week to become more humble and seek God?",
+          "tips": [
+            "Consider an area where you feel proud and need to lower yourself before God",
+            "Pray for the Holy Spirit to help you become humble and seek God's presence",
+            "Read Psalm 139:17-18 to reflect on God's intimate knowledge and your need for humility"
+          ],
+          "focusVerse": "3:5"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about Jerusalem's redemption: Thank God for His promise of redemption and ask for a humble heart.",
+          "tips": [
+            "Thank God that He is the King of Israel who will save His people",
+            "Pray for the humility of the remnant to seek refuge in Him",
+            "Ask God to remove your rebellion and help you trust in His redemption"
+          ],
+          "focusVerse": "3:14"
+        }
+      ]
+    }
+  ]
+}

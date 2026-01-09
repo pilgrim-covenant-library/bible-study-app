@@ -1,0 +1,3231 @@
+{
+  "bookId": "exodus",
+  "bookName": "Exodus",
+  "totalChapters": 40,
+  "chapters": [
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 1,
+      "chapterTitle": "Israel Oppressed in Egypt",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 2,
+      "chapterTitle": "Birth of Moses",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 3,
+      "chapterTitle": "The Burning Bush",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 3:1-15 aloud, paying attention to the contrast between the burning bush (v.2) and the phrase 'I AM WHO I AM' (v.14).",
+          "tips": [
+            "Notice the bush burns but is not consumed (v.2)",
+            "Pay attention to Moses' initial hesitation and God's immediate response (v.4-5)",
+            "The phrase 'I AM WHO I AM' (v.14) is the divine name that reveals God's self-existence"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God is speaking to, WHAT God reveals about Israel, WHERE this happens, and WHY God is acting (using 5W+H).",
+          "tips": [
+            "Moses is the one called by God at Horeb",
+            "God reveals He has seen Israel's affliction in Egypt and will deliver them",
+            "The location is Horeb (Mount Hor) in a burning bush"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the burning bush (v.2), God's name 'I AM WHO I AM' (v.14), or the promise of a land flowing with milk and honey (v.16)?",
+          "tips": [
+            "The bush that burns without being consumed (v.2) pictures God's presence that is both active and sustaining",
+            "The phrase 'I AM WHO I AM' (v.14) is the ultimate self-revelation of God's eternal nature",
+            "The promise of a land flowing with milk and honey (v.16) shows God's provision for the future of Israel"
+          ],
+          "focusVerse": "3:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage?",
+          "tips": [
+            "God is the active, sovereign God who sees the suffering of His people and will deliver them",
+            "The name 'I AM WHO I AM' (v.14) reveals God's self-existence and covenant relationship with Israel",
+            "Moses is called to be the instrument of God's deliverance (v.10)"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The burning bush, the phrase 'I AM WHO I AM', or the promise of a land flowing with milk and honey?",
+          "tips": [
+            "The burning bush (v.2) is a miraculous sign that God is present without destruction, which is a unique sign of divine encounter",
+            "The phrase 'I AM WHO I AM' (v.14) is not a title but a statement of God's self-existence and eternal nature",
+            "The promise of a land flowing with milk and honey (v.16) is a future promise that Israel will be free and have a new land, which is both physical and spiritual"
+          ],
+          "focusVerse": "3:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you respond to God's self-revelation as the burning bush (v.2) in your current situation?",
+          "tips": [
+            "When you feel overwhelmed, remember that God is present and not consuming you (v.2)",
+            "Practice declaring God's name 'I AM WHO I AM' (v.14) as a reminder of His eternal nature",
+            "Identify one area where God is calling you to be a deliverer and take a small step this week"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about God's self-revelation as the burning bush and His promise to deliver.",
+          "tips": [
+            "Thank God that He sees your affliction and is not consumed by your struggles",
+            "Ask for the courage to be the instrument of His deliverance in your current situation",
+            "Pray that you will know God's name 'I AM WHO I AM' in the midst of trials"
+          ],
+          "focusVerse": "3:1-15"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 4,
+      "chapterTitle": "Signs for Moses",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 4:1-31 aloud, paying attention to Moses' objections in verses 8-12 and the signs described in verses 3-9",
+          "tips": [
+            "Note the repetition of 'I am not able' (v. 10) and Moses' concern about his speech (v. 10)",
+            "Listen for the tension in the dialogue between God and Moses in verses 10-12",
+            "Pay attention to the specific signs: staff to serpent (v. 3), hand healing (v. 6), water to blood (v. 7)"
+          ],
+          "focusVerse": "4:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Moses and God), WHAT (God gives signs and appoints Aaron), WHERE (in Egypt), and WHY (to convince Pharaoh to release the Israelites)",
+          "tips": [
+            "Include Moses' initial reluctance and the three signs",
+            "Note that God appoints Aaron as the spokesman because Moses lacks confidence in speech",
+            "Mention the incident with Zipporah and the uncircumcised son on the way back to Egypt"
+          ],
+          "focusVerse": "4:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the staff turning into a serpent (v. 3), the hand healing (v. 6), or the confrontation with Zipporah (v. 22-23)?",
+          "tips": [
+            "The staff becoming a serpent is a powerful sign that shows God's authority and the power of His word",
+            "Zipporah's quick action to circumcise her son shows the importance of covenant obedience in a moment of crisis",
+            "The hand healing is a sign that God can heal the leprous condition, which was a sign of spiritual uncleanness"
+          ],
+          "focusVerse": "4:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was God trying to communicate to Moses (and the Israelites) through this passage about the signs and the appointment of Aaron?",
+          "tips": [
+            "God is showing that He is the ultimate authority and that He can work miracles to prove Moses' message",
+            "The signs are meant to authenticate Moses as God's messenger and to overcome the objections of the Israelites",
+            "The partnership with Aaron highlights the importance of having a spokesperson for the mission"
+          ],
+          "focusVerse": "4:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The three signs, why God appoints Aaron, or the significance of the uncircumcised son?",
+          "tips": [
+            "The staff turning into a serpent is a sign that is both a physical miracle and a foreshadowing of the bronze serpent in Numbers and the cross",
+            "In the context of ancient Egypt, the leprous hand being healed was a sign of God's power over disease and spiritual impurity",
+            "The uncircumcision of the son was a serious issue in the covenant, as it was a sign of the Abrahamic covenant"
+          ],
+          "focusVerse": "4:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of signs and wonders to your life? Consider the three signs in Exodus 4 and how they were used to overcome objections.",
+          "tips": [
+            "When you face objections to your faith or mission, ask God for signs that can authenticate your message",
+            "Like Aaron, find a partner in mission who can speak on your behalf when you lack confidence",
+            "Practice the covenant obedience in small ways, like the quick action of Zipporah"
+          ],
+          "focusVerse": "4:1-31"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the signs that authenticate His messengers and ask for the courage to face objections.",
+          "tips": [
+            "Thank God for the signs that authenticate His messengers",
+            "Pray for courage to face objections and to be willing to perform the covenant rites",
+            "Ask God to help you find a partner in mission (like Aaron) when you lack confidence"
+          ],
+          "focusVerse": "4:1-31"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 5,
+      "chapterTitle": "Pharaoh Increases Oppression",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 5:1-21 aloud, focusing on the dialogue between Moses and Pharaoh and the increasing oppression.",
+          "tips": [
+            "Notice the repeated phrase 'Let my people go' (v.1, 2, 3)",
+            "Pay attention to Pharaoh's question 'Who is the LORD?' (v.2) and his increasing demands (v.5-10)"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize who is involved, what happens, where it occurs, and why Pharaoh increases the burden.",
+          "tips": [
+            "Include the demand for bricks without straw (v.5-6)",
+            "Note the beating of Hebrew foremen and their blame on Moses (v.7-10)",
+            "Moses' complaint to God about the oppression (v.22-23)"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider Pharaoh's question (v.2), the beating of foremen (v.7-10), or Moses' complaint (v.22)?",
+          "tips": [
+            "Pharaoh's question 'Who is the LORD?' (v.2) - the identity of God is the root issue",
+            "The Hebrew foremen being beaten (v.7-10) - the human cost of oppression",
+            "Moses' complaint 'Why have you done evil to this people?' (v.22) - the emotional depth of suffering"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God and the situation in Egypt?",
+          "tips": [
+            "God is the true God and the deliverer, while Pharaoh is the false god and oppressor",
+            "Deliverance comes after hardship and increased oppression",
+            "This shows the pattern of suffering before breakthrough in the Christian life"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The increasing oppression? The role of the foremen? The identity of the LORD?",
+          "tips": [
+            "Why does Pharaoh increase the burden? (cultural context: Pharaoh was trying to control the Israelites, but this shows his resistance to God's will)",
+            "The Hebrew foremen are beaten: they were the intermediaries, not the Israelites directly",
+            "The phrase 'the LORD' (v.2) - in Hebrew, this is a personal name of God, but Pharaoh doesn't know who He is"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Identify one area this week where you are facing increased pressure or opposition (like Pharaoh's burden) and pray for God's deliverance.",
+          "tips": [
+            "Think about a situation where you are being oppressed by a 'Pharaoh' (e.g., circumstances, people)",
+            "Pray for God to strengthen you to cry out for His deliverance",
+            "Practice 'crying out' to God in your struggles"
+          ],
+          "focusVerse": "5:22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for being the true God who will deliver us from oppression. Ask for courage to cry out when you face hardship.",
+          "tips": [
+            "Thank God that He is the true God who will deliver us from oppression",
+            "Pray for courage to cry out to God when you face hardship",
+            "Ask God to help you not harden your heart like Pharaoh"
+          ],
+          "focusVerse": "5:22"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 6,
+      "chapterTitle": "God Promises Deliverance",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 6 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 7,
+      "chapterTitle": "Moses Before Pharaoh; First Plagues",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 7 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 8,
+      "chapterTitle": "Plagues of Frogs, Gnats, and Flies",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 8:1-30 aloud, focusing on the progression of plagues and Pharaoh's responses.",
+          "tips": [
+            "Notice the repetition of Pharaoh's hardening heart in verses 15, 21, 29",
+            "Pay attention to the magicians' failure to replicate the gnats (v.17)",
+            "Highlight the phrase 'the finger of God' (v.19)"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Pharaoh, Moses, Egyptian magicians, Israelites) does WHAT (Pharaoh hardens his heart, Moses commands plagues) WHERE (Egypt) and WHY (to force Pharaoh to release Israel).",
+          "tips": [
+            "Include the frogs as the second plague (v.1-12)",
+            "Note the gnats as the third plague (v.13-17) where magicians fail",
+            "Mention the flies as the fourth plague (v.18-20) that spare Goshen"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the frogs (v.1-12), the magicians' failure with gnats (v.17), or the flies and Goshen's protection (v.18-20)?",
+          "tips": [
+            "The magicians' admission that 'this is the finger of God' (v.19) shows divine power beyond human control",
+            "The phrase 'the land of Goshen' being spared (v.20) highlights God's protection for His people",
+            "Pharaoh's repeated hardening of heart (v.15,21,29) illustrates the danger of false repentance"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's power and character through these plagues?",
+          "tips": [
+            "God's judgments are escalating and distinct from Egypt to show His authority",
+            "The protection of Goshen demonstrates God's faithfulness to His chosen people",
+            "The 'finger of God' (v.19) points to God's active, sovereign presence"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The progression of plagues, the meaning of 'finger of God', or the hardening of Pharaoh's heart?",
+          "tips": [
+            "In ancient Egypt, frogs were associated with impurity and disease, so God's use of frogs was a sign of judgment against Egypt's false gods",
+            "'Finger of God' is a Hebrew phrase (yad Adonai) meaning God's active, direct intervention, not a divine sign like in later times",
+            "Pharaoh's hardening heart (v.15,21,29) shows his refusal to acknowledge God's power despite visible plagues"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the distinction between God's protection and judgment to your life this week?",
+          "tips": [
+            "Identify areas where you are 'Goshen' (protected) and where you are 'Egypt' (under judgment) in your life",
+            "Pray for the strength to resist the hardening of your heart when facing trials",
+            "Ask God to reveal how He is protecting you in your current situation"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about God's protection for His people and the danger of hardening the heart.",
+          "tips": [
+            "Thank God for His faithfulness to protect His people (like Goshen)",
+            "Ask for the courage to avoid hardening your heart in the face of trials",
+            "Pray for Pharaoh's example of false repentance to be a warning against our own unbelief"
+          ],
+          "focusVerse": "8:1-30"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 9,
+      "chapterTitle": "Plagues on Livestock, Boils, and Hail",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 9:1-12 aloud, paying attention to the tension in Pharaoh's responses and the progression of the plagues.",
+          "tips": [
+            "Notice the repeated phrase 'Let my people go' (v.1, v.3)",
+            "Pay attention to Pharaoh's hardening heart (v.6, v.12)",
+            "The phrase 'the LORD said' (v.1, v.3) shows God's authority"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is affected, WHAT happens, WHERE it occurs, and WHY God sends these plagues.",
+          "tips": [
+            "Pharaoh's refusal to let Israel go leads to God's judgment on Egypt",
+            "The livestock plague (v.5) shows God's protection of Israelites",
+            "The hail plague (v.11) destroys crops and kills those outside"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out? Consider: Pharaoh's confession (v.12), the hail's destruction (v.11), or the magicians' inability to stand (v.9)?",
+          "tips": [
+            "Pharaoh's confession of sin ('I have sinned') shows temporary repentance but his hardening heart (v.12) reveals his sinfulness",
+            "The hail is described as 'the worst in Egypt's history' (v.11) - a vivid image of God's power",
+            "The magicians' inability to stand before Moses (v.9) shows the superiority of God's power over Egyptian magic"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's character and purpose through these plagues?",
+          "tips": [
+            "God's judgment on Egypt (the land of the gods) to demonstrate His sovereignty",
+            "The distinction between Israelites (protected) and Egyptians (judged) shows God's election",
+            "Pharaoh's hardening heart (v.12) illustrates how sin leads to further judgment"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The sequence of plagues, the meaning of 'boils', or why Ph's hardening heart?",
+          "tips": [
+            "The term 'boils' (v.8) refers to a severe skin disease that would be painful and contagious, showing God's direct judgment on Egypt",
+            "Pharaoh's hardening of heart (v.12) is not a sudden change but a progression of sin (from v.6 onward)",
+            "The hail (v.11) is described as the worst in Egypt's history - this emphasizes God's power over nature"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does God's protection of His people (like the livestock spared) challenge your view of God's judgment? What can you do this week to trust in His protection?",
+          "tips": [
+            "When faced with trials, remember that God protects His people (like the Israelites) even when others suffer",
+            "Pray for the courage to trust God's protection in your current situation",
+            "Consider an area where you feel judged (like the plagues) and ask God to show you His protection"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about God's protection and Pharaoh's hardening heart. Ask for the courage to repent and trust in God's provision.",
+          "tips": [
+            "Thank God that He protects His people from the plagues of the world",
+            "Pray for the strength to repent when you harden your heart",
+            "Ask God to help you trust in His provision when you face trials"
+          ],
+          "focusVerse": "9:1-12"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 10,
+      "chapterTitle": "Plagues of Locusts and Darkness",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 10:1-29 aloud, focusing on the progression from the locust plague (vv.1-10) to the darkness plague (vv.21-29).",
+          "tips": [
+            "Notice the repetition of 'Pharaoh' and the phrase 'hardened his heart' in verses 1, 9, and 21",
+            "Pay attention to the emotional shift from Pharaoh's initial reluctance (v.1-5) to his final refusal (v.24-29)",
+            "Listen for the contrast in language: 'darkness' (v.22) vs. 'light' (v.23)"
+          ],
+          "focusVerse": "exodus:10:1-29"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is affected, WHAT God does, WHERE it happens, and WHY God is acting in this chapter.",
+          "tips": [
+            "Include Pharaoh's servants urging him to let Israel go (v.11)",
+            "Note the locusts devouring what the hail left (v.10)",
+            "Highlight the three days of darkness (v.22-23) and Pharaoh's offer to let Israel go without livestock (v.24-25)"
+          ],
+          "focusVerse": "exodus:10:1-29"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Which part stood out most? Consider: the locusts devouring the land (v.1-10), the darkness (v.21-23), or Pharaoh's final demand (v.24-29)?",
+          "tips": [
+            "The locusts: 'They came and covered the land, and the locusts were as numerous as the sand of the sea' (v.10) - shows complete devastation",
+            "The darkness: 'The darkness was thick, and the people could not see where they were going' (v.23) - a stark contrast to the light of Israel",
+            "Pharaoh's offer: 'Let the people go and they will leave their livestock behind' (v.24) - but Moses refuses, showing the cost of freedom"
+          ],
+          "focusVerse": "exodus:10:1-29"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's power and purpose through these plagues?",
+          "tips": [
+            "God's signs are for future generations (v.1) - to show His power over Egypt",
+            "The plagues demonstrate God's sovereignty: even when Pharaoh hardens his heart (v.9), God continues His work",
+            "The contrast between light (Israel) and darkness (Egypt) pictures the spiritual reality of believers in Christ"
+          ],
+          "focusVerse": "exodus:10:1-29"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The hardening of Pharaoh's heart? The meaning of darkness? Why God chooses to use plagues?",
+          "tips": [
+            "Pharaoh hardening his heart (v.9) is not a divine choice but a response to God's power - it shows the consequences of rejecting God",
+            "The darkness (v.22-23) is not a physical absence of light but a spiritual condition: the Egyptians are in spiritual darkness while Israel has the light of God",
+            "The plagues are not random but a series of signs to convince Pharaoh and the Egyptians of God's power (v.1)"
+          ],
+          "focusVerse": "exodus:10:1-29"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of 'light versus darkness' to your current situation this week?",
+          "tips": [
+            "When you face a decision that seems dark (e.g., fear, confusion), remember that God's light is with you",
+            "Pray for the courage to stand in the light when others are in darkness, just as Israel did",
+            "Consider if you are 'Pharaoh' - holding on to your own way instead of trusting God's plan"
+          ],
+          "focusVerse": "exodus:10:23"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the light of Christ to shine in your life and for the strength to resist the darkness of fear and doubt.",
+          "tips": [
+            "Thank God for the light that is in you (Christ) while the world is in darkness",
+            "Ask for the courage to stand firm in faith when others are confused or fearful",
+            "Pray that Pharaoh's heart (your own heart) will not harden against God's leading"
+          ],
+          "focusVerse": "exodus:10:23"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 11,
+      "chapterTitle": "The Final Plague Announced",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 11 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 12,
+      "chapterTitle": "The Passover",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 12:1-49 aloud, paying attention to the specific instructions for the Passover meal in verses 1-14 and the blood on doorposts in verses 12-13.",
+          "tips": [
+            "Notice the repetition of 'this day' (v.1, 10, 11) emphasizing the importance of the day",
+            "Pay attention to the phrase 'the blood of the lamb' (v.12, 13) as the key sign",
+            "Notice the urgency in the instructions: 'you shall eat it' (v.14) and 'do not leave any' (v.15)"
+          ],
+          "focusVerse": "12:1-49"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is instructed, WHAT the Israelites must do, WHERE this happens (in Egypt), and WHY it is done (to be delivered from Egypt's judgment).",
+          "tips": [
+            "Include that the blood is placed on the doorposts to mark the house (v.12-13)",
+            "Note that the meal is eaten with unleavened bread and bitter herbs (v.8-10)",
+            "Describe the consequence: the death of the firstborn of Egypt (v.29-30)"
+          ],
+          "focusVerse": "12:1-49"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the blood on doorposts (v.12-13), the haste of the Israelites (v.11), or the instruction to eat the lamb with unleavened bread (v.8-10)?",
+          "tips": [
+            "The blood on the doorposts is a sign that God passes over the house (v.13) - it's a direct link to redemption",
+            "The haste of the Israelites (v.11) shows their readiness to leave Egypt immediately after the Passover",
+            "The instruction to eat the lamb with unleavened bread and bitter herbs (v.8-10) symbolizes their haste and the bitterness of slavery"
+          ],
+          "focusVerse": "12:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's plan for their deliverance through the Passover?",
+          "tips": [
+            "The Passover is a sign that God will protect His people from the judgment of the firstborn of Egypt",
+            "The blood of the lamb is the means of redemption from slavery",
+            "This event establishes the covenant between God and the Israelites (v.48)"
+          ],
+          "focusVerse": "12:1-49"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The requirement for the blood on doorposts, the timing of the lamb's slaughter, or the concept of the Passover as a type of Christ?",
+          "tips": [
+            "The blood on doorposts: This was a sign that the house was protected from the angel of death, but it required the Israelites to be in a specific location and follow instructions precisely",
+            "The timing: The lamb must be killed at twilight (v.12) and the meal eaten that same night, showing urgency",
+            "The Christ connection: The Passover lamb is a type of Christ (1 Cor 5:7) - the blood of Christ redeems from sin"
+          ],
+          "focusVerse": "12:1-49"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you be ready for God's deliverance in your life, like the Israelites were ready for the Passover?",
+          "tips": [
+            "Reflect on what you need to 'haste' toward (v.11) - perhaps a spiritual battle or time of testing",
+            "Consider how the blood of the lamb (v.12) represents God's provision - are you trusting Christ for redemption?",
+            "Practice being ready: Ensure you have the right spiritual 'unleavened bread' for God's deliverance"
+          ],
+          "focusVerse": "12:11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the Passover and ask for the same protection from the angel of death (the enemy) in your life.",
+          "tips": [
+            "Thank God for Christ's blood that protects us from final judgment",
+            "Pray for courage to be ready for God's deliverance",
+            "Ask God to help you apply the Passover: be quick to trust Him and not delay"
+          ],
+          "focusVerse": "12:13"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 13,
+      "chapterTitle": "Consecration of the Firstborn",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 13:1-19 aloud, paying attention to the emphasis on the firstborn and the pillar of cloud/fire in verses 17-19.",
+          "tips": [
+            "Notice the repeated phrase 'the firstborn of your sons' (v.12) and 'the firstborn of your livestock' (v.13) to emphasize the scope",
+            "Pay attention to the contrast between the Israelites' past in Egypt (v.11) and the present consecration (v.12-14)",
+            "The phrase 'This is to be a perpetual memorial' (v.16) is key"
+          ],
+          "focusVerse": "13:1-19"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites) does WHAT (consecrates firstborn and establishes the Feast of Unleavened Bread) WHERE (in the wilderness after leaving Egypt) and WHY (to remember God's deliverance and His ownership of firstborn).",
+          "tips": [
+            "Include the command to consecrate firstborn (sons and livestock) as belonging to God",
+            "Note the establishment of the Feast of Unleavened Bread as a perpetual memorial",
+            "Mention God's guidance through the wilderness (v.17-19) as a contrast to the short route to Canaan"
+          ],
+          "focusVerse": "13:1-19"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the consecration of firstborn (v.12-13), the Feast of Unleavened Bread (v.16), or God's guidance through the wilderness (v.17-19)?",
+          "tips": [
+            "The phrase 'the firstborn of your sons' (v.12) emphasizes that this is a communal responsibility",
+            "The pillar of cloud and fire (v.19) is a powerful image of God's presence leading the way",
+            "The command to teach children about the exodus (v.17) is a practical application that connects the past to the present"
+          ],
+          "focusVerse": "13:1-19"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's ownership of firstborn and His guidance through the wilderness?",
+          "tips": [
+            "Moses is emphasizing that God is the ultimate owner of the firstborn (both human and animal) and that this consecration is a memorial of the exodus",
+            "The wilderness journey (v.17-19) shows that God is not leading them by the short route (which would have been a quick path to Canaan) but through a process of testing and formation",
+            "God's presence (pillar of cloud/fire) is the guarantee of His active guidance"
+          ],
+          "focusVerse": "13:1-19"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The consecration of firstborn (how it applies to the present), the Feast of Unleavened Bread as a memorial (why it's perpetual), or God's guidance through the wilderness (why not the short route)?",
+          "tips": [
+            "The concept of 'firstborn' in this context includes both human and animal, and it's a way to acknowledge God's ownership of the firstborn in the family (not just the firstborn son)",
+            "The Feast of Unleavened Bread is a memorial of the exodus (the time when they left Egypt with unleavened bread) and it's a perpetual memorial because the exodus is a foundational event for Israel",
+            "God's choice to lead through the wilderness (v.17) is not a sign of God being inefficient but a deliberate choice to form a people who are dependent on Him, rather than using a shortcut that would hav"
+          ],
+          "focusVerse": "13:1-19"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the consecration of firstborn (v.12-13) apply to your life this week? Consider what you are 'consecrating' to God.",
+          "tips": [
+            "Think about a specific area in your life where you are holding something (like time, talents, or relationships) that you can consecrate to God as a gift",
+            "The셑 command to teach children about the exodus (v.17) is a practical application: share the story of God's deliverance with your family or community this week",
+            "The pillar of cloud/fire (v.19) reminds us that God is with us in our challenges – practice stepping into a situation where you trust His guidance"
+          ],
+          "focusVerse": "13:12-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the consecration of firstborn and His guidance through the wilderness.",
+          "tips": [
+            "Thank God for the consecration of firstborn and the reminder that He owns the firstborn (both human and animal)",
+            "Ask God to help you to be guided by His presence (pillar of cloud/fire) in the challenges of this week, rather than by your own desires",
+            "Pray for the courage to teach others about God's deliverance (as in v.17) and to consecrate something in your life to Him"
+          ],
+          "focusVerse": "13:1-19"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 14,
+      "chapterTitle": "Crossing the Red Sea",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 14:1-31 aloud, paying attention to the emotional shift from fear to confidence and the repetition of 'the LORD'.",
+          "tips": [
+            "Notice the repetition of 'the LORD' (v.14, 15, 18, 20, 21, 24, 25, 27, 28, 30)",
+            "Pay attention to the emotional shift: fear (v.10) to confidence (v.14) to confusion of the Egyptians (v.22)",
+            "Notice the phrase 'the LORD will fight for you' (v.15) as a key promise"
+          ],
+          "focusVerse": "14:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites and Pharaoh's army) does WHAT (God leads Israel to cross the Red Sea while Pharaoh pursues), WHERE (the Red Sea), and WHY (to deliver Israel from Egyptian slavery and show God's power).",
+          "tips": [
+            "Include: Israel's cry for help (v.10), Moses' assurance (v.14-15), God parting the sea (v.15-20), crossing on dry ground (v.21-22), Egyptians' confusion (v.22-23), waters returning (v.23-24), Pharaoh'"
+          ],
+          "focusVerse": "14:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What moment in Exodus 14:1-31 best illustrates God's deliverance?",
+          "tips": [
+            "The dry path for Israel (v.21) shows God's immediate provision in crisis",
+            "The chaos of the Egyptian army (v.22-23) illustrates God's power over the enemy",
+            "The waters returning (v.24) as a sign of God's judgment on Pharaoh's army (v.25-28) is a powerful visual"
+          ],
+          "focusVerse": "14:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this event?",
+          "tips": [
+            "This event shows God's active deliverance from slavery (Exodus 12:13) and His power to protect His people",
+            "Moses emphasizes that God is the one who fights for them (v.15), not the Israelites themselves",
+            "The crossing is a sign of the covenant (Exodus :14:19-20) and the beginning of their freedom"
+          ],
+          "focusVerse": "14:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of Exodus 14:1-31 are confusing?",
+          "tips": [
+            "The 'strong east wind' (v.15) is a specific divine action that parts the sea, not a natural occurrence",
+            "The sea parting is a miraculous event that occurs at the moment of crisis (v.15-20) and is not repeatable",
+            "The Egyptians' confusion (v.22) is not just physical but also a spiritual confusion, showing that God's judgment is both physical and spiritual"
+          ],
+          "focusVerse": "14:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can the Red Sea crossing apply to your current situation? Consider: when you face a crisis that seems insurmountable, what does God's parting of the sea teach you?",
+          "tips": [
+            "In your current season of difficulty, ask God to part the 'sea' (the obstacle) for you",
+            "Remember that God fights for you (v.15) so you don't have to do the heavy lifting",
+            "Pray for the courage to cross the dry ground (v.21) in your current crisis"
+          ],
+          "focusVerse": "14:21"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about God's deliverance in the Red Sea. Thank Him for being your parting and your salvation.",
+          "tips": [
+            "Thank God for parting the way for you in your life (v.21)",
+            "Pray for the strength to cross the dry ground (v.21) in your current crisis",
+            "Ask God to use the Red Sea event as a reminder that He is the one who fights for you (v.15)"
+          ],
+          "focusVerse": "14:30"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 15,
+      "chapterTitle": "The Song of Moses; Bitter Water Sweetened",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 15:1-27 aloud, paying attention to the triumphant tone of the song and the contrast in the water event.",
+          "tips": [
+            "Notice the phrase 'The LORD is my strength and my song' (v.2) repeated in the song",
+            "Pay attention to the contrast between the bitter water (v.22) and the sweet water (v.23)",
+            "Listen for the joyful dancing of Miriam and the women (v.20-21)"
+          ],
+          "focusVerse": "15:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites and Moses) does WHAT (sings a song of victory and tests the water), WHERE (the wilderness after the Exodus), and WHY (to celebrate God's deliverance and provision).",
+          "tips": [
+            "Include the song of Moses (v.1-19) as a response to God's victory over Egypt",
+            "Note the water event at Marah (v.22-23) where God makes the water sweet",
+            "Mention the provision at Elim (v.24-27) with twelve springs and seventy palm trees"
+          ],
+          "focusVerse": "15:1-27"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the song (v.1-19), Miriam's leadership (v.20-21), or the water event (v.22-27)?",
+          "tips": [
+            "The declaration 'The LORD is my strength and my song; He has become my salvation' (v.2) - a powerful statement of God's role in salvation",
+            "Miriam's dancing with the women (v.20-21) - a communal celebration of God's victory",
+            "The turning of bitter water to sweet (v.23-25) - a tangible sign of God's provision and healing"
+          ],
+          "focusVerse": "15:1-27"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage?",
+          "tips": [
+            "To affirm God as the deliverer and provider in the wilderness",
+            "To show that God's victory is not only in battle but also in daily provision and healing",
+            "To establish the song as a memorial of God's faithfulness for future generations"
+          ],
+          "focusVerse": "15:1-27"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The song's meaning? Why God tests the water? The significance of Elim?",
+          "tips": [
+            "The song (v.1-19) is a complex poetic form that may be hard to interpret without context",
+            "The water at Marah (bitter) symbolizes affliction or sin, and God's intervention shows His provision",
+            "The twelve springs and seventy palm trees at Elim (v.27) represent God's abundant provision and healing"
+          ],
+          "focusVerse": "15:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of God's provision and healing. What situation requires you to trust God's provision this week?",
+          "tips": [
+            "Consider a time when you've been in a situation of hardship (like bitter water) and God turned it to sweetness",
+            "Practice gratitude by listing three things God has provided for you this week",
+            "Ask God to turn your current 'bitter water' into sweet provision"
+          ],
+          "focusVerse": "15:1-27"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His victory and provision. Ask for courage to trust Him in your current difficulties.",
+          "tips": [
+            "Thank God for turning your bitter circumstances into sweet provision",
+            "Pray for the strength to trust God's provision when you are in the wilderness",
+            "Ask God to help you remember His victory over Egypt and His provision in the wilderness"
+          ],
+          "focusVerse": "15:1-27"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 16,
+      "chapterTitle": "Manna and Quail",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 16:1-20 aloud, focusing on the Israelites' complaint and the promise of manna in verses 1-4.",
+          "tips": [
+            "Notice the repetition of 'we have no food' in verses 1-2",
+            "Pay attention to the phrase 'the Lord will provide' (v.4) and the specific timing of the manna (daily)",
+            "Listen for the emotional shift from complaint to trust in God's provision"
+          ],
+          "focusVerse": "16:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites) is tested, WHAT (God provides manna and quail), WHERE (wilderness), WHEN (after the Exodus), and WHY (to test obedience and ensure they don't return to Egypt).",
+          "tips": [
+            "Include the 40-year duration of manna consumption",
+            "Note that the Israelites were to gather manna each day and rest on the seventh",
+            "Describe the consequence of disobedience (spoiled manna)"
+          ],
+          "focusVerse": "16:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the Israelites' complaint (v.1-2), the promise of manna (v.4), the double portion on the sixth day (v.19), or the consequence of gathering on the seventh day (v.20).",
+          "tips": [
+            "The double portion on the sixth day (v.19) shows God's provision for rest and the importance of Sabbath",
+            "The phrase 'if they gathered on the seventh day, it was spoiled' (v.20) illustrates the cost of disobedience",
+            "The omer (v.18) as a memorial for the day of manna is a tangible reminder of God's provision"
+          ],
+          "focusVerse": "16:1-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's provision and obedience through this passage?",
+          "tips": [
+            "God provides daily and sustains His people through the wilderness, but obedience is required (daily gathering, not storing)",
+            "The 40 years of manna test their faith and prevent them from forgetting God's provision",
+            "The Sabbath rest (seventh day) is a sign of God's provision and the need for rest"
+          ],
+          "focusVerse": "16:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The 40-year duration of manna, the double portion on the sixth day, or the omer as a memorial?",
+          "tips": [
+            "The 40 years of manna is a test of obedience and a time of wilderness wandering, not a physical food supply",
+            "The double portion on the sixth day was for Sabbath rest, so they didn't have to gather on the seventh (a day of rest)",
+            "The omer (a specific measure) was kept as a memorial to remind the people of God's provision in the wilderness"
+          ],
+          "focusVerse": "16:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply this passage this week? Focus on trusting God's daily provision and the importance of rest (Sabbath).",
+          "tips": [
+            "Identify one area where you might be hoarding (storing) resources instead of gathering (trusting) God's provision",
+            "Plan a time for rest (like a day of rest) this week to avoid the 'spoiled' situation",
+            "Keep a small measure (like a portion) as a memorial of God's provision"
+          ],
+          "focusVerse": "16:19"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about God's daily provision and the need for obedience in the wilderness of life.",
+          "tips": [
+            "Thank God for providing for you in the midst of your struggles",
+            "Ask for courage to trust His provision when it's hard",
+            "Pray for the ability to rest (Sabbath) and not to store up manna for the next day (i.e., anxiety)"
+          ],
+          "focusVerse": "16:19"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 17,
+      "chapterTitle": "Water from the Rock; Battle with Amalek",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 17:1-16 aloud, focusing on the emotional tension in verses 1-7 and the physical struggle in verses 14-16.",
+          "tips": [
+            "Note the repetition of 'water' in verses 1-2 (v.1: 'there was no water', v.2: 'they quarreled with Moses')",
+            "Pay attention to the phrase 'nearly ready to stone him' (v.4) which shows their anger",
+            "The command to strike the rock is in verse 8: 'strike the rock'"
+          ],
+          "focusVerse": "17:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites and Moses), WHAT (the Israelites' water crisis and God's command to strike the rock, followed by the battle with Amalek), WHERE (Rephidim), and WHY (God's provision of water and the need for intercession in battle).",
+          "tips": [
+            "Include the Israelites' near-stoning of Moses (v.4)",
+            "Note Moses striking the rock at Horeb (v.8-9) to get water",
+            "Moses' hands are upheld by Aaron and Hur during the battle with Amalek (v.11-13)"
+          ],
+          "focusVerse": "17:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the water crisis (v.1-7), the striking of the rock (v.8-9), or the battle with Amalek (v.14-16)?",
+          "tips": [
+            "The water crisis: 'the Israelites were thirsty and there was no water' (v.1) shows their desperation",
+            "The rock striking: 'Moses struck the rock and water flowed' (v.8) - a direct command from God",
+            "The battle: Moses' hands upheld by Aaron and Hur (v.11) shows corporate support in crisis"
+          ],
+          "focusVerse": "17:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's provision in trials and the importance of intercession?",
+          "tips": [
+            "God provides living water (like Christ) when we are in crisis",
+            "Intercession (Moses' hands) is crucial for victory in battle",
+            "The Israelites' testing of God (v.1-7) and God's response (v.8-9)"
+          ],
+          "focusVerse": "17:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The water crisis, the rock striking, or the battle with Amalek?",
+          "tips": [
+            "Why did God command Moses to strike the rock? (Note: In Exodus 17:7, the Israelites were already at Rephidim and the rock was already there)",
+            "The term 'Horeb' (v.8) is the same as Mount Sinai in some contexts, but here it's the place of the rock",
+            "The battle with Amalek: why did God vow perpetual war? (v.16) - because Amalek was a persistent enemy"
+          ],
+          "focusVerse": "17:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of corporate support in battle (v.14-16) - what can you do this week to support others in a difficult situation?",
+          "tips": [
+            "Identify one person who is struggling and offer practical help",
+            "Ask a friend to support you when you feel tired (like Aaron and Hur supporting Moses)",
+            "Pray for the strength to be a helper in others' battles"
+          ],
+          "focusVerse": "17:14-16"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing water in times of crisis and ask for the strength to intercede for others.",
+          "tips": [
+            "Thank God for Christ as the living water (1 Cor 10:4)",
+            "Pray for the courage to be a helper in others' battles",
+            "Ask God to strengthen your hands (intercession) when they tire"
+          ],
+          "focusVerse": "17:1-16"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 18,
+      "chapterTitle": "Jethro's Visit and Advice",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 18:1-27 aloud, focusing on the dialogue between Jethro and Moses in verses 18-20 and the description of Moses' judging in verses 1-10.",
+          "tips": [
+            "Note the phrase 'I have been alone' in verse 16 (Moses' burden)",
+            "Pay attention to Jethro's blessing of the LORD in verse 22",
+            "Notice the repetition of 'judges' in verses 21-22"
+          ],
+          "focusVerse": "18:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it takes place, and WHY it matters to the Israelites.",
+          "tips": [
+            "Include Jethro bringing Zipporah and Moses' sons (v.2)",
+            "Note Moses judging the people alone from morning to evening (v.1-10)",
+            "Describe Jethro's advice on delegating to capable men (v.19-20)"
+          ],
+          "focusVerse": "18:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jethro's recognition of God (v.22), the delegation system (v.21-22), or Moses' burden (v.16)?",
+          "tips": [
+            "Jethro's blessing of the LORD shows his testimony to God's works in the wilderness",
+            "The system of judges (thousands, hundreds, fifties, tens) is a sustainable model for leadership",
+            "Moses' admission of being overwhelmed ('I have been alone') reveals the need for shared leadership"
+          ],
+          "focusVerse": "18:16-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God and leadership through this passage?",
+          "tips": [
+            "God's work in the wilderness requires sustainable leadership that involves others",
+            "True leadership is not about isolation but about delegation and shared responsibility",
+            "Jethro's recognition of God as the true provider foreshadows the inclusion of Gentiles in God's people"
+          ],
+          "focusVerse": "18:1-27"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The system of judges? Why Jethro was in the wilderness? The role of Moses' sons?",
+          "tips": [
+            "The term 'delegates' (v.21) refers to assigning authority to capable men, not just passing tasks",
+            "Jethro's presence in the wilderness (v.1) shows he was not part of the Israelite community but a wise outsider",
+            "The system of judges (thousands, hundreds, fifties, tens) is a practical way to handle cases without Moses being overwhelmed"
+          ],
+          "focusVerse": "18:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you implement the delegation of authority (from this passage) in your current leadership role this week?",
+          "tips": [
+            "Identify one area where you are doing too much and delegate to a trusted team member",
+            "Practice listening to others' perspectives before making decisions",
+            "Reflect on how you can share leadership responsibilities without losing accountability"
+          ],
+          "focusVerse": "18:19-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the wisdom of Jethro's advice and ask for the courage to delegate in your leadership.",
+          "tips": [
+            "Thank God for the blessing of wise counsel from others",
+            "Pray for the strength to release control and trust others with authority",
+            "Ask God to help you see the need for shared leadership in your community"
+          ],
+          "focusVerse": "18:22"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 19,
+      "chapterTitle": "Israel at Sinai",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 19 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 20,
+      "chapterTitle": "The Ten Commandments",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 20:1-22 aloud, focusing on the commandments and the people's reaction",
+          "tips": [
+            "Notice the repetition of 'I am the LORD' (v.2)",
+            "Pay attention to the thunder and fire (v.18-19) as signs of God's presence",
+            "Note the people's fear and request for Moses to speak (v.21)"
+          ],
+          "focusVerse": "20:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God is speaking to, WHAT the commandments are, WHERE it happens, and WHY God gives them",
+          "tips": [
+            "Include the mountain of Sinai as the location",
+            "Mention the people's terror and Moses' role as mediator",
+            "Note that God is establishing the covenant law for the Israelites"
+          ],
+          "focusVerse": "20:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the command 'I am the LORD your God' (v.2), the people's reaction (v.21), or Moses' reassurance (v.23)",
+          "tips": [
+            "The phrase 'I am the LORD' establishes God's identity and demands absolute commitment",
+            "The people's terror shows the holiness of God and their need for a mediator",
+            "Moses' reassurance that God tests them to prevent sin reveals God's loving intent"
+          ],
+          "focusVerse": "20:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through the Ten Commandments?",
+          "tips": [
+            "God is the holy and sovereign God who requires moral obedience",
+            "The law is a reflection of God's character and covenant promises",
+            "The people need a mediator (Moses) because they cannot approach God directly"
+          ],
+          "focusVerse": "20:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The commandments themselves? The concept of God testing? The need for a mediator?",
+          "tips": [
+            "The command 'no other gods' (v.3) was a cultural challenge for the Israelites who lived in a polytheistic world",
+            "The Hebrew word for 'test' (nissah) means 'to prove' or 'refine' faith, not to tempt to sin",
+            "The role of Moses as mediator (v.22) is crucial because the people are too afraid to approach God directly"
+          ],
+          "focusVerse": "20:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Pray for God's help in understanding His law and the need for a mediator",
+          "tips": [
+            "Consider a situation where you need to trust God to provide a way through a difficult circumstance",
+            "Reflect on how God uses a mediator (like a trusted friend) to help you approach Him",
+            "Pray for courage to step into obedience as Moses did, knowing God is with you"
+          ],
+          "focusVerse": "20:22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's help in understanding His law and the need for a mediator",
+          "tips": [
+            "Thank God for the Ten Commandments that reveal His character",
+            "Ask for the courage to obey God's commands without fear",
+            "Pray for Christ to be the ultimate mediator between God and you"
+          ],
+          "focusVerse": "20:1-22"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 21,
+      "chapterTitle": "Laws About Servants and Violence",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 21:1-24 aloud, paying attention to the phrase 'eye for eye, tooth for tooth' in verse 24 and the law about servants in verses 1-6.",
+          "tips": [
+            "Notice the repetition of 'he that' in the laws (e.g., v.22)",
+            "Pay attention to the phrase 'eye for eye' (v.24) as a model of proportional justice",
+            "The phrase 'he that smote his father' (v.15) shows the severity of breaking family bonds"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (God) gives WHAT (laws) to the Israelites, WHERE (in the land of Canaan), and WHY (to establish justice and protect the vulnerable).",
+          "tips": [
+            "Include the law for Hebrew servants (release in the seventh year) in verses 1-6",
+            "Note the protection for female servants in verses 7-11",
+            "Mention the principle of proportional punishment (eye for eye) in verses 12-13"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the law about servants (v.1-6), the principle of proportional punishment (v.12-13), or the penalty for striking parents (v.15-16)?",
+          "tips": [
+            "The law requiring release of Hebrew servants after six years (v.2) shows God's care for the poor",
+            "The phrase 'eye for eye' (v.24) is a powerful example of proportional justice without vengeance",
+            "The prohibition against selling a Hebrew slave (v.26) emphasizes the value of human life"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's justice through these laws?",
+          "tips": [
+            "God's concern for the oppressed and vulnerable is central",
+            "These laws establish a society where justice is proportional and human life is precious",
+            "The laws point to a deeper truth: God's justice is rooted in love and mercy"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The distinction between murder and manslaughter, the cultural context of slavery, or the meaning of 'eye for eye'?",
+          "tips": [
+            "'Eye for eye' (v.24) is not literal vengeance but proportional punishment; it's a model for justice",
+            "The law of servants (v.1-6) might seem harsh to modern readers but was designed to prevent exploitation",
+            "The prohibition against selling a Hebrew slave (v.26) shows that God values the person, not just the slave"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the principle of proportional justice (v.24) in your relationships this week?",
+          "tips": [
+            "When someone harms you, consider the proportional response without revenge",
+            "Think about how you can protect the vulnerable in your community (e.g., family, neighbors)",
+            "Pray for the strength to be just without being vengeful"
+          ],
+          "focusVerse": "21:24"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the laws that protect the vulnerable and ask for the courage to be just.",
+          "tips": [
+            "Thank God for the laws that protect the poor and vulnerable",
+            "Ask for the courage to be just in your relationships",
+            "Pray for a community where the oppressed are protected"
+          ],
+          "focusVerse": "21:1-24"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 22,
+      "chapterTitle": "Laws About Property and Social Ethics",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 22:1-23 aloud, paying attention to the legal structure and the emotional tone of the laws for the vulnerable.",
+          "tips": [
+            "Notice the repeated phrase 'if a man' (v.1, v.3, v.4) to see the legal pattern",
+            "Pay attention to the phrase 'God will hear their cry' (v.22) which shows God's active care for the marginalized",
+            "Listen for the urgency in 'return the pledged garments before night' (v.26)"
+          ],
+          "focusVerse": "Exodus 22:1-23"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is affected, WHAT the laws address, WHERE they apply, and WHY they are important for the Israelites.",
+          "tips": [
+            "Include the three vulnerable groups: foreigners, widows, and orphans (v.22)",
+            "Note the command to lend without interest to the poor (v.25)",
+            "Mention the requirement to return pledged garments before night (v.26)"
+          ],
+          "focusVerse": "Exodus 22:1-23"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the promise of God hearing their cry (v.22), the urgency of returning pledged garments (v.26), or the prohibition against cursing rulers (v.27).",
+          "tips": [
+            "The phrase 'God will hear their cry' (v.22) is a powerful reminder that God is personally involved in the struggles of the marginalized",
+            "Returning pledged garments by night (v.26) shows the immediate care for the poor who might be without shelter",
+            "The command not to curse rulers (v.27) reflects respect for God's authority in the community"
+          ],
+          "focusVerse": "Exodus 22:22-27"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's care for the vulnerable through these laws?",
+          "tips": [
+            "Consider the context of the Israelites entering the Promised Land and the need for a just society",
+            "Think about how God's law reflects His heart for the marginalized, which is a key theme in the Old Testament",
+            "Note that the laws are not just about rules but about God's active protection for the vulnerable"
+          ],
+          "focusVerse": "Exodus 22:1-23"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The distinction between theft and damage, the meaning of pledged garments, and the prohibition against cursing rulers.",
+          "tips": [
+            "'Theft' (v.1) refers to taking property without permission, while 'liability for damage' (v.4) is about damage caused by an animal or object in ancient Near Eastern law",
+            "Pledged garments (v.26) are items that were pledged as security for a loan; the law requires returning them by night to prevent the poor from going without",
+            "The prohibition against cursing rulers (v.27) means not using curses to harm the leaders, which is a sign of respect for God's authority in the community"
+          ],
+          "focusVerse": "Exodus 22:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, take a concrete step to care for a vulnerable person (widow, orphan, or foreigner) as modeled in Exodus 22.",
+          "tips": [
+            "Identify one vulnerable person in your community and check on them this week",
+            "Remember the command to return pledged items by night: if you have a loan agreement, make sure to return it promptly",
+            "Pray for the courage to be a protector for the vulnerable in your daily life"
+          ],
+          "focusVerse": "Exodus 22:22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's protection over the vulnerable and for the courage to live out the law of care.",
+          "tips": [
+            "Thank God for the law that protects the vulnerable and for His heart for the marginalized",
+            "Ask for the strength to be a protector for widows, orphans, and foreigners in your community",
+            "Pray for the courage to speak up when someone is being mistreated or when rulers are unjust"
+          ],
+          "focusVerse": "Exodus 22:22"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 23,
+      "chapterTitle": "Laws About Justice and Sabbath",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 23 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 24,
+      "chapterTitle": "The Covenant Confirmed",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 24 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 25,
+      "chapterTitle": "Offerings for the Tabernacle; Ark and Table",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 25:1-40 aloud, paying attention to the detailed descriptions of the tabernacle and the ark.",
+          "tips": [
+            "Notice the repetition of 'according to all that I show you' (v.40) showing God's direct instruction",
+            "Emotional tone: Awe and reverence in the description of the tabernacle's construction",
+            "Repeated phrase: 'Make me a tabernacle' (v.1) and 'the ark of the covenant' (v.10) emphasize God's dwelling"
+          ],
+          "focusVerse": "25:1-40"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is instructed, WHAT they are to build, WHERE it will be used, and WHY God requires these specific offerings.",
+          "tips": [
+            "Moses receives instructions from God for building the tabernacle",
+            "Key elements: gold, silver, bronze, fabrics, skins, wood, oil, spices, and precious stones",
+            "The purpose is to create a dwelling place for God's presence"
+          ],
+          "focusVerse": "25:1-40"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the detailed instructions for the ark (v.10-22), the table for the bread of presence (v.23-30), or the anointing of the tabernacle (v.30-40)?",
+          "tips": [
+            "The mercy seat with cherubim (v.18-22) symbolizes God's meeting place and atonement",
+            "The bread of presence (v.23-29) shows God's ongoing presence in the community",
+            "The anointing of the tabernacle (v.30-40) signifies God's acceptance of the people's offerings"
+          ],
+          "focusVerse": "25:10-40"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's dwelling and their relationship with Him through this passage?",
+          "tips": [
+            "God requires a holy space for His presence, reflecting the need for purification and dedication",
+            "The offerings show the Israelites' willingness to give of themselves to dwell with God",
+            "The ark as the meeting place foreshadows Christ as the true meeting place"
+          ],
+          "focusVerse": "25:1-40"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The specific measurements? The role of the mercy seat? Why the table for bread of presence?",
+          "tips": [
+            "The detailed measurements (v.1-9) might be confusing without understanding the context of the tabernacle's purpose",
+            "The mercy seat (v.18-22) is where God meets with Moses, but it's also the place of atonement - this dual role is complex",
+            "The bread of presence (v.23-29) is a regular offering that the priests eat, but it's also a sign of God's ongoing presence in the community"
+          ],
+          "focusVerse": "25:1-40"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of willing offerings to your life this week?",
+          "tips": [
+            "Identify one area where you are holding back from giving fully to God",
+            "Consider what 'precious stones' (v.33) you can offer to God this week",
+            "Pray for the courage to build a space for God's presence in your life"
+          ],
+          "focusVerse": "25:1-40"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the tabernacle as a place of meeting. Ask for the courage to build a dwelling place for His presence in your life.",
+          "tips": [
+            "Thank God for the ark as the meeting place of God and His people",
+            "Pray for the Holy Spirit to guide your offerings",
+            "Ask God to help you create a space in your life for His presence"
+          ],
+          "focusVerse": "25:1-40"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 26,
+      "chapterTitle": "The Tabernacle Structure",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 26:1-30 aloud, paying attention to the descriptions of the curtains and the veil.",
+          "tips": [
+            "Notice the repetition of 'curtains' (vv. 1-2) to emphasize the structure's precision",
+            "Pay attention to the use of 'acacia wood' (v. 15) for strength and 'gold' (v. 15-17) for holiness",
+            "The phrase 'separating the Holy Place from the Most Holy Place' (v. 33) is a critical distinction"
+          ],
+          "focusVerse": "26:1-30"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Moses) gives instructions, WHAT (for building the tabernacle), WHERE (in the wilderness camp), and WHY (to create a dwelling place for God among the Israelites).",
+          "tips": [
+            "Include the materials: ten curtains of fine linen with cherubim, eleven curtains of goats' hair, rams' skins, and goatskins",
+            "Note the two main sections: the outer court and the inner sanctuary (Most Holy Place)",
+            "Mention the veil as the divider between the Holy Place and Most Holy Place"
+          ],
+          "focusVerse": "26:1-30"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the veil (v.33), the gold-covered acacia wood (v.15-17), or the specific materials (vv.1-2).",
+          "tips": [
+            "The veil (v.33) is the most significant symbol of the barrier between the holy and the profane, and it will be torn by Christ",
+            "The gold-covered acacia wood (v.15-17) shows the fusion of divine strength and holiness",
+            "The meticulous description of the curtains (vv.1-2) reveals God's attention to detail in His plan"
+          ],
+          "focusVerse": "26:1-30"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage?",
+          "tips": [
+            "The tabernacle is a physical manifestation of God's presence among His people, showing His commitment to dwell with them",
+            "The structure reveals God's desire for a holy space that is both accessible and distinct from the common world",
+            "The veil indicates that God's presence requires a barrier of holiness, but also points to the future atonement"
+          ],
+          "focusVerse": "26:1-30"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'cherubim', the use of specific animals, or the purpose of the veil?",
+          "tips": [
+            "Cherubim in Exodus 26:1 are angelic beings that guard the entrance to the Most Holy Place, not the same as later temple cherubim",
+            "Rams' skins were used for covering because they were clean and less likely to cause defilement than goatskins",
+            "The veil (v.33) separates the Holy Place (for the priests) from the Most Holy Place (for God's presence), a distinction that was crucial for the Israelites"
+          ],
+          "focusVerse": "26:1-30"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you create a space in your life that is dedicated to God's presence, just as the tabernacle was designed to be a dwelling for God?",
+          "tips": [
+            "This week, set aside a quiet time to focus on God's presence, similar to the tabernacle",
+            "Consider what part of your life needs a 'veil' of separation from worldly distractions to focus on God",
+            "Pray that God will help you build a space where you can experience His presence as the tabernacle did"
+          ],
+          "focusVerse": "26:33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for dwelling among His people in the tabernacle. Ask for the courage to build a space for Him in your life.",
+          "tips": [
+            "Thank God for the tabernacle as a physical manifestation of His presence among His people",
+            "Ask for the strength to create a dedicated space for God in your daily life",
+            "Pray that the barrier (the veil) between you and God will be torn by the work of Christ"
+          ],
+          "focusVerse": "26:33"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 27,
+      "chapterTitle": "The Altar and Courtyard",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 27:1-19 aloud, paying attention to the detailed descriptions of the altar and courtyard.",
+          "tips": [
+            "Notice the repeated phrase 'bronze' (v.2, v.4) and the emphasis on the altar being made of acacia wood overlaid with bronze",
+            "Pay attention to the description of the horns at the corners (v.3) and the grating (v.4) which is a key detail for the altar's function",
+            "The courtyard is defined by linen hangings on bronze posts (v.5-6) - note the contrast between the temporary linen and the permanent bronze"
+          ],
+          "focusVerse": "27:1-19"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Moses) is giving instructions, WHAT (the construction of the altar of burnt offering and the courtyard), WHERE (in the tabernacle complex), and WHY (to provide a sacred space for sacrifices and the continual light).",
+          "tips": [
+            "Moses instructs the Israelites on building the bronze altar of burnt offering",
+            "The altar must be made of acacia wood overlaid with bronze, with horns at each corner, and a grating for the fire",
+            "The courtyard is to be enclosed by linen hangings on bronze posts, with an entrance screen facing east"
+          ],
+          "focusVerse": "27:1-19"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the horns of the altar (v.3), the grating (v.4), or the courtyard's linen hangings (v.5-6).",
+          "tips": [
+            "The horns of the altar (v.3) symbolize the connection between the earthly and the heavenly, showing that sacrifices must be offered with the fullness of life",
+            "The grating (v.4) is a metal grid that holds the fire without being consumed, showing that sacrifices must be done in a controlled and holy manner",
+            "The courtyard's linen hangings (v.5-6) are temporary but essential, emphasizing the need for a boundary between the holy and the profane in worship"
+          ],
+          "focusVerse": "27:1-19"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the importance of the altar and courtyard for their worship?",
+          "tips": [
+            "Moses established the physical structure that enables the Israelites to approach God through sacrificial offerings, highlighting that God requires a holy space for His presence",
+            "The altar and courtyard are foundational to the tabernacle's function, showing that God's dwelling place must have a designated area for sacrifice and a boundary for the holy",
+            "This passage foreshadows Christ as the ultimate altar (where sacrifices are made) and the courtyard as the space of the New Covenant"
+          ],
+          "focusVerse": "27:1-19"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The use of bronze for the altar? Why the courtyard is defined with linen hangings? How does the altar function without a fire?",
+          "tips": [
+            "Bronze was used for the altar to symbolize the enduring nature of the covenant and the holiness of the place (unlike wood which is perishable)",
+            "Linen hangings for the courtyard: linen was a temporary material that could be washed and reused, contrasting with the bronze posts which are permanent, indicating that the sacred space is temporary b",
+            "The altar's grating (v.4) is a metal grid that holds the fire without being consumed, showing that sacrifices must be done in a way that is controlled and not destructive"
+          ],
+          "focusVerse": "27:1-19"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you create a 'courtyard' of holiness in your life where you approach God through sacrifice and continual renewal?",
+          "tips": [
+            "Identify one area in your life where you need to set boundaries (like the courtyard) to protect your relationship with God from distractions",
+            "Pray for the grace to offer your life as a sacrifice (like the altar) for the benefit of others",
+            "Make a commitment to 'burn' your daily life with continual light (the oil) for God, meaning to live in a state of active devotion"
+          ],
+          "focusVerse": "27:1-19"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing a sacred space (the altar and courtyard) for your relationship with Him. Ask for the courage to approach Him through sacrifice.",
+          "tips": [
+            "Thank God for the altar of your life where you can offer your best to Him",
+            "Pray for the strength to create a courtyard of holiness in your home or workplace",
+            "Ask God to help you understand the continual light (the oil) as a symbol of Christ's presence in your life"
+          ],
+          "focusVerse": "27:1-19"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 28,
+      "chapterTitle": "The Priestly Garments",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 28 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 29,
+      "chapterTitle": "Consecration of the Priests",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 29:1-40 aloud, paying attention to the specific rituals in verses 1-18 and the blood application in verse 18.",
+          "tips": [
+            "Notice the repetition of 'consecrate' in verses 7, 10, 13, 20",
+            "Pay attention to the detail of blood being applied to the ear, thumb, and toe (v.18)",
+            "Note the progression from washing to anointing to sacrifices (vv. 1-18)"
+          ],
+          "focusVerse": "29:1-40"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Aaron and his sons) does WHAT (consecration rituals) WHERE (at the tabernacle), and WHY (to become holy for priestly service and for God to dwell among the Israelites).",
+          "tips": [
+            "Include the washing, clothing, anointing, and sacrifices (bull, ram, ram)",
+            "Note that the blood is applied to the ear, thumb, and toe",
+            "Mention the seven-day consecration period (v.30-31)"
+          ],
+          "focusVerse": "29:1-40"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the blood applied to the ear, thumb, and toe (v.18), the seven-day consecration (v.30-31), or God's promise to dwell (v.45).",
+          "tips": [
+            "The blood applied to the ear, thumb, and toe (v.18) symbolizes the covenant and the priest's connection to God's presence",
+            "The seven-day consecration (v.30-31) represents the full process of becoming holy",
+            "God's promise to dwell among the Israelites (v.45) is the ultimate purpose of the consecration"
+          ],
+          "focusVerse": "29:1-45"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the consecration of the priesthood and God's presence?",
+          "tips": [
+            "Moses was emphasizing that the priesthood must be set apart by specific rituals to be holy",
+            "This consecration ensures that God can dwell among the Israelites through the priests",
+            "The passage foreshadows the true priesthood of Christ who is both priest and sacrifice"
+          ],
+          "focusVerse": "29:45"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The blood application, the seven-day period, or the purpose of the sacrifices?",
+          "tips": [
+            "The blood being applied to the ear, thumb, and toe (v.18) may seem odd but it symbolizes the covenant and the priest's connection to God",
+            "The seven-day consecration (v.30-31) is a period of time for the priest to become fully holy",
+            "The distinction between the sin offering (bull), burnt offering (ram), and ordination offering (ram) is that the sin offering atones for the priest's sin, the burnt offering is for the priest's servic"
+          ],
+          "focusVerse": "29:1-40"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the blood applied to the priest (v.18) this week? Consider becoming set apart for God's service.",
+          "tips": [
+            "This week, dedicate seven days to becoming more holy through prayer and study",
+            "Think about how the blood of Christ (the ultimate sacrifice) sets us apart for God",
+            "Practice becoming a 'priest' in your life by serving others in Christ's name"
+          ],
+          "focusVerse": "29:18"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promise to dwell among His people and ask for the Holy Spirit to make us holy.",
+          "tips": [
+            "Thank God that He promises to dwell among His people (v.45)",
+            "Ask for the Holy Spirit to help you become holy like the priests",
+            "Pray for the courage to be set apart for God's service"
+          ],
+          "focusVerse": "29:45"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 30,
+      "chapterTitle": "Altar of Incense, Atonement Money, and Anointing Oil",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 30:1-38 aloud, paying attention to the specific measurements and formulas for the anointing oil (vv. 22-33) and the incense (vv. 1-10).",
+          "tips": [
+            "Notice the repetition of 'for the consecration' (v. 32)",
+            "The phrase 'this is the formula' appears in v. 32",
+            "The word 'holy' is used 4 times in this chapter (v. 1, 7, 10, 33)"
+          ],
+          "focusVerse": "30:1-38"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (God) commands WHAT (the construction of the altar of incense, collection of atonement money, and preparation of anointing oil) for the tabernacle, WHERE (in the tabernacle), and WHY (to maintain holiness and provide atonement for the people).",
+          "tips": [
+            "The half-shekel is collected for the tabernacle service (vv. 11-13)",
+            "The anointing oil is used for consecrating the priests (vv. 22-33)",
+            "The incense burns continually before the veil (vv. 1-10)"
+          ],
+          "focusVerse": "30:1-38"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the half-shekel (vv. 11-13), the anointing oil formula (vv. 22-33), or the incense (vv. 1-10)?",
+          "tips": [
+            "The half-shekel is a universal payment that shows the Israelites' equality before God (vv. 11-13)",
+            "The anointing oil formula is so specific that it's a sign of God's holiness and the need for precise obedience (vv. 22-33)",
+            "The incense burning continually represents the ongoing nature of prayer (vv. 1-10)"
+          ],
+          "focusVerse": "30:1-38"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the necessity of holiness and atonement through this passage?",
+          "tips": [
+            "The Israelites must be equal in their contribution to the tabernacle service (the half-shekel)",
+            "The anointing oil and incense are sacred and must not be used for anything else (vv. 33)",
+            "This passage shows that God requires a specific, holy worship that is not self-initiated"
+          ],
+          "focusVerse": "30:1-38"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The half-shekel, the anointing oil formula, or the penalty for misuse?",
+          "tips": [
+            "The half-shekel: Why is it a fixed amount? It's a ransom for the soul, equal for all (vv. 11-13)",
+            "The anointing oil formula: It's a specific mixture of spices that must be made exactly as described (vv. 22-33)",
+            "The penalty: If anyone uses it for anything else, they shall die (v. 33)"
+          ],
+          "focusVerse": "30:1-38"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the principle of the half-shekel (equal contribution) to your life this week?",
+          "tips": [
+            "Consider an area where you might be holding back from contributing equally to the church or community",
+            "Think about the importance of regular, consistent giving (like the incense burning continually)"
+          ],
+          "focusVerse": "30:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the need for holiness in your worship and the importance of atonement.",
+          "tips": [
+            "Thank God for the atonement money that covers the whole community",
+            "Pray for the Holy Spirit to guide you in the use of your spiritual gifts (like the anointing oil)",
+            "Ask God to help you avoid using sacred things for the wrong purpose"
+          ],
+          "focusVerse": "30:1-38"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 31,
+      "chapterTitle": "Bezalel and Sabbath Command",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 31 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 32,
+      "chapterTitle": "The Golden Calf",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 32:1-35 aloud, paying attention to the people's declaration 'These are your gods who brought you out of Egypt' (v.8) and Moses' anger when he breaks the tablets (v.20).",
+          "tips": [
+            "Notice the people's declaration: 'These are your gods who brought you out of Egypt' (v.8) shows their idolatrous thinking",
+            "Pay attention to Moses' emotional response when he breaks the tablets (v.20) - a sign of his deep love and anger at the people's sin",
+            "The Levites' execution of 3,000 idolaters (v.28) is a stark consequence of idolatry"
+          ],
+          "focusVerse": "32:1-35"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites), WHAT (the rebellion by demanding a golden calf and worshiping it), WHERE (Mount Sinai), and WHY (the people's idolatry after Moses' absence).",
+          "tips": [
+            "Mention the people's declaration: 'These are your gods who brought you out of Egypt' (v.8)",
+            "Note Moses' intercession and God's relenting (v.20)"
+          ],
+          "focusVerse": "32:1-35"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What is the most significant moment or insight from this passage?",
+          "tips": [
+            "The people's declaration: 'These are your gods who brought you out of Egypt' (v.8) reveals their idolatry",
+            "Moses' breaking of the tablets (v.20) shows his emotional response to the people's sin",
+            "The Levites executing 3,000 idolaters (v.28) demonstrates the consequences of idolatry"
+          ],
+          "focusVerse": "32:8-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this event of idolatry?",
+          "tips": [
+            "The people's idolatry breaks the covenant but God's mercy is available through intercession",
+            "This shows the danger of turning away from God and the importance of maintaining covenant faith",
+            "Moses' intercession points to Christ's greater intercession for us"
+          ],
+          "focusVerse": "32:20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this passage are challenging to understand?",
+          "tips": [
+            "'Corrupted themselves' (v.20) means the people have completely turned away from God to worship false gods",
+            "The people's declaration: 'These are your gods who brought you out of Egypt' (v.8) shows their idolatrous thinking about God's role",
+            "Moses breaking the tablets (v.20) is a sign of his deep emotional response to sin, not a rejection of God"
+          ],
+          "focusVerse": "32:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply this passage to your life today?",
+          "tips": [
+            "Think about a situation where you need to intercede for someone in sin",
+            "Practice rising early in prayer for others as Moses did",
+            "Focus on avoiding idolatry by turning to God in faith"
+          ],
+          "focusVerse": "32:20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercy that He relented from destroying the people through Moses' intercession. Ask for courage to be a mediator in difficult situations.",
+          "tips": [
+            "Thank God for His mercy that He did not destroy the Israelites through Moses' intercession",
+            "Pray for the strength to be a mediator when others are in sin",
+            "Ask God to help us avoid idolatry by turning to Him in faith"
+          ],
+          "focusVerse": "32:20"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 33,
+      "chapterTitle": "Moses Seeks God's Presence",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 33:1-34 aloud, focusing on Moses' plea for God's presence and the promise of God's glory.",
+          "tips": [
+            "Notice the repeated phrase 'I will not go among them' (v.14) expressing the danger of God's presence",
+            "Pay attention to Moses' words: 'I pray' (v.13) and 'the LORD will show me the goodness of His presence' (v.20)",
+            "Listen for the emotional tone of the people mourning (v.15) and the hope in God's response"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Moses and the Israelites) is involved, WHAT (God's promise to not be among them and Moses' intercession), WHERE (the camp and the tent of meeting), and WHY (to avoid destruction and to have God's presence with the nation).",
+          "tips": [
+            "Include the people mourning (v.15) and Moses pitching the tent of meeting (v.8)",
+            "Note the pillar of cloud descending when Moses enters (v.10)",
+            "Describe Moses' plea for God's presence (v.13-14) and God's response (v.19-20)"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Moses' plea for God's presence (v.19), the promise of God's goodness (v.20), or the limitation of seeing God's face (v.20).",
+          "tips": [
+            "Moses' plea: 'I pray' (v.13) shows his deep need for God's presence despite the cost",
+            "The promise: 'the LORD will show me the goodness of His presence' (v.20) highlights God's character without the full glory",
+            "The limitation: 'I will not let my face be seen' (v.20) emphasizes the human need for a partial revelation"
+          ],
+          "focusVerse": "33:19-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage?",
+          "tips": [
+            "Moses emphasizes the necessity of God's presence for the nation's survival and identity",
+            "He shows that God's presence is both a blessing (goodness) and a danger (if not handled properly)",
+            "The passage foreshadows the tabernacle as the place where God's presence is safely contained"
+          ],
+          "focusVerse": "33:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Why does God say He will not go among them? What does 'the face of God' mean? How does the tabernacle relate to God's presence?",
+          "tips": [
+            "The phrase 'I will not go among them' (v.14) refers to the risk of God's presence destroying the nation if they are too close",
+            "'The face of God' (v.20) in Hebrew implies the visible manifestation of God's glory, but God says He will not let His face be seen (so not the full glory)",
+            "The tabernacle (v.35-36) is the physical structure where God's presence is safely contained and accessible to Moses"
+          ],
+          "focusVerse": "33:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Moses interceded for the people to have God's presence. What situation requires you to intercede for others this week?",
+          "tips": [
+            "Think of a time when you need to create a 'tent of meeting' (a space of prayer) for someone else",
+            "Consider how God's presence (goodness) can be a blessing without the destruction of being too close",
+            "Practice pitching your tent of meeting for a friend or family member this week"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His presence in your life, ask for courage to intercede for others, and pray for the ability to see His goodness without being overwhelmed.",
+          "tips": [
+            "Thank God for His presence in your life (as Moses experienced)",
+            "Pray for courage to intercede for others in your community",
+            "Ask God to reveal His goodness to you without the fear of destruction"
+          ],
+          "focusVerse": "33:1-20"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 34,
+      "chapterTitle": "New Tablets and God's Glory",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 34:1-28 aloud, paying attention to the phrase 'the LORD' (v.6) and the emotional weight of Moses' intercession (v.8-9).",
+          "tips": [
+            "Notice the repeated phrase 'the LORD' (v.6) emphasizes God's identity",
+            "Pay attention to the contrast between God's mercy and Moses' humility in v.8-9"
+          ],
+          "focusVerse": "34:1-28"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (God and Moses) is involved, WHAT God commands, WHERE it occurs, and WHY (to renew the covenant after the people's sin).",
+          "tips": [
+            "Include the three-day journey to the mountain (v.1-2)",
+            "Note the intercession for the stiff-necked people (v.8-9)",
+            "Describe the result: God renews the covenant and Moses' face shines (v.29-35)"
+          ],
+          "focusVerse": "34:1-28"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: God's declaration of His name (v.6-7), Moses' intercession (v.8-9), or the glory passing before him (v.5-6).",
+          "tips": [
+            "God's declaration: 'The LORD, a God merciful and gracious...' reveals His character more than any human relationship",
+            "Moses' intercession shows his deep love for the people despite their sin",
+            "The glory passing is a visual manifestation of God's holiness and the cost of sin"
+          ],
+          "focusVerse": "34:1-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage?",
+          "tips": [
+            "God's mercy and faithfulness are active even after the people's sin",
+            "The covenant is renewed because God's character (mercy) is more important than the people's actions",
+            "Moses' intercession shows that God values the people's relationship with Him"
+          ],
+          "focusVerse": "34:1-28"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The phrase 'slow to anger', the concept of God's glory passing, or the need for new tablets?",
+          "tips": [
+            "'Slow to anger' means God does not quickly become angry when people sin, but He still holds to His character of faithfulness",
+            "The glory passing is a visible manifestation of God's presence, distinct from the later 'theophany' (visible appearances) in the Old Testament",
+            "New tablets symbolize a fresh covenant that is more perfect than the old (the golden calf was a sign of the old covenant's breaking)"
+          ],
+          "focusVerse": "34:1-28"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice God's mercy and faithfulness in your life this week? Like Moses interceding for the people, what situation requires you to trust God's renewal?",
+          "tips": [
+            "When you feel distant from God, pray like Moses: 'I have sinned, please forgive us'",
+            "Practice intercessory prayer for others who are struggling with sin",
+            "Remember that God's mercy is active even when you feel abandoned"
+          ],
+          "focusVerse": "34:8-9"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercy and faithfulness, and ask for the courage to intercede for others.",
+          "tips": [
+            "Thank God for renewing the covenant with us despite our sin",
+            "Pray for courage to intercede for the stiff-necked people in your life",
+            "Ask God to transform your heart so that you reflect His glory"
+          ],
+          "focusVerse": "34:6-7"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 35,
+      "chapterTitle": "Sabbath and Tabernacle Offerings",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 35 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 36,
+      "chapterTitle": "Construction Begins",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 36:1-35 aloud, paying attention to the phrase 'according to the pattern' (v.8) and the abundance of offerings (v.3-6).",
+          "tips": [
+            "Notice the repeated phrase 'spirit of God' in verse 2",
+            "Pay attention to the emotional tone of the Israelites' offerings (abundant and more than enough)",
+            "The phrase 'exactly as God commanded' (v.8) shows precision and obedience"
+          ],
+          "focusVerse": "36:1-35"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is building the tabernacle, WHAT they are doing, WHERE it takes place (in the wilderness), and WHY (to create a meeting place for God and the people).",
+          "tips": [
+            "Include Bezalel and Oholiab as the main craftsmen",
+            "Note the Israelites bringing more offerings than needed (v.3-6)",
+            "The construction follows God's pattern (v.8-35)"
+          ],
+          "focusVerse": "36:1-35"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the abundance of offerings (v.3-6), the spirit of God working in the craftsmen (v.2), or the exact construction as commanded (v.8-35).",
+          "tips": [
+            "The abundance of offerings shows that God's grace has already overflowed without the need for more",
+            "The spirit of God working in Bezalel and Oholiab demonstrates that the work is divinely enabled",
+            "The exact construction as commanded shows faithfulness and precision in following God's design"
+          ],
+          "focusVerse": "36:1-35"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage of construction?",
+          "tips": [
+            "The tabernacle must be built exactly as God commanded to maintain the covenant and be a meeting place for God",
+            "The abundance of offerings shows that the people are already in a state of abundant grace",
+            "This passage emphasizes that the work is done by God's Spirit and not by human effort alone"
+          ],
+          "focusVerse": "36:1-35"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of 'spirit of God' in verse 2, the abundance of offerings in verses 3-6, and the meaning of 'building according to the pattern' in verse 8.",
+          "tips": [
+            "'Spirit of God' refers to God's active presence and power in the work of Bezalel and Oholiab (as in Exodus 31:1-5), not the Holy Spirit in the modern sense",
+            "The abundance of offerings shows the people's faith and gratitude, but it also indicates that they were already in a state of grace that exceeded what was needed",
+            "'Building according to the pattern' means following the specific design God revealed (Exodus 25:40) which points to Christ, the true tabernacle"
+          ],
+          "focusVerse": "36:1-35"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Reflect on the theme of 'more than enough' in your life. What area of your faith or service has already been abundantly provided by God? How can you practice faithful obedience in that area this week?",
+          "tips": [
+            "Consider an area where you are already giving more than enough (e.g., time, resources, prayers)",
+            "Practice being obedient to God's instructions without needing to add more",
+            "Ask God to guide you in building your life according to His pattern"
+          ],
+          "focusVerse": "36:3-6"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the abundance of His grace that overflows in Christ. Ask for the Spirit to guide you in building your life according to God's pattern.",
+          "tips": [
+            "Thank God for the abundance of His grace through Christ",
+            "Pray for the courage to be obedient in areas where you feel you need more",
+            "Ask God to help you build your life with faithfulness, even when it's small"
+          ],
+          "focusVerse": "36:1-35"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 37,
+      "chapterTitle": "The Ark, Table, Lampstand, and Incense Altar",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Exodus 37 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 38,
+      "chapterTitle": "The Bronze Altar, Basin, and Courtyard",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 38:1-30 aloud, paying attention to the construction details and the inventory.",
+          "tips": [
+            "Notice the repeated word 'bronze' (appears 15 times in the chapter)",
+            "Pay attention to the sequence: altar (v.1-7), basin (v.8), inventory (v.17-30)",
+            "The word 'cleansing' is not explicitly used but the basin's purpose is to cleanse"
+          ],
+          "focusVerse": "38:1-30"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize the purpose of the Tabernacle's construction as described in Exodus 38.",
+          "tips": [
+            "The Tabernacle is set up to be a place of worship and cleansing for the Israelites",
+            "The inventory shows the community's commitment to God's resources",
+            "The basin made from mirrors symbolizes the importance of self-reflection and worship"
+          ],
+          "focusVerse": "38:1-30"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the basin made from women's mirrors (v. 8), the altar's construction (v. 1-7), or the inventory (v. 17-30)?",
+          "tips": [
+            "The basin made from mirrors shows the active participation of women in the Tabernacle, which is a powerful symbol of God's inclusion of all believers",
+            "The detail of the altar being made of bronze emphasizes the accessibility of God's presence through the people",
+            "The inventory is a practical reminder of the resources given by God and the community"
+          ],
+          "focusVerse": "38:1-30"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage?",
+          "tips": [
+            "Moses is establishing that God's people can approach Him through the Tabernacle, which includes the altar for sacrifice and the basin for cleansing",
+            "The detailed inventory reflects the covenant relationship where the Israelites are accountable to God for their resources",
+            "The basin made from women's mirrors shows that God includes all people in the Tabern: not just men"
+          ],
+          "focusVerse": "38:1-30"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging to understand in Exodus 38?",
+          "tips": [
+            "The basin made from mirrors: In ancient cultures, mirrors were used for vanity, so this symbolizes a shift from self-centeredness to God-centeredness",
+            "The use of bronze for the altar: Bronze is a common material for the Israelites, but it emphasizes the people's contribution to God's work",
+            "The inventory: The detailed accounting of resources might seem excessive, but it shows the Israelites' faithfulness to God's covenant"
+          ],
+          "focusVerse": "38:1-30"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of the cleansing basin to your life this week?",
+          "tips": [
+            "Seek spiritual cleansing through God's Word and the blood of Christ",
+            "Reflect on how you can be a 'mirror' for Christ in your relationships",
+            "Practice accountability by being generous with your resources for God's purposes"
+          ],
+          "focusVerse": "38:8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the cleansing basin and the women's contribution.",
+          "tips": [
+            "Thank God for the basin that cleanses us through His blood",
+            "Ask for the courage to be a 'mirror' for Christ in your life",
+            "Pray for the community to be accountable to God and to give generously of their resources"
+          ],
+          "focusVerse": "38:8"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 39,
+      "chapterTitle": "The Priestly Garments Completed",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 39:1-38 aloud, paying attention to the repeated phrase 'as the LORD commanded' and the detailed descriptions of the garments.",
+          "tips": [
+            "Notice the phrase 'as the LORD commanded' appears multiple times (v. 2, 3, 5, 8, 11, 15, 20, 22, 25, 29, 31, 35, 37) for emphasis on obedience",
+            "Pay attention to the emotional tone of the craftsmen working with precision and the final blessing by Moses (v. 40)"
+          ],
+          "focusVerse": "39:1-38"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the craftsmen and Moses) does WHAT (makes the priestly garments) WHERE (in the tabernacle camp) and WHY (to fulfill God's command for the priests to serve).",
+          "tips": [
+            "Include the completion of the ephod, breastpiece, robe, tunics, turban, and gold plate",
+            "Moses receives the completed garments and blesses the workers (v. 40)"
+          ],
+          "focusVerse": "39:1-38"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the detailed craftsmanship (v. 3), the phrase 'as the LORD commanded' (v. 2, 3), or the blessing by Moses (v. 40)?",
+          "tips": [
+            "The meticulous detail in the breastpiece with twelve stones (v. 8) shows God's intention for the priests to represent the whole community",
+            "The phrase 'as the LORD commanded' appears 13 times in the chapter - emphasizing obedience as the foundation of work",
+            "Moses blessing the workers (v. 40) shows the completion of the work and God's approval"
+          ],
+          "focusVerse": "39:1-38"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's command and the priesthood through this passage?",
+          "tips": [
+            "God's commands must be followed precisely to maintain the sacredness of the priesthood",
+            "The completion of the garments symbolizes the Israelites' readiness to serve God in the tabernacle",
+            "Obedience to God's instructions is the basis for God's blessing and the proper functioning of the temple"
+          ],
+          "focusVerse": "39:1-38"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The specific measurements for the garments? Why the priestly garments are so detailed? The role of the gold plate inscribed 'Holy to the LORD'?",
+          "tips": [
+            "The 'ephod' (v. 1) is a complex garment with a breastplate and two pendants - the design symbolizes the priest's connection to the people and God",
+            "The phrase 'as the LORD commanded' (v. 2) emphasizes that the work is done by human hands but under divine direction - this is a key theme of obedience in the Law",
+            "The gold plate inscribed 'Holy to the LORD' (v. 39) shows the priesthood's role as a mediator between God and the people"
+          ],
+          "focusVerse": "39:1-38"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the principle of obedience in the details of your work this week?",
+          "tips": [
+            "Identify one task where you can follow instructions precisely (like the priestly garments) to ensure quality and God's approval",
+            "Think about how the completion of the work (v. 40) can be a sign of God's blessing on your efforts",
+            "Pray for the strength to do your work 'as the LORD commands' without compromise"
+          ],
+          "focusVerse": "39:1-38"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the importance of obedience and the blessing of faithful work.",
+          "tips": [
+            "Thank God for the gift of precise obedience in the priesthood",
+            "Ask for the courage to follow God's instructions in your daily tasks",
+            "Pray for the blessing of completion and God's approval on your work this week"
+          ],
+          "focusVerse": "39:1-38"
+        }
+      ]
+    },
+    {
+      "bookId": "exodus",
+      "bookName": "Exodus",
+      "chapter": 40,
+      "chapterTitle": "The Tabernacle Erected; God's Glory Fills It",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Exodus 40:1-35 aloud, focusing on the detailed instructions for the tabernacle construction and the anointing process.",
+          "tips": [
+            "Note the repeated phrase 'the cloud' in verses 34-35 which signifies God's presence",
+            "Pay attention to the anointing of the tabernacle (verses 20-21) and Aaron's sons",
+            "Notice the transition from construction to divine presence (verses 34-35)"
+          ],
+          "focusVerse": "40:1-35"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Moses) does WHAT (erects the tabernacle, anoints everything), WHERE (the Tent of Meeting), and WHY (to establish a place for God's presence with the Israelites).",
+          "tips": [
+            "Include the completion of the tabernacle construction and anointing by Moses",
+            "Note that the cloud covers the tent and the glory fills it, making Moses unable to enter",
+            "Mention that the cloud then guides the Israelites' journeys"
+          ],
+          "focusVerse": "40:1-35"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the cloud covering the tent (v.34), the glory filling the tabernacle (v.34-35), or the anointing of the tabernacle (v.20-21)?",
+          "tips": [
+            "The cloud covering the tent (v.34) shows God's immediate presence without human effort",
+            "The glory filling the tabernacle (v.35) is a powerful sign of God's dwelling with His people",
+            "The anointing (v.21) symbolizes the consecration of the tabernacle and its purpose"
+          ],
+          "focusVerse": "40:1-35"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's presence through the tabernacle?",
+          "tips": [
+            "This passage shows that God's presence is active and tangible in the midst of His people",
+            "The tabernacle becomes a place where the Israelites can encounter God, and the glory filling it signifies God's dwelling with them",
+            "The cloud as a guide for their journeys emphasizes God's leadership and provision"
+          ],
+          "focusVerse": "40:1-35"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this chapter are challenging? The construction process? The glory filling the tabernacle? The cloud's role as a guide?",
+          "tips": [
+            "The detailed construction process (verses 1-29) might be overwhelming for modern readers, but it shows the Israelites' commitment to God's design",
+            "The term 'glory' (Hebrew: kavod) refers to God's majestic presence, not a physical object but a spiritual reality",
+            "The cloud as a guide (v.35) is a sign that God is actively leading the Israelites, which might be difficult to grasp without the context of wilderness travel"
+          ],
+          "focusVerse": "40:1-35"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's glory filling your life this week? Consider a place where you need God's presence to be active.",
+          "tips": [
+            "Set aside a specific time each day for prayer and reflection, as the tabernacle was a dedicated space",
+            "Trust God's guidance in your decisions, just as the cloud guided the Israelites",
+            "Anoint your heart with the oil of the Holy Spirit (Romans 12:11) to be a living temple"
+          ],
+          "focusVerse": "40:1-35"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's presence to fill your life as the glory filled the tabernacle.",
+          "tips": [
+            "Thank God for His presence in your life through the Holy Spirit",
+            "Ask for the courage to live in the light of His glory",
+            "Pray for the cloud of God's presence to guide you in your daily decisions"
+          ],
+          "focusVerse": "40:1-35"
+        }
+      ]
+    }
+  ]
+}

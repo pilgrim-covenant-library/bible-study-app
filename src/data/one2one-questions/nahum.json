@@ -1,0 +1,247 @@
+{
+  "bookId": "nahum",
+  "bookName": "Nahum",
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "bookId": "nahum",
+      "bookName": "Nahum",
+      "chapter": 1,
+      "chapterTitle": "The LORD's Wrath Against Nineveh",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Nahum 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "nahum",
+      "bookName": "Nahum",
+      "chapter": 2,
+      "chapterTitle": "Nineveh's Fall Described",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Nahum 2:1-10 aloud, focusing on the vivid imagery of the city's destruction.",
+          "tips": [
+            "Notice the repetition of 'plunder' (v. 3, 5, 7) in the context of the city's destruction",
+            "Pay attention to the emotional tone: from warning (v. 1) to despair (v. 10)"
+          ],
+          "focusVerse": "Nahum 2:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God is judging, WHAT happens to Nineveh, WHERE the judgment occurs, and WHY God is acting.",
+          "tips": [
+            "The Assyrian empire (Nineveh) is destroyed",
+            "The city is plundered and left desolate",
+            "This judgment is a response to Nineveh's oppression of God's people"
+          ],
+          "focusVerse": "Nahum 2:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the chariots racing (v. 4), the river gates opening (v. 6), or the city being 'like a pool whose waters run away' (v. 10)?",
+          "tips": [
+            "The chariots racing through the streets (v. 4) shows the speed and chaos of the attack",
+            "The city becoming 'a pool whose waters run away' (v. 10) is a powerful metaphor for total desolation",
+            "The desperate plea 'Halt! Halt!' (v. 3) but no one turning back (v. 4) highlights the city's helplessness"
+          ],
+          "focusVerse": "Nahum 2:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Nahum trying to communicate to Judah through this passage?",
+          "tips": [
+            "Nahum is telling Judah that God will judge the proud and powerful (Nineveh) because they have oppressed God's people",
+            "This shows that God's kingdom is not of this world and the mighty will fall",
+            "Judah should take heart because God is restoring His people (Jacob and Israel)"
+          ],
+          "focusVerse": "Nahum 2:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The imagery of the city's destruction, the role of the 'scatterer', or the connection to Judah's current situation?",
+          "tips": [
+            "'Scatterer' (v. 1) refers to the forces that bring destruction, but in the context, it's God's judgment",
+            "Nineveh was the capital of the Assyrian empire, which had been a threat to Judah",
+            "The 'river gates' (v. 6) are a specific city gate in Nineveh that opens to allow the army in"
+          ],
+          "focusVerse": "Nahum 2:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's judgment on the proud to your life this week?",
+          "tips": [
+            "Reflect on times when you've been proud and how God's judgment might be coming",
+            "Pray for humility when you feel secure in your success",
+            "Share the lesson with someone who is arrogant"
+          ],
+          "focusVerse": "Nahum 2:1-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His judgment on the proud and ask for His protection for Judah.",
+          "tips": [
+            "Thank God for the truth that the proud will fall",
+            "Ask for courage to be humble in the face of adversity",
+            "Pray for the city of Nineveh to be desolate and for Judah to be restored"
+          ],
+          "focusVerse": "Nahum 2:1-10"
+        }
+      ]
+    },
+    {
+      "bookId": "nahum",
+      "bookName": "Nahum",
+      "chapter": 3,
+      "chapterTitle": "Woe to Nineveh",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Nahum 3:1-10 aloud, paying attention to the emotional tone of God's judgment and the repeated phrase 'woe' (vv. 1, 2).",
+          "tips": [
+            "Notice the repetition of 'woe' as a sign of severe judgment",
+            "Pay attention to the phrase 'deadly charms' (v. 3) which describes Nineveh's deceitful nature",
+            "The phrase 'no easing hurt' (v. 5) conveys the permanence of the wound"
+          ],
+          "focusVerse": "Nahum 3:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God is judging, WHAT He declares (the judgment on Nineveh), WHERE this judgment falls (the city of Nineveh), and WHY (because of its wickedness and deceit).",
+          "tips": [
+            "Include the comparison to Thebes (v. 9) which became an exile",
+            "Note that the Assyrian shepherds are asleep (v. 10) showing their lack of awareness of coming judgment",
+            "The city is described as a 'prostitute' (v. 3) who betrays nations with lies"
+          ],
+          "focusVerse": "Nahum 3:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the description of Nineveh as a 'bloody city' (v. 1), the 'deadly charms' (v. 3), or the 'wound that is grievous and no easing' (v. 5).",
+          "tips": [
+            "The phrase 'bloody city' (v. 1) evokes the violence and sin of Nineveh",
+            "The image of the 'deadly charms' (v. 3) shows how Nineveh uses deceit to attract nations",
+            "The description of the wound that has no healing (v. 5) is a powerful metaphor for the futility of Assyrian power"
+          ],
+          "focusVerse": "Nahum 3:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Nahum trying to communicate to Judah about God's judgment on Nineveh and the hope for those who are righteous?",
+          "tips": [
+            "Nahum warns Judah that Assyrian power will be destroyed, just as Thebes was exiled",
+            "The message is that God's judgment is just and will come to all who are wicked, but He offers healing to those who turn to Him",
+            "This passage shows that God's mercy is for the faithful, as seen in the Christ connection"
+          ],
+          "focusVerse": "Nahum 3:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The use of 'prostitute' for Nineveh, the comparison of Assyrian fortresses to fig trees, and the concept of 'no easing hurt'.",
+          "tips": [
+            "In ancient Near Eastern context, cities were sometimes described as 'prostitutes' for their deceitful alliances (vv. 3-4)",
+            "The fig tree metaphor (v. 10) means that the Assyrian fortresses are unstable and will fall quickly, just as figs that are ripe fall from the tree",
+            "'No easing hurt' (v. 5) means the wound is deep and will not heal naturally, but God's healing comes through Christ"
+          ],
+          "focusVerse": "Nahum 3:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of 'no easing hurt' to a situation where you feel grievous wounds that seem without healing this week?",
+          "tips": [
+            "Consider an area where you feel a deep spiritual wound that isn't healing (e.g., past hurt, sin, relationship issues)",
+            "Remember that Christ is the healer of grievous wounds (as per the Christ connection)",
+            "Pray for God to provide healing when you feel your wounds are without end"
+          ],
+          "focusVerse": "Nahum 3:1-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the theme of grievous wounds that require healing through Christ.",
+          "tips": [
+            "Thank God for being the healer of our deepest wounds",
+            "Ask for the courage to trust Christ when we feel our wounds are without healing",
+            "Pray that the Assyrian empire's destruction (like our own failures) is replaced by Christ's healing"
+          ],
+          "focusVerse": "Nahum 3:1-10"
+        }
+      ]
+    }
+  ]
+}

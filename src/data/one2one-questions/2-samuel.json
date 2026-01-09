@@ -1,0 +1,1926 @@
+{
+  "bookId": "2-samuel",
+  "bookName": "2 Samuel",
+  "totalChapters": 24,
+  "chapters": [
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 1,
+      "chapterTitle": "David Learns of Saul's Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 1:1-18 aloud, paying attention to the messenger's description of Saul's condition and the emotional response of David.",
+          "tips": [
+            "Notice the messenger's description: 'torn clothes and dust on his head' (v1)",
+            "Pay attention to David's response: 'tear their clothes, mourn, weep, and fast until evening' (v2-3)",
+            "Listen for the emotional weight in the lament: 'How the mighty have fallen!' (v16)"
+          ],
+          "focusVerse": "2 Samuel 1:1-18"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (David and the messenger), WHAT (learning of Saul's death), WHERE (Ziklag), and WHY (Saul was killed by an Amalekite).",
+          "tips": [
+            "Include the messenger's report that Saul was killed by an Amalekite (v1)",
+            "Note David's mourning for Saul and Jonathan (v2-3)",
+            "Describe the Amalekite's confession and David's execution of the murderer (v4-6)"
+          ],
+          "focusVerse": "2 Samuel 1:1-18"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the messenger's account (v1), David's mourning (v2-3), or the lament (v16-27).",
+          "tips": [
+            "The lament: 'How the mighty have fallen!' (v16) - a powerful contrast between the mighty (Saul) and the fall",
+            "David's love for Jonathan: 'your love was extraordinary, surpassing the love of women' (v17) - shows deep emotional connection",
+            "The messenger's account: 'Saul, wounded by archers and about to be overtaken' (v1) - highlights the tragedy"
+          ],
+          "focusVerse": "2 Samuel 1:1-18"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Samuel/Nathan/Gad) trying to communicate to Israel about the consequences of the death of God's anointed king?",
+          "tips": [
+            "The author shows that even the most powerful (Saul) can be overthrown by God's will",
+            "David's mourning for his enemy (Saul) demonstrates the cost of sin and the value of loyalty to God's anointed",
+            "This passage foreshadows Christ's death and the mourning that comes with the cross (as in Christ weeping over Jerusalem)"
+          ],
+          "focusVerse": "2 Samuel 1:1-18"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The Amalekite's confession, the execution of the murderer, or the depth of David's mourning for his enemy?",
+          "tips": [
+            "The Amalekite's confession: he killed Saul, who was the LORD's anointed (v4) - in the context, this was a grave sin because Saul was God's chosen leader",
+            "David's mourning for Saul (an enemy) - this was unusual because Saul had been David's enemy (v1-2)",
+            "The cultural context: mourning for a king was a public act, but David mourned for his enemy (Saul) and his close friend (Jonathan)"
+          ],
+          "focusVerse": "2 Samuel 1:1-18"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice deep mourning and love for those who have been wronged by circumstances, even if they are enemies, this week?",
+          "tips": [
+            "This week, when you face a loss or a situation where someone has been wronged, practice mourning (like David) without blame",
+            "Think about how you can show love for those who have been affected by circumstances, even if they are enemies",
+            "Practice 'fasting and weeping' (v2-3) for a brief time to express your grief"
+          ],
+          "focusVerse": "2 Samuel 1:1-18"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for the love that transcends enmity. Ask for courage to mourn the consequences of sin and to show love for those who have been wronged by God's will.",
+          "tips": [
+            "Thank God for the love that transcends enmity (like David's love for Saul)",
+            "Pray for courage to mourn the consequences of sin and to show love for those who have been wronged by God's will",
+            "Ask God to help you understand the depth of David's grief and to share it with others"
+          ],
+          "focusVerse": "2 Samuel 1:1-18"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 2,
+      "chapterTitle": "David King over Judah; War with Israel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 2 Samuel 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 3,
+      "chapterTitle": "Abner Defects; Joab Murders Him",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 3:1-39 aloud, focusing on the tension between Abner's loyalty to Saul and his conflict with Ishbosheth.",
+          "tips": [
+            "Notice the phrase 'I show loyalty to Saul's house' (v. 11) - Abner's declaration of loyalty",
+            "Pay attention to the emotional shift when Abner stabs Joab (v. 28-30) - the sudden violence after the peace",
+            "Listen for the repetition of 'David' (v. 10, 15, 21) as the central figure in the kingdom transition"
+          ],
+          "focusVerse": "2 Samuel 3:1-39"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize who, what, where, and why in the events of 2 Samuel 3, focusing on the key players and their actions.",
+          "tips": [
+            "Include Abner's vow to transfer the kingdom to David (v. 10)",
+            "Note the return of Michal from her weeping husband (v. 14-15)",
+            "Describe Joab's revenge for Asahel and the murder of Abner (v. 28-30)"
+          ],
+          "focusVerse": "2 Samuel 3:1-39"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Abner's vow to transfer the kingdom (v. 10), the return of Michal (v. 14-15), or Joab's murder of Abner (v. 28-30)?",
+          "tips": [
+            "Abner's declaration: 'I will bring the kingdom to David as the LORD swore' (v. 10) - shows his commitment to God's promise",
+            "The emotional weight of Michal being taken from her weeping husband (v. 15) - David's sacrifice for his wife",
+            "The shocking violence of Joab's murder at the gate (v. 28-30) - the immediate revenge that breaks the peace"
+          ],
+          "focusVerse": "2 Samuel 3:1-39"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Samuel/Nathan/Gad) trying to communicate about the cost of loyalty and the pursuit of peace to the Israelites?",
+          "tips": [
+            "The passage shows that true loyalty to God's kingdom requires sacrifice (like David's purchase of Michal with 100 foreskins)",
+            "The contrast between Abner's peaceful covenant and Joab's treachery highlights the danger of blood revenge",
+            "This event foreshadows Christ's ultimate sacrifice where peace is made without treachery"
+          ],
+          "focusVerse": "2 Samuel 3:1-39"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging to understand in this chapter? Consider cultural context, terminology, or theological concepts.",
+          "tips": [
+            "The term 'concubine' (v. 11) - in ancient Israel, concubines were secondary wives, but here Rizpah is specifically Saul's concubine",
+            "The blood revenge (v. 28-30) - in the context of the time, revenge was common but Abner's murder was done without the king's authority, making it treacherous",
+            "The phrase 'David's house' (v. 10) - the author uses this to mean David's lineage and rule, not just the person"
+          ],
+          "focusVerse": "2 Samuel 3:1-39"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you avoid the treachery of Joab and seek peace in your relationships this week, as modeled by David's leadership?",
+          "tips": [
+            "Reflect on a situation where you have a 'Michal' (someone precious) that needs your care",
+            "Consider how you can forgive without revenge, like David's public mourning for Abner",
+            "Pray for the strength to choose peace over blood revenge, as Christ did"
+          ],
+          "focusVerse": "2 Samuel 3:1-39"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the peace that David sought and the avoidance of treachery in your life.",
+          "tips": [
+            "Thank God for the peace David made with Abner before the murder",
+            "Ask for courage to forgive like David did for Joab",
+            "Pray that you will not fall into the trap of blood revenge as Joab did"
+          ],
+          "focusVerse": "2 Samuel 3:1-39"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 4,
+      "chapterTitle": "Ishbosheth Murdered",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 4:1-18 aloud, focusing on the emotional shift from Ishbosheth's despair to the assassins' actions and David's decisive response.",
+          "tips": [
+            "Notice the phrase 'when he was lying down' (v.1) shows vulnerability",
+            "Pay attention to the contrast between 'midday heat' (v.11) and the swift execution",
+            "The phrase 'how much more' (v.16) reveals David's moral outrage"
+          ],
+          "focusVerse": "4:1-18"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Ishbosheth, Rechab, Baanah, David) does WHAT (assassination of Ishbosheth and David's response), WHERE (Ishbosheth's house, Hebron), and WHY (because the assassins killed a righteous man in his own house).",
+          "tips": [
+            "Include that the assassins traveled all night to David at Hebron (v.14)",
+            "Note that David orders the execution of the assassins (v.17)",
+            "Mention that Ishbosheth's head is buried in Abner's tomb (v.18)"
+          ],
+          "focusVerse": "4:1-18"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stands out most? Consider: David's words about 'wicked men killing a righteous man' (v.16), the assassins' quick action (v.11-12), or David's order for the assassins' execution (v.17)?",
+          "tips": [
+            "David's statement 'how much more' (v.16) shows his moral clarity about murder and justice",
+            "The assassins acting in the midday heat (v.11) highlights the brutality and haste",
+            "David's immediate response to the head (v.15) shows his commitment to justice"
+          ],
+          "focusVerse": "4:1-18"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Samuel/Nathan/Gad) trying to communicate to Israel about God's rule and justice?",
+          "tips": [
+            "The passage shows that God's kingdom is established through righteous leadership, not violence",
+            "David's refusal to benefit from murder (v.16) sets a standard for justice in God's kingdom",
+            "This event foreshadows Christ's refusal to benefit from sin and His own sacrifice"
+          ],
+          "focusVerse": "4:1-18"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The assassins' motivation, why David's response is so severe, and the burial of Ishbosheth in Abner's tomb?",
+          "tips": [
+            "Why did the assassins kill Ishbosheth? The text doesn't say, but it was likely revenge for Abner's death (v.10)",
+            "David's response: He didn't hesitate to execute the assassins even though they were his enemies' killers (v.16)",
+            "Burial in Abner's tomb (v.18) shows that David honors the dead, even his enemy's killer"
+          ],
+          "focusVerse": "4:1-18"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does David's refusal to benefit from murder (v.16) challenge us to live justly in our own lives?",
+          "tips": [
+            "When you are tempted to take revenge for a wrong, ask: 'How much more would David do?'",
+            "Pray that you would be willing to let go of your anger and seek justice through God",
+            "This week, choose one person you've been holding a grudge against and practice forgiveness"
+          ],
+          "focusVerse": "4:1-18"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about David's commitment to justice and his refusal to benefit from murder.",
+          "tips": [
+            "Thank God for David's example of justice in the face of murder",
+            "Pray for courage to forgive when we are wronged",
+            "Ask God to help us see the cost of revenge and choose justice over vengeance"
+          ],
+          "focusVerse": "4:1-18"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 5,
+      "chapterTitle": "David King over All Israel; Jerusalem Conquered",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 5:1-25 aloud, focusing on the dialogue and actions when David conquers Jerusalem and the Philistine battle.",
+          "tips": [
+            "Notice the phrase 'the blind and lame will turn you back' (v. 8) as a challenge from the Jebusites",
+            "Pay attention to David's strategy of entering through the water shaft (v. 9)",
+            "Listen for the description of the Philistine battle from Geba to Gezer (v. 22)"
+          ],
+          "focusVerse": "5:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO is involved, WHAT happens, WHERE it takes place, and WHY it matters for David's reign.",
+          "tips": [
+            "Include the tribes coming to David at Hebron (v. 1-3)",
+            "Note David's conquest of Jerusalem (v. 6-9) and building the city (v. 10-11)",
+            "Describe the Philistine battle (v. 18-25)"
+          ],
+          "focusVerse": "5:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: David's conquest of Jerusalem, the water shaft, or the Philistine battle?",
+          "tips": [
+            "David's clever move of entering through the water shaft shows his resourcefulness and God's favor (v. 9)",
+            "The Jebusites' mocking phrase 'the blind and lame will turn you back' (v. 8) highlights the challenge David faced",
+            "David's victory over the Philistines from Geba to Gezer demonstrates God's protection (v. 22)"
+          ],
+          "focusVerse": "5:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Samuel/Nathan/Gad) trying to communicate to Israel about David's kingship and Jerusalem?",
+          "tips": [
+            "This passage shows that God has chosen David to rule over all Israel, fulfilling His promise (v. 3)",
+            "The establishment of Jerusalem as David's city signifies God's presence with His people",
+            "David's house (palace) being built by Hiram's gifts (v. 12-14) points to God's provision for His king"
+          ],
+          "focusVerse": "5:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging to understand in this chapter?",
+          "tips": [
+            "The Jebusites were the original inhabitants of Jerusalem (v. 6-9) - why did they mock David? (they were a powerful group)",
+            "The water shaft is a hidden passage used for entry - how did David know about it? (it's a strategic detail)",
+            "David taking more wives and concubines (v. 15-17) - how does this fit with the theme of God's kingdom? (it shows the human side of David's rule)"
+          ],
+          "focusVerse": "5:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's provision in establishing a city for His people to your life this week?",
+          "tips": [
+            "Think about a place in your life that needs to be 'built up' like Jerusalem (e.g., a relationship, community, or purpose)",
+            "Practice the resourcefulness of David by finding creative solutions for challenges (like the water shaft)",
+            "Pray for God's guidance when facing opposition (like the Philistines) to overcome obstacles"
+          ],
+          "focusVerse": "5:9"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about God's establishment of His kingdom through David and Jerusalem.",
+          "tips": [
+            "Thank God for His faithfulness to David and for the city of Jerusalem as a symbol of His people",
+            "Ask for courage to be a 'David' in your life, taking steps to build up God's kingdom",
+            "Pray for the protection of the church (as the new Jerusalem) from opposition"
+          ],
+          "focusVerse": "5:9"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 6,
+      "chapterTitle": "The Ark Brought to Jerusalem",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 6:1-23 aloud, paying attention to the tension between celebration and divine judgment.",
+          "tips": [
+            "Notice the repeated phrase 'the ark of the covenant' (v.2, 4, 5, 7)",
+            "Pay attention to the emotional shift from joy (v.1-5) to horror (v.10-11) and then to David's joy (v.16-18)",
+            "Listen for the contrast between David's dancing and Michal's contempt (v.16-23)"
+          ],
+          "focusVerse": "6:1-23"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (David, Uzzah, Ahio, Obed-edom, Israel), WHAT (bringing the ark to Jerusalem), WHERE (from Baale-judah to the threshing floor of Nacon, then to Obed-edom's house), and WHY (to set up the ark in the city of David for worship).",
+          "tips": [
+            "Include the three-day journey to Jerusalem (v.1-5)",
+            "Note Uzzah's death at the threshing floor of Nacon (v.10-11)",
+            "Describe David's decision to leave the ark at Obed-edom's house for three months (v.1-11)"
+          ],
+          "focusVerse": "6:1-23"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Identify the most impactful event, person, or dialogue from 2 Samuel 6:1-23.",
+          "tips": [
+            "The ark's journey to Jerusalem and its significance",
+            "Uzzah's death as a consequence of human error",
+            "David's response to the ark's arrival and his leadership"
+          ],
+          "focusVerse": "6:1-23"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "David worshiped with joy and abandon. What situation requires you to worship God with joy and abandon this week?",
+          "tips": [
+            "When you feel the need to approach God with fear or shame, practice worship with joy",
+            "Surrender a small area of your life (e.g., a worry, a habit) to God with joyful abandon",
+            "Practice dancing in your heart (v.16-18) by expressing your joy to God without reservation"
+          ],
+          "focusVerse": "6:16-18"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Pray together: Thank God for His presence and ask for the courage to worship Him with joy and abandon.",
+          "tips": [
+            "Thank God for the blessing of His presence in your life (like the ark in Obed-edom's house)",
+            "Ask God to remove the presumption that leads to spiritual death (like Uzzah)",
+            "Pray for the strength to worship Him with joy and abandon, as David did"
+          ],
+          "focusVerse": "6:16-18"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 7,
+      "chapterTitle": "The Davidic Covenant",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 2 Samuel 7 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 8,
+      "chapterTitle": "David's Military Victories",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 2 Samuel 8 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 9,
+      "chapterTitle": "David's Kindness to Mephibosheth",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 9:1-13 aloud, paying attention to Mephibosheth's humility in verse 4 and David's repeated promise of kindness in verses 2 and 12.",
+          "tips": [
+            "Notice the phrase 'behold, your servant' (v. 4) - shows deep humility",
+            "Pay attention to the repeated phrase 'I will show you kindness' (v. 2, 12) - emphasizes covenantal promise",
+            "Observe the contrast between Mephibosheth's physical condition (lame in both feet) and his restored status (eating at the king's table)"
+          ],
+          "focusVerse": "2 Samuel 9:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO David shows kindness to, WHAT he does, WHERE it happens, and WHY he does it (for Jonathan's sake).",
+          "tips": [
+            "Include Mephibosheth (Jonathan's son, lame in both feet) as the recipient",
+            "Note David's restoration of Saul's land and table fellowship with the king",
+            "Mention Ziba's role as the servant who reports and later manages the land for Mephibosheth"
+          ],
+          "focusVerse": "2 Samuel 9:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider Mephibosheth's humility (v. 4), David's promise (v. 2, 12), or the restoration of land (v. 12).",
+          "tips": [
+            "Mephibosheth's response: 'what is your servant that you notice a dead dog like me?' shows his low self-perception and humility",
+            "David's promise: 'I will restore all Saul's land' and 'you will always eat at my table' is a profound act of covenantal kindness",
+            "The detail of Ziba's household serving Mephibosheth (v. 12) shows the practical restoration of the covenant"
+          ],
+          "focusVerse": "2 Samuel 9:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Samuel/Nathan/Gad) trying to communicate to Israel about God's character and covenant through David's kindness to Mephibosheth?",
+          "tips": [
+            "This passage shows God's faithfulness to covenant promises (David as king) even when the king's family is in trouble",
+            "It emphasizes that kindness is not conditional on merit but on the covenant relationship (Jonathan's faithfulness to David)",
+            "The restoration of land and table fellowship points to the future restoration of Israel under God's rule"
+          ],
+          "focusVerse": "2 Samuel 9:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Ziba, the meaning of 'dead dog', or why David restores Saul's land?",
+          "tips": [
+            "Ziba: He was Saul's servant who took care of Mephibosheth's household. In some contexts, servants were not considered part of the lineage, but here David restores the land to Ziba's household to maint",
+            "'Dead dog': This is a lowly, unclean animal in ancient Israel. Mephibosheth is comparing himself to this, showing his humility and low status (he was lame and had no standing)",
+            "Why restore Saul's land? David is restoring the land to the family of Saul (Mephibosheth) to show that God's covenant with Saul (through Jonathan) is maintained even after Saul's death"
+          ],
+          "focusVerse": "2 Samuel 9:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice the kindness of David toward Mephibosheth in your life this week?",
+          "tips": [
+            "Consider someone who is marginalized or in a low status and offer them a blessing or restoration of their dignity",
+            "Think about what you can do to restore a relationship or provide for someone who has been overlooked (like the land for Mephibosheth)"
+          ],
+          "focusVerse": "2 Samuel 9:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His kindness to the humble and ask for the courage to show kindness to others.",
+          "tips": [
+            "Thank God for restoring the broken (like Mephibosheth) through Christ",
+            "Ask for the strength to be like David and show kindness to those who are lowly or in need",
+            "Pray for the church to be a place of table fellowship (community) for the marginalized"
+          ],
+          "focusVerse": "2 Samuel 9:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 10,
+      "chapterTitle": "War with Ammon and Aram",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 10:1-19 aloud, paying attention to the contrast between David's initial kindness and the harsh treatment of his servants.",
+          "tips": [
+            "Notice the contrast between David's initial kindness (v.2) and the harsh treatment of his servants (v.4-5)",
+            "Pay attention to the emotional tone in Hanun's decision to seize the servants (v.4) and the humiliation (v.5)",
+            "The phrase 'half their beards' (v.5) is a significant mark of humiliation"
+          ],
+          "focusVerse": "10:1-19"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO does WHAT, WHERE, and WHY in this chapter.",
+          "tips": [
+            "Include: David sends servants to express sympathy after the king of Ammon dies (v.2)",
+            "Note Hanun's advisers' accusation that David sent spies to overthrow him (v.4)",
+            "Describe the humiliation of David's servants (v.4-5) and the subsequent hiring of Aramean mercenaries (v.6)"
+          ],
+          "focusVerse": "10:1-19"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider the humiliation of David's servants, the swift response of the Arameans, or the decisive victory of David's army.",
+          "tips": [
+            "The phrase 'half their beards' (v.5) is a culturally specific humiliation that shows the depth of the insult",
+            "The immediate hiring of 33,000 Aramean mercenaries (v.6) highlights how quickly the Ammonites turned to their enemies",
+            "Joab's charge to be strong and let the LORD do what seems good (v.19) is a powerful reminder of trust in God"
+          ],
+          "focusVerse": "10:1-19"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Samuel/Nathan/Gad trying to communicate to Israel through this passage?",
+          "tips": [
+            "This passage shows that good intentions can be misinterpreted, leading to consequences that require God's intervention",
+            "It emphasizes the importance of discernment and the consequences of misjudging others",
+            "The victory over the combined forces of Ammon and Aram demonstrates God's protection for His people when they trust Him"
+          ],
+          "focusVerse": "10:1-19"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Consider cultural context, unfamiliar terms, or theological concepts.",
+          "tips": [
+            "The term 'half their beards' (v.5) is a specific form of humiliation in ancient Near Eastern culture, indicating a loss of status and identity",
+            "The hiring of 33,000 Aramean mercenaries (v.6) shows the Ammonites' desperation but reflects complex regional alliances",
+            "The phrase 'the LORD do what seems good to Him' (v.19) is a key expression of trust in God's sovereignty, but may be challenging to apply in immediate situations"
+          ],
+          "focusVerse": "10:1-19"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'Good intentions misunderstood' — what situation requires you to be careful about how your actions are perceived this week?",
+          "tips": [
+            "Consider a time when you intended to help someone but they misinterpreted your actions",
+            "Think about how you can be more intentional in your communication to avoid misunderstandings",
+            "Practically, this week, check in with a friend to see if your actions have been misunderstood"
+          ],
+          "focusVerse": "10:19"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for understanding and humility in your relationships, and for God's guidance in how you respond to misunderstandings.",
+          "tips": [
+            "Ask God to help you see others' perspectives before acting",
+            "Pray for the strength to forgive when others misunderstand you",
+            "Thank God for His protection and provision in the midst of conflicts"
+          ],
+          "focusVerse": "10:19"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 11,
+      "chapterTitle": "David and Bathsheba",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 11:1-25 aloud, focusing on the emotional tension in David's actions and the dialogue about Uriah.",
+          "tips": [
+            "Notice the repetition of 'I have seen' in David's thoughts (v.2, v.4)",
+            "Pay attention to the contrast between David's pride ('the king') and the humble Uriah's refusal (v.10-11)",
+            "The phrase 'the king's son' in v.13 shows David's attempt to cover up"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe who did what, where, and why in the events of David's sin with Bathsheba and the aftermath.",
+          "tips": [
+            "Include David's initial sighting of Bathsheba on the roof (v.2-3)",
+            "Note David's command for Uriah to be sent to the front lines (v.15-17) and the result (v.18-25)",
+            "David's attempt to cover up by having Uriah killed (v.15-16)"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: David's initial encounter with Bathsheba (v.2-3), Uriah's refusal to return home (v.10-11), or David's letter to Joab (v.15-16)?",
+          "tips": [
+            "Uriah's response: 'the ark and Israel dwell in tents; Joab and my lord's servants camp in the open field' shows his loyalty and understanding of the military situation",
+            "David's command to 'put Uriah in the fiercest fighting' (v.15) reveals his calculated cruelty",
+            "The phrase 'I have seen the king' (v.1) in the context of David's sin shows his awareness of the gravity"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Samuel/Nathan/Gad) trying to communicate to Israel about the consequences of sin and power?",
+          "tips": [
+            "David, the man after God's heart, falls into sin because of his pride and power",
+            "The passage shows that even the most righteous can sin when they abuse their authority",
+            "It foreshadows Christ who is sinless and redeems from sin"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Joab, the meaning of 'the fiercest fighting', or the timing of Uriah's death?",
+          "tips": [
+            "Joab's role: He is David's general and the one who carries out the command, showing the complexity of the king's power",
+            "'Fiercest fighting' in ancient warfare meant the most dangerous and deadly battle, which Joab would have to arrange",
+            "The passage does not explicitly state when Uriah dies, but it is implied that he dies in battle (v.18)"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you avoid the same sin of pride and cover-up as David in your relationships or decisions this week?",
+          "tips": [
+            "Consider if you have a situation where you are trying to cover up a mistake or sin",
+            "Ask yourself: What would Uriah do in this situation? (loyalty to the cause and people)",
+            "Practice humility by confessing and seeking help before the problem gets worse"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the grace to confront sin and the strength to choose righteousness, like David's fall and redemption.",
+          "tips": [
+            "Thank God for the truth that even David, the man after God's heart, fell in sin",
+            "Pray for the courage to confess mistakes and seek forgiveness",
+            "Ask God to help you avoid the temptation to cover up sin, as David did"
+          ],
+          "focusVerse": "11:1-25"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 12,
+      "chapterTitle": "Nathan Confronts David; The Child Dies",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 2 Samuel 12 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 13,
+      "chapterTitle": "Amnon and Tamar; Absalom's Revenge",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 13:1-39 aloud, focusing on the emotional shift from Amnon's initial request to Tamar to his later hatred.",
+          "tips": [
+            "Notice the repetition of 'he' for Amnon showing his emotional transformation",
+            "Pay attention to Tamar's weeping and robe tearing (v. 19, 20) as signs of profound trauma",
+            "The phrase 'Come to me' (v. 10) demonstrates the manipulative nature of Amnon's request"
+          ],
+          "focusVerse": "2 Samuel 13:1-39"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO (Amnon, Tamar, Absalom, David) does WHAT (Amnon rapes Tamar, Absalom kills Amnon), WHERE (David's household), and WHY (Amnon's lust leading to revenge).",
+          "tips": [
+            "Include Amnon's request for Tamar to prepare food (v. 10)",
+            "Note Tamar tearing her robe and weeping (v. 19, 20)",
+            "Highlight Absalom's calculated plan to kill Amnon at sheep-shearing (v. 28-30)"
+          ],
+          "focusVerse": "2 Samuel 13:1-39"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Tamar's robe tearing (v. 19), Amnon's request (v. 10), or Absalom's words to Tamar (v. 20).",
+          "tips": [
+            "Tamar's robe tearing symbolizes loss of virginity and status as a daughter of the king",
+            "Amnon's request in v. 10 shows manipulation and lack of respect for Tamar",
+            "Absalom's words in v. 20 reveal deep empathy and trauma while trying to protect Tamar"
+          ],
+          "focusVerse": "2 Samuel 13:10,19,20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Samuel/Nathan/Gad trying to communicate to Israel about the consequences of unaddressed sin?",
+          "tips": [
+            "This passage shows how sin within families leads to devastating cycles of violence",
+            "David's passive anger demonstrates leadership failure when sin occurs in the household",
+            "The prophetic promise that 'the sword would not depart from David's house' (2 Samuel 12:10) is fulfilled through Absalom's revenge"
+          ],
+          "focusVerse": "2 Samuel 13:1-39"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The cultural meaning of Tamar's robe tearing, Amnon's manipulative request, and Absalom's two-year wait.",
+          "tips": [
+            "In ancient Israel, tearing a virgin daughter's robe was a sign of deep shame and mourning (v. 19)",
+            "Amnon's request to Tamar was a manipulation tactic to isolate her from others",
+            "Absalom waited two years to ensure Amnon was vulnerable before taking action (v. 28-30)"
+          ],
+          "focusVerse": "2 Samuel 13:10,19,20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you address unaddressed sin in your relationships this week?",
+          "tips": [
+            "Consider a situation where someone has been hurt but you haven't spoken up",
+            "Practice telling the truth without escalating the situation like Tamar's initial response",
+            "Ask for the courage to forgive without revenge as Absalom did in his plan"
+          ],
+          "focusVerse": "2 Samuel 13:1-39"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about breaking cycles of violence and seeking reconciliation.",
+          "tips": [
+            "Thank God for Christ healing broken relationships (Romans 12:19-21)",
+            "Pray for strength to forgive without seeking revenge when hurt",
+            "Ask God to help you break the cycle of violence in your family and community"
+          ],
+          "focusVerse": "2 Samuel 13:1-39"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 14,
+      "chapterTitle": "Absalom Returns to Jerusalem",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 14:1-28 aloud, focusing on the wise woman's dialogue with David (vv. 1-12) and Absalom's demand to see the king (vv. 28-29).",
+          "tips": [
+            "Notice the phrase 'I had two sons; one killed the other' (v. 2) - direct parallel to David's situation",
+            "Pay attention to David's emotional response: 'I have no son left' (v. 13) and his immediate action to send for Absalom (v. 14)",
+            "The barley field fire (v. 26) shows Absalom's anger and symbolic breaking of the relationship"
+          ],
+          "focusVerse": "14:1-28"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters for David and Absalom.",
+          "tips": [
+            "Include the wise woman from Tekoa as the key intermediary",
+            "Note Absalom returns after two years of absence",
+            "Highlight David's initial refusal to see Absalom but eventual restoration"
+          ],
+          "focusVerse": "14:1-28"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the wise woman's parable (vv. 1-12), Absalom's demand to see the king (vv. 28-29), or David's immediate action to send for Absalom (v. 14)?",
+          "tips": [
+            "The woman's parable is a powerful metaphor for David's situation: the banished son and the king's refusal to restore him",
+            "Absalom's bold move: demanding to see the king without being allowed to speak first (v. 28) shows his desperation",
+            "David's response: 'Bring back Absalom' (v. 14) shows swift decision once understanding occurs"
+          ],
+          "focusVerse": "14:1-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Samuel/Nathan/Gad trying to communicate to Israel through this passage about the restoration of Absalom?",
+          "tips": [
+            "This passage emphasizes God's provision for restoration even in broken relationships",
+            "The wise woman's parable shows God's plan is to restore (like the ram in offering) rather than punish permanently",
+            "The key is banished people are not expelled forever because God has a way of restoring (as seen in Christ)"
+          ],
+          "focusVerse": "14:1-28"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of the wise woman, why David initially refuses to see Absalom, or the barley field fire?",
+          "tips": [
+            "The wise woman's role: She is not a prophet but uses a parable to address the king's heart (v. 10)",
+            "David's initial refusal: He is under pressure from Joab and political tension (v. 13-14)",
+            "Barley field fire: Absalom sets it to show anger at Joab, symbolizing breaking relationship (v. 26)"
+          ],
+          "focusVerse": "14:1-28"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of restoration (like Absalom's return) to your current situation this week?",
+          "tips": [
+            "Consider a broken relationship that needs restoration (family, community, or friendship)",
+            "Think about what it would take to 'bring back' someone after a period of absence",
+            "Practice active listening and showing up like David's response to the wise woman"
+          ],
+          "focusVerse": "14:1-28"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about the theme of restoration in this passage",
+          "tips": [
+            "Thank God for His provision in restoring broken relationships",
+            "Ask for wisdom to address the 'barley field' (unresolved conflicts) in your life",
+            "Pray for courage to see God (the king) and bow in submission like Absalom"
+          ],
+          "focusVerse": "14:1-28"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 15,
+      "chapterTitle": "Absalom's Rebellion",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 15:1-37 aloud, paying attention to Absalom's dialogue at the gate (v.1-2) and the urgency in David's flight (v.24-25).",
+          "tips": [
+            "Notice Absalom's declaration: 'if only I were judge!' (v.2)",
+            "Pay attention to the emotional weight of David's words: 'flee, or he will overtake us and strike the city with the sword' (v.26)"
+          ],
+          "focusVerse": "15:1-37"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Absalom and David), WHAT (the rebellion and David's flight), WHERE (Jerusalem and Hebron), and WHY (to take the throne).",
+          "tips": [
+            "Absalom's secret plan to rally support by declaring himself king at Hebron",
+            "David's decision to flee Jerusalem after learning Israel's hearts have turned to Absalom (v.27)"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Absalom's manipulation of the people (v.1-2), David's trust in God's provision (v.28-29), or the ark being sent back (v.31-32)?",
+          "tips": [
+            "Absalom's phrase 'if only I were judge!' (v.2) shows his desperation for authority",
+            "David's decision to send the ark back: 'if I find favor, God will bring me back to see it' (v.31) reveals his trust in God's ultimate will"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Samuel/Nathan/Gad trying to communicate to Israel through this passage?",
+          "tips": [
+            "The passage shows that rebellion against God's anointed king (David) can lead to national destruction unless God intervenes",
+            "David's trust in God's sovereignty while fleeing (v.31) models the Christian response to persecution"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Ahithophel, the meaning of 'stealing hearts', or David's decision to send the ark back?",
+          "tips": [
+            "Ahithophel was David's trusted advisor but became Absalom's ally, showing how quickly loyalty can shift",
+            "'Stealing hearts' (v.12) refers to Absalom's political manipulation, not literal theft, but a cultural term for gaining popular support",
+            "The ark being sent back: This was a symbolic act of trust in God's provision, as the ark represents God's presence and covenant"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does David's decision to send the ark back (v.31) apply to your life? What can you trust God to provide when you feel overwhelmed?",
+          "tips": [
+            "When you feel like your life is in chaos, ask God to show you what to do",
+            "Like David, surrender your situation to God and trust His timing"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His faithfulness in the midst of rebellion. Ask for courage to trust Him when your plans are disrupted.",
+          "tips": [
+            "Thank God for providing a way out for David when he was trapped",
+            "Pray for strength to trust God's plan even when it seems like the rebellion is winning"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 16,
+      "chapterTitle": "David Flees; Shimei Curses",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 2 Samuel 16 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 17,
+      "chapterTitle": "Ahithophel's and Hushai's Counsel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 17:1-23 aloud, focusing on the contrast between Ahithophel's and Hushai's plans in verses 1-7 and the dramatic hiding in the well (verses 15-16).",
+          "tips": [
+            "Notice how Ahithophel's plan in verse 1-2 shows immediate strategic thinking",
+            "Listen for the tension in Hushai's counterproposal in verses 3-4",
+            "Pay attention to the emotional shift in verse 15-16 when the group hides"
+          ],
+          "focusVerse": "17:1-23"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Identify the key strategic elements in Ahithophel's plan (verses 1-2) and compare with Hushai's alternative approach (verses 3-4).",
+          "tips": [
+            "What specific military advantage did Ahithophel propose?",
+            "How did Hushai's plan address the weaknesses in Ahithophel's approach?",
+            "Why might King David have chosen Hushai's alternative despite the apparent urgency?"
+          ],
+          "focusVerse": "17:1-4"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Examine the motivations behind Ahithophel's decision to advise King David to flee (verse 1) versus Hushai's decision to stay and advise (verse 3).",
+          "tips": [
+            "What personal stakes might Ahithophel have had in the king's safety?",
+            "How did Hushai's position as a trusted advisor influence his decision?",
+            "What does this reveal about the relationship between advisors and the king?"
+          ],
+          "focusVerse": "17:1-3"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "Analyze how the group's decision to hide in the well (verse 15-16) reflects their relationship and trust levels.",
+          "tips": [
+            "Why might they have chosen to hide rather than confront the enemy directly?",
+            "What does this reveal about their communication styles and risk tolerance?",
+            "How does this action impact their future strategic decisions?"
+          ],
+          "focusVerse": "17:15-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Discuss the long-term consequences of Ahithophel's and Hushai's choices for King David's leadership and the kingdom.",
+          "tips": [
+            "How did this event affect David's relationship with his advisors?",
+            "What lessons can be drawn about leadership in crisis situations?",
+            "How might these choices influence future conflicts or alliances?"
+          ],
+          "focusVerse": "17:1-23"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 18,
+      "chapterTitle": "Absalom's Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 18:1-33 aloud, paying attention to the emotional weight of David's grief and the tragic events.",
+          "tips": [
+            "Notice the phrase 'deal gently with young Absalom for my sake' (v. 3)",
+            "Pay attention to the description of the forest devours more than the sword (v. 10)",
+            "Notice David's lament: 'O my son Absalom, my son, my son Absalom!' (v. 33)"
+          ],
+          "focusVerse": "2 Samuel 18:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters.",
+          "tips": [
+            "Include the battle in the forest of Ephraim",
+            "Note David's command to deal gently with Absalom (v. 3)",
+            "Describe the death of Absalom by Joab (v. 16-17) and David's reaction (v. 33)"
+          ],
+          "focusVerse": "2 Samuel 18:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Absalom's death in the tree (v. 10), Joab's action (v. 16), or David's lament (v. 33)?",
+          "tips": [
+            "The forest 'devours more than the sword' (v. 10) shows the devastating consequences of rebellion",
+            "Joab's decision to kill Absalom despite the king's command (v. 16) highlights the cost of rebellion",
+            "David's lament (v. 33) is the most poignant moment, showing the depth of his grief"
+          ],
+          "focusVerse": "2 Samuel 18:10,16,33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Israel about the consequences of rebellion and the importance of mercy?",
+          "tips": [
+            "The author (Samuel) shows that rebellion has severe consequences (as seen in Absalom's death)",
+            "David's command to deal gently with Absalom (v. 3) was a call for mercy, but the reality of rebellion led to tragedy",
+            "The passage foreshadows the cost of sin and the need for God's mercy"
+          ],
+          "focusVerse": "2 Samuel 18:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Joab, the meaning of 'the forest devours more than the sword', and the armor-bearers' role?",
+          "tips": [
+            "Joab disobeys the king's command to deal gently with Absalom (v. 3) because he saw Absalom as a threat to the kingdom",
+            "'The forest devours more than the sword' (v. 10) means the natural environment itself became a deadly trap in the battle",
+            "The ten armor-bearers (v. 17) were the personal guards of Absalom and they finished him, indicating the finality of his death"
+          ],
+          "focusVerse": "2 Samuel 18:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice dealing gently with someone who has rebelled against you this week?",
+          "tips": [
+            "Reflect on a situation where you felt you had to choose between your own desires and the commands of God (like David with Absalom)",
+            "Pray for the strength to forgive and show mercy, even when it is difficult"
+          ],
+          "focusVerse": "2 Samuel 18:33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the courage to forgive and deal gently with those who have rebelled against you, just as David did with Absalom.",
+          "tips": [
+            "Ask God for the strength to carry the weight of grief when loved ones suffer",
+            "Pray for the grace to choose mercy over vengeance, even when it is hard"
+          ],
+          "focusVerse": "2 Samuel 18:33"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 19,
+      "chapterTitle": "David Returns to Jerusalem",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 2 Samuel 19 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 20,
+      "chapterTitle": "Sheba's Rebellion",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 2 Samuel 20 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 21,
+      "chapterTitle": "Famine and Gibeonites; Philistine Giants",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 21:1-22 aloud, emphasizing the famine, blood guilt resolution, and Rizpah's vigil.",
+          "tips": [
+            "Note the repetition of 'blood guilt' (vv. 2-6) and 'Saul's house' (vv. 2, 9)",
+            "Pay attention to the emotional weight of Rizpah guarding the bodies (v. 13)",
+            "Notice the shift from famine (v.1) to the resolution of the blood guilt (v.16)"
+          ],
+          "focusVerse": "21:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters for the land.",
+          "tips": [
+            "Include the famine (3 years) and David's response to the LORD",
+            "Mention the Gibeonites' demand for seven from Saul's line and the execution",
+            "Note Rizpah's vigil and the burial of Saul and Jonathan's bones"
+          ],
+          "focusVerse": "21:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Rizpah's vigil (v.13), the giants killed by David's men (v.25), or the blood guilt resolution (v.16)?",
+          "tips": [
+            "Rizpah's vigil shows undying loyalty to the covenant, even when the bodies are left exposed",
+            "Jonathan's killing of the giant (v.25) is a powerful image of God's strength working through David's family",
+            "The resolution of the blood guilt (v.16) brings peace to the land, showing the importance of covenant restoration"
+          ],
+          "focusVerse": "21:13-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Samuel/Nathan/Gad trying to communicate to Israel through this passage about the covenant and blood guilt?",
+          "tips": [
+            "The passage emphasizes that broken covenants require blood atonement, not just rituals",
+            "It shows that God's mercy can be extended through the right people (David) even after a leader (Saul) broke the covenant",
+            "The resolution of the blood guilt restores the land's blessing, demonstrating God's faithfulness to the covenant"
+          ],
+          "focusVerse": "21:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The blood guilt on Saul's house? The giants in Philistine wars? The Gibeonites' demand for seven?",
+          "tips": [
+            "The term 'blood guilt' (Hebrew: 'tubah') refers to a specific covenant violation that requires atonement through blood, not just a moral failure",
+            "The Gibeonites' request for seven from Saul's line is unusual because Saul's line was already weakened by the famine and the murder of the Gibeonites",
+            "The giants (v.25) are a symbol of the Philistine threat, but their origin (descended from Rapha) is unclear in the text"
+          ],
+          "focusVerse": "21:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the lesson of Rizpah's vigil to your life this week? What is something you are holding onto that needs to be released?",
+          "tips": [
+            "Like Rizpah, guard what is sacred (your faith, relationships) from being destroyed by the world",
+            "The blood guilt resolution shows that atonement requires specific steps (v.9-11) — what is the right step for your situation?",
+            "David's men swearing not to fight (v.23) is a lesson in leadership — when should you step back to protect others?"
+          ],
+          "focusVerse": "21:13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the blood guilt resolution and the giants. Thank God for the atonement and ask for courage to face the giants (challenges) in your life.",
+          "tips": [
+            "Thank God for providing the atonement through the blood of the covenant (v.16)",
+            "Pray for strength to be a Rizpah figure — guarding what is holy in your life",
+            "Ask God to help you face the 'giants' (challenges) that threaten your faith"
+          ],
+          "focusVerse": "21:16"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 22,
+      "chapterTitle": "David's Song of Deliverance",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 22:1-51 aloud, focusing on the emotional tone and repetitive phrases of deliverance.",
+          "tips": [
+            "Notice the repeated phrase 'The LORD is my rock' (v.1-2)",
+            "Pay attention to the imagery of God as a warrior (v.11,12)",
+            "Note the shift from distress to victory in verses 14-16"
+          ],
+          "focusVerse": "22:1-51"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO David is singing to, WHAT God has done, WHERE and WHEN this occurred, and WHY David is singing.",
+          "tips": [
+            "David was delivered from Saul and his enemies (v.1-2)",
+            "The song is composed after a battle or crisis (v.14-16)",
+            "David's purpose is to give thanks for God's deliverance and to proclaim God's faithfulness to his line"
+          ],
+          "focusVerse": "22:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the description of God as rock (v.1-2), God's intervention (v.11-12), or David's declaration of God's delight (v.16).",
+          "tips": [
+            "The phrase 'He parted the heavens and came down' (v.11) shows God's power and immediacy of intervention",
+            "David's statement 'He rescued me because He delighted in me' (v.16) emphasizes God's personal love and choice",
+            "The image of God drawing David from 'many waters' (v.14) conveys deliverance from deep trouble"
+          ],
+          "focusVerse": "22:11-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was David trying to communicate to the people of Israel about God through this song?",
+          "tips": [
+            "David emphasizes God as the Rock who delivers and protects (v.1-2)",
+            "This song points to God's active intervention in history (v.11-12) and His steadfast love for David's line (v.50)",
+            "The authorial purpose is to show that God is the ultimate deliverer and that His covenant with David (and by extension, Christ) is secure"
+          ],
+          "focusVerse": "22:1-50"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The imagery of God as a warrior, the phrase 'many waters', or the concept of God's delight?",
+          "tips": [
+            "'He rode upon a cherub' (v.11) uses an angelic imagery that may be unfamiliar; cherubim are heavenly beings, not physical entities",
+            "'Many waters' (v.14) could refer to the overwhelming enemies or the deep spiritual crisis David faced",
+            "The phrase 'He delighted in me' (v.16) suggests a personal, covenantal love that might be hard to grasp in a modern context"
+          ],
+          "focusVerse": "22:11-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "David declares God as his rock and deliverer. What situation in your life requires you to trust God as your rock this week?",
+          "tips": [
+            "Think about a time when you felt overwhelmed (like 'many waters') and God delivered you",
+            "Pray for courage to rely on God as your rock in a current struggle",
+            "Practice stepping away from your problems and trusting God's deliverance (like David did after being rescued)"
+          ],
+          "focusVerse": "22:1-50"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for being your rock and deliverer. Ask for the courage to trust Him in your current struggles.",
+          "tips": [
+            "Thank God for delivering you from your enemies (spiritual, emotional, or physical) like David was delivered",
+            "Pray for God to be your rock and fortress in your current trials",
+            "Ask God to show you His deliverance through Christ, the ultimate Rock"
+          ],
+          "focusVerse": "22:1-50"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 23,
+      "chapterTitle": "David's Last Words; His Mighty Men",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 23:1-39 aloud, focusing on the phrase 'The Spirit of the LORD spoke through me' (v.1-2) and the description of the just ruler (v.3-4).",
+          "tips": [
+            "Notice the repetition of 'the God of Israel' in v.2",
+            "Pay attention to the contrast between David's security and the Philistine threat in v.13-14",
+            "Note the list of the Thirty warriors (v.18-39) as a testament to David's leadership"
+          ],
+          "focusVerse": "2 Samuel 23:1-39"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (David) does WHAT (proclaims his last words and honors his mighty men), WHERE (in the context of David's rule in Israel), and WHY (to establish the security of his house through God's covenant).",
+          "tips": [
+            "Include the three metaphors for the just ruler (v.3-4)",
+            "Note the three mighty men who broke through the Philistine garrison (v.13-14)",
+            "Describe the Thirty warriors and the inclusion of Uriah the Hittite (v.18-39)"
+          ],
+          "focusVerse": "2 Samuel 23:1-39"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: David's description of the just ruler (v.3-4), the three mighty men breaking through the Philistine garrison (v.13-14), or the covenant of David's house (v.5).",
+          "tips": [
+            "The just ruler imagery is profound and connects to Christ (the Light of the World)",
+            "The three men's feat shows David's trust in God's provision for his warriors",
+            "The covenant promise in v.5 is a powerful reminder of God's faithfulness to David's line"
+          ],
+          "focusVerse": "2 Samuel 23:1-39"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Samuel/Nathan/Gad trying to communicate to Israel through this passage about David's rule and covenant?",
+          "tips": [
+            "David's rule is secure because of God's everlasting covenant (v.5)",
+            "The just ruler who rules in the fear of God brings life and prosperity (v.3-4)",
+            "The mighty men are a sign of God's provision for David's kingdom"
+          ],
+          "focusVerse": "2 Samuel 23:1-39"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The phrase 'anointed of Israel's God', the three metaphors for the just ruler, and the specific roles of the mighty men.",
+          "tips": [
+            "'Anointed' refers to David's kingship, which was consecrated by God (not self-appointed)",
+            "The three metaphors (light, sun, rain) illustrate the just ruler's effectiveness: clarity, life-giving, and abundance",
+            "The 'Three' and 'Thirty' are specific groups of David's warriors, with the Thirty being the elite force that includes Uriah the Hittite"
+          ],
+          "focusVerse": "2 Samuel 23:1-39"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you live in the security of God's covenant (like David's house) this week?",
+          "tips": [
+            "Reflect on how you can rule your life with integrity and fear of God, as David's just ruler",
+            "Consider the covenant promise and how it gives you security in God's provision",
+            "Ask God to help you be part of a community that breaks through obstacles (like the mighty men)"
+          ],
+          "focusVerse": "2 Samuel 23:5"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's covenant security and the strength to be a just ruler.",
+          "tips": [
+            "Thank God for the promise of an everlasting covenant with David's house",
+            "Pray for the courage to rule with integrity and fear of God in your daily life",
+            "Ask God to help you be part of His mighty army that breaks through obstacles"
+          ],
+          "focusVerse": "2 Samuel 23:5"
+        }
+      ]
+    },
+    {
+      "bookId": "2-samuel",
+      "bookName": "2 Samuel",
+      "chapter": 24,
+      "chapterTitle": "David's Census; Plague and Altar",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 2 Samuel 24:1-24 aloud, paying attention to the emotional shift from David's initial sinfulness to his costly obedience.",
+          "tips": [
+            "Notice the repeated phrase 'I have sinned greatly' (v. 9)",
+            "Pay attention to David's internal conflict: 'I will not offer the LORD what cost me nothing' (v. 20)",
+            "The emotional weight of the plague: 70,000 dying in three days (v. 14)"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (David, Joab, Gad, Araunah, Israel/Judah) did WHAT (census, choosing plague, buying the threshing floor) WHERE (Israel and Judah, Araunah's threshing floor in Jerusalem) and WHY (God's anger against Israel, the sin of the census).",
+          "tips": [
+            "Include the 9-month delay in the census (v. 2-3)",
+            "Note David's immediate remorse after the census (v. 8-9)",
+            "Describe the three choices Gad offers (v. 10-11)"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: David's realization of sin (v. 9), Gad's three choices (v. 10-11), or David's refusal to take the land for free (v. 20).",
+          "tips": [
+            "David's confession: 'I have sinned greatly' shows deep humility",
+            "The tension in Gad's choices: famine, flight, plague (plague being the most direct and severe)",
+            "David's refusal: 'I will not offer the LORD what cost me nothing' demonstrates costly obedience"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the prophet Gad trying to communicate to Israel about God's character and response to sin?",
+          "tips": [
+            "The passage shows God's mercy: He relents from the plague (v. 17)",
+            "The cost of sin: David's sin led to a severe judgment (plague) but God provided a way of redemption",
+            "The temple site: Araunah's threshing floor becomes the future temple (v. 18-24) for the people to worship God"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The reason for the census, the three choices of judgment, and the significance of the threshing floor.",
+          "tips": [
+            "The census was not a sin in itself, but David's motivation (to have a census for military strength) was a sin against God's will (v. 1-2)",
+            "The three choices: famine (7 years), flight (3 months), plague (3 days) — God's judgment was the most immediate but severe",
+            "The threshing floor of Araunah: It was a common place for grain processing, but God chose it to be the temple site (v. 16-17)"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "David's costly sacrifice of 50 shekels to buy the land for God's temple — what area of your life requires you to pay a price for God's purposes this week?",
+          "tips": [
+            "Consider an area where you're holding back from full obedience",
+            "Think about something you can 'buy' for God (like time, resources, or freedom)",
+            "How can you practice David's humility and costly obedience in small steps?"
+          ],
+          "focusVerse": "24:18-24"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercy in the face of sin. Ask for the courage to make costly sacrifices for His kingdom.",
+          "tips": [
+            "Thank God for the plague that was stopped (v. 17)",
+            "Pray for humility when you face sin",
+            "Ask God to help you buy a piece of land (a sacrifice) for His kingdom"
+          ],
+          "focusVerse": "24:1-24"
+        }
+      ]
+    }
+  ]
+}

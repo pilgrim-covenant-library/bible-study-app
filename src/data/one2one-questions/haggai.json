@@ -1,0 +1,163 @@
+{
+  "bookId": "haggai",
+  "bookName": "Haggai",
+  "totalChapters": 2,
+  "chapters": [
+    {
+      "bookId": "haggai",
+      "bookName": "Haggai",
+      "chapter": 1,
+      "chapterTitle": "A Call to Rebuild the Temple",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Haggai 1:1-16 aloud, focusing on the contrast between the ruined temple and the paneled houses of the returned exiles.",
+          "tips": [
+            "Notice the repeated phrase 'this house lies in ruins' (v.2) which emphasizes the neglect of God's house",
+            "Pay attention to the emotional shift from criticism to hope in verses 12-14: 'the LORD stirred up the spirit of Zerubbabel and Joshua...'",
+            "The phrase 'consider your ways' (v.5) appears as a call to self-reflection and is repeated in the context of the temple's neglect"
+          ],
+          "focusVerse": "1:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the returned exiles), WHAT (the call to rebuild the temple), WHERE (the land of Judah), and WHY (the temple's ruin reflects spiritual neglect).",
+          "tips": [
+            "Zerubbabel and Joshua are the key leaders the prophet addresses",
+            "The temple is in ruins while the exiles build their own homes (paneled houses)",
+            "The LORD's command is tied to the exiles' spiritual condition and their failure to prioritize God's house"
+          ],
+          "focusVerse": "1:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the critique of the exiles' priorities (v.2-5), the LORD's call to action (v.6-7), or the spiritual stirring (v.12-14)?",
+          "tips": [
+            "The phrase 'you have sown much, and harvested little' (v.5) powerfully illustrates the spiritual barrenness",
+            "The contrast between the exiles' busyness with their own houses and the temple's ruin (v.2) highlights a critical moral failure",
+            "The LORD's stirring of the spirit (v.12) shows God's active involvement in bringing about the rebuilding"
+          ],
+          "focusVerse": "1:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Haggai trying to communicate to the returned exiles about the priority of God's temple and their spiritual condition?",
+          "tips": [
+            "Haggai emphasizes that the temple's rebuilding is a sign of the exiles' spiritual renewal and obedience",
+            "The temple represents God's presence and the community's relationship with Him; neglecting it shows a broken covenant",
+            "This call to rebuild foreshadows the New Covenant in Christ, where the true temple is the body of Christ"
+          ],
+          "focusVerse": "1:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'paneled houses', the spiritual condition of the exiles, or the role of the temple in the community?",
+          "tips": [
+            "'Paneled houses' refers to well-built, comfortable homes that the exiles were constructing, contrasting with the temple's ruin",
+            "The phrase 'blowed it away' (v.5) is a metaphor for God's rejection of their efforts due to spiritual neglect",
+            "The temple in Haggai's time was the central place of worship and the symbol of God's covenant with Israel"
+          ],
+          "focusVerse": "1:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you 'consider your ways' (v.5) and prioritize God's kingdom over your own needs this week?",
+          "tips": [
+            "Identify one area where you are building your life around temporary things (like a house) rather than God's kingdom",
+            "Spend time reflecting on whether you are 'sowing much but harvesting little' in your spiritual life",
+            "Take one step to 'go up to the hills and bring wood' (v.6) by seeking God's will in a small but meaningful way"
+          ],
+          "focusVerse": "1:5"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the returned exiles to consider their ways and for God to stir your spirit to rebuild His kingdom.",
+          "tips": [
+            "Thank God that He is the one who stirs the spirit of those who will rebuild His temple",
+            "Ask for the courage to prioritize God's house over your own needs",
+            "Pray for the church to be a community that actively rebuilds God's kingdom, just as Haggai called for"
+          ],
+          "focusVerse": "1:1-16"
+        }
+      ]
+    },
+    {
+      "bookId": "haggai",
+      "bookName": "Haggai",
+      "chapter": 2,
+      "chapterTitle": "The Glory of the New Temple",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Haggai 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    }
+  ]
+}

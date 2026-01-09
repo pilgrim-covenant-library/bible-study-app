@@ -1,0 +1,389 @@
+{
+  "bookId": "1-thessalonians",
+  "bookName": "1 Thessalonians",
+  "totalChapters": 5,
+  "chapters": [
+    {
+      "bookId": "1-thessalonians",
+      "bookName": "1 Thessalonians",
+      "chapter": 1,
+      "chapterTitle": "Faith, Love, and Hope",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Thessalonians 1:1-10 aloud, paying attention to the phrase 'work of faith and labor of love' (v.3) and the description of their turning from idols (v.9).",
+          "tips": [
+            "Notice the repeated phrase 'work of faith and labor of love and steadfastness of hope' (v.3)",
+            "Pay attention to the contrast between their past idolatry and current devotion to God (v.9)",
+            "The phrase 'turned from idols to serve the living and true God' is a powerful declaration of conversion"
+          ],
+          "focusVerse": "1 Thessalonians 1:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Thessalonians) is being thanked by Paul, WHAT (their faith, love, and hope) they have demonstrated, WHERE (in the church of Thessalonica and the surrounding regions), and WHY (because they were chosen by God and turned from idols).",
+          "tips": [
+            "Include the fact that their faith spread to Macedonia and Achaia (v.6)",
+            "Note that they became imitators of Paul and the Lord (v.6)",
+            "Their turning from idols to God (v.9) is a key event"
+          ],
+          "focusVerse": "1 Thessalonians 1:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: their turning from idols (v.9), becoming imitators of Paul (v.6), or the phrase 'work of faith and labor of love' (v.3).",
+          "tips": [
+            "The Thessalonians' decision to turn from idols to serve the living God is a profound act of faith and obedience",
+            "Becoming imitators of Paul and the Lord shows they were transformed by the gospel",
+            "The phrase 'work of faith and labor of love' highlights the active nature of their faith"
+          ],
+          "focusVerse": "1 Thessalonians 1:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Thessalonica through this passage?",
+          "tips": [
+            "Paul is affirming their genuine conversion and the positive impact of their faith",
+            "He emphasizes that they were chosen by God and their response to the gospel was transformative",
+            "This passage serves as encouragement for the church to maintain their faith and hope in Christ's return"
+          ],
+          "focusVerse": "1 Thessalonians 1:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of 'imitators' (v.6), the meaning of 'turned from idols' (v.9), or the idea of 'waiting for His Son from heaven' (v.9).",
+          "tips": [
+            "'Imitators' refers to following Paul's example and Christ's example in daily life, not just in theory",
+            "Idols in the ancient context included false gods and practices that the Thessalonians were part of in their city",
+            "Waiting for the Son from heaven means looking forward to Christ's return (the Parousia), which is a future hope"
+          ],
+          "focusVerse": "1 Thessalonians 1:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of 'work of faith, labor of love, and steadfastness of hope' (v.3) this week?",
+          "tips": [
+            "Identify an area where you need to increase your work of faith (e.g., prayer, study)",
+            "Consider how you can labor in love through service or acts of kindness",
+            "Pray for steadfast hope in Christ's return, especially when facing trials"
+          ],
+          "focusVerse": "1 Thessalonians 1:1-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the Thessalonians' example of turning from idols to Christ and for their steadfast hope in His return.",
+          "tips": [
+            "Thank God for the Thessalonians' conversion and their impact on the church",
+            "Pray for courage to turn away from sin and toward Christ",
+            "Ask God to strengthen your hope in His return"
+          ],
+          "focusVerse": "1 Thessalonians 1:1-10"
+        }
+      ]
+    },
+    {
+      "bookId": "1-thessalonians",
+      "bookName": "1 Thessalonians",
+      "chapter": 2,
+      "chapterTitle": "Paul's Ministry Among Them",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Thessalonians 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-thessalonians",
+      "bookName": "1 Thessalonians",
+      "chapter": 3,
+      "chapterTitle": "Timothy's Encouraging Report",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Thessalonians 3 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-thessalonians",
+      "bookName": "1 Thessalonians",
+      "chapter": 4,
+      "chapterTitle": "The Lord's Coming",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Thessalonians 4 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-thessalonians",
+      "bookName": "1 Thessalonians",
+      "chapter": 5,
+      "chapterTitle": "The Day of the Lord",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Thessalonians 5:1-11 aloud, paying attention to the contrast between 'the day of the Lord coming like a thief' and 'children of light'.",
+          "tips": [
+            "Notice the repeated phrase 'children of light' (v.5) and 'the day of the Lord' (v.2)",
+            "Pay attention to the contrast between 'sleeping' (v.6) and 'being sober' (v.6)",
+            "The phrase 'for God has not destined them for wrath but for salvation' (v.9) is a key theological statement"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO the church in Thessalonica is being warned about, WHAT they must do, WHERE this warning applies, and WHY it matters.",
+          "tips": [
+            "Include the church in Thessalonica as the audience",
+            "Note that the day of the Lord comes unexpectedly (like a thief)",
+            "Highlight the contrast between being children of light and the world of darkness"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the description of the day of the Lord (v.2-3), the call to be sober (v.6), or the promise of salvation (v.9-10)?",
+          "tips": [
+            "The phrase 'they are all children of light' (v.5) is powerful because it identifies the church as distinct from the world",
+            "The contrast between 'sleeping' (v.6) and 'being sober' (v.6) shows active readiness",
+            "The promise that God has not destined them for wrath but for salvation (v.9) is a comforting assurance"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Thessalonica through this passage?",
+          "tips": [
+            "Paul is warning against complacency while emphasizing the church's identity as children of light and their destiny in salvation",
+            "The main point is that the church must live in readiness for the day of the Lord, not in fear but in hope, because they are destined for salvation through Christ"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The nature of the day of the Lord, the concept of 'children of light', or the promise of salvation?",
+          "tips": [
+            "The phrase 'the day of the Lord comes like a thief' (v.2) is a metaphor that might be misinterpreted as a sudden, destructive event without warning",
+            "The term 'children of light' (v.5) is a theological concept that contrasts with the 'darkness' of the world, but it's not about literal light",
+            "The promise that God has not destined them for wrath but for salvation (v.9) requires understanding that salvation is by grace through Christ, not by human effort"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of being 'children of light' and 'rejoicing always' to your week?",
+          "tips": [
+            "Identify one area where you might be 'sleeping' (avoiding responsibility) and take a step to be 'sober' (active and alert)",
+            "Practice 'rejoicing always' by sharing a thanksgiving with a friend this week",
+            "Commit to one act of 'praying without ceasing' (v.11) by setting aside 5 minutes each day for prayer"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the promise of salvation and ask for the strength to live as children of light.",
+          "tips": [
+            "Thank God that He has not destined us for wrath but for salvation through Christ",
+            "Ask for the courage to be sober and active in the church, not sleeping or being drunk",
+            "Pray for the church to be 'rejoicing always' and 'giving thanks in all circumstances'"
+          ],
+          "focusVerse": "5:1-11"
+        }
+      ]
+    }
+  ]
+}

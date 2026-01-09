@@ -1,0 +1,1299 @@
+{
+  "bookId": "romans",
+  "bookName": "Romans",
+  "totalChapters": 16,
+  "chapters": [
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 1,
+      "chapterTitle": "The Gospel and Human Sinfulness",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Romans 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 2,
+      "chapterTitle": "God's Righteous Judgment",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 2:1-16 aloud, paying attention to the contrast between 'doers' and 'law' in verses 1, 7, 10, and 15.",
+          "tips": [
+            "Notice the repetition of 'doers' (v. 1, 7, 10) and 'law' (v. 1, 7, 10, 15)",
+            "Pay attention to the phrase 'law written on hearts' (v. 14-15) and 'inward circumcision' (v. 29)"
+          ],
+          "focusVerse": "2:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the church in Rome) is being judged, WHAT (passing judgment on others while sinning), WHERE (the community of believers), and WHY (to show God's impartial judgment).",
+          "tips": [
+            "Include the contrast between Jews and Gentiles in terms of law observance",
+            "Note Paul's warning about hypocrisy and the importance of works over words"
+          ],
+          "focusVerse": "2:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the law written on hearts (v. 14-15), the inward circumcision (v. 29), or the impartial judgment (v. 11).",
+          "tips": [
+            "The law written on hearts shows God's universal provision of moral law without written law",
+            "Inward circumcision (by the Spirit) is a more profound transformation than outward rituals",
+            "God's impartial judgment (v. 11) challenges human pride in religious status"
+          ],
+          "focusVerse": "2:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome about God's righteous judgment?",
+          "tips": [
+            "Paul is challenging the church to move from external religious performance to genuine transformation by the Spirit",
+            "The main point is that true righteousness comes from the heart, not from external rituals or law-keeping"
+          ],
+          "focusVerse": "2:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of the law for Gentiles, the meaning of 'inward circumcision', and God's impartial judgment.",
+          "tips": [
+            "The law written on hearts (v. 14-15) means that Gentiles have an innate moral sense, but it's not sufficient for justification",
+            "Inward circumcision (v. 29) is a spiritual transformation, not a physical act",
+            "God's impartial judgment (v. 11) means that no one is saved by their religious status but by their works in Christ"
+          ],
+          "focusVerse": "2:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of inward circumcision (v. 29) this week?",
+          "tips": [
+            "Identify one area where you are relying on external rituals (e.g., religious activities) instead of internal transformation",
+            "Pray for the Holy Spirit to work in your heart to change your motivations and actions"
+          ],
+          "focusVerse": "2:29"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His impartial judgment and ask for the transformation of your heart.",
+          "tips": [
+            "Thank God for judging us impartially through Christ",
+            "Ask for the Spirit to transform your heart so that you are truly circumcised inwardly"
+          ],
+          "focusVerse": "2:11"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 3,
+      "chapterTitle": "All Under Sin, Justified by Faith",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Romans 3 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 4,
+      "chapterTitle": "Abraham Justified by Faith",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 4:1-25 aloud, focusing on the phrase 'Abraham believed God, and it was counted to him as righteousness' (v.3) and the repetition of 'justified' in verses 5-8.",
+          "tips": [
+            "Notice the phrase 'it was counted to him as righteousness' appears in verse 3 and is a key declaration",
+            "Pay attention to the contrast between 'works' and 'faith' in verses 4-5",
+            "The term 'uncircumcised' in verse 11 highlights the universal scope of the promise"
+          ],
+          "focusVerse": "Romans 4:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Abraham and believers), WHAT (being justified by faith), WHERE (in the context of the church in Rome), and WHY (so that we are not justified by works but by faith in Christ).",
+          "tips": [
+            "Include that Abraham was justified before circumcision (v.11)",
+            "Note the promise of inheritance through faith (v.16)",
+            "Describe how the Roman church might have been confused about justification (works vs. faith)"
+          ],
+          "focusVerse": "Romans 4:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: 'Abraham believed God, and it was counted to him as righteousness' (v.3), 'Abraham is the father of all who believe' (v.16), or the contrast between works and faith in verses 4-5.",
+          "tips": [
+            "The phrase 'counted to him as righteousness' shows God's declaration of righteousness comes by faith alone",
+            "Abraham being the father of all who believe emphasizes the universal scope of the promise",
+            "The contrast in verses 4-5 highlights that justification is not by works but by faith"
+          ],
+          "focusVerse": "Romans 4:3-5"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome about justification and faith?",
+          "tips": [
+            "Paul is correcting the Roman church's possible focus on works for justification",
+            "The main point is that we are justified by faith in Christ, not by works, and Abraham is the model for all believers",
+            "This passage shows that the promise of righteousness comes through faith in God, not through the law or rituals"
+          ],
+          "focusVerse": "Romans 4:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'justified the ungodly', the concept of 'counted as righteousness', and the role of circumcision in the new covenant.",
+          "tips": [
+            "'Justified the ungodly' (v.5) means God declares the ungodly righteous through faith",
+            "'Counted as righteousness' (v.3) refers to God's imputation of righteousness through faith",
+            "Circumcision was a sign of the covenant (v.11) but faith is the true seal in the new covenant"
+          ],
+          "focusVerse": "Romans 4:3-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the concept of faith being counted as righteousness to your life this week?",
+          "tips": [
+            "When facing uncertainty, trust that God will count your faith as righteousness",
+            "Surrender a specific area of struggle to God, knowing He will declare it righteous through faith",
+            "Read Romans 4:16 and reflect on how being a child of Abraham by faith changes your identity"
+          ],
+          "focusVerse": "Romans 4:16"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He justifies us by faith and not by works. Ask for the courage to trust Him in difficult circumstances.",
+          "tips": [
+            "Thank God for the promise that Abraham is the father of all who believe (v.16)",
+            "Pray for the Holy Spirit to help you live by faith, not by works",
+            "Ask God to strengthen your faith so you can be counted as righteous by Him"
+          ],
+          "focusVerse": "Romans 4:16"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 5,
+      "chapterTitle": "Peace with God and Adam's Contrast with Christ",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 5:1-11 aloud, paying attention to the contrast between Adam and Christ in verses 12-15.",
+          "tips": [
+            "Notice the phrase 'peace with God' appears in verses 1 and 5",
+            "Pay attention to the contrast between Adam (v.12) and Christ (v.14-15)",
+            "Notice the repetition of 'grace abounds' in verses 20 and 21"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO has peace with God, WHAT this peace means, WHERE it is established, and WHY it is significant.",
+          "tips": [
+            "We (the believers) have peace with God through Christ",
+            "This peace is established by justification by faith (v.1)",
+            "The contrast with Adam (v.12) shows that Christ's work reverses the curse of the first man"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the peace with God (v.1), the love poured into hearts (v.8), or the contrast with Adam (v.12-15)?",
+          "tips": [
+            "The phrase 'God's love has been poured into our hearts through the Holy Spirit' (v.8) shows the intimate relationship we now have with God",
+            "The contrast between Adam (who brought death) and Christ (who brings life) in verses 12-15 is a powerful illustration of redemption",
+            "The promise that 'grace abounds' (v.20) is a hopeful message for believers facing suffering"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome about the relationship between sin, Christ, and peace with God?",
+          "tips": [
+            "Paul emphasizes that through Christ, we have peace with God despite our sin",
+            "The contrast with Adam shows that Christ's work is the remedy for the curse of the first man",
+            "This passage builds on the previous chapter's theme of justification by faith and establishes the basis for the believer's relationship with God"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of peace with God while we are sinners? The contrast between Adam and Christ? The meaning of 'grace abounds'?",
+          "tips": [
+            "'Peace with God' in Romans 5:1 means reconciliation with God through Christ, not that we have earned it",
+            "The term 'ungodly' (v.6) refers to those outside of God's kingdom, but Christ died for us while we were still ungodly",
+            "'Grace abounds' (v.20) means God's favor and love increase beyond what we deserve, especially in the face of sin"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you experience the peace with God that Paul describes this week?",
+          "tips": [
+            "Practice gratitude for the peace we have with God through Christ",
+            "When you feel distant from God, remember that Christ's work has already reconciled us",
+            "Share the message of grace with someone who is struggling with sin"
+          ],
+          "focusVerse": "5:1"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the peace we have with Him through Christ. Ask for the Holy Spirit to pour out His love in our hearts as described in Romans 5:8.",
+          "tips": [
+            "Thank God for the peace we have with Him through Christ",
+            "Ask for the Holy Spirit to pour out His love in our hearts",
+            "Pray for the church in Rome to live in the freedom of grace and not be bound by sin"
+          ],
+          "focusVerse": "5:8"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 6,
+      "chapterTitle": "Dead to Sin, Alive to God",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 6:1-23 aloud, paying attention to the phrase 'dead to sin' (repeated in verses 2, 11) and the contrast between 'death' and 'life'.",
+          "tips": [
+            "Notice the repetition of 'dead to sin' in verses 2 and 11",
+            "Pay attention to the phrase 'alive to God in Christ Jesus' in verse 13",
+            "The emotional shift from condemnation to freedom"
+          ],
+          "focusVerse": "Romans 6:1-23"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (believers) is tested, WHAT (being united with Christ in death and resurrection) happens, WHERE (in Christ) it occurs, and WHY (to be free from sin's dominion).",
+          "tips": [
+            "Include the key event: baptism into Christ's death (verse 3-4)",
+            "Note the consequence: freedom from sin's power (verses 12-14)",
+            "The purpose: to walk in newness of life (verse 4)"
+          ],
+          "focusVerse": "Romans 6:1-23"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the union with Christ in death (verse 3), the resurrection life (verse 4), or the freedom from sin (verse 14)?",
+          "tips": [
+            "'We were buried with Him by baptism into death' (verse 4) - shows the death of the old self",
+            "'We have died with Christ' (verse 8) - a powerful declaration of union",
+            "'We are not under law but under grace' (verse 14) - addresses a common misunderstanding"
+          ],
+          "focusVerse": "Romans 6:1-23"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome through this passage?",
+          "tips": [
+            "Paul addresses the concern that believers might continue in sin to 'abound' in grace' (verse 1) by showing that in Christ, believers are dead to sin and alive to God",
+            "The main point is that believers are free from sin's dominion through union with Christ's death and resurrection",
+            "This passage is a response to the church's possible misunderstanding of grace"
+          ],
+          "focusVerse": "Romans 6:1-23"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of 'dead to sin', 'baptized into His death', and the statement that believers are 'not under law but under grace'?",
+          "tips": [
+            "'Dead to sin' means the believer's old self (sin nature) is no longer in control; it's a state of being freed from sin's power",
+            "'Baptized into His death' is a metaphor for the believer's identification with Christ's death (a spiritual reality, not physical)",
+            "'Not under law but under grace' means that believers are saved by grace through faith, not by works (so the law cannot be the basis for salvation)"
+          ],
+          "focusVerse": "Romans 6:1-23"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, identify one area where you feel you are still enslaved to sin and ask God to help you die to it (i.e., stop letting it control you) through the power of Christ's resurrection.",
+          "tips": [
+            "Consider an area of bitterness or selfishness that you need to let go",
+            "Think about how Christ's resurrection gives you new life to overcome sin",
+            "Practically, you can do this by confessing the sin and asking God to help you live in freedom"
+          ],
+          "focusVerse": "Romans 6:1-23"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that you are dead to sin and alive to Him in Christ Jesus. Ask for the strength to walk in newness of life and to be free from sin's dominion.",
+          "tips": [
+            "Thank God for being your death to sin and life to God",
+            "Ask for the power to live in freedom from sin's control",
+            "Pray for the courage to be a new creation in Christ"
+          ],
+          "focusVerse": "Romans 6:1-23"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 7,
+      "chapterTitle": "Released from the Law, Struggle with Sin",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 7:1-25 aloud, focusing on the contrast between the law and the believer's struggle.",
+          "tips": [
+            "Notice the repeated phrase 'the law' (appears 15 times in this chapter)",
+            "Pay attention to the emotional tone of Paul's anguish: 'wretched man that I am!' (v. 24)",
+            "Highlight the resolution in verse 25: 'Thanks be to God through Jesus Christ our Lord!'"
+          ],
+          "focusVerse": "7:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the believer) is struggling, WHAT (the conflict between the law of the mind and the law of the members), WHERE (in the believer's life), and WHY (because of the law's role in revealing sin).",
+          "tips": [
+            "Include Paul's description of being dead to the law (v. 4)",
+            "Note the internal battle: the law of my mind (good) vs. the law of my members (sinful)",
+            "Mention the resolution: freedom through Christ (v. 25)"
+          ],
+          "focusVerse": "7:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the struggle with sin (v. 22-23), the declaration of being dead to the law (v. 4), or the resolution in verse 25?",
+          "tips": [
+            "The phrase 'wretched man that I am!' (v. 24) perfectly captures the depth of the struggle",
+            "The contrast between the law of my mind and the law of my members (v. 22-23) shows the internal battle",
+            "The resolution in verse 25: 'Thanks be to God through Jesus Christ our Lord!' offers hope and deliverance"
+          ],
+          "focusVerse": "7:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome about the relationship between the law and the believer's freedom through Christ?",
+          "tips": [
+            "Paul's purpose: To show that believers are dead to the law and alive to Christ, so they are no longer under the law's condemnation but empowered by the Spirit",
+            "Theological significance: This passage addresses the common confusion that the law is the source of salvation, when in fact it only reveals sin and the solution is Christ"
+          ],
+          "focusVerse": "7:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The internal struggle with sin, the role of the law in revealing sin, or the meaning of 'died to the law'?",
+          "tips": [
+            "The phrase 'the law of my mind' refers to the law of God that the believer's conscience follows, while 'the law of my members' refers to the sinful nature that opposes it",
+            "The law is holy and good (v. 7) but sin uses it to provoke desire for sin (v. 7)",
+            "'Died to the law' means the believer's old self (the one bound by the law) has been crucified with Christ"
+          ],
+          "focusVerse": "7:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the freedom from the law and the struggle with sin to your life this week?",
+          "tips": [
+            "Identify one area where you are still held by the law (e.g., guilt, rules) and confess it to God",
+            "Pray for the Spirit to help you live by the new life in Christ, not the old self",
+            "Practice releasing the law's condemnation by thanking God for Christ's death and resurrection"
+          ],
+          "focusVerse": "7:4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the freedom from the law and ask for strength to live by the Spirit.",
+          "tips": [
+            "Thank God for the freedom from the law through Christ",
+            "Ask for the strength to resist sin and live by the Spirit",
+            "Pray for the Holy Spirit to help you understand the battle between the law of your mind and the law of your members"
+          ],
+          "focusVerse": "7:25"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 8,
+      "chapterTitle": "Life in the Spirit, No Condemnation",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Romans 8 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 9,
+      "chapterTitle": "God's Sovereign Election of Israel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 9:1-24 aloud, focusing on the contrast between the twins and the story of Isaac.",
+          "tips": [
+            "Notice the repeated phrase 'children of the flesh' and 'children of promise' (v.1-13)",
+            "Pay attention to Paul's emotional tone of sorrow for Israel (v.1-2)",
+            "Highlight the key phrase 'Jacob I loved, but Esau I hated' (v.11)"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God elects, WHAT happens, WHERE this occurs (theologically), and WHY it matters for the church in Rome.",
+          "tips": [
+            "Include the story of Rebekah and the twins (v.10-13)",
+            "Note the hardening of Pharaoh and the potter and clay metaphor (v.20-21)",
+            "Mention the contrast between the children of the flesh and the children of promise (v.1-13)"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the story of Jacob and Esau (v.10-13), the potter and clay metaphor (v.20-21), or the hardening of Pharaoh (v.18-21)?",
+          "tips": [
+            "The phrase 'Jacob I loved, but Esau I hated' (v.11) shows God's sovereign choice without regard to human merit",
+            "The potter and clay metaphor (v.20-21) powerfully illustrates God's absolute sovereignty over His creation",
+            "The hardening of Pharaoh (v.18-21) demonstrates God's sovereign will to show His wrath and mercy"
+          ],
+          "focusVerse": "9:10-21"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome about God's election of Israel?",
+          "tips": [
+            "Paul addresses the church in Rome to show that God's election is sovereign and not based on human merit",
+            "This passage responds to the church's potential misunderstanding that Jews are the only people who can be saved by works",
+            "The main point is that God has mercy on whom He wills and hardens whom He wills, regardless of human effort"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of 'children of promise' vs. 'children of the flesh', the hardening of Pharaoh, or God's sovereignty?",
+          "tips": [
+            "'Children of the flesh' refers to those physically descended from Abraham (Jews) but not the true children of God",
+            "God's hardening of Pharaoh is a divine act to show His sovereignty and bring about the salvation of the Gentiles",
+            "The potter and clay metaphor (v.20-21) is an Old Testament analogy illustrating God's absolute authority over creation"
+          ],
+          "focusVerse": "9:1-21"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does God's sovereign election impact your life this week? Consider an area where you feel you have control but God has already chosen.",
+          "tips": [
+            "Pray for humility in the face of God's sovereignty",
+            "Ask God to help you trust His election for your life",
+            "Reflect on Jacob and Esau to understand God's choice is not based on human merit"
+          ],
+          "focusVerse": "9:11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His sovereign election and ask for courage to trust His plan.",
+          "tips": [
+            "Thank God for His sovereign election of believers",
+            "Ask for courage to trust God's plan even when it doesn't make sense",
+            "Pray for the church in Rome to understand salvation comes by faith, not works"
+          ],
+          "focusVerse": "9:24"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 10,
+      "chapterTitle": "Salvation for All Who Call on Christ",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Romans 10 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 11,
+      "chapterTitle": "Israel's Remnant and Future Restoration",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 11:1-26 aloud, paying attention to the contrast between Israel's rejection and God's preservation of a remnant.",
+          "tips": [
+            "Notice the repeated phrase 'God has not rejected' (v.1) and 'the remnant' (v.5, 25)",
+            "Pay attention to the emotional tone of Paul's warning about the natural branches (v.17-24) and the hope for future restoration (v.25-26)",
+            "Note the contrast in the use of 'Israel' (the nation) vs 'the remnant' (the elect)"
+          ],
+          "focusVerse": "11:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO is being discussed (Israel and Gentiles), WHAT God has done (preserved a remnant, grafted in Gentiles), WHERE this occurs (in the church and the nation of Israel), and WHY (to restore all Israel and show God's wisdom).",
+          "tips": [
+            "Include the concept of 'the remnant chosen by grace' (v.5)",
+            "Note the role of the Gentiles being grafted in as wild olive branches (v.17-18)",
+            "Mention the promise that 'all Israel will be saved' (v.26)"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Paul's description of the remnant (v.5), the metaphor of the olive tree (v.17-18), or the promise of full restoration (v.25-26)?",
+          "tips": [
+            "The phrase 'the remnant chosen by grace' (v.5) shows God's sovereignty and grace without merit",
+            "The olive tree metaphor (v.17-18) is vivid: Gentiles are grafted in by faith, not by works",
+            "The promise of 'all Israel will be saved' (v.26) is a profound hope that unifies both Jews and Gentiles in God's plan"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome about Israel's future and the role of the Gentiles?",
+          "tips": [
+            "Paul emphasizes that God has not rejected Israel, but has preserved a remnant through grace",
+            "The purpose of the Gentiles being grafted in is to make Israel jealous and lead to their restoration",
+            "This passage shows God's deep wisdom in His plan for both Jews and Gentiles to be saved through Christ"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of Israel's hardening, the role of the remnant, or the idea that all Israel will be saved?",
+          "tips": [
+            "The term 'hardening' (v.14) is often misunderstood as God actively causing unbelief, but Paul means it's the result of Israel's persistent unbelief",
+            "The phrase 'the remnant chosen by grace' (v.5) emphasizes that salvation is by God's choice, not human effort",
+            "The promise that 'all Israel will be saved' (v.26) is a future event that requires faith in Christ, not a guarantee for all who are Jewish"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the idea of being a 'wild olive branch' (v.17) in your life this week?",
+          "tips": [
+            "Consider how you have been 'grafted in' by faith into the church (the olive tree) and how that affects your relationships",
+            "Practice humility by recognizing that your spiritual life depends on God's grace, not your own efforts",
+            "Ask God to help you be a living branch that brings life to others, just as the olive tree produces fruit"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about God's plan for Israel's restoration and your role as a Gentile in the church.",
+          "tips": [
+            "Thank God for preserving a remnant of Israel and for the gift of Christ to the Gentiles",
+            "Ask for the courage to be part of God's plan for restoration, even when it's difficult",
+            "Pray for the church in Rome to understand that God's wisdom in saving both Jews and Gentiles is beyond human comprehension"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 12,
+      "chapterTitle": "Living Sacrifices and the Body of Christ",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 12:1-12 aloud, paying attention to the phrase 'living sacrifices', 'renewed mind', and the repetition of 'one body' and 'many members'.",
+          "tips": [
+            "Notice the phrase 'living sacrifices' (v.1) appears in the context of holy and acceptable worship",
+            "Pay attention to the repeated phrase 'one body' (v.4, 12) which emphasizes unity",
+            "The phrase 'overcome evil with good' (v.21) is a key contrast to the world's ways"
+          ],
+          "focusVerse": "Romans 12:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize who (the believers), what (presenting their bodies as living sacrifices), where (in the church community), and why (because of God's mercies in Christ) Paul is calling the church in Rome to do.",
+          "tips": [
+            "Include the concept of being transformed by the renewal of mind (v.2)",
+            "Note that each believer is a member of Christ's body (v.4) with gifts for service",
+            "Emphasize the call to love even enemies (v.21)"
+          ],
+          "focusVerse": "Romans 12:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the living sacrifice (v.1), the body of Christ (v.4-5), or 'overcome evil with good' (v.21)?",
+          "tips": [
+            "The phrase 'living sacrifices, holy and acceptable to God' (v.1) is a powerful image of complete devotion",
+            "The unity of the body: 'we who are many are one body in Christ' (v.5) shows the profound connection between believers",
+            "The command to 'bless those who persecute you' (v.21) is a radical call to love that challenges the world"
+          ],
+          "focusVerse": "Romans 12:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome through this passage?",
+          "tips": [
+            "Paul is calling the church to a life of sacrificial worship and unity in Christ",
+            "The main point is that believers, as members of Christ's body, must live in mutual love and service, not conformity to the world",
+            "This passage builds on the theme of being transformed by the renewing of mind (v.2) and the call to active love"
+          ],
+          "focusVerse": "Romans 12:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The concept of 'living sacrifices', the meaning of 'one body', or the practical application of 'overcome evil with good'?",
+          "tips": [
+            "'Living sacrifices' (v.1) is not a physical sacrifice but a voluntary offering of one's whole life to God",
+            "'One body' (v.4) can be challenging because it emphasizes unity in diversity of gifts, which may seem contradictory to individualism",
+            "'Overcome evil with good' (v.21) is a call to active love that may be difficult when faced with deliberate harm"
+          ],
+          "focusVerse": "Romans 12:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "As a living sacrifice, how can you actively use your gifts to serve the church this week?",
+          "tips": [
+            "Identify one gift you have (e.g., teaching, service) and do something practical with it this week",
+            "Practice the command to 'love one another with brotherly affection' (v.10) by reaching out to someone who is struggling",
+            "Choose one person to bless who has persecuted you, as a way to 'overcome evil with good' (v.21)"
+          ],
+          "focusVerse": "Romans 12:1-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercies and ask for the strength to live as a living sacrifice in Christ.",
+          "tips": [
+            "Thank God for providing the gift of the Holy Spirit to renew our minds",
+            "Pray for unity in the church and for the courage to love even our enemies",
+            "Ask God to help you to overcome evil with good in your daily interactions"
+          ],
+          "focusVerse": "Romans 12:1-12"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 13,
+      "chapterTitle": "Submission to Authorities and Love's Fulfillment",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 13:1-16 aloud, focusing on the contrast between 'submission to authorities' (vv. 1-7) and 'love's fulfillment of the law' (vv. 8-10).",
+          "tips": [
+            "Notice the repetition of 'submit' in verses 1 and 5",
+            "Pay attention to the phrase 'love your neighbor as yourself' in verse 9",
+            "Note the transition from 'rulers' to 'love' in verses 8-10"
+          ],
+          "focusVerse": "13:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the church in Rome) is being instructed, WHAT (to submit to authorities and love others), WHERE (in the context of the Roman Empire), and WHY (because authorities are God's servants and love fulfills the law).",
+          "tips": [
+            "Include the three key commands: submit to authorities, pay taxes, and love each other",
+            "Note that the church is called to be subject to the governing authorities of Rome",
+            "Describe the connection between love and the law (the commandments)"
+          ],
+          "focusVerse": "13:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the command to 'owe no one anything except to love each other' (v.8), the summary of the law in 'love your neighbor as yourself' (v.9), or the call to 'put on Christ' (v.14).",
+          "tips": [
+            "The phrase 'love your neighbor as yourself' is a concise and profound summary of the law, making it easy to apply",
+            "The idea that love fulfills the law (v.10) shows that the law is not about rules but about relationship",
+            "The command to 'put on Christ' (v.14) is a call to transform the believer's identity"
+          ],
+          "focusVerse": "13:8-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome about their relationship with authorities and the fulfillment of the law through love?",
+          "tips": [
+            "Paul is addressing the church's need to live in a way that honors God's authority and reflects Christ's love",
+            "The passage emphasizes that true obedience to authorities comes from love, not fear",
+            "This is part of Paul's larger argument that believers are to live by the Spirit and not by the law of the flesh"
+          ],
+          "focusVerse": "13:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The command to submit to authorities in a modern context? The meaning of 'love' as the fulfillment of the law? The phrase 'the hour has come to wake from sleep'?",
+          "tips": [
+            "In ancient Rome, authorities were seen as human and fallible, but Paul says they are God's servants (v.4) - this challenges the idea that authorities are always right",
+            "The phrase 'love your neighbor as yourself' (v.9) is a high standard that requires daily practice, not just a one-time decision",
+            "The 'wake from sleep' (v.11) is a metaphor for the believer's spiritual awakening to live in the light, not a literal event"
+          ],
+          "focusVerse": "13:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the teaching that love fulfills the law this week? Specifically, how can you show love to someone who is difficult to relate to?",
+          "tips": [
+            "Choose one person who needs your kindness and do something small that shows respect and love",
+            "Practice the command: 'Owe no one anything except to love each other'",
+            "Reflect on how your actions (like paying taxes) are a form of love to the authorities"
+          ],
+          "focusVerse": "13:8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His authority and love. Ask for the strength to obey authorities and love others as Christ did.",
+          "tips": [
+            "Thank God for the gift of authority that He has placed in the world to maintain order",
+            "Pray for the courage to love others even when it's difficult",
+            "Ask God to help you see how love fulfills the law in your daily life"
+          ],
+          "focusVerse": "13:8"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 14,
+      "chapterTitle": "The Weak and the Strong",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 14:1-23 aloud, paying attention to the contrast between the strong and weak in faith.",
+          "tips": [
+            "Notice the repeated phrase 'do not destroy the one for whom Christ died' (v.20)",
+            "Pay attention to the emotional tone of Paul's warning against judgment (v.13-15)",
+            "The phrase 'the kingdom of God' appears in v.17 and is contrasted with 'eating and drinking'"
+          ],
+          "focusVerse": "Romans 14:1-23"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the church in Rome) is dealing with what issue (differing practices in diet and days), WHERE (the church community), and WHY (to avoid causing harm and to live in unity with Christ).",
+          "tips": [
+            "Include the example of one person eating and another abstaining (v.2)",
+            "Note the consequence of judgment: 'we will all stand before the judgment seat of God' (v.10)",
+            "Mention the key phrase 'the kingdom of God is not a matter of eating and drinking' (v.17)"
+          ],
+          "focusVerse": "Romans 14:1-23"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Paul's warning against judgment (v.13), the phrase 'nothing is unclean in itself' (v.14), or 'the kingdom of God' (v.17)?",
+          "tips": [
+            "The phrase 'nothing is unclean in itself' (v.14) is a powerful reminder of God's sovereignty",
+            "The contrast in v.17 between the kingdom of God and eating/drinking highlights the true focus of the Christian life",
+            "The statement 'do not destroy the one for whom Christ died' (v.20) is a profound call to love and humility"
+          ],
+          "focusVerse": "Romans 14:14-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome through this passage?",
+          "tips": [
+            "Paul emphasizes that true unity comes from Christ, not from rigid rules",
+            "He warns against the danger of using one's liberty to harm others, especially the weak in faith",
+            "The main point is that we must live in love and mutual respect, recognizing that Christ has already made us free"
+          ],
+          "focusVerse": "Romans 14:1-23"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The definition of 'weak' and 'strong', the concept of 'unclean' in the context of food, and the meaning of 'kingdom of God' as righteousness and peace.",
+          "tips": [
+            "'Weak' in faith refers to those who are hesitant or unable to follow certain practices, not to moral weakness",
+            "The phrase 'nothing is unclean in itself' means that all things are permissible by God, but they become unclean when we use them in a way that offends others",
+            "The kingdom of God is not about external practices but about the internal transformation of the heart through the Holy Spirit"
+          ],
+          "focusVerse": "Romans 14:14-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'not destroying the one for whom Christ died'. What situation this week requires you to avoid causing harm to a brother in Christ?",
+          "tips": [
+            "Consider a meal or event where you might inadvertently cause offense to someone who is weak in faith",
+            "How can you check with a brother before sharing food or making decisions that might affect others?",
+            "Pray for the strength to be compassionate and not judge when you are tempted to do so"
+          ],
+          "focusVerse": "Romans 14:20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the freedom we have in Christ and ask for the strength to love and respect those who are weak in faith.",
+          "tips": [
+            "Thank God that He has already died and risen for us, so we are free from the condemnation of sin",
+            "Pray for the courage to avoid making a brother stumble",
+            "Ask God to help us see others as brothers and to live in the kingdom of righteousness and peace"
+          ],
+          "focusVerse": "Romans 14:1-23"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 15,
+      "chapterTitle": "Christ's Example and Paul's Mission",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 15:1-31 aloud, paying attention to the phrase 'bear with the failings of the weak' (v.1) and the quote from Isaiah (v.3).",
+          "tips": [
+            "Notice the repetition of 'bear with the weak' in verses 1 and 14",
+            "Pay attention to the emotional weight of Christ bearing reproaches (v.3)",
+            "Listen for the contrast between Christ's humility and Paul's ambition (v.20)"
+          ],
+          "focusVerse": "15:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the church in Rome) does WHAT (to bear with the weak and build each other up), WHERE (the church in Rome), and WHY (to follow Christ's example and glorify God).",
+          "tips": [
+            "Paul's call to bear with the weak (v.1)",
+            "Christ's example of bearing reproaches (v.3)",
+            "Paul's missionary journey and plans (v.20-21)"
+          ],
+          "focusVerse": "15:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Christ's humility (v.3), Paul's missionary vision (v.20), or the call to bear with the weak (v.1).",
+          "tips": [
+            "Christ did not please Himself but bore reproaches for us - a profound statement about humility",
+            "The quote from Isaiah shows how Christ's suffering was for our redemption",
+            "Paul's ambition to preach Christ where He has not been named shows the gospel's universal scope"
+          ],
+          "focusVerse": "15:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome through this passage?",
+          "tips": [
+            "Paul emphasizes that Christ's example of humility and bearing reproaches should motivate us to bear with one another",
+            "He calls the church to unity and mutual support, especially as Gentiles and Jews share in the same faith",
+            "This passage is a bridge between the church's current unity and Paul's future mission"
+          ],
+          "focusVerse": "15:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'weak', the reference to Christ bearing reproaches, and Paul's plan to go to Jerusalem.",
+          "tips": [
+            "In 1st century context, 'weak' refers to those who are less mature in faith, not the morally weak",
+            "The phrase 'reproaches' comes from Isaiah 53:3, which speaks of Christ bearing the sins of the world",
+            "Paul's mission to Jerusalem is to fulfill his duty as an apostle to the Gentiles and to support the Jewish church"
+          ],
+          "focusVerse": "15:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "As Paul says, 'we who are strong have an obligation to bear with the failings of the weak' (v.1). What situation requires you to bear with someone this week?",
+          "tips": [
+            "Identify one person who is struggling and practice patience and support",
+            "Consider how you can be a 'strong' believer without taking the blame",
+            "Pray for the grace to build up others as Christ built us"
+          ],
+          "focusVerse": "15:1-31"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for Christ's example of humility and ask for the strength to bear with others.",
+          "tips": [
+            "Thank God that He bore our reproaches as our substitute",
+            "Pray for the grace to be patient with those who are struggling",
+            "Ask God for courage to follow Christ's example in the church"
+          ],
+          "focusVerse": "15:1-31"
+        }
+      ]
+    },
+    {
+      "bookId": "romans",
+      "bookName": "Romans",
+      "chapter": 16,
+      "chapterTitle": "Greetings and Final Warnings",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Romans 16:1-27 aloud, focusing on the greeting pattern and the contrast between commendations and warnings.",
+          "tips": [
+            "Notice the repeated structure: 'I commend to you ...' for Phoebe, and 'I greet ...' for others",
+            "Pay attention to the phrase 'the God of peace will soon crush Satan under their feet' (v.20) for hope",
+            "Note the contrast between the list of believers (v.1-16) and the warning about divisive people (v.17-20)"
+          ],
+          "focusVerse": "Romans 16:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO Paul commends and greets, WHAT he does (commendations and warnings), WHERE this takes place (the church in Rome), and WHY he writes this (to encourage and warn).",
+          "tips": [
+            "Include Phoebe as a deacon in the church at Cenchreae",
+            "Note that Prisca and Aquila were Paul's fellow workers who risked their lives for him",
+            "The warning about divisive people is a call to unity and doctrinal purity"
+          ],
+          "focusVerse": "Romans 16:1-27"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Which part stood out most? Consider: Phoebe's role (v.1), the warning about divisive people (v.17-18), or the doxology (v.27)?",
+          "tips": [
+            "Phoebe as a deacon shows women's leadership in the early church",
+            "The warning about divisive people is practical for today's church (e.g., false teachers and social divisions)",
+            "The doxology (v.27) emphasizes God's sovereignty and the revelation of the mystery of Christ"
+          ],
+          "focusVerse": "Romans 16:1-27"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Rome through this passage?",
+          "tips": [
+            "Paul encourages the church by recognizing their faithfulness and leaders",
+            "He warns against false teachers who cause division and undermine the gospel",
+            "The ultimate goal is to glorify God through the church's unity and obedience to the gospel"
+          ],
+          "focusVerse": "Romans 16:1-27"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The list of names? The meaning of 'divisive people'? The promise about crushing Satan?",
+          "tips": [
+            "The term 'fellow prisoners' (v.7) refers to Paul's imprisonment in Rome and Junia and Andronicus were prominent church leaders",
+            "Divisive people (v.17-18) are those who cause schisms and false teachings, not just disagreements",
+            "The phrase 'crush Satan under their feet' (v.20) is a metaphor for God's final victory over evil (as in 1 Corinthians 15:24)"
+          ],
+          "focusVerse": "Romans 16:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the warning about divisive people (v.17-18) this week? Identify one situation where you might be part of division and take action to resolve it with truth and love.",
+          "tips": [
+            "Consider a group or family where there is tension and seek to address it with biblical truth",
+            "Avoid being influenced by false teachers by relying on Scripture and the church community",
+            "Pray for wisdom to discern and avoid divisive influences"
+          ],
+          "focusVerse": "Romans 16:17-20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the church in Rome and for the leaders they have, ask for wisdom to avoid divisive people, and pray for God's victory over Satan.",
+          "tips": [
+            "Thank God for the church's unity and leadership",
+            "Ask for the strength to discern false teachers and to avoid deception",
+            "Pray that God will crush Satan's power in your life and in the church"
+          ],
+          "focusVerse": "Romans 16:20"
+        }
+      ]
+    }
+  ]
+}

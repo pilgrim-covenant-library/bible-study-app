@@ -1,0 +1,92 @@
+{
+  "bookId": "obadiah",
+  "bookName": "Obadiah",
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "bookId": "obadiah",
+      "bookName": "Obadiah",
+      "chapter": 1,
+      "chapterTitle": "Judgment on Edom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Obadiah 1:1-11 aloud, paying attention to the contrast between Edom's pride and God's judgment.",
+          "tips": [
+            "Notice the repeated phrase 'the pride of your heart' (v3) and the contrast with God's judgment",
+            "Pay attention to the emotional tone of Edom's arrogance: 'Who will bring me down to the ground?' (v3)",
+            "The imagery of 'soaring aloft like the eagle' (v4) and 'from there I will bring you down' (v4)"
+          ],
+          "focusVerse": "Obadiah 1:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Edom) is being judged, WHAT (God's judgment on Edom), WHERE (Edom's actions against Judah), and WHY (Edom's pride and violence).",
+          "tips": [
+            "Include Edom's role as the one who stood aloof and let strangers carry off Judah's wealth (v6)",
+            "Note the specific consequence: Edom will be cut off forever (v5) and become like stubble (v11)",
+            "Mention the contrast between Edom's destruction and the deliverance in Mount Zion (v10)"
+          ],
+          "focusVerse": "Obadiah 1:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Edom's arrogance (v3), the imagery of being brought down (v4), or the contrast in v11.",
+          "tips": [
+            "Edom's boastful declaration: 'Who will bring me down to the ground?' (v3) is a powerful example of pride that leads to downfall",
+            "The contrast in v11: 'The house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau stubble' is a vivid metaphor for God's judgment on Edom and blessing on Judah",
+            "The promise that in Mount Zion there will be escape (v10) offers hope amidst the judgment"
+          ],
+          "focusVerse": "Obadiah 1:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Obadiah trying to communicate to Edom/Judah through this passage?",
+          "tips": [
+            "Obadiah warns Edom that their pride and violence against Judah will lead to total destruction, but also points to the future deliverance for God's people in Mount Zion",
+            "The passage emphasizes that God's judgment is just and will come upon those who oppose His people, while His blessing is reserved for the faithful",
+            "This prophecy serves as a reminder that even in the midst of judgment, God's people in Zion will be protected"
+          ],
+          "focusVerse": "Obadiah 1:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The identity of Edom as the enemy of Judah? The meaning of 'the day of the LORD'? The symbolism of 'stubble'?",
+          "tips": [
+            "Edom's historical role: In the ancient Near East, Edom was a nation that was often in conflict with Judah (the southern kingdom of Israel). This passage refers to Edom's past actions of violence again",
+            "'The day of the LORD' (v8) refers to God's day of judgment, not a specific future event but a time when God's wrath will be poured out on all nations",
+            "The image of 'stubble' (v11) symbolizes something that is burned away and destroyed, while the 'fire' and 'flame' represent the active, enduring blessing of God's people"
+          ],
+          "focusVerse": "Obadiah 1:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does this passage challenge us to respond? Tie to the theme of 'pride leading to destruction' (v3) or 'the day of the LORD is near' (v8).",
+          "tips": [
+            "Consider a time when you've been proud and how it might have led you to act against others",
+            "Pray for humility and a heart that seeks God's judgment rather than others' downfall",
+            "Commit to not rejoicing when others face trouble (v7) and to stand with those in need"
+          ],
+          "focusVerse": "Obadiah 1:1-11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about Edom's judgment and the promise of deliverance in Mount Zion.",
+          "tips": [
+            "Thank God for His judgment on pride and for the promise of deliverance for His people",
+            "Pray for humility in your own life and for the strength to avoid taking pleasure in others' suffering",
+            "Ask God to help you be a refuge for others, like Mount Zion"
+          ],
+          "focusVerse": "Obadiah 1:1-11"
+        }
+      ]
+    }
+  ]
+}

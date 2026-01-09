@@ -1,0 +1,1007 @@
+{
+  "bookId": "ecclesiastes",
+  "bookName": "Ecclesiastes",
+  "totalChapters": 12,
+  "chapters": [
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 1,
+      "chapterTitle": "All Is Vanity",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 1:1-12 aloud, paying attention to the repetition of 'vanity' and the cyclical patterns.",
+          "tips": [
+            "Notice the phrase 'vanity of vanities' (v.2) repeated in concept throughout",
+            "The phrase 'there is nothing new under the sun' (v.9) is a key refrain",
+            "Observe the emotional tone shifting from despair to a moment of seeking wisdom (v.13)"
+          ],
+          "focusVerse": "1:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO is observing life, WHAT he finds, WHERE this happens, and WHY he seeks meaning.",
+          "tips": [
+            "Solomon's journey to understand life's purpose",
+            "The endless cycle of generations and nature",
+            "The futility of toil and the search for meaning"
+          ],
+          "focusVerse": "1:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the statement 'all is vanity' (v.2), the cycles of nature (v.4-5), or the search for wisdom (v.13)?",
+          "tips": [
+            "The phrase 'all is vanity' (v.2) is a stark declaration that sets the tone",
+            "The observation of cycles (e.g., sun rising and setting, streams running to the sea) shows the repetitive nature of life",
+            "The moment of seeking wisdom (v.13) shows a turning point in Solomon's journey"
+          ],
+          "focusVerse": "1:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is saying that without God, life is ultimately meaningless and cyclical",
+            "The passage points to the need for God's wisdom to break the cycle of vanity",
+            "This sets the stage for Christ as the solution to the vanity of life"
+          ],
+          "focusVerse": "1:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The meaning of 'vanity', the concept of 'endless cycles', and the phrase 'nothing new under the sun'?",
+          "tips": [
+            "'Vanity' (Hebrew: he'el) means futility or emptiness, not just 'meaninglessness'",
+            "The 'endless cycles' (v.4) refer to natural and human patterns that repeat without change",
+            "'Nothing new under the sun' (v.9) means no innovation in the human experience of life without God"
+          ],
+          "focusVerse": "1:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'striving after wind' (v.14). What area of your life are you currently 'striving after wind' (i.e., chasing emptiness)?",
+          "tips": [
+            "Identify a project or goal that feels unproductive like 'striving after wind'",
+            "Ask: 'Is this goal bringing lasting meaning or just temporary satisfaction?'",
+            "Commit to one area where you can stop chasing emptiness and seek God's purpose"
+          ],
+          "focusVerse": "1:1-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the vanity of life without God and the hope found in Christ.",
+          "tips": [
+            "Thank God for revealing the vanity of life without Him",
+            "Ask for the courage to stop chasing empty things and trust in Christ",
+            "Pray for wisdom to see God's purpose in your life"
+          ],
+          "focusVerse": "1:1-12"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 2,
+      "chapterTitle": "The Vanity of Pleasure and Work",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 2:1-11 aloud, paying attention to the emotional shift from confidence to despair in verses 1-3 and the realization of vanity in verses 10-11.",
+          "tips": [
+            "Notice the repetition of 'vanity' (v.1, v.11)",
+            "Pay attention to the phrase 'I hated life' (v.9) and 'I hated my toil' (v.11) for emotional weight",
+            "The phrase 'what use is it?' (v.2) appears twice in the passage"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Solomon), WHAT (tested pleasure and work), WHERE (under the sun), and WHY (to find meaning).",
+          "tips": [
+            "Include the three main actions: testing pleasure (v.1), making great works (v.4), and realizing vanity (v.11)"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the testing of pleasure (v.1), the description of great works (v.4), or the conclusion of vanity (v.11)?",
+          "tips": [
+            "The phrase 'I made great works—houses, vineyards, gardens, pools' (v.4) shows the scale of human effort",
+            "The phrase 'I had servants, herds, silver, gold, singers' (v.4) illustrates the pursuit of pleasure without purpose",
+            "The statement 'Then I considered all my hands had done, and behold, all was vanity' (v.11) is a powerful conclusion"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is warning against the futility of human efforts without God",
+            "The passage emphasizes that all human achievements are temporary and will pass away",
+            "This leads to the need for a higher purpose beyond earthly possessions"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The phrase 'grievous' (v.9), the concept of 'vanity' (v.11), and the idea that 'one fate comes to all' (v.11)?",
+          "tips": [
+            "'Grievous' (Hebrew: 'dor') means heavy or burdensome, not just 'bad' or 'painful' in the sense of suffering",
+            "The Hebrew word 'hevel' (vanity) refers to something that is fleeting and without lasting value",
+            "The statement 'one fate comes to all' (v.11) means that death and the afterlife are the same for everyone, regardless of their achievements"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of the vanity of work. What specific area of your life, where you are pursuing something that may be temporary, can you let go of this week?",
+          "tips": [
+            "Consider a project or hobby that you are working hard on but may not have lasting value",
+            "Think about how your work or time is being used without a purpose that endures",
+            "How can you redirect your efforts toward something that has eternal significance?"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the vanity of human achievements and the need for God's purpose in your life.",
+          "tips": [
+            "Thank God for His perspective beyond our temporary efforts",
+            "Ask for the courage to let go of what is fleeting and trust in His eternal purpose",
+            "Pray for wisdom to see where your efforts are truly valuable"
+          ],
+          "focusVerse": "2:1-11"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 3,
+      "chapterTitle": "A Time for Everything",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 3:1-15 aloud, paying attention to the repeated phrase 'there is a time' and the contrast between human efforts and God's design.",
+          "tips": [
+            "Notice the repeated phrase 'there is a time' (v.1, 2, 3, etc.)",
+            "Pay attention to the emotional shift from observation to joy (v.12-13)",
+            "Notice the contrast between the temporary (human) and eternal (God's)"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Solomon) is observing, WHAT (the seasons of life), WHERE (the world), and WHY (to find meaning in the fleeting nature of life).",
+          "tips": [
+            "Include Solomon's reflection on the cyclical nature of life and work",
+            "Note the contrast between human efforts and God's eternal design",
+            "Describe the purpose: to show that God has set a purpose for everything"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the list of 'times' (v.1-8), the phrase 'God has made everything beautiful in its time' (v.5), or 'I perceived that there is nothing better than to be joyful and do good' (v.12)?",
+          "tips": [
+            "The list of 'times' (v.1-8) is a powerful enumeration of life's cycles, making the abstract concrete",
+            "The phrase 'God has made everything beautiful in its time' (v.5) emphasizes God's intentional design even in the mundane",
+            "Solomon's conclusion about joy and good works (v.12) is a hopeful resolution to the chapter's theme"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is addressing the human search for meaning in a finite world by showing that God has set seasons for everything, including joy and purpose",
+            "The main point is that true meaning comes from recognizing God's sovereignty over time and work, and that He makes all things beautiful in their season",
+            "This passage affirms that God's design is purposeful and that we can find joy in His work"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The list of 'times' (v.1-8) seems too broad. Why does God put eternity in man's heart (v.11) if we can't find out what He has done? How does 'joyful and doing good' (v.12) fit with the apparent futility of life?",
+          "tips": [
+            "The list of 'times' (v.1-8) is a poetic enumeration of life's cycles; it's not meant to be exhaustive but to show the pattern",
+            "'Eternity in man's heart' (v.11) refers to the human capacity for deep time perspective, but we are limited by our finite nature",
+            "The phrase 'joyful and doing good' (v.12) is not a rejection of the passage's earlier observations but a call to find purpose in obedience to God"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'beauty in time' from this passage. What small action can you do this week that honors God in the current season of your life?",
+          "tips": [
+            "Identify one 'time' in your life (e.g., time to plant, time to pluck up) and act accordingly",
+            "Practice gratitude for the beauty God has placed in your current season (e.g., a moment of peace, a simple task)"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the seasons He has set for your life. Ask for wisdom to see His beauty in your current season.",
+          "tips": [
+            "Thank God for the specific season you are in (e.g., time to rest, time to grow)",
+            "Pray for the gift of seeing God's beauty in the ordinary",
+            "Ask for courage to do good in the season God has set for you"
+          ],
+          "focusVerse": "3:1-15"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 4,
+      "chapterTitle": "Oppression and Companionship",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Ecclesiastes 4 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 5,
+      "chapterTitle": "Fear God",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 5:1-10 aloud, paying attention to the contrast between wisdom and folly in verses 1-2 and the warning about vows in verses 4-5.",
+          "tips": [
+            "Notice the repetition of 'fear God' in verse 5",
+            "Pay attention to the phrase 'do not let your mouth lead you into sin' (verse 5)"
+          ],
+          "focusVerse": "5:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being instructed, WHAT they should do, WHERE this wisdom applies, and WHY it matters for those seeking meaning.",
+          "tips": [
+            "Include Solomon's warning against rash speech (v.2)",
+            "Note the contrast between the laborer's rest and the pursuit of wealth (v.8)",
+            "Describe the importance of paying vows (v.4)"
+          ],
+          "focusVerse": "5:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the warning about rash speech (v.2), the warning about money (v.7), or the sweet sleep of the laborer (v.8)?",
+          "tips": [
+            "The phrase 'do not let your mouth lead you into sin' shows the immediate danger of careless speech",
+            "The statement about money (v.7) highlights the insatiable nature of greed, which is a common trap",
+            "The sleep of the laborer (v.8) contrasts with the empty pursuits of the rich and offers a simple joy in work"
+          ],
+          "focusVerse": "5:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is addressing the universal human quest for meaning and purpose",
+            "He emphasizes that true meaning comes from fearing God and living in accordance with His commands, not from worldly pursuits",
+            "The passage shows that God's gifts (wealth, possessions) are to be enjoyed with gratitude, not with greed"
+          ],
+          "focusVerse": "5:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The warning about vows (v.4), the concept of 'vanity' (v.5), or the contrast between the laborer and the rich (v.8)?",
+          "tips": [
+            "The phrase 'in many dreams and words there is vanity' refers to the futility of human efforts and the emptiness of worldly pursuits, not the actual dreams or words themselves",
+            "The warning about vows (v.4) is a practical instruction to avoid the sin of broken vows, which is common in ancient cultures where vows were binding",
+            "The 'sweet sleep of a laborer' (v.8) contrasts with the empty pursuit of wealth, showing that true rest comes from work that is meaningful, not from the accumulation of wealth"
+          ],
+          "focusVerse": "5:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the lesson about fearing God and avoiding rash speech in your life this week?",
+          "tips": [
+            "Choose a specific vow you made and ensure you pay it promptly (as in v.4)",
+            "Practice speaking less and more thoughtfully, especially in situations where your words could lead to sin (v.2)",
+            "Reflect on the joy of work and rest (v.8) and avoid the trap of greed (v.7)"
+          ],
+          "focusVerse": "5:1-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His wisdom and ask for the courage to fear Him and avoid sin through speech.",
+          "tips": [
+            "Thank God for the gift of wisdom and the guidance to avoid rash speech",
+            "Ask for the strength to keep your vows and to not let your mouth lead you into sin",
+            "Pray for a heart that appreciates God's gifts without greed"
+          ],
+          "focusVerse": "5:1-10"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 6,
+      "chapterTitle": "The Vanity of Wealth Without Enjoyment",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 6:1-12 aloud, paying attention to the contrast between wealth and lack of enjoyment.",
+          "tips": [
+            "Notice the repetition of 'lacks nothing' in verse 2",
+            "Pay attention to the phrase 'soul is not satisfied' (verse 3)",
+            "Consider the metaphor of the stillborn child in verse 4"
+          ],
+          "focusVerse": "6:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Solomon observes, WHAT he sees (wealth without enjoyment), WHERE this happens (in life), and WHY it matters (the vanity of such wealth).",
+          "tips": [
+            "Include the man who has wealth but lacks enjoyment (verse 2)",
+            "Note the comparison of a hundred children (verse 3)",
+            "Describe the point about toil and appetite (verse 6)"
+          ],
+          "focusVerse": "6:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the stillborn child (verse 4), the phrase 'appetite is not satisfied' (verse 6), or the question about wisdom vs. fool (verse 12).",
+          "tips": [
+            "The stillborn child metaphor highlights the futility of life without purpose",
+            "The phrase 'appetite is not satisfied' points to a deep spiritual hunger that material wealth cannot fill",
+            "The question in verse 12 challenges the reader to consider the value of wisdom in a world of vanity"
+          ],
+          "focusVerse": "6:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is warning against the pursuit of wealth that does not bring joy",
+            "He points to a deeper need that material wealth cannot meet (the soul's hunger for meaning)",
+            "The Christ connection: Only Christ provides the power to enjoy life (as stated in the context)"
+          ],
+          "focusVerse": "6:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'soul is not satisfied', the stillborn child metaphor, and the phrase 'all toil is for the mouth'.",
+          "tips": [
+            "In ancient Hebrew, 'soul' (nephesh) refers to the inner life, not just the physical body",
+            "The stillborn child (verse 4) is a metaphor for life without purpose, so it doesn't have a burial (because it didn't live)",
+            "The phrase 'all toil is for the mouth' (verse 6) means work leads to food, but the deeper need (for meaning) remains unsatisfied"
+          ],
+          "focusVerse": "6:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, identify one area where you are pursuing wealth without enjoyment and consider what would make it meaningful (like in Christ).",
+          "tips": [
+            "Consider what you are working for that doesn't bring you joy",
+            "Ask: What would it look like to have the power to enjoy this thing?",
+            "This week, try to find one small way to bring meaning to your work or possessions"
+          ],
+          "focusVerse": "6:1-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He is the source of true satisfaction, and ask for courage to let go of what doesn't bring joy.",
+          "tips": [
+            "Thank God that He is the source of true satisfaction, not just material wealth",
+            "Ask for the courage to let go of what doesn't bring joy and trust in Christ",
+            "Pray that you will recognize when your soul is not satisfied and seek Him"
+          ],
+          "focusVerse": "6:1-12"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 7,
+      "chapterTitle": "Wisdom's Advantage",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 7:1-14 aloud, focusing on the contrast between life and death, and the value of sorrow.",
+          "tips": [
+            "Notice the repetition of 'better' (v.1, v.3, v.4, v.8)",
+            "Pay attention to the phrase 'house of mourning' (v.2) and 'house of mirth' (v.2)",
+            "Note the contrast in v.4: 'sorrow is better than laughter'"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Solomon) does WHAT (teaches wisdom) in WHERE (life) and WHY (to help those seeking meaning).",
+          "tips": [
+            "Include the comparison of a good name to precious ointment",
+            "Note the contrast between the day of death and the day of birth",
+            "Describe the preference for the house of mourning over feasting"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the comparison of a good name (v.1), the day of death vs. birth (v.2), or sorrow being better than laughter (v.4)?",
+          "tips": [
+            "The phrase 'the day of death is better than the day of birth' shows that life is fleeting and death is the end, but wisdom values the end",
+            "Sorrow teaching the heart (v.4) is profound because it leads to humility and growth",
+            "The contrast between the house of mourning and feasting (v.2) highlights the temporary nature of joy"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is calling for wisdom that sees the fleeting nature of life and the value of sorrow for spiritual growth",
+            "He emphasizes that true meaning comes from fearing God and living with humility",
+            "The passage connects the temporary nature of human life to the eternal purpose of God"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The comparison of death to birth? Why sorrow is better than laughter? The cultural context of the 'house of mourning'?",
+          "tips": [
+            "The phrase 'the day of death is better than the day of birth' might be misinterpreted as death being preferable to life, but Solomon means that death (the end) is better than birth (the beginning) in ",
+            "Sorrow is better than laughter because laughter can be superficial and sorrow leads to deeper understanding",
+            "In ancient Near Eastern culture, the 'house of mourning' was a place for grieving, not a place of celebration, so the contrast with 'feasting' (house of mirth) is culturally specific"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'fear God' (v.12) and ask: How can you practice fearing God in a situation where you face adversity this week?",
+          "tips": [
+            "Consider a time when you felt overwhelmed and how fearing God could have changed your response",
+            "Pray for the strength to endure sorrow without becoming bitter",
+            "Spend time in quiet reflection when you are in pain to hear God's voice"
+          ],
+          "focusVerse": "7:12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the wisdom that comes through sorrow and the value of death as the end of life. Ask for courage to face adversity with a heart that fears Him.",
+          "tips": [
+            "Thank God that He provides meaning even in death through Christ",
+            "Pray for the strength to find joy in sorrow",
+            "Ask God to help you see the wisdom in your current circumstances"
+          ],
+          "focusVerse": "7:14"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 8,
+      "chapterTitle": "Obey the King",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 8:1-17 aloud, paying attention to the contrast between the righteous and the wicked.",
+          "tips": [
+            "Notice the phrase 'the wicked being rewarded and the righteous punished' appears in verse 1",
+            "Look for the repetition of 'I saw' in verses 1, 3, 5",
+            "The phrase 'the heart of the man is fully set to do evil' in verse 12 is critical"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being compared (the righteous and the wicked), WHAT happens to them, WHERE this is observed, and WHY it matters for those seeking meaning.",
+          "tips": [
+            "Include the contrast between the wicked and the righteous",
+            "Note that the righteous are forgotten while the wicked are buried",
+            "Mention the role of God's judgment and the oath to God"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the contrast in verses 1-2, the phrase 'the heart of the man is fully set to do evil' (v.12), or 'it will be well with those who fear God' (v.13)?",
+          "tips": [
+            "The phrase 'the heart of the man is fully set to do evil' shows the internal corruption of the wicked",
+            "The promise that 'it will be well with those who fear God' offers hope in the midst of suffering",
+            "The contrast between the righteous and the wicked in the context of God's judgment"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is emphasizing that true wisdom leads to obedience to God's commands",
+            "The key is that those who fear God will prosper, even in the midst of life's troubles",
+            "This passage connects the temporary nature of human life with the eternal promise of God"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The contrast between the righteous and the wicked? The meaning of 'the heart of the man is fully set to do evil'? The promise for the righteous?",
+          "tips": [
+            "The phrase 'the heart of the man is fully set to do evil' (v.12) describes the deep, unchanging nature of the wicked's heart",
+            "'Fear of God' in this context means reverence and obedience, not just fear of punishment",
+            "The promise of prosperity for the righteous is not about avoiding suffering but about God's ultimate care"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'obeying the king' (God) in your life. What command from God are you willing to keep this week?",
+          "tips": [
+            "Consider a specific command that you have been avoiding",
+            "Think about how your obedience to God's commands brings peace and purpose",
+            "Pray for the strength to obey the king (God) even when it's difficult"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the theme of obedience to God and the promise of prosperity for those who fear Him.",
+          "tips": [
+            "Thank God for the promise that those who fear Him will prosper",
+            "Pray for the courage to obey God's commands even when it's hard",
+            "Ask God to help you to set your heart on Him rather than on the world"
+          ],
+          "focusVerse": "8:1-17"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 9,
+      "chapterTitle": "Death Comes to All",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 9:1-12 aloud, paying attention to the phrases 'the same event happens to all' (v. 1) and 'God has already approved what you do' (v. 8).",
+          "tips": [
+            "Notice the repetition of 'the same event happens to all' (v. 1)",
+            "Pay attention to the contrast between the living and the dead (v. 5-6)",
+            "The phrase 'eat your bread with joy, drink your wine with a merry heart' (v. 7-8) has a strong emotional tone"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Solomon) is speaking to, WHAT (the same fate for all), WHERE (in the world), and WHY (to encourage the audience seeking meaning).",
+          "tips": [
+            "Include the key point that the righteous and wicked share the same fate (v. 1-2)",
+            "Note the instruction to enjoy life now (v. 7-8)",
+            "Mention the statement that there is no work or thought in Sheol (v. 10)"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the statement about the same fate (v. 1), the encouragement to enjoy life (v. 7-8), or the phrase 'do it with your might' (v. 10).",
+          "tips": [
+            "The phrase 'God has already approved what you do' (v. 8) is a powerful reassurance that God values our work",
+            "The contrast between the living and the dead (v. 5-6) highlights the temporary nature of life",
+            "The command to 'do it with your might' (v. 10) encourages full engagement in life's tasks"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon is emphasizing that despite the same fate for all, we should live joyfully and work with all our might because God has approved our work",
+            "This message is a response to the human search for meaning in a world where death is universal",
+            "The theological significance is that God's approval of our work gives purpose to life even in the face of death"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of 'the same event happens to all', the meaning of Sheol, and the phrase 'God has already approved what you do'.",
+          "tips": [
+            "'Sheol' (v. 10) refers to the abode of the dead, not a place of punishment, but a state of unconsciousness",
+            "'The same event happens to all' (v. 1) means that death and the same fate come to both righteous and wicked, which is a universal truth",
+            "'God has already approved what you do' (v. 8) might be interpreted as God's approval of the work we do in this life, which is a comfort in a fallen world"
+          ],
+          "focusVerse": "9:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of enjoying life now (with joy and wine) and working with might. What situation requires you to live joyfully this week?",
+          "tips": [
+            "Consider an area where you might be holding back from joy",
+            "Think about a task you can do with 'might' (full energy) this week",
+            "How can you 'eat your bread with joy' in your daily tasks?"
+          ],
+          "focusVerse": "9:7-8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He has approved your work and give thanks for the gift of life. Ask for courage to live joyfully.",
+          "tips": [
+            "Thank God that He has approved your work",
+            "Pray for the courage to enjoy life with joy and wine",
+            "Ask God for the strength to work with might in your tasks"
+          ],
+          "focusVerse": "9:8"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 10,
+      "chapterTitle": "Wisdom and Folly",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 10:1-18 aloud, paying attention to the dead fly metaphor in verse 1 and the directional contrast in verses 2-3.",
+          "tips": [
+            "Notice the dead fly metaphor: 'dead flies make the perfumer's ointment give off a stench' (v1) illustrates how small folly ruins wisdom",
+            "Pay attention to the contrast: 'a wise man's heart inclines to the right; a fool's to the left' (v2) shows the direction of one's choices",
+            "Notice the repetition of 'fool' in verses 3, 5, and 10 to emphasize the consequences"
+          ],
+          "focusVerse": "10:1-18"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize who (Solomon as teacher, the wise and the foolish), what (the consequences of folly and the benefits of wisdom), where (in human life and decisions), and why (to encourage the audience to seek wisdom and avoid folly).",
+          "tips": [
+            "Include the dead fly metaphor (v1) as a key example of how small folly can destroy wisdom and honor",
+            "Note the contrast between the wise man's heart (right) and the fool's heart (left) (v2)",
+            "Mention the warning about the fool's lack of sense (v3) and the danger of the fool's words (v5)"
+          ],
+          "focusVerse": "10:1-18"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the dead fly metaphor (v1), the contrast of the wise and fool's hearts (v2), the fool's lack of sense (v3), the danger of the fool's words (v5), or the iron and sharpening (v10).",
+          "tips": [
+            "The dead fly metaphor (v1) is powerful because it shows how a tiny amount of folly can spoil the entire system (like a perfumer's ointment)",
+            "The contrast of the wise and fool's hearts (v2) is memorable because it shows how our choices are directed by our inner state",
+            "The phrase 'words from a wise man's mouth win favor, but a fool's lips consume him' (v5) is especially poignant because it highlights the immediate consequences of speech"
+          ],
+          "focusVerse": "10:1-18"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "Solomon warns that even a small amount of folly can destroy wisdom and honor, so we must be vigilant about our choices and speech",
+            "He emphasizes that wisdom leads us to the right (positive outcomes) while folly leads us to the left (negative outcomes)",
+            "The ultimate purpose is to encourage the audience to cultivate wisdom and avoid the pitfalls of folly in daily life"
+          ],
+          "focusVerse": "10:1-18"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The dead fly metaphor? Why the fool's heart is to the left? The serpent and charmer? The phrase 'curse not the king'? The iron and sharpening?",
+          "tips": [
+            "The dead fly metaphor (v1) is abstract; it shows that small errors (like a dead fly) can have big consequences (stinking the ointment)",
+            "The directional metaphor (left/right) for the heart is cultural: in ancient Near East, right was associated with the sun (good) and left with the moon (bad) or the opposite direction (evil)",
+            "The phrase 'curse not the king' (v12) is a strong command that might be confusing because it's about not cursing even in thought (which is unusual in the context of the king's power)"
+          ],
+          "focusVerse": "10:1-18"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of guarding your tongue (v5) or working smarter (v10). What specific action can you take this week to avoid the pitfalls of folly?",
+          "tips": [
+            "Practice speaking with wisdom: before you speak, ask if your words will win favor or consume others (as in v5)",
+            "When you feel your thoughts are becoming unwise (like a blunt iron), take time to sharpen your focus (v10) - e.g., read a short verse, pray, or step back"
+          ],
+          "focusVerse": "10:5"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for wisdom that helps us succeed. Ask for courage to avoid the pitfalls of folly.",
+          "tips": [
+            "Thank God for the wisdom that helps us succeed (as in the Christ connection)",
+            "Pray for courage to avoid the pitfalls of folly (like the dead fly)",
+            "Ask for the strength to choose the right path (like the wise man's heart) when tempted by the left"
+          ],
+          "focusVerse": "10:1-18"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 11,
+      "chapterTitle": "Cast Your Bread Upon the Waters",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 11:1-12 aloud, paying attention to the metaphor of 'casting bread upon the waters' in verse 1 and the contrast between human uncertainty and God's work in verses 4-5.",
+          "tips": [
+            "Notice the repetition of 'you do not know' in verses 1 and 4 (v1: 'do not know what disaster', v4: 'do not know the work of God')",
+            "Pay attention to the contrast between the unpredictability of human affairs (v1-3) and the trust in God's provision (v4-5)"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being addressed, WHAT Solomon teaches, WHERE this teaching occurs (in terms of context), and WHY Solomon gives this teaching to those seeking meaning.",
+          "tips": [
+            "Solomon addresses the general audience seeking meaning in life",
+            "The teaching is about generous living and trusting God's mysterious work rather than over-calculating",
+            "This occurs in the context of Solomon's final wisdom after reflecting on the futility of life without God"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stands out most? Consider: the metaphor of 'casting bread upon the waters' (v1), the comparison of human uncertainty to God's work (v4), or the call to rejoice in youth (v7).",
+          "tips": [
+            "'Cast your bread upon the waters' is a powerful metaphor for trusting God's provision through generous risk-taking",
+            "The phrase 'as you do not know the way the spirit comes to the bones in the womb, so you do not know the work of God' shows the depth of God's mystery",
+            "The contrast between the human inability to predict (v1) and God's provision (v5) is deeply resonant"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon trying to communicate to those seeking meaning through this chapter?",
+          "tips": [
+            "Solomon emphasizes that true meaning comes from trusting God's mysterious work rather than human calculations",
+            "He calls for generous living and risk-taking, just as Christ did by casting His life upon the waters (resurrection)",
+            "This teaching is part of Solomon's broader message that life has meaning only in relation to God"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The metaphor of 'casting bread upon the waters', the phrase 'the spirit comes to the bones in the womb', and the call to 'rejoice in youth' without knowing judgment?",
+          "tips": [
+            "'Casting bread upon the waters' is a metaphor for generosity and trusting God's provision, not literal water",
+            "The phrase 'the spirit comes to the bones in the womb' is a biblical image of the spiritual development of a person, used here to show God's mystery",
+            "The call to 'rejoice in youth' (v7) is a contrast to the fear of death that often plagues the young, but Solomon reminds them of God's ultimate judgment"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of generous living and trusting God's mysterious work. What can you do this week that requires you to trust God's provision rather than over-calculating?",
+          "tips": [
+            "Give generously to someone without expecting immediate return, like a meal to a neighbor",
+            "Share a resource you've been holding back, trusting that God will provide in His mysterious way",
+            "Practice the 'morning sow' mentality: start with small acts of generosity in the morning"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about casting your bread upon the waters. Thank God for His provision and ask for courage to trust Him.",
+          "tips": [
+            "Thank God for the mystery of His provision, as seen in Christ's resurrection",
+            "Pray for the courage to share generously without over-calculating",
+            "Ask God to help you see the work of His Spirit in the 'bones of your life' (v4)"
+          ],
+          "focusVerse": "11:1-12"
+        }
+      ]
+    },
+    {
+      "bookId": "ecclesiastes",
+      "bookName": "Ecclesiastes",
+      "chapter": 12,
+      "chapterTitle": "Remember Your Creator",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ecclesiastes 12:1-14 aloud, paying attention to the contrast between the fleeting nature of life and the eternal reality of God.",
+          "tips": [
+            "Notice the repeated phrase 'remember your Creator' in verse 1",
+            "Pay attention to the emotional shift from the imagery of decay (v2-7) to the conclusion in verse 13",
+            "The phrase 'vanity of vanities' (v9) is a key refrain"
+          ],
+          "focusVerse": "12:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Solomon is addressing, WHAT he urges the audience to do, WHERE this occurs (in the context of life), and WHY he gives this warning.",
+          "tips": [
+            "Include the progression from youth to old age (v1-2)",
+            "Note the imagery of aging: 'the sun and light grow dark, the strong men are bent, the grinders cease' (v2-4)",
+            "Mention the conclusion: 'Fear God and keep His commandments' (v13)"
+          ],
+          "focusVerse": "12:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the call to remember the Creator in youth (v1), the imagery of aging (v2-4), or the conclusion (v13)?",
+          "tips": [
+            "The phrase 'the spirit returns to God who gave it' (v7) is a profound reminder of our origin and destination",
+            "The contrast between the fleeting life and the eternal return to God creates a powerful message",
+            "The conclusion 'Fear God and keep His commandments' (v13) is the only lasting answer"
+          ],
+          "focusVerse": "12:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Solomon (the Teacher) trying to communicate to those seeking meaning through this passage?",
+          "tips": [
+            "The passage addresses the human search for meaning in a world of impermanence",
+            "Solomon's point is that the only true meaning comes from a relationship with God, not in the temporary things of life",
+            "This is the 'whole duty of man' (v13)"
+          ],
+          "focusVerse": "12:1-14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of 'vanity' (v9), the imagery of aging (v2-4), or the 'spirit returns to God' (v7)?",
+          "tips": [
+            "'Vanity of vanities' (v9) means that all human pursuits are fleeting and temporary, but not that there is no meaning",
+            "The imagery of aging is a poetic description of life's decline, not a literal countdown",
+            "The 'spirit returns to God' (v7) is a Jewish concept that the soul returns to its Creator at death, not a physical resurrection"
+          ],
+          "focusVerse": "12:1-14"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "In what way can you apply the call to remember your Creator in youth to your current life?",
+          "tips": [
+            "Reflect on a time when you felt the urgency of life (youth) and the passage of time",
+            "Make a decision to prioritize spiritual matters (fear God) in the coming days",
+            "Pray for the courage to live by God's commandments rather than seeking meaning in fleeting things"
+          ],
+          "focusVerse": "12:1-14"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He is the Creator and that He gives meaning to life. Ask for the courage to fear Him and keep His commandments.",
+          "tips": [
+            "Thank God for the truth that life is short and we are created by Him",
+            "Ask for the strength to live by His commandments in a world of impermanence",
+            "Pray for the gift of humility to remember the Creator in the days of youth"
+          ],
+          "focusVerse": "12:1-14"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1173 @@
+{
+  "bookId": "zechariah",
+  "bookName": "Zechariah",
+  "totalChapters": 14,
+  "chapters": [
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 1,
+      "chapterTitle": "A Call to Return and the Vision of the Horsemen",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 1:1-17 aloud, paying attention to the emotional shift from the LORD's anger to His mercy.",
+          "tips": [
+            "Notice the repeated phrase 'the LORD' (appears 12 times in this chapter)",
+            "Pay attention to the phrase 'I am exceedingly jealous for Jerusalem and for Zion' (v.14) as it shows deep love"
+          ],
+          "focusVerse": "1:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO the LORD is calling, WHAT the call is, WHERE the vision occurs, and WHY the LORD is acting.",
+          "tips": [
+            "Include the exiles' need to return to the LORD (v.3)",
+            "Note the vision of the four horsemen patrolling the earth (v.4-6)",
+            "Highlight the angel's plea for mercy for Jerusalem (v.14)"
+          ],
+          "focusVerse": "1:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the call to return (v.3), the vision of the horsemen (v.4-6), or the LORD's response (v.14-17)?",
+          "tips": [
+            "The phrase 'I am exceedingly jealous for Jerusalem and for Zion' (v.14) shows the LORD's deep love for His people",
+            "The vision of the horsemen patrolling the earth (v.4-6) illustrates God's active oversight of the world",
+            "The promise that 'My house shall be built in it' (v.14) points to the future restoration of Jerusalem"
+          ],
+          "focusVerse": "1:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles through this passage?",
+          "tips": [
+            "Zechariah calls the exiles to return to the LORD who is both angry at their fathers' sins and eager to restore His people",
+            "The vision of the horsemen shows that God is actively engaged in the world and has a purpose for the exiles' return",
+            "The LORD's jealousy for Jerusalem (v.14) is a sign of His covenant love and desire for His people to be restored"
+          ],
+          "focusVerse": "1:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this passage are challenging to understand?",
+          "tips": [
+            "The meaning of the horsemen's colors (red, sorrel, white) and their role in patrolling the earth",
+            "The term 'jealous' here is not in the sense of anger but of deep, protective love for His people",
+            "The phrase 'the LORD has sent to patrol the earth' (v.4) shows God's global oversight but may seem distant to the exiles"
+          ],
+          "focusVerse": "1:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'Return to me' (v.3). What action can you take this week to return to the LORD?",
+          "tips": [
+            "Consider an area where you have been 'lost' and how you can seek the LORD",
+            "Pray for the LORD to show you where you need to return",
+            "Spend time in Scripture to see how the LORD is calling you to return"
+          ],
+          "focusVerse": "1:3"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about the call to return and the LORD's mercy for Jerusalem.",
+          "tips": [
+            "Thank God for His mercy and for the call to return",
+            "Ask for the courage to return to Him when you feel distant",
+            "Pray for the restoration of Jerusalem and for the LORD's house to be built in it"
+          ],
+          "focusVerse": "1:14"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 2,
+      "chapterTitle": "Vision of the Measuring Line",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 2:1-13 aloud, focusing on the dialogue between the measuring angel and the messenger angel.",
+          "tips": [
+            "Notice the repeated command 'Up! Up!' (v. 6, 10)",
+            "Pay attention to the phrase 'I will dwell in your midst' (v. 10)"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the LORD) is measuring Jerusalem, WHAT (the dimensions of the city), WHERE (Jerusalem), and WHY (to restore the city as a place of blessing for the returned exiles).",
+          "tips": [
+            "Include the two angels: one measuring and the other delivering the message",
+            "Note that Jerusalem will be inhabited without walls due to the multitude of people and livestock"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the measuring of Jerusalem (v. 1-2), the promise of no walls (v. 8), or the LORD dwelling in the midst (v. 10)?",
+          "tips": [
+            "The city being inhabited without walls shows the blessing of God's presence and the city's abundance",
+            "The wall of fire symbolizes God's protective and sovereign presence",
+            "The promise of God dwelling in the midst is the most intimate and personal promise for the exiles"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles through this vision of measuring Jerusalem?",
+          "tips": [
+            "The LORD is restoring Jerusalem and His people, making it a place of safety and blessing",
+            "The city will be filled with people and livestock, showing God's provision and the return of the exiles",
+            "The LORD will dwell among His people and include many nations in His people"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'wall of fire', why 'flee from the land of the north', and what 'spread you abroad as the four winds' means?",
+          "tips": [
+            "'Wall of fire' is a symbol of God's protective presence and the city being set apart from enemies",
+            "'Land of the north' refers to the Babylonian empire (the enemy that had destroyed Jerusalem)",
+            "'Spread you abroad as the four winds' means God's people will be scattered and then brought together in the new kingdom"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the promise of God dwelling in your midst this week?",
+          "tips": [
+            "Pray for God to dwell in your heart and in your relationships",
+            "Share the promise of God's presence with a friend who is going through hardship",
+            "Seek to live as a community that reflects the abundance of God's provision"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He dwells in the midst of His people and will restore Jerusalem. Ask for courage to live in His presence.",
+          "tips": [
+            "Thank God for the promise of His dwelling in the midst",
+            "Pray for the returned exiles to experience the blessing of God's presence",
+            "Ask God to help you become a part of the 'many nations' that join Him"
+          ],
+          "focusVerse": "2:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 3,
+      "chapterTitle": "The Vision of Joshua the High Priest",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 3:1-10 aloud, focusing on the dialogue between the angel and Joshua, and the description of the filthy garments.",
+          "tips": [
+            "Notice the repetition of 'filthy garments' (v.2) and 'pure vestments' (v.3)",
+            "Pay attention to the emotional tone of Satan's accusation (v.1-2) and the angel's rebuke (v.2)",
+            "The phrase 'brand plucked from the fire' (v.2) is a powerful image of deliverance"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters for the returned exiles.",
+          "tips": [
+            "Joshua the high priest is clothed in filthy garments, symbolizing the sin of the people",
+            "Satan accuses Joshua (the high priest) as a sign of the corruption in the temple",
+            "The LORD rebukes Satan and restores Joshua with clean garments"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the removal of filthy garments (v.2), the clean turban (v.4), or the Branch prophecy (v.8).",
+          "tips": [
+            "The image of the filthy garments being removed is a powerful symbol of sin being taken away",
+            "The clean turban on Joshua's head (v.4) represents the restoration of the priesthood",
+            "The Branch prophecy (v.8) points to Christ as the future fulfillment"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles about God's restoration of the priesthood and the coming of Christ?",
+          "tips": [
+            "Zechariah was addressing the exiles who had returned to Jerusalem but were still in spiritual turmoil",
+            "The vision shows God's active restoration of the priesthood and the promise of a Messiah (the Branch)",
+            "This passage reassures the exiles that God is in control and will cleanse and restore His people"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Satan in the vision, the meaning of the stone with seven eyes, and the concept of the Branch.",
+          "tips": [
+            "Satan's accusation of Joshua (the high priest) is unusual because in this vision, the high priest is the one being cleansed from sin",
+            "The stone with seven eyes (v.5) is a symbol of Christ (the Messiah) who sees all and is the one who will judge and save",
+            "The Branch (v.8) is a title for Christ, as in Jeremiah 23:5, which the passage explicitly connects to the LORD of hosts"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the cleansing of sin (the removal of filthy garments) to your life this week?",
+          "tips": [
+            "Consider an area where you feel 'filthy' (sinful) and ask God to remove it",
+            "Pray for the gift of a clean turban (the restoration of your spiritual state) through Christ",
+            "Trust that God will bring the Branch (Christ) to save you from your sins"
+          ],
+          "focusVerse": "3:2"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the cleansing of your sin and the coming of Christ as the Branch.",
+          "tips": [
+            "Ask God to remove the 'filthy garments' from your life (sin)",
+            "Pray for the strength to receive the clean turban (the new life in Christ)",
+            "Thank God for the Branch (Christ) who will come and save you from sin"
+          ],
+          "focusVerse": "3:8"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 4,
+      "chapterTitle": "The Vision of the Golden Lampstand",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 4:1-14 aloud, paying attention to the description of the golden lampstand and the angel's words.",
+          "tips": [
+            "Notice the phrase 'grace to it' (v.14) which is repeated for emphasis",
+            "Pay attention to the contrast between 'not by might, nor by power' (v.6) and the work of Zerubbabel"
+          ],
+          "focusVerse": "4:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Zechariah, the angel, Zerubbabel) is involved, WHAT (the vision of the lampstand and the word to Zerubbabel), WHERE (the vision occurs in the spirit), and WHY (to encourage the returned exiles in the temple rebuilding).",
+          "tips": [
+            "Include the golden lampstand with seven lamps and two olive trees",
+            "Note the phrase 'Not by might, nor by power, but by my Spirit' (v.6)",
+            "Mention that the mountain (Babylon) becomes a plain for Zerubbabel's work"
+          ],
+          "focusVerse": "4:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the phrase 'Not by might, nor by power, but by my Spirit' (v.6), the two olive trees (v.14), or the mountain becoming a plain (v.7)?",
+          "tips": [
+            "The phrase 'Not by might, nor by power, but by my Spirit' emphasizes God's role in the work of the temple",
+            "The two olive trees symbolize the priestly and kingly offices united in Christ",
+            "The mountain becoming a plain shows God removing obstacles for Zerubbabel's work"
+          ],
+          "focusVerse": "4:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles about the temple rebuilding?",
+          "tips": [
+            "Zechariah was encouraging the exiles that God would empower Zerubbabel to complete the temple",
+            "This shows that the temple's rebuilding is not a human achievement but a work of God's Spirit",
+            "The vision points to Christ as the true temple and the source of the two anointed ones"
+          ],
+          "focusVerse": "4:1-14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Consider the meaning of the lampstand, the two olive trees, or the mountain becoming a plain.",
+          "tips": [
+            "The lampstand symbolizes the church (the community of believers) which is a living structure",
+            "The two olive trees represent the two anointed ones (the high priest and the king) who are united in Christ",
+            "The mountain becoming a plain refers to the removal of the Babylonian exile as an obstacle for the temple"
+          ],
+          "focusVerse": "4:1-14"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, identify one area where you are relying on your own strength to accomplish something, and pray for God's Spirit to empower you as Zerubbabel did.",
+          "tips": [
+            "Think about a task that feels too heavy for you to do alone",
+            "Ask God for the Spirit to move you to complete the task",
+            "Consider how the mountain becoming a plain applies to your current obstacles"
+          ],
+          "focusVerse": "4:1-14"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's Spirit to work in your life and in the work of building His church.",
+          "tips": [
+            "Thank God for His Spirit who empowers us to do His work",
+            "Pray for courage to rely on God's Spirit in difficult circumstances",
+            "Ask God to help you become a 'Zerubbabel' who builds His temple with His Spirit"
+          ],
+          "focusVerse": "4:1-14"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 5,
+      "chapterTitle": "Visions of the Flying Scroll and the Woman in the Basket",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 5:1-11 aloud, paying attention to the description of the flying scroll and the woman in the basket.",
+          "tips": [
+            "Notice the repeated phrase 'This is' to emphasize the identification of the scroll and the woman",
+            "Pay attention to the emotional tone of the angel's actions: thrusting the woman back and the leaden weight",
+            "The specific measurements of the scroll: 20 cubits long, 10 cubits wide"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY the vision is significant.",
+          "tips": [
+            "Include the scroll's dimensions (20x10 cubits) and its purpose: curse on land",
+            "Note that the woman in the basket is identified as 'Wickedness'",
+            "The basket is being sealed with a leaden weight to remove wickedness"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the scroll's dimensions (v.2), the identification of the woman as 'Wickedness' (v.5), or the sealing with the leaden weight (v.11)?",
+          "tips": [
+            "The scroll's dimensions (20x10 cubits) symbolize the full scope of the curse: covering the entire land",
+            "The phrase 'This is Wickedness' is direct and powerful, showing the personification of sin",
+            "The leaden weight being thrust down seals the removal of wickedness, a powerful image of finality"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles about the consequences of sin and God's response?",
+          "tips": [
+            "Zechariah was showing that sin (theft and false swearing) would be a curse that consumes the house of the sinner",
+            "This vision also points to the future removal of sin through Christ, as the curse of sin is taken away by Christ",
+            "The vision is a reminder that the exiles must repent and turn from sin to avoid being consumed"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging to understand? The meaning of the flying scroll, why the woman is called 'Wickedness', and the role of the leaden weight?",
+          "tips": [
+            "The 'flying scroll' is a metaphor for the curse that goes out to the land, but the dimensions (20x10 cubits) are specific to the ancient world",
+            "The term 'Wickedness' is personified as a woman in the basket, which is unusual in biblical imagery and requires understanding the context of the exiles' sin",
+            "The leaden weight symbolizes the weight of sin being removed, but the text doesn't explicitly say how it's removed"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does this passage challenge you to examine your actions regarding stealing or false oaths? What specific step can you take this week to avoid these sins?",
+          "tips": [
+            "Consider if there is any area in your life where you have taken things without permission",
+            "Ask God for strength to tell the truth in your oaths, especially in difficult situations",
+            "Pray for the cleansing of your heart from the 'wickedness' that may be hidden"
+          ],
+          "focusVerse": "5:1-11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His judgment on sin and His promise to remove wickedness. Ask for help to live without stealing or false oaths.",
+          "tips": [
+            "Thank God that He sees and judges the sin in our lives",
+            "Pray for the courage to confess when we've stolen or made false oaths",
+            "Ask God to seal your life with His truth, so that you are not consumed by wickedness"
+          ],
+          "focusVerse": "5:1-11"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 6,
+      "chapterTitle": "Vision of Four Chariots and the Crowning of Joshua",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 6:1-15 aloud, paying attention to the description of the four chariots and the angel's instruction.",
+          "tips": [
+            "Notice the repeated phrase 'the mountains were mountains of bronze' (v.2)",
+            "Pay attention to the distinct horse colors: red, black, white, dappled (v.2)",
+            "The emotional tone shifts from awe (v.1) to hope as the crown is placed on Joshua (v.10-11)"
+          ],
+          "focusVerse": "6:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO is involved (the angel, the exiles, Joshua), WHAT happens (the vision of chariots and the crowning of Joshua), WHERE it occurs (in the vision), and WHY (to prepare for the rebuilding of the temple and the coming of the Messiah).",
+          "tips": [
+            "Include the four chariots with their specific horse colors and the directions they go (north, south, etc.)",
+            "Note that the crown is made of silver and gold from the exiles (v.10)",
+            "Mention that Joshua is crowned as the priest-king who will build the temple (v.11-13)"
+          ],
+          "focusVerse": "6:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the four chariots (v.2), the crown on Joshua (v.10), or the title 'the Branch' (v.12).",
+          "tips": [
+            "The vision of four chariots with distinct horses shows God's universal reach and the unity of the kingdom",
+            "The phrase 'the man whose name is the Branch' (v.12) is a clear Messianic prophecy that Christ is the coming branch of David",
+            "The crowning of Joshua as priest-king (v.10-11) foreshadows the unity of priestly and kingly roles in Christ"
+          ],
+          "focusVerse": "6:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles about the future of the temple and their leadership through this vision?",
+          "tips": [
+            "This vision reassures the exiles that God is in control of the temple's rebuilding and the leadership of the future kingdom",
+            "The 'Branch' (v.12) points to Christ as the one who will rebuild the temple (the church) and rule as king and high priest",
+            "The crown made from the exiles' silver and gold (v.10) shows that God will use their resources for His purposes"
+          ],
+          "focusVerse": "6:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The four chariots, the meaning of 'the Branch', or the role of Joshua?",
+          "tips": [
+            "The four chariots with different horse colors: in ancient Near Eastern culture, colors often represented specific nations or directions (e.g., red for Egypt, black for the north, etc.)",
+            "'The Branch' (v.12) is a Messianic title that refers to the coming ruler from David's line, but it's a bit abstract without context",
+            "Joshua is the high priest (Jehozadak) but in this vision he is crowned as king - this is a unique blend of priestly and kingly roles that only Christ fulfills"
+          ],
+          "focusVerse": "6:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's provision for leadership in your life this week?",
+          "tips": [
+            "Consider how God has provided resources (like the crown made from silver and gold) for your life - what are you willing to 'give' for His purposes?",
+            "Think about a situation where you need to be a 'branch' (a leader) in your community or family, as Christ does",
+            "Pray for the courage to step into a leadership role with humility, like Joshua was crowned"
+          ],
+          "focusVerse": "6:10-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the promise of a future temple and king who will rule with peace. Ask for the courage to be a leader in His church.",
+          "tips": [
+            "Thank God that He has provided the 'Branch' (Christ) to be the true temple and king",
+            "Pray for the exiles to trust in the coming of the Messiah and the rebuilding of the temple (the church)",
+            "Ask God to help you be a 'branch' in your community, bearing the burden of the temple (the church) with peace"
+          ],
+          "focusVerse": "6:12"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 7,
+      "chapterTitle": "A Question About Fasting",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 7:1-14 aloud, paying attention to the dialogue between Sharezer and Regem-melech in verses 1-2 and Zechariah's response in verses 4-5.",
+          "tips": [
+            "Notice the repetition of 'fasting' in the context of the fifth month (v.3)",
+            "Pay attention to the emotional tone of the exiles' question about their long-standing practice",
+            "The phrase 'was it for me that you fasted?' (v.4) is a direct challenge to their motives"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles about the true nature of worship and fasting?",
+          "tips": [
+            "Zechariah is emphasizing that external rituals without heart change are empty (v.4-5)",
+            "The exiles have been fasting for 70 years without understanding the heart of God's call",
+            "True worship requires active justice and mercy (v.7-8)"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What parts are challenging? The historical context of fasting, the meaning of 'true judgments', and the connection to the exiles' current situation.",
+          "tips": [
+            "The exiles had been fasting for 70 years (since the Babylonian exile) but the text does not specify the exact time",
+            "The phrase 'true judgments' (v.7) refers to fair and just actions, not just legalism",
+            "The 'stubborn shoulder' (v.14) describes the exiles' resistance to change"
+          ],
+          "focusVerse": "7:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "How can you apply Zechariah's call for true judgments and mercy to your daily life this week?",
+          "tips": [
+            "Identify one person who is vulnerable (widow, fatherless, sojourner, orphan, or poor) and show kindness this week",
+            "Check if your fasting or worship practices are motivated by heart change or just ritual",
+            "Pray for courage to do justice without fear"
+          ],
+          "focusVerse": "7:7"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Pray about the theme of fasting and worship that is rooted in heart change and mercy.",
+          "tips": [
+            "Thank God for the command to show mercy and justice",
+            "Ask for the strength to overcome a 'stubborn shoulder' in your relationships",
+            "Pray for the exiles to hear the call for true worship"
+          ],
+          "focusVerse": "7:7"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 8,
+      "chapterTitle": "The Coming Peace of Jerusalem",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 8:1-14 aloud, paying attention to the emotional tone of God's jealousy and the imagery of peace.",
+          "tips": [
+            "Notice the repeated phrase 'I am jealous for Zion' in verse 1",
+            "Pay attention to the image of children playing in the streets (verse 5)",
+            "Notice the phrase 'God is with you' in verse 10"
+          ],
+          "focusVerse": "8:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (God) is doing WHAT (restoring Jerusalem) to WHERE (the city of Jerusalem) and WHY (for the returned exiles).",
+          "tips": [
+            "Include the restoration of the elderly and children (verses 4-5)",
+            "Note the promise of God dwelling in the city (verse 2)",
+            "Describe the gathering of nations from east and west (verse 7)"
+          ],
+          "focusVerse": "8:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: God's jealousy for Zion (verse 1), the children playing in the streets (verse 5), or the nations taking hold of a Jew's robe (verse 10)?",
+          "tips": [
+            "The image of old men and women sitting in the streets with staffs (verse 4) shows the healing of the community and the restoration of life",
+            "The nations from every tongue taking hold of the robe of a Jew (verse 10) symbolizes the universal reach of God's kingdom",
+            "The phrase 'God is with you' (verse 10) is a simple yet powerful declaration that becomes the draw for the nations"
+          ],
+          "focusVerse": "8:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles through this passage?",
+          "tips": [
+            "God's promise of restoration and dwelling in Jerusalem to comfort the exiles",
+            "The coming peace that includes both physical and spiritual restoration of the community",
+            "The universal nature of God's kingdom that will attract all nations to Jerusalem"
+          ],
+          "focusVerse": "8:1-14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The phrase 'jealous for Zion' (verse 1), the meaning of 'dwell in the midst of Jerusalem' (verse 2), or the nations taking hold of a Jew's robe (verse 10)?",
+          "tips": [
+            "'Jealousy' here is not anger but deep love and concern (Hebrew: 'chazaq') - God's strong affection for Zion",
+            "The phrase 'dwell in the midst of Jerusalem' refers to God's presence in the city, a sign of His direct blessing and the city becoming a center of worship",
+            "The nations taking hold of a Jew's robe (verse 10) is a metaphor for the nations coming to the Jewish community because they have heard of God's presence with the Jews"
+          ],
+          "focusVerse": "8:1-14"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of God's coming peace: What can you do this week to be a place of hope and restoration for others?",
+          "tips": [
+            "Practice hospitality by welcoming others into your home",
+            "Share the hope of God's restoration with a friend going through hardship",
+            "Remember that God is with you and that you are part of a community that will bring peace"
+          ],
+          "focusVerse": "8:10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promise of peace and ask for the courage to be part of it.",
+          "tips": [
+            "Thank God for the promise that He will dwell in Jerusalem and bring peace to the city",
+            "Pray for the exiles (returned or still in exile) to experience restoration",
+            "Ask God to open your heart to the nations and to be a place where others can come to Him"
+          ],
+          "focusVerse": "8:10"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 9,
+      "chapterTitle": "The Coming King",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 9:1-17 aloud, paying attention to the contrast between the judgment of nations and the coming king.",
+          "tips": [
+            "Notice the phrase 'the LORD has an eye on mankind' (v. 1) and the repeated use of 'the Lord will strip' (v. 3)",
+            "Pay attention to the emotional shift from judgment (vv. 2-7) to joy (v. 9)",
+            "The phrase 'Rejoice greatly, O daughter of Zion!' (v. 9) is a call for hope in the midst of exile"
+          ],
+          "focusVerse": "9:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being judged, WHAT God is doing, WHERE this happens, and WHY God is doing it.",
+          "tips": [
+            "Include the nations of Hadrach, Damascus, Hamath, Tyre, Sidon, Ashkelon, and Gaza",
+            "Note the judgment of the Philistines (v. 10) and the coming king (v. 9)",
+            "The purpose is to bring the humble king (Jesus) who will rule from sea to sea"
+          ],
+          "focusVerse": "9:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the judgment of the nations (vv. 2-7), the king's humility (v. 9), or the global peace (v. 10)?",
+          "tips": [
+            "The phrase 'Rejoice greatly, O daughter of Zion! Shout aloud, O daughter of Jerusalem!' (v. 9) is a call for joy in the midst of exile",
+            "The description of the king: 'righteous and having salvation is he, humble and mounted on a donkey' (v. 9) is a perfect picture of Christ",
+            "The promise of 'his rule shall be from sea to sea, and from the River to the ends of the earth' (v. 10) shows universal peace"
+          ],
+          "focusVerse": "9:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles through this passage?",
+          "tips": [
+            "Zechariah was reassuring the exiles that God would bring a humble king (Jesus) who would restore Israel and bring peace to all nations",
+            "This prophecy was a hope for the return of the exiles and a promise of God's ultimate rule",
+            "The king's humility on a donkey contrasts with the pride of the nations, showing that God's kingdom is not of power but of grace"
+          ],
+          "focusVerse": "9:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The oracle against nations, the meaning of 'the king on a donkey', or the scope of the king's rule?",
+          "tips": [
+            "The phrase 'the land of Hadrach' (v. 1) is a bit obscure; Hadrach was a city in the east (modern-day Syria) but the prophecy is a warning to the nations around Israel",
+            "The term 'the River' in v. 10 likely refers to the Euphrates (a river that marked the boundary of Israel) but the phrase 'from the River to the ends of the earth' is a global scope",
+            "The 'chariot from Ephraim' (v. 11) and 'war horse from Jerusalem' (v. 11) are metaphors for military power that will be removed"
+          ],
+          "focusVerse": "9:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you live as a 'humble king' in your community this week? Or how can you be a part of the peace that the king brings?",
+          "tips": [
+            "Pray for humility in your leadership roles, especially when dealing with others",
+            "Share the good news of Christ's humble coming with a friend this week",
+            "Offer forgiveness to someone who has wronged you, just as the king brings peace"
+          ],
+          "focusVerse": "9:9"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the coming king (Jesus) and ask for the peace he brings.",
+          "tips": [
+            "Thank God for the king who came to Jerusalem on a donkey (Jesus)",
+            "Ask for the courage to be humble in your own life",
+            "Pray for the nations to be brought under the king's peace"
+          ],
+          "focusVerse": "9:9"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 10,
+      "chapterTitle": "The LORD Will Restore His People",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 10:1-14 aloud, focusing on the contrast between the people's affliction and God's promise of restoration.",
+          "tips": [
+            "Notice the repetition of 'the LORD' (5 times) for emphasis",
+            "Pay attention to the phrase 'sheep without a shepherd' (v.3) which shows the people's condition",
+            "The image of 'trampling the foe in the mud of the streets' (v.12) shows victory"
+          ],
+          "focusVerse": "10:1-14"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being restored, WHAT God is doing, WHERE this restoration occurs, and WHY God is acting.",
+          "tips": [
+            "The house of Judah and the house of Joseph (the Jewish people) are the ones being restored",
+            "God is providing rain (spiritual blessing) and a shepherd (Christ) for His people",
+            "This restoration happens in the land of Judah (the promised land) after the exile"
+          ],
+          "focusVerse": "10:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the promise of rain (v.1), the shepherdless sheep (v.3), or the mighty men in battle (v.12).",
+          "tips": [
+            "The promise of rain (v.1) shows God's provision for the land's fertility",
+            "The phrase 'sheep without a shepherd' (v.3) highlights the people's spiritual condition",
+            "The image of 'trampling the foe in the mud of the streets' (v.12) is a powerful picture of victory"
+          ],
+          "focusVerse": "10:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles about God's restoration plan?",
+          "tips": [
+            "Zechariah was reassuring the exiles that God would not abandon them",
+            "God's restoration is both physical (land) and spiritual (shepherd)",
+            "The cornerstone from Judah points to Christ as the one who will lead and save"
+          ],
+          "focusVerse": "10:1-14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'household gods' and 'diviners', the role of the cornerstone, or the imagery of trampling the foe?",
+          "tips": [
+            "'Household gods' refers to idols the exiles had been using, and 'diviners' are false prophets who gave empty predictions",
+            "The cornerstone from Judah (v.12) is a prophecy that Christ, the descendant of Judah, will be the foundation of the new covenant",
+            "The phrase 'trampling the foe in the mud of the streets' (v.12) shows that the restored people will overcome their enemies with humility and strength"
+          ],
+          "focusVerse": "10:1-14"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the promise of God's restoration to your current situation?",
+          "tips": [
+            "Pray for God to send rain (spiritual blessing) in your life this week",
+            "Identify one area where you feel like a sheep without a shepherd and ask God for a shepherd to lead you",
+            "Practice being a 'mighty man in battle' by trusting God to overcome obstacles"
+          ],
+          "focusVerse": "10:1-14"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's restoration and strength in your life and the church.",
+          "tips": [
+            "Thank God for His promise to restore His people",
+            "Ask for the courage to be like the mighty men who trample the foe",
+            "Pray for the coming of the cornerstone (Christ) in your life and the church"
+          ],
+          "focusVerse": "10:1-14"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 11,
+      "chapterTitle": "The Shepherd Rejected",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 11:1-17 aloud, focusing on the imagery of destruction and the shepherd's rejection.",
+          "tips": [
+            "Notice the repeated wailing: 'Wail, O cypress, for the cedar has fallen' (v.1-2) and 'Wail, oaks of Bashan' (v.3)",
+            "Pay attention to the emotional shift: from the destruction of the shepherds to the shepherd being rejected (v.5-6)",
+            "Notice the two staffs: 'Favor' and 'Union' (v.10) and their breaking (v.12)"
+          ],
+          "focusVerse": "11:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Zechariah and the shepherds), WHAT (Zechariah becomes shepherd of the doomed flock, destroys three shepherds, breaks two staffs), WHERE (the context of the returned exiles), and WHY (to show the corruption of the shepherds and the need for a new shepherd).",
+          "tips": [
+            "Include the three shepherds being destroyed in one month (v.1-2)",
+            "Note the two staffs (Favor and Union) as symbols of covenant (v.10)",
+            "Describe the thirty pieces of silver being thrown to the potter (v.13-14)"
+          ],
+          "focusVerse": "11:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Zechariah becoming the shepherd of the doomed flock (v.5), the two staffs (v.10), or the thirty pieces of silver (v.13).",
+          "tips": [
+            "Zechariah's rejection: 'I became the shepherd of the flock doomed to slaughter' (v.5) shows the ultimate hopelessness of the exiles",
+            "The two staffs: 'Favor' and 'Union' (v.10) represent the broken covenant with the people",
+            "The price of betrayal: thirty pieces of silver (v.13) is the same as Judas' price, foreshadowing Christ"
+          ],
+          "focusVerse": "11:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to returned exiles through this passage?",
+          "tips": [
+            "Zechariah warns that the exiles' religious leaders (shepherds) were corrupt and selling the people for a price",
+            "The broken staffs symbolize the end of the old covenant leadership",
+            "The thirty pieces of silver being thrown to the potter shows that the price of the shepherd is worthless to God (foreshadowing Christ)"
+          ],
+          "focusVerse": "11:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The meaning of the two staffs, the rejection of the shepherd, and the significance of the thirty pieces of silver.",
+          "tips": [
+            "The two staffs: In the Old Testament, a shepherd's staff was a symbol of authority; breaking them signifies the end of the leadership structure",
+            "Why Zechariah breaks the staffs: He is rejected by the people, so the covenant is broken (v.12)",
+            "The thirty pieces of silver: In the time of the exiles, this was the price of a slave, but in the New Testament, it's the price of Christ's betrayal (v.13)"
+          ],
+          "focusVerse": "11:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can we apply this to our lives as believers?",
+          "tips": [
+            "When we feel like we are being sold (by sin or by others), pray for the new shepherd (Christ) to come and save us",
+            "Remember that the price of betrayal (thirty pieces) is the price of Christ's sacrifice for us",
+            "This week, offer your life to Christ as the true shepherd who will redeem us"
+          ],
+          "focusVerse": "11:1-17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the theme of the shepherd being rejected and the price of betrayal.",
+          "tips": [
+            "Thank God that He is the true shepherd who was rejected but now provides life through Christ",
+            "Ask for courage to trust in the new shepherd when we feel like we are being sold",
+            "Pray for the community of believers to be free from the corrupt shepherds"
+          ],
+          "focusVerse": "11:1-17"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 12,
+      "chapterTitle": "Jerusalem's Deliverance and Mourning",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 12:1-10 aloud, focusing on the phrases: 'cup of staggering', 'heavy stone', 'pierced', and 'mourn for him as one mourns for an only child'.",
+          "tips": [
+            "Notice the repeated phrase 'on that day' (v.2, v.4, v.6) indicating a future event of judgment and deliverance",
+            "Pay attention to the contrast between the nations' actions (v.1) and the people of God's response (v.9-10)"
+          ],
+          "focusVerse": "12:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO the LORD is addressing, WHAT He declares will happen to Jerusalem and Judah, WHERE this occurs (in the context of the returned exiles), and WHY (to bring about a time of repentance and deliverance).",
+          "tips": [
+            "Include the siege of Jerusalem (v.1) and the gathering of nations (v.2)",
+            "Note that the LORD will pour out a spirit of grace on the house of David and Jerusalem (v.5)",
+            "Describe the people's response: they will look on the one they pierced and mourn (v.9-10)"
+          ],
+          "focusVerse": "12:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part of this passage stood out most? Consider: Jerusalem as a cup of staggering (v.1), the heavy stone imagery (v.2), or the mourning for the pierced one (v.9-10)?",
+          "tips": [
+            "The phrase 'mourn for him as one mourns for an only child' (v.10) is deeply emotional and shows the depth of grief for Christ",
+            "The image of Jerusalem as a heavy stone (v.2) is powerful because it shows that the city will become a symbol of God's judgment that the nations will stumble upon",
+            "The promise of a spirit of grace that leads to repentance (v.5) is the key to the people's future"
+          ],
+          "focusVerse": "12:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles through this passage?",
+          "tips": [
+            "Zechariah reassures the exiles that despite the current oppression and the siege of Jerusalem, God will deliver them through a time of judgment that will lead to repentance",
+            "The main point is that the people of God will experience a deep mourning for the pierced one (Christ) and this mourning will result in a spirit of grace that brings them to repentance",
+            "This passage connects the current exile to the future coming of Christ and the need for the people to turn to Him"
+          ],
+          "focusVerse": "12:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this passage are challenging? The cup of staggering? The heavy stone? The spirit of grace?",
+          "tips": [
+            "'Cup of staggering' (v.1) refers to a cup that causes confusion and intoxication; in this context, it's a cup that will overwhelm the surrounding nations with God's judgment",
+            "'Heavy stone' (v.2) is a metaphor for Jerusalem that will cause the nations to harm themselves when they try to lift it (symbolizing the city's role in God's judgment)",
+            "'Spirit of grace and pleas for mercy' (v.5) is a new outpouring that leads to repentance; it's different from the old covenant and points to the coming of the Messiah"
+          ],
+          "focusVerse": "12:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of mourning for the pierced one (v.9-10) this week?",
+          "tips": [
+            "Reflect on how you might be mourning for Christ's sacrifice in your life; consider if you're experiencing grief that leads to repentance",
+            "Pray that you will look on Christ as the one you have pierced (v.9) and mourn for Him as one mourns for an only child (v.10)",
+            "Ask God to pour out a spirit of grace on you that leads to repentance and a desire to live for Him"
+          ],
+          "focusVerse": "12:1-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the theme of mourning for the pierced one and the spirit of grace that leads to repentance.",
+          "tips": [
+            "Thank God that He has a plan for Jerusalem and that He will pour out a spirit of grace on His people",
+            "Pray for the strength to mourn for Christ as one mourns for an only child",
+            "Ask God to help you experience the spirit of grace that leads to repentance and a desire to follow Him"
+          ],
+          "focusVerse": "12:1-10"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 13,
+      "chapterTitle": "The Fountain Opened",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Zechariah 13:1-17 aloud, focusing on the contrast between cleansing and judgment.",
+          "tips": [
+            "Notice the repeated phrase 'on that day' (v.1, v.2, v.4)",
+            "Pay attention to the imagery of the fountain (v.1) and the striking of the shepherd (v.10)"
+          ],
+          "focusVerse": "13:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is cleansed, WHAT happens, WHERE it occurs, and WHY it happens for the returned exiles.",
+          "tips": [
+            "The fountain of cleansing for the house of David and Jerusalem (v.1)",
+            "The removal of idols and false prophets (v.2-3)",
+            "The judgment on the shepherd (v.10) leading to scattering of the sheep"
+          ],
+          "focusVerse": "13:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the fountain for sin (v.1), the striking of the shepherd (v.10), or the sheep scattering (v.10)?",
+          "tips": [
+            "The fountain opened for the house of David and the inhabitants of Jerusalem (v.1) - a powerful image of God's cleansing for the community",
+            "The shepherd being struck (v.10) - a direct reference to Christ's arrest and the scattering of the disciples",
+            "The sheep scattering (v.10) - symbolizing the disciples being scattered when the leader is taken"
+          ],
+          "focusVerse": "13:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Zechariah trying to communicate to the returned exiles about God's cleansing and judgment?",
+          "tips": [
+            "To show that God will purify the community from sin and idolatry through His own blood (the fountain)",
+            "To reveal that false prophets and religious leaders will be held accountable and the true shepherd (Christ) will be struck for the sin of the people",
+            "To assure the exiles that God's judgment will bring about a new beginning for the house of David"
+          ],
+          "focusVerse": "13:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The fountain of cleansing, the striking of the shepherd, or the scattering of the sheep?",
+          "tips": [
+            "'Fountain opened' (v.1) - a metaphor for the blood of Christ cleansing from sin, which the exiles might not have understood in their context",
+            "'Strike the shepherd' (v.10) - in the context of the returned exiles, the shepherd could be a false religious leader, but it also points to Christ being the true shepherd",
+            "'Sheep scattering' (v.10) - the disciples scattering when the leader is taken, which the exiles might have experienced in their own exile"
+          ],
+          "focusVerse": "13:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the fountain of cleansing (v.1) to your life this week?",
+          "tips": [
+            "Ask God to cleanse you from sin and uncleanness through His blood (the fountain)",
+            "Identify areas where you have been 'unclean' and seek His forgiveness",
+            "Pray for the removal of false teachings in your life and community"
+          ],
+          "focusVerse": "13:1"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the cleansing of sin and the judgment on false prophets as described in this chapter.",
+          "tips": [
+            "Thank God for the fountain of cleansing through His blood",
+            "Ask for strength to resist false teachings and idols",
+            "Pray for the shepherd (Christ) to be struck for the sin of the world"
+          ],
+          "focusVerse": "13:1"
+        }
+      ]
+    },
+    {
+      "bookId": "zechariah",
+      "bookName": "Zechariah",
+      "chapter": 14,
+      "chapterTitle": "The LORD Comes to Reign",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Zechariah 14 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    }
+  ]
+}

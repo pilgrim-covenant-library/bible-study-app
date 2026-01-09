@@ -1,0 +1,318 @@
+{
+  "bookId": "philippians",
+  "bookName": "Philippians",
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "bookId": "philippians",
+      "bookName": "Philippians",
+      "chapter": 1,
+      "chapterTitle": "To Live Is Christ",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Philippians 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "philippians",
+      "bookName": "Philippians",
+      "chapter": 2,
+      "chapterTitle": "The Mind of Christ",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Philippians 2:1-18 aloud, paying attention to the contrast between self-centeredness and Christ's humility in verses 5-8.",
+          "tips": [
+            "Notice the repeated phrase 'in Christ Jesus' (v.5, 6, 7, 8) emphasizes unity in Christ",
+            "Observe the progression from 'same mind' (v.1) to Christ's emptying (v.5-8) and the result (v.9-11)"
+          ],
+          "focusVerse": "2:1-18"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being called to unity, WHAT they are to do, WHERE this happens (the church in Philippi), and WHY (to reflect Christ's humility).",
+          "tips": [
+            "Include the call for mutual love and unity (v.1-4)",
+            "Note the example of Christ emptying Himself (v.5-8)",
+            "Describe the result: every knee bowing and every tongue confessing (v.9-11)"
+          ],
+          "focusVerse": "2:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Christ's emptying (v.5-8), the call for humility (v.3-4), or the universal response (v.9-11)?",
+          "tips": [
+            "The phrase 'emptying Himself' (v.6) shows Christ's radical humility - a concept that challenges self-centeredness",
+            "The contrast in v.5-8: 'who was in the form of God' vs. 'emptied Himself' is profound",
+            "The promise in v.10-11: 'every knee will bow' is a powerful declaration of Christ's universal authority"
+          ],
+          "focusVerse": "2:5-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Philippi through this passage?",
+          "tips": [
+            "Paul is calling the Philippians to embrace the same mind as Christ - humility and selflessness",
+            "This passage shows that true unity and Christian identity come from Christ's example of humility",
+            "The theological significance is that Christ's humility leads to exaltation and universal submission"
+          ],
+          "focusVerse": "2:5-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of Christ 'emptying' Himself? The call for selflessness? The universal response of every knee bowing?",
+          "tips": [
+            "'Emptying' (Greek: kenosis) means Christ voluntarily relinquishing His divine equality without ceasing to be God",
+            "The call for humility is challenging in a culture that values status and success",
+            "The universal response (v.9-11) might seem too absolute, but it points to Christ's authority over all creation"
+          ],
+          "focusVerse": "2:5-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice the mind of Christ in your relationships this week?",
+          "tips": [
+            "Choose one person to serve without expecting anything in return (like Christ did)",
+            "Reflect on a time you were proud and ask how you can humble yourself",
+            "Share the good news of Christ's humility with someone who is self-centered"
+          ],
+          "focusVerse": "2:3-4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He provides. Ask for Abraham-like faith to trust and obey even when it's costly.",
+          "tips": [
+            "Thank God for the example of Christ's humility",
+            "Pray for the courage to be humble and to serve others",
+            "Ask God to strengthen your trust in His provision"
+          ],
+          "focusVerse": "2:5-11"
+        }
+      ]
+    },
+    {
+      "bookId": "philippians",
+      "bookName": "Philippians",
+      "chapter": 3,
+      "chapterTitle": "Knowing Christ Above All",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Philippians 3:1-16 aloud, paying attention to the emotional tone of Paul's surrender and the repeated phrase 'knowing Christ'.",
+          "tips": [
+            "Notice the phrase 'I count everything as loss because of the surpassing worth of knowing Christ Jesus' (v.8) appears multiple times in the passage",
+            "Pay attention to the contrast between Paul's past (v.4-6) and his present focus (v.8-11)",
+            "The phrase 'pressing on toward the goal' (v.14) shows active pursuit, not passive waiting"
+          ],
+          "focusVerse": "3:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Paul is talking about, WHAT he has counted as loss, WHERE this is happening (the church in Philippi), and WHY he emphasizes knowing Christ above all.",
+          "tips": [
+            "Include Paul's past identity: circumcised on the eighth day, Pharisee, persecutor of the church",
+            "Note that Paul counts everything as loss for the sake of knowing Christ",
+            "The goal is to be found in Christ and to attain resurrection to life"
+          ],
+          "focusVerse": "3:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: 'I count everything as loss' (v.7), 'pressing on toward the goal' (v.14), or 'our citizenship is in heaven' (v.20)?",
+          "tips": [
+            "'I count everything as loss' shows Paul's radical surrender to Christ, even his past achievements as worthless",
+            "'Pressing on toward the goal' emphasizes active pursuit of Christ, not passive waiting",
+            "'Our citizenship is in heaven' shifts focus from earthly life to eternal identity"
+          ],
+          "focusVerse": "3:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Paul trying to communicate to the church in Philippi through this passage?",
+          "tips": [
+            "Paul is emphasizing that the surpassing worth of knowing Christ is more valuable than any human status or achievement",
+            "This passage shows that true righteousness comes through faith in Christ, not the law",
+            "The goal of the Christian life is to be found in Christ and to be transformed by His resurrection power"
+          ],
+          "focusVerse": "3:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The phrase 'counting everything as loss', the contrast between law and faith, or the concept of 'pressing on'?",
+          "tips": [
+            "'Counting everything as loss' (v.7) is a radical perspective that challenges the value we place on human accomplishments and status",
+            "The contrast between 'righteousness of his own that comes from the law' and 'righteousness from God that depends on faith' (v.9) requires understanding that the law cannot provide righteousness",
+            "'Pressing on toward the goal' (v.14) is an active, continuous pursuit that may be difficult in a world that encourages passivity or immediate results"
+          ],
+          "focusVerse": "3:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you 'press on toward the goal' for Christ this week, given that your citizenship is in heaven?",
+          "tips": [
+            "Identify one area where you are holding back from full obedience and consider what you can surrender to God",
+            "Practice daily steps that align with the goal of knowing Christ, such as prayer, studying the Bible, or sharing your faith",
+            "Remember that your true citizenship is in heaven, so focus on eternal things rather than temporary ones"
+          ],
+          "focusVerse": "3:14"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the surpassing worth of knowing Christ. Ask for the courage to count everything as loss and to press on toward the goal.",
+          "tips": [
+            "Thank God for Christ as the only hope and the source of righteousness",
+            "Ask for the strength to let go of what is of earth and focus on the heavenly citizenship",
+            "Pray for the ability to be like Christ in suffering and death, and to be transformed by His resurrection power"
+          ],
+          "focusVerse": "3:14"
+        }
+      ]
+    },
+    {
+      "bookId": "philippians",
+      "bookName": "Philippians",
+      "chapter": 4,
+      "chapterTitle": "Rejoice in the Lord Always",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Philippians 4 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    }
+  ]
+}

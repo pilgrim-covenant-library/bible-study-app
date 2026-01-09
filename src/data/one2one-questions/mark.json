@@ -1,0 +1,1287 @@
+{
+  "bookId": "mark",
+  "bookName": "Mark",
+  "totalChapters": 16,
+  "chapters": [
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 1,
+      "chapterTitle": "The Beginning of the Gospel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 1:1-15 aloud, focusing on the contrast between John's preparation and Jesus' immediate action.",
+          "tips": [
+            "Notice the repetition of 'repent' in John's message (v.4) and Jesus' call (v.15)",
+            "Pay attention to the emotional shift from John's call to Jesus' urgent proclamation"
+          ],
+          "focusVerse": "1:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe who is preparing the way, who begins the gospel work, where it happens, and why it matters for Roman Christians.",
+          "tips": [
+            "John the Baptist's baptism in the wilderness (v.3-4)",
+            "Jesus' baptism and 40-day wilderness temptation (v.9-13)",
+            "Jesus' initial preaching in Galilee (v.14-15)"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Which part stood out most? Consider: John's message (v.3-4), Jesus' baptism (v.9-10), or Jesus' call to disciples (v.14-15)?",
+          "tips": [
+            "John's declaration that 'he who is mightier than I' comes after him (v.10) - shows Jesus' divine authority",
+            "Jesus' immediate response to the kingdom being 'at hand' (v.15) - urgency for Roman Christians",
+            "The call to 'repent and believe' (v.15) - direct and actionable for a Roman audience"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about the beginning of the gospel?",
+          "tips": [
+            "Mark emphasizes Jesus as the Son of God who brings the kingdom of God (v.1, v.15)",
+            "The gospel is near and requires repentance and belief (v.15)",
+            "Roman Christians might have been in a time of persecution and need a clear message of hope in Jesus"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The kingdom of God, the role of John, or the immediacy of Jesus' call?",
+          "tips": [
+            "'Kingdom of God' (v.15) might be confusing for Romans who are used to political empires, but here it's spiritual",
+            "John the Baptist is a forerunner but Roman Christians might not have a Jewish context to understand his role",
+            "Jesus' baptism by John (v.9) shows a Jewish tradition that Romans might not be familiar with"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you respond to Jesus' call to 'repent and believe' in your daily life this week?",
+          "tips": [
+            "Identify one area where you need to repent (e.g., sin, selfishness) and ask for God's help",
+            "Share your repentance and belief with one person this week",
+            "Take time to pray for the kingdom of God to be 'at hand' in your community"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for the beginning of the gospel and ask for courage to respond.",
+          "tips": [
+            "Thank God that Jesus is the Son of God who brings the kingdom (v.1)",
+            "Ask for the strength to repent and believe in Jesus (v.15)",
+            "Pray that the church in Rome will experience the kingdom of God's presence"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 2,
+      "chapterTitle": "Authority to Forgive Sins",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Mark 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 3,
+      "chapterTitle": "Calling the Twelve",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Mark 3 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 4,
+      "chapterTitle": "Parables of the Kingdom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Mark 4 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 5,
+      "chapterTitle": "Power Over Demons, Disease, and Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 5:1-20 aloud, paying attention to the dramatic shift from the Legion's plight to the healing of the woman and the raising of the daughter.",
+          "tips": [
+            "Notice the man's desperate cry: 'What have you to do with me, Jesus, Son of the Most High God? My name is Legion, for we are many.' (v.25-26)",
+            "Pay attention to the emotional contrast: the man's cries in the tombs vs. the calm authority of Jesus' command",
+            "The repetition of 'I say to you' in v.39 (the raising of the daughter) is a strong declaration of Jesus' authority"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters.",
+          "tips": [
+            "The man with a legion of unclean spirits (v.1-20) is cast out into the sea",
+            "A woman with a 12-year hemorrhage touches Jesus and is healed (v.28-34)",
+            "Jairus' daughter, near death, is raised by Jesus' command (v.35-42)"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the Legion's plea for permission to be sent to pigs (v.25-26), the woman's touch (v.28-30), or Jesus' command to the daughter (v.39-42)?",
+          "tips": [
+            "The Legion's cry: 'My name is Legion, for we are many' shows the overwhelming nature of demonic oppression and the need for divine authority",
+            "The woman's touch without seeing Jesus: 'she was healed' (v.34) illustrates faith that is not based on sight but on trust",
+            "Jesus' word: 'Talitha cumi' (v.39) is a direct command that bypasses human limitations and brings life from death"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about Jesus' power and their faith?",
+          "tips": [
+            "Mark emphasizes Jesus' authority over demons and death, which was a radical claim for Roman Christians who were familiar with Jewish and pagan practices",
+            "The inclusion of the Roman setting (Gerasenes, which is near the Roman province of Galilee) shows Jesus' power over the entire Roman world",
+            "The healing of the woman and raising of the daughter demonstrates that faith in Jesus' authority brings immediate results, even in the midst of a Roman-occupied society"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of 'Legion' (a large group of demons), the meaning of the woman's touch, or the raising of the dead?",
+          "tips": [
+            "'Legion' in Greek means a large military unit; it shows the extreme severity of the demonic oppression that Jesus must overcome",
+            "The woman's touch without seeing Jesus (v.28-30) challenges the Roman Christian understanding of physical contact and healing, emphasizing that faith can be present without visible signs",
+            "The raising of the dead (v.39-42) is a powerful demonstration of Jesus' authority over death, which Roman Christians might have associated with the afterlife but not the immediate resurrection of a ch"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Jesus has power over demons, disease, and death. What situation requires you to trust His power this week?",
+          "tips": [
+            "Consider a physical or emotional issue that you feel is beyond your control and might be a result of demonic oppression or disease",
+            "Think about how the woman's touch (a simple act of faith) can be applied to a current situation where you need to take a risk to seek healing",
+            "Practice the faith of Jairus by bringing a situation that is 'at the point of death' to Jesus (through prayer or action)"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the power of Jesus to overcome the demonic, physical, and spiritual struggles in your life, and for the courage to trust His word.",
+          "tips": [
+            "Ask for the strength to be like the woman who touched Jesus without seeing Him, trusting in His power",
+            "Pray for the faith of Jairus to bring your loved one back from the brink of death",
+            "Thank God for His authority over death and ask for the courage to speak His name in situations of crisis"
+          ],
+          "focusVerse": "5:1-20"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 6,
+      "chapterTitle": "Rejection, Mission, and Feeding the Five Thousand",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 6:1-44 aloud, focusing on the contrast between Jesus' rejection in his hometown and the miraculous feeding of the five thousand.",
+          "tips": [
+            "Notice the repetition of 'he could do no mighty work' (v.5) to emphasize the cost of unbelief",
+            "Pay attention to the emotional shift from rejection (v.1-2) to the disciples' return and the miraculous feeding (v.34-44)",
+            "The phrase 'rejection' appears in v.1-2 and v.13-14, showing the theme's recurrence"
+          ],
+          "focusVerse": "Mark 6:1-44"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus and his disciples) does WHAT (teaches, is rejected, sends disciples, feeds the multitude) WHERE (in his hometown and the desolate place) and WHY (to demonstrate God's power and provision despite rejection).",
+          "tips": [
+            "Include the three key events: Jesus' rejection in his hometown (v.1-2), sending the twelve (v.7), and feeding the five thousand (v.30-44)",
+            "Note the disciples' return from their mission and finding Jesus in the desolate place (v.34-44)",
+            "The apostles' mission was to preach and cast out unclean spirits (v.7)"
+          ],
+          "focusVerse": "Mark 6:1-44"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' rejection in his hometown (v.1-2), the feeding of the five thousand (v.30-44), or Jesus walking on water (v.45-46)?",
+          "tips": [
+            "Jesus' words: 'A prophet is not without honor, except in his hometown' (v.2) show the cost of following Him",
+            "The miracle of the five thousand: 'took up twelve baskets' (v.34) demonstrates God's provision beyond human capacity",
+            "The walking on water (v.45-46) is a powerful symbol of Christ's authority over nature"
+          ],
+          "focusVerse": "Mark 6:1-44"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians through this passage?",
+          "tips": [
+            "Mark was writing to Roman Christians who might be experiencing rejection in their own communities but also being called to mission",
+            "The passage emphasizes that Christ's authority is not limited by human rejection, and He provides abundantly for His people even when they are in the wilderness",
+            "The feeding of the five thousand and walking on water show that Christ is the true bread and the one who walks on water (overcoming fear)"
+          ],
+          "focusVerse": "Mark 6:1-44"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The rejection in Jesus' hometown? Why Jesus could do no mighty work? The context of John being beheaded?",
+          "tips": [
+            "Rejection in hometown: Jesus' hometown (Galilee) was a common place of rejection for prophets (e.g., Isaiah 53:3), but Mark emphasizes that Christ's authority is not limited by local rejection",
+            "Mighty work (v.5) refers to miracles that Jesus performed, which were hindered by unbelief in his hometown",
+            "Herod's action (binding John) is a historical context that Roman Christians might not have known, but it shows the cost of following Christ"
+          ],
+          "focusVerse": "Mark 6:1-44"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you trust Christ to provide for your needs when you feel rejected by others?",
+          "tips": [
+            "Like the apostles who were sent out, share your faith in Christ's provision with others",
+            "When you feel rejected, remember that Christ feeds the multitudes and walks on water"
+          ],
+          "focusVerse": "Mark 6:1-44"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the theme of rejection and provision",
+          "tips": [
+            "Thank God for being the bread of life who provides abundantly",
+            "Pray for courage to trust Christ when you are rejected",
+            "Ask for the strength to walk through life's 'winds' like Christ walked on water"
+          ],
+          "focusVerse": "Mark 6:1-44"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 7,
+      "chapterTitle": "Traditions of Men and True Cleanliness",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Mark 7 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 8,
+      "chapterTitle": "Feeding Four Thousand and Peter's Confession",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 8:1-30 aloud, paying attention to Jesus' compassion in verses 2-3 and the dramatic shift in verses 27-28.",
+          "tips": [
+            "Notice the phrase 'I have compassion on the crowd' (v.2) repeated in the context of the crowd's hunger",
+            "Pay attention to the seven loaves and the four thousand people (v.9)",
+            "The emotional tension in Peter's confession (v.29) and Jesus' rebuke (v.30)"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is fed, WHAT Jesus does, WHERE this happens, and WHY he does it, including the Pharisees' challenge and Peter's confession.",
+          "tips": [
+            "Jesus feeds the crowd with seven loaves (v.4-9)",
+            "The crowd is hungry for three days (v.2-3)",
+            "The Pharisees seek a sign from heaven (v.10-12) and Jesus teaches about the cross (v.13-21)"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the feeding miracle (v.4-9), Jesus' teaching about suffering (v.31), or Peter's confession (v.29).",
+          "tips": [
+            "The feeding of four thousand with seven loaves shows Jesus' compassion and provision beyond human ability",
+            "The teaching about the Son of Man suffering (v.31) is the core of the gospel for the disciples",
+            "Peter's confession (v.29) is a moment of faith that leads to Jesus' rebuke of Satan (v.30)"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about the cost of following Jesus?",
+          "tips": [
+            "Mark shows that the true Messiah must suffer and die (v.31) and rise again (v.32), which challenges the Roman Christian's understanding of leadership and power",
+            "The feeding of the crowd (v.1-9) demonstrates Jesus' compassion and ability to provide for the needy, which is a contrast to the Roman Empire's focus on military and political power",
+            "The passage emphasizes that following Jesus requires self-denial and taking up the cross (v.30), which is a radical alternative to Roman values"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The feeding of the crowd, the meaning of 'Son of Man', or Peter's confession?",
+          "tips": [
+            "'Feeding the crowd' with seven loaves is a miracle that shows God's provision in small numbers, but it's also a pattern in Mark (e.g., feeding 5000 with 5 loaves and 2 fish in Mark 6)",
+            "'The Son of Man must suffer' (v.31) refers to Jesus' role as the suffering servant who will die for the sins of the world, which is a key concept in the gospel",
+            "Peter's confession (v.29) is a moment of faith, but Jesus rebukes him (v.30) because Peter is focused on the human aspects of the kingdom rather than the cross"
+          ],
+          "focusVerse": "8:1-30"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice taking up the cross and showing compassion to others this week?",
+          "tips": [
+            "Identify one small act of service where you can help someone who is hungry (spiritually or physically) in your community",
+            "Reflect on what you might be 'denying' (e.g., a habit, desire) that aligns with following Jesus",
+            "Pray for the courage to make a difficult choice for the sake of others, like the crowd in the passage"
+          ],
+          "focusVerse": "8:1-3 and 8:30"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the strength to follow Jesus, even when it's costly.",
+          "tips": [
+            "Thank God for the provision of Jesus (the feeding of the four thousand)",
+            "Ask for the courage to confess Jesus as the Christ and to take up the cross",
+            "Pray for the Holy Spirit to help us understand the cost of discipleship"
+          ],
+          "focusVerse": "8:1-30"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 9,
+      "chapterTitle": "The Transfiguration",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Mark 9 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 10,
+      "chapterTitle": "Teaching on Marriage, Riches, and Servanthood",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 10:1-22 aloud, focusing on the contrast between the Pharisees' test on divorce (verses 1-12) and the rich young ruler's question (verses 13-22).",
+          "tips": [
+            "Notice the phrase 'what therefore God has joined together, let not man separate' (v.9) as the core marriage teaching",
+            "Pay attention to the children being brought to Jesus (v.13) and the rich man's immediate reaction (v.22)",
+            "Listen for the repetition of 'for' in Jesus' teaching on wealth (v.21) and servanthood (v.22)"
+          ],
+          "focusVerse": "10:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is tested, WHAT God commands, WHERE it takes place, and WHY (for Roman Christians).",
+          "tips": [
+            "Include the Pharisees' test on divorce (v.1-12) and Jesus' response to Moses",
+            "Note the children being brought to Jesus (v.13-14) as a contrast to wealth-focused discipleship",
+            "Describe the rich young ruler's response to Jesus' command (v.21-22)"
+          ],
+          "focusVerse": "10:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' marriage teaching (v.9-12), the children's welcome (v.13-14), or the rich man's reaction (v.22)?",
+          "tips": [
+            "Jesus' statement 'What therefore God has joined together, let not man separate' (v.9) affirms marriage as God's design beyond human law",
+            "The children being welcomed (v.13) shows Jesus' priority of the vulnerable over the wealthy",
+            "The rich man's sorrowful departure (v.22) illustrates the cost of discipleship for those who value wealth"
+          ],
+          "focusVerse": "10:9-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about marriage, wealth, and servanthood?",
+          "tips": [
+            "Mark emphasizes marriage as a divine covenant that cannot be broken by human law (v.9-12)",
+            "He shows that wealth can be a barrier to discipleship (v.21-22) for Roman Christians who might value material status",
+            "Christ's mission is to serve and give His life as ransom (v.21) - a call to radical humility"
+          ],
+          "focusVerse": "10:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The divorce teaching? The 'camel through the eye of a needle'? The ransom concept?",
+          "tips": [
+            "Moses' command on divorce (v.1-12) is a legalistic practice Jesus critiques as a result of human hardness",
+            "The 'camel through the eye of a needle' (v.24) is a metaphor for the extreme difficulty of the rich entering heaven",
+            "The term 'ransom' (v.21) refers to Christ's death as payment for humanity's release from sin"
+          ],
+          "focusVerse": "10:24-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Jesus' teaching on marriage and wealth this week?",
+          "tips": [
+            "Reflect on whether your marriage honors God's design (v.9) as a covenant relationship",
+            "Consider if you are holding onto wealth in a way that hinders your relationship with God (v.21)",
+            "Pray for the grace to see your life as a service to others (v.21)"
+          ],
+          "focusVerse": "10:9-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the grace to embrace the kingdom of God as Jesus did.",
+          "tips": [
+            "Thank God for the marriage covenant He established (v.9)",
+            "Ask for strength to give up wealth that hinders your relationship with Him (v.21)",
+            "Pray for the courage to follow Jesus as a servant (v.21)"
+          ],
+          "focusVerse": "10:9-22"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 11,
+      "chapterTitle": "The Triumphal Entry and Temple Cleansing",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 11:1-19 aloud, paying attention to the crowd's 'Hosanna' shouts (v.9-10) and Jesus' anger during temple cleansing (v.15-19).",
+          "tips": [
+            "Notice the repetition of 'Hosanna' (three times in the crowd's cries)",
+            "Pay attention to the emotional shift from joy (Hosanna) to anger (temple cleansing)"
+          ],
+          "focusVerse": "11:1-19"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus and disciples) does WHAT (enters Jerusalem on a colt, curses a barren fig tree, cleanses the temple), WHERE (Bethany and Jerusalem), and WHY (to fulfill the messianic prophecy and restore the temple as a house of prayer).",
+          "tips": [
+            "Include the crowd's praise: 'Hosanna! Blessed is he who comes in the name of the Lord!' (v.9-10)",
+            "Note the fig tree incident: Jesus goes to a fig tree that has leaves but no fruit and curses it (v.12-13)",
+            "Describe the temple cleansing: Jesus drives out those selling animals and money changers (v.15-19)"
+          ],
+          "focusVerse": "11:1-19"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the crowd's 'Hosanna' (v.9-10), Jesus cursing the fig tree (v.12-13), or the temple cleansing (v.15-19).",
+          "tips": [
+            "The crowd's 'Hosanna' shows their recognition of Jesus as the Messiah (David's son) in the streets of Jerusalem",
+            "Jesus cursing the fig tree pictures Israel's spiritual barrenness (no fruit for the temple)",
+            "The temple cleansing reveals Jesus' authority over the temple and His mission to restore it as a house of prayer"
+          ],
+          "focusVerse": "11:1-19"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about Jesus' role in Jerusalem and the temple?",
+          "tips": [
+            "Mark aimed to show Roman Christians that Jesus is the promised Davidic king (fulfilling the messianic prophecies) who enters Jerusalem as the true temple",
+            "He emphasizes that Jesus is the 'house of prayer' for all nations, challenging the religious establishment that had turned the temple into a 'den of robbers'",
+            "This passage addresses Roman Christians who might be struggling with Jewish customs and the true meaning of temple worship"
+          ],
+          "focusVerse": "11:1-19"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The crowd's 'Hosanna' meaning, why Jesus cursed the fig tree, and the temple cleansing's implications for Roman Christians.",
+          "tips": [
+            "'Hosanna' (Hebrew: 'Yeshua') was a hopeful cry for the Messiah in Jerusalem, but Jesus' use of it shows the crowd's anticipation of His kingship",
+            "The fig tree is a symbol of Israel's spiritual barrenness (it has leaves but no fruit) - Jesus is pointing to the unfruitful state of the religious leaders",
+            "Temple cleansing: Roman Christians might not understand the Jewish temple rituals (like selling animals for sacrifices) and why Jesus would drive them out (He is the true temple)"
+          ],
+          "focusVerse": "11:1-19"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does Jesus' cleansing of the temple challenge us to be a 'house of prayer' in our communities this week?",
+          "tips": [
+            "Identify an area where you have become a 'den of robbers' (e.g., selfishness, materialism) and seek to cleanse it",
+            "This week, invite others to pray in your home without barriers (like a house of prayer)",
+            "Pray for God to remove barriers (prejudice, selfishness) that prevent others from coming to you"
+          ],
+          "focusVerse": "11:15-19"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He provides a house of prayer and ask for courage to cleanse our hearts and communities.",
+          "tips": [
+            "Thank God for Jesus as the true temple (His body) and the cleansing of the temple from sin",
+            "Pray for courage to remove barriers (like prejudice) in our communities",
+            "Ask God to help us be a house of prayer where all can come"
+          ],
+          "focusVerse": "11:1-19"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 12,
+      "chapterTitle": "Parables and Controversies",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 12:1-48 aloud, paying attention to the emotional tone of the parable (v.1-12), the tax question (v.13-15), and the widow's mites (v.41-48).",
+          "tips": [
+            "Notice the repetition of 'they took him and beat him' (v.2, v.3)",
+            "Pay attention to the phrase 'render to Caesar' (v.13) and the contrast with 'to God'",
+            "Notice the widow's coins: 'two small copper coins' (v.42) and the emotional weight of her sacrifice"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters.",
+          "tips": [
+            "The owner of the vineyard (Jesus) is rejected by the tenants (Jewish religious leaders)",
+            "The tax question (v.13-15) and Jesus' response about rendering to Caesar and God",
+            "The widow's sacrifice of two copper coins (v.42) as the greatest offering"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the parable of the vineyard (v.1-12), the tax response (v.13-15), or the widow's mites (v.41-48)?",
+          "tips": [
+            "The parable's climax: the owner will destroy the tenants and give the vineyard to others (v.12) - this foreshadows Jesus' rejection and the coming of the kingdom",
+            "Jesus' response 'Render to Caesar the things that are Caesar's, and to God the things that are God's' (v.14) - a clever and practical answer that shows his authority",
+            "The widow's two copper coins (v.42) - her sacrifice in the face of poverty shows total devotion"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians through this passage?",
+          "tips": [
+            "Mark was addressing Roman Christians who might be confused about Jewish practices and taxes (v.13-15) - Jesus shows that Roman authority (Caesar) and God's authority are not in conflict",
+            "The parable illustrates that the Jewish leadership (tenants) rejected Jesus (the Son) and the temple (the vineyard) will be given to others (the church)",
+            "The widow's mites show that giving is measured by heart, not wealth - a message that resonates with Roman Christians who might be struggling with materialism"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The parable's meaning, the tax question, or the widow's mites?",
+          "tips": [
+            "The parable of the vineyard: Why does the owner send his son? It's a direct reference to Jesus as the Son of God being rejected by the religious leaders",
+            "The phrase 'render to Caesar' (v.13) might be confusing because it's a tax issue - but Jesus is saying that we owe Caesar the tax (as in, the government) but also we owe God our hearts",
+            "The widow's coins: Why are they the greatest offering? Because she gave everything she had (v.42) and the coins were very small"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of giving (from the widow's mites) - what can you do this week to give sacrificially?",
+          "tips": [
+            "Consider an area where you are holding back from giving (financial, time, attention)",
+            "Think about what you can give that is small but meaningful (like two coins) in your context",
+            "How can you practice giving in a way that shows your heart to God (like the widow)"
+          ],
+          "focusVerse": "12:41-48"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the theme of giving and the rejection of Jesus.",
+          "tips": [
+            "Thank God that He values our hearts more than our wealth (like the widow)",
+            "Pray for courage to give sacrificially when it's costly",
+            "Ask God to help us see Jesus as the rejected cornerstone (v.10) and to trust in His authority"
+          ],
+          "focusVerse": "12:1-48"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 13,
+      "chapterTitle": "The Olivet Discourse",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 13:1-37 aloud, paying attention to the phrases 'abomination of desolation' (v25), 'Son of Man' (v28), and the repeated phrase 'stay awake' (v30).",
+          "tips": [
+            "Note the shift from temple destruction (v1-2) to the coming of the Son of Man (v28)",
+            "Pay attention to the emotional tone of urgency in verses 25-27"
+          ],
+          "focusVerse": "13:1-37"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Jesus is speaking to, WHAT he prophesies, WHERE this occurs, and WHY he gives these warnings.",
+          "tips": [
+            "Include the disciples' request for signs (v3-4)",
+            "Note the Mount of Olives as the location (v3)",
+            "Mention the temple destruction as the immediate sign (v2)"
+          ],
+          "focusVerse": "13:1-37"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the disciples' question (v3), the phrase 'abomination of desolation' (v25), or the command to flee (v26).",
+          "tips": [
+            "The phrase 'abomination of desolation' is a specific Jewish term for the desecration of the temple, which many Romans would have known about but not the full implications",
+            "The command to flee (v26) shows urgency for those in Judea",
+            "The Son of Man coming in clouds (v28) is a powerful image of Christ's return"
+          ],
+          "focusVerse": "13:1-37"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about the end times and their role?",
+          "tips": [
+            "The gospel must be proclaimed to all nations (v24) before Christ returns",
+            "The temple destruction is a sign of the end (v2) but not the final event",
+            "Roman Christians were to be vigilant and not be misled by false prophets (v14)"
+          ],
+          "focusVerse": "13:1-37"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The 'abomination of desolation' (v25), the timing of Christ's return (v29), and the signs of the end (v15-23).",
+          "tips": [
+            "'Abomination of desolation' refers to the desecration of the temple by a false religious leader (as in the Jewish context of the time) - not a physical building but a religious act",
+            "The phrase 'no one knows' the day or hour (v29) emphasizes that Christians must not fixate on signs but stay vigilant",
+            "The signs of the end (v15-23) are not to be taken as literal predictions but as general warnings of turmoil"
+          ],
+          "focusVerse": "13:1-37"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the call to 'stay awake' (v30) this week?",
+          "tips": [
+            "Set a specific time each day to check in with God's presence",
+            "Identify one area where you might be complacent and take action to be more vigilant",
+            "Pray for the strength to be ready for Christ's return"
+          ],
+          "focusVerse": "13:30"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the warning to stay awake. Ask for the courage to be vigilant in the midst of chaos.",
+          "tips": [
+            "Thank God for His promise of the coming of the Son of Man (v28) and the hope of His return",
+            "Pray for the wisdom to discern false prophets (v14) and stay true to Christ",
+            "Ask God to help you be alert in your daily life"
+          ],
+          "focusVerse": "13:30"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 14,
+      "chapterTitle": "Anointing, Supper, and Arrest",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 14:1-15 aloud, focusing on the emotional tension in the anointing (v.3-4), the Last Supper (v.12-13), and the arrest (v.14-15).",
+          "tips": [
+            "Notice the repeated phrase 'for burial' in v.4",
+            "Pay attention to the contrast between the woman's costly action and the chief priests' plot (v.1)",
+            "The emotional weight of 'Abba, Father' in v.35"
+          ],
+          "focusVerse": "14:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus, the woman, the disciples), WHAT happens (anointing, Last Supper, betrayal), WHERE (Bethany and Gethsemane), and WHY (Jesus' impending death and the fulfillment of Passover).",
+          "tips": [
+            "The woman anoints Jesus in Bethany (v.3)",
+            "Jesus institutes the Lord's Supper (v.12-13)",
+            "Judas betrays Jesus at Gethsemane (v.14)"
+          ],
+          "focusVerse": "14:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the anointing (v.3-4), the Last Supper (v.12-13), or Jesus' prayer in Gethsemane (v.35)?",
+          "tips": [
+            "The woman breaking the flask of nard shows radical sacrifice for a future burial",
+            "The 'one of you will betray me' (v.18) is a pivotal moment of tension",
+            "Jesus' prayer in Gethsemane: 'not my will but yours' (v.36) reveals his submission"
+          ],
+          "focusVerse": "14:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about Christ's death and the cost of discipleship?",
+          "tips": [
+            "Mark emphasizes Jesus' anointing for burial as a foreshadowing of his death",
+            "The Last Supper is the covenant meal that anticipates the new covenant in his blood",
+            "The arrest in Gethsemane shows Jesus' willingness to fulfill the Passover sacrifice"
+          ],
+          "focusVerse": "14:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The anointing's timing? The meaning of the Last Supper? The nature of Jesus' prayer in Gethsemane?",
+          "tips": [
+            "The anointing occurs two days before Passover (v.1) but is for burial (v.4) - it's a foreshadowing of his death",
+            "The Last Supper is a new covenant meal (v.12-13) that Jesus institutes before his death",
+            "Jesus' prayer in Gethsemane (v.35) shows his submission to God's will, which Roman Christians might find difficult because it involves suffering"
+          ],
+          "focusVerse": "14:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the anointing (v.4) to your life this week? What does it mean to be anointed for burial?",
+          "tips": [
+            "Surrender a precious resource (like time, money, or relationships) to God for a future purpose",
+            "Pray for the courage to follow Jesus even when the path is difficult (like the anointing was costly)",
+            "Reflect on what you are 'anointed' for in the context of Christ's sacrifice"
+          ],
+          "focusVerse": "14:1-15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's help in understanding Christ's anointing for burial and the cost of discipleship.",
+          "tips": [
+            "Thank God for the costly anointing that points to his death",
+            "Pray for courage to face the 'cup' of suffering when needed",
+            "Ask for strength to trust in Christ's sacrifice when you feel abandoned"
+          ],
+          "focusVerse": "14:1-15"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 15,
+      "chapterTitle": "Trial, Crucifixion, and Burial",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 15:1-47 aloud, paying attention to the dialogue between the chief priests and Pilate in verses 1-5, the mocking of Jesus in verses 19-20, and the tearing of the temple curtain in verse 38.",
+          "tips": [
+            "Notice the repeated phrase 'the King of the Jews' (v.2, v.4)",
+            "Pay attention to the soldiers' mocking actions (v.19-20)",
+            "The sudden silence after Jesus' death (v.39)"
+          ],
+          "focusVerse": "15:1-47"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved (chief priests, Pilate, Jesus, soldiers, etc.), WHAT happens (the trial, crucifixion, death), WHERE it takes place (Golgotha), and WHY (to condemn Jesus as the King of the Jews).",
+          "tips": [
+            "Include the decision to crucify Jesus after the crowd's demand (v.15)",
+            "Note that Jesus is mocked with a purple cloak and thorns (v.19-20)",
+            "The tearing of the temple curtain (v.38) and the centurion's confession (v.39)"
+          ],
+          "focusVerse": "15:1-47"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the mocking of Jesus (v.19-20), Jesus' cry of death (v.37), or the tearing of the curtain (v.38)?",
+          "tips": [
+            "The soldiers' actions: stripping Jesus of the purple and putting his own clothes on him shows the humiliation",
+            "Jesus' loud cry and death (v.37) is the climax of the story",
+            "The curtain tearing (v.38) symbolizes the opening of the way to God"
+          ],
+          "focusVerse": "15:1-47"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians about Jesus' crucifixion and its significance?",
+          "tips": [
+            "Mark emphasizes Jesus as the King who is crucified by Roman authorities",
+            "The torn curtain shows that through Jesus, God's presence is now accessible to all",
+            "The centurion's confession (v.39) demonstrates that even a Roman soldier recognizes Jesus' divinity"
+          ],
+          "focusVerse": "15:1-47"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of the centurion, the significance of the purple cloak, or the tearing of the temple curtain?",
+          "tips": [
+            "The purple cloak was a mark of Roman emperor, showing the Roman authorities' attempt to make Jesus seem like the emperor",
+            "The temple curtain was a barrier between the Holy of Holies and the rest of the temple; its tearing signifies the end of the old covenant and the opening of direct access to God",
+            "The centurion's confession (v.39) might seem unexpected because Romans typically did not acknowledge Jesus as the Son of God"
+          ],
+          "focusVerse": "15:1-47"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the theme of Jesus' crucifixion as the King of the Jews challenge us to act in our daily lives?",
+          "tips": [
+            "Consider how you might be 'mocked' by others for standing for Jesus",
+            "Think about how Jesus' death has made God accessible to you",
+            "This week, take one step to 'carry your cross' in a small, practical way"
+          ],
+          "focusVerse": "15:37-38"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's help to understand the significance of Jesus' death and to respond in faith.",
+          "tips": [
+            "Thank God for the tearing of the curtain and the access He provides",
+            "Ask for courage to confess Jesus as the King of the Jews in your life",
+            "Pray for the centurion's faith to be present in your community"
+          ],
+          "focusVerse": "15:38"
+        }
+      ]
+    },
+    {
+      "bookId": "mark",
+      "bookName": "Mark",
+      "chapter": 16,
+      "chapterTitle": "The Resurrection",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Mark 16:1-18 aloud, paying attention to the women's dialogue about the stone and the angel's message.",
+          "tips": [
+            "Notice the repetition of 'He has risen' (v.6) and 'he is not here' (v.6)",
+            "Pay attention to the emotional shift from fear (v.4) to hope (v.7)",
+            "The phrase 'go into all the world' (v.15) is a powerful command"
+          ],
+          "focusVerse": "16:1-18"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the women and Jesus) does WHAT (go to the tomb and rise) WHERE (the tomb) and WHY (to anoint the body and to proclaim the resurrection).",
+          "tips": [
+            "Include the women buying spices (v.1) and going to the tomb early on the first day of the week (v.2)",
+            "Note the stone being rolled away (v.3) and the angel's message (v.4-7)",
+            "The commission to the disciples (v.14-18)"
+          ],
+          "focusVerse": "16:1-18"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the empty tomb (v.4), the angel's message (v.5-7), or the commission (v.14-18)?",
+          "tips": [
+            "The angel's message: 'He has risen; he is not here' (v.6) is a direct, clear statement of the resurrection",
+            "The women's fear turning to obedience: 'they went out and fled' (v.8) and then the commission to the disciples",
+            "The phrase 'Go into all the world' (v.15) is a call to mission that resonates with Roman Christians who were spread out"
+          ],
+          "focusVerse": "16:1-18"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Mark trying to communicate to Roman Christians through this passage?",
+          "tips": [
+            "Mark was addressing Roman Christians who were likely facing persecution and needed hope in the resurrection",
+            "The resurrection is the foundation of the Christian hope and the basis for the gospel message",
+            "This passage emphasizes that Jesus is alive and will meet his disciples in Galilee (v.14) to continue his mission"
+          ],
+          "focusVerse": "16:1-18"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The empty tomb? The angel's role? The commission to the disciples?",
+          "tips": [
+            "The stone being rolled away (v.3) is a physical sign of the resurrection, but in Roman context, tombs were sealed with large stones",
+            "The angel's appearance (v.4) might be confusing because in Jewish tradition, angels are not typically seen in this way",
+            "The commission to go into all the world (v.15) for Roman Christians who were scattered and under threat of persecution"
+          ],
+          "focusVerse": "16:1-18"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme 'Christ is risen! The tomb is empty' and what this means for your life this week.",
+          "tips": [
+            "Share the hope of the resurrection with someone who is grieving or fearful",
+            "Pray for the courage to be a witness in your community, just as the disciples were commissioned",
+            "This week, do one small act of hope for someone else"
+          ],
+          "focusVerse": "16:1-18"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about the resurrection and the commission to the disciples.",
+          "tips": [
+            "Thank God that Jesus has risen and is alive",
+            "Pray for courage to share the gospel with others in the world",
+            "Ask God to help you be a witness in your daily life"
+          ],
+          "focusVerse": "16:1-18"
+        }
+      ]
+    }
+  ]
+}

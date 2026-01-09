@@ -1,0 +1,1970 @@
+{
+  "bookId": "joshua",
+  "bookName": "Joshua",
+  "totalChapters": 24,
+  "chapters": [
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 1,
+      "chapterTitle": "Joshua Commissioned",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Joshua 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 2,
+      "chapterTitle": "Rahab and the Spies",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Joshua 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 3,
+      "chapterTitle": "Crossing the Jordan",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 3:1-17 aloud, paying special attention to the priests' actions and the river's response.",
+          "tips": [
+            "Notice the phrase 'the waters stood still' (v.10)",
+            "Pay attention to the priests' feet touching the water (v.11)",
+            "Listen for the command to 'take off the shoes' (v.1)"
+          ],
+          "focusVerse": "3:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO leads the crossing, WHAT happens to the river, WHERE it occurs, and WHY it matters for Israel.",
+          "tips": [
+            "Include the priests carrying the ark of the covenant (v.4)",
+            "Note the river's waters standing still when the priests' feet touch the water (v.10-11)",
+            "Describe how all of Israel passes over the dry riverbed (v.17)"
+          ],
+          "focusVerse": "3:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the priests' feet touching the water (v.11), the river standing still (v.10), or the exaltation of Joshua (v.10)?",
+          "tips": [
+            "The moment when the priests' feet dip into the water and the river stops flowing (v.11) is a powerful image of God's intervention",
+            "The river standing still for the entire crossing is a sign of God's presence and power",
+            "Joshua being exalted as God did Moses (v.10) shows the leadership transition"
+          ],
+          "focusVerse": "3:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua trying to communicate to Israel about God's faithfulness and leadership through this crossing?",
+          "tips": [
+            "This event shows God's power to provide a way through obstacles (the Jordan River)",
+            "It emphasizes that God leads His people through the ark (the covenant) and the priests (the shepherds of the people)",
+            "The exaltation of Joshua parallels Moses' exaltation, indicating the fulfillment of God's promise to lead Israel"
+          ],
+          "focusVerse": "3:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The river stopping flowing? Why priests lead? What does 'standing still' mean?",
+          "tips": [
+            "The Jordan River is a major obstacle; in normal conditions, it's a life-threatening river. The stopping of the water is a supernatural event (v.10-11)",
+            "In ancient Israel, only the priests could carry the ark (v.4), which was a sign of God's presence and authority",
+            "The phrase 'the waters stood still' (v.10) is a sign of God's power and presence, not a natural occurrence"
+          ],
+          "focusVerse": "3:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the lesson of crossing the Jordan in your life this week?",
+          "tips": [
+            "When you face a difficult situation, trust God to provide a way (like the priests stepping into the water)",
+            "Be prepared to follow the leadership of God (the ark) even when the path is unclear",
+            "Ask God to help you step into the water (the unknown) with faith, knowing He will provide"
+          ],
+          "focusVerse": "3:1-17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing a way through the Jordan River. Ask for courage to step into the water of your challenges.",
+          "tips": [
+            "Thank God for the way He provides through the ark of His covenant",
+            "Pray for the courage to follow God's leadership even when it's scary",
+            "Ask God to help you trust Him in the waters of your life"
+          ],
+          "focusVerse": "3:1-17"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 4,
+      "chapterTitle": "Memorial Stones at Gilgal",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 4:1-23 aloud, paying attention to the phrase 'dry ground' in verse 21 and the repetition of 'the stones' in verses 6, 7, and 10.",
+          "tips": [
+            "Notice the phrase 'dry ground' (v.21) emphasizes God's direct intervention",
+            "Pay attention to the emotional tone of the Israelites' wonder as they cross the Jordan",
+            "The repetition of 'the stones' shows their importance as a teaching tool"
+          ],
+          "focusVerse": "4:1-23"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the twelve men and Joshua), WHAT (crossed the Jordan on dry ground and set up stones), WHERE (at Gilgal), and WHY (to teach future generations about God's mighty act).",
+          "tips": [
+            "Include the twelve men who took stones from the Jordan's middle",
+            "Note that the stones were set up at Gilgal where they camped",
+            "Highlight the purpose of teaching future generations about God's power"
+          ],
+          "focusVerse": "4:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the dry ground crossing (v.21), the setting up of stones (v.6-7), or the instruction for future generations (v.8-10)?",
+          "tips": [
+            "The phrase 'dry ground' in verse 21 is powerful because it shows God's direct intervention in nature",
+            "The command to tell future generations: 'Israel crossed this Jordan on dry ground' (v.10) is simple yet profound",
+            "The connection to the Red Sea (v.20) shows God's consistent power across different events"
+          ],
+          "focusVerse": "4:1-23"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua trying to communicate to Israel about God's faithfulness through this memorial stone setup?",
+          "tips": [
+            "This passage emphasizes God's faithfulness to His covenant promises",
+            "The stones serve as a permanent reminder that God dried up the Jordan as He dried up the Red Sea",
+            "The purpose is to instill fear of the LORD and ensure future generations remember God's mighty acts"
+          ],
+          "focusVerse": "4:1-23"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of the stones, the connection to the Red Sea, or why the stones were set up at Gilgal?",
+          "tips": [
+            "The stones are not a physical barrier but a teaching tool for future generations (v.10)",
+            "The connection to the Red Sea (v.20) shows God's consistent power but the Jordan crossing was a different type of miracle (water to dry ground)",
+            "Gilgal was chosen because it was where they camped after crossing, making it a natural location for a memorial"
+          ],
+          "focusVerse": "4:1-23"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you set up a memorial stone for God's faithfulness in your life this week?",
+          "tips": [
+            "Choose one specific act of faith to share with others to teach them about God's power",
+            "Think about a time when God provided for you in a way that is different from expectations",
+            "Make it concrete: write down one thing you will share with a friend next week to help them remember God's faithfulness"
+          ],
+          "focusVerse": "4:10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His faithfulness and ask for courage to share His power with others.",
+          "tips": [
+            "Thank God for the way He dried up the Jordan for His people",
+            "Ask for courage to share the story of God's faithfulness in your life",
+            "Pray that the stones at Gilgal will be a model for how we remember God's power in our own lives"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 5,
+      "chapterTitle": "Circumcision at Gilgal; Passover",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Joshua 5 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 6,
+      "chapterTitle": "The Fall of Jericho",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 6:1-27 aloud, paying attention to the repetition of the city name and the precise marching instructions.",
+          "tips": [
+            "Notice the phrase 'the LORD said' appears in verses 1-2",
+            "Pay attention to the sound of the trumpets in verses 5 and 7",
+            "Notice the dramatic shout at the end of verse 20"
+          ],
+          "focusVerse": "6:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (the Israelites) does WHAT (marches around Jericho and destroys it) WHERE (Jericho) and WHY (to obey God's command).",
+          "tips": [
+            "Include the six days of marching and the seventh day's seven circuits",
+            "Note the role of the priests carrying the ark with trumpets",
+            "Mention the destruction of the city and the salvation of Rahab"
+          ],
+          "focusVerse": "6:1-27"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the six days of marching (v.1-2), the seventh day's seven circuits (v.13), or the walls collapsing (v.20)?",
+          "tips": [
+            "The precise obedience to march seven times on the seventh day shows the importance of exactness in faith",
+            "The walls falling without military force highlights God's power through faith",
+            "Rahab's salvation without being destroyed is a powerful example of God's grace"
+          ],
+          "focusVerse": "6:1-27"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about the fall of Jericho?",
+          "tips": [
+            "This passage emphasizes that God's victory comes through obedience and faith, not military might",
+            "The destruction of Jericho shows God's complete authority over the enemy",
+            "The inclusion of Rahab demonstrates God's salvation is for all who trust Him"
+          ],
+          "focusVerse": "6:1-27"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The reason for the marching, why the walls fell, or the inclusion of Rahab?",
+          "tips": [
+            "The 'marching' as a form of worship and obedience without immediate battle is a unique strategy",
+            "The walls falling without military force shows God's power but is not a common tactic",
+            "Rahab's role as a spy who was saved without destruction is a key point of inclusion"
+          ],
+          "focusVerse": "6:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of obedient faith to your life this week? Specifically, how does the unbroken obedience of the Israelites (marching around Jericho) challenge you to act in faith?",
+          "tips": [
+            "When facing an impossible situation, ask: 'What is the next step in obedience?'",
+            "Commit to a daily step of faith without waiting for results",
+            "Pray for courage to trust God in the next step"
+          ],
+          "focusVerse": "6:20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for victory through faith. Ask for courage to obey even when it seems impossible.",
+          "tips": [
+            "Thank God that He provides victory through faith",
+            "Pray for courage to obey in the face of uncertainty",
+            "Ask God to protect you from walls of doubt that block His provision"
+          ],
+          "focusVerse": "6:20"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 7,
+      "chapterTitle": "Achan's Sin and Israel's Defeat",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 7:1-26 aloud, paying attention to the emotional weight of Joshua's response to God (verses 4-5) and the specific details of Achan's sin (verses 20-21).",
+          "tips": [
+            "Notice the repeated phrase 'the LORD' (or 'the Lord') in verses 1, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26",
+            "Pay attention to the phrase 'tearing his clothes' (v. 4) and 'cries out to God' (v. 5) showing deep sorrow",
+            "Listen for the specific items Achan took: 'a cloak, silver, and gold' (v. 21)"
+          ],
+          "focusVerse": "7:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Joshua, Israel, Achan) is involved, WHAT happens (the sin and its consequences), WHERE (the Valley of Achor), and WHY (because of Achan's hidden sin with devoted things).",
+          "tips": [
+            "Include the defeat at Ai (v. 2) and the 36 men who died",
+            "Note that Achan took forbidden treasure (v. 1-2, 13)",
+            "Describe the process of discovery and judgment (v. 5-26)"
+          ],
+          "focusVerse": "7:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joshua's reaction (v. 4-5), Achan's confession (v. 20-21), or the Valley of Achor (v. 26)?",
+          "tips": [
+            "Joshua tearing his clothes and crying out to God (v. 4-5) shows the leader's deep accountability",
+            "Achan's specific confession: 'I have taken' (v. 20) and the items (v. 21) reveals the hidden nature of the sin",
+            "The Valley of Achor (Trouble) (v. 26) symbolizes the cost of sin and the need for judgment"
+          ],
+          "focusVerse": "7:1-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about the consequences of hidden sin?",
+          "tips": [
+            "The sin of one person (Achan) leads to the entire community's defeat (v. 1-2, 11)",
+            "The need for transparency and accountability in the community (v. 5-10, 16-21)",
+            "The severity of taking devoted things and the divine response (v. 12-14)"
+          ],
+          "focusVerse": "7:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The nature of 'devoted things', why the sin was hidden, and the role of the lot?",
+          "tips": [
+            "'Devoted things' refers to items that should not be touched (like spoils of war) in the context of the conquest - they were sacred to God",
+            "The sin was hidden because Achan concealed it (v. 3) and only came to light through divine intervention (v. :5-10)",
+            "The lot (v. 16-17) is a divine method to identify the sinner, showing God's control in judgment"
+          ],
+          "focusVerse": "7:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you address hidden sin in your life or community this week?",
+          "tips": [
+            "Consider an area where you might be hiding something from God or others",
+            "Practice transparency: Confess and seek help (like Achan did when he confessed)",
+            "Take action: If you have hidden sin, bring it to light and let the community (or God) handle it"
+          ],
+          "focusVerse": "7:1-26"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His truth about hidden sin and ask for courage to confess and be accountable.",
+          "tips": [
+            "Thank God that He reveals hidden sin (like in v. 5-10)",
+            "Ask for courage to confess hidden sins and to be honest with God and others",
+            "Pray for the community to be vigilant in accountability and to avoid hidden sin"
+          ],
+          "focusVerse": "7:1-26"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 8,
+      "chapterTitle": "Victory at Ai; Covenant Renewal at Shechem",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 8:1-35 aloud, focusing on the military strategy and the covenant renewal events.",
+          "tips": [
+            "Notice the repetition of 'the LORD' in the blessing/cursing section (v.32-35)",
+            "Pay attention to the contrast between the destruction of Ai and the renewal of the covenant",
+            "The phrase 'the law' (v.32) is the same as Moses' law in Exodus 20"
+          ],
+          "focusVerse": "8:1-35"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it takes place, and WHY it matters.",
+          "tips": [
+            "Include Joshua leading the Israelite army against Ai",
+            "Note the ambush strategy and the total destruction of Ai",
+            "Mention the king of Ai being hanged and the covenant renewal at Shechem"
+          ],
+          "focusVerse": "8:1-35"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the ambush strategy (v.3-4), the king's execution (v.8-9), or the covenant renewal (v.10-35)?",
+          "tips": [
+            "The ambush strategy shows divine military strategy without direct battle",
+            "The king's execution is a stark contrast to the typical treatment of enemies in Canaan",
+            "The covenant renewal with the blessings and curses is a powerful reminder of the conditional nature of the covenant"
+          ],
+          "focusVerse": "8:1-35"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua and the editors trying to communicate to Israel about God and their covenant after the victory at Ai?",
+          "tips": [
+            "This passage shows that God's victory is tied to obedience to His covenant",
+            "The covenant renewal at Shechem is a response to the need for renewed commitment after Achan's sin",
+            "The blessings and curses are a clear reminder of the consequences of obedience and disobedience"
+          ],
+          "focusVerse": "8:1-35"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The military strategy, the execution of the king, or the covenant renewal?",
+          "tips": [
+            "The ambush strategy might seem unusual in a military context, but it shows God's control over the battle",
+            "The king of Ai being hanged and placed under stones is a practice from Canaan but with a divine purpose (to be a warning)",
+            "The blessings and curses in v.32-35 are a complex legal structure that Israel must understand and follow"
+          ],
+          "focusVerse": "8:1-35"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of renewed covenant obedience to your life this week?",
+          "tips": [
+            "Identify one area where you might be 'Achan' (a person who takes for himself what is forbidden) and seek to repent",
+            "Practice community accountability by sharing your covenant commitments with others",
+            "Pray for God's help to live in obedience to His law as a response to His victory"
+          ],
+          "focusVerse": "8:1-35"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His victory and covenant renewal. Ask for courage to live by the covenant.",
+          "tips": [
+            "Thank God for providing victory through His strategy",
+            "Pray for the strength to renew your covenant with Him in the face of challenges",
+            "Ask God to help you avoid the sin of Achan and live in obedience"
+          ],
+          "focusVerse": "8:1-35"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 9,
+      "chapterTitle": "The Gibeonite Deception",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 9:1-24 aloud, paying attention to the Gibeonites' description of their clothing and provisions in verses 11-12.",
+          "tips": [
+            "Notice the Gibeonites' worn clothes (v. 11) and stale bread (v. 11)",
+            "Pay attention to the phrase 'do not ask counsel of the LORD' (v. 12)",
+            "Listen for the contrast in the Israelites' response: they make a covenant without seeking God (v. 16)"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize who (the Gibeonites and Israel), what (making a peace covenant), where (at the camp of Israel), and why (to avoid war with the Canaanite kings) happened in this passage.",
+          "tips": [
+            "Include the Gibeonites' claim of being from a far country (v. 11)",
+            "Note that the Israelites did not ask the LORD for counsel (v. 12)",
+            "Mention the three-day delay and the resulting servitude (v. 21-24)"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the Gibeonites' deception (v. 11), the failure to ask God (v. 12), or the lifelong servitude (v. 21-24)?",
+          "tips": [
+            "The Gibeonites' worn clothes and stale bread show their deception but they were still neighbors (v. 20)",
+            "The Israelites' failure to ask God is a critical moment that leads to the covenant without divine involvement",
+            "The servitude becomes a lasting obligation for the Gibeonites (v. 24) - a practical consequence of the deception"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about the importance of seeking God's counsel before making covenants?",
+          "tips": [
+            "The passage warns that even the Gibeonites (who were enemies) became allies through deception, but Israel failed to seek God (v. 12)",
+            "This shows that covenants without God's involvement can lead to unintended consequences (v. 21-24)",
+            "The authors emphasize the danger of making peace without divine approval"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The Gibeonites' deception, why Israel didn't ask God, and the lifelong servitude?",
+          "tips": [
+            "The Gibeonites dressed in worn clothes and brought stale bread to appear as poor and from a far country (v. 11)",
+            "The Israelites did not ask the LORD for counsel, which is a failure of faith (v. 12)",
+            "The servitude of woodcutting and water carrying is a permanent obligation for the Gibeonites (v. 21-24)"
+          ],
+          "focusVerse": "9:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "When you face a decision that requires a covenant or agreement, how can you ensure you seek God's counsel before making it?",
+          "tips": [
+            "Ask God for guidance in the specific situation (like the Israelites did not ask, so they made a mistake)",
+            "Consider if you are in a hurry and might skip seeking God (v. 12)",
+            "Practice making a small covenant with God by asking for His guidance before taking a step"
+          ],
+          "focusVerse": "9:12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His guidance when we seek Him, and ask for the strength to avoid making covenants without His counsel.",
+          "tips": [
+            "Thank God for the example of the Gibeonites who were deceived but still made a covenant (v. 20)",
+            "Ask for the courage to ask God for counsel before making important decisions (v. 12)",
+            "Pray for the wisdom to recognize when you need to stop and seek God"
+          ],
+          "focusVerse": "9:12"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 10,
+      "chapterTitle": "The Sun Stands Still; Southern Campaign",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 10:1-43 aloud, paying attention to the repetition of 'the LORD' and the emotional tone of Joshua's prayer.",
+          "tips": [
+            "Notice the repetition of 'the LORD' (v. 12, 14, 18, 20, 23, 26, 31)",
+            "Pay attention to the emotional tone of Joshua's prayer: 'Sun, stand still over Gibeon' (v. 12) - it's a command to creation itself",
+            "The phrase 'the LORD fought for Israel' (v. 14) is repeated and emphasizes God's active role"
+          ],
+          "focusVerse": "10:1-43"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, WHEN it happens, and WHY God intervenes.",
+          "tips": [
+            "Include the five Amorite kings attacking Gibeon (v. 1-2)",
+            "Note Joshua's night march from Gilgal (v. 3-5)",
+            "The sun standing still for a full day (v. 12-13) and the hailstones (v. 11)"
+          ],
+          "focusVerse": "10:1-43"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joshua's prayer (v. 12), the sun standing still (v. 13), the hailstones (v. 11), or the sealing of the kings (v. 24)?",
+          "tips": [
+            "Joshua's prayer: 'Sun, stand still over Gibeon' (v. 12) - a command to the very force that governs time",
+            "The sun standing still for a full day (v. 13) - a cosmic event that never happened before (v. 13)",
+            "The hailstones: 'more die from hail than from the sword' (v. 11) - a sign of God's judgment that is both immediate and overwhelming"
+          ],
+          "focusVerse": "10:11-13,24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about God's role in their victory?",
+          "tips": [
+            "This passage shows God is the active warrior who fights for His people (v. 14)",
+            "The sun standing still demonstrates God's control over creation and time (v. 13)",
+            "The complete victory in the south (v. 43) is a result of God's direct intervention"
+          ],
+          "focusVerse": "10:14"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The sun standing still? Why God's involvement? The hailstones?",
+          "tips": [
+            "The sun standing still: This is a miraculous event that defies natural law (v. 13). It's not a literal stop of the sun but a divine intervention in time.",
+            "The hailstones: In ancient Near Eastern context, hail was a sign of divine judgment, but the text says more die from hail than from the sword (v. 11) - meaning God's judgment was more devastating than",
+            "The sealing of the kings: Why did Joshua seal them in a cave? This was a way to prevent the kings from being resurrected (v. 24) and to ensure they would not rise again."
+          ],
+          "focusVerse": "10:11-13,24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of God fighting for Israel. What situation requires you to trust God's provision for a 'full day' of victory thisⓑ",
+          "tips": [
+            "Consider an area where you feel defeated and need God's active intervention (like the sun standing still)",
+            "Pray for courage to stand firm when circumstances seem to stop (like the sun) and trust God's victory",
+            "How can you 'march all night' (v. 3) to meet a challenge without delay?"
+          ],
+          "focusVerse": "10:12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His victory in the south and ask for His active intervention when you feel defeated.",
+          "tips": [
+            "Thank God that He fights for His people (v. 14)",
+            "Pray for the courage to command God's creation (like the sun) when you face challenges",
+            "Ask God to help you seal the enemies in your life (the kings) by trusting Him completely"
+          ],
+          "focusVerse": "10:14"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 11,
+      "chapterTitle": "Northern Campaign; Summary of Conquest",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 11:1-12 aloud, paying attention to the phrases 'as numerous as sand on the seashore', 'do not fear', 'hamstring their horses', and 'burn their chariots'.",
+          "tips": [
+            "Notice the phrase 'as numerous as sand on the seashore' (v1) emphasizes the overwhelming size of the coalition",
+            "Pay attention to Joshua's response 'Do not fear' (v2) which is a direct command from God",
+            "The phrase 'hamstring their horses and burn their chariots' (v3) shows the strategy of neutralizing military power"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Joshua and the coalition kings), WHAT (the campaign against the northern coalition), WHERE (the northern territories of Canaan), and WHY (to fulfill God's command and bring rest to the land).",
+          "tips": [
+            "Include the coalition's vast size (as numerous as sand on the seashore) in verse 1",
+            "Note the sudden attack at the waters of Merom (verse 4)",
+            "Describe the destruction of Hazor and the taking of all cities (verses 6-10)"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: God's promise to Joshua (v2), the sudden attack at Merom (v4), or the complete destruction of the coalition (v10).",
+          "tips": [
+            "God's promise 'do not fear' (v2) gives immediate courage in the face of overwhelming odds",
+            "The sudden attack at the waters of Merom (v4) shows divine timing and strategy",
+            "The complete destruction of the coalition (v10) demonstrates God's total victory and the end of the threat"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua and the editors trying to communicate to Israel about God's power and faithfulness in this conquest?",
+          "tips": [
+            "This passage shows God's promise to fulfill His command to Moses (v12) by giving the land to Israel",
+            "It emphasizes that God's strength is in the attack, not in human military power",
+            "The rest that follows (v12) is a sign of God's ultimate provision and peace"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The size of the coalition, the strategy of hamstringing horses, and the meaning of 'land had rest'?",
+          "tips": [
+            "The phrase 'as numerous as sand on the seashore' (v1) is a poetic expression for an innumerable army, common in ancient Near Eastern poetry",
+            "'Hamstring their horses and burn their chariots' (v3) is a strategy to neutralize the enemy's mobility without direct battle",
+            "'Land had rest from war' (v12) means the land is now free from the threat of war, but it does not imply permanent peace—only that God has secured it"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you trust God to overcome an overwhelming enemy (like the coalition) in your life this week?",
+          "tips": [
+            "Identify a problem that seems too large (like the coalition) and ask God for courage to trust Him",
+            "Practice the strategy of 'hamstringing' the problem by breaking it down (e.g., by surrendering to God's plan)",
+            "Remember that God's rest (v12) comes when we trust Him to take care of the situation"
+          ],
+          "focusVerse": "11:1-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for His promise to give rest from war. Ask for courage to trust Him in overwhelming circumstances.",
+          "tips": [
+            "Thank God for the rest He brings when we trust Him (like the land in v12)",
+            "Pray for the strength to 'do not fear' when facing overwhelming challenges",
+            "Ask God to give you the rest that comes from Him, not from human efforts"
+          ],
+          "focusVerse": "11:1-12"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 12,
+      "chapterTitle": "List of Defeated Kings",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Joshua 12 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 13,
+      "chapterTitle": "Unconquered Land; Transjordan Allocation",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 13:1-33 aloud, paying attention to the phrase 'much land remains' (v.1) and the repeated use of 'the LORD' (v.1, 3, 6, 10, 15).",
+          "tips": [
+            "Notice the phrase 'much land remains' (v.1) which sets the stage for the incomplete conquest",
+            "Pay attention to the repeated phrase 'the LORD' (v.1, 3, 6, 10, 15) emphasizing God's role",
+            "The emotional tone shifts from God's declaration of remaining land (v.1-2) to the detailed allotment (v.3-33)"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Joshua and the tribes) does WHAT (divides the land by inheritance) WHERE (the eastern territories) and WHY (to establish inheritance despite unclaimed lands).",
+          "tips": [
+            "Include the eastern territories: Reuben from Aroer to the Arnon, Gad getting Gilead, half of Manasseh getting Bashan",
+            "Note that Levi receives no land, but the LORD is their inheritance",
+            "The context is Joshua being old and the land still having unclaimed areas"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the phrase 'much land remains' (v.1), the allotment of Reuben (v.2), or Levi's inheritance (v.10-11)?",
+          "tips": [
+            "The phrase 'much land remains' (v.1) highlights the ongoing nature of conquest and the fact that God's promises are not yet fulfilled",
+            "Levi's inheritance being the LORD (v.10-11) is a profound statement that contrasts with the physical land",
+            "The detail of Reuben's boundary (from Aroer to the Arnon) shows the precision of God's plan"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about the land and inheritance?",
+          "tips": [
+            "This passage emphasizes that God is still at work in the land, and inheritance is not complete but divinely ordered",
+            "The focus on Levi's inheritance as the LORD points to Christ as the true inheritance for believers",
+            "The division of land among the tribes (with Levi excluded) reflects the spiritual reality that the LORD is the true inheritance"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The phrase 'much land remains' (v.1), the tribal allotments, or Levi's lack of land?",
+          "tips": [
+            "'Much land remains' (v.1) refers to the fact that the land of Canaan was not fully conquered by the time Joshua was old, which might be confusing because the conquest was ongoing",
+            "The boundary descriptions (e.g., 'from Aroer along the Arnon') are specific to the eastern territories and might be unfamiliar to modern readers",
+            "Levi's inheritance as the LORD (v.10-11) is a theological concept that the tribe of Levi has no land but is given the LORD as their inheritance, which is a foreshadowing of Christ"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "The theme of 'Levi's inheritance is the LORD' (v.10-11) challenges us to see Christ as our true inheritance. What step can you take this week to claim Christ as your inheritance?",
+          "tips": [
+            "Reflect on what you are holding onto that should be surrendered to Christ",
+            "Pray for the strength to see Christ as your complete inheritance rather than earthly possessions",
+            "Make a specific decision to let Christ be your portion and cup"
+          ],
+          "focusVerse": "13:10-11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray that God helps you to see Christ as your true inheritance, just as Levi's inheritance was the LORD.",
+          "tips": [
+            "Thank God for His promise that Christ is the true inheritance",
+            "Ask for the courage to surrender your possessions to Him",
+            "Pray for the understanding that the LORD is your full inheritance"
+          ],
+          "focusVerse": "1:10-11"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 14,
+      "chapterTitle": "Caleb's Inheritance",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 14:1-10 aloud, paying attention to the dialogue between Caleb and Joshua in verses 6-9.",
+          "tips": [
+            "Notice Caleb's age (85) and his confidence in God's promise",
+            "Pay attention to the phrase 'the land Caleb's foot walked' (v. 8)",
+            "Caleb's statement about the Anakim (giant race) in v. 7"
+          ],
+          "focusVerse": "14:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Caleb and Joshua) does WHAT (Caleb asks for inheritance), WHERE (the hill country of Hebron), and WHY (because he followed the LORD and is still strong).",
+          "tips": [
+            "Include Caleb's age (85) and his request for Hebron",
+            "Note that Joshua blesses Caleb and gives him Hebron",
+            "Caleb's reminder of God's promise through Moses"
+          ],
+          "focusVerse": "14:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Caleb's faith in God's promise (v. 8), his request for the difficult inheritance (v. 7), or Joshua's blessing (v. 9)?",
+          "tips": [
+            "Caleb's statement 'the land Caleb's foot walked' shows his faith in God's promise",
+            "The Anakim (giant race) in Hebron is a challenge that Caleb is confident God will help with",
+            "Joshua's blessing and immediate granting of the inheritance"
+          ],
+          "focusVerse": "14:6-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about faith and inheritance?",
+          "tips": [
+            "The promise of God is fulfilled for those who remain faithful",
+            "Even in old age, faithfulness leads to receiving the inheritance",
+            "This passage shows that the land is distributed by God's promise, not by human merit"
+          ],
+          "focusVerse": "14:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The Anakim (giant race) in Hebron, why Caleb is 85 and still strong, and the inheritance process.",
+          "tips": [
+            "Anakim: a race of giants that were in Canaan, but they were defeated by the Israelites",
+            "Caleb's age (85) is unusual for strength - it shows that God's power can sustain faithfulness",
+            "The inheritance by lot was a way to ensure fair distribution but also to show God's promise"
+          ],
+          "focusVerse": "14:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Caleb's example of faith in God's promise: What area of your life requires you to trust God's promise (like Caleb's inheritance) this week?",
+          "tips": [
+            "Consider a situation where you have been promised something but haven't received it yet",
+            "Think about how Caleb's faith was rooted in God's promise (not in his own strength)",
+            "Practice trusting God for the inheritance you are called to receive"
+          ],
+          "focusVerse": "14:6-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for His faithfulness to Caleb and ask for the same faithfulness in your life.",
+          "tips": [
+            "Thank God for keeping His promises to those who follow Him",
+            "Ask for the strength to trust in God's promise even when it's difficult",
+            "Pray for the courage to claim your inheritance in Christ"
+          ],
+          "focusVerse": "14:1-10"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 15,
+      "chapterTitle": "Judah's Inheritance",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 15:1-33 aloud, focusing on the descriptions of Judah's territory and the key events with Caleb and Achsah.",
+          "tips": [
+            "Notice the repetition of city names to show the extent of Judah's territory",
+            "Pay attention to the phrase 'Caleb drove out the three Anakim' (v.15) and the request for springs (v.18-20)"
+          ],
+          "focusVerse": "Joshua 15:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Judah's tribes, Caleb, Othniel, Achsah) does WHAT (conquers territories, captures cities, marries), WHERE (the territory of Judah), and WHY (to establish the inheritance and boundaries for the Israelites).",
+          "tips": [
+            "Include Caleb's conquest of Hebron and Debir",
+            "Note Othniel's capture of Kiriath-sepher and marriage to Achsah",
+            "Describe Achsah's request for water springs and Caleb's gift"
+          ],
+          "focusVerse": "Joshua 15:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the conquest of the Anakim (v.15), the request for springs (v.18-20), or the incomplete conquest of Jerusalem (v.33)?",
+          "tips": [
+            "Caleb's victory over the Anakim giants shows God's power to overcome even the strongest enemies",
+            "Achsah's request for water springs is a beautiful example of practical blessing and faith in God's provision",
+            "The note that Jerusalem remains with the Jebusites highlights the ongoing nature of God's work in the land"
+          ],
+          "focusVerse": "Joshua 15:1-33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about their inheritance and God's involvement in the conquest?",
+          "tips": [
+            "This passage establishes the boundaries of Judah to show God's provision for His people",
+            "It emphasizes that even in the conquest, some things remain (like Jerusalem) to point to future fulfillment",
+            "The springs of water symbolize spiritual blessing that comes from Christ"
+          ],
+          "focusVerse": "Joshua 15:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The Anakim giants, the meaning of 'springs', and why Jerusalem wasn't taken?",
+          "tips": [
+            "The Anakim were a race of giants that lived in the land of Canaan; they were a threat but God used Caleb to overcome them",
+            "The 'upper and lower springs' refer to two specific water sources in the wilderness, which became a symbol of spiritual abundance",
+            "The Jebusites were the original inhabitants of Jerusalem; the Israelites could not drive them out because the city was already fortified and the Jebusites were a separate group"
+          ],
+          "focusVerse": "Joshua 15:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you seek the spiritual blessing (the living water) that Christ provides, as Achsah requested, this week?",
+          "tips": [
+            "Identify one area where you need spiritual refreshment (like dry land)",
+            "Pray for Christ to give you the living water that satisfies your thirst",
+            "Read John 7:37-38 to see the connection to Achsah's request"
+          ],
+          "focusVerse": "Joshua 15:1-33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the spiritual blessing (living water) and ask for courage to take the inheritance of His promises.",
+          "tips": [
+            "Thank God for the springs of water that represent His provision of the Holy Spirit",
+            "Pray for the strength to overcome the challenges in your life like Caleb overcame the Anakim",
+            "Ask God to help you trust Him for the inheritance of His promises"
+          ],
+          "focusVerse": "Joshua 15:1-33"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 16,
+      "chapterTitle": "Ephraim's Inheritance",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 16:1-33 aloud, paying attention to the description of boundaries and the Gezer detail.",
+          "tips": [
+            "Notice the repeated phrase 'the land of' emphasizing territory definition",
+            "Pay attention to the emotional tone of 'did not drive out' indicating incomplete conquest",
+            "The phrase 'forced laborers' (v.11) shows the unresolved Canaanite presence"
+          ],
+          "focusVerse": "16:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it takes place, WHEN, WHY, and HOW in Joshua 16.",
+          "tips": [
+            "Include the boundary description: from Jordan at Jericho through Bethel to the sea",
+            "Note that Ephraim's territory lies between Manasseh and Benjamin",
+            "Mention that Ephraim did not drive out Canaanites at Gezer"
+          ],
+          "focusVerse": "16:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the boundary description (v.1-3), the Gezer detail (v.11), or the strategic importance of Ephraim's territory (v.12-14)?",
+          "tips": [
+            "The boundary description runs from Jordan to sea showing strategic positioning",
+            "The Gezer detail highlights incomplete conquest with Canaanites as forced laborers",
+            "Ephraim's central position between major tribes demonstrates strategic significance"
+          ],
+          "focusVerse": "16:1-33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about the inheritance of Ephraim?",
+          "tips": [
+            "This emphasizes God's abundant blessing through Joseph's double portion",
+            "The incomplete conquest serves as a reminder of God's timing in land acquisition",
+            "Strategic territory positioning shows God's plan for Israel's leadership and worship"
+          ],
+          "focusVerse": "16:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The boundary description? Why Ephraim didn't drive out Canaanites? What does 'forced laborers' mean?",
+          "tips": [
+            "Boundary description spans long distance with multiple cities for future generations",
+            "The phrase 'did not drive out' (v.11) indicates conquest was incomplete despite Joshua's mission",
+            "'Forced laborers' refers to Canaanites remaining in land for labor without full expulsion"
+          ],
+          "focusVerse": "16:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the theme of incomplete conquest (Ephraim not driving out Canaanites) challenge us today to be patient with God's timing in our lives?",
+          "tips": [
+            "Consider an area where you feel you should have 'driven out' obstacles but haven't",
+            "Think about how God might use you as a 'forced laborer' in your purpose",
+            "Practice patience in your inheritance by trusting God's timing"
+          ],
+          "focusVerse": "16:1-33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the double portion of blessing and ask for patience in the land of your inheritance.",
+          "tips": [
+            "Thank God for the double portion of blessing through Christ",
+            "Ask for courage to accept incomplete conquest in your life",
+            "Pray for grace to trust God's timing in your inheritance"
+          ],
+          "focusVerse": "16:1-33"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 17,
+      "chapterTitle": "Manasseh's Inheritance",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 17:1-21 aloud, paying attention to the phrase 'Zelophehad's daughters' in verse 5 and the response 'you are numerous and powerful' in verse 20.",
+          "tips": [
+            "Notice the daughters' claim for inheritance (v.5-6) and how they receive land (v.10-11)",
+            "Pay attention to the phrase 'do not fear the Canaanites' (v.20) as a key reassurance"
+          ],
+          "focusVerse": "17:1-21"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the tribes of Manasseh), WHAT (they receive land in the hill country and face Canaanite challenges), WHERE (the hill country and plains of Manasseh), and WHY (to establish their territory in the promised land).",
+          "tips": [
+            "Include Zelophehad's daughters inheriting land (v.5-6)",
+            "Note that Manasseh gets the hill country but not the plains (v.1-2)",
+            "Joshua encourages the tribes to clear the forested hill country (v.20)"
+          ],
+          "focusVerse": "17:1-21"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Zelophehad's daughters claiming inheritance (v.5-6), Joshua's encouragement to clear the hill country (v.20), or the phrase 'you are numerous and powerful' (v.20)?",
+          "tips": [
+            "The daughters' claim shows God's care for women's rights and a fulfillment of Moses' law",
+            "Joshua's words to the tribes are a direct response to their complaint and a call to action",
+            "The phrase 'do not fear the Canaanites' addresses a common fear in the conquest"
+          ],
+          "focusVerse": "17:5-21"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua trying to communicate to the tribes of Manasseh about God's faithfulness and their role in the promised land?",
+          "tips": [
+            "God's promises are fulfilled (Zelophehad's daughters inherit land as per Moses' law)",
+            "The tribes are strong enough to take the hill country (even if the plains remain for later)",
+            "This passage shows God's provision for His people in the midst of challenges"
+          ],
+          "focusVerse": "17:1-21"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The daughters' inheritance claim (v.5-6), the Canaanite iron chariots (v.1-2), or Joshua's encouragement to clear the hill country (v.20)?",
+          "tips": [
+            "Zelophehad's daughters inherited land because they were the only heirs (per Moses' law in Numbers 27:1-11), not as a general rule for women",
+            "Iron chariots were a military threat in Canaan (the Canaanites had advanced warfare technology)",
+            "Joshua's phrase 'you are numerous and powerful' refers to the tribes of Manasseh being strong in numbers and courage, not just physical strength"
+          ],
+          "focusVerse": "17:1-21"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Joshua's encouragement to 'you are numerous and powerful' in your life this week?",
+          "tips": [
+            "Identify an area where you feel you are not using your strengths (like a group of people) to take action",
+            "Think about how you can 'clear the forested hill country' (take initiative in a challenging area) without fear",
+            "Pray for the courage to be numerous and powerful in God's work"
+          ],
+          "focusVerse": "17:20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promise to provide for His people (like Zelophehad's daughters) and ask for the courage to be numerous and powerful in the face of challenges.",
+          "tips": [
+            "Thank God for His faithfulness to the women in the family (Zelophehad's daughters)",
+            "Pray for the strength to overcome the 'Canaanites' (challenges) that have 'iron chariots' (strong opposition)",
+            "Ask God to help you trust His provision in the areas where you feel you are limited"
+          ],
+          "focusVerse": "17:20"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 18,
+      "chapterTitle": "The Tabernacle at Shiloh; Remaining Tribes",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 18:1-31 aloud, focusing on the dialogue between Joshua and the tribes in verses 4-5 and the surveyors' work in verses 11-23.",
+          "tips": [
+            "Notice the phrase 'how long will you wait' (v.4) shows Joshua's rebuke of passivity",
+            "Pay attention to the description of Benjamin's territory (v.11-12) including Jerusalem and Jericho",
+            "Listen for the systematic process of surveying the land (vv.13-23)"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT Joshua does, WHERE it happens, and WHY he does it.",
+          "tips": [
+            "The whole congregation gathers at Shiloh (v.1-2)",
+            "Joshua sends surveyors to divide the remaining land into seven portions (v.4-10)",
+            "The surveyors draw lots for the tribes (v.11-31)"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joshua's rebuke (v.4), Benjamin's territory (v.11-12), or the systematic survey (v.13-23)?",
+          "tips": [
+            "Joshua's question 'how long will you wait to possess the land God gave you?' (v.4) is a powerful rebuke to passivity",
+            "Benjamin's territory includes Jerusalem and Jericho (v.11-12) which shows the strategic importance of the land",
+            "The surveyors work in a systematic way to divide the land without bias (v.13-23)"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua trying to communicate to the Israelites about God's inheritance and their responsibility?",
+          "tips": [
+            "The Israelites must not delay in receiving their inheritance as God promised",
+            "The tabernacle at Shiloh is the center for God's presence and the survey is a step in the process of God's plan",
+            "Joshua emphasizes that the land belongs to God and must be distributed by His will"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'wait', the land that God gave, the survey process?",
+          "tips": [
+            "'Wait' here refers to the tribes' delay in receiving their land despite God's promises",
+            "The land that God gave refers to the inheritance promised in the covenant, which they had not yet received",
+            "The survey process involves dividing the land without bias, which requires careful attention to the boundaries"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the systematic survey to your life this week? What part of your life needs to be divided into manageable sections to receive God's provision?",
+          "tips": [
+            "Take one step this week to survey your time: set specific goals for the week",
+            "Ask God to help you receive the inheritance He has promised in your life",
+            "Be proactive in seeking God's provision for your needs"
+          ],
+          "focusVerse": "18:11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing the land for His people. Ask for courage to receive God's promises and to be active in His plan.",
+          "tips": [
+            "Thank God for the tabernacle at Shiloh as the center of worship",
+            "Pray for the Israelites to stop waiting and take action in receiving their inheritance",
+            "Ask God to help you be proactive in receiving His provision"
+          ],
+          "focusVerse": "18:1-31"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 19,
+      "chapterTitle": "Remaining Tribal Inheritances",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 19:1-24 aloud, paying attention to the listing of the tribes' allotments and the assignment of Timnath-serah to Joshua.",
+          "tips": [
+            "Notice the repeated phrase 'the land of' (v. 1, 4, 6, 8, 10, 13) which emphasizes the land division",
+            "Pay attention to the emotional tone as Joshua receives his city last (v. 20-21) - a quiet moment of completion",
+            "The phrase 'the division is completed' (v. 24) appears at the end, signaling the finality of the land allocation"
+          ],
+          "focusVerse": "19:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (the tribes of Israel) does WHAT (receives their tribal inheritances) WHERE (the land of Canaan) and WHY (to complete the division of the land after the conquest of Canaan).",
+          "tips": [
+            "Include the assignment of Simeon to Judah (v. 21)",
+            "Note the allotment of Dan near the Philistine coast (v. 21)",
+            "Describe Joshua receiving Timnath-serah in Ephraim (v. 20)"
+          ],
+          "focusVerse": "19:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the division of Simeon into Judah (v. 21), the migration of Dan (v. 21), or Joshua receiving his city (v. 20)?",
+          "tips": [
+            "The quiet moment of Joshua receiving his city after all the tribes have been assigned - a picture of Christ being last (v. 20)",
+            "The assignment of Dan near the Philistine coast (v. 21) - the tribe that would later face pressure and migrate north (as noted in the summary)",
+            "The phrase 'the division is completed' (v. 24) - a finality that shows God's plan for Israel is complete"
+          ],
+          "focusVerse": "19:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel through this passage about the division of the land?",
+          "tips": [
+            "This passage shows that God's plan for the land of Canaan is complete and that every tribe has a place, even when adjustments are needed (like Simeon being absorbed into Judah)",
+            "The focus on Joshua receiving his city last (v. 20) emphasizes the humility of leadership and the completeness of God's provision for all",
+            "This division by lot (v. 21) is a reminder that God's plan for Israel is final and that no tribe is left without a place"
+          ],
+          "focusVerse": "19:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Why Simeon is absorbed into Judah? Why Dan is near the Philistine coast? What does 'division is completed' mean?",
+          "tips": [
+            "Simeon's absorption into Judah (v. 21) was a practical adjustment because Judah's territory was too large - it shows God's flexibility in land allocation",
+            "Dan's location near the Philistine coast (v. 21) was strategic but also risky, leading to later migration due to Amorite pressure (as noted in the summary)",
+            "'Division is completed' (v. 24) means the land allocation is final and no further adjustments will be made - a key moment in the settlement of Israel"
+          ],
+          "focusVerse": "19:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme that Joshua received his inheritance last to your life this week?",
+          "tips": [
+            "Consider an area where you are the 'last' to receive God's provision (e.g., in a group project, family, or spiritual life)",
+            "Think about how God might be providing for you in a way that seems last or after others",
+            "Pray for humility to accept God's provision for you, even when it's not immediate or obvious"
+          ],
+          "focusVerse": "19:1-24"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about Joshua receiving his city last and how this mirrors Christ emptying himself. Ask for courage to trust God's provision when it seems last.",
+          "tips": [
+            "Thank God that He provides for all (like the tribes) and that He is faithful even when we are last",
+            "Pray for humility to accept God's provision for you, even when it's not immediately obvious",
+            "Ask God to help you trust Him in the 'last' moments of your life"
+          ],
+          "focusVerse": "19:1-24"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 20,
+      "chapterTitle": "Cities of Refuge",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 20:1-26 aloud, paying attention to the names of the cities and the process for the manslayer.",
+          "tips": [
+            "Notice the repetition of 'city of refuge' (v.1, 4, 5)",
+            "Pay attention to the emotional weight of the law for unintentional killers"
+          ],
+          "focusVerse": "20:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (God and Israel) does WHAT (designates cities of refuge), WHERE (across the Jordan), and WHY (to provide asylum for unintentional killers).",
+          "tips": [
+            "Include the three cities west of Jordan: Kedesh, Shechem, Hebron",
+            "Note the three cities east of Jordan: Bezer, Ramoth, Golan",
+            "Describe the process: manslayer flees to the city, stands at the gate, and remains until the high priest's death"
+          ],
+          "focusVerse": "20:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the strategic placement of cities (v.2-5), the manslayer's process (v.14-15), or the release at the high priest's death (v.24)?",
+          "tips": [
+            "The cities are placed in strategic locations to cover the entire land (v.2-5)",
+            "The manslayer must stand at the gate to present his case, showing transparency (v.14-15)",
+            "The release at the high priest's death emphasizes that the law is temporary and Christ is the final solution (v.24)"
+          ],
+          "focusVerse": "20:2-5,14-15,24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel through this passage?",
+          "tips": [
+            "To ensure safety for unintentional killers in a land of conflict",
+            "To show that God's law is orderly and protective",
+            "To foreshadow that the true refuge is Christ, not human systems"
+          ],
+          "focusVerse": "20:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The number of cities (six), the process for a manslayer, or the release condition (high priest's death)?",
+          "tips": [
+            "The cities of refuge were only for unintentional killers (not premeditated murder)",
+            "The high priest's death as the release condition: this was a temporary solution until Christ",
+            "The term 'manslayer' in Hebrew (mishpah) refers to one who kills unintentionally"
+          ],
+          "focusVerse": "20:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'release at the high priest's death' - what does this mean for your life? How can you trust God's provision for your unintentional mistakes?",
+          "tips": [
+            "When you make a mistake, instead of hiding, seek a place of refuge (like confession)",
+            "Practice being transparent with God and others when you have unintentional harm",
+            "Trust that God will provide release (like Christ) after a period of waiting"
+          ],
+          "focusVerse": "20:24"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing a way of refuge in Christ. Ask for courage to admit mistakes and for the release that comes through Christ.",
+          "tips": [
+            "Thank God for providing the cities of refuge as a picture of Christ",
+            "Pray for the courage to admit unintentional harm and seek help",
+            "Ask God for the strength to live in the reality that Christ's death brings final release"
+          ],
+          "focusVerse": "20:24"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 21,
+      "chapterTitle": "Levitical Cities",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 21:1-24 aloud, paying attention to the Levites' request for cities and the distribution of cities by the clans.",
+          "tips": [
+            "Notice the phrase 'the Levites' (v.1) and the request for cities (v.1-2)"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Levites) does WHAT (requests cities and pasturelands), WHERE (across Israel), and WHY (as Moses commanded for their service).",
+          "tips": [
+            "Include the Levites approaching Shiloh (v.1-2)",
+            "Note the distribution: Kohathites (23 cities) in Judah, Simeon, and Benjamin; other Kohathites (10 cities) in Ephraim, Dan, and Manasseh; Gershonites (13 cities) in the north; Merarites (12 cities) (v"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the distribution of cities (v.24), the phrase 'not one word of God's good promises to Israel failed' (v.24), or the Levites being present in every tribe (v.24).",
+          "tips": [
+            "The distribution of cities across all tribes shows God's care for the Levites to be present in every part of Israel",
+            "The statement that not one promise failed is a powerful reminder of God's faithfulness in the covenant",
+            "The numbers add up to 48 cities, fulfilling Moses' command"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel through this passage about the Levitical cities?",
+          "tips": [
+            "The passage reassures the Israelites that God's promise for the Levites (as commanded by Moses) was fulfilled without failure",
+            "This shows the unity of Israel with the Levites present in every territory for worship",
+            "The Levites' distribution is part of God's plan for the sanctuary's presence throughout the land"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The distribution of cities by clans, the phrase 'not one word of God's good promises to Israel failed', or the specific numbers of cities.",
+          "tips": [
+            "The three clans (Kohathites, Gershonites, Merarites) had different duties, so cities were assigned accordingly to support their tasks",
+            "The phrase 'not one promise failed' refers to the entire covenant, including the promise of cities for Levites as part of Moses' command",
+            "The numbers (23+10+13+12=48) show the meticulous fulfillment of the promise"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's fulfilled promises to your life this week? Consider where you need to trust God's provision in your community.",
+          "tips": [
+            "Think about a promise God has made that has been fulfilled in your life",
+            "Pray for the courage to be present in your community where others need you (like the Levites in every tribe)",
+            "How can you be part of the 'distribution' of God's presence in your local area?"
+          ],
+          "focusVerse": "21:24"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He has fulfilled His promises to Israel. Ask for faith to trust His provision in your life.",
+          "tips": [
+            "Thank God for providing the Levitical cities as promised (v.24)",
+            "Pray for the strength to trust God's promises when circumstances are difficult",
+            "Ask God to help you be a part of the distribution of His presence in your community"
+          ],
+          "focusVerse": "21:24"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 22,
+      "chapterTitle": "The Eastern Tribes Return; The Altar Controversy",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Joshua 22 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 23,
+      "chapterTitle": "Joshua's Farewell to Leaders",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 23:1-33 aloud, paying attention to the repetition of 'the LORD' and the strong warnings in verses 1-5 and 10-12.",
+          "tips": [
+            "Notice the repeated phrase 'the LORD has done' (v. 1, 5, 7) for emphasis",
+            "Pay attention to the emotional weight in Joshua's warning about the consequences (vv. 12-13)",
+            "The phrase 'do not turn away' appears twice in verses 10 and 12"
+          ],
+          "focusVerse": "23:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Joshua and Israel's leaders) does WHAT (reminds them of God's past actions and current commands), WHERE (in the camp of Israel), and WHY (to prevent turning away from God and the land).",
+          "tips": [
+            "Include Joshua's farewell speech to the elders of Israel",
+            "Note the command to avoid intermarriage with Canaanites",
+            "Describe the warning about the consequences of turning to other gods"
+          ],
+          "focusVerse": "23:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joshua's reminder of God's past actions (v. 1-5), the warning about intermarriage and idolatry (v. 10-12), or the promise of God fighting for them (v. 13)?",
+          "tips": [
+            "The phrase 'the LORD has done' in v. 1 emphasizes God's active role in history",
+            "The warning about intermarriage and idolatry in v. 10-12 is a direct command for the present",
+            "The promise that God will fight for them (v. 13) is a strong reassurance"
+          ],
+          "focusVerse": "23:1-33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua trying to communicate to the Israelites about the importance of remembering God's past actions and remaining obedient to His commands?",
+          "tips": [
+            "Joshua's purpose was to ensure Israel's continued faithfulness by reminding them of God's past victories and the consequences of turning away",
+            "This passage shows the ongoing nature of the covenant and the need for vigilance against idolatry",
+            "The theological significance: God's faithfulness to His people requires their active obedience"
+          ],
+          "focusVerse": "23:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The command to avoid intermarriage, the concept of 'remaining nations', or the consequences of turning back?",
+          "tips": [
+            "'Remaining nations' refers to the Canaanite tribes that had not been driven out (v. 11) - not all nations were conquered",
+            "The phrase 'snares and whips' (v. 13) is a metaphor for the destructive consequences of idolatry",
+            "The promise that God will fight for them (v. 13) is a reminder that God's protection is active, not passive"
+          ],
+          "focusVerse": "23:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Joshua's warning about avoiding intermarriage with pagan nations to your life this week?",
+          "tips": [
+            "Consider if you are avoiding relationships that might lead to idolatry in your life",
+            "Think about the importance of maintaining your spiritual identity in a mixed culture",
+            "Make a decision to either cut ties with those who are leading you away from God or to seek God's guidance in the relationship"
+          ],
+          "focusVerse": "23:10-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His past faithfulness and ask for the strength to remain obedient.",
+          "tips": [
+            "Thank God for the promise that He will fight for you (v. 13)",
+            "Pray for the courage to avoid the snares of the nations (v. 13)",
+            "Ask God to help you remember His past actions and stay strong in obedience"
+          ],
+          "focusVerse": "23:13"
+        }
+      ]
+    },
+    {
+      "bookId": "joshua",
+      "bookName": "Joshua",
+      "chapter": 24,
+      "chapterTitle": "Covenant Renewal at Shechem; Joshua's Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Joshua 24:1-24 aloud, focusing on the declaration of the people and the stone witness in verses 19-22.",
+          "tips": [
+            "Note the repetition of 'the LORD' in the declaration (v.14)",
+            "Pay attention to the emotional tone of Joshua's warning about the LORD being holy and jealous (v.17)",
+            "Notice the phrase 'as for me and my house' (v.15) which shows personal commitment"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is gathered, WHAT happens, WHERE it takes place, and WHY Joshua gathers the tribes at Shechem.",
+          "tips": [
+            "Include the tribes of Israel gathered at Shechem",
+            "Note the recounting of God's acts from Abraham to the current victory",
+            "Highlight the choice: serve the LORD or the gods beyond the River"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the people's declaration (v.14), Joshua's warning (v.17), or the stone witness (v.22).",
+          "tips": [
+            "The people's unified response: 'We will serve the LORD!' shows strong communal commitment",
+            "Joshua's warning about the LORD being holy and jealous emphasizes the exclusivity of worship",
+            "The stone witness (v.22) is a tangible reminder for future generations"
+          ],
+          "focusVerse": "24:14-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Joshua/editors trying to communicate to Israel about the covenant and their future?",
+          "tips": [
+            "To ensure the Israelites would commit to the LORD as their only God after Joshua's death",
+            "To establish a permanent covenant witness (the stone) for future generations",
+            "To emphasize the choice between serving the LORD or the gods of the Amorites"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The choice between gods, the covenant renewal after Joshua's death, or the stone witness?",
+          "tips": [
+            "The phrase 'the gods beyond the River' (v.14) refers to the nations beyond the Euphrates (like the Chaldeans), which were outside the Abrahamic covenant but in the context of the land of Canaan",
+            "The stone witness (v.22) is a physical object that serves as a witness for future generations, which might be difficult to understand in a modern context",
+            "Why does Joshua recount God's past acts? To establish the covenant context and show God's faithfulness from the beginning"
+          ],
+          "focusVerse": "24:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme 'choose this day whom you will serve' to your life this week?",
+          "tips": [
+            "Identify one area where you are serving something else (e.g., worldly success, false idols) and make a decision to choose the LORD",
+            "Pray for the courage to commit to the LORD as the only God in your life",
+            "Read Joshua 24:14-15 to reinforce the choice"
+          ],
+          "focusVerse": "24:14-15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the covenant renewal and ask for the strength to choose Him.",
+          "tips": [
+            "Thank God for the stone witness that reminds us of the covenant",
+            "Pray for the courage to choose the LORD in difficult decisions",
+            "Ask God to help you avoid the temptation to serve false gods in your life"
+          ],
+          "focusVerse": "24:14"
+        }
+      ]
+    }
+  ]
+}

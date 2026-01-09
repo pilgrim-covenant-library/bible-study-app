@@ -1,0 +1,951 @@
+{
+  "bookId": "daniel",
+  "bookName": "Daniel",
+  "totalChapters": 12,
+  "chapters": [
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 1,
+      "chapterTitle": "Daniel in Babylon",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Daniel 1:1-21 aloud, paying attention to the contrast between the king's command and Daniel's resolve.",
+          "tips": [
+            "Notice the phrase 'not defile himself' (v.8) repeated in context",
+            "Pay attention to the three-day test period (v.10) and the result (v.13-14)"
+          ],
+          "focusVerse": "1:1-21"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is selected, WHAT they are to do, WHERE and WHEN it happens, and WHY the king did it.",
+          "tips": [
+            "Include the king's command to bring youths from Israel (v.3-4)",
+            "Note the names given: Daniel (Belteshazzar), Hananiah (Shadrach), Mishael (Meshach), Azariah (Abednego) (v.6-7)",
+            "Describe Daniel's refusal of the king's food and wine (v.8-9)"
+          ],
+          "focusVerse": "1:1-21"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Daniel's resolve (v.8), the ten-day test (v.10-12), or the result (v.13-14)?",
+          "tips": [
+            "Daniel's refusal to defile himself (v.8) shows a commitment to God even in the face of potential social exclusion",
+            "The ten-day test (v.10-12) is a short but significant trial of faith",
+            "The result (v.13-14) where they were better in appearance and fatter in flesh than others shows God's power to bless the pure"
+          ],
+          "focusVerse": "1:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Daniel trying to communicate to exiles and future generations through this passage?",
+          "tips": [
+            "God's favor and wisdom are available to the faithful even in exile",
+            "True obedience to God (not compromising with idolatry) leads to divine blessing",
+            "This passage foreshadows Christ's perfect obedience (as noted in the context)"
+          ],
+          "focusVerse": "1:1-21"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The purpose of the test, the meaning of 'not defile', or the role of the king's food?",
+          "tips": [
+            "The term 'defile' in ancient context meant more than physical contamination (it could be moral or spiritual)",
+            "The king's food included the food of the gods (Chaldeans) which was likely idolatrous",
+            "The ten-day test was a way to see who would be truly obedient without compromising their faith"
+          ],
+          "focusVerse": "1:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Daniel's resolve to not defile himself shows a commitment to purity. What area of your life requires you to choose between compromise and purity this week?",
+          "tips": [
+            "Consider a situation where you might be tempted to compromise your values for convenience",
+            "How can you practice a small act of purity (like refusing something unclean) to follow Daniel's example?"
+          ],
+          "focusVerse": "1:8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the power to resist sin and trust in His provision for purity in your life.",
+          "tips": [
+            "Thank God for the power to resist sin (like Daniel)",
+            "Ask for the strength to choose purity in areas where it's difficult",
+            "Pray for wisdom to know when to step away from compromise"
+          ],
+          "focusVerse": "1:14"
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 2,
+      "chapterTitle": "Nebuchadnezzar's Dream",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Daniel 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 3,
+      "chapterTitle": "The Fiery Furnace",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Daniel 3 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 4,
+      "chapterTitle": "Nebuchadnezzar's Humiliation",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Daniel 4:1-37 aloud, paying attention to the king's emotional shift from confidence to humility.",
+          "tips": [
+            "Notice the repetition of 'I' (the king) in verses 1-3: 'I was at ease... I saw a dream...' showing his initial confidence",
+            "Pay attention to the phrase 'the Most High God' which appears 4 times (v. 1, 4, 12, 30) - this is a key phrase of sovereignty",
+            "The contrast between the king's earthly power (v. 33) and the divine authority (v. 35) is stark"
+          ],
+          "focusVerse": "4:1-37"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize who is tested, what happens, where it occurs, and why it matters for the exiles.",
+          "tips": [
+            "Include the king's dream (v. 1-3) and Daniel's interpretation (v. 4-11)",
+            "Note the seven years of humiliation (v. 12-15) and the king's restoration (v. 32-33)",
+            "Emphasize that the king's downfall was due to his pride and the restoration was by God's decree"
+          ],
+          "focusVerse": "4:1-37"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the dream (v. 1-3), the interpretation (v. 4-11), the humiliation (v. 12-15), or the restoration (v. 32-33)?",
+          "tips": [
+            "The king's immediate reaction to the dream: 'I was at ease in my house and prospering in his palace' (v. 3) shows his arrogance, which contrasts with the humility he will face",
+            "The phrase 'the Most High rules the kingdom of men' (v. 35) is a powerful declaration of God's sovereignty that the king must accept",
+            "The seven years of being a beast (v. 12) is a vivid image of divine discipline that the king experiences"
+          ],
+          "focusVerse": "4:1-37"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Daniel trying to communicate to exiles and future generations through this passage about Nebuchadnezzar's humiliation?",
+          "tips": [
+            "Daniel's purpose was to show that even the greatest kings are subject to God's will and that humility leads to restoration",
+            "This passage is a warning against pride and a reminder of God's ultimate authority over all kingdoms",
+            "The restoration of the king (v. 33) is a sign that God's judgment is temporary and His mercy is long-lasting"
+          ],
+          "focusVerse": "4:1-37"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The dream interpretation? The seven years of humility? The king's restoration?",
+          "tips": [
+            "The term 'beast' (v. 12) is a common metaphor in Daniel for a kingdom that is temporary and ruled by the king's own pride",
+            "The phrase 'seven periods of time' (v. 12) is a period of seven years in the ancient context, but in the New Testament, it is often interpreted as seven years of tribulation",
+            "The concept of 'the Most High ruling the kingdom of men' (v. 35) is a direct claim of God's sovereignty that the king must accept, which was a radical idea in the Babylonian context"
+          ],
+          "focusVerse": "4:1-37"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of humility from this passage in your life this week?",
+          "tips": [
+            "Consider an area where you feel confident but might be acting pridefully (like in work or relationships)",
+            "Ask God to help you recognize when you are 'the tree' that needs to be humbled by the 'watcher from heaven'",
+            "Pray for the grace to accept God's rule in your life, even when it means temporary setbacks"
+          ],
+          "focusVerse": "4:1-37"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His sovereignty and ask for humility in the face of His authority.",
+          "tips": [
+            "Thank God that He humbles the proud and exalts the humble (v. 35)",
+            "Pray for the courage to submit to God's will, even when it means temporary loss of power or status",
+            "Ask God to help you remember that He is the Most High and rules the kingdom of men"
+          ],
+          "focusVerse": "4:1-37"
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 5,
+      "chapterTitle": "The Handwriting on the Wall",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Daniel 5:1-31 aloud, paying attention to the king's panic and the handwriting on the wall.",
+          "tips": [
+            "Notice the repetition of 'the king' and the sudden shift from celebration to terror",
+            "Pay attention to the phrase 'the fingers of a human hand' (v.5) which is both supernatural and immediate"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY the handwriting appears.",
+          "tips": [
+            "Include Belshazzar's profanation of sacred vessels (v.3)",
+            "Note the immediate reaction of the king (v.5) and the call for Daniel (v.16)",
+            "Describe the interpretation by Daniel (v.17-28)"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the handwriting on the wall (v.5), Belshazzar's pride (v.1), or Daniel's interpretation (v.17-28)?",
+          "tips": [
+            "The hand writing on the wall appears in the middle of the feast (v.5) - a supernatural sign in the moment of celebration",
+            "Belshazzar's immediate reaction: 'My color changed, my thoughts alarmed me' (v.5) shows the psychological impact",
+            "The phrase 'God has numbered your kingdom and finished it' (v.21) is a direct judgment on the king's pride"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Daniel trying to communicate to exiles and future generations through this passage?",
+          "tips": [
+            "Daniel warns that pride leads to downfall (v.17-21) - a message for the exiles who might be tempted by worldly power",
+            "The passage shows that even the king of Babylon, who was once a mighty ruler, is judged by God for his pride",
+            "The handwriting (MENE TEKEL PERES) is a divine sign that the kingdom of Babylon is over and will be given to the Medes and Persians"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of MENE TEKEL PERES? Why the king is killed that night? The role of Daniel?",
+          "tips": [
+            "MENE, TEKEL, PERES are cryptic terms that Daniel interprets as 'God has numbered your kingdom and finished it', 'you have been weighed and found wanting', 'your kingdom is divided and given to the Med",
+            "The phrase 'the king was killed that night' (v.31) is a divine judgment that the king's reign ends immediately without delay",
+            "The use of 'the Most High God' (v.18) emphasizes that Daniel is speaking to the king of Babylon as a servant of God, not as a rival"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does this passage challenge you to humble yourself in your current situation?",
+          "tips": [
+            "Consider an area where you feel proud or have taken credit for your success (like Belshazzar's feast)",
+            "Ask: 'Have I profaned sacred things in my life?' (e.g., God's gifts, time, relationships)",
+            "Pray for the humility to accept that your kingdom (life, work, relationships) is temporary and under God's provision"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He judges pride and sets aside the proud.",
+          "tips": [
+            "Thank God that He judges pride and sets aside the proud",
+            "Ask for the courage to confess when you have profaned God's sacred things",
+            "Pray for the gift of humility so that you don't become like Belshazzar"
+          ],
+          "focusVerse": "5:1-31"
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 6,
+      "chapterTitle": "Daniel in the Lions' Den",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Daniel 6:1-26 aloud, paying attention to the decree (v.5) and Daniel's prayer (v.10).",
+          "tips": [
+            "Notice the repetition of 'three times a day' (v.10)",
+            "Pay attention to the king's distress (v.15-16) and the lions' mouths being shut (v.26)"
+          ],
+          "focusVerse": "6:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Daniel, Darius, officials) is involved, WHAT (the decree and Daniel's prayer), WHERE (Babylon), and WHY (the officials' conspiracy to have Daniel thrown into the lions' den).",
+          "tips": [
+            "Include the three high officials and 120 satraps",
+            "Note the 30-day decree and Daniel's window facing Jerusalem",
+            "Describe the king's rescue attempt (v.15-16)"
+          ],
+          "focusVerse": "6:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Daniel's prayer (v.10), the king's distress (v.15-16), or Daniel's declaration that God shut the lions' mouths (v.26).",
+          "tips": [
+            "Daniel's unwavering prayer despite the risk - a powerful example of faith",
+            "The king's immediate action to rescue Daniel shows his fear of God",
+            "The miraculous closure of the lions' mouths symbolizes God's protection"
+          ],
+          "focusVerse": "6:1-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Daniel trying to communicate to exiles and future generations about God's protection for the faithful?",
+          "tips": [
+            "This passage shows that God protects those who trust Him even when authorities try to suppress faith",
+            "It foreshadows Christ's resurrection: Daniel emerges from the den alive, just as Christ rose from the grave",
+            "Daniel's example encourages exiles to pray without fear of human opposition"
+          ],
+          "focusVerse": "6:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The officials' conspiracy, the decree's meaning, or the miraculous escape?",
+          "tips": [
+            "The officials had no ground for complaint against Daniel (v.1) until they created this decree - showing human attempts to control God's people",
+            "'Petition to any god or man' refers to worship practices, but Daniel's prayer was to his God only (v.10)",
+            "The lions' den represents the ultimate danger, yet God's intervention (v.26) shows His power over death"
+          ],
+          "focusVerse": "6:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice Daniel's faithfulness in prayer despite opposition this week?",
+          "tips": [
+            "Set aside 3 minutes each morning to pray as Daniel did (v.10) even when it feels risky",
+            "Identify one area where you might be discouraged from praying and ask God to help you trust Him",
+            "Pray for courage to stand firm in your faith when others try to silence you"
+          ],
+          "focusVerse": "6:10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for protecting you from the lions of life, and ask for courage to pray despite opposition.",
+          "tips": [
+            "Thank God that He protects the faithful in the lions' den (v.26)",
+            "Pray for the strength to pray when others try to silence you",
+            "Ask God to help you trust Him in the face of danger"
+          ],
+          "focusVerse": "6:26"
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 7,
+      "chapterTitle": "The Vision of the Four Beasts",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Daniel 7:1-28 aloud, paying attention to the progression of the beasts and the final judgment.",
+          "tips": [
+            "Notice the repeated phrase 'I saw' (v.1, 7, 10) to emphasize the vision",
+            "Pay attention to the description of the fourth beast (v.7) and the little horn (v.24-25)"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Daniel) sees, WHAT (the vision of four beasts, the little horn, the Ancient of Days, and the Son of Man), WHERE (in Daniel's vision), and WHY (to reveal God's plan for the end times and Christ's kingdom).",
+          "tips": [
+            "Include the four beasts: lion (first), bear (second), leopard (third), and the fourth beast (terrible, with ten horns)",
+            "Note the little horn that arises among the ten, with eyes and a mouth speaking great things",
+            "Describe the Ancient of Days seated with the throne and the Son of Man coming on clouds to receive the kingdom"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the description of the fourth beast (v.7), the little horn (v.24-25), or the Son of Man (v.13-14)?",
+          "tips": [
+            "The fourth beast's ten horns and the little horn that rises among them: this shows the complexity of the end times and God's sovereign control",
+            "The Son of Man coming on clouds with dominion over all peoples: this is the most Christ-centered part, as it directly points to Jesus",
+            "The Ancient of Days' white clothing and pure wool: this imagery emphasizes God's holiness and eternal nature"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Daniel trying to communicate to exiles and future generations through this passage?",
+          "tips": [
+            "Daniel was revealing God's plan for the future: the rise and fall of kingdoms, the coming of Christ, and the establishment of an everlasting kingdom",
+            "This vision reassures exiles that despite current turmoil, God is in control and will establish a kingdom that lasts forever through Christ"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of the four beasts? The little horn? The connection between the Son of Man and Christ?",
+          "tips": [
+            "The four beasts represent successive world powers (Babylon, Medo-Persia, Greece, Rome) but the exact identification is debated",
+            "The little horn with ten horns: it's a short-lived power that will rise and cause trouble, but God will ultimately destroy it",
+            "The Son of Man is a title for Jesus: Daniel used it to foreshadow Christ's coming and reign, which is a key Christological point"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the truth that Christ is the eternal king to your current situation this week?",
+          "tips": [
+            "Consider an area where you feel powerless (like the world's chaos) and trust Christ's kingdom to be in control",
+            "Pray for courage to stand for Christ in a world that is unstable",
+            "Share the hope of Christ's coming kingdom with someone who is struggling"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He is the sovereign ruler and that Christ will come to establish His kingdom.",
+          "tips": [
+            "Thank God for the vision that shows His control over history",
+            "Ask for the courage to live as a citizen of heaven",
+            "Pray that the little horn (the false kingdom) will be destroyed and that Christ's kingdom will be established"
+          ],
+          "focusVerse": "7:1-28"
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 8,
+      "chapterTitle": "The Vision of the Ram and Goat",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Daniel 8 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 9,
+      "chapterTitle": "Daniel's Prayer and the Seventy Weeks",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Daniel 9 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 10,
+      "chapterTitle": "Daniel's Vision by the Tigris",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Daniel 10 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 11,
+      "chapterTitle": "The Kings of the South and North",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Daniel 11:1-40 aloud, paying attention to the tense of the verbs describing the kings' rise and the final conflict.",
+          "tips": [
+            "Notice the repetition of 'the king of the south' and 'the king of the north' (vv. 38-40)",
+            "Pay attention to the phrase 'abomination of desolation' (v. 37) which is a key term in the end times",
+            "The tense shifts from past to present (vv. 36-37) to show the immediacy of the coming events"
+          ],
+          "focusVerse": "11:1-40"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, WHEN it takes place, and WHY Daniel wrote this prophecy.",
+          "tips": [
+            "Include the three kings of Persia and the fourth king (the Greek empire) as described in verses 2-4",
+            "Note the division of the kingdom after the king of the south is broken (vv. 40)",
+            "Describe the abomination of desolation as the final act of desecration of the temple (vv. 36-37)"
+          ],
+          "focusVerse": "11:1-40"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the abomination of desolation (v. 37), the king of the north rushing upon the king of the south (v. 40), or the daughter of the king of the south making an agreement (v. 38-39)?",
+          "tips": [
+            "The abomination of desolation (v. 37) is a powerful image of the end times and the coming of Christ's judgment",
+            "The king of the north rushing upon the king of the south (v. 40) shows the suddenness and violence of the final conflict",
+            "The daughter of the king of the south making an agreement with the king of the north (v. 38-39) is a key moment of deception and alliance"
+          ],
+          "focusVerse": "11:36-40"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Daniel trying to communicate to the exiles and future generations about the coming kings and the end times?",
+          "tips": [
+            "Daniel was warning the exiles about the political chaos that would come and the need for faithfulness to God",
+            "The prophecy points to the ultimate triumph of Christ over all earthly powers, as seen in Matthew 24:15",
+            "This prophecy serves as a reminder that God's kingdom will be established through Christ's victory"
+          ],
+          "focusVerse": "11:1-40"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The interpretation of the 'kings of the south and north', the meaning of the 'abomination of desolation', or the 'four winds of heaven'?",
+          "tips": [
+            "The 'kings of the south and north' are symbolic: the south represents the kingdom of Greece (or later empires) and the north represents a later empire (possibly Rome)",
+            "The 'abomination of desolation' (v. 37) refers to the desecration of the temple, but in the New Testament it is often interpreted as the coming of the end times and the need for believers to be ready",
+            "The 'four winds of heaven' (v. 37) symbolizes the global spread of the kingdom's destruction and the final judgment"
+          ],
+          "focusVerse": "11:36-40"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of the abomination of desolation to your life this week? Consider the events that are happening in the world and how they might lead to a time of desecration.",
+          "tips": [
+            "Identify one current event that feels like the 'abomination of desolation' (e.g., political instability, moral decline)",
+            "Pray for God's protection and guidance in the face of these challenges",
+            "Commit to being a faithful witness to God's kingdom in your community"
+          ],
+          "focusVerse": "11:37"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the coming of Christ and the need to be ready for the end times as described in Daniel 11.",
+          "tips": [
+            "Thank God for His promise that He will establish His kingdom and triumph over all earthly powers",
+            "Ask for the courage to face the challenges of the end times with faith",
+            "Pray for the coming of the abomination of desolation and the need for believers to be ready"
+          ],
+          "focusVerse": "11:37"
+        }
+      ]
+    },
+    {
+      "bookId": "daniel",
+      "bookName": "Daniel",
+      "chapter": 12,
+      "chapterTitle": "The Time of the End",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Daniel 12:1-13 aloud, paying attention to the phrases: 'Michael, the great prince', 'time of trouble', and 'shut up the words and seal the book'.",
+          "tips": [
+            "Notice the repeated phrase 'the dust of the earth' (v.2) which emphasizes the resurrection of the dead",
+            "Pay attention to the emotional tone of the 'time of trouble' (v.1) as unprecedented and severe",
+            "Listen for the specific number 1,335 days (v.12) as a divine timing marker"
+          ],
+          "focusVerse": "12:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the people of God), WHAT (the tribulation and resurrection), WHERE (in the end times), and WHY (to ensure God's deliverance for His people).",
+          "tips": [
+            "Include Michael as the protector of the people (v.1)",
+            "Note the resurrection of the dead: some to everlasting life, some to shame (v.2)",
+            "Mention the sealing of the prophecy until the end (v.9-13)"
+          ],
+          "focusVerse": "12:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Michael's role (v.1), the resurrection (v.2), or the 1,335 days (v.12).",
+          "tips": [
+            "Michael's role as the great prince who protects the people shows God's active care in the end times",
+            "The resurrection promise (v.2) is a powerful hope for the dead and living",
+            "The 1,335 days (v.12) is a specific period of divine timing that blesses the faithful"
+          ],
+          "focusVerse": "12:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Daniel trying to communicate to exiles and future generations about God's faithfulness in the end times?",
+          "tips": [
+            "Daniel was warning the exiles that in the final tribulation, God would deliver His people who are written in the book (v.2-3)",
+            "The sealing of the prophecy until the end (v.9) shows that God's plan is unfolding in His timing",
+            "The resurrection of the dead (v.2) and the final judgment (v.13) are central to God's plan for the end"
+          ],
+          "focusVerse": "12:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Michael, the unprecedented 'time of trouble', and the meaning of 1,335 days?",
+          "tips": [
+            "Michael is a key angelic figure in Jewish apocalyptic tradition, but his role as the 'great prince' (v.1) may be confusing without context",
+            "The phrase 'time of trouble, such as never has been' (v.1) is absolute and unprecedented, which is hard to relate to modern tribulations",
+            "The number 1,335 days (v.12) is a specific period that is interpreted differently across traditions (e.g., some see it as 385 days * 3.5) but it is a divine timing marker"
+          ],
+          "focusVerse": "12:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice waiting for God's timing as in the 1,335 days this week?",
+          "tips": [
+            "Identify one area where you are waiting for God's provision and commit to trusting Him without rushing (like the faithful who arrive at 1,335 days)",
+            "Pray for the strength to remain faithful during a time of trial, remembering that God will deliver His people (v.2-3)",
+            "Practice patience by focusing on the resurrection hope (v.2) and the promise of everlasting life"
+          ],
+          "focusVerse": "12:13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promise of resurrection and deliverance. Ask for the strength to wait patiently for the end times.",
+          "tips": [
+            "Thank God for the promise that those written in the book will be delivered (v.2-3)",
+            "Ask for the courage to wait for the 1,335 days without anxiety (v.12-13)",
+            "Pray for the resurrection of the dead and the coming of the final judgment as described in the passage"
+          ],
+          "focusVerse": "12:13"
+        }
+      ]
+    }
+  ]
+}

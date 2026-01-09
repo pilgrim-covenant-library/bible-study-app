@@ -1,0 +1,4015 @@
+{
+  "bookId": "genesis",
+  "bookName": "Genesis",
+  "totalChapters": 50,
+  "chapters": [
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 1,
+      "chapterTitle": "Creation of the World",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 1:1-1:31 aloud, paying attention to the repetition of 'and God said' and the progression of creation.",
+          "tips": [
+            "Notice the pattern: 'God said, ... and it was so' (v.3) repeats 6 times",
+            "Emphasize the phrase 'very good' in verse 31",
+            "The word 'darkness' in verse 2 and the light in verse 3 creates a contrast"
+          ],
+          "focusVerse": "1:1-1:31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (God) does WHAT (creates) in the heavens and earth, WHERE (the universe), and WHY (to establish a good order for His creation).",
+          "tips": [
+            "Include the six days of creation",
+            "Note that humanity is created on the sixth day",
+            "Mention the declaration of 'very good' at the end"
+          ],
+          "focusVerse": "1:1-1:31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stands out? Consider: the creation of light (v.3), the formation of humanity in God's image (v.26-27), or the declaration of 'very good' (v.31)?",
+          "tips": [
+            "The light appearing without darkness in the first day shows God's power and order",
+            "Humanity being created in God's image is the pinnacle of creation",
+            "The phrase 'very good' emphasizes God's satisfaction with His work"
+          ],
+          "focusVerse": "1:1-1:31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's creation?",
+          "tips": [
+            "The Israelites were in the wilderness after leaving Egypt, so Moses was reminding them of God's sovereignty in creation",
+            "This passage establishes God as the ultimate creator and the foundation for their covenant with Him",
+            "The 'very good' creation shows God's goodness and is a basis for the covenant"
+          ],
+          "focusVerse": "1:1-1:31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The six-day creation cycle, the role of the 'seventh day' (rest), or the concept of 'God's image' in humanity?",
+          "tips": [
+            "The six days are a framework for the creation narrative, not literal time periods",
+            "Rest on the seventh day (v.31) is a foreshadowing of the Sabbath and the pattern of work-rest",
+            "The 'image of God' in humanity (v.26-27) is a unique concept that sets humans apart from other creatures"
+          ],
+          "focusVerse": "1:1-1:31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the declaration of 'very good' in Genesis 1:31 challenge your view of the world today? What can you do to reflect God's goodness in your community this week?",
+          "tips": [
+            "Consider how your actions (work, relationships) can reflect the order and goodness of creation",
+            "Think about how you can be a 'light' in your community as in the first day",
+            "Pray for the ability to see the world through God's lens of goodness"
+          ],
+          "focusVerse": "1:1-1:31"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray that God would help you to see the world as He does, and to live in the order and goodness He established in creation.",
+          "tips": [
+            "Thank God for creating the world and for the goodness He sees in it",
+            "Ask for the courage to live as a reflection of His image",
+            "Pray for the gift of rest and order in your life, as God did in the seventh day"
+          ],
+          "focusVerse": "1:1-1:31"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 2,
+      "chapterTitle": "The Garden and the First Marriage",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 2:1-25 aloud, paying attention to the phrase 'It is not good that the man should be alone' (v.18) and the creation of Eve from Adam's side (v.22).",
+          "tips": [
+            "Notice the repetition of 'the Lord God' to emphasize God's active role in creation",
+            "Pay attention to the emotional weight of Adam's loneliness and the divine response in verse 18",
+            "The phrase 'from the side' in verse 22 shows the intimate connection between man and woman"
+          ],
+          "focusVerse": "2:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God creates, WHAT he does with Adam, WHERE Adam is placed, and WHY God creates Eve.",
+          "tips": [
+            "Include God forming Adam from the dust (v.7)",
+            "Note the command for Adam to work and keep the garden (v.15)",
+            "Describe the creation of Eve from Adam's side to solve the problem of loneliness (v.21-22)"
+          ],
+          "focusVerse": "2:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the creation of Eve from Adam's side (v.22), the command 'You shall not eat of the tree of the knowledge of good and evil' (v.17), or the phrase 'It is not good that the man should be alone' (v.18).",
+          "tips": [
+            "The intimate physical connection in the creation of Eve (a rib) shows the unity of marriage as a divine design",
+            "The command about the tree of knowledge sets a boundary that is crucial for human relationship with God",
+            "The phrase 'It is not good that the man should be alone' highlights the inherent need for companionship in God's design"
+          ],
+          "focusVerse": "2:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage about the covenant and the divine institution of marriage?",
+          "tips": [
+            "The Sabbath rest in Genesis 2:1-2 is a model for the rest that the Israelites would find in the Promised Land",
+            "The marriage covenant (Eve from Adam) prefigures the Church (the Bride) coming from Christ's side",
+            "The command not to eat from the tree of knowledge is a covenant of works that the Israelites must uphold"
+          ],
+          "focusVerse": "2:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of the 'image of God' in Adam, the meaning of the tree of knowledge, or the creation of Eve from Adam's side.",
+          "tips": [
+            "In ancient Near Eastern context, the idea of a 'divine image' was not common; this emphasizes the uniqueness of humans and their relationship with God",
+            "The tree of knowledge is not about physical knowledge but the knowledge that leads to spiritual separation from God",
+            "The rib (a part of the body) shows that marriage is a unity of two beings created by God, not a separate entity"
+          ],
+          "focusVerse": "2:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the divine institution of marriage (as created in Genesis 2) to your relationships this week?",
+          "tips": [
+            "Consider how to honor the sacredness of marriage by building deep, intimate relationships with your spouse",
+            "Avoid the temptation of the tree of knowledge by seeking God's wisdom in decisions that affect your relationship with Him and others",
+            "Pray for the strength to live in covenant with your spouse as a reflection of God's design"
+          ],
+          "focusVerse": "2:1-25"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for creating marriage as a divine institution and for the covenant of works. Ask for wisdom to avoid the tree of knowledge in your relationships.",
+          "tips": [
+            "Thank God for the intimate design of marriage (Eve from Adam's side)",
+            "Pray for the Church to be the Bride of Christ, as Eve was from Adam's side",
+            "Ask God for the courage to live in covenant with your spouse without sin"
+          ],
+          "focusVerse": "2:1-25"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 3,
+      "chapterTitle": "The Fall into Sin",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 3:1-24 aloud, paying attention to the serpent's temptation in verses 1-5 and Eve's reaction in verses 6-10.",
+          "tips": [
+            "Notice the serpent's use of 'God says' (v. 1) to imply that God's word is not good",
+            "Pay attention to Eve's realization of shame in verse 10: 'The Lord God said...'",
+            "The phrase 'the woman' appears 10 times in the chapter, highlighting her role"
+          ],
+          "focusVerse": "3:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO (the serpent, Eve, Adam) does WHAT (the serpent tempts Eve to eat the forbidden fruit; Eve and Adam eat; they hide) WHERE (Eden) and WHY (to break the covenant with God).",
+          "tips": [
+            "Include the serpent's lie about God's prohibition (v. 1-5)",
+            "Note that Adam and Eve eat the fruit and then hide (v. 8-10)",
+            "Mention God's response: curses on the serpent, woman, and ground; and the promise of the seed (v. 14-15)"
+          ],
+          "focusVerse": "3:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the serpent's lie (v. 4-5), Eve's shame (v. 7-8), or the promise of the seed (v. 15)?",
+          "tips": [
+            "The serpent's lie: 'You will not die' (v. 4) is a dangerous deception that challenges God's authority",
+            "Eve's shame and hiding (v. 8) shows the immediate spiritual consequence of sin: separation from God",
+            "The promise of the seed (v. 15) is the first gospel promise that Christ would crush Satan's head"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the nature of sin and God's response to it through this passage?",
+          "tips": [
+            "The Israelites were entering the Promised Land after 40 years in the wilderness; Moses wanted them to remember that sin has consequences but God's promise of a redeemer remains",
+            "This passage foreshadows the need for a Savior for the nation of Israel (and all humanity) because the first sin affected the entire creation",
+            "The promise in Genesis 3:15 is the first hint of the coming Messiah"
+          ],
+          "focusVerse": "3:15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The identity of the serpent, the meaning of 'the woman's seed', or the curse on the ground?",
+          "tips": [
+            "The serpent is a symbol of evil (the devil) but in the ancient Near Eastern context, serpents were common in the wilderness",
+            "The phrase 'the woman's seed' refers to the offspring of Eve (a human) who would be the Messiah (Christ) who would defeat the serpent",
+            "The curse on the ground (v. 17) is the consequence of sin: the earth becomes a place of suffering and death"
+          ],
+          "focusVerse": "3:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the reality of temptation and sin (as seen in Genesis 3) affect your life this week? What step can you take to avoid the fall?",
+          "tips": [
+            "Consider a time when you felt tempted to do something that would break your covenant with God (like in Genesis 3, Eve was tempted to doubt God's word)",
+            "Think about how the promise of the Seed (v. 15) gives hope for redemption when you are tempted",
+            "Pray for the strength to resist temptation, just as Adam and Eve were given a chance to obey God"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the promise of redemption (the Seed) and ask for help to resist temptation.",
+          "tips": [
+            "Thank God that He provided the promise of the Seed (Christ) to redeem us from sin",
+            "Pray for the strength to resist the serpent's lies (temptations) in your life",
+            "Ask God to help you remember that He is the one who will crush the serpent's head (Christ)"
+          ],
+          "focusVerse": "3:15"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 4,
+      "chapterTitle": "Cain and Abel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 4:1-16 aloud, focusing on the dialogue between Cain and Abel and the emotional shift from peace to violence.",
+          "tips": [
+            "Notice the repetition of 'the LORD' in verses 2, 5, 7, 9, 10, 11, 13, 14, 15, 16",
+            "Pay attention to the emotional tone: from peace (v. 2) to anger (v. 5) to violence (v. 8)",
+            "The phrase 'the LORD said' appears 5 times in this range"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize in your own words: WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters for the Israelites entering the Promised Land.",
+          "tips": [
+            "Include Cain's and Abel's offerings (v. 4) and the murder (v. 8)",
+            "Note the curse on Cain (v. 15) and the birth of Seth (v. 25)",
+            "Highlight the progression from acceptable worship to murder and exile"
+          ],
+          "focusVerse": "4:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you? Consider: Abel's offering (v. 4), Cain's jealousy (v. 5), or the murder (v. 8).",
+          "tips": [
+            "Abel's offering shows faith in God's acceptance (v. 4) - a simple yet profound act of trust",
+            "Cain's jealousy (v. 5) is a warning about the internal sin that leads to violence",
+            "The murder (v. 8) is the immediate consequence of unaddressed jealousy"
+          ],
+          "focusVerse": "4:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God and worship through this story?",
+          "tips": [
+            "The Israelites were entering the Promised Land with their own religious practices; Moses shows that true worship must come from the heart (like Abel) not from self-sacrifice (like Cain)",
+            "This story foreshadows the two lines of humanity: the line of Seth (the righteous) and the line of Cain (the wicked)",
+            "The curse on Cain (v. 15) warns of the consequences of sin and the need for God's mercy"
+          ],
+          "focusVerse": "4:15-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? Consider the nature of the offerings, the motivation for murder, and the curse.",
+          "tips": [
+            "The term 'acceptable' (zachar) in Hebrew refers to a sacrifice that is pleasing to God, but the text doesn't specify what made Abel's offering acceptable",
+            "Cain's murder (v. 8) is a result of his jealousy, but the text doesn't explicitly state the cause of the murder beyond jealousy",
+            "The curse on Cain (v. 15) means he will be a wanderer without a fixed home, but it also affects his descendants (the wickedness of the earth)"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does this passage challenge you to live differently this week? Focus on acceptable worship.",
+          "tips": [
+            "When you feel jealous of someone else's success or gifts, ask yourself: 'Am I offering my life to God or trying to make it right by my own works?'",
+            "Practice humility by giving your best to God (like Abel) rather than being self-centered (like Cain)",
+            "This week, choose one area where you can offer your life to God without condition"
+          ],
+          "focusVerse": "4:4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the theme of jealousy and acceptable worship.",
+          "tips": [
+            "Thank God for His acceptance of those who trust Him (like Abel) and ask for help to avoid jealousy",
+            "Pray for the Holy Spirit to help you see the difference between true worship and self-centered actions",
+            "Ask God to protect you from the sin of murder (v. 8) by addressing your jealousy before it leads to violence"
+          ],
+          "focusVerse": "4:1-10"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 5,
+      "chapterTitle": "From Adam to Noah",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 5 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 6,
+      "chapterTitle": "Wickedness and the Ark",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 6:1-13 aloud, paying attention to the contrast between the corruption of the earth and Noah's grace.",
+          "tips": [
+            "Notice the repeated phrase 'the earth is corrupt' (v.5, 6)",
+            "Pay attention to the phrase 'the Lord God' in v.13 showing covenantal promise",
+            "The word 'grace' (v.8) is the first use of this term in Scripture"
+          ],
+          "focusVerse": "6:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is responsible for the corruption, WHAT God does in response, WHERE the flood is happening, and WHY God chooses Noah.",
+          "tips": [
+            "Include the 120-year period of wickedness (v.12)",
+            "Note that God's decision is based on the corruption of the earth (v.5)",
+            "Emphasize Noah's faithfulness and God's grace (v.8,9)"
+          ],
+          "focusVerse": "6:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: God's grief over the corruption (v.6), Noah being 'found' (v.8), or the covenant promise (v.17)?",
+          "tips": [
+            "God's grief shows His deep care for creation",
+            "Noah being 'found' is a powerful illustration of grace in the midst of sin",
+            "The covenant promise of preservation through the ark is a promise of God's faithfulness"
+          ],
+          "focusVerse": "6:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's response to human sin?",
+          "tips": [
+            "The Israelites were facing a world of moral decay (the Promised Land had been conquered by nations with wickedness)",
+            "Moses shows that God's judgment is necessary but also provides a way of escape through faithfulness (Noah)",
+            "This passage foreshadows the need for a mediator (Christ) who will save from sin"
+          ],
+          "focusVerse": "6:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of the earth being corrupt (v.5), why God chooses Noah (v.8), or the flood as divine judgment?",
+          "tips": [
+            "The 'corrupt' earth (v.5) refers to widespread moral and spiritual decay, not just physical corruption",
+            "Noah is chosen because he was 'righteous' (v.9) and the Lord found him (v.8) in a world of wickedness",
+            "The flood is a judgment on sin, but the ark is the means of preservation for life (as a type of Christ)"
+          ],
+          "focusVerse": "6:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "In what way can you trust God's grace to preserve you from the corruption of the world this week?",
+          "tips": [
+            "Consider a situation where you feel overwhelmed by sin or corruption",
+            "Reflect on how God's grace (like Noah's) can be your refuge",
+            "Pray for the courage to trust God in the midst of a corrupt world"
+          ],
+          "focusVerse": "6:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for preserving us through His grace in a corrupt world. Ask for the strength to live righteously.",
+          "tips": [
+            "Thank God for preserving Noah (and us) through His grace",
+            "Ask for the strength to live righteously in a corrupt world",
+            "Pray for the Holy Spirit to help us trust God's promises"
+          ],
+          "focusVerse": "6:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 7,
+      "chapterTitle": "The Flood",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 7:1-24 aloud, focusing on the command to build the ark (v.1-2) and the flood's progression (v.10-17).",
+          "tips": [
+            "Notice the repeated phrase 'the LORD' (v.1, 7, 10)",
+            "Pay attention to the word 'ark' (v.1, 3) and how it's described as 'a very large ship' (v.16)",
+            "Note the emotional shift from obedience (v.1-2) to the flood's impact (v.10-17)"
+          ],
+          "focusVerse": "7:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God commands to build the ark, WHAT happens, WHERE the ark is built, and WHY God sends the flood.",
+          "tips": [
+            "Include that Noah is the only one who obeys (v.1-2)",
+            "Note that the ark is built on the earth (v.16) and the flood covers the entire earth (v.24)",
+            "Describe the reason: God's judgment on sin (v.1-3)"
+          ],
+          "focusVerse": "7:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the command to build the ark (v.1-2), the 40 days of rain (v.11), or the animals boarding the ark (v.8-9)?",
+          "tips": [
+            "Noah's obedience: 'This is what I have done' (v.1-2) shows immediate action",
+            "The 40 days of rain (v.11) is a sign of God's judgment and the beginning of the flood",
+            "The animals entering the ark (v.8-9) shows God preserving life despite the judgment"
+          ],
+          "focusVerse": "7:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's relationship with His people through this flood narrative?",
+          "tips": [
+            "This passage shows God's judgment on sin (the entire earth) and His preservation of the righteous (Noah and his family)",
+            "It points to the need for obedience to God's commands (as the Israelites were entering the Promised Land after 40 years of wandering)",
+            "The flood is a symbol of the need for a new beginning and the covenant with God's people"
+          ],
+          "focusVerse": "7:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The 40 days of rain, why God chose Noah, or the significance of the animals in the ark?",
+          "tips": [
+            "The 40 days of rain (v.11) is a sign of God's judgment, but the passage says the flood lasts 150 days (v.24) for the waters to cover the earth",
+            "Why God chose Noah? Because he was blameless (v.6) and God had been with him (v.10)",
+            "The 7 pairs of every kind of animal (v.9) is a way to preserve life for the new creation, not a literal 7 pairs for every kind"
+          ],
+          "focusVerse": "7:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of obedience to God's command in your life this week, even when it's difficult?",
+          "tips": [
+            "Consider an area where you need to trust God's plan (like Noah trusting the flood)",
+            "Think about how God has preserved you through a hard time (like the flood preserving Noah)",
+            "Practice obedience by taking one step of trust this week, as Noah did"
+          ],
+          "focusVerse": "7:1-2"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His judgment on sin and His preservation of the faithful. Ask for courage to obey His commands when it's hard.",
+          "tips": [
+            "Thank God for preserving Noah and his family through the flood",
+            "Pray for the strength to trust God when circumstances are difficult",
+            "Ask God to help you be like Noah in obedience"
+          ],
+          "focusVerse": "7:1-24"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 8,
+      "chapterTitle": "The Waters Recede",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 8:1-12 aloud, focusing on the receding waters and the birds' messages.",
+          "tips": [
+            "Notice the repeated phrase 'the waters recede' (v.1, v.4)",
+            "Pay attention to the dove's return with an olive leaf (v.11)",
+            "The raven's role as a sign of the flood's end (v.7)"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize who God is working with, what God does, where it happens, and why God does this (for the waters receding).",
+          "tips": [
+            "Noah sends out the raven and dove",
+            "The dove returns with an olive leaf showing the waters have abated",
+            "Noah sees dry ground and the people exit the ark"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the dove returning with an olive leaf (v.11), Noah removing the ark's covering (v.13), or God's promise (v.21)?",
+          "tips": [
+            "The olive leaf is a sign of new life and hope after the flood",
+            "Noah's action of removing the ark's covering shows he sees the dry ground",
+            "God's promise of never again flooding the earth is a lasting covenant"
+          ],
+          "focusVerse": "8:11-21"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage about God's faithfulness and promise?",
+          "tips": [
+            "God remembers His covenant with Noah and keeps His promise",
+            "The flood was a punishment, but God promises to never repeat it",
+            "This shows God's patience and mercy"
+          ],
+          "focusVerse": "8:1-21"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of the olive leaf, the timing of the promise, or the concept of God's covenant with the earth?",
+          "tips": [
+            "The olive leaf symbolizes hope and renewal, not a literal olive tree",
+            "The promise of 'never again' is a covenant that God will not flood the earth, but the earth still faces problems",
+            "Covenant in Hebrew (berit) means a binding agreement, so God makes a new covenant with the earth"
+          ],
+          "focusVerse": "8:1-21"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you trust God's promise of a dry land (peace) when you feel the waters are rising (challenges)?",
+          "tips": [
+            "Identify one area where you feel overwhelmed and pray for God's promise to dry it",
+            "Remember the olive leaf as a sign of hope and trust God's promise to provide",
+            "This week, take action that shows you're stepping out of the flood into the dry land"
+          ],
+          "focusVerse": "8:21"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promise to never flood the earth again. Ask for courage to trust His promises in your life.",
+          "tips": [
+            "Thank God for the promise that He will never again curse the ground with flood",
+            "Pray for strength to trust His promises when life feels like a flood",
+            "Ask God to help you see the dry land (hope) in your current situation"
+          ],
+          "focusVerse": "8:21"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 9,
+      "chapterTitle": "Covenant with Noah",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 9:1-27 aloud, focusing on the covenant language and the emotional shift in the story of Noah becoming drunk.",
+          "tips": [
+            "Notice the repeated phrase 'this is the sign' (v.13)",
+            "Pay attention to the contrast between God's blessing and the curse on Canaan (v.24-27)",
+            "The phrase 'the blood of your life' (v.4) appears in the command"
+          ],
+          "focusVerse": "9:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God is dealing with, WHAT He commands, WHERE this happens, and WHY He establishes the covenant.",
+          "tips": [
+            "Include Noah's role as the representative of humanity after the flood",
+            "Note that God commands the prohibition of blood and capital punishment for murder",
+            "Describe the rainbow as the sign of the covenant"
+          ],
+          "focusVerse": "9:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the rainbow sign (v.13), the blood prohibition (v.4), or the curse on Canaan (v.24-27)?",
+          "tips": [
+            "The rainbow is a unique sign that connects the sky and earth, showing God's promise to never flood again",
+            "The command 'do not eat the blood' emphasizes the sanctity of life and the connection between life and death",
+            "Noah's curse on Canaan is a prophetic statement that affects future generations, showing God's judgment on sin"
+          ],
+          "focusVerse": "9:1-27"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's covenant with creation?",
+          "tips": [
+            "This covenant includes all humanity and the earth, so the Israelites are part of God's new creation",
+            "The rainbow sign is a reminder of God's patience and the opportunity for repentance",
+            "The blessing on Shem points to the Messiah (Jesus) who will come from Shem's line"
+          ],
+          "focusVerse": "9:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The blood prohibition? The curse on Canaan? The rainbow sign?",
+          "tips": [
+            "Blood in ancient cultures represented life; the prohibition ensures that life is not wasted and that the person who takes blood is responsible for the life",
+            "The curse on Canaan is a bit complex because Canaan is the ancestor of the nations that would later be in the land of Canaan, but God's curse is on the entire line of Canaan",
+            "The rainbow is a sign that God will not flood again, but it also points to the covenant that God will not destroy the earth by water again"
+          ],
+          "focusVerse": "9:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the sanctity of life (from the blood prohibition) apply to your life this week? What can you do to honor God's design for life?",
+          "tips": [
+            "Consider how you treat others and animals; avoid actions that harm life",
+            "Think about your relationship with food and the importance of not consuming blood",
+            "Pray for the courage to live without taking blood (in the sense of not taking life in a way that is unjust)"
+          ],
+          "focusVerse": "9:4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for His covenant with all creation and ask for the strength to live according to His commands.",
+          "tips": [
+            "Thank God for the rainbow as a sign of His promise",
+            "Pray for the courage to live without taking blood (in the sense of respecting life)",
+            "Ask God to help you understand the curse on Canaan and how it relates to your life"
+          ],
+          "focusVerse": "9:1-27"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 10,
+      "chapterTitle": "The Table of Nations",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 10:1-32 aloud, paying attention to the structure of the genealogical lists and the repetition of 'the sons of...'",
+          "tips": [
+            "Notice the repeated phrase 'These are the descendants of...' for each son of Noah",
+            "Pay attention to the listing of the maritime peoples under Japheth (e.g., the Erythraei and Gergashites)",
+            "The phrase 'the land of Canaan' and 'the land of Egypt' appear multiple times"
+          ],
+          "focusVerse": "10:1-32"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (the descendants of Noah), WHAT they did, WHERE they settled, and WHY this genealogy matters for the Israelites entering the Promised Land.",
+          "tips": [
+            "Include: Shem's line (which includes Abraham), Ham's line (Canaan and Egypt), Japheth's line (maritime nations)",
+            "Note: The land of Canaan is the specific land that the Israelites would enter, so it's a direct connection to their future",
+            "The genealogy shows the spread of nations after the flood, setting the stage for the Israelites to enter a land already inhabited"
+          ],
+          "focusVerse": "10:1-32"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part of this genealogy stood out most? Consider: the listing of the land of Canaan (v. 15-16), the kingdom of Nimrod (v. 8-10), or the maritime nations under Japheth (v. 2-7)?",
+          "tips": [
+            "The land of Canaan is the specific land that the Israelites would enter, so it's a direct connection to their future",
+            "Nimrod's role as the founder of the city of Babel (Babylon) shows the beginning of human civilization and the city states that would later become powerful",
+            "The maritime nations under Japheth (like the Erythraei) represent the global spread of humanity through the sea"
+          ],
+          "focusVerse": "10:1-32"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this genealogy?",
+          "tips": [
+            "This passage shows that the land of Canaan (where the Israelites were going) was already populated by descendants of Ham, which is why God had to bless the Israelites through Abraham (Shem's line)",
+            "It emphasizes that all nations come from one man (Noah) and that God's providence is at work in the spread of nations",
+            "The genealogy sets the stage for the Israelites to understand that they are part of a global story that begins with Noah and leads to Abraham"
+          ],
+          "focusVerse": "10:1-32"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this chapter are challenging to interpret? Consider the genealogy, the meaning of specific names, or the historical context.",
+          "tips": [
+            "The genealogy lists many names that are not well-documented in the ancient world; it's a way to show the spread of nations without being too detailed",
+            "The term 'Canaan' in this context refers to the land and its people, but the Israelites were to inherit it as a blessing from God (so it's not the land of Ham's descendants in the sense of being the o",
+            "Nimrod is a figure from the pre-flood era who is listed as the founder of cities, which shows the beginning of human civilization and the city states that would later become centers of power"
+          ],
+          "focusVerse": "10:1-32"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the diversity of nations in this genealogy remind you of the unity of humanity? What practical step can you take this week to honor God's diversity in your community?",
+          "tips": [
+            "Remember that all nations come from one man (Noah) and that God has blessed them through different lines",
+            "This week, reach out to someone from a different cultural background and share a meal or a conversation",
+            "Pray for unity in your community and for God to use the diversity of cultures to build His church"
+          ],
+          "focusVerse": "10:1-32"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the unity of humanity and the diversity He created. Ask for wisdom to live in a way that honors the nations He has blessed.",
+          "tips": [
+            "Thank God for creating a world of diverse nations from one family (Noah)",
+            "Pray for the unity of the church across cultures and for the Israelites to live in harmony with the nations around them",
+            "Ask God to help you to see the value in every culture and to use your gifts to build up the body of Christ"
+          ],
+          "focusVerse": "10:1-32"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 11,
+      "chapterTitle": "Babel and the Line to Abram",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 11 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 12,
+      "chapterTitle": "The Call of Abram",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 12:1-17 aloud, paying attention to the phrase 'I will make you a great nation, and I will bless you, and I will make you a blessing for all the earth' (v.2-3) and the immediate response 'So Abram went' (v.4).",
+          "tips": [
+            "Notice the repetition of God's promises with 'I will' (v.2-3)",
+            "Pay attention to the emotional tone: God's call is both sovereign and personal",
+            "Note the phrase 'the land that I will show you' (v.7) which indicates God's guidance"
+          ],
+          "focusVerse": "12:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God calls, WHAT He promises, WHERE Abram goes, WHY God calls him, and HOW Abram responds.",
+          "tips": [
+            "Include that Abram leaves Ur of the Chaldeans (v.4)",
+            "Note the promise of blessing all nations (v.3)",
+            "Describe Abram's immediate obedience (v.4)"
+          ],
+          "focusVerse": "12:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the promise of blessing all nations (v.3), Abram's immediate obedience (v.4), or the phrase 'the land that I will show you' (v.7)?",
+          "tips": [
+            "The promise of blessing all nations is the most profound and universal theme",
+            "Abram's immediate obedience (v.4) shows faith without delay",
+            "The phrase 'the land that I will show you' indicates God's guidance and revelation"
+          ],
+          "focusVerse": "12:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage establishes the foundation for the Israelite identity: God calls individuals to a purpose and promises blessing through obedience",
+            "The promise of blessing all nations (v.3) is the basis for the covenant that includes the Israelites and the future Church",
+            "Moses is showing that God's faithfulness to Abram prefigures His faithfulness to the Israelites"
+          ],
+          "focusVerse": "12:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The call to leave his country and kindred, the promise of blessing all nations, or the phrase 'the land that I will show you'?",
+          "tips": [
+            "In the ancient Near East, migration was common, but God's call to Abram was unique because it was for a specific purpose (blessing all nations)",
+            "The phrase 'blessing for all the earth' (v.3) is a universal promise that seems large for a single person, but it is fulfilled through Christ (Gal 3:16)",
+            "The phrase 'the land that I will show you' (v.7) indicates that God will reveal the land to Abram at the right time, not immediately"
+          ],
+          "focusVerse": "12:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of divine call and promise in your life this week?",
+          "tips": [
+            "Identify one area where you are called to leave your comfort zone and trust God's promise",
+            "Reflect on a specific promise God has made to you and how you can act on it",
+            "This week, take one small step of obedience as Abram did (v.4)"
+          ],
+          "focusVerse": "12:1-4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promise to bless you and for calling you to a purpose. Ask for the courage to obey.",
+          "tips": [
+            "Thank God for the promise of blessing all nations (v.3) and for His faithfulness to Abram",
+            "Pray for courage to leave your comfort zone and trust God's timing",
+            "Ask God to help you understand the land He will show you (v.7) as you follow Him"
+          ],
+          "focusVerse": "12:1-17"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 13,
+      "chapterTitle": "Abram and Lot Separate",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 13:1-18 aloud, paying attention to the tension in verses 7-8 and the divine reassurance in verses 14-18.",
+          "tips": [
+            "Notice the repeated phrase 'the land' (v.1, 4, 7) to emphasize the limited space",
+            "Pay attention to Abram's generous offer: 'Let me choose the land for you' (v.5) - shows his willingness to give up his claim",
+            "Emotional tone shifts from tension (v.7-8) to divine reassurance (v.14-18)"
+          ],
+          "focusVerse": "13:1-18"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Abram and Lot), WHAT (separating their herds due to land conflict), WHERE (the land of Canaan), and WHY (to avoid conflict and maintain God's covenant promise).",
+          "tips": [
+            "Include Abram returning from Egypt with a large herd (v.1-2)",
+            "Note the conflict over territory (v.7-8)",
+            "Describe Lot's choice of the Jordan plain (v.9-10) and God's reaffirmation of the promise (v.14-18)"
+          ],
+          "focusVerse": "13:1-18"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Abram's offer to let Lot choose first (v.5), Lot's choice of the Jordan plain (v.9-10), or God's promise (v.14).",
+          "tips": [
+            "Abram's offer to let Lot choose first (v.5) shows his generosity without condition",
+            "Lot's choice of the Jordan plain (v.9-10) warns about the dangers of worldly allurements (Sodom's destruction)",
+            "God's promise: 'all the land that you see will belong to your offspring' (v.14) reaffirms the covenant"
+          ],
+          "focusVerse": "13:1-18"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "Consider that the Israelites were about to enter the land God promised to Abraham, so Moses reminds them of God's covenant and the danger of worldly choices",
+            "God's promise is secure and abundant, but the Israelites must live by faith, not by sight (the land of Canaan is the promised land, but they must not be drawn to sin like Lot)",
+            "This passage foreshadows the need for the Israelites to trust God's provision and avoid the pitfalls of the world"
+          ],
+          "focusVerse": "13:1-18"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? Why did Abram and Lot separate when they were both in the same land? What does 'the land' refer to? Why did God reaffirm the promise after Lot left?",
+          "tips": [
+            "They were both in the land of Canaan, but Abram had just returned from Egypt with a large herd (v.2), so the land was limited and conflict arose",
+            "'The land' in v.1 refers to the Promised Land (Canaan) that God had given to Abraham",
+            "God reaffirmed the promise to ensure that Abram's descendants would inherit the land, even though Lot had chosen a land that would later be destroyed (Sodom)"
+          ],
+          "focusVerse": "13:1-1:18"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice generosity over greed this week? Consider giving up something you value for the sake of others.",
+          "tips": [
+            "Be generous with your time (e.g., help a neighbor without expecting anything in return)",
+            "Avoid the temptation of worldly success (like choosing the easiest path, even if it leads to destruction)",
+            "Reflect on what you can give up this week that would help others or honor God"
+          ],
+          "focusVerse": "13:5-14"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promise to Abraham and for His faithfulness to His covenant. Ask for courage to be generous and to avoid worldly allurements.",
+          "tips": [
+            "Thank God for His promise to Abraham and for His faithfulness to His covenant",
+            "Pray for the courage to be generous and to avoid the pitfalls of worldly allurements",
+            "Ask God to help you choose the right path (like Lot's choice) that leads to blessing, not destruction"
+          ],
+          "focusVerse": "13:14"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 14,
+      "chapterTitle": "Abram Rescues Lot and Meets Melchizedek",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 14:1-20 aloud, paying attention to the contrast between the four eastern kings and the five Canaanite kings in verses 1-3, and the unique title of Melchizedek in verses 18-20.",
+          "tips": [
+            "Notice the phrase 'the king of Sodom' (v.10) and 'Abram' (v.13) as key identifiers",
+            "Pay attention to the title of Melchizedek: 'king of Salem' (v.18) and 'priest of God Most High' (v.18)"
+          ],
+          "focusVerse": "14:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the four eastern kings, Abram, Melchizedek, and the king of Sodom) is involved, WHAT happens (the defeat of the five Canaanite kings, Abram's rescue of Lot, and the encounter with Melchizedek), WHERE it occurs (the region of the Canaanites, likely near Sodom), and WHY Abram rescues Lot (to save his family and possessions from the invaders).",
+          "tips": [
+            "Include the defeat of the five Canaanite kings by the four eastern kings",
+            "Note that Abram musters 318 trained men and pursues the invaders",
+            "Highlight the encounter with Melchizedek and the tithe"
+          ],
+          "focusVerse": "14:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Abram's pursuit (v.4-6), Melchizedek's blessing (v.18-20), or the tithe (v.20)?",
+          "tips": [
+            "Melchizedek's role as both king and priest of God Most High is unique and foreshadows Christ",
+            "The tithe from Abram to Melchizedek shows a voluntary offering of gratitude and recognition of God's sovereignty",
+            "Abram's refusal of the king of Sodom's offer (v.20) demonstrates his trust in God alone"
+          ],
+          "focusVerse": "14:1-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's victory and leadership?",
+          "tips": [
+            "This passage shows that God is the ultimate source of victory and provision, not human strength",
+            "The priesthood of Melchizedek (a type of Christ) emphasizes God's eternal and universal authority",
+            "Abram's refusal of worldly rewards points to the Israelites' need to rely on God, not on their own might"
+          ],
+          "focusVerse": "14:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The identity of the kings, the meaning of 'tithe', or why Abram refuses the king of Sodom?",
+          "tips": [
+            "The four eastern kings (v.1) are likely the coalition of kings that included Chedorlaomer (the Amorite king) and others, but their exact identities are not specified in detail",
+            "In ancient Near Eastern context, a 'tithe' (10%) was a common tax, but here Melchizedek is a priest of God Most High, so the tithe is a voluntary act of worship and acknowledgment of God's sovereignty",
+            "Abram's refusal of the king of Sodom's offer (v.20) is significant because it shows that God's victory was not earned by human effort and that Abram's loyalty was to God alone"
+          ],
+          "focusVerse": "14:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does Abram's refusal of worldly rewards apply to your life? What situation requires you to trust God alone?",
+          "tips": [
+            "Consider an area where you might be tempted to seek personal gain or recognition",
+            "Think about how you can give thanks to God for His provision without seeking worldly rewards",
+            "Practice declaring God's role as the source of your victory and provision"
+          ],
+          "focusVerse": "14:1-20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His victory and leadership. Ask for courage to trust Him alone in difficult circumstances.",
+          "tips": [
+            "Thank God for providing victory through Him alone, not through human might",
+            "Pray for the strength to recognize God's role in your life and to offer Him the first fruits",
+            "Ask God to help you refuse worldly rewards when He is the true source of victory"
+          ],
+          "focusVerse": "14:1-20"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 15,
+      "chapterTitle": "God's Covenant with Abram",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 15:1-21 aloud, paying attention to the dialogue between God and Abram in verses 1-6 and the covenant ceremony in verses 10-18.",
+          "tips": [
+            "Notice Abram's response 'Here I am' (v. 1) and his questioning about offspring (v. 2)",
+            "Pay attention to the phrase 'as many as the stars in the sky' (v. 5) and how it expresses the vastness of God's promise",
+            "Note the emotional shift from Abram's doubt to his faith in God's promise (v. 6)"
+          ],
+          "focusVerse": "15:1-21"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT God promises, WHERE this covenant is established, and WHY God makes this covenant with Abram.",
+          "tips": [
+            "Include the promise of descendants as numerous as the stars (v. 5)",
+            "Note that Abram believes God's promise (v. 6) and is credited as righteous",
+            "Describe the covenant ceremony with the animal pieces (v. 10-18)"
+          ],
+          "focusVerse": "15:1-21"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Abram's faith (v. 6), the promise of descendants (v. 5), or the covenant ceremony (v. 10-18)?",
+          "tips": [
+            "Abram's faith is credited as righteousness (v. 6) - a powerful example of justification by faith",
+            "The promise of descendants as numerous as the stars (v. 5) - a picture of God's abundant provision beyond human understanding",
+            "The covenant ceremony where God passes between the animal pieces (v. 10-18) - a unique and visible sign of God's commitment to the land"
+          ],
+          "focusVerse": "15:1-21"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage establishes that God's covenant with Abram is the foundation for the Israelites' identity and land inheritance",
+            "It emphasizes that God's promise is based on faith (not works) and is a guarantee of the land from Egypt's river to the Euphrates (v. 18)",
+            "The covenant is a living promise that God will be their shield (v. 1) and provide for them"
+          ],
+          "focusVerse": "15:1-21"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of righteousness by faith, the animal sacrifice ritual, or the promise of land to Abram?",
+          "tips": [
+            "In ancient Near Eastern context, covenant rituals involved cutting animals in two (as in Exodus 24), but here God passes through the pieces to show His commitment",
+            "The phrase 'as many as the stars' (v. 5) is a way to express the vastness of the promise without counting (a common Hebrew idiom)",
+            "Righteousness by faith (v. 6) means that Abram's faith was counted as righteousness by God, which is the basis for Paul's teaching in Romans 4"
+          ],
+          "focusVerse": "15:1-21"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Abram's faith (v. 6) in your life this week? What promise from God do you need to trust in when it seems impossible?",
+          "tips": [
+            "Identify one area where you are doubting God's promises (like the promise of descendants) and pray for faith",
+            "Practice trusting God's provision even when you don't see the outcome (like Abram trusting God would give him descendants)",
+            "Reflect on how God is your shield (v. 1) and how He will provide for you"
+          ],
+          "focusVerse": "15:6"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for being Abram's shield and for the covenant promise. Ask for faith to trust His promises when they seem impossible.",
+          "tips": [
+            "Thank God for being the covenant-keeper and for His promise to provide descendants",
+            "Pray for the courage to trust God's promises in your life, even when the outcome is not yet visible",
+            "Ask God to help you believe that He will be your shield and provider"
+          ],
+          "focusVerse": "15:1-21"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 16,
+      "chapterTitle": "Hagar and Ishmael",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 16:1-16 aloud, focusing on the emotional journey from hope to despair to hope.",
+          "tips": [
+            "Notice the phrase 'the God who sees me' (v.13) repeated in Hagar's declaration",
+            "Pay attention to the contrast in tone: Sarai's desperation (v.1-2) vs. the Angel's comfort (v.7-13)"
+          ],
+          "focusVerse": "16:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Sarai, Abram, Hagar, the Angel of the LORD), WHAT (Sarai gives Hagar to Abram to bear children, Hagar becomes pregnant and flees, the Angel intervenes and promises), WHERE (the desert), and WHY (Sarai's barrenness and the need for children).",
+          "tips": [
+            "Include Hagar's pregnancy and her flight to the desert (v.5)",
+            "Mention the Angel of the LORD's promise to Hagar (v.10-13)",
+            "Note that Ishmael is born later (v.15)"
+          ],
+          "focusVerse": "16:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Hagar's cry 'the God who sees me' (v.13), the promise of a nation (v.15), or the Angel's command to return and submit (v.9).",
+          "tips": [
+            "Hagar's declaration shows she has found God in her suffering, which is a powerful reminder of God's presence in the marginalized",
+            "The promise of a nation through Ishmael foreshadows the future of the Israelites, even though it's through a servant"
+          ],
+          "focusVerse": "16:7-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's character and response to suffering?",
+          "tips": [
+            "This passage addresses the Israelites' own struggles with barrenness and the need for God's intervention in their lives",
+            "It shows that God works through human weakness and the promises He makes to those who are in distress"
+          ],
+          "focusVerse": "16:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Sarai's action, the nature of the Angel of the LORD, and the promise to Hagar versus Sarah.",
+          "tips": [
+            "Sarai's action was a desperate measure to have children, common in ancient times when barrenness was a social issue",
+            "The Angel of the LORD is a pre-incarnate appearance of Christ, showing God's direct care for the afflicted",
+            "The promise to Hagar is that her son will be the father of a nation (the Ishmaelites), which is distinct from the promise to Sarah (Isaac's line)"
+          ],
+          "focusVerse": "16:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'God who sees' from this passage: What situation requires you to trust God's provision when you feel overlooked?",
+          "tips": [
+            "Identify a situation where you feel unseen and ask God to reveal your needs",
+            "Pray for the courage to trust God's promises when you are in a place of hardship"
+          ],
+          "focusVerse": "16:13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for seeing your struggles and providing a way out. Ask for the strength to trust Him in the desert of your life.",
+          "tips": [
+            "Thank God for seeing your struggles and providing a way out",
+            "Ask for the courage to be like Hagar who seeks God in the desert"
+          ],
+          "focusVerse": "16:13"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 17,
+      "chapterTitle": "Covenant of Circumcision",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 17:1-27 aloud, paying attention to the name changes and the promise of Isaac.",
+          "tips": [
+            "Notice the phrase 'El Shaddai' (God Almighty) in verse 1",
+            "Pay attention to the name changes: Abram to Abraham and Sarai to Sarah (verse 5)",
+            "Notice the promise of Isaac in verse 20"
+          ],
+          "focusVerse": "17:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Abraham and his household) does WHAT (receives God's covenant renewal) WHERE (at the mountains of Moriah) and WHY (to establish the covenant for the future of the Israelites).",
+          "tips": [
+            "Include the name changes: Abraham and Sarah",
+            "Note the promise of Isaac as the heir",
+            "Mention the immediate circumcision of the household"
+          ],
+          "focusVerse": "17:1-27"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the name change to Abraham (v.5), the promise of Isaac (v.20), or the sign of circumcision (v.11-14).",
+          "tips": [
+            "The name change from Abram to Abraham signifies a new identity in God's plan",
+            "The promise of Isaac as the heir shows God's faithfulness despite human inability",
+            "The sign of circumcision is a permanent mark of commitment to the covenant"
+          ],
+          "focusVerse": "17:1-27"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about the covenant through this passage?",
+          "tips": [
+            "The covenant is a living relationship that requires active participation (as seen in the sign of circumcision)",
+            "The promise of Isaac reminds the Israelites of God's faithfulness to their ancestors",
+            "The name changes (Abraham and Sarah) signify a new identity in God's plan for the nation"
+          ],
+          "focusVerse": "17:1-27"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The significance of circumcision, the meaning of 'El Shaddai', and the promise of Isaac in Abraham's old age.",
+          "tips": [
+            "Circumcision in this context is a sign of the covenant, not a ritual for the body alone",
+            "'El Shaddai' (God Almighty) emphasizes God's power to provide and fulfill promises",
+            "The promise of Isaac was a sign that God's promises are reliable even when it seems impossible"
+          ],
+          "focusVerse": "17:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you live out the covenant of circumcision in your life this week? Consider a step of commitment to God.",
+          "tips": [
+            "Think about a time when you need to 'circumcise' your heart (i.e., commit to God)",
+            "Pray for the Holy Spirit to help you become a new creation (like the covenant renewal)",
+            "Take a small step of obedience this week, such as sharing your faith or living out the promise of Isaac"
+          ],
+          "focusVerse": "17:1-27"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the covenant and the promise of Isaac. Ask for courage to live by the covenant.",
+          "tips": [
+            "Thank God for His faithfulness to Abraham and the promise of Isaac",
+            "Pray for the courage to live by the covenant (as in circumcision: a permanent sign of commitment)",
+            "Ask God to help you become a new creation through the Spirit"
+          ],
+          "focusVerse": "1:1-27"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 18,
+      "chapterTitle": "The LORD Visits Abraham",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 18 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 19,
+      "chapterTitle": "Destruction of Sodom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 19 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 20,
+      "chapterTitle": "Abraham and Abimelech",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 20:1-17 aloud, paying attention to the emotional shift from Abimelech's initial shock to his resolution.",
+          "tips": [
+            "Notice the repeated phrase 'I have taken her' (v.2) to show the initial claim",
+            "Pay attention to Abimelech's confession of innocence (v.7-8) and his fear (v.9)",
+            "The phrase 'my son' (v.12) when Abraham admits his fear"
+          ],
+          "focusVerse": "20:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO (Abraham, Abimelech, Sarah), WHAT (Abraham's deception and its consequences), WHERE (Gerar), and WHY (Abraham's fear of being killed for Sarah's sake).",
+          "tips": [
+            "Include Abraham's claim that Sarah is his sister (v.1-2)",
+            "Note Abimelech taking Sarah (v.2-3) and God's warning in a dream (v.4-6)",
+            "Highlight the restoration of Sarah (v.9-10) and Abraham's admission of deception (v.11-12)"
+          ],
+          "focusVerse": "20:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Abimelech's dream warning (v.4-6), Abraham's admission of deception (v.11-12), or Abraham's intercessory prayer (v.13-15).",
+          "tips": [
+            "Abimelech's dream warning: God's immediate intervention to prevent injustice",
+            "Abraham's admission of fear: humble confession despite the risk of death",
+            "The intercessory prayer: modeling of seeking God's help for others"
+          ],
+          "focusVerse": "20:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's character and the consequences of human failure?",
+          "tips": [
+            "God's protection of the promised lineage despite Abraham's failure",
+            "The importance of integrity in leadership (Abimelech's eventual restoration of Sarah)",
+            "Divine grace in healing the situation through prayer (Abraham's intercession)"
+          ],
+          "focusVerse": "20:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The cultural context of claiming a sister, the dream warning, or the resolution of the situation.",
+          "tips": [
+            "In ancient Near East, claiming a sister as a wife was a common way to avoid polygamy and was culturally acceptable (v.1-2)",
+            "The dream warning (v.4-6) shows God's authority over the king's actions, not just a random intervention",
+            "Abimelech's initial taking of Sarah (v.2-3) was a cultural norm, but God's intervention prevents the injustice"
+          ],
+          "focusVerse": "20:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you seek God's protection in a situation where you feel your integrity is at risk this week?",
+          "tips": [
+            "When you are tempted to lie, ask God for wisdom to avoid the situation",
+            "Pray for courage to be honest with those in authority over you",
+            "Practice intercessory prayer for the leaders in your life, as Abraham did for Abimelech"
+          ],
+          "focusVerse": "20:1-17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His protection in the midst of failure and ask for the courage to be honest.",
+          "tips": [
+            "Thank God for protecting the promised lineage through Abraham's failures",
+            "Pray for the integrity of those in authority over you",
+            "Ask God to help you intercede for others in need"
+          ],
+          "focusVerse": "20:1-17"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 21,
+      "chapterTitle": "Birth of Isaac; Hagar Sent Away",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 21 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 22,
+      "chapterTitle": "The Sacrifice of Isaac",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 22:1-19 aloud, focusing on the tension between Abraham's obedience and God's command.",
+          "tips": [
+            "Notice the repetition of 'Here I am' (vv. 1, 7, 11)",
+            "Pay attention to Isaac's innocent question in verse 8",
+            "The emotional shift when the angel stops the sacrifice (v. 12)"
+          ],
+          "focusVerse": "22:1-19"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is tested, WHAT God commands, WHERE it takes place, and HOW Abraham responds.",
+          "tips": [
+            "Include the three-day journey to Moriah (v. 2)",
+            "Note Isaac carrying the wood and Abraham preparing the fire and knife (v. 2)",
+            "Describe the angel's intervention and the ram caught in the thicket (vv. 12-13)"
+          ],
+          "focusVerse": "22:1-14"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Abraham's obedience (v. 3), Isaac's trusting question (v. 7), or 'God will provide' (v. 8, 14)?",
+          "tips": [
+            "Abraham's immediate response 'Here I am' shows unwavering trust",
+            "Isaac's innocent question about the lamb highlights childlike faith",
+            "The ram caught in the thicket symbolizes God's provision in unexpected ways"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God through this test of Abraham?",
+          "tips": [
+            "This passage shows God's commitment to provide for His people through faithful obedience",
+            "Abraham's willingness to sacrifice his son demonstrates the cost of true faith",
+            "The covenant promise in verses 15-18 reassures future blessing through obedience"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The command to sacrifice Isaac? Why God 'tests'? The ram appearing at the last moment?",
+          "tips": [
+            "'Testing' in Hebrew (nissah) means proving faith, not tempting to sin",
+            "Child sacrifice was common in Canaan but God's command shows His uniqueness",
+            "The ram 'caught in a thicket' represents God's provision that is both unexpected and sufficient"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Abraham trusted God even when it didn't make sense. What situation requires you to trust God's provision this week?",
+          "tips": [
+            "Consider an area where you're holding back from full obedience",
+            "Think about something precious you need to surrender to God",
+            "How can you practice 'rising early' in obedience like Abraham? (v. 3)"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He provides. Ask for Abraham-like faith to trust and obey even when it's costly.",
+          "tips": [
+            "Thank God for providing Jesus as the ultimate sacrifice",
+            "Pray for courage to obey in difficult circumstances",
+            "Ask God to strengthen your trust in His provision for your specific needs"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 23,
+      "chapterTitle": "Sarah's Death and Burial",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 23:1-16 aloud, paying attention to the emotional weight of Sarah's death and Abraham's resolve.",
+          "tips": [
+            "Notice the phrase 'Sarah died' (v.1) is stated with gravity and finality",
+            "Pay attention to the emotional weight of Abraham's grief (v.2) and his resolve (v.4)",
+            "The phrase '400 shekels of silver' (v.7) is a specific amount that shows the significance of the purchase"
+          ],
+          "focusVerse": "23:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Abraham, Ephron, Hittites) does WHAT (purchases a burial site), WHERE (Hebron), and WHY (to secure a burial ground for Sarah and his future family).",
+          "tips": [
+            "Include that Sarah died at age 127 in Hebron (v.1)",
+            "Note the negotiation with Ephron the Hittite (v.4-6)",
+            "Highlight the payment of 400 shekels of silver (v.7-10)"
+          ],
+          "focusVerse": "23:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Sarah's death (v.1), Abraham's insistence on the cave of Machpelah (v.6), or the payment of 400 shekels (v.7-10)?",
+          "tips": [
+            "Abraham's immediate response to Sarah's death: 'I will go to the Hittites and purchase a burial site' (v.2) shows his urgency and faith",
+            "The phrase 'the cave of Machpelah' (v.6) is a specific location that becomes the first promised land in Abraham's possession",
+            "The 400 shekels of silver (v.7) is a significant amount that demonstrates the value of the land and the seriousness of the transaction"
+          ],
+          "focusVerse": "23:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage shows that God's promises are secured through faith and action, even in the face of death and uncertainty",
+            "The purchase of the cave of Machpelah establishes the first legal possession of the Promised Land by Abraham, which the Israelites would later inherit",
+            "It demonstrates that the land God promises is not only for physical inheritance but also for spiritual and eternal purposes (Heb 11:13-16)"
+          ],
+          "focusVerse": "23:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The cultural context of burial practices, the meaning of 'cave of Machpelah', or the payment of 400 shekels?",
+          "tips": [
+            "In ancient Near Eastern culture, burial sites were often purchased to avoid being buried in the same place as the dead (v.4-5)",
+            "The term 'Machpelah' (v.6) means 'the double cave' and is a specific burial site in Hebron",
+            "The 400 shekels of silver (v.7) was a large sum, equivalent to about 1000 days of a common laborer's wage, showing the significance of the transaction"
+          ],
+          "focusVerse": "23:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of faith in God's promises for burial and inheritance. What area of your life requires you to trust God's provision for a permanent solution this week?",
+          "tips": [
+            "Consider an area where you feel you are 'buried' (e.g., unresolved issues, past mistakes) and how God's promises can provide a permanent solution",
+            "Think about what you are willing to 'pay' (with time, resources, or even your peace) to secure a place of rest and hope",
+            "How can you take a step of faith to 'purchase' a solution for your needs, just as Abraham did?"
+          ],
+          "focusVerse": "23:1-16"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the promise of a permanent home (the land) and ask for the courage to trust His provision in the midst of life's uncertainties.",
+          "tips": [
+            "Thank God for the promise of a permanent home (the land) for His people",
+            "Ask for the courage to trust God's provision in the midst of life's uncertainties",
+            "Pray for the strength to secure a place of rest and hope in your life through faith"
+          ],
+          "focusVerse": "23:1-16"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 24,
+      "chapterTitle": "A Bride for Isaac",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 24:1-20 aloud, paying attention to the servant's prayer and Rebekah's response at the well.",
+          "tips": [
+            "Notice the servant's three-fold prayer: 'O Lord God of Abraham, El Shaddai, make me to find a wife for my master's son' (v.10)",
+            "Pay attention to Rebekah's family background and her immediate willingness to go (v.15)"
+          ],
+          "focusVerse": "24:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is seeking a wife for Isaac, WHAT God provides (a wife), WHERE it takes place (in the Negev near a well), and WHY (to maintain the covenant with God's promise for Isaac).",
+          "tips": [
+            "Include the servant's journey from Abraham's home to the well in the Negev",
+            "Note Rebekah's family agreement and her immediate decision to leave",
+            "Mention Isaac meeting Rebekah in the field after she arrived"
+          ],
+          "focusVerse": "24:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the servant's prayer at the well (v.10), Rebekah's response (v.15), or her immediate decision to go (v.25).",
+          "tips": [
+            "The servant's prayer shows deep faith in God's provision for his master's son",
+            "Rebekah's response to the servant's test demonstrates her knowledge of her family and her willingness to leave immediately",
+            "Her decision to go without delay mirrors the Church's response to Christ"
+          ],
+          "focusVerse": "24:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's provision for the covenant family?",
+          "tips": [
+            "This passage shows God's active role in providing a wife for Isaac from the right lineage",
+            "It emphasizes that the covenant marriage is established through divine guidance and not human choice",
+            "The servant's faithfulness (as a picture of the Spirit) leads to the Church being gathered by God"
+          ],
+          "focusVerse": "24:1-51"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The servant's test of Rebekah, the cultural context of marriage in the Negev, and the term 'negev' (the land).",
+          "tips": [
+            "The servant's test (v.12-15) was to ensure Rebekah was from Abraham's family and not a Canaanite, which was a common practice in that time",
+            "The term 'negev' refers to the southern part of Canaan, which was the land God had promised to Abraham",
+            "The idea of a 'bride' for Isaac being chosen by the servant reflects the covenant nature of the marriage, not a random selection"
+          ],
+          "focusVerse": "24:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you seek God's guidance for a decision this week, as the servant did, with the same faithfulness and trust in God's provision?",
+          "tips": [
+            "Choose one decision where you need to trust God's provision (e.g., a relationship, career, or financial matter) and pray for clarity",
+            "Practice the servant's discipline of seeking God's guidance before making a decision",
+            "Like Rebekah, be willing to act on God's provision without delay"
+          ],
+          "focusVerse": "24:1-51"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's guidance to find a bride for your life (like Isaac) and for the willingness to go with Him (like Rebekah).",
+          "tips": [
+            "Thank God for providing a wife for Isaac (a picture of the Church for Christ)",
+            "Pray for the courage to follow God's lead in your decisions",
+            "Ask God to help you be like Rebekah and act quickly when He calls you"
+          ],
+          "focusVerse": "24:1-51"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 25,
+      "chapterTitle": "Abraham's Death; Jacob and Esau Born",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 25 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 26,
+      "chapterTitle": "Isaac and Abimelech",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 26 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 27,
+      "chapterTitle": "Jacob Steals the Blessing",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 27 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 28,
+      "chapterTitle": "Jacob's Ladder",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 28:10-22 aloud, focusing on the ladder dream (v.10-12) and Jacob's response (v.13-22).",
+          "tips": [
+            "Notice the recurring phrase 'ladder' (v.10) and the angels ascending and descending (v.12)",
+            "Pay attention to Jacob's emotional reaction when he wakes (v.13): 'He was afraid and trembling'",
+            "Listen for the significance of 'Bethel' (v.19) as 'the house of God'"
+          ],
+          "focusVerse": "28:10-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize who (Jacob), what (dreamed and woke), where (Bethel), and why (to reaffirm God's covenant and promise).",
+          "tips": [
+            "Include Jacob's dream of the ladder from earth to heaven with angels (v.10-12)",
+            "Note God's appearance and Jacob's vow to serve (v.13-22)",
+            "Mention the naming of the place Bethel (v.19)"
+          ],
+          "focusVerse": "28:10-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the ladder dream (v.10-12), God's words (v.13-14), or Jacob's vow (v.20-22).",
+          "tips": [
+            "The ladder dream represents the connection between heaven and earth, which is a powerful metaphor for God's presence",
+            "Jacob's immediate response of naming the place 'Bethel' shows his recognition of God's presence",
+            "The vow of service (v.20-22) is a concrete step of commitment in the face of God's promise"
+          ],
+          "focusVerse": "28:10-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage reaffirms the Abrahamic covenant and God's promise to Abraham (v.13-14)",
+            "For the Israelites entering the Promised Land, it shows God is present and active in their journey",
+            "The ladder image foreshadows Christ as the true ladder (John 1:51) that connects heaven and earth"
+          ],
+          "focusVerse": "28:10-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The ladder dream, the meaning of 'Bethel', or Jacob's vow?",
+          "tips": [
+            "The ladder is a metaphor for the connection between heaven and earth, which is a new concept for the Israelites",
+            "In Hebrew, 'Bethel' (bēth-el) means 'house of God', but Jacob names it after the dream (v.19) to show his recognition of God's presence",
+            "Jacob's vow of service (v.20-22) is a commitment that will be fulfilled in the future, as the Israelites are entering the Promised Land"
+          ],
+          "focusVerse": "28:10-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you set up a 'pillar' of your own by naming a place where you've experienced God's presence and making a vow to serve Him?",
+          "tips": [
+            "Identify a moment when you felt God's presence (like Jacob's dream)",
+            "Make a small vow to serve God in a specific area for the coming week (e.g., prayer, service)",
+            "Write down the place and vow to remember it as your 'Bethel'"
+          ],
+          "focusVerse": "28:10-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His presence and ask for the strength to build a 'pillar' of faith in your life.",
+          "tips": [
+            "Thank God for the presence of His Spirit in your life (like Jacob's dream)",
+            "Ask for the courage to make a vow of service to Him",
+            "Pray that Christ will be your true ladder (the way between heaven and earth)"
+          ],
+          "focusVerse": "28:10-22"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 29,
+      "chapterTitle": "Jacob Marries Leah and Rachel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 29 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 30,
+      "chapterTitle": "The Birth of Jacob's Sons",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 30:1-43 aloud, focusing on the tension between Rachel and Leah and Jacob's strategic decisions.",
+          "tips": [
+            "Notice the repeated phrase 'God has remembered Rachel' (v.23)",
+            "Pay attention to Jacob's careful planning with the animals (vv.37-43)",
+            "The emotional shift from Rachel's jealousy to God's intervention"
+          ],
+          "focusVerse": "30:1-43"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters.",
+          "tips": [
+            "Include the birth of Dan and Naphtali through Bilhah",
+            "Note the birth of Gad and Asher through Zilpah",
+            "Highlight God remembering Rachel and her birth of Joseph"
+          ],
+          "focusVerse": "30:1-43"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Rachel's pregnancy (v.19), Jacob's cunning strategy (vv.37-43), or God's promise to Rachel (v.23)?",
+          "tips": [
+            "Rachel's pregnancy is a sign of God's favor and her deep longing",
+            "Jacob's strategic use of animals shows wisdom in business and faith",
+            "The birth of Joseph as the firstborn of Rachel is significant for the tribe of Judah"
+          ],
+          "focusVerse": "30:1-43"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about the importance of God's blessing through family and strategy?",
+          "tips": [
+            "The twelve tribes are God's chosen people, and their formation is a testament to God's faithfulness",
+            "Jacob's success with Laban shows that God can work through human strategy when aligned with His will",
+            "The passage foreshadows the coming of Christ through the tribe of Judah"
+          ],
+          "focusVerse": "30:1-43"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The birth order and tribal assignments, the meaning of 'speckled and spotted' animals, or the rivalry between Rachel and Leah?",
+          "tips": [
+            "The birth order in Genesis 30 is complex; the sons are listed by their mothers to show the rivalry",
+            "'Speckled and spotted' refers to the color patterns of animals that breed more effectively for prosperity",
+            "Rachel's initial jealousy (v.1) shows the human struggle with God's timing"
+          ],
+          "focusVerse": "30:1-43"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of 'Prospering through cunning' (but in a godly way) this week? Focus on strategic planning that honors God.",
+          "tips": [
+            "Identify a situation where you can use your resources wisely to honor God",
+            "Consider how your family or community can benefit from strategic planning",
+            "Pray for wisdom to align your plans with God's purposes"
+          ],
+          "focusVerse": "30:37-43"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's blessing on your family and for the courage to trust in His timing, like Rachel.",
+          "tips": [
+            "Thank God for the promise that He remembers those who are faithful",
+            "Pray for strength to endure when things don't go as expected",
+            "Ask God to help you trust in His provision for your family"
+          ],
+          "focusVerse": "30:23"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 31,
+      "chapterTitle": "Jacob Flees from Laban",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 31:1-52 aloud, paying attention to the emotional tension in Jacob's departure and Rachel's actions.",
+          "tips": [
+            "Notice the phrase 'I have seen' appears in verses 1, 2, and 29",
+            "Pay attention to the quietness of Jacob's departure in verses 1-5",
+            "The phrase 'God is with me' (verse 29) appears twice in the chapter"
+          ],
+          "focusVerse": "31:1-52"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is moving, WHAT they are doing, WHERE they are going, and WHY they are leaving.",
+          "tips": [
+            "Include Jacob's decision to flee after hearing God's command (v.1)",
+            "Note that Rachel steals the household gods (v.18)",
+            "Mention the covenant at Mizpah (v.49-50)"
+          ],
+          "focusVerse": "31:1-52"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jacob's secret departure (v.1-5), Rachel stealing the household gods (v.18), or God's warning to Laban in the dream (v.24-25).",
+          "tips": [
+            "Jacob's quiet departure shows his trust in God despite Laban's hostility",
+            "Rachel's action of stealing the idols is a bold act of rebellion but also a way to protect her family from Laban",
+            "The dream warning is crucial because it shows God's protection for Jacob even in Laban's pursuit"
+          ],
+          "focusVerse": "31:1-29"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage shows that God's protection and covenant are active even when leaving a situation of deception and conflict",
+            "It reassures the Israelites that God will provide for them and protect their identity as a people",
+            "The covenant at Mizpah (v.49-50) is a sign of God's ongoing care for the Israelites"
+          ],
+          "focusVerse": "31:49-52"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The household gods, why Jacob fled, or the covenant at Mizpah.",
+          "tips": [
+            "Household gods (hekalot) were sacred objects in Canaanite worship, and Rachel's theft was a way to preserve her family's identity without Laban's control",
+            "Jacob's decision to flee was prompted by God's command (v.1) and Laban's hostility (v.2) which he felt was a threat to his family",
+            "The covenant at Mizpah involved a ritual where they set up a stone (v.49) and a blessing (v.50) to mark their separation and mutual protection"
+          ],
+          "focusVerse": "31:1-52"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Jacob's trust in God to flee from a difficult situation this week?",
+          "tips": [
+            "Consider a situation where you feel trapped by circumstances (like Laban's hostility) and God has a plan for you to leave",
+            "Practice being 'quiet' in your departure, like Jacob, without seeking to fight back",
+            "When you feel your 'household gods' (beliefs, relationships) are being threatened, take a step to protect them by trusting God"
+          ],
+          "focusVerse": "31:1-52"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing a way out of difficult circumstances and ask for courage to leave a hostile situation.",
+          "tips": [
+            "Thank God for providing a way out of difficult circumstances",
+            "Ask for courage to leave a situation that is hostile to your identity",
+            "Pray for God to help you keep your 'household gods' (your faith) safe when you flee"
+          ],
+          "focusVerse": "31:1-52"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 32,
+      "chapterTitle": "Jacob Wrestles with God",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 32:1-32 aloud, paying attention to the tension between Jacob's fear and his prayer in verses 27-28, and the physical struggle in verses 24-25.",
+          "tips": [
+            "Notice Jacob's desperate prayer: 'O God... I have been with you' (v.27-28)",
+            "Pay attention to the man's touch of Jacob's hip (v.25) as a physical manifestation of the struggle"
+          ],
+          "focusVerse": "32:1-32"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE and WHY (the context of Jacob's fear and the encounter with God).",
+          "tips": [
+            "Include Jacob sending messengers to Esau (v.1-3)",
+            "Note Jacob dividing his camp and praying desperately (v.27-28)",
+            "Describe the wrestling with the divine being at night until dawn (v.24-30)"
+          ],
+          "focusVerse": "32:1-32"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jacob's prayer (v.27-28), the physical struggle (v.24-25), or the new name 'Israel' (v.28)?",
+          "tips": [
+            "Jacob's prayer shows desperate faith when facing Esau's threat",
+            "The man's touch of the hip dislocating it (v.25) symbolizes the cost of transformation",
+            "The new name 'Israel' (v.28) means 'he who strives with God' and marks a new identity"
+          ],
+          "focusVerse": "32:24-32"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "True identity comes through wrestling with God, not through our own efforts",
+            "The new name 'Israel' foreshadows the people of God transformed by grace",
+            "This passage encourages embracing God's transformation even when it's painful"
+          ],
+          "focusVerse": "32:1-32"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The identity of the man, the meaning of the new name, or the significance of the hip dislocation?",
+          "tips": [
+            "The man's identity: In this context, it is God (YHWH) appearing in human form",
+            "The name 'Israel' is a new identity resulting from the struggle, not Jacob's own actions",
+            "The dislocation of the hip (v.25) represents the pain of becoming 'Israel'"
+          ],
+          "focusVerse": "32:1-32"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Jacob's wrestling with God to your life this week? Specifically, how do you 'strive' with God in prayer?",
+          "tips": [
+            "Identify a situation where you feel God is testing your faith (like Jacob's fear of Esau)",
+            "Practice a prayer of desperation like Jacob's (v.27-28) when you feel stuck",
+            "Ask God to help you embrace the cost of transformation in your life"
+          ],
+          "focusVerse": "32:27-28"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about Jacob's wrestling with God: Thank God for the new identity He gives us through Christ. Ask for the courage to wrestle with Him when things get tough.",
+          "tips": [
+            "Thank God for the new name 'Israel' which means we are transformed by His grace",
+            "Pray for the strength to let go of our own control and trust God's provision",
+            "Ask God to help you become a 'striver' in prayer when facing fear and doubt"
+          ],
+          "focusVerse": "32:28"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 33,
+      "chapterTitle": "Jacob Meets Esau",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 33:1-34 aloud, paying attention to the emotional tone of reconciliation and the specific phrases.",
+          "tips": [
+            "Notice Jacob's seven times bowing (v.3) and the weeping together (v.4)",
+            "Pay attention to Esau's initial refusal of gifts (v.5) and later acceptance (v.10)",
+            "The phrase 'El-Elohe-Israel' (v.20) is a key declaration of God's presence"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe who (Jacob and Esau) does what (reconciles after years of separation), where (in the land of Canaan), and why (to restore family ties and settle in the Promised Land).",
+          "tips": [
+            "Include Jacob's seven times bowing and the weeping",
+            "Note Esau's change of heart: initially refusing gifts but later accepting them",
+            "Mention Jacob's decision to settle at Succoth and build the altar at Shechem"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jacob's seven bows (v.3), the weeping (v.4), Esau's offer to travel (v.10), or the naming of the altar (v.20)?",
+          "tips": [
+            "Jacob's seven times bowing shows deep humility and reverence",
+            "The weeping together is a powerful moment of shared grief and reconciliation",
+            "The name 'El-Elohe-Israel' (v.20) declares God as the God of Israel, emphasizing divine presence"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage shows reconciliation with enemies is possible through divine grace",
+            "The Israelites needed to see that God can restore relationships and establish worship in the land",
+            "The altar at Shechem (El-Elohe-Israel) is a sign that God is the God of their new home"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Why does Jacob bow seven times? Why does Esau initially refuse gifts? What does 'El-Elohe-Israel' mean?",
+          "tips": [
+            "Bowing seven times was a gesture of deep respect and humility, common in ancient Near Eastern cultures",
+            "Esau's initial refusal might be due to his anger over the previous conflict, but he later accepts because of the emotional reunion",
+            "El-Elohe-Israel means 'God of Israel' (the people of God), emphasizing God's personal involvement with Jacob's family"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of reconciliation. What situation in your life requires you to reach out and reconcile with someone this week?",
+          "tips": [
+            "Think about a relationship that has been strained and how you can show humility like Jacob",
+            "Consider the importance of God's grace in reconciliation (as seen in Esau's embrace)",
+            "How can you build a place of worship in your life (like Jacob at Shechem) through community?"
+          ],
+          "focusVerse": "33:1-34"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His grace in reconciliation. Ask for courage to forgive and embrace others.",
+          "tips": [
+            "Thank God for His grace that brings reconciliation",
+            "Ask for courage to forgive and embrace others as Esau did",
+            "Pray for God to help you build a place of worship in your community"
+          ],
+          "focusVerse": "33:1-34"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 34,
+      "chapterTitle": "The Defilement of Dinah",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 34:1-31 aloud, focusing on the dialogue between Shechem and Jacob's sons in verses 15-20 and the violent response in verses 25-29.",
+          "tips": [
+            "Notice the repetition of 'circumcision' as the condition for marriage (v.15)",
+            "Pay attention to the emotional shift from Shechem's desire (v.1) to the sons' deceitful agreement (v.15) and the sudden violence (v.25)",
+            "The phrase 'they were killed' (v.25) is stark and emphasizes the consequences"
+          ],
+          "focusVerse": "34:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved (Shechem, Hamor, Jacob's sons), WHAT happens (the rape of Dinah, the negotiation, the violent response), WHERE (in the land of Canaan), and WHY (to protect the family from Canaanite influence).",
+          "tips": [
+            "Include the key event: Simeon and Levi's deception about circumcision and their violent response",
+            "Note that Jacob's sons are the ones who act, but Jacob is the one who rebukes them later",
+            "The context of the Canaanite culture and the covenant sign (circumcision) is critical"
+          ],
+          "focusVerse": "34:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Shechem's initial desire for Dinah (v.1), the sons' deceitful agreement (v.15), or the violent response (v.25-29)?",
+          "tips": [
+            "Shechem's declaration: 'I will be your son-in-law' (v.1) shows his immediate desire without hesitation",
+            "The sons' clever but dangerous plan: agreeing to circumcision as a sign of the covenant (v.15) that they later use to justify violence",
+            "The suddenness of the violence: 'they were killed' (v.25) without warning, showing the cost of their deception"
+          ],
+          "focusVerse": "34:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about the dangers of assimilation and the importance of maintaining distinct identity?",
+          "tips": [
+            "This passage warns that the Israelites must not be tempted to assimilate with the Canaanites, as seen in the misuse of the covenant sign (circumcision) by the sons",
+            "The violence shows that internal corruption (from a foreign culture) can lead to destructive actions, which is why the Israelites were to remain separate",
+            "Moses emphasizes the need for vigilance in maintaining the covenant and the identity of God's chosen people"
+          ],
+          "focusVerse": "34:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The sons' deception about circumcision, the cultural context of Canaanite practices, and the violent response of Simeon and Levi.",
+          "tips": [
+            "Circumcision was a covenant sign for the Hebrews (Genesis 17), but in this context, the Canaanites also practiced it. The sons used it as a condition for marriage, which is a sign of the covenant but ",
+            "The term 'defilement' (v.1) refers to the sexual violation, which is a severe spiritual and physical contamination",
+            "The violence in this chapter is extreme but was a response to the perceived threat of assimilation and the violation of Dinah, which was a direct attack on the family and the covenant"
+          ],
+          "focusVerse": "34:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you avoid the danger of assimilation and the misuse of covenant signs in your life? Consider the theme of maintaining distinct identity in a mixed culture.",
+          "tips": [
+            "Identify one area where you might be 'circumcised' (i.e., making a covenant) but then use it for something harmful",
+            "Ask: What would happen if I were to act like Simeon and Levi? How can I be more careful with my commitments?",
+            "This week, reflect on a time when you felt the need to protect your identity or values from being compromised"
+          ],
+          "focusVerse": "34:1-31"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the covenant that protects us from assimilation. Ask for strength to resist the temptation to compromise our identity for the sake of convenience.",
+          "tips": [
+            "Thank God for the covenant that protects us from being assimilated",
+            "Ask for strength to resist the temptation to compromise our identity for the sake of convenience",
+            "Pray that the Holy Spirit will help us recognize when we are being 'defiled' by foreign practices"
+          ],
+          "focusVerse": "34:1-31"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 35,
+      "chapterTitle": "Return to Bethel; Rachel's Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 35 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 36,
+      "chapterTitle": "Esau's Descendants",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 36:1-46 aloud, focusing on the phrase 'the land cannot support both' (v.2) and the list of Edomite kings (v.30-46).",
+          "tips": [
+            "Notice the repeated phrase 'Esau moved to Seir' (v.1) - the immediate action",
+            "Pay attention to the phrase 'the land cannot support both' (v.2) - the reason for separation",
+            "Listen for the progression of Edomite kings (v.30-46) - showing the nation's development"
+          ],
+          "focusVerse": "36:1-46"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is the focus, WHAT happens, WHERE it occurs, and WHY (the reason for the separation and the establishment of Edom).",
+          "tips": [
+            "Include that Esau moves to Seir (v.1) to avoid conflict with Jacob",
+            "Note the land being too small for two nations (v.2)",
+            "Mention the emergence of Edom as a nation with kings (v.7-46)"
+          ],
+          "focusVerse": "36:1-46"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the phrase 'the land cannot support both' (v.2), the list of Edomite kings (v.30-46), or the fact that Edom becomes a nation before Israel (v.40).",
+          "tips": [
+            "The phrase 'the land cannot support both' (v.2) shows the immediate consequence of the separation - it's not about choice but divine plan",
+            "The list of Edomite kings (v.30-46) illustrates the temporal prosperity of Edom without the covenant promise",
+            "The statement that Edom becomes a nation before Israel (v.40) highlights the contrast with Jacob's line"
+          ],
+          "focusVerse": "36:1-46"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage about the relationship between Esau's descendants and the covenant promise?",
+          "tips": [
+            "Emphasize that despite Esau's temporal prosperity, the covenant promise remains with Jacob's line (the Israelites)",
+            "Note the separation of lines as a divine plan that has been carried out (v.40)",
+            "This passage reassures the Israelites that they are the chosen line, not the Edomites"
+          ],
+          "focusVerse": "36:1-46"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The term 'Seir', the list of Edomite kings, and the phrase 'the land cannot support both'.",
+          "tips": [
+            "'Seir' refers to a specific territory in the south of Canaan that was the ancestral home of the Edomites (v.1) - it is not a modern place name",
+            "The chapter lists 21 kings of Edom (v.30-46) - this is a long list that might be confusing to follow without context",
+            "The phrase 'the land cannot support both' (v.2) is a divine statement about the land's capacity, not a human judgment"
+          ],
+          "focusVerse": "36:1-46"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the separation of lines to your life this week? Consider a situation where you have to choose between two paths (like Jacob and Esau) and which path leads to the promise.",
+          "tips": [
+            "Identify a decision where you might be tempted to follow the path of temporal prosperity (like Edom) rather than the covenant promise (like Jacob's line)",
+            "Pray for wisdom to choose the path that leads to the promised land (the covenant)",
+            "This week, seek to follow the path that is aligned with God's promise, not worldly success"
+          ],
+          "focusVerse": "36:40"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the separation of lines and the promise that remains with Jacob's line. Ask for wisdom to follow the path of the promise.",
+          "tips": [
+            "Thank God that the covenant promise remains with Jacob's line (the Israelites) despite the prosperity of Edom",
+            "Pray for the courage to choose the path of the promise over worldly success",
+            "Ask God to help you see the difference between temporal prosperity and the covenant promise"
+          ],
+          "focusVerse": "36:40"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 37,
+      "chapterTitle": "Joseph's Dreams",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 37 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 38,
+      "chapterTitle": "Judah and Tamar",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 38 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 39,
+      "chapterTitle": "Joseph in Potiphar's House",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 39:1-23 aloud, focusing on Joseph's refusal in verses 9-12 and the false accusation in verses 13-14.",
+          "tips": [
+            "Notice the repeated phrase 'I cannot' (v. 9, 12) showing Joseph's unwavering integrity",
+            "Pay attention to the contrast between Joseph's fear (v. 11) and his confidence in God (v. 3, 12)",
+            "The phrase 'I will not sin against God' (v. 9) is a powerful declaration of faith"
+          ],
+          "focusVerse": "39:1-23"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Joseph) does WHAT (refuses to sin) WHERE (in Potiphar's house) and WHY (because he fears God).",
+          "tips": [
+            "Include Joseph's appointment as overseer of Potiphar's house (v. 4)",
+            "Note Potiphar's wife's repeated advances and Joseph's refusal (v. 9-12)",
+            "Describe the false accusation and imprisonment (v. 13-23)"
+          ],
+          "focusVerse": "39:1-23"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joseph's refusal (v. 9), the false accusation (v. 13-14), or his imprisonment (v. 23)?",
+          "tips": [
+            "Joseph's declaration 'I cannot do it' (v. 9) shows immediate and consistent integrity",
+            "The wife's false accusation (v. 13-14) highlights the danger of being caught in a web of lies",
+            "Joseph's faithfulness despite the risk of imprisonment (v. 23) demonstrates God's protection"
+          ],
+          "focusVerse": "39:1-23"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "Moses shows that God's presence protects the faithful even in Egypt, where the Israelites were slaves",
+            "The passage anticipates the Israelites facing trials and false accusations in the Promised Land",
+            "Joseph's story is a model for the future leaders of Israel to remain faithful in adversity"
+          ],
+          "focusVerse": "39:1-23"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Potiphar's wife, the phrase 'I will not sin against God', and the false accusation?",
+          "tips": [
+            "Potiphar's wife represents the temptation to compromise one's integrity in a position of power",
+            "The phrase 'I will not sin against God' (v. 9) shows Joseph's awareness of God's presence in his life",
+            "False accusation in ancient Egypt was a common practice, but Joseph is innocent"
+          ],
+          "focusVerse": "39:1-23"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice integrity under temptation this week, like Joseph?",
+          "tips": [
+            "When tempted to compromise your integrity, ask: 'Will I sin against God?'",
+            "Choose one situation where you can act with integrity without fear of consequences",
+            "Pray for the strength to resist temptation when you are in a position of authority"
+          ],
+          "focusVerse": "39:1-23"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for Joseph's faithfulness and ask for the courage to be honest in your own life.",
+          "tips": [
+            "Thank God for the strength to resist temptation",
+            "Ask for wisdom to discern when to speak truth",
+            "Pray for the courage to be faithful even when falsely accused"
+          ],
+          "focusVerse": "39:1-23"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 40,
+      "chapterTitle": "Joseph Interprets Dreams",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 40 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 41,
+      "chapterTitle": "Pharaoh's Dreams; Joseph's Rise",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 41 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 42,
+      "chapterTitle": "Joseph's Brothers Come to Egypt",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Genesis 42 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 43,
+      "chapterTitle": "The Second Journey",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 43:1-34 aloud, paying attention to the dialogue between Joseph and the brothers in verses 26-34.",
+          "tips": [
+            "Notice the phrase 'I am Joseph' (v. 27) which is a declaration of identity",
+            "Pay attention to the emotional shift from fear to relief in the brothers' reactions (v. 29-30)",
+            "The repeated phrase 'my father' (v. 28, 30) shows the brothers' connection to their father"
+          ],
+          "focusVerse": "43:1-34"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Joseph and the brothers) does WHAT (sends Benjamin with gifts to Egypt; Joseph tests them with a feast), WHERE (Joseph's house in Egypt), and WHY (to show God's provision for the brothers and their loyalty to Jacob).",
+          "tips": [
+            "Include the fact that Jacob sent Benjamin with double money and gifts (v. 8)",
+            "Note that the brothers were seated in birth order (v. 29) and Benjamin received five times the food (v. 30)",
+            "Joseph's recognition of Benjamin (v. 26) was the turning point"
+          ],
+          "focusVerse": "43:1-34"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joseph's recognition of Benjamin (v. 26-27), the seating in birth order (v. 29-30), or Benjamin receiving five times the food (v. 30-31).",
+          "tips": [
+            "Joseph's immediate recognition of Benjamin (v. 26) shows his deep knowledge of the family",
+            "The brothers being seated in birth order (v. 29) is a sign of Joseph's trust and the brothers' respect for their father's order",
+            "Benjamin receiving five times the food (v. 30) is a clear sign of special favor and God's provision"
+          ],
+          "focusVerse": "43:26-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God through this passage?",
+          "tips": [
+            "This passage shows that God provides for His people in unexpected ways, even when they are in a state of fear and confusion",
+            "The feast prepared by Joseph pictures the gospel feast that God provides for those who trust Him",
+            "The special treatment of Benjamin (the youngest son) foreshadows Christ as the ultimate blessing for the church"
+          ],
+          "focusVerse": "43:1-34"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The command to send Benjamin with double money? Why does Joseph have a feast? The phrase 'five times more' for Benjamin?",
+          "tips": [
+            "The 'double money' (v. 8) refers to the extra money the brothers had to pay for the grain, but in this context, it was a sign of their submission to Joseph's authority",
+            "Joseph's feast (v. 30-31) is a test of the brothers' loyalty and their ability to trust in God's provision",
+            "The phrase 'five times more' (v. 30) is a sign of Joseph's favor, but in the context of the brothers' fear, it was a way to show that God had already provided for them"
+          ],
+          "focusVerse": "43:1-34"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you let go in faith and trust God's provision this week, like the brothers who sent Benjamin with their gifts?",
+          "tips": [
+            "Consider an area where you are holding back from trusting God's provision",
+            "Think about how you can be the 'Benjamin' in your life, receiving God's special favor",
+            "Practice being seated in the order of God's will (birth order) by following the sequence of events in your life"
+          ],
+          "focusVerse": "43:30"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His provision and ask for the courage to trust in His plan, like the brothers who were tested by Joseph.",
+          "tips": [
+            "Thank God for providing for His people in the midst of hardship",
+            "Ask for the courage to trust Joseph's leadership (like God's leadership) when you face uncertainty",
+            "Pray for the gift of special favor (like Benjamin) in your life"
+          ],
+          "focusVerse": "43:30"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 44,
+      "chapterTitle": "Judah's Plea",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 44:1-34 aloud, focusing on the emotional dialogue between Judah and Joseph in verses 22-23.",
+          "tips": [
+            "Notice the repeated phrase 'I will go' (Judah says: 'I will go' in v. 22) and 'the boy' (Benjamin) is emphasized multiple times",
+            "Pay attention to the anguish of the brothers and Judah's passionate plea for Benjamin"
+          ],
+          "focusVerse": "44:1-34"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the brothers and Joseph), WHAT (Joseph discovers the cup in Benjamin's sack and declares Benjamin will be a slave), WHERE (in Joseph's house in Egypt), and WHY (the brothers' fear for Benjamin's life).",
+          "tips": [
+            "Include the key event: Joseph discovering the cup in Benjamin's sack (v. 19-20)",
+            "Note Judah's role: he intercedes for Benjamin (v. 22-23)"
+          ],
+          "focusVerse": "44:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Judah's plea for Benjamin (v. 22-23), the emotional intensity of the brothers' anguish (v. 20-21), or the substitutionary sacrifice (v. 22).",
+          "tips": [
+            "Judah's words 'I will go instead of the boy' (v. 22) show immediate and willing sacrifice",
+            "The phrase 'the boy' (Benjamin) is used with deep emotion, showing Judah's love for his brother",
+            "This plea foreshadows Christ's substitutionary atonement"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about the importance of self-sacrifice for the vulnerable?",
+          "tips": [
+            "This passage shows that God's people must be willing to make costly sacrifices for one another",
+            "It emphasizes that true faithfulness involves intercession and self-sacrifice for the vulnerable",
+            "The passage points to Christ, the Lion of Judah, who would be the ultimate substitute"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Joseph's initial anger, the meaning of 'the boy', and the role of the steward.",
+          "tips": [
+            "Joseph's anger is a result of his past betrayal and the cup being found in Benjamin's sack",
+            "The term 'the boy' (Hebrew: 'alman') emphasizes Benjamin's youth and vulnerability",
+            "The steward discovered the cup and brought the brothers to Joseph, which is why they were in the house"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of substitutionary sacrifice: What can you do this week to be a substitute for someone else?",
+          "tips": [
+            "Think of a situation where you can take on a burden for someone else (like a friend in need)",
+            "How can you show love for a vulnerable person by taking responsibility for them?"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the example of Judah's selfless love and ask for the courage to be a substitute for others.",
+          "tips": [
+            "Thank God for the example of Judah's sacrifice",
+            "Ask for the courage to be a substitute for others in your life",
+            "Pray for the Holy Spirit to help you understand the depth of Christ's sacrifice"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 45,
+      "chapterTitle": "Joseph Reveals Himself",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 45:1-28 aloud, paying attention to Joseph's emotional revelation and the brothers' reaction.",
+          "tips": [
+            "Notice Joseph's weeping (v.1) and the brothers' terror (v.3)",
+            "Pay attention to the phrase 'I am Joseph' (v.1) and how it contrasts with the brothers' fear",
+            "Notice the repetition of 'God sent me before you to preserve life' (v.8) as the key explanation"
+          ],
+          "focusVerse": "45:1-28"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is revealed, WHAT Joseph does, WHERE it occurs, and WHY he does it (to preserve life).",
+          "tips": [
+            "Include Joseph revealing himself to his brothers (v.1-3)",
+            "Note the brothers' fear and Joseph's reassurance (v.4-5)",
+            "Describe Joseph's explanation of God's purpose (v.8) and the urgency to bring Jacob (v.11)"
+          ],
+          "focusVerse": "45:1-28"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joseph's emotional revelation (v.1), his explanation of God's purpose (v.8), or his urging to bring Jacob (v.11)?",
+          "tips": [
+            "Joseph's declaration 'I am Joseph' (v.1) - the moment of identity after 22 years of separation",
+            "The phrase 'God sent me before you to preserve life' (v.8) - the profound meaning of divine providence in suffering",
+            "Joseph's immediate action to bring Jacob (v.11) - showing his commitment to the family's restoration"
+          ],
+          "focusVerse": "45:1-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage of Joseph's revelation?",
+          "tips": [
+            "This passage reassures the Israelites that God's purpose in their past suffering (the enslavement) is for their future restoration (the Promised Land)",
+            "Joseph's story shows that God works through suffering to bring about family reconciliation and preservation of life (v.8)",
+            "The Israelites are part of God's plan from the beginning (the promise to Abraham) and this story is a sign of God's ongoing provision"
+          ],
+          "focusVerse": "45:1-28"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The timing of Joseph's revelation, the meaning of 'preserve life', or the brothers' initial terror?",
+          "tips": [
+            "The phrase 'God sent me before you to preserve life' (v.8) refers to the preservation of the entire Israelite family through the famine and the provision of food in Egypt",
+            "In the cultural context of Egypt, Joseph's revelation would have been a shock because he was the one who sold his brothers into slavery (v.1-3)",
+            "The brothers' terror (v.3) is understandable given their past actions and the power of Joseph as a ruler"
+          ],
+          "focusVerse": "45:1-28"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you take a step to restore trust and reconciliation in a family or relationship this week, inspired by Joseph's message that God preserves life through suffering?",
+          "tips": [
+            "Think about a situation where you feel God's purpose in your suffering is leading to restoration",
+            "Consider how you can act with the same urgency as Joseph to bring healing (e.g., by reaching out to someone who is hurting)",
+            "Pray for the Holy Spirit to help you see God's purpose in your current struggles"
+          ],
+          "focusVerse": "45:8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the restoration of family through Joseph's revelation and ask for courage to reveal yourself in reconciliation.",
+          "tips": [
+            "Thank God for preserving your life and family through His purpose (as Joseph did)",
+            "Pray for courage to be the 'Joseph' who reveals yourself to others in a time of conflict",
+            "Ask God to help you see His purpose in your suffering and to act in reconciliation"
+          ],
+          "focusVerse": "45:8"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 46,
+      "chapterTitle": "Jacob Moves to Egypt",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 46:1-26 aloud, focusing on the emotional weight of Jacob's response to God's promise and the reunion with Joseph.",
+          "tips": [
+            "Notice Jacob's declaration 'Here I am' (v.1) as a response to God's promise",
+            "Pay attention to the phrase 'the LORD has made me a great nation' (v.4) - God's promise of blessing",
+            "Listen to the weeping and embrace between Jacob and Joseph (v.29-30) - the emotional impact of reunion"
+          ],
+          "focusVerse": "46:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jacob and his household) does WHAT (moves to Egypt), WHERE (Goshen), and WHY (to fulfill God's promise of a great nation and temporary sojourning).",
+          "tips": [
+            "Include the divine assurance from God at Beersheba (v.2-3)",
+            "Note the reunion with Joseph (v.29-30)",
+            "Mention the instruction to tell Pharaoh they are shepherds (v.33)"
+          ],
+          "focusVerse": "46:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the list of the seventy souls (v.26), the weeping and embracing (v.29-30), or Joseph's instruction to tell Pharaoh they are shepherds (v.33)?",
+          "tips": [
+            "The 70 souls represent God's universal plan for all nations, which is a powerful reminder of God's covenant",
+            "The weeping and embracing show the depth of the relationship between father and son, and the cost of separation",
+            "Joseph's instruction to be shepherds is a strategic move to ensure their safety in Egypt without causing suspicion"
+          ],
+          "focusVerse": "46:1-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "The passage reassures the Israelites that God is with them in their temporary sojourn (Egypt) and will bring them back to the Promised Land",
+            "It emphasizes that God's plan includes all nations (the 70 souls) through Jacob's seed, showing the universal scope of God's promise",
+            "The reunion with Joseph and the instruction to be shepherds demonstrate that God's promises are being fulfilled even in the midst of foreign lands"
+          ],
+          "focusVerse": "46:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The temporary sojourning in Egypt, the significance of the 70 souls, or the instruction to tell Pharaoh they are shepherds?",
+          "tips": [
+            "The phrase 'great nation in Egypt' (v.4) is temporary sojourning, not permanent settlement (the Israelites were in Egypt for generations before returning to the Promised Land)",
+            "The number 70 (v.26) corresponds to the 70 nations in Genesis 10, showing God's plan for all peoples through Jacob's seed",
+            "Telling Pharaoh they are shepherds (v.33) is a strategic move to avoid suspicion and to have a safe place in Egypt (Goshen) without being seen as a threat"
+          ],
+          "focusVerse": "46:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "The passage shows that God's people are in temporary sojourning but with a divine promise. What situation requires you to trust God's provision this week, evenⵉ when it's temporary?",
+          "tips": [
+            "Identify one area where you are in a temporary situation (like in Egypt) and pray for God's guidance to move in the direction He has for you",
+            "Practice being a 'shepherd' in your current circumstances by being humble, trusting, and seeking God's provision for your needs"
+          ],
+          "focusVerse": "46:33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promises and ask for courage to trust Him in temporary circumstances.",
+          "tips": [
+            "Thank God for His promise that He will make Jacob a great nation (v.4) even in temporary sojourning",
+            "Pray for courage to trust God in your current temporary situation (like in Egypt)",
+            "Ask God to help you be part of the 70 souls that represent His universal plan for all nations"
+          ],
+          "focusVerse": "46:1-26"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 47,
+      "chapterTitle": "Israel Settles in Egypt",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 47:1-26 aloud, paying attention to the emotional shift from Jacob's blessing of Pharaoh to the urgency of the famine.",
+          "tips": [
+            "Notice the phrase 'your father and your brothers' (v.1) which shows Joseph's leadership role",
+            "Pay attention to the emotional tone in Jacob's blessing of Pharaoh (v.3) and his final request for burial in Canaan (v.29-30)"
+          ],
+          "focusVerse": "47:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jacob, Joseph, Pharaoh, and the Israelites) does WHAT (Joseph presents family to Pharaoh, Jacob is given Goshen, Joseph collects money, livestock, and land), WHERE (Egypt), and WHY (to survive the famine and secure the future for Israel).",
+          "tips": [
+            "Include the event of Jacob's blessing of Pharaoh (v.3)",
+            "Note Joseph's collection of money, then livestock, then land (v.14-16)"
+          ],
+          "focusVerse": "47:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jacob's blessing of Pharaoh (v.3), the establishment of the one-fifth law (v.16), or Jacob's final request for burial in Canaan (v.29-30).",
+          "tips": [
+            "Jacob's blessing of Pharaoh (v.3) shows a reversal of roles: Pharaoh becomes a blessing from Jacob",
+            "The one-fifth law (v.16) is a practical solution that ensures both Pharaoh's needs and the people's survival",
+            "Jacob's insistence on burial in Canaan (v.29-30) expresses faith in God's promise despite being in Egypt"
+          ],
+          "focusVerse": "47:1-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage shows that God's provision in Egypt was for the long-term good of the Israelites, even in a crisis",
+            "The hope of Canaan (the Promised Land) is secured through Joseph's leadership and God's promise"
+          ],
+          "focusVerse": "47:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The one-fifth law (v.16)? Why Joseph collects land (v.14-16)? Why Jacob insists on burial in Canaan (v.29-30)?",
+          "tips": [
+            "The one-fifth law (v.16) might seem harsh but it's a practical measure to ensure the land remains productive for future generations",
+            "The concept of 'collecting land' (v.14-16) is a cultural shift from the typical land ownership in Egypt, showing Joseph's wisdom",
+            "Jacob's request for burial in Canaan (v.29-30) is challenging because it's a physical act of faith in a land that is not yet promised in the current context"
+          ],
+          "focusVerse": "47:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does this passage's theme of 'Hope beyond Egypt' (divine provision in crisis) apply to your life this week?",
+          "tips": [
+            "When facing a crisis, trust God's provision even when it seems temporary",
+            "Identify a place where you need to have hope beyond your current situation"
+          ],
+          "focusVerse": "47:1-26"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing in the midst of famine, ask for courage to trust His provision, and pray for hope beyond Egypt.",
+          "tips": [
+            "Thank God for providing for us in the midst of famine",
+            "Pray for courage to trust God's provision when it's hard to see",
+            "Ask God to help us remember that our ultimate hope is in Canaan (the Promised Land)"
+          ],
+          "focusVerse": "47:1-26"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 48,
+      "chapterTitle": "Jacob Blesses Ephraim and Manasseh",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 48:1-22 aloud, paying attention to the tension in Jacob's hands and the emotional response of Joseph.",
+          "tips": [
+            "Notice the phrase 'I have made you' (v10) which shows Jacob's confidence in God's plan",
+            "Pay attention to Jacob's crossing of hands (v10) and Joseph's protest (v12-13)",
+            "Listen for the phrase 'Ephraim will be greater than Manasseh' (v13)"
+          ],
+          "focusVerse": "48:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it takes place, WHEN it happens, and WHY Jacob does it.",
+          "tips": [
+            "Include the three main characters: Jacob, Joseph, and Ephraim/Manasseh",
+            "Note that Jacob is old and about to die (v1)",
+            "The blessing happens in the field (v1) as Jacob prepares to die"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jacob's crossing of hands (v10), his declaration about Ephraim being greater (v13), or the final blessing statement (v22).",
+          "tips": [
+            "Jacob's crossing of hands shows God's sovereignty in choosing the younger son for blessing",
+            "The phrase 'Ephraim will be greater than Manasseh' (v13) is a bold statement that defies natural order",
+            "The final declaration: 'In you, Israel will pronounce blessings' (v22) points to the future identity of the nation"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land about God's sovereign choice through this blessing?",
+          "tips": [
+            "This passage reassures the Israelites that God's promises are fulfilled in the future through His sovereign choice",
+            "The blessing of the younger son (Ephraim) foreshadows the Church (the 'younger' branch) being the greater in the future kingdom",
+            "Moses emphasizes that God's plan for Israel is not based on natural order but on His will"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Why does Jacob cross his hands? What does 'double portion' mean? What does 'Israel' refer to in v22?",
+          "tips": [
+            "In ancient Israel, the hand blessing was a sign of the elder son receiving the blessing. Jacob's crossing of hands shows God's sovereignty overriding natural order",
+            "The 'double portion' is a special blessing that would have been given to the tribal leader (like the high priest), but here it's for Ephraim (the younger son)"
+          ],
+          "focusVerse": "48:10-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you trust God's sovereign choice in your life, even when it seems to defy natural order?",
+          "tips": [
+            "This week, identify a situation where you are the 'younger' or less favored (e.g., in a team, family, or faith journey) and pray for God to give you the confidence to trust His plan",
+            "Consider how God might be calling you to be the 'Ephraim' in your life (the one who will be greater in the future)",
+            "Practice 'crossing your hands' in your heart by trusting God's choice over your own expectations"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His sovereign choice in blessing the younger son, and ask for courage to trust His plan in your life.",
+          "tips": [
+            "Thank God for choosing you (the younger) in His plan",
+            "Ask for the strength to trust God's blessing even when it seems counterintuitive",
+            "Pray that God will use you to be the 'Ephraim' in your community"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 49,
+      "chapterTitle": "Jacob Blesses His Sons",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 49:1-33 aloud, paying attention to the phrases that describe each son's blessing and the burial command.",
+          "tips": [
+            "Notice the phrase 'the scepter shall not depart from Judah' (v.10) - a key messianic promise",
+            "Pay attention to the emotional tone in Judah's blessing: 'the obedience of the peoples' (v.10) suggests hope for a future ruler who brings order",
+            "Note the contrast between Reuben (v.3-4) and Judah (v.10) - Reuben's sin causes him to lose the firstborn status"
+          ],
+          "focusVerse": "49:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe who (Jacob) gives prophetic blessings to his twelve sons, what (the blessings that anticipate each tribe's future), where (in the land of Canaan), and why (to prepare the Israelites for the Promised Land).",
+          "tips": [
+            "Include Reuben's sin leading to loss of preeminence (v.3-4)",
+            "Note Simeon and Levi's scattering due to violence (v.23-24)",
+            "Highlight Judah's blessing as the key to the messianic line (v.10)"
+          ],
+          "focusVerse": "49:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider Judah's blessing (v.10), Joseph's blessing (v.22-26), or the burial command (v.29-33)?",
+          "tips": [
+            "Judah's blessing: 'the scepter shall not depart from Judah until Shiloh comes' (v.10) - the most messianic and forward-looking",
+            "Joseph's blessing: 'the blessing of the house of Judah' (v.22) - shows the importance of the tribe of Judah",
+            "The burial command: Jacob instructs to be buried in Machpelah (v.29-33) - a powerful symbol of continuity with the patriarchs"
+          ],
+          "focusVerse": "49:1-33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "This passage sets the future for the tribes, emphasizing Judah's preeminence as the line of the Messiah",
+            "It reminds the Israelites of the consequences of sin (Reuben, Simeon, Levi) and the hope for the future (Judah)",
+            "The burial in Machpelah (v.29-33) shows the continuity of the covenant and the promise to Abraham"
+          ],
+          "focusVerse": "49:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The messianic prophecy in Judah (v.10)? Why Judah is the scepter? The burial command in Machpelah?",
+          "tips": [
+            "The phrase 'the obedience of the peoples' (v.10) might be hard to interpret - it refers to the nations being obedient to the Messiah",
+            "The scattering of Simeon and Levi (v.23-24) is a warning about the consequences of violence, which the Israelites might have forgotten",
+            "The burial in Machpelah (v.29-33) is a specific location that might be confusing because it's not in the Promised Land but in Hebron"
+          ],
+          "focusVerse": "49:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to a specific theme from this passage: the consequences of sin or hope for the future. What can you do this week?",
+          "tips": [
+            "Reflect on how your actions might cause others to lose preeminence in their lives (like Reuben)",
+            "Pray for the hope that comes from Judah's blessing - that God will bring order and peace in your life",
+            "Consider the burial command: How can you leave a legacy that is in line with God's promises?"
+          ],
+          "focusVerse": "49:1-33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the theme of Judah's preeminence and hope for the future.",
+          "tips": [
+            "Thank God for the promise that the Messiah will come from Judah",
+            "Pray for courage to trust in God's timing (like Judah's blessing)",
+            "Ask God to help you avoid the sins that lead to scattering (like Simeon and Levi)"
+          ],
+          "focusVerse": "49:1-33"
+        }
+      ]
+    },
+    {
+      "bookId": "genesis",
+      "bookName": "Genesis",
+      "chapter": 50,
+      "chapterTitle": "Jacob's Burial; Joseph's Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Genesis 50:1-26 aloud, paying attention to Joseph's emotional response and the brothers' fear in verses 18-20.",
+          "tips": [
+            "Notice the repeated phrase 'you meant evil against me, but God meant it for good' (v. 19)",
+            "Pay attention to Joseph's weeping and reassurance (v. 18-20)",
+            "The phrase 'the bones of Joseph' (v. 25) emphasizes the promise to carry his remains"
+          ],
+          "focusVerse": "50:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Joseph and his brothers), WHAT (mourn, embalm, carry Jacob to Canaan for burial), WHERE (in Egypt, then to Canaan), and WHY (to fulfill Jacob's request and reconcile with brothers).",
+          "tips": [
+            "Include Joseph's mourning and embalming of Jacob (v. 2-3)",
+            "Note the brothers' fear and Joseph's reassurance (v. 18-20)",
+            "Describe the promise to carry Joseph's bones to Canaan (v. 25)"
+          ],
+          "focusVerse": "50:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Joseph's reassurance (v. 19), the brothers' fear (v. 18), or the promise to carry Joseph's bones (v. 25).",
+          "tips": [
+            "Joseph's words 'You meant evil against me, but God meant it for good' (v. 19) - it's a profound summary of God's providence",
+            "The brothers' fear turning to hope after Joseph's reassurance (v. 18-20) - shows reconciliation",
+            "The promise to carry Joseph's bones to Canaan (v. 25) - ties the promise of land to future generations"
+          ],
+          "focusVerse": "50:1-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites entering the Promised Land through this passage?",
+          "tips": [
+            "Reassure the Israelites that God's plan for them (the Promised Land) is secure, even though they faced past conflicts with Joseph",
+            "Show that God turns human evil into good (as in the brothers' actions) for the greater good of the future",
+            "Emphasize that the promise to Abraham will be fulfilled through Joseph's descendants"
+          ],
+          "focusVerse": "50:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'God meant it for good', why Joseph had to go to Canaan for burial, and the significance of carrying bones to Canaan.",
+          "tips": [
+            "'You meant evil against me, but God meant it for good' (v. 19) - God uses human actions (even evil) for His purposes",
+            "The burial at Machpelah (Canaan) is significant because it was the land promised to Abraham (Gen 15:18-21), so Joseph's body will be buried there",
+            "The promise to carry Joseph's bones to Canaan (v. 25) is a sign that the Israelites will inherit the land"
+          ],
+          "focusVerse": "50:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice the hope that God turns evil into good in your current situation this week?",
+          "tips": [
+            "Identify a recent situation where you felt like you were in a place of evil (e.g., conflict, failure) and pray for God's provision",
+            "Make a promise to someone (like a family member) to be a blessing as God works in their life",
+            "Write down one specific way you can trust God's provision this week, just like Joseph trusted God for his brothers"
+          ],
+          "focusVerse": "50:1-26"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for turning evil into good and ask for courage to trust His provision.",
+          "tips": [
+            "Thank God for turning the brothers' evil intentions into Joseph's blessing",
+            "Pray for courage to trust God's provision when you feel like you are in a difficult situation",
+            "Ask God to help you carry the 'bones' of your faith (your life) to the Promised Land"
+          ],
+          "focusVerse": "50:1-26"
+        }
+      ]
+    }
+  ]
+}

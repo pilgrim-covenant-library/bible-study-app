@@ -1,0 +1,1747 @@
+{
+  "bookId": "1-kings",
+  "bookName": "1 Kings",
+  "totalChapters": 22,
+  "chapters": [
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 1,
+      "chapterTitle": "Adonijah's Attempted Coup; Solomon Made King",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 1:1-46 aloud, paying attention to the contrast between Adonijah's presumption and David's feebleness.",
+          "tips": [
+            "Notice the phrase 'Adonijah exalted himself' (v. 1) showing his impatience for power",
+            "Pay attention to the repeated phrase 'David had never crossed him' (v. 1) indicating David's lack of authority",
+            "Listen for the emotional shift when Nathan alerts Bathsheba (v. 10)"
+          ],
+          "focusVerse": "1 Kings 1:1-46"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters.",
+          "tips": [
+            "Include Adonijah's plot to seize the kingdom (v. 1-2)",
+            "Note the location of the feast at En-rogel (v. 1) and the anointing at Gihon (v. 39-40)",
+            "Highlight Nathan and Bathsheba's intervention to protect Solomon"
+          ],
+          "focusVerse": "1 Kings 1:1-46"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Adonijah's gathering of forces (v. 1-2), Nathan's alert to Bathsheba (v. 10), or Solomon's anointing (v. 39-40).",
+          "tips": [
+            "Adonijah's gathering of chariots and horsemen shows his presumption and impatience for power",
+            "Nathan's quick action to prevent a civil war demonstrates God's providence in the household",
+            "Solomon's anointing with the people's shout for peace (v. 40) is a powerful image of God's provision for unity"
+          ],
+          "focusVerse": "1 Kings 1:1-46"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (or editors) trying to communicate to exilic Israel through this passage?",
+          "tips": [
+            "The passage shows that God's chosen king (Solomon) is established by divine promise, not human ambition",
+            "It emphasizes the importance of faithful servants (like Nathan) to intervene when the king is weak and the kingdom is at risk",
+            "This provides hope that God's peace (Solomon's name) can be established even in a time of crisis"
+          ],
+          "focusVerse": "1 Kings 1:1-46"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Consider the cultural context of succession, the meaning of 'sanctuary', or the role of Nathan and Bathsheba.",
+          "tips": [
+            "In ancient Israel, succession was typically by the eldest son, but David's feebleness created a crisis",
+            "The 'sanctuary' (v. 28) refers to the temple's altar, where a person could seek refuge from judgment (a common practice)",
+            "Nathan and Bathsheba were chosen by God to act quickly because they were close to David and had the authority to intervene"
+          ],
+          "focusVerse": "1 Kings 1:1-46"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Reflect on how David's feebleness or Adonijah's presumption applies to your life this week.",
+          "tips": [
+            "When you feel your leadership is weak, seek wise counsel like Nathan and Bathsheba did",
+            "Ask if you are acting without wisdom (like Adonijah) in a situation where you need patience and trust",
+            "Practically, set aside time this week to listen to others and avoid impulsive actions"
+          ],
+          "focusVerse": "1 Kings 1:1-46"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the peaceful succession of Solomon and ask for wisdom in leadership.",
+          "tips": [
+            "Thank God for the anointing of Solomon, who brought peace to Israel",
+            "Ask for courage to be patient and wise in your leadership roles",
+            "Pray that God will use you to prevent a civil war in your community"
+          ],
+          "focusVerse": "1 Kings 1:1-46"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 2,
+      "chapterTitle": "David's Final Charge; Solomon Secures the Kingdom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 3,
+      "chapterTitle": "Solomon's Request for Wisdom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 3:1-28 aloud, paying attention to Solomon's humble request in verses 5-6 and the dramatic judgment in verses 16-28.",
+          "tips": [
+            "Notice the phrase 'I am like a little child' (v. 9) - shows Solomon's humility",
+            "Pay attention to the contrast between what Solomon asked (wisdom) and what God gave (riches and honor, v. 12)",
+            "The dramatic moment of the judgment: 'cut the living child in half' (v. 16-17) is critical"
+          ],
+          "focusVerse": "3:1-28"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Solomon) does WHAT (requests wisdom and demonstrates it) WHERE (in Jerusalem, at Gibeon's high place) and WHY (to govern the people justly).",
+          "tips": [
+            "Include the dream at Gibeon (v. 5-10)",
+            "Note the two prostitutes' case (v. 16-28)",
+            "Highlight God's response: wisdom, riches, and honor (v. 12)"
+          ],
+          "focusVerse": "3:1-28"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Solomon's humble request (v. 9-10), God's immediate response (v. 12), or the judgment scene (v. 16-28).",
+          "tips": [
+            "Solomon's humility: 'I am like a little child' (v. 9) - shows he doesn't assume he knows how to rule",
+            "The divine wisdom in the judgment: cutting the child in half but the true mother giving up her claim (v. 17-18) - demonstrates impartial justice",
+            "God's promise: 'if you walk in My ways, I will lengthen your days' (v. 17) - a reminder of the cost of obedience"
+          ],
+          "focusVerse": "3:1-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the editors trying to communicate to exilic Israel through Solomon's request for wisdom?",
+          "tips": [
+            "Exilic Israel needed a leader who would govern justly after the exile - Solomon's example shows that wisdom comes from God, not human effort",
+            "The passage emphasizes that true leadership requires humility and a heart that seeks God, not worldly power",
+            "This was a response to the current exilic situation: Israel had been exiled and needed a renewed understanding of God's sovereignty"
+          ],
+          "focusVerse": "3:1-28"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The dream at Gibeon, the request for wisdom, or the judgment scene?",
+          "tips": [
+            "Why did Solomon ask for wisdom? He was already a king (v. 1) but the context shows he was 'like a little child' - indicating his need for divine guidance",
+            "The phrase 'I don't know how to go out or come in' (v. 9) might seem odd for a king - but it shows his humility",
+            "The judgment scene: cutting the child in half - this was a shocking act, but Solomon's response (v. 17) shows he was acting in the best interest of the child"
+          ],
+          "focusVerse": "3:1-28"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Solomon's request for wisdom in your life this week?",
+          "tips": [
+            "In a situation where you feel overwhelmed, ask God for wisdom to discern what is right (like Solomon)",
+            "When facing a tough decision, pause and seek God's guidance instead of relying on your own judgment",
+            "Practice humility: acknowledge that you don't have all the answers, as Solomon did"
+          ],
+          "focusVerse": "3:1-28"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for wisdom and ask for the courage to be humble and obedient.",
+          "tips": [
+            "Thank God for the gift of wisdom in your life",
+            "Ask for the courage to be like Solomon: humble and willing to admit you don't know",
+            "Pray for the wisdom to make just decisions when others are in need"
+          ],
+          "focusVerse": "3:1-28"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 4,
+      "chapterTitle": "Solomon's Administration and Prosperity",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 4:1-34 aloud, paying attention to the list of officials and the phrase 'from the Euphrates to the border of Egypt'.",
+          "tips": [
+            "Notice the repetition of 'Solomon' and the list of 12 officials (azariah, elihoreph, etc.)",
+            "Pay attention to the phrase 'Judah and Israel are as many as sand by the sea' as a powerful image of abundance",
+            "Notice the specific daily provisions: 30 cors of flour, 60 cors of meal, etc."
+          ],
+          "focusVerse": "1 Kings 4:1-34"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Solomon) is responsible for what (administering the kingdom), WHERE (the entire territory from the Euphrates to Egypt), and WHY (to bring prosperity and peace for the kingdom).",
+          "tips": [
+            "Include the 12 governors who each supply one month's provisions",
+            "Note the daily provisions: 30 cors of flour, 60 cors of meal, 10 fat oxen, etc.",
+            "Mention the peace on all sides and the vast population (as many as sand by the sea)"
+          ],
+          "focusVerse": "1 Kings 4:1-34"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the list of officials (v.2-5), the daily provisions (v.22-26), or Solomon's wisdom (v.29-34)?",
+          "tips": [
+            "The list of officials shows the meticulous organization of the kingdom, which was a sign of God's blessing",
+            "The daily provisions (30 cors of flour, 60 cors of meal) is a concrete example of divine abundance",
+            "Solomon's wisdom (3,000 proverbs and 1,005 songs) is a testament to God's gift of wisdom"
+          ],
+          "focusVerse": "1 Kings 4:1-34"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What were the editors trying to communicate to exilic Israel through this passage about Solomon's administration?",
+          "tips": [
+            "The editors wanted exilic Israel to see that God's blessing on Solomon's rule (a period of peace and prosperity) was a foretaste of the future kingdom under Christ",
+            "They emphasized that God's provision and order (like the administration) were signs of His covenant faithfulness, which would be restored in the coming of the Messiah"
+          ],
+          "focusVerse": "1 Kings 4:1-34"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of the 12 governors, the meaning of 'cors' (a measure of grain), and the concept of 'peace on all sides' in a time of regional conflict?",
+          "tips": [
+            "'Cors' (a Hebrew measure) is about 1/20 of a bushel, but in the context of the kingdom, it's a symbol of abundance (not a precise modern measure)",
+            "The phrase 'peace on all sides' (v.27) was unusual for the region (which was often at war with neighbors) and shows that Solomon's rule was an extraordinary peace due to God's blessing",
+            "The list of officials (v.2-5) might be confusing because it's long, but it's meant to show the completeness of the administration and the kingdom's organization"
+          ],
+          "focusVerse": "1 Kings 4:1-34"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Solomon's administration to your life? Specifically, how can you be organized and responsible in your daily provisions (work, finances, relationships) to bring abundance and peace?",
+          "tips": [
+            "Plan your weekly finances to avoid shortages and build security (like the 12 governors providing monthly provisions)",
+            "Practice being a steward of resources (time, money, talents) by being efficient and responsible",
+            "Ask God for wisdom to manage your relationships and work in a way that brings peace to your community"
+          ],
+          "focusVerse": "1 Kings 4:1-34"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about Solomon's kingdom of peace and prosperity.",
+          "tips": [
+            "Thank God for His provision and peace in your life",
+            "Ask for wisdom to be a good steward of resources and relationships",
+            "Pray for the unity and peace that Solomon had, as a sign of God's kingdom"
+          ],
+          "focusVerse": "1 Kings 4:1-34"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 5,
+      "chapterTitle": "Preparations for the Temple",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 5:1-21 aloud, paying attention to the dialogue between Solomon and Hiram in verses 1-12.",
+          "tips": [
+            "Notice the phrase 'blessed be the LORD' in verse 13",
+            "Pay attention to the repeated phrase 'I will pay whatever wages you set' in verse 4",
+            "The emotional tone of Hiram's joy in verses 12-13"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO (Solomon and Hiram) does WHAT (builds the temple and supplies materials), WHERE (Lebanon for cedar, Israel for construction), and WHY (to fulfill God's promise to David).",
+          "tips": [
+            "Include the treaty with Hiram",
+            "Note the annual payment of 20,000 cors of wheat and 20 cors of pure oil",
+            "Mention the massive labor force of 30,000 laborers"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the dialogue about David's promise (v. 1-12), the massive labor force (v. 13-16), or the foundation stones (v. 17-21).",
+          "tips": [
+            "The phrase 'David couldn't build a house for the LORD' shows the fulfillment of the promise",
+            "The number of laborers (30,000) and stonecutters (80,000) is immense but shows God's provision",
+            "The foundation stones being 'great and costly' symbolize the permanence of God's temple"
+          ],
+          "focusVerse": "5:1-12"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Jeremiah/editors) trying to communicate to exilic Israel through this passage about the preparations for the temple?",
+          "tips": [
+            "The temple as a symbol of God's covenant with Israel and the restoration of Israel",
+            "The importance of international alliances for God's kingdom",
+            "The temple built by human effort but under God's promise"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The labor numbers, the meaning of 'cors', or the concept of 'foundation stones'?",
+          "tips": [
+            "'Cors' is an ancient measure of grain (about 1000 liters) - 20,000 cors is a huge amount",
+            "The 30,000 laborers and 80,000 stonecutters were conscripted from Israel - how did they manage without causing rebellion?",
+            "The 'foundation stones' are the first stones laid for the temple, but in the spiritual sense, Christ is the foundation"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of the alliance with Hiram (foreign cooperation) to build God's kingdom in your life this week?",
+          "tips": [
+            "Think about a person or group you can collaborate with for a ministry project",
+            "Consider how you can 'pay whatever wages' for the work of others",
+            "Pray for the strength to be like Adoniram, the supervisor of the labor"
+          ],
+          "focusVerse": "5:1-21"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the temple as a symbol of God's church built on Christ.",
+          "tips": [
+            "Thank God for providing the resources (like Hiram) to build His church",
+            "Ask for the courage to be a 'foundation stone' in the church",
+            "Pray for the Holy Spirit to guide the construction of the church"
+          ],
+          "focusVerse": "5:1-21"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 6,
+      "chapterTitle": "Building the Temple",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 6:1-38 aloud, paying attention to the description of the silent construction and the LORD's promise to Solomon.",
+          "tips": [
+            "Notice the phrase 'no hammer, axe, or iron tool is heard' (v. 7)",
+            "Pay attention to the repeated use of 'cubits' to understand the temple's scale",
+            "Listen for the LORD's words about walking in His statutes (v. 11)"
+          ],
+          "focusVerse": "1 Kings 6:1-38"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Solomon and builders) is doing WHAT (building the temple) WHERE (in Jerusalem) and WHY (to house the LORD's presence as a covenant fulfillment).",
+          "tips": [
+            "Include the seven-year timeline (v. 38)",
+            "Note the silent construction (v. 7)",
+            "Describe the inner sanctuary (20x20x20 cubits) and cherubim (v. 21)"
+          ],
+          "focusVerse": "1 Kings 6:1-38"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the silent construction (v. 7), the inner sanctuary (v. 20-21), or the cherubim (v. 21).",
+          "tips": [
+            "The silent construction shows God's involvement without human noise, like Christ building His church",
+            "The inner sanctuary being 20 cubits cubed symbolizes the pure and perfect dwelling place of God",
+            "The cherubim made of olive wood (common material) but 10 cubits tall shows both holiness and accessibility"
+          ],
+          "focusVerse": "1 Kings 6:20-21"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What were the editors of 1 Kings trying to communicate to exilic Israel through Solomon's temple building?",
+          "tips": [
+            "The temple was built퓬 480 years after Exodus, reminding exiles of God's faithfulness through generations",
+            "The silent construction shows God's work is done without human effort but through the Word and Spirit",
+            "The promise that if they obey, God will dwell among them (v. 11) addresses exiles' need for God's presence"
+          ],
+          "focusVerse": "1 Kings 6:10-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The use of cubits, the silent construction, and the inner sanctuary's dimensions?",
+          "tips": [
+            "Cubits were about 1.5 feet, so the temple's 60 cubits long (90 feet) was massive for its time",
+            "The 'silent construction' (v. 7) means no tools were heard during building, but stones were prepared at quarry",
+            "The inner sanctuary being 20 cubits cubed (20x20x20) is a cube of pure gold, representing God's holiness and perfection"
+          ],
+          "focusVerse": "1 Kings 6:7, 20-21"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice the 'silent construction' in your spiritual life this week?",
+          "tips": [
+            "Let God work in your life without the noise of your own efforts",
+            "Practice quiet obedience by trusting God's provision without constant need for control",
+            "Set aside time this week to be still and listen to God's voice"
+          ],
+          "focusVerse": "1 Kings 6:7"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for His quiet work in building His church and for His promise to dwell among us if we obey.",
+          "tips": [
+            "Thank God for the temple built without noise (like Christ building His church)",
+            "Ask for courage to be still and trust God in difficult circumstances",
+            "Pray for the Holy Spirit to guide the church in quiet obedience"
+          ],
+          "focusVerse": "1 Kings 6:11"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 7,
+      "chapterTitle": "Solomon's Palace and Temple Furnishings",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 7 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 8,
+      "chapterTitle": "The Ark Brought In; Solomon's Dedication Prayer",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 8:1-64 aloud, focusing on the movement of the ark and the cloud filling the temple, and Solomon's dedication prayer.",
+          "tips": [
+            "Notice the phrase 'the cloud fills the house' (v.11) - the glory of the LORD fills the temple",
+            "Pay attention to Solomon's prayer in verses 22-53 - it's the heart of the passage",
+            "Note the two stone tablets from Horeb (v.6) - they are the only things in the Most Holy Place"
+          ],
+          "focusVerse": "1 Kings 8:1-64"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Solomon and priests) is doing WHAT (bringing the ark and praying) WHERE (the temple) and WHY (to establish God's dwelling and ensure His presence among His people).",
+          "tips": [
+            "Include the priests carrying the ark into the Most Holy Place (v.6)",
+            "Note the cloud filling the house (v.11) - God's presence is tangible",
+            "Describe Solomon's prayer for the people in all circumstances (v.22-53)"
+          ],
+          "focusVerse": "1 Kings 8:1-64"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the cloud filling the temple (v.11), Solomon's plea for God to dwell on earth (v.22), or the inclusion of foreigners in prayer (v.42-43)?",
+          "tips": [
+            "The cloud filling the temple (v.11) shows God's active presence - no human effort needed",
+            "Solomon's declaration that God 'will dwell in thick darkness' (v.22) - a powerful image of God's intimacy",
+            "The inclusion of foreigners in prayer (v.42-43) - a radical welcome that points to Christ's universal church"
+          ],
+          "focusVerse": "1 Kings 8:1-64"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the editors trying to communicate to exilic Israel through this passage?",
+          "tips": [
+            "After the exile, Israel needed to see God's presence in their midst and His covenant promises",
+            "The passage reassures that God's dwelling is with His people and He will hear their prayers in all circumstances",
+            "It foreshadows the universal nature of God's kingdom (foreigners welcome) - a hope for exiles"
+          ],
+          "focusVerse": "1 Kings 8:1-64"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The cloud filling the temple? Why God 'dwells in thick darkness'? The inclusion of foreigners in prayer?",
+          "tips": [
+            "The 'cloud' in this context is not a physical cloud but the visible manifestation of God's presence (Hebrew: 'ruach' or 'kavod')",
+            "'Dwells in thick darkness' (v.22) refers to God's invisible nature - He is beyond human comprehension, yet present",
+            "The inclusion of foreigners in prayer (v.42-43) is unusual for the time - it points to God's universal love, but in the exilic context, this was a radical promise"
+          ],
+          "focusVerse": "1 Kings 8:1-64"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you be a place of prayer for others this week, as Solomon did for foreigners?",
+          "tips": [
+            "Think about someone from a different cultural background who is struggling",
+            "Pray for them to feel the presence of God in their lives, just as Solomon prayed for the people in all circumstances",
+            "Offer hospitality to someone from another nation this week"
+          ],
+          "focusVerse": "1 Kings 8:1-64"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's presence in your home and for the inclusion of others in His prayers.",
+          "tips": [
+            "Thank God for dwelling in your heart (v.22)",
+            "Pray that He will open your heart to welcome others as He did in the temple",
+            "Ask for the courage to pray for the lost and the broken, as Solomon did"
+          ],
+          "focusVerse": "1 Kings 8:1-64"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 9,
+      "chapterTitle": "God's Covenant with Solomon; Solomon's Other Activities",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 9 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 10,
+      "chapterTitle": "The Queen of Sheba Visits",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 10 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 11,
+      "chapterTitle": "Solomon's Apostasy; Adversaries Raised",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 11:1-13 aloud, paying attention to the emotional tone of Solomon's heart turning and the LORD's declaration of judgment.",
+          "tips": [
+            "Notice the repetition of '700 wives' and '300 concubines' (v.3) showing the scale of idolatry",
+            "Pay attention to the phrase 'his wives turn his heart after other gods' (v.7) and the LORD's anger (v.10)",
+            "Note the specific adversaries: Hadad (v.12), Rezon (v.12), and Jeroboam (v.12)"
+          ],
+          "focusVerse": "11:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO is affected, WHAT happens, WHERE it occurs, WHEN it happens, and WHY it matters.",
+          "tips": [
+            "Include Solomon's marriage to 700 wives and 300 concubines (v.3) as the cause",
+            "Note Solomon building high places for Chemosh and Molech (v.10)",
+            "Mention the consequence: the LORD tearing the kingdom and giving ten tribes to Jeroboam (v.11-12)"
+          ],
+          "focusVerse": "11:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out to you? Choose from: Solomon's heart turning, the LORD's declaration of tearing the kingdom, or the specific adversaries.",
+          "tips": [
+            "Solomon's heart turning (v.7-8) illustrates the danger of idolatry in leadership",
+            "The LORD's declaration: 'I will tear the kingdom from you' (v.11) shows divine justice",
+            "Jeroboam receiving ten tribes (v.12) as the direct consequence of Solomon's apostasy"
+          ],
+          "focusVerse": "11:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the editors of 1 Kings trying to communicate to exilic Israel about God's faithfulness and consequences of idolatry?",
+          "tips": [
+            "Exilic Israel had just experienced Babylonian captivity; this passage warns against idolatry",
+            "The theme of divine judgment on idolatry (Solomon's case) is a caution for exiles who might return to idolatry",
+            "The promise of God's faithfulness to David's line (one tribe for David's sake) shows God's covenant promises"
+          ],
+          "focusVerse": "11:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Identify and explain one challenge in understanding this passage.",
+          "tips": [
+            "Why did God take the kingdom from Solomon? The passage states Solomon's apostasy (idolatry) is the cause (v.10-11)",
+            "Who are Hadad, Rezon, and Jeroboam? Hadad was an Edomite who escaped David's massacre; Rezon became king of Damascus; Jeroboam was Solomon's servant who became king of Israel",
+            "Why give ten tribes to Jeroboam? This becomes the northern kingdom (Israel) and the southern kingdom (Judah) remains with Solomon's son"
+          ],
+          "focusVerse": "11:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does Solomon's story apply to your life? Specifically, how do you guard your heart from idolatry in the modern world?",
+          "tips": [
+            "Consider what 'foreign women' (in your life) might be leading you away from God (e.g., cultural pressures, false beliefs)",
+            "Pray for the strength to resist idolatry (v.7-8) and to keep your heart focused on God",
+            "This week, identify one area where you might be 'turning your heart' and commit to seeking God's guidance"
+          ],
+          "focusVerse": "11:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about Solomon's apostasy and the warning to exilic Israel.",
+          "tips": [
+            "Thank God for His faithfulness to David's line despite Solomon's failure",
+            "Ask for the strength to resist idolatry in your life and relationships",
+            "Pray for the church to avoid the same mistakes as Solomon: turning away from God and following false gods"
+          ],
+          "focusVerse": "11:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 12,
+      "chapterTitle": "The Kingdom Divided",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 12 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 13,
+      "chapterTitle": "The Man of God from Judah",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 13:1-24 aloud, focusing on the man of God's prophecy against the altar in verses 3-4 and the withered hand event in verses 9-10.",
+          "tips": [
+            "Notice the repetition of 'Josiah' (v3) as the key future prophecy",
+            "Pay attention to the phrase 'withered hand' (v9) showing immediate divine consequence",
+            "Listen for the man of God's refusal to eat (v11) as a sign of obedience"
+          ],
+          "focusVerse": "1 Kings 13:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO the man of God is, WHAT he prophesies, WHERE it occurs, and WHY he gives the sign of the torn altar.",
+          "tips": [
+            "Include the man of God's origin from Judah",
+            "Note the altar at Bethel as the target of the prophecy",
+            "Describe the torn altar and poured ashes as the sign"
+          ],
+          "focusVerse": "1 Kings 13:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the prophecy about Josiah (v3), the withered hand (v9), or the old prophet's deception (v13-14).",
+          "tips": [
+            "The prophecy about Josiah (v3) is a specific future event that was fulfilled 300 years later",
+            "The withered hand (v9) shows God's power and immediate consequences of disobedience",
+            "The old prophet's deception (v13-14) reveals the danger of false promises and spiritual deception"
+          ],
+          "focusVerse": "1 Kings 13:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What were the editors trying to communicate to exilic Israel about God's faithfulness and the consequences of idolatry?",
+          "tips": [
+            "This passage shows God's word never fails (as the Josiah prophecy was fulfilled 300 years later)",
+            "It warns against false prophets and the importance of obedience to God's commands",
+            "The theme of divine judgment on Bethel (idolatry) serves as a caution for exilic Israel"
+          ],
+          "focusVerse": "1 Kings 13:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The prophecy about Josiah, the withered hand, or the old prophet's deception?",
+          "tips": [
+            "The prophecy about Josiah (v3) refers to a specific future event that was fulfilled in 2 Kings 23:29-30",
+            "The withered hand (v9) is a sign of God's power but also shows the immediate consequence of Jeroboam's disobedience",
+            "The old prophet's deception (v13-14) is a false promise that leads to the man of God's death"
+          ],
+          "focusVerse": "1 Kings 13:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "The man of God refused to eat and drink as God commanded. What situation requires you to trust God's provision this week instead of your own desires?",
+          "tips": [
+            "Consider an area where you're tempted to take shortcuts or ignore God's commands",
+            "Think about how the man of God's obedience to God's word (refusing to eat) was a sign of his trust",
+            "Practice setting aside your own desires and trusting God's timing"
+          ],
+          "focusVerse": "1 Kings 13:11-12"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His promises that never fail and ask for discernment to avoid false prophets.",
+          "tips": [
+            "Thank God for His faithfulness as seen in the Josiah prophecy",
+            "Pray for courage to obey God's commands even when it's difficult",
+            "Ask God to help you recognize false prophets in your life"
+          ],
+          "focusVerse": "1 Kings 13:24"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 14,
+      "chapterTitle": "Ahijah's Prophecy; Jeroboam and Rehoboam Die",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 14:1-22 aloud, focusing on the dialogue between Jeroboam's wife and Ahijah (verses 1-11) and the prophecy in verses 12-14.",
+          "tips": [
+            "Notice Ahijah's blindness but spiritual clarity (v. 2)",
+            "Pay attention to the emotional tension in Jeroboam's wife's response (v. 4-5)",
+            "Notice the specific prophecy about the child dying (v. 13)"
+          ],
+          "focusVerse": "1 Kings 14:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is affected, WHAT happens, WHERE it occurs, and WHY it matters in 1 Kings 14.",
+          "tips": [
+            "Jeroboam's wife goes to the blind prophet Ahijah at Shiloh",
+            "The LORD prophesies the death of Jeroboam's son and the end of the northern kingdom",
+            "Rehoboam's death and the attack on Jerusalem by Shishak"
+          ],
+          "focusVerse": "1 Kings 14:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Ahijah's blindness but spiritual sight (v. 2), the prophecy about the one son mourned (v. 13), or the Shishak attack on Jerusalem (v. 22).",
+          "tips": [
+            "Ahijah's blindness is a powerful contrast to his spiritual clarity",
+            "The fact that only one son of Jeroboam is mourned because he was good (v. 13) is deeply moving",
+            "The Shishak attack shows the immediate consequences of idolatry in Judah"
+          ],
+          "focusVerse": "1 Kings 14:1-14"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author (Jeremiah/editors) trying to communicate to exilic Israel about God's judgment on idolatry and the consequences of turning away from Him?",
+          "tips": [
+            "The exiles were in Babylon and had to remember the consequences of the northern kingdom's idolatry and the southern kingdom's failure",
+            "This passage shows that God's judgment is inevitable for those who worship idols",
+            "The blind prophet seeing clearly foreshadows Christ who brings spiritual sight"
+          ],
+          "focusVerse": "1 Kings 14:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this chapter are challenging to understand? (Choose 2-3)",
+          "tips": [
+            "Asherim: These were Canaanite fertility idols (stone or wooden) that were placed in the fields and at the gates of cities, often associated with the worship of the Canaanite gods (v. 22)",
+            "Why did God cut off every male in Jeroboam's house? (v. 14) - This was a divine judgment that would result in the complete destruction of the northern kingdom's line",
+            "The timing of Shishak's attack: It happened during Rehoboam's reign (v. 22) but the chapter says Rehoboam dies and then Shishak attacks, so the attack was a consequence of the idolatry in Judah"
+          ],
+          "focusVerse": "1 Kings 14:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you be the one good person in your family or community when others are going astray, as the only son mourned in Jeroboam's house?",
+          "tips": [
+            "Identify one person in your life who needs to be encouraged to follow God",
+            "Make sure you are not the one who is going astray in your own life",
+            "Pray for the one person who is the 'good one' in your life to be remembered and mourned by others"
+          ],
+          "focusVerse": "1 Kings 14:13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the theme of spiritual sight and the consequences of idolatry. Ask God to help you see the truth and to be the one good person in your community.",
+          "tips": [
+            "Thank God for the blind prophet who saw clearly (like Christ)",
+            "Pray that the one person you love will be the good one in their community",
+            "Ask God to remove the idols in your life and help you see Him"
+          ],
+          "focusVerse": "1 Kings 14:1-22"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 15,
+      "chapterTitle": "Kings of Judah and Israel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 15:1-32 aloud, paying attention to the contrast between Abijam's sin and Asa's reforms, and Baasha's destruction of Jeroboam's house.",
+          "tips": [
+            "Notice the phrase 'for David's sake' in verse 12",
+            "Pay attention to Asa's removal of idols and the Asherah in verse 13",
+            "Note the prophecy about Baasha destroying Jeroboam's house in verse 24"
+          ],
+          "focusVerse": "1 Kings 15:1-32"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT they do, WHERE it happens, and WHY it matters in 1 Kings 15.",
+          "tips": [
+            "Abijam's short reign (3 years) and his failure to follow God",
+            "Asa's 41-year reign of doing what is right and his reforms in Jerusalem",
+            "Baasha's murder of Nadab and his 24-year reign doing evil"
+          ],
+          "focusVerse": "1 Kings 15:1-32"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Asa's removal of the Asherah (v.13), the lamp for David's sake (v.12), or Baasha's destruction of Jeroboam's house (v.24)?",
+          "tips": [
+            "Asa's removal of his grandmother Maacah because she made an Asherah shows deep commitment to God",
+            "The lamp for David's sake (v.12) is a powerful promise that God's light will endure",
+            "Baasha's destruction of Jeroboam's house fulfills the prophecy and shows God's judgment"
+          ],
+          "focusVerse": "1 Kings 15:1-32"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to exilic Israel about God's faithfulness and the consequences of worshiping idols?",
+          "tips": [
+            "The lamp for David's sake (v.12) reassures that God's covenant with David will last",
+            "Asa's reforms show that true kingship comes from obedience to God",
+            "The destruction of Jeroboam's house (v.24) illustrates God's judgment on idolatry"
+          ],
+          "focusVerse": "1 Kings 15:1-32"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of the lamp, the significance of the Asherah, or the prophetic fulfillment?",
+          "tips": [
+            "The 'lamp in Jerusalem' (v.12) is a metaphor for God's presence and covenant, not a physical lamp",
+            "An Asherah is a pole or tree associated with Canaanite idolatry; its removal shows the rejection of false worship",
+            "The prophecy that Baasha would destroy Jeroboam's house (v.24) is a fulfillment of what the prophet said earlier"
+          ],
+          "focusVerse": "1 Kings 15:1-32"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Asa's commitment to removing idolatry in your life this week?",
+          "tips": [
+            "Identify one idol in your life that needs to be removed, like negative habits or relationships",
+            "Spend time in prayer to seek God's guidance for your decisions",
+            "Commit to taking one step toward obedience, like removing a small idol"
+          ],
+          "focusVerse": "1 Kings 15:1-32"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's lamp to shine in your life and for the removal of idols in your heart.",
+          "tips": [
+            "Ask God to give you the heart of Asa to remove idols from your life",
+            "Pray for the strength to trust God's provision as the lamp for David's sake",
+            "Ask for courage to follow God's commands even when it's difficult"
+          ],
+          "focusVerse": "1 Kings 15:1-32"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 16,
+      "chapterTitle": "Israel's Kings: Baasha to Omri",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 16 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 17,
+      "chapterTitle": "Elijah: The Drought; Zarephath",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 17:1-22 aloud, focusing on the declaration of drought (v.1) and the widow's response (v.21-22).",
+          "tips": [
+            "Notice the repetition of 'the LORD' in verses 1, 3, 4",
+            "Pay attention to the emotional shift from Elijah's declaration of drought to the widow's faithfulness (v.21)"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Elijah, Ahab, the widow, the boy) does WHAT (proclaims drought, provides for Elijah, shares flour and oil, raises the boy) WHERE (east of Jordan, Zarephath) and WHY (to demonstrate God's provision and faithfulness during drought).",
+          "tips": [
+            "Elijah's declaration of drought (v.1) leads to God sending him to the brook Cherith",
+            "The widow's faithfulness in sharing her last flour and oil (v.16) and the boy's resurrection (v.22)"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Elijah's declaration of drought (v.1), the widow's obedience (v.16), or the boy's resurrection (v.22)?",
+          "tips": [
+            "The widow's trust in Elijah's word: 'Don't fear' (v.16) despite having only a handful of flour and oil",
+            "The miraculous provision of flour and oil not running out (v.16) until rain comes",
+            "The boy's resurrection as a sign of God's power (v.22)"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the editors trying to communicate to exilic Israel through this passage?",
+          "tips": [
+            "This passage shows God's provision for the faithful even in the midst of drought",
+            "It emphasizes that God's grace extends beyond Israel to the Gentiles (Sidon)",
+            "The story reassures exiles that God is still active and will provide for those who trust Him"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The drought, the widow's faith, the boy's death and resurrection?",
+          "tips": [
+            "The term 'drought' (v.1) in the context of the exilic period: it represents spiritual and physical dryness",
+            "The cultural context of a widow in Sidon: the widow's faithfulness is a model for exiles facing scarcity",
+            "The resurrection of the boy: how does this fit with the exilic context of the dead?"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's provision in your life this week?",
+          "tips": [
+            "Identify a situation where you have only a small amount of resources (like the widow's flour and oil) and trust God to provide",
+            "Pray for God to fill your heart with faith so that you don't run out of provisions"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about God's provision in your life and the widow's faith",
+          "tips": [
+            "Thank God for providing for you even when you have little",
+            "Pray for courage to trust God with your resources",
+            "Ask God to help you share your resources with others as the widow did"
+          ],
+          "focusVerse": "17:1-22"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 18,
+      "chapterTitle": "Elijah on Mount Carmel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading the passage aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 19,
+      "chapterTitle": "Elijah Flees to Horeb",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 19 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 20,
+      "chapterTitle": "Ben-hadad Attacks Israel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 20:1-25 aloud, focusing on the dialogue between Ahab and Ben-hadad in verses 10-11 and the prophet's declaration in verse 22.",
+          "tips": [
+            "Notice the phrase 'let not one who puts on armor boast like one who takes it off' (v. 11) - it's a powerful statement of humility",
+            "Pay attention to the contrast between Ben-hadad's threats (v. 10) and Ahab's response (v. 11)",
+            "The phrase 'I give it into your hand' (v. 22) by the prophet is a strong declaration of God's sovereignty"
+          ],
+          "focusVerse": "1 Kings 20:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO (Ahab, Ben-hadad, the prophet, Israel's elders) does WHAT (complies with demands, issues threats, advises refusal, fights), WHERE (Samaria), and WHY (to avoid God's judgment or to secure peace) for exilic Israel.",
+          "tips": [
+            "Include Ben-hadad's siege of Samaria (v.1-2)",
+            "Note Ahab's initial compliance and the prophet's warning (v.11-22)",
+            "Describe the two victories: the initial battle (v.23-24) and the aftermath (v.25)"
+          ],
+          "focusVerse": "1 Kings 20:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the prophet's declaration (v.22), the battle outcome (v.24), or the covenant and release (v.25).",
+          "tips": [
+            "The prophet's declaration: 'Today I give it into your hand' (v.22) shows God's direct involvement in the battle",
+            "The massive defeat of 100,000 Syrian foot soldiers in one day (v.24) is a dramatic illustration of God's power",
+            "The covenant of release (v.25) shows Ahab's willingness to make a deal with the enemy, but the prophet's warning about the cost (v.25) is profound"
+          ],
+          "focusVerse": "1 Kings 20:22-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the editors trying to communicate to exilic Israel through this passage about God's sovereignty and the consequences of premature treaties?",
+          "tips": [
+            "The passage emphasizes that God's sovereignty extends beyond mountains to plains (contrasting with the Syrian belief that Israel's gods are mountain gods) - this is a reminder that God rules all terri",
+            "The two victories (the initial battle and the subsequent defeat of 100,000) show God's power in the midst of a crisis",
+            "The passage warns against premature treaties (like Ahab's release of Ben-hadad) because it can lead to the destruction of the people"
+          ],
+          "focusVerse": "1 Kings 20:20-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging to understand? The two battles, the role of the prophet, and the covenant.",
+          "tips": [
+            "The phrase 'Syrian advisers say: Israel's gods are mountain gods' (v. 19) reflects a cultural misunderstanding of Israel's God - they thought God was limited to mountains, but the passage shows He rul",
+            "The term 'the LORD is a god of hills not valleys' (v. 20) is a specific claim by the Syrian advisers, but the prophet counters that God rules both",
+            "The concept of 'life for life' (v. 25) is a legal principle that Ahab initially applied to the prisoner, but the prophet reveals it as a divine principle of the covenant"
+          ],
+          "focusVerse": "1 Kings 20:19-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply this passage to your life as exilic Israel? Consider the theme of God's sovereignty over all territories and the cost of premature treaties.",
+          "tips": [
+            "This week, consider if you've made a premature agreement that might lead to a costly consequence (like a treaty with a powerful enemy) without fully understanding the divine implications",
+            "Pray for wisdom to recognize when God's sovereignty is being tested in your decisions, especially in matters of trust and treaties",
+            "Practice being a 'prophet' in your life by declaring God's sovereignty over your circumstances"
+          ],
+          "focusVerse": "1 Kings :20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about God's sovereignty extending beyond mountains to plains and the cost of premature treaties.",
+          "tips": [
+            "Thank God that He rules both plains and mountains - He has no limits",
+            "Pray for courage to make treaties with others without compromising the covenant with Him",
+            "Ask God to help you avoid the mistake of Ahab who released the prisoner without understanding the consequences"
+          ],
+          "focusVerse": "1 Kings 20:20"
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 21,
+      "chapterTitle": "Naboth's Vineyard",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading 1 Kings 21 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "1-kings",
+      "bookName": "1 Kings",
+      "chapter": 22,
+      "chapterTitle": "Micaiah Prophesies Ahab's Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read 1 Kings 22:1-40 aloud, focusing on the tension between Ahab's confidence and Micaiah's warning.",
+          "tips": [
+            "Notice the repetition of 'the LORD' in Micaiah's prophecy (v.22)",
+            "Pay attention to the phrase 'scattered like sheep without a shepherd' (v.22)",
+            "Listen for the contrast in the battle description (v.30-32)"
+          ],
+          "focusVerse": "22:1-40"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize who, what, where, and why in the story of Micaiah's prophecy and Ahab's death.",
+          "tips": [
+            "Include the 400 prophets who urged Ahab to go to battle",
+            "Note Micaiah's warning that Ahab would die",
+            "Describe Ahab's death by a random arrow"
+          ],
+          "focusVerse": "22:1-40"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part of the chapter stood out to you? Consider Micaiah's prophecy (v.22), Ahab's death (v.32), or the lying spirit (v.23).",
+          "tips": [
+            "Micaiah's image of 'Israel scattered like sheep without a shepherd' (v.22) shows God's judgment on Israel",
+            "Ahab's death by a random arrow (v.32) demonstrates God's sovereignty in the outcome",
+            "The lying spirit's role (v.23) highlights the danger of false prophecy"
+          ],
+          "focusVerse": "22:22-23,32"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to exilic Israel about the consequences of false prophecy and the importance of God's truth?",
+          "tips": [
+            "Exilic Israel was in a time of spiritual confusion and needed to hear that God's word is true",
+            "The story shows that even kings can be deceived by false prophets",
+            "God's judgment comes on those who ignore His prophets"
+          ],
+          "focusVerse": "22:1-40"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this chapter are confusing? The lying spirit? Why did Ahab die by a random arrow? How does the disguise fit?",
+          "tips": [
+            "The 'lying spirit' (v.23) is a supernatural element that allows false prophecy without the prophet being a false one (i.e., the spirit is sent to deceive)",
+            "The random arrow (v.32) is not a chosen method but shows God's will in the outcome",
+            "Ahab's disguise (v.31) was to avoid being killed by the enemy but he died anyway, showing God's control"
+          ],
+          "focusVerse": "22:23,31-32"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Micaiah's warning about false prophets to your life this week?",
+          "tips": [
+            "Check your sources of truth: Are you following false prophets or God's word?",
+            "Pray for the courage to speak truth when it's hard",
+            "Seek God's guidance before making big decisions"
+          ],
+          "focusVerse": "22:22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the strength to hear God's voice and to avoid false prophets.",
+          "tips": [
+            "Ask God to give you the discernment to recognize false prophets",
+            "Pray for the courage to obey God's word even when it's hard",
+            "Thank God that He uses His own will to judge those who reject Him"
+          ],
+          "focusVerse": "22:32"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2232 @@
+{
+  "bookId": "matthew",
+  "bookName": "Matthew",
+  "totalChapters": 28,
+  "chapters": [
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 1,
+      "chapterTitle": "The Genealogy and Birth of Jesus Christ",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 1:1-25 aloud, focusing on the genealogy and birth narrative",
+          "tips": [
+            "Notice the repeated phrase 'the son of' (e.g., 'son of David', 'son of Abraham')",
+            "Pay attention to the emotional tension in Joseph's decision to divorce Mary quietly (v.19) and the angel's reassurance (v.20-21)",
+            "The phrase 'Immanuel' (v.23) is a key Hebrew term meaning 'God with us'"
+          ],
+          "focusVerse": "1:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO is traced in the genealogy, WHAT happens at the birth of Jesus, WHERE and WHY this birth is significant for Jewish believers",
+          "tips": [
+            "Include the genealogy from Abraham to Joseph (v.1-17)",
+            "Note the virgin birth (v.18-25) and the angel's message to Joseph (v.20-21)",
+            "Highlight the fulfillment of the prophecy (v.22-23) that the virgin will conceive and bear a son named Immanuel"
+          ],
+          "focusVerse": "1:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the genealogy (v.1-17), the virgin birth (v.18-20), or the angel's message (v.20-21)?",
+          "tips": [
+            "The angel's message to Joseph: 'do not fear to take Mary as your wife' (v.20) shows God's direct intervention in a Jewish context",
+            "The name 'Jesus' (v.21) meaning 'God saves' ties the birth to the salvation of God's people",
+            "The phrase 'Immanuel' (v.23) resonates because it emphasizes God's presence in the midst of humanity"
+          ],
+          "focusVerse": "1:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Jesus through this genealogy and birth story?",
+          "tips": [
+            "Matthew is establishing Jesus as the fulfillment of the Jewish promises (son of David and Abraham)",
+            "He emphasizes the virgin birth to show Jesus' divine origin and the fulfillment of Old Testament prophecies",
+            "The theme of Immanuel (God with us) addresses the Jewish expectation of a Messiah who would be present among them"
+          ],
+          "focusVerse": "1:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The genealogy's length? The virgin birth? Why Joseph is the legal father but not the biological one?",
+          "tips": [
+            "The genealogy in Matthew 1:1-17 is a condensed version of the Jewish lineage to show Jesus' connection to David and Abraham; note the jumps (e.g., from Abraham to Isaac, then to Jacob, etc.)",
+            "The virgin birth (v.18-25) is a theological concept that Jesus was conceived by the Holy Spirit, which challenges cultural expectations of lineage",
+            "Joseph's role as the legal father (v.18-25) is a Jewish practice of naming the child after the husband, but the biological father is the Holy Spirit"
+          ],
+          "focusVerse": "1:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the theme of Immanuel (God with us) apply to your life this week?",
+          "tips": [
+            "Consider a situation where you feel distant from God (like in a time of stress or uncertainty)",
+            "Pray for God's presence in your daily life, just as Immanuel was present in the birth of Jesus",
+            "Ask God to help you trust in His provision, as Joseph did when he was told by the angel"
+          ],
+          "focusVerse": "1:23"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's presence (Immanuel) in your life and for faith to trust the virgin birth of Jesus.",
+          "tips": [
+            "Thank God that He is with us (Immanuel) even when we don't see Him",
+            "Pray for courage to trust in God's plan, as Joseph did",
+            "Ask God to help you understand the divine nature of Jesus, the Son of God"
+          ],
+          "focusVerse": "1:23"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 2,
+      "chapterTitle": "The Visit of the Magi and Flight to Egypt",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 3,
+      "chapterTitle": "John the Baptist and the Baptism of Jesus",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 3 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 4,
+      "chapterTitle": "The Temptation and Beginning of Ministry",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 4:1-16 aloud, focusing on the dialogue between Jesus and the devil in verses 1-11 and the beginning of ministry in verses 12-16.",
+          "tips": [
+            "Notice the repetition of 'It is written' (three times) in Jesus' responses to the devil's temptations",
+            "Pay attention to the phrase 'for the kingdom of heaven is at hand' (v.17) as a key declaration"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus) is tested, WHAT (the devil's three temptations), WHERE (the wilderness), and WHY (to prove obedience to God's Word and to begin His ministry).",
+          "tips": [
+            "Include the three specific temptations and Jesus' responses with Scripture",
+            "Note that after the temptation, angels minister to Him (v.11) and then He begins preaching (v.17)"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' response to the first temptation (v.4), the second temptation (v.6), the third temptation (v.10), or the beginning of ministry (v.17).",
+          "tips": [
+            "The phrase 'Man shall not live by bread alone' (v.4) shows Jesus' focus on spiritual sustenance over physical hunger",
+            "The declaration 'the kingdom of heaven is at hand' (v.17) is a call to immediate repentance and response",
+            "Jesus' final response to the devil: 'Be gone, Satan!' (v.10) demonstrates His authority over the devil"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Jesus' identity and mission?",
+          "tips": [
+            "Matthew wrote for Jewish believers to show that Jesus fulfills the Old Testament promises and defeats the devil with Scripture",
+            "The kingdom of heaven is now present through Jesus, and Jewish believers are called to follow Him (the call to discipleship)"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The 40-day fast, the devil's three temptations, and the phrase 'kingdom of heaven'?",
+          "tips": [
+            "The 40-day fast was a period of testing and purification (like Moses in Exodus) but Jesus' fasting was to prepare for His public ministry",
+            "The devil's temptations exploit Jewish beliefs: turning stones to bread (physical need), the temple (holy place), and kingdoms of the world (political power)",
+            "The phrase 'kingdom of heaven' (Greek: basileia tes ouranou) refers to a spiritual kingdom that is now present through Jesus, not a political one"
+          ],
+          "focusVerse": "4:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, identify one area where you are tempted to seek immediate physical or worldly satisfaction (like the devil's first temptation) and choose to trust God's provision through Scripture.",
+          "tips": [
+            "Practice daily Scripture reading (e.g., Matthew 4:4, 6, 10) to resist temptation",
+            "When faced with a situation that feels like the devil's temptation, pray for God's provision and trust in His Word"
+          ],
+          "focusVerse": "4:17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about Jesus' victory over temptation and the call to follow Him.",
+          "tips": [
+            "Thank God for Jesus' victory over the devil (so we don't have to face the same temptations)",
+            "Ask for strength to resist the devil's temptations in daily life",
+            "Pray for the courage to follow Jesus and to share the gospel (as He calls disciples to be 'fishers of men')"
+          ],
+          "focusVerse": "4:17"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 5,
+      "chapterTitle": "The Sermon on the Mount: Beatitudes and the Law",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 5:1-20 aloud, paying attention to the flow from the Beatitudes to the salt and light metaphors and the fulfillment of the Law.",
+          "tips": [
+            "Notice the repetition of 'blessed are' in verses 3-10",
+            "Pay attention to the contrast between the Law and the new righteousness in verses 17-20",
+            "Listen for the emotional shift from the Beatitudes to the call for heart righteousness"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus) is teaching, WHAT (the Beatitudes and the nature of true righteousness), WHERE (on a mountain in front of the crowds), and WHY (to reveal the kingdom of heaven through heart righteousness).",
+          "tips": [
+            "Include the threefold movement: blessing the poor, the meek, and the persecuted",
+            "Note the contrast between external righteousness (scribes and Pharisees) and internal righteousness",
+            "Describe the salt and light metaphors as practical expressions of the kingdom"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the Beatitudes (v.3-10), the salt and light (v.13-14), or the call for heart righteousness (v.20)?",
+          "tips": [
+            "The Beatitudes: 'Blessed are the poor in spirit' (v.3) challenges the worldly view of wealth and status",
+            "The salt and light metaphor (v.13-14) shows how believers are to influence the world without being corrupted",
+            "The statement about 'righteousness exceeding the scribes and Pharisees' (v.20) reveals the depth of heart transformation needed"
+          ],
+          "focusVerse": "5:3-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about the nature of righteousness and the fulfillment of the Law?",
+          "tips": [
+            "Matthew emphasizes that the Kingdom of Heaven is accessed through heart righteousness, not ritual observance",
+            "The Law is fulfilled by Christ's teaching, not abolished (v.17-20) - meaning the Law remains binding but now interpreted through Christ",
+            "This passage shows that true righteousness comes from the heart (like Christ's) rather than external compliance"
+          ],
+          "focusVerse": "5:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The 'fulfillment' of the Law, the requirement for heart righteousness, or the severity of anger?",
+          "tips": [
+            "The term 'fulfill' (v.17) means Christ satisfies the Law's demands through his life and death, so the Law remains valid but now with a new understanding",
+            "'Exceeding the scribes and Pharisees' (v.20) means having a righteousness that comes from the heart (like Christ's) rather than external rituals",
+            "Anger (v.21-22) is a sin because it shows a lack of love and control, which can lead to murder"
+          ],
+          "focusVerse": "5:17-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you live with heart righteousness this week? Focus on one area where you need to let go of external compliance to embrace true righteousness.",
+          "tips": [
+            "Choose a situation where you are angry with someone and practice being meek (v.3-4)",
+            "Ask God to help you see your righteousness in terms of heart, not just actions",
+            "Pray for the grace to be 'poor in spirit' (v.3) when you feel proud"
+          ],
+          "focusVerse": "5:20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the grace to live as salt and light in the world, embodying the heart righteousness of Christ.",
+          "tips": [
+            "Thank God for the Beatitudes and the promise of the kingdom",
+            "Ask for the strength to be meek and humble when you are angry",
+            "Pray for the guidance to live righteously from the heart, not just the external"
+          ],
+          "focusVerse": "5:1-20"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 6,
+      "chapterTitle": "The Sermon: Piety, Prayer, and Treasure",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 6 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 7,
+      "chapterTitle": "The Sermon: Judging, Asking, and Building",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 7:1-28 aloud, focusing on the contrast between the speck and log (v.3-5), the threefold command (v.7-8), and the rock foundation (v.24-27).",
+          "tips": [
+            "Notice the repetition of 'do not judge' (v.1)",
+            "Pay attention to the contrast in v.3-5: 'Why do you see the speck... but do not notice the log.'",
+            "Notice the threefold command in v.7-8: 'Ask, seek, knock'"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus) does WHAT (teaches), WHERE (in the temple or public space), and WHY (to avoid self-judgment and build on Christ).",
+          "tips": [
+            "Include the parable of the speck and log (v.3-5)",
+            "Note the threefold command: 'Ask, seek, knock' (v.7-8)",
+            "Describe the narrow gate and rock foundation (v.24-27)"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the speck/log contrast (v.3-5), the threefold command (v.7-8), or the rock foundation (v.24-27).",
+          "tips": [
+            "The speck/log contrast is a powerful metaphor for self-centeredness and the need for humility",
+            "The threefold command shows God's responsiveness to the believer's need in practical ways",
+            "The rock foundation represents Christ as the only secure foundation for life"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers through this passage?",
+          "tips": [
+            "Matthew wrote for Jewish believers to show that Jesus' teachings (the Sermon on the Mount) are the fulfillment of the Law and Prophets",
+            "The main point is that true discipleship requires humility, active faith (asking, seeking, knocking), and building on Christ (the rock) rather than on self",
+            "This passage addresses the Jewish context of self-righteousness and the need for Christ as the only foundation"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The speck/log contrast, the narrow gate, or the rock foundation?",
+          "tips": [
+            "The speck/log contrast: This is a metaphor for self-righteousness and the tendency to criticize others without self-examination",
+            "The narrow gate: In Jewish context, gates were common metaphors for access to God; the 'narrow' implies the difficulty of true discipleship",
+            "The rock foundation: This points to Christ as the only foundation (as in 1 Corinthians 3:11), which may be challenging because it requires a radical shift from self-reliance"
+          ],
+          "focusVerse": "7:1-28"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, practice one of the threefold commands (ask, seek, knock) in an area where you need God's help.",
+          "tips": [
+            "Identify a specific area where you might be the 'log' (self-centered) and seek to remove it",
+            "Pray for the courage to ask God for help in a situation that feels difficult",
+            "Practice being humble by noticing the 'speck' in your own life before criticizing others"
+          ],
+          "focusVerse": "7:7-8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the power of asking, seeking, and knocking. Ask for humility to see the log in your own life and the courage to build on Christ.",
+          "tips": [
+            "Thank God for providing the answer to your prayers",
+            "Pray for the humility to recognize your own sin (the log) and the need for Christ",
+            "Ask God to help you build your life on the rock (Christ) rather than on self"
+          ],
+          "focusVerse": "7:24-27"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 8,
+      "chapterTitle": "Miracles of Healing and Authority",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 8:1-27 aloud, paying attention to the dialogue between Jesus and the leper (v.1-3), the centurion's request (v.4-13), and the storm scene (v.23-27).",
+          "tips": [
+            "Notice the phrase 'I will; be clean' (v.3) - Jesus' immediate authority without condition",
+            "Pay attention to the centurion's humility: 'I am not worthy to have you come under my roof' (v.8)",
+            "The emotional shift in the storm: 'Why are you afraid, O you of little faith?' (v.26)"
+          ],
+          "focusVerse": "8:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize who Jesus healed, where it happened, and why He did it (using the 5W+H framework).",
+          "tips": [
+            "Include the leper's cleansing (v.1-3) and the centurion's servant (v.4-13)",
+            "Note the storm scene (v.23-27) as a demonstration of authority",
+            "Mention the fulfillment of Isaiah 53:4 (v.17)"
+          ],
+          "focusVerse": "8:1-27"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the leper's humility (v.1), the centurion's faith (v.8), or Jesus' calming of the storm (v.23-27)?",
+          "tips": [
+            "The leper's request shows complete trust in Jesus' power (v.1)",
+            "The centurion's faith is rare in Israel (v.8) - he doesn't need Jesus to come, just a word",
+            "The storm scene demonstrates Jesus' authority over nature (v.23-27)"
+          ],
+          "focusVerse": "8:1-27"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Jesus' identity and authority through these miracles?",
+          "tips": [
+            "Matthew emphasizes Jesus' authority as the fulfillment of Isaiah 53:4 (v.17)",
+            "The centurion's faith (v.8) shows that even non-Jews recognize Jesus' power",
+            "The storm calming (v.27) demonstrates that Jesus is God in action (the Son of God)"
+          ],
+          "focusVerse": "8:1-27"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The centurion's role, the phrase 'bore our diseases', and Jesus' sleep during the storm?",
+          "tips": [
+            "The centurion was a Roman military officer (not Jewish) - his faith shows universal acceptance of Jesus",
+            "'Bore our diseases' refers to Jesus taking the sickness of humanity on Himself (as the atoning sacrifice) - from Isaiah 53:4",
+            "Jesus sleeps because He is in a state of divine rest (not human fatigue) - the storm is a test of His authority"
+          ],
+          "focusVerse": "8:1-27"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Jesus' authority over healing and nature to a situation this week? (Example: When you feel sick, or when you face a storm of circumstances)",
+          "tips": [
+            "Ask: 'Is there a 'leper' in my life that I need to be cleansed by Jesus?'",
+            "Practice faith like the centurion: 'What if I could just say the word (in faith) and have my problem resolved?'",
+            "When facing difficulties, remember Jesus calmed the storm - ask Him to calm your anxieties"
+          ],
+          "focusVerse": "8:8"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's healing and authority in your life, as demonstrated by Jesus in Matthew 8.",
+          "tips": [
+            "Thank God for cleansing you from sin and disease (like the leper)",
+            "Ask for faith like the centurion to trust in Jesus' word",
+            "Pray for courage to face life's storms (like the disciples) and trust Jesus to calm them"
+          ],
+          "focusVerse": "8:27"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 9,
+      "chapterTitle": "More Miracles and the Call of Matthew",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 9 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 10,
+      "chapterTitle": "The Twelve Apostles Sent Out",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 10 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 11,
+      "chapterTitle": "Jesus and John the Baptist",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 11:20-30 aloud, focusing on the dialogue between Jesus and John's disciples, the list of Christ's works, and the invitation to rest.",
+          "tips": [
+            "Notice the repetition of 'the blind receive their sight' and the list of miracles (vv. 20-24)",
+            "Pay attention to the phrase 'blessed is the one who is not offended by me' (v. 20)",
+            "The contrast between John and the least in the kingdom (v. 29)"
+          ],
+          "focusVerse": "11:20-30"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus and John's disciples) does WHAT (responds to John's question about his identity) in WHERE (the cities where Jesus was teaching) and WHY (to show the signs of the kingdom and invite the weary).",
+          "tips": [
+            "Include John's question in prison (v. 20-21)",
+            "Note Jesus' response with the works of the kingdom (vv. 20-24)",
+            "Mention the invitation to the weary (vv. 28-30)"
+          ],
+          "focusVerse": "11:20-30"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the list of Christ's works (vv. 20-24), the blessing of not being offended (v. 20), or the invitation to rest (v. 28)?",
+          "tips": [
+            "The list of miracles shows Jesus' identity as the Messiah through His works",
+            "The phrase 'blessed is the one who is not offended by me' addresses the tension of Jesus' teachings",
+            "The contrast with John highlights the kingdom's priority"
+          ],
+          "focusVerse": "11:20-30"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about the Messiah and the kingdom of heaven?",
+          "tips": [
+            "Matthew was writing for Jewish believers to show Jesus as the fulfillment of the Law and Prophets",
+            "The passage emphasizes Jesus' identity as the Messiah through His works and the invitation to the kingdom",
+            "The contrast with John shows that even the greatest among Jews are not as great as the least in the kingdom"
+          ],
+          "focusVerse": "11:20-30"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Identify 2-3 confusing elements in this passage and explain their meaning.",
+          "tips": [
+            "The phrase 'least in the kingdom' refers to humility and service, not the size of the person",
+            "'The dead are raised up' is a sign of the kingdom's power, not a literal resurrection of the dead (as in the resurrection of Christ)",
+            "'Yoke' refers to a shared burden, so 'easy yoke' means Jesus shares the burden with us"
+          ],
+          "focusVerse": "11:20-30"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Jesus' invitation to rest in your current life?",
+          "tips": [
+            "Consider an area where you feel burdened and need rest",
+            "Think about taking Jesus' yoke upon you - what does that mean for your current stress?",
+            "How can you practice finding rest in Him this week?"
+          ],
+          "focusVerse": "11:28"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for the invitation to rest and ask for the strength to take His yoke.",
+          "tips": [
+            "Thank God for Jesus as the rest for weary souls",
+            "Pray for the courage to follow Jesus' yoke even when it's hard",
+            "Ask for the grace to be the 'least' in the kingdom and find rest"
+          ],
+          "focusVerse": "11:28"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 12,
+      "chapterTitle": "Lord of the Sabbath",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 12 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 13,
+      "chapterTitle": "Parables of the Kingdom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 13 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 14,
+      "chapterTitle": "John Beheaded and Jesus Feeds Five Thousand",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 14:1-33 aloud, paying attention to the dialogue between Herod and his servants in verses 1-11, and the emotional tone of Jesus' compassion in verses 14-21.",
+          "tips": [
+            "Notice the repetition of 'John the Baptist' (v.1, v.3) and the phrase 'He has been raised from the dead' (v.3)",
+            "Pay attention to the contrast between Herod's fear (v.5) and his reckless request for John's head (v.7)"
+          ],
+          "focusVerse": "14:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY Jesus leaves the crowd in the desolate place.",
+          "tips": [
+            "Include the key events: Herod's imprisonment of John, Herodias' request for John's head, Jesus' withdrawal to a desolate place, and the feeding of the five thousand",
+            "Note that Jesus' compassion leads him to heal the sick and feed the crowd with a few loaves and fish",
+            "Mention the walking on water as a parallel to the feeding miracle"
+          ],
+          "focusVerse": "14:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: John's martyrdom (v.1-12), Jesus' compassion (v.14-21), or the feeding miracle (v.19-21).",
+          "tips": [
+            "The phrase 'It is not lawful for you to have her' (v.3) shows John's moral authority and the danger of Herod's actions",
+            "Jesus' compassion: 'He had compassion on them and healed their sick' (v.14) reveals His heart for the marginalized",
+            "The feeding miracle: 'They all ate and were satisfied' (v.20) demonstrates God's provision for the many"
+          ],
+          "focusVerse": "14:1-33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Jesus' identity and mission through this passage?",
+          "tips": [
+            "Matthew emphasizes Jesus as the true fulfillment of the Law and the prophets, especially through His compassion and power",
+            "The passage shows Jesus' authority over sin (John's death) and His provision for the people (feeding the multitudes)",
+            "The walking on water (v.26) illustrates Jesus' divine power and the need for faith in Him"
+          ],
+          "focusVerse": "14:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of Herodias, the reason for the feeding miracle, and the walking on water.",
+          "tips": [
+            "Herodias' role: She was Herod's wife, but Herod's marriage was a political arrangement; her request for John's head was a political and personal conflict",
+            "The feeding miracle: It occurs after Jesus has already been tested by Herod's actions, showing His provision in the midst of chaos",
+            "Walking on water: This is a sign of Jesus' divine authority over nature, but it also challenges the disciples' faith (v.28)"
+          ],
+          "focusVerse": "14:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice the compassion of Jesus in feeding the multitudes this week?",
+          "tips": [
+            "Consider an area where you are 'the crowd' needing provision: a friend, a family member, or a community group",
+            "Think about what small acts of provision you can do, like sharing resources or time, just as Jesus did with the five loaves and two fish",
+            "Ask God to help you be a source of compassion for others, even when it seems impossible"
+          ],
+          "focusVerse": "14:1-33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His compassion and provision, and ask for the courage to trust Him in difficult situations.",
+          "tips": [
+            "Thank God for the feeding of the multitudes as a sign of His provision for all who trust Him",
+            "Pray for the strength to face the challenges of life without becoming like Herod (who was influenced by his wife's desires)",
+            "Ask God to help you walk on water in your faith, trusting Him when the waters are deep"
+          ],
+          "focusVerse": "14:1-33"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 15,
+      "chapterTitle": "Tradition and the Heart",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 15:1-22 aloud, paying attention to the dialogue between the Pharisees and Jesus in verses 2-4 and the Canaanite woman's plea in verses 20-22.",
+          "tips": [
+            "Notice the phrase 'tradition of the elders' appears in verse 2",
+            "Pay attention to Jesus' response about what defiles (verse 11) and the Canaanite woman's faith (verse 22)"
+          ],
+          "focusVerse": "15:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Pharisees and scribes), WHAT (they question Jesus about tradition), WHERE (Jerusalem), and WHY (they want to know about the commandment of God).",
+          "tips": [
+            "Include the issue of hand-washing before eating (verse 2)",
+            "Note the commandment about honoring parents (verse 4)",
+            "The Canaanite woman's request and Jesus' response (verses 20-22)"
+          ],
+          "focusVerse": "15:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' statement on heart defilement (verse 11), the Canaanite woman's faith (verse 22), or Jesus' response to the tradition (verses 3-4)?",
+          "tips": [
+            "Jesus' declaration that what comes out of the mouth defiles is a powerful reminder of inner purity",
+            "The Canaanite woman's response shows faith that transcends ethnic boundaries and is honored by Jesus",
+            "The phrase 'crumbs that fall from their masters' illustrates how God's grace is available to all"
+          ],
+          "focusVerse": "15:11-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about the role of tradition and heart purity?",
+          "tips": [
+            "Matthew emphasizes that true worship must come from the heart, not external rituals",
+            "The passage shows Jesus' authority over Jewish traditions and His inclusive mission to all nations",
+            "The Canaanite woman's story illustrates that God's kingdom is for all people, not just Israel"
+          ],
+          "focusVerse": "15:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of tradition in Jewish law, the command about honoring parents, and the response to the Canaanite woman?",
+          "tips": [
+            "In Jewish context, traditions of the elders were rules passed down by the rabbis (e.g., hand-washing before eating)",
+            "The tradition of not giving money to parents from a child's inheritance was common, but Jesus says it overrides the commandment of honoring parents",
+            "Jesus' response to the Canaanite woman shows that God's kingdom is for all nations, which might challenge Jewish beliefs at the time"
+          ],
+          "focusVerse": "15:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Jesus says what comes out of the mouth defiles a person. What habit or attitude in your life needs to be addressed for heart purity this week?",
+          "tips": [
+            "Identify one habit that is causing spiritual defilement (e.g., gossip, envy, or pride)",
+            "Pray for the strength to change that habit, just as Jesus called for heart purity",
+            "Ask God to help you see how your actions are affecting others, like the Canaanite woman's request"
+          ],
+          "focusVerse": "15:11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about this chapter's theme: tradition vs. heart purity",
+          "tips": [
+            "Thank God for revealing the importance of heart purity over external rituals",
+            "Ask for the courage to trust God's provision even when traditions seem to be in the way",
+            "Pray for the faith of the Canaanite woman to be present in your life"
+          ],
+          "focusVerse": "15:22"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 16,
+      "chapterTitle": "Peter's Confession of Christ",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 16:13-28 aloud, focusing on Peter's confession and Jesus' response in verses 16-18.",
+          "tips": [
+            "Notice the phrase 'You are the Christ, the Son of the living God' (v.16)",
+            "Pay attention to Jesus' blessing 'Blessed are you, Simon Bar-Jonah' (v.17)",
+            "Consider the declaration 'on this rock I will build my church' (v.18)"
+          ],
+          "focusVerse": "16:13-28"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus and the disciples), WHAT (Peter's confession and Jesus' response), WHERE (Caesarea Philippi), and WHY (to establish the foundation of the church and the necessity of Christ's suffering).",
+          "tips": [
+            "Include Peter's confession of Jesus as the Christ (v.16)",
+            "Note Jesus' declaration that Peter is the rock (v.18)",
+            "Describe Jesus' prediction of suffering, death, and resurrection (v.21-22)"
+          ],
+          "focusVerse": "16:13-28"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Peter's confession (v.16), Jesus' blessing (v.17), or the church foundation (v.18).",
+          "tips": [
+            "Peter's confession is a moment of profound divine revelation that Jesus is the Christ, not a human invention",
+            "The phrase 'Blessed are you, Simon Bar-Jonah' shows Jesus' recognition of Peter's unique role",
+            "The declaration 'on this rock I will build my church' establishes the foundation of the church in Christ's confession"
+          ],
+          "focusVerse": "16:13-28"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Jesus being the Christ and the foundation of the church?",
+          "tips": [
+            "Matthew emphasizes that Jesus' identity as the Christ is revealed through God's action (not human wisdom) to Jewish believers",
+            "This passage shows that the church is built on the confession of Christ, which is a response to God's revelation",
+            "Jesus' prediction of suffering foreshadows the necessity of His death for the church"
+          ],
+          "focusVerse": "16:13-28"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The phrase 'Son of the living God', the meaning of 'on this rock', and Jesus' prediction of suffering.",
+          "tips": [
+            "'Son of the living God' refers to Jesus' divine nature, which Jewish believers might have associated with the dead God of the law",
+            "'This rock' in the context refers to Peter's confession (the 'rock' is the confession of faith), not Peter himself",
+            "Jesus' prediction of suffering was unexpected for Jewish believers who expected a political Messiah"
+          ],
+          "focusVerse": "16:13-28"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Peter's confession to your life this week? Consider what it means to confess Jesus as the Christ when you face uncertainty.",
+          "tips": [
+            "Identify a situation where you need to confess Jesus as the Christ (the Messiah) rather than relying on your own understanding",
+            "Pray for the courage to make that confession in a moment of doubt",
+            "Reflect on how your life is built on the rock of Christ's confession"
+          ],
+          "focusVerse": "16:16"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for revealing Jesus as the Christ through Peter's confession and ask for the courage to build your life on this rock.",
+          "tips": [
+            "Thank God for the revelation of Jesus as the living God (the Christ)",
+            "Pray for the strength to confess Jesus as the Christ when it's costly",
+            "Ask God to help you build your life on the rock of Christ's confession"
+          ],
+          "focusVerse": "16:16"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 17,
+      "chapterTitle": "The Transfiguration",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 17:1-13 aloud, paying attention to the description of Jesus' transfiguration and the voice from the cloud.",
+          "tips": [
+            "Notice the phrase 'his face shone like the sun' (v.2) and 'his clothes became white as light' (v.2) to emphasize divine glory",
+            "Pay attention to the dialogue between Moses and Elijah and Jesus (v.3) as a sign of continuity with the Old Testament",
+            "Notice the voice from the cloud: 'This is my beloved Son, with whom I am well pleased; listen to him' (v.5) as the divine command"
+          ],
+          "focusVerse": "17:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus, Peter, James, John, Moses, Elijah) is present, WHAT (Jesus transfigured, Moses and Elijah appear and talk with Jesus, a cloud covers them, and the Father speaks), WHERE (a high mountain), and WHY (to reveal Jesus' divine identity and command the disciples to listen to him).",
+          "tips": [
+            "Include the three disciples (Peter, James, John) who are with Jesus on the mountain",
+            "Note the appearance of Moses (Law) and Elijah (Prophets) talking with Jesus",
+            "Describe the cloud and the voice from heaven as the divine revelation"
+          ],
+          "focusVerse": "17:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' transfiguration (v.2), Moses and Elijah talking with Jesus (v.3), or the voice from the cloud (v.5)?",
+          "tips": [
+            "Jesus' transfiguration: His face shining like the sun and clothes white as light reveals his divine glory, which the disciples had not seen before",
+            "The presence of Moses and Elijah: This shows the connection between the Law and Prophets and Christ, fulfilling the Jewish expectation",
+            "The voice from the cloud: 'This is my beloved Son, with whom I am well pleased; listen to him' is the command that the disciples must obey Jesus"
+          ],
+          "focusVerse": "17:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Jesus' identity and mission through this transfiguration event?",
+          "tips": [
+            "Matthew emphasizes that Jesus is the Son of God who fulfills the Law and Prophets (Moses and Elijah) and must be obeyed",
+            "The event shows that the Jewish expectation of the Messiah (who would be the Son of God) is being revealed through Christ",
+            "The command to not tell until after the resurrection shows that this event is part of the plan that leads to the resurrection of Jesus"
+          ],
+          "focusVerse": "17:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The appearance of Moses and Elijah, the command about Elijah, or the secrecy of the transfiguration event?",
+          "tips": [
+            "The disciples ask why Elijah must come before the Messiah, but Jesus says John the Baptist (who is the Elijah) has already come, so he is not a future event but a fulfillment of prophecy",
+            "The transfiguration reveals Jesus' glory, which the disciples had not seen before, so it is a divine moment that they must understand",
+            "The command to not tell anyone until after the resurrection: This was to prevent the disciples from misunderstanding the event as a sign of Jesus' death (which would be confusing for Jewish believers "
+          ],
+          "focusVerse": "17:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "As the voice from the cloud says 'listen to him', what is one area where you can listen to Jesus' guidance this week?",
+          "tips": [
+            "Consider a situation where you have been following your own plans rather than Jesus' guidance",
+            "Think about how you can be more attentive to the Holy Spirit's prompting (which is the voice of Christ)",
+            "Practice being still and listening to Jesus in your daily life, just as the disciples were commanded to do"
+          ],
+          "focusVerse": "17:5"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for revealing Jesus' glory and for the command to listen to Him. Ask for courage to obey Him even when it's difficult.",
+          "tips": [
+            "Thank God for showing Jesus' true identity as the Son of God",
+            "Ask for the strength to listen to Jesus' guidance in your life and to obey Him",
+            "Pray that you would recognize the voice of God (the Holy Spirit) in your decisions"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 18,
+      "chapterTitle": "The Greatest in the Kingdom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 18 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 19,
+      "chapterTitle": "Marriage, Divorce, and Riches",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 19:1-26 aloud, paying attention to the dialogue between Jesus and the Pharisees in verses 1-9 and the interaction with the rich young ruler in verses 22-26.",
+          "tips": [
+            "Notice the repetition of 'one flesh' in verse 6",
+            "Pay attention to the emotional weight of the rich young ruler's response in verse 20",
+            "Note the contrast between the Pharisees' questioning and Jesus' authoritative teaching"
+          ],
+          "focusVerse": "19:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is tested, WHAT Jesus teaches, WHERE this happens, and WHY it matters for Jewish believers.",
+          "tips": [
+            "Include the Pharisees' question about divorce (v1)",
+            "Note Jesus' teaching on marriage as a covenant (v3-9)",
+            "Describe the rich young ruler's request for eternal life (v12-13) and Jesus' response (v21-22)"
+          ],
+          "focusVerse": "19:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' teaching on marriage (v9), the rich young ruler's response (v20), or the cost of discipleship (v21-22)?",
+          "tips": [
+            "The phrase 'What therefore God has joined together, let not man separate' (v9) shows God's unchangeable design",
+            "The rich young ruler's declaration 'All these I have kept' (v20) reveals his deep commitment but also his blindness to true riches",
+            "Jesus' command to 'sell what you possess and give to the poor' (v21) highlights the radical nature of discipleship"
+          ],
+          "focusVerse": "19:1-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about marriage, discipleship, and the kingdom of heaven through this passage?",
+          "tips": [
+            "Matthew emphasizes that marriage is a divine covenant that cannot be broken by human will (v9)",
+            "He shows that true discipleship requires radical surrender of wealth and self (v21-22)",
+            "The inclusion of children (v10) reminds believers of the kingdom's priority"
+          ],
+          "focusVerse": "19:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The Pharisees' question on divorce, the meaning of 'great possessions', or the cost of discipleship?",
+          "tips": [
+            "The phrase 'for any cause' (v1) implies that divorce is allowed in the Mosaic law, but Jesus redefines it as only in cases of adultery (implied by his teaching)",
+            "In Jewish context, 'great possessions' (v21) could mean both material wealth and spiritual priorities",
+            "The command to 'sell what you possess' is not a literal requirement for all but a metaphor for giving up self-centered wealth"
+          ],
+          "focusVerse": "19:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the teaching on the cost of discipleship (v21-22) apply to your life this week?",
+          "tips": [
+            "Consider an area where you hold onto something that is actually a 'possession' that you need to let go for the kingdom",
+            "Think about how you can give to the poor or those in need this week, even if it's small",
+            "Practice letting go of something that is holding you back from serving God"
+          ],
+          "focusVerse": "19:1-26"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the cost of discipleship and the design of marriage as revealed in this chapter.",
+          "tips": [
+            "Thank God for His unbreakable design for marriage (v9)",
+            "Ask for the courage to give up what is truly valuable for the kingdom",
+            "Pray for the grace to see the kingdom of heaven in the humble"
+          ],
+          "focusVerse": "19:1-26"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 20,
+      "chapterTitle": "Workers in the Vineyard",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 20 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 21,
+      "chapterTitle": "The Triumphal Entry",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 21:1-26 aloud, focusing on the crowds' 'Hosanna' (v.9), the temple cleansing (v.12-13), and the stone prophecy (v.42)",
+          "tips": [
+            "Notice the repeated 'Hosanna' (v.9) as a cry of hope for the Messiah",
+            "Pay attention to the contrast in v.13: 'house of prayer' vs. 'den of robbers'",
+            "The phrase 'the stone that the builders rejected' (v.42) is a key metaphor for Jesus"
+          ],
+          "focusVerse": "21:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize who (Jesus and disciples), what (the triumphal entry and temple cleansing), where (Bethphage to Jerusalem), and why (to fulfill prophecy and reveal the temple's true purpose)",
+          "tips": [
+            "The disciples preparing the donkey and colt (v.1-11)",
+            "Jesus driving out money changers and healing the blind and lame (v.12-15)",
+            "The stone that the builders rejected becoming the cornerstone (v.42)"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Which part stood out? Consider: the crowds' 'Hosanna' (v.9), the temple cleansing (v.12-13), or the stone prophecy (v.42)?",
+          "tips": [
+            "The crowds' 'Hosanna' (v.9) shows joyful anticipation of the Messiah",
+            "The temple cleansing (v.12-13) reveals Christ's authority as the true temple",
+            "The stone prophecy (v.42) emphasizes Jesus as the foundation of God's new community"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Christ's kingdom and identity?",
+          "tips": [
+            "Christ as the humble king who fulfills prophecy (Zech 9:9)",
+            "The temple cleansing as a sign of Christ's authority over religious systems",
+            "The stone prophecy revealing Christ's role as the cornerstone of God's new covenant"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The crowds' 'Hosanna' meaning, the temple cleansing as a sign of authority, or the stone prophecy?",
+          "tips": [
+            "'Hosanna' (Hebrew: 'hoshia') means 'save' but the crowd's context shows they were not yet aware of the full cost of his kingdom",
+            "The temple cleansing was a radical act that would have been seen as a threat to the religious establishment",
+            "The stone prophecy (v.42) is a metaphor for Christ being the rejected one who becomes the cornerstone of the new temple"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does Jesus' entry as the humble king challenge us to be the temple of God in our lives?",
+          "tips": [
+            "Be the temple of God by being a place of healing and prayer (like Jesus healing the blind and lame)",
+            "Reject the 'den of robbers' by avoiding selfish practices in our lives",
+            "Let Jesus be the cornerstone by trusting him as the foundation of our faith"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about Jesus as the humble king who cleanses the temple and becomes the cornerstone of God's new community.",
+          "tips": [
+            "Thank God for Jesus as the true temple and the one who heals the broken",
+            "Ask for courage to be the temple of God in your community",
+            "Pray for the church to be a place of healing and not a den of robbers"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 22,
+      "chapterTitle": "Parables and Questions",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 22:1-46 aloud, focusing on the wedding feast parable (v. 1-14), the tax question (v. 15-22), and the great commandment (v. 23-46).",
+          "tips": [
+            "Notice the phrase 'kingdom of heaven' appears three times in the parable (v. 1, 11, 12)",
+            "Pay attention to the contrast between the king's invitation and the man without a wedding garment (v. 11-13)"
+          ],
+          "focusVerse": "22:1-46"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO (Jesus, the king, the invited guests, the Pharisees, the Sadducees), WHAT (Jesus speaks parables and answers questions), WHERE (Jewish context), and WHY (to teach about the kingdom of heaven and the law).",
+          "tips": [
+            "Include the wedding feast parable (v. 1-14) where the king invites guests but one man is without a garment",
+            "Note the tax question (v. 15-22) and Jesus' response 'Render to Caesar the things that are Caesar's, and to God the things that are God's'",
+            "Describe the great commandment (v. 34-40) where Jesus says love God with all your heart and love your neighbor as yourself"
+          ],
+          "focusVerse": "22:1-46"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Identify 2-3 specific elements from the passage that you find most impactful: the wedding garment, the tax question response, or the two commandments.",
+          "tips": [
+            "The man without a wedding garment (v. 11-13) represents the need for Christ's righteousness to enter the kingdom",
+            "The phrase 'render to Caesar' (v. 21) shows Jesus' practical wisdom on handling worldly and spiritual matters",
+            "The two commandments (v. 37-38) are the foundation of the law and the heart of Christian living"
+          ],
+          "focusVerse": "22:1-46"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers through this passage?",
+          "tips": [
+            "Matthew's goal was to show that Jesus is the Son for whom the wedding feast is prepared",
+            "The parable illustrates that the kingdom of heaven requires righteousness (the garment) that comes through Christ",
+            "The two commandments are the summary of the law and the heart of Christian life for Jewish believers"
+          ],
+          "focusVerse": "22:1-46"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Identify 2-3 specific confusing elements in this passage: cultural context, unfamiliar terms, or theological concepts.",
+          "tips": [
+            "The 'wedding garment' symbolizes righteousness that comes from Christ (not self-effort)",
+            "The tax question reflects the political tension between Jewish and Roman rule; Jesus' answer shows that one can honor both God and Caesar without compromise",
+            "The two commandments are the foundation of the law and the gospel, not a simplification of the law"
+          ],
+          "focusVerse": "22:1-46"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the concept of being clothed in Christ's righteousness (the wedding garment) to your daily life this week?",
+          "tips": [
+            "Consider one area where you feel unrighteous (like the man without the garment) and ask how Christ's righteousness can cover it",
+            "Pray for the Holy Spirit to help you live by the two commandments (love God and love neighbor) in your relationships",
+            "Do one small act of love for a neighbor this week, as Jesus taught"
+          ],
+          "focusVerse": "22:1-46"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about this chapter's theme: the wedding feast and the two commandments.",
+          "tips": [
+            "Thank God for the wedding feast of His kingdom that we enter through Christ",
+            "Pray for the strength to be clothed in Christ's righteousness",
+            "Ask God to help you love Him and your neighbor as Jesus did"
+          ],
+          "focusVerse": "22:1-46"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 23,
+      "chapterTitle": "Woes to the Scribes and Pharisees",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 23:1-35 aloud, paying attention to the repetition of 'woe' (three times) and the phrase 'blind guides'.",
+          "tips": [
+            "Notice the repetition of 'woe to you, scribes and Pharisees, hypocrites!' (three times)",
+            "Pay attention to the phrase 'blind guides' and the imagery of 'serpents and brood of vipers'",
+            "The emotional tone shifts from condemnation to lament over Jerusalem (v. 37)"
+          ],
+          "focusVerse": "23:1-35"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the scribes and Pharisees) does WHAT (teaches the law but hypocritically), WHERE (in the Jewish religious community), and WHY (to avoid the weightier matters of the law).",
+          "tips": [
+            "Include the seven woes and the criticism of heavy burdens (v. 4)",
+            "Note the hypocrisy in making proselytes for show (v. 10)",
+            "Describe the neglect of justice, mercy, and faithfulness (v. 23)"
+          ],
+          "focusVerse": "23:1-35"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the heavy burdens (v. 4), the proselyte example (v. 10), or the tithe example (v. 23).",
+          "tips": [
+            "The heavy burdens: 'they tie up heavy burdens, hard to bear' shows the burden of empty rituals",
+            "The proselyte example: they travel far to make one proselyte but then make him 'twice as much a child of hell' - a shocking contrast",
+            "The tithe example: they neglect the weightier matters (justice, mercy, faithfulness) in favor of minor things (mint, dill, cumin)"
+          ],
+          "focusVerse": "23:4-23"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about the scribes and Pharisees through this passage?",
+          "tips": [
+            "Christ exposes the hypocrisy of religious leaders who teach but do not practice the weightier matters of the law",
+            "The passage calls for a return to justice, mercy, and faithfulness rather than empty rituals",
+            "It also laments Jerusalem's rejection of Christ (v. 37) as a consequence of the same hypocrisy"
+          ],
+          "focusVerse": "23:1-35"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The phrase 'child of hell' (v. 15), the comparison to 'serpents' (v. 33), or Christ's weeping over Jerusalem (v. 37)?",
+          "tips": [
+            "'Child of hell' is a metaphor for being more separated from God than the scribes and Pharisees (who are already in spiritual death)",
+            "'Serpents and brood of vipers' are strong imagery for deceit and unrighteousness, common in Jewish apocalyptic literature",
+            "Christ's weeping over Jerusalem is a prediction of its destruction but also a call for repentance (as in the Gospels)"
+          ],
+          "focusVerse": "23:15-35"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, identify one area where you are focusing on the minor things (like rituals) but neglecting justice and mercy in your relationships with others.",
+          "tips": [
+            "Consider an area where you're holding back from practicing justice and mercy",
+            "Think about how you can 'do the weightier matters' in your daily life",
+            "Pray for the courage to prioritize mercy and justice over empty rituals"
+          ],
+          "focusVerse": "23:23"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for exposing the hypocrisy of religious leaders and ask for courage to prioritize justice and mercy.",
+          "tips": [
+            "Thank God for the truth that Christ is the light of the world and not the scribes and Pharisees",
+            "Pray for the church to avoid the scribes and Pharisees' mistakes",
+            "Ask God to help you see the weightier matters in your daily life"
+          ],
+          "focusVerse": "23:37"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 24,
+      "chapterTitle": "Signs of the End of the Age",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 24:1-45 aloud, focusing on the dialogue between Jesus and his disciples in verses 3-45.",
+          "tips": [
+            "Notice the repetition of 'many will come in my name' (v. 11)",
+            "Pay attention to the phrase 'abomination of desolation' (v. 15) and the call to flee (v. 16)",
+            "Notice the contrast between the current temple destruction and the coming of the Son of Man (v. 30)"
+          ],
+          "focusVerse": "24:1-45"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Jesus is speaking to, WHAT he prophesies, WHERE and WHEN it will happen, and WHY he gives these signs.",
+          "tips": [
+            "Include the disciples' question about the sign of the end (v. 3)",
+            "Note the destruction of the temple (v. 2) and the coming of the Son of Man (v. 30)",
+            "Describe the universal spread of the gospel before the end (v. 14)"
+          ],
+          "focusVerse": "24:1-45"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the warning about false prophets (v. 11), the sign of the Son of Man (v. 30), or the call to flee (v. 16)?",
+          "tips": [
+            "The warning about false prophets: 'many will come in my name' shows the danger of deception",
+            "The phrase 'abomination of desolation' (v. 15) is a direct reference to Daniel 9:27 and the desecration of the temple",
+            "The call to flee (v. 16) is a practical command for immediate action in the face of impending disaster"
+          ],
+          "focusVerse": "24:1-45"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about the end times and Jesus' return?",
+          "tips": [
+            "The gospel will be preached to all nations before the end (v. 14)",
+            "Jewish believers were to recognize the signs of the end and be ready for Christ's return",
+            "The destruction of the temple (v. 2) was a sign of the coming end for the Jewish people"
+          ],
+          "focusVerse": "24:1-45"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of the 'abomination of desolation', the timing of the end, or the 'sign of the Son of Man'?",
+          "tips": [
+            "The 'abomination of desolation' (v. 15) refers to the desecration of the temple by the Roman military, as in Daniel 9:27",
+            "The phrase 'no one knows the day or hour' (v. 36) emphasizes that the end is not predictable by human calculation",
+            "The 'sign of the Son of Man' (v. 30) is a heavenly sign that precedes the end, but the exact timing is unknown"
+          ],
+          "focusVerse": "24:1-45"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the call to 'stay awake' (v. 42) in your daily life this week?",
+          "tips": [
+            "Set a specific time each day to check in on your spiritual readiness",
+            "Share the gospel message with one person this week to embody the universal spread (v. 14)",
+            "Pray for the courage to flee from false teachings (v. 11) when you encounter them"
+          ],
+          "focusVerse": "24:42"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He provides the end times with the gospel to all nations. Ask for the courage to stay awake and be ready for Christ's return.",
+          "tips": [
+            "Thank God for His promise to provide the end times with the gospel to all nations",
+            "Ask for discernment to recognize false prophets and the signs of the end",
+            "Pray for the courage to flee from danger when the abomination of desolation appears"
+          ],
+          "focusVerse": "24:14"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 25,
+      "chapterTitle": "Parables of Readiness and Judgment",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Matthew 25 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 26,
+      "chapterTitle": "The Plot, the Supper, and Gethsemane",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 26:1-46 aloud, paying attention to the emotional tone of the anointing (v.6-7), the Last Supper (v.26-28), and the Gethsemane prayer (v.39).",
+          "tips": [
+            "Notice the woman's 'very expensive ointment' (v.6) and how it foreshadows burial",
+            "Pay attention to the repeated phrase 'this is my body/blood' in the Last Supper (v.26,28)",
+            "Listen for the depth of Jesus' sorrow in Gethsemane: 'My Father, if it be possible...' (v.39)"
+          ],
+          "focusVerse": "26:1-46"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize who is involved, what they do, where it happens, and why (the purpose) in Matthew 26:1-46.",
+          "tips": [
+            "Include the anointing at Bethany (v.6-7)",
+            "Note the Last Supper where Jesus institutes the Lord's Supper (v.26-28)",
+            "Describe Jesus' prayer in Gethsemane (v.36-46)"
+          ],
+          "focusVerse": "26:1-46"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the anointing (v.6-7), the Last Supper (v.26-28), or the Gethsemane prayer (v.39)?",
+          "tips": [
+            "The anointing: a woman using expensive ointment to prepare Jesus for burial",
+            "The Last Supper: Jesus' declaration of the new covenant through His body and blood",
+            "The Gethsemane prayer: Jesus' submission to God's will despite the cost"
+          ],
+          "focusVerse": "26:1-46"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about Jesus' death and the new covenant through this passage?",
+          "tips": [
+            "Matthew emphasizes Jesus' fulfillment of the Law and the new covenant",
+            "The passage shows Jesus' authority and the necessity of His death for the forgiveness of sins",
+            "This passage bridges Jewish understanding of the Passover with the new covenant"
+          ],
+          "focusVerse": "26:1-46"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The anointing, the Last Supper, or the Gethsemane prayer?",
+          "tips": [
+            "Why did the woman anoint Jesus at Bethany? (It was a practice for burial, but Jesus was not yet dying)",
+            "What does 'the cup' represent? (It refers to the suffering and death of Jesus, the cup of God's wrath)",
+            "How does Jesus' submission in Gethsemane (v.39) show His complete obedience?"
+          ],
+          "focusVerse": "26:1-46"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of the Last Supper (the blood of the covenant) in your life this week?",
+          "tips": [
+            "Consider a situation where you need to be a 'living sacrifice' like Jesus",
+            "Think about how the blood of Christ covers your sins and how you can live in that freedom",
+            "Pray for the courage to follow Jesus' example in obedience"
+          ],
+          "focusVerse": "26:1-46"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about the theme of Jesus' submission in Gethsemane and the new covenant.",
+          "tips": [
+            "Thank God for Jesus' sacrifice and the blood of the covenant",
+            "Ask for the strength to submit to God's will when it's hard",
+            "Pray for a heart that understands the cost of discipleship"
+          ],
+          "focusVerse": "26:1-46"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 27,
+      "chapterTitle": "The Trial and Crucifixion",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 27:1-54 aloud, focusing on the dialogue between Jesus and Pilate in verses 11-12 and the crowd's reaction in verses 22-23.",
+          "tips": [
+            "Notice the phrase 'you have said so' in verse 11, which shows Jesus' submission to Pilate's question",
+            "Pay attention to the crowd's unified cry for crucifixion (verse 22-23) and the emotional weight of their decision",
+            "The tearing of the temple curtain in verse 51 is a dramatic climax that signifies God's new access through Christ"
+          ],
+          "focusVerse": "27:1-54"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it takes place, and WHY (the purpose or cause).",
+          "tips": [
+            "Include the role of Judas in betraying Jesus and returning the thirty pieces of silver (v.3-5)",
+            "Note Pilate's question about Jesus being the King of the Jews (v.11) and the crowd's response",
+            "Describe the crucifixion and the tearing of the temple curtain (v.51)"
+          ],
+          "focusVerse": "27:1-54"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' submission to Pilate (v.11), the crowd's demand for crucifixion (v.22-23), or the tearing of the temple curtain (v.51).",
+          "tips": [
+            "Jesus' submission in 'You have said so' (v.11) shows his divine authority without resistance",
+            "The crowd's unified cry for crucifixion (v.22-23) reveals the people's role in Jesus' death",
+            "The tearing of the temple curtain (v.51) is a powerful symbol of God's new access through Christ"
+          ],
+          "focusVerse": "27:1-54"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers through this passage?",
+          "tips": [
+            "Matthew emphasizes that Jesus, the Jewish Messiah, is crucified for the sins of the world (v.27-28)",
+            "The temple curtain tearing (v.51) shows that God now offers direct access to the Holy Spirit through Christ",
+            "This passage fulfills Jewish prophecies about the Messiah's suffering and death"
+          ],
+          "focusVerse": "27:1-54"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Identify 2-3 specific confusing elements in this passage and provide brief clarifications.",
+          "tips": [
+            "The Jewish authorities condemned Jesus because they saw him as a threat to their religious order (v.1-2)",
+            "The thirty pieces of silver were the price of a slave in the Roman system (v.3-5) - but Judas returned it because he was ashamed of his betrayal",
+            "The temple curtain tearing (v.51) signifies that the barrier between God and humanity is removed through Christ's death"
+          ],
+          "focusVerse": "27:1-54"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can this passage impact your life this week?",
+          "tips": [
+            "This week, pray for the courage to let go of the 'temple curtain' that keeps you from God (e.g., guilt, fear, sin) and seek His presence",
+            "Reflect on how the crowd's demand for crucifixion (v.22-23) mirrors your own decisions to follow Christ",
+            "Practice daily confession and forgiveness as a step toward the new access in Christ"
+          ],
+          "focusVerse": "27:1-54"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about the theme of this passage.",
+          "tips": [
+            "Thank God that through Christ's death, we have access to Him (v.51)",
+            "Ask for the strength to face the 'crowd' that demands our crucifixion when we are called to follow Christ",
+            "Pray for the courage to let go of the thirty pieces of silver (the things we value more than Christ)"
+          ],
+          "focusVerse": "27:1-54"
+        }
+      ]
+    },
+    {
+      "bookId": "matthew",
+      "bookName": "Matthew",
+      "chapter": 28,
+      "chapterTitle": "The Resurrection and Great Commission",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Matthew 28:1-20 aloud, focusing on the angel's declaration and Jesus' commission.",
+          "tips": [
+            "Notice the repeated phrase 'he has risen' (v.6) shows the certainty of resurrection",
+            "Pay attention to the emotional shift from fear to joy as the women run to tell the disciples (v.8)"
+          ],
+          "focusVerse": "28:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the women, Jesus, disciples) is tested, WHAT (the resurrection and commission) happens, WHERE (the tomb and Galilee), and WHY (to empower disciples with authority and mission).",
+          "tips": [
+            "Include the earthquake and angel's appearance at the tomb (v.3-7)",
+            "Note the women's fear and joy as they run to the disciples (v.8-10)",
+            "Describe Jesus' commission to make disciples of all nations (v.18-20)"
+          ],
+          "focusVerse": "28:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the angel's declaration of resurrection (v.6), Jesus meeting the women (v.9-10), or the Great Commission (v.18-20)?",
+          "tips": [
+            "The angel's declaration 'He is not here, for he has risen' (v.6) brings certainty to the women",
+            "Jesus' greeting 'Greetings!' (v.9) shows intimate relationship with his followers",
+            "The Great Commission (v.18-20) is the most significant because it calls the disciples to the world"
+          ],
+          "focusVerse": "28:1-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Matthew trying to communicate to Jewish believers about the resurrection and the mission of Jesus?",
+          "tips": [
+            "Matthew emphasizes that Jesus has all authority (v.18) to reassure Jewish believers of his identity",
+            "The Great Commission is given to the disciples to extend the church beyond Jewish circles",
+            "The promise 'I am with you always' (v.20) addresses the fear of the disciples being abandoned by God"
+          ],
+          "focusVerse": "28:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging for Jewish believers? The resurrection, the commission to all nations, and the promise of presence?",
+          "tips": [
+            "The resurrection: Jewish believers expected a physical resurrection of the Messiah as a king, but here Jesus is risen as the living Lord",
+            "The commission to 'all nations' (v.19) may seem beyond the Jewish context of the time",
+            "The promise 'I am with you always' (v.20) addresses the fear of the disciples being abandoned by God"
+          ],
+          "focusVerse": "28:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you take action this week to be a part of the Great Commission?",
+          "tips": [
+            "Share the gospel with someone who is struggling (like the women did)",
+            "Pray for the courage to be a disciple-maker in your community",
+            "Join a small group or volunteer to help others in your area"
+          ],
+          "focusVerse": "28:18-20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the resurrection and ask for the strength to live out the Great Commission.",
+          "tips": [
+            "Thank God that Jesus has risen and is now the living Lord",
+            "Pray for the courage to share the gospel with others",
+            "Ask God to help you be a disciple-maker in your daily life"
+          ],
+          "focusVerse": "28:1-20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "bookId": "ruth",
+  "bookName": "Ruth",
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "bookId": "ruth",
+      "bookName": "Ruth",
+      "chapter": 1,
+      "chapterTitle": "Naomi and Ruth",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ruth 1:1-18 aloud, focusing on the emotional tone of Naomi's decision to return and Ruth's declaration in verses 16-17.",
+          "tips": [
+            "Notice the repetition of 'where' in Ruth's declaration (v.16)",
+            "Pay attention to the contrast between Naomi's initial hope and her current bitterness (v.10-11)",
+            "The phrase 'your people shall be my people' (v.16) shows a deep commitment to identity"
+          ],
+          "focusVerse": "1:1-18"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe who (Naomi, Elimelech, Ruth, Orpah), what (leaving Bethlehem due to famine, Elimelech's death, marriage of sons to Moabite women, return to Bethlehem after ten years), where (Bethlehem to Moab and back), and why (famine and death of sons).",
+          "tips": [
+            "Include the famine as the cause for leaving Bethlehem",
+            "Note that Elimelech dies in Moab",
+            "Mention that after ten years, both sons die"
+          ],
+          "focusVerse": "1:1-18"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Ruth's declaration (v.16-17), Naomi's name change (v.15), or the decision to return (v.10).",
+          "tips": [
+            "Ruth's declaration: 'Where you go I will go...' shows an unbreakable commitment",
+            "Naomi's name change from Naomi (pleasant) to Mara (bitter) reflects her emotional state",
+            "The phrase 'your people shall be my people' (v.16) is a profound statement of identity shift"
+          ],
+          "focusVerse": "1:1-18"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to the Israelites about God and loyalty through this passage?",
+          "tips": [
+            "The passage shows that even a Moabite (non-Israelite) can become part of God's people through loyalty",
+            "This foreshadows how Gentiles will be included in the church through Christ",
+            "The author emphasizes that true loyalty to God transcends ethnic and cultural boundaries"
+          ],
+          "focusVerse": "1:1-18"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The cultural context of Moabites, the name change of Naomi, and the concept of Ruth's loyalty as a covenant commitment.",
+          "tips": [
+            "Moabites were considered enemies of Israel in ancient times, so Ruth's choice to follow Naomi was a radical act of faith",
+            "The name 'Mara' (bitter) is a temporary name that reflects Naomi's current state, but it's a sign of God's sovereignty in her life",
+            "Ruth's declaration in v.16-17 is a covenant commitment that goes beyond cultural norms"
+          ],
+          "focusVerse": "1:1-18"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you be like Ruth in your loyalty to God when circumstances are difficult? What specific step can you take this week?",
+          "tips": [
+            "Identify an area where you might be 'going your own way' and choose to follow God's call",
+            "Practice the declaration of Ruth: 'Where you go I will go' by committing to follow God's lead",
+            "Think about what it means to 'die with your people' in a modern context"
+          ],
+          "focusVerse": "1:1-18"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about Ruth's loyalty and the promise of God's provision for the return to Bethlehem.",
+          "tips": [
+            "Thank God for Ruth's example of unwavering loyalty",
+            "Pray for the courage to follow God even when it's costly",
+            "Ask God to help you see your identity in Him, not in the world"
+          ],
+          "focusVerse": "1:1-18"
+        }
+      ]
+    },
+    {
+      "bookId": "ruth",
+      "bookName": "Ruth",
+      "chapter": 2,
+      "chapterTitle": "Ruth Gleans in Boaz's Field",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ruth 2:1-22 aloud, paying attention to the phrase 'happens' (v.2) and Ruth's loyalty declaration (v.16).",
+          "tips": [
+            "Notice the phrase 'happens' (v.2) and the emphasis on Ruth's loyalty (v.16)",
+            "Pay attention to Boaz's command to the reapers (v.16-17)"
+          ],
+          "focusVerse": "2:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Ruth and Boaz), WHAT (Ruth gleans in Boaz's field), WHERE (in Bethlehem), and WHY (Ruth's loyalty to Naomi and Boaz's role as kinsman-redeemer).",
+          "tips": [
+            "Ruth's decision to follow Naomi to Bethlehem",
+            "Boaz's kindness to Ruth (staying with his servants, leaving grain)",
+            "The ephah of barley Ruth returns with"
+          ],
+          "focusVerse": "2:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Ruth's loyalty (v.16), Boaz's command to the reapers (v.17), or the ephah of barley (v.17).",
+          "tips": [
+            "Boaz's command shows deliberate kindness beyond law",
+            "The ephah (a large measure) symbolizes abundant provision",
+            "Ruth's quiet determination to work in the field despite being a foreigner"
+          ],
+          "focusVerse": "2:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Israel about God's providence and kinsman-redeemers?",
+          "tips": [
+            "The story shows God's providence in the midst of hardship",
+            "Kinsman-redeemers are a biblical pattern for God's provision in the community",
+            "This foreshadows Christ as the ultimate kinsman-redeemer"
+          ],
+          "focusVerse": "2:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of kinsman-redeemer, the practice of gleaning, and Boaz's specific command to leave grain for Ruth.",
+          "tips": [
+            "Kinsman-redeemer: a relative who has the right and duty to redeem land or provide for the family in times of need",
+            "Gleaning: a legal practice in Israel where the poor could gather leftover grain after the harvest",
+            "Boaz's command shows his intention to provide for Ruth without her having to ask"
+          ],
+          "focusVerse": "2:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice being a 'Boaz' by leaving extra for others this week?",
+          "tips": [
+            "Leave extra time for someone who needs help",
+            "Share resources beyond what is required",
+            "Be intentional about providing for others without being asked"
+          ],
+          "focusVerse": "2:1-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray that you become a Boaz in your community, leaving extra for others.",
+          "tips": [
+            "Ask God to help you be a generous provider",
+            "Pray for others who are struggling to receive kindness",
+            "Thank God for Boaz as a model of kinsman-redeemer"
+          ],
+          "focusVerse": "2:1-22"
+        }
+      ]
+    },
+    {
+      "bookId": "ruth",
+      "bookName": "Ruth",
+      "chapter": 3,
+      "chapterTitle": "Ruth at the Threshing Floor",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Ruth 3:1-15 aloud, focusing on the dialogue between Ruth and Boaz and the emotional intensity of the night encounter.",
+          "tips": [
+            "Notice the phrase 'spread your wings' (Ruth 3:8) as a metaphor for redemption",
+            "Pay attention to Boaz's words: 'Blessed are you!' (Ruth 3:9) and the mention of a 'closer redeemer' (Ruth 3:10)",
+            "Listen for the contrast between Ruth's boldness and Boaz's initial surprise"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Ruth and Boaz), WHAT (Ruth's initiative to seek Boaz as redeemer), WHERE (the threshing floor at night), and WHY (to secure a future for Naomi).",
+          "tips": [
+            "Include Ruth's preparation: washing, anointing, and dressing in her best clothes",
+            "Note Boaz's awakening and Ruth's direct appeal for redemption",
+            "Mention the promise of resolution by morning"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Ruth's bold declaration (Ruth 3:8), Boaz's recognition of her faithfulness (Ruth 3:9), or the concept of a 'closer redeemer' (Ruth 3:10).",
+          "tips": [
+            "Ruth's phrase 'spread your wings' shows her confidence in Boaz's role as redeemer",
+            "Boaz's acknowledgment that Ruth has not gone after young men (a sign of her purity) is profound",
+            "The mention of a 'closer redeemer' adds theological depth to the story"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Israel about redemption and faithfulness through Ruth's actions?",
+          "tips": [
+            "The passage emphasizes that redemption requires bold initiative and trust in God's provision",
+            "It shows that true redemption comes through the 'closer redeemer' (Christ), not just any human redeemer",
+            "The author highlights Ruth's faithfulness to Naomi and her commitment to God's covenant"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of a 'closer redeemer', why Boaz says Ruth has 'not gone after young men', and the cultural context of the threshing floor.",
+          "tips": [
+            "The term 'closer redeemer' in Hebrew refers to a more immediate or superior redeemer (Christ)",
+            "Boaz's comment about Ruth not going after young men means she has not been seeking a less committed redeemer",
+            "The threshing floor at night was a place of vulnerability and work, where a man could be alone"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you take bold initiative like Ruth to seek God's redemption in your life this week?",
+          "tips": [
+            "Identify one area where you need to take a step of faith (like Ruth's preparation)",
+            "Plan to share your needs with God in the context of His provision",
+            "Wait for God to reveal the 'closer redeemer' (Christ) in your situation"
+          ],
+          "focusVerse": "3:1-15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the example of Ruth's bold faith and initiative. Ask for courage to seek His redemption.",
+          "tips": [
+            "Thank God for providing a redeemer (Christ) for His people",
+            "Pray for the courage to take bold steps in seeking God's provision",
+            "Ask for the Spirit to reveal the 'closer redeemer' (Christ) in your life"
+          ],
+          "focusVerse": "3:1-15"
+        }
+      ]
+    },
+    {
+      "bookId": "ruth",
+      "bookName": "Ruth",
+      "chapter": 4,
+      "chapterTitle": "Boaz Redeems Ruth",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Ruth 4 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    }
+  ]
+}

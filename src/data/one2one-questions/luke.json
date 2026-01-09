@@ -1,0 +1,1905 @@
+{
+  "bookId": "luke",
+  "bookName": "Luke",
+  "totalChapters": 24,
+  "chapters": [
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 1,
+      "chapterTitle": "Annunciations to Zechariah and Mary",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 2,
+      "chapterTitle": "The Birth of Jesus",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 2:1-20 aloud, focusing on the contrast between the Jewish tradition of purification and the unexpected birth in a manger.",
+          "tips": [
+            "Notice the repeated phrase 'the city of David' (v.4, v.11)",
+            "Pay attention to the angel's declaration: 'Glory to God in the highest, and on earth peace among those with whom he is pleased!' (v.14)"
+          ],
+          "focusVerse": "2:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY it matters for Gentile believers.",
+          "tips": [
+            "Include the decree of Caesar Augustus requiring registration (v.1-2)",
+            "Note the birth in a manger because there was no room in the inn (v.6-7)",
+            "Simeon's prophecy about a light for Gentiles and glory for Israel (v.30)"
+          ],
+          "focusVerse": "2:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the birth in the manger (v.6-7), the angel's announcement to shepherds (v.8-14), or Simeon's recognition (v.29-32).",
+          "tips": [
+            "The manger setting: Jesus born to a poor family in a stable, highlighting humility and accessibility",
+            "The angel's message: 'Glory to God in the highest, and on earth peace among those with whom he is pleased!' (v.14) - this speaks to both heavenly and earthly peace",
+            "Simeon's recognition: 'My eyes have seen your salvation that you have prepared in the presence of all peoples' (v.32) - shows the universal scope of salvation"
+          ],
+          "focusVerse": "2:1-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus (a Gentile believer) about the birth of Jesus?",
+          "tips": [
+            "Luke emphasizes Jesus as the fulfillment of prophecy (David's city, the Messiah) for all people, especially Gentiles",
+            "The birth story is designed to show that salvation is available to all ethnic groups through Jesus",
+            "This passage addresses the Gentile audience by demonstrating God's universal salvation plan"
+          ],
+          "focusVerse": "2:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The inn setting, the angelic visitation, or Simeon's role in the temple?",
+          "tips": [
+            "Why was there no room in the inn? This reflects the social status of Jesus as a lowly birth, not a palace birth",
+            "The term 'Savior' (v.11) might be confusing because it's used for both Jesus and the Jewish people (the Messiah)"
+          ],
+          "focusVerse": "2:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of 'salvation for all peoples' from this chapter this week?",
+          "tips": [
+            "Consider how you can share the good news of Jesus with someone who is from a different background",
+            "Think about a way to be a 'light to the Gentiles' in your community by serving others",
+            "Pray for the peace that comes from being in God's will (v.14)"
+          ],
+          "focusVerse": "2:14"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the birth of Jesus and the universal scope of salvation.",
+          "tips": [
+            "Thank God for sending Jesus as a Savior for all peoples",
+            "Ask for the courage to share the gospel with people from different cultures",
+            "Pray for peace among those who are in God's will (v.14)"
+          ],
+          "focusVerse": "2:14"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 3,
+      "chapterTitle": "John the Baptist and Jesus' Baptism",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 3:1-22 aloud, paying attention to the description of John's wilderness ministry and the baptism events.",
+          "tips": [
+            "Notice the repeated phrase 'baptism of repentance' (v.3, 4)",
+            "Pay attention to the contrast between John's humility (v.16) and Jesus' divinity (v.22)",
+            "The phrase 'the voice of one crying in the wilderness' (v.4) is a direct quote from Isaiah"
+          ],
+          "focusVerse": "3:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize WHO is preaching, WHAT they do, WHERE it happens, and WHY John's ministry is important.",
+          "tips": [
+            "John the Baptist preaches repentance in the wilderness near the Jordan River",
+            "He calls people to be baptized for the forgiveness of sins (v.3)",
+            "John prepares the way for Jesus' ministry (v.4-5)"
+          ],
+          "focusVerse": "3:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: John's declaration about Jesus (v.16-17), the baptism event (v.21-22), or the voice from heaven (v.22)?",
+          "tips": [
+            "John's humility: 'he who is mightier than I is coming' (v.16) shows his focus on Jesus",
+            "The voice from heaven: 'You are my beloved Son; with you I am well pleased' (v.22) reveals the Trinity",
+            "Jesus' baptism at age 30 (v.22) marks the beginning of his public ministry"
+          ],
+          "focusVerse": "3:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about the role of John the Baptist and Jesus' baptism?",
+          "tips": [
+            "Luke emphasizes that John's ministry prepares the way for Jesus (the Messiah) as prophesied by Isaiah",
+            "The baptism of Jesus reveals the Trinity: the Holy Spirit descending, the Father's voice, and Jesus as the beloved Son",
+            "This passage shows that Jesus is the fulfillment of the Old Testament prophecies and the beginning of his public ministry"
+          ],
+          "focusVerse": "3:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'baptism of fire', the role of the Holy Spirit, or the timing of Jesus' ministry?",
+          "tips": [
+            "'Baptism of fire' (v.16) refers to the purifying effect of the Holy Spirit, not literal fire",
+            "The Holy Spirit descending on Jesus (v.22) is a unique event that shows Jesus' divinity",
+            "The phrase 'he who is mightier than I' (v.16) indicates John's recognition of Jesus' authority"
+          ],
+          "focusVerse": "3:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of preparation for Christ's coming in your life this week?",
+          "tips": [
+            "Reflect on what you need to 'prepare' (repentance) for God's work in your life",
+            "Pray for the Holy Spirit to transform you like the 'baptism of fire'",
+            "Commit to a step of obedience that aligns with Jesus' coming (e.g., sharing your faith)"
+          ],
+          "focusVerse": "3:1-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for Jesus as the beloved Son and for the Holy Spirit's work. Ask for the courage to repent and be baptized by the Spirit.",
+          "tips": [
+            "Thank God for Jesus as the beloved Son and for the Holy Spirit's work",
+            "Ask for the courage to repent and be baptized by the Spirit",
+            "Pray for the guidance to see how Christ is preparing the way for you"
+          ],
+          "focusVerse": "3:1-22"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 4,
+      "chapterTitle": "Temptation and Rejection at Nazareth",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 4:1-30 aloud, focusing on the dialogue with the devil (vv. 3-4, 6-7) and the rejection in Nazareth (vv. 16-21).",
+          "tips": [
+            "Notice the repetition of 'It is written' in verses 4 and 7",
+            "Pay attention to the emotional shift from Jesus' confidence to the crowd's rejection in verse 22"
+          ],
+          "focusVerse": "4:1-30"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus) is tested, WHAT (he was tempted by the devil for 40 days, then read in Nazareth and was rejected), WHERE (the wilderness and Nazareth), and WHY (to show that the Messiah is led by the Spirit and will be rejected in His hometown).",
+          "tips": [
+            "Jesus' 40-day temptation in the wilderness (v. 1-3)",
+            "The devil's three temptations and Jesus' responses using Scripture (v. 3-4, 6-7)",
+            "Jesus' reading of Isaiah in Nazareth and the crowd's rejection (v. 16-21)"
+          ],
+          "focusVerse": "4:1-30"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' use of Scripture to defeat the devil (v. 4, 7), his anointing by the Spirit (v. 18), or the crowd's reaction (v. 22).",
+          "tips": [
+            "Jesus' immediate response to the devil's first temptation: 'It is written, man shall not live by bread alone' (v. 4) shows his reliance on God's Word, not human needs",
+            "The phrase 'No prophet is acceptable in his hometown' (v. 19) highlights the universal truth that the Messiah will be rejected by His own people",
+            "The scroll of Isaiah being read and fulfilled in that moment (v. 21) demonstrates the divine plan being realized"
+          ],
+          "focusVerse": "4:1-30"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about Jesus' identity and mission?",
+          "tips": [
+            "Luke emphasizes that Jesus is the anointed one (Messiah) who fulfills Isaiah's prophecy (v. 18-21), showing that His mission is to bring good news to the poor and liberty to captives",
+            "The rejection in Nazareth (v. 19-22) serves as a warning that the Messiah's work will face opposition, especially from those who know Him best",
+            "This passage prepares the Gentile audience for Jesus' future mission by showing that He is led by the Spirit (v. 1) and will be rejected by His own people"
+          ],
+          "focusVerse": "4:1-30"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The 40-day temptation, the rejection in Nazareth, and the role of Scripture in defeating the devil.",
+          "tips": [
+            "The 40-day temptation: This is a unique test of Jesus, but it's not a 'test' in the sense of trying to sin (as in the Old Testament) but rather a demonstration of His perfect obedience to God",
+            "The crowd's rejection: In Jewish context, a prophet is expected to be accepted in their hometown. This shows that Jesus' mission is not limited to the Jewish people but will face opposition from all",
+            "The devil's offer of kingdoms: The devil's power is to offer worldly power (v. 6-7), but Jesus counters with the command to worship God alone (v. 7)"
+          ],
+          "focusVerse": "4:1-30"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does Jesus' use of Scripture to resist temptation apply to your life?",
+          "tips": [
+            "When you face a temptation to do something that seems easy (like the devil's offer of bread), recall that God provides more than physical needs (v. 4)",
+            "Pray for the strength to use Scripture to resist temptation, just as Jesus did",
+            "This week, choose one area where you might need to 'read the Scripture' to guide your decisions"
+          ],
+          "focusVerse": "4:1-30"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God's help in resisting temptation and understanding the rejection of Jesus in Nazareth.",
+          "tips": [
+            "Thank God for Jesus' victory over the devil through Scripture",
+            "Pray for courage to stand firm in faith when facing opposition",
+            "Ask God to help you recognize devil's temptations and respond with Scripture"
+          ],
+          "focusVerse": "4:1-30"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 5,
+      "chapterTitle": "Calling Disciples and Healing",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 5 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 6,
+      "chapterTitle": "Sermon on the Plain",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 6:20-49 aloud, paying special attention to the contrast in the blessings and woes (vv. 20-23) and the call to love enemies (vv. 27-38).",
+          "tips": [
+            "Notice the repetition of 'blessed' and 'woe' in the blessings section (vv. 20-23)",
+            "Pay attention to the phrase 'love your enemies' and the practical application in verses 27-38",
+            "Listen for the contrast between the 'log' in your eye and the 'speck' in your brother's eye (vv. 41-42)"
+          ],
+          "focusVerse": "6:20-49"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Jesus addresses, WHAT he teaches, WHERE this happens (the level place), and WHY (to establish kingdom ethics for the early church).",
+          "tips": [
+            "Include the poor, hungry, and the rich as the targets of the blessings and woes",
+            "Note the call to love enemies and the practical commands (e.g., 'do good to those who hate you')",
+            "Highlight the parable of the tree and fruit (vv. 43-45) as the final teaching"
+          ],
+          "focusVerse": "6:20-49"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the blessing on the poor (v. 20), the command to love enemies (v. 27-38), or the tree and fruit metaphor (v. 43-45)?",
+          "tips": [
+            "The blessing on the poor (v. 20) is radical in a culture that values wealth and social status",
+            "The command to love enemies (v. 27-38) is a radical call that challenges the status quo of the time",
+            "The tree and fruit metaphor (v. 43-45) is a clear and concise way to show that true discipleship produces good fruit"
+          ],
+          "focusVerse": "6:20-49"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about the nature of the kingdom of God and how it should be lived?",
+          "tips": [
+            "Luke's audience (Gentile believers) needed to understand that the kingdom of God is characterized by radical love and humility, not worldly success",
+            "The sermon provides a blueprint for living as a disciple in a hostile world (e.g., Rome and Jewish authorities)",
+            "The call to love enemies and the mercy of God (vv. 36-38) shows that the kingdom of God is a community of grace that transcends social and ethnic divisions"
+          ],
+          "focusVerse": "6:20-49"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The blessing on the poor? Why love enemies? The tree and fruit metaphor?",
+          "tips": [
+            "The blessing on the poor (v. 20) might seem counterintuitive in a culture that values wealth and social status",
+            "The command to love enemies (v. 27-38) is radical in a context where enemies were often physical threats (e.g., Roman soldiers, Jewish authorities)",
+            "The tree and fruit metaphor (v. 43-45) is a way to show that true discipleship is evident by their actions, not just words"
+          ],
+          "focusVerse": "6:20-49"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice loving your enemies this week? Consider the specific actions in Luke 6:27-38.",
+          "tips": [
+            "Identify one person who has been an enemy to you (e.g., a person you've argued with) and try to do one good thing for them",
+            "Practice mercy by forgiving someone who has wronged you, even if it's small",
+            "Reflect on the 'log' in your own eye (v. 42) and how you might be ignoring your own faults when you judge others"
+          ],
+          "focusVerse": "6:27-38"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the call to love enemies and the mercy of God as shown in this passage.",
+          "tips": [
+            "Thank God for the command to love enemies and the mercy that flows from the cross",
+            "Pray for the courage to forgive and do good to those who hate you",
+            "Ask God to help you see the 'log' in your own eye and to be more like the Father who is merciful"
+          ],
+          "focusVerse": "6:27-38"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 7,
+      "chapterTitle": "Faith of the Centurion and Raising the Widow's Son",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 7:1-17 aloud, paying attention to the centurion's humility and the power of Jesus' word.",
+          "tips": [
+            "Notice the centurion's words: 'I am not worthy to have you come under my roof'",
+            "Pay attention to the centurion's request: 'Say the word, and let my servant be healed'",
+            "Listen for the emotional shift as the widow's son is raised from death"
+          ],
+          "focusVerse": "7:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the centurion, his servant, the widow and her son) does WHAT (the centurion sends for Jesus to heal his servant, Jesus raises the widow's son from death), WHERE (Capernaum and Nain), and WHY (to demonstrate God's power and visitation to His people).",
+          "tips": [
+            "Include the centurion's status as a Roman military officer (non-Jewish)",
+            "Note the widow's son was dead and raised by Jesus",
+            "Explain the centurion's faith in Jesus' word without requiring ritual"
+          ],
+          "focusVerse": "7:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the centurion's faith (v.1-10), the widow's son raised (v.11-17), or the centurion's humility?",
+          "tips": [
+            "The centurion's words: 'Say the word, and let my servant be healed' shows his understanding of Christ's authority without religious rituals",
+            "The widow's son rising from death demonstrates God's visitation to His people",
+            "The centurion's status as a Gentile having greater faith than the Jewish people"
+          ],
+          "focusVerse": "7:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus (Gentile believers) about the nature of faith and God's power through this passage?",
+          "tips": [
+            "The centurion, a Gentile, has greater faith than the Jewish people, showing that faith in Christ is not limited to ethnic groups",
+            "Christ's word has healing and resurrection power, accessible to all who believe",
+            "God's visitation to His people is through Jesus, who demonstrates His power to the world"
+          ],
+          "focusVerse": "7:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The centurion's faith? The widow's son being raised? Why does the centurion have greater faith?",
+          "tips": [
+            "Centurion's faith: As a Roman officer, he was not part of the Jewish religious system but understood Jesus' authority without needing rituals",
+            "The raising of the dead: This was a sign of God's power and visitation, which was a radical demonstration of Christ's authority",
+            "Why the centurion has greater faith? Because he recognized Jesus' authority without requiring religious rituals (unlike the Jewish people who were focused on the law)"
+          ],
+          "focusVerse": "7:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the centurion's faith to your life this week? What does it mean to trust Christ's word for healing?",
+          "tips": [
+            "Consider a situation where you need to trust God's word without seeing immediate results",
+            "Think about how the centurion's humility (not wanting Jesus to enter his house) can be applied to your own faith",
+            "Practice speaking to God with the same confidence as the centurion: 'Say the word, and let my need be healed'"
+          ],
+          "focusVerse": "7:1-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the centurion's faith and the raising of the widow's son. Ask for courage to trust Christ's word.",
+          "tips": [
+            "Thank God that He heals through the word of Jesus",
+            "Pray for the courage to trust in Christ's authority even when it's difficult",
+            "Ask God to show you where you need to have the centurion's faith"
+          ],
+          "focusVerse": "7:1-17"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 8,
+      "chapterTitle": "Parables and Power Over Nature, Demons, Disease, and Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 8 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 9,
+      "chapterTitle": "Sending the Twelve and the Transfiguration",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 9 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 10,
+      "chapterTitle": "The Seventy-Two and the Good Samaritan",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 10 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 11,
+      "chapterTitle": "Teaching on Prayer and Warnings",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 11:1-16 aloud, focusing on the disciples' request for prayer teaching and the woe statements.",
+          "tips": [
+            "Notice the repetition of 'Father' in the Lord's Prayer (v.2-4)",
+            "Pay attention to the emotional shift from teaching prayer (v.1-4) to the strong man analogy (v.17-20)",
+            "The phrase 'woe to you' (v.42-44) is a strong critique of religious hypocrisy"
+          ],
+          "focusVerse": "11:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize in your own words: WHO (Jesus and disciples), WHAT (teaching the Lord's Prayer and warnings), WHERE (Jesus was praying), and WHY (to equip disciples for prayer and warn against hypocrisy).",
+          "tips": [
+            "Jesus teaches the Lord's Prayer (v.2-4)",
+            "The strong man analogy (v.17-20) explains Jesus' authority over Satan",
+            "The woe to the Pharisees (v.42-44) criticizes religious practice that neglects justice and love"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the Lord's Prayer (v.2-4), the 'strong man' analogy (v.17-20), or the woe statements (v.42-44)?",
+          "tips": [
+            "The Lord's Prayer is a model of humble prayer that acknowledges God's sovereignty",
+            "The 'strong man' (v.17) shows Jesus as the One who plunders Satan's kingdom",
+            "The woe statements (v.42-44) are a direct critique of the Pharisees' neglect of justice and love"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers through this passage?",
+          "tips": [
+            "Luke emphasizes that Jesus is the model for prayer and the source of the Holy Spirit",
+            "He shows that Jesus is the One stronger than Satan (v.20) and thus the true authority",
+            "The passage warns Gentile believers against religious hypocrisy that neglects the heart of God"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The accusation about Beelzebul? The 'strong man' analogy? The woe statements?",
+          "tips": [
+            "The phrase 'Beelzebul' (v.15) is a name for Satan, and the accusation that Jesus casts out demons by him is a claim of Jesus' authority",
+            "The 'strong man' (v.17) is a metaphor for Satan guarding his kingdom, and Jesus as the 'stronger' man takes it",
+            "The woe statements (v.42-44) are a critique of the Pharisees for tithing but neglecting justice and love of God"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the Lord's Prayer (v.2-4) to your daily life this week?",
+          "tips": [
+            "Pray for forgiveness of others as you pray for yourself",
+            "Ask God for daily provision and guidance in your specific needs",
+            "Practice the phrase 'lead us not into temptation' by seeking God's strength"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the Lord's Prayer and the warning against hypocrisy.",
+          "tips": [
+            "Thank God for teaching us to pray in the Lord's Prayer",
+            "Ask for the Holy Spirit to help you pray effectively",
+            "Pray for courage to avoid the hypocrisy of the Pharisees"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 12,
+      "chapterTitle": "Warnings and Encouragements",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 12:1-48 aloud, paying attention to the contrast between warnings (e.g., hypocrisy) and encouragement (e.g., 'fear not') in the discourse.",
+          "tips": [
+            "Notice the repeated phrase 'Beware' in verses 1-2 and 7",
+            "Pay attention to the contrast between the rich fool's possessions (v.16-19) and the fleeting nature of life (v.20)",
+            "The emotional shift from warning to reassurance in verses 22-34"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Jesus is warning (disciples), WHAT they must beware of (hypocrisy, covetousness), WHERE this happens (a large crowd gathering), and WHY (to prepare for persecution and discipleship).",
+          "tips": [
+            "The crowd gathering in the streets (v.1)",
+            "The disciples as the primary audience (v.1-2)",
+            "The context of persecution and the need for spiritual readiness (v.22-34)"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the warning about hypocrisy (v.1-2), the acknowledgment of Christ (v.3-4), the rich fool parable (v.16-21), or the encouragement to fear not (v.22-34)?",
+          "tips": [
+            "The rich fool parable (v.16-21) shows the contrast between worldly wealth and eternal life in a way that is relatable and cautionary",
+            "The phrase 'fear not, little flock' (v.31) provides immediate comfort and reassurance in the face of anxiety",
+            "The contrast between the rich man's possessions and his soul's requirement (v.20) highlights the fleeting nature of material wealth"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about the challenges of discipleship in the early church?",
+          "tips": [
+            "To emphasize that true discipleship requires humility and a focus on spiritual matters rather than worldly wealth",
+            "To prepare the Gentile believers for potential persecution by encouraging trust in God's provision",
+            "To show that Christ's acknowledgment is a sign of the kingdom, and that the Holy Spirit will guide in persecution"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? (e.g., the rich fool parable, the statement about being acknowledged by angels, the use of 'leaven' for hypocrisy)",
+          "tips": [
+            "The term 'leaven of the Pharisees' (v.1) refers to hypocrisy that spreads and corrupts, not the actual leaven in bread",
+            "The phrase 'acknowledged before the angels of God' (v.3) means that Christ's followers will be recognized by heavenly authorities, not that angels will see them physically",
+            "The rich fool's story (v.16-21) is a parable that uses the contrast between the rich man's possessions and his soul's impermanence to show the danger of materialism"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of 'fear not' (v.22-34) and how it applies to your current anxiety about possessions and life.",
+          "tips": [
+            "Identify one area where you are anxious about your possessions or life and ask God to show you how He will provide",
+            "Practice being 'dressed for action' (v.34) by keeping your spiritual life active and your lamps burning (e.g., prayer, service)",
+            "Reflect on the rich fool's story and consider what you can give up to focus on eternal life"
+          ],
+          "focusVerse": "12:1-48"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the theme of fear not and the kingdom of God.",
+          "tips": [
+            "Thank God for His promise that He will provide for your needs (v.30-31)",
+            "Ask for courage to trust in His provision when facing financial or personal challenges",
+            "Pray that you will be 'little flocks' who are not anxious but focused on His kingdom"
+          ],
+          "focusVerse": "12:1-48"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 13,
+      "chapterTitle": "Repentance and the Narrow Door",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 13:1-21 aloud, paying attention to the emotional tone of Jesus' lament for Jerusalem and the contrast between the barren fig tree and the freed woman.",
+          "tips": [
+            "Note the repetition of 'unless you repent' in v.3 and v.5",
+            "Pay attention to the contrast between the Galileans' suffering and the call for repentance",
+            "The phrase 'O Jerusalem, Jerusalem' (v.34) carries deep sorrow and longing"
+          ],
+          "focusVerse": "13:1-21"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO Jesus is speaking to, WHAT he says about repentance, WHERE this occurs, and WHY he uses the examples of the Galileans and the fig tree.",
+          "tips": [
+            "The Galileans (v.1-5): A group of people who were killed by Roman authorities",
+            "The fig tree (v.6-9): Jesus' teaching on the need for fruitfulness in the kingdom",
+            "The crippled woman (v.12-13): Jesus healing on the Sabbath"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus' warning about repentance (v.3), the fig tree parable (v.6-9), or the healing of the woman (v.12-13)?",
+          "tips": [
+            "The call to repentance: 'Unless you repent, you will all likewise perish' (v.3) is a stark warning that applies universally",
+            "The fig tree: Jesus says the tree is barren and will be cut down if it doesn't bear fruit in the next year (v.7-9) - a picture of Israel's need for repentance",
+            "The healing of the woman: Jesus says 'Woman, you are freed from your disability' (v.13) - showing grace and compassion on the Sabbath"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about the necessity of repentance and the narrow path to salvation?",
+          "tips": [
+            "Luke's purpose was to show that salvation requires repentance and faith, not just religious rituals",
+            "The fig tree represents Israel's failure to produce spiritual fruit (the kingdom of God) and the need for a change of heart",
+            "The lament over Jerusalem shows that even the city that killed the prophets is not saved without repentance"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The Galileans' blood being mingled with sacrifices, the meaning of the fig tree, or the Sabbath healing?",
+          "tips": [
+            "The Galileans' blood being mingled with sacrifices (v.1): This refers to the Roman soldiers killing Galileans and mixing their blood with the sacrifices that were being offered at the temple (a sign o",
+            "The fig tree (v.6-9): In Jewish tradition, the fig tree was a symbol of Israel and its failure to bear fruit (the kingdom of God) without repentance",
+            "Healing on the Sabbath (v.12-13): Jesus is challenging the religious leaders' interpretation of the Sabbath by healing a woman on the Sabbath day"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the call to repentance in your life this week? Consider the barren fig tree as a picture of your own spiritual state.",
+          "tips": [
+            "Reflect on one area where you've been 'barren' (not producing spiritual fruit) and ask God for repentance",
+            "Commit to spending time in prayer and Scripture this week to 'bear fruit' (like the fig tree that is given time to produce)",
+            "Pray for the grace to heal the 'crippling spirit' in your life, just as Jesus did for the woman"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercy in the healing of the woman and ask for the courage to repent.",
+          "tips": [
+            "Thank God for the example of Jesus healing the crippled woman on the Sabbath",
+            "Pray for the strength to repent of sins that keep you from bearing fruit",
+            "Ask Jesus to open your heart to the 'narrow door' of salvation"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 14,
+      "chapterTitle": "Parables of the Banquet and Counting the Cost",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 14:1-24 aloud, paying attention to the contrast between Jesus' healing of the man with dropsy and the parable of the banquet.",
+          "tips": [
+            "Notice the repeated phrase 'humble yourself' (v.11) and 'exalted' (v.12)",
+            "Pay attention to the emotional tone of Jesus' instruction: firm yet compassionate",
+            "The phrase 'count the cost' (v.26-27) appears in the context of discipleship"
+          ],
+          "focusVerse": "14:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus) is speaking to, WHAT (the parable of the banquet and the cost of discipleship), WHERE (at the house of a ruler of the Pharisees), and WHY (to challenge the guests' humility and the cost of following Christ).",
+          "tips": [
+            "Include the healing of the man with dropsy (v.4) as a sign of Jesus' authority",
+            "Note the parable of the banquet: inviting the poor and marginalized (v.8-11)",
+            "Describe the call to count the cost of discipleship (v.26-27)"
+          ],
+          "focusVerse": "14:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Jesus healing the man with dropsy (v.4), the invitation to the low places (v.8), or the cost of discipleship (v.26-27)?",
+          "tips": [
+            "The healing of the man with dropsy shows Jesus' compassion and authority over the Sabbath",
+            "The instruction to 'go and sit in the lowest place' (v.8) is a powerful call to humility",
+            "The phrase 'if anyone comes to me and does not hate...' (v.26-27) reveals the radical nature of discipleship"
+          ],
+          "focusVerse": "14:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about the nature of discipleship and the kingdom of God through this passage?",
+          "tips": [
+            "Luke emphasizes that true discipleship requires humility and a willingness to follow Jesus even at great cost (v.26-27)",
+            "The banquet parable shows that God's kingdom is filled by those who are marginalized and poor (v.8-11)",
+            "This passage addresses the Gentile believers by showing how they can participate in the kingdom through humility and costly obedience"
+          ],
+          "focusVerse": "14:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The call to 'humble yourself' (v.11), the requirement to 'count the cost' (v.26-27), or the idea of 'compelling' people to come (v.19-20)?",
+          "tips": [
+            "'Humble yourself' in v.11 is not about weakness but about selflessness and submission to God",
+            "The phrase 'count the cost' (v.26-27) is a radical call that may seem too costly for modern life",
+            "The instruction to 'compel people' (v.19-20) might be misinterpreted as aggressive rather than loving outreach"
+          ],
+          "focusVerse": "14:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice humility and count the cost of discipleship this week by inviting the marginalized and making sacrifices for others?",
+          "tips": [
+            "Today, identify one person from your community who is poor or marginalized and reach out to them with kindness",
+            "Reflect on what you might need to 'humble' yourself in your relationships this week",
+            "Make a sacrifice for someone else, even if it's small (e.g., giving up a privilege to help another)"
+          ],
+          "focusVerse": "14:1-24"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His grace in humbling us and empowering us to follow Him. Ask for courage to count the cost of discipleship.",
+          "tips": [
+            "Thank God for the healing of the man with dropsy (v.4) and His compassion",
+            "Pray for humility in your own life and the courage to follow Jesus even when it's costly",
+            "Ask God to help you invite the poor and marginalized into your life this week"
+          ],
+          "focusVerse": "14:1-24"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 15,
+      "chapterTitle": "Parables of the Lost",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 15:1-32 aloud, focusing on the emotional contrast between the Pharisees' grumbling and the joy of the parables.",
+          "tips": [
+            "Notice the repetition of 'lost' and the joy in finding the one lost",
+            "Pay attention to the father's immediate response to the prodigal son (v.20)"
+          ],
+          "focusVerse": "15:1-32"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus) does WHAT (tells three parables), WHERE (in the context of the crowds), and WHY (to illustrate the joy of repentance for the lost).",
+          "tips": [
+            "Include the Pharisees' complaint about Jesus eating with sinners (v.1-2)",
+            "Note the three parables: lost sheep, lost coin, and prodigal son",
+            "Highlight the central theme: joy over one sinner who repents"
+          ],
+          "focusVerse": "15:1-32"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the father's running to embrace the prodigal (v.20), the prodigal's declaration 'I will arise and go to my father' (v.18), or the restoration language 'he was dead, and is alive again' (v.24).",
+          "tips": [
+            "The father's running shows radical, uncalculated love that overcomes shame",
+            "The phrase 'he was dead, and is alive again' is a powerful metaphor for spiritual rebirth",
+            "The immediate embrace without conditions reflects God's grace"
+          ],
+          "focusVerse": "15:18-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about God's active search for the lost and the joy in repentance?",
+          "tips": [
+            "Luke writes for Gentile believers to emphasize that God's grace is for all, not just the Jewish people",
+            "The parables contrast the Pharisees' legalism with God's compassionate restoration",
+            "This shows that repentance and restoration are central to the gospel"
+          ],
+          "focusVerse": "15:1-32"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The contrast between 'righteous' and 'sinner', the spiritual death of the prodigal son, and the father's immediate action.",
+          "tips": [
+            "The 'righteous' in v.7 are those who do not need repentance (like the Pharisees), not the morally perfect",
+            "Spiritual death means separation from God; the prodigal son's return is restoration",
+            "The father's running (v.20) shows God's love that is not conditional on the son's behavior"
+          ],
+          "focusVerse": "15:1-32"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you actively seek and restore relationships with those who are lost (spiritually) this week?",
+          "tips": [
+            "Focus on one person in your life who is struggling and practice the father's compassion",
+            "Remember that God's joy comes in the restoration of the lost (v.7)",
+            "Pray for the courage to run to those who are lost, like the father"
+          ],
+          "focusVerse": "15:7"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the shepherd who seeks the lost and ask for the grace to run to those who are lost.",
+          "tips": [
+            "Thank God for the joy of one sinner who repents (v.7)",
+            "Pray for courage to embrace the prodigal in your life",
+            "Ask God to strengthen your heart to seek and restore relationships"
+          ],
+          "focusVerse": "15:7"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 16,
+      "chapterTitle": "The Shrewd Manager and the Rich Man and Lazarus",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 16:1-13 and 16:19-31 aloud, paying attention to the manager's shrewd actions and the contrast between the rich man and Lazarus.",
+          "tips": [
+            "Notice the manager's phrase: 'I have decided what to do' (v. 2)",
+            "Pay attention to the rich man's complaint about Lazarus (v. 20-21)",
+            "Identify the emotional shift in the rich man's attitude (v. 24-25)"
+          ],
+          "focusVerse": "16:1-13, 16:19-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO is involved, WHAT happens, WHERE it takes place, and WHY it matters in the context of Luke 16.",
+          "tips": [
+            "Include the shrewd manager's actions (v. 1-2) and the rich man's disregard for Lazarus (v. 19-21)",
+            "Note the setting: the rich man's house (v. 19) and the afterlife (v. 22-24)",
+            "Explain the cause: the rich man's neglect of the poor and Scripture (v. 31)"
+          ],
+          "focusVerse": "16:1-13, 16:19-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider the manager's shrewdness, the rich man's indifference, or the phrase 'Moses and the Prophets'?",
+          "tips": [
+            "The manager's immediate action: 'I have decided what to do' (v. 2) shows quick thinking without waiting",
+            "The rich man's pride: 'He will be in torment' (v. 24) while Lazarus is in comfort (v. 22)",
+            "The phrase 'Moses and the Prophets' (v. 31) is a powerful call to heed Scripture"
+          ],
+          "focusVerse": "16:1-13, 16:19-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about the dangers of wealth and the importance of serving God?",
+          "tips": [
+            "Luke addresses Gentile believers with a warning against wealth and the need for spiritual priorities",
+            "The shrewd manager foreshadows Christ as the ultimate 'manager' of our lives",
+            "The rich man and Lazarus story shows the consequences of ignoring the poor and Scripture"
+          ],
+          "focusVerse": "16:1-13, 16:19-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The manager's dishonesty, the rich man's punishment, or the meaning of 'Moses and the Prophets'?",
+          "tips": [
+            "The manager's shrewdness is practical but not moral: he is 'dishonest' yet commended (v. 8)",
+            "The rich man's punishment is for neglecting the poor and Scripture (v. 31)",
+            "The phrase 'Moses and the Prophets' (v. 31) refers to Old Testament teachings but points to Christ"
+          ],
+          "focusVerse": "16:1-13, 16:19-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the lesson that you cannot serve God and money (v. 13) this week?",
+          "tips": [
+            "Identify an area where you use money to control your life (e.g., debt, materialism) and shift focus to God",
+            "Pray for the strength to be generous like the manager's actions but with integrity (v. 8)",
+            "Ask God to help you see the poor (Lazarus) in your community and serve them"
+          ],
+          "focusVerse": "16:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the warning about wealth and ask for the courage to prioritize Him over money.",
+          "tips": [
+            "Thank God that He is the true manager of our lives (v. 13)",
+            "Pray for the grace to be generous and see the poor in your community",
+            "Ask God to help you heed Scripture (Moses and the Prophets) and not ignore warnings"
+          ],
+          "focusVerse": "16:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 17,
+      "chapterTitle": "Faith, Duty, and the Coming Kingdom",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 17:1-22 aloud, paying attention to the contrast between the high expectations of faith and the humility of serving.",
+          "tips": [
+            "Notice the repeated phrase 'if he repents' (v.4) and 'seven times' (v.4)",
+            "Pay attention to the mustard seed faith (v.6) and the servant analogy (v.7-10)",
+            "The lepers incident (v.11-19) shows the contrast between the ten and the one who returns"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is being taught, WHAT they are commanded to do, WHERE the teaching occurs, and WHY it matters for the early church.",
+          "tips": [
+            "Include the apostles' request for faith (v.6)",
+            "Note the lepers' healing and the one who returns (v.11-19)",
+            "The kingdom of God statement (v.20-21)"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the mustard seed faith (v.6), the servant analogy (v.7-10), or the lepers incident (v.11-19)?",
+          "tips": [
+            "The mustard seed faith is a powerful image of small faith doing great things (v.6)",
+            "The servant analogy shows humility in doing what is expected (v.7-10)",
+            "The lepers incident highlights gratitude and the one who returns to praise God (v.11-19)"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about faith, duty, and the coming kingdom?",
+          "tips": [
+            "Luke emphasizes that true faith is active and humble (as in the servant analogy)",
+            "The kingdom of God is present in the midst of believers, not a future event",
+            "The focus on forgiveness and repeated repentance addresses the practical challenges of community life"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The 'seven times' forgiveness, the mustard seed faith, or the kingdom of God being 'in the midst of you'?",
+          "tips": [
+            "The 'seven times' forgiveness (v.4) is a hyperbolic expression for complete forgiveness in the context of community",
+            "Mustard seed faith (v.6) is a metaphor for the power of small but faithful actions",
+            "The kingdom of God being 'in the midst of you' (v.21) challenges the expectation of a visible, external kingdom"
+          ],
+          "focusVerse": "17:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice the servant's duty and the spirit of forgiveness in your community this week?",
+          "tips": [
+            "When someone repents, forgive them as you have been forgiven (v.4)",
+            "Reflect on what السيد you have done that was 'duty' (like serving) and what you can do better",
+            "Pray for the grace to forgive repeatedly"
+          ],
+          "focusVerse": "17:4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for the kingdom of grace that is in the midst of us, and ask for the humility to serve and forgive.",
+          "tips": [
+            "Thank God for the example of the one leper who returned to praise (v.18)",
+            "Pray for the courage to forgive repeatedly (v.4)",
+            "Ask for the faith to do what is small but powerful (v.6)"
+          ],
+          "focusVerse": "17:21"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 18,
+      "chapterTitle": "Persistent Prayer and Childlike Faith",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 18 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 19,
+      "chapterTitle": "Zacchaeus, the Minas, and the Triumphal Entry",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 19 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 20,
+      "chapterTitle": "Authority Challenged and the Wicked Tenants",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 20:9-26 aloud, paying attention to the dialogue between Jesus and the chief priests in verses 9-10 and the parable in verses 10-19.",
+          "tips": [
+            "Notice the repeated phrase 'by what authority' in verse 9",
+            "Pay attention to the emotional tone of the tenants in the parable (verses 11-18) as they reject the owner",
+            "The phrase 'the stone that the builders rejected' (v.17) is a key reference to Christ"
+          ],
+          "focusVerse": "20:9-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is challenged, WHAT Jesus does, WHERE it happens, and WHY the chief priests are concerned.",
+          "tips": [
+            "Include the chief priests and scribes challenging Jesus' authority (v.9)",
+            "Note the parable of the tenants (v.10-19) where the tenants reject the owner's servants and the son",
+            "Describe the tribute question (v.20-26) where Jesus asks for a denarius"
+          ],
+          "focusVerse": "20:9-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the parable of the tenants (v.10-19), the tenants' rejection of the son (v.12-13), or the tribute answer (v.24-26)?",
+          "tips": [
+            "The tenants' decision to kill the son (v.12) mirrors the religious leaders' rejection of Christ",
+            "The phrase 'the stone that the builders rejected' (v.17) is a direct reference to Christ becoming the cornerstone",
+            "The tribute answer: 'Render to Caesar the things that are Caesar's, and to God the things that are God's' (v.24-26) is a profound statement of dual allegiance"
+          ],
+          "focusVerse": "20:9-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about authority and faith through this passage?",
+          "tips": [
+            "Luke emphasizes that Christ's authority comes from God, not human institutions (v.17)",
+            "The parable shows that the religious leaders (tenants) have rejected Christ, who is the cornerstone of the church",
+            "The tribute answer demonstrates that believers must honor both earthly and heavenly authorities"
+          ],
+          "focusVerse": "20:9-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The parable's meaning, the tenants' role, or the tribute question?",
+          "tips": [
+            "The 'tenants' represent the religious leaders who have rejected God's authority (v.10-19) - this is a direct reference to the religious leaders of Jesus' time",
+            "The phrase 'the stone that the builders rejected' (v.17) is a reference to Christ being the cornerstone of the church, which may be confusing without context",
+            "The tribute question (v.20-26) challenges the idea that believers must obey Caesar (the Roman emperor) without also obeying God"
+          ],
+          "focusVerse": "20:9-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the lesson of 'render to Caesar and to God' in your life this week?",
+          "tips": [
+            "Consider a task that is 'Caesar's' (earthly) that you can do without compromising your faith",
+            "Think about how you can 'render to God' (spiritual) in a practical way",
+            "Pray for the courage to make decisions that honor both God and society"
+          ],
+          "focusVerse": "20:24-26"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His authority and ask for the courage to follow His lead.",
+          "tips": [
+            "Thank God that He has given us the authority to live by His word (v.24)",
+            "Ask for the strength to reject the 'wicked tenants' of worldly authority",
+            "Pray for the grace to 'render to God the things that are God's' in your daily life"
+          ],
+          "focusVerse": "20:24"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 21,
+      "chapterTitle": "Signs of the End",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 21:1-24 aloud, focusing on the contrast between the widow's offering and the temple destruction prophecy.",
+          "tips": [
+            "Notice the repetition of 'more' (v.4) and 'this poor widow has put in more than all of them' (v.4)",
+            "Pay attention to the shift in tone from the widow's generosity to the impending destruction of Jerusalem (v.5-6)",
+            "Listen for the phrase 'the Son of Man' (v.27) as the coming event"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Jesus, the rich, the poor widow, the crowd) does WHAT (gives offerings, prophesies destruction), WHERE (the temple in Jerusalem), and WHY (to teach about true worship and the end times).",
+          "tips": [
+            "Include the widow's two copper coins (v.1-4)",
+            "Note the temple's destruction in 70 AD (v.5-6)",
+            "Describe the signs of the end (v.7-24)"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the widow's two coins (v.1-4), the temple destruction (v.5-6), or the Son of Man coming in glory (v.27).",
+          "tips": [
+            "The widow's two coins show total devotion despite poverty (v.1-4)",
+            "The phrase 'one stone upon another' (v.5) is a vivid image of complete destruction",
+            "The Son of Man coming in a cloud (v.27) is the climax of the end times"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about the end times and true worship?",
+          "tips": [
+            "Luke emphasizes that Jesus is the fulfillment of prophecy and the only true worship",
+            "He warns against false teachers and persecution, but also promises His return",
+            "The widow's example shows that true worship is from the heart, not wealth"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The temple destruction prophecy? The signs in the sky? The Son of Man's return?",
+          "tips": [
+            "The temple destruction (v.5-6) refers to the 70 AD destruction by Roman armies, which was a fulfillment of prophecy",
+            "The 'signs in sun and moon and stars' (v.10) are a sign of the end times, but the exact meaning is not specified in the text",
+            "The phrase 'the Son of Man' (v.27) is a title for Jesus that emphasizes His authority and coming judgment"
+          ],
+          "focusVerse": "21:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Like the widow, what can you give completely this week without worrying about your financial situation?",
+          "tips": [
+            "Consider giving a small amount of your time or resources that you would normally save",
+            "Reflect on how you can trust God's provision when you are in a situation of scarcity",
+            "Practice giving without counting the cost, like the widow"
+          ],
+          "focusVerse": "21:1-4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the courage to give like the widow and for the strength to endure persecution.",
+          "tips": [
+            "Thank God for the widow's example of total giving",
+            "Ask for the grace to trust Him in difficult circumstances",
+            "Pray for the courage to be a witness in your community"
+          ],
+          "focusVerse": "21:1-4"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 22,
+      "chapterTitle": "The Last Supper and Gethsemane",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Luke 22:14-46 aloud, paying attention to the dialogue about the Last Supper and the prayer in Gethsemane.",
+          "tips": [
+            "Notice the repeated phrase 'not my will, but yours, be done' (v.42)",
+            "Pay attention to the emotional tone of Jesus' prayer (v.42-44)",
+            "Notice the description of sweat like blood (v.44)"
+          ],
+          "focusVerse": "22:14-46"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY Jesus is in Gethsemane.",
+          "tips": [
+            "Include the institution of the new covenant (bread and wine) by Jesus",
+            "Note Jesus' prayer in Gethsemane (v.42-44)",
+            "Describe the betrayal by Judas (v.47-48)"
+          ],
+          "focusVerse": "22:14-46"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the institution of the new covenant (v.19-20), Jesus' statement about serving (v.27), or the prayer in Gethsemane (v.42)?",
+          "tips": [
+            "The new covenant in blood is a profound promise of forgiveness and new life",
+            "Jesus' statement 'I am among you as the one who serves' challenges the disciples' expectations of leadership",
+            "The prayer in Gethsemane shows Jesus' deep submission to the Father's will"
+          ],
+          "focusVerse": "22:14-46"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Luke trying to communicate to Theophilus/Gentile believers about Christ's ultimate submission and the new covenant?",
+          "tips": [
+            "Luke emphasizes Christ's role as the servant who establishes the new covenant through His death",
+            "The new covenant in blood (v.20) is a fulfillment of the Old Testament promises",
+            "This passage shows Christ's willingness to submit to the Father's will despite the cost"
+          ],
+          "focusVerse": "22:14-46"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The new covenant in blood (v.20), the sweat like blood (v.44), or the betrayal by Judas (v.47-48)?",
+          "tips": [
+            "The new covenant refers to Christ's blood replacing animal sacrifices for forgiveness of sins",
+            "The sweat 'like blood' is a metaphor for intense spiritual distress (as in 1 Samuel 2:23)",
+            "Judas' betrayal was a fulfillment of Christ's prediction (v.21) and part of God's plan for the atonement"
+          ],
+          "focusVerse": "22:14-46"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice Christ's submission to God's will this week, especially in the area of the new covenant?",
+          "tips": [
+            "Choose one area where you feel called to submit to God's will (like Jesus in Gethsemane)",
+            "Pray with the same resolve as Jesus: 'Not my will, but yours, be done'",
+            "Consider what it means to be 'the one who serves' in your daily life"
+          ],
+          "focusVerse": "22:42"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the new covenant in His blood and ask for the strength to submit to His will.",
+          "tips": [
+            "Thank God for the new covenant in Jesus' blood (v.20)",
+            "Pray for the courage to submit to God's will when it's difficult (like Jesus in Gethsemane)",
+            "Ask God to strengthen your faith in His promises"
+          ],
+          "focusVerse": "22:20"
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 23,
+      "chapterTitle": "Trial, Crucifixion, and Burial",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 23 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "luke",
+      "bookName": "Luke",
+      "chapter": 24,
+      "chapterTitle": "The Resurrection and Ascension",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Luke 24 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    }
+  ]
+}

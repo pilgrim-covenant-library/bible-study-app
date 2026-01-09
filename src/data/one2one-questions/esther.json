@@ -1,0 +1,796 @@
+{
+  "bookId": "esther",
+  "bookName": "Esther",
+  "totalChapters": 10,
+  "chapters": [
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 1,
+      "chapterTitle": "Queen Vashti Deposed",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Esther 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 2,
+      "chapterTitle": "Esther Becomes Queen",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading the passage aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 3,
+      "chapterTitle": "Haman's Plot Against the Jews",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Esther 3:1-13 aloud, paying attention to Haman's confident tone and the phrase 'the Jews' in verses 8-9.",
+          "tips": [
+            "Notice Haman's repeated phrase 'I have no doubt' (v.2) showing his pride and confidence",
+            "Pay attention to the lot-casting in verse 7: 'the lot of the Jews' (pur)",
+            "Haman's plea to the king in verse 10: 'the Jews are dangerous'"
+          ],
+          "focusVerse": "3:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Haman) is acting against, WHAT (the Jews), WHERE (the Persian empire), and WHY (to destroy the Jews as a threat to the king).",
+          "tips": [
+            "Haman casts lots (pur) to determine the day of destruction (v.7)",
+            "The king issues a decree for the destruction of all Jews (v.12-13)",
+            "Mordecai's refusal to bow (v.2) is the catalyst for Haman's plot"
+          ],
+          "focusVerse": "3:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Haman's plot (v.1-5), the lot-casting (v.7), or the king's decree (v.12-13)?",
+          "tips": [
+            "Haman's confidence: 'I have no doubt' (v.2) shows his arrogance and the danger of pride",
+            "The lot-casting (v.7) is a random act that unknowingly allows time for God's intervention",
+            "The phrase 'the Jews' (v.8) is used in a way that shows Haman's view of them as a separate group"
+          ],
+          "focusVerse": "3:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Persian Jews about God's providence and the danger of pride through this passage?",
+          "tips": [
+            "This passage shows that God's sovereignty extends even to the destruction of His people by human enemies",
+            "Haman's plot is a warning against pride and the consequences of ignoring God's people",
+            "The lot-casting (pur) is a divine provision that allows time for deliverance"
+          ],
+          "focusVerse": "3:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'pur', why Haman targeted all Jews, and the king's decree?",
+          "tips": [
+            "'Pur' (lot) in Hebrew refers to a random number determined by casting lots, but it's used here to mean the day of destruction",
+            "Haman's target of all Jews (not just Mordecai) is a strategic move to eliminate a perceived threat",
+            "The king's decree (v.12-13) is a legal document that the king signs, showing the power of the Persian empire"
+          ],
+          "focusVerse": "3:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's providence in the face of opposition this week?",
+          "tips": [
+            "Identify one area where you feel God's providence is working despite opposition",
+            "Pray for courage to stand for what is right, like Mordecai",
+            "Ask God to give you the wisdom to trust His timing when things seem out of control"
+          ],
+          "focusVerse": "3:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His providence in the face of opposition and ask for courage to stand for His people.",
+          "tips": [
+            "Thank God for the lot-casting (pur) that gives time for His intervention",
+            "Pray for courage to stand against injustice like Mordecai",
+            "Ask God to help you trust His providence when life seems chaotic"
+          ],
+          "focusVerse": "3:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 4,
+      "chapterTitle": "Mordecai's Challenge: \"For Such a Time as This\"",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Esther 4:1-4 aloud, focusing on Mordecai's emotional response and the phrase 'for such a time as this'.",
+          "tips": [
+            "Notice the repetition of 'sackcloth' in verse 1 showing deep mourning",
+            "Pay attention to the phrase 'for such a time as this' (verse 4) which is the key phrase",
+            "The contrast between Mordecai's fear (he knows Esther's danger) and his courage to act"
+          ],
+          "focusVerse": "Esther 4:1-4"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Mordecai and Esther) does WHAT (Mordecai sends a message about the danger), WHERE (in the Persian court), and WHY (to save the Jewish people from Haman's plot).",
+          "tips": [
+            "Include that Mordecai is mourning publicly in sackcloth",
+            "Note that Esther is afraid to approach the king unsummoned",
+            "Mention that Mordecai's warning is about the consequences of silence"
+          ],
+          "focusVerse": "Esther 4:1-4"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Mordecai's public mourning (v.1), the phrase 'for such a time as this' (v.4), or Esther's fear (v.3).",
+          "tips": [
+            "Mordecai's public mourning in sackcloth shows his deep emotional response to the threat",
+            "The phrase 'for such a time as this' is a powerful reminder of God's timing and purpose",
+            "Esther's fear of death (v.3) highlights the stakes"
+          ],
+          "focusVerse": "Esther 4:1-4"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Persian Jews about God's providence and the necessity of courage in the face of danger?",
+          "tips": [
+            "The passage emphasizes that God's timing is for the purpose of delivering His people",
+            "Mordecai's challenge shows that God's provision is at work even in the midst of crisis",
+            "This passage foreshadows Christ's role as the one who provides deliverance"
+          ],
+          "focusVerse": "Esther 4:1-4"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The phrase 'for such a time as this', the danger of approaching the king unsummoned, and the cultural context of the Persian court.",
+          "tips": [
+            "The phrase 'for such a time as this' (v.4) is a poetic expression meaning 'this is the time God has prepared for this purpose'",
+            "In ancient Persia, approaching the king without being summoned was death, so Esther's fear is real",
+            "The Persian court was a place of high risk and power, so Mordecai's warning is urgent"
+          ],
+          "focusVerse": "Esther 4:1-4"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of courage in the face of fear to a current situation? Think about when you have been called to act despite fear.",
+          "tips": [
+            "Consider a situation where you are afraid to speak up or take action",
+            "Like Esther, you might be called to act for a cause that matters",
+            "Practice being courageous in small steps, like Mordecai who acted despite the danger"
+          ],
+          "focusVerse": "Esther 4:4"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the courage He gives us to act in His timing. Ask for the strength to face fear when it's needed.",
+          "tips": [
+            "Thank God for providing the courage to act in the right time",
+            "Pray for the strength to be like Esther who risks death for others",
+            "Ask God to help you see the 'such a time as this' in your life"
+          ],
+          "focusVerse": "Esther 4:4"
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 5,
+      "chapterTitle": "Esther's First Banquet",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Esther 5 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 6,
+      "chapterTitle": "Mordecai Honored, Haman Humiliated",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Esther 6:1-11 aloud, paying attention to the king's sleepless night and Haman's request for Mordecai's honor.",
+          "tips": [
+            "Notice the king's sleeplessness (v.1) and his command to read the chronicles (v.2)",
+            "Pay attention to Haman's proposal for Mordecai's honor (v.4-5) and the king's command (v.9)",
+            "The phrase 'the king said' (v.10) shows the king's authority"
+          ],
+          "focusVerse": "6:1-11"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY the king's actions lead to Haman's downfall.",
+          "tips": [
+            "The king's sleepless night leads him to read the chronicles (v.1-2) and learn about Mordecai's loyalty (v.3)",
+            "Haman seeks permission to honor Mordecai but the king commands Haman to do the honors for Mordecai (v.4-9)",
+            "Haman goes home in shame as his wife predicts his downfall (v.10-11)"
+          ],
+          "focusVerse": "6:1-11"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the king's sleepless night (v.1), Haman's proposal (v.4-5), or the king's command (v.9)?",
+          "tips": [
+            "The king's sleeplessness shows divine timing in action - God's plan unfolding in the night",
+            "Haman's proposal for Mordecai (v.4-5) is ironic because he wanted to hang Mordecai but now gets the honor",
+            "The king's command (v.9) is a direct reversal of Haman's plan"
+          ],
+          "focusVerse": "6:1-11"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Persian Jews about divine providence and the reversal of power in this chapter?",
+          "tips": [
+            "The chapter shows how God's providence works through seemingly random events (the king's sleepless night) to bring about a reversal of power",
+            "The Persian Jews were a minority in a foreign kingdom; this shows God's protection through the humble (Mordecai) and the downfall of the proud (Haman)"
+          ],
+          "focusVerse": "6:1-11"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The king's sleeplessness? Why Haman gets the honor? The reversal of power?",
+          "tips": [
+            "The king's sleeplessness (v.1) is unusual but shows a divine intervention in the king's life",
+            "Haman's proposal (v.4-5) seems to be for his own benefit but the king's command (v.9) is for Mordecai - a reversal of expectations",
+            "The term 'honor' (v.4) in this context means public recognition and privileges, not just personal respect"
+          ],
+          "focusVerse": "6:1-11"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of divine timing and the reversal of power in your life this week?",
+          "tips": [
+            "Consider a situation where you feel your efforts are not being recognized, but God is working behind the scenes",
+            "Pray for patience when things seem to be going against you, trusting that God's timing is best",
+            "Practice humility by seeking to honor others as God has honored you"
+          ],
+          "focusVerse": "6:1-11"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the reversal of power in this chapter and ask for courage to trust His timing.",
+          "tips": [
+            "Thank God for protecting the humble (Mordecai) and bringing down the proud (Haman) in your life",
+            "Pray for the strength to trust God's timing when you face opposition",
+            "Ask God to help you see the reversal of power in your current situation"
+          ],
+          "focusVerse": "6:1-11"
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 7,
+      "chapterTitle": "Esther's Revelation, Haman's Death",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Esther 7 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 8,
+      "chapterTitle": "The Decree Reversed",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Esther 8:1-17 aloud, paying attention to the phrase 'the decree of the king' and the emotional tone of the city of Susa.",
+          "tips": [
+            "Notice the repetition of 'the Jews' (v.3, v.17)",
+            "Pay attention to the phrase 'the city of Susa rejoiced' (v.10) which shows a shift from fear to joy"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize who is elevated, what decree is issued, where it happens, and why it matters for the Persian Jews.",
+          "tips": [
+            "Mordecai is elevated to Haman's position (v.1)",
+            "A second decree authorizes Jews to defend themselves (v.3-4)",
+            "The city of Susa rejoices because the fear of the Jews has fallen (v.10)"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Mordecai's elevation (v.1), the decree for self-defense (v.3-4), or the city's reaction (v.10).",
+          "tips": [
+            "Mordecai going out in royal robes (v.10) symbolizes his new authority and the reversal of fortune",
+            "The phrase 'the fear of the Jews had fallen' (v.17) shows a powerful shift in how others view them"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the unknown author trying to communicate to the Persian Jews about God's protection and authority in their midst?",
+          "tips": [
+            "The passage shows that God's people can have a reversal of fortune through faithfulness",
+            "The decree is a sign of God's sovereignty over the empire and the protection of His people"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The Persian law requiring a new decree? The meaning of 'became Jews'? The reversal of fortune in a foreign court?",
+          "tips": [
+            "Persian law: the first decree could not be revoked without the king's new decree (v.1-2)",
+            "The phrase 'became Jews' (v.17) means that the fear of the Jews had fallen so that others now submitted to them",
+            "The reversal of fortune: Mordecai, who was previously ignored, now holds power"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of 'reversal of fortune' to a current situation where you feel your circumstances are changing?",
+          "tips": [
+            "Identify one area where you've been in the 'low' position and take a step of courage to act as if you have been elevated",
+            "Practice being the 'reversal' in your community by showing strength in your faith"
+          ],
+          "focusVerse": "8:1-17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray: Thank God for the reversal of fortune in your life and ask for courage to defend your faith when others are threatened.",
+          "tips": [
+            "Thank God for the reversal of fortune in the life of Mordecai and the Jewish people",
+            "Pray for courage to defend your beliefs when others are threatened",
+            "Ask God to help you become a 'reversal' in your community"
+          ],
+          "focusVerse": "8:1-17"
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 9,
+      "chapterTitle": "Jewish Victory and Purim Established",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Esther 9:1-15 aloud, focusing on the decree of the feast and the command to take no plunder.",
+          "tips": [
+            "Notice the phrase 'no plunder' (v.13) emphasizes justice over greed",
+            "Pay attention to the term 'Purim' (v.15) which comes from the Hebrew word for 'lot'",
+            "Emphasize the joy and feasting (v.14) as a response to deliverance"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Jews) does WHAT (establishes a feast) WHERE (in the Persian Empire) and WHY (to commemorate deliverance from Haman's plot).",
+          "tips": [
+            "Include the destruction of 75,000 enemies and Haman's ten sons without taking plunder (v.12-13)",
+            "Note the decree by Mordecai and Esther (v.9-10)",
+            "Describe the annual observance with feasting, joy, and gifts to the poor (v.14-15)"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the decree of no plunder (v.13), the name 'Purim' (v.15), or the command to give gifts to the poor (v.14).",
+          "tips": [
+            "The decree of no plunder (v.13) shows God's justice in victory, not greed",
+            "The name 'Purim' (v.1] reminds us that God's deliverance comes through the 'lot' of circumstances",
+            "The gift-giving (v.14) demonstrates how deliverance should be shared with the community"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Persian Jews about the nature of God's deliverance and its lasting impact?",
+          "tips": [
+            "The deliverance is not a one-time event but a call to remember annually",
+            "The feast of Purim points to God's active justice in history and community",
+            "The no-plunder theme shows that true victory is spiritual freedom, not material gain"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The decree of no plunder, the meaning of 'Purim', or the connection to Christ?",
+          "tips": [
+            "The decree of no plunder: In ancient warfare, victories typically involved taking plunder; here, the Jews choose to take no plunder, emphasizing justice over greed",
+            "'Purim' comes from the Hebrew word for 'lot' (as in the lot that determined who would be killed by Haman in Esther 3:7)",
+            "The connection to Christ: The feast of Purim foreshadows the greater deliverance Christ provides from spiritual death"
+          ],
+          "focusVerse": "9:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "The Jews took no plunder and shared their victory with gifts to the poor. What area of your life requires you to act with the same generosity and justice this week?",
+          "tips": [
+            "Identify one area where you might be 'taking plunder' (e.g., material gain at the expense of others)",
+            "Choose to give generously to those in need, as the Jews did with gifts to the poor",
+            "Practice the joy and feasting of deliverance by sharing with others"
+          ],
+          "focusVerse": "9:13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for deliverance from enemies and ask for the community to remember the feast of Purim with joy and generosity.",
+          "tips": [
+            "Thank God for the deliverance from Haman's plot",
+            "Pray for courage to live with justice and generosity in your community",
+            "Ask for the gift of joy and feasting as a response to God's deliverance"
+          ],
+          "focusVerse": "9:14-15"
+        }
+      ]
+    },
+    {
+      "bookId": "esther",
+      "bookName": "Esther",
+      "chapter": 10,
+      "chapterTitle": "Mordecai's Greatness",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Esther 10:1-17 aloud, paying attention to the phrases that emphasize Mordecai's status and the king's decree.",
+          "tips": [
+            "Notice the phrase 'Mordecai was second only to the king' (v.2)",
+            "Pay attention to the phrase 'great among the Jews and popular with his many brethren' (v.3)",
+            "Notice the phrase 'seeking the welfare of his people and speaking peace to all his offspring' (v.3)"
+          ],
+          "focusVerse": "10:1-17"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Mordecai and the king), WHAT (the king's decree and Mordecai's status), WHERE (Persia), and WHY (to secure the welfare of the Jews and speak peace).",
+          "tips": [
+            "Include Mordecai's elevation to second place in the kingdom",
+            "Note the king's decree that protects the Jews in Persia and islands",
+            "Mention Mordecai's active role in seeking welfare and speaking peace"
+          ],
+          "focusVerse": "10:1-17"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Mordecai's status (v.2), his people's welfare (v.3), or the king's recording of acts (v.6)?",
+          "tips": [
+            "Mordecai being second only to the king shows God's providence in the midst of chaos",
+            "Seeking welfare and speaking peace reflects Christ-like intercession for others",
+            "The king's decree being recorded in the chronicles shows lasting impact for future generations"
+          ],
+          "focusVerse": "10:1-17"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was the author trying to communicate to Persian Jews about God's providence and Mordecai's role?",
+          "tips": [
+            "Mordecai's rise from obscurity to the king's right hand shows God's faithfulness",
+            "The book ends by affirming that God's plan for the Jews is vindicated through Mordecai's elevation",
+            "This mirrors Christ being exalted to the Father's right hand, interceding for His people"
+          ],
+          "focusVerse": "10:1-17"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The concept of Mordecai being 'second only to the king', the meaning of 'speaking peace', or the historical context of Persian rule?",
+          "tips": [
+            "In Persian context, 'second only to the king' meant a very high position but not equal to the king",
+            "Speaking peace implies resolving conflicts without violence, which was rare in that era",
+            "The chronicles of the kings of Media and Persia were official records, so the king's actions were documented for future generations"
+          ],
+          "focusVerse": "10:1-17"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you seek the welfare of your community and speak peace this week, as Mordecai did?",
+          "tips": [
+            "Identify one person in your community who needs peace and try to listen",
+            "Pray for the welfare of your family or neighborhood",
+            "Share the peace that comes from God's provision in your life"
+          ],
+          "focusVerse": "10:1-17"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for Mordecai's example of seeking welfare and speaking peace. Ask for courage to be a peacemaker.",
+          "tips": [
+            "Thank God for Mordecai's example of leadership and intercession",
+            "Ask for courage to be a peacemaker in your community",
+            "Pray that the king's decree (God's provision) will be followed by all nations"
+          ],
+          "focusVerse": "10:1-17"
+        }
+      ]
+    }
+  ]
+}

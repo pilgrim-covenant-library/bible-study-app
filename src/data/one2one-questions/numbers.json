@@ -1,0 +1,2877 @@
+{
+  "bookId": "numbers",
+  "bookName": "Numbers",
+  "totalChapters": 36,
+  "chapters": [
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 1,
+      "chapterTitle": "The First Census",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 1:1-46 aloud, paying attention to the phrase 'the Lord said to Moses' in verses 1, 2, and 3.",
+          "tips": [
+            "Notice the phrase 'the Lord said to Moses' appears three times (v.1, 2, 3)",
+            "Pay attention to the formal and precise tone of the census instructions"
+          ],
+          "focusVerse": "1:1-46"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Moses and the Israelites), WHAT (counting the fighting men for military purposes), WHERE (wilderness of Sinai), and WHY (to prepare for the conquest of Canaan and to organize the camp).",
+          "tips": [
+            "Include the wilderness of Sinai as the setting",
+            "Note that the Levites were set apart for the tabernacle and not counted in the military census",
+            "The total number of fighting men was 603,550 (v.46)"
+          ],
+          "focusVerse": "1:1-46"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the list of tribes (v.1-2), the exclusion of Levites (v.3-5), or the total count (v.46).",
+          "tips": [
+            "The phrase 'the Lord said to Moses' shows God's direct command and authority",
+            "The exclusion of Levites (v.3) highlights their distinct role in the tabernacle",
+            "The total number 603,550 (v.46) demonstrates God's precise knowledge of His people"
+          ],
+          "focusVerse": "1:1-46"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this census?",
+          "tips": [
+            "Moses was showing that God is the ultimate organizer and knows His people by name and number",
+            "The census was a demonstration of God's intimate knowledge of His people and their readiness for the journey"
+          ],
+          "focusVerse": "1:1-46"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The purpose of counting only men 20 and older? Why Levites are excluded? The significance of the number 603,550?",
+          "tips": [
+            "Counting only men 20 and older: This was for military readiness as the Israelites prepared for Canaan",
+            "Levites excluded: They were set apart for the tabernacle service, so they were not included in the military census",
+            "The number 603,550: This is the total fighting men showing God's care for His people"
+          ],
+          "focusVerse": "1:1-46"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can we apply the theme of God's knowledge of His people to our lives this week?",
+          "tips": [
+            "Consider how God knows your name and number (your identity in Christ) and how that should impact your faith",
+            "Practice being part of the 'numbered' people of God by sharing your life with others"
+          ],
+          "focusVerse": "1:1-46"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He knows us by name and number. Ask for the courage to live as a numbered member of the church.",
+          "tips": [
+            "Thank God that He knows us by name and number (like the 144,000 in Revelation)",
+            "Ask for the courage to live as a numbered member of the church",
+            "Pray for the community to be organized and ready for spiritual journeys"
+          ],
+          "focusVerse": "1:1-46"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 2,
+      "chapterTitle": "Arrangement of the Camp",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 2 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 3,
+      "chapterTitle": "The Levites Appointed",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 3:1-40 aloud, focusing on the names of Aaron's sons and the Levites' responsibilities.",
+          "tips": [
+            "Note the death of Nadab and Abihu (v.1-2) as a key event that requires immediate replacement",
+            "Pay attention to the numbering of Levites from one month old (v.3-10) and the three clans (v.11-39)"
+          ],
+          "focusVerse": "3:1-40"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is appointed, WHAT they do, WHERE they serve, and WHY they are important for the tabernacle.",
+          "tips": [
+            "Include the death of Nadab and Abihu (v.1-2) leading to the appointment of Eleazar and Ithamar",
+            "Note that the Levites are numbered from one month old (v.3-10) and assigned to specific duties (v.11-39)",
+            "Explain that the Levites substitute for the firstborn in the priesthood"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the death of Nadab and Abihu (v.1-2), the numbering of the Levites (v.3-10), or the three clans' duties (v.11-39)?",
+          "tips": [
+            "The death of Nadab and Abihu shows the seriousness of the priesthood and the need for careful succession",
+            "The Levites being numbered from one month old (v.3) emphasizes their early dedication to God",
+            "The specific duties of Gershon, Kohath, and Merari (v.11-39) show the organization of the tabernacle service"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the Levites and their role in the tabernacle?",
+          "tips": [
+            "The Levites are a living offering that replaces the firstborn in the priesthood",
+            "This establishes the Levites as the ones who will serve the tabernacle and take the place of the firstborn in the covenant",
+            "The Levites' duties are structured to ensure the smooth operation of the tabernacle"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The death of Nadab and Abihu, the Levites replacing the firstborn, or the numbering of Levites from one month old?",
+          "tips": [
+            "Nadab and Abihu died for offering unauthorized fire (v.1-2) - this event happened earlier (Numbers 1:1-2) but is referenced here to show the need for proper priesthood",
+            "The Levites replace the firstborn in the priesthood (v.47) - this is a unique covenant arrangement",
+            "Numbering the Levites from one month old (v.3) is a specific detail that shows the early commitment of the Levites"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you become a 'Levite' in your life, dedicated to serving God's work from an early age?",
+          "tips": [
+            "Identify a specific task or area in your life where you can take on a responsibility like the Levites (e.g., helping others, serving in the church)",
+            "Practice being accountable and dedicated to God from the beginning of your life (like the Levites numbered from one month old)",
+            "Commit to one specific duty that will help the church or community this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for the Levites' role as a living offering and how Christ, the Firstborn, fulfills this role.",
+          "tips": [
+            "Thank God that He provides a group of people (the Levites) to serve the tabernacle and the covenant",
+            "Pray for courage to serve others as the Levites did",
+            "Ask God to help you become a living offering in your community, like the Levites"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 4,
+      "chapterTitle": "Duties of the Levitical Clans",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 4:1-20 aloud, paying attention to the age limit for Kohathites (v.3) and the warning about seeing the holy things (v.15).",
+          "tips": [
+            "Notice the repeated phrase 'they shall carry' (v.3, 4, 5)",
+            "Pay attention to the phrase 'they shall not see the holy things' (v.15) which carries a deadly consequence",
+            "The phrase 'from thirty years old to fifty years old' (v.3) for Kohathites shows the age of responsibility"
+          ],
+          "focusVerse": "4:1-20"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Levites' clans), WHAT (their specific duties), WHERE (the tabernacle), and WHY (to prevent death from irreverence).",
+          "tips": [
+            "Include the age limit: Kohathites from 30 to 50 years old",
+            "Mention that Kohathites carry the most holy things, Gershonites carry the curtains, Merarites carry the frames and pillars",
+            "Note the deadly consequence for those who see the holy things (v.15)"
+          ],
+          "focusVerse": "4:1-20"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the warning about seeing the holy things (v.15), the specific numbering of the clans (v.20), or the promise of not dying (v.15).",
+          "tips": [
+            "The warning 'they shall not see the holy things' (v.15) is a stark reminder of the deadly consequences of irreverence",
+            "The numbering of the clans (v.20) shows God's meticulous planning for the tabernacle's operation",
+            "The phrase 'they shall not die' (v.15) is a promise that the system is safe when followed"
+          ],
+          "focusVerse": "4:1-20"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the importance of reverent handling of holy things through this system?",
+          "tips": [
+            "This system shows God's holiness and the need for careful, ordered worship",
+            "The Levites' duties were a model for the church (the body of Christ) to handle the sacred in the world",
+            "This passage foreshadows Christ as the one who takes the place of the people (the veil is removed in Christ)"
+          ],
+          "focusVerse": "4:1-20"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The deadly consequence of seeing the holy things, the age limit for Kohathites, and the division of duties among the clans.",
+          "tips": [
+            "'They shall not see the holy things' (v.15) is a warning of death from defilement, not just a spiritual warning",
+            "The age limit (30-50) ensures the Kohathites are strong enough to carry the heavy responsibilities",
+            "The three clans (Kohathites, Gershonites, Merarites) were chosen to cover the entire tabernacle without overlap, ensuring no part is neglected"
+          ],
+          "focusVerse": "4:1-20"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "The passage emphasizes careful handling of holy things. This week, identify one area where you are handling something important without proper reverence and take steps to ensure you are doing it with the right care.",
+          "tips": [
+            "Think about how you carry the emotional burdens of others without seeing the impact",
+            "Practice the same carefulness in your relationships as the Kohathites did with the holy things",
+            "Ask God to help you avoid the deadly consequence of irreverence (v.15)"
+          ],
+          "focusVerse": "4:1-20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the system of careful handling of holy things. Ask for the courage to handle your life's 'holy things' with reverence.",
+          "tips": [
+            "Thank God for the system He set in place for the tabernacle, which shows His care for our worship",
+            "Pray for courage to handle the 'holy things' of life (like relationships, finances) without seeing the deadly consequences",
+            "Ask God to remove the danger of irreverence in your life (as in v.15)"
+          ],
+          "focusVerse": "4:1-20"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 5,
+      "chapterTitle": "Purity in the Camp",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 5:1-31 aloud, paying attention to the priest's examination process in verses 1-10 and the emotional weight of the bitter water test in verses 11-20.",
+          "tips": [
+            "Notice the repetition of 'unclean' (tameh) in Hebrew that emphasizes ritual separation",
+            "Pay attention to the phrase 'if she is innocent, she shall bear children' (v. 28) which shows divine hope",
+            "Note the contrast between the priest's authority (v. 3) and the wife's vulnerability in the test"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO must be purified, WHAT they must do to be clean, WHERE this occurs (the camp), and WHY this matters for God's presence among them.",
+          "tips": [
+            "Include the specific cases of unclean persons: skin diseases, bodily discharges, and corpse contact (vv. 1-4)"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the purification process for the unclean (vv. 1-10), the bitter water test (vv. 11-20), or the consequences of guilt (vv. 21-22)?",
+          "tips": [
+            "The priest's examination (v. 3) shows God's care for the vulnerable and the need for accountability",
+            "The phrase 'if she is innocent, she shall bear children' (v. 28) provides hope without false accusation",
+            "The test's design ensures truth is revealed without causing shame through divine judgment"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about maintaining camp purity and the importance of truth?",
+          "tips": [
+            "The camp must be holy because God dwells there (v. 2) - impurity separates people from God",
+            "The bitter water test shows God provides a way to resolve accusations without false judgment",
+            "This law preserves the integrity of the community while honoring God's presence"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are confusing? The scope of 'unclean' (vv. 1-4), the bitter water test (vv. 11-20), or the consequences for the guilty (vv. 21-22)?",
+          "tips": [
+            "'Unclean' (tameh) refers to ritual impurity caused by contact with death or bodily discharges - not just physical but spiritual separation",
+            "The bitter water test is a divine sign that only God interprets (v. 19) - it's not a self-determination but a revelation of truth",
+            "The consequences for the guilty (vv. 21-22) show the seriousness of adultery but also provide hope for the innocent"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the principle of purification and truth in your own life? Consider the law of restitution (vv. 5-10) and the test for adultery (vv. 11-20).",
+          "tips": [
+            "When you feel unclean in a relationship, seek purification through confession and restitution",
+            "In conflicts, ask for God's wisdom to resolve the issue without false accusations",
+            "This week, practice being a 'purifier' by helping others through truth and reconciliation"
+          ],
+          "focusVerse": "5:1-31"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His care in purification and truth. Ask for the courage to be holy in your community.",
+          "tips": [
+            "Thank God for the purification laws that show His love for His people",
+            "Pray for strength to be a purifier in relationships when others feel unclean",
+            "Ask God to guide the church in resolving conflicts without false accusations"
+          ],
+          "focusVerse": "5:1-31"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 6,
+      "chapterTitle": "The Nazirite Vow and Priestly Blessing",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 6:1-27 aloud, paying attention to the solemn tone of the vow and the repetition of 'the LORD'.",
+          "tips": [
+            "Notice the repetition of 'the LORD' (5 times in verses 1-21)",
+            "Pay attention to the phrase 'separate to the LORD' in verse 2",
+            "The phrase 'hair is burned' in verse 24 is a powerful image of complete dedication"
+          ],
+          "focusVerse": "6:1-27"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is making the vow, WHAT the vow involves, WHERE it occurs, and WHY it is important.",
+          "tips": [
+            "The Nazirite (a person) vows to the LORD for a period of time",
+            "The vow includes restrictions: no wine, no cutting hair, no contact with the dead",
+            "The vow is completed with offerings and the burning of hair, followed by the priestly blessing"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the vow of separation (v.2), the restrictions (v.3-16), or the priestly blessing (v.24-27)?",
+          "tips": [
+            "The phrase 'separate to the LORD' (v.2) shows the radical nature of the vow",
+            "The prohibition on wine (v.3) is a symbol of separation from worldly life",
+            "The priestly blessing (v.24-27) is a powerful promise of God's presence and protection"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the importance of separation and consecration to God?",
+          "tips": [
+            "Moses is teaching that true consecration requires complete separation from worldly practices",
+            "The vow is a model for the Israelites to live in covenant with God",
+            "The priestly blessing is a reminder of God's covenantal love and protection"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The strictness of the vow, the cultural context of the restrictions, or the priestly blessing's significance?",
+          "tips": [
+            "In ancient Israel, wine was a common drink and a symbol of blessing, so the Nazirite's vow to avoid it is a sign of separation",
+            "The term 'Nazirite' is not common in the ancient world and was a specific covenant term",
+            "The priestly blessing is a distinct blessing that the high priest gives, but here Moses is giving it (as the leader) at the end of the vow"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of 'separation unto God' this week?",
+          "tips": [
+            "Identify one area where you need to 'separate' from something that hinders your relationship with God (e.g., negative influences, habits)",
+            "Commit to a specific step of separation (like avoiding wine or cutting hair) for a short time",
+            "Pray for the strength to live as a Nazirite in your life"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the blessing of separation and consecration. Ask for the strength to live as a Nazirite in your life.",
+          "tips": [
+            "Thank God for the priestly blessing that He gives to His people",
+            "Pray for courage to make radical commitments to Him",
+            "Ask God to help you live a life of separation and consecration"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 7,
+      "chapterTitle": "Offerings at the Tabernacle's Dedication",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 7 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 8,
+      "chapterTitle": "Setting Up the Lampstand; Levite Consecration",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 8:1-12 aloud, focusing on the lampstand setup and Levite purification process",
+          "tips": [
+            "Notice the phrase 'the Lord spoke to Moses' in verses 1-3, establishing divine authority",
+            "Pay attention to the Levites being 'sprinkled with water of purification' (v.4) and 'shaved' (v.5) as signs of cleansing",
+            "Note the wave offering (v.7) where the Levites are presented to the Lord"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT the Lord commands, WHERE it happens, and WHY the Levites are consecrated",
+          "tips": [
+            "Include the three-step purification: sprinkling, shaving, washing clothes (vv.4-5)",
+            "Note the wave offering (v.7) which shows the Levites are presented to the Lord",
+            "Mention the service age limit for Levites (vv.11-12)"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider the lampstand setup (v.1-3), the Levites' purification (v.4-6), or the wave offering (v.7)?",
+          "tips": [
+            "The lampstand (v.1-3) symbolizes Christ as the light of the world, which is a powerful and enduring image",
+            "The wave offering (v.7) shows the Levites being entirely dedicated to the Lord, which pictures believers as living sacrifices"
+          ],
+          "focusVerse": "8:1-7"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the Levites and their role in the sanctuary?",
+          "tips": [
+            "The Levites are set apart by the Lord for service in the sanctuary, with the lampstand representing Christ's presence",
+            "The wave offering shows that the Levites are presented to the Lord as a gift, which is a picture of believers being dedicated to God"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What might be confusing about this passage? Consider the purification process, wave offering, and age limit",
+          "tips": [
+            "The water of purification (v.4) is a ritual water used in the tabernacle for cleansing, not just water from a river",
+            "The wave offering (v.7) is a specific type of offering where the first part is given to the priest (Aaron) as a sign of dedication",
+            "The age limit (v.11-12) ensures the Levites are mature and capable of serving without being too old"
+          ],
+          "focusVerse": "8:1-12"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "This week, consider how you can present an aspect of your life to God as a living sacrifice, like the Levites were",
+          "tips": [
+            "Think of a specific area where you need cleansing (like your heart) and present it to God",
+            "Ask the Holy Spirit to help you be dedicated to God as the Levites were"
+          ],
+          "focusVerse": "8:7"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray for God to provide light and cleansing in your life",
+          "tips": [
+            "Thank God for Christ as the light that illuminates your path",
+            "Ask for cleansing from sin and impurity",
+            "Pray for the courage to present your life as a living sacrifice to God"
+          ],
+          "focusVerse": "8:1"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 9,
+      "chapterTitle": "The Second Passover; The Cloud",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 9:1-19 aloud, paying attention to the conditions for the second passover (vv. 3-6) and the cloud's movement (vv. 15-19).",
+          "tips": [
+            "Notice the phrase 'second passover' in verse 1",
+            "Pay attention to the unclean people's condition (vv. 3-6) and the cloud's appearance (vv. 15-19)"
+          ],
+          "focusVerse": "9:1-19"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT they are doing, WHERE this happens, and WHY God commands it.",
+          "tips": [
+            "Include the unclean Israelites being allowed a second passover after a month (vv. 3-6)",
+            "Note the cloud as the sign of God's presence that guides their movement (vv. 15-19)"
+          ],
+          "focusVerse": "9:1-19"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the second passover for the unclean (vv. 3-6), the cloud's dual appearance (vv. 15-18), or the movement of the camp (vv. 19-20).",
+          "tips": [
+            "The second passover shows God's mercy for those who are unclean (vv. 3-6)",
+            "The cloud appearing as cloud by day and fire by night (vv. 15-18) is a powerful sign of God's presence",
+            "The movement of the camp: when the cloud lifts, they travel; when it settles, they camp (vv. 19-20) shows God's guidance"
+          ],
+          "focusVerse": "9:1-19"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's provision and guidance?",
+          "tips": [
+            "Moses emphasizes God's mercy for the unclean (vv. 3-6) and the cloud as the sign of God's presence that guides their movement (vv. 15-19)",
+            "The Israelites must follow God's leading (the cloud) without delay, whether for days or months"
+          ],
+          "focusVerse": "9:1-19"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The second passover for the unclean, the cloud's movement, and the timing of the movement.",
+          "tips": [
+            "In ancient Near Eastern context, 'unclean' meant contact with death or impurity; God allows a month for purification (vv. 3-6)",
+            "The cloud's dual appearance (by day: cloud, by night: fire) is a sign of God's presence that the Israelites must follow (vv. 15-18)",
+            "The cloud's movement (lifting or settling) indicates when to travel or camp (vv. 19-2:0), which requires trust in God's timing"
+          ],
+          "focusVerse": "9:1-19"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you follow God's leading in your life this week, like the cloud guiding the Israelites?",
+          "tips": [
+            "Identify a situation where you need to move or stay (e.g., a decision about work, family, or health) and ask: 'Is God's leading clear?'",
+            "Practice waiting on God's timing (like the cloud) rather than rushing your decisions",
+            "Remember that God provides a second chance (like the unclean) when you are in a state of uncertainty"
+          ],
+          "focusVerse": "9:1-19"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercy and guidance. Ask for the strength to follow His leading.",
+          "tips": [
+            "Thank God for providing a second chance for those who are unclean (vv. 3-6)",
+            "Pray for the guidance of the cloud (God's presence) to lead you in your daily decisions",
+            "Ask God to help you trust His timing, even when it's not clear"
+          ],
+          "focusVerse": "9:1-19"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 10,
+      "chapterTitle": "The Silver Trumpets; Departure from Sinai",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 10 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 11,
+      "chapterTitle": "Complaining; the Spirit on the Seventy",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 11:1-25 aloud, paying attention to the people's complaints and Moses' reaction.",
+          "tips": [
+            "Notice the repeated phrase 'I will not go' (v. 1) and the people's weeping for Egypt (v. 3)",
+            "Pay attention to Moses' words: 'I am overwhelmed' (v. 4) and his request to God to kill him (v. 9)",
+            "Listen for the shift in tone when the Spirit descends on the elders (v. 17) and the quail appear (v. 18)"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites) does WHAT (complain about food and water), WHERE (in the camp), and WHY (they are craving Egypt's food and weeping). Also, note HOW Moses responds and God's solution.",
+          "tips": [
+            "Include the people's complaint about manna and water (v. 1-3)",
+            "Moses' request to God to kill him (v. 4-9)",
+            "God's command to gather 70 elders and the Spirit on them (v. 10-17)"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the people's weeping for Egypt (v. 3), Moses' request to God (v. 4-9), the Spirit on the elders (v. 17), or the quail and plague (v. 18-25).",
+          "tips": [
+            "The people weeping for Egypt: 'We wept for the food of Egypt' (v. 3) shows their deep longing for the past",
+            "The Spirit resting on the elders: a powerful moment of divine empowerment (v. 17)",
+            "The plague striking the ones who craved: 'the plague struck those who craved' (v. 25) - a direct consequence of complaining"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage?",
+          "tips": [
+            "God is not a distant ruler but a compassionate one who responds to complaints",
+            "Leadership burden is shared: God provides spiritual leaders to share the burden",
+            "Complaining leads to judgment, but God's provision comes through the Spirit and the quail"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The people's complaint about food, why Moses asks God to kill him, the role of the Spirit on the elders, or the plague?",
+          "tips": [
+            "The phrase 'I will not go' (v. 1) is a common complaint in the Israelite camp, but in context it's about the manna",
+            "The plague in Numbers 11:25 is the result of the people's complaint, but it's not the same as the plagues in Egypt - it's a judgment on the complaining group",
+            "The Spirit descending on the elders (v. 17) is a unique event that foreshadows the outpouring of the Spirit at Pentecost"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "Tie to the theme of dangerous complaining. What situation requires you to avoid complaining and instead trust God's provision this week?",
+          "tips": [
+            "Consider an area where you're complaining about the lack of provision",
+            "How can you share the burden of leadership with others?",
+            "Pray for the Spirit to rest on you and others to help them prophesy"
+          ],
+          "focusVerse": "11:1-25"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray specifically about the danger of complaining and the need for God's Spirit to rest on leaders.",
+          "tips": [
+            "Thank God for the Spirit that empowers leaders",
+            "Ask for strength to avoid complaining and instead trust God's provision",
+            "Pray for the Spirit to come on others in your life to help them prophesy"
+          ],
+          "focusVerse": "11:1-25"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 12,
+      "chapterTitle": "Miriam and Aaron Oppose Moses",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 12:1-15 aloud, focusing on the accusation about Moses' wife in verse 1 and the phrase 'spoke to me face to face' in verse 4.",
+          "tips": [
+            "Note the term 'Cushite' (from the land of Cush) in verse 1 to highlight the foreign origin of Moses' wife",
+            "Pay attention to the phrase 'spoke to me face to face' (verse 4) which emphasizes Moses' unique relationship with God",
+            "Notice the word 'leprosy' (verse 13) as a sign of divine judgment"
+          ],
+          "focusVerse": "12:1-15"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Miriam and Aaron) does WHAT (criticize Moses) for WHY (his Cushite wife and prophetic authority) and WHERE (in the camp of Israel) and HOW (they claim God speaks to Moses in riddles).",
+          "tips": [
+            "Include Miriam and Aaron's accusation about Moses' Cushite wife (verse 1)",
+            "Note God's declaration of Moses' unique faithfulness (verse 4)",
+            "Describe the consequence: Miriam is struck with leprosy and heals after seven days (verses 13-15)"
+          ],
+          "focusVerse": "12:1-15"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Miriam and Aaron's accusation in verse 1, Moses' unique relationship with God (verse 4), or the leprosy and healing (verses 13-15).",
+          "tips": [
+            "The accusation in verse 1 shows the immediate jealousy in leadership",
+            "The phrase 'spoke to me face to face' (verse 4) is a key distinction from other prophets who receive revelation through riddles",
+            "The leprosy (verse 13) as a physical manifestation of divine judgment highlights the seriousness of challenging God's chosen leader"
+          ],
+          "focusVerse": "12:1-15"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's leadership and the cost of challenging God's chosen mediator?",
+          "tips": [
+            "Moses is uniquely chosen by God (not by human merit) and his authority comes from direct communication",
+            "Challenging God's chosen leader leads to divine judgment, but intercession can restore the relationship",
+            "This passage shows that God's chosen mediator must be respected to avoid the consequences of jealousy"
+          ],
+          "focusVerse": "12:1-15"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The severity of leprosy as a sign of divine judgment, the meaning of 'spoke to me face to face', and the seven-day isolation period.",
+          "tips": [
+            "Leprosy in Numbers 12:13 is a sign of divine judgment for the sin of speaking against God's chosen leader (not a general disease)",
+            "'Spoke to me face to face' (verse 4) means direct, unmediated communication with God, which is rare and signifies Moses' unique role",
+            "The seven-day isolation (verse 15) follows the leprosy laws (Numbers 5) but is a temporary measure for restoration"
+          ],
+          "focusVerse": "12:1-15"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you practice intercession for someone who has been criticized or judged by you this week?",
+          "tips": [
+            "When you feel jealous or critical of a leader, think of Moses and intercede for the person",
+            "Ask God to help you see the person as God sees them and to intercede for their healing",
+            "This week, pray for one person who has been wronged or criticized by you to be restored"
+          ],
+          "focusVerse": "12:15"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His unique leadership and ask for the courage to intercede when you see jealousy or criticism.",
+          "tips": [
+            "Thank God for the unique relationship He has with Moses (and by extension, with us)",
+            "Pray for the Holy Spirit to help you avoid jealousy and to be a leader who speaks with love",
+            "Ask God to help you intercede for someone who has been criticized or judged by you"
+          ],
+          "focusVerse": "12:15"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 13,
+      "chapterTitle": "The Twelve Spies",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 13:1-33 aloud, focusing on the spies' return and their report.",
+          "tips": [
+            "Notice the repetition of 'we' in the spies' report (vv. 25-33)",
+            "Pay attention to the emotional shift from the spies' initial confidence (v. 20) to their fear (v. 33)",
+            "The phrase 'we seemed like grasshoppers' (v. 33) is a key phrase that shows the spies' perspective"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize WHO is sent, WHAT they do, WHERE they go, and WHY Moses sends them (using 5W+H).",
+          "tips": [
+            "Moses sends twelve spies (one from each tribe) from Kadesh to explore Canaan",
+            "They return with a huge cluster of grapes (v. 23) and report the land is good but the inhabitants are giants",
+            "Ten spies fear the giants and say they seem like grasshoppers, while Caleb and Joshua (the two spies from the tribe of Judah) express faith"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Which part stood out most? Consider: the grapes (v. 23), the ten spies' report (v. 30), or Caleb and Joshua's dissent (v. 30).",
+          "tips": [
+            "The grapes (v. 23) symbolize the fertility of the land and the promise of abundance",
+            "The phrase 'we seemed like grasshoppers' (v. 33) powerfully shows the spies' sense of insignificance",
+            "Caleb and Joshua's declaration 'We can certainly do it—the LORD is with us' (v. 30) is a bold minority report of faith"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the nature of faith and the promise of Canaan?",
+          "tips": [
+            "Moses warns the Israelites about the danger of unbelief and fear in the face of God's promise",
+            "He emphasizes that God's presence and power are the key to success, not the strength of the obstacles",
+            "The story shows that the minority (Caleb and Joshua) who have faith will lead the people into the promised land"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The meaning of 'giants', the spies' fear, and the minority report of faith.",
+          "tips": [
+            "'Giants' (v. 33) likely refers to the Anakim, a race of giants in the ancient Near East, but the spies perceive them as overwhelming",
+            "The phrase 'we seemed like grasshoppers' (v. 33) is a metaphor for the spies feeling very small and insignificant",
+            "The minority report of faith (Caleb and Joshua) is challenging because it shows that even when the majority is fearful, two people can have the faith to move forward"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the minority report of faith to a situation this week? What might you need to trust God for?",
+          "tips": [
+            "When you face a challenge that seems too big, ask: 'Am I like the spies who were afraid, or am I Caleb and Joshua who trust God?'",
+            "This week, identify one area where you need to be the minority with faith (e.g., a decision, a relationship, a trust in God's provision)",
+            "Practice being the 'Caleb and Joshua' by speaking to God with confidence: 'The LORD is with us, so we can do it!'"
+          ],
+          "focusVerse": "13:1-33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the danger of fear and the need for faith in the promised land.",
+          "tips": [
+            "Thank God for the promise of His presence and power",
+            "Ask for courage to be like Caleb and Joshua in moments of fear",
+            "Pray for the strength to trust God's provision when obstacles seem insurmountable"
+          ],
+          "focusVerse": "13:1-33"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 14,
+      "chapterTitle": "The People Rebel",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 14:1-45 aloud, paying attention to the people's weeping and the proposal to stone Joshua and Caleb in verses 36-38.",
+          "tips": [
+            "Notice the repetition of 'we would rather die in Egypt' (v. 37)",
+            "Pay attention to the phrase 'this generation' (v. 33) and the names of the spies who die (v. 37)",
+            "Note the emotional tone of the people's despair and the immediate threat from God (v. 37)"
+          ],
+          "focusVerse": "Numbers 14:1-45"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites) does WHAT (rebel against God's promise) in the wilderness, WHERE (the wilderness of Sinai), and WHY (because of unbelief after the spies returned).",
+          "tips": [
+            "Include the three spies who were sent (v. 37) and their report",
+            "Note the immediate response of the people (v. 37)",
+            "Describe God's initial threat of destruction (v. 37) and the 40-year wandering (v. 33)"
+          ],
+          "focusVerse": "Numbers 14:1-45"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the people's cry for death (v. 37), the proposal to stone Joshua and Caleb (v. 36-38), or Moses' intercession (v. 19-20)?",
+          "tips": [
+            "The people's despair: 'We would rather die in Egypt' (v. 37) shows the depth of their unbelief",
+            "The immediate call to stone Joshua and Caleb (v. 36-38) reveals their impulsive rebellion",
+            "Moses' intercession (v. 19) shows the cost of faith and the power of prayer"
+          ],
+          "focusVerse": "Numbers 14:1-45"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the danger of unbelief and the need for faith through this passage?",
+          "tips": [
+            "The passage shows that unbelief leads to exile and the loss of the promised land",
+            "It emphasizes the importance of intercession and the mercy of God",
+            "It serves as a warning to future generations about the consequences of rebellion"
+          ],
+          "focusVerse": "Numbers 14:1-45"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The people's desire to return to Egypt, the meaning of 'this generation', or the 40-year wandering?",
+          "tips": [
+            "The phrase 'this generation' (v. 33) refers to the entire group of people who were in Egypt at the time of the Exodus, not just the original generation",
+            "The 40 years of wandering is a consequence of their unbelief, but it also serves as a time for the new generation to mature in faith",
+            "The spies' death by plague (v. 37) is a divine punishment for their unbelief, but it also shows God's justice"
+          ],
+          "focusVerse": "Numbers 14:1-45"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you avoid the same rebellion by staying faithful to God's promise, especially when things seem impossible?",
+          "tips": [
+            "Consider a situation where you feel like you're in a wilderness and need to trust God's provision",
+            "Think about the importance of interceding for others (like Moses did for the people)",
+            "Practice the discipline of faith by reminding yourself of God's promises"
+          ],
+          "focusVerse": "Numbers 14:33"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercy in forgiving the people, and ask for the courage to trust Him in your own wilderness.",
+          "tips": [
+            "Thank God for the intercession of Moses and the promise of a new generation",
+            "Pray for the strength to resist the temptation to return to sin (like the people did)",
+            "Ask God to help you see the 'promised land' in your life and trust Him for it"
+          ],
+          "focusVerse": "Numbers 14:33"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 15,
+      "chapterTitle": "Laws for Offerings; Sabbath-breaker; Tassels",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 15 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 16,
+      "chapterTitle": "Korah's Rebellion",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 16:1-10 aloud, focusing on the tense dialogue and dramatic consequences of the rebellion.",
+          "tips": [
+            "Notice the repeated phrase 'the earth' (v.3) as a symbol of divine judgment",
+            "Pay attention to the emotional shift from Korah's confidence to the earth opening (v.3)",
+            "Listen for the intensity of the fire consuming the 250 (v.7)"
+          ],
+          "focusVerse": "16:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO rebelled, WHAT they proposed, WHERE it happened, and WHY they rebelled.",
+          "tips": [
+            "Include the 250 leaders who joined Korah",
+            "Note that the rebellion was against Moses and Aaron's authority as priests",
+            "Mention the immediate result: earth opens and fire consumes the rebels"
+          ],
+          "focusVerse": "16:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "Which part stood out most? Consider: the earth opening (v.3), the fire consuming 250 (v.7), or the censers becoming a warning (v.8)?",
+          "tips": [
+            "The earth opening and swallowing the rebels (v.3) shows God's absolute authority and the finality of His judgment",
+            "The fire consuming the 250 (v.7) illustrates the immediate and severe consequence of rebellion",
+            "The censers being hammered into an altar covering (v.8) serves as a permanent reminder of God's warning"
+          ],
+          "focusVerse": "16:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the danger of challenging God's chosen leaders?",
+          "tips": [
+            "This passage shows that God's chosen leaders (the priesthood) are not to be challenged by anyone",
+            "The rebellion leads to total destruction (earth opens, fire consumes) to demonstrate God's authority",
+            "The censers become a permanent warning for future generations"
+          ],
+          "focusVerse": "16:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The nature of God's judgment, the role of the censers, or the timing of the earth opening?",
+          "tips": [
+            "The phrase 'earth opened' (v.3) is a rare biblical image, but in this context it shows God's direct intervention to destroy the rebels",
+            "The censers (v.8) were used for incense, and turning them into an altar covering shows a transformation of the rebellion into a warning",
+            "The rebellion was initiated by 250 leaders, but the earth opened and swallowed only Korah, Dathan, and Abiram (v.3) - the rest were burned by fire (v.7)"
+          ],
+          "focusVerse": "16:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "In what way can you avoid rebelling against God's authority this week? Focus on one area where you might be challenging God's leaders (e.g., spiritual leaders, authority in your life).",
+          "tips": [
+            "Identify one person in your life who is a spiritual leader (e.g., pastor, family) and ask how you can obey them without rebellion",
+            "When you feel tempted to challenge God's authority, pause and ask: 'Is this rebellion or obedience?'",
+            "Commit to one act of obedience that aligns with God's chosen leaders this week"
+          ],
+          "focusVerse": "16:1-1:10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His authority and ask for humility to avoid rebellion.",
+          "tips": [
+            "Thank God that He is the only true authority and that His chosen leaders are not to be challenged",
+            "Pray for courage to obey God's leaders in difficult situations",
+            "Ask God to help you recognize when you are rebelling and to choose obedience"
+          ],
+          "focusVerse": "16:1-10"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 17,
+      "chapterTitle": "Aaron's Staff Buds",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 17 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 18,
+      "chapterTitle": "Duties and Provisions for Priests and Levites",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 18:1-31 aloud, paying attention to the phrases 'the Levites are to be the servants of the priests' (v.2), 'the LORD is their portion' (v.20), and the repetition of 'they shall not have an inheritance in the land' (v.20).",
+          "tips": [
+            "Notice the phrase 'the Levites are to be the servants of the priests' (v.2) emphasizes their role",
+            "Pay attention to the phrase 'the LORD is their portion' (v.20) which is a powerful declaration of divine provision",
+            "The repetition of 'they shall not have an inheritance in the land' (v.20) shows the completeness of this provision"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Aaron's family and Levites) does WHAT (serves in the sanctuary and receives provisions), WHERE (in the sanctuary and the land of Israel), and WHY (to ensure proper service and provide for those who serve without land).",
+          "tips": [
+            "Include that the Levites serve the priests but cannot approach the most holy things (v.3-10)",
+            "Note that the priests receive portions from offerings (v.11-19)",
+            "Highlight that the Levites have no land inheritance (v.20)"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the Levites' role as servants (v.2), the phrase 'the LORD is their portion' (v.20), or the provision of tithes for service (v.20-21).",
+          "tips": [
+            "The Levites' role as servants without land shows a commitment to service over material gain",
+            "The phrase 'the LORD is their portion' (v.2) is a profound statement that God's provision is the ultimate inheritance",
+            "The tithes being the Levites' provision (v.20) shows that service is rewarded by the community without land"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the roles of priests and Levites? How does this establish that the LORD is the true inheritance for those who serve?",
+          "tips": [
+            "Moses intended to clarify that the Levites' service is their inheritance, not land, so they remain focused on the sanctuary and service",
+            "This passage shows that the LORD provides for the servants without requiring land, which contrasts with the rest of the Israelites",
+            "The theological significance is that the true inheritance is God's provision through service, not earthly possessions"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The Levites' lack of land inheritance, the meaning of 'firstborn of animals', and the distinction between the priests and Levites' duties.",
+          "tips": [
+            "The Levites having no land inheritance is to prevent them from becoming a land-owning class that might lead to corruption or focus on material gain",
+            "The 'firstborn of animals' (v.16) refers to animals that are redeemed (paid for) and are then offered as a sacrifice, while 'devoted things' (v.11) are animals dedicated to the Lord",
+            "The Levites cannot approach the most holy things (v.3-10) to maintain a clear boundary between the sacred and the profane"
+          ],
+          "focusVerse": "18:1-31"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme 'the LORD is their portion' this week? Consider what you are 'devoted' to and ask God to provide for you without requiring land (earthly possessions).",
+          "tips": [
+            "Think about a service you can do without expecting land or material gain",
+            "Ask God to help you see that He is your true inheritance, not your possessions",
+            "Practice giving up earthly possessions for service, like the Levites"
+          ],
+          "focusVerse": "18:20"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for being the true inheritance for those who serve. Ask for the courage to see Him as your portion and to give up earthly possessions for service.",
+          "tips": [
+            "Thank God for providing the Levites with His provision without land",
+            "Pray for the heart to see God as the ultimate inheritance",
+            "Ask for the strength to serve without seeking land or material gain"
+          ],
+          "focusVerse": "18:20"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 19,
+      "chapterTitle": "The Red Heifer",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 19:1-22 aloud, paying attention to the phrase 'without blemish' (v. 1) and the materials used in the ritual (cedar, hyssop, scarlet) (v. 6).",
+          "tips": [
+            "Notice the phrase 'without blemish' (v. 1) repeated for the heifer",
+            "Pay attention to the specific materials: cedar, hyssop, and scarlet (v. 6)",
+            "The emotional weight of the ritual: the heifer is sacrificed outside the camp (v. 3) to purify from death"
+          ],
+          "focusVerse": "19:1-22"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites) is involved, WHAT (the ritual of purification using the red heifer), WHERE (outside the camp), and WHY (to cleanse from corpse-contamination).",
+          "tips": [
+            "Include the requirement for the heifer to be without defect (v. 1)",
+            "Note the process: slaughtering, burning with specific materials, and using ashes for purification (v. 2-6)",
+            "The consequence: those who touch a dead body become unclean for seven days (v. 11-13)"
+          ],
+          "focusVerse": "19:1-22"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the heifer's condition (v. 1), the ritual of burning (v. 6), or the seven-day purification process (v. 11-13)?",
+          "tips": [
+            "The heifer being 'without blemish' (v. 1) emphasizes the need for purity in God's eyes",
+            "The specific materials (cedar, hyssop, scarlet) symbolize the purification process (v. 6) - cedar for strength, hyssop for cleansing, scarlet for blood of Christ",
+            "The seven-day timeline (v. 11-13) shows God's careful design for purification"
+          ],
+          "focusVerse": "19:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about purification from death's defilement?",
+          "tips": [
+            "This ritual addresses the real problem: death contamination that defiles the sanctuary (v. 12-13)",
+            "The ashes provide a once-for-all cleansing (v. 20) that is necessary for entering the sanctuary",
+            "This foreshadows Christ's sacrifice as the ultimate purification from death"
+          ],
+          "focusVerse": "19:1-22"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The ritual's details, the concept of corpse-contamination, or the seven-day process?",
+          "tips": [
+            "The term 'corpse-contamination' (v. 11) refers to the defilement from dead bodies, which was a real problem in the camp",
+            "The ritual's complexity: the heifer must be slaughtered outside the camp and burned with specific materials (v. 2-6) - this was a highly regulated process",
+            "The seven-day period (v. 11-13) is a precise timeframe that might seem arbitrary but is designed to allow for gradual cleansing"
+          ],
+          "focusVerse": "19:1-22"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the concept of purification from death (the red heifer) to your life this week?",
+          "tips": [
+            "Identify a situation where you feel 'unclean' (contaminated by death or sin) and ask for the 'water of purification'",
+            "Spend time in prayer, using the three-day ritual (like the seven-day process) to cleanse your heart",
+            "Remember that Christ's sacrifice (the red heifer) provides cleansing for us from death's power"
+          ],
+          "focusVerse": "19:1-22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the red heifer ritual as a sign of His provision for cleansing from death.",
+          "tips": [
+            "Thank God for the red heifer ritual as a sign of His provision for cleansing from death",
+            "Ask for the courage to face death's defilement (sin) and trust in Christ's sacrifice",
+            "Pray for the gift of purification from death through Christ"
+          ],
+          "focusVerse": "19:1-22"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 20,
+      "chapterTitle": "Water from the Rock; Deaths of Miriam and Aaron",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 20 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 21,
+      "chapterTitle": "The Bronze Serpent",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 21:4-9 aloud, focusing on the people's complaint and the command about the bronze serpent.",
+          "tips": [
+            "Notice the repetition of 'complain' in the context of the wilderness journey (v.4)",
+            "Pay attention to the phrase 'he who is bitten, if he looks at the bronze serpent, shall live' (v.9)"
+          ],
+          "focusVerse": "21:4-9"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "Summarize in your own words: WHO is affected, WHAT happened, WHERE it occurred, and WHY the Israelites were punished.",
+          "tips": [
+            "Include the death of many from snake bites (v.4-5)",
+            "Note Moses' intercession and God's command for the bronze serpent (v.6-9)"
+          ],
+          "focusVerse": "21:4-9"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part of this passage stood out most? Consider: the people's complaint (v.4), the bronze serpent being made (v.8), or the healing command (v.9).",
+          "tips": [
+            "The people's complaint reveals their persistent unbelief and the consequence of their sin",
+            "The bronze serpent as a sign of God's mercy and the mechanism of healing through faith"
+          ],
+          "focusVerse": "21:4-9"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's response to their sin?",
+          "tips": [
+            "God's judgment on the Israelites for complaining is a reminder of the cost of unbelief",
+            "The bronze serpent is a sign of God's provision and healing through faith in His solution"
+          ],
+          "focusVerse": "21:4-9"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts of this passage are challenging? The snake bites as punishment, the bronze serpent's purpose, or the command to look at it?",
+          "tips": [
+            "The snake bites were a direct consequence of the Israelites' complaint (v.4-5) and not a random event",
+            "The bronze serpent is a sign (not a physical snake) that when looked at, brings life (v.9) - it represents God's provision and healing"
+          ],
+          "focusVerse": "21:4-9"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the lesson of the bronze serpent to a current situation where you are complaining?",
+          "tips": [
+            "Identify a problem you are facing that you are complaining about",
+            "Instead of dwelling on it, look to God's solution (like the bronze serpent) and trust that He will provide healing"
+          ],
+          "focusVerse": "21:9"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His mercy in providing a solution when we are in trouble. Ask for courage to look to Him instead of complaining.",
+          "tips": [
+            "Thank God for the bronze serpent as a sign of His healing power",
+            "Pray for the strength to avoid complaining and instead trust in His solution"
+          ],
+          "focusVerse": "21:9"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 22,
+      "chapterTitle": "Balaam and Balak",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 22:1-25 aloud, paying attention to the emotional tone of Balaam's initial refusal (verses 1-5) and the donkey's miraculous intervention (verses 22-25).",
+          "tips": [
+            "Notice the repeated phrase 'the LORD' (God) in verses 3, 5, 10, 12",
+            "Pay attention to Balaam's hesitation and the donkey's sudden awareness of the Angel"
+          ],
+          "focusVerse": "22:1-25"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it takes place, and WHY the Israelites are feared.",
+          "tips": [
+            "Include King Balak's fear of Israel (verses 1-2)",
+            "Note Balaam's initial refusal (verses 3-5) and God's permission (verses 10-12)",
+            "Describe the donkey's vision and the Angel's warning (verses 22-25)"
+          ],
+          "focusVerse": "22:1-25"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Balaam's initial refusal (verses 3-5), the donkey's talking (verses 22-23), or the Angel's warning (verse 25)?",
+          "tips": [
+            "Balaam's initial refusal shows his moral conflict between greed and God's command",
+            "The donkey's speaking highlights God's sovereignty over all creation",
+            "The Angel's warning about speaking only what God says is a clear call to obedience"
+          ],
+          "focusVerse": "22:1-25"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's sovereignty and the consequences of disobedience?",
+          "tips": [
+            "God protects His people from enemies who seek to curse them through direct intervention",
+            "Human schemes cannot thwart God's purpose for His chosen people",
+            "The Angel represents God's active presence in the lives of His people"
+          ],
+          "focusVerse": "22:1-25"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The role of the Angel of the LORD, why Balaam was willing to curse, the donkey's ability to speak.",
+          "tips": [
+            "'Angel of the LORD' refers to a divine messenger, not a physical being",
+            "Balaam was a diviner but God used him for blessing rather than cursing",
+            "The donkey's speaking is a miraculous event that defies normal animal behavior"
+          ],
+          "focusVerse": "22:1-25"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does this passage challenge us to trust God's protection in the face of opposition?",
+          "tips": [
+            "Remember God is watching and will intervene when others try to harm you",
+            "Be attentive to God's guidance in your life like the donkey was attentive to the Angel",
+            "Pray for God's protection when you feel overwhelmed by opposition"
+          ],
+          "focusVerse": "22:1-25"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His protection and ask for the courage to trust Him when others try to curse you.",
+          "tips": [
+            "Thank God that He protects His people from enemies' schemes",
+            "Pray for strength to resist the temptation to curse or harm others",
+            "Ask God to help you listen to His voice like the donkey did"
+          ],
+          "focusVerse": "22:1-25"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 23,
+      "chapterTitle": "Balaam's First Two Oracles",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 23:1-24 aloud, focusing on Balaam's responses to Balak's requests.",
+          "tips": [
+            "Notice the repetition of 'I cannot curse' (v. 11) and 'God has blessed' (v. 12)",
+            "Pay attention to the phrase 'Israel is a people dwelling alone' (v. 10) and its emotional weight",
+            "Note the contrast between Balak's frustration and Balaam's submission to God's will"
+          ],
+          "focusVerse": "23:1-24"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is involved, WHAT happens, WHERE it occurs, and WHY Balak seeks Balaam.",
+          "tips": [
+            "Include Balak's motivation to curse Israel (v. 1-2)",
+            "Note Balaam's first response: he cannot curse Israel (v. 1-10)",
+            "Describe Balaam's second response: he blesses Israel again (v. 11-24)"
+          ],
+          "focusVerse": "23:1-24"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: Balaam's declaration that Israel is a people dwelling alone (v. 10), God being unchanging (v. 12), or the phrase 'the people are blessed' (v. 12).",
+          "tips": [
+            "The phrase 'Israel is a people dwelling alone' highlights God's unique covenant with Israel",
+            "Balaam's statement that God cannot be deceived (v. 12) shows the absolute reliability of God's promises",
+            "The blessing of Israel is a permanent state, not subject to human manipulation"
+          ],
+          "focusVerse": "23:1-24"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's relationship with Israel through this passage?",
+          "tips": [
+            "This passage emphasizes God's sovereignty over Israel's destiny and the unchangeable nature of His blessing",
+            "It shows that even when the Israelites are surrounded by nations, God's blessing remains distinct and secure",
+            "The passage points to the security of God's people in Christ: no accusation can stand against those God has justified"
+          ],
+          "focusVerse": "23:1-24"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? Why does Balaam bless Israel when Balak wants a curse? How does the phrase 'Israel is a people dwelling alone' relate to the modern world? Why does God not allow divination to work against Israel?",
+          "tips": [
+            "In ancient Moab, divination was common but God's word overrides it (v. 12: 'God is not man that He should lie')",
+            "The phrase 'Israel is a people dwelling alone' (v. 10) means they are set apart from the nations and not part of the typical nations",
+            "Divination (the practice of seeking to know the future) fails because God's blessing is unchangeable and beyond human control"
+          ],
+          "focusVerse": "23:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's unchangeable blessing to your life this week?",
+          "tips": [
+            "When you face a situation where you feel God's blessing is being taken away, pray for the strength to trust that His blessing remains",
+            "Reflect on what God has already blessed you with and how that blessing is secure",
+            "Practice surrendering to God's will, even when it's not immediately clear"
+          ],
+          "focusVerse": "23:10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His unchanging blessing on His people and ask for the courage to trust Him in difficult circumstances.",
+          "tips": [
+            "Thank God for the security of His blessing on you (like Israel)",
+            "Pray for the strength to trust that God's blessing remains even when you face challenges",
+            "Ask God to help you see the unchangeable nature of His promises in your life"
+          ],
+          "focusVerse": "23:12"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 24,
+      "chapterTitle": "Balaam's Third and Fourth Oracles",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 24 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 25,
+      "chapterTitle": "Sin at Peor",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 25:1-26 aloud, paying attention to the plague's progression and Phinehas' act.",
+          "tips": [
+            "Notice the phrase 'the LORD' appears 5 times in the first 9 verses",
+            "Pay attention to the plague's sudden stop at 24,000 dead (v.9) and the immediate response of Moses (v.10)",
+            "Note the word 'zeal' in v.1 and the covenant of priesthood in v.27"
+          ],
+          "focusVerse": "25:1-26"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO committed the sin, WHAT happened, WHERE it occurred, and WHY it was a problem.",
+          "tips": [
+            "Include the Israelites worshiping Baal of Peor and having sexual relations with Moabite women (v.1-3)",
+            "Note the plague that killed 24,000 (v.9)",
+            "Describe Phinehas' act of killing an Israelite and a Midianite woman (v.10-13)"
+          ],
+          "focusVerse": "25:1-26"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the plague (v.1-9), Phinehas' act (v.10-13), or the covenant (v.27)?",
+          "tips": [
+            "Phinehas' immediate action without hesitation (v.10-13) shows pure zeal for God's honor",
+            "The plague stopping at 24,000 (v.9) is a dramatic yet specific number that shows God's judgment",
+            "The covenant of priesthood for Phinehas (v.27) is a permanent blessing for his zeal"
+          ],
+          "focusVerse": "25:1-26"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God and their response to idolatry?",
+          "tips": [
+            "Moses emphasizes that idolatry and sexual immorality are deadly sins that provoke God's wrath",
+            "He shows that only immediate, decisive action (like Phinehas) can stop God's judgment",
+            "The covenant of priesthood for Phinehas illustrates that God rewards zeal for His honor"
+          ],
+          "focusVerse": "25:1-26"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The sin of idolatry and sexual immorality, the plague, and Phinehas' covenant?",
+          "tips": [
+            "Baal of Peor was a Moabite god associated with fertility and the afterlife; the Israelites were likely influenced by cultural practices",
+            "The plague was a divine judgment that killed 24,000 in a short period (about 15 days) as a response to idolatry",
+            "Phinehas' act was a one-time intervention that stopped the plague, so God made him a priest to represent the zeal that stops God's wrath"
+          ],
+          "focusVerse": "25:1-26"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply Phinehas' zeal to avoid idolatry in your life this week?",
+          "tips": [
+            "Identify one area where you might be compromising your faith (e.g., relationships, values) and take immediate action to stop it",
+            "Pray for courage to act like Phinehas when you see sin in your life or others",
+            "Commit to one specific step to avoid idolatry this week"
+          ],
+          "focusVerse": "25:10-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God that He is faithful and that His wrath can be turned away by zeal for His honor.",
+          "tips": [
+            "Thank God that He is faithful even when we sin",
+            "Ask for the courage to act like Phinehas when you see sin (e.g., in relationships or attitudes)",
+            "Pray for the Holy Spirit to help you avoid idolatry and live in pure devotion to God"
+          ],
+          "focusVerse": "25:27"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 26,
+      "chapterTitle": "The Second Census",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 26:1-65 aloud, paying attention to the phrase 'the generation that entered the wilderness died' (v. 2) and the total count (v. 51).",
+          "tips": [
+            "Notice the phrase 'the generation that entered the wilderness died' in verse 2 shows God's judgment on the unfaithful generation",
+            "Pay attention to the total number 601,730 in verse 51",
+            "Look for the Levites being numbered separately in verses 52-59"
+          ],
+          "focusVerse": "26:1-65"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Moses and the elders) is taking the census, WHAT (a new count of the Israelites), WHERE (in the wilderness), and WHY (to prepare for the land distribution in Canaan).",
+          "tips": [
+            "Include the fact that the generation that entered the wilderness died (v. 2)",
+            "Note the total number of the Israelites is 601,730 (v. 51)",
+            "Mention that the Levites are counted separately (v. 52-59)"
+          ],
+          "focusVerse": "26:1-65"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the death of the generation (v. 2), the total number (v. 51), or the Levites (v. 52-59)?",
+          "tips": [
+            "The death of the generation (v. 2) shows God's faithfulness in removing the unfaithful and preserving the faithful",
+            "The total number 601,730 (v. 51) highlights the new generation's readiness",
+            "The Levites being numbered (v. 52-59) emphasizes their role in the new order"
+          ],
+          "focusVerse": "26:1-65"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's faithfulness and the new generation?",
+          "tips": [
+            "God is faithful to preserve a new generation (the faithful) to enter the promised land",
+            "The unfaithful generation died, but a new generation (with Joshua and Caleb) remains and will receive the land",
+            "The Levites are set apart for the temple and priesthood"
+          ],
+          "focusVerse": "26:1-65"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The death of the generation? The total number being slightly fewer? The Levites being counted separately?",
+          "tips": [
+            "The plague in Numbers 26:1-2 killed the generation that entered the wilderness, so the new census is for the survivors",
+            "The number 601,730 is 1,770 fewer than the first census (603,500) because of the plague and the death of the generation",
+            "The Levites are numbered separately to distinguish their role in the temple service and the priesthood"
+          ],
+          "focusVerse": "26:1-65"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How does the new generation (the faithful) prepare for the land? What can you do this week to be part of the new generation that enters God's promises?",
+          "tips": [
+            "Identify one area where you are holding back from full obedience",
+            "Think about what you need to surrender to God (like the unfaithful generation)",
+            "Practice being a new generation by doing something small that shows faithfulness this week"
+          ],
+          "focusVerse": "26:51"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the new generation (like Joshua and Caleb) and ask for the courage to be part of the new generation that enters the land of promise.",
+          "tips": [
+            "Thank God for preserving the faithful generation",
+            "Pray for courage to trust God in your current circumstances",
+            "Ask God to help you be part of the new generation that will enter His promises"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 27,
+      "chapterTitle": "Zelophehad's Daughters; Joshua Commissioned",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 27:1-13 aloud, paying attention to the daughters' plea for inheritance in verses 1-3 and Moses' commissioning of Joshua in verses 8-13.",
+          "tips": [
+            "Notice the daughters' request for inheritance when their father has no sons (v.1-3)",
+            "Pay attention to the divine instruction that daughters can inherit (v.4-7)"
+          ],
+          "focusVerse": "27:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Zelophehad's daughters, Moses, the Israelite community) is involved, WHAT (petitioning for inheritance and commissioning Joshua) happens, WHERE (in the camp of the Israelites), and WHY (to ensure fair inheritance and prepare for the Promised Land).",
+          "tips": [
+            "Include the daughters' request for inheritance because their father had no sons (v.1-3)",
+            "Note the divine law that women can inherit when there are no sons (v.4-7)",
+            "Moses commissions Joshua as his successor by laying hands on him (v.8-13)"
+          ],
+          "focusVerse": "27:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the daughters' petition (v.1-3), God's law for inheritance (v.4-7), or Moses' commissioning of Joshua (v.8-13).",
+          "tips": [
+            "The daughters' courage in speaking up for their inheritance rights despite societal norms",
+            "The divine clarity in God's law that women can inherit when there are no sons",
+            "Moses' act of commissioning Joshua by laying hands on him, a significant leadership ritual"
+          ],
+          "focusVerse": "27:1-13"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God and leadership through this passage?",
+          "tips": [
+            "God's provision for the community through women's inheritance rights, ensuring fair land distribution",
+            "The transition of leadership is divinely ordained and requires proper ritual (laying on of hands)",
+            "Moses' death and the appointment of Joshua as the next leader in the Promised Land"
+          ],
+          "focusVerse": "27:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The inheritance law for women, Moses' exclusion from the land, the commissioning ritual.",
+          "tips": [
+            "Inheritance laws for women were unusual in the ancient Near East; this shows God's care for the entire family",
+            "Moses' exclusion from the Promised Land (he dies before entering) is a key point in the story",
+            "The ritual of laying hands on Joshua is a significant leadership symbol connecting to New Testament commissioning"
+          ],
+          "focusVerse": "27:1-13"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the themes of women's inheritance rights and leadership succession in your life this week?",
+          "tips": [
+            "Think about advocating for fair inheritance or leadership roles in your family or community",
+            "Pray for courage to speak up for what is right, especially when it challenges norms",
+            "Practice commissioning someone else by laying hands on them (a metaphor for passing on leadership)"
+          ],
+          "focusVerse": "27:1-13"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing women's inheritance rights and for the leadership transition.",
+          "tips": [
+            "Thank God for providing women with inheritance rights and for the leadership transition",
+            "Ask for courage to speak up for what is right, especially when it challenges norms",
+            "Pray for the next generation of leaders to be commissioned by God"
+          ],
+          "focusVerse": "27:1-13"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 28,
+      "chapterTitle": "Daily, Sabbath, and Monthly Offerings",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 28 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 29,
+      "chapterTitle": "Offerings for Fall Festivals",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 29:1-38 aloud, paying attention to the specific animal counts and the progression of offerings.",
+          "tips": [
+            "Notice the repetition of 'the Lord' in the context of the offerings",
+            "Pay attention to the numbers: 13 bulls on the first day of the festival, decreasing to 7 by the seventh day",
+            "The phrase 'for the festival of tabernacles' appears multiple times"
+          ],
+          "focusVerse": "29:1-38"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites) does WHAT (offers sacrifices) for the fall festivals, WHERE (in the tabernacle), and WHY (to maintain covenant with God and commemorate the feasts).",
+          "tips": [
+            "Include the three feasts: Trumpets (first day), Day of Atonement (tenth day), and Tabernacles (fifteenth day)",
+            "Note the specific animal offerings: rams, lambs, goats, and bulls",
+            "The purpose is to remind the Israelites of their covenant obligations and to celebrate God's provision"
+          ],
+          "focusVerse": "29:1-38"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the pattern of the bulls (13 down to 7), the specific animals for the Day of Atonement, or the eighth day offerings?",
+          "tips": [
+            "The pattern of 13 bulls on day one decreasing to 7 on day seven symbolizes the progression from fullness to completion",
+            "The Day of Atonement offerings (a ram and two lambs) are the most solemn, showing the need for cleansing",
+            "The eighth day offering (a ram, two lambs, and one goat) is unique and might represent the completion of the festival cycle"
+          ],
+          "focusVerse": "29:1-38"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God through this passage of offerings for the fall festivals?",
+          "tips": [
+            "The offerings are a reminder of God's covenant and the need for regular, specific worship to maintain a relationship with Him",
+            "The feasts are not just cultural events but theologically significant: Trumpets for Christ's return, Day of Atonement for final atonement, Tabernacles for eternal dwelling",
+            "Moses is emphasizing the importance of the Israelites' obedience to the law of offerings to reflect God's provision and their identity as His people"
+          ],
+          "focusVerse": "29:1-38"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The specific animal counts, the progression of the bulls, or the connection to the feasts?",
+          "tips": [
+            "The number 13 for the first day of Tabernacles is unusual (13 bulls) and may be symbolic of completeness or the 12 tribes plus the priest",
+            "The decrease from 13 to 7 bulls over seven days is a pattern that might be confusing without context (it represents the 12 tribes plus the priest? or the number of days of the festival?)",
+            "The Day of Atonement is a day of affliction but the offerings are similar to the Trumpet feast - this might be confusing because the Day of Atonement is a day of purification, not celebration"
+          ],
+          "focusVerse": "29:1-38"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the pattern of the offerings (the decrease from 13 to 7) to your own life this week? Consider what you might be 'offering' and how it decreases as you move toward completion.",
+          "tips": [
+            "Think about a relationship or habit that you are nurturing and how it might decrease as you become more mature (like the bulls decreasing to 7)",
+            "In your worship, try to focus on the completion of the week (like the seventh day) and the importance of consistency",
+            "Offer a specific thing (like time, resources) that you can give more freely as the week progresses"
+          ],
+          "focusVerse": "29:1-38"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about the fall feasts and their connection to Christ's return, atonement, and eternal dwelling.",
+          "tips": [
+            "Thank God for the pattern of His provision through the feasts, which anticipate Christ's return",
+            "Pray for the courage to live in the reality of the Day of Atonement (final atonement) and the hope of the Tabernacles (eternal dwelling)",
+            "Ask God to help you offer your life in a way that reflects the pattern of the fall feasts"
+          ],
+          "focusVerse": "29:1-3:8"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 30,
+      "chapterTitle": "Vows and Obligations",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 30:1-16 aloud, paying attention to the contrast between vows of unmarried women (vv.1-3) and married women (vv.4-5).",
+          "tips": [
+            "Notice the repeated phrase 'if a woman makes a vow' (v.3) and 'if a man makes a vow' (v.2)",
+            "Pay attention to the distinction between the father's authority (vv.1-3) and the husband's authority (vv.4-5)"
+          ],
+          "focusVerse": "30:1-16"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is making vows, WHAT the vow is, WHERE the vow is made, and WHY the rules are set for the Israelites.",
+          "tips": [
+            "Include that the father can annul a vow of an unmarried daughter",
+            "Note that the husband can annul a vow of a married woman",
+            "The vow of a widow or divorced woman stands without annulment"
+          ],
+          "focusVerse": "30:1-16"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the father's authority over his daughter's vow (v.3), the husband's role in annulment (v.5), or the standing of a widow's vow (v.11).",
+          "tips": [
+            "The father's protective role shows God's care for the vulnerable",
+            "The husband's ability to annul a vow reflects the covenant relationship in marriage",
+            "The standing of a widow's vow ensures she is not exploited by her former husband"
+          ],
+          "focusVerse": "30:1-16"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the responsibility of vows and the authority structure in their households?",
+          "tips": [
+            "Moses ensured that vows were made within the context of family and community, protecting the vulnerable",
+            "This law prevents exploitation and maintains order in the household",
+            "It shows that God's law respects the relationships and responsibilities within the family"
+          ],
+          "focusVerse": "30:1-16"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The distinction between unmarried and married women, the concept of annulment, and why a widow's vow stands.",
+          "tips": [
+            "In ancient Near Eastern culture, vows were binding but the law here gives specific authority structures to protect the person",
+            "The term 'annul' (nachal) means to cancel or make void, but it's done by the father or husband as a protective measure",
+            "A widow's vow stands because she has no husband to annul it, so the law ensures she is not left without protection"
+          ],
+          "focusVerse": "30:1-16"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the principle of protecting vulnerable people in vows (or commitments) in your own life this week?",
+          "tips": [
+            "Consider a vow you made that might affect someone else, and whether you have the authority to annul it if needed",
+            "Think about how you can be the protective authority for someone else's vow (e.g., a spouse or child)",
+            "Practice being a 'husband' or 'father' in your relationships by ensuring vows are handled with care"
+          ],
+          "focusVerse": "30:1-16"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for protecting the vulnerable in vows and ask for the strength to honor His law in your relationships.",
+          "tips": [
+            "Ask God to help you be the protective authority for your spouse or children",
+            "Pray for the courage to make vows that are binding without causing harm",
+            "Thank God that He protects the vulnerable in His church and community"
+          ],
+          "focusVerse": "30:1-16"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 31,
+      "chapterTitle": "Vengeance on Midian",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 31:1-54 aloud, paying attention to the emotional tone of Moses' anger in verse 16 and the repeated phrase 'the LORD said' in verses 1-2.",
+          "tips": [
+            "Notice the phrase 'the LORD said' appears 5 times in this chapter (verses 1, 4, 5, 8, 10)",
+            "Pay attention to Moses' angry response: 'Why did you spare the women?' (verse 16)"
+          ],
+          "focusVerse": "31:1-54"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Israelites under Moses) does WHAT (takes vengeance on Midian) WHERE (in the land of Midian) and WHY (because of the sin of Peor that caused a plague).",
+          "tips": [
+            "Include the killing of the kings of Midian and Balaam (verses 1-10)",
+            "Note Moses' anger at sparing the women (verse 16)",
+            "Describe the purification of the captives and plunder (verses 22-24)"
+          ],
+          "focusVerse": "31:1-54"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the military campaign (verses 1-10), Moses' anger (verse 16), or the miraculous preservation of the Israelites (verse 22).",
+          "tips": [
+            "The killing of the kings of Midian and Balaam shows God's judgment on those who lead His people astray",
+            "Moses' anger about the women reveals the depth of the sin at Peor and the need for holiness",
+            "The fact that no Israelite died in battle is a miraculous sign of God's protection for His people when they follow His commands"
+          ],
+          "focusVerse": "31:1-22"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's judgment and the necessity of holiness?",
+          "tips": [
+            "God will judge those who lead His people into sin (the Midianites were responsible for the Peor incident)",
+            "The purification of the plunder shows that God's people must be set apart from sin and impurity",
+            "The absence of casualties in the battle highlights God's protection for His people when they follow His commands"
+          ],
+          "focusVerse": "31:1-54"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The reason for sparing the women, the purification process, and the miraculous preservation of the Israelites.",
+          "tips": [
+            "In the Peor incident (Numbers 25), the women were involved in the idolatry, so sparing them was a judgment on the Israelites for not being holy enough to spare them",
+            "The purification of the plunder (verses 22-24) was a ritual to cleanse the spoil from the uncleanness of the sin at Peor",
+            "The fact that no Israelite died in battle (verse 22) was a sign that God was with His people and would protect them when they followed His commands"
+          ],
+          "focusVerse": "31:1-24"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of purification to your life this week?",
+          "tips": [
+            "Identify one area where you need to remove impurities (sin, ungodly influences) from your life",
+            "Take one step this week to purify your actions and relationships (e.g., avoid ungodly company, seek purity in your speech)",
+            "Pray for God to protect you when you follow His commands (as the Israelites were protected from death)"
+          ],
+          "focusVerse": "31:22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His judgment on sin and ask for purification in your life.",
+          "tips": [
+            "Thank God for His holiness and for judging sin in the lives of His people",
+            "Ask for the courage to purify your life from sin and impurity",
+            "Pray that God will protect you when you follow His commands"
+          ],
+          "focusVerse": "31:22"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 32,
+      "chapterTitle": "Reuben and Gad Settle East of Jordan",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 32 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 33,
+      "chapterTitle": "Stages of the Journey",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 33 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 34,
+      "chapterTitle": "Boundaries of Canaan",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 34:1-37 aloud, focusing on the precise descriptions of the borders and the roles of Eleazar and Joshua.",
+          "tips": [
+            "Notice the repetition of 'from ... to ...' in the border descriptions (e.g., 'from the Salt Sea to the Brook of Egypt')",
+            "Pay attention to the phrase 'the land of Canaan' as the inheritance",
+            "Note the emotional tone of certainty in God's word"
+          ],
+          "focusVerse": "34:1-37"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (Eleazar and Joshua), WHAT (defining the boundaries of the land of Canaan), WHERE (the four borders), and WHY (to ensure the tribes inherit the land without dispute).",
+          "tips": [
+            "Eleazar (priest) and Joshua (military leader) are assigned to supervise the land division",
+            "The southern border runs from the Salt Sea to the Brook of Egypt",
+            "The eastern border follows the Jordan River"
+          ],
+          "focusVerse": "34:1-37"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the specific border descriptions (e.g., southern border from Salt Sea to Brook of Egypt), the eastern border following the Jordan, or the role of a leader from each tribe?",
+          "tips": [
+            "The southern border from the Salt Sea to the Brook of Egypt is a clear, measurable boundary that avoids ambiguity",
+            "The eastern border being the Jordan River provides a natural and easily identifiable boundary for the tribes",
+            "The role of a leader from each tribe in the land division shows God's care for the unity of the tribes"
+          ],
+          "focusVerse": "34:1-37"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about God's promise and the inheritance of the land?",
+          "tips": [
+            "Moses was ensuring that the Israelites had clear, God-defined boundaries to prevent conflicts and to honor God's promise of the land as inheritance",
+            "This passage emphasizes that the land is God's gift and not the result of human effort",
+            "The boundaries are a sign of God's specific covenant and His provision for His people"
+          ],
+          "focusVerse": "34:1-37"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The specific geographic terms, the historical context of the land, or the theological implications of God defining the borders?",
+          "tips": [
+            "The term 'Brook of Egypt' might be confusing because it's not a well-known river; in this context, it likely refers to the Jordan River",
+            "The northern border from the sea to Mount Hor to Hamath (a city in Syria) requires understanding the historical geography of the time",
+            "The concept that the land is defined by God's word (not by human negotiation) might be challenging for modern readers who think of land as a resource to be divided by human will"
+          ],
+          "focusVerse": "34:1-37"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of God's specific boundaries (for your life or community) this week?",
+          "tips": [
+            "Identify a specific area in your life or community that needs clear boundaries (e.g., time, money, relationships) and pray for God's guidance on how to define them",
+            "Ask God to help you trust that He has defined the boundaries of your inheritance (your life) as He has for the Israelites",
+            "Choose one tribe (from the passage) and think about how God's specific boundaries for that tribe can inspire your own community"
+          ],
+          "focusVerse": "34:1-37"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His specific boundaries and inheritance. Ask for the courage to live within the boundaries He has defined for you.",
+          "tips": [
+            "Thank God for the land of Canaan as a promise that He has defined for His people",
+            "Pray for the ability to trust God's boundaries in your life and community",
+            "Ask God to help you avoid the chaos of trying to define your own boundaries when He has already defined them"
+          ],
+          "focusVerse": "34:1-37"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 35,
+      "chapterTitle": "Cities for Levites and Cities of Refuge",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Numbers 35:1-34 aloud, paying attention to the list of cities for the Levites in verses 1-5 and the cities of refuge in verses 6-12.",
+          "tips": [
+            "Notice the repetition of 'city' and 'city of refuge' in the list",
+            "Pay attention to the phrase 'the manslayer' (v. 22) and the requirement for the killer to stay until the high priest dies (v. 22)",
+            "The phrase 'bloodshed pollutes the land' (v. 33) is a key concept"
+          ],
+          "focusVerse": "35:1-34"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the Levites and the Israelites) is involved, WHAT (the allocation of 48 cities for Levites and 6 cities of refuge), WHERE (in the land of Israel), and WHY (to provide for the Levites and give a place of refuge for the manslayer).",
+          "tips": [
+            "The Levites receive cities from the other tribes (vv. 1-5)",
+            "The cities of refuge are set up for the manslayer who kills accidentally (vv. 6-12)",
+            "The killer must stay until the death of the high priest to be released (vv. 22-29)"
+          ],
+          "focusVerse": "35:1-34"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the list of cities of refuge (vv. 6-12), the requirement that the killer stays until the high priest dies (v. 22), or the phrase 'bloodshed pollutes the land' (v. 33)?",
+          "tips": [
+            "The cities of refuge are a practical solution to the problem of bloodshed without the need for immediate vengeance",
+            "The requirement that the killer stays until the high priest dies shows the seriousness of the matter and the need for the community to be restored",
+            "The phrase 'bloodshed pollutes the land' (v. 33) emphasizes the sacredness of the land and the consequences of violence"
+          ],
+          "focusVerse": "35:1-34"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Moses trying to communicate to the Israelites about the need for justice and order in the land, and how the cities of refuge provide a way for the community to avoid bloodshed?",
+          "tips": [
+            "The cities of refuge are a way to prevent the cycle of vengeance and maintain peace",
+            "The high priest's death is the condition for release because the high priest represents the community's authority and the need for a new leader to take over",
+            "This law reflects God's desire for the land to be free from bloodshed and the polluting effect of murder"
+          ],
+          "focusVerse": "35:1-34"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The difference between murder and manslaughter, the role of the high priest in releasing the killer, and the concept of bloodshed polluting the land?",
+          "tips": [
+            "In Hebrew, 'manslayer' (mishpat) refers to someone who kills unintentionally, while murder (mavet) is intentional",
+            "The high priest's death is the condition for release because the high priest represents the community's authority and the need for a new leader to take over",
+            "Bloodshed pollutes the land because the land is the dwelling place of God (Exodus 20:24)"
+          ],
+          "focusVerse": "35:1-34"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you be a 'city of refuge' for someone else in your life this week, especially when they are in a situation of accidental harm?",
+          "tips": [
+            "Think about a situation where someone has done something unintentionally harmful and you can help them without vengeance",
+            "Like the cities of refuge, be a place of safety and temporary refuge when someone is in crisis",
+            "Practice the principle of 'bloodshed pollutes the land' by avoiding actions that cause harm to others"
+          ],
+          "focusVerse": "35:22"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for providing a place of refuge for us in Christ. Ask for the courage to be a refuge for others when they are in need.",
+          "tips": [
+            "Thank God for Christ as the ultimate city of refuge (1 John 2:28)",
+            "Pray for the strength to forgive unintentional harm and not let bloodshed pollute our relationships",
+            "Ask God to help us be the 'high priest' for others by mediating peace"
+          ],
+          "focusVerse": "35:33"
+        }
+      ]
+    },
+    {
+      "bookId": "numbers",
+      "bookName": "Numbers",
+      "chapter": 36,
+      "chapterTitle": "Inheritance for Zelophehad's Daughters",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Numbers 36 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    }
+  ]
+}

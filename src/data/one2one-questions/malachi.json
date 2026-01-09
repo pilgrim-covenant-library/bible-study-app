@@ -1,0 +1,332 @@
+{
+  "bookId": "malachi",
+  "bookName": "Malachi",
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "bookId": "malachi",
+      "bookName": "Malachi",
+      "chapter": 1,
+      "chapterTitle": "The LORD's Love for Israel and Rebuke of the Priests",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Take turns reading Malachi 1 aloud together.",
+          "tips": [
+            "Read slowly and clearly",
+            "Pause if something strikes you"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, summarize what this passage is about.",
+          "tips": [
+            "Keep it brief",
+            "Capture the main flow"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What stood out to you the most? What's the 'best bit'?",
+          "tips": [
+            "Share what personally resonated",
+            "Listen to your partner"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What is the main point or central message of this passage?",
+          "tips": [
+            "Think about the author's intent",
+            "Look for the big idea"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What difficulties or questions do you have about this passage?",
+          "tips": [
+            "It's okay not to understand everything",
+            "Share honestly"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "What will you do about it? How will you apply this to your life?",
+          "tips": [
+            "Be specific and practical",
+            "Think about this week"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together about what you've learned and your applications.",
+          "tips": [
+            "Thank God for what you learned",
+            "Pray for each other"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "malachi",
+      "bookName": "Malachi",
+      "chapter": 2,
+      "chapterTitle": "Warning to the Priests and Faithlessness Condemned",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Malachi 2:1-13 aloud, paying attention to the repetition of 'if you will not' in verses 1-2 and the emotional tone of weeping and groaning in verse 3.",
+          "tips": [
+            "Notice the repeated phrase 'if you will not' in verses 1-2, showing the priests' refusal to obey",
+            "Pay attention to the emotional tone of weeping and groaning in verse 3, indicating the priests' distress over the altar",
+            "The term 'wife of your youth' (verse 4) is a specific reference to the covenant marriage that the priests have broken"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO (the priests) does WHAT (corrupts the covenant of Levi, causes others to stumble), WHERE (post-exilic Judah), and WHY (because they have turned away from the LORD and are faithless to their wives).",
+          "tips": [
+            "Include the priests' corruption of the covenant of Levi",
+            "Note the priests' weeping and groaning over the altar",
+            "Mention the breaking of the covenant with their wives (the wife of their youth)"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the accusation of corrupting the covenant of Levi (verse 2), the weeping and groaning over the altar (verse 3), or the call to guard the wife of your youth (verses 4-5).",
+          "tips": [
+            "The accusation of corrupting the covenant of Levi shows the depth of the priests' failure",
+            "The weeping and groaning illustrates the priests' sorrow over their own actions and the consequences",
+            "The call to guard the wife of your youth emphasizes the personal covenant that the priests broke"
+          ],
+          "focusVerse": "2:2-5"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Malachi trying to communicate to post-exilic Judah through this passage?",
+          "tips": [
+            "Malachi is calling the priests to restore their covenant faithfulness with the LORD and with their wives",
+            "The priests' corruption of the covenant of Levi threatens the entire community because the priesthood is central to the community's worship",
+            "This passage shows that true priesthood requires both external obedience and internal integrity"
+          ],
+          "focusVerse": "2:1-13"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "Identify 2-3 confusing elements in this passage and clarify them.",
+          "tips": [
+            "'Covenant of Levi' refers to the special relationship God established with the Levites to serve in the temple",
+            "'Wife of your youth' symbolizes the covenant marriage that the priest entered into when he was ordained, not a current marriage",
+            "The weeping and groaning in verse 3 shows the priests' internal conflict and guilt over the altar being defiled"
+          ],
+          "focusVerse": "2:2-5"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply this passage to your life this week?",
+          "tips": [
+            "This week, reflect on a relationship where you have been 'faithless' to a covenant (like a marriage covenant) and seek to repair it",
+            "Practice 'guarding' your spiritual covenant by spending time with God and your spouse",
+            "Ask God to help you avoid the corruption of the covenant by being faithful to Him and your spouse"
+          ],
+          "focusVerse": "2:5"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray about the warning to the priests and the call to covenant faithfulness.",
+          "tips": [
+            "Thank God that He is faithful and will not abandon His people",
+            "Pray for the strength to be faithful in your marriage covenant",
+            "Ask God to help you avoid the corruption of the covenant by being faithful to Him and your spouse"
+          ],
+          "focusVerse": "2:5"
+        }
+      ]
+    },
+    {
+      "bookId": "malachi",
+      "bookName": "Malachi",
+      "chapter": 3,
+      "chapterTitle": "The Messenger of the Covenant",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Malachi 3:1-10 aloud, paying attention to the contrast between the messenger preparing the way and the refiner's fire.",
+          "tips": [
+            "Notice the phrase 'the messenger of the covenant' appears twice (v.1 and v.2) and is the one who will prepare the way",
+            "Pay attention to the repeated phrase 'he will purify the sons of Levi' (v.3) which emphasizes the need for purification",
+            "The phrase 'I do not change' (v.6) is a key declaration of God's unchanging character"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO God sends to prepare the way, WHAT God will do, WHERE this happens (the temple), and WHY (to purify His people and restore relationship).",
+          "tips": [
+            "Include the messenger who prepares the way (John the Baptist) as the one who comes before Christ",
+            "Note that the purification of the sons of Levi is a sign of God's work on the priesthood",
+            "The context of post-exilic Judah: after the exile, the people have been unfaithful in tithes"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the messenger preparing the way (v.1), the refiner's fire (v.2-3), or the unchanging character of God (v.6)?",
+          "tips": [
+            "The phrase 'I do not change' (v.6) is a powerful declaration that reassures the people of God's constancy",
+            "The refiner's fire metaphor (v.2-3) is vivid and shows that God's purification is both intense and necessary",
+            "The call to bring the full tithe (v.8-10) is a practical application that the people had neglected"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Malachi trying to communicate to post-exilic Judah through this passage?",
+          "tips": [
+            "Malachi is warning the post-exilic Judah that their unfaithfulness in tithes and idolatry has led to a need for purification",
+            "The messenger (John the Baptist) is the one who will prepare the way for Christ, who is the refiner's fire",
+            "God's unchanging character (v.6) is the foundation for hope and restoration"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The identity of the messenger, the refiner's fire, or the concept of 'robbing God' in tithes?",
+          "tips": [
+            "The 'messenger of the covenant' is a reference to John the Baptist, but in the post-exilic context, it was a new message for the people who had returned from exile",
+            "The refiner's fire is a metaphor for purification that is both destructive and transformative, not to be taken literally as a fire that burns away all",
+            "The phrase 'you are robbing me' (v.8) refers to the people not bringing the full tithe, which shows their spiritual neglect"
+          ],
+          "focusVerse": "3:1-10"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you bring the full tithe this week to honor God's covenant and experience His blessing?",
+          "tips": [
+            "Start by calculating your tithes and contributions for the week",
+            "Bring the full tithe to the local church or to God's storehouse (as in the passage) to see the blessing",
+            "Ask God to help you in the area where you are not giving fully"
+          ],
+          "focusVerse": "3:8-10"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for His unchanging character and ask for the courage to bring the full tithe.",
+          "tips": [
+            "Thank God that He does not change, so His promises are reliable",
+            "Pray for the courage to give the full tithe without fear",
+            "Ask God to open the windows of heaven for you with His blessing"
+          ],
+          "focusVerse": "3:6"
+        }
+      ]
+    },
+    {
+      "bookId": "malachi",
+      "bookName": "Malachi",
+      "chapter": 4,
+      "chapterTitle": "The Day of the LORD",
+      "questions": [
+        {
+          "id": 1,
+          "title": "Read Aloud",
+          "instruction": "Read Malachi 4:1-6 aloud, paying attention to the contrast between the burning day of judgment and the healing of the righteous.",
+          "tips": [
+            "Notice the repetition of 'the day of the LORD' (v.1, 5)",
+            "Pay attention to the phrase 'sun of righteousness' (v.2) which contrasts with the 'burning like an oven' (v.1)"
+          ],
+          "focusVerse": "4:1-6"
+        },
+        {
+          "id": 2,
+          "title": "Summary",
+          "instruction": "In your own words, describe WHO is affected, WHAT happens, WHERE it occurs, and WHY God is doing this for post-exilic Judah.",
+          "tips": [
+            "Include the judgment on the arrogant and evildoers (v.1-2)",
+            "Note the restoration for those who fear God (v.2-3)",
+            "Mention the coming of Elijah (v.5) as a sign of the Messiah"
+          ],
+          "focusVerse": "4:1-6"
+        },
+        {
+          "id": 3,
+          "title": "Best Bit",
+          "instruction": "What part stood out most? Consider: the burning day (v.1), the sun of righteousness (v.2), or Elijah's coming (v.5)?",
+          "tips": [
+            "The image of the 'sun of righteousness' rising with healing in its wings is a powerful symbol of hope and restoration",
+            "The contrast between the destruction of the wicked and the thriving of the righteous is profound",
+            "Elijah's role as a forerunner of the Messiah (John the Baptist) ties this prophecy to Christ"
+          ],
+          "focusVerse": "4:1-6"
+        },
+        {
+          "id": 4,
+          "title": "Main Point",
+          "instruction": "What was Malachi trying to communicate to post-exilic Judah about the coming day of the LORD?",
+          "tips": [
+            "Malachi warns of God's judgment on the wicked who have not repented",
+            "He emphasizes hope for restoration for the faithful",
+            "The coming of Elijah (v.5) is a sign that the Old Testament ends with the coming of Christ"
+          ],
+          "focusVerse": "4:1-6"
+        },
+        {
+          "id": 5,
+          "title": "Difficulties",
+          "instruction": "What parts are challenging? The nature of 'the day of the LORD', the role of Elijah, or the concept of turning hearts?",
+          "tips": [
+            "'The day of the LORD' in Hebrew (yom ha-Adonai) refers to a specific day of judgment, not a generic event",
+            "Elijah is the forerunner of the Messiah (John the Baptist) who comes before the Lord (Christ), which is why he is sent now",
+            "The turning of hearts (v.6) is about restoring family and community relationships after the exile"
+          ],
+          "focusVerse": "4:1-6"
+        },
+        {
+          "id": 6,
+          "title": "Application",
+          "instruction": "How can you apply the theme of the sun of righteousness (healing in its wings) this week?",
+          "tips": [
+            "Practice being a healer in your community by showing compassion to those who are hurting",
+            "Spend time in prayer to seek God's healing for your own life and for others",
+            "Share the hope of Christ with someone who is going through hardship"
+          ],
+          "focusVerse": "4:2"
+        },
+        {
+          "id": 7,
+          "title": "Prayer",
+          "instruction": "Pray together: Thank God for the hope of the sun of righteousness and ask for the strength to tread down the wicked.",
+          "tips": [
+            "Thank God for the healing power of Christ that comes through the sun of righteousness",
+            "Pray for courage to be like the righteous who tread down the wicked",
+            "Ask God to send a forerunner (like Elijah) to bring repentance and restoration in your life"
+          ],
+          "focusVerse": "4:2"
+        }
+      ]
+    }
+  ]
+}
